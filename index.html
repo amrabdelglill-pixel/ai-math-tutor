@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Math Tutor</title>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; }
+      textarea { width: 100%; height: 90px; padding: 10px; }
+      button { padding: 10px 14px; margin-top: 10px; cursor: pointer; }
+      pre { background: #f6f6f6; padding: 12px; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <h2>AI Math Tutor</h2>
+    <p>Ask a math question:</p>
+    <textarea id="msg" placeholder="e.g., What is 12 × 8? Explain step by step."></textarea>
+    <br />
+    <button id="send">Ask</button>
+    <p><strong>Answer:</strong></p>
+    <pre id="out"></pre>
+
+    <script>
+      const btn = document.getElementById("send");
+      const out = document.getElementById("out");
+      const msg = document.getElementById("msg");
+
+      btn.onclick = async () => {
+        out.textContent = "Thinking...";
+        try {
+          const r = await fetch("/api/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: msg.value })
+          });
+          const data = await r.json();
+          out.textContent = data.reply || JSON.stringify(data, null, 2);
+        } catch (e) {
+          out.textContent = "Error: " + e;
+        }
+      };
+    </script>
+  </body>
+</html>
