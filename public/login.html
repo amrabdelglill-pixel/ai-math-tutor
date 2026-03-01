@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathBuddy - Login</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-card card">
+      <div class="text-center">
+        <a href="/" class="nav-brand" style="font-size:24px;">MathBuddy</a>
+        <h1 class="mt-4" id="auth-title">Welcome back</h1>
+        <p id="auth-subtitle">Sign in to manage your child's learning</p>
+      </div>
+
+      <div class="auth-tabs">
+        <div class="auth-tab active" onclick="switchTab('login')">Sign In</div>
+        <div class="auth-tab" onclick="switchTab('signup')">Sign Up</div>
+      </div>
+
+      <!-- Login Form -->
+      <form id="login-form" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" placeholder="Your password" required>
+        </div>
+        <div id="login-error" class="form-error"></div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;" id="login-btn">Sign In</button>
+      </form>
+
+      <!-- Signup Form -->
+      <form id="signup-form" style="display:none;" onsubmit="handleSignup(event)">
+        <div class="form-group">
+          <label for="signup-name">Full Name</label>
+          <input type="text" id="signup-name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-email">Email</label>
+          <input type="email" id="signup-email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-password">Password</label>
+          <input type="password" id="signup-password" placeholder="Min 6 characters" minlength="6" required>
+        </div>
+        <div id="signup-error" class="form-error"></div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;" id="signup-btn">Create Account</button>
+        <p class="text-center mt-2" style="font-size:13px; color:var(--gray-500);">You'll get 10 free credits to start</p>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/supabase-config.js"></script>
+  <script>
+    // Check if already logged in
+    (async () => {
+      const session = await getSession();
+      if (session) window.location.href = '/app';
+    })();
+
+    function switchTab(tab) {
+      document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
+      if (tab === 'login') {
+        document.querySelectorAll('.auth-tab')[0].classList.add('active');
+        document.getElementById('login-form').style.display = 'block';
+        document.getElementById('signup-form').style.display = 'none';
+        document.getElementById('auth-title').textContent = 'Welcome back';
+        document.getElementById('auth-subtitle').textContent = "Sign in to manage your child's learning";
+      } else {
+        document.querySelectorAll('.auth-tab')[1].classList.add('active');
+        document.getElementById('login-form').style.display = 'none';
+        document.getElementById('signup-form').style.display = 'block';
+        document.getElementById('auth-title').textContent = 'Create account';
+        document.getElementById('auth-subtitle').textContent = 'Start with 10 free credits. No card required.';
+      }
+    }
+
+    async function handleLogin(e) {
+      e.preventDefault();
+      const btn = document.getElementById('login-btn');
+      const errorEl = document.getElementById('login-error');
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
+      errorEl.style.display = 'none';
+
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email: document.getElementById('login-email').value,
+        password: document.getElementById('login-password').value,
+      });
+
+      if (error) {
+        errorEl.textContent = error.message;
+        errorEl.style.display = 'block';
+        btn.disabled = false; btn.textContent = 'Sign In';
+      } else {
+        window.location.href = '/app';
+      }
+    }
+
+    async function handleSignup(e) {
+      e.preventDefault();
+      const btn = document.getElementById('signup-btn');
+      const errorEl = document.getElementById('signup-error');
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
+      errorEl.style.display = 'none';
+
+      const { data, error } = await supabase.auth.signUp({
+        email: document.getElementById('signup-email').value,
+        password: document.getElementById('signup-password').value,
+        options: {
+          data: { full_name: document.getElementById('signup-name').value }
+        }
+      });
+
+      if (error) {
+        errorEl.textContent = error.message;
+        errorEl.style.display = 'block';
+        btn.disabled = false; btn.textContent = 'Create Account';
+      } else {
+        window.location.href = '/app';
+      }
+    }
+  </script>
+</body>
+</html>
