@@ -1,1 +1,1 @@
-# ai-math-tutor
+# AI Math Tutor
