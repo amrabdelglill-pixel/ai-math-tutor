@@ -3,11 +3,11 @@ const SUPABASE_URL = 'https://gstjvjynkdvqncjyybwm.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzdGp2anlua2R2cW5janl5YndtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIzNDI1MjQsImV4cCI6MjA4NzkxODUyNH0.oJUw3l8fI-zqTB2A1S08rtAKrnmGWtZt5e9-4xH2Kx8';
 
 // Initialize Supabase client
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // Auth helper functions
 async function getSession() {
-  const { data: { session } } = await supabase.auth.getSession();
+  const { data: { session } } = await supabaseClient.auth.auth.getSession();
   return session;
 }
 
@@ -35,7 +35,7 @@ async function apiCall(endpoint, options = {}) {
 
 // Auth state listener — redirect if not logged in
 function requireAuth() {
-  supabase.auth.onAuthStateChange((event, session) => {
+  supabaseClient.auth.auth.onAuthStateChange((event, session) => {
     if (!session && window.location.pathname !== '/login' && window.location.pathname !== '/') {
       window.location.href = '/login';
     }
