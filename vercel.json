@@ -9,11 +9,15 @@
     { "src": "/sw\\.js", "dest": "/public/sw.js", "headers": { "Service-Worker-Allowed": "/", "Cache-Control": "no-cache" } },
     { "src": "/manifest\\.json", "dest": "/public/manifest.json" },
     { "src": "/icons/(.*)", "dest": "/public/icons/$1" },
-    { "src": "/(.*\\.(css|js|png|svg|ico|webp|json))", "dest": "/public/$1" },
+    { "src": "/(.*\\.(css|js|png|svg|ico|webp|json|html))", "dest": "/public/$1" },
     { "src": "/login", "dest": "/public/login.html" },
     { "src": "/child-login", "dest": "/public/child-login.html" },
     { "src": "/app", "dest": "/public/app.html" },
     { "src": "/dashboard", "dest": "/public/dashboard.html" },
+    { "src": "/privacy", "dest": "/public/privacy.html" },
+    { "src": "/terms", "dest": "/public/terms.html" },
+    { "src": "/refund", "dest": "/public/refund.html" },
+    { "src": "/gdpr", "dest": "/public/gdpr.html" },
     { "src": "/", "dest": "/public/index.html" }
   ],
   "functions": {
