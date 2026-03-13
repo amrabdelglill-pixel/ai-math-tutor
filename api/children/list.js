@@ -23,13 +23,16 @@ export default async function handler(req, res) {
   }
 
   if (req.method === 'POST') {
-    const { name, grade, preferred_language } = req.body;
+    const { name, grade, preferred_language, phone } = req.body;
     if (!name || !grade) return res.status(400).json({ error: 'Name and grade are required' });
     if (grade < 1 || grade > 9) return res.status(400).json({ error: 'Grade must be 1-9' });
 
+    const insertData = { parent_id: user.id, name, grade, preferred_language: preferred_language || 'en' };
+    if (phone) insertData.phone = phone;
+
     const { data, error } = await supabase
       .from('children')
-      .insert({ parent_id: user.id, name, grade, preferred_language: preferred_language || 'en' })
+      .insert(insertData)
       .select()
       .single();
 
