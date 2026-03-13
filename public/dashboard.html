@@ -46,6 +46,7 @@
       <div class="card stat-card">
         <div class="stat-value" id="stat-plan">Free</div>
         <div class="stat-label">Current Plan</div>
+        <div id="renewal-info" style="font-size:12px; color:var(--gray-500); margin-top:6px;"></div>
       </div>
     </div>
 
@@ -147,6 +148,19 @@
         if (creditData.subscription) {
           const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
           document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
+
+          // Show renewal / validity date
+          if (creditData.subscription.current_period_end) {
+            const renewDate = new Date(creditData.subscription.current_period_end);
+            const now = new Date();
+            const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
+            const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+            let color = 'var(--success)';
+            if (daysLeft <= 7) color = 'var(--danger)';
+            else if (daysLeft <= 14) color = 'var(--warning)';
+            document.getElementById('renewal-info').innerHTML =
+              `Renews: <strong style="color:${color};">${dateStr}</strong> (${daysLeft}d left)`;
+          }
         }
 
         // Credit history
@@ -170,13 +184,35 @@
       if (childData && childData.children) {
         document.getElementById('stat-children').textContent = childData.children.length;
 
+        // Get per-child credit consumption from sessions
+        let childUsage = {};
         if (childData.children.length > 0) {
-          document.getElementById('children-list').innerHTML = childData.children.map(c => `
+          const childIds = childData.children.map(c => c.id);
+          const { data: usageRows } = await window.supabaseClient
+            .from('sessions')
+            .select('child_id, credits_used')
+            .in('child_id', childIds);
+          if (usageRows) {
+            usageRows.forEach(s => {
+              childUsage[s.child_id] = (childUsage[s.child_id] || 0) + (s.credits_used || 0);
+            });
+          }
+        }
+
+        if (childData.children.length > 0) {
+          document.getElementById('children-list').innerHTML = childData.children.map(c => {
+            const used = childUsage[c.id] || 0;
+            return `
             <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
                 <div>
                   <strong style="display:block;">${c.name}</strong>
                   <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade}</span>
+                </div>
+                <div style="text-align:right;">
+                  <span style="display:inline-block; background:${used > 0 ? 'var(--primary-light)' : 'var(--gray-100)'}; color:${used > 0 ? 'var(--primary)' : 'var(--gray-500)'}; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">
+                    ${used} credit${used !== 1 ? 's' : ''} used
+                  </span>
                 </div>
               </div>
               ${c.phone ? `
@@ -193,7 +229,7 @@
                 <button class="btn btn-primary" style="font-size:12px; padding:6px 12px; width:100%;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Set Login Credentials</button>
               `}
             </div>
-          `).join('');
+          `}).join('');
         }
       }
 
