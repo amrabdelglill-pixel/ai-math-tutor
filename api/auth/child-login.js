@@ -37,9 +37,9 @@ export default async function handler(req, res) {
     const token = signChildToken({
       child_id: data.child_id,
       parent_id: data.parent_id,
-      child_name: data.child_name,
+      child_name: data.name,
       grade: data.grade,
-      language: data.language,
+      language: data.language || 'en',
       exp: expiresAt
     });
 
@@ -48,9 +48,9 @@ export default async function handler(req, res) {
       token,
       child: {
         id: data.child_id,
-        name: data.child_name,
+        name: data.name,
         grade: data.grade,
-        language: data.language
+        language: data.language || 'en'
       },
       credits: data.credits || 0
     });
