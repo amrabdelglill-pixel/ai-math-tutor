@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathBuddy - Learn</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/app" class="nav-brand">MathBuddy</a>
+      <div class="nav-links">
+        <span class="credit-badge" id="credit-badge">-- credits</span>
+        <span id="child-name-display" style="color: var(--gray-600); font-size: 14px;">--</span>
+        <a href="#" onclick="logout()">Sign Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Chat Screen -->
+  <div class="container" style="padding-top:10px;">
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <span style="font-size:14px; color:var(--gray-500);">Learning:</span>
+        <strong id="active-child-name">--</strong>
+        <span style="font-size:13px; color:var(--gray-500);" id="active-child-grade"></span>
+      </div>
+      <button class="btn btn-secondary" onclick="newSession()" style="font-size:13px;">New Topic</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="chat-container">
+      <div class="chat-messages" id="chat-messages">
+        <div class="chat-bubble assistant">
+          Hi! I'm your math buddy. What are we working on today? Type your question or paste a math problem!
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <textarea id="chat-input" placeholder="Type your math question..." rows="1"
+          onkeydown="if(event.key==='Enter' && !event.shiftKey){event.preventDefault();sendMessage();}"></textarea>
+        <button class="btn btn-primary" onclick="sendMessage()" id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- No Credits Modal -->
+  <div class="modal-overlay" id="credits-modal">
+    <div class="modal">
+      <h2>Credits used up!</h2>
+      <p style="color:var(--gray-500); margin-bottom:20px;">You've used all your credits. Ask your parent to get more so we can keep learning together.</p>
+      <button class="btn btn-primary" onclick="location.href='/child-login'">Go Back</button>
+    </div>
+  </div>
+
+  <script>
+    let currentChild = null;
+    let currentSession = null;
+    let credits = 0;
+    let childToken = null;
+
+    // Decode JWT payload (base64 only, no signature verification on client)
+    function decodeToken(token) {
+      try {
+        const parts = token.split('.');
+        if (parts.length !== 3) return null;
+        const payload = JSON.parse(atob(parts[1]));
+        // Check expiration
+        if (payload.exp && payload.exp < Date.now() / 1000) return null;
+        return payload;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    // Init
+    (async () => {
+      childToken = localStorage.getItem('child_token');
+      if (!childToken) return window.location.href = '/child-login';
+
+      const payload = decodeToken(childToken);
+      if (!payload) return window.location.href = '/child-login';
+
+      currentChild = {
+        id: payload.child_id,
+        name: payload.child_name,
+        grade: payload.grade,
+        language: payload.language
+      };
+
+      document.getElementById('active-child-name').textContent = currentChild.name;
+      document.getElementById('active-child-grade').textContent = `(Year ${currentChild.grade})`;
+      document.getElementById('child-name-display').textContent = currentChild.name;
+
+      // Create session and show chat
+      await createAndStartSession();
+      await loadCredits();
+    })();
+
+    async function apiCall(endpoint, options) {
+      options = options || {};
+      const headers = Object.assign({
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + childToken
+      }, options.headers || {});
+
+      const res = await fetch(endpoint, Object.assign({}, options, { headers }));
+      return res.json();
+    }
+
+    async function loadCredits() {
+      const data = await apiCall('/api/credits/balance');
+      if (data && data.credits !== undefined) {
+        credits = data.credits;
+        updateCreditBadge();
+      }
+    }
+
+    function updateCreditBadge() {
+      const badge = document.getElementById('credit-badge');
+      badge.textContent = `${credits} credits`;
+      badge.className = 'credit-badge';
+      if (credits <= 5) badge.classList.add('low');
+      if (credits <= 0) badge.classList.add('empty');
+    }
+
+    async function createAndStartSession() {
+      const data = await apiCall('/api/sessions/create', {
+        method: 'POST',
+        body: JSON.stringify({ child_id: currentChild.id, topic: 'Math practice' })
+      });
+
+      if (data && data.session) {
+        currentSession = data.session;
+        // Clear initial bubble and show welcome message
+        document.getElementById('chat-messages').innerHTML = `
+          <div class="chat-bubble assistant">
+            Hi ${currentChild.name}! I'm your math buddy. What are we working on today? Type your question or paste a math problem!
+          </div>
+        `;
+      }
+    }
+
+    async function sendMessage() {
+      const input = document.getElementById('chat-input');
+      const message = input.value.trim();
+      if (!message || !currentSession || !currentChild) return;
+
+      // Add user bubble
+      addBubble(message, 'user');
+      input.value = '';
+
+      // Show typing indicator
+      const typingId = addBubble('<span class="spinner"></span> Thinking...', 'assistant');
+
+      const btn = document.getElementById('send-btn');
+      btn.disabled = true;
+
+      const data = await apiCall('/api/chat', {
+        method: 'POST',
+        body: JSON.stringify({
+          message,
+          session_id: currentSession.id,
+          child_id: currentChild.id
+        })
+      });
+
+      btn.disabled = false;
+      removeBubble(typingId);
+
+      if (data && data.response) {
+        addBubble(data.response, 'assistant');
+        if (data.credits_remaining !== undefined) {
+          credits = data.credits_remaining;
+          updateCreditBadge();
+        }
+      } else if (data && data.error === 'No credits remaining') {
+        document.getElementById('credits-modal').classList.add('active');
+      } else {
+        addBubble('Oops, something went wrong. Try again!', 'assistant');
+      }
+
+      // Auto scroll
+      const msgs = document.getElementById('chat-messages');
+      msgs.scrollTop = msgs.scrollHeight;
+    }
+
+    function addBubble(content, role) {
+      const id = 'msg-' + Date.now();
+      const msgs = document.getElementById('chat-messages');
+      const div = document.createElement('div');
+      div.className = `chat-bubble ${role}`;
+      div.id = id;
+      div.innerHTML = content;
+      if (role === 'assistant') {
+        div.innerHTML += '<br><button class="flag-btn" onclick="flagMessage(this)">Flag this response</button>';
+      }
+      msgs.appendChild(div);
+      msgs.scrollTop = msgs.scrollHeight;
+      return id;
+    }
+
+    function removeBubble(id) {
+      const el = document.getElementById(id);
+      if (el) el.remove();
+    }
+
+    function flagMessage(btn) {
+      btn.textContent = 'Flagged for review';
+      btn.style.color = 'var(--danger)';
+      btn.disabled = true;
+    }
+
+    function newSession() {
+      if (currentChild) createAndStartSession();
+    }
+
+    function logout() {
+      localStorage.removeItem('child_token');
+      window.location.href = '/child-login';
+    }
+  </script>
+</body>
+</html>
