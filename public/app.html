@@ -20,6 +20,7 @@
       </a>
       <div class="nav-links">
         <span class="credit-badge" id="credit-badge">-- credits</span>
+            <span id="limit-info" style="font-size:11px; color:#999; margin-left:8px; display:none;"></span>
         <span id="child-name-display" style="color: var(--gray-600); font-size: 14px;">--</span>
         <a href="#" onclick="logout()">Sign Out</a>
       </div>
@@ -43,7 +44,8 @@
 
   <div class="container">
     <div class="chat-container">
-      <div class="chat-messages" id="chat-messages">
+      <div id="limit-blocked" style="display:none; background:#e74c3c; color:white; padding:12px 16px; border-radius:8px; margin:0 16px 8px; text-align:center; font-size:14px;">You have reached your usage limit. Please ask your parent to adjust your limits.</div>
+        <div class="chat-messages" id="chat-messages">
         <div class="chat-bubble assistant">
           Hi! I'm your math buddy. What are we working on today? Type your question or paste a math problem!
         </div>
@@ -116,6 +118,7 @@
       // Create session and show chat
       await createAndStartSession();
       await loadCredits();
+    checkCreditLimits();
     })();
 
     async function apiCall(endpoint, options) {
@@ -163,6 +166,7 @@
     }
 
     async function sendMessage() {
+      if (limitBlocked) { alert("You have reached your usage limit."); return; }
       const input = document.getElementById('chat-input');
       const message = input.value.trim();
       if ((!message && !attachedFile) || !currentSession || !currentChild) return;
@@ -310,6 +314,37 @@
       localStorage.removeItem('child_token');
       window.location.href = '/child-login';
     }
+  
+    let limitBlocked = false;
+    async function checkCreditLimits() {
+      try {
+        const data = await apiCall('/api/children/check-limits');
+        if (!data) return;
+        const infoEl = document.getElementById('limit-info');
+        const blockedEl = document.getElementById('limit-blocked');
+        const inputEl = document.getElementById('chat-input');
+        const sendBtn = document.getElementById('send-btn');
+        if (!data.allowed) {
+          limitBlocked = true;
+          if (blockedEl) { blockedEl.style.display = 'block'; blockedEl.textContent = data.message + '. Please ask your parent to adjust your limits.'; }
+          if (inputEl) { inputEl.disabled = true; inputEl.placeholder = 'Usage limit reached'; }
+          if (sendBtn) sendBtn.disabled = true;
+        } else {
+          limitBlocked = false;
+          if (blockedEl) blockedEl.style.display = 'none';
+          if (inputEl) inputEl.disabled = false;
+          if (sendBtn) sendBtn.disabled = false;
+        }
+        if (data.limits && infoEl) {
+          const parts = [];
+          if (data.limits.daily) parts.push('Today: ' + data.limits.daily.used + '/' + data.limits.daily.limit);
+          if (data.limits.weekly) parts.push('Week: ' + data.limits.weekly.used + '/' + data.limits.weekly.limit);
+          if (data.limits.monthly) parts.push('Month: ' + data.limits.monthly.used + '/' + data.limits.monthly.limit);
+          if (parts.length > 0) { infoEl.textContent = parts.join(' | '); infoEl.style.display = 'inline'; }
+        }
+      } catch(e) {}
+    }
+
   </script>
 </body>
 </html>
