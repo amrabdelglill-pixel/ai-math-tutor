@@ -10,26 +10,27 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   try {
-    const { username, password } = req.body;
-    if (!username || !password) {
-      return res.status(400).json({ error: 'Missing username or password' });
+    const { parent_email, username, password } = req.body;
+    if (!parent_email || !username || !password) {
+      return res.status(400).json({ error: 'Missing parent email, username, or password' });
     }
 
     const supabase = createServerClient();
 
-    // Call the database function to verify child credentials
+    // Call the database function to verify child credentials (scoped by parent email)
     const { data, error } = await supabase.rpc('verify_child_login', {
+      p_parent_email: parent_email.toLowerCase().trim(),
       p_username: username,
       p_password: password
     });
 
     if (error) {
       console.error('verify_child_login error:', error);
-      return res.status(401).json({ error: 'Invalid username or password' });
+      return res.status(401).json({ error: 'Invalid credentials' });
     }
 
     if (!data || !data.child_id) {
-      return res.status(401).json({ error: 'Invalid username or password' });
+      return res.status(401).json({ error: 'Invalid credentials' });
     }
 
     // Generate JWT token with 24 hour expiration
