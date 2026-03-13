@@ -21,13 +21,16 @@
 
   <!-- Chat Screen -->
   <div class="container" style="padding-top:10px;">
-    <div class="flex items-center justify-between mb-4">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
       <div>
         <span style="font-size:14px; color:var(--gray-500);">Learning:</span>
         <strong id="active-child-name">--</strong>
         <span style="font-size:13px; color:var(--gray-500);" id="active-child-grade"></span>
       </div>
-      <button class="btn btn-secondary" onclick="newSession()" style="font-size:13px;">New Topic</button>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <button class="btn btn-secondary" id="lang-toggle" onclick="toggleLanguage()" style="font-size:12px; padding:4px 10px;">🌐 EN</button>
+        <button class="btn btn-secondary" onclick="newSession()" style="font-size:13px;">New Topic</button>
+      </div>
     </div>
   </div>
 
@@ -38,7 +41,14 @@
           Hi! I'm your math buddy. What are we working on today? Type your question or paste a math problem!
         </div>
       </div>
+      <div id="image-preview" style="display:none; padding:8px 12px; background:#f0f4ff; border-radius:8px; margin:0 12px 8px; align-items:center; gap:8px;">
+        <img id="preview-img" style="max-height:60px; border-radius:4px;" />
+        <span id="preview-name" style="font-size:12px; color:var(--gray-600);"></span>
+        <button onclick="clearAttachment()" style="background:none; border:none; color:var(--danger); cursor:pointer; font-size:16px;">✕</button>
+      </div>
       <div class="chat-input-area">
+        <input type="file" id="file-input" accept="image/*,.pdf" style="display:none;" onchange="handleFileSelect(event)" />
+        <button class="btn btn-secondary" onclick="document.getElementById('file-input').click()" style="padding:8px 10px; font-size:16px;" title="Attach image or file">📎</button>
         <textarea id="chat-input" placeholder="Type your math question..." rows="1"
           onkeydown="if(event.key==='Enter' && !event.shiftKey){event.preventDefault();sendMessage();}"></textarea>
         <button class="btn btn-primary" onclick="sendMessage()" id="send-btn">Send</button>
@@ -60,6 +70,8 @@
     let currentSession = null;
     let credits = 0;
     let childToken = null;
+    let currentLang = 'en';
+    let attachedFile = null;
 
     // Decode JWT payload (base64 only, no signature verification on client)
     function decodeToken(token) {
@@ -91,7 +103,7 @@
       };
 
       document.getElementById('active-child-name').textContent = currentChild.name;
-      document.getElementById('active-child-grade').textContent = `(Year ${currentChild.grade})`;
+      document.getElementById('active-child-grade').textContent = `(Grade ${currentChild.grade})`;
       document.getElementById('child-name-display').textContent = currentChild.name;
 
       // Create session and show chat
@@ -146,10 +158,14 @@
     async function sendMessage() {
       const input = document.getElementById('chat-input');
       const message = input.value.trim();
-      if (!message || !currentSession || !currentChild) return;
+      if ((!message && !attachedFile) || !currentSession || !currentChild) return;
 
-      // Add user bubble
-      addBubble(message, 'user');
+      // Show attachment in bubble if present
+      let displayMsg = message;
+      if (attachedFile) {
+        displayMsg = (attachedFile.type.startsWith('image/') ? '📷 ' : '📎 ') + attachedFile.name + (message ? '\n' + message : '');
+      }
+      addBubble(displayMsg, 'user');
       input.value = '';
 
       // Show typing indicator
@@ -158,13 +174,24 @@
       const btn = document.getElementById('send-btn');
       btn.disabled = true;
 
+      // Build request body
+      let body = {
+        message: message || (attachedFile ? 'I uploaded a file: ' + attachedFile.name : ''),
+        session_id: currentSession.id,
+        child_id: currentChild.id,
+        language: currentLang
+      };
+
+      // If file attached, convert to base64
+      if (attachedFile && attachedFile.type.startsWith('image/')) {
+        const base64 = await fileToBase64(attachedFile);
+        body.image = base64;
+      }
+      clearAttachment();
+
       const data = await apiCall('/api/chat', {
         method: 'POST',
-        body: JSON.stringify({
-          message,
-          session_id: currentSession.id,
-          child_id: currentChild.id
-        })
+        body: JSON.stringify(body)
       });
 
       btn.disabled = false;
@@ -215,6 +242,50 @@
 
     function newSession() {
       if (currentChild) createAndStartSession();
+    }
+
+    function fileToBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'en' ? 'ar' : 'en';
+      const btn = document.getElementById('lang-toggle');
+      btn.textContent = currentLang === 'en' ? '🌐 EN' : '🌐 AR';
+      document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+      document.getElementById('chat-input').placeholder = currentLang === 'ar' ? 'اكتب سؤالك في الرياضيات...' : 'Type your math question...';
+    }
+
+    function handleFileSelect(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      if (file.size > 5 * 1024 * 1024) {
+        alert('File must be under 5MB');
+        return;
+      }
+      attachedFile = file;
+      const preview = document.getElementById('image-preview');
+      const previewImg = document.getElementById('preview-img');
+      const previewName = document.getElementById('preview-name');
+      preview.style.display = 'flex';
+      previewName.textContent = file.name;
+      if (file.type.startsWith('image/')) {
+        previewImg.style.display = 'block';
+        previewImg.src = URL.createObjectURL(file);
+      } else {
+        previewImg.style.display = 'none';
+      }
+    }
+
+    function clearAttachment() {
+      attachedFile = null;
+      document.getElementById('image-preview').style.display = 'none';
+      document.getElementById('file-input').value = '';
     }
 
     function logout() {

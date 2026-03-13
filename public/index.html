@@ -59,7 +59,7 @@
         <div class="feature-card card">
           <div class="icon">🌍</div>
           <h3>English + Arabic</h3>
-          <p>Full support for both languages. Grade-appropriate curriculum from Year 1 to Year 9.</p>
+          <p>Full support for both languages. Grade-appropriate curriculum from Grade 1 to Grade 9.</p>
         </div>
         <div class="feature-card card">
           <div class="icon">📊</div>
@@ -98,33 +98,99 @@
   <section id="pricing" style="padding: 60px 0;">
     <div class="container">
       <h2 class="text-center mb-6" style="font-size:28px;">Simple, credit-based pricing</h2>
-      <div class="pricing-grid">
+      <!-- Monthly / Annual toggle -->
+      <div class="text-center" style="margin-bottom:24px;">
+        <button id="toggle-monthly" onclick="setPricing('monthly')" class="btn btn-primary" style="border-radius:20px 0 0 20px; padding:8px 20px;">Monthly</button>
+        <button id="toggle-annual" onclick="setPricing('annual')" class="btn btn-secondary" style="border-radius:0 20px 20px 0; padding:8px 20px;">Annual <span style="color:var(--success); font-weight:700;">-20%</span></button>
+      </div>
+
+      <div class="pricing-grid" id="pricing-cards">
         <div class="card price-card">
           <h3>Starter</h3>
-          <div class="price">$12<span>/mo</span></div>
+          <div class="price" data-monthly="12" data-annual="9.60">$12<span>/mo</span></div>
           <div class="credits">60 credits</div>
-          <p style="font-size:14px; color:var(--gray-500); margin-bottom:20px;">Perfect for light homework help. ~2 sessions per day.</p>
+          <ul style="font-size:13px; color:var(--gray-500); margin-bottom:20px; text-align:left; list-style:none; padding:0;">
+            <li>✓ 1 child</li>
+            <li>✓ Credits valid 30 days</li>
+            <li>✓ AI Socratic tutoring</li>
+          </ul>
           <a href="/login" class="btn btn-secondary" style="width:100%;">Get Started</a>
         </div>
         <div class="card price-card featured">
           <div class="badge">Most Popular</div>
           <h3>Standard</h3>
-          <div class="price">$18<span>/mo</span></div>
+          <div class="price" data-monthly="18" data-annual="14.40">$18<span>/mo</span></div>
           <div class="credits">120 credits</div>
-          <p style="font-size:14px; color:var(--gray-500); margin-bottom:20px;">Best for daily practice. ~4 sessions per day.</p>
+          <ul style="font-size:13px; color:var(--gray-500); margin-bottom:20px; text-align:left; list-style:none; padding:0;">
+            <li>✓ Up to 2 children</li>
+            <li>✓ Credits valid 30 days</li>
+            <li>✓ AI Socratic tutoring</li>
+          </ul>
           <a href="/login" class="btn btn-primary" style="width:100%;">Get Started</a>
         </div>
         <div class="card price-card">
           <h3>Premium</h3>
-          <div class="price">$30<span>/mo</span></div>
+          <div class="price" data-monthly="30" data-annual="24">$30<span>/mo</span></div>
           <div class="credits">300 credits</div>
-          <p style="font-size:14px; color:var(--gray-500); margin-bottom:20px;">For serious learners. Multiple children, daily use.</p>
+          <ul style="font-size:13px; color:var(--gray-500); margin-bottom:20px; text-align:left; list-style:none; padding:0;">
+            <li>✓ Up to 3 children</li>
+            <li>✓ Credits valid 30 days</li>
+            <li>✓ AI Socratic tutoring</li>
+          </ul>
+          <a href="/login" class="btn btn-secondary" style="width:100%;">Get Started</a>
+        </div>
+        <div class="card price-card">
+          <h3>Family</h3>
+          <div class="price" data-monthly="85" data-annual="68">$85<span>/mo</span></div>
+          <div class="credits">1,000 credits</div>
+          <ul style="font-size:13px; color:var(--gray-500); margin-bottom:20px; text-align:left; list-style:none; padding:0;">
+            <li>✓ Up to 6 children</li>
+            <li>✓ Credits valid 30 days</li>
+            <li>✓ AI Socratic tutoring</li>
+          </ul>
           <a href="/login" class="btn btn-secondary" style="width:100%;">Get Started</a>
         </div>
       </div>
+
+      <!-- Add-ons -->
+      <h3 class="text-center" style="margin-top:36px; margin-bottom:16px; font-size:20px;">Add-ons <span style="font-size:13px; color:var(--gray-500);">(requires active plan)</span></h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; max-width:800px; margin:0 auto;">
+        <div class="card" style="padding:20px; text-align:center;">
+          <h4>Credit Pack</h4>
+          <div style="font-size:24px; font-weight:700; color:var(--primary);">$35</div>
+          <div style="color:var(--gray-500); font-size:14px;">300 credits</div>
+          <div style="color:var(--gray-400); font-size:12px; margin-top:4px;">Valid 30 days from purchase</div>
+        </div>
+        <div class="card" style="padding:20px; text-align:center;">
+          <h4>Credit Tank</h4>
+          <div style="font-size:24px; font-weight:700; color:var(--primary);">$100</div>
+          <div style="color:var(--gray-500); font-size:14px;">1,000 credits</div>
+          <div style="color:var(--gray-400); font-size:12px; margin-top:4px;">Valid 90 days from purchase</div>
+        </div>
+        <div class="card" style="padding:20px; text-align:center;">
+          <h4>Weekly Report</h4>
+          <div style="font-size:24px; font-weight:700; color:var(--primary);">$10<span style="font-size:14px; font-weight:400;">/mo</span></div>
+          <div style="color:var(--gray-500); font-size:14px;">Per child</div>
+          <div style="color:var(--gray-400); font-size:12px; margin-top:4px;">Progress reports for parent & teacher</div>
+        </div>
+      </div>
+
       <p class="text-center mt-4" style="color:var(--gray-500); font-size:14px;">
-        Start free with 10 credits. No credit card required. Extra packs available from $5.
+        Start free with 10 credits. No credit card required.
       </p>
+
+      <script>
+        function setPricing(mode) {
+          document.querySelectorAll('.price[data-monthly]').forEach(el => {
+            const price = mode === 'annual' ? el.dataset.annual : el.dataset.monthly;
+            el.innerHTML = '$' + price + '<span>/' + (mode === 'annual' ? 'mo (billed yearly)' : 'mo') + '</span>';
+          });
+          document.getElementById('toggle-monthly').className = 'btn ' + (mode === 'monthly' ? 'btn-primary' : 'btn-secondary');
+          document.getElementById('toggle-annual').className = 'btn ' + (mode === 'annual' ? 'btn-primary' : 'btn-secondary');
+          document.getElementById('toggle-monthly').style.cssText = 'border-radius:20px 0 0 20px; padding:8px 20px;';
+          document.getElementById('toggle-annual').style.cssText = 'border-radius:0 20px 20px 0; padding:8px 20px;';
+        }
+      </script>
     </div>
   </section>
 

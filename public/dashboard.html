@@ -161,7 +161,7 @@
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
                 <div>
                   <strong style="display:block;">${c.name}</strong>
-                  <span style="font-size:12px; color:var(--gray-500);">Year ${c.grade}</span>
+                  <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade}</span>
                 </div>
               </div>
               ${c.username ? `
@@ -188,7 +188,7 @@
               <div style="flex:1;">
                 <div>
                   <strong>${s.children?.name || 'Unknown'}</strong>
-                  <span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Year ${s.grade}</span>
+                  <span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Grade ${s.grade}</span>
                   ${s.status === 'stuck_loop' ? '<span style="color:var(--warning); font-size:12px; margin-left:8px;">Stuck</span>' : ''}
                   ${s.status === 'flagged' ? '<span style="color:var(--danger); font-size:12px; margin-left:8px;">Flagged</span>' : ''}
                 </div>
