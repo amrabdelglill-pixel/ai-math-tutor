@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MathBuddy - Student Login</title>
+  <title>Zeluu - Student Login</title>
   <link rel="stylesheet" href="/css/styles.css">
   <style>
     .child-login-container {
@@ -97,9 +97,17 @@
 <body>
   <div class="child-login-container">
     <div class="child-login-card">
-      <div class="logo">🧮</div>
-      <h1>MathBuddy</h1>
-      <p>Ready to learn?</p>
+      <div style="display:flex; justify-content:center; margin-bottom:8px;">
+        <div class="zeluu-mascot" style="width:60px; height:60px; border-radius:18px;">
+          <div class="z-antenna" style="top:-10px; width:3px; height:12px;"></div>
+          <div class="z-eyes" style="gap:8px;"><div class="z-eye" style="width:10px; height:13px;"></div><div class="z-eye" style="width:10px; height:13px;"></div></div>
+        </div>
+      </div>
+      <h1 style="display:flex; align-items:center; justify-content:center; gap:8px;">
+        <span>Zeluu</span>
+        <span class="zeluu-beta" style="margin-top:0; font-size:9px;">Beta</span>
+      </h1>
+      <p>Ready to learn? Let's go!</p>
 
       <form id="login-form" onsubmit="handleLogin(event)">
         <div class="form-group">
