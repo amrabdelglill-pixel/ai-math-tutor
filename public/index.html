@@ -3,20 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MathBuddy - AI Math Tutor That Actually Teaches Your Child</title>
+  <title>Zeluu - AI Learning That Actually Teaches Your Child</title>
   <link rel="stylesheet" href="/css/styles.css">
   <style>
-    /* ===== LANDING PAGE OVERRIDES ===== */
+    /* ===== LANDING PAGE STYLES ===== */
 
-    /* Animated gradient background */
     body.landing-page {
       background: linear-gradient(135deg, #EEF2FF 0%, #F0F9FF 50%, #FDF4FF 100%);
       overflow-x: hidden;
     }
 
+    /* ---- NAV ---- */
+    .landing-nav {
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(241,245,249,0.8);
+      padding: 14px 0;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+    }
+    .landing-nav .nav-brand {
+      font-size: 24px;
+      font-weight: 800;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand-icon {
+      width: 38px; height: 38px;
+      background: linear-gradient(135deg, #6366F1, #8B5CF6);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 2px 10px rgba(99,102,241,0.3);
+    }
+    .brand-text {
+      background: linear-gradient(135deg, #6366F1, #EC4899);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .landing-nav .nav-links a {
+      color: #475569;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .landing-nav .nav-links a:hover { color: #6366F1; }
+    .btn-nav-signin {
+      background: linear-gradient(135deg, #6366F1, #8B5CF6);
+      color: white !important;
+      padding: 9px 22px;
+      border-radius: 10px;
+      font-weight: 600 !important;
+      transition: all 0.3s;
+    }
+    .btn-nav-signin:hover {
+      box-shadow: 0 4px 14px rgba(99,102,241,0.3);
+      transform: translateY(-1px);
+    }
+
     /* ---- HERO ---- */
     .hero-section {
-      padding: 100px 0 80px;
+      padding: 120px 0 80px;
       position: relative;
       overflow: hidden;
     }
@@ -49,6 +102,7 @@
       align-items: center;
       position: relative;
       z-index: 1;
+      padding-left: 40px;
     }
     .hero-text { animation: slideInLeft 0.8s ease-out; }
     .hero-badge {
@@ -62,7 +116,6 @@
       font-size: 13px;
       font-weight: 600;
       margin-bottom: 20px;
-      animation: slideInLeft 0.8s ease-out;
     }
     .hero-badge .pulse-dot {
       width: 8px; height: 8px;
@@ -75,9 +128,9 @@
       50% { opacity: 0.5; transform: scale(1.5); }
     }
     .hero-text h1 {
-      font-size: 52px;
+      font-size: 48px;
       font-weight: 800;
-      line-height: 1.1;
+      line-height: 1.15;
       margin-bottom: 20px;
       color: #0F172A;
     }
@@ -88,11 +141,11 @@
       background-clip: text;
     }
     .hero-text .subtitle {
-      font-size: 18px;
+      font-size: 17px;
       color: #64748B;
       line-height: 1.7;
       margin-bottom: 32px;
-      max-width: 500px;
+      max-width: 480px;
     }
     .hero-ctas {
       display: flex;
@@ -139,10 +192,92 @@
     }
     .hero-trust span { display: flex; align-items: center; gap: 6px; }
 
-    /* Chat demo animation */
+    /* ---- MASCOT + CHAT DEMO ---- */
     .hero-visual {
       animation: slideInRight 0.8s ease-out;
+      position: relative;
     }
+    .mascot-float {
+      position: absolute;
+      top: -40px;
+      right: -10px;
+      z-index: 2;
+      animation: mascotBounce 3s ease-in-out infinite;
+    }
+    .mascot-body {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #6366F1, #8B5CF6);
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 30px rgba(99,102,241,0.3);
+      position: relative;
+    }
+    .mascot-eyes {
+      display: flex;
+      gap: 10px;
+    }
+    .mascot-eye {
+      width: 14px; height: 18px;
+      background: white;
+      border-radius: 50%;
+      position: relative;
+      animation: blink 4s infinite;
+    }
+    .mascot-eye::after {
+      content: '';
+      position: absolute;
+      bottom: 3px; left: 50%;
+      transform: translateX(-50%);
+      width: 7px; height: 7px;
+      background: #1E293B;
+      border-radius: 50%;
+    }
+    @keyframes blink {
+      0%, 95%, 100% { transform: scaleY(1); }
+      97% { transform: scaleY(0.1); }
+    }
+    .mascot-antenna {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 3px;
+      height: 14px;
+      background: #A78BFA;
+      border-radius: 2px;
+    }
+    .mascot-antenna::after {
+      content: '';
+      position: absolute;
+      top: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px; height: 10px;
+      background: #10B981;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    .mascot-speech {
+      position: absolute;
+      bottom: -8px;
+      left: -80px;
+      background: white;
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #6366F1;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      white-space: nowrap;
+    }
+    @keyframes mascotBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
     .chat-demo {
       background: white;
       border-radius: 24px;
@@ -167,7 +302,7 @@
     .chat-demo-header .avatar {
       width: 32px; height: 32px;
       background: rgba(255,255,255,0.2);
-      border-radius: 50%;
+      border-radius: 10px;
       display: flex; align-items: center; justify-content: center;
       font-size: 16px;
     }
@@ -233,9 +368,9 @@
       to { opacity: 1; transform: translateX(0); }
     }
 
-    /* ---- PARENT MESSAGE BANNER ---- */
+    /* ---- PARENT BANNER ---- */
     .parent-banner {
-      padding: 50px 0;
+      padding: 60px 0;
       background: white;
       border-top: 1px solid #F1F5F9;
       border-bottom: 1px solid #F1F5F9;
@@ -244,6 +379,7 @@
       text-align: center;
       max-width: 700px;
       margin: 0 auto;
+      padding: 0 24px;
     }
     .parent-banner-inner .emoji-row {
       font-size: 36px;
@@ -265,21 +401,22 @@
       color: #6366F1;
     }
 
-    /* ---- FEATURES SECTION ---- */
+    /* ---- FEATURES ---- */
     .features-section {
       padding: 80px 0;
     }
-    .features-section .section-header {
+    .section-header {
       text-align: center;
       margin-bottom: 48px;
+      padding: 0 24px;
     }
-    .features-section .section-header h2 {
+    .section-header h2 {
       font-size: 34px;
       font-weight: 800;
       color: #0F172A;
       margin-bottom: 12px;
     }
-    .features-section .section-header p {
+    .section-header p {
       font-size: 17px;
       color: #64748B;
     }
@@ -311,9 +448,7 @@
       transform: translateY(-4px);
       box-shadow: 0 12px 40px rgba(0,0,0,0.08);
     }
-    .feature-card-new:hover::before {
-      transform: scaleX(1);
-    }
+    .feature-card-new:hover::before { transform: scaleX(1); }
     .feature-icon-new {
       width: 56px; height: 56px;
       border-radius: 16px;
@@ -327,32 +462,13 @@
     .feature-icon-new.orange { background: #FFF7ED; }
     .feature-icon-new.pink { background: #FDF2F8; }
     .feature-icon-new.cyan { background: #ECFEFF; }
-    .feature-card-new h3 {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 8px;
-      color: #0F172A;
-    }
-    .feature-card-new p {
-      font-size: 14px;
-      line-height: 1.7;
-      color: #64748B;
-    }
+    .feature-card-new h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: #0F172A; }
+    .feature-card-new p { font-size: 14px; line-height: 1.7; color: #64748B; }
 
     /* ---- HOW IT WORKS ---- */
     .how-section {
       padding: 80px 0;
       background: white;
-    }
-    .how-section .section-header {
-      text-align: center;
-      margin-bottom: 48px;
-    }
-    .how-section .section-header h2 {
-      font-size: 34px;
-      font-weight: 800;
-      color: #0F172A;
-      margin-bottom: 12px;
     }
     .how-steps {
       display: grid;
@@ -385,19 +501,10 @@
       margin: 0 auto 16px;
       box-shadow: 0 4px 20px rgba(99,102,241,0.25);
     }
-    .how-step h3 {
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 8px;
-      color: #0F172A;
-    }
-    .how-step p {
-      font-size: 13px;
-      color: #64748B;
-      line-height: 1.6;
-    }
+    .how-step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #0F172A; }
+    .how-step p { font-size: 13px; color: #64748B; line-height: 1.6; }
 
-    /* ---- STATS / SOCIAL PROOF ---- */
+    /* ---- STATS ---- */
     .stats-section {
       padding: 50px 0;
       background: linear-gradient(135deg, #4F46E5, #7C3AED);
@@ -409,39 +516,12 @@
       gap: 24px;
       text-align: center;
     }
-    .stats-row .stat-num {
-      font-size: 42px;
-      font-weight: 800;
-      margin-bottom: 4px;
-    }
-    .stats-row .stat-text {
-      font-size: 14px;
-      opacity: 0.8;
-    }
+    .stats-row .stat-num { font-size: 42px; font-weight: 800; margin-bottom: 4px; }
+    .stats-row .stat-text { font-size: 14px; opacity: 0.8; }
 
     /* ---- PRICING ---- */
-    .pricing-section {
-      padding: 80px 0;
-    }
-    .pricing-section .section-header {
-      text-align: center;
-      margin-bottom: 12px;
-    }
-    .pricing-section .section-header h2 {
-      font-size: 34px;
-      font-weight: 800;
-      color: #0F172A;
-      margin-bottom: 12px;
-    }
-    .pricing-section .section-header p {
-      font-size: 17px;
-      color: #64748B;
-      margin-bottom: 24px;
-    }
-    .toggle-wrap {
-      text-align: center;
-      margin-bottom: 36px;
-    }
+    .pricing-section { padding: 80px 0; }
+    .toggle-wrap { text-align: center; margin-bottom: 36px; }
     .toggle-pill {
       display: inline-flex;
       background: #F1F5F9;
@@ -497,345 +577,101 @@
       box-shadow: 0 8px 30px rgba(99,102,241,0.15);
     }
     .plan-card .pop-badge {
-      position: absolute;
-      top: -14px;
-      left: 50%;
-      transform: translateX(-50%);
+      position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
       background: linear-gradient(135deg, #6366F1, #8B5CF6);
-      color: white;
-      padding: 5px 20px;
-      border-radius: 50px;
-      font-size: 12px;
-      font-weight: 700;
+      color: white; padding: 5px 20px; border-radius: 50px; font-size: 12px; font-weight: 700;
     }
-    .plan-card h3 {
-      font-size: 20px;
-      font-weight: 700;
-      margin-bottom: 4px;
-      color: #0F172A;
+    .plan-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 4px; color: #0F172A; }
+    .plan-card .plan-credits { font-size: 13px; color: #6366F1; font-weight: 600; margin-bottom: 16px; }
+    .plan-card .plan-price { font-size: 42px; font-weight: 800; color: #0F172A; margin-bottom: 4px; }
+    .plan-card .plan-price span { font-size: 16px; font-weight: 400; color: #94A3B8; }
+    .plan-card .plan-period { font-size: 12px; color: #94A3B8; margin-bottom: 20px; }
+    .plan-card ul { list-style: none; padding: 0; margin-bottom: 24px; text-align: left; }
+    .plan-card ul li { padding: 6px 0; font-size: 14px; color: #475569; display: flex; align-items: center; gap: 8px; }
+    .plan-card ul li .check { color: #10B981; font-weight: 700; }
+    .plan-btn {
+      display: block; width: 100%; padding: 12px; border-radius: 12px;
+      font-size: 14px; font-weight: 700; cursor: pointer; border: none;
+      transition: all 0.3s; text-decoration: none; text-align: center;
     }
-    .plan-card .plan-credits {
-      font-size: 13px;
-      color: #6366F1;
-      font-weight: 600;
-      margin-bottom: 16px;
-    }
-    .plan-card .plan-price {
-      font-size: 42px;
-      font-weight: 800;
-      color: #0F172A;
-      margin-bottom: 4px;
-    }
-    .plan-card .plan-price span {
-      font-size: 16px;
-      font-weight: 400;
-      color: #94A3B8;
-    }
-    .plan-card .plan-period {
-      font-size: 12px;
-      color: #94A3B8;
-      margin-bottom: 20px;
-    }
-    .plan-card ul {
-      list-style: none;
-      padding: 0;
-      margin-bottom: 24px;
-      text-align: left;
-    }
-    .plan-card ul li {
-      padding: 6px 0;
-      font-size: 14px;
-      color: #475569;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .plan-card ul li .check {
-      color: #10B981;
-      font-weight: 700;
-    }
-    .plan-card .plan-btn {
-      display: block;
-      width: 100%;
-      padding: 12px;
-      border-radius: 12px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      border: none;
-      transition: all 0.3s;
-      text-decoration: none;
-      text-align: center;
-    }
-    .plan-btn-outline {
-      background: white;
-      color: #6366F1;
-      border: 2px solid #E0E7FF !important;
-    }
-    .plan-btn-outline:hover {
-      background: #EEF2FF;
-    }
+    .plan-btn-outline { background: white; color: #6366F1; border: 2px solid #E0E7FF !important; }
+    .plan-btn-outline:hover { background: #EEF2FF; }
     .plan-btn-filled {
       background: linear-gradient(135deg, #6366F1, #8B5CF6);
-      color: white;
-      box-shadow: 0 4px 14px rgba(99,102,241,0.3);
+      color: white; box-shadow: 0 4px 14px rgba(99,102,241,0.3);
     }
-    .plan-btn-filled:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(99,102,241,0.4);
-    }
+    .plan-btn-filled:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(99,102,241,0.4); }
 
     /* Add-ons */
-    .addons-header {
-      text-align: center;
-      margin-bottom: 24px;
-    }
-    .addons-header h3 {
-      font-size: 22px;
-      font-weight: 700;
-      color: #0F172A;
-    }
-    .addons-header p {
-      font-size: 14px;
-      color: #94A3B8;
-    }
+    .addons-header { text-align: center; margin-bottom: 24px; }
+    .addons-header h3 { font-size: 22px; font-weight: 700; color: #0F172A; }
+    .addons-header p { font-size: 14px; color: #94A3B8; }
     .addons-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      max-width: 800px;
-      margin: 0 auto;
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 20px; max-width: 800px; margin: 0 auto;
     }
     .addon-card {
-      background: white;
-      border-radius: 16px;
-      padding: 24px;
-      text-align: center;
-      border: 1px solid #F1F5F9;
-      transition: all 0.3s;
+      background: white; border-radius: 16px; padding: 24px;
+      text-align: center; border: 1px solid #F1F5F9; transition: all 0.3s;
     }
-    .addon-card:hover {
-      border-color: #E0E7FF;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-    }
-    .addon-card .addon-icon {
-      font-size: 28px;
-      margin-bottom: 12px;
-    }
-    .addon-card h4 {
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-    .addon-card .addon-price {
-      font-size: 28px;
-      font-weight: 800;
-      color: #6366F1;
-    }
-    .addon-card .addon-price span {
-      font-size: 14px;
-      font-weight: 400;
-      color: #94A3B8;
-    }
-    .addon-card .addon-detail {
-      font-size: 13px;
-      color: #64748B;
-      margin-top: 4px;
-    }
-    .addon-card .addon-validity {
-      font-size: 12px;
-      color: #94A3B8;
-      margin-top: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 4px;
-    }
+    .addon-card:hover { border-color: #E0E7FF; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+    .addon-card .addon-icon { font-size: 28px; margin-bottom: 12px; }
+    .addon-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .addon-card .addon-price { font-size: 28px; font-weight: 800; color: #6366F1; }
+    .addon-card .addon-price span { font-size: 14px; font-weight: 400; color: #94A3B8; }
+    .addon-card .addon-detail { font-size: 13px; color: #64748B; margin-top: 4px; }
+    .addon-card .addon-validity { font-size: 12px; color: #94A3B8; margin-top: 6px; display: flex; align-items: center; justify-content: center; gap: 4px; }
 
-    /* ---- FUTURE VISION ---- */
-    .vision-section {
-      padding: 60px 0;
-      background: white;
-    }
-    .vision-inner {
-      text-align: center;
-      max-width: 650px;
-      margin: 0 auto;
-    }
-    .vision-inner h2 {
-      font-size: 28px;
-      font-weight: 800;
-      color: #0F172A;
-      margin-bottom: 14px;
-    }
-    .vision-inner p {
-      font-size: 16px;
-      line-height: 1.7;
-      color: #64748B;
-    }
-    .vision-subjects {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      margin-top: 24px;
-      flex-wrap: wrap;
-    }
+    /* ---- VISION ---- */
+    .vision-section { padding: 60px 0; background: white; }
+    .vision-inner { text-align: center; max-width: 650px; margin: 0 auto; padding: 0 24px; }
+    .vision-inner h2 { font-size: 28px; font-weight: 800; color: #0F172A; margin-bottom: 14px; }
+    .vision-inner p { font-size: 16px; line-height: 1.7; color: #64748B; }
+    .vision-subjects { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
     .vision-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #F1F5F9;
-      padding: 8px 16px;
-      border-radius: 50px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #475569;
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #F1F5F9; padding: 8px 16px; border-radius: 50px;
+      font-size: 14px; font-weight: 600; color: #475569;
     }
-    .vision-chip.active {
-      background: linear-gradient(135deg, #6366F1, #8B5CF6);
-      color: white;
-    }
+    .vision-chip.active { background: linear-gradient(135deg, #6366F1, #8B5CF6); color: white; }
 
-    /* ---- CTA BANNER ---- */
-    .cta-section {
-      padding: 80px 0;
-      text-align: center;
-    }
+    /* ---- CTA ---- */
+    .cta-section { padding: 80px 0; text-align: center; }
     .cta-box {
       background: linear-gradient(135deg, #4F46E5, #7C3AED);
-      border-radius: 24px;
-      padding: 56px 40px;
-      color: white;
-      position: relative;
-      overflow: hidden;
+      border-radius: 24px; padding: 56px 40px; color: white;
+      position: relative; overflow: hidden;
     }
     .cta-box::before {
-      content: '';
-      position: absolute;
-      top: -60px; right: -60px;
-      width: 200px; height: 200px;
-      background: rgba(255,255,255,0.05);
-      border-radius: 50%;
+      content: ''; position: absolute; top: -60px; right: -60px;
+      width: 200px; height: 200px; background: rgba(255,255,255,0.05); border-radius: 50%;
     }
-    .cta-box h2 {
-      font-size: 34px;
-      font-weight: 800;
-      margin-bottom: 14px;
-    }
-    .cta-box p {
-      font-size: 17px;
-      opacity: 0.85;
-      margin-bottom: 28px;
-      max-width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    .cta-box h2 { font-size: 34px; font-weight: 800; margin-bottom: 14px; }
+    .cta-box p { font-size: 17px; opacity: 0.85; margin-bottom: 28px; max-width: 500px; margin-left: auto; margin-right: auto; }
     .btn-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 16px 36px;
-      background: white;
-      color: #4F46E5;
-      border-radius: 14px;
-      font-size: 16px;
-      font-weight: 700;
-      text-decoration: none;
-      transition: all 0.3s;
-      border: none;
-      cursor: pointer;
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 16px 36px; background: white; color: #4F46E5;
+      border-radius: 14px; font-size: 16px; font-weight: 700;
+      text-decoration: none; transition: all 0.3s; border: none; cursor: pointer;
     }
-    .btn-cta:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-    }
+    .btn-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
 
     /* ---- FOOTER ---- */
-    .footer-new {
-      padding: 40px 0;
-      border-top: 1px solid #F1F5F9;
-      text-align: center;
-    }
+    .footer-new { padding: 40px 0; border-top: 1px solid #F1F5F9; text-align: center; }
     .footer-new .footer-brand {
-      font-size: 20px;
-      font-weight: 800;
+      font-size: 22px; font-weight: 800;
       background: linear-gradient(135deg, #6366F1, #EC4899);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
       margin-bottom: 8px;
     }
-    .footer-new p {
-      font-size: 13px;
-      color: #94A3B8;
-    }
-    .footer-links {
-      display: flex;
-      gap: 24px;
-      justify-content: center;
-      margin-top: 12px;
-    }
-    .footer-links a {
-      font-size: 13px;
-      color: #94A3B8;
-      text-decoration: none;
-    }
+    .footer-new p { font-size: 13px; color: #94A3B8; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin-top: 12px; }
+    .footer-links a { font-size: 13px; color: #94A3B8; text-decoration: none; }
     .footer-links a:hover { color: #6366F1; }
 
-    /* ---- NAV overrides for landing ---- */
-    .landing-nav {
-      background: rgba(255,255,255,0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(241,245,249,0.8);
-      padding: 14px 0;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 100;
-    }
-    .landing-nav .nav-brand {
-      font-size: 22px;
-      font-weight: 800;
-      background: linear-gradient(135deg, #6366F1, #EC4899);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-decoration: none;
-    }
-    .landing-nav .nav-links a {
-      color: #475569;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 500;
-      transition: color 0.2s;
-    }
-    .landing-nav .nav-links a:hover { color: #6366F1; }
-    .btn-nav-signin {
-      background: linear-gradient(135deg, #6366F1, #8B5CF6);
-      color: white !important;
-      padding: 9px 22px;
-      border-radius: 10px;
-      font-weight: 600 !important;
-      transition: all 0.3s;
-    }
-    .btn-nav-signin:hover {
-      box-shadow: 0 4px 14px rgba(99,102,241,0.3);
-      transform: translateY(-1px);
-    }
-
-    /* ---- Scroll reveal animation ---- */
-    .reveal {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.6s ease-out;
-    }
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
+    /* ---- SCROLL REVEAL ---- */
+    .reveal { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -843,7 +679,7 @@
 
     /* ---- RESPONSIVE ---- */
     @media (max-width: 900px) {
-      .hero-content { grid-template-columns: 1fr; gap: 40px; }
+      .hero-content { grid-template-columns: 1fr; gap: 40px; padding-left: 20px; }
       .hero-text h1 { font-size: 36px; }
       .hero-visual { order: -1; }
       .feature-grid-new { grid-template-columns: 1fr 1fr; }
@@ -853,6 +689,7 @@
       .stats-row { grid-template-columns: 1fr 1fr; gap: 32px; }
     }
     @media (max-width: 600px) {
+      .hero-content { padding-left: 12px; }
       .feature-grid-new { grid-template-columns: 1fr; }
       .how-steps { grid-template-columns: 1fr; }
       .pricing-grid-new { grid-template-columns: 1fr; }
@@ -868,12 +705,23 @@
   <!-- Nav -->
   <nav class="landing-nav">
     <div class="container nav-inner">
-      <a href="/" class="nav-brand">MathBuddy</a>
+      <a href="/" class="nav-brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <rect x="4" y="6" width="16" height="12" rx="3" fill="white" opacity="0.9"/>
+            <circle cx="9" cy="12" r="2" fill="#6366F1"/>
+            <circle cx="15" cy="12" r="2" fill="#6366F1"/>
+            <rect x="10" y="3" width="4" height="4" rx="2" fill="#10B981"/>
+            <path d="M12 6V7" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="brand-text">Zeluu</span>
+      </a>
       <div class="nav-links">
         <a href="#features">Features</a>
         <a href="#how-it-works">How It Works</a>
         <a href="#pricing">Pricing</a>
-        <a href="/login" class="btn-nav-signin">Sign In</a>
+        <a href="/login.html" class="btn-nav-signin">Sign In</a>
       </div>
     </div>
   </nav>
@@ -885,20 +733,20 @@
         <div class="hero-text">
           <div class="hero-badge">
             <span class="pulse-dot"></span>
-            AI-Powered Learning for Grades 1-9
+            Introducing MathBuddy &mdash; AI Tutor for Grades 1-9
           </div>
           <h1>
             Your child learns math.<br>
             <span class="highlight">Not the answers.</span>
           </h1>
           <p class="subtitle">
-            MathBuddy is an AI tutor that actually teaches your child step by step.
+            Zeluu's MathBuddy is an AI tutor that actually teaches your child step by step.
             No shortcuts, no final answers &mdash; just real understanding.
             Save your time and energy while your child builds confidence in math.
           </p>
           <div class="hero-ctas">
-            <a href="/login" class="btn-hero btn-hero-primary">
-              Sign In / Log In
+            <a href="/login.html" class="btn-hero btn-hero-primary">
+              Sign In / Log In &rarr;
             </a>
             <a href="#how-it-works" class="btn-hero btn-hero-secondary">
               See How It Works
@@ -911,9 +759,27 @@
           </div>
         </div>
         <div class="hero-visual">
+          <!-- Zeluu mascot -->
+          <div class="mascot-float">
+            <div class="mascot-body">
+              <div class="mascot-antenna"></div>
+              <div class="mascot-eyes">
+                <div class="mascot-eye"></div>
+                <div class="mascot-eye"></div>
+              </div>
+            </div>
+            <div class="mascot-speech">Let's learn together!</div>
+          </div>
+          <!-- Chat demo -->
           <div class="chat-demo">
             <div class="chat-demo-header">
-              <div class="avatar">&#129518;</div>
+              <div class="avatar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <rect x="4" y="6" width="16" height="12" rx="3" fill="white" opacity="0.9"/>
+                  <circle cx="9" cy="12" r="1.5" fill="rgba(99,102,241,0.8)"/>
+                  <circle cx="15" cy="12" r="1.5" fill="rgba(99,102,241,0.8)"/>
+                </svg>
+              </div>
               MathBuddy &mdash; Grade 4
             </div>
             <div class="chat-demo-body">
@@ -936,14 +802,14 @@
     </div>
   </section>
 
-  <!-- Parent Message Banner -->
+  <!-- Parent Message -->
   <section class="parent-banner reveal">
     <div class="container">
       <div class="parent-banner-inner">
         <div class="emoji-row">&#128104;&#8205;&#128187; &#128105;&#8205;&#128187; &#128198;</div>
         <h2>Built for busy parents like you</h2>
         <p>
-          You don't need to be a math expert. MathBuddy explains concepts to your child patiently,
+          You don't need to be a math expert. Zeluu's MathBuddy explains concepts to your child patiently,
           step by step, any time of day. <strong>Save hours every week</strong> on homework help
           while your child builds real understanding &mdash; not dependency on you for answers.
         </p>
@@ -955,7 +821,7 @@
   <section id="features" class="features-section">
     <div class="container">
       <div class="section-header reveal">
-        <h2>Why parents trust MathBuddy</h2>
+        <h2>Why parents trust Zeluu</h2>
         <p>Designed with parents in mind, built with children at heart</p>
       </div>
       <div class="feature-grid-new">
@@ -972,7 +838,7 @@
         <div class="feature-card-new reveal">
           <div class="feature-icon-new purple">&#128737;&#65039;</div>
           <h3>Built-in Safety</h3>
-          <p>Content filtering, prompt injection protection, and stuck-loop detection. Your child only gets math help &mdash; nothing else.</p>
+          <p>Content filtering, prompt injection protection, and stuck-loop detection. Your child only gets learning help &mdash; nothing else.</p>
         </div>
         <div class="feature-card-new reveal">
           <div class="feature-icon-new orange">&#128248;</div>
@@ -1064,7 +930,6 @@
       </div>
 
       <div class="pricing-grid-new reveal" id="pricing-cards">
-        <!-- Starter -->
         <div class="plan-card">
           <h3>Starter</h3>
           <div class="plan-credits">60 credits</div>
@@ -1076,9 +941,8 @@
             <li><span class="check">&#10003;</span> Photo support</li>
             <li><span class="check">&#10003;</span> Session history</li>
           </ul>
-          <a href="/login" class="plan-btn plan-btn-outline">Get Started</a>
+          <a href="/login.html" class="plan-btn plan-btn-outline">Get Started</a>
         </div>
-        <!-- Standard -->
         <div class="plan-card popular">
           <div class="pop-badge">Most Popular</div>
           <h3>Standard</h3>
@@ -1091,9 +955,8 @@
             <li><span class="check">&#10003;</span> Photo support</li>
             <li><span class="check">&#10003;</span> Session history</li>
           </ul>
-          <a href="/login" class="plan-btn plan-btn-filled">Get Started</a>
+          <a href="/login.html" class="plan-btn plan-btn-filled">Get Started</a>
         </div>
-        <!-- Premium -->
         <div class="plan-card">
           <h3>Premium</h3>
           <div class="plan-credits">300 credits</div>
@@ -1105,9 +968,8 @@
             <li><span class="check">&#10003;</span> Photo support</li>
             <li><span class="check">&#10003;</span> Weekly reports</li>
           </ul>
-          <a href="/login" class="plan-btn plan-btn-outline">Get Started</a>
+          <a href="/login.html" class="plan-btn plan-btn-outline">Get Started</a>
         </div>
-        <!-- Family -->
         <div class="plan-card">
           <h3>Family</h3>
           <div class="plan-credits">1,000 credits</div>
@@ -1119,7 +981,7 @@
             <li><span class="check">&#10003;</span> Photo support</li>
             <li><span class="check">&#10003;</span> Weekly reports</li>
           </ul>
-          <a href="/login" class="plan-btn plan-btn-outline">Get Started</a>
+          <a href="/login.html" class="plan-btn plan-btn-outline">Get Started</a>
         </div>
       </div>
 
@@ -1154,21 +1016,20 @@
     </div>
   </section>
 
-  <!-- Future Vision -->
+  <!-- Vision -->
   <section class="vision-section reveal">
     <div class="container">
       <div class="vision-inner">
         <h2>Starting with math. Growing with your child.</h2>
         <p>
-          MathBuddy starts with math because it's where most children need support.
-          But our vision is bigger &mdash; soon we'll expand to help your child across all subjects.
+          Zeluu starts with MathBuddy because math is where most children need support.
+          But our vision is bigger &mdash; soon we'll add tools for every subject your child needs.
         </p>
         <div class="vision-subjects">
-          <span class="vision-chip active">&#129518; Math</span>
-          <span class="vision-chip">&#128218; Science</span>
-          <span class="vision-chip">&#128214; English</span>
-          <span class="vision-chip">&#127758; Geography</span>
-          <span class="vision-chip">&#128300; Physics</span>
+          <span class="vision-chip active">&#129518; MathBuddy</span>
+          <span class="vision-chip">&#128218; ScienceBuddy</span>
+          <span class="vision-chip">&#128214; EnglishBuddy</span>
+          <span class="vision-chip">&#127758; More coming...</span>
         </div>
       </div>
     </div>
@@ -1180,7 +1041,7 @@
       <div class="cta-box reveal">
         <h2>Give your child the confidence to say "I get it!"</h2>
         <p>Start with 10 free credits. No credit card needed. See your child learn differently in minutes.</p>
-        <a href="/login" class="btn-cta">
+        <a href="/login.html" class="btn-cta">
           Sign In / Log In &rarr;
         </a>
       </div>
@@ -1190,19 +1051,18 @@
   <!-- Footer -->
   <footer class="footer-new">
     <div class="container">
-      <div class="footer-brand">MathBuddy</div>
+      <div class="footer-brand">Zeluu</div>
       <p>Supervised AI learning for children. Built with care for parents who care.</p>
       <div class="footer-links">
         <a href="#features">Features</a>
         <a href="#pricing">Pricing</a>
-        <a href="/login">Sign In</a>
+        <a href="/login.html">Sign In</a>
       </div>
     </div>
   </footer>
 
   <!-- Scripts -->
   <script>
-    // Pricing toggle
     function setPricing(mode) {
       document.querySelectorAll('.plan-price[data-m]').forEach(el => {
         const price = mode === 'annual' ? el.dataset.a : el.dataset.m;
@@ -1213,15 +1073,12 @@
       document.getElementById('btn-annual').className = mode === 'annual' ? 'active' : '';
     }
 
-    // Scroll reveal animation
+    // Scroll reveal
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
+        if (entry.isIntersecting) entry.target.classList.add('visible');
       });
     }, { threshold: 0.1 });
-
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 </body>

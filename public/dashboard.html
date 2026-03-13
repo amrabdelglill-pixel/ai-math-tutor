@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MathBuddy - Parent Dashboard</title>
+  <title>Zeluu - Parent Dashboard</title>
   <link rel="stylesheet" href="/css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
@@ -11,7 +11,7 @@
   <!-- Nav -->
   <nav class="nav">
     <div class="container nav-inner">
-      <a href="/dashboard" class="nav-brand">MathBuddy</a>
+      <a href="/dashboard.html" class="nav-brand" style="background:linear-gradient(135deg,#6366F1,#EC4899); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">Zeluu</a>
       <div class="nav-links">
         <span class="credit-badge" id="credit-badge">-- credits</span>
         <a href="#" onclick="logout()">Sign Out</a>
@@ -45,9 +45,12 @@
     <div class="grid-2">
       <!-- Your Children -->
       <div class="card">
-        <h3 class="mb-4">Your Children</h3>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h3>Your Children</h3>
+          <button class="btn btn-primary" style="font-size:12px; padding:6px 14px;" onclick="openAddChildModal()">+ Add Child</button>
+        </div>
         <div id="children-list">
-          <p style="color:var(--gray-500); font-size:14px;">No children yet.</p>
+          <p style="color:var(--gray-500); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
         </div>
       </div>
 
@@ -64,21 +67,26 @@
         <h3 class="mb-4">Get More Credits</h3>
         <div class="flex flex-col gap-2">
           <button class="btn btn-secondary" onclick="subscribe('starter')" style="justify-content:space-between;">
-            <span>Starter - 60/mo</span><strong>$12/mo</strong>
+            <span>Starter - 60 credits</span><strong>$12/mo</strong>
           </button>
           <button class="btn btn-primary" onclick="subscribe('standard')" style="justify-content:space-between;">
-            <span>Standard - 120/mo</span><strong>$18/mo</strong>
+            <span>Standard - 120 credits</span><strong>$18/mo</strong>
           </button>
           <button class="btn btn-secondary" onclick="subscribe('premium')" style="justify-content:space-between;">
-            <span>Premium - 300/mo</span><strong>$30/mo</strong>
+            <span>Premium - 300 credits</span><strong>$30/mo</strong>
+          </button>
+          <button class="btn btn-secondary" onclick="subscribe('family')" style="justify-content:space-between;">
+            <span>Family - 1,000 credits</span><strong>$85/mo</strong>
           </button>
         </div>
-        <h3 class="mt-6 mb-4">Or buy a pack</h3>
-        <div class="grid-2">
-          <button class="btn btn-secondary" onclick="buyPack('pack_30')">30 - $5</button>
-          <button class="btn btn-secondary" onclick="buyPack('pack_60')">60 - $10</button>
-          <button class="btn btn-secondary" onclick="buyPack('pack_150')">150 - $20</button>
-          <button class="btn btn-secondary" onclick="buyPack('pack_300')">300 - $25</button>
+        <h3 class="mt-6 mb-4">Add-ons</h3>
+        <div class="flex flex-col gap-2">
+          <button class="btn btn-secondary" onclick="buyPack('credit_pack')" style="justify-content:space-between;">
+            <span>Credit Pack - 300</span><strong>$35</strong>
+          </button>
+          <button class="btn btn-secondary" onclick="buyPack('credit_tank')" style="justify-content:space-between;">
+            <span>Credit Tank - 1,000</span><strong>$100</strong>
+          </button>
         </div>
       </div>
     </div>
@@ -118,7 +126,7 @@
     (async () => {
       requireAuth();
       const session = await getSession();
-      if (!session) return window.location.href = '/login';
+      if (!session) return window.location.href = '/login.html';
       await loadDashboard();
     })();
 
@@ -130,7 +138,7 @@
         document.getElementById('credit-badge').textContent = `${creditData.credits} credits`;
 
         if (creditData.subscription) {
-          const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium' };
+          const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
           document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
         }
 
@@ -164,9 +172,14 @@
                   <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade}</span>
                 </div>
               </div>
+              ${c.phone ? `
+                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:6px; color:var(--gray-500);">
+                  Phone: <strong style="color:var(--gray-700);">${c.phone}</strong>
+                </div>
+              ` : ''}
               ${c.username ? `
-                <div style="font-size:12px; background:white; padding:8px; border-radius:4px; margin-bottom:8px;">
-                  <span style="color:var(--gray-500);">Username: </span><strong>${c.username}</strong>
+                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">
+                  Username: <strong style="color:var(--gray-700);">${c.username}</strong>
                 </div>
                 <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Change Login</button>
               ` : `
@@ -225,54 +238,149 @@
       }
     }
 
-    async function subscribe(planId) {
-      const data = await apiCall('/api/credits/checkout', {
-        method: 'POST',
-        body: JSON.stringify({ type: 'subscription', plan_id: planId })
-      });
-      if (data && data.url) window.location.href = data.url;
-    }
-
-    async function buyPack(packId) {
-      const data = await apiCall('/api/credits/checkout', {
-        method: 'POST',
-        body: JSON.stringify({ type: 'pack', plan_id: packId })
-      });
-      if (data && data.url) window.location.href = data.url;
-    }
-
-    function openSetCredentialsModal(childId, childName) {
-      const modal = document.getElementById('credentials-modal');
+    // ---- ADD CHILD MODAL ----
+    function openAddChildModal() {
+      let modal = document.getElementById('add-child-modal');
       if (!modal) {
-        // Create modal
         const div = document.createElement('div');
-        div.id = 'credentials-modal';
+        div.id = 'add-child-modal';
         div.className = 'modal-overlay';
         div.innerHTML = `
-          <div class="modal" style="max-width:400px;">
-            <h2>Set Login Credentials</h2>
-            <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>${childName}</strong> log in with a username and password.</p>
-            <form onsubmit="submitCredentials(event, '${childId}')">
+          <div class="modal" style="max-width:420px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+              <h2>Add a Child</h2>
+              <button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+            </div>
+            <form onsubmit="submitAddChild(event)">
               <div class="form-group">
-                <label>Username</label>
-                <input type="text" id="cred-username" placeholder="3-20 characters, letters and numbers only" required pattern="[a-zA-Z0-9]{3,20}">
+                <label>Child's Name</label>
+                <input type="text" id="child-name" placeholder="e.g. Ahmed" required>
               </div>
               <div class="form-group">
-                <label>Password</label>
-                <input type="password" id="cred-password" placeholder="At least 4 characters" required minlength="4">
+                <label>Grade (1-9)</label>
+                <select id="child-grade" required>
+                  <option value="">Select grade</option>
+                  <option value="1">Grade 1</option>
+                  <option value="2">Grade 2</option>
+                  <option value="3">Grade 3</option>
+                  <option value="4">Grade 4</option>
+                  <option value="5">Grade 5</option>
+                  <option value="6">Grade 6</option>
+                  <option value="7">Grade 7</option>
+                  <option value="8">Grade 8</option>
+                  <option value="9">Grade 9</option>
+                </select>
               </div>
-              <div id="cred-error" class="form-error"></div>
+              <div class="form-group">
+                <label>Preferred Language</label>
+                <select id="child-lang">
+                  <option value="en">English</option>
+                  <option value="ar">Arabic</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Child's Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+                <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
+              </div>
+              <div id="add-child-error" class="form-error"></div>
               <div style="display:flex; gap:8px;">
-                <button type="submit" class="btn btn-primary" style="flex:1;">Save</button>
-                <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCredentialsModal()">Cancel</button>
+                <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
+                <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
               </div>
             </form>
           </div>
         `;
         document.body.appendChild(div);
       }
+      // Reset form
+      const form = document.querySelector('#add-child-modal form');
+      if (form) form.reset();
+      document.getElementById('add-child-modal').classList.add('active');
+    }
 
-      document.getElementById('credentials-modal').classList.add('active');
+    function closeAddChildModal() {
+      const modal = document.getElementById('add-child-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    async function submitAddChild(e) {
+      e.preventDefault();
+      const btn = document.getElementById('add-child-btn');
+      const errorEl = document.getElementById('add-child-error');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+      errorEl.style.display = 'none';
+
+      const session = await getSession();
+      if (!session) return;
+
+      const name = document.getElementById('child-name').value.trim();
+      const grade = parseInt(document.getElementById('child-grade').value);
+      const lang = document.getElementById('child-lang').value;
+      const phone = document.getElementById('child-phone').value.trim() || null;
+
+      const { data, error } = await window.supabaseClient
+        .from('children')
+        .insert({
+          parent_id: session.user.id,
+          name: name,
+          grade: grade,
+          preferred_language: lang,
+          phone: phone,
+          is_active: true
+        })
+        .select()
+        .single();
+
+      btn.disabled = false;
+      btn.textContent = 'Add Child';
+
+      if (error) {
+        let msg = error.message;
+        if (msg.includes('check_child_limit')) {
+          msg = 'You have reached the maximum number of children for your plan. Please upgrade to add more.';
+        }
+        errorEl.textContent = msg;
+        errorEl.style.display = 'block';
+      } else {
+        closeAddChildModal();
+        await loadDashboard();
+      }
+    }
+
+    // ---- SET CREDENTIALS MODAL ----
+    function openSetCredentialsModal(childId, childName) {
+      let modal = document.getElementById('credentials-modal');
+      if (modal) modal.remove();
+
+      const div = document.createElement('div');
+      div.id = 'credentials-modal';
+      div.className = 'modal-overlay active';
+      div.innerHTML = `
+        <div class="modal" style="max-width:400px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Set Login Credentials</h2>
+            <button onclick="closeCredentialsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+          </div>
+          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>${childName}</strong> log in with a username and password.</p>
+          <form onsubmit="submitCredentials(event, '${childId}')">
+            <div class="form-group">
+              <label>Username</label>
+              <input type="text" id="cred-username" placeholder="3-20 characters, letters and numbers only" required pattern="[a-zA-Z0-9]{3,20}">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" id="cred-password" placeholder="At least 4 characters" required minlength="4">
+            </div>
+            <div id="cred-error" class="form-error"></div>
+            <div style="display:flex; gap:8px;">
+              <button type="submit" class="btn btn-primary" style="flex:1;">Save</button>
+              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCredentialsModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
+      `;
+      document.body.appendChild(div);
     }
 
     function closeCredentialsModal() {
@@ -308,6 +416,24 @@
       }
     }
 
+    // ---- SUBSCRIPTIONS & PACKS ----
+    async function subscribe(planId) {
+      const data = await apiCall('/api/credits/checkout', {
+        method: 'POST',
+        body: JSON.stringify({ type: 'subscription', plan_id: planId })
+      });
+      if (data && data.url) window.location.href = data.url;
+    }
+
+    async function buyPack(packId) {
+      const data = await apiCall('/api/credits/checkout', {
+        method: 'POST',
+        body: JSON.stringify({ type: 'pack', plan_id: packId })
+      });
+      if (data && data.url) window.location.href = data.url;
+    }
+
+    // ---- SESSION TRANSCRIPT ----
     async function viewTranscript(sessionId, childName) {
       const modal = document.getElementById('transcript-modal');
       document.getElementById('transcript-title').textContent = `${childName}'s Session`;
@@ -321,7 +447,7 @@
         if (session.messages && session.messages.length > 0) {
           document.getElementById('transcript-content').innerHTML = session.messages.map(m => `
             <div style="padding:12px 14px; background:${m.role === 'user' ? 'var(--primary-light)' : 'var(--gray-100)'}; border-radius:8px; border-left:4px solid ${m.role === 'user' ? 'var(--primary)' : 'var(--gray-400)'};">
-              <strong style="font-size:12px; color:${m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)'};">${m.role === 'user' ? childName : 'Math Buddy'}</strong>
+              <strong style="font-size:12px; color:${m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)'};">${m.role === 'user' ? childName : 'MathBuddy'}</strong>
               <p style="margin:6px 0 0; font-size:14px; line-height:1.5;">${escapeHtml(m.content)}</p>
               <span style="font-size:11px; color:var(--gray-500);">${new Date(m.created_at).toLocaleTimeString()}</span>
             </div>
@@ -339,13 +465,7 @@
     }
 
     function escapeHtml(text) {
-      const map = {
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;',
-        "'": '&#039;'
-      };
+      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
       return text.replace(/[&<>"']/g, m => map[m]);
     }
 
