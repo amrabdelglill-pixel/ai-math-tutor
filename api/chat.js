@@ -19,8 +19,8 @@ export default async function handler(req, res) {
     if (!authContext) {
       return res.status(401).json({ error: 'Not authenticated. Please log in.' });
     }
-
     const parentId = getParentId(authContext);
+
     const { message, session_id, child_id, language: langOverride, image } = req.body;
     if (!message || !session_id || !child_id) {
       return res.status(400).json({ error: 'Missing required fields: message, session_id, child_id' });
@@ -52,10 +52,10 @@ export default async function handler(req, res) {
       });
     }
 
-    // 4. Get session info (grade, history)
+    // 4. Get session info (grade, history, country)
     const { data: session } = await supabase
       .from('sessions')
-      .select('*, children(grade, preferred_language, name)')
+      .select('*, children(grade, preferred_language, name, country)')
       .eq('id', session_id)
       .eq('parent_id', parentId)
       .single();
@@ -66,6 +66,7 @@ export default async function handler(req, res) {
 
     const grade = session.children?.grade || 5;
     const language = langOverride || session.children?.preferred_language || 'en';
+    const country = session.children?.country || 'UAE';
 
     // 5. Get conversation history
     const { data: history } = await supabase
@@ -103,7 +104,7 @@ export default async function handler(req, res) {
     }
 
     const messages = [
-      { role: 'system', content: getSystemPrompt(grade, language) },
+      { role: 'system', content: getSystemPrompt(grade, language, country) },
       ...(history || []).map(m => ({ role: m.role, content: m.content })),
       { role: 'user', content: userContent }
     ];
@@ -170,3 +171,4 @@ async function getBalance(supabase, parentId) {
   const { data } = await supabase.rpc('get_valid_credit_balance', { p_parent_id: parentId });
   return data || 0;
 }
+
