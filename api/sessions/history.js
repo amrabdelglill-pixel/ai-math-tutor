@@ -10,20 +10,25 @@ export default async function handler(req, res) {
   if (!user) return res.status(401).json({ error: 'Not authenticated' });
 
   const supabase = createAuthClient(req);
-  const { child_id } = req.query;
+  const { child_id, session_id } = req.query;
 
   let query = supabase
     .from('sessions')
     .select('*, children(name, grade), messages(role, content, created_at, flagged)')
     .eq('parent_id', user.id)
-    .order('started_at', { ascending: false })
-    .limit(20);
+    .order('started_at', { ascending: false });
 
-  if (child_id) {
-    query = query.eq('child_id', child_id);
+  if (session_id) {
+    query = query.eq('id', session_id);
+  } else {
+    query = query.limit(20);
+    if (child_id) {
+      query = query.eq('child_id', child_id);
+    }
   }
 
   const { data, error } = await query;
   if (error) return res.status(500).json({ error: error.message });
+
   return res.status(200).json({ sessions: data });
 }
