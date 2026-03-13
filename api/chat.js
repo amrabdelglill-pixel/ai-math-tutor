@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     }
 
     const parentId = getParentId(authContext);
-    const { message, session_id, child_id } = req.body;
+    const { message, session_id, child_id, language: langOverride, image } = req.body;
     if (!message || !session_id || !child_id) {
       return res.status(400).json({ error: 'Missing required fields: message, session_id, child_id' });
     }
@@ -65,7 +65,7 @@ export default async function handler(req, res) {
     }
 
     const grade = session.children?.grade || 5;
-    const language = session.children?.preferred_language || 'en';
+    const language = langOverride || session.children?.preferred_language || 'en';
 
     // 5. Get conversation history
     const { data: history } = await supabase
@@ -91,10 +91,21 @@ export default async function handler(req, res) {
     }
 
     // 7. Build messages for OpenAI
+    let userContent;
+    if (image) {
+      // Vision request with image
+      userContent = [
+        { type: 'text', text: message },
+        { type: 'image_url', image_url: { url: image, detail: 'low' } }
+      ];
+    } else {
+      userContent = message;
+    }
+
     const messages = [
       { role: 'system', content: getSystemPrompt(grade, language) },
       ...(history || []).map(m => ({ role: m.role, content: m.content })),
-      { role: 'user', content: message }
+      { role: 'user', content: userContent }
     ];
 
     // 8. Call OpenAI
@@ -145,6 +156,6 @@ export default async function handler(req, res) {
 }
 
 async function getBalance(supabase, parentId) {
-  const { data } = await supabase.rpc('get_credit_balance', { p_parent_id: parentId });
+  const { data } = await supabase.rpc('get_valid_credit_balance', { p_parent_id: parentId });
   return data || 0;
 }
