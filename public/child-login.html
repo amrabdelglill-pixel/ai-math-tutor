@@ -108,7 +108,6 @@
                 <span class="zeluu-beta" style="margin-top:0; font-size:9px;">Beta</span>
             </h1>
             <p>Ready to learn? Let's go!</p>
-
             <form id="login-form" onsubmit="handleLogin(event)">
                 <div class="form-group">
                     <label for="parent-email">Parent Email</label>
@@ -122,29 +121,24 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" placeholder="Your password" required>
                 </div>
-
                 <div id="error-message" class="form-error"></div>
-
                 <button type="submit" class="btn btn-primary btn-large" id="login-btn">Start Learning!</button>
             </form>
-
             <div class="child-login-footer">
                 Are you a parent? <a href="/login">Sign in here</a>
             </div>
         </div>
     </div>
-
     <script>
         async function handleLogin(event) {
             event.preventDefault();
-
             const parent_email = document.getElementById('parent-email').value.trim();
             const username = document.getElementById('username').value.trim();
-            const password = document.getElementById('password').value;
+            const pw = document.getElementById('password').value;
             const btn = document.getElementById('login-btn');
             const errorEl = document.getElementById('error-message');
 
-            if (!parent_email || !username || !password) {
+            if (!parent_email || !username || !pw) {
                 errorEl.textContent = 'Please fill in all fields';
                 errorEl.style.display = 'block';
                 return;
@@ -158,7 +152,7 @@
                 const response = await fetch('/api/auth/child-login', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ parent_email, username, password })
+                    body: JSON.stringify({ parent_email, username, password: pw })
                 });
 
                 const data = await response.json();
@@ -197,191 +191,5 @@
             window.location.href = '/app';
         }
     </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zeluu - Student Login</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <style>
-    .child-login-container {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      padding: 20px;
-    }
-    .child-login-card {
-      background: white;
-      border-radius: 16px;
-      padding: 48px 32px;
-      max-width: 400px;
-      width: 100%;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-      text-align: center;
-    }
-    .child-login-card h1 {
-      font-size: 28px;
-      margin: 16px 0 8px;
-      color: var(--primary);
-    }
-    .child-login-card p {
-      color: var(--gray-500);
-      margin-bottom: 32px;
-      font-size: 15px;
-    }
-    .child-login-card .form-group {
-      text-align: left;
-      margin-bottom: 20px;
-    }
-    .child-login-card .form-group label {
-      display: block;
-      font-weight: 600;
-      margin-bottom: 8px;
-      color: var(--gray-700);
-      font-size: 14px;
-    }
-    .child-login-card .form-group input {
-      width: 100%;
-      padding: 12px 14px;
-      border: 2px solid var(--gray-200);
-      border-radius: 8px;
-      font-size: 16px;
-      transition: border-color 0.2s;
-    }
-    .child-login-card .form-group input:focus {
-      outline: none;
-      border-color: var(--primary);
-    }
-    .child-login-card .form-error {
-      background-color: #FEE2E2;
-      border: 1px solid #FCA5A5;
-      color: #991B1B;
-      padding: 12px 14px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      font-size: 13px;
-      display: none;
-    }
-    .child-login-card .btn-large {
-      width: 100%;
-      padding: 14px;
-      font-size: 16px;
-      font-weight: 600;
-      margin-top: 8px;
-      margin-bottom: 24px;
-    }
-    .child-login-footer {
-      margin-top: 32px;
-      padding-top: 24px;
-      border-top: 1px solid var(--gray-200);
-      font-size: 13px;
-    }
-    .child-login-footer a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .child-login-footer a:hover {
-      text-decoration: underline;
-    }
-    .child-login-card .logo {
-      font-size: 32px;
-      margin-bottom: 8px;
-    }
-  </style>
-</head>
-<body>
-  <div class="child-login-container">
-    <div class="child-login-card">
-      <div style="display:flex; justify-content:center; margin-bottom:8px;">
-        <div class="zeluu-mascot" style="width:60px; height:60px; border-radius:18px;">
-          <div class="z-antenna" style="top:-10px; width:3px; height:12px;"></div>
-          <div class="z-eyes" style="gap:8px;"><div class="z-eye" style="width:10px; height:13px;"></div><div class="z-eye" style="width:10px; height:13px;"></div></div>
-        </div>
-      </div>
-      <h1 style="display:flex; align-items:center; justify-content:center; gap:8px;">
-        <span>Zeluu</span>
-        <span class="zeluu-beta" style="margin-top:0; font-size:9px;">Beta</span>
-      </h1>
-      <p>Ready to learn? Let's go!</p>
-
-      <form id="login-form" onsubmit="handleLogin(event)">
-        <div class="form-group">
-          <label for="username">Username</label>
-          <input type="text" id="username" placeholder="Your username" required autocomplete="off">
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" id="password" placeholder="Your password" required>
-        </div>
-        <div id="error-message" class="form-error"></div>
-        <button type="submit" class="btn btn-primary btn-large" id="login-btn">Start Learning!</button>
-      </form>
-
-      <div class="child-login-footer">
-        Are you a parent? <a href="/login">Sign in here</a>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    async function handleLogin(event) {
-      event.preventDefault();
-
-      const username = document.getElementById('username').value.trim();
-      const password = document.getElementById('password').value;
-      const btn = document.getElementById('login-btn');
-      const errorEl = document.getElementById('error-message');
-
-      if (!username || !password) {
-        errorEl.textContent = 'Please enter both username and password';
-        errorEl.style.display = 'block';
-        return;
-      }
-
-      btn.disabled = true;
-      btn.innerHTML = '<span class="spinner"></span> Loading...';
-      errorEl.style.display = 'none';
-
-      try {
-        const response = await fetch('/api/auth/child-login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ username, password })
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) {
-          errorEl.textContent = data.error || 'Login failed. Please try again.';
-          errorEl.style.display = 'block';
-          btn.disabled = false;
-          btn.textContent = 'Start Learning!';
-          return;
-        }
-
-        // Store token in localStorage
-        localStorage.setItem('child_token', data.token);
-
-        // Redirect to app
-        window.location.href = '/app';
-      } catch (error) {
-        console.error('Login error:', error);
-        errorEl.textContent = 'Something went wrong. Please try again.';
-        errorEl.style.display = 'block';
-        btn.disabled = false;
-        btn.textContent = 'Start Learning!';
-      }
-    }
-
-    // Check if already logged in
-    if (localStorage.getItem('child_token')) {
-      window.location.href = '/app';
-    }
-  </script>
 </body>
 </html>
