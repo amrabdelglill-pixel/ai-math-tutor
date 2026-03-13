@@ -88,7 +88,7 @@
       btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
       errorEl.style.display = 'none';
 
-      const { data, error } = await supabase.auth.signInWithPassword({
+      const { data, error } = await window.supabaseClient.auth.signInWithPassword({
         email: document.getElementById('login-email').value,
         password: document.getElementById('login-password').value,
       });
@@ -109,7 +109,7 @@
       btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
       errorEl.style.display = 'none';
 
-      const { data, error } = await supabase.auth.signUp({
+      const { data, error } = await window.supabaseClient.auth.signUp({
         email: document.getElementById('signup-email').value,
         password: document.getElementById('signup-password').value,
         options: {

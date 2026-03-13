@@ -162,7 +162,7 @@
       // Load notifications
       const session = await getSession();
       if (session) {
-        const { data: notifs } = await supabase
+        const { data: notifs } = await window.supabaseClient
           .from('notifications')
           .select('*')
           .eq('read', false)
@@ -198,7 +198,7 @@
     }
 
     async function logout() {
-      await supabase.auth.signOut();
+      await window.supabaseClient.auth.signOut();
       window.location.href = '/';
     }
   </script>
