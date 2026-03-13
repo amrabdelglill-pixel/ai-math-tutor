@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zeluu-v1';
+const CACHE_NAME = 'zeluu-v2';
 const STATIC_ASSETS = [
   '/',
   '/login.html',
