@@ -120,11 +120,22 @@ export default async function handler(req, res) {
     const tokensUsed = completion.usage?.total_tokens || 0;
     const cleanResponse = aiResponse.replace('[STUCK_LOOP]', '').trim();
 
-    // 9. Deduct credit
-    const { data: newBalance } = await supabase.rpc('deduct_credit', {
-      p_parent_id: parentId,
-      p_session_id: session_id
-    });
+    // 9. Deduct credit — 1 credit per 5 text msgs, 1 per 2 image msgs
+    const msgsPerCredit = image ? 2 : 5;
+    const { count: msgCount } = await supabase
+      .from('messages')
+      .select('*', { count: 'exact', head: true })
+      .eq('session_id', session_id)
+      .eq('role', 'user');
+
+    let newBalance = await getBalance(supabase, parentId);
+    if ((msgCount || 0) % msgsPerCredit === 0) {
+      const { data: bal } = await supabase.rpc('deduct_credit', {
+        p_parent_id: parentId,
+        p_session_id: session_id
+      });
+      newBalance = bal;
+    }
 
     // 10. Save messages
     await supabase.from('messages').insert([
