@@ -79,14 +79,66 @@ label { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 500; c
 
 /* Nav */
 .nav {
-  background: white; border-bottom: 1px solid var(--gray-200);
-  padding: 12px 0; position: sticky; top: 0; z-index: 100;
+  background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(241,245,249,0.8);
+  padding: 10px 0; position: sticky; top: 0; z-index: 100;
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; }
-.nav-brand { font-size: 18px; font-weight: 700; color: var(--primary); text-decoration: none; }
+.nav-brand { font-size: 18px; font-weight: 700; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 10px; }
 .nav-links { display: flex; gap: 16px; align-items: center; }
 .nav-links a { color: var(--gray-700); text-decoration: none; font-size: 14px; font-weight: 500; }
 .nav-links a:hover { color: var(--primary); }
+
+/* Zeluu Mascot (appears in nav on all pages) */
+.zeluu-mascot {
+  width: 36px; height: 36px;
+  background: linear-gradient(135deg, #6366F1, #8B5CF6);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.25);
+}
+.zeluu-mascot .z-eyes { display: flex; gap: 6px; }
+.zeluu-mascot .z-eye {
+  width: 8px; height: 10px;
+  background: white; border-radius: 50%;
+  position: relative;
+  animation: zBlink 4s infinite;
+}
+.zeluu-mascot .z-eye::after {
+  content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%);
+  width: 4px; height: 4px; background: #1E293B; border-radius: 50%;
+}
+@keyframes zBlink {
+  0%, 94%, 100% { transform: scaleY(1); }
+  96% { transform: scaleY(0.1); }
+}
+.zeluu-mascot .z-antenna {
+  position: absolute; top: -7px; left: 50%; transform: translateX(-50%);
+  width: 2px; height: 8px; background: #A78BFA; border-radius: 2px;
+}
+.zeluu-mascot .z-antenna::after {
+  content: ''; position: absolute; top: -4px; left: 50%; transform: translateX(-50%);
+  width: 6px; height: 6px; background: #10B981; border-radius: 50%;
+  animation: zPulse 2s infinite;
+}
+@keyframes zPulse {
+  0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
+  50% { opacity: 0.5; transform: translateX(-50%) scale(1.4); }
+}
+.zeluu-brand-text {
+  font-size: 22px; font-weight: 800;
+  background: linear-gradient(135deg, #6366F1, #EC4899);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.zeluu-beta {
+  font-size: 10px; font-weight: 700;
+  background: linear-gradient(135deg, #6366F1, #8B5CF6);
+  color: white; padding: 2px 7px; border-radius: 6px;
+  letter-spacing: 0.5px; text-transform: uppercase;
+  margin-left: -2px; align-self: flex-start; margin-top: 2px;
+}
 
 /* Credit badge */
 .credit-badge {
