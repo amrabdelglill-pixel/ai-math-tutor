@@ -1,30 +1,26 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "api/**/*.js", "use": "@vercel/node", "config": { "maxDuration": 30 } },
-    { "src": "public/**", "use": "@vercel/static" }
+  "functions": {
+    "api/**/*.js": { "maxDuration": 30 }
+  },
+  "rewrites": [
+    { "source": "/login", "destination": "/public/login.html" },
+    { "source": "/child-login", "destination": "/public/child-login.html" },
+    { "source": "/app", "destination": "/public/app.html" },
+    { "source": "/dashboard", "destination": "/public/dashboard.html" },
+    { "source": "/privacy", "destination": "/public/privacy.html" },
+    { "source": "/terms", "destination": "/public/terms.html" },
+    { "source": "/refund", "destination": "/public/refund.html" },
+    { "source": "/gdpr", "destination": "/public/gdpr.html" },
+    { "source": "/(.*)", "destination": "/public/$1" }
   ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
+  "headers": [
     {
-      "src": "/sw\\.js",
-      "dest": "/public/sw.js",
-      "headers": {
-        "Service-Worker-Allowed": "/",
-        "Cache-Control": "no-cache"
-      }
-    },
-    { "src": "/manifest\\.json", "dest": "/public/manifest.json" },
-    { "src": "/icons/(.*)", "dest": "/public/icons/$1" },
-    { "src": "/(.*\\.(css|js|png|svg|ico|webp|json|html))", "dest": "/public/$1" },
-    { "src": "/login", "dest": "/public/login.html" },
-    { "src": "/child-login", "dest": "/public/child-login.html" },
-    { "src": "/app", "dest": "/public/app.html" },
-    { "src": "/dashboard", "dest": "/public/dashboard.html" },
-    { "src": "/privacy", "dest": "/public/privacy.html" },
-    { "src": "/terms", "dest": "/public/terms.html" },
-    { "src": "/refund", "dest": "/public/refund.html" },
-    { "src": "/gdpr", "dest": "/public/gdpr.html" },
-    { "src": "/", "dest": "/public/index.html" }
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Service-Worker-Allowed", "value": "/" },
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
   ]
 }
