@@ -1,84 +1,50 @@
-import { createServerClient } from '../../lib/supabase.js';
-import { verifyChildToken } from '../../lib/child-auth.js';
+import { createClient } from '@supabase/supabase-js';
+
+function verifyChildToken(req) {
+  const auth = req.headers.authorization;
+  if (!auth || !auth.startsWith('Bearer ')) return null;
+  const token = auth.replace('Bearer ', '');
+  try {
+    const parts = token.split('.');
+    if (parts.length !== 3) return null;
+    const payload = JSON.parse(Buffer.from(parts[1], 'base64').toString());
+    if (!payload.child_id || !payload.parent_id) return null;
+    if (payload.exp && payload.exp * 1000 < Date.now()) return null;
+    return payload;
+  } catch (e) { return null; }
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   if (req.method === 'OPTIONS') return res.status(200).end();
-  if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
-
-  const authHeader = req.headers.authorization?.replace('Bearer ', '');
-  if (!authHeader) return res.status(401).json({ error: 'Not authenticated' });
-
-  let childId = req.query.child_id;
-
-  // Try child token first
-  const childPayload = verifyChildToken(authHeader);
-  if (childPayload) {
-    childId = childPayload.child_id;
-  }
-
-  if (!childId) {
-    return res.status(400).json({ error: 'child_id is required' });
-  }
-
+  const child = verifyChildToken(req);
+  if (!child) return res.status(401).json({ error: 'Not authenticated' });
+  const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
   try {
-    const supabase = createServerClient();
-
-    const { data, error } = await supabase.rpc('get_child_limits_summary', {
-      p_child_id: childId
-    });
-
-    if (error) {
-      console.error('Check limits error:', error);
-      return res.status(500).json({ error: error.message });
+    const { data: cd, error: ce } = await supabase.from('children').select('credit_limit_daily, credit_limit_weekly, credit_limit_monthly').eq('id', child.child_id).single();
+    if (ce) return res.status(500).json({ error: ce.message });
+    if (!cd.credit_limit_daily && !cd.credit_limit_weekly && !cd.credit_limit_monthly) {
+      return res.status(200).json({ allowed: true, limits: null, message: 'No limits set' });
     }
-
-    const limits = data;
-    const exceeded = [];
-    if (limits.daily?.exceeded) exceeded.push('daily');
-    if (limits.weekly?.exceeded) exceeded.push('weekly');
-    if (limits.monthly?.exceeded) exceeded.push('monthly');
-
-    if (exceeded.length > 0) {
-      const { data: child } = await supabase
-        .from('children')
-        .select('name, parent_id')
-        .eq('id', childId)
-        .single();
-
-      if (child) {
-        const today = new Date().toISOString().split('T')[0];
-        const { data: existing } = await supabase
-          .from('notifications')
-          .select('id')
-          .eq('parent_id', child.parent_id)
-          .eq('child_id', childId)
-          .eq('type', 'credit_limit_reached')
-          .gte('created_at', today + 'T00:00:00Z')
-          .limit(1);
-
-        if (!existing || existing.length === 0) {
-          await supabase.from('notifications').insert({
-            parent_id: child.parent_id,
-            child_id: childId,
-            type: 'credit_limit_reached',
-            title: child.name + ' reached credit limit',
-            body: child.name + ' has exceeded their ' + exceeded.join(' and ') + ' credit limit.'
-          });
-        }
-      }
+    const { data: usage, error: ue } = await supabase.rpc('get_child_credit_usage', { p_child_id: child.child_id });
+    if (ue) return res.status(500).json({ error: ue.message });
+    const u = usage && usage.length > 0 ? usage[0] : { daily_used: 0, weekly_used: 0, monthly_used: 0 };
+    const limits = {};
+    let blocked = false, reason = '';
+    if (cd.credit_limit_daily) {
+      limits.daily = { limit: cd.credit_limit_daily, used: u.daily_used || 0, remaining: Math.max(0, cd.credit_limit_daily - (u.daily_used || 0)) };
+      if (limits.daily.remaining <= 0) { blocked = true; reason = 'Daily credit limit reached'; }
     }
-
-    return res.status(200).json({
-      child_id: childId,
-      limits: data,
-      exceeded: exceeded,
-      should_notify: exceeded.length > 0
-    });
-  } catch (err) {
-    console.error('Check limits error:', err);
-    return res.status(500).json({ error: 'Failed to check limits' });
-  }
+    if (cd.credit_limit_weekly) {
+      limits.weekly = { limit: cd.credit_limit_weekly, used: u.weekly_used || 0, remaining: Math.max(0, cd.credit_limit_weekly - (u.weekly_used || 0)) };
+      if (limits.weekly.remaining <= 0) { blocked = true; reason = reason || 'Weekly credit limit reached'; }
+    }
+    if (cd.credit_limit_monthly) {
+      limits.monthly = { limit: cd.credit_limit_monthly, used: u.monthly_used || 0, remaining: Math.max(0, cd.credit_limit_monthly - (u.monthly_used || 0)) };
+      if (limits.monthly.remaining <= 0) { blocked = true; reason = reason || 'Monthly credit limit reached'; }
+    }
+    return res.status(200).json({ allowed: !blocked, limits, message: blocked ? reason : 'Within limits' });
+  } catch (err) { return res.status(500).json({ error: err.message }); }
 }
