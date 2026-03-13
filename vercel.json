@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/**/*.js", "use": "@vercel/node" },
+    { "src": "api/**/*.js", "use": "@vercel/node", "config": { "maxDuration": 30 } },
     { "src": "public/**", "use": "@vercel/static" }
   ],
   "routes": [
@@ -19,11 +19,5 @@
     { "src": "/refund", "dest": "/public/refund.html" },
     { "src": "/gdpr", "dest": "/public/gdpr.html" },
     { "src": "/", "dest": "/public/index.html" }
-  ],
-  "functions": {
-    "api/**/*.js": {
-      "memory": 256,
-      "maxDuration": 30
-    }
-  }
+  ]
 }
