@@ -1,24 +1,28 @@
 {
     "version": 2,
-    "builds": [
-        { "src": "api/**/*.js", "use": "@vercel/node", "config": { "maxDuration": 30 } },
-        { "src": "public/**", "use": "@vercel/static" }
+    "rewrites": [
+        { "source": "/login", "destination": "/login.html" },
+        { "source": "/child-login", "destination": "/child-login.html" },
+        { "source": "/app", "destination": "/app.html" },
+        { "source": "/dashboard", "destination": "/dashboard.html" },
+        { "source": "/privacy", "destination": "/privacy.html" },
+        { "source": "/terms", "destination": "/terms.html" },
+        { "source": "/refund", "destination": "/refund.html" },
+        { "source": "/gdpr", "destination": "/gdpr.html" }
     ],
-    "routes": [
-        { "src": "/api/(.*)", "dest": "/api/$1" },
-        { "src": "/sw\\.js", "dest": "/public/sw.js", "headers": { "Service-Worker-Allowed": "/", "Cache-Control": "no-cache" } },
-        { "handle": "filesystem" },
-        { "src": "/login", "dest": "/public/login.html" },
-        { "src": "/child-login", "dest": "/public/child-login.html" },
-        { "src": "/app", "dest": "/public/app.html" },
-        { "src": "/dashboard", "dest": "/public/dashboard.html" },
-        { "src": "/privacy", "dest": "/public/privacy.html" },
-        { "src": "/terms", "dest": "/public/terms.html" },
-        { "src": "/refund", "dest": "/public/refund.html" },
-        { "src": "/gdpr", "dest": "/public/gdpr.html" },
-        { "src": "/manifest\\.json", "dest": "/public/manifest.json" },
-        { "src": "/icons/(.*)", "dest": "/public/icons/$1" },
-        { "src": "/(.*\\.(css|js|png|svg|ico|webp|json|html))", "dest": "/public/$1" },
-        { "src": "/", "dest": "/public/index.html" }
-    ]
+    "headers": [
+        {
+            "source": "/sw.js",
+            "headers": [
+                { "key": "Service-Worker-Allowed", "value": "/" },
+                { "key": "Cache-Control", "value": "no-cache" }
+            ]
+        }
+    ],
+    "functions": {
+        "api/**/*.js": {
+            "memory": 256,
+            "maxDuration": 30
+        }
+    }
 }
