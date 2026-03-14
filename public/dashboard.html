@@ -118,33 +118,56 @@
         </div>
       </div>
 
-      <!-- Get More Credits -->
+      <!-- Subscription & Add-ons Buttons -->
       <div class="card">
-        <h3 class="mb-4">Upgrade Your Package</h3>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <button class="btn btn-primary" onclick="openSubscriptionModal()" style="width:100%; padding:14px 0; font-size:15px; font-weight:600; display:flex; align-items:center; justify-content:center; gap:8px;">
+            &#9881; Edit Your Subscription
+          </button>
+          <button class="btn btn-secondary" onclick="openExtraCreditsModal()" style="width:100%; padding:14px 0; font-size:15px; font-weight:600; display:flex; align-items:center; justify-content:center; gap:8px;">
+            &#9889; Extra Credits
+          </button>
+        </div>
+      </div>
 
+    <!-- Subscription Modal -->
+    <div class="modal-overlay" id="subscription-modal">
+      <div class="modal" style="max-width:520px; max-height:85vh; overflow-y:auto;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h2>Upgrade Your Package</h2>
+          <button onclick="closeSubscriptionModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+        </div>
         <!-- Billing toggle -->
         <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--gray-50); border-radius:8px; padding:4px;">
           <button id="btn-monthly" class="btn btn-primary" onclick="setBilling('monthly')" style="flex:1; font-size:13px; padding:6px 0;">Monthly</button>
           <button id="btn-annual" class="btn btn-secondary" onclick="setBilling('annual')" style="flex:1; font-size:13px; padding:6px 0;">Annual <span style="font-size:11px; color:var(--success);">(Save 20%)</span></button>
         </div>
-
         <div class="flex flex-col gap-2" id="subscription-plans">
           <!-- Populated by JS -->
         </div>
+      </div>
+    </div>
 
-        <h3 class="mt-6 mb-4">Add-ons</h3>
+    <!-- Extra Credits Modal -->
+    <div class="modal-overlay" id="extra-credits-modal">
+      <div class="modal" style="max-width:420px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h2>Extra Credits</h2>
+          <button onclick="closeExtraCreditsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+        </div>
         <div class="flex flex-col gap-2">
-          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between;">
-            <span>Quick Top-Up â 100 credits</span><strong>$15</strong>
+          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between; padding:14px 16px;">
+            <span>&#9889; Quick Top-Up &mdash; 100 credits</span><strong>$15</strong>
           </button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between;">
-            <span>Credit Pack â 300 credits</span><strong>$35</strong>
+          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between; padding:14px 16px;">
+            <span>&#128230; Credit Pack &mdash; 300 credits</span><strong>$35</strong>
           </button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between;">
-            <span>Credit Tank â 1,000 credits</span><strong>$100</strong>
+          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between; padding:14px 16px;">
+            <span>&#128640; Credit Tank &mdash; 1,000 credits</span><strong>$100</strong>
           </button>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- Session Transcript Modal -->
@@ -646,6 +669,28 @@
         document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No sessions yet for this child.</p>';
       }
     }
+
+    // ---- SUBSCRIPTION & EXTRA CREDITS MODALS ----
+    function openSubscriptionModal() {
+      document.getElementById('subscription-modal').classList.add('active');
+      renderPlans();
+    }
+    function closeSubscriptionModal() {
+      document.getElementById('subscription-modal').classList.remove('active');
+    }
+    function openExtraCreditsModal() {
+      document.getElementById('extra-credits-modal').classList.add('active');
+    }
+    function closeExtraCreditsModal() {
+      document.getElementById('extra-credits-modal').classList.remove('active');
+    }
+    // Close modals on overlay click
+    document.getElementById('subscription-modal').addEventListener('click', function(e) {
+      if (e.target === this) closeSubscriptionModal();
+    });
+    document.getElementById('extra-credits-modal').addEventListener('click', function(e) {
+      if (e.target === this) closeExtraCreditsModal();
+    });
 
     // ---- PRICING PLANS (LemonSqueezy) ----
     const PLANS = {
