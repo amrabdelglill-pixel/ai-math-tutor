@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeluu - Pricing & Plans</title>
+    <title>Zeluu - Pricing &amp; Plans</title>
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#4F46E5">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,6 +22,8 @@
             overflow-x: hidden;
             min-height: 100vh;
         }
+
+        /* ---- NAV ---- */
         .landing-nav {
             background: rgba(255,255,255,0.85);
             backdrop-filter: blur(12px);
@@ -44,6 +46,8 @@
             transition: all 0.3s;
         }
         .btn-nav-signin:hover { box-shadow: 0 4px 14px rgba(99,102,241,0.3); transform: translateY(-1px); }
+
+        /* ---- PRICING ---- */
         .pricing-hero { padding: 120px 0 40px; text-align: center; }
         .pricing-hero h1 { font-size: 40px; font-weight: 800; color: #0F172A; margin-bottom: 12px; }
         .pricing-hero p { font-size: 18px; color: #64748B; max-width: 520px; margin: 0 auto 8px; }
@@ -53,6 +57,7 @@
             color: white; padding: 8px 20px; border-radius: 50px;
             font-size: 14px; font-weight: 700; margin-top: 16px;
         }
+
         .pricing-section { padding: 20px 0 60px; }
         .toggle-wrap { text-align: center; margin-bottom: 36px; }
         .toggle-pill {
@@ -126,6 +131,8 @@
             color: white; box-shadow: 0 4px 14px rgba(99,102,241,0.3);
         }
         .plan-btn-filled:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(99,102,241,0.4); }
+
+        /* Add-ons */
         .addons-section { padding: 0 0 60px; }
         .addons-header { text-align: center; margin-bottom: 24px; }
         .addons-header h3 { font-size: 22px; font-weight: 700; color: #0F172A; }
@@ -148,6 +155,8 @@
             font-size: 12px; color: #94A3B8; margin-top: 6px;
             display: flex; align-items: center; justify-content: center; gap: 4px;
         }
+
+        /* ---- FOOTER ---- */
         .footer-new { padding: 40px 0; border-top: 1px solid #F1F5F9; text-align: center; }
         .footer-new .footer-brand {
             font-size: 22px; font-weight: 800;
@@ -159,6 +168,8 @@
         .footer-links { display: flex; gap: 24px; justify-content: center; margin-top: 12px; flex-wrap: wrap; }
         .footer-links a { font-size: 13px; color: #94A3B8; text-decoration: none; }
         .footer-links a:hover { color: #6366F1; }
+
+        /* ---- RESPONSIVE ---- */
         @media (max-width: 900px) {
             .pricing-grid-new { grid-template-columns: 1fr 1fr; }
             .addons-grid { grid-template-columns: 1fr 1fr; }
@@ -215,7 +226,7 @@
                 <h3>Starter</h3>
                 <div class="plan-credits">60 credits/mo</div>
                 <div class="plan-price" data-m="12" data-a="9.60">$12<span>/mo</span></div>
-                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <div class="plan-period">then billed monthly &mdash; cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> 1 child</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
@@ -223,7 +234,7 @@
                     <li><span class="check">&#10003;</span> Session history</li>
                     <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="#" class="plan-btn plan-btn-outline" data-plan="starter" onclick="signUpWithPlan(event, 'starter')">Sign Up — Free Trial</a>
+                <a href="#" class="plan-btn plan-btn-outline" data-plan="starter" onclick="signUpWithPlan(event, 'starter')">Sign Up &mdash; Free Trial</a>
             </div>
             <div class="plan-card popular">
                 <div class="pop-badge">Most Popular</div>
@@ -231,7 +242,7 @@
                 <h3>Standard</h3>
                 <div class="plan-credits">120 credits/mo</div>
                 <div class="plan-price" data-m="18" data-a="14.40">$18<span>/mo</span></div>
-                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <div class="plan-period">then billed monthly &mdash; cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> Up to 2 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
@@ -239,14 +250,14 @@
                     <li><span class="check">&#10003;</span> Session history</li>
                     <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="#" class="plan-btn plan-btn-filled" data-plan="standard" onclick="signUpWithPlan(event, 'standard')">Sign Up — Free Trial</a>
+                <a href="#" class="plan-btn plan-btn-filled" data-plan="standard" onclick="signUpWithPlan(event, 'standard')">Sign Up &mdash; Free Trial</a>
             </div>
             <div class="plan-card">
                 <div class="trial-badge">14-day free trial</div>
                 <h3>Premium</h3>
                 <div class="plan-credits">300 credits/mo</div>
                 <div class="plan-price" data-m="30" data-a="24">$30<span>/mo</span></div>
-                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <div class="plan-period">then billed monthly &mdash; cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> Up to 3 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
@@ -254,14 +265,14 @@
                     <li><span class="check">&#10003;</span> Weekly reports</li>
                     <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="#" class="plan-btn plan-btn-outline" data-plan="premium" onclick="signUpWithPlan(event, 'premium')">Sign Up — Free Trial</a>
+                <a href="#" class="plan-btn plan-btn-outline" data-plan="premium" onclick="signUpWithPlan(event, 'premium')">Sign Up &mdash; Free Trial</a>
             </div>
             <div class="plan-card">
                 <div class="trial-badge">14-day free trial</div>
                 <h3>Family</h3>
                 <div class="plan-credits">1,000 credits/mo</div>
                 <div class="plan-price" data-m="85" data-a="68">$85<span>/mo</span></div>
-                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <div class="plan-period">then billed monthly &mdash; cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> Up to 6 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
@@ -270,11 +281,12 @@
                     <li><span class="check">&#10003;</span> Session viewer</li>
                     <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="#" class="plan-btn plan-btn-outline" data-plan="family" onclick="signUpWithPlan(event, 'family')">Sign Up — Free Trial</a>
+                <a href="#" class="plan-btn plan-btn-outline" data-plan="family" onclick="signUpWithPlan(event, 'family')">Sign Up &mdash; Free Trial</a>
             </div>
         </div>
     </div>
 </section>
+
 <!-- Add-ons -->
 <section class="addons-section">
     <div class="container">
@@ -364,8 +376,10 @@ async function signUpWithPlan(e, planName) {
     const planId = planName + '_' + window._billingPeriod;
 
     try {
+        // Check if user is already logged in
         const session = await getSession();
         if (session) {
+            // Existing user — go straight to checkout
             const data = await apiCall('/api/credits/checkout', {
                 method: 'POST',
                 body: JSON.stringify({ plan_id: planId })
@@ -375,8 +389,10 @@ async function signUpWithPlan(e, planName) {
                 return;
             }
         }
+        // Not logged in — redirect to login with plan param
         window.location.href = '/login.html?plan=' + encodeURIComponent(planId);
     } catch (err) {
+        // Fallback — redirect to login with plan param
         window.location.href = '/login.html?plan=' + encodeURIComponent(planId);
     } finally {
         btn.textContent = origText;
