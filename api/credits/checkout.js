@@ -1,20 +1,34 @@
-import Stripe from 'stripe';
 import { getUser } from '../../lib/supabase.js';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-
-// Pricing configuration
-const PLANS = {
-  starter:  { credits: 60,  price: 1200, name: 'Starter (60 credits)' },
-  standard: { credits: 120, price: 1800, name: 'Standard (120 credits)' },
-  premium:  { credits: 300, price: 3000, name: 'Premium (300 credits)' },
+// LemonSqueezy variant IDs - UPDATE THESE after creating products
+const VARIANTS = {
+  // Monthly subscriptions
+  starter_monthly: process.env.LS_VARIANT_STARTER_MONTHLY || 'PLACEHOLDER',
+  standard_monthly: process.env.LS_VARIANT_STANDARD_MONTHLY || 'PLACEHOLDER',
+  premium_monthly: process.env.LS_VARIANT_PREMIUM_MONTHLY || 'PLACEHOLDER',
+  // Annual subscriptions
+  starter_annual: process.env.LS_VARIANT_STARTER_ANNUAL || 'PLACEHOLDER',
+  standard_annual: process.env.LS_VARIANT_STANDARD_ANNUAL || 'PLACEHOLDER',
+  premium_annual: process.env.LS_VARIANT_PREMIUM_ANNUAL || 'PLACEHOLDER',
+  // Credit packs (one-time)
+  pack_30: process.env.LS_VARIANT_PACK_30 || 'PLACEHOLDER',
+  pack_60: process.env.LS_VARIANT_PACK_60 || 'PLACEHOLDER',
+  pack_150: process.env.LS_VARIANT_PACK_150 || 'PLACEHOLDER',
+  pack_300: process.env.LS_VARIANT_PACK_300 || 'PLACEHOLDER',
 };
 
-const PACKS = {
-  pack_30:  { credits: 30,  price: 500,  name: 'Extra 30 credits' },
-  pack_60:  { credits: 60,  price: 1000, name: 'Extra 60 credits' },
-  pack_150: { credits: 150, price: 2000, name: 'Extra 150 credits' },
-  pack_300: { credits: 300, price: 2500, name: 'Extra 300 credits' },
+// Credits mapping per variant
+const CREDITS_MAP = {
+  starter_monthly: 60,
+  standard_monthly: 120,
+  premium_monthly: 300,
+  starter_annual: 60,
+  standard_annual: 120,
+  premium_annual: 300,
+  pack_30: 30,
+  pack_60: 60,
+  pack_150: 150,
+  pack_300: 300,
 };
 
 export default async function handler(req, res) {
@@ -26,65 +40,73 @@ export default async function handler(req, res) {
   const user = await getUser(req);
   if (!user) return res.status(401).json({ error: 'Not authenticated' });
 
-  const { type, plan_id } = req.body;
-  // type: 'subscription' or 'pack'
+  const { plan_id } = req.body;
+  // plan_id: 'starter_monthly', 'premium_annual', 'pack_30', etc.
+
+  if (!VARIANTS[plan_id] || VARIANTS[plan_id] === 'PLACEHOLDER') {
+    return res.status(400).json({ error: 'Invalid plan or variant not configured' });
+  }
+
+  const storeId = process.env.LEMONSQUEEZY_STORE_ID;
+  const apiKey = process.env.LEMONSQUEEZY_API_KEY;
+
+  if (!storeId || !apiKey) {
+    return res.status(500).json({ error: 'Payment system not configured' });
+  }
 
   try {
-    let sessionConfig;
-
-    if (type === 'subscription' && PLANS[plan_id]) {
-      const plan = PLANS[plan_id];
-      sessionConfig = {
-        mode: 'subscription',
-        line_items: [{
-          price_data: {
-            currency: 'usd',
-            recurring: { interval: 'month' },
-            product_data: { name: plan.name },
-            unit_amount: plan.price,
+    const checkoutPayload = {
+      data: {
+        type: 'checkouts',
+        attributes: {
+          checkout_data: {
+            email: user.email,
+            custom: {
+              user_id: user.id,
+              plan_id: plan_id,
+              credits: String(CREDITS_MAP[plan_id]),
+            },
           },
-          quantity: 1,
-        }],
-        metadata: {
-          user_id: user.id,
-          plan_id,
-          credits: plan.credits.toString(),
-          type: 'subscription'
-        }
-      };
-    } else if (type === 'pack' && PACKS[plan_id]) {
-      const pack = PACKS[plan_id];
-      sessionConfig = {
-        mode: 'payment',
-        line_items: [{
-          price_data: {
-            currency: 'usd',
-            product_data: { name: pack.name },
-            unit_amount: pack.price,
+          checkout_options: {
+            dark: true,
+            embed: true,
           },
-          quantity: 1,
-        }],
-        metadata: {
-          user_id: user.id,
-          plan_id,
-          credits: pack.credits.toString(),
-          type: 'pack'
-        }
-      };
-    } else {
-      return res.status(400).json({ error: 'Invalid plan or type' });
-    }
+          product_options: {
+            redirect_url: 'https://zeluu.com/dashboard.html?payment=success',
+          },
+        },
+        relationships: {
+          store: {
+            data: { type: 'stores', id: storeId },
+          },
+          variant: {
+            data: { type: 'variants', id: VARIANTS[plan_id] },
+          },
+        },
+      },
+    };
 
-    const checkoutSession = await stripe.checkout.sessions.create({
-      ...sessionConfig,
-      customer_email: user.email,
-      success_url: `${req.headers.origin || 'https://ai-math-tutor-lemon.vercel.app'}/app?payment=success`,
-      cancel_url: `${req.headers.origin || 'https://ai-math-tutor-lemon.vercel.app'}/app?payment=cancelled`,
+    const response = await fetch('https://api.lemonsqueezy.com/v1/checkouts', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/vnd.api+json',
+        'Content-Type': 'application/vnd.api+json',
+        'Authorization': 'Bearer ' + apiKey,
+      },
+      body: JSON.stringify(checkoutPayload),
     });
 
-    return res.status(200).json({ url: checkoutSession.url });
+    const result = await response.json();
+
+    if (!response.ok) {
+      console.error('LemonSqueezy error:', JSON.stringify(result));
+      return res.status(500).json({ error: 'Failed to create checkout' });
+    }
+
+    const checkoutUrl = result.data.attributes.url;
+    return res.status(200).json({ url: checkoutUrl });
   } catch (error) {
-    console.error('Stripe checkout error:', error);
+    console.error('Checkout error:', error);
     return res.status(500).json({ error: 'Failed to create checkout session' });
   }
 }
