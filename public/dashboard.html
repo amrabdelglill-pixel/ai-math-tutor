@@ -1,93 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zeluu - Parent Dashboard</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-</head>
-<body>
-  <!-- Nav -->
-  <nav class="nav">
-    <div class="container nav-inner">
-      <a href="/dashboard.html" class="nav-brand" style="text-decoration:none;">
-        <div class="zeluu-mascot">
-          <div class="z-antenna"></div>
-          <div class="z-eyes"><div class="z-eye"></div><div class="z-eye"></div></div>
-        </div>
-        <span class="zeluu-brand-text">Zeluu</span>
-        <span class="zeluu-beta">Beta</span>
-      </a>
-      <div class="nav-links">
-        <span class="credit-badge" id="credit-badge">-- credits</span>
-        <a href="#" onclick="logout()">Sign Out</a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container" style="padding-top:32px;">
-    <h1 class="mb-6">Parent Dashboard</h1>
-
-    <!-- Stats -->
-    <div class="stats-grid mb-6">
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-credits">--</div>
-        <div class="stat-label">Credits Left</div>
-      </div>
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-sessions">--</div>
-        <div class="stat-label">Sessions This Week</div>
-      </div>
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-children">--</div>
-        <div class="stat-label">Children</div>
-      </div>
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-plan">Free</div>
-        <div class="stat-label">Current Plan</div>
-        <div id="renewal-info" style="font-size:12px; color:var(--gray-500); margin-top:6px;"></div>
-      </div>
-    </div>
-
-    <!-- Usage Card -->
-    <div class="card mb-6" id="usage-card" style="display:none;">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-        <h3 style="margin:0;">Credit Usage</h3>
-        <span id="usage-label" style="font-size:13px; color:var(--gray-500);">0 / 0 credits used</span>
-      </div>
-      <div style="width:100%; height:8px; background:var(--gray-100); border-radius:999px; overflow:hidden;">
-        <div id="usage-bar" style="height:100%; width:0%; border-radius:999px; transition:width .5s ease;"></div>
-      </div>
-      <div style="display:flex; justify-content:space-between; margin-top:8px;">
-        <span id="usage-percent" style="font-size:12px; font-weight:600;"></span>
-        <span id="usage-remaining" style="font-size:12px; color:var(--gray-500);"></span>
-      </div>
-    </div>
-
-    <div class="grid-2">
-      <!-- Your Children -->
-      <div class="card">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-          <h3>Your Children</h3>
-          <button class="btn btn-primary" style="font-size:12px; padding:6px 14px;" onclick="openAddChildModal()">+ Add Child</button>
-        </div>
-        <div id="children-list">
-          <p style="color:var(--gray-500); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
-        </div>
-      </div>
-
-      <!-- Notifications -->
-      <div class="card">
-        <h3 class="mb-4">Notifications</h3>
-        <div id="notifications-list">
-          <p style="color:var(--gray-500); font-size:14px;">No notifications yet.</p>
-        </div>
-      </div>
-
-      <!-- Get More Credits -->
-      <div class="card">
-        <h3 class="mb-4">Get More Credits</h3>
+       <h3 class="mb-4">Get More Credits</h3>
 
         <!-- Billing toggle -->
         <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--gray-50); border-radius:8px; padding:4px;">
@@ -114,14 +25,6 @@
       </div>
     </div>
 
-    <!-- Recent Sessions -->
-    <div class="card mt-6">
-      <h3 class="mb-4">Recent Sessions</h3>
-      <div class="session-list" id="sessions-list">
-        <p style="color:var(--gray-500); font-size:14px;">No sessions yet. Start tutoring to see history here.</p>
-      </div>
-    </div>
-
     <!-- Session Transcript Modal -->
     <div class="modal-overlay" id="transcript-modal">
       <div class="modal" style="max-width:600px; max-height:80vh; overflow-y:auto;">
@@ -135,11 +38,16 @@
       </div>
     </div>
 
-    <!-- Credit History -->
+    <!-- Credit History (collapsed by default) -->
     <div class="card mt-6 mb-6">
-      <h3 class="mb-4">Credit History</h3>
-      <div id="credit-history">
-        <p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p>
+      <div style="display:flex; justify-content:space-between; align-items:center; cursor:pointer;" onclick="toggleCreditHistory()">
+        <h3 style="margin:0;">Credit History</h3>
+        <span id="credit-history-toggle" style="font-size:20px; color:var(--gray-500); transition:transform .2s;">&#9660;</span>
+      </div>
+      <div id="credit-history-wrapper" style="display:none; margin-top:16px;">
+        <div id="credit-history">
+          <p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -158,12 +66,11 @@
       const creditData = await apiCall('/api/credits/balance');
       if (creditData) {
         document.getElementById('stat-credits').textContent = creditData.credits;
-        document.getElementById('credit-badge').textContent = `${creditData.credits} credits`;
 
         if (creditData.subscription) {
           const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
           document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
-
+          
           // Show renewal / validity date
           if (creditData.subscription.current_period_end) {
             const renewDate = new Date(creditData.subscription.current_period_end);
@@ -171,7 +78,7 @@
             const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
             const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
             let color = 'var(--success)';
-            if (daysLeft <= 7) color = 'var(--danger)';
+            if (daysLeft <= 7) color = 'var(--danger).
             else if (daysLeft <= 14) color = 'var(--warning)';
             document.getElementById('renewal-info').innerHTML =
               `Renews: <strong style="color:${color};">${dateStr}</strong> (${daysLeft}d left)`;
@@ -239,6 +146,7 @@
         if (childData.children.length > 0) {
           document.getElementById('children-list').innerHTML = childData.children.map(c => {
             const used = childUsage[c.id] || 0;
+            const bday = c.birthdate ? new Date(c.birthdate).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }) : null;
             return `
             <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
@@ -246,17 +154,18 @@
                   <strong style="display:block;">${c.name}</strong>
                   <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade}</span>
                 </div>
-                <div style="text-align:right;">
+                <div style="display:flex; gap:6px; align-items:center;">
                   <span style="display:inline-block; background:${used > 0 ? 'var(--primary-light)' : 'var(--gray-100)'}; color:${used > 0 ? 'var(--primary)' : 'var(--gray-500)'}; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">
                     ${used} credit${used !== 1 ? 's' : ''} used
                   </span>
+                  <button onclick="openEditChildModal('${c.id}')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px;" title="Edit child">&#9998;</button>
+                  <button onclick="confirmRemoveChild('${c.id}', '${c.name}')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px; color:var(--danger);" title="Remove child">&times;</button>
                 </div>
               </div>
-              ${c.phone ? `
-                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:6px; color:var(--gray-500);">
-                  Phone: <strong style="color:var(--gray-700);">${c.phone}</strong>
-                </div>
-              ` : ''}
+              <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;">
+                ${c.phone ? `<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Phone: <strong style="color:var(--gray-700);">${c.phone}</strong></span>` : ''}
+                ${bday ? `<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Born: <strong style="color:var(--gray-700);">${bday}</strong></span>` : ''}
+              </div>
               ${c.username ? `
                 <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">
                   Username: <strong style="color:var(--gray-700);">${c.username}</strong>
@@ -278,30 +187,9 @@
         }
       }
 
-      // Load sessions
-      const sessionData = await apiCall('/api/sessions/history');
-      if (sessionData && sessionData.sessions) {
+      //Load session count
+      const sessionData = await apiCall('/api/sessions/history');*      if (sessionData && sessionData.sessions) {
         document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
-
-        if (sessionData.sessions.length > 0) {
-          document.getElementById('sessions-list').innerHTML = sessionData.sessions.map(s => `
-            <div class="session-item">
-              <div style="flex:1;">
-                <div>
-                  <strong>${s.children?.name || 'Unknown'}</strong>
-                  <span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Grade ${s.grade}</span>
-                  ${s.status === 'stuck_loop' ? '<span style="color:var(--warning); font-size:12px; margin-left:8px;">Stuck</span>' : ''}
-                  ${s.status === 'flagged' ? '<span style="color:var(--danger); font-size:12px; margin-left:8px;">Flagged</span>' : ''}
-                </div>
-                <div class="meta">
-                  ${s.interaction_count || 0} messages &middot; ${s.credits_used || 0} credits &middot;
-                  ${new Date(s.started_at).toLocaleDateString()}
-                </div>
-              </div>
-              <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewTranscript('${s.id}', '${s.children?.name || 'Session'}')">View</button>
-            </div>
-          `).join('');
-        }
       }
 
       // Load notifications
@@ -324,7 +212,7 @@
           `).join('');
         }
       }
-    }
+  }
 
     // ---- ADD CHILD MODAL ----
     function openAddChildModal() {
@@ -360,7 +248,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label>Preferred Language</label>
+                <label>@referred Language</label>
                 <select id="child-lang">
                   <option value="en">English</option>
                   <option value="ar">Arabic</option>
@@ -386,6 +274,10 @@
               <div class="form-group">
                 <label>Child's Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
                 <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
+              </div>
+              <div class="form-group">
+                <label>Birthdate <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+                <input type="date" id="child-birthdate">
               </div>
               <div id="add-child-error" class="form-error"></div>
               <div style="display:flex; gap:8px;">
@@ -424,6 +316,7 @@
       const lang = document.getElementById('child-lang').value;
       const country = document.getElementById('child-country').value;
       const phone = document.getElementById('child-phone').value.trim() || null;
+      const birthdate = document.getElementById('child-birthdate').value || null;
 
       const { data, error } = await window.supabaseClient
         .from('children')
@@ -434,6 +327,7 @@
           preferred_language: lang,
           country: country,
           phone: phone,
+          birthdate: birthdate,
           is_active: true
         })
         .select()
@@ -720,10 +614,87 @@
       return text.replace(/[&<>"']/g, m => map[m]);
     }
 
-    async function logout() {
-      await window.supabaseClient.auth.signOut();
-      window.location.href = '/';
+    // ---- PARENT PROFILE ----
+    async function loadParentProfile() {
+      const session = await getSession();
+      if (!session) return;
+      const user = session.user;
+
+      // Email from auth
+      document.getElementById('profile-email').textContent = user.email || '--';
+          <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+          <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
+          </div>
+          <div class="form-group">
+            <label>Birthdate <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+            <input type="date" id="child-birthdate">
+          </div>
+          <div id="add-child-error" class="form-error"></div>
+          <div style="display:flex; gar:8px;">
+            <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
+            <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
+          </div>
+        </form>
+      </div>
+      `;
+      document.body.appendChild(div);
     }
-  </script>
-</body>
-</html>
+    // Reset form
+    const form = document.querySelector('#add-child-modal form');
+    if (form) form.reset();
+    document.getElementById('add-child-modal').classList.add('active');
+  }
+
+  function closeAddChildModal() {
+    const modal = document.getElementById('add-child-modal');
+    if (modal) modal.classList.remove('active');
+  }
+
+  async function submitAddChild(e) {
+    e.preventDefault();
+    const btn = document.getElementById('add-child-btn');
+    const errorEl = document.getElementById('add-child-error');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span>';
+    errorEl.style.display = 'none';
+
+    const session = await getSession();
+    if (!session) return;
+
+    const name = document.getElementById('child-name').value.trim();
+    const grade = parseInt(document.getElementById('child-grade').value);
+    const lang = document.getElementById('child-lang').value;
+    const country = document.getElementById('child-country').value;
+    const phone = document.getElementById('child-phone').value.trim() || null;
+    const birthdate = document.getElementById('child-birthdate').value || null;
+
+    const { data, error } = await window.supabaseClient
+      .from('children')
+      .insert({
+        parent_id: session.user.id,
+        name: name,
+        grade: grade,
+        preferred_language: lang,
+        country: country,
+        phone: phone,
+        birthdate: birthdate,
+        is_active: true
+      })
+      .select()
+      .single();
+
+    btn.disabled = false;
+    btn.textContent = 'Add Child';
+
+    if (error) {
+      let msg = error.message;
+      if (msg.includes('check_child_limit')) {
+        msg = 'You have reached the maximum number of children for your plan. Please upgrade to add more.';
+      }
+      errorEl.textContent = msg;
+      errorEl.style.display = 'block';
+    } else {
+      closeAddChildModal();
+      await loadDashboard();
+    }
+  }
