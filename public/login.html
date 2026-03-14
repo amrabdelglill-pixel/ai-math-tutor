@@ -23,6 +23,14 @@
         <p id="auth-subtitle">Sign in to manage your child's learning</p>
       </div>
 
+      <!-- Selected plan badge (shown when coming from pricing page) -->
+      <div id="selected-plan-badge" style="display:none; margin-bottom:16px; padding:12px 16px; background:linear-gradient(135deg,#EEF2FF,#F0F9FF); border:2px solid #E0E7FF; border-radius:12px; text-align:center;">
+        <div style="font-size:12px; color:#6366F1; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Selected Plan</div>
+        <div style="font-size:18px; font-weight:800; color:#0F172A;" id="selected-plan-name">--</div>
+        <div style="font-size:13px; color:#64748B; margin-top:2px;" id="selected-plan-details">--</div>
+        <div style="font-size:12px; color:#10B981; font-weight:600; margin-top:6px;">&#10003; 14-day free trial &bull; 10 free credits</div>
+      </div>
+
       <div class="auth-tabs">
         <div class="auth-tab active" onclick="switchTab('login')">Sign In</div>
         <div class="auth-tab" onclick="switchTab('signup')">Sign Up</div>
@@ -75,10 +83,50 @@
 
   <script src="/js/supabase-config.js"></script>
   <script>
+    // ---- PLAN PARAMETER HANDLING ----
+    const PLAN_INFO = {
+      starter_monthly:  { name: 'Starter',  credits: '60 credits/mo',  price: '$12/mo' },
+      starter_annual:   { name: 'Starter',  credits: '60 credits/mo',  price: '$9.60/mo (billed yearly)' },
+      standard_monthly: { name: 'Standard', credits: '120 credits/mo', price: '$18/mo' },
+      standard_annual:  { name: 'Standard', credits: '120 credits/mo', price: '$14.40/mo (billed yearly)' },
+      premium_monthly:  { name: 'Premium',  credits: '300 credits/mo', price: '$30/mo' },
+      premium_annual:   { name: 'Premium',  credits: '300 credits/mo', price: '$24/mo (billed yearly)' },
+      family_monthly:   { name: 'Family',   credits: '1,000 credits/mo', price: '$85/mo' },
+      family_annual:    { name: 'Family',   credits: '1,000 credits/mo', price: '$68/mo (billed yearly)' },
+    };
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedPlanId = urlParams.get('plan');
+
+    // Show selected plan badge and auto-switch to signup if plan param exists
+    if (selectedPlanId && PLAN_INFO[selectedPlanId]) {
+      const plan = PLAN_INFO[selectedPlanId];
+      document.getElementById('selected-plan-badge').style.display = 'block';
+      document.getElementById('selected-plan-name').textContent = plan.name;
+      document.getElementById('selected-plan-details').textContent = plan.credits + ' \u2014 ' + plan.price;
+      // Auto-switch to signup tab for new customers
+      setTimeout(() => switchTab('signup'), 100);
+    }
+
     // Check if already logged in
     (async () => {
       const session = await getSession();
-      if (session) window.location.href = '/dashboard.html';
+      if (session) {
+        // If they came with a plan, redirect to checkout first
+        if (selectedPlanId) {
+          try {
+            const data = await apiCall('/api/credits/checkout', {
+              method: 'POST',
+              body: JSON.stringify({ plan_id: selectedPlanId })
+            });
+            if (data && data.url) {
+              window.location.href = data.url;
+              return;
+            }
+          } catch (e) {}
+        }
+        window.location.href = '/dashboard.html';
+      }
     })();
 
     function switchTab(tab) {
@@ -93,8 +141,10 @@
         document.querySelectorAll('.auth-tab')[1].classList.add('active');
         document.getElementById('login-form').style.display = 'none';
         document.getElementById('signup-form').style.display = 'block';
-        document.getElementById('auth-title').textContent = 'Create account';
-        document.getElementById('auth-subtitle').textContent = 'Start with 10 free credits. No card required.';
+        document.getElementById('auth-title').textContent = selectedPlanId ? 'Sign up to start your trial' : 'Create account';
+        document.getElementById('auth-subtitle').textContent = selectedPlanId
+          ? 'Create your account to activate your 14-day free trial with 10 credits.'
+          : 'Start with 10 free credits. No card required.';
       }
     }
 
@@ -115,6 +165,19 @@
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Sign In';
       } else {
+        // If they came with a plan from pricing page, redirect to checkout
+        if (selectedPlanId) {
+          try {
+            const checkoutData = await apiCall('/api/credits/checkout', {
+              method: 'POST',
+              body: JSON.stringify({ plan_id: selectedPlanId })
+            });
+            if (checkoutData && checkoutData.url) {
+              window.location.href = checkoutData.url;
+              return;
+            }
+          } catch (e) {}
+        }
         window.location.href = '/dashboard.html';
       }
     }
@@ -144,9 +207,25 @@
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Create Account';
       } else {
+        // If they chose a plan from pricing page, redirect to checkout
+        if (selectedPlanId) {
+          try {
+            const checkoutData = await apiCall('/api/credits/checkout', {
+              method: 'POST',
+              body: JSON.stringify({ plan_id: selectedPlanId })
+            });
+            if (checkoutData && checkoutData.url) {
+              window.location.href = checkoutData.url;
+              return;
+            }
+          } catch (e) {
+            // Fallback to dashboard if checkout fails
+          }
+        }
         window.location.href = '/dashboard.html';
       }
     }
+
   </script>
 </body>
 </html>
