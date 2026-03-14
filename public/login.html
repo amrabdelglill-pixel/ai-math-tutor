@@ -33,7 +33,7 @@
 
       <div class="auth-tabs">
         <div class="auth-tab active" onclick="switchTab('login')">Sign In</div>
-        <div class="auth-tab" onclick="switchTab('signup')">Sign Up</div>
+        <div class="auth-tab" id="signup-tab" onclick="switchTab('signup')">Sign Up</div>
       </div>
 
       <!-- Login Form -->
@@ -74,9 +74,14 @@
         <p class="text-center mt-2" style="font-size:13px; color:var(--gray-500);">You'll get 10 free credits to start</p>
       </form>
 
+      <div id="choose-plan-link" style="margin-top:20px; padding:14px 16px; background:linear-gradient(135deg,#EEF2FF,#F0F9FF); border:2px solid #E0E7FF; border-radius:12px; text-align:center; display:none;">
+        <span style="font-size:13px; color:var(--gray-500);">New here?</span><br>
+        <a href="/pricing" style="color:var(--primary); text-decoration:none; font-weight:700; font-size:15px;">Choose a plan to get started &rarr;</a>
+      </div>
+
       <div style="margin-top:24px; padding-top:24px; border-top:1px solid var(--gray-200); font-size:13px;">
         <span style="color:var(--gray-500);">Is your child looking to log in?</span><br>
-        <a href="/child-login.html" style="color:var(--primary); text-decoration:none; font-weight:600;">Go to Student Login</a>
+        <a href="/child-login" style="color:var(--primary); text-decoration:none; font-weight:600;">Go to Student Login</a>
       </div>
     </div>
   </div>
@@ -104,8 +109,13 @@
       document.getElementById('selected-plan-badge').style.display = 'block';
       document.getElementById('selected-plan-name').textContent = plan.name;
       document.getElementById('selected-plan-details').textContent = plan.credits + ' \u2014 ' + plan.price;
-      // Auto-switch to signup tab for new customers
+      // Show signup tab and auto-switch for new customers
+      document.getElementById('signup-tab').style.display = '';
       setTimeout(() => switchTab('signup'), 100);
+    } else {
+      // No plan selected — hide signup tab, users must choose a plan first
+      document.getElementById('signup-tab').style.display = 'none';
+      document.getElementById('choose-plan-link').style.display = 'block';
     }
 
     // Check if already logged in
@@ -138,13 +148,16 @@
         document.getElementById('auth-title').textContent = 'Welcome back';
         document.getElementById('auth-subtitle').textContent = "Sign in to manage your child's learning";
       } else {
+        // If no plan selected, redirect to pricing page to choose one first
+        if (!selectedPlanId) {
+          window.location.href = '/pricing';
+          return;
+        }
         document.querySelectorAll('.auth-tab')[1].classList.add('active');
         document.getElementById('login-form').style.display = 'none';
         document.getElementById('signup-form').style.display = 'block';
-        document.getElementById('auth-title').textContent = selectedPlanId ? 'Sign up to start your trial' : 'Create account';
-        document.getElementById('auth-subtitle').textContent = selectedPlanId
-          ? 'Create your account to activate your 14-day free trial with 10 credits.'
-          : 'Start with 10 free credits. No card required.';
+        document.getElementById('auth-title').textContent = 'Sign up to start your trial';
+        document.getElementById('auth-subtitle').textContent = 'Create your account to activate your 14-day free trial with 10 credits.';
       }
     }
 
