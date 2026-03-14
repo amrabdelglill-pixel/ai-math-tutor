@@ -26,12 +26,14 @@ export default async function handler(req, res) {
     .order('created_at', { ascending: false })
     .limit(10);
 
-  // Get subscription info (parent only)
+  // Get subscription info (parent only) — include trialing status
   const { data: subscription } = await supabase
     .from('subscriptions')
     .select('*')
     .eq('parent_id', parentId)
-    .eq('status', 'active')
+    .in('status', ['active', 'trialing'])
+    .order('created_at', { ascending: false })
+    .limit(1)
     .single();
 
   return res.status(200).json({
