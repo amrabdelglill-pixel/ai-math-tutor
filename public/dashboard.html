@@ -1,4 +1,126 @@
-       <h3 class="mb-4">Get More Credits</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeluu - Parent Dashboard</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/dashboard.html" class="nav-brand" style="text-decoration:none;">
+        <div class="zeluu-mascot">
+          <div class="z-antenna"></div>
+          <div class="z-eyes"><div class="z-eye"></div><div class="z-eye"></div></div>
+        </div>
+        <span class="zeluu-brand-text">Zeluu</span>
+        <span class="zeluu-beta">Beta</span>
+      </a>
+      <div class="nav-links">
+        <a href="#" onclick="logout()">Sign Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="padding-top:32px;">
+    <h1 class="mb-6">Parent Dashboard</h1>
+
+    <!-- Stats -->
+    <div class="stats-grid mb-6">
+      <div class="card stat-card">
+        <div class="stat-value" id="stat-credits">--</div>
+        <div class="stat-label">Credits Left</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-value" id="stat-sessions">--</div>
+        <div class="stat-label">Sessions This Week</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-value" id="stat-children">--</div>
+        <div class="stat-label">Children</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-value" id="stat-plan">Free</div>
+        <div class="stat-label">Current Plan</div>
+        <div id="renewal-info" style="font-size:12px; color:var(--gray-500); margin-top:6px;"></div>
+      </div>
+    </div>
+
+    <!-- Usage Card -->
+    <div class="card mb-6" id="usage-card" style="display:none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="margin:0;">Credit Usage</h3>
+        <span id="usage-label" style="font-size:13px; color:var(--gray-500);">0 / 0 credits used</span>
+      </div>
+      <div style="width:100%; height:8px; background:var(--gray-100); border-radius:999px; overflow:hidden;">
+        <div id="usage-bar" style="height:100%; width:0%; border-radius:999px; transition:width .5s ease;"></div>
+      </div>
+      <div style="display:flex; justify-content:space-between; margin-top:8px;">
+        <span id="usage-percent" style="font-size:12px; font-weight:600;"></span>
+        <span id="usage-remaining" style="font-size:12px; color:var(--gray-500);"></span>
+      </div>
+    </div>
+
+    <!-- Parent Profile -->
+    <div class="card mb-6" id="parent-profile-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+        <h3 style="margin:0;">My Profile</h3>
+        <button class="btn btn-secondary" style="font-size:12px; padding:6px 14px;" onclick="openEditProfileModal()">Edit Profile</button>
+      </div>
+      <div id="parent-profile-info" style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
+          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Email</div>
+          <div style="font-size:14px; font-weight:500;" id="profile-email">--</div>
+        </div>
+        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
+          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Phone</div>
+          <div style="font-size:14px; font-weight:500;" id="profile-phone">--</div>
+        </div>
+        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
+          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Country</div>
+          <div style="font-size:14px; font-weight:500;" id="profile-country">--</div>
+        </div>
+        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
+          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Children</div>
+          <div style="font-size:14px; font-weight:500;" id="profile-children-count">0</div>
+        </div>
+        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
+          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Plan</div>
+          <div style="font-size:14px; font-weight:500;" id="profile-plan">Free</div>
+        </div>
+        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
+          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Renewal Date</div>
+          <div style="font-size:14px; font-weight:500;" id="profile-renewal">--</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <!-- Your Children -->
+      <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h3>Your Children</h3>
+          <button class="btn btn-primary" style="font-size:12px; padding:6px 14px;" onclick="openAddChildModal()">+ Add Child</button>
+        </div>
+        <div id="children-list">
+          <p style="color:var(--gray-500); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
+        </div>
+      </div>
+
+      <!-- Notifications -->
+      <div class="card">
+        <h3 class="mb-4">Notifications</h3>
+        <div id="notifications-list">
+          <p style="color:var(--gray-500); font-size:14px;">No notifications yet.</p>
+        </div>
+      </div>
+
+      <!-- Get More Credits -->
+      <div class="card">
+        <h3 class="mb-4">Upgrade Your Package</h3>
 
         <!-- Billing toggle -->
         <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--gray-50); border-radius:8px; padding:4px;">
@@ -10,7 +132,7 @@
           <!-- Populated by JS -->
         </div>
 
-        <h3 class="mt-6 mb-4">Or buy a credit pack</h3>
+        <h3 class="mt-6 mb-4">Add-ons</h3>
         <div class="flex flex-col gap-2">
           <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between;">
             <span>Quick Top-Up â 100 credits</span><strong>$15</strong>
@@ -70,7 +192,7 @@
         if (creditData.subscription) {
           const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
           document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
-          
+
           // Show renewal / validity date
           if (creditData.subscription.current_period_end) {
             const renewDate = new Date(creditData.subscription.current_period_end);
@@ -78,7 +200,7 @@
             const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
             const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
             let color = 'var(--success)';
-            if (daysLeft <= 7) color = 'var(--danger).
+            if (daysLeft <= 7) color = 'var(--danger)';
             else if (daysLeft <= 14) color = 'var(--warning)';
             document.getElementById('renewal-info').innerHTML =
               `Renews: <strong style="color:${color};">${dateStr}</strong> (${daysLeft}d left)`;
@@ -187,8 +309,9 @@
         }
       }
 
-      //Load session count
-      const sessionData = await apiCall('/api/sessions/history');*      if (sessionData && sessionData.sessions) {
+      // Load session count
+      const sessionData = await apiCall('/api/sessions/history');
+      if (sessionData && sessionData.sessions) {
         document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
       }
 
@@ -212,7 +335,7 @@
           `).join('');
         }
       }
-  }
+    }
 
     // ---- ADD CHILD MODAL ----
     function openAddChildModal() {
@@ -248,7 +371,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label>@referred Language</label>
+                <label>Preferred Language</label>
                 <select id="child-lang">
                   <option value="en">English</option>
                   <option value="ar">Arabic</option>
@@ -563,7 +686,7 @@
             ${p.features.map(f => `<span style="font-size:11px; background:var(--gray-100); color:var(--gray-600); padding:2px 8px; border-radius:12px;">${f}</span>`).join('')}
           </div>
           <button class="btn ${p.featured ? 'btn-primary' : 'btn-secondary'}" onclick="buyCredits('${p.id}')" style="width:100%; font-size:13px; padding:8px 0;">
-            Start 14-day free trial
+            Upgrade
           </button>
         </div>
       `).join('');
@@ -622,79 +745,251 @@
 
       // Email from auth
       document.getElementById('profile-email').textContent = user.email || '--';
-          <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
-          <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
+
+      // Load profile from parents table
+      const { data: profile } = await window.supabaseClient
+        .from('profiles')
+        .select('phone, country, full_name')
+        .eq('id', user.id)
+        .single();
+
+      if (profile) {
+        document.getElementById('profile-phone').textContent = profile.phone || '--';
+        const countryMap = { AE:'UAE', SA:'Saudi Arabia', EG:'Egypt', KW:'Kuwait', QA:'Qatar', BH:'Bahrain', OM:'Oman', JO:'Jordan', GB:'United Kingdom', US:'United States', IN:'India' };
+        document.getElementById('profile-country').textContent = countryMap[profile.country] || profile.country || '--';
+        window._parentProfile = profile;
+      }
+    }
+    // Run profile load alongside dashboard
+    loadParentProfile();
+
+    // Populate profile card from dashboard data once loaded
+    const _origLoadDashboard = loadDashboard;
+    loadDashboard = async function() {
+      await _origLoadDashboard();
+      // Update profile card with plan/children/renewal from dashboard data
+      const plan = document.getElementById('stat-plan').textContent;
+      const children = document.getElementById('stat-children').textContent;
+      document.getElementById('profile-plan').textContent = plan;
+      document.getElementById('profile-children-count').textContent = children;
+      const renewEl = document.getElementById('renewal-info');
+      if (renewEl && renewEl.innerHTML) {
+        document.getElementById('profile-renewal').innerHTML = renewEl.innerHTML;
+      }
+    };
+
+    function openEditProfileModal() {
+      let modal = document.getElementById('edit-profile-modal');
+      if (modal) modal.remove();
+
+      const p = window._parentProfile || {};
+      const div = document.createElement('div');
+      div.id = 'edit-profile-modal';
+      div.className = 'modal-overlay active';
+      div.innerHTML = `
+        <div class="modal" style="max-width:420px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Edit Profile</h2>
+            <button onclick="closeEditProfileModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
           </div>
-          <div class="form-group">
-            <label>Birthdate <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
-            <input type="date" id="child-birthdate">
-          </div>
-          <div id="add-child-error" class="form-error"></div>
-          <div style="display:flex; gar:8px;">
-            <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
-            <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
-          </div>
-        </form>
-      </div>
+          <form onsubmit="submitEditProfile(event)">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" id="edit-profile-name" value="${p.full_name || ''}" placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" id="edit-profile-phone" value="${p.phone || ''}" placeholder="+971 50 123 4567">
+            </div>
+            <div class="form-group">
+              <label>Country</label>
+              <select id="edit-profile-country">
+                <option value="">Select country</option>
+                <option value="AE" ${p.country === 'AE' ? 'selected' : ''}>UAE</option>
+                <option value="SA" ${p.country === 'SA' ? 'selected' : ''}>Saudi Arabia</option>
+                <option value="EG" ${p.country === 'EG' ? 'selected' : ''}>Egypt</option>
+                <option value="KW" ${p.country === 'KW' ? 'selected' : ''}>Kuwait</option>
+                <option value="QA" ${p.country === 'QA' ? 'selected' : ''}>Qatar</option>
+                <option value="BH" ${p.country === 'BH' ? 'selected' : ''}>Bahrain</option>
+                <option value="OM" ${p.country === 'OM' ? 'selected' : ''}>Oman</option>
+                <option value="JO" ${p.country === 'JO' ? 'selected' : ''}>Jordan</option>
+                <option value="GB" ${p.country === 'GB' ? 'selected' : ''}>United Kingdom</option>
+                <option value="US" ${p.country === 'US' ? 'selected' : ''}>United States</option>
+                <option value="IN" ${p.country === 'IN' ? 'selected' : ''}>India</option>
+              </select>
+            </div>
+            <div id="edit-profile-error" class="form-error"></div>
+            <div style="display:flex; gap:8px;">
+              <button type="submit" class="btn btn-primary" id="edit-profile-btn" style="flex:1;">Save</button>
+              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeEditProfileModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
       `;
       document.body.appendChild(div);
     }
-    // Reset form
-    const form = document.querySelector('#add-child-modal form');
-    if (form) form.reset();
-    document.getElementById('add-child-modal').classList.add('active');
-  }
 
-  function closeAddChildModal() {
-    const modal = document.getElementById('add-child-modal');
-    if (modal) modal.classList.remove('active');
-  }
-
-  async function submitAddChild(e) {
-    e.preventDefault();
-    const btn = document.getElementById('add-child-btn');
-    const errorEl = document.getElementById('add-child-error');
-    btn.disabled = true;
-    btn.innerHTML = '<span class="spinner"></span>';
-    errorEl.style.display = 'none';
-
-    const session = await getSession();
-    if (!session) return;
-
-    const name = document.getElementById('child-name').value.trim();
-    const grade = parseInt(document.getElementById('child-grade').value);
-    const lang = document.getElementById('child-lang').value;
-    const country = document.getElementById('child-country').value;
-    const phone = document.getElementById('child-phone').value.trim() || null;
-    const birthdate = document.getElementById('child-birthdate').value || null;
-
-    const { data, error } = await window.supabaseClient
-      .from('children')
-      .insert({
-        parent_id: session.user.id,
-        name: name,
-        grade: grade,
-        preferred_language: lang,
-        country: country,
-        phone: phone,
-        birthdate: birthdate,
-        is_active: true
-      })
-      .select()
-      .single();
-
-    btn.disabled = false;
-    btn.textContent = 'Add Child';
-
-    if (error) {
-      let msg = error.message;
-      if (msg.includes('check_child_limit')) {
-        msg = 'You have reached the maximum number of children for your plan. Please upgrade to add more.';
-      }
-      errorEl.textContent = msg;
-      errorEl.style.display = 'block';
-    } else {
-      closeAddChildModal();
-      await loadDashboard();
+    function closeEditProfileModal() {
+      const modal = document.getElementById('edit-profile-modal');
+      if (modal) modal.classList.remove('active');
     }
-  }
+
+    async function submitEditProfile(e) {
+      e.preventDefault();
+      const btn = document.getElementById('edit-profile-btn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+
+      const session = await getSession();
+      if (!session) return;
+
+      const full_name = document.getElementById('edit-profile-name').value.trim() || null;
+      const phone = document.getElementById('edit-profile-phone').value.trim() || null;
+      const country = document.getElementById('edit-profile-country').value || null;
+
+      const { error } = await window.supabaseClient
+        .from('profiles')
+        .update({ full_name, phone, country })
+        .eq('id', session.user.id);
+
+      btn.disabled = false;
+      btn.textContent = 'Save';
+
+      if (error) {
+        document.getElementById('edit-profile-error').textContent = error.message;
+        document.getElementById('edit-profile-error').style.display = 'block';
+      } else {
+        closeEditProfileModal();
+        await loadParentProfile();
+      }
+    }
+
+    // ---- EDIT CHILD MODAL ----
+    async function openEditChildModal(childId) {
+      // Fetch child data
+      const { data: child, error } = await window.supabaseClient
+        .from('children')
+        .select('*')
+        .eq('id', childId)
+        .single();
+      if (!child) return alert('Could not load child data.');
+
+      let modal = document.getElementById('edit-child-modal');
+      if (modal) modal.remove();
+
+      const div = document.createElement('div');
+      div.id = 'edit-child-modal';
+      div.className = 'modal-overlay active';
+      div.innerHTML = `
+        <div class="modal" style="max-width:420px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Edit Child</h2>
+            <button onclick="closeEditChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+          </div>
+          <form onsubmit="submitEditChild(event, '${childId}')">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" id="edit-child-name" value="${child.name}" required>
+            </div>
+            <div class="form-group">
+              <label>Grade (1-9)</label>
+              <select id="edit-child-grade" required>
+                ${[1,2,3,4,5,6,7,8,9].map(g => `<option value="${g}" ${child.grade === g ? 'selected' : ''}>Grade ${g}</option>`).join('')}
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+              <input type="tel" id="edit-child-phone" value="${child.phone || ''}" placeholder="+971 50 123 4567">
+            </div>
+            <div class="form-group">
+              <label>Birthdate <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+              <input type="date" id="edit-child-birthdate" value="${child.birthdate || ''}">
+            </div>
+            <div class="form-group">
+              <label>Preferred Language</label>
+              <select id="edit-child-lang">
+                <option value="en" ${child.preferred_language === 'en' ? 'selected' : ''}>English</option>
+                <option value="ar" ${child.preferred_language === 'ar' ? 'selected' : ''}>Arabic</option>
+              </select>
+            </div>
+            <div id="edit-child-error" class="form-error"></div>
+            <div style="display:flex; gap:8px;">
+              <button type="submit" class="btn btn-primary" id="edit-child-btn" style="flex:1;">Save Changes</button>
+              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeEditChildModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
+      `;
+      document.body.appendChild(div);
+    }
+
+    function closeEditChildModal() {
+      const modal = document.getElementById('edit-child-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    async function submitEditChild(e, childId) {
+      e.preventDefault();
+      const btn = document.getElementById('edit-child-btn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+
+      const name = document.getElementById('edit-child-name').value.trim();
+      const grade = parseInt(document.getElementById('edit-child-grade').value);
+      const phone = document.getElementById('edit-child-phone').value.trim() || null;
+      const birthdate = document.getElementById('edit-child-birthdate').value || null;
+      const preferred_language = document.getElementById('edit-child-lang').value;
+
+      const { error } = await window.supabaseClient
+        .from('children')
+        .update({ name, grade, phone, birthdate, preferred_language })
+        .eq('id', childId);
+
+      btn.disabled = false;
+      btn.textContent = 'Save Changes';
+
+      if (error) {
+        document.getElementById('edit-child-error').textContent = error.message;
+        document.getElementById('edit-child-error').style.display = 'block';
+      } else {
+        closeEditChildModal();
+        await loadDashboard();
+      }
+    }
+
+    // ---- REMOVE CHILD ----
+    async function confirmRemoveChild(childId, childName) {
+      if (!confirm(`Are you sure you want to remove ${childName}? This will deactivate their account and they will no longer be able to log in.`)) return;
+
+      const { error } = await window.supabaseClient
+        .from('children')
+        .update({ is_active: false })
+        .eq('id', childId);
+
+      if (error) {
+        alert('Failed to remove child: ' + error.message);
+      } else {
+        await loadDashboard();
+      }
+    }
+
+    // ---- CREDIT HISTORY TOGGLE ----
+    function toggleCreditHistory() {
+      const wrapper = document.getElementById('credit-history-wrapper');
+      const arrow = document.getElementById('credit-history-toggle');
+      if (wrapper.style.display === 'none') {
+        wrapper.style.display = 'block';
+        arrow.style.transform = 'rotate(180deg)';
+      } else {
+        wrapper.style.display = 'none';
+        arrow.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    async function logout() {
+      await window.supabaseClient.auth.signOut();
+      window.location.href = '/';
+    }
+  </script>
+</body>
+</html>
