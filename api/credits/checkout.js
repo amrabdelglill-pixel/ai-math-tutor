@@ -1,38 +1,28 @@
 import { getUser } from '../../lib/supabase.js';
 
-// LemonSqueezy variant IDs - UPDATE THESE after creating products
-const VARIANTS = {
+// LemonSqueezy product configuration
+const PRODUCTS = {
   // Monthly subscriptions
-  starter_monthly: process.env.LS_VARIANT_STARTER_MONTHLY || 'PLACEHOLDER',
-  standard_monthly: process.env.LS_VARIANT_STANDARD_MONTHLY || 'PLACEHOLDER',
-  premium_monthly: process.env.LS_VARIANT_PREMIUM_MONTHLY || 'PLACEHOLDER',
+  starter_monthly:  { variant: '1401741', credits: 60,   name: 'Starter Monthly' },
+  standard_monthly: { variant: '1401764', credits: 120,  name: 'Standard Monthly' },
+  premium_monthly:  { variant: '1401745', credits: 300,  name: 'Premium Monthly' },
+  family_monthly:   { variant: '1401766', credits: 1000, name: 'Family Monthly' },
   // Annual subscriptions
-  starter_annual: process.env.LS_VARIANT_STARTER_ANNUAL || 'PLACEHOLDER',
-  standard_annual: process.env.LS_VARIANT_STANDARD_ANNUAL || 'PLACEHOLDER',
-  premium_annual: process.env.LS_VARIANT_PREMIUM_ANNUAL || 'PLACEHOLDER',
-  // Credit packs (one-time)
-  pack_30: process.env.LS_VARIANT_PACK_30 || 'PLACEHOLDER',
-  pack_60: process.env.LS_VARIANT_PACK_60 || 'PLACEHOLDER',
-  pack_150: process.env.LS_VARIANT_PACK_150 || 'PLACEHOLDER',
-  pack_300: process.env.LS_VARIANT_PACK_300 || 'PLACEHOLDER',
+  starter_annual:   { variant: '1401776', credits: 60,   name: 'Starter Annual' },
+  standard_annual:  { variant: '1401777', credits: 120,  name: 'Standard Annual' },
+  premium_annual:   { variant: '1401788', credits: 300,  name: 'Premium Annual' },
+  family_annual:    { variant: '1401789', credits: 1000, name: 'Family Annual' },
+  // One-time credit packs
+  quick_topup:      { variant: '1401809', credits: 100,  name: 'Quick Top-Up' },
+  credit_pack:      { variant: '1401816', credits: 300,  name: 'Credit Pack' },
+  credit_tank:      { variant: '1401821', credits: 1000, name: 'Credit Tank' },
 };
 
-// Credits mapping per variant
-const CREDITS_MAP = {
-  starter_monthly: 60,
-  standard_monthly: 120,
-  premium_monthly: 300,
-  starter_annual: 60,
-  standard_annual: 120,
-  premium_annual: 300,
-  pack_30: 30,
-  pack_60: 60,
-  pack_150: 150,
-  pack_300: 300,
-};
+const STORE_ID = process.env.LEMONSQUEEZY_STORE_ID || '315398';
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
@@ -41,51 +31,19 @@ export default async function handler(req, res) {
   if (!user) return res.status(401).json({ error: 'Not authenticated' });
 
   const { plan_id } = req.body;
-  // plan_id: 'starter_monthly', 'premium_annual', 'pack_30', etc.
 
-  if (!VARIANTS[plan_id] || VARIANTS[plan_id] === 'PLACEHOLDER') {
-    return res.status(400).json({ error: 'Invalid plan or variant not configured' });
+  if (!PRODUCTS[plan_id]) {
+    return res.status(400).json({ error: 'Invalid plan_id. Valid options: ' + Object.keys(PRODUCTS).join(', ') });
   }
 
-  const storeId = process.env.LEMONSQUEEZY_STORE_ID;
+  const product = PRODUCTS[plan_id];
   const apiKey = process.env.LEMONSQUEEZY_API_KEY;
 
-  if (!storeId || !apiKey) {
+  if (!apiKey) {
     return res.status(500).json({ error: 'Payment system not configured' });
   }
 
   try {
-    const checkoutPayload = {
-      data: {
-        type: 'checkouts',
-        attributes: {
-          checkout_data: {
-            email: user.email,
-            custom: {
-              user_id: user.id,
-              plan_id: plan_id,
-              credits: String(CREDITS_MAP[plan_id]),
-            },
-          },
-          checkout_options: {
-            dark: true,
-            embed: true,
-          },
-          product_options: {
-            redirect_url: 'https://zeluu.com/dashboard.html?payment=success',
-          },
-        },
-        relationships: {
-          store: {
-            data: { type: 'stores', id: storeId },
-          },
-          variant: {
-            data: { type: 'variants', id: VARIANTS[plan_id] },
-          },
-        },
-      },
-    };
-
     const response = await fetch('https://api.lemonsqueezy.com/v1/checkouts', {
       method: 'POST',
       headers: {
@@ -93,7 +51,36 @@ export default async function handler(req, res) {
         'Content-Type': 'application/vnd.api+json',
         'Authorization': 'Bearer ' + apiKey,
       },
-      body: JSON.stringify(checkoutPayload),
+      body: JSON.stringify({
+        data: {
+          type: 'checkouts',
+          attributes: {
+            checkout_data: {
+              email: user.email,
+              custom: {
+                user_id: user.id,
+                plan_id: plan_id,
+                credits: String(product.credits),
+              },
+            },
+            checkout_options: {
+              dark: true,
+              embed: true,
+            },
+            product_options: {
+              redirect_url: 'https://zeluu.com/dashboard.html?payment=success',
+            },
+          },
+          relationships: {
+            store: {
+              data: { type: 'stores', id: STORE_ID },
+            },
+            variant: {
+              data: { type: 'variants', id: product.variant },
+            },
+          },
+        },
+      }),
     });
 
     const result = await response.json();
@@ -103,8 +90,7 @@ export default async function handler(req, res) {
       return res.status(500).json({ error: 'Failed to create checkout' });
     }
 
-    const checkoutUrl = result.data.attributes.url;
-    return res.status(200).json({ url: checkoutUrl });
+    return res.status(200).json({ url: result.data.attributes.url });
   } catch (error) {
     console.error('Checkout error:', error);
     return res.status(500).json({ error: 'Failed to create checkout session' });
