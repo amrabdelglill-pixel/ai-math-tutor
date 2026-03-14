@@ -1,24 +1,26 @@
 import { getUser } from '../../lib/supabase.js';
 
-// LemonSqueezy product configuration
+const STORE_ID = '315398';
+
+// LemonSqueezy variant IDs — one per product
+// NOTE: If checkout fails with "variant not found", replace these with variant IDs
+// from LemonSqueezy dashboard → Products → [Product] → Variants → copy variant ID
 const PRODUCTS = {
   // Monthly subscriptions
-  starter_monthly:  { variant: '1401741', credits: 60,   name: 'Starter Monthly' },
-  standard_monthly: { variant: '1401764', credits: 120,  name: 'Standard Monthly' },
-  premium_monthly:  { variant: '1401745', credits: 300,  name: 'Premium Monthly' },
-  family_monthly:   { variant: '1401766', credits: 1000, name: 'Family Monthly' },
+  starter_monthly:  { variantId: '1401741', credits: 60,   plan: 'starter',  cycle: 'monthly', type: 'subscription', maxChildren: 1 },
+  standard_monthly: { variantId: '1401764', credits: 120,  plan: 'standard', cycle: 'monthly', type: 'subscription', maxChildren: 2 },
+  premium_monthly:  { variantId: '1401745', credits: 300,  plan: 'premium',  cycle: 'monthly', type: 'subscription', maxChildren: 3 },
+  family_monthly:   { variantId: '1401766', credits: 1000, plan: 'family',   cycle: 'monthly', type: 'subscription', maxChildren: 999 },
   // Annual subscriptions
-  starter_annual:   { variant: '1401776', credits: 60,   name: 'Starter Annual' },
-  standard_annual:  { variant: '1401777', credits: 120,  name: 'Standard Annual' },
-  premium_annual:   { variant: '1401788', credits: 300,  name: 'Premium Annual' },
-  family_annual:    { variant: '1401789', credits: 1000, name: 'Family Annual' },
+  starter_annual:   { variantId: '1401776', credits: 60,   plan: 'starter',  cycle: 'annual', type: 'subscription', maxChildren: 1 },
+  standard_annual:  { variantId: '1401777', credits: 120,  plan: 'standard', cycle: 'annual', type: 'subscription', maxChildren: 2 },
+  premium_annual:   { variantId: '1401788', credits: 300,  plan: 'premium',  cycle: 'annual', type: 'subscription', maxChildren: 3 },
+  family_annual:    { variantId: '1401789', credits: 1000, plan: 'family',   cycle: 'annual', type: 'subscription', maxChildren: 999 },
   // One-time credit packs
-  quick_topup:      { variant: '1401809', credits: 100,  name: 'Quick Top-Up' },
-  credit_pack:      { variant: '1401816', credits: 300,  name: 'Credit Pack' },
-  credit_tank:      { variant: '1401821', credits: 1000, name: 'Credit Tank' },
+  quick_topup:      { variantId: '1401809', credits: 100, type: 'pack' },
+  credit_pack:      { variantId: '1401816', credits: 300, type: 'pack' },
+  credit_tank:      { variantId: '1401821', credits: 1000, type: 'pack' },
 };
-
-const STORE_ID = process.env.LEMONSQUEEZY_STORE_ID || '315398';
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -31,68 +33,64 @@ export default async function handler(req, res) {
   if (!user) return res.status(401).json({ error: 'Not authenticated' });
 
   const { plan_id } = req.body;
-
-  if (!PRODUCTS[plan_id]) {
-    return res.status(400).json({ error: 'Invalid plan_id. Valid options: ' + Object.keys(PRODUCTS).join(', ') });
-  }
-
   const product = PRODUCTS[plan_id];
-  const apiKey = process.env.LEMONSQUEEZY_API_KEY;
-
-  if (!apiKey) {
-    return res.status(500).json({ error: 'Payment system not configured' });
-  }
+  if (!product) return res.status(400).json({ error: `Unknown plan: ${plan_id}` });
 
   try {
-    const response = await fetch('https://api.lemonsqueezy.com/v1/checkouts', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/vnd.api+json',
-        'Content-Type': 'application/vnd.api+json',
-        'Authorization': 'Bearer ' + apiKey,
-      },
-      body: JSON.stringify({
-        data: {
-          type: 'checkouts',
-          attributes: {
-            checkout_data: {
-              email: user.email,
-              custom: {
-                user_id: user.id,
-                plan_id: plan_id,
-                credits: String(product.credits),
-              },
-            },
-            checkout_options: {
-              dark: true,
-              embed: true,
-            },
-            product_options: {
-              redirect_url: 'https://zeluu.com/dashboard.html?payment=success',
+    const checkoutBody = {
+      data: {
+        type: 'checkouts',
+        attributes: {
+          checkout_data: {
+            email: user.email,
+            custom: {
+              user_id: user.id,
+              plan_id,
+              credits: String(product.credits),
+              product_type: product.type,
+              ...(product.plan && { plan_name: product.plan }),
+              ...(product.cycle && { billing_cycle: product.cycle }),
+              ...(product.maxChildren && { max_children: String(product.maxChildren) }),
             },
           },
-          relationships: {
-            store: {
-              data: { type: 'stores', id: STORE_ID },
-            },
-            variant: {
-              data: { type: 'variants', id: product.variant },
-            },
+          product_options: {
+            redirect_url: `${req.headers.origin || 'https://ai-math-tutor-lemon.vercel.app'}/dashboard.html?payment=success`,
           },
         },
-      }),
+        relationships: {
+          store: { data: { type: 'stores', id: STORE_ID } },
+          variant: { data: { type: 'variants', id: product.variantId } },
+        },
+      },
+    };
+
+    const lsRes = await fetch('https://api.lemonsqueezy.com/v1/checkouts', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.LEMONSQUEEZY_API_KEY}`,
+        'Accept': 'application/vnd.api+json',
+        'Content-Type': 'application/vnd.api+json',
+      },
+      body: JSON.stringify(checkoutBody),
     });
 
-    const result = await response.json();
-
-    if (!response.ok) {
-      console.error('LemonSqueezy error:', JSON.stringify(result));
-      return res.status(500).json({ error: 'Failed to create checkout' });
+    if (!lsRes.ok) {
+      const errText = await lsRes.text();
+      console.error('LemonSqueezy error:', lsRes.status, errText);
+      return res.status(502).json({ error: 'Payment provider error' });
     }
 
-    return res.status(200).json({ url: result.data.attributes.url });
+    const lsData = await lsRes.json();
+    const checkoutUrl = lsData.data?.attributes?.url;
+
+    if (!checkoutUrl) {
+      console.error('No checkout URL in response:', JSON.stringify(lsData));
+      return res.status(502).json({ error: 'No checkout URL returned' });
+    }
+
+    return res.status(200).json({ url: checkoutUrl });
   } catch (error) {
-    console.error('Checkout error:', error);
+    console.error('LemonSqueezy checkout error:', error);
     return res.status(500).json({ error: 'Failed to create checkout session' });
   }
 }
