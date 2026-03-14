@@ -372,6 +372,12 @@
             color: white; padding: 5px 20px; border-radius: 50px;
             font-size: 12px; font-weight: 700;
         }
+        .plan-card .trial-badge {
+            display: inline-block; background: linear-gradient(135deg, #10B981, #059669);
+            color: white; padding: 4px 14px; border-radius: 50px;
+            font-size: 11px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.5px; margin-bottom: 10px;
+        }
         .plan-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 4px; color: #0F172A; }
         .plan-card .plan-credits { font-size: 13px; color: #6366F1; font-weight: 600; margin-bottom: 16px; }
         .plan-card .plan-price { font-size: 42px; font-weight: 800; color: #0F172A; margin-bottom: 4px; }
@@ -743,7 +749,7 @@
     <div class="container">
         <div class="section-header reveal">
             <h2>Simple, credit-based pricing</h2>
-            <p>Start free with 10 credits. No credit card required.</p>
+            <p>Every plan includes a <strong>14-day free trial with 10 credits</strong> â no credit card required.</p>
         </div>
         <div class="toggle-wrap">
             <div class="toggle-pill">
@@ -753,57 +759,66 @@
         </div>
         <div class="pricing-grid-new reveal" id="pricing-cards">
             <div class="plan-card">
+                <div class="trial-badge">14-day free trial</div>
                 <h3>Starter</h3>
-                <div class="plan-credits">60 credits</div>
+                <div class="plan-credits">60 credits/mo</div>
                 <div class="plan-price" data-m="12" data-a="9.60">$12<span>/mo</span></div>
-                <div class="plan-period">Credits valid 30 days</div>
+                <div class="plan-period">then billed monthly â cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> 1 child</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
                     <li><span class="check">&#10003;</span> Photo support</li>
                     <li><span class="check">&#10003;</span> Session history</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="/login.html" class="plan-btn plan-btn-outline">Get Started</a>
+                <a href="/login.html" class="plan-btn plan-btn-outline">Try it now â Free</a>
             </div>
             <div class="plan-card popular">
                 <div class="pop-badge">Most Popular</div>
+                <div class="trial-badge">14-day free trial</div>
                 <h3>Standard</h3>
-                <div class="plan-credits">120 credits</div>
+                <div class="plan-credits">120 credits/mo</div>
                 <div class="plan-price" data-m="18" data-a="14.40">$18<span>/mo</span></div>
-                <div class="plan-period">Credits valid 30 days</div>
+                <div class="plan-period">then billed monthly â cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> Up to 2 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
                     <li><span class="check">&#10003;</span> Photo support</li>
                     <li><span class="check">&#10003;</span> Session history</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="/login.html" class="plan-btn plan-btn-filled">Get Started</a>
+                <a href="/login.html" class="plan-btn plan-btn-filled">Try it now â Free</a>
             </div>
             <div class="plan-card">
+                <div class="trial-badge">14-day free trial</div>
                 <h3>Premium</h3>
-                <div class="plan-credits">300 credits</div>
+                <div class="plan-credits">300 credits/mo</div>
                 <div class="plan-price" data-m="30" data-a="24">$30<span>/mo</span></div>
-                <div class="plan-period">Credits valid 30 days</div>
+                <div class="plan-period">then billed monthly â cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> Up to 3 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
                     <li><span class="check">&#10003;</span> Photo support</li>
                     <li><span class="check">&#10003;</span> Weekly reports</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="/login.html" class="plan-btn plan-btn-outline">Get Started</a>
+                <a href="/login.html" class="plan-btn plan-btn-outline">Try it now â Free</a>
             </div>
             <div class="plan-card">
+                <div class="trial-badge">14-day free trial</div>
                 <h3>Family</h3>
-                <div class="plan-credits">1,000 credits</div>
+                <div class="plan-credits">1,000 credits/mo</div>
                 <div class="plan-price" data-m="85" data-a="68">$85<span>/mo</span></div>
-                <div class="plan-period">Credits valid 30 days</div>
+                <div class="plan-period">then billed monthly â cancel anytime</div>
                 <ul>
                     <li><span class="check">&#10003;</span> Up to 6 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
                     <li><span class="check">&#10003;</span> Photo support</li>
                     <li><span class="check">&#10003;</span> Weekly reports</li>
+                    <li><span class="check">&#10003;</span> Session viewer</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
-                <a href="/login.html" class="plan-btn plan-btn-outline">Get Started</a>
+                <a href="/login.html" class="plan-btn plan-btn-outline">Try it now â Free</a>
             </div>
         </div>
 
@@ -837,7 +852,7 @@
             <div class="addon-card">
                 <div class="addon-icon">&#128200;</div>
                 <h4>Weekly Report</h4>
-                <div class="addon-price">Coming Soon</div>
+                <div class="addon-price" style="color:var(--gray-500);">Coming Soon</div>
                 <div class="addon-detail">Per child</div>
                 <div class="addon-validity">&#128203; Progress report for parent + teacher</div>
             </div>
