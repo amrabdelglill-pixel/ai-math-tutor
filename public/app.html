@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zeluu - MathBuddy</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/styes.css">
 </head>
 <body class="chat-page">
   <!-- Nav -->
@@ -318,7 +318,7 @@
     let limitBlocked = false;
     async function checkCreditLimits() {
       try {
-        const data = await apiCall('/api/children/check-limits');
+        const data = await apiCall('/api/children/set-limits');
         if (!data) return;
         const infoEl = document.getElementById('limit-info');
         const blockedEl = document.getElementById('limit-blocked');
