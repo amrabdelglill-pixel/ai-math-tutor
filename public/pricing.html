@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeluu - Pricing & Plans</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4F46E5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Zeluu">
+    <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/icon-96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+    <link rel="shortcut icon" href="/icons/icon-96.png">
+    <meta name="description" content="Choose a Zeluu plan that fits your family. 14-day free trial with 10 credits on every plan.">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        body.pricing-page {
+            background: linear-gradient(135deg, #EEF2FF 0%, #F0F9FF 50%, #FDF4FF 100%);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        .landing-nav {
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(241,245,249,0.8);
+            padding: 14px 0;
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 100;
+        }
+        .landing-nav .nav-brand { font-size: 24px; font-weight: 800; text-decoration: none; }
+        .landing-nav .nav-links a { color: #475569; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s; }
+        .landing-nav .nav-links a:hover { color: #6366F1; }
+        .btn-nav-signin {
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            color: white !important;
+            padding: 9px 22px;
+            border-radius: 10px;
+            font-weight: 600 !important;
+            transition: all 0.3s;
+        }
+        .btn-nav-signin:hover { box-shadow: 0 4px 14px rgba(99,102,241,0.3); transform: translateY(-1px); }
+        .pricing-hero { padding: 120px 0 40px; text-align: center; }
+        .pricing-hero h1 { font-size: 40px; font-weight: 800; color: #0F172A; margin-bottom: 12px; }
+        .pricing-hero p { font-size: 18px; color: #64748B; max-width: 520px; margin: 0 auto 8px; }
+        .pricing-hero .trial-highlight {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: linear-gradient(135deg, #10B981, #059669);
+            color: white; padding: 8px 20px; border-radius: 50px;
+            font-size: 14px; font-weight: 700; margin-top: 16px;
+        }
+        .pricing-section { padding: 20px 0 60px; }
+        .toggle-wrap { text-align: center; margin-bottom: 36px; }
+        .toggle-pill {
+            display: inline-flex; background: #F1F5F9;
+            border-radius: 50px; padding: 4px;
+        }
+        .toggle-pill button {
+            padding: 10px 24px; border-radius: 50px; border: none;
+            font-size: 14px; font-weight: 600; cursor: pointer;
+            transition: all 0.3s; background: transparent; color: #64748B;
+        }
+        .toggle-pill button.active {
+            background: white; color: #6366F1;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .save-badge {
+            background: #ECFDF5; color: #059669;
+            padding: 2px 10px; border-radius: 10px;
+            font-size: 12px; font-weight: 700; margin-left: 6px;
+        }
+        .pricing-grid-new {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 20px; margin-bottom: 48px;
+        }
+        .plan-card {
+            background: white; border-radius: 20px; padding: 32px 24px;
+            text-align: center; border: 2px solid #F1F5F9;
+            transition: all 0.3s; position: relative;
+        }
+        .plan-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); }
+        .plan-card.popular {
+            border-color: #6366F1;
+            box-shadow: 0 8px 30px rgba(99,102,241,0.15);
+        }
+        .plan-card .pop-badge {
+            position: absolute; top: -14px; left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            color: white; padding: 5px 20px; border-radius: 50px;
+            font-size: 12px; font-weight: 700;
+        }
+        .plan-card .trial-badge {
+            display: inline-block; background: linear-gradient(135deg, #10B981, #059669);
+            color: white; padding: 4px 14px; border-radius: 50px;
+            font-size: 11px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.5px; margin-bottom: 10px;
+        }
+        .plan-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 4px; color: #0F172A; }
+        .plan-card .plan-credits { font-size: 13px; color: #6366F1; font-weight: 600; margin-bottom: 16px; }
+        .plan-card .plan-price { font-size: 42px; font-weight: 800; color: #0F172A; margin-bottom: 4px; }
+        .plan-card .plan-price span { font-size: 16px; font-weight: 400; color: #94A3B8; }
+        .plan-card .plan-period { font-size: 12px; color: #94A3B8; margin-bottom: 20px; }
+        .plan-card ul { list-style: none; padding: 0; margin-bottom: 24px; text-align: left; }
+        .plan-card ul li {
+            padding: 6px 0; font-size: 14px; color: #475569;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .plan-card ul li .check { color: #10B981; font-weight: 700; }
+        .plan-btn {
+            display: block; width: 100%; padding: 12px; border-radius: 12px;
+            font-size: 14px; font-weight: 700; cursor: pointer; border: none;
+            transition: all 0.3s; text-decoration: none; text-align: center;
+        }
+        .plan-btn-outline {
+            background: white; color: #6366F1;
+            border: 2px solid #E0E7FF !important;
+        }
+        .plan-btn-outline:hover { background: #EEF2FF; }
+        .plan-btn-filled {
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            color: white; box-shadow: 0 4px 14px rgba(99,102,241,0.3);
+        }
+        .plan-btn-filled:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(99,102,241,0.4); }
+        .addons-section { padding: 0 0 60px; }
+        .addons-header { text-align: center; margin-bottom: 24px; }
+        .addons-header h3 { font-size: 22px; font-weight: 700; color: #0F172A; }
+        .addons-header p { font-size: 14px; color: #94A3B8; }
+        .addons-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 20px; max-width: 900px; margin: 0 auto;
+        }
+        .addon-card {
+            background: white; border-radius: 16px; padding: 24px;
+            text-align: center; border: 1px solid #F1F5F9;
+            transition: all 0.3s;
+        }
+        .addon-card:hover { border-color: #E0E7FF; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+        .addon-card .addon-icon { font-size: 28px; margin-bottom: 12px; }
+        .addon-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+        .addon-card .addon-price { font-size: 28px; font-weight: 800; color: #6366F1; }
+        .addon-card .addon-detail { font-size: 13px; color: #64748B; margin-top: 4px; }
+        .addon-card .addon-validity {
+            font-size: 12px; color: #94A3B8; margin-top: 6px;
+            display: flex; align-items: center; justify-content: center; gap: 4px;
+        }
+        .footer-new { padding: 40px 0; border-top: 1px solid #F1F5F9; text-align: center; }
+        .footer-new .footer-brand {
+            font-size: 22px; font-weight: 800;
+            background: linear-gradient(135deg, #6366F1, #EC4899);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text; margin-bottom: 8px;
+        }
+        .footer-new p { font-size: 13px; color: #94A3B8; }
+        .footer-links { display: flex; gap: 24px; justify-content: center; margin-top: 12px; flex-wrap: wrap; }
+        .footer-links a { font-size: 13px; color: #94A3B8; text-decoration: none; }
+        .footer-links a:hover { color: #6366F1; }
+        @media (max-width: 900px) {
+            .pricing-grid-new { grid-template-columns: 1fr 1fr; }
+            .addons-grid { grid-template-columns: 1fr 1fr; }
+            .pricing-hero h1 { font-size: 32px; }
+        }
+        @media (max-width: 600px) {
+            .pricing-grid-new { grid-template-columns: 1fr; }
+            .addons-grid { grid-template-columns: 1fr; }
+            .pricing-hero h1 { font-size: 28px; }
+        }
+    </style>
+</head>
+<body class="pricing-page">
+
+<!-- Nav -->
+<nav class="landing-nav">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between;">
+        <a href="/" class="nav-brand" style="display:flex; align-items:center; gap:8px; text-decoration:none;">
+            <div class="zeluu-mascot" style="width:32px; height:32px; border-radius:8px; box-shadow:none;">
+                <div class="z-antenna" style="top:-5px;"></div>
+                <div class="z-eyes" style="gap:4px;"><div class="z-eye" style="width:6px;height:7px;"></div><div class="z-eye" style="width:6px;height:7px;"></div></div>
+            </div>
+            <span style="font-size:22px; font-weight:800; background:linear-gradient(135deg,#6366F1,#EC4899); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">Zeluu</span>
+            <span class="zeluu-beta" style="margin-top:0;">Beta</span>
+        </a>
+        <div class="nav-links" style="display:flex; align-items:center; gap:24px;">
+            <a href="/">Home</a>
+            <a href="/login.html" class="btn-nav-signin">Sign In</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="pricing-hero">
+    <div class="container">
+        <h1>Choose the right plan for your family</h1>
+        <p>Simple, credit-based pricing. No hidden fees. Cancel anytime.</p>
+        <div class="trial-highlight">&#127891; 14-day free trial &bull; 10 free credits &bull; No credit card required</div>
+    </div>
+</section>
+
+<!-- Pricing Cards -->
+<section class="pricing-section">
+    <div class="container">
+        <div class="toggle-wrap">
+            <div class="toggle-pill">
+                <button id="btn-monthly" class="active" onclick="setPricing('monthly')">Monthly</button>
+                <button id="btn-annual" onclick="setPricing('annual')">Annual <span class="save-badge">Save 20%</span></button>
+            </div>
+        </div>
+        <div class="pricing-grid-new" id="pricing-cards">
+            <div class="plan-card">
+                <div class="trial-badge">14-day free trial</div>
+                <h3>Starter</h3>
+                <div class="plan-credits">60 credits/mo</div>
+                <div class="plan-price" data-m="12" data-a="9.60">$12<span>/mo</span></div>
+                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <ul>
+                    <li><span class="check">&#10003;</span> 1 child</li>
+                    <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
+                    <li><span class="check">&#10003;</span> Photo support</li>
+                    <li><span class="check">&#10003;</span> Session history</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
+                </ul>
+                <a href="#" class="plan-btn plan-btn-outline" data-plan="starter" onclick="signUpWithPlan(event, 'starter')">Sign Up — Free Trial</a>
+            </div>
+            <div class="plan-card popular">
+                <div class="pop-badge">Most Popular</div>
+                <div class="trial-badge">14-day free trial</div>
+                <h3>Standard</h3>
+                <div class="plan-credits">120 credits/mo</div>
+                <div class="plan-price" data-m="18" data-a="14.40">$18<span>/mo</span></div>
+                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <ul>
+                    <li><span class="check">&#10003;</span> Up to 2 children</li>
+                    <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
+                    <li><span class="check">&#10003;</span> Photo support</li>
+                    <li><span class="check">&#10003;</span> Session history</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
+                </ul>
+                <a href="#" class="plan-btn plan-btn-filled" data-plan="standard" onclick="signUpWithPlan(event, 'standard')">Sign Up — Free Trial</a>
+            </div>
+            <div class="plan-card">
+                <div class="trial-badge">14-day free trial</div>
+                <h3>Premium</h3>
+                <div class="plan-credits">300 credits/mo</div>
+                <div class="plan-price" data-m="30" data-a="24">$30<span>/mo</span></div>
+                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <ul>
+                    <li><span class="check">&#10003;</span> Up to 3 children</li>
+                    <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
+                    <li><span class="check">&#10003;</span> Photo support</li>
+                    <li><span class="check">&#10003;</span> Weekly reports</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
+                </ul>
+                <a href="#" class="plan-btn plan-btn-outline" data-plan="premium" onclick="signUpWithPlan(event, 'premium')">Sign Up — Free Trial</a>
+            </div>
+            <div class="plan-card">
+                <div class="trial-badge">14-day free trial</div>
+                <h3>Family</h3>
+                <div class="plan-credits">1,000 credits/mo</div>
+                <div class="plan-price" data-m="85" data-a="68">$85<span>/mo</span></div>
+                <div class="plan-period">then billed monthly — cancel anytime</div>
+                <ul>
+                    <li><span class="check">&#10003;</span> Up to 6 children</li>
+                    <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
+                    <li><span class="check">&#10003;</span> Photo support</li>
+                    <li><span class="check">&#10003;</span> Weekly reports</li>
+                    <li><span class="check">&#10003;</span> Session viewer</li>
+                    <li><span class="check">&#10003;</span> 10 free credits on trial</li>
+                </ul>
+                <a href="#" class="plan-btn plan-btn-outline" data-plan="family" onclick="signUpWithPlan(event, 'family')">Sign Up — Free Trial</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Add-ons -->
+<section class="addons-section">
+    <div class="container">
+        <div class="addons-header">
+            <h3>Add-ons</h3>
+            <p>Requires an active plan. Buy extra credits or reports any time.</p>
+        </div>
+        <div class="addons-grid">
+            <div class="addon-card">
+                <div class="addon-icon">&#128161;</div>
+                <h4>Quick Top-Up</h4>
+                <div class="addon-price">$15</div>
+                <div class="addon-detail">100 credits</div>
+                <div class="addon-validity">&#128197; Valid 14 days from purchase</div>
+            </div>
+            <div class="addon-card">
+                <div class="addon-icon">&#9889;</div>
+                <h4>Credit Pack</h4>
+                <div class="addon-price">$35</div>
+                <div class="addon-detail">300 credits</div>
+                <div class="addon-validity">&#128197; Valid 30 days from purchase</div>
+            </div>
+            <div class="addon-card">
+                <div class="addon-icon">&#128640;</div>
+                <h4>Credit Tank</h4>
+                <div class="addon-price">$100</div>
+                <div class="addon-detail">1,000 credits</div>
+                <div class="addon-validity">&#128197; Valid 90 days from purchase</div>
+            </div>
+            <div class="addon-card">
+                <div class="addon-icon">&#128200;</div>
+                <h4>Weekly Report</h4>
+                <div class="addon-price" style="color:#94A3B8;">Coming Soon</div>
+                <div class="addon-detail">Per child</div>
+                <div class="addon-validity">&#128203; Progress report for parent + teacher</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-new">
+    <div class="container">
+        <div class="footer-brand" style="display:flex; align-items:center; justify-content:center; gap:8px;">
+            <div class="zeluu-mascot" style="width:28px; height:28px; border-radius:8px; box-shadow:none;">
+                <div class="z-antenna" style="top:-5px;"></div>
+                <div class="z-eyes" style="gap:4px;"><div class="z-eye" style="width:6px;height:7px;"></div><div class="z-eye" style="width:6px;height:7px;"></div></div>
+            </div>
+            <span>Zeluu</span>
+            <span class="zeluu-beta" style="margin-top:0;">Beta</span>
+        </div>
+        <p>Supervised AI learning for children. Built with care for parents who care.</p>
+        <div class="footer-links">
+            <a href="/#features">Features</a>
+            <a href="/pricing.html">Pricing</a>
+            <a href="/login.html">Sign In</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms of Service</a>
+            <a href="/refund.html">Refund Policy</a>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/supabase-config.js"></script>
+<script>
+// Pricing toggle
+function setPricing(mode) {
+    document.querySelectorAll('.plan-price[data-m]').forEach(el => {
+        const price = mode === 'annual' ? el.dataset.a : el.dataset.m;
+        const suffix = mode === 'annual' ? '/mo (billed yearly)' : '/mo';
+        el.innerHTML = '$' + price + '<span>' + suffix + '</span>';
+    });
+    document.getElementById('btn-monthly').className = mode === 'monthly' ? 'active' : '';
+    document.getElementById('btn-annual').className = mode === 'annual' ? 'active' : '';
+    window._billingPeriod = mode;
+}
+window._billingPeriod = 'monthly';
+
+// Sign up with chosen plan
+async function signUpWithPlan(e, planName) {
+    e.preventDefault();
+    const btn = e.currentTarget;
+    const origText = btn.textContent;
+    btn.textContent = 'Loading...';
+    btn.style.pointerEvents = 'none';
+
+    const planId = planName + '_' + window._billingPeriod;
+
+    try {
+        const session = await getSession();
+        if (session) {
+            const data = await apiCall('/api/credits/checkout', {
+                method: 'POST',
+                body: JSON.stringify({ plan_id: planId })
+            });
+            if (data && data.url) {
+                window.location.href = data.url;
+                return;
+            }
+        }
+        window.location.href = '/login.html?plan=' + encodeURIComponent(planId);
+    } catch (err) {
+        window.location.href = '/login.html?plan=' + encodeURIComponent(planId);
+    } finally {
+        btn.textContent = origText;
+        btn.style.pointerEvents = '';
+    }
+}
+</script>
+</body>
+</html>
