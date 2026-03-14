@@ -46,6 +46,22 @@
       <div class="card stat-card">
         <div class="stat-value" id="stat-plan">Free</div>
         <div class="stat-label">Current Plan</div>
+        <div id="renewal-info" style="font-size:12px; color:var(--gray-500); margin-top:6px;"></div>
+      </div>
+    </div>
+
+    <!-- Usage Card -->
+    <div class="card mb-6" id="usage-card" style="display:none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="margin:0;">Credit Usage</h3>
+        <span id="usage-label" style="font-size:13px; color:var(--gray-500);">0 / 0 credits used</span>
+      </div>
+      <div style="width:100%; height:8px; background:var(--gray-100); border-radius:999px; overflow:hidden;">
+        <div id="usage-bar" style="height:100%; width:0%; border-radius:999px; transition:width .5s ease;"></div>
+      </div>
+      <div style="display:flex; justify-content:space-between; margin-top:8px;">
+        <span id="usage-percent" style="font-size:12px; font-weight:600;"></span>
+        <span id="usage-remaining" style="font-size:12px; color:var(--gray-500);"></span>
       </div>
     </div>
 
@@ -72,16 +88,28 @@
       <!-- Get More Credits -->
       <div class="card">
         <h3 class="mb-4">Get More Credits</h3>
+
+        <!-- Billing toggle -->
         <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--gray-50); border-radius:8px; padding:4px;">
           <button id="btn-monthly" class="btn btn-primary" onclick="setBilling('monthly')" style="flex:1; font-size:13px; padding:6px 0;">Monthly</button>
           <button id="btn-annual" class="btn btn-secondary" onclick="setBilling('annual')" style="flex:1; font-size:13px; padding:6px 0;">Annual <span style="font-size:11px; color:var(--success);">(Save 20%)</span></button>
         </div>
-        <div class="flex flex-col gap-2" id="subscription-plans"></div>
+
+        <div class="flex flex-col gap-2" id="subscription-plans">
+          <!-- Populated by JS -->
+        </div>
+
         <h3 class="mt-6 mb-4">Or buy a credit pack</h3>
         <div class="flex flex-col gap-2">
-          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between;"><span>Quick Top-Up — 100 credits</span><strong>$15</strong></button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between;"><span>Credit Pack — 300 credits</span><strong>$35</strong></button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between;"><span>Credit Tank — 1,000 credits</span><strong>$100</strong></button>
+          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between;">
+            <span>Quick Top-Up â 100 credits</span><strong>$15</strong>
+          </button>
+          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between;">
+            <span>Credit Pack â 300 credits</span><strong>$35</strong>
+          </button>
+          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between;">
+            <span>Credit Tank â 1,000 credits</span><strong>$100</strong>
+          </button>
         </div>
       </div>
     </div>
@@ -90,25 +118,29 @@
     <div class="card mt-6">
       <h3 class="mb-4">Recent Sessions</h3>
       <div class="session-list" id="sessions-list">
-        <p style="color:var(--gray-500); font-size:14px;">No sessions yet.</p>
+        <p style="color:var(--gray-500); font-size:14px;">No sessions yet. Start tutoring to see history here.</p>
       </div>
     </div>
 
-    <!-- Transcript Modal -->
+    <!-- Session Transcript Modal -->
     <div class="modal-overlay" id="transcript-modal">
       <div class="modal" style="max-width:600px; max-height:80vh; overflow-y:auto;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
           <h2 id="transcript-title">Session Transcript</h2>
           <button onclick="closeTranscript()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
         </div>
-        <div id="transcript-content" style="display:flex; flex-direction:column; gap:12px;"><p style="color:var(--gray-500);">Loading...</p></div>
+        <div id="transcript-content" style="display:flex; flex-direction:column; gap:12px;">
+          <p style="color:var(--gray-500);">Loading...</p>
+        </div>
       </div>
     </div>
 
     <!-- Credit History -->
     <div class="card mt-6 mb-6">
       <h3 class="mb-4">Credit History</h3>
-      <div id="credit-history"><p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p></div>
+      <div id="credit-history">
+        <p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p>
+      </div>
     </div>
   </div>
 
@@ -122,147 +154,498 @@
     })();
 
     async function loadDashboard() {
+      // Load credits + transactions
       const creditData = await apiCall('/api/credits/balance');
       if (creditData) {
         document.getElementById('stat-credits').textContent = creditData.credits;
-        document.getElementById('credit-badge').textContent = creditData.credits + ' credits';
+        document.getElementById('credit-badge').textContent = `${creditData.credits} credits`;
+
         if (creditData.subscription) {
           const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
           document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
+
+          // Show renewal / validity date
+          if (creditData.subscription.current_period_end) {
+            const renewDate = new Date(creditData.subscription.current_period_end);
+            const now = new Date();
+            const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
+            const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+            let color = 'var(--success)';
+            if (daysLeft <= 7) color = 'var(--danger)';
+            else if (daysLeft <= 14) color = 'var(--warning)';
+            document.getElementById('renewal-info').innerHTML =
+              `Renews: <strong style="color:${color};">${dateStr}</strong> (${daysLeft}d left)`;
+          }
         }
+
+        // Usage bar
+        if (creditData.subscription) {
+          const total = creditData.subscription.credits_per_month || 0;
+          const balance = creditData.credits || 0;
+          const used = Math.max(0, total - balance);
+          const pct = total > 0 ? Math.min(100, Math.round((used / total) * 100)) : 0;
+
+          document.getElementById('usage-card').style.display = 'block';
+          document.getElementById('usage-label').textContent = `${used} / ${total} credits used`;
+          document.getElementById('usage-bar').style.width = pct + '%';
+          document.getElementById('usage-bar').style.background =
+            pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
+          document.getElementById('usage-percent').textContent = pct + '% used';
+          document.getElementById('usage-percent').style.color =
+            pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
+          document.getElementById('usage-remaining').textContent = `${balance} remaining`;
+
+          // Store plan info globally for feature gating
+          window._currentPlan = creditData.subscription.plan_name;
+          window._maxChildren = creditData.subscription.max_children || 1;
+        }
+
+        // Credit history
         if (creditData.recent_transactions && creditData.recent_transactions.length > 0) {
-          document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(function(t) {
-            return '<div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);"><div><span style="font-size:14px;">' + (t.description || t.type) + '</span><span style="font-size:12px; color:var(--gray-500); margin-left:8px;">' + new Date(t.created_at).toLocaleDateString() + '</span></div><span style="font-weight:600; color:' + (t.amount > 0 ? 'var(--success)' : 'var(--danger)') + ';">' + (t.amount > 0 ? '+' : '') + t.amount + '</span></div>';
-          }).join('');
+          document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(t => `
+            <div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);">
+              <div>
+                <span style="font-size:14px;">${t.description || t.type}</span>
+                <span style="font-size:12px; color:var(--gray-500); margin-left:8px;">${new Date(t.created_at).toLocaleDateString()}</span>
+              </div>
+              <span style="font-weight:600; color:${t.amount > 0 ? 'var(--success)' : 'var(--danger)'};">
+                ${t.amount > 0 ? '+' : ''}${t.amount}
+              </span>
+            </div>
+          `).join('');
         }
       }
+
+      // Load children
       const childData = await apiCall('/api/children/list');
       if (childData && childData.children) {
         document.getElementById('stat-children').textContent = childData.children.length;
+
+        // Get per-child credit consumption from sessions
+        let childUsage = {};
         if (childData.children.length > 0) {
-          document.getElementById('children-list').innerHTML = childData.children.map(function(c) {
-            var creds = c.username ? '<div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">Username: <strong style="color:var(--gray-700);">' + c.username + '</strong></div><button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Change Login</button>' : '<button class="btn btn-primary" style="font-size:12px; padding:6px 12px; width:100%;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Set Login Credentials</button>';
-            return '<div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;"><div><strong style="display:block;">' + c.name + '</strong><span style="font-size:12px; color:var(--gray-500);">Grade ' + c.grade + '</span></div></div>' + creds + '</div>';
-          }).join('');
+          const childIds = childData.children.map(c => c.id);
+          const { data: usageRows } = await window.supabaseClient
+            .from('sessions')
+            .select('child_id, credits_used')
+            .in('child_id', childIds);
+          if (usageRows) {
+            usageRows.forEach(s => {
+              childUsage[s.child_id] = (childUsage[s.child_id] || 0) + (s.credits_used || 0);
+            });
+          }
+        }
+
+        if (childData.children.length > 0) {
+          document.getElementById('children-list').innerHTML = childData.children.map(c => {
+            const used = childUsage[c.id] || 0;
+            return `
+            <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <div>
+                  <strong style="display:block;">${c.name}</strong>
+                  <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade}</span>
+                </div>
+                <div style="text-align:right;">
+                  <span style="display:inline-block; background:${used > 0 ? 'var(--primary-light)' : 'var(--gray-100)'}; color:${used > 0 ? 'var(--primary)' : 'var(--gray-500)'}; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">
+                    ${used} credit${used !== 1 ? 's' : ''} used
+                  </span>
+                </div>
+              </div>
+              ${c.phone ? `
+                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:6px; color:var(--gray-500);">
+                  Phone: <strong style="color:var(--gray-700);">${c.phone}</strong>
+                </div>
+              ` : ''}
+              ${c.username ? `
+                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">
+                  Username: <strong style="color:var(--gray-700);">${c.username}</strong>
+                </div>
+                <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                  <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Change Login</button>
+                  ${['premium','family'].includes(window._currentPlan) ? `
+                    <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openCreditLimitModal('${c.id}', '${c.name}', ${c.credit_limit_daily || 'null'}, ${c.credit_limit_weekly || 'null'}, ${c.credit_limit_monthly || 'null'})">Credit Limits</button>
+                  ` : ''}
+                  ${window._currentPlan === 'family' ? `
+                    <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewChildSessions('${c.id}', '${c.name}')">Sessions</button>
+                  ` : ''}
+                </div>
+              ` : `
+                <button class="btn btn-primary" style="font-size:12px; padding:6px 12px; width:100%;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Set Login Credentials</button>
+              `}
+            </div>
+          `}).join('');
         }
       }
+
+      // Load sessions
       const sessionData = await apiCall('/api/sessions/history');
       if (sessionData && sessionData.sessions) {
         document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
+
         if (sessionData.sessions.length > 0) {
-          document.getElementById('sessions-list').innerHTML = sessionData.sessions.map(function(s) {
-            var name = s.children ? s.children.name : 'Unknown';
-            var stuck = s.status === 'stuck_loop' ? '<span style="color:var(--warning); font-size:12px; margin-left:8px;">Stuck</span>' : '';
-            var flagged = s.status === 'flagged' ? '<span style="color:var(--danger); font-size:12px; margin-left:8px;">Flagged</span>' : '';
-            return '<div class="session-item"><div style="flex:1;"><div><strong>' + name + '</strong><span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Grade ' + s.grade + '</span>' + stuck + flagged + '</div><div class="meta">' + (s.interaction_count || 0) + ' messages &middot; ' + (s.credits_used || 0) + ' credits &middot; ' + new Date(s.started_at).toLocaleDateString() + '</div></div><button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewTranscript(\'' + s.id + '\', \'' + (s.children ? s.children.name : 'Session') + '\')">View</button></div>';
-          }).join('');
+          document.getElementById('sessions-list').innerHTML = sessionData.sessions.map(s => `
+            <div class="session-item">
+              <div style="flex:1;">
+                <div>
+                  <strong>${s.children?.name || 'Unknown'}</strong>
+                  <span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Grade ${s.grade}</span>
+                  ${s.status === 'stuck_loop' ? '<span style="color:var(--warning); font-size:12px; margin-left:8px;">Stuck</span>' : ''}
+                  ${s.status === 'flagged' ? '<span style="color:var(--danger); font-size:12px; margin-left:8px;">Flagged</span>' : ''}
+                </div>
+                <div class="meta">
+                  ${s.interaction_count || 0} messages &middot; ${s.credits_used || 0} credits &middot;
+                  ${new Date(s.started_at).toLocaleDateString()}
+                </div>
+              </div>
+              <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewTranscript('${s.id}', '${s.children?.name || 'Session'}')">View</button>
+            </div>
+          `).join('');
         }
       }
-      var sess = await getSession();
-      if (sess) {
-        var result = await window.supabaseClient.from('notifications').select('*').eq('read', false).order('created_at', { ascending: false }).limit(5);
-        var notifs = result.data;
+
+      // Load notifications
+      const session = await getSession();
+      if (session) {
+        const { data: notifs } = await window.supabaseClient
+          .from('notifications')
+          .select('*')
+          .eq('read', false)
+          .order('created_at', { ascending: false })
+          .limit(5);
+
         if (notifs && notifs.length > 0) {
-          document.getElementById('notifications-list').innerHTML = notifs.map(function(n) {
-            var bg = n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' ? '#FEE2E2' : 'var(--gray-50)';
-            return '<div style="padding:10px 14px; background:' + bg + '; border-radius:8px; margin-bottom:8px;"><strong style="font-size:14px;">' + n.title + '</strong><p style="font-size:13px; color:var(--gray-500); margin-top:2px;">' + (n.body || '') + '</p><span style="font-size:11px; color:var(--gray-500);">' + new Date(n.created_at).toLocaleString() + '</span></div>';
-          }).join('');
+          document.getElementById('notifications-list').innerHTML = notifs.map(n => `
+            <div style="padding:10px 14px; background:${n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' ? '#FEE2E2' : 'var(--gray-50)'}; border-radius:8px; margin-bottom:8px;">
+              <strong style="font-size:14px;">${n.title}</strong>
+              <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">${n.body || ''}</p>
+              <span style="font-size:11px; color:var(--gray-500);">${new Date(n.created_at).toLocaleString()}</span>
+            </div>
+          `).join('');
         }
       }
     }
 
+    // ---- ADD CHILD MODAL ----
     function openAddChildModal() {
-      var modal = document.getElementById('add-child-modal');
+      let modal = document.getElementById('add-child-modal');
       if (!modal) {
-        var div = document.createElement('div');
+        const div = document.createElement('div');
         div.id = 'add-child-modal';
         div.className = 'modal-overlay';
-        div.innerHTML = '<div class="modal" style="max-width:420px;"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;"><h2>Add a Child</h2><button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button></div><form onsubmit="submitAddChild(event)"><div class="form-group"><label>Child\'s Name</label><input type="text" id="child-name" placeholder="e.g. Ahmed" required></div><div class="form-group"><label>Grade (1-9)</label><select id="child-grade" required><option value="">Select grade</option><option value="1">Grade 1</option><option value="2">Grade 2</option><option value="3">Grade 3</option><option value="4">Grade 4</option><option value="5">Grade 5</option><option value="6">Grade 6</option><option value="7">Grade 7</option><option value="8">Grade 8</option><option value="9">Grade 9</option></select></div><div class="form-group"><label>Preferred Language</label><select id="child-lang"><option value="en">English</option><option value="ar">Arabic</option></select></div><div class="form-group"><label>Child\'s Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label><input type="tel" id="child-phone" placeholder="+971 50 123 4567"></div><div id="add-child-error" class="form-error"></div><div style="display:flex; gap:8px;"><button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button><button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button></div></form></div>';
+        div.innerHTML = `
+          <div class="modal" style="max-width:420px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+              <h2>Add a Child</h2>
+              <button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+            </div>
+            <form onsubmit="submitAddChild(event)">
+              <div class="form-group">
+                <label>Child's Name</label>
+                <input type="text" id="child-name" placeholder="e.g. Ahmed" required>
+              </div>
+              <div class="form-group">
+                <label>Grade (1-9)</label>
+                <select id="child-grade" required>
+                  <option value="">Select grade</option>
+                  <option value="1">Grade 1</option>
+                  <option value="2">Grade 2</option>
+                  <option value="3">Grade 3</option>
+                  <option value="4">Grade 4</option>
+                  <option value="5">Grade 5</option>
+                  <option value="6">Grade 6</option>
+                  <option value="7">Grade 7</option>
+                  <option value="8">Grade 8</option>
+                  <option value="9">Grade 9</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Preferred Language</label>
+                <select id="child-lang">
+                  <option value="en">English</option>
+                  <option value="ar">Arabic</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Country / Curriculum</label>
+                <select id="child-country" required>
+                  <option value="">Select country</option>
+                  <option value="AE">UAE</option>
+                  <option value="SA">Saudi Arabia</option>
+                  <option value="EG">Egypt</option>
+                  <option value="KW">Kuwait</option>
+                  <option value="QA">Qatar</option>
+                  <option value="BH">Bahrain</option>
+                  <option value="OM">Oman</option>
+                  <option value="JO">Jordan</option>
+                  <option value="GB">United Kingdom</option>
+                  <option value="US">United States</option>
+                  <option value="IN">India</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Child's Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+                <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
+              </div>
+              <div id="add-child-error" class="form-error"></div>
+              <div style="display:flex; gap:8px;">
+                <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
+                <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
+              </div>
+            </form>
+          </div>
+        `;
         document.body.appendChild(div);
       }
-      var form = document.querySelector('#add-child-modal form');
+      // Reset form
+      const form = document.querySelector('#add-child-modal form');
       if (form) form.reset();
       document.getElementById('add-child-modal').classList.add('active');
     }
-    function closeAddChildModal() { var m = document.getElementById('add-child-modal'); if (m) m.classList.remove('active'); }
+
+    function closeAddChildModal() {
+      const modal = document.getElementById('add-child-modal');
+      if (modal) modal.classList.remove('active');
+    }
 
     async function submitAddChild(e) {
       e.preventDefault();
-      var btn = document.getElementById('add-child-btn');
-      var errorEl = document.getElementById('add-child-error');
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>'; errorEl.style.display = 'none';
-      var session = await getSession(); if (!session) return;
-      var name = document.getElementById('child-name').value.trim();
-      var grade = parseInt(document.getElementById('child-grade').value);
-      var lang = document.getElementById('child-lang').value;
-      var phone = document.getElementById('child-phone').value.trim() || null;
-      var result = await window.supabaseClient.from('children').insert({ parent_id: session.user.id, name: name, grade: grade, preferred_language: lang, phone: phone, is_active: true }).select().single();
-      btn.disabled = false; btn.textContent = 'Add Child';
-      if (result.error) { var msg = result.error.message; if (msg.includes('check_child_limit')) msg = 'Maximum children reached. Upgrade your plan.'; errorEl.textContent = msg; errorEl.style.display = 'block'; }
-      else { closeAddChildModal(); await loadDashboard(); }
+      const btn = document.getElementById('add-child-btn');
+      const errorEl = document.getElementById('add-child-error');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+      errorEl.style.display = 'none';
+
+      const session = await getSession();
+      if (!session) return;
+
+      const name = document.getElementById('child-name').value.trim();
+      const grade = parseInt(document.getElementById('child-grade').value);
+      const lang = document.getElementById('child-lang').value;
+      const country = document.getElementById('child-country').value;
+      const phone = document.getElementById('child-phone').value.trim() || null;
+
+      const { data, error } = await window.supabaseClient
+        .from('children')
+        .insert({
+          parent_id: session.user.id,
+          name: name,
+          grade: grade,
+          preferred_language: lang,
+          country: country,
+          phone: phone,
+          is_active: true
+        })
+        .select()
+        .single();
+
+      btn.disabled = false;
+      btn.textContent = 'Add Child';
+
+      if (error) {
+        let msg = error.message;
+        if (msg.includes('check_child_limit')) {
+          msg = 'You have reached the maximum number of children for your plan. Please upgrade to add more.';
+        }
+        errorEl.textContent = msg;
+        errorEl.style.display = 'block';
+      } else {
+        closeAddChildModal();
+        await loadDashboard();
+      }
     }
 
+    // ---- SET CREDENTIALS MODAL ----
     function openSetCredentialsModal(childId, childName) {
-      var modal = document.getElementById('credentials-modal');
+      let modal = document.getElementById('credentials-modal');
       if (modal) modal.remove();
-      var div = document.createElement('div');
+
+      const div = document.createElement('div');
       div.id = 'credentials-modal';
       div.className = 'modal-overlay active';
-      div.innerHTML = '<div class="modal" style="max-width:400px;"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;"><h2>Set Login Credentials</h2><button onclick="closeCredentialsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button></div><p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>' + childName + '</strong> log in with a username and password.</p><form onsubmit="submitCredentials(event, \'' + childId + '\')"><div class="form-group"><label>Username</label><input type="text" id="cred-username" placeholder="3-20 chars" required pattern="[a-zA-Z0-9]{3,20}"></div><div class="form-group"><label>Password</label><input type="password" id="cred-password" placeholder="At least 4 chars" required minlength="4"></div><div id="cred-error" class="form-error"></div><div style="display:flex; gap:8px;"><button type="submit" class="btn btn-primary" style="flex:1;">Save</button><button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCredentialsModal()">Cancel</button></div></form></div>';
+      div.innerHTML = `
+        <div class="modal" style="max-width:400px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Set Login Credentials</h2>
+            <button onclick="closeCredentialsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+          </div>
+          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>${childName}</strong> log in with a username and password.</p>
+          <form onsubmit="submitCredentials(event, '${childId}')">
+            <div class="form-group">
+              <label>Username</label>
+              <input type="text" id="cred-username" placeholder="3-20 characters, letters and numbers only" required pattern="[a-zA-Z0-9]{3,20}">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" id="cred-password" placeholder="At least 4 characters" required minlength="4">
+            </div>
+            <div id="cred-error" class="form-error"></div>
+            <div style="display:flex; gap:8px;">
+              <button type="submit" class="btn btn-primary" style="flex:1;">Save</button>
+              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCredentialsModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
+      `;
       document.body.appendChild(div);
     }
-    function closeCredentialsModal() { var m = document.getElementById('credentials-modal'); if (m) m.classList.remove('active'); }
+
+    function closeCredentialsModal() {
+      const modal = document.getElementById('credentials-modal');
+      if (modal) modal.classList.remove('active');
+    }
 
     async function submitCredentials(e, childId) {
       e.preventDefault();
-      var username = document.getElementById('cred-username').value.trim();
-      var password = document.getElementById('cred-password').value;
-      var errorEl = document.getElementById('cred-error');
-      var btn = e.target.querySelector('button[type="submit"]');
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>'; errorEl.style.display = 'none';
-      var data = await apiCall('/api/children/set-credentials', { method: 'POST', body: JSON.stringify({ child_id: childId, username: username, password: password }) });
-      btn.disabled = false; btn.textContent = 'Save';
-      if (data && data.success) { closeCredentialsModal(); await loadDashboard(); }
-      else { errorEl.textContent = (data && data.error) || 'Failed to set credentials'; errorEl.style.display = 'block'; }
+      const username = document.getElementById('cred-username').value.trim();
+      const password = document.getElementById('cred-password').value;
+      const errorEl = document.getElementById('cred-error');
+
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+      errorEl.style.display = 'none';
+
+      const data = await apiCall('/api/children/set-credentials', {
+        method: 'POST',
+        body: JSON.stringify({ child_id: childId, username, password })
+      });
+
+      btn.disabled = false;
+      btn.textContent = 'Save';
+
+      if (data && data.success) {
+        closeCredentialsModal();
+        await loadDashboard();
+      } else {
+        errorEl.textContent = data?.error || 'Failed to set credentials';
+        errorEl.style.display = 'block';
+      }
     }
 
-    async function viewTranscript(sessionId, childName) {
-      var modal = document.getElementById('transcript-modal');
-      document.getElementById('transcript-title').textContent = childName + '\'s Session';
-      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading...</p>';
+    // ---- CREDIT LIMIT MODAL (Premium + Family) ----
+    function openCreditLimitModal(childId, childName, daily, weekly, monthly) {
+      let modal = document.getElementById('credit-limit-modal');
+      if (modal) modal.remove();
+
+      const div = document.createElement('div');
+      div.id = 'credit-limit-modal';
+      div.className = 'modal-overlay active';
+      div.innerHTML = `
+        <div class="modal" style="max-width:400px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Credit Limits</h2>
+            <button onclick="closeCreditLimitModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+          </div>
+          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Set usage limits for <strong>${childName}</strong>. Leave blank for no limit.</p>
+          <form onsubmit="submitCreditLimits(event, '${childId}')">
+            <div class="form-group">
+              <label>Daily limit</label>
+              <input type="number" id="limit-daily" min="1" max="999" placeholder="No limit" value="${daily || ''}">
+            </div>
+            <div class="form-group">
+              <label>Weekly limit</label>
+              <input type="number" id="limit-weekly" min="1" max="9999" placeholder="No limit" value="${weekly || ''}">
+            </div>
+            <div class="form-group">
+              <label>Monthly limit</label>
+              <input type="number" id="limit-monthly" min="1" max="99999" placeholder="No limit" value="${monthly || ''}">
+            </div>
+            <div id="limit-error" class="form-error"></div>
+            <div style="display:flex; gap:8px;">
+              <button type="submit" class="btn btn-primary" style="flex:1;">Save Limits</button>
+              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCreditLimitModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
+      `;
+      document.body.appendChild(div);
+    }
+
+    function closeCreditLimitModal() {
+      const modal = document.getElementById('credit-limit-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    async function submitCreditLimits(e, childId) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+
+      const daily = document.getElementById('limit-daily').value ? parseInt(document.getElementById('limit-daily').value) : null;
+      const weekly = document.getElementById('limit-weekly').value ? parseInt(document.getElementById('limit-weekly').value) : null;
+      const monthly = document.getElementById('limit-monthly').value ? parseInt(document.getElementById('limit-monthly').value) : null;
+
+      const { error } = await window.supabaseClient
+        .from('children')
+        .update({
+          credit_limit_daily: daily,
+          credit_limit_weekly: weekly,
+          credit_limit_monthly: monthly,
+        })
+        .eq('id', childId);
+
+      btn.disabled = false;
+      btn.textContent = 'Save Limits';
+
+      if (error) {
+        document.getElementById('limit-error').textContent = error.message;
+        document.getElementById('limit-error').style.display = 'block';
+      } else {
+        closeCreditLimitModal();
+        await loadDashboard();
+      }
+    }
+
+    // ---- CHILD SESSIONS VIEWER (Family plan) ----
+    async function viewChildSessions(childId, childName) {
+      const modal = document.getElementById('transcript-modal');
+      document.getElementById('transcript-title').textContent = `${childName}'s Sessions`;
+      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading sessions...</p>';
       modal.classList.add('active');
-      var data = await apiCall('/api/sessions/history?session_id=' + sessionId);
-      if (data && data.sessions && data.sessions.length > 0) {
-        var session = data.sessions[0];
-        if (session.messages && session.messages.length > 0) {
-          document.getElementById('transcript-content').innerHTML = session.messages.map(function(m) {
-            var bg = m.role === 'user' ? 'var(--primary-light)' : 'var(--gray-100)';
-            var border = m.role === 'user' ? 'var(--primary)' : 'var(--gray-400)';
-            var label = m.role === 'user' ? childName : 'MathBuddy';
-            var labelColor = m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)';
-            return '<div style="padding:12px 14px; background:' + bg + '; border-radius:8px; border-left:4px solid ' + border + ';"><strong style="font-size:12px; color:' + labelColor + ';">' + label + '</strong><p style="margin:6px 0 0; font-size:14px; line-height:1.5;">' + escapeHtml(m.content) + '</p><span style="font-size:11px; color:var(--gray-500);">' + new Date(m.created_at).toLocaleTimeString() + '</span></div>';
-          }).join('');
-        } else { document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No messages.</p>'; }
-      } else { document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Session not found.</p>'; }
-    }
-    function closeTranscript() { document.getElementById('transcript-modal').classList.remove('active'); }
-    function escapeHtml(text) { var map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }; return text.replace(/[&<>"']/g, function(m) { return map[m]; }); }
 
-    var PLANS = {
+      const { data: sessions } = await window.supabaseClient
+        .from('sessions')
+        .select('id, started_at, status, interaction_count, credits_used, grade')
+        .eq('child_id', childId)
+        .order('started_at', { ascending: false })
+        .limit(20);
+
+      if (sessions && sessions.length > 0) {
+        document.getElementById('transcript-content').innerHTML = sessions.map(s => `
+          <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; cursor:pointer;" onclick="viewTranscript('${s.id}', '${childName}')">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="font-size:14px;">${new Date(s.started_at).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' })}</strong>
+              <span style="font-size:12px; color:var(--gray-500);">${s.interaction_count || 0} messages</span>
+            </div>
+            <div style="font-size:12px; color:var(--gray-500); margin-top:4px;">
+              ${s.credits_used || 0} credits &middot; Grade ${s.grade} &middot;
+              <span style="color:${s.status === 'completed' ? 'var(--success)' : s.status === 'stuck_loop' ? 'var(--warning)' : 'var(--gray-500)'};">${s.status}</span>
+            </div>
+          </div>
+        `).join('');
+      } else {
+        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No sessions yet for this child.</p>';
+      }
+    }
+
+    // ---- PRICING PLANS (LemonSqueezy) ----
+    const PLANS = {
       monthly: [
-        { id: 'starter_monthly',  name: 'Starter',  credits: 60,   price: '$12/mo' },
-        { id: 'standard_monthly', name: 'Standard',  credits: 120,  price: '$18/mo', featured: true },
-        { id: 'premium_monthly',  name: 'Premium',   credits: 300,  price: '$30/mo' },
-        { id: 'family_monthly',   name: 'Family',    credits: 1000, price: '$85/mo' }
+        { id: 'starter_monthly',  name: 'Starter',  credits: 60,   price: '$12/mo',  maxChildren: 1,   features: ['1 child'] },
+        { id: 'standard_monthly', name: 'Standard',  credits: 120,  price: '$18/mo',  maxChildren: 2,   features: ['Up to 2 children'], featured: true },
+        { id: 'premium_monthly',  name: 'Premium',   credits: 300,  price: '$30/mo',  maxChildren: 3,   features: ['Up to 3 children', 'Credit limits'] },
+        { id: 'family_monthly',   name: 'Family',    credits: 1000, price: '$85/mo',  maxChildren: 999, features: ['Unlimited children', 'Credit limits', 'Session viewer'] },
       ],
       annual: [
-        { id: 'starter_annual',  name: 'Starter',  credits: 60,   price: '$115/yr' },
-        { id: 'standard_annual', name: 'Standard',  credits: 120,  price: '$173/yr', featured: true },
-        { id: 'premium_annual',  name: 'Premium',   credits: 300,  price: '$288/yr' },
-        { id: 'family_annual',   name: 'Family',    credits: 1000, price: '$816/yr' }
-      ]
+        { id: 'starter_annual',  name: 'Starter',  credits: 60,   price: '$115/yr',  maxChildren: 1,   features: ['1 child'] },
+        { id: 'standard_annual', name: 'Standard',  credits: 120,  price: '$173/yr',  maxChildren: 2,   features: ['Up to 2 children'], featured: true },
+        { id: 'premium_annual',  name: 'Premium',   credits: 300,  price: '$288/yr',  maxChildren: 3,   features: ['Up to 3 children', 'Credit limits'] },
+        { id: 'family_annual',   name: 'Family',    credits: 1000, price: '$816/yr',  maxChildren: 999, features: ['Unlimited children', 'Credit limits', 'Session viewer'] },
+      ],
     };
-    var currentBilling = 'monthly';
+    let currentBilling = 'monthly';
 
     function setBilling(period) {
       currentBilling = period;
@@ -272,17 +655,69 @@
     }
 
     function renderPlans() {
-      var container = document.getElementById('subscription-plans');
-      container.innerHTML = PLANS[currentBilling].map(function(p) {
-        var cls = p.featured ? 'btn-primary' : 'btn-secondary';
-        return '<button class="btn ' + cls + '" onclick="buyCredits(\'' + p.id + '\')" style="justify-content:space-between;"><span>' + p.name + ' \u2014 ' + p.credits + ' credits</span><strong>' + p.price + '</strong></button>';
-      }).join('');
+      const container = document.getElementById('subscription-plans');
+      container.innerHTML = PLANS[currentBilling].map(p => `
+        <div style="border:${p.featured ? '2px solid var(--primary)' : '1px solid var(--gray-200)'}; border-radius:10px; padding:14px; margin-bottom:4px; ${p.featured ? 'background:var(--primary-light);' : ''}">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+            <div>
+              <strong>${p.name}</strong>
+              <span style="font-size:13px; color:var(--gray-500); margin-left:6px;">${p.credits} credits/mo</span>
+            </div>
+            <strong style="color:var(--primary);">${p.price}</strong>
+          </div>
+          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px;">
+            ${p.features.map(f => `<span style="font-size:11px; background:var(--gray-100); color:var(--gray-600); padding:2px 8px; border-radius:12px;">${f}</span>`).join('')}
+          </div>
+          <button class="btn ${p.featured ? 'btn-primary' : 'btn-secondary'}" onclick="buyCredits('${p.id}')" style="width:100%; font-size:13px; padding:8px 0;">
+            Start 14-day free trial
+          </button>
+        </div>
+      `).join('');
     }
     renderPlans();
 
     async function buyCredits(planId) {
-      var data = await apiCall('/api/credits/checkout', { method: 'POST', body: JSON.stringify({ plan_id: planId }) });
+      const data = await apiCall('/api/credits/checkout', {
+        method: 'POST',
+        body: JSON.stringify({ plan_id: planId })
+      });
       if (data && data.url) window.location.href = data.url;
+    }
+
+    // ---- SESSION TRANSCRIPT ----
+    async function viewTranscript(sessionId, childName) {
+      const modal = document.getElementById('transcript-modal');
+      document.getElementById('transcript-title').textContent = `${childName}'s Session`;
+      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading...</p>';
+      modal.classList.add('active');
+
+      const data = await apiCall(`/api/sessions/history?session_id=${sessionId}`);
+
+      if (data && data.sessions && data.sessions.length > 0) {
+        const session = data.sessions[0];
+        if (session.messages && session.messages.length > 0) {
+          document.getElementById('transcript-content').innerHTML = session.messages.map(m => `
+            <div style="padding:12px 14px; background:${m.role === 'user' ? 'var(--primary-light)' : 'var(--gray-100)'}; border-radius:8px; border-left:4px solid ${m.role === 'user' ? 'var(--primary)' : 'var(--gray-400)'};">
+              <strong style="font-size:12px; color:${m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)'};">${m.role === 'user' ? childName : 'MathBuddy'}</strong>
+              <p style="margin:6px 0 0; font-size:14px; line-height:1.5;">${escapeHtml(m.content)}</p>
+              <span style="font-size:11px; color:var(--gray-500);">${new Date(m.created_at).toLocaleTimeString()}</span>
+            </div>
+          `).join('');
+        } else {
+          document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No messages in this session.</p>';
+        }
+      } else {
+        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Session not found.</p>';
+      }
+    }
+
+    function closeTranscript() {
+      document.getElementById('transcript-modal').classList.remove('active');
+    }
+
+    function escapeHtml(text) {
+      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+      return text.replace(/[&<>"']/g, m => map[m]);
     }
 
     async function logout() {
