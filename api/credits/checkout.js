@@ -2,9 +2,9 @@ import { getUser } from '../../lib/supabase.js';
 
 const STORE_ID = '315398';
 
-// LemonSqueezy variant IDs — one per product
+// LemonSqueezy variant IDs - one per product
 // NOTE: If checkout fails with "variant not found", replace these with variant IDs
-// from LemonSqueezy dashboard → Products → [Product] → Variants → copy variant ID
+// from LemonSqueezy dashboard > Products > [Product] > Variants > copy variant ID
 const PRODUCTS = {
   // Monthly subscriptions
   starter_monthly:  { variantId: '1401741', credits: 60,   plan: 'starter',  cycle: 'monthly', type: 'subscription', maxChildren: 1 },
