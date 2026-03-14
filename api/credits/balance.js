@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     .order('created_at', { ascending: false })
     .limit(10);
 
-  // Get subscription info (parent only) — include trialing status
+  // Get subscription info (parent only) - include trialing status
   const { data: subscription } = await supabase
     .from('subscriptions')
     .select('*')
