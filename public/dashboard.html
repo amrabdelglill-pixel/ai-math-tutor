@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MathBuddy - Parent Dashboard</title>
+  <title>Zeluu - Parent Dashboard</title>
   <link rel="stylesheet" href="/css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
@@ -11,10 +11,16 @@
   <!-- Nav -->
   <nav class="nav">
     <div class="container nav-inner">
-      <a href="/app" class="nav-brand">MathBuddy</a>
+      <a href="/dashboard.html" class="nav-brand" style="text-decoration:none;">
+        <div class="zeluu-mascot">
+          <div class="z-antenna"></div>
+          <div class="z-eyes"><div class="z-eye"></div><div class="z-eye"></div></div>
+        </div>
+        <span class="zeluu-brand-text">Zeluu</span>
+        <span class="zeluu-beta">Beta</span>
+      </a>
       <div class="nav-links">
         <span class="credit-badge" id="credit-badge">-- credits</span>
-        <a href="/app">Tutor</a>
         <a href="#" onclick="logout()">Sign Out</a>
       </div>
     </div>
@@ -44,6 +50,17 @@
     </div>
 
     <div class="grid-2">
+      <!-- Your Children -->
+      <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h3>Your Children</h3>
+          <button class="btn btn-primary" style="font-size:12px; padding:6px 14px;" onclick="openAddChildModal()">+ Add Child</button>
+        </div>
+        <div id="children-list">
+          <p style="color:var(--gray-500); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
+        </div>
+      </div>
+
       <!-- Notifications -->
       <div class="card">
         <h3 class="mb-4">Notifications</h3>
@@ -52,31 +69,19 @@
         </div>
       </div>
 
-      <!-- Subscriptions & Credits -->
+      <!-- Get More Credits -->
       <div class="card">
         <h3 class="mb-4">Get More Credits</h3>
-
-        <!-- Billing toggle -->
         <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--gray-50); border-radius:8px; padding:4px;">
           <button id="btn-monthly" class="btn btn-primary" onclick="setBilling('monthly')" style="flex:1; font-size:13px; padding:6px 0;">Monthly</button>
           <button id="btn-annual" class="btn btn-secondary" onclick="setBilling('annual')" style="flex:1; font-size:13px; padding:6px 0;">Annual <span style="font-size:11px; color:var(--success);">(Save 20%)</span></button>
         </div>
-
-        <div class="flex flex-col gap-2" id="subscription-plans">
-          <!-- Populated by JS -->
-        </div>
-
+        <div class="flex flex-col gap-2" id="subscription-plans"></div>
         <h3 class="mt-6 mb-4">Or buy a credit pack</h3>
         <div class="flex flex-col gap-2">
-          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between;">
-            <span>Quick Top-Up — 100 credits</span><strong>$15</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between;">
-            <span>Credit Pack — 300 credits</span><strong>$35</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between;">
-            <span>Credit Tank — 1,000 credits</span><strong>$100</strong>
-          </button>
+          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between;"><span>Quick Top-Up — 100 credits</span><strong>$15</strong></button>
+          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between;"><span>Credit Pack — 300 credits</span><strong>$35</strong></button>
+          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between;"><span>Credit Tank — 1,000 credits</span><strong>$100</strong></button>
         </div>
       </div>
     </div>
@@ -85,16 +90,25 @@
     <div class="card mt-6">
       <h3 class="mb-4">Recent Sessions</h3>
       <div class="session-list" id="sessions-list">
-        <p style="color:var(--gray-500); font-size:14px;">No sessions yet. Start tutoring to see history here.</p>
+        <p style="color:var(--gray-500); font-size:14px;">No sessions yet.</p>
+      </div>
+    </div>
+
+    <!-- Transcript Modal -->
+    <div class="modal-overlay" id="transcript-modal">
+      <div class="modal" style="max-width:600px; max-height:80vh; overflow-y:auto;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+          <h2 id="transcript-title">Session Transcript</h2>
+          <button onclick="closeTranscript()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+        </div>
+        <div id="transcript-content" style="display:flex; flex-direction:column; gap:12px;"><p style="color:var(--gray-500);">Loading...</p></div>
       </div>
     </div>
 
     <!-- Credit History -->
     <div class="card mt-6 mb-6">
       <h3 class="mb-4">Credit History</h3>
-      <div id="credit-history">
-        <p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p>
-      </div>
+      <div id="credit-history"><p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p></div>
     </div>
   </div>
 
@@ -103,7 +117,7 @@
     (async () => {
       requireAuth();
       const session = await getSession();
-      if (!session) return window.location.href = '/login';
+      if (!session) return window.location.href = '/login.html';
       await loadDashboard();
     })();
 
@@ -112,48 +126,42 @@
       if (creditData) {
         document.getElementById('stat-credits').textContent = creditData.credits;
         document.getElementById('credit-badge').textContent = creditData.credits + ' credits';
-
         if (creditData.subscription) {
           const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
           document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
         }
-
         if (creditData.recent_transactions && creditData.recent_transactions.length > 0) {
           document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(function(t) {
             return '<div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);"><div><span style="font-size:14px;">' + (t.description || t.type) + '</span><span style="font-size:12px; color:var(--gray-500); margin-left:8px;">' + new Date(t.created_at).toLocaleDateString() + '</span></div><span style="font-weight:600; color:' + (t.amount > 0 ? 'var(--success)' : 'var(--danger)') + ';">' + (t.amount > 0 ? '+' : '') + t.amount + '</span></div>';
           }).join('');
         }
       }
-
       const childData = await apiCall('/api/children/list');
       if (childData && childData.children) {
         document.getElementById('stat-children').textContent = childData.children.length;
+        if (childData.children.length > 0) {
+          document.getElementById('children-list').innerHTML = childData.children.map(function(c) {
+            var creds = c.username ? '<div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">Username: <strong style="color:var(--gray-700);">' + c.username + '</strong></div><button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Change Login</button>' : '<button class="btn btn-primary" style="font-size:12px; padding:6px 12px; width:100%;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Set Login Credentials</button>';
+            return '<div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;"><div><strong style="display:block;">' + c.name + '</strong><span style="font-size:12px; color:var(--gray-500);">Grade ' + c.grade + '</span></div></div>' + creds + '</div>';
+          }).join('');
+        }
       }
-
       const sessionData = await apiCall('/api/sessions/history');
       if (sessionData && sessionData.sessions) {
         document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
-
         if (sessionData.sessions.length > 0) {
           document.getElementById('sessions-list').innerHTML = sessionData.sessions.map(function(s) {
             var name = s.children ? s.children.name : 'Unknown';
             var stuck = s.status === 'stuck_loop' ? '<span style="color:var(--warning); font-size:12px; margin-left:8px;">Stuck</span>' : '';
             var flagged = s.status === 'flagged' ? '<span style="color:var(--danger); font-size:12px; margin-left:8px;">Flagged</span>' : '';
-            return '<div class="session-item"><div><strong>' + name + '</strong><span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Year ' + s.grade + '</span>' + stuck + flagged + '</div><div class="meta">' + (s.interaction_count || 0) + ' messages &middot; ' + (s.credits_used || 0) + ' credits &middot; ' + new Date(s.started_at).toLocaleDateString() + '</div></div>';
+            return '<div class="session-item"><div style="flex:1;"><div><strong>' + name + '</strong><span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Grade ' + s.grade + '</span>' + stuck + flagged + '</div><div class="meta">' + (s.interaction_count || 0) + ' messages &middot; ' + (s.credits_used || 0) + ' credits &middot; ' + new Date(s.started_at).toLocaleDateString() + '</div></div><button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewTranscript(\'' + s.id + '\', \'' + (s.children ? s.children.name : 'Session') + '\')">View</button></div>';
           }).join('');
         }
       }
-
       var sess = await getSession();
       if (sess) {
-        var result = await supabaseClient
-          .from('notifications')
-          .select('*')
-          .eq('read', false)
-          .order('created_at', { ascending: false })
-          .limit(5);
+        var result = await window.supabaseClient.from('notifications').select('*').eq('read', false).order('created_at', { ascending: false }).limit(5);
         var notifs = result.data;
-
         if (notifs && notifs.length > 0) {
           document.getElementById('notifications-list').innerHTML = notifs.map(function(n) {
             var bg = n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' ? '#FEE2E2' : 'var(--gray-50)';
@@ -163,7 +171,83 @@
       }
     }
 
-    /* ---------- Pricing plans ---------- */
+    function openAddChildModal() {
+      var modal = document.getElementById('add-child-modal');
+      if (!modal) {
+        var div = document.createElement('div');
+        div.id = 'add-child-modal';
+        div.className = 'modal-overlay';
+        div.innerHTML = '<div class="modal" style="max-width:420px;"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;"><h2>Add a Child</h2><button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button></div><form onsubmit="submitAddChild(event)"><div class="form-group"><label>Child\'s Name</label><input type="text" id="child-name" placeholder="e.g. Ahmed" required></div><div class="form-group"><label>Grade (1-9)</label><select id="child-grade" required><option value="">Select grade</option><option value="1">Grade 1</option><option value="2">Grade 2</option><option value="3">Grade 3</option><option value="4">Grade 4</option><option value="5">Grade 5</option><option value="6">Grade 6</option><option value="7">Grade 7</option><option value="8">Grade 8</option><option value="9">Grade 9</option></select></div><div class="form-group"><label>Preferred Language</label><select id="child-lang"><option value="en">English</option><option value="ar">Arabic</option></select></div><div class="form-group"><label>Child\'s Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label><input type="tel" id="child-phone" placeholder="+971 50 123 4567"></div><div id="add-child-error" class="form-error"></div><div style="display:flex; gap:8px;"><button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button><button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button></div></form></div>';
+        document.body.appendChild(div);
+      }
+      var form = document.querySelector('#add-child-modal form');
+      if (form) form.reset();
+      document.getElementById('add-child-modal').classList.add('active');
+    }
+    function closeAddChildModal() { var m = document.getElementById('add-child-modal'); if (m) m.classList.remove('active'); }
+
+    async function submitAddChild(e) {
+      e.preventDefault();
+      var btn = document.getElementById('add-child-btn');
+      var errorEl = document.getElementById('add-child-error');
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>'; errorEl.style.display = 'none';
+      var session = await getSession(); if (!session) return;
+      var name = document.getElementById('child-name').value.trim();
+      var grade = parseInt(document.getElementById('child-grade').value);
+      var lang = document.getElementById('child-lang').value;
+      var phone = document.getElementById('child-phone').value.trim() || null;
+      var result = await window.supabaseClient.from('children').insert({ parent_id: session.user.id, name: name, grade: grade, preferred_language: lang, phone: phone, is_active: true }).select().single();
+      btn.disabled = false; btn.textContent = 'Add Child';
+      if (result.error) { var msg = result.error.message; if (msg.includes('check_child_limit')) msg = 'Maximum children reached. Upgrade your plan.'; errorEl.textContent = msg; errorEl.style.display = 'block'; }
+      else { closeAddChildModal(); await loadDashboard(); }
+    }
+
+    function openSetCredentialsModal(childId, childName) {
+      var modal = document.getElementById('credentials-modal');
+      if (modal) modal.remove();
+      var div = document.createElement('div');
+      div.id = 'credentials-modal';
+      div.className = 'modal-overlay active';
+      div.innerHTML = '<div class="modal" style="max-width:400px;"><div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;"><h2>Set Login Credentials</h2><button onclick="closeCredentialsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button></div><p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>' + childName + '</strong> log in with a username and password.</p><form onsubmit="submitCredentials(event, \'' + childId + '\')"><div class="form-group"><label>Username</label><input type="text" id="cred-username" placeholder="3-20 chars" required pattern="[a-zA-Z0-9]{3,20}"></div><div class="form-group"><label>Password</label><input type="password" id="cred-password" placeholder="At least 4 chars" required minlength="4"></div><div id="cred-error" class="form-error"></div><div style="display:flex; gap:8px;"><button type="submit" class="btn btn-primary" style="flex:1;">Save</button><button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCredentialsModal()">Cancel</button></div></form></div>';
+      document.body.appendChild(div);
+    }
+    function closeCredentialsModal() { var m = document.getElementById('credentials-modal'); if (m) m.classList.remove('active'); }
+
+    async function submitCredentials(e, childId) {
+      e.preventDefault();
+      var username = document.getElementById('cred-username').value.trim();
+      var password = document.getElementById('cred-password').value;
+      var errorEl = document.getElementById('cred-error');
+      var btn = e.target.querySelector('button[type="submit"]');
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>'; errorEl.style.display = 'none';
+      var data = await apiCall('/api/children/set-credentials', { method: 'POST', body: JSON.stringify({ child_id: childId, username: username, password: password }) });
+      btn.disabled = false; btn.textContent = 'Save';
+      if (data && data.success) { closeCredentialsModal(); await loadDashboard(); }
+      else { errorEl.textContent = (data && data.error) || 'Failed to set credentials'; errorEl.style.display = 'block'; }
+    }
+
+    async function viewTranscript(sessionId, childName) {
+      var modal = document.getElementById('transcript-modal');
+      document.getElementById('transcript-title').textContent = childName + '\'s Session';
+      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading...</p>';
+      modal.classList.add('active');
+      var data = await apiCall('/api/sessions/history?session_id=' + sessionId);
+      if (data && data.sessions && data.sessions.length > 0) {
+        var session = data.sessions[0];
+        if (session.messages && session.messages.length > 0) {
+          document.getElementById('transcript-content').innerHTML = session.messages.map(function(m) {
+            var bg = m.role === 'user' ? 'var(--primary-light)' : 'var(--gray-100)';
+            var border = m.role === 'user' ? 'var(--primary)' : 'var(--gray-400)';
+            var label = m.role === 'user' ? childName : 'MathBuddy';
+            var labelColor = m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)';
+            return '<div style="padding:12px 14px; background:' + bg + '; border-radius:8px; border-left:4px solid ' + border + ';"><strong style="font-size:12px; color:' + labelColor + ';">' + label + '</strong><p style="margin:6px 0 0; font-size:14px; line-height:1.5;">' + escapeHtml(m.content) + '</p><span style="font-size:11px; color:var(--gray-500);">' + new Date(m.created_at).toLocaleTimeString() + '</span></div>';
+          }).join('');
+        } else { document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No messages.</p>'; }
+      } else { document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Session not found.</p>'; }
+    }
+    function closeTranscript() { document.getElementById('transcript-modal').classList.remove('active'); }
+    function escapeHtml(text) { var map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }; return text.replace(/[&<>"']/g, function(m) { return map[m]; }); }
+
     var PLANS = {
       monthly: [
         { id: 'starter_monthly',  name: 'Starter',  credits: 60,   price: '$12/mo' },
@@ -191,832 +275,14 @@
       var container = document.getElementById('subscription-plans');
       container.innerHTML = PLANS[currentBilling].map(function(p) {
         var cls = p.featured ? 'btn-primary' : 'btn-secondary';
-        return '<button class="btn ' + cls + '" onclick="buyCredits(\'' + p.id + '\')" style="justify-content:space-between;"><span>' + p.name + ' — ' + p.credits + ' credits/mo</span><strong>' + p.price + '</strong></button>';
+        return '<button class="btn ' + cls + '" onclick="buyCredits(\'' + p.id + '\')" style="justify-content:space-between;"><span>' + p.name + ' \u2014 ' + p.credits + ' credits</span><strong>' + p.price + '</strong></button>';
       }).join('');
     }
     renderPlans();
 
     async function buyCredits(planId) {
-      var data = await apiCall('/api/credits/checkout', {
-        method: 'POST',
-        body: JSON.stringify({ plan_id: planId })
-      });
+      var data = await apiCall('/api/credits/checkout', { method: 'POST', body: JSON.stringify({ plan_id: planId }) });
       if (data && data.url) window.location.href = data.url;
-    }
-
-    async function logout() {
-      await supabaseClient.auth.signOut();
-      window.location.href = '/';
-    }
-  </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zeluu - Parent Dashboard</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-</head>
-<body>
-  <!-- Nav -->
-  <nav class="nav">
-    <div class="container nav-inner">
-      <a href="/dashboard.html" class="nav-brand" style="text-decoration:none;">
-        <div class="zeluu-mascot">
-          <div class="z-antenna"></div>
-          <div class="z-eyes"><div class="z-eye"></div><div class="z-eye"></div></div>
-        </div>
-        <span class="zeluu-brand-text">Zeluu</span>
-        <span class="zeluu-beta">Beta</span>
-      </a>
-      <div class="nav-links">
-        <span class="credit-badge" id="credit-badge">-- credits</span>
-        <a href="#" onclick="openProfileModal()" style="margin-right:8px; font-size:14px;">Profile</a>
-        <a href="#" onclick="logout()">Sign Out</a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container" style="padding-top:32px;">
-    <h1 class="mb-6">Parent Dashboard</h1>
-
-    <!-- Stats -->
-    <div class="stats-grid mb-6">
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-credits">--</div>
-        <div class="stat-label">Credits Left</div>
-      </div>
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-sessions">--</div>
-        <div class="stat-label">Sessions This Week</div>
-      </div>
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-children">--</div>
-        <div class="stat-label">Children</div>
-      </div>
-      <div class="card stat-card">
-        <div class="stat-value" id="stat-plan">Free</div>
-        <div class="stat-label">Current Plan</div>
-        <div id="renewal-info" style="font-size:12px; color:var(--gray-500); margin-top:6px;"></div>
-      </div>
-    </div>
-
-    <div class="grid-2">
-      <!-- Your Children -->
-      <div class="card">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-          <h3>Your Children</h3>
-          <button class="btn btn-primary" style="font-size:12px; padding:6px 14px;" onclick="openAddChildModal()">+ Add Child</button>
-        </div>
-        <div id="children-list">
-          <p style="color:var(--gray-500); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
-        </div>
-      </div>
-
-      <!-- Notifications -->
-      <div class="card">
-        <h3 class="mb-4">Notifications</h3>
-        <div id="notifications-list">
-          <p style="color:var(--gray-500); font-size:14px;">No notifications yet.</p>
-        </div>
-      </div>
-
-      <!-- Quick Actions -->
-      <div class="card">
-        <h3 class="mb-4">Get More Credits</h3>
-        <div class="flex flex-col gap-2">
-          <button class="btn btn-secondary" onclick="subscribe('starter')" style="justify-content:space-between;">
-            <span>Starter - 60 credits</span><strong>$12/mo</strong>
-          </button>
-          <button class="btn btn-primary" onclick="subscribe('standard')" style="justify-content:space-between;">
-            <span>Standard - 120 credits</span><strong>$18/mo</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="subscribe('premium')" style="justify-content:space-between;">
-            <span>Premium - 300 credits</span><strong>$30/mo</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="subscribe('family')" style="justify-content:space-between;">
-            <span>Family - 1,000 credits</span><strong>$85/mo</strong>
-          </button>
-        </div>
-        <h3 class="mt-6 mb-4">Add-ons</h3>
-        <div class="flex flex-col gap-2">
-          <button class="btn btn-secondary" onclick="buyPack('credit_boost')" style="justify-content:space-between;">
-            <span>Credit Boost - 100</span><strong>$15</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyPack('credit_pack')" style="justify-content:space-between;">
-            <span>Credit Pack - 300</span><strong>$35</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyPack('credit_tank')" style="justify-content:space-between;">
-            <span>Credit Tank - 1,000</span><strong>$100</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyPack('weekly_report')" style="justify-content:space-between;">
-            <span>Weekly Report (per child)</span><strong>Coming Soon</strong>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Recent Sessions -->
-    <div class="card mt-6">
-      <h3 class="mb-4">Recent Sessions</h3>
-      <div class="session-list" id="sessions-list">
-        <p style="color:var(--gray-500); font-size:14px;">No sessions yet. Start tutoring to see history here.</p>
-      </div>
-    </div>
-
-    <!-- Session Transcript Modal -->
-    <div class="modal-overlay" id="transcript-modal">
-      <div class="modal" style="max-width:600px; max-height:80vh; overflow-y:auto;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-          <h2 id="transcript-title">Session Transcript</h2>
-          <button onclick="closeTranscript()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-        </div>
-        <div id="transcript-content" style="display:flex; flex-direction:column; gap:12px;">
-          <p style="color:var(--gray-500);">Loading...</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Credit History -->
-    <div class="card mt-6 mb-6">
-      <h3 class="mb-4">Credit History</h3>
-      <div id="credit-history">
-        <p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p>
-      </div>
-    </div>
-  </div>
-
-  <script src="/js/supabase-config.js"></script>
-  <script>
-    (async () => {
-      requireAuth();
-      const session = await getSession();
-      if (!session) return window.location.href = '/login.html';
-      await loadDashboard();
-    })();
-
-    async function loadDashboard() {
-      // Load credits + transactions
-      const creditData = await apiCall('/api/credits/balance');
-      if (creditData) {
-        document.getElementById('stat-credits').textContent = creditData.credits;
-        document.getElementById('credit-badge').textContent = `${creditData.credits} credits`;
-        if (creditData.subscription) {
-          const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
-          document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
-          if (creditData.subscription.current_period_end) {
-            const renewDate = new Date(creditData.subscription.current_period_end);
-            const now = new Date();
-            const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
-            const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-            let color = 'var(--success)';
-            if (daysLeft <= 7) color = 'var(--danger)';
-            else if (daysLeft <= 14) color = 'var(--warning)';
-            document.getElementById('renewal-info').innerHTML = `Renews: <strong style="color:${color};">${dateStr}</strong> (${daysLeft}d left)`;
-          }
-        }
-        // Credit history
-        if (creditData.recent_transactions && creditData.recent_transactions.length > 0) {
-          document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(t => `
-            <div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);">
-              <div>
-                <span style="font-size:14px;">${t.description || t.type}</span>
-                <span style="font-size:12px; color:var(--gray-500); margin-left:8px;">${new Date(t.created_at).toLocaleDateString()}</span>
-              </div>
-              <span style="font-weight:600; color:${t.amount > 0 ? 'var(--success)' : 'var(--danger)'};">
-                ${t.amount > 0 ? '+' : ''}${t.amount}
-              </span>
-            </div>
-          `).join('');
-        }
-      }
-
-      // Load children
-      const childData = await apiCall('/api/children/list');
-      if (childData && childData.children) {
-        document.getElementById('stat-children').textContent = childData.children.length;
-
-        let childUsage = {};
-        if (childData.children.length > 0) {
-          const childIds = childData.children.map(c => c.id);
-          const { data: usageRows } = await window.supabaseClient
-            .from('sessions')
-            .select('child_id, credits_used')
-            .in('child_id', childIds);
-          if (usageRows) {
-            usageRows.forEach(s => {
-              childUsage[s.child_id] = (childUsage[s.child_id] || 0) + (s.credits_used || 0);
-            });
-          }
-        }
-
-        if (childData.children.length > 0) {
-          document.getElementById('children-list').innerHTML = childData.children.map(c => {
-            const used = childUsage[c.id] || 0;
-            const hasLimits = c.credit_limit_daily || c.credit_limit_weekly || c.credit_limit_monthly;
-            return `
-              <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                  <div>
-                    <strong style="display:block;">${c.name}</strong>
-                    <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade} · ${c.preferred_language === 'ar' ? 'Arabic' : 'English'}${c.country ? ' · ' + c.country : ''}</span>
-                  </div>
-                  <div style="text-align:right;">
-                    <span style="display:inline-block; background:${used > 0 ? 'var(--primary-light)' : 'var(--gray-100)'}; color:${used > 0 ? 'var(--primary)' : 'var(--gray-500)'}; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">
-                      ${used} credit${used !== 1 ? 's' : ''} used
-                    </span>
-                  </div>
-                </div>
-                ${hasLimits ? `
-                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:6px; color:var(--gray-500); display:flex; gap:8px; flex-wrap:wrap;">
-                  <span style="font-weight:600; color:var(--gray-700);">Limits:</span>
-                  ${c.credit_limit_daily ? '<span>Daily: <strong style="color:var(--gray-700);">' + c.credit_limit_daily + '</strong></span>' : ''}
-                  ${c.credit_limit_weekly ? '<span>Weekly: <strong style="color:var(--gray-700);">' + c.credit_limit_weekly + '</strong></span>' : ''}
-                  ${c.credit_limit_monthly ? '<span>Monthly: <strong style="color:var(--gray-700);">' + c.credit_limit_monthly + '</strong></span>' : ''}
-                </div>` : ''}
-                ${c.username ? `
-                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">
-                  Username: <strong style="color:var(--gray-700);">${c.username}</strong>
-                </div>` : ''}
-                <div style="display:flex; gap:6px; flex-wrap:wrap;">
-                  ${c.username ? `
-                  <button class="btn btn-secondary" style="font-size:11px; padding:5px 10px;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Change Login</button>
-                  ` : `
-                  <button class="btn btn-primary" style="font-size:11px; padding:5px 10px;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Set Login</button>
-                  `}
-                  <button class="btn btn-secondary" style="font-size:11px; padding:5px 10px;" onclick="openLimitsModal('${c.id}', '${c.name}', ${c.credit_limit_daily || 'null'}, ${c.credit_limit_weekly || 'null'}, ${c.credit_limit_monthly || 'null'})">Set Limits</button>
-                  <button class="btn btn-secondary" style="font-size:11px; padding:5px 10px;" onclick="openEditChildModal('${c.id}', \`${c.name}\`, ${c.grade}, '${c.preferred_language || 'en'}', '${c.username || ''}', '${c.country || ''}')">Edit</button>
-                  <button class="btn btn-secondary" style="font-size:11px; padding:5px 10px; color:var(--danger);" onclick="confirmRemoveChild('${c.id}', '${c.name}')">Remove</button>
-                </div>
-              </div>
-            `}).join('');
-        }
-      }
-
-      // Load sessions
-      const sessionData = await apiCall('/api/sessions/history');
-      if (sessionData && sessionData.sessions) {
-        document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
-        if (sessionData.sessions.length > 0) {
-          document.getElementById('sessions-list').innerHTML = sessionData.sessions.map(s => `
-            <div class="session-item">
-              <div style="flex:1;">
-                <div>
-                  <strong>${s.children?.name || 'Unknown'}</strong>
-                  <span style="font-size:13px; color:var(--gray-500); margin-left:8px;">Grade ${s.grade}</span>
-                  ${s.status === 'stuck_loop' ? '<span style="color:var(--warning); font-size:12px; margin-left:8px;">Stuck</span>' : ''}
-                  ${s.status === 'flagged' ? '<span style="color:var(--danger); font-size:12px; margin-left:8px;">Flagged</span>' : ''}
-                </div>
-                <div class="meta">
-                  ${s.interaction_count || 0} messages &middot; ${s.credits_used || 0} credits &middot; ${new Date(s.started_at).toLocaleDateString()}
-                </div>
-              </div>
-              <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewTranscript('${s.id}', '${s.children?.name || 'Session'}')">View</button>
-            </div>
-          `).join('');
-        }
-      }
-
-      // Load notifications
-      const session = await getSession();
-      if (session) {
-        const { data: notifs } = await window.supabaseClient
-          .from('notifications')
-          .select('*')
-          .eq('read', false)
-          .order('created_at', { ascending: false })
-          .limit(5);
-        if (notifs && notifs.length > 0) {
-          document.getElementById('notifications-list').innerHTML = notifs.map(n => `
-            <div style="padding:10px 14px; background:${n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' || n.type === 'credit_limit_reached' ? '#FEE2E2' : 'var(--gray-50)'}; border-radius:8px; margin-bottom:8px;">
-              <strong style="font-size:14px;">${n.title}</strong>
-              <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">${n.body || ''}</p>
-              <span style="font-size:11px; color:var(--gray-500);">${new Date(n.created_at).toLocaleString()}</span>
-            </div>
-          `).join('');
-        }
-      }
-    }
-
-    // ---- CREDIT LIMITS MODAL ----
-    function openLimitsModal(childId, childName, daily, weekly, monthly) {
-      let modal = document.getElementById('limits-modal');
-      if (modal) modal.remove();
-
-      const div = document.createElement('div');
-      div.id = 'limits-modal';
-      div.className = 'modal-overlay active';
-      div.innerHTML = `
-        <div class="modal" style="max-width:400px;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-            <h2>Credit Limits</h2>
-            <button onclick="closeLimitsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-          </div>
-          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Set credit limits for <strong>${childName}</strong>. Leave blank for no limit. When exceeded, you'll be notified.</p>
-          <form onsubmit="submitLimits(event, '${childId}')">
-            <div class="form-group">
-              <label>Daily Limit</label>
-              <input type="number" id="limit-daily" min="1" placeholder="No limit" value="${daily && daily !== 'null' ? daily : ''}">
-            </div>
-            <div class="form-group">
-              <label>Weekly Limit</label>
-              <input type="number" id="limit-weekly" min="1" placeholder="No limit" value="${weekly && weekly !== 'null' ? weekly : ''}">
-            </div>
-            <div class="form-group">
-              <label>Monthly Limit</label>
-              <input type="number" id="limit-monthly" min="1" placeholder="No limit" value="${monthly && monthly !== 'null' ? monthly : ''}">
-            </div>
-            <div id="limits-error" class="form-error"></div>
-            <div style="display:flex; gap:8px;">
-              <button type="submit" class="btn btn-primary" id="limits-btn" style="flex:1;">Save Limits</button>
-              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="clearLimits('${childId}')">Clear All</button>
-            </div>
-          </form>
-        </div>
-      `;
-      document.body.appendChild(div);
-    }
-
-    function closeLimitsModal() {
-      const modal = document.getElementById('limits-modal');
-      if (modal) modal.remove();
-    }
-
-    async function submitLimits(e, childId) {
-      e.preventDefault();
-      const btn = document.getElementById('limits-btn');
-      const errorEl = document.getElementById('limits-error');
-      btn.disabled = true;
-      btn.innerHTML = '<span class="spinner"></span>';
-      errorEl.style.display = 'none';
-
-      const daily = document.getElementById('limit-daily').value;
-      const weekly = document.getElementById('limit-weekly').value;
-      const monthly = document.getElementById('limit-monthly').value;
-
-      const data = await apiCall('/api/children/set-limits', {
-        method: 'POST',
-        body: JSON.stringify({
-          child_id: childId,
-          credit_limit_daily: daily ? parseInt(daily) : null,
-          credit_limit_weekly: weekly ? parseInt(weekly) : null,
-          credit_limit_monthly: monthly ? parseInt(monthly) : null
-        })
-      });
-
-      btn.disabled = false;
-      btn.textContent = 'Save Limits';
-
-      if (data && data.success) {
-        closeLimitsModal();
-        await loadDashboard();
-      } else {
-        errorEl.textContent = data?.error || 'Failed to set limits';
-        errorEl.style.display = 'block';
-      }
-    }
-
-    async function clearLimits(childId) {
-      const data = await apiCall('/api/children/set-limits', {
-        method: 'POST',
-        body: JSON.stringify({
-          child_id: childId,
-          credit_limit_daily: null,
-          credit_limit_weekly: null,
-          credit_limit_monthly: null
-        })
-      });
-      if (data && data.success) {
-        closeLimitsModal();
-        await loadDashboard();
-      }
-    }
-
-    // ---- EDIT CHILD MODAL ----
-    function openEditChildModal(childId, name, grade, lang, username, country) {
-      let modal = document.getElementById('edit-child-modal');
-      if (modal) modal.remove();
-
-      const countryOptions = [
-        {v:'',l:'Select country'},{v:'AE',l:'UAE'},{v:'SA',l:'Saudi Arabia'},{v:'EG',l:'Egypt'},
-        {v:'KW',l:'Kuwait'},{v:'QA',l:'Qatar'},{v:'BH',l:'Bahrain'},{v:'OM',l:'Oman'},
-        {v:'JO',l:'Jordan'},{v:'GB',l:'United Kingdom'},{v:'US',l:'United States'},{v:'IN',l:'India'}
-      ];
-
-      const div = document.createElement('div');
-      div.id = 'edit-child-modal';
-      div.className = 'modal-overlay active';
-      div.innerHTML = `
-        <div class="modal" style="max-width:420px;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-            <h2>Edit Child</h2>
-            <button onclick="closeEditChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-          </div>
-          <form onsubmit="submitEditChild(event, '${childId}')">
-            <div class="form-group">
-              <label>Name</label>
-              <input type="text" id="edit-child-name" value="${name}" required>
-            </div>
-            <div class="form-group">
-              <label>Grade</label>
-              <select id="edit-child-grade" required>
-                ${[1,2,3,4,5,6,7,8,9].map(g => `<option value="${g}" ${g === grade ? 'selected' : ''}>Grade ${g}</option>`).join('')}
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Language</label>
-              <select id="edit-child-lang">
-                <option value="en" ${lang === 'en' ? 'selected' : ''}>English</option>
-                <option value="ar" ${lang === 'ar' ? 'selected' : ''}>Arabic</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Country</label>
-              <select id="edit-child-country">
-                ${countryOptions.map(o => `<option value="${o.v}" ${o.v === country ? 'selected' : ''}>${o.l}</option>`).join('')}
-              </select>
-            </div>
-            <div id="edit-child-error" class="form-error"></div>
-            <div style="display:flex; gap:8px;">
-              <button type="submit" class="btn btn-primary" id="edit-child-btn" style="flex:1;">Save</button>
-              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeEditChildModal()">Cancel</button>
-            </div>
-          </form>
-        </div>
-      `;
-      document.body.appendChild(div);
-    }
-
-    function closeEditChildModal() {
-      const modal = document.getElementById('edit-child-modal');
-      if (modal) modal.remove();
-    }
-
-    async function submitEditChild(e, childId) {
-      e.preventDefault();
-      const btn = document.getElementById('edit-child-btn');
-      const errorEl = document.getElementById('edit-child-error');
-      btn.disabled = true;
-      btn.innerHTML = '<span class="spinner"></span>';
-      errorEl.style.display = 'none';
-
-      const data = await apiCall('/api/children/update', {
-        method: 'PUT',
-        body: JSON.stringify({
-          child_id: childId,
-          name: document.getElementById('edit-child-name').value.trim(),
-          grade: parseInt(document.getElementById('edit-child-grade').value),
-          preferred_language: document.getElementById('edit-child-lang').value,
-          country: document.getElementById('edit-child-country').value
-        })
-      });
-
-      btn.disabled = false;
-      btn.textContent = 'Save';
-
-      if (data && data.success) {
-        closeEditChildModal();
-        await loadDashboard();
-      } else {
-        errorEl.textContent = data?.error || 'Failed to update child';
-        errorEl.style.display = 'block';
-      }
-    }
-
-    // ---- REMOVE CHILD ----
-    async function confirmRemoveChild(childId, childName) {
-      if (!confirm(`Are you sure you want to remove ${childName}? They will no longer be able to use MathBuddy. This can be undone by contacting support.`)) return;
-
-      const data = await apiCall('/api/children/update?child_id=' + childId, {
-        method: 'DELETE'
-      });
-
-      if (data && data.success) {
-        await loadDashboard();
-      } else {
-        alert(data?.error || 'Failed to remove child');
-      }
-    }
-
-    // ---- PARENT PROFILE MODAL ----
-    async function openProfileModal() {
-      let modal = document.getElementById('profile-modal');
-      if (modal) modal.remove();
-
-      const div = document.createElement('div');
-      div.id = 'profile-modal';
-      div.className = 'modal-overlay active';
-      div.innerHTML = `
-        <div class="modal" style="max-width:420px;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-            <h2>Your Profile</h2>
-            <button onclick="closeProfileModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-          </div>
-          <div id="profile-loading" style="text-align:center; padding:20px;">
-            <span class="spinner"></span> Loading...
-          </div>
-          <form onsubmit="submitProfile(event)" id="profile-form" style="display:none;">
-            <div class="form-group">
-              <label>Email</label>
-              <input type="email" id="profile-email" disabled style="background:var(--gray-100);">
-            </div>
-            <div class="form-group">
-              <label>Full Name</label>
-              <input type="text" id="profile-name" placeholder="Your name">
-            </div>
-            <div class="form-group">
-              <label>Phone</label>
-              <input type="tel" id="profile-phone" placeholder="+971 50 123 4567">
-            </div>
-            <div class="form-group">
-              <label>Country</label>
-              <select id="profile-country">
-                <option value="">Select country</option>
-                <option value="AE">UAE</option>
-                <option value="SA">Saudi Arabia</option>
-                <option value="EG">Egypt</option>
-                <option value="KW">Kuwait</option>
-                <option value="QA">Qatar</option>
-                <option value="BH">Bahrain</option>
-                <option value="OM">Oman</option>
-                <option value="JO">Jordan</option>
-                <option value="GB">United Kingdom</option>
-                <option value="US">United States</option>
-                <option value="IN">India</option>
-              </select>
-            </div>
-            <div id="profile-error" class="form-error"></div>
-            <div id="profile-success" style="display:none; color:var(--success); font-size:14px; margin-bottom:12px;">Profile updated!</div>
-            <div style="display:flex; gap:8px;">
-              <button type="submit" class="btn btn-primary" id="profile-btn" style="flex:1;">Save</button>
-              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeProfileModal()">Close</button>
-            </div>
-          </form>
-        </div>
-      `;
-      document.body.appendChild(div);
-
-      // Load profile data
-      const data = await apiCall('/api/auth/profile');
-      document.getElementById('profile-loading').style.display = 'none';
-      document.getElementById('profile-form').style.display = 'block';
-
-      if (data && data.profile) {
-        document.getElementById('profile-email').value = data.profile.email || '';
-        document.getElementById('profile-name').value = data.profile.full_name || '';
-        document.getElementById('profile-phone').value = data.profile.phone || '';
-        document.getElementById('profile-country').value = data.profile.country || '';
-      }
-    }
-
-    function closeProfileModal() {
-      const modal = document.getElementById('profile-modal');
-      if (modal) modal.remove();
-    }
-
-    async function submitProfile(e) {
-      e.preventDefault();
-      const btn = document.getElementById('profile-btn');
-      const errorEl = document.getElementById('profile-error');
-      const successEl = document.getElementById('profile-success');
-      btn.disabled = true;
-      btn.innerHTML = '<span class="spinner"></span>';
-      errorEl.style.display = 'none';
-      successEl.style.display = 'none';
-
-      const data = await apiCall('/api/auth/profile', {
-        method: 'PUT',
-        body: JSON.stringify({
-          full_name: document.getElementById('profile-name').value.trim(),
-          phone: document.getElementById('profile-phone').value.trim(),
-          country: document.getElementById('profile-country').value
-        })
-      });
-
-      btn.disabled = false;
-      btn.textContent = 'Save';
-
-      if (data && data.success) {
-        successEl.style.display = 'block';
-        setTimeout(() => { successEl.style.display = 'none'; }, 3000);
-      } else {
-        errorEl.textContent = data?.error || 'Failed to update profile';
-        errorEl.style.display = 'block';
-      }
-    }
-
-    // ---- ADD CHILD MODAL ----
-    function openAddChildModal() {
-      // (keep existing implementation exactly as-is)
-      let modal = document.getElementById('add-child-modal');
-      if (!modal) {
-        const div = document.createElement('div');
-        div.id = 'add-child-modal';
-        div.className = 'modal-overlay';
-        div.innerHTML = `
-          <div class="modal" style="max-width:420px;">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-              <h2>Add a Child</h2>
-              <button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-            </div>
-            <form onsubmit="submitAddChild(event)">
-              <div class="form-group">
-                <label>Child's Name</label>
-                <input type="text" id="child-name" placeholder="e.g. Ahmed" required>
-              </div>
-              <div class="form-group">
-                <label>Grade (1-9)</label>
-                <select id="child-grade" required>
-                  <option value="">Select grade</option>
-                  ${[1,2,3,4,5,6,7,8,9].map(g => `<option value="${g}">Grade ${g}</option>`).join('')}
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Preferred Language</label>
-                <select id="child-lang">
-                  <option value="en">English</option>
-                  <option value="ar">Arabic</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Country / Curriculum</label>
-                <select id="child-country" required>
-                  <option value="">Select country</option>
-                  <option value="AE">UAE</option>
-                  <option value="SA">Saudi Arabia</option>
-                  <option value="EG">Egypt</option>
-                  <option value="KW">Kuwait</option>
-                  <option value="QA">Qatar</option>
-                  <option value="BH">Bahrain</option>
-                  <option value="OM">Oman</option>
-                  <option value="JO">Jordan</option>
-                  <option value="GB">United Kingdom</option>
-                  <option value="US">United States</option>
-                  <option value="IN">India</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Child's Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
-                <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
-              </div>
-              <div id="add-child-error" class="form-error"></div>
-              <div style="display:flex; gap:8px;">
-                <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
-                <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
-              </div>
-            </form>
-          </div>
-        `;
-        document.body.appendChild(div);
-      }
-      const form = document.querySelector('#add-child-modal form');
-      if (form) form.reset();
-      document.getElementById('add-child-modal').classList.add('active');
-    }
-
-    function closeAddChildModal() {
-      const modal = document.getElementById('add-child-modal');
-      if (modal) modal.classList.remove('active');
-    }
-
-    async function submitAddChild(e) {
-      e.preventDefault();
-      const btn = document.getElementById('add-child-btn');
-      const errorEl = document.getElementById('add-child-error');
-      btn.disabled = true;
-      btn.innerHTML = '<span class="spinner"></span>';
-      errorEl.style.display = 'none';
-      const session = await getSession();
-      if (!session) return;
-      const name = document.getElementById('child-name').value.trim();
-      const grade = parseInt(document.getElementById('child-grade').value);
-      const lang = document.getElementById('child-lang').value;
-      const country = document.getElementById('child-country').value;
-      const phone = document.getElementById('child-phone').value.trim() || null;
-      const { data, error } = await window.supabaseClient
-        .from('children')
-        .insert({ parent_id: session.user.id, name, grade, preferred_language: lang, country, phone, is_active: true })
-        .select().single();
-      btn.disabled = false;
-      btn.textContent = 'Add Child';
-      if (error) {
-        let msg = error.message;
-        if (msg.includes('check_child_limit')) msg = 'You have reached the maximum number of children for your plan. Please upgrade to add more.';
-        errorEl.textContent = msg;
-        errorEl.style.display = 'block';
-      } else {
-        closeAddChildModal();
-        await loadDashboard();
-      }
-    }
-
-    // ---- SET CREDENTIALS MODAL ----
-    function openSetCredentialsModal(childId, childName) {
-      let modal = document.getElementById('credentials-modal');
-      if (modal) modal.remove();
-      const div = document.createElement('div');
-      div.id = 'credentials-modal';
-      div.className = 'modal-overlay active';
-      div.innerHTML = `
-        <div class="modal" style="max-width:400px;">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-            <h2>Set Login Credentials</h2>
-            <button onclick="closeCredentialsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-          </div>
-          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>${childName}</strong> log in with a username and password.</p>
-          <form onsubmit="submitCredentials(event, '${childId}')">
-            <div class="form-group">
-              <label>Username</label>
-              <input type="text" id="cred-username" placeholder="3-20 characters" required pattern="[a-zA-Z0-9]{3,20}">
-            </div>
-            <div class="form-group">
-              <label>Password</label>
-              <input type="password" id="cred-password" placeholder="At least 4 characters" required minlength="4">
-            </div>
-            <div id="cred-error" class="form-error"></div>
-            <div style="display:flex; gap:8px;">
-              <button type="submit" class="btn btn-primary" style="flex:1;">Save</button>
-              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeCredentialsModal()">Cancel</button>
-            </div>
-          </form>
-        </div>
-      `;
-      document.body.appendChild(div);
-    }
-
-    function closeCredentialsModal() {
-      const modal = document.getElementById('credentials-modal');
-      if (modal) modal.classList.remove('active');
-    }
-
-    async function submitCredentials(e, childId) {
-      e.preventDefault();
-      const username = document.getElementById('cred-username').value.trim();
-      const password = document.getElementById('cred-password').value;
-      const errorEl = document.getElementById('cred-error');
-      const btn = e.target.querySelector('button[type="submit"]');
-      btn.disabled = true;
-      btn.innerHTML = '<span class="spinner"></span>';
-      errorEl.style.display = 'none';
-      const data = await apiCall('/api/children/set-credentials', {
-        method: 'POST',
-        body: JSON.stringify({ child_id: childId, username, password })
-      });
-      btn.disabled = false;
-      btn.textContent = 'Save';
-      if (data && data.success) {
-        closeCredentialsModal();
-        await loadDashboard();
-      } else {
-        errorEl.textContent = data?.error || 'Failed to set credentials';
-        errorEl.style.display = 'block';
-      }
-    }
-
-    // ---- SUBSCRIPTIONS & PACKS ----
-    async function subscribe(planId) {
-      const data = await apiCall('/api/credits/checkout', { method: 'POST', body: JSON.stringify({ type: 'subscription', plan_id: planId }) });
-      if (data && data.url) window.location.href = data.url;
-    }
-    async function buyPack(packId) {
-      const data = await apiCall('/api/credits/checkout', { method: 'POST', body: JSON.stringify({ type: 'pack', plan_id: packId }) });
-      if (data && data.url) window.location.href = data.url;
-    }
-
-    // ---- SESSION TRANSCRIPT ----
-    async function viewTranscript(sessionId, childName) {
-      const modal = document.getElementById('transcript-modal');
-      document.getElementById('transcript-title').textContent = `${childName}'s Session`;
-      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading...</p>';
-      modal.classList.add('active');
-      const data = await apiCall(`/api/sessions/history?session_id=${sessionId}`);
-      if (data && data.sessions && data.sessions.length > 0) {
-        const session = data.sessions[0];
-        if (session.messages && session.messages.length > 0) {
-          document.getElementById('transcript-content').innerHTML = session.messages.map(m => `
-            <div style="padding:12px 14px; background:${m.role === 'user' ? 'var(--primary-light)' : 'var(--gray-100)'}; border-radius:8px; border-left:4px solid ${m.role === 'user' ? 'var(--primary)' : 'var(--gray-400)'};">
-              <strong style="font-size:12px; color:${m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)'};">${m.role === 'user' ? childName : 'MathBuddy'}</strong>
-              <p style="margin:6px 0 0; font-size:14px; line-height:1.5;">${escapeHtml(m.content)}</p>
-              <span style="font-size:11px; color:var(--gray-500);">${new Date(m.created_at).toLocaleTimeString()}</span>
-            </div>
-          `).join('');
-        } else {
-          document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No messages in this session.</p>';
-        }
-      } else {
-        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Session not found.</p>';
-      }
-    }
-
-    function closeTranscript() {
-      document.getElementById('transcript-modal').classList.remove('active');
-    }
-
-    function escapeHtml(text) {
-      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
-      return text.replace(/[&<>"']/g, m => map[m]);
     }
 
     async function logout() {
