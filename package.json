@@ -2,6 +2,7 @@
   "name": "ai-math-tutor",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Parent-controlled AI Math Tutor for Grades 1-9",
   "scripts": {
     "dev": "vercel dev"
