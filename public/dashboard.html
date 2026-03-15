@@ -205,16 +205,34 @@
       if (!session) return window.location.href = '/login.html';
 
       // Subscription gate: block dashboard access until user has an active subscription
-      try {
-        const balanceCheck = await apiCall('/api/credits/balance');
-        if (!balanceCheck || balanceCheck.error || !balanceCheck.subscription) {
-          // No active subscription \u2014 redirect to pricing page
-          window.location.href = '/pricing.html?reason=no_subscription';
-          return;
+      // If returning from payment, retry a few times to allow webhook to process
+      const urlParams = new URLSearchParams(window.location.search);
+      const isPaymentReturn = urlParams.get('payment') === 'success';
+      const maxRetries = isPaymentReturn ? 5 : 1;
+
+      let subscriptionFound = false;
+      for (let attempt = 0; attempt < maxRetries; attempt++) {
+        try {
+          if (attempt > 0) await new Promise(r => setTimeout(r, 2000));
+          const balanceCheck = await apiCall('/api/credits/balance');
+          if (balanceCheck && !balanceCheck.error && balanceCheck.subscription) {
+            subscriptionFound = true;
+            break;
+          }
+        } catch (e) {
+          console.error('[Dashboard] Subscription check attempt ' + (attempt + 1) + ' failed:', e);
+          subscriptionFound = true; // fail-open
+          break;
         }
-      } catch (e) {
-        console.error('[Dashboard] Subscription check failed:', e);
-        // If the check fails, let them through rather than blocking (fail-open)
+      }
+
+      if (!subscriptionFound) {
+        window.location.href = '/pricing.html?reason=no_subscription';
+        return;
+      }
+      // Clean up URL param
+      if (isPaymentReturn) {
+        window.history.replaceState({}, '', '/dashboard.html');
       }
 
       await loadDashboard();

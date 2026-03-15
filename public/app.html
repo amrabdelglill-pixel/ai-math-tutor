@@ -115,8 +115,8 @@
       document.getElementById('active-child-grade').textContent = `(Grade ${currentChild.grade})`;
       document.getElementById('child-name-display').textContent = currentChild.name;
 
-      // Create session and show chat
-      await createAndStartSession();
+      // Try to resume last session, or create a new one
+      await resumeOrCreateSession();
       await loadCredits();
     checkCreditLimits();
     })();
@@ -146,6 +146,37 @@
       badge.className = 'credit-badge';
       if (credits <= 5) badge.classList.add('low');
       if (credits <= 0) badge.classList.add('empty');
+    }
+
+    async function resumeOrCreateSession() {
+      // Try to load the most recent active session with its messages
+      try {
+        const historyData = await apiCall(`/api/sessions/history?child_id=${currentChild.id}`);
+        if (historyData && historyData.sessions && historyData.sessions.length > 0) {
+          // Find the most recent session that is still active (or has messages)
+          const lastSession = historyData.sessions[0];
+          if (lastSession.status === 'active' || (lastSession.messages && lastSession.messages.length > 0 && lastSession.status !== 'completed')) {
+            currentSession = lastSession;
+            // Load existing messages into chat
+            const msgs = document.getElementById('chat-messages');
+            msgs.innerHTML = '';
+            if (lastSession.messages && lastSession.messages.length > 0) {
+              // Sort messages by created_at
+              const sorted = lastSession.messages.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+              sorted.forEach(m => {
+                addBubble(m.role === 'user' ? m.content : m.content, m.role === 'user' ? 'user' : 'assistant');
+              });
+            } else {
+              msgs.innerHTML = `<div class="chat-bubble assistant">Hi ${currentChild.name}! I'm your math buddy. What are we working on today? Type your question or paste a math problem!</div>`;
+            }
+            return;
+          }
+        }
+      } catch (e) {
+        console.error('[App] Failed to load last session:', e);
+      }
+      // No resumable session — create a new one
+      await createAndStartSession();
     }
 
     async function createAndStartSession() {
