@@ -47,24 +47,30 @@ export default async function handler(req, res) {
 
   try {
     switch (eventName) {
-      // ---- One-time purchase completed ----
+      // ---- Order completed (handles BOTH subscriptions and one-time packs) ----
       case 'order_created': {
         if (attrs.status !== 'paid') break;
 
         const userId = customData.user_id;
         const credits = parseInt(customData.credits || '0');
         const productType = customData.product_type;
+        const planName = customData.plan_name;
+        const billingCycle = customData.billing_cycle || 'monthly';
+        const maxChildren = parseInt(customData.max_children || '1');
+
+        console.log('order_created:', JSON.stringify({ userId, credits, productType, planName, billingCycle, customData }));
 
         if (!userId || !credits) {
           console.error('Missing user_id or credits in order_created');
           break;
         }
 
+        // Add credits
         const { data: currentBalance } = await supabase.rpc('get_credit_balance', {
           p_parent_id: userId
         });
 
-        await supabase.from('credit_ledger').insert({
+        const { error: creditErr } = await supabase.from('credit_ledger').insert({
           parent_id: userId,
           amount: credits,
           balance_after: (currentBalance || 0) + credits,
@@ -72,6 +78,38 @@ export default async function handler(req, res) {
           description: `${customData.plan_id || 'Credit pack'} (${credits} credits)`,
           stripe_payment_id: `ls_order_${event.data.id}`,
         });
+        if (creditErr) console.error('Error inserting credits:', JSON.stringify(creditErr));
+
+        // If this is a subscription purchase, also create the subscription record
+        // (don't rely on subscription_created event which may not fire reliably)
+        if (productType === 'subscription' && planName) {
+          // Cancel any existing active/trialing subscription
+          const { error: cancelErr } = await supabase.from('subscriptions')
+            .update({ status: 'cancelled', updated_at: new Date().toISOString() })
+            .eq('parent_id', userId)
+            .in('status', ['active', 'trialing']);
+          if (cancelErr) console.error('Error cancelling old sub:', JSON.stringify(cancelErr));
+
+          const periodEnd = new Date(Date.now() + (billingCycle === 'annual' ? 365 : 30) * 24 * 60 * 60 * 1000).toISOString();
+
+          const { error: subErr } = await supabase.from('subscriptions').insert({
+            parent_id: userId,
+            stripe_subscription_id: `ls_order_${event.data.id}`,
+            plan_name: planName,
+            credits_per_month: credits,
+            price_cents: Math.round(attrs.total || 0),
+            status: 'active',
+            current_period_start: new Date().toISOString(),
+            current_period_end: periodEnd,
+            billing_cycle: billingCycle,
+            max_children: maxChildren,
+          });
+          if (subErr) {
+            console.error('ERROR creating subscription in order_created:', JSON.stringify(subErr));
+          } else {
+            console.log('Subscription created successfully via order_created for user', userId);
+          }
+        }
 
         break;
       }
@@ -91,6 +129,28 @@ export default async function handler(req, res) {
           break;
         }
 
+        // Check if order_created already handled this (avoid duplicate subscription)
+        const { data: existingSub } = await supabase.from('subscriptions')
+          .select('id')
+          .eq('parent_id', userId)
+          .eq('status', 'active')
+          .gte('created_at', new Date(Date.now() - 60000).toISOString()) // created in last 60s
+          .limit(1);
+
+        if (existingSub && existingSub.length > 0) {
+          console.log('subscription_created: subscription already exists (created by order_created), updating with LS subscription ID');
+          // Just update the stripe_subscription_id to the proper LS sub ID
+          await supabase.from('subscriptions')
+            .update({
+              stripe_subscription_id: `ls_sub_${event.data.id}`,
+              status: attrs.status === 'on_trial' ? 'trialing' : 'active',
+              current_period_end: attrs.renews_at ? new Date(attrs.renews_at).toISOString() : undefined,
+            })
+            .eq('id', existingSub[0].id);
+          break;
+        }
+
+        // No existing sub — create one (fallback if order_created didn't handle it)
         // Cancel any existing active subscription for this user
         const { error: cancelErr } = await supabase.from('subscriptions')
           .update({ status: 'cancelled', updated_at: new Date().toISOString() })
@@ -98,12 +158,10 @@ export default async function handler(req, res) {
           .in('status', ['active', 'trialing']);
         if (cancelErr) console.error('Error cancelling old subscription:', cancelErr);
 
-        // Determine period dates from LS
         const periodStart = attrs.renews_at ? new Date(attrs.created_at).toISOString() : new Date().toISOString();
         const periodEnd = attrs.renews_at ? new Date(attrs.renews_at).toISOString()
           : new Date(Date.now() + (billingCycle === 'annual' ? 365 : 30) * 24 * 60 * 60 * 1000).toISOString();
 
-        // Create subscription record
         const subRecord = {
           parent_id: userId,
           stripe_subscription_id: `ls_sub_${event.data.id}`,
@@ -116,7 +174,7 @@ export default async function handler(req, res) {
           billing_cycle: billingCycle,
           max_children: maxChildren,
         };
-        console.log('Inserting subscription:', JSON.stringify(subRecord));
+        console.log('Inserting subscription (fallback):', JSON.stringify(subRecord));
         const { error: insertErr } = await supabase.from('subscriptions').insert(subRecord);
         if (insertErr) {
           console.error('ERROR inserting subscription:', JSON.stringify(insertErr));
@@ -125,17 +183,28 @@ export default async function handler(req, res) {
         }
 
         // Credit the user (skip if trial — credits come on first payment)
+        // Also skip if order_created already credited
         if (attrs.status !== 'on_trial') {
-          const { data: bal } = await supabase.rpc('get_credit_balance', { p_parent_id: userId });
-          const { error: creditErr } = await supabase.from('credit_ledger').insert({
-            parent_id: userId,
-            amount: credits,
-            balance_after: (bal || 0) + credits,
-            type: 'subscription',
-            description: `${planName} subscription activated (${credits} credits)`,
-            stripe_payment_id: `ls_sub_${event.data.id}`,
-          });
-          if (creditErr) console.error('ERROR inserting credits:', JSON.stringify(creditErr));
+          // Check if credits were already added by order_created
+          const { data: recentCredit } = await supabase.from('credit_ledger')
+            .select('id')
+            .eq('parent_id', userId)
+            .gte('created_at', new Date(Date.now() - 60000).toISOString())
+            .limit(1);
+          if (!recentCredit || recentCredit.length === 0) {
+            const { data: bal } = await supabase.rpc('get_credit_balance', { p_parent_id: userId });
+            const { error: creditErr2 } = await supabase.from('credit_ledger').insert({
+              parent_id: userId,
+              amount: credits,
+              balance_after: (bal || 0) + credits,
+              type: 'subscription',
+              description: `${planName} subscription activated (${credits} credits)`,
+              stripe_payment_id: `ls_sub_${event.data.id}`,
+            });
+            if (creditErr2) console.error('ERROR inserting credits:', JSON.stringify(creditErr2));
+          } else {
+            console.log('Credits already added by order_created, skipping');
+          }
         }
 
         break;
