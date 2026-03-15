@@ -202,6 +202,11 @@
     </div>
 </nav>
 
+<!-- Subscription required banner (shown when redirected from dashboard) -->
+<div id="subscription-banner" style="display:none; background:linear-gradient(135deg,#FEF3C7,#FDE68A); border-bottom:2px solid #F59E0B; padding:14px 20px; text-align:center; margin-top:60px;">
+    <span style="font-size:15px; color:#92400E; font-weight:600;">&#9888; You need an active subscription to access your dashboard. Please choose a plan below to get started.</span>
+</div>
+
 <!-- Hero -->
 <section class="pricing-hero">
     <div class="container">
@@ -365,6 +370,16 @@ function setPricing(mode) {
 }
 window._billingPeriod = 'annual';
 setPricing('annual');
+
+// Show subscription-required banner if redirected from dashboard
+(function() {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('reason') === 'no_subscription') {
+        var banner = document.getElementById('subscription-banner');
+        if (banner) banner.style.display = 'block';
+    }
+})();
+
 
 // Sign up with chosen plan â sends to LemonSqueezy checkout
 async function signUpWithPlan(e, planName) {
