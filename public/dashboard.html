@@ -157,13 +157,13 @@
         </div>
         <div class="flex flex-col gap-2">
           <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between; padding:14px 16px;">
-            <span>&#9889; Quick Top-Up &mdash; 100 credits</span><strong>$15</strong>
+            <span>&#9889; Quick Top-Up - 100 credits</span><strong>$15</strong>
           </button>
           <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between; padding:14px 16px;">
-            <span>&#128230; Credit Pack &mdash; 300 credits</span><strong>$35</strong>
+            <span>&#128230; Credit Pack - 300 credits</span><strong>$35</strong>
           </button>
           <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between; padding:14px 16px;">
-            <span>&#128640; Credit Tank &mdash; 1,000 credits</span><strong>$100</strong>
+            <span>&#128640; Credit Tank - 1,000 credits</span><strong>$100</strong>
           </button>
         </div>
       </div>
@@ -220,161 +220,173 @@
       await loadDashboard();
     })();
 
-    async function loadDashboard() {
-      // Load credits + transactions
-      const creditData = await apiCall('/api/credits/balance');
-      if (creditData) {
-        document.getElementById('stat-credits').textContent = creditData.credits;
+    async function loa    async function loadDashboard() {
+      // --- Section 1: Load credits + subscription ---
+      try {
+        const creditData = await apiCall('/api/credits/balance');
+        if (creditData && !creditData.error) {
+          document.getElementById('stat-credits').textContent = creditData.credits;
 
-        if (creditData.subscription) {
-          const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
-          document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
+          if (creditData.subscription) {
+            const planNames = { starter: 'Starter', standard: 'Standard', premium: 'Premium', family: 'Family' };
+            document.getElementById('stat-plan').textContent = planNames[creditData.subscription.plan_name] || 'Free';
 
-          // Show renewal / validity date
-          if (creditData.subscription.current_period_end) {
-            const renewDate = new Date(creditData.subscription.current_period_end);
-            const now = new Date();
-            const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
-            const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-            let color = 'var(--success)';
-            if (daysLeft <= 7) color = 'var(--danger)';
-            else if (daysLeft <= 14) color = 'var(--warning)';
-            document.getElementById('renewal-info').innerHTML =
-              `Renews: <strong style="color:${color};">${dateStr}</strong> (${daysLeft}d left)`;
+            // Show renewal / validity date
+            if (creditData.subscription.current_period_end) {
+              const renewDate = new Date(creditData.subscription.current_period_end);
+              const now = new Date();
+              const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
+              const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+              let color = 'var(--success)';
+              if (daysLeft <= 7) color = 'var(--danger)';
+              else if (daysLeft <= 14) color = 'var(--warning)';
+              document.getElementById('renewal-info').innerHTML =
+                'Renews: <strong style="color:' + color + ';">' + dateStr + '</strong> (' + daysLeft + 'd left)';
+            }
+
+            // Usage bar
+            var total = creditData.subscription.credits_per_month || 0;
+            var balance = creditData.credits || 0;
+            var used = Math.max(0, total - balance);
+            var pct = total > 0 ? Math.min(100, Math.round((used / total) * 100)) : 0;
+
+            document.getElementById('usage-card').style.display = 'block';
+            document.getElementById('usage-label').textContent = used + ' / ' + total + ' credits used';
+            document.getElementById('usage-bar').style.width = pct + '%';
+            document.getElementById('usage-bar').style.background =
+              pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
+            document.getElementById('usage-percent').textContent = pct + '% used';
+            document.getElementById('usage-percent').style.color =
+              pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
+            document.getElementById('usage-remaining').textContent = balance + ' remaining';
+
+            // Store plan info globally for feature gating
+            window._currentPlan = creditData.subscription.plan_name;
+            window._maxChildren = creditData.subscription.max_children || 1;
+          }
+
+          // Credit history
+          if (creditData.recent_transactions && creditData.recent_transactions.length > 0) {
+            document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(function(t) {
+              return '<div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);">'
+                + '<div><span style="font-size:14px;">' + (t.description || t.type) + '</span>'
+                + '<span style="font-size:12px; color:var(--gray-500); margin-left:8px;">' + new Date(t.created_at).toLocaleDateString() + '</span></div>'
+                + '<span style="font-weight:600; color:' + (t.amount > 0 ? 'var(--success)' : 'var(--danger)') + ';">'
+                + (t.amount > 0 ? '+' : '') + t.amount + '</span></div>';
+            }).join('');
+          }
+        } else {
+          console.error('[Dashboard] Credits API returned error:', creditData);
+        }
+      } catch (e) {
+        console.error('[Dashboard] Failed to load credits:', e);
+      }
+
+      // --- Section 2: Load children ---
+      try {
+        const childData = await apiCall('/api/children/list');
+        if (childData && childData.children) {
+          document.getElementById('stat-children').textContent = childData.children.length;
+
+          // Get per-child credit consumption from sessions
+          var childUsage = {};
+          if (childData.children.length > 0) {
+            try {
+              var childIds = childData.children.map(function(c) { return c.id; });
+              var usageResult = await window.supabaseClient
+                .from('sessions')
+                .select('child_id, credits_used')
+                .in('child_id', childIds);
+              if (usageResult.data) {
+                usageResult.data.forEach(function(s) {
+                  childUsage[s.child_id] = (childUsage[s.child_id] || 0) + (s.credits_used || 0);
+                });
+              }
+            } catch (ue) {
+              console.error('[Dashboard] Failed to load child usage:', ue);
+            }
+          }
+
+          if (childData.children.length > 0) {
+            document.getElementById('children-list').innerHTML = childData.children.map(function(c) {
+              var used = childUsage[c.id] || 0;
+              var bday = c.birthdate ? new Date(c.birthdate).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }) : null;
+              var html = '<div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">';
+              html += '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">';
+              html += '<div><strong style="display:block;">' + c.name + '</strong>';
+              html += '<span style="font-size:12px; color:var(--gray-500);">Grade ' + c.grade + '</span></div>';
+              html += '<div style="display:flex; gap:6px; align-items:center;">';
+              html += '<span style="display:inline-block; background:' + (used > 0 ? 'var(--primary-light)' : 'var(--gray-100)') + '; color:' + (used > 0 ? 'var(--primary)' : 'var(--gray-500)') + '; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">';
+              html += used + ' credit' + (used !== 1 ? 's' : '') + ' used</span>';
+              html += '<button onclick="openEditChildModal(\'' + c.id + '\')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px;" title="Edit child">&#9998;</button>';
+              html += '<button onclick="confirmRemoveChild(\'' + c.id + '\', \'' + c.name + '\')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px; color:var(--danger);" title="Remove child">&times;</button>';
+              html += '</div></div>';
+              html += '<div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;">';
+              if (c.phone) html += '<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Phone: <strong style="color:var(--gray-700);">' + c.phone + '</strong></span>';
+              if (bday) html += '<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Born: <strong style="color:var(--gray-700);">' + bday + '</strong></span>';
+              html += '</div>';
+              if (c.username) {
+                html += '<div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">Username: <strong style="color:var(--gray-700);">' + c.username + '</strong></div>';
+                html += '<div style="display:flex; gap:6px; flex-wrap:wrap;">';
+                html += '<button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Change Login</button>';
+                if (['premium','family'].indexOf(window._currentPlan) !== -1) {
+                  html += '<button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openCreditLimitModal(\'' + c.id + '\', \'' + c.name + '\', ' + (c.credit_limit_daily || 'null') + ', ' + (c.credit_limit_weekly || 'null') + ', ' + (c.credit_limit_monthly || 'null') + ')">Credit Limits</button>';
+                }
+                if (window._currentPlan === 'family') {
+                  html += '<button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewChildSessions(\'' + c.id + '\', \'' + c.name + '\')">Sessions</button>';
+                }
+                html += '</div>';
+              } else {
+                html += '<button class="btn btn-primary" style="font-size:12px; padding:6px 12px; width:100%;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Set Login Credentials</button>';
+              }
+              html += '</div>';
+              return html;
+            }).join('');
+          }
+        } else {
+          console.error('[Dashboard] Children API returned:', childData);
+        }
+      } catch (e) {
+        console.error('[Dashboard] Failed to load children:', e);
+      }
+
+      // --- Section 3: Load session count ---
+      try {
+        const sessionData = await apiCall('/api/sessions/history');
+        if (sessionData && sessionData.sessions) {
+          document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
+        }
+      } catch (e) {
+        console.error('[Dashboard] Failed to load sessions:', e);
+      }
+
+      // --- Section 4: Load notifications ---
+      try {
+        const session = await getSession();
+        if (session) {
+          var notifResult = await window.supabaseClient
+            .from('notifications')
+            .select('*')
+            .eq('read', false)
+            .order('created_at', { ascending: false })
+            .limit(5);
+
+          if (notifResult.data && notifResult.data.length > 0) {
+            document.getElementById('notifications-list').innerHTML = notifResult.data.map(function(n) {
+              var bg = n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' ? '#FEE2E2' : 'var(--gray-50)';
+              return '<div style="padding:10px 14px; background:' + bg + '; border-radius:8px; margin-bottom:8px;">'
+                + '<strong style="font-size:14px;">' + n.title + '</strong>'
+                + '<p style="font-size:13px; color:var(--gray-500); margin-top:2px;">' + (n.body || '') + '</p>'
+                + '<span style="font-size:11px; color:var(--gray-500);">' + new Date(n.created_at).toLocaleString() + '</span></div>';
+            }).join('');
           }
         }
-
-        // Usage bar
-        if (creditData.subscription) {
-          const total = creditData.subscription.credits_per_month || 0;
-          const balance = creditData.credits || 0;
-          const used = Math.max(0, total - balance);
-          const pct = total > 0 ? Math.min(100, Math.round((used / total) * 100)) : 0;
-
-          document.getElementById('usage-card').style.display = 'block';
-          document.getElementById('usage-label').textContent = `${used} / ${total} credits used`;
-          document.getElementById('usage-bar').style.width = pct + '%';
-          document.getElementById('usage-bar').style.background =
-            pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
-          document.getElementById('usage-percent').textContent = pct + '% used';
-          document.getElementById('usage-percent').style.color =
-            pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
-          document.getElementById('usage-remaining').textContent = `${balance} remaining`;
-
-          // Store plan info globally for feature gating
-          window._currentPlan = creditData.subscription.plan_name;
-          window._maxChildren = creditData.subscription.max_children || 1;
-        }
-
-        // Credit history
-        if (creditData.recent_transactions && creditData.recent_transactions.length > 0) {
-          document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(t => `
-            <div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);">
-              <div>
-                <span style="font-size:14px;">${t.description || t.type}</span>
-                <span style="font-size:12px; color:var(--gray-500); margin-left:8px;">${new Date(t.created_at).toLocaleDateString()}</span>
-              </div>
-              <span style="font-weight:600; color:${t.amount > 0 ? 'var(--success)' : 'var(--danger)'};">
-                ${t.amount > 0 ? '+' : ''}${t.amount}
-              </span>
-            </div>
-          `).join('');
-        }
-      }
-
-      // Load children
-      const childData = await apiCall('/api/children/list');
-      if (childData && childData.children) {
-        document.getElementById('stat-children').textContent = childData.children.length;
-
-        // Get per-child credit consumption from sessions
-        let childUsage = {};
-        if (childData.children.length > 0) {
-          const childIds = childData.children.map(c => c.id);
-          const { data: usageRows } = await window.supabaseClient
-            .from('sessions')
-            .select('child_id, credits_used')
-            .in('child_id', childIds);
-          if (usageRows) {
-            usageRows.forEach(s => {
-              childUsage[s.child_id] = (childUsage[s.child_id] || 0) + (s.credits_used || 0);
-            });
-          }
-        }
-
-        if (childData.children.length > 0) {
-          document.getElementById('children-list').innerHTML = childData.children.map(c => {
-            const used = childUsage[c.id] || 0;
-            const bday = c.birthdate ? new Date(c.birthdate).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }) : null;
-            return `
-            <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">
-              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                <div>
-                  <strong style="display:block;">${c.name}</strong>
-                  <span style="font-size:12px; color:var(--gray-500);">Grade ${c.grade}</span>
-                </div>
-                <div style="display:flex; gap:6px; align-items:center;">
-                  <span style="display:inline-block; background:${used > 0 ? 'var(--primary-light)' : 'var(--gray-100)'}; color:${used > 0 ? 'var(--primary)' : 'var(--gray-500)'}; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">
-                    ${used} credit${used !== 1 ? 's' : ''} used
-                  </span>
-                  <button onclick="openEditChildModal('${c.id}')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px;" title="Edit child">&#9998;</button>
-                  <button onclick="confirmRemoveChild('${c.id}', '${c.name}')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px; color:var(--danger);" title="Remove child">&times;</button>
-                </div>
-              </div>
-              <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;">
-                ${c.phone ? `<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Phone: <strong style="color:var(--gray-700);">${c.phone}</strong></span>` : ''}
-                ${bday ? `<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Born: <strong style="color:var(--gray-700);">${bday}</strong></span>` : ''}
-              </div>
-              ${c.username ? `
-                <div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">
-                  Username: <strong style="color:var(--gray-700);">${c.username}</strong>
-                </div>
-                <div style="display:flex; gap:6px; flex-wrap:wrap;">
-                  <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Change Login</button>
-                  ${['premium','family'].includes(window._currentPlan) ? `
-                    <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openCreditLimitModal('${c.id}', '${c.name}', ${c.credit_limit_daily || 'null'}, ${c.credit_limit_weekly || 'null'}, ${c.credit_limit_monthly || 'null'})">Credit Limits</button>
-                  ` : ''}
-                  ${window._currentPlan === 'family' ? `
-                    <button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="viewChildSessions('${c.id}', '${c.name}')">Sessions</button>
-                  ` : ''}
-                </div>
-              ` : `
-                <button class="btn btn-primary" style="font-size:12px; padding:6px 12px; width:100%;" onclick="openSetCredentialsModal('${c.id}', '${c.name}')">Set Login Credentials</button>
-              `}
-            </div>
-          `}).join('');
-        }
-      }
-
-      // Load session count
-      const sessionData = await apiCall('/api/sessions/history');
-      if (sessionData && sessionData.sessions) {
-        document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
-      }
-
-      // Load notifications
-      const session = await getSession();
-      if (session) {
-        const { data: notifs } = await window.supabaseClient
-          .from('notifications')
-          .select('*')
-          .eq('read', false)
-          .order('created_at', { ascending: false })
-          .limit(5);
-
-        if (notifs && notifs.length > 0) {
-          document.getElementById('notifications-list').innerHTML = notifs.map(n => `
-            <div style="padding:10px 14px; background:${n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' ? '#FEE2E2' : 'var(--gray-50)'}; border-radius:8px; margin-bottom:8px;">
-              <strong style="font-size:14px;">${n.title}</strong>
-              <p style="font-size:13px; color:var(--gray-500); margin-top:2px;">${n.body || ''}</p>
-              <span style="font-size:11px; color:var(--gray-500);">${new Date(n.created_at).toLocaleString()}</span>
-            </div>
-          `).join('');
-        }
+      } catch (e) {
+        console.error('[Dashboard] Failed to load notifications:', e);
       }
     }
 
-    // ---- ADD CHILD MODAL ----
+MODAL ----
     function openAddChildModal() {
       let modal = document.getElementById('add-child-modal');
       if (!modal) {
