@@ -1,4 +1,4 @@
-import { createAuthClient, getUser } from '../../lib/supabase.js';
+import { createServerClient, getUser } from '../../lib/supabase.js';
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -9,7 +9,8 @@ export default async function handler(req, res) {
   const user = await getUser(req);
   if (!user) return res.status(401).json({ error: 'Not authenticated' });
 
-  const supabase = createAuthClient(req);
+  // Use service role client to bypass RLS — we verify ownership via parent_id = user.id
+  const supabase = createServerClient();
   const { child_id, session_id } = req.query;
 
   let query = supabase
@@ -21,7 +22,7 @@ export default async function handler(req, res) {
   if (session_id) {
     query = query.eq('id', session_id);
   } else {
-    query = query.limit(20);
+    query = query.limit(50);
     if (child_id) {
       query = query.eq('child_id', child_id);
     }

@@ -671,19 +671,18 @@
       document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading sessions...</p>';
       modal.classList.add('active');
 
-      const { data: sessions } = await window.supabaseClient
-        .from('sessions')
-        .select('id, started_at, status, interaction_count, credits_used, grade')
-        .eq('child_id', childId)
-        .order('started_at', { ascending: false })
-        .limit(20);
+      // Use API endpoint to get sessions WITH messages (accurate count)
+      const data = await apiCall(`/api/sessions/history?child_id=${childId}`);
+      const allSessions = (data && data.sessions) ? data.sessions : [];
+      // Filter to only sessions that have at least 1 message
+      const sessions = allSessions.filter(s => s.messages && s.messages.length > 0);
 
-      if (sessions && sessions.length > 0) {
+      if (sessions.length > 0) {
         document.getElementById('transcript-content').innerHTML = sessions.map(s => `
           <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; cursor:pointer;" onclick="viewTranscript('${s.id}', '${childName}')">
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <strong style="font-size:14px;">${new Date(s.started_at).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' })}</strong>
-              <span style="font-size:12px; color:var(--gray-500);">${s.interaction_count || 0} messages</span>
+              <span style="font-size:12px; color:var(--gray-500);">${s.messages.length} messages</span>
             </div>
             <div style="font-size:12px; color:var(--gray-500); margin-top:4px;">
               ${s.credits_used || 0} credits &middot; Grade ${s.grade} &middot;
@@ -692,7 +691,7 @@
           </div>
         `).join('');
       } else {
-        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No sessions yet for this child.</p>';
+        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No sessions with messages yet for this child.</p>';
       }
     }
 
