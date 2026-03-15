@@ -91,14 +91,14 @@
 
     (async () => {
       const session = await getSession();
-      if (session && session.user && session.user.email_confirmed_at) {
-        if (planId) {
-          try {
-            const data = await apiCall('/api/credits/checkout', { method: 'POST', body: JSON.stringify({ plan_id: planId }) });
-            if (data && data.url) { window.location.href = data.url; return; }
-          } catch (e) {}
+      if (session) {
+        // Already verified and signed in \u2014 redirect to login.html
+        // which handles the checkout flow via sessionStorage pendingPlan
+        var planParam = new URLSearchParams(window.location.search).get('plan');
+        if (planParam) {
+          sessionStorage.setItem('pendingPlan', planParam);
         }
-        window.location.href = '/dashboard.html';
+        window.location.href = '/login.html' + (planParam ? '?plan=' + encodeURIComponent(planParam) : '');
       }
     })();
 
