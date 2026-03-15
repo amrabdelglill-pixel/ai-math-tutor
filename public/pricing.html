@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeluu - Pricing &amp; Plans</title>
+    <title>Zeluu - Pricing & Plans</title>
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#4F46E5">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -207,7 +207,7 @@
     <div class="container">
         <h1>Choose the right plan for your family</h1>
         <p>Simple, credit-based pricing. No hidden fees. Cancel anytime.</p>
-        <div class="trial-highlight">&#127891; 14-day free trial &bull; 10 free credits &bull; No credit card required</div>
+        <div class="trial-highlight">&#127891; 14-day free trial &bull; 10 free credits &bull; No payment required, cancel anytime</div>
     </div>
 </section>
 
@@ -216,8 +216,8 @@
     <div class="container">
         <div class="toggle-wrap">
             <div class="toggle-pill">
-                <button id="btn-monthly" class="active" onclick="setPricing('monthly')">Monthly</button>
-                <button id="btn-annual" onclick="setPricing('annual')">Annual <span class="save-badge">Save 20%</span></button>
+                <button id="btn-monthly" onclick="setPricing('monthly')">Monthly</button>
+                <button id="btn-annual" class="active" onclick="setPricing('annual')">Annual <span class="save-badge">Save 20%</span></button>
             </div>
         </div>
         <div class="pricing-grid-new" id="pricing-cards">
@@ -262,7 +262,7 @@
                     <li><span class="check">&#10003;</span> Up to 3 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
                     <li><span class="check">&#10003;</span> Photo support</li>
-                    <li><span class="check">&#10003;</span> Weekly reports</li>
+                    <li><span class="check">&#10003;</span> Child credit limit</li>
                     <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
                 <a href="#" class="plan-btn plan-btn-outline" data-plan="premium" onclick="signUpWithPlan(event, 'premium')">Sign Up &mdash; Free Trial</a>
@@ -277,8 +277,8 @@
                     <li><span class="check">&#10003;</span> Up to 6 children</li>
                     <li><span class="check">&#10003;</span> AI Socratic tutoring</li>
                     <li><span class="check">&#10003;</span> Photo support</li>
-                    <li><span class="check">&#10003;</span> Weekly reports</li>
-                    <li><span class="check">&#10003;</span> Session viewer</li>
+                    <li><span class="check">&#10003;</span> Child credit limit</li>
+                    <li><span class="check">&#10003;</span> Extra session viewer</li>
                     <li><span class="check">&#10003;</span> 10 free credits on trial</li>
                 </ul>
                 <a href="#" class="plan-btn plan-btn-outline" data-plan="family" onclick="signUpWithPlan(event, 'family')">Sign Up &mdash; Free Trial</a>
@@ -363,9 +363,10 @@ function setPricing(mode) {
     document.getElementById('btn-annual').className = mode === 'annual' ? 'active' : '';
     window._billingPeriod = mode;
 }
-window._billingPeriod = 'monthly';
+window._billingPeriod = 'annual';
+setPricing('annual');
 
-// Sign up with chosen plan
+// Sign up with chosen plan â sends to LemonSqueezy checkout
 async function signUpWithPlan(e, planName) {
     e.preventDefault();
     const btn = e.currentTarget;
@@ -379,7 +380,7 @@ async function signUpWithPlan(e, planName) {
         // Check if user is already logged in
         const session = await getSession();
         if (session) {
-            // Existing user — go straight to checkout
+            // Existing user â go straight to checkout
             const data = await apiCall('/api/credits/checkout', {
                 method: 'POST',
                 body: JSON.stringify({ plan_id: planId })
@@ -389,10 +390,10 @@ async function signUpWithPlan(e, planName) {
                 return;
             }
         }
-        // Not logged in — redirect to login with plan param
+        // Not logged in â redirect to login with plan param
         window.location.href = '/login.html?plan=' + encodeURIComponent(planId);
     } catch (err) {
-        // Fallback — redirect to login with plan param
+        // Fallback â redirect to login with plan param
         window.location.href = '/login.html?plan=' + encodeURIComponent(planId);
     } finally {
         btn.textContent = origText;
