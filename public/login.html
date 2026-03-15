@@ -101,7 +101,18 @@
     };
 
     const urlParams = new URLSearchParams(window.location.search);
-    const selectedPlanId = urlParams.get('plan');
+    let selectedPlanId = urlParams.get('plan');
+
+    // Persist plan ID across redirects (email verification link → login page)
+    if (selectedPlanId) {
+      sessionStorage.setItem('pendingPlan', selectedPlanId);
+    } else {
+      // Recover plan from sessionStorage if URL param was lost
+      const savedPlan = sessionStorage.getItem('pendingPlan');
+      if (savedPlan && PLAN_INFO[savedPlan]) {
+        selectedPlanId = savedPlan;
+      }
+    }
 
     // Show selected plan badge and auto-switch to signup if plan param exists
     if (selectedPlanId && PLAN_INFO[selectedPlanId]) {
@@ -119,19 +130,53 @@
     }
 
     // Redirect authenticated user to checkout (if plan selected) or dashboard
-    async function redirectAuthenticatedUser() {
-      if (selectedPlanId) {
+    async function redirectAuthenticatedUser(retryCount) {
+      retryCount = retryCount || 0;
+      var planId = selectedPlanId || sessionStorage.getItem('pendingPlan');
+      if (planId) {
         try {
-          const data = await apiCall('/api/credits/checkout', {
+          // Ensure session token is available before calling API
+          var token = await getToken();
+          if (!token && retryCount < 3) {
+            // Token not ready yet — wait and retry
+            await new Promise(function(r) { setTimeout(r, 1500); });
+            return redirectAuthenticatedUser(retryCount + 1);
+          }
+          if (!token) {
+            // After retries, still no token — go to dashboard
+            console.error('No auth token available after retries');
+            window.location.href = '/dashboard.html';
+            return;
+          }
+          var checkoutRes = await fetch('/api/credits/checkout', {
             method: 'POST',
-            body: JSON.stringify({ plan_id: selectedPlanId })
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': 'Bearer ' + token
+            },
+            body: JSON.stringify({ plan_id: planId })
           });
+          var data = await checkoutRes.json();
           if (data && data.url) {
+            sessionStorage.removeItem('pendingPlan');
             window.location.href = data.url;
             return;
           }
-        } catch (e) {}
+          // API returned but no URL — retry if possible
+          console.error('Checkout API returned no URL:', JSON.stringify(data));
+          if (retryCount < 3) {
+            await new Promise(function(r) { setTimeout(r, 1500); });
+            return redirectAuthenticatedUser(retryCount + 1);
+          }
+        } catch (e) {
+          console.error('Checkout redirect error:', e);
+          if (retryCount < 3) {
+            await new Promise(function(r) { setTimeout(r, 1500); });
+            return redirectAuthenticatedUser(retryCount + 1);
+          }
+        }
       }
+      sessionStorage.removeItem('pendingPlan');
       window.location.href = '/dashboard.html';
     }
 
@@ -147,7 +192,8 @@
     // the verification token from the URL hash after clicking email link
     window.supabaseClient.auth.onAuthStateChange(function(event, session) {
       if (event === 'SIGNED_IN' && session) {
-        redirectAuthenticatedUser();
+        // Small delay to let session fully establish before calling checkout API
+        setTimeout(function() { redirectAuthenticatedUser(0); }, 1000);
       }
     });
 
@@ -191,19 +237,8 @@
         btn.disabled = false; btn.textContent = 'Sign In';
       } else {
         // If they came with a plan from pricing page, redirect to checkout
-        if (selectedPlanId) {
-          try {
-            const checkoutData = await apiCall('/api/credits/checkout', {
-              method: 'POST',
-              body: JSON.stringify({ plan_id: selectedPlanId })
-            });
-            if (checkoutData && checkoutData.url) {
-              window.location.href = checkoutData.url;
-              return;
-            }
-          } catch (e) {}
-        }
-        window.location.href = '/dashboard.html';
+        await redirectAuthenticatedUser(0);
+        return;
       }
     }
 
