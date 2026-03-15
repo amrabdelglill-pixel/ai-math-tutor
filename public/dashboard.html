@@ -203,6 +203,20 @@
       requireAuth();
       const session = await getSession();
       if (!session) return window.location.href = '/login.html';
+
+      // Subscription gate: block dashboard access until user has an active subscription
+      try {
+        const balanceCheck = await apiCall('/api/credits/balance');
+        if (!balanceCheck || balanceCheck.error || !balanceCheck.subscription) {
+          // No active subscription \u2014 redirect to pricing page
+          window.location.href = '/pricing.html?reason=no_subscription';
+          return;
+        }
+      } catch (e) {
+        console.error('[Dashboard] Subscription check failed:', e);
+        // If the check fails, let them through rather than blocking (fail-open)
+      }
+
       await loadDashboard();
     })();
 
