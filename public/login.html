@@ -103,7 +103,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     let selectedPlanId = urlParams.get('plan');
 
-    // Persist plan ID across redirects (email verification link → login page)
+    // Persist plan ID across redirects (email verification link -> login page)
     if (selectedPlanId) {
       sessionStorage.setItem('pendingPlan', selectedPlanId);
     } else {
@@ -124,7 +124,7 @@
       document.getElementById('signup-tab').style.display = '';
       setTimeout(() => switchTab('signup'), 100);
     } else {
-      // No plan selected â hide signup tab, users must choose a plan first
+      // No plan selected - hide signup tab, users must choose a plan first
       document.getElementById('signup-tab').style.display = 'none';
       document.getElementById('choose-plan-link').style.display = 'block';
     }
@@ -133,17 +133,30 @@
     async function redirectAuthenticatedUser(retryCount) {
       retryCount = retryCount || 0;
       var planId = selectedPlanId || sessionStorage.getItem('pendingPlan');
+
+      // Fallback: check user metadata for pending_plan (survives email verification redirect across tabs)
+      if (!planId) {
+        try {
+          var sess = await getSession();
+          if (sess && sess.user && sess.user.user_metadata && sess.user.user_metadata.pending_plan) {
+            planId = sess.user.user_metadata.pending_plan;
+          }
+        } catch (e) {
+          console.error('Error reading user metadata for plan:', e);
+        }
+      }
+
       if (planId) {
         try {
           // Ensure session token is available before calling API
           var token = await getToken();
           if (!token && retryCount < 3) {
-            // Token not ready yet — wait and retry
+            // Token not ready yet - wait and retry
             await new Promise(function(r) { setTimeout(r, 1500); });
             return redirectAuthenticatedUser(retryCount + 1);
           }
           if (!token) {
-            // After retries, still no token — go to dashboard
+            // After retries, still no token - go to dashboard
             console.error('No auth token available after retries');
             window.location.href = '/dashboard.html';
             return;
@@ -159,10 +172,12 @@
           var data = await checkoutRes.json();
           if (data && data.url) {
             sessionStorage.removeItem('pendingPlan');
+            // Clear pending_plan from user metadata
+            try { window.supabaseClient.auth.updateUser({ data: { pending_plan: null } }); } catch(e) {}
             window.location.href = data.url;
             return;
           }
-          // API returned but no URL — retry if possible
+          // API returned but no URL - retry if possible
           console.error('Checkout API returned no URL:', JSON.stringify(data));
           if (retryCount < 3) {
             await new Promise(function(r) { setTimeout(r, 1500); });
@@ -188,7 +203,7 @@
       }
     })();
 
-    // Also listen for auth state changes â handles when Supabase processes
+    // Also listen for auth state changes - handles when Supabase processes
     // the verification token from the URL hash after clicking email link
     window.supabaseClient.auth.onAuthStateChange(function(event, session) {
       if (event === 'SIGNED_IN' && session) {
@@ -223,7 +238,7 @@
       e.preventDefault();
       const btn = document.getElementById('login-btn');
       const errorEl = document.getElementById('login-error');
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"><\/span>';
       errorEl.style.display = 'none';
 
       const { data, error } = await window.supabaseClient.auth.signInWithPassword({
@@ -246,14 +261,14 @@
       e.preventDefault();
       const btn = document.getElementById('signup-btn');
       const errorEl = document.getElementById('signup-error');
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"><\/span>';
       errorEl.style.display = 'none';
 
       const email = document.getElementById('signup-email').value;
       const phone = document.getElementById('signup-phone').value.trim();
 
       // Build the redirect URL for after email verification
-      // After verifying, user lands back on login.html with plan param â auto-triggers checkout
+      // After verifying, user lands back on login.html with plan param - auto-triggers checkout
       const origin = window.location.origin;
       const redirectUrl = selectedPlanId
         ? origin + '/login.html?plan=' + encodeURIComponent(selectedPlanId)
@@ -265,7 +280,8 @@
         options: {
           data: {
             full_name: document.getElementById('signup-name').value,
-            phone: phone
+            phone: phone,
+            pending_plan: selectedPlanId || null
           },
           emailRedirectTo: redirectUrl
         }
@@ -276,7 +292,7 @@
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Create Account';
       } else {
-        // Redirect to verify-email page â user must verify before they can subscribe
+        // Redirect to verify-email page - user must verify before they can subscribe
         const verifyUrl = '/verify-email.html?email=' + encodeURIComponent(email)
           + (selectedPlanId ? '&plan=' + encodeURIComponent(selectedPlanId) : '');
         window.location.href = verifyUrl;
