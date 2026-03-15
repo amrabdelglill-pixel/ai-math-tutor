@@ -113,31 +113,43 @@
       document.getElementById('signup-tab').style.display = '';
       setTimeout(() => switchTab('signup'), 100);
     } else {
-      // No plan selected — hide signup tab, users must choose a plan first
+      // No plan selected â hide signup tab, users must choose a plan first
       document.getElementById('signup-tab').style.display = 'none';
       document.getElementById('choose-plan-link').style.display = 'block';
     }
 
-    // Check if already logged in
+    // Redirect authenticated user to checkout (if plan selected) or dashboard
+    async function redirectAuthenticatedUser() {
+      if (selectedPlanId) {
+        try {
+          const data = await apiCall('/api/credits/checkout', {
+            method: 'POST',
+            body: JSON.stringify({ plan_id: selectedPlanId })
+          });
+          if (data && data.url) {
+            window.location.href = data.url;
+            return;
+          }
+        } catch (e) {}
+      }
+      window.location.href = '/dashboard.html';
+    }
+
+    // Check if already logged in (covers returning users + verified users via email link)
     (async () => {
       const session = await getSession();
       if (session) {
-        // If they came with a plan, redirect to checkout first
-        if (selectedPlanId) {
-          try {
-            const data = await apiCall('/api/credits/checkout', {
-              method: 'POST',
-              body: JSON.stringify({ plan_id: selectedPlanId })
-            });
-            if (data && data.url) {
-              window.location.href = data.url;
-              return;
-            }
-          } catch (e) {}
-        }
-        window.location.href = '/dashboard.html';
+        await redirectAuthenticatedUser();
       }
     })();
+
+    // Also listen for auth state changes â handles when Supabase processes
+    // the verification token from the URL hash after clicking email link
+    window.supabaseClient.auth.onAuthStateChange(function(event, session) {
+      if (event === 'SIGNED_IN' && session) {
+        redirectAuthenticatedUser();
+      }
+    });
 
     function switchTab(tab) {
       document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
@@ -157,7 +169,7 @@
         document.getElementById('login-form').style.display = 'none';
         document.getElementById('signup-form').style.display = 'block';
         document.getElementById('auth-title').textContent = 'Sign up to start your trial';
-        document.getElementById('auth-subtitle').textContent = 'Create your account to activate your 14-day free trial with 10 credits.';
+        document.getElementById('auth-subtitle').textContent = 'Create your account, verify your email, then subscribe to activate your trial.';
       }
     }
 
@@ -202,16 +214,25 @@
       btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
       errorEl.style.display = 'none';
 
+      const email = document.getElementById('signup-email').value;
       const phone = document.getElementById('signup-phone').value.trim();
 
+      // Build the redirect URL for after email verification
+      // After verifying, user lands back on login.html with plan param â auto-triggers checkout
+      const origin = window.location.origin;
+      const redirectUrl = selectedPlanId
+        ? origin + '/login.html?plan=' + encodeURIComponent(selectedPlanId)
+        : origin + '/dashboard.html';
+
       const { data, error } = await window.supabaseClient.auth.signUp({
-        email: document.getElementById('signup-email').value,
+        email: email,
         password: document.getElementById('signup-password').value,
         options: {
           data: {
             full_name: document.getElementById('signup-name').value,
             phone: phone
-          }
+          },
+          emailRedirectTo: redirectUrl
         }
       });
 
@@ -220,22 +241,10 @@
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Create Account';
       } else {
-        // If they chose a plan from pricing page, redirect to checkout
-        if (selectedPlanId) {
-          try {
-            const checkoutData = await apiCall('/api/credits/checkout', {
-              method: 'POST',
-              body: JSON.stringify({ plan_id: selectedPlanId })
-            });
-            if (checkoutData && checkoutData.url) {
-              window.location.href = checkoutData.url;
-              return;
-            }
-          } catch (e) {
-            // Fallback to dashboard if checkout fails
-          }
-        }
-        window.location.href = '/dashboard.html';
+        // Redirect to verify-email page â user must verify before they can subscribe
+        const verifyUrl = '/verify-email.html?email=' + encodeURIComponent(email)
+          + (selectedPlanId ? '&plan=' + encodeURIComponent(selectedPlanId) : '');
+        window.location.href = verifyUrl;
       }
     }
 
