@@ -57,31 +57,41 @@ export default async function handler(req, res) {
         const planName = customData.plan_name;
         const billingCycle = customData.billing_cycle || 'monthly';
         const maxChildren = parseInt(customData.max_children || '1');
+        const orderTotal = parseInt(attrs.total || '0'); // in cents — 0 means trial
 
-        console.log('order_created:', JSON.stringify({ userId, credits, productType, planName, billingCycle, customData }));
+        console.log('order_created:', JSON.stringify({ userId, credits, productType, planName, billingCycle, orderTotal, customData }));
 
         if (!userId || !credits) {
           console.error('Missing user_id or credits in order_created');
           break;
         }
 
+        // Determine if this is a trial (subscription with $0 charge)
+        const isTrial = productType === 'subscription' && orderTotal === 0;
+        const TRIAL_CREDITS = 10;
+        const creditsToGrant = isTrial ? TRIAL_CREDITS : credits;
+
         // Add credits
         const { data: currentBalance } = await supabase.rpc('get_credit_balance', {
           p_parent_id: userId
         });
 
+        const creditDescription = isTrial
+          ? `Free trial credits (${TRIAL_CREDITS} credits)`
+          : `${customData.plan_id || 'Credit pack'} (${credits} credits)`;
+
         const { error: creditErr } = await supabase.from('credit_ledger').insert({
           parent_id: userId,
-          amount: credits,
-          balance_after: (currentBalance || 0) + credits,
-          type: productType === 'subscription' ? 'subscription' : 'purchase',
-          description: `${customData.plan_id || 'Credit pack'} (${credits} credits)`,
+          amount: creditsToGrant,
+          balance_after: (currentBalance || 0) + creditsToGrant,
+          type: isTrial ? 'trial' : (productType === 'subscription' ? 'subscription' : 'purchase'),
+          description: creditDescription,
           stripe_payment_id: `ls_order_${event.data.id}`,
         });
         if (creditErr) console.error('Error inserting credits:', JSON.stringify(creditErr));
+        else console.log(`Granted ${creditsToGrant} credits (trial=${isTrial}) to user ${userId}`);
 
         // If this is a subscription purchase, also create the subscription record
-        // (don't rely on subscription_created event which may not fire reliably)
         if (productType === 'subscription' && planName) {
           // Cancel any existing active/trialing subscription
           const { error: cancelErr } = await supabase.from('subscriptions')
@@ -90,15 +100,17 @@ export default async function handler(req, res) {
             .in('status', ['active', 'trialing']);
           if (cancelErr) console.error('Error cancelling old sub:', JSON.stringify(cancelErr));
 
-          const periodEnd = new Date(Date.now() + (billingCycle === 'annual' ? 365 : 30) * 24 * 60 * 60 * 1000).toISOString();
+          // Trial = 14 days, paid = full billing cycle
+          const periodDays = isTrial ? 14 : (billingCycle === 'annual' ? 365 : 30);
+          const periodEnd = new Date(Date.now() + periodDays * 24 * 60 * 60 * 1000).toISOString();
 
           const { error: subErr } = await supabase.from('subscriptions').insert({
             parent_id: userId,
             stripe_subscription_id: `ls_order_${event.data.id}`,
             plan_name: planName,
             credits_per_month: credits,
-            price_cents: Math.round(attrs.total || 0),
-            status: 'active',
+            price_cents: Math.round(orderTotal),
+            status: isTrial ? 'trialing' : 'active',
             current_period_start: new Date().toISOString(),
             current_period_end: periodEnd,
             billing_cycle: billingCycle,
@@ -107,7 +119,7 @@ export default async function handler(req, res) {
           if (subErr) {
             console.error('ERROR creating subscription in order_created:', JSON.stringify(subErr));
           } else {
-            console.log('Subscription created successfully via order_created for user', userId);
+            console.log(`Subscription created (status=${isTrial ? 'trialing' : 'active'}, period=${periodDays}d) for user ${userId}`);
           }
         }
 

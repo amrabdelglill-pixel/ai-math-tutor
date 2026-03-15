@@ -62,6 +62,7 @@
         <span id="usage-percent" style="font-size:12px; font-weight:600;"></span>
         <span id="usage-remaining" style="font-size:12px; color:var(--gray-500);"></span>
       </div>
+      <div id="usage-renewal" style="display:none; margin-top:10px; padding:8px 12px; background:var(--gray-50); border-radius:8px; font-size:12px; color:var(--gray-500); text-align:center;"></div>
     </div>
 
     <!-- Parent Profile -->
@@ -277,6 +278,19 @@
             document.getElementById('usage-percent').style.color =
               pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
             document.getElementById('usage-remaining').textContent = balance + ' remaining';
+
+            // Show renewal date in usage card
+            if (creditData.subscription.current_period_end) {
+              var renewEl = document.getElementById('usage-renewal');
+              var renewDate = new Date(creditData.subscription.current_period_end);
+              var renewDateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+              var daysUntilRenew = Math.ceil((renewDate - new Date()) / (1000 * 60 * 60 * 24));
+              var isTrial = creditData.subscription.status === 'trialing';
+              var renewLabel = isTrial ? 'Trial ends' : 'Credits renew';
+              var renewColor = daysUntilRenew <= 3 ? 'var(--danger)' : daysUntilRenew <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+              renewEl.innerHTML = renewLabel + ': <strong style="color:' + renewColor + ';">' + renewDateStr + '</strong> (' + daysUntilRenew + ' days)';
+              renewEl.style.display = 'block';
+            }
 
             // Store plan info globally for feature gating
             window._currentPlan = creditData.subscription.plan_name;
