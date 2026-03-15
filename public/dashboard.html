@@ -282,13 +282,39 @@
             // Show renewal date in usage card
             if (creditData.subscription.current_period_end) {
               var renewEl = document.getElementById('usage-renewal');
-              var renewDate = new Date(creditData.subscription.current_period_end);
-              var renewDateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-              var daysUntilRenew = Math.ceil((renewDate - new Date()) / (1000 * 60 * 60 * 24));
               var isTrial = creditData.subscription.status === 'trialing';
-              var renewLabel = isTrial ? 'Trial ends' : 'Credits renew';
-              var renewColor = daysUntilRenew <= 3 ? 'var(--danger)' : daysUntilRenew <= 7 ? 'var(--warning)' : 'var(--gray-600)';
-              renewEl.innerHTML = renewLabel + ': <strong style="color:' + renewColor + ';">' + renewDateStr + '</strong> (' + daysUntilRenew + ' days)';
+              var isAnnual = creditData.subscription.billing_cycle === 'annual';
+              var periodEnd = new Date(creditData.subscription.current_period_end);
+              var periodStart = new Date(creditData.subscription.current_period_start);
+              var now = new Date();
+
+              if (isTrial) {
+                // Trial: show trial end date
+                var daysLeft = Math.ceil((periodEnd - now) / (1000 * 60 * 60 * 24));
+                var dateStr = periodEnd.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                var color = daysLeft <= 3 ? 'var(--danger)' : daysLeft <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+                renewEl.innerHTML = 'Trial ends: <strong style="color:' + color + ';">' + dateStr + '</strong> (' + daysLeft + ' days)';
+              } else if (isAnnual) {
+                // Annual plan: credits renew monthly, subscription renews yearly
+                // Calculate next monthly credit renewal from subscription start
+                var nextCredit = new Date(periodStart);
+                while (nextCredit <= now) {
+                  nextCredit.setMonth(nextCredit.getMonth() + 1);
+                }
+                var daysToCredit = Math.ceil((nextCredit - now) / (1000 * 60 * 60 * 24));
+                var creditDateStr = nextCredit.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                var planEndStr = periodEnd.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                var creditColor = daysToCredit <= 3 ? 'var(--danger)' : daysToCredit <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+                renewEl.innerHTML =
+                  'Credits renew: <strong style="color:' + creditColor + ';">' + creditDateStr + '</strong> (' + daysToCredit + 'd)'
+                  + ' &nbsp;&middot;&nbsp; Plan renews: <strong style="color:var(--gray-600);">' + planEndStr + '</strong>';
+              } else {
+                // Monthly plan: credits and plan renew together
+                var daysLeft = Math.ceil((periodEnd - now) / (1000 * 60 * 60 * 24));
+                var dateStr = periodEnd.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                var color = daysLeft <= 3 ? 'var(--danger)' : daysLeft <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+                renewEl.innerHTML = 'Credits renew: <strong style="color:' + color + ';">' + dateStr + '</strong> (' + daysLeft + ' days)';
+              }
               renewEl.style.display = 'block';
             }
 
