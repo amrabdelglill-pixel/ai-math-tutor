@@ -74,6 +74,31 @@
         <p class="text-center mt-2" style="font-size:13px; color:var(--gray-500);">You'll get 10 free credits to start</p>
       </form>
 
+      <!-- OTP Verification Form (shown after signup) -->
+      <div id="otp-form" style="display:none;">
+        <div style="text-align:center; margin-bottom:20px;">
+          <div style="width:56px; height:56px; background:linear-gradient(135deg,#EEF2FF,#E0E7FF); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 12px;">
+            <svg width="28" height="28" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h2 style="margin:0 0 6px; font-size:20px; font-weight:700; color:var(--gray-900);">Check your email</h2>
+          <p style="margin:0; font-size:14px; color:var(--gray-500);">We sent a 6-digit verification code to</p>
+          <p style="margin:4px 0 0; font-size:14px; font-weight:600; color:var(--gray-900);" id="otp-email-display"></p>
+        </div>
+        <div class="form-group">
+          <label for="otp-code" style="text-align:center; display:block;">Verification Code</label>
+          <input type="text" id="otp-code" placeholder="000000" maxlength="6" inputmode="numeric" pattern="[0-9]*"
+            style="text-align:center; font-size:28px; font-weight:700; letter-spacing:10px; padding:14px; font-family:monospace;"
+            autocomplete="one-time-code">
+        </div>
+        <div id="otp-error" class="form-error"></div>
+        <button type="button" class="btn btn-primary btn-lg" style="width:100%;" id="otp-btn" onclick="handleVerifyOtp()">Verify Email</button>
+        <div style="text-align:center; margin-top:14px;">
+          <span style="font-size:13px; color:var(--gray-500);">Didn't receive the code? </span>
+          <button type="button" id="resend-btn" style="background:none; border:none; color:var(--primary); font-weight:600; font-size:13px; cursor:pointer; padding:0;" onclick="handleResendCode()">Resend</button>
+          <span id="resend-timer" style="font-size:13px; color:var(--gray-500); display:none;"></span>
+        </div>
+      </div>
+
       <div id="choose-plan-link" style="margin-top:20px; padding:14px 16px; background:linear-gradient(135deg,#EEF2FF,#F0F9FF); border:2px solid #E0E7FF; border-radius:12px; text-align:center; display:none;">
         <span style="font-size:13px; color:var(--gray-500);">New here?</span><br>
         <a href="/pricing" style="color:var(--primary); text-decoration:none; font-weight:700; font-size:15px;">Choose a plan to get started &rarr;</a>
@@ -257,6 +282,10 @@
       }
     }
 
+    // Store signup email for OTP verification
+    let pendingSignupEmail = '';
+    let resendCooldown = 0;
+
     async function handleSignup(e) {
       e.preventDefault();
       const btn = document.getElementById('signup-btn');
@@ -267,13 +296,6 @@
       const email = document.getElementById('signup-email').value;
       const phone = document.getElementById('signup-phone').value.trim();
 
-      // Build the redirect URL for after email verification
-      // After verifying, user lands back on login.html with plan param - auto-triggers checkout
-      const origin = window.location.origin;
-      const redirectUrl = selectedPlanId
-        ? origin + '/login.html?plan=' + encodeURIComponent(selectedPlanId)
-        : origin + '/dashboard.html';
-
       const { data, error } = await window.supabaseClient.auth.signUp({
         email: email,
         password: document.getElementById('signup-password').value,
@@ -282,8 +304,7 @@
             full_name: document.getElementById('signup-name').value,
             phone: phone,
             pending_plan: selectedPlanId || null
-          },
-          emailRedirectTo: redirectUrl
+          }
         }
       });
 
@@ -292,10 +313,102 @@
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Create Account';
       } else {
-        // Redirect to verify-email page - user must verify before they can subscribe
-        const verifyUrl = '/verify-email.html?email=' + encodeURIComponent(email)
-          + (selectedPlanId ? '&plan=' + encodeURIComponent(selectedPlanId) : '');
-        window.location.href = verifyUrl;
+        // Show OTP verification form
+        pendingSignupEmail = email;
+        showOtpForm(email);
+      }
+    }
+
+    function showOtpForm(email) {
+      document.getElementById('signup-form').style.display = 'none';
+      document.getElementById('login-form').style.display = 'none';
+      document.getElementById('otp-form').style.display = 'block';
+      document.getElementById('otp-email-display').textContent = email;
+      document.getElementById('auth-title').textContent = 'Verify your email';
+      document.getElementById('auth-subtitle').textContent = 'Enter the code we sent to complete signup';
+      // Hide tabs during OTP
+      document.querySelector('.auth-tabs').style.display = 'none';
+      // Focus the OTP input
+      setTimeout(() => document.getElementById('otp-code').focus(), 200);
+      // Start resend cooldown (60s)
+      startResendCooldown();
+      // Auto-submit when 6 digits entered
+      document.getElementById('otp-code').addEventListener('input', function() {
+        this.value = this.value.replace(/[^0-9]/g, '');
+        if (this.value.length === 6) handleVerifyOtp();
+      });
+      document.getElementById('otp-code').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') { e.preventDefault(); handleVerifyOtp(); }
+      });
+    }
+
+    function startResendCooldown() {
+      resendCooldown = 60;
+      const resendBtn = document.getElementById('resend-btn');
+      const resendTimer = document.getElementById('resend-timer');
+      resendBtn.style.display = 'none';
+      resendTimer.style.display = 'inline';
+      const interval = setInterval(() => {
+        resendCooldown--;
+        resendTimer.textContent = '(' + resendCooldown + 's)';
+        if (resendCooldown <= 0) {
+          clearInterval(interval);
+          resendBtn.style.display = 'inline';
+          resendTimer.style.display = 'none';
+        }
+      }, 1000);
+    }
+
+    async function handleResendCode() {
+      if (resendCooldown > 0 || !pendingSignupEmail) return;
+      const resendBtn = document.getElementById('resend-btn');
+      resendBtn.textContent = 'Sending...';
+      resendBtn.disabled = true;
+
+      const { error } = await window.supabaseClient.auth.resend({
+        type: 'signup',
+        email: pendingSignupEmail
+      });
+
+      if (error) {
+        document.getElementById('otp-error').textContent = error.message;
+        document.getElementById('otp-error').style.display = 'block';
+      } else {
+        document.getElementById('otp-error').style.display = 'none';
+      }
+      resendBtn.textContent = 'Resend';
+      resendBtn.disabled = false;
+      startResendCooldown();
+    }
+
+    async function handleVerifyOtp() {
+      const btn = document.getElementById('otp-btn');
+      const errorEl = document.getElementById('otp-error');
+      const code = document.getElementById('otp-code').value.trim();
+
+      if (!code || code.length !== 6) {
+        errorEl.textContent = 'Please enter the 6-digit code from your email.';
+        errorEl.style.display = 'block';
+        return;
+      }
+
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"><\/span>';
+      errorEl.style.display = 'none';
+
+      const { data, error } = await window.supabaseClient.auth.verifyOtp({
+        email: pendingSignupEmail,
+        token: code,
+        type: 'signup'
+      });
+
+      if (error) {
+        errorEl.textContent = error.message;
+        errorEl.style.display = 'block';
+        btn.disabled = false; btn.textContent = 'Verify Email';
+      } else {
+        // Verification successful - user is now signed in
+        // Redirect to checkout if plan selected, otherwise dashboard
+        await redirectAuthenticatedUser(0);
       }
     }
 
