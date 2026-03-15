@@ -54,7 +54,7 @@ export default async function handler(req, res) {
             },
           },
           product_options: {
-            redirect_url: `${req.headers.origin || 'https://ai-math-tutor-lemon.vercel.app'}/dashboard.html?payment=success`,
+            redirect_url: `${req.headers.origin || 'https://zeluu.com'}/dashboard.html?payment=success`,
           },
         },
         relationships: {
