@@ -12,6 +12,7 @@
           { "src": "/app", "dest": "/public/app.html" },
           { "src": "/dashboard", "dest": "/public/dashboard.html" },
           { "src": "/pricing", "dest": "/public/pricing.html" },
+          { "src": "/verify-email", "dest": "/public/verify-email.html" },
           { "src": "/privacy", "dest": "/public/privacy.html" },
           { "src": "/terms", "dest": "/public/terms.html" },
           { "src": "/refund", "dest": "/public/refund.html" },
