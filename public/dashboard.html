@@ -499,6 +499,8 @@
                   <option value="GB">United Kingdom</option>
                   <option value="US">United States</option>
                   <option value="IN">India</option>
+                  <option value="LB">Lebanon</option>
+                  <option value="MA">Morocco</option>
                 </select>
               </div>
               <div class="form-group">
@@ -883,7 +885,7 @@
 
       if (profile) {
         document.getElementById('profile-phone').textContent = profile.phone || '--';
-        const countryMap = { AE:'UAE', SA:'Saudi Arabia', EG:'Egypt', KW:'Kuwait', QA:'Qatar', BH:'Bahrain', OM:'Oman', JO:'Jordan', GB:'United Kingdom', US:'United States', IN:'India' };
+        const countryMap = { AE:'UAE', SA:'Saudi Arabia', EG:'Egypt', KW:'Kuwait', QA:'Qatar', BH:'Bahrain', OM:'Oman', JO:'Jordan', GB:'United Kingdom', US:'United States', IN:'India', LB:'Lebanon', MA:'Morocco' };
         document.getElementById('profile-country').textContent = countryMap[profile.country] || profile.country || '--';
         window._parentProfile = profile;
       }
@@ -944,6 +946,8 @@
                 <option value="GB" ${p.country === 'GB' ? 'selected' : ''}>United Kingdom</option>
                 <option value="US" ${p.country === 'US' ? 'selected' : ''}>United States</option>
                 <option value="IN" ${p.country === 'IN' ? 'selected' : ''}>India</option>
+                <option value="LB" ${p.country === 'LB' ? 'selected' : ''}>Lebanon</option>
+                <option value="MA" ${p.country === 'MA' ? 'selected' : ''}>Morocco</option>
               </select>
             </div>
             <div id="edit-profile-error" class="form-error"></div>
