@@ -1,5 +1,6 @@
 import { createServerClient } from '../../lib/supabase.js';
 import { signChildToken } from '../../lib/child-auth.js';
+import { checkRateLimit, getClientIP, RATE_LIMITS } from '../../lib/rate-limit.js';
 
 export default async function handler(req, res) {
   // CORS
@@ -10,6 +11,17 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   try {
+    // Rate limit: 10 attempts per 15 minutes per IP
+    const ip = getClientIP(req);
+    const rl = checkRateLimit(`child-login:${ip}`, RATE_LIMITS.CHILD_LOGIN.maxRequests, RATE_LIMITS.CHILD_LOGIN.windowMs);
+    if (!rl.allowed) {
+      res.setHeader('Retry-After', Math.ceil(rl.resetIn / 1000));
+      return res.status(429).json({
+        error: 'Too many login attempts. Please wait and try again.',
+        retryAfter: Math.ceil(rl.resetIn / 1000)
+      });
+    }
+
     const { parent_email, username, password } = req.body;
     if (!parent_email || !username || !password) {
       return res.status(400).json({ error: 'Missing parent email, username, or password' });

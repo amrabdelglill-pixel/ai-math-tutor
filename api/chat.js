@@ -2,6 +2,7 @@ import OpenAI from 'openai';
 import { createServerClient, getUser } from '../lib/supabase.js';
 import { getChildOrUser, getParentId } from '../lib/child-auth.js';
 import { getSystemPrompt, checkForBlockedContent, detectStuckLoop } from '../lib/prompts.js';
+import { checkRateLimit, getClientIP, RATE_LIMITS } from '../lib/rate-limit.js';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -21,6 +22,18 @@ export default async function handler(req, res) {
     }
     const parentId = getParentId(authContext);
 
+    // Rate limit: 60 messages per minute per user
+    const ip = getClientIP(req);
+    const rlKey = `chat:${parentId || ip}`;
+    const rl = checkRateLimit(rlKey, RATE_LIMITS.CHAT.maxRequests, RATE_LIMITS.CHAT.windowMs);
+    if (!rl.allowed) {
+      res.setHeader('Retry-After', Math.ceil(rl.resetIn / 1000));
+      return res.status(429).json({
+        error: 'Slow down! You\'re sending messages too fast. Wait a moment and try again.',
+        retryAfter: Math.ceil(rl.resetIn / 1000)
+      });
+    }
+
     const { message, session_id, child_id, language: langOverride, image } = req.body;
     if (!message || !session_id || !child_id) {
       return res.status(400).json({ error: 'Missing required fields: message, session_id, child_id' });
@@ -28,7 +41,34 @@ export default async function handler(req, res) {
 
     const supabase = createServerClient();
 
-    // 2. Check for blocked content (prompt injection, off-topic)
+    // 2. Check child credit limits (daily/weekly/monthly)
+    const { data: childLimits } = await supabase
+      .from('children')
+      .select('credit_limit_daily, credit_limit_weekly, credit_limit_monthly')
+      .eq('id', child_id)
+      .single();
+
+    if (childLimits && (childLimits.credit_limit_daily || childLimits.credit_limit_weekly || childLimits.credit_limit_monthly)) {
+      const { data: limitSummary } = await supabase.rpc('get_child_limits_summary', { p_child_id: child_id });
+      if (limitSummary) {
+        const exceeded =
+          (limitSummary.daily?.exceeded) ||
+          (limitSummary.weekly?.exceeded) ||
+          (limitSummary.monthly?.exceeded);
+        if (exceeded) {
+          const reason = limitSummary.daily?.exceeded ? 'daily'
+            : limitSummary.weekly?.exceeded ? 'weekly' : 'monthly';
+          return res.status(429).json({
+            error: 'Credit limit reached',
+            message: `You've reached your ${reason} learning limit! Take a break and come back later.`,
+            credits_remaining: await getBalance(supabase, parentId),
+            limit_exceeded: reason
+          });
+        }
+      }
+    }
+
+    // 3. Check for blocked content (prompt injection, off-topic)
     const contentCheck = checkForBlockedContent(message);
     if (contentCheck.blocked) {
       await supabase.from('messages').insert([
@@ -42,7 +82,7 @@ export default async function handler(req, res) {
       });
     }
 
-    // 3. Check credit balance
+    // 4. Check credit balance
     const balance = await getBalance(supabase, parentId);
     if (balance <= 0) {
       return res.status(402).json({
@@ -52,7 +92,7 @@ export default async function handler(req, res) {
       });
     }
 
-    // 4. Get session info (grade, history, country)
+    // 5. Get session info (grade, history, country)
     const { data: session } = await supabase
       .from('sessions')
       .select('*, children(grade, preferred_language, name, country)')
@@ -68,7 +108,7 @@ export default async function handler(req, res) {
     const language = langOverride || session.children?.preferred_language || 'en';
     const country = session.children?.country || 'UAE';
 
-    // 5. Get conversation history
+    // 6. Get conversation history
     const { data: history } = await supabase
       .from('messages')
       .select('role, content')
@@ -76,7 +116,7 @@ export default async function handler(req, res) {
       .order('created_at', { ascending: true })
       .limit(20);
 
-    // 6. Check for stuck loop
+    // 7. Check for stuck loop
     const isStuck = detectStuckLoop(history || []);
     if (isStuck) {
       await supabase.from('notifications').insert({
@@ -91,7 +131,7 @@ export default async function handler(req, res) {
         .eq('id', session_id);
     }
 
-    // 7. Build messages for OpenAI
+    // 8. Build messages for OpenAI
     let userContent;
     if (image) {
       // Vision request with image
@@ -109,7 +149,7 @@ export default async function handler(req, res) {
       { role: 'user', content: userContent }
     ];
 
-    // 8. Call OpenAI
+    // 9. Call OpenAI
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages,
@@ -121,7 +161,7 @@ export default async function handler(req, res) {
     const tokensUsed = completion.usage?.total_tokens || 0;
     const cleanResponse = aiResponse.replace('[STUCK_LOOP]', '').trim();
 
-    // 9. Deduct credit — 1 credit per 5 text msgs, 1 per 2 image msgs
+    // 10. Deduct credit — 1 credit per 5 text msgs, 1 per 2 image msgs
     const msgsPerCredit = image ? 2 : 5;
     const { count: msgCount } = await supabase
       .from('messages')
@@ -138,13 +178,13 @@ export default async function handler(req, res) {
       newBalance = bal;
     }
 
-    // 10. Save messages
+    // 11. Save messages
     await supabase.from('messages').insert([
       { session_id, role: 'user', content: message },
       { session_id, role: 'assistant', content: cleanResponse, tokens_used: tokensUsed }
     ]);
 
-    // 11. Low credit notification
+    // 12. Low credit notification
     if (newBalance !== null && newBalance <= 5 && newBalance > 0) {
       await supabase.from('notifications').insert({
         parent_id: parentId,
