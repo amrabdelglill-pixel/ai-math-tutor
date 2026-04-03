@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Zeluu">
 
-  <title>Zeluu - MathBuddy</title>
+  <title>Zeluu - AI Math Tutor</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -675,7 +675,7 @@
       <div id="limit-blocked">You have reached your usage limit. Please ask your parent to adjust your limits.</div>
       <div class="chat-messages" id="chat-messages">
         <div class="chat-bubble assistant">
-          Hi! I'm your math buddy. What are we working on today? Type your question or paste a math problem!
+          Hi! I'm Zeluu, your math tutor. What are we working on today? Type your question or paste a math problem!
         </div>
       </div>
       <div id="image-preview" style="display:none; padding:8px 12px; background:var(--color-accent-light); border-radius:8px; margin:0 12px 8px; align-items:center; gap:8px; border: 1px solid var(--color-border);">
@@ -795,7 +795,7 @@
                 addBubble(m.role === 'user' ? m.content : m.content, m.role === 'user' ? 'user' : 'assistant');
               });
             } else {
-              msgs.innerHTML = `<div class="chat-bubble assistant">Hi ${currentChild.name}! I'm your math buddy. What are we working on today? Type your question or paste a math problem!</div>`;
+              msgs.innerHTML = `<div class="chat-bubble assistant">Hi ${currentChild.name}! I'm Zeluu, your math tutor. What are we working on today? Type your question or paste a math problem!</div>`;
             }
             return;
           }
@@ -818,7 +818,7 @@
         // Clear initial bubble and show welcome message
         document.getElementById('chat-messages').innerHTML = `
           <div class="chat-bubble assistant">
-            Hi ${currentChild.name}! I'm your math buddy. What are we working on today? Type your question or paste a math problem!
+            Hi ${currentChild.name}! I'm Zeluu, your math tutor. What are we working on today? Type your question or paste a math problem!
           </div>
         `;
       }
