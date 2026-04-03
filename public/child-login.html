@@ -4,131 +4,210 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zeluu - Student Login</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#d97706">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Zeluu">
+    <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/icon-96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+    <link rel="shortcut icon" href="/icons/icon-96.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <style>
-        .child-login-container {
+        :root {
+            --color-cream: oklch(97.5% 0.004 60);
+            --color-warm-bg: oklch(98.8% 0.005 62);
+            --color-text-dark: oklch(15% 0.02 60);
+            --color-text-muted: oklch(50% 0.015 65);
+            --color-text-light: oklch(75% 0.01 65);
+            --color-border: oklch(92% 0.008 65);
+            --color-accent: oklch(55% 0.15 50);
+            --color-accent-dark: oklch(45% 0.18 48);
+            --color-surface: oklch(99% 0.003 60);
+            --color-error: oklch(55% 0.2 25);
+
+            /* Playful warm palette for child page */
+            --color-child-bg: oklch(96% 0.03 80);
+            --color-child-accent: oklch(70% 0.14 75);
+
+            --font-display: 'Fraunces', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text-dark);
+            background: var(--color-child-bg);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            padding: 24px;
+            -webkit-font-smoothing: antialiased;
         }
-        .child-login-card {
-            background: white;
-            border-radius: 16px;
-            padding: 48px 32px;
+
+        .child-wrap {
+            width: 100%;
             max-width: 400px;
-            width: 100%;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Fun mascot area */
+        .child-hero {
             text-align: center;
+            margin-bottom: 28px;
         }
-        .child-login-card h1 {
-            font-size: 28px;
-            margin: 16px 0 8px;
-            color: var(--primary);
-        }
-        .child-login-card p {
-            color: var(--gray-500);
-            margin-bottom: 32px;
-            font-size: 15px;
-        }
-        .child-login-card .form-group {
-            text-align: left;
-            margin-bottom: 20px;
-        }
-        .child-login-card .form-group label {
+        .child-emoji {
+            font-size: 52px;
+            line-height: 1;
+            margin-bottom: 12px;
             display: block;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--gray-700);
-            font-size: 14px;
         }
-        .child-login-card .form-group input {
-            width: 100%;
-            padding: 12px 14px;
-            border: 2px solid var(--gray-200);
-            border-radius: 8px;
+        .child-hero h1 {
+            font-family: var(--font-display);
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--color-text-dark);
+            letter-spacing: -0.03em;
+            margin-bottom: 4px;
+        }
+        .child-hero p {
             font-size: 16px;
+            color: var(--color-text-muted);
+            font-weight: 500;
+        }
+
+        /* Card */
+        .child-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 20px;
+            padding: 32px 28px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--color-text-dark);
+            margin-bottom: 6px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 13px 14px;
+            font-family: var(--font-body);
+            font-size: 16px;
+            color: var(--color-text-dark);
+            background: var(--color-child-bg);
+            border: 1.5px solid var(--color-border);
+            border-radius: 10px;
+            outline: none;
             transition: border-color 0.2s;
         }
-        .child-login-card .form-group input:focus {
-            outline: none;
-            border-color: var(--primary);
+        .form-group input:focus {
+            border-color: var(--color-accent);
         }
-        .child-login-card .form-error {
-            background-color: #FEE2E2;
-            border: 1px solid #FCA5A5;
-            color: #991B1B;
-            padding: 12px 14px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            font-size: 13px;
+        .form-group input::placeholder {
+            color: var(--color-text-light);
+        }
+
+        .form-error {
             display: none;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--color-error);
+            margin-bottom: 14px;
+            padding: 10px 14px;
+            background: oklch(96% 0.03 25);
+            border-radius: 8px;
+            border: 1px solid oklch(90% 0.06 25);
         }
-        .child-login-card .btn-large {
+
+        .btn-go {
+            display: block;
             width: 100%;
             padding: 14px;
+            font-family: var(--font-body);
             font-size: 16px;
-            font-weight: 600;
-            margin-top: 8px;
-            margin-bottom: 24px;
+            font-weight: 700;
+            color: var(--color-cream);
+            background: var(--color-accent);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 4px;
         }
-        .child-login-footer {
-            margin-top: 32px;
-            padding-top: 24px;
-            border-top: 1px solid var(--gray-200);
-            font-size: 13px;
+        .btn-go:hover { background: var(--color-accent-dark); }
+        .btn-go:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .spinner {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border: 2px solid oklch(80% 0.05 50);
+            border-top-color: var(--color-cream);
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            vertical-align: middle;
         }
-        .child-login-footer a {
-            color: var(--primary);
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .child-footer {
+            margin-top: 24px;
+            text-align: center;
+            font-size: 14px;
+            color: var(--color-text-light);
+        }
+        .child-footer a {
+            color: var(--color-accent);
             text-decoration: none;
             font-weight: 600;
         }
-        .child-login-footer a:hover {
-            text-decoration: underline;
-        }
-        .child-login-card .logo {
-            font-size: 32px;
-            margin-bottom: 8px;
-        }
+        .child-footer a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div class="child-login-container">
-        <div class="child-login-card">
-            <div style="display:flex; justify-content:center; margin-bottom:8px;">
-                <div class="zeluu-mascot" style="width:60px; height:60px; border-radius:18px;">
-                    <div class="z-antenna" style="top:-10px; width:3px; height:12px;"></div>
-                    <div class="z-eyes" style="gap:8px;"><div class="z-eye" style="width:10px; height:13px;"></div><div class="z-eye" style="width:10px; height:13px;"></div></div>
-                </div>
-            </div>
-            <h1 style="display:flex; align-items:center; justify-content:center; gap:8px;">
-                <span>Zeluu</span>
-                <span class="zeluu-beta" style="margin-top:0; font-size:9px;">Beta</span>
-            </h1>
+    <div class="child-wrap">
+        <div class="child-hero">
+            <span class="child-emoji">&#129504;</span>
+            <h1>Zeluu</h1>
             <p>Ready to learn? Let's go!</p>
+        </div>
+
+        <div class="child-card">
             <form id="login-form" onsubmit="handleLogin(event)">
                 <div class="form-group">
-                    <label for="parent-email">Parent Email</label>
+                    <label for="parent-email">Parent's Email</label>
                     <input type="email" id="parent-email" placeholder="Your parent's email" required autocomplete="email">
                 </div>
                 <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" placeholder="Your username" required autocomplete="off">
+                    <label for="username">Your Username</label>
+                    <input type="text" id="username" placeholder="e.g. alex123" required autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Your password" required>
+                    <label for="password">Your Password</label>
+                    <input type="password" id="password" placeholder="Type your password" required>
                 </div>
                 <div id="error-message" class="form-error"></div>
-                <button type="submit" class="btn btn-primary btn-large" id="login-btn">Start Learning!</button>
+                <button type="submit" class="btn-go" id="login-btn">Start Learning!</button>
             </form>
-            <div class="child-login-footer">
-                Are you a parent? <a href="/login">Sign in here</a>
-            </div>
+        </div>
+
+        <div class="child-footer">
+            Are you a parent? <a href="/login.html">Sign in here</a>
         </div>
     </div>
+
     <script>
         async function handleLogin(event) {
             event.preventDefault();
@@ -154,9 +233,7 @@
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ parent_email, username, password: pw })
                 });
-
                 const data = await response.json();
-
                 if (!response.ok) {
                     errorEl.textContent = data.error || 'Login failed. Please try again.';
                     errorEl.style.display = 'block';
@@ -164,12 +241,8 @@
                     btn.textContent = 'Start Learning!';
                     return;
                 }
-
-                // Store token and parent email in localStorage
                 localStorage.setItem('child_token', data.token);
                 localStorage.setItem('parent_email', parent_email);
-
-                // Redirect to app
                 window.location.href = '/app';
             } catch (error) {
                 console.error('Login error:', error);
@@ -180,16 +253,9 @@
             }
         }
 
-        // Pre-fill parent email if saved
         const savedEmail = localStorage.getItem('parent_email');
-        if (savedEmail) {
-            document.getElementById('parent-email').value = savedEmail;
-        }
-
-        // Check if already logged in
-        if (localStorage.getItem('child_token')) {
-            window.location.href = '/app';
-        }
+        if (savedEmail) document.getElementById('parent-email').value = savedEmail;
+        if (localStorage.getItem('child_token')) window.location.href = '/app';
     </script>
 </body>
 </html>

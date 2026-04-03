@@ -4,31 +4,386 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zeluu - Parent Login</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#d97706">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Zeluu">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icons/icon-96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+  <link rel="shortcut icon" href="/icons/icon-96.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    :root {
+      --color-cream: oklch(97.5% 0.004 60);
+      --color-warm-bg: oklch(98.8% 0.005 62);
+      --color-text-dark: oklch(15% 0.02 60);
+      --color-text-muted: oklch(50% 0.015 65);
+      --color-text-light: oklch(75% 0.01 65);
+      --color-border: oklch(92% 0.008 65);
+      --color-accent: oklch(55% 0.15 50);
+      --color-accent-dark: oklch(45% 0.18 48);
+      --color-accent-light: oklch(82% 0.1 55);
+      --color-success: oklch(65% 0.16 142);
+      --color-error: oklch(55% 0.2 25);
+      --color-surface: oklch(99% 0.003 60);
+
+      --font-display: 'Fraunces', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text-dark);
+      background: var(--color-warm-bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+
+    /* ===== AUTH CONTAINER ===== */
+    .auth-wrap {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .auth-brand {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      text-decoration: none;
+      justify-content: center;
+      margin-bottom: 36px;
+    }
+    .auth-brand-name {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--color-text-dark);
+      letter-spacing: -0.03em;
+    }
+    .auth-beta {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--color-accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border: 1.5px solid var(--color-accent);
+      border-radius: 4px;
+      padding: 2px 6px;
+      line-height: 1;
+    }
+
+    .auth-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 16px;
+      padding: 36px 32px;
+    }
+
+    .auth-header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .auth-header h1 {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--color-text-dark);
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+    .auth-header p {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    /* Plan badge */
+    .plan-badge {
+      display: none;
+      margin-bottom: 24px;
+      padding: 14px 16px;
+      background: oklch(96% 0.02 55);
+      border: 1px solid oklch(90% 0.04 55);
+      border-radius: 10px;
+      text-align: center;
+    }
+    .plan-badge-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-accent);
+      margin-bottom: 4px;
+    }
+    .plan-badge-name {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color-text-dark);
+    }
+    .plan-badge-details {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      margin-top: 2px;
+    }
+    .plan-badge-trial {
+      font-size: 12px;
+      font-weight: 600;
+      color: oklch(40% 0.12 142);
+      margin-top: 6px;
+    }
+
+    /* Tabs */
+    .auth-tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .auth-tab {
+      flex: 1;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text-light);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+      margin-bottom: -1px;
+    }
+    .auth-tab.active {
+      color: var(--color-text-dark);
+      border-bottom-color: var(--color-text-dark);
+    }
+
+    /* Forms */
+    .form-group {
+      margin-bottom: 18px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-text-dark);
+      margin-bottom: 6px;
+    }
+    .form-group input[type="email"],
+    .form-group input[type="password"],
+    .form-group input[type="text"],
+    .form-group input[type="tel"] {
+      width: 100%;
+      padding: 11px 14px;
+      font-family: var(--font-body);
+      font-size: 15px;
+      color: var(--color-text-dark);
+      background: var(--color-warm-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus {
+      border-color: var(--color-accent);
+    }
+    .form-group input::placeholder {
+      color: var(--color-text-light);
+    }
+    .form-hint {
+      font-size: 12px;
+      color: var(--color-text-light);
+      margin-top: 4px;
+    }
+    .form-error {
+      display: none;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--color-error);
+      margin-bottom: 12px;
+      padding: 10px 14px;
+      background: oklch(96% 0.03 25);
+      border-radius: 8px;
+      border: 1px solid oklch(90% 0.06 25);
+    }
+
+    .consent-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .consent-row input[type="checkbox"] {
+      margin-top: 3px;
+      min-width: 16px;
+      accent-color: var(--color-accent);
+    }
+    .consent-row span {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      line-height: 1.4;
+    }
+    .consent-row a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .consent-row a:hover {
+      text-decoration: underline;
+    }
+
+    /* Buttons */
+    .btn-primary {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--color-cream);
+      background: var(--color-text-dark);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .btn-primary:hover { opacity: 0.88; }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .spinner {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border: 2px solid oklch(80% 0.01 60);
+      border-top-color: var(--color-cream);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .signup-note {
+      text-align: center;
+      font-size: 13px;
+      color: var(--color-text-light);
+      margin-top: 10px;
+    }
+
+    /* OTP form */
+    .otp-icon {
+      width: 48px;
+      height: 48px;
+      background: oklch(95% 0.03 55);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 14px;
+    }
+    .otp-email {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text-dark);
+      margin-top: 4px;
+    }
+    #otp-code {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 10px;
+      padding: 14px;
+      font-family: var(--font-body);
+    }
+    .resend-row {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--color-text-light);
+    }
+    .resend-btn {
+      background: none;
+      border: none;
+      color: var(--color-accent);
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      padding: 0;
+      font-family: var(--font-body);
+    }
+
+    /* Choose plan link */
+    .choose-plan-box {
+      display: none;
+      margin-top: 20px;
+      padding: 16px;
+      background: oklch(96% 0.02 55);
+      border: 1px solid oklch(90% 0.04 55);
+      border-radius: 10px;
+      text-align: center;
+    }
+    .choose-plan-box span {
+      font-size: 13px;
+      color: var(--color-text-light);
+    }
+    .choose-plan-box a {
+      display: block;
+      margin-top: 4px;
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .choose-plan-box a:hover { text-decoration: underline; }
+
+    /* Footer link */
+    .auth-footer {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--color-border);
+      font-size: 13px;
+      color: var(--color-text-light);
+    }
+    .auth-footer a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .auth-footer a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <div class="auth-container">
-    <div class="auth-card card">
-      <div class="text-center">
-        <a href="/" class="nav-brand" style="text-decoration:none; display:flex; align-items:center; justify-content:center; gap:10px;">
-          <div class="zeluu-mascot">
-            <div class="z-antenna"></div>
-            <div class="z-eyes"><div class="z-eye"></div><div class="z-eye"></div></div>
-          </div>
-          <span class="zeluu-brand-text">Zeluu</span>
-          <span class="zeluu-beta">Beta</span>
-        </a>
-        <h1 class="mt-4" id="auth-title">Welcome back</h1>
+  <div class="auth-wrap">
+    <a href="/" class="auth-brand">
+      <span class="auth-brand-name">Zeluu</span>
+      <span class="auth-beta">Beta</span>
+    </a>
+
+    <div class="auth-card">
+      <div class="auth-header">
+        <h1 id="auth-title">Welcome back</h1>
         <p id="auth-subtitle">Sign in to manage your child's learning</p>
       </div>
 
-      <!-- Selected plan badge (shown when coming from pricing page) -->
-      <div id="selected-plan-badge" style="display:none; margin-bottom:16px; padding:12px 16px; background:linear-gradient(135deg,#EEF2FF,#F0F9FF); border:2px solid #E0E7FF; border-radius:12px; text-align:center;">
-        <div style="font-size:12px; color:#6366F1; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Selected Plan</div>
-        <div style="font-size:18px; font-weight:800; color:#0F172A;" id="selected-plan-name">--</div>
-        <div style="font-size:13px; color:#64748B; margin-top:2px;" id="selected-plan-details">--</div>
-        <div style="font-size:12px; color:#10B981; font-weight:600; margin-top:6px;">&#10003; 14-day free trial &bull; 10 free credits</div>
+      <!-- Selected plan badge -->
+      <div id="selected-plan-badge" class="plan-badge">
+        <div class="plan-badge-label">Selected Plan</div>
+        <div class="plan-badge-name" id="selected-plan-name">--</div>
+        <div class="plan-badge-details" id="selected-plan-details">--</div>
+        <div class="plan-badge-trial">14-day free trial &middot; 10 free credits</div>
       </div>
 
       <div class="auth-tabs">
@@ -47,7 +402,7 @@
           <input type="password" id="login-password" placeholder="Your password" required>
         </div>
         <div id="login-error" class="form-error"></div>
-        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;" id="login-btn">Sign In</button>
+        <button type="submit" class="btn-primary" id="login-btn">Sign In</button>
       </form>
 
       <!-- Signup Form -->
@@ -63,56 +418,54 @@
         <div class="form-group">
           <label for="signup-phone">Phone Number</label>
           <input type="tel" id="signup-phone" placeholder="+971 50 123 4567" required>
-          <span style="font-size:11px; color:var(--gray-500);">We'll use this for account security and important updates only.</span>
+          <div class="form-hint">For account security and important updates only.</div>
         </div>
         <div class="form-group">
           <label for="signup-password">Password</label>
           <input type="password" id="signup-password" placeholder="Min 6 characters" minlength="6" required>
         </div>
-        <div class="form-group" style="margin-top:12px;">
-          <label style="display:flex; align-items:flex-start; gap:8px; cursor:pointer; font-size:13px; color:var(--gray-600); line-height:1.4;">
-            <input type="checkbox" id="signup-consent" required style="margin-top:3px; min-width:16px;">
-            <span>I agree to the <a href="/privacy" target="_blank" style="color:var(--primary);">Privacy Policy</a>, <a href="/terms" target="_blank" style="color:var(--primary);">Terms of Service</a>, and <a href="/refund" target="_blank" style="color:var(--primary);">Refund Policy</a>.</span>
+        <div class="form-group">
+          <label class="consent-row">
+            <input type="checkbox" id="signup-consent" required>
+            <span>I agree to the <a href="/privacy" target="_blank">Privacy Policy</a>, <a href="/terms" target="_blank">Terms of Service</a>, and <a href="/refund" target="_blank">Refund Policy</a>.</span>
           </label>
         </div>
         <div id="signup-error" class="form-error"></div>
-        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;" id="signup-btn">Create Account</button>
-        <p class="text-center mt-2" style="font-size:13px; color:var(--gray-500);">You'll get 10 free credits to start</p>
+        <button type="submit" class="btn-primary" id="signup-btn">Create Account</button>
+        <p class="signup-note">You'll get 10 free credits to start</p>
       </form>
 
-      <!-- OTP Verification Form (shown after signup) -->
+      <!-- OTP Verification Form -->
       <div id="otp-form" style="display:none;">
         <div style="text-align:center; margin-bottom:20px;">
-          <div style="width:56px; height:56px; background:linear-gradient(135deg,#EEF2FF,#E0E7FF); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 12px;">
-            <svg width="28" height="28" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <div class="otp-icon">
+            <svg width="24" height="24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           </div>
-          <h2 style="margin:0 0 6px; font-size:20px; font-weight:700; color:var(--gray-900);">Check your email</h2>
-          <p style="margin:0; font-size:14px; color:var(--gray-500);">We sent a 6-digit verification code to</p>
-          <p style="margin:4px 0 0; font-size:14px; font-weight:600; color:var(--gray-900);" id="otp-email-display"></p>
+          <h2 style="font-family:var(--font-display); font-size:20px; font-weight:700; color:var(--color-text-dark); margin-bottom:6px;">Check your email</h2>
+          <p style="font-size:14px; color:var(--color-text-muted);">We sent a 6-digit verification code to</p>
+          <p class="otp-email" id="otp-email-display"></p>
         </div>
         <div class="form-group">
           <label for="otp-code" style="text-align:center; display:block;">Verification Code</label>
-          <input type="text" id="otp-code" placeholder="000000" maxlength="6" inputmode="numeric" pattern="[0-9]*"
-            style="text-align:center; font-size:28px; font-weight:700; letter-spacing:10px; padding:14px; font-family:monospace;"
-            autocomplete="one-time-code">
+          <input type="text" id="otp-code" placeholder="000000" maxlength="6" inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code">
         </div>
         <div id="otp-error" class="form-error"></div>
-        <button type="button" class="btn btn-primary btn-lg" style="width:100%;" id="otp-btn" onclick="handleVerifyOtp()">Verify Email</button>
-        <div style="text-align:center; margin-top:14px;">
-          <span style="font-size:13px; color:var(--gray-500);">Didn't receive the code? </span>
-          <button type="button" id="resend-btn" style="background:none; border:none; color:var(--primary); font-weight:600; font-size:13px; cursor:pointer; padding:0;" onclick="handleResendCode()">Resend</button>
-          <span id="resend-timer" style="font-size:13px; color:var(--gray-500); display:none;"></span>
+        <button type="button" class="btn-primary" id="otp-btn" onclick="handleVerifyOtp()">Verify Email</button>
+        <div class="resend-row">
+          <span>Didn't receive the code? </span>
+          <button type="button" id="resend-btn" class="resend-btn" onclick="handleResendCode()">Resend</button>
+          <span id="resend-timer" style="display:none;"></span>
         </div>
       </div>
 
-      <div id="choose-plan-link" style="margin-top:20px; padding:14px 16px; background:linear-gradient(135deg,#EEF2FF,#F0F9FF); border:2px solid #E0E7FF; border-radius:12px; text-align:center; display:none;">
-        <span style="font-size:13px; color:var(--gray-500);">New here?</span><br>
-        <a href="/pricing" style="color:var(--primary); text-decoration:none; font-weight:700; font-size:15px;">Choose a plan to get started &rarr;</a>
+      <div id="choose-plan-link" class="choose-plan-box">
+        <span>New here?</span>
+        <a href="/pricing.html">Choose a plan to get started &rarr;</a>
       </div>
 
-      <div style="margin-top:24px; padding-top:24px; border-top:1px solid var(--gray-200); font-size:13px;">
-        <span style="color:var(--gray-500);">Is your child looking to log in?</span><br>
-        <a href="/child-login" style="color:var(--primary); text-decoration:none; font-weight:600;">Go to Student Login</a>
+      <div class="auth-footer">
+        <span>Is your child looking to log in?</span><br>
+        <a href="/child-login.html">Go to Student Login</a>
       </div>
     </div>
   </div>
@@ -134,82 +487,58 @@
     const urlParams = new URLSearchParams(window.location.search);
     let selectedPlanId = urlParams.get('plan');
 
-    // Persist plan ID across redirects (email verification link -> login page)
     if (selectedPlanId) {
       sessionStorage.setItem('pendingPlan', selectedPlanId);
     } else {
-      // Recover plan from sessionStorage if URL param was lost
       const savedPlan = sessionStorage.getItem('pendingPlan');
       if (savedPlan && PLAN_INFO[savedPlan]) {
         selectedPlanId = savedPlan;
       }
     }
 
-    // Show selected plan badge and auto-switch to signup if plan param exists
     if (selectedPlanId && PLAN_INFO[selectedPlanId]) {
       const plan = PLAN_INFO[selectedPlanId];
       document.getElementById('selected-plan-badge').style.display = 'block';
       document.getElementById('selected-plan-name').textContent = plan.name;
       document.getElementById('selected-plan-details').textContent = plan.credits + ' \u2014 ' + plan.price;
-      // Show signup tab and auto-switch for new customers
       document.getElementById('signup-tab').style.display = '';
       setTimeout(() => switchTab('signup'), 100);
     } else {
-      // No plan selected - hide signup tab, users must choose a plan first
       document.getElementById('signup-tab').style.display = 'none';
       document.getElementById('choose-plan-link').style.display = 'block';
     }
 
-    // Redirect authenticated user to checkout (if plan selected) or dashboard
     async function redirectAuthenticatedUser(retryCount) {
       retryCount = retryCount || 0;
       var planId = selectedPlanId || sessionStorage.getItem('pendingPlan');
-
-      // Fallback: check user metadata for pending_plan (survives email verification redirect across tabs)
       if (!planId) {
         try {
           var sess = await getSession();
           if (sess && sess.user && sess.user.user_metadata && sess.user.user_metadata.pending_plan) {
             planId = sess.user.user_metadata.pending_plan;
           }
-        } catch (e) {
-          console.error('Error reading user metadata for plan:', e);
-        }
+        } catch (e) { console.error('Error reading user metadata for plan:', e); }
       }
-
       if (planId) {
         try {
-          // Ensure session token is available before calling API
           var token = await getToken();
           if (!token && retryCount < 3) {
-            // Token not ready yet - wait and retry
             await new Promise(function(r) { setTimeout(r, 1500); });
             return redirectAuthenticatedUser(retryCount + 1);
           }
-          if (!token) {
-            // After retries, still no token - go to dashboard
-            console.error('No auth token available after retries');
-            window.location.href = '/dashboard.html';
-            return;
-          }
+          if (!token) { window.location.href = '/dashboard.html'; return; }
           var checkoutRes = await fetch('/api/credits/checkout', {
             method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': 'Bearer ' + token
-            },
+            headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
             body: JSON.stringify({ plan_id: planId })
           });
           var data = await checkoutRes.json();
           if (data && data.url) {
             sessionStorage.removeItem('pendingPlan');
-            // Clear pending_plan from user metadata
             try { window.supabaseClient.auth.updateUser({ data: { pending_plan: null } }); } catch(e) {}
             window.location.href = data.url;
             return;
           }
-          // API returned but no URL - retry if possible
-          console.error('Checkout API returned no URL:', JSON.stringify(data));
           if (retryCount < 3) {
             await new Promise(function(r) { setTimeout(r, 1500); });
             return redirectAuthenticatedUser(retryCount + 1);
@@ -226,19 +555,13 @@
       window.location.href = '/dashboard.html';
     }
 
-    // Check if already logged in (covers returning users + verified users via email link)
     (async () => {
       const session = await getSession();
-      if (session) {
-        await redirectAuthenticatedUser();
-      }
+      if (session) await redirectAuthenticatedUser();
     })();
 
-    // Also listen for auth state changes - handles when Supabase processes
-    // the verification token from the URL hash after clicking email link
     window.supabaseClient.auth.onAuthStateChange(function(event, session) {
       if (event === 'SIGNED_IN' && session) {
-        // Small delay to let session fully establish before calling checkout API
         setTimeout(function() { redirectAuthenticatedUser(0); }, 1000);
       }
     });
@@ -252,16 +575,12 @@
         document.getElementById('auth-title').textContent = 'Welcome back';
         document.getElementById('auth-subtitle').textContent = "Sign in to manage your child's learning";
       } else {
-        // If no plan selected, redirect to pricing page to choose one first
-        if (!selectedPlanId) {
-          window.location.href = '/pricing';
-          return;
-        }
+        if (!selectedPlanId) { window.location.href = '/pricing.html'; return; }
         document.querySelectorAll('.auth-tab')[1].classList.add('active');
         document.getElementById('login-form').style.display = 'none';
         document.getElementById('signup-form').style.display = 'block';
-        document.getElementById('auth-title').textContent = 'Sign up to start your trial';
-        document.getElementById('auth-subtitle').textContent = 'Create your account, verify your email, then subscribe to activate your trial.';
+        document.getElementById('auth-title').textContent = 'Start your free trial';
+        document.getElementById('auth-subtitle').textContent = 'Create your account, verify your email, then subscribe.';
       }
     }
 
@@ -269,26 +588,21 @@
       e.preventDefault();
       const btn = document.getElementById('login-btn');
       const errorEl = document.getElementById('login-error');
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"><\/span>';
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
       errorEl.style.display = 'none';
-
       const { data, error } = await window.supabaseClient.auth.signInWithPassword({
         email: document.getElementById('login-email').value,
         password: document.getElementById('login-password').value,
       });
-
       if (error) {
         errorEl.textContent = error.message;
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Sign In';
       } else {
-        // If they came with a plan from pricing page, redirect to checkout
         await redirectAuthenticatedUser(0);
-        return;
       }
     }
 
-    // Store signup email for OTP verification
     let pendingSignupEmail = '';
     let resendCooldown = 0;
 
@@ -296,12 +610,10 @@
       e.preventDefault();
       const btn = document.getElementById('signup-btn');
       const errorEl = document.getElementById('signup-error');
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"><\/span>';
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
       errorEl.style.display = 'none';
-
       const email = document.getElementById('signup-email').value;
       const phone = document.getElementById('signup-phone').value.trim();
-
       const { data, error } = await window.supabaseClient.auth.signUp({
         email: email,
         password: document.getElementById('signup-password').value,
@@ -313,13 +625,11 @@
           }
         }
       });
-
       if (error) {
         errorEl.textContent = error.message;
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Create Account';
       } else {
-        // Show OTP verification form
         pendingSignupEmail = email;
         showOtpForm(email);
       }
@@ -332,13 +642,9 @@
       document.getElementById('otp-email-display').textContent = email;
       document.getElementById('auth-title').textContent = 'Verify your email';
       document.getElementById('auth-subtitle').textContent = 'Enter the code we sent to complete signup';
-      // Hide tabs during OTP
       document.querySelector('.auth-tabs').style.display = 'none';
-      // Focus the OTP input
       setTimeout(() => document.getElementById('otp-code').focus(), 200);
-      // Start resend cooldown (60s)
       startResendCooldown();
-      // Auto-submit when 6 digits entered
       document.getElementById('otp-code').addEventListener('input', function() {
         this.value = this.value.replace(/[^0-9]/g, '');
         if (this.value.length === 6) handleVerifyOtp();
@@ -370,12 +676,7 @@
       const resendBtn = document.getElementById('resend-btn');
       resendBtn.textContent = 'Sending...';
       resendBtn.disabled = true;
-
-      const { error } = await window.supabaseClient.auth.resend({
-        type: 'signup',
-        email: pendingSignupEmail
-      });
-
+      const { error } = await window.supabaseClient.auth.resend({ type: 'signup', email: pendingSignupEmail });
       if (error) {
         document.getElementById('otp-error').textContent = error.message;
         document.getElementById('otp-error').style.display = 'block';
@@ -391,29 +692,21 @@
       const btn = document.getElementById('otp-btn');
       const errorEl = document.getElementById('otp-error');
       const code = document.getElementById('otp-code').value.trim();
-
       if (!code || code.length !== 6) {
         errorEl.textContent = 'Please enter the 6-digit code from your email.';
         errorEl.style.display = 'block';
         return;
       }
-
-      btn.disabled = true; btn.innerHTML = '<span class="spinner"><\/span>';
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
       errorEl.style.display = 'none';
-
       const { data, error } = await window.supabaseClient.auth.verifyOtp({
-        email: pendingSignupEmail,
-        token: code,
-        type: 'signup'
+        email: pendingSignupEmail, token: code, type: 'signup'
       });
-
       if (error) {
         errorEl.textContent = error.message;
         errorEl.style.display = 'block';
         btn.disabled = false; btn.textContent = 'Verify Email';
       } else {
-        // Verification successful - user is now signed in
-        // Record consent for policy acceptance (non-blocking — don't fail signup if this fails)
         try {
           await window.supabaseClient.rpc('record_signup_consent', {
             p_parent_id: data.user.id,
@@ -424,14 +717,10 @@
             p_user_agent: navigator.userAgent,
             p_jurisdiction: null
           });
-        } catch (consentErr) {
-          console.warn('Consent recording failed (non-blocking):', consentErr);
-        }
-        // Redirect to checkout if plan selected, otherwise dashboard
+        } catch (consentErr) { console.warn('Consent recording failed (non-blocking):', consentErr); }
         await redirectAuthenticatedUser(0);
       }
     }
-
   </script>
 </body>
 </html>

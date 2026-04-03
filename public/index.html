@@ -6,7 +6,7 @@
     <title>Zeluu - AI Learning That Actually Teaches Your Child</title>
     <!-- PWA Meta Tags -->
     <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#4F46E5">
+    <meta name="theme-color" content="#d97706">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Zeluu">
@@ -16,703 +16,1092 @@
     <link rel="shortcut icon" href="/icons/icon-96.png">
     <meta name="description" content="AI math tutor that teaches your child step by step.">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <style>
-        /* ===== LANDING PAGE STYLES ===== */
-        body.landing-page {
-            background: linear-gradient(135deg, #EEF2FF 0%, #F0F9FF 50%, #FDF4FF 100%);
-            overflow-x: hidden;
+        /* ===== GLOBAL STYLES ===== */
+        :root {
+            --color-cream: oklch(97.5% 0.004 60);
+            --color-warm-bg: oklch(98.8% 0.005 62);
+            --color-text-dark: oklch(15% 0.02 60);
+            --color-text-muted: oklch(50% 0.015 65);
+            --color-text-light: oklch(75% 0.01 65);
+            --color-border: oklch(92% 0.008 65);
+            --color-accent: oklch(55% 0.15 50);
+            --color-accent-dark: oklch(45% 0.18 48);
+            --color-accent-light: oklch(82% 0.1 55);
+            --color-success: oklch(65% 0.16 142);
+
+            --font-display: 'Fraunces', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+
+            --spacing-xs: 8px;
+            --spacing-sm: 16px;
+            --spacing-md: 24px;
+            --spacing-lg: 40px;
+            --spacing-xl: 64px;
+            --spacing-2xl: 100px;
         }
 
-        /* ---- NAV ---- */
-        .landing-nav {
-            background: rgba(255,255,255,0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(241,245,249,0.8);
-            padding: 14px 0;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text-dark);
+            background: var(--color-warm-bg);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--color-text-dark);
+        }
+
+        h1 {
+            font-size: clamp(32px, 5vw, 56px);
+            font-weight: 800;
+            margin-bottom: var(--spacing-md);
+        }
+
+        h2 {
+            font-size: clamp(28px, 4vw, 42px);
+            font-weight: 700;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            color: var(--color-text-muted);
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--color-accent);
+            transition: color 0.3s ease-out;
+        }
+
+        a:hover {
+            color: var(--color-accent-dark);
+        }
+
+        /* ===== NAV ===== */
+        .nav {
             position: fixed;
-            top: 0; left: 0; right: 0;
+            top: 0;
+            left: 0;
+            right: 0;
             z-index: 100;
+            background: rgba(255, 255, 255, 0.95);
+            border-bottom: 1px solid var(--color-border);
+            padding: 16px 0;
         }
-        .landing-nav .nav-brand { font-size: 24px; font-weight: 800; text-decoration: none; }
-        .landing-nav .nav-links a { color: #475569; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s; }
-        .landing-nav .nav-links a:hover { color: #6366F1; }
-        .btn-nav-signin {
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white !important;
-            padding: 9px 22px;
-            border-radius: 10px;
-            font-weight: 600 !important;
-            transition: all 0.3s;
-        }
-        .btn-nav-signin:hover { box-shadow: 0 4px 14px rgba(99,102,241,0.3); transform: translateY(-1px); }
 
-        /* ---- HERO ---- */
-        .hero-section { padding: 120px 0 80px; position: relative; overflow: hidden; }
-        .hero-section::before {
-            content: ''; position: absolute; top: -200px; right: -200px;
-            width: 500px; height: 500px;
-            background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 70%);
-            border-radius: 50%;
-            animation: floatBlob 8s ease-in-out infinite alternate;
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .hero-section::after {
-            content: ''; position: absolute; bottom: -150px; left: -150px;
-            width: 400px; height: 400px;
-            background: radial-gradient(circle, rgba(236,72,153,0.06) 0%, transparent 70%);
-            border-radius: 50%;
-            animation: floatBlob 10s ease-in-out infinite alternate-reverse;
-        }
-        @keyframes floatBlob {
-            from { transform: translate(0, 0) scale(1); }
-            to   { transform: translate(30px, -30px) scale(1.1); }
-        }
-        .hero-content {
-            display: grid; grid-template-columns: 1fr 1fr;
-            gap: 60px; align-items: center;
-            position: relative; z-index: 1; padding-left: 40px;
-        }
-        .hero-text { animation: slideInLeft 0.8s ease-out; }
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: rgba(99,102,241,0.1); color: var(--primary);
-            padding: 8px 16px; border-radius: 50px;
-            font-size: 13px; font-weight: 600; margin-bottom: 20px;
-        }
-        .hero-badge .pulse-dot {
-            width: 8px; height: 8px; background: #10B981;
-            border-radius: 50%; animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50%      { opacity: 0.5; transform: scale(1.5); }
-        }
-        .hero-text h1 {
-            font-size: 48px; font-weight: 800; line-height: 1.15;
-            margin-bottom: 20px; color: #0F172A;
-        }
-        .hero-text h1 .highlight {
-            background: linear-gradient(135deg, #6366F1, #EC4899);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .hero-text .subtitle {
-            font-size: 17px; color: #64748B; line-height: 1.7;
-            margin-bottom: 32px; max-width: 480px;
-        }
-        .hero-ctas { display: flex; gap: 12px; margin-bottom: 28px; }
-        .btn-hero {
-            padding: 16px 32px; border-radius: 14px; font-size: 16px;
-            font-weight: 700; cursor: pointer; border: none;
-            transition: all 0.3s; text-decoration: none;
-            display: inline-flex; align-items: center; gap: 8px;
-        }
-        .btn-hero-primary {
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white; box-shadow: 0 4px 20px rgba(99,102,241,0.35);
-        }
-        .btn-hero-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(99,102,241,0.4); }
-        .btn-hero-secondary {
-            background: white; color: #374151; border: 2px solid #E5E7EB;
-        }
-        .btn-hero-secondary:hover { border-color: #6366F1; color: #6366F1; }
-        .hero-trust {
-            display: flex; align-items: center; gap: 20px;
-            font-size: 13px; color: #94A3B8;
-        }
-        .hero-trust span { display: flex; align-items: center; gap: 6px; }
 
-        /* ---- MASCOT + CHAT DEMO ---- */
-        .hero-visual { animation: slideInRight 0.8s ease-out; position: relative; }
-        .mascot-float {
-            position: absolute; top: -40px; right: -10px; z-index: 2;
-            animation: mascotBounce 3s ease-in-out infinite;
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: 800;
+            font-family: var(--font-display);
+            color: var(--color-text-dark);
+            text-decoration: none;
         }
-        .mascot-body {
-            width: 80px; height: 80px;
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            border-radius: 24px;
-            display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 8px 30px rgba(99,102,241,0.3);
+
+        .nav-brand-text {
+            display: block;
+        }
+
+        .nav-signin {
+            background: var(--color-accent);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            transition: all 0.3s ease-out;
+        }
+
+        .nav-signin:hover {
+            background: var(--color-accent-dark);
+            transform: translateY(-1px);
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            margin-top: 70px;
+            padding: 80px 0 60px;
             position: relative;
+            overflow: hidden;
         }
-        .mascot-eyes { display: flex; gap: 10px; }
-        .mascot-eye {
-            width: 14px; height: 18px; background: white;
-            border-radius: 50%; position: relative;
-            animation: blink 4s infinite;
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 60px;
+            align-items: center;
         }
-        .mascot-eye::after {
-            content: ''; position: absolute; bottom: 3px;
-            left: 50%; transform: translateX(-50%);
-            width: 7px; height: 7px; background: #1E293B; border-radius: 50%;
+
+        .hero-text h1 {
+            margin-bottom: 24px;
+            line-height: 1.2;
         }
-        @keyframes blink {
-            0%, 95%, 100% { transform: scaleY(1); }
-            97%           { transform: scaleY(0.1); }
+
+        .hero-text h1 .accent {
+            color: var(--color-accent);
         }
-        .mascot-antenna {
-            position: absolute; top: -12px; left: 50%;
-            transform: translateX(-50%);
-            width: 3px; height: 14px;
-            background: #A78BFA; border-radius: 2px;
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--color-text-muted);
+            margin-bottom: 32px;
+            max-width: 500px;
+            line-height: 1.8;
         }
-        .mascot-antenna::after {
-            content: ''; position: absolute; top: -6px;
-            left: 50%; transform: translateX(-50%);
-            width: 10px; height: 10px;
-            background: #10B981; border-radius: 50%;
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--color-accent-light);
+            color: var(--color-accent-dark);
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--color-success);
+            border-radius: 50%;
             animation: pulse 2s infinite;
         }
-        .mascot-mouth {
-            position: absolute; bottom: 14px;
-            width: 16px; height: 8px;
-            border-bottom: 3px solid rgba(255,255,255,0.7);
-            border-radius: 0 0 10px 10px;
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
         }
-        .mascot-speech {
-            position: absolute; bottom: -8px; left: -80px;
-            background: white; padding: 6px 12px; border-radius: 12px;
-            font-size: 12px; font-weight: 600; color: #6366F1;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08); white-space: nowrap;
+
+        .hero-ctas {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
         }
-        @keyframes mascotBounce {
-            0%, 100% { transform: translateY(0); }
-            50%      { transform: translateY(-10px); }
+
+        .btn {
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
-        .chat-demo {
-            background: white; border-radius: 24px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.1), 0 0 0 1px rgba(99,102,241,0.08);
+
+        .btn-primary {
+            background: var(--color-accent);
+            color: white;
+            box-shadow: 0 4px 16px rgba(217, 119, 6, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--color-accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(217, 119, 6, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-accent);
+            border: 2px solid var(--color-accent);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-accent-light);
+        }
+
+        .hero-trust {
+            display: flex;
+            gap: 32px;
+            font-size: 14px;
+            color: var(--color-text-muted);
+            flex-wrap: wrap;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Hero visual */
+        .hero-visual {
+            position: relative;
+            perspective: 1000px;
+        }
+
+        .chat-container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
             overflow: hidden;
-            transform: perspective(1000px) rotateY(-3deg);
-            transition: transform 0.4s;
+            transform: rotateY(-2deg) rotateX(1deg);
+            transition: transform 0.4s ease-out;
         }
-        .chat-demo:hover { transform: perspective(1000px) rotateY(0deg); }
-        .chat-demo-header {
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white; padding: 16px 20px;
-            display: flex; align-items: center; gap: 10px;
-            font-weight: 600; font-size: 14px;
+
+        .chat-container:hover {
+            transform: rotateY(0) rotateX(0);
         }
-        .chat-demo-header .avatar {
-            width: 32px; height: 32px;
-            background: rgba(255,255,255,0.2); border-radius: 10px;
-            display: flex; align-items: center; justify-content: center; font-size: 16px;
+
+        .chat-header {
+            background: var(--color-accent);
+            color: white;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            font-size: 14px;
         }
-        .chat-demo-body {
-            padding: 20px; display: flex; flex-direction: column;
-            gap: 14px; min-height: 320px;
+
+        .chat-avatar {
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
         }
-        .demo-msg {
-            padding: 12px 16px; border-radius: 16px;
-            font-size: 14px; line-height: 1.6; max-width: 85%;
-            opacity: 0; animation: msgAppear 0.5s ease-out forwards;
+
+        .chat-body {
+            padding: 20px;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
-        .demo-msg.child {
+
+        .msg {
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.5;
+            max-width: 85%;
+            opacity: 0;
+            animation: msgSlideIn 0.5s ease-out forwards;
+        }
+
+        .msg-child {
             align-self: flex-end;
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white; border-bottom-right-radius: 6px;
+            background: var(--color-accent);
+            color: white;
+            border-bottom-right-radius: 4px;
         }
-        .demo-msg.tutor {
+
+        .msg-tutor {
             align-self: flex-start;
-            background: #F1F5F9; color: #1E293B;
-            border-bottom-left-radius: 6px;
+            background: var(--color-border);
+            color: var(--color-text-dark);
+            border-bottom-left-radius: 4px;
         }
-        .demo-msg:nth-child(1) { animation-delay: 0.5s; }
-        .demo-msg:nth-child(2) { animation-delay: 1.5s; }
-        .demo-msg:nth-child(3) { animation-delay: 3s; }
-        .demo-msg:nth-child(4) { animation-delay: 4.5s; }
-        @keyframes msgAppear {
-            from { opacity: 0; transform: translateY(10px); }
-            to   { opacity: 1; transform: translateY(0); }
+
+        .msg:nth-child(1) { animation-delay: 0.6s; }
+        .msg:nth-child(2) { animation-delay: 1.6s; }
+        .msg:nth-child(3) { animation-delay: 2.8s; }
+        .msg:nth-child(4) { animation-delay: 4.2s; }
+
+        @keyframes msgSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        .typing-dots {
-            display: flex; gap: 4px; padding: 12px 16px;
+
+        .typing-indicator {
+            display: flex;
+            gap: 4px;
+            padding: 12px 16px;
             align-self: flex-start;
-            opacity: 0; animation: msgAppear 0.5s ease-out 2.5s forwards;
+            opacity: 0;
+            animation: msgSlideIn 0.5s ease-out 2.2s forwards;
         }
-        .typing-dots span {
-            width: 8px; height: 8px; background: #CBD5E1;
-            border-radius: 50%; animation: typing 1.4s infinite;
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--color-text-light);
+            border-radius: 50%;
+            animation: typingBounce 1.4s infinite;
         }
-        .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
-        .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
-        @keyframes typing {
+
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes typingBounce {
             0%, 60%, 100% { transform: translateY(0); }
-            30%           { transform: translateY(-6px); }
-        }
-        @keyframes slideInLeft {
-            from { opacity: 0; transform: translateX(-40px); }
-            to   { opacity: 1; transform: translateX(0); }
-        }
-        @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(40px); }
-            to   { opacity: 1; transform: translateX(0); }
+            30% { transform: translateY(-6px); }
         }
 
-        /* ---- PARENT BANNER ---- */
-        .parent-banner { padding: 60px 0; background: white; border-top: 1px solid #F1F5F9; border-bottom: 1px solid #F1F5F9; }
-        .parent-banner-inner { text-align: center; max-width: 700px; margin: 0 auto; padding: 0 24px; }
-        .parent-banner-inner .emoji-row { font-size: 36px; margin-bottom: 16px; animation: fadeInUp 0.6s ease-out; }
-        .parent-banner-inner h2 { font-size: 30px; font-weight: 800; margin-bottom: 14px; color: #0F172A; }
-        .parent-banner-inner p { font-size: 17px; line-height: 1.7; color: #64748B; }
-        .parent-banner-inner p strong { color: #6366F1; }
+        .mascot {
+            position: absolute;
+            top: -30px;
+            right: -20px;
+            width: 80px;
+            height: 80px;
+            background: var(--color-accent);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            box-shadow: 0 8px 32px rgba(217, 119, 6, 0.3);
+            animation: mascotBob 3s ease-in-out infinite;
+        }
 
-        /* ---- FEATURES ---- */
-        .features-section { padding: 80px 0; }
-        .section-header { text-align: center; margin-bottom: 48px; padding: 0 24px; }
-        .section-header h2 { font-size: 34px; font-weight: 800; color: #0F172A; margin-bottom: 12px; }
-        .section-header p { font-size: 17px; color: #64748B; }
-        .feature-grid-new { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card-new {
-            background: white; border-radius: 20px; padding: 32px 28px;
-            border: 1px solid #F1F5F9;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-            transition: all 0.3s; position: relative; overflow: hidden;
+        @keyframes mascotBob {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
         }
-        .feature-card-new::before {
-            content: ''; position: absolute; top: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(135deg, #6366F1, #EC4899);
-            transform: scaleX(0); transition: transform 0.3s;
-        }
-        .feature-card-new:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); }
-        .feature-card-new:hover::before { transform: scaleX(1); }
-        .feature-icon-new {
-            width: 56px; height: 56px; border-radius: 16px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 28px; margin-bottom: 18px;
-        }
-        .feature-icon-new.blue   { background: #EEF2FF; }
-        .feature-icon-new.green  { background: #ECFDF5; }
-        .feature-icon-new.purple { background: #F5F3FF; }
-        .feature-icon-new.orange { background: #FFF7ED; }
-        .feature-icon-new.pink   { background: #FDF2F8; }
-        .feature-icon-new.cyan   { background: #ECFEFF; }
-        .feature-card-new h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: #0F172A; }
-        .feature-card-new p { font-size: 14px; line-height: 1.7; color: #64748B; }
 
-        /* ---- HOW IT WORKS ---- */
-        .how-section { padding: 80px 0; background: white; }
-        .how-steps {
-            display: grid; grid-template-columns: repeat(4, 1fr);
-            gap: 24px; position: relative;
+        /* ===== PARENT MESSAGE ===== */
+        .parent-message {
+            padding: 60px 0;
+            background: white;
+            border-top: 1px solid var(--color-border);
         }
-        .how-steps::before {
-            content: ''; position: absolute; top: 36px; left: 10%; right: 10%;
+
+        .parent-message-inner {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .parent-message-inner h2 {
+            margin-bottom: 20px;
+        }
+
+        .parent-message-inner p {
+            font-size: 17px;
+            color: var(--color-text-muted);
+        }
+
+        .parent-message-inner strong {
+            color: var(--color-accent);
+        }
+
+        /* ===== FEATURES ===== */
+        .features {
+            padding: 100px 0 80px;
+        }
+
+        .section-header {
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            font-size: 17px;
+            max-width: 600px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .feature {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--color-border);
+            display: grid;
+            grid-template-columns: 80px 1fr;
+            gap: 24px;
+            align-items: flex-start;
+        }
+
+        .feature:last-child {
+            border-bottom: none;
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            line-height: 1;
+        }
+
+        .feature h3 {
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .feature p {
+            font-size: 15px;
+            color: var(--color-text-muted);
+        }
+
+        /* ===== HOW IT WORKS ===== */
+        .how-works {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            position: relative;
+        }
+
+        .steps-grid::before {
+            content: '';
+            position: absolute;
+            top: 36px;
+            left: 5%;
+            right: 5%;
             height: 2px;
-            background: linear-gradient(90deg, #6366F1, #EC4899);
-            opacity: 0.2; z-index: 0;
+            background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
+            z-index: 0;
         }
-        .how-step { text-align: center; position: relative; z-index: 1; }
-        .step-number {
-            width: 72px; height: 72px; border-radius: 50%;
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white; font-size: 28px; font-weight: 800;
-            display: flex; align-items: center; justify-content: center;
-            margin: 0 auto 16px;
-            box-shadow: 0 4px 20px rgba(99,102,241,0.25);
-        }
-        .how-step h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #0F172A; }
-        .how-step p { font-size: 13px; color: #64748B; line-height: 1.6; }
 
-        /* ---- STATS ---- */
-        .stats-section {
-            padding: 50px 0;
-            background: linear-gradient(135deg, #4F46E5, #7C3AED);
+        .step {
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-num {
+            width: 72px;
+            height: 72px;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 800;
+            font-family: var(--font-display);
+            margin: 0 auto 16px;
+            box-shadow: 0 4px 16px rgba(217, 119, 6, 0.3);
+        }
+
+        .step h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .step p {
+            font-size: 14px;
+            text-align: center;
+            color: var(--color-text-muted);
+        }
+
+        /* ===== STATS ===== */
+        .stats {
+            padding: 60px 0;
+            background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
             color: white;
         }
-        .stats-row {
-            display: grid; grid-template-columns: repeat(4, 1fr);
-            gap: 24px; text-align: center;
-        }
-        .stats-row .stat-num { font-size: 42px; font-weight: 800; margin-bottom: 4px; }
-        .stats-row .stat-text { font-size: 14px; opacity: 0.8; }
 
-        /* ---- PRICING ---- */
-        .pricing-section { padding: 80px 0; }
-        .toggle-wrap { text-align: center; margin-bottom: 36px; }
-        .toggle-pill {
-            display: inline-flex; background: #F1F5F9;
-            border-radius: 50px; padding: 4px;
-        }
-        .toggle-pill button {
-            padding: 10px 24px; border-radius: 50px; border: none;
-            font-size: 14px; font-weight: 600; cursor: pointer;
-            transition: all 0.3s; background: transparent; color: #64748B;
-        }
-        .toggle-pill button.active {
-            background: white; color: #6366F1;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-        .save-badge {
-            background: #ECFDF5; color: #059669;
-            padding: 2px 10px; border-radius: 10px;
-            font-size: 12px; font-weight: 700; margin-left: 6px;
-        }
-        .pricing-grid-new {
-            display: grid; grid-template-columns: repeat(4, 1fr);
-            gap: 20px; margin-bottom: 48px;
-        }
-        .plan-card {
-            background: white; border-radius: 20px; padding: 32px 24px;
-            text-align: center; border: 2px solid #F1F5F9;
-            transition: all 0.3s; position: relative;
-        }
-        .plan-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); }
-        .plan-card.popular {
-            border-color: #6366F1;
-            box-shadow: 0 8px 30px rgba(99,102,241,0.15);
-        }
-        .plan-card .pop-badge {
-            position: absolute; top: -14px; left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white; padding: 5px 20px; border-radius: 50px;
-            font-size: 12px; font-weight: 700;
-        }
-        .plan-card .trial-badge {
-            display: inline-block; background: linear-gradient(135deg, #10B981, #059669);
-            color: white; padding: 4px 14px; border-radius: 50px;
-            font-size: 11px; font-weight: 700; text-transform: uppercase;
-            letter-spacing: 0.5px; margin-bottom: 10px;
-        }
-        .plan-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 4px; color: #0F172A; }
-        .plan-card .plan-credits { font-size: 13px; color: #6366F1; font-weight: 600; margin-bottom: 16px; }
-        .plan-card .plan-price { font-size: 42px; font-weight: 800; color: #0F172A; margin-bottom: 4px; }
-        .plan-card .plan-price span { font-size: 16px; font-weight: 400; color: #94A3B8; }
-        .plan-card .plan-period { font-size: 12px; color: #94A3B8; margin-bottom: 20px; }
-        .plan-card ul { list-style: none; padding: 0; margin-bottom: 24px; text-align: left; }
-        .plan-card ul li {
-            padding: 6px 0; font-size: 14px; color: #475569;
-            display: flex; align-items: center; gap: 8px;
-        }
-        .plan-card ul li .check { color: #10B981; font-weight: 700; }
-        .plan-btn {
-            display: block; width: 100%; padding: 12px; border-radius: 12px;
-            font-size: 14px; font-weight: 700; cursor: pointer; border: none;
-            transition: all 0.3s; text-decoration: none; text-align: center;
-        }
-        .plan-btn-outline {
-            background: white; color: #6366F1;
-            border: 2px solid #E0E7FF !important;
-        }
-        .plan-btn-outline:hover { background: #EEF2FF; }
-        .plan-btn-filled {
-            background: linear-gradient(135deg, #6366F1, #8B5CF6);
-            color: white; box-shadow: 0 4px 14px rgba(99,102,241,0.3);
-        }
-        .plan-btn-filled:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(99,102,241,0.4); }
-
-        /* Add-ons */
-        .addons-header { text-align: center; margin-bottom: 24px; }
-        .addons-header h3 { font-size: 22px; font-weight: 700; color: #0F172A; }
-        .addons-header p { font-size: 14px; color: #94A3B8; }
-        .addons-grid {
-            display: grid; grid-template-columns: repeat(4, 1fr);
-            gap: 20px; max-width: 900px; margin: 0 auto;
-        }
-        .addon-card {
-            background: white; border-radius: 16px; padding: 24px;
-            text-align: center; border: 1px solid #F1F5F9;
-            transition: all 0.3s;
-        }
-        .addon-card:hover { border-color: #E0E7FF; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
-        .addon-card .addon-icon { font-size: 28px; margin-bottom: 12px; }
-        .addon-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
-        .addon-card .addon-price { font-size: 28px; font-weight: 800; color: #6366F1; }
-        .addon-card .addon-price span { font-size: 14px; font-weight: 400; color: #94A3B8; }
-        .addon-card .addon-detail { font-size: 13px; color: #64748B; margin-top: 4px; }
-        .addon-card .addon-validity {
-            font-size: 12px; color: #94A3B8; margin-top: 6px;
-            display: flex; align-items: center; justify-content: center; gap: 4px;
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            text-align: center;
         }
 
-        /* ---- VISION ---- */
-        .vision-section { padding: 60px 0; background: white; }
-        .vision-inner { text-align: center; max-width: 650px; margin: 0 auto; padding: 0 24px; }
-        .vision-inner h2 { font-size: 28px; font-weight: 800; color: #0F172A; margin-bottom: 14px; }
-        .vision-inner p { font-size: 16px; line-height: 1.7; color: #64748B; }
-        .vision-subjects { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
-        .vision-chip {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: #F1F5F9; padding: 8px 16px; border-radius: 50px;
-            font-size: 14px; font-weight: 600; color: #475569;
-        }
-        .vision-chip.active {
-            background: linear-gradient(135deg, #6366F1, #8B5CF6); color: white;
+        .stat {
+            opacity: 0;
+            animation: statFade 0.6s ease-out forwards;
         }
 
-        /* ---- CTA ---- */
-        .cta-section { padding: 80px 0; text-align: center; }
+        .stat:nth-child(1) { animation-delay: 0.2s; }
+        .stat:nth-child(2) { animation-delay: 0.4s; }
+        .stat:nth-child(3) { animation-delay: 0.6s; }
+        .stat:nth-child(4) { animation-delay: 0.8s; }
+
+        @keyframes statFade {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .stat-num {
+            font-size: 42px;
+            font-weight: 800;
+            font-family: var(--font-display);
+            margin-bottom: 8px;
+        }
+
+        .stat-text {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* ===== PRICING PREVIEW ===== */
+        .pricing {
+            padding: 80px 0;
+        }
+
+        .pricing-preview {
+            background: white;
+            border: 1px solid var(--color-border);
+            border-radius: 12px;
+            padding: 48px;
+            text-align: center;
+        }
+
+        .pricing-preview h3 {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        .pricing-preview p {
+            color: var(--color-text-muted);
+            margin-bottom: 28px;
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta {
+            padding: 80px 0;
+        }
+
         .cta-box {
-            background: linear-gradient(135deg, #4F46E5, #7C3AED);
-            border-radius: 24px; padding: 56px 40px;
-            color: white; position: relative; overflow: hidden;
+            background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+            border-radius: 12px;
+            padding: 60px 48px;
+            text-align: center;
+            color: white;
         }
-        .cta-box::before {
-            content: ''; position: absolute; top: -60px; right: -60px;
-            width: 200px; height: 200px;
-            background: rgba(255,255,255,0.05); border-radius: 50%;
+
+        .cta-box h2 {
+            margin-bottom: 16px;
+            color: white;
         }
-        .cta-box h2 { font-size: 34px; font-weight: 800; margin-bottom: 14px; }
+
         .cta-box p {
-            font-size: 17px; opacity: 0.85; margin-bottom: 28px;
-            max-width: 500px; margin-left: auto; margin-right: auto;
-        }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 16px 36px; background: white; color: #4F46E5;
-            border-radius: 14px; font-size: 16px; font-weight: 700;
-            text-decoration: none; transition: all 0.3s;
-            border: none; cursor: pointer;
-        }
-        .btn-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
-
-        /* ---- FOOTER ---- */
-        .footer-new { padding: 40px 0; border-top: 1px solid #F1F5F9; text-align: center; }
-        .footer-new .footer-brand {
-            font-size: 22px; font-weight: 800;
-            background: linear-gradient(135deg, #6366F1, #EC4899);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            background-clip: text; margin-bottom: 8px;
-        }
-        .footer-new p { font-size: 13px; color: #94A3B8; }
-        .footer-links { display: flex; gap: 24px; justify-content: center; margin-top: 12px; flex-wrap: wrap; }
-        .footer-links a { font-size: 13px; color: #94A3B8; text-decoration: none; }
-        .footer-links a:hover { color: #6366F1; }
-
-        /* ---- SCROLL REVEAL ---- */
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
-        .reveal.visible { opacity: 1; transform: translateY(0); }
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to   { opacity: 1; transform: translateY(0); }
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 17px;
+            margin-bottom: 32px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        /* ---- RESPONSIVE ---- */
-        @media (max-width: 900px) {
-            .hero-content { grid-template-columns: 1fr; gap: 40px; padding-left: 20px; }
-            .hero-text h1 { font-size: 36px; }
-            .hero-visual { order: -1; }
-            .feature-grid-new { grid-template-columns: 1fr 1fr; }
-            .how-steps { grid-template-columns: 1fr 1fr; }
-            .how-steps::before { display: none; }
-            .pricing-grid-new { grid-template-columns: 1fr 1fr; }
-            .stats-row { grid-template-columns: 1fr 1fr; gap: 32px; }
-            .addons-grid { grid-template-columns: 1fr 1fr; }
+        .btn-white {
+            background: white;
+            color: var(--color-accent);
+            padding: 14px 40px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease-out;
+            border: none;
+            cursor: pointer;
         }
-        @media (max-width: 600px) {
-            .hero-content { padding-left: 12px; }
-            .feature-grid-new { grid-template-columns: 1fr; }
-            .how-steps { grid-template-columns: 1fr; }
-            .pricing-grid-new { grid-template-columns: 1fr; }
-            .addons-grid { grid-template-columns: 1fr; }
-            .hero-ctas { flex-direction: column; }
-            .stats-row { grid-template-columns: 1fr 1fr; }
-            .hero-text h1 { font-size: 30px; }
+
+        .btn-white:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            padding: 48px 0;
+            border-top: 1px solid var(--color-border);
+            text-align: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-display);
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--color-accent);
+            margin-bottom: 8px;
+        }
+
+        .footer p {
+            font-size: 14px;
+            color: var(--color-text-light);
+            margin-bottom: 16px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            font-size: 13px;
+            color: var(--color-text-light);
+        }
+
+        .footer-links a:hover {
+            color: var(--color-accent);
+        }
+
+        /* ===== SCROLL REVEAL ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .hero-visual {
+                order: -1;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 24px;
+            }
+
+            .feature {
+                grid-template-columns: 60px 1fr;
+                gap: 16px;
+                padding: 24px 0;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            .steps-grid::before {
+                display: none;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .hero {
+                margin-top: 60px;
+                padding: 50px 0 40px;
+            }
+
+            .hero-subtitle {
+                font-size: 16px;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-trust {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .features {
+                padding: 60px 0;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature {
+                grid-template-columns: 50px 1fr;
+                gap: 12px;
+                padding: 20px 0;
+            }
+
+            .feature-icon {
+                font-size: 32px;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .how-works {
+                padding: 60px 0;
+            }
+
+            .cta-box {
+                padding: 40px 24px;
+            }
+
+            .cta-box h2 {
+                font-size: 28px;
+            }
+
+            .pricing {
+                padding: 60px 0;
+            }
+
+            .pricing-preview {
+                padding: 32px 20px;
+            }
+
+            .parent-message {
+                padding: 40px 0;
+            }
+        }
+
+        /* ===== INSTALL POPUP ===== */
+        #app-install-popup {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .install-modal {
+            background: white;
+            border-radius: 16px;
+            padding: 32px 28px;
+            max-width: 340px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            animation: popIn 0.4s ease-out;
+        }
+
+        .install-icon {
+            width: 72px;
+            height: 72px;
+            background: var(--color-accent);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            box-shadow: 0 8px 24px rgba(217, 119, 6, 0.3);
+        }
+
+        .install-icon img {
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+        }
+
+        .install-modal h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .install-modal p {
+            font-size: 14px;
+            color: var(--color-text-muted);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .install-btns {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn-install {
+            width: 100%;
+            padding: 14px;
+            background: var(--color-accent);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+        }
+
+        .btn-install:hover {
+            background: var(--color-accent-dark);
+        }
+
+        .btn-install-cancel {
+            background: var(--color-border);
+            color: var(--color-text-muted);
+        }
+
+        .btn-install-cancel:hover {
+            background: oklch(88% 0.01 65);
+        }
+
+        .ios-guide {
+            display: none;
+            text-align: left;
+            background: var(--color-border);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        .ios-guide p {
+            margin-bottom: 6px;
+            font-size: 13px;
+        }
+
+        @keyframes popIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
     </style>
 </head>
-<body class="landing-page">
+<body>
 
-<!-- Mobile App Install Popup -->
-<div id="app-install-popup" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:9999; align-items:center; justify-content:center; padding:20px;">
-  <div style="background:white; border-radius:24px; padding:32px 28px; max-width:340px; width:100%; text-align:center; box-shadow:0 20px 60px rgba(0,0,0,0.2); animation:popIn 0.4s ease-out;">
-    <div style="width:72px; height:72px; background:linear-gradient(135deg,#6366F1,#8B5CF6); border-radius:20px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px; box-shadow:0 8px 24px rgba(99,102,241,0.3);">
-      <img src="/icons/icon-96.png" alt="Zeluu" style="width:48px; height:48px; border-radius:12px;">
+<!-- Install Popup -->
+<div id="app-install-popup">
+    <div class="install-modal">
+        <div class="install-icon">
+            <img src="/icons/icon-96.png" alt="Zeluu">
+        </div>
+        <h3>Get the Zeluu App</h3>
+        <p>Install Zeluu on your phone for quick access, offline support, and the best learning experience.</p>
+        <div id="install-chrome-btns" style="display: none;">
+            <button class="btn-install" onclick="installPWA()">Install App</button>
+        </div>
+        <div class="ios-guide" id="install-ios-guide">
+            <p><strong>To install on iPhone/iPad:</strong></p>
+            <p>1. Tap the Share button at the bottom<br>2. Scroll down and tap "Add to Home Screen"<br>3. Tap "Add" — done!</p>
+        </div>
+        <button class="btn-install btn-install-cancel" onclick="closeInstallPopup()">Maybe Later</button>
     </div>
-    <h3 style="font-size:20px; font-weight:800; margin-bottom:6px; color:#0F172A;">Get the Zeluu App</h3>
-    <p style="font-size:14px; color:#64748B; line-height:1.6; margin-bottom:20px;">Install Zeluu on your phone for quick access, offline support, and the best learning experience.</p>
-    <div id="install-chrome-btns" style="display:none;">
-      <button onclick="installPWA()" style="width:100%; padding:14px; background:linear-gradient(135deg,#6366F1,#8B5CF6); color:white; border:none; border-radius:14px; font-size:16px; font-weight:700; cursor:pointer; margin-bottom:10px; box-shadow:0 4px 14px rgba(99,102,241,0.3);">Install App</button>
-    </div>
-    <div id="install-ios-guide" style="display:none; text-align:left; background:#F8FAFC; border-radius:12px; padding:16px; margin-bottom:14px;">
-      <p style="font-size:13px; color:#475569; margin-bottom:8px;"><strong>To install on iPhone/iPad:</strong></p>
-      <p style="font-size:13px; color:#64748B; line-height:1.7;">1. Tap the <strong>Share</strong> button <span style="font-size:16px;">&#9757;</span> at the bottom<br>2. Scroll down and tap <strong>\"Add to Home Screen\"</strong><br>3. Tap <strong>\"Add\"</strong> &mdash; done!</p>
-    </div>
-    <button onclick="closeInstallPopup()" style="width:100%; padding:12px; background:#F1F5F9; color:#64748B; border:none; border-radius:12px; font-size:14px; font-weight:600; cursor:pointer;">Maybe Later</button>
-  </div>
 </div>
-<style>
-@keyframes popIn { from { opacity:0; transform:scale(0.9) translateY(20px); } to { opacity:1; transform:scale(1) translateY(0); } }
-</style>
 
 <!-- Nav -->
-<nav class="landing-nav">
+<nav class="nav">
     <div class="container nav-inner">
         <a href="/" class="nav-brand">
-            <div class="zeluu-mascot">
-                <div class="z-antenna"></div>
-                <div class="z-eyes"><div class="z-eye"></div><div class="z-eye"></div></div>
-            </div>
-            <span class="zeluu-brand-text">Zeluu</span>
-            <span class="zeluu-beta">Beta</span>
+            <span style="font-size: 28px;">💡</span>
+            <span class="nav-brand-text">Zeluu</span>
         </a>
-        <div class="nav-links">
-            <a href="/login.html" class="btn-nav-signin">Sign In</a>
-        </div>
+        <a href="/login.html" class="nav-signin">Sign In</a>
     </div>
 </nav>
 
 <!-- Hero -->
-<section class="hero-section">
+<section class="hero">
     <div class="container">
-        <div class="hero-content">
-            <div class="hero-text">
+        <div class="hero-grid">
+            <div>
                 <div class="hero-badge">
                     <span class="pulse-dot"></span>
-                    Introducing MathBuddy &mdash; AI Tutor for Grades 1-9
+                    Introducing MathBuddy
                 </div>
-                <h1>
-                    Your child learns math.<br>
-                    <span class="highlight">Not the answers.</span>
-                </h1>
-                <p class="subtitle">
-                    Zeluu's MathBuddy is an AI tutor that actually teaches your child step by step.
-                    No shortcuts, no final answers &mdash; just real understanding.
-                    Save your time and energy while your child builds confidence in math.
-                </p>
+                <h1>Your child learns math.<br><span class="accent">Not the answers.</span></h1>
+                <p class="hero-subtitle">Zeluu's MathBuddy is an AI tutor that actually teaches your child step by step. No shortcuts, no final answers — just real understanding. Save your time and energy while your child builds confidence in math.</p>
                 <div class="hero-ctas">
-                    <a href="/pricing.html" class="btn-hero btn-hero-primary">
-                        Try it now &rarr;
-                    </a>
-                    <a href="#how-it-works" class="btn-hero btn-hero-secondary">
-                        See How It Works
-                    </a>
+                    <a href="/pricing.html" class="btn btn-primary">Try it now →</a>
+                    <a href="#how-works" class="btn btn-secondary">See How It Works</a>
                 </div>
                 <div class="hero-trust">
-                    <span>&#128274; Safe for children</span>
-                    <span>&#127760; English + Arabic</span>
-                    <span>&#9889; Instant start</span>
+                    <div class="trust-item">🔒 Safe for children</div>
+                    <div class="trust-item">🌍 English + Arabic</div>
+                    <div class="trust-item">⚡ Instant start</div>
                 </div>
             </div>
             <div class="hero-visual">
-                <!-- Zeluu mascot (big floating) -->
-                <div class="mascot-float">
-                    <div class="mascot-body">
-                        <div class="mascot-antenna"></div>
-                        <div class="mascot-eyes">
-                            <div class="mascot-eye"></div>
-                            <div class="mascot-eye"></div>
-                        </div>
-                        <div class="mascot-mouth"></div>
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="chat-avatar">💡</div>
+                        MathBuddy — Grade 4
                     </div>
-                    <div class="mascot-speech">Let's learn together!</div>
-                </div>
-                <!-- Chat demo -->
-                <div class="chat-demo">
-                    <div class="chat-demo-header">
-                        <div class="zeluu-mascot" style="width:28px; height:28px; border-radius:8px; box-shadow:none;">
-                            <div class="z-antenna" style="top:-5px;"></div>
-                            <div class="z-eyes" style="gap:4px;"><div class="z-eye" style="width:6px; height:7px;"></div><div class="z-eye" style="width:6px; height:7px;"></div></div>
+                    <div class="chat-body">
+                        <div class="msg msg-child">What is 48 divided by 6?</div>
+                        <div class="typing-indicator">
+                            <span class="typing-dot"></span>
+                            <span class="typing-dot"></span>
+                            <span class="typing-dot"></span>
                         </div>
-                        MathBuddy &mdash; Grade 4
-                    </div>
-                    <div class="chat-demo-body">
-                        <div class="demo-msg child">What is 48 divided by 6?</div>
-                        <div class="typing-dots">
-                            <span></span><span></span><span></span>
-                        </div>
-                        <div class="demo-msg tutor">
-                            Great question! Let's think about it together. Division means splitting into equal groups.
-                            If you have 48 cookies and want to share them equally among 6 friends, how many does each friend get?
-                        </div>
-                        <div class="demo-msg child">Hmm, I don't know...</div>
-                        <div class="demo-msg tutor">
-                            That's okay! Let's start smaller. Do you know what 6 x 5 is?
-                            Try counting: 6, 12, 18, 24, 30... So 6 x 5 = 30. Now, what's 6 x 8?
-                        </div>
+                        <div class="msg msg-tutor">Great question! Let's think about it together. Division means splitting into equal groups. If you have 48 cookies and want to share them among 6 friends, how many does each friend get?</div>
+                        <div class="msg msg-child">Hmm, I don't know...</div>
+                        <div class="msg msg-tutor">That's okay! Let's start smaller. Do you know 6 × 5? Try: 6, 12, 18, 24, 30. So 6 × 5 = 30. Now, what's 6 × 8?</div>
                     </div>
                 </div>
+                <div class="mascot">💡</div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Parent Message -->
-<section class="parent-banner reveal">
+<section class="parent-message reveal">
     <div class="container">
-        <div class="parent-banner-inner">
-            <div class="emoji-row">&#128104;&#8205;&#128187; &#128105;&#8205;&#128187; &#128198;</div>
+        <div class="parent-message-inner">
             <h2>Built for busy parents like you</h2>
-            <p>
-                You don't need to be a math expert. Zeluu's MathBuddy explains concepts to your child patiently,
-                step by step, any time of day.
-                <strong>Save hours every week</strong> on homework help while your child builds real understanding
-                &mdash; not dependency on you for answers.
-            </p>
+            <p>You don't need to be a math expert. Zeluu's MathBuddy explains concepts to your child patiently, step by step, any time of day. <strong>Save hours every week</strong> on homework help while your child builds real understanding — not dependency on you for answers.</p>
         </div>
     </div>
 </section>
 
 <!-- Features -->
-<section id="features" class="features-section">
+<section id="features" class="features">
     <div class="container">
         <div class="section-header reveal">
             <h2>Why parents trust Zeluu</h2>
             <p>Designed with parents in mind, built with children at heart</p>
         </div>
-        <div class="feature-grid-new">
-            <div class="feature-card-new reveal">
-                <div class="feature-icon-new blue">&#129504;</div>
-                <h3>Socratic Teaching</h3>
-                <p>Guides children to discover answers through questions and hints. Never gives the final answer &mdash; builds real understanding.</p>
+        <div class="features-grid">
+            <div class="feature reveal">
+                <div class="feature-icon">🧠</div>
+                <div>
+                    <h3>Socratic Teaching</h3>
+                    <p>Guides children to discover answers through questions and hints. Never gives the final answer — builds real understanding.</p>
+                </div>
             </div>
-            <div class="feature-card-new reveal">
-                <div class="feature-icon-new green">&#128107;</div>
-                <h3>Full Parent Control</h3>
-                <p>You manage credits, monitor every session, see what your child asked, and get alerts when they're stuck. Total visibility.</p>
+            <div class="feature reveal">
+                <div class="feature-icon">👨‍👩‍👧</div>
+                <div>
+                    <h3>Full Parent Control</h3>
+                    <p>You manage credits, monitor every session, see what your child asked, and get alerts when they're stuck. Total visibility.</p>
+                </div>
             </div>
-            <div class="feature-card-new reveal">
-                <div class="feature-icon-new purple">&#128737;&#65039;</div>
-                <h3>Built-in Safety</h3>
-                <p>Content filtering, prompt injection protection, and stuck-loop detection. Your child only gets learning help &mdash; nothing else.</p>
+            <div class="feature reveal">
+                <div class="feature-icon">🛡️</div>
+                <div>
+                    <h3>Built-in Safety</h3>
+                    <p>Content filtering, prompt injection protection, and stuck-loop detection. Your child only gets learning help — nothing else.</p>
+                </div>
             </div>
-            <div class="feature-card-new reveal">
-                <div class="feature-icon-new orange">&#128248;</div>
-                <h3>Photo Support</h3>
-                <p>Snap a photo of homework or a textbook problem. The AI reads it and starts tutoring right away. No typing needed.</p>
+            <div class="feature reveal">
+                <div class="feature-icon">📸</div>
+                <div>
+                    <h3>Photo Support</h3>
+                    <p>Snap a photo of homework or a textbook problem. The AI reads it and starts tutoring right away. No typing needed.</p>
+                </div>
             </div>
-            <div class="feature-card-new reveal">
-                <div class="feature-icon-new pink">&#127760;</div>
-                <h3>English + Arabic</h3>
-                <p>Full bilingual support with RTL. Grade-appropriate curriculum from Grade 1 to Grade 9, in both languages.</p>
+            <div class="feature reveal">
+                <div class="feature-icon">🌍</div>
+                <div>
+                    <h3>English + Arabic</h3>
+                    <p>Full bilingual support with RTL. Grade-appropriate curriculum from Grade 1 to Grade 9, in both languages.</p>
+                </div>
             </div>
-            <div class="feature-card-new reveal">
-                <div class="feature-icon-new cyan">&#128202;</div>
-                <h3>Weekly Progress Reports</h3>
-                <p>Get detailed reports on your child's strengths, areas for development, and recommendations for their teacher.</p>
+            <div class="feature reveal">
+                <div class="feature-icon">📊</div>
+                <div>
+                    <h3>Weekly Progress Reports</h3>
+                    <p>Get detailed reports on your child's strengths, areas for development, and recommendations for their teacher.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- How It Works -->
-<section id="how-it-works" class="how-section">
+<section id="how-works" class="how-works">
     <div class="container">
         <div class="section-header reveal">
             <h2>How it works</h2>
         </div>
-        <div class="how-steps reveal">
-            <div class="how-step">
-                <div class="step-number">1</div>
+        <div class="steps-grid reveal">
+            <div class="step">
+                <div class="step-num">1</div>
                 <h3>Create your account</h3>
                 <p>Sign up in seconds. Add your child's name, grade, and preferred language.</p>
             </div>
-            <div class="how-step">
-                <div class="step-number">2</div>
+            <div class="step">
+                <div class="step-num">2</div>
                 <h3>Child logs in</h3>
                 <p>Your child gets their own simple login with username and password. Safe and separate.</p>
             </div>
-            <div class="how-step">
-                <div class="step-number">3</div>
+            <div class="step">
+                <div class="step-num">3</div>
                 <h3>AI teaches step by step</h3>
-                <p>They type or snap a photo of a problem. MathBuddy explains, hints, and guides &mdash; never just gives the answer.</p>
+                <p>They type or snap a photo of a problem. MathBuddy explains, hints, and guides — never just gives the answer.</p>
             </div>
-            <div class="how-step">
-                <div class="step-number">4</div>
+            <div class="step">
+                <div class="step-num">4</div>
                 <h3>You track progress</h3>
                 <p>See every session, get weekly reports, and know exactly where your child needs help.</p>
             </div>
@@ -721,159 +1110,137 @@
 </section>
 
 <!-- Stats -->
-<section class="stats-section reveal">
+<section class="stats reveal">
     <div class="container">
-        <div class="stats-row">
-            <div>
-                <div class="stat-num">13 Curricula</div>
-                <div class="stat-text">GCC, UK, US, India &amp; more</div>
+        <div class="stats-grid">
+            <div class="stat">
+                <div class="stat-num">13</div>
+                <div class="stat-text">Curricula (GCC, UK, US, India & more)</div>
             </div>
-            <div>
-                <div class="stat-num">2 Languages</div>
-                <div class="stat-text">English + Arabic with RTL</div>
+            <div class="stat">
+                <div class="stat-num">9</div>
+                <div class="stat-text">Grade Levels (Grades 1–9)</div>
             </div>
-            <div>
-                <div class="stat-num">24/7</div>
-                <div class="stat-text">Available any time</div>
+            <div class="stat">
+                <div class="stat-num">2</div>
+                <div class="stat-text">Languages (English + Arabic)</div>
             </div>
-            <div>
-                <div class="stat-num">100%</div>
-                <div class="stat-text">Parent controlled</div>
+            <div class="stat">
+                <div class="stat-num">∞</div>
+                <div class="stat-text">Patience (AI Never Gets Tired)</div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Pricing CTA -->
-<section id="pricing" class="pricing-section">
+<!-- Pricing Preview -->
+<section class="pricing">
     <div class="container">
-        <div class="section-header reveal" style="max-width:640px; margin:0 auto; text-align:center;">
-            <h2>Simple, credit-based pricing</h2>
-            <p style="font-size:18px; margin-bottom:12px;">Every plan includes a <strong>14-day free trial with 10 credits</strong> &mdash; no payment required, cancel anytime.</p>
-            <p style="font-size:15px; color:#64748B; margin-bottom:32px;">4 flexible plans from <strong>$12/mo</strong>. Pick the one that fits your family.</p>
-            <a href="/pricing.html" class="btn-hero btn-hero-primary" style="display:inline-flex; align-items:center; gap:8px; font-size:17px; padding:16px 40px;">
-                Try it now &rarr;
-            </a>
-            <p style="font-size:13px; color:#94A3B8; margin-top:14px;">Sign up with any plan and get 10 free credits instantly.</p>
+        <div class="section-header reveal">
+            <h2>Flexible plans for every family</h2>
         </div>
-    </div>
-</section>
-
-<!-- Vision -->
-<section class="vision-section reveal">
-    <div class="container">
-        <div class="vision-inner">
-            <h2>Starting with math. Growing with your child.</h2>
-            <p>
-                Zeluu starts with MathBuddy because math is where most children need support.
-                But our vision is bigger &mdash; soon we'll add tools for every subject your child needs.
-            </p>
-            <div class="vision-subjects">
-                <span class="vision-chip active">&#129518; MathBuddy</span>
-                <span class="vision-chip">&#128218; ScienceBuddy</span>
-                <span class="vision-chip">&#128214; EnglishBuddy</span>
-                <span class="vision-chip">&#127758; More coming...</span>
-            </div>
+        <div class="pricing-preview reveal">
+            <h3>Choose what works for you</h3>
+            <p>Pay-as-you-go credits, monthly plans, or annual plans. No long-term contracts. Cancel anytime.</p>
+            <a href="/pricing.html" class="btn btn-primary">See all plans →</a>
         </div>
     </div>
 </section>
 
 <!-- CTA -->
-<section class="cta-section">
+<section class="cta">
     <div class="container">
         <div class="cta-box reveal">
-            <h2>Give your child the confidence to say &ldquo;I get it!&rdquo;</h2>
-            <p>Start with 10 free credits. No payment required, cancel anytime. See your child learn differently in minutes.</p>
-            <a href="/pricing.html" class="btn-cta">
-                Try it now &rarr;
-            </a>
+            <h2>Ready to help your child learn math?</h2>
+            <p>Start with a 7-day free trial. No credit card required. Your child can start learning today.</p>
+            <a href="/pricing.html" class="btn-white">Get Started →</a>
         </div>
     </div>
 </section>
 
 <!-- Footer -->
-<footer class="footer-new">
+<footer class="footer">
     <div class="container">
-        <div class="footer-brand" style="display:flex; align-items:center; justify-content:center; gap:8px;">
-            <div class="zeluu-mascot" style="width:28px; height:28px; border-radius:8px; box-shadow:none;">
-                <div class="z-antenna" style="top:-5px;"></div>
-                <div class="z-eyes" style="gap:4px;"><div class="z-eye" style="width:6px;height:7px;"></div><div class="z-eye" style="width:6px;height:7px;"></div></div>
-            </div>
-            <span>Zeluu</span>
-            <span class="zeluu-beta" style="margin-top:0;">Beta</span>
-        </div>
-        <p>Supervised AI learning for children. Built with care for parents who care.</p>
+        <div class="footer-brand">Zeluu</div>
+        <p>AI math tutor that actually teaches your child</p>
         <div class="footer-links">
-            <a href="#features">Features</a>
-            <a href="/pricing.html">Pricing</a>
-            <a href="/login.html">Sign In</a>
-            <a href="/privacy.html">Privacy Policy</a>
-            <a href="/terms.html">Terms of Service</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/gdpr.html">GDPR</a>
             <a href="/refund.html">Refund Policy</a>
         </div>
     </div>
 </footer>
 
-<!-- Scripts -->
+<!-- Scroll Reveal Script -->
 <script>
-// Register service worker
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').catch(function(){});
-}
+    function revealOnScroll() {
+        const reveals = document.querySelectorAll('.reveal');
+        reveals.forEach(el => {
+            const windowHeight = window.innerHeight;
+            const revealTop = el.getBoundingClientRect().top;
+            const revealPoint = 100;
 
-// PWA Install prompt
-let deferredPrompt = null;
-window.addEventListener('beforeinstallprompt', function(e) {
-    e.preventDefault();
-    deferredPrompt = e;
-});
-
-function installPWA() {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then(function() {
-            deferredPrompt = null;
-            closeInstallPopup();
+            if (revealTop < windowHeight - revealPoint) {
+                el.classList.add('visible');
+            }
         });
     }
-}
 
-function closeInstallPopup() {
-    document.getElementById('app-install-popup').style.display = 'none';
-    sessionStorage.setItem('install-dismissed', '1');
-}
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll(); // Initial check
 
-function showInstallPopup() {
-    if (sessionStorage.getItem('install-dismissed')) return;
-    if (window.matchMedia('(display-mode: standalone)').matches) return;
-    if (navigator.standalone) return;
-    var isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    if (!isMobile) return;
-    setTimeout(function() {
-        var popup = document.getElementById('app-install-popup');
-        var isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent) && !window.MSStream;
-        if (isIOS) {
-            document.getElementById('install-ios-guide').style.display = 'block';
-        } else if (deferredPrompt) {
-            document.getElementById('install-chrome-btns').style.display = 'block';
-        } else {
-            document.getElementById('install-ios-guide').style.display = 'block';
-            document.querySelector('#install-ios-guide p:first-child strong').textContent = 'To install on your phone:';
-            document.querySelector('#install-ios-guide p:last-child').innerHTML = '1. Tap the <strong>menu</strong> (three dots) at the top right<br>2. Tap <strong>\"Add to Home Screen\"</strong> or <strong>\"Install App\"</strong><br>3. Tap <strong>\"Install\"</strong> \u2014 done!';
-        }
-        popup.style.display = 'flex';
-    }, 3000);
-}
+    // PWA Install Prompt
+    let deferredPrompt;
 
-window.addEventListener('load', showInstallPopup);
-
-// Scroll reveal
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('visible');
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        showInstallPrompt();
     });
-}, { threshold: 0.1 });
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    function showInstallPrompt() {
+        const chromeBtns = document.getElementById('install-chrome-btns');
+        const iosGuide = document.getElementById('install-ios-guide');
+
+        // Detect if running on iOS
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+        if (isIOS) {
+            iosGuide.style.display = 'block';
+        } else if (deferredPrompt) {
+            chromeBtns.style.display = 'block';
+        }
+
+        // Show popup after 3 seconds
+        setTimeout(() => {
+            document.getElementById('app-install-popup').style.display = 'flex';
+        }, 3000);
+    }
+
+    function installPWA() {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === 'accepted') {
+                    deferredPrompt = null;
+                    closeInstallPopup();
+                }
+            });
+        }
+    }
+
+    function closeInstallPopup() {
+        document.getElementById('app-install-popup').style.display = 'none';
+    }
+
+    // Dismiss popup when user taps outside
+    document.getElementById('app-install-popup').addEventListener('click', (e) => {
+        if (e.target.id === 'app-install-popup') {
+            closeInstallPopup();
+        }
+    });
 </script>
+
 </body>
 </html>

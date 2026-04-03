@@ -3,9 +3,486 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zeluu Parent Dashboard - AI Math Tutoring for Children">
+  <meta name="theme-color" content="#fdfbf8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
   <title>Zeluu - Parent Dashboard</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    /* ===== WARM EDITORIAL DESIGN SYSTEM ===== */
+    :root {
+      /* Color Palette (OKLCH) */
+      --color-cream: oklch(97.5% 0.004 60);
+      --color-warm-bg: oklch(98.8% 0.005 62);
+      --color-text-dark: oklch(15% 0.02 60);
+      --color-text-muted: oklch(50% 0.015 65);
+      --color-text-light: oklch(75% 0.01 65);
+      --color-border: oklch(92% 0.008 65);
+      --color-accent: oklch(55% 0.15 50);
+      --color-accent-dark: oklch(45% 0.18 48);
+      --color-accent-light: oklch(82% 0.1 55);
+      --color-success: oklch(65% 0.16 142);
+      --color-error: oklch(55% 0.2 25);
+      --color-warning: oklch(70% 0.15 80);
+      --color-surface: oklch(99% 0.003 60);
+
+      /* Typography */
+      --font-display: 'Fraunces', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+
+      /* Legacy variable aliases for JS compatibility */
+      --gray-50: oklch(96% 0.005 60);
+      --gray-100: oklch(94% 0.005 60);
+      --gray-200: oklch(92% 0.008 65);
+      --gray-500: oklch(50% 0.015 65);
+      --gray-600: oklch(45% 0.012 63);
+      --gray-700: oklch(30% 0.015 60);
+      --gray-900: oklch(15% 0.02 60);
+      --primary: oklch(55% 0.15 50);
+      --primary-light: oklch(82% 0.1 55);
+      --success: oklch(65% 0.16 142);
+      --danger: oklch(55% 0.2 25);
+      --warning: oklch(70% 0.15 80);
+
+      /* Spacing */
+      --spacing-xs: 8px;
+      --spacing-sm: 16px;
+      --spacing-md: 24px;
+      --spacing-lg: 40px;
+    }
+
+    /* ===== RESET & BASE ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: var(--font-body);
+      background-color: var(--color-warm-bg);
+      color: var(--color-text-dark);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--color-text-dark);
+    }
+
+    h1 { font-size: 32px; margin-bottom: var(--spacing-md); }
+    h2 { font-size: 24px; margin-bottom: var(--spacing-sm); }
+    h3 { font-size: 18px; margin-bottom: var(--spacing-sm); }
+
+    a {
+      color: var(--color-accent);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--color-accent-dark);
+    }
+
+    button {
+      font-family: var(--font-body);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 var(--spacing-sm);
+    }
+
+    /* ===== NAV ===== */
+    .nav {
+      background: rgba(255, 253, 251, 0.85);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--color-border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--spacing-sm) 0;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-xs);
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--color-text-dark);
+      text-decoration: none !important;
+    }
+
+    .zeluu-mascot {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #FFE5B4 0%, #FFD699 100%);
+      border-radius: 8px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .z-antenna {
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 4px;
+      height: 8px;
+      background: var(--color-accent);
+      border-radius: 2px;
+    }
+
+    .z-eyes {
+      display: flex;
+      gap: 4px;
+    }
+
+    .z-eye {
+      width: 6px;
+      height: 6px;
+      background: var(--color-text-dark);
+      border-radius: 50%;
+    }
+
+    .zeluu-brand-text {
+      font-size: 20px;
+    }
+
+    .zeluu-beta {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--color-accent);
+      background: var(--color-accent-light);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--spacing-sm);
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--color-text-muted);
+    }
+
+    .nav-links a:hover {
+      color: var(--color-accent);
+    }
+
+    /* ===== SPACING UTILITIES ===== */
+    .mb-4 { margin-bottom: var(--spacing-xs); }
+    .mb-6 { margin-bottom: var(--spacing-sm); }
+    .mt-2 { margin-top: 4px; }
+    .mt-4 { margin-top: var(--spacing-xs); }
+    .mt-6 { margin-top: var(--spacing-sm); }
+
+    /* ===== FLEXBOX UTILITIES ===== */
+    .flex {
+      display: flex;
+    }
+
+    .flex-col {
+      flex-direction: column;
+    }
+
+    .gap-2 {
+      gap: 8px;
+    }
+
+    .items-center {
+      align-items: center;
+    }
+
+    .justify-between {
+      justify-content: space-between;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    /* ===== CARDS ===== */
+    .card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    /* ===== STAT CARDS ===== */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: var(--spacing-sm);
+    }
+
+    .stat-card {
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: var(--font-display);
+      font-size: 40px;
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ===== GRID LAYOUT ===== */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: var(--spacing-sm);
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--color-accent-dark);
+      color: var(--color-cream);
+      border: 1px solid var(--color-accent-dark);
+    }
+
+    .btn-primary:hover {
+      background: var(--color-accent);
+      border-color: var(--color-accent);
+    }
+
+    .btn-primary:active {
+      transform: scale(0.98);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--color-text-dark);
+      border: 1px solid var(--color-border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--color-warm-bg);
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    .btn-large {
+      padding: 14px 20px;
+      font-size: 15px;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* ===== FORMS ===== */
+    .form-group {
+      margin-bottom: var(--spacing-sm);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-text-dark);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .form-group input,
+    .form-group select {
+      padding: 10px 12px;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      background: var(--color-warm-bg);
+      font-family: var(--font-body);
+      font-size: 14px;
+      color: var(--color-text-dark);
+      transition: all 0.2s ease;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--color-accent);
+      background: var(--color-surface);
+      box-shadow: 0 0 0 3px rgba(136, 112, 88, 0.1);
+    }
+
+    .form-error {
+      display: none;
+      color: var(--color-error);
+      font-size: 13px;
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    /* ===== MODALS ===== */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: var(--spacing-sm);
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--color-surface);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    /* ===== LOADING SPINNER ===== */
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--color-border);
+      border-top-color: var(--color-accent);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ===== CREDIT BADGE ===== */
+    .credit-badge {
+      display: inline-block;
+      background: var(--color-accent-light);
+      color: var(--color-accent);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    .credit-badge.low {
+      background: oklch(88% 0.12 80);
+      color: var(--color-warning);
+    }
+
+    .credit-badge.empty {
+      background: oklch(85% 0.15 25);
+      color: var(--color-error);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      h1 { font-size: 24px; }
+      h2 { font-size: 20px; }
+      h3 { font-size: 16px; }
+
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .modal {
+        max-width: 90%;
+      }
+    }
+
+    /* ===== ADDITIONAL STYLES ===== */
+    p {
+      color: var(--color-text-muted);
+    }
+
+    strong {
+      font-weight: 600;
+      color: var(--color-text-dark);
+    }
+
+    .text-muted {
+      color: var(--color-text-muted);
+      font-size: 13px;
+    }
+
+    /* Print styles */
+    @media print {
+      .nav, .btn, button {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Nav -->
@@ -25,7 +502,7 @@
     </div>
   </nav>
 
-  <div class="container" style="padding-top:32px;">
+  <div class="container" style="padding-top:32px; padding-bottom:40px;">
     <h1 class="mb-6">Parent Dashboard</h1>
 
     <!-- Stats -->
@@ -45,7 +522,7 @@
       <div class="card stat-card">
         <div class="stat-value" id="stat-plan">Free</div>
         <div class="stat-label">Current Plan</div>
-        <div id="renewal-info" style="font-size:12px; color:var(--gray-500); margin-top:6px;"></div>
+        <div id="renewal-info" style="font-size:12px; color:var(--color-text-muted); margin-top:6px;"></div>
       </div>
     </div>
 
@@ -53,16 +530,16 @@
     <div class="card mb-6" id="usage-card" style="display:none;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
         <h3 style="margin:0;">Credit Usage</h3>
-        <span id="usage-label" style="font-size:13px; color:var(--gray-500);">0 / 0 credits used</span>
+        <span id="usage-label" style="font-size:13px; color:var(--color-text-muted);">0 / 0 credits used</span>
       </div>
-      <div style="width:100%; height:8px; background:var(--gray-100); border-radius:999px; overflow:hidden;">
+      <div style="width:100%; height:8px; background:var(--color-border); border-radius:999px; overflow:hidden;">
         <div id="usage-bar" style="height:100%; width:0%; border-radius:999px; transition:width .5s ease;"></div>
       </div>
       <div style="display:flex; justify-content:space-between; margin-top:8px;">
         <span id="usage-percent" style="font-size:12px; font-weight:600;"></span>
-        <span id="usage-remaining" style="font-size:12px; color:var(--gray-500);"></span>
+        <span id="usage-remaining" style="font-size:12px; color:var(--color-text-muted);"></span>
       </div>
-      <div id="usage-renewal" style="display:none; margin-top:10px; padding:8px 12px; background:var(--gray-50); border-radius:8px; font-size:12px; color:var(--gray-500); text-align:center;"></div>
+      <div id="usage-renewal" style="display:none; margin-top:10px; padding:8px 12px; background:var(--color-warm-bg); border-radius:8px; font-size:12px; color:var(--color-text-muted); text-align:center;"></div>
     </div>
 
     <!-- Parent Profile -->
@@ -72,28 +549,28 @@
         <button class="btn btn-secondary" style="font-size:12px; padding:6px 14px;" onclick="openEditProfileModal()">Edit Profile</button>
       </div>
       <div id="parent-profile-info" style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
-        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
-          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Email</div>
+        <div style="padding:10px 14px; background:var(--color-warm-bg); border-radius:8px;">
+          <div style="font-size:11px; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Email</div>
           <div style="font-size:14px; font-weight:500;" id="profile-email">--</div>
         </div>
-        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
-          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Phone</div>
+        <div style="padding:10px 14px; background:var(--color-warm-bg); border-radius:8px;">
+          <div style="font-size:11px; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Phone</div>
           <div style="font-size:14px; font-weight:500;" id="profile-phone">--</div>
         </div>
-        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
-          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Country</div>
+        <div style="padding:10px 14px; background:var(--color-warm-bg); border-radius:8px;">
+          <div style="font-size:11px; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Country</div>
           <div style="font-size:14px; font-weight:500;" id="profile-country">--</div>
         </div>
-        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
-          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Children</div>
+        <div style="padding:10px 14px; background:var(--color-warm-bg); border-radius:8px;">
+          <div style="font-size:11px; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Children</div>
           <div style="font-size:14px; font-weight:500;" id="profile-children-count">0</div>
         </div>
-        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
-          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Plan</div>
+        <div style="padding:10px 14px; background:var(--color-warm-bg); border-radius:8px;">
+          <div style="font-size:11px; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Plan</div>
           <div style="font-size:14px; font-weight:500;" id="profile-plan">Free</div>
         </div>
-        <div style="padding:10px 14px; background:var(--gray-50); border-radius:8px;">
-          <div style="font-size:11px; color:var(--gray-500); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Renewal Date</div>
+        <div style="padding:10px 14px; background:var(--color-warm-bg); border-radius:8px;">
+          <div style="font-size:11px; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px;">Renewal Date</div>
           <div style="font-size:14px; font-weight:500;" id="profile-renewal">--</div>
         </div>
       </div>
@@ -107,7 +584,7 @@
           <button class="btn btn-primary" style="font-size:12px; padding:6px 14px;" onclick="openAddChildModal()">+ Add Child</button>
         </div>
         <div id="children-list">
-          <p style="color:var(--gray-500); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
+          <p style="color:var(--color-text-muted); font-size:14px;">No children yet. Click "Add Child" to get started.</p>
         </div>
       </div>
 
@@ -115,7 +592,7 @@
       <div class="card">
         <h3 class="mb-4">Notifications</h3>
         <div id="notifications-list">
-          <p style="color:var(--gray-500); font-size:14px;">No notifications yet.</p>
+          <p style="color:var(--color-text-muted); font-size:14px;">No notifications yet.</p>
         </div>
       </div>
 
@@ -131,44 +608,44 @@
         </div>
       </div>
 
-    <!-- Subscription Modal -->
-    <div class="modal-overlay" id="subscription-modal">
-      <div class="modal" style="max-width:520px; max-height:85vh; overflow-y:auto;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-          <h2>Upgrade Your Package</h2>
-          <button onclick="closeSubscriptionModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-        </div>
-        <!-- Billing toggle -->
-        <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--gray-50); border-radius:8px; padding:4px;">
-          <button id="btn-monthly" class="btn btn-primary" onclick="setBilling('monthly')" style="flex:1; font-size:13px; padding:6px 0;">Monthly</button>
-          <button id="btn-annual" class="btn btn-secondary" onclick="setBilling('annual')" style="flex:1; font-size:13px; padding:6px 0;">Annual <span style="font-size:11px; color:var(--success);">(Save 20%)</span></button>
-        </div>
-        <div class="flex flex-col gap-2" id="subscription-plans">
-          <!-- Populated by JS -->
+      <!-- Subscription Modal -->
+      <div class="modal-overlay" id="subscription-modal">
+        <div class="modal" style="max-width:520px; max-height:85vh; overflow-y:auto;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Upgrade Your Package</h2>
+            <button onclick="closeSubscriptionModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+          </div>
+          <!-- Billing toggle -->
+          <div style="display:flex; gap:8px; margin-bottom:16px; background:var(--color-warm-bg); border-radius:8px; padding:4px;">
+            <button id="btn-monthly" class="btn btn-primary" onclick="setBilling('monthly')" style="flex:1; font-size:13px; padding:6px 0;">Monthly</button>
+            <button id="btn-annual" class="btn btn-secondary" onclick="setBilling('annual')" style="flex:1; font-size:13px; padding:6px 0;">Annual <span style="font-size:11px; color:var(--color-success);">(Save 20%)</span></button>
+          </div>
+          <div class="flex flex-col gap-2" id="subscription-plans">
+            <!-- Populated by JS -->
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Extra Credits Modal -->
-    <div class="modal-overlay" id="extra-credits-modal">
-      <div class="modal" style="max-width:420px;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-          <h2>Extra Credits</h2>
-          <button onclick="closeExtraCreditsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-        </div>
-        <div class="flex flex-col gap-2">
-          <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between; padding:14px 16px;">
-            <span>&#9889; Quick Top-Up - 100 credits</span><strong>$15</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between; padding:14px 16px;">
-            <span>&#128230; Credit Pack - 300 credits</span><strong>$35</strong>
-          </button>
-          <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between; padding:14px 16px;">
-            <span>&#128640; Credit Tank - 1,000 credits</span><strong>$100</strong>
-          </button>
+      <!-- Extra Credits Modal -->
+      <div class="modal-overlay" id="extra-credits-modal">
+        <div class="modal" style="max-width:420px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Extra Credits</h2>
+            <button onclick="closeExtraCreditsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+          </div>
+          <div class="flex flex-col gap-2">
+            <button class="btn btn-secondary" onclick="buyCredits('quick_topup')" style="justify-content:space-between; padding:14px 16px;">
+              <span>&#9889; Quick Top-Up - 100 credits</span><strong>$15</strong>
+            </button>
+            <button class="btn btn-secondary" onclick="buyCredits('credit_pack')" style="justify-content:space-between; padding:14px 16px;">
+              <span>&#128230; Credit Pack - 300 credits</span><strong>$35</strong>
+            </button>
+            <button class="btn btn-secondary" onclick="buyCredits('credit_tank')" style="justify-content:space-between; padding:14px 16px;">
+              <span>&#128640; Credit Tank - 1,000 credits</span><strong>$100</strong>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
     </div>
 
     <!-- Session Transcript Modal -->
@@ -179,7 +656,7 @@
           <button onclick="closeTranscript()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
         </div>
         <div id="transcript-content" style="display:flex; flex-direction:column; gap:12px;">
-          <p style="color:var(--gray-500);">Loading...</p>
+          <p style="color:var(--color-text-muted);">Loading...</p>
         </div>
       </div>
     </div>
@@ -188,11 +665,11 @@
     <div class="card mt-6 mb-6">
       <div style="display:flex; justify-content:space-between; align-items:center; cursor:pointer;" onclick="toggleCreditHistory()">
         <h3 style="margin:0;">Credit History</h3>
-        <span id="credit-history-toggle" style="font-size:20px; color:var(--gray-500); transition:transform .2s;">&#9660;</span>
+        <span id="credit-history-toggle" style="font-size:20px; color:var(--color-text-muted); transition:transform .2s;">&#9660;</span>
       </div>
       <div id="credit-history-wrapper" style="display:none; margin-top:16px;">
         <div id="credit-history">
-          <p style="color:var(--gray-500); font-size:14px;">No transactions yet.</p>
+          <p style="color:var(--color-text-muted); font-size:14px;">No transactions yet.</p>
         </div>
       </div>
     </div>
@@ -256,9 +733,9 @@
               const now = new Date();
               const daysLeft = Math.ceil((renewDate - now) / (1000 * 60 * 60 * 24));
               const dateStr = renewDate.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-              let color = 'var(--success)';
-              if (daysLeft <= 7) color = 'var(--danger)';
-              else if (daysLeft <= 14) color = 'var(--warning)';
+              let color = 'var(--color-success)';
+              if (daysLeft <= 7) color = 'var(--color-error)';
+              else if (daysLeft <= 14) color = 'var(--color-warning)';
               document.getElementById('renewal-info').innerHTML =
                 'Renews: <strong style="color:' + color + ';">' + dateStr + '</strong> (' + daysLeft + 'd left)';
             }
@@ -273,10 +750,10 @@
             document.getElementById('usage-label').textContent = used + ' / ' + total + ' credits used';
             document.getElementById('usage-bar').style.width = pct + '%';
             document.getElementById('usage-bar').style.background =
-              pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
+              pct >= 90 ? 'var(--color-error)' : pct >= 70 ? 'var(--color-warning)' : 'var(--color-accent)';
             document.getElementById('usage-percent').textContent = pct + '% used';
             document.getElementById('usage-percent').style.color =
-              pct >= 90 ? 'var(--danger)' : pct >= 70 ? 'var(--warning)' : 'var(--primary)';
+              pct >= 90 ? 'var(--color-error)' : pct >= 70 ? 'var(--color-warning)' : 'var(--color-accent)';
             document.getElementById('usage-remaining').textContent = balance + ' remaining';
 
             // Show renewal date in usage card
@@ -292,7 +769,7 @@
                 // Trial: show trial end date
                 var daysLeft = Math.ceil((periodEnd - now) / (1000 * 60 * 60 * 24));
                 var dateStr = periodEnd.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-                var color = daysLeft <= 3 ? 'var(--danger)' : daysLeft <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+                var color = daysLeft <= 3 ? 'var(--color-error)' : daysLeft <= 7 ? 'var(--color-warning)' : 'var(--color-text-muted)';
                 renewEl.innerHTML = 'Trial ends: <strong style="color:' + color + ';">' + dateStr + '</strong> (' + daysLeft + ' days)';
               } else if (isAnnual) {
                 // Annual plan: credits renew monthly, subscription renews yearly
@@ -304,15 +781,15 @@
                 var daysToCredit = Math.ceil((nextCredit - now) / (1000 * 60 * 60 * 24));
                 var creditDateStr = nextCredit.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
                 var planEndStr = periodEnd.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-                var creditColor = daysToCredit <= 3 ? 'var(--danger)' : daysToCredit <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+                var creditColor = daysToCredit <= 3 ? 'var(--color-error)' : daysToCredit <= 7 ? 'var(--color-warning)' : 'var(--color-text-muted)';
                 renewEl.innerHTML =
                   'Credits renew: <strong style="color:' + creditColor + ';">' + creditDateStr + '</strong> (' + daysToCredit + 'd)'
-                  + ' &nbsp;&middot;&nbsp; Plan renews: <strong style="color:var(--gray-600);">' + planEndStr + '</strong>';
+                  + ' &nbsp;&middot;&nbsp; Plan renews: <strong style="color:var(--color-text-muted);">' + planEndStr + '</strong>';
               } else {
                 // Monthly plan: credits and plan renew together
                 var daysLeft = Math.ceil((periodEnd - now) / (1000 * 60 * 60 * 24));
                 var dateStr = periodEnd.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-                var color = daysLeft <= 3 ? 'var(--danger)' : daysLeft <= 7 ? 'var(--warning)' : 'var(--gray-600)';
+                var color = daysLeft <= 3 ? 'var(--color-error)' : daysLeft <= 7 ? 'var(--color-warning)' : 'var(--color-text-muted)';
                 renewEl.innerHTML = 'Credits renew: <strong style="color:' + color + ';">' + dateStr + '</strong> (' + daysLeft + ' days)';
               }
               renewEl.style.display = 'block';
@@ -326,10 +803,10 @@
           // Credit history
           if (creditData.recent_transactions && creditData.recent_transactions.length > 0) {
             document.getElementById('credit-history').innerHTML = creditData.recent_transactions.map(function(t) {
-              return '<div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--gray-100);">'
+              return '<div class="flex items-center justify-between" style="padding:8px 0; border-bottom:1px solid var(--color-border);">'
                 + '<div><span style="font-size:14px;">' + (t.description || t.type) + '</span>'
-                + '<span style="font-size:12px; color:var(--gray-500); margin-left:8px;">' + new Date(t.created_at).toLocaleDateString() + '</span></div>'
-                + '<span style="font-weight:600; color:' + (t.amount > 0 ? 'var(--success)' : 'var(--danger)') + ';">'
+                + '<span style="font-size:12px; color:var(--color-text-muted); margin-left:8px;">' + new Date(t.created_at).toLocaleDateString() + '</span></div>'
+                + '<span style="font-weight:600; color:' + (t.amount > 0 ? 'var(--color-success)' : 'var(--color-error)') + ';">'
                 + (t.amount > 0 ? '+' : '') + t.amount + '</span></div>';
             }).join('');
           }
@@ -369,22 +846,22 @@
             document.getElementById('children-list').innerHTML = childData.children.map(function(c) {
               var used = childUsage[c.id] || 0;
               var bday = c.birthdate ? new Date(c.birthdate).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }) : null;
-              var html = '<div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; margin-bottom:8px;">';
+              var html = '<div style="padding:12px 14px; background:var(--color-warm-bg); border-radius:8px; margin-bottom:8px;">';
               html += '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">';
               html += '<div><strong style="display:block;">' + c.name + '</strong>';
-              html += '<span style="font-size:12px; color:var(--gray-500);">Grade ' + c.grade + '</span></div>';
+              html += '<span style="font-size:12px; color:var(--color-text-muted);">Grade ' + c.grade + '</span></div>';
               html += '<div style="display:flex; gap:6px; align-items:center;">';
-              html += '<span style="display:inline-block; background:' + (used > 0 ? 'var(--primary-light)' : 'var(--gray-100)') + '; color:' + (used > 0 ? 'var(--primary)' : 'var(--gray-500)') + '; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">';
+              html += '<span style="display:inline-block; background:' + (used > 0 ? 'var(--color-accent-light)' : 'var(--color-border)') + '; color:' + (used > 0 ? 'var(--color-accent)' : 'var(--color-text-muted)') + '; font-size:12px; font-weight:600; padding:4px 10px; border-radius:12px;">';
               html += used + ' credit' + (used !== 1 ? 's' : '') + ' used</span>';
               html += '<button onclick="openEditChildModal(\'' + c.id + '\')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px;" title="Edit child">&#9998;</button>';
-              html += '<button onclick="confirmRemoveChild(\'' + c.id + '\', \'' + c.name + '\')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px; color:var(--danger);" title="Remove child">&times;</button>';
+              html += '<button onclick="confirmRemoveChild(\'' + c.id + '\', \'' + c.name + '\')" style="background:none; border:none; cursor:pointer; font-size:16px; padding:2px 6px; color:var(--color-error);" title="Remove child">&times;</button>';
               html += '</div></div>';
               html += '<div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;">';
-              if (c.phone) html += '<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Phone: <strong style="color:var(--gray-700);">' + c.phone + '</strong></span>';
-              if (bday) html += '<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--gray-500);">Born: <strong style="color:var(--gray-700);">' + bday + '</strong></span>';
+              if (c.phone) html += '<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--color-text-muted);">Phone: <strong style="color:var(--color-text-dark);">' + c.phone + '</strong></span>';
+              if (bday) html += '<span style="font-size:12px; background:white; padding:4px 8px; border-radius:4px; color:var(--color-text-muted);">Born: <strong style="color:var(--color-text-dark);">' + bday + '</strong></span>';
               html += '</div>';
               if (c.username) {
-                html += '<div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--gray-500);">Username: <strong style="color:var(--gray-700);">' + c.username + '</strong></div>';
+                html += '<div style="font-size:12px; background:white; padding:6px 8px; border-radius:4px; margin-bottom:8px; color:var(--color-text-muted);">Username: <strong style="color:var(--color-text-dark);">' + c.username + '</strong></div>';
                 html += '<div style="display:flex; gap:6px; flex-wrap:wrap;">';
                 html += '<button class="btn btn-secondary" style="font-size:12px; padding:6px 12px;" onclick="openSetCredentialsModal(\'' + c.id + '\', \'' + c.name + '\')">Change Login</button>';
                 if (['premium','family'].indexOf(window._currentPlan) !== -1) {
@@ -401,136 +878,81 @@
               return html;
             }).join('');
           }
-        } else {
-          console.error('[Dashboard] Children API returned:', childData);
         }
       } catch (e) {
         console.error('[Dashboard] Failed to load children:', e);
-      }
-
-      // --- Section 3: Load session count ---
-      try {
-        const sessionData = await apiCall('/api/sessions/history');
-        if (sessionData && sessionData.sessions) {
-          document.getElementById('stat-sessions').textContent = sessionData.sessions.length;
-        }
-      } catch (e) {
-        console.error('[Dashboard] Failed to load sessions:', e);
-      }
-
-      // --- Section 4: Load notifications ---
-      try {
-        const session = await getSession();
-        if (session) {
-          var notifResult = await window.supabaseClient
-            .from('notifications')
-            .select('*')
-            .eq('read', false)
-            .order('created_at', { ascending: false })
-            .limit(5);
-
-          if (notifResult.data && notifResult.data.length > 0) {
-            document.getElementById('notifications-list').innerHTML = notifResult.data.map(function(n) {
-              var bg = n.type === 'stuck_loop' ? '#FEF3C7' : n.type === 'credits_low' ? '#FEE2E2' : 'var(--gray-50)';
-              return '<div style="padding:10px 14px; background:' + bg + '; border-radius:8px; margin-bottom:8px;">'
-                + '<strong style="font-size:14px;">' + n.title + '</strong>'
-                + '<p style="font-size:13px; color:var(--gray-500); margin-top:2px;">' + (n.body || '') + '</p>'
-                + '<span style="font-size:11px; color:var(--gray-500);">' + new Date(n.created_at).toLocaleString() + '</span></div>';
-            }).join('');
-          }
-        }
-      } catch (e) {
-        console.error('[Dashboard] Failed to load notifications:', e);
       }
     }
 
     // ---- ADD CHILD MODAL ----
     function openAddChildModal() {
       let modal = document.getElementById('add-child-modal');
-      if (!modal) {
-        const div = document.createElement('div');
-        div.id = 'add-child-modal';
-        div.className = 'modal-overlay';
-        div.innerHTML = `
-          <div class="modal" style="max-width:420px;">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
-              <h2>Add a Child</h2>
-              <button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
-            </div>
-            <form onsubmit="submitAddChild(event)">
-              <div class="form-group">
-                <label>Child's Name</label>
-                <input type="text" id="child-name" placeholder="e.g. Ahmed" required>
-              </div>
-              <div class="form-group">
-                <label>Grade (1-9)</label>
-                <select id="child-grade" required>
-                  <option value="">Select grade</option>
-                  <option value="1">Grade 1</option>
-                  <option value="2">Grade 2</option>
-                  <option value="3">Grade 3</option>
-                  <option value="4">Grade 4</option>
-                  <option value="5">Grade 5</option>
-                  <option value="6">Grade 6</option>
-                  <option value="7">Grade 7</option>
-                  <option value="8">Grade 8</option>
-                  <option value="9">Grade 9</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Preferred Language</label>
-                <select id="child-lang">
-                  <option value="en">English</option>
-                  <option value="ar">Arabic</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Country / Curriculum</label>
-                <select id="child-country" required>
-                  <option value="">Select country</option>
-                  <option value="AE">UAE</option>
-                  <option value="SA">Saudi Arabia</option>
-                  <option value="EG">Egypt</option>
-                  <option value="KW">Kuwait</option>
-                  <option value="QA">Qatar</option>
-                  <option value="BH">Bahrain</option>
-                  <option value="OM">Oman</option>
-                  <option value="JO">Jordan</option>
-                  <option value="GB">United Kingdom</option>
-                  <option value="US">United States</option>
-                  <option value="IN">India</option>
-                  <option value="LB">Lebanon</option>
-                  <option value="MA">Morocco</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Child's Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
-                <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
-              </div>
-              <div class="form-group">
-                <label>Birthdate <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
-                <input type="date" id="child-birthdate">
-              </div>
-              <div class="form-group" style="margin-top:8px;">
-                <label style="display:flex; align-items:flex-start; gap:8px; cursor:pointer; font-size:12px; color:var(--gray-600); line-height:1.4;">
-                  <input type="checkbox" id="child-consent" required style="margin-top:2px; min-width:16px;">
-                  <span>I confirm I am this child's parent or legal guardian. I consent to Zeluu collecting my child's display name, grade, country, and learning data (including chat transcripts and progress) to provide the tutoring service. I can view, export, or delete my child's data at any time. <a href="/privacy" target="_blank" style="color:var(--primary);">Privacy Policy</a></span>
-                </label>
-              </div>
-              <div id="add-child-error" class="form-error"></div>
-              <div style="display:flex; gap:8px;">
-                <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
-                <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
-              </div>
-            </form>
+      if (modal) modal.remove();
+
+      const div = document.createElement('div');
+      div.id = 'add-child-modal';
+      div.className = 'modal-overlay active';
+      div.innerHTML = `
+        <div class="modal" style="max-width:420px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h2>Add Child</h2>
+            <button onclick="closeAddChildModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
           </div>
-        `;
-        document.body.appendChild(div);
-      }
-      // Reset form
-      const form = document.querySelector('#add-child-modal form');
-      if (form) form.reset();
-      document.getElementById('add-child-modal').classList.add('active');
+          <form onsubmit="submitAddChild(event)">
+            <div class="form-group">
+              <label>Child's Name</label>
+              <input type="text" id="child-name" placeholder="e.g., Amara" required>
+            </div>
+            <div class="form-group">
+              <label>Grade (1-9)</label>
+              <select id="child-grade" required>
+                <option value="">Select grade</option>
+                ${[1,2,3,4,5,6,7,8,9].map(g => `<option value="${g}">Grade ${g}</option>`).join('')}
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Preferred Language</label>
+              <select id="child-lang">
+                <option value="en">English</option>
+                <option value="ar">Arabic</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Country</label>
+              <select id="child-country">
+                <option value="">Select country</option>
+                <option value="AE">UAE</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="EG">Egypt</option>
+                <option value="KW">Kuwait</option>
+                <option value="QA">Qatar</option>
+                <option value="BH">Bahrain</option>
+                <option value="OM">Oman</option>
+                <option value="JO">Jordan</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States</option>
+                <option value="IN">India</option>
+                <option value="LB">Lebanon</option>
+                <option value="MA">Morocco</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Phone <span style="font-size:11px; color:var(--color-text-muted);">(optional)</span></label>
+              <input type="tel" id="child-phone" placeholder="+971 50 123 4567">
+            </div>
+            <div class="form-group">
+              <label>Birthdate <span style="font-size:11px; color:var(--color-text-muted);">(optional)</span></label>
+              <input type="date" id="child-birthdate">
+            </div>
+            <div id="add-child-error" class="form-error"></div>
+            <div style="display:flex; gap:8px;">
+              <button type="submit" class="btn btn-primary" id="add-child-btn" style="flex:1;">Add Child</button>
+              <button type="button" class="btn btn-secondary" style="flex:1;" onclick="closeAddChildModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
+      `;
+      document.body.appendChild(div);
     }
 
     function closeAddChildModal() {
@@ -541,9 +963,10 @@
     async function submitAddChild(e) {
       e.preventDefault();
       const btn = document.getElementById('add-child-btn');
-      const errorEl = document.getElementById('add-child-error');
       btn.disabled = true;
       btn.innerHTML = '<span class="spinner"></span>';
+
+      const errorEl = document.getElementById('add-child-error');
       errorEl.style.display = 'none';
 
       const session = await getSession();
@@ -614,7 +1037,7 @@
             <h2>Set Login Credentials</h2>
             <button onclick="closeCredentialsModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
           </div>
-          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Let <strong>${childName}</strong> log in with a username and password.</p>
+          <p style="color:var(--color-text-muted); margin-bottom:16px; font-size:14px;">Let <strong>${childName}</strong> log in with a username and password.</p>
           <form onsubmit="submitCredentials(event, '${childId}')">
             <div class="form-group">
               <label>Username</label>
@@ -682,7 +1105,7 @@
             <h2>Credit Limits</h2>
             <button onclick="closeCreditLimitModal()" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
           </div>
-          <p style="color:var(--gray-500); margin-bottom:16px; font-size:14px;">Set usage limits for <strong>${childName}</strong>. Leave blank for no limit.</p>
+          <p style="color:var(--color-text-muted); margin-bottom:16px; font-size:14px;">Set usage limits for <strong>${childName}</strong>. Leave blank for no limit.</p>
           <form onsubmit="submitCreditLimits(event, '${childId}')">
             <div class="form-group">
               <label>Daily limit</label>
@@ -747,7 +1170,7 @@
     async function viewChildSessions(childId, childName) {
       const modal = document.getElementById('transcript-modal');
       document.getElementById('transcript-title').textContent = `${childName}'s Sessions`;
-      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading sessions...</p>';
+      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--color-text-muted);">Loading sessions...</p>';
       modal.classList.add('active');
 
       // Use API endpoint to get sessions WITH messages (accurate count)
@@ -758,19 +1181,19 @@
 
       if (sessions.length > 0) {
         document.getElementById('transcript-content').innerHTML = sessions.map(s => `
-          <div style="padding:12px 14px; background:var(--gray-50); border-radius:8px; cursor:pointer;" onclick="viewTranscript('${s.id}', '${childName}')">
+          <div style="padding:12px 14px; background:var(--color-warm-bg); border-radius:8px; cursor:pointer;" onclick="viewTranscript('${s.id}', '${childName}')">
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <strong style="font-size:14px;">${new Date(s.started_at).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' })}</strong>
-              <span style="font-size:12px; color:var(--gray-500);">${s.messages.length} messages</span>
+              <span style="font-size:12px; color:var(--color-text-muted);">${s.messages.length} messages</span>
             </div>
-            <div style="font-size:12px; color:var(--gray-500); margin-top:4px;">
+            <div style="font-size:12px; color:var(--color-text-muted); margin-top:4px;">
               ${s.credits_used || 0} credits &middot; Grade ${s.grade} &middot;
-              <span style="color:${s.status === 'completed' ? 'var(--success)' : s.status === 'stuck_loop' ? 'var(--warning)' : 'var(--gray-500)'};">${s.status}</span>
+              <span style="color:${s.status === 'completed' ? 'var(--color-success)' : s.status === 'stuck_loop' ? 'var(--color-warning)' : 'var(--color-text-muted)'};">${s.status}</span>
             </div>
           </div>
         `).join('');
       } else {
-        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No sessions with messages yet for this child.</p>';
+        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--color-text-muted);">No sessions with messages yet for this child.</p>';
       }
     }
 
@@ -823,16 +1246,16 @@
     function renderPlans() {
       const container = document.getElementById('subscription-plans');
       container.innerHTML = PLANS[currentBilling].map(p => `
-        <div style="border:${p.featured ? '2px solid var(--primary)' : '1px solid var(--gray-200)'}; border-radius:10px; padding:14px; margin-bottom:4px; ${p.featured ? 'background:var(--primary-light);' : ''}">
+        <div style="border:${p.featured ? '2px solid var(--color-accent)' : '1px solid var(--color-border)'}; border-radius:10px; padding:14px; margin-bottom:4px; ${p.featured ? 'background:var(--color-accent-light);' : ''}">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
             <div>
               <strong>${p.name}</strong>
-              <span style="font-size:13px; color:var(--gray-500); margin-left:6px;">${p.credits} credits/mo</span>
+              <span style="font-size:13px; color:var(--color-text-muted); margin-left:6px;">${p.credits} credits/mo</span>
             </div>
-            <strong style="color:var(--primary);">${p.price}</strong>
+            <strong style="color:var(--color-accent);">${p.price}</strong>
           </div>
           <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px;">
-            ${p.features.map(f => `<span style="font-size:11px; background:var(--gray-100); color:var(--gray-600); padding:2px 8px; border-radius:12px;">${f}</span>`).join('')}
+            ${p.features.map(f => `<span style="font-size:11px; background:var(--color-warm-bg); color:var(--color-text-muted); padding:2px 8px; border-radius:12px;">${f}</span>`).join('')}
           </div>
           <button class="btn ${p.featured ? 'btn-primary' : 'btn-secondary'}" onclick="buyCredits('${p.id}')" style="width:100%; font-size:13px; padding:8px 0;">
             Upgrade
@@ -854,7 +1277,7 @@
     async function viewTranscript(sessionId, childName) {
       const modal = document.getElementById('transcript-modal');
       document.getElementById('transcript-title').textContent = `${childName}'s Session`;
-      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Loading...</p>';
+      document.getElementById('transcript-content').innerHTML = '<p style="color:var(--color-text-muted);">Loading...</p>';
       modal.classList.add('active');
 
       const data = await apiCall(`/api/sessions/history?session_id=${sessionId}`);
@@ -863,17 +1286,17 @@
         const session = data.sessions[0];
         if (session.messages && session.messages.length > 0) {
           document.getElementById('transcript-content').innerHTML = session.messages.map(m => `
-            <div style="padding:12px 14px; background:${m.role === 'user' ? 'var(--primary-light)' : 'var(--gray-100)'}; border-radius:8px; border-left:4px solid ${m.role === 'user' ? 'var(--primary)' : 'var(--gray-400)'};">
-              <strong style="font-size:12px; color:${m.role === 'user' ? 'var(--primary)' : 'var(--gray-600)'};">${m.role === 'user' ? childName : 'MathBuddy'}</strong>
+            <div style="padding:12px 14px; background:${m.role === 'user' ? 'var(--color-accent-light)' : 'var(--color-border)'}; border-radius:8px; border-left:4px solid ${m.role === 'user' ? 'var(--color-accent)' : 'var(--color-text-muted)'};">
+              <strong style="font-size:12px; color:${m.role === 'user' ? 'var(--color-accent)' : 'var(--color-text-dark)'};">${m.role === 'user' ? childName : 'MathBuddy'}</strong>
               <p style="margin:6px 0 0; font-size:14px; line-height:1.5;">${escapeHtml(m.content)}</p>
-              <span style="font-size:11px; color:var(--gray-500);">${new Date(m.created_at).toLocaleTimeString()}</span>
+              <span style="font-size:11px; color:var(--color-text-muted);">${new Date(m.created_at).toLocaleTimeString()}</span>
             </div>
           `).join('');
         } else {
-          document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">No messages in this session.</p>';
+          document.getElementById('transcript-content').innerHTML = '<p style="color:var(--color-text-muted);">No messages in this session.</p>';
         }
       } else {
-        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--gray-500);">Session not found.</p>';
+        document.getElementById('transcript-content').innerHTML = '<p style="color:var(--color-text-muted);">Session not found.</p>';
       }
     }
 
@@ -1049,11 +1472,11 @@
               </select>
             </div>
             <div class="form-group">
-              <label>Phone <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+              <label>Phone <span style="font-size:11px; color:var(--color-text-muted);">(optional)</span></label>
               <input type="tel" id="edit-child-phone" value="${child.phone || ''}" placeholder="+971 50 123 4567">
             </div>
             <div class="form-group">
-              <label>Birthdate <span style="font-size:11px; color:var(--gray-500);">(optional)</span></label>
+              <label>Birthdate <span style="font-size:11px; color:var(--color-text-muted);">(optional)</span></label>
               <input type="date" id="edit-child-birthdate" value="${child.birthdate || ''}">
             </div>
             <div class="form-group">
