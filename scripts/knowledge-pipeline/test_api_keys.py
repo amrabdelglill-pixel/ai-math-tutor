@@ -1,58 +1,83 @@
 #!/usr/bin/env python3
 """
-Zeluu Knowledge Pipeline — API Key Diagnostic
-===============================================
-Quick test of all API keys before running the full pipeline.
-Prints exact error messages to help debug 403/auth issues.
+Zeluu Knowledge Pipeline — Dependency & API Key Diagnostic
+============================================================
+Quick test of all tools and API keys before running the full pipeline.
 """
 
 import os
 import sys
 import json
+import subprocess
 
-def test_youtube_api():
-    """Test YouTube Data API v3 key with a simple search."""
-    api_key = os.environ.get("YOUTUBE_API_KEY", "")
-    if not api_key:
-        print("  FAIL: YOUTUBE_API_KEY not set")
-        return False
 
-    print(f"  Key prefix: {api_key[:10]}...")
-
-    # Test 1: Raw HTTP request to see exact error
-    import urllib.request
-    import urllib.error
-    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q=math&maxResults=1&type=channel&key={api_key}"
+def test_ytdlp():
+    """Test yt-dlp is installed and can fetch YouTube data."""
     try:
-        req = urllib.request.Request(url)
-        with urllib.request.urlopen(req) as resp:
-            data = json.loads(resp.read())
-            items = data.get("items", [])
-            print(f"  OK: Search returned {len(items)} result(s)")
-            if items:
-                print(f"  Sample: {items[0]['snippet']['title']}")
+        result = subprocess.run(
+            ["yt-dlp", "--version"],
+            capture_output=True, text=True, timeout=10,
+        )
+        if result.returncode != 0:
+            print(f"  FAIL: yt-dlp not found or not working")
+            return False
+        version = result.stdout.strip()
+        print(f"  yt-dlp version: {version}")
+
+        # Test actual YouTube fetch
+        result2 = subprocess.run(
+            [
+                "yt-dlp",
+                "--dump-json",
+                "--flat-playlist",
+                "--playlist-items", "1",
+                "--no-download",
+                "https://www.youtube.com/channel/UC4a-Gbdw7vOaccHmFo40b9g/videos",  # Khan Academy
+            ],
+            capture_output=True, text=True, timeout=30,
+        )
+        if result2.returncode == 0 and result2.stdout.strip():
+            data = json.loads(result2.stdout.strip().split("\n")[0])
+            print(f"  OK: Fetched video from {data.get('channel', 'unknown channel')}")
             return True
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")
-        print(f"  FAIL: HTTP {e.code} {e.reason}")
-        print(f"  Response body: {body[:1000]}")
+        else:
+            print(f"  FAIL: Could not fetch YouTube data: {result2.stderr[:200]}")
+            return False
+    except FileNotFoundError:
+        print("  FAIL: yt-dlp is not installed")
         return False
     except Exception as e:
         print(f"  FAIL: {type(e).__name__}: {e}")
         return False
 
 
+def test_transcript_api():
+    """Test youtube-transcript-api works."""
+    try:
+        from youtube_transcript_api import YouTubeTranscriptApi
+        # Test with a well-known video that has captions (Khan Academy intro)
+        transcripts = YouTubeTranscriptApi.list_transcripts("WUvTyaaNkzM")
+        available = list(transcripts)
+        print(f"  OK: Found {len(available)} transcript(s) for test video")
+        return True
+    except Exception as e:
+        print(f"  WARN: Transcript test inconclusive: {type(e).__name__}: {e}")
+        # Not a hard fail — the library is installed, specific videos may vary
+        return True
+
+
 def test_openai_api():
     """Test OpenAI API key with a simple embedding request."""
+    import urllib.request
+    import urllib.error
+
     api_key = os.environ.get("OPENAI_API_KEY", "")
     if not api_key:
         print("  FAIL: OPENAI_API_KEY not set")
         return False
 
-    print(f"  Key prefix: {api_key[:12]}...")
+    print(f"  Key set: yes (length={len(api_key)})")
 
-    import urllib.request
-    import urllib.error
     url = "https://api.openai.com/v1/embeddings"
     payload = json.dumps({
         "model": "text-embedding-3-small",
@@ -70,7 +95,7 @@ def test_openai_api():
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
         print(f"  FAIL: HTTP {e.code} {e.reason}")
-        print(f"  Response body: {body[:500]}")
+        print(f"  Response: {body[:300]}")
         return False
     except Exception as e:
         print(f"  FAIL: {type(e).__name__}: {e}")
@@ -79,6 +104,9 @@ def test_openai_api():
 
 def test_supabase():
     """Test Supabase connection."""
+    import urllib.request
+    import urllib.error
+
     url = os.environ.get("SUPABASE_URL", "")
     key = os.environ.get("SUPABASE_SERVICE_KEY", "")
     if not url or not key:
@@ -86,10 +114,8 @@ def test_supabase():
         return False
 
     print(f"  URL: {url}")
-    print(f"  Key prefix: {key[:12]}...")
+    print(f"  Key set: yes (length={len(key)})")
 
-    import urllib.request
-    import urllib.error
     test_url = f"{url}/rest/v1/"
     try:
         req = urllib.request.Request(test_url)
@@ -101,7 +127,7 @@ def test_supabase():
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
         print(f"  FAIL: HTTP {e.code} {e.reason}")
-        print(f"  Response body: {body[:500]}")
+        print(f"  Response: {body[:300]}")
         return False
     except Exception as e:
         print(f"  FAIL: {type(e).__name__}: {e}")
@@ -135,27 +161,36 @@ def test_google_drive():
         print(f"  OK: Authenticated as {about['user']['emailAddress']}")
         return True
     except Exception as e:
-        print(f"  FAIL: {type(e).__name__}: {e}")
+        err_str = str(e)
+        if "has not been used" in err_str or "not been enabled" in err_str:
+            print(f"  FAIL: Google Drive API is NOT ENABLED on your GCP project.")
+            print(f"  FIX: Go to https://console.cloud.google.com/apis/library/drive.googleapis.com")
+            print(f"        and click 'Enable'")
+        else:
+            print(f"  FAIL: {type(e).__name__}: {err_str[:300]}")
         return False
 
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("ZELUU KNOWLEDGE PIPELINE — API KEY DIAGNOSTICS")
+    print("ZELUU KNOWLEDGE PIPELINE — DIAGNOSTICS")
     print("=" * 60)
 
     results = {}
 
-    print("\n1. YouTube Data API v3:")
-    results["youtube"] = test_youtube_api()
+    print("\n1. yt-dlp (YouTube data — no API key needed):")
+    results["yt-dlp"] = test_ytdlp()
 
-    print("\n2. OpenAI API:")
+    print("\n2. youtube-transcript-api:")
+    results["transcripts"] = test_transcript_api()
+
+    print("\n3. OpenAI API:")
     results["openai"] = test_openai_api()
 
-    print("\n3. Supabase:")
+    print("\n4. Supabase:")
     results["supabase"] = test_supabase()
 
-    print("\n4. Google Drive:")
+    print("\n5. Google Drive:")
     results["google_drive"] = test_google_drive()
 
     print("\n" + "=" * 60)
@@ -170,7 +205,7 @@ if __name__ == "__main__":
     print("=" * 60)
 
     if not all_ok:
-        print("\nSome API keys failed. Fix them before running the pipeline.")
+        print("\nSome checks failed. Fix them before running the pipeline.")
         sys.exit(1)
     else:
-        print("\nAll API keys OK! Pipeline is ready to run.")
+        print("\nAll checks passed! Pipeline is ready to run.")

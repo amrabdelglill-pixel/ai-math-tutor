@@ -2,10 +2,10 @@
 """
 Zeluu Knowledge Pipeline — Step 2: Download Transcripts
 ========================================================
-For each discovered channel, fetches recent/popular videos
+For each discovered channel, fetches videos using yt-dlp (no API key)
 and downloads their transcripts using youtube-transcript-api.
 
-Requires: YOUTUBE_API_KEY environment variable.
+NO YouTube Data API key required.
 
 Input:  channels.json (from Step 1)
 Output: transcripts/ folder with JSON files per video
@@ -15,8 +15,7 @@ import os
 import json
 import sys
 import time
-import re
-from googleapiclient.discovery import build
+import subprocess
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import (
     TranscriptsDisabled,
@@ -31,87 +30,55 @@ from config import (
     SEED_CHANNELS,
 )
 
-API_KEY = os.environ.get("YOUTUBE_API_KEY")
-if not API_KEY:
-    print("ERROR: Set YOUTUBE_API_KEY environment variable")
-    sys.exit(1)
-
-youtube = build("youtube", "v3", developerKey=API_KEY)
-
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(SCRIPT_DIR, "channels.json")
 TRANSCRIPTS_DIR = os.path.join(SCRIPT_DIR, "transcripts")
 PROGRESS_FILE = os.path.join(SCRIPT_DIR, "download_progress.json")
 
 
-def parse_duration(duration_str):
-    """Parse ISO 8601 duration (PT1H2M3S) to seconds."""
-    match = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", duration_str)
-    if not match:
-        return 0
-    hours = int(match.group(1) or 0)
-    minutes = int(match.group(2) or 0)
-    seconds = int(match.group(3) or 0)
-    return hours * 3600 + minutes * 60 + seconds
-
-
 def get_channel_videos(channel_id, max_results=20):
-    """Get recent videos from a channel, sorted by view count."""
+    """Get videos from a channel using yt-dlp (no API key needed)."""
+    url = f"https://www.youtube.com/channel/{channel_id}/videos"
     videos = []
     try:
-        # Get uploads playlist
-        ch_response = youtube.channels().list(
-            id=channel_id,
-            part="contentDetails",
-        ).execute()
-
-        if not ch_response.get("items"):
+        result = subprocess.run(
+            [
+                "yt-dlp",
+                "--dump-json",
+                "--flat-playlist",
+                "--no-download",
+                "--playlist-items", f"1:{max_results}",
+                url,
+            ],
+            capture_output=True, text=True, timeout=120,
+        )
+        if result.returncode != 0:
+            print(f"  WARNING: yt-dlp failed for channel {channel_id}: {result.stderr[:200]}")
             return []
 
-        uploads_id = ch_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
-
-        # Get videos from uploads playlist
-        next_page = None
-        fetched = 0
-        while fetched < max_results:
-            pl_response = youtube.playlistItems().list(
-                playlistId=uploads_id,
-                part="snippet,contentDetails",
-                maxResults=min(50, max_results - fetched),
-                pageToken=next_page,
-            ).execute()
-
-            video_ids = [item["contentDetails"]["videoId"] for item in pl_response.get("items", [])]
-
-            if not video_ids:
-                break
-
-            # Get video details (duration, views)
-            vd_response = youtube.videos().list(
-                id=",".join(video_ids),
-                part="contentDetails,statistics,snippet",
-            ).execute()
-
-            for item in vd_response.get("items", []):
-                duration = parse_duration(item["contentDetails"].get("duration", "PT0S"))
+        for line in result.stdout.strip().split("\n"):
+            if not line.strip():
+                continue
+            try:
+                data = json.loads(line)
+                duration = data.get("duration") or 0
                 if duration < MIN_VIDEO_DURATION_SECS or duration > MAX_VIDEO_DURATION_SECS:
                     continue
 
                 videos.append({
-                    "video_id": item["id"],
-                    "title": item["snippet"]["title"],
-                    "description": item["snippet"].get("description", "")[:500],
-                    "published_at": item["snippet"]["publishedAt"],
+                    "video_id": data.get("id", ""),
+                    "title": data.get("title", "Unknown"),
+                    "description": (data.get("description", "") or "")[:500],
+                    "published_at": data.get("upload_date", ""),
                     "duration_secs": duration,
-                    "view_count": int(item["statistics"].get("viewCount", 0)),
+                    "view_count": data.get("view_count", 0) or 0,
                     "channel_id": channel_id,
                 })
+            except json.JSONDecodeError:
+                continue
 
-            fetched += len(pl_response.get("items", []))
-            next_page = pl_response.get("nextPageToken")
-            if not next_page:
-                break
-
+    except subprocess.TimeoutExpired:
+        print(f"  WARNING: Timeout fetching videos for channel {channel_id}")
     except Exception as e:
         print(f"  WARNING: Failed to get videos for channel {channel_id}: {e}")
 
@@ -223,7 +190,6 @@ def run():
             seed_added += 1
     if seed_added:
         print(f"Added {seed_added} seed channels (total: {len(channels)})")
-        # Save updated channels list
         with open(CHANNELS_FILE, "w", encoding="utf-8") as f:
             json.dump(channels, f, ensure_ascii=False, indent=2)
 
@@ -240,10 +206,10 @@ def run():
 
     for ci, channel in enumerate(channels, 1):
         ch_id = channel["channel_id"]
-        ch_title = channel["title"][:40]
+        ch_title = channel.get("title", "Unknown")[:40]
         tags = channel.get("tags", [])
 
-        print(f"\n[{ci}/{total_channels}] {ch_title} ({channel['subscribers']:,} subs)")
+        print(f"\n[{ci}/{total_channels}] {ch_title} ({channel.get('subscribers', 0):,} subs)")
 
         videos = get_channel_videos(ch_id, MAX_VIDEOS_PER_CHANNEL)
         print(f"  Found {len(videos)} eligible videos")
@@ -254,7 +220,8 @@ def run():
             if vid in already_done:
                 continue
 
-            print(f"  [{vi}/{len(videos)}] {video['title'][:50]}...", end=" ")
+            title_preview = video["title"][:50]
+            print(f"  [{vi}/{len(videos)}] {title_preview}...", end=" ")
 
             transcript_data, lang = download_transcript(vid)
 
@@ -268,7 +235,7 @@ def run():
                     "video_id": vid,
                     "video_title": video["title"],
                     "channel_id": ch_id,
-                    "channel_title": channel["title"],
+                    "channel_title": channel.get("title", "Unknown"),
                     "published_at": video["published_at"],
                     "duration_secs": video["duration_secs"],
                     "view_count": video["view_count"],

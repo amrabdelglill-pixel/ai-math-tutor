@@ -14,12 +14,13 @@ Usage:
   python run_pipeline.py --from 3     # Run from step 3 onwards
 
 Required environment variables:
-  YOUTUBE_API_KEY           — YouTube Data API v3 key
   GOOGLE_SERVICE_ACCOUNT_KEY — Path to Google service account JSON key
     or GOOGLE_CREDENTIALS_JSON — Inline JSON credentials
   OPENAI_API_KEY            — OpenAI API key (for embeddings)
   SUPABASE_URL              — Supabase project URL
   SUPABASE_SERVICE_KEY      — Supabase service role key
+
+Note: Steps 1-2 use yt-dlp (no API key needed) for YouTube data.
 """
 
 import os
@@ -34,7 +35,6 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 def check_env():
     """Verify required environment variables are set."""
     required = {
-        "YOUTUBE_API_KEY": "YouTube Data API v3 — needed for steps 1-2",
         "OPENAI_API_KEY": "OpenAI — needed for step 4b (embeddings)",
         "SUPABASE_URL": "Supabase project URL — needed for step 4b",
         "SUPABASE_SERVICE_KEY": "Supabase service role key — needed for step 4b",

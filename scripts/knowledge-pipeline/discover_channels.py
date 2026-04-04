@@ -2,161 +2,205 @@
 """
 Zeluu Knowledge Pipeline — Step 1: Discover Channels
 =====================================================
-Uses YouTube Data API v3 to find top educational channels
-per country × subject × grade.
+Uses yt-dlp (NO API key needed) to validate seed channels
+and discover new channels via YouTube search.
 
-Requires: YOUTUBE_API_KEY environment variable.
+No YouTube Data API key required — fully free and unlimited.
 
-Output: channels.json — list of discovered channels with metadata.
+Output: channels.json — list of channels with metadata.
 """
 
 import os
 import json
 import sys
+import subprocess
 import time
-from googleapiclient.discovery import build
 from config import (
-    COUNTRIES, SUBJECTS, GRADES, MAX_CHANNELS_PER_QUERY,
-    build_search_queries
+    COUNTRIES, SUBJECTS, GRADES, SEED_CHANNELS,
+    MAX_CHANNELS_PER_QUERY,
 )
 
-API_KEY = os.environ.get("YOUTUBE_API_KEY")
-if not API_KEY:
-    print("ERROR: Set YOUTUBE_API_KEY environment variable")
-    sys.exit(1)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-youtube = build("youtube", "v3", developerKey=API_KEY)
 
-def search_channels(query, max_results=5):
-    """Search YouTube for channels matching a query."""
+def get_channel_info(channel_id):
+    """Get channel metadata using yt-dlp."""
+    url = f"https://www.youtube.com/channel/{channel_id}/videos"
     try:
-        response = youtube.search().list(
-            q=query,
-            part="snippet",
-            type="channel",
-            maxResults=max_results,
-            order="relevance",
-            relevanceLanguage="ar",  # Prefer Arabic results
-        ).execute()
+        result = subprocess.run(
+            [
+                "yt-dlp",
+                "--dump-single-json",
+                "--playlist-items", "1",
+                "--flat-playlist",
+                "--no-download",
+                url,
+            ],
+            capture_output=True, text=True, timeout=30,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            data = json.loads(result.stdout.strip())
+            return {
+                "channel_id": channel_id,
+                "title": data.get("channel", data.get("uploader", "Unknown")),
+                "description": data.get("description", ""),
+                "subscribers": data.get("channel_follower_count", 0) or 0,
+                "video_count": data.get("playlist_count", 0) or 0,
+            }
+        return None
+    except (subprocess.TimeoutExpired, json.JSONDecodeError, Exception) as e:
+        print(f"  WARNING: Failed to get info for channel {channel_id}: {e}")
+        return None
 
-        channels = []
-        for item in response.get("items", []):
-            channels.append({
-                "channel_id": item["snippet"]["channelId"],
-                "title": item["snippet"]["title"],
-                "description": item["snippet"]["description"],
-            })
-        return channels
-    except Exception as e:
+
+def search_channels_ytdlp(query, max_results=3):
+    """Search YouTube for channels matching a query using yt-dlp."""
+    try:
+        result = subprocess.run(
+            [
+                "yt-dlp",
+                f"ytsearch{max_results}:{query}",
+                "--dump-json",
+                "--flat-playlist",
+                "--no-download",
+            ],
+            capture_output=True, text=True, timeout=60,
+        )
+        if result.returncode != 0:
+            return []
+
+        channels = {}
+        for line in result.stdout.strip().split("\n"):
+            if not line.strip():
+                continue
+            try:
+                data = json.loads(line)
+                ch_id = data.get("channel_id")
+                if ch_id and ch_id not in channels:
+                    channels[ch_id] = {
+                        "channel_id": ch_id,
+                        "title": data.get("channel", data.get("uploader", "Unknown")),
+                        "description": "",
+                        "subscribers": data.get("channel_follower_count", 0) or 0,
+                        "video_count": 0,
+                    }
+            except json.JSONDecodeError:
+                continue
+
+        return list(channels.values())
+    except (subprocess.TimeoutExpired, Exception) as e:
         print(f"  WARNING: Search failed for '{query}': {e}")
         return []
 
 
-def get_channel_stats(channel_ids):
-    """Get subscriber count and video count for channels."""
-    stats = {}
-    # YouTube API allows up to 50 channel IDs per request
-    for i in range(0, len(channel_ids), 50):
-        batch = channel_ids[i:i+50]
-        try:
-            response = youtube.channels().list(
-                id=",".join(batch),
-                part="statistics,snippet",
-            ).execute()
-            for item in response.get("items", []):
-                stats[item["id"]] = {
-                    "subscribers": int(item["statistics"].get("subscriberCount", 0)),
-                    "video_count": int(item["statistics"].get("videoCount", 0)),
-                    "title": item["snippet"]["title"],
-                    "description": item["snippet"]["description"],
-                    "custom_url": item["snippet"].get("customUrl", ""),
-                }
-        except Exception as e:
-            print(f"  WARNING: Stats fetch failed: {e}")
-    return stats
-
-
 def discover_all():
-    """Main discovery loop: iterate countries × subjects × grades."""
-    all_channels = {}  # channel_id -> channel info
-    channel_tags = {}  # channel_id -> set of (country, subject, grade) tags
+    """Main discovery: start with seed channels, then search for more."""
+    all_channels = {}   # channel_id -> channel info
+    channel_tags = {}   # channel_id -> list of tag dicts
 
-    total_queries = 0
-    for country_code in COUNTRIES:
-        for subject in SUBJECTS:
-            for grade in GRADES:
-                queries = build_search_queries(country_code, subject, grade)
-                for query in queries[:3]:  # Limit to top 3 queries per combo to save quota
-                    total_queries += 1
-
-    print(f"Discovery plan: ~{total_queries} queries across {len(COUNTRIES)} countries × {len(SUBJECTS)} subjects × {len(GRADES)} grades")
+    # Phase 1: Validate and enrich seed channels
+    print(f"Phase 1: Validating {len(SEED_CHANNELS)} seed channels...")
     print("=" * 60)
 
-    query_count = 0
-    for country_code in COUNTRIES:
-        country_name = COUNTRIES[country_code]["name"]
-        for subject in SUBJECTS:
-            for grade in GRADES:
-                queries = build_search_queries(country_code, subject, grade)
+    for i, seed in enumerate(SEED_CHANNELS, 1):
+        ch_id = seed["channel_id"]
+        print(f"  [{i}/{len(SEED_CHANNELS)}] {seed['title']}...", end=" ")
 
-                for query in queries[:3]:
-                    query_count += 1
-                    print(f"[{query_count}/{total_queries}] Searching: {query}")
+        info = get_channel_info(ch_id)
+        if info:
+            all_channels[ch_id] = info
+        else:
+            # Still include seed channel with basic info
+            all_channels[ch_id] = {
+                "channel_id": ch_id,
+                "title": seed["title"],
+                "description": "",
+                "subscribers": 0,
+                "video_count": 0,
+            }
 
-                    channels = search_channels(query, MAX_CHANNELS_PER_QUERY)
+        # Parse seed tags into structured format
+        tags = seed.get("tags", [])
+        subjects = [t for t in tags if t in ("math", "science", "english")]
+        countries = [t for t in tags if t in COUNTRIES or t == "all_countries"]
+        grades = [t for t in tags if t.isdigit() or t == "all_grades"]
 
-                    for ch in channels:
-                        cid = ch["channel_id"]
-                        if cid not in all_channels:
-                            all_channels[cid] = ch
-                            channel_tags[cid] = []
+        if "all_countries" in countries:
+            countries = list(COUNTRIES.keys())
+        if "all_grades" in grades:
+            grades = [str(g) for g in range(1, 10)]
 
-                        tag = {
-                            "country": country_code,
-                            "subject": subject,
-                            "grade": grade,
-                        }
-                        if tag not in channel_tags[cid]:
-                            channel_tags[cid].append(tag)
+        channel_tags[ch_id] = []
+        for subject in (subjects or ["math"]):
+            for country in (countries or list(COUNTRIES.keys())):
+                for grade in (grades or [str(g) for g in range(1, 10)]):
+                    tag = {"country": country, "subject": subject, "grade": int(grade) if grade.isdigit() else grade}
+                    if tag not in channel_tags[ch_id]:
+                        channel_tags[ch_id].append(tag)
 
-                    # Respect API rate limits
-                    time.sleep(0.2)
+        status = f"OK ({all_channels[ch_id].get('subscribers', 0):,} subs)" if info else "FALLBACK (seed data)"
+        print(status)
+        time.sleep(0.5)
 
-    # Enrich with stats
-    print(f"\nFetching stats for {len(all_channels)} unique channels...")
-    stats = get_channel_stats(list(all_channels.keys()))
+    # Phase 2: Search for additional channels
+    print(f"\nPhase 2: Searching for additional channels...")
+    print("=" * 60)
+
+    # Build targeted search queries
+    search_queries = []
+    for subject in SUBJECTS:
+        ar_keywords = SUBJECTS[subject].get("ar", [])
+        if ar_keywords:
+            search_queries.append((f"{ar_keywords[0]} شرح دروس", subject))
+            search_queries.append((f"{ar_keywords[0]} تعليم", subject))
+        en_keywords = SUBJECTS[subject].get("en", [])
+        if en_keywords:
+            search_queries.append((f"{en_keywords[0]} tutorial for kids", subject))
+            search_queries.append((f"{en_keywords[0]} explained grade school", subject))
+
+    total_new = 0
+    for qi, (query, subject_match) in enumerate(search_queries, 1):
+        print(f"  [{qi}/{len(search_queries)}] Searching: {query}")
+        results = search_channels_ytdlp(query, max_results=MAX_CHANNELS_PER_QUERY)
+        for ch in results:
+            ch_id = ch["channel_id"]
+            if ch_id not in all_channels:
+                all_channels[ch_id] = ch
+                channel_tags[ch_id] = [{
+                    "country": c,
+                    "subject": subject_match,
+                    "grade": g
+                } for c in COUNTRIES.keys() for g in range(1, 10)]
+                total_new += 1
+                print(f"    NEW: {ch['title']}")
+        time.sleep(1)
 
     # Build final output
     results = []
     for cid, info in all_channels.items():
-        ch_stats = stats.get(cid, {})
         results.append({
             "channel_id": cid,
-            "title": ch_stats.get("title", info["title"]),
-            "description": ch_stats.get("description", info["description"]),
-            "custom_url": ch_stats.get("custom_url", ""),
-            "subscribers": ch_stats.get("subscribers", 0),
-            "video_count": ch_stats.get("video_count", 0),
-            "tags": channel_tags[cid],
+            "title": info.get("title", "Unknown"),
+            "description": info.get("description", ""),
+            "custom_url": "",
+            "subscribers": info.get("subscribers", 0),
+            "video_count": info.get("video_count", 0),
+            "tags": channel_tags.get(cid, []),
         })
 
-    # Sort by subscriber count (most popular first)
     results.sort(key=lambda x: x["subscribers"], reverse=True)
 
-    # Save
-    output_path = os.path.join(os.path.dirname(__file__), "channels.json")
+    output_path = os.path.join(SCRIPT_DIR, "channels.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"\nDiscovered {len(results)} unique channels")
+    print(f"\nDiscovered {len(results)} channels ({len(SEED_CHANNELS)} seed + {total_new} new)")
     print(f"Saved to {output_path}")
 
-    # Print top 20
-    print("\nTop 20 channels by subscribers:")
-    for i, ch in enumerate(results[:20], 1):
-        subjects = set(t["subject"] for t in ch["tags"])
-        countries = set(t["country"] for t in ch["tags"])
-        print(f"  {i:2d}. {ch['title'][:50]:50s} | {ch['subscribers']:>10,} subs | {','.join(subjects)} | {','.join(countries)}")
+    print(f"\nAll channels:")
+    for i, ch in enumerate(results, 1):
+        subjects = set(t.get("subject", "?") for t in ch["tags"][:5])
+        print(f"  {i:2d}. {ch['title'][:50]:50s} | {ch['subscribers']:>10,} subs | {','.join(subjects)}")
 
     return results
 
