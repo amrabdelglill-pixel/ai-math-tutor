@@ -1,0 +1,629 @@
+{
+  "video_id": "QkRHuoHygiE",
+  "video_title": "Generative AI Trends in 2026 | Top 10 Generative AI Trends Shaping 2026 | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 494.0,
+  "view_count": 4105,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.0,
+        "text": "Hello everyone and welcome to this video on Generative AI Trends in 2026."
+      },
+      {
+        "start": 13.0,
+        "duration": 3.3,
+        "text": "Today we are diving into the future."
+      },
+      {
+        "start": 16.3,
+        "duration": 5.6,
+        "text": "Specifically, the top generative AI trends that will define 2026."
+      },
+      {
+        "start": 22.0,
+        "duration": 7.2,
+        "text": "Generative AI has already changed how we write content, create images and build software."
+      },
+      {
+        "start": 29.2,
+        "duration": 4.4,
+        "text": "But 2026 is not just about smarter AI models."
+      },
+      {
+        "start": 33.6,
+        "duration": 6.2,
+        "text": "It's about AI becoming part of everyday work, creativity and decision making."
+      },
+      {
+        "start": 39.7,
+        "duration": 6.3,
+        "text": "From videos created by AI to intelligent assistants working like co-workers to responsible"
+      },
+      {
+        "start": 46.0,
+        "duration": 3.5,
+        "text": "and sustainable AI, a lot is about to change."
+      },
+      {
+        "start": 49.6,
+        "duration": 4.7,
+        "text": "So before we dive into top generative AI trends, please like, share and subscribe to"
+      },
+      {
+        "start": 54.3,
+        "duration": 5.0,
+        "text": "Idureka's YouTube channel and hit the bell icon to stay updated on the latest content"
+      },
+      {
+        "start": 59.2,
+        "duration": 1.0,
+        "text": "from Idureka."
+      },
+      {
+        "start": 60.2,
+        "duration": 6.3,
+        "text": "Also, check out Idureka's Generative AI Masters program designed to help you build strong"
+      },
+      {
+        "start": 66.5,
+        "duration": 8.0,
+        "text": "expertise in generative AI, Python, Data Science, NLP, Chat GPT, LLM prompt engineering and"
+      },
+      {
+        "start": 74.6,
+        "duration": 1.4,
+        "text": "agentic AI."
+      },
+      {
+        "start": 76.0,
+        "duration": 5.8,
+        "text": "The program focuses on hands-on learning through real-world projects, expert lead training and"
+      },
+      {
+        "start": 81.8,
+        "duration": 2.0,
+        "text": "industry relevant tools."
+      },
+      {
+        "start": 83.8,
+        "duration": 5.0,
+        "text": "By enrolling in this generative AI certification program, you will gain practical skills to"
+      },
+      {
+        "start": 88.8,
+        "duration": 4.7,
+        "text": "design, build and deploy modern Gen-AI applications."
+      },
+      {
+        "start": 93.5,
+        "duration": 3.5,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 97.0,
+        "duration": 5.6,
+        "text": "Now, let's explore the generative AI trends you need to know in 2026."
+      },
+      {
+        "start": 102.6,
+        "duration": 5.9,
+        "text": "First, let's talk about mainstream generative video and creativity."
+      },
+      {
+        "start": 108.5,
+        "duration": 3.4,
+        "text": "mainstream AI will move beyond text and images."
+      },
+      {
+        "start": 111.9,
+        "duration": 2.5,
+        "text": "Video will finally come off age."
+      },
+      {
+        "start": 114.4,
+        "duration": 4.6,
+        "text": "According to Focust, generative video tools are expected to be widely adapted across"
+      },
+      {
+        "start": 119.0,
+        "duration": 6.6,
+        "text": "entertainment and marketing, reducing production time and cost in Hollywood and beyond."
+      },
+      {
+        "start": 125.6,
+        "duration": 5.7,
+        "text": "Leaders like Netflix have already experimented with AI-assisted creative workflows."
+      },
+      {
+        "start": 131.3,
+        "duration": 4.5,
+        "text": "And 2026 is expected to bring this into the mainstream."
+      },
+      {
+        "start": 135.8,
+        "duration": 5.8,
+        "text": "This means, movies, ads and online content could be created with unprecedented speed,"
+      },
+      {
+        "start": 141.6,
+        "duration": 4.8,
+        "text": "enabling more immersive storytelling and personalized experiences."
+      },
+      {
+        "start": 146.4,
+        "duration": 5.1,
+        "text": "And moving ahead, let's talk about multi-model and agentic AI."
+      },
+      {
+        "start": 151.5,
+        "duration": 2.9,
+        "text": "Generative AI isn't just about text anymore."
+      },
+      {
+        "start": 154.4,
+        "duration": 6.2,
+        "text": "The future is multi-model, understanding and generating text, images, audio and video"
+      },
+      {
+        "start": 160.6,
+        "duration": 1.0,
+        "text": "together."
+      },
+      {
+        "start": 161.6,
+        "duration": 4.0,
+        "text": "Tools that reason across data types will become the baseline."
+      },
+      {
+        "start": 165.6,
+        "duration": 3.7,
+        "text": "Allowing more natural interaction and richer outputs."
+      },
+      {
+        "start": 169.3,
+        "duration": 7.0,
+        "text": "Also, agentic AI models that can plan, act autonomously and coordinate tasks is predicted"
+      },
+      {
+        "start": 176.3,
+        "duration": 2.1,
+        "text": "to transform workflows."
+      },
+      {
+        "start": 178.4,
+        "duration": 2.6,
+        "text": "These AI agents won't just react."
+      },
+      {
+        "start": 181.0,
+        "duration": 5.4,
+        "text": "They will act on goals across applications, from customer service to research support."
+      },
+      {
+        "start": 186.4,
+        "duration": 4.9,
+        "text": "Another major shift in 2026 is the rise of domain-specific AI."
+      },
+      {
+        "start": 191.3,
+        "duration": 6.6,
+        "text": "Instead of one-size-fits-all models, 2026 will see a shift to domain-specific generative"
+      },
+      {
+        "start": 197.9,
+        "duration": 1.3,
+        "text": "AI."
+      },
+      {
+        "start": 199.2,
+        "duration": 6.5,
+        "text": "Models train for particular industries like healthcare, finance, engineering and legal systems."
+      },
+      {
+        "start": 205.7,
+        "duration": 6.1,
+        "text": "This is driven by the need for accuracy, compliance and measurable business value, replacing"
+      },
+      {
+        "start": 211.8,
+        "duration": 4.0,
+        "text": "generate AI for critical enterprise tasks."
+      },
+      {
+        "start": 215.8,
+        "duration": 6.0,
+        "text": "AI's models reduce errors like irrelevant outputs or value solutions and improve trust"
+      },
+      {
+        "start": 221.9,
+        "duration": 2.3,
+        "text": "in AI applications."
+      },
+      {
+        "start": 224.2,
+        "duration": 4.7,
+        "text": "Beyond specialization, AI is now driving large-scale automation."
+      },
+      {
+        "start": 228.8,
+        "duration": 7.1,
+        "text": "AI automation will evolve from simple task automation to complex workflow orchestration."
+      },
+      {
+        "start": 236.0,
+        "duration": 5.2,
+        "text": "Generative AI will power digital assistance that can autonomously perform tasks like writing"
+      },
+      {
+        "start": 241.2,
+        "duration": 6.2,
+        "text": "contracts, preparing reports, coordinating schedules or even optimizing supply chains."
+      },
+      {
+        "start": 247.4,
+        "duration": 6.4,
+        "text": "These AI agents could act as a co-workers, not just tools, increasing productivity and transforming"
+      },
+      {
+        "start": 253.8,
+        "duration": 1.6,
+        "text": "how we work."
+      },
+      {
+        "start": 255.4,
+        "duration": 4.8,
+        "text": "Along with automation, content creation is seeing massive change."
+      },
+      {
+        "start": 260.2,
+        "duration": 4.7,
+        "text": "Generative AI will dramatically transform content creation in business."
+      },
+      {
+        "start": 264.9,
+        "duration": 5.8,
+        "text": "From hyper-personalized marketing messages to dynamic customer engagement, AI can tailor"
+      },
+      {
+        "start": 270.7,
+        "duration": 2.7,
+        "text": "content to individual at-scale."
+      },
+      {
+        "start": 273.4,
+        "duration": 5.8,
+        "text": "This hyper-personalization improves conversion rates and customer experience, making business"
+      },
+      {
+        "start": 279.1,
+        "duration": 3.4,
+        "text": "communication more responsive and relevant."
+      },
+      {
+        "start": 282.6,
+        "duration": 2.8,
+        "text": "But AI's role doesn't stop at content."
+      },
+      {
+        "start": 285.4,
+        "duration": 3.3,
+        "text": "It's also reshaping research and innovation."
+      },
+      {
+        "start": 288.7,
+        "duration": 5.4,
+        "text": "In scientific and technical research, AI is expected to assist in discovery, helping"
+      },
+      {
+        "start": 294.1,
+        "duration": 6.0,
+        "text": "scientists generate hypothesis, design experiments and even grant simulations."
+      },
+      {
+        "start": 300.1,
+        "duration": 4.4,
+        "text": "This same trend will extend into product design and development."
+      },
+      {
+        "start": 304.6,
+        "duration": 6.0,
+        "text": "Instead of replacing humans, AI will augment human creative and problem solving, accelerating"
+      },
+      {
+        "start": 310.6,
+        "duration": 2.1,
+        "text": "innovation cycles."
+      },
+      {
+        "start": 312.7,
+        "duration": 5.1,
+        "text": "As AI becomes more powerful, responsible use becomes critical."
+      },
+      {
+        "start": 317.8,
+        "duration": 3.4,
+        "text": "While capabilities grow, so does scrutiny."
+      },
+      {
+        "start": 321.2,
+        "duration": 5.8,
+        "text": "Businesses are shifting from talking about responsible AI to putting governance, ethics and safety"
+      },
+      {
+        "start": 327.0,
+        "duration": 1.6,
+        "text": "into practice."
+      },
+      {
+        "start": 328.7,
+        "duration": 6.7,
+        "text": "In 2026, we should see more organization adapting rigorous, responsible AI frameworks to ensure"
+      },
+      {
+        "start": 335.4,
+        "duration": 3.5,
+        "text": "fairness, privacy and accountability."
+      },
+      {
+        "start": 338.9,
+        "duration": 5.8,
+        "text": "This trend is crucial as AI influences decisions that affect lives and livelihoods."
+      },
+      {
+        "start": 344.8,
+        "duration": 5.0,
+        "text": "At the same time, software development itself is becoming AI native."
+      },
+      {
+        "start": 349.8,
+        "duration": 6.1,
+        "text": "So models will assist in writing, testing, debugging code and managing complex system"
+      },
+      {
+        "start": 355.8,
+        "duration": 6.6,
+        "text": "and dependencies, minimizing manual effort and opening opportunities for more innovation."
+      },
+      {
+        "start": 362.5,
+        "duration": 5.6,
+        "text": "This means developers will shift focus from repetitive work to design, architecture and"
+      },
+      {
+        "start": 368.1,
+        "duration": 2.2,
+        "text": "strategic problem solving."
+      },
+      {
+        "start": 370.3,
+        "duration": 5.8,
+        "text": "With all these capabilities, enterprises are now focusing on real ROI."
+      },
+      {
+        "start": 376.2,
+        "duration": 5.8,
+        "text": "While adoption accelerates, enterprises are becoming more cautious about ROI and integration"
+      },
+      {
+        "start": 381.9,
+        "duration": 1.4,
+        "text": "challenges."
+      },
+      {
+        "start": 383.3,
+        "duration": 5.4,
+        "text": "According to industry predictions, 2026 will be the year where companies measure AI"
+      },
+      {
+        "start": 388.7,
+        "duration": 5.1,
+        "text": "success not by hype but by real business outcomes."
+      },
+      {
+        "start": 393.8,
+        "duration": 5.7,
+        "text": "This pragmatism will drive better training, governance and return on investment in AI"
+      },
+      {
+        "start": 399.4,
+        "duration": 1.0,
+        "text": "projects."
+      },
+      {
+        "start": 400.4,
+        "duration": 6.7,
+        "text": "Finally, there is one concern that ties everything together, that is sustainability."
+      },
+      {
+        "start": 407.1,
+        "duration": 4.0,
+        "text": "Active AI's growth also brings concerns about sustainability."
+      },
+      {
+        "start": 411.1,
+        "duration": 6.5,
+        "text": "AI's system consumes significant energy and require efficient infrastructure and governance"
+      },
+      {
+        "start": 417.6,
+        "duration": 2.8,
+        "text": "to reduce environmental impact."
+      },
+      {
+        "start": 420.4,
+        "duration": 6.0,
+        "text": "With rising global focus on energy efficiency, AI infrastructure will be optimized for sustainable"
+      },
+      {
+        "start": 426.5,
+        "duration": 2.2,
+        "text": "in 2026."
+      },
+      {
+        "start": 428.6,
+        "duration": 5.4,
+        "text": "This means greener data centers and smarter allocation of computer resources."
+      },
+      {
+        "start": 434.0,
+        "duration": 7.0,
+        "text": "So to summarize, 2026 will be the year generative AI becomes deeply embedded in real world"
+      },
+      {
+        "start": 441.0,
+        "duration": 1.0,
+        "text": "systems."
+      },
+      {
+        "start": 442.0,
+        "duration": 3.2,
+        "text": "Not just as a tool but as a collaborator."
+      },
+      {
+        "start": 445.2,
+        "duration": 5.9,
+        "text": "From multimodal creativity and automated agents to responsible business integration and"
+      },
+      {
+        "start": 451.1,
+        "duration": 6.3,
+        "text": "sustainability, this shift will define how we work, create, innovate and interact with"
+      },
+      {
+        "start": 457.4,
+        "duration": 1.5,
+        "text": "technology."
+      },
+      {
+        "start": 458.9,
+        "duration": 6.4,
+        "text": "And with this, we have come to an end to this video on generative AI trends in 2026."
+      },
+      {
+        "start": 465.2,
+        "duration": 5.0,
+        "text": "If you enjoyed listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 470.2,
+        "duration": 4.3,
+        "text": "on any of your doubts and queries we will reply to them a dearliest."
+      },
+      {
+        "start": 474.5,
+        "duration": 5.3,
+        "text": "And do look up for more videos and playlist and subscribe to Idureka's YouTube channel"
+      },
+      {
+        "start": 479.8,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 480.8,
+        "duration": 2.2,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome to this video on Generative AI Trends in 2026. Today we are diving into the future. Specifically, the top generative AI trends that will define 2026. Generative AI has already changed how we write content, create images and build software. But 2026 is not just about smarter AI models. It's about AI becoming part of everyday work, creativity and decision making. From videos created by AI to intelligent assistants working like co-workers to responsible and sustainable AI, a lot is about to change. So before we dive into top generative AI trends, please like, share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Also, check out Idureka's Generative AI Masters program designed to help you build strong expertise in generative AI, Python, Data Science, NLP, Chat GPT, LLM prompt engineering and agentic AI. The program focuses on hands-on learning through real-world projects, expert lead training and industry relevant tools. By enrolling in this generative AI certification program, you will gain practical skills to design, build and deploy modern Gen-AI applications. So check out the course link given in the description box below. Now, let's explore the generative AI trends you need to know in 2026. First, let's talk about mainstream generative video and creativity. mainstream AI will move beyond text and images. Video will finally come off age. According to Focust, generative video tools are expected to be widely adapted across entertainment and marketing, reducing production time and cost in Hollywood and beyond. Leaders like Netflix have already experimented with AI-assisted creative workflows. And 2026 is expected to bring this into the mainstream. This means, movies, ads and online content could be created with unprecedented speed, enabling more immersive storytelling and personalized experiences. And moving ahead, let's talk about multi-model and agentic AI. Generative AI isn't just about text anymore. The future is multi-model, understanding and generating text, images, audio and video together. Tools that reason across data types will become the baseline. Allowing more natural interaction and richer outputs. Also, agentic AI models that can plan, act autonomously and coordinate tasks is predicted to transform workflows. These AI agents won't just react. They will act on goals across applications, from customer service to research support. Another major shift in 2026 is the rise of domain-specific AI. Instead of one-size-fits-all models, 2026 will see a shift to domain-specific generative AI. Models train for particular industries like healthcare, finance, engineering and legal systems. This is driven by the need for accuracy, compliance and measurable business value, replacing generate AI for critical enterprise tasks. AI's models reduce errors like irrelevant outputs or value solutions and improve trust in AI applications. Beyond specialization, AI is now driving large-scale automation. AI automation will evolve from simple task automation to complex workflow orchestration. Generative AI will power digital assistance that can autonomously perform tasks like writing contracts, preparing reports, coordinating schedules or even optimizing supply chains. These AI agents could act as a co-workers, not just tools, increasing productivity and transforming how we work. Along with automation, content creation is seeing massive change. Generative AI will dramatically transform content creation in business. From hyper-personalized marketing messages to dynamic customer engagement, AI can tailor content to individual at-scale. This hyper-personalization improves conversion rates and customer experience, making business communication more responsive and relevant. But AI's role doesn't stop at content. It's also reshaping research and innovation. In scientific and technical research, AI is expected to assist in discovery, helping scientists generate hypothesis, design experiments and even grant simulations. This same trend will extend into product design and development. Instead of replacing humans, AI will augment human creative and problem solving, accelerating innovation cycles. As AI becomes more powerful, responsible use becomes critical. While capabilities grow, so does scrutiny. Businesses are shifting from talking about responsible AI to putting governance, ethics and safety into practice. In 2026, we should see more organization adapting rigorous, responsible AI frameworks to ensure fairness, privacy and accountability. This trend is crucial as AI influences decisions that affect lives and livelihoods. At the same time, software development itself is becoming AI native. So models will assist in writing, testing, debugging code and managing complex system and dependencies, minimizing manual effort and opening opportunities for more innovation. This means developers will shift focus from repetitive work to design, architecture and strategic problem solving. With all these capabilities, enterprises are now focusing on real ROI. While adoption accelerates, enterprises are becoming more cautious about ROI and integration challenges. According to industry predictions, 2026 will be the year where companies measure AI success not by hype but by real business outcomes. This pragmatism will drive better training, governance and return on investment in AI projects. Finally, there is one concern that ties everything together, that is sustainability. Active AI's growth also brings concerns about sustainability. AI's system consumes significant energy and require efficient infrastructure and governance to reduce environmental impact. With rising global focus on energy efficiency, AI infrastructure will be optimized for sustainable in 2026. This means greener data centers and smarter allocation of computer resources. So to summarize, 2026 will be the year generative AI becomes deeply embedded in real world systems. Not just as a tool but as a collaborator. From multimodal creativity and automated agents to responsible business integration and sustainability, this shift will define how we work, create, innovate and interact with technology. And with this, we have come to an end to this video on generative AI trends in 2026. If you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a dearliest. And do look up for more videos and playlist and subscribe to Idureka's YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

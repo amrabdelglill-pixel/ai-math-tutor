@@ -1,0 +1,724 @@
+{
+  "video_id": "OYahUjYrNlY",
+  "video_title": "Phishing Attacks Explained | How to Avoid Getting Phished (Scammed Online) |  Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 481.0,
+  "view_count": 19591,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.2,
+        "text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idioreka."
+      },
+      {
+        "start": 13.2,
+        "duration": 4.9,
+        "text": "So today we are diving into one of the most deceptive and widespread cyber threats, which"
+      },
+      {
+        "start": 18.1,
+        "duration": 1.8,
+        "text": "is phishing attacks."
+      },
+      {
+        "start": 20.0,
+        "duration": 5.2,
+        "text": "This attacks have been responsible for millions in financial losses, data breaches and identity"
+      },
+      {
+        "start": 25.2,
+        "duration": 1.0,
+        "text": "types worldwide."
+      },
+      {
+        "start": 26.2,
+        "duration": 4.8,
+        "text": "But what exactly is phishing and how do attackers use it to manipulate people into giving"
+      },
+      {
+        "start": 31.0,
+        "duration": 2.2,
+        "text": "up sensitive information?"
+      },
+      {
+        "start": 33.2,
+        "duration": 1.5,
+        "text": "So let's find it out."
+      },
+      {
+        "start": 34.7,
+        "duration": 3.9,
+        "text": "But before we begin, make sure to like, share and subscribe to our YouTube channel and"
+      },
+      {
+        "start": 38.6,
+        "duration": 4.5,
+        "text": "hit the bell icon to stay updated on the latest tech content from Idioreka."
+      },
+      {
+        "start": 43.1,
+        "duration": 4.6,
+        "text": "Along with this, check out the certified ethical hacking course designed in partnership with"
+      },
+      {
+        "start": 47.7,
+        "duration": 3.4,
+        "text": "AC Council to elevate your cyber security skills."
+      },
+      {
+        "start": 51.2,
+        "duration": 6.6,
+        "text": "This course offers a globally recognized CEHV13 AI certification and features 20 comprehensive"
+      },
+      {
+        "start": 57.7,
+        "duration": 6.4,
+        "text": "modules that cover over 500 attack techniques enhanced by AI GPT tools, where you will gain"
+      },
+      {
+        "start": 64.2,
+        "duration": 5.2,
+        "text": "hands-on experience through 221 practical apps and benefit from the round clock support"
+      },
+      {
+        "start": 69.4,
+        "duration": 2.9,
+        "text": "provided by the certified professionals."
+      },
+      {
+        "start": 72.3,
+        "duration": 5.8,
+        "text": "With access to exclusive eco-swear and an exam boature from AC Council, this course is"
+      },
+      {
+        "start": 78.1,
+        "duration": 5.6,
+        "text": "your gateway to mastering ethical hacking and securing a rewarding career in cyber defense."
+      },
+      {
+        "start": 83.6,
+        "duration": 3.6,
+        "text": "So go check out the course link in the description box below."
+      },
+      {
+        "start": 87.2,
+        "duration": 2.9,
+        "text": "Moving on, let us understand what is phishing."
+      },
+      {
+        "start": 90.1,
+        "duration": 5.8,
+        "text": "Well, phishing is a social engineering attack where cyber criminals pretend themselves as"
+      },
+      {
+        "start": 95.8,
+        "duration": 5.8,
+        "text": "it trustworthy entity to deceive people into revealing confidential information, such as"
+      },
+      {
+        "start": 101.7,
+        "duration": 4.1,
+        "text": "past words, credit card numbers or financial details."
+      },
+      {
+        "start": 105.8,
+        "duration": 5.1,
+        "text": "Unlike traditional cyber attacks that exploit software vulnerabilities, phishing relies on"
+      },
+      {
+        "start": 110.9,
+        "duration": 5.5,
+        "text": "human error which makes it one of the most dangerous and effective cyber crime tactics."
+      },
+      {
+        "start": 116.4,
+        "duration": 4.8,
+        "text": "A hacker could pretend to be your bank, a well-known company or even your boss sending"
+      },
+      {
+        "start": 121.2,
+        "duration": 4.9,
+        "text": "a convincing email, text or call urging you to take immediate action."
+      },
+      {
+        "start": 126.1,
+        "duration": 4.8,
+        "text": "So clicking a malicious link, downloading and attachment or simply entering your logging"
+      },
+      {
+        "start": 130.9,
+        "duration": 2.5,
+        "text": "credentials could put your address."
+      },
+      {
+        "start": 133.4,
+        "duration": 5.0,
+        "text": "So now let us break down some common phishing techniques you need to watch out for."
+      },
+      {
+        "start": 138.4,
+        "duration": 3.7,
+        "text": "So first on the list we have bulk email phishing."
+      },
+      {
+        "start": 142.1,
+        "duration": 5.3,
+        "text": "So imagine getting an email from your favorite online store saying your account has been"
+      },
+      {
+        "start": 147.4,
+        "duration": 1.0,
+        "text": "compromised."
+      },
+      {
+        "start": 148.4,
+        "duration": 2.0,
+        "text": "Click here to secure it now."
+      },
+      {
+        "start": 150.4,
+        "duration": 1.6,
+        "text": "Sounds urgent right?"
+      },
+      {
+        "start": 152.0,
+        "duration": 4.7,
+        "text": "So this is bulk email phishing where hackers send out thousands of emails hoping someone"
+      },
+      {
+        "start": 156.8,
+        "duration": 1.6,
+        "text": "takes the beat."
+      },
+      {
+        "start": 158.3,
+        "duration": 5.4,
+        "text": "They open spoof emails to look like they are from legitimate companies, complete with logos"
+      },
+      {
+        "start": 163.7,
+        "duration": 2.7,
+        "text": "and realistic messages."
+      },
+      {
+        "start": 166.4,
+        "duration": 5.0,
+        "text": "So if you click on the link, you are taken to a fake website designed to steal your credentials."
+      },
+      {
+        "start": 171.4,
+        "duration": 4.7,
+        "text": "So always check the sender's email and hover over the link before clicking."
+      },
+      {
+        "start": 176.0,
+        "duration": 3.3,
+        "text": "The next type of phishing attack is spear phishing."
+      },
+      {
+        "start": 179.4,
+        "duration": 4.2,
+        "text": "So unlike bulk phishing, spear phishing is highly targeted."
+      },
+      {
+        "start": 183.6,
+        "duration": 4.0,
+        "text": "Hackers study their victims and craft personalized messages."
+      },
+      {
+        "start": 187.6,
+        "duration": 5.0,
+        "text": "So let's say you are a financial manager and you receive an urgent email from CEO saying"
+      },
+      {
+        "start": 192.6,
+        "duration": 4.2,
+        "text": "that transfer $10,000 to your new vendor immediately."
+      },
+      {
+        "start": 196.7,
+        "duration": 2.0,
+        "text": "Would you come play?"
+      },
+      {
+        "start": 198.7,
+        "duration": 3.3,
+        "text": "It is you have just fallen for spear phishing."
+      },
+      {
+        "start": 202.0,
+        "duration": 4.8,
+        "text": "Hackers gather personal details from social media, LinkedIn and company website to make"
+      },
+      {
+        "start": 206.9,
+        "duration": 2.3,
+        "text": "their attack more believable."
+      },
+      {
+        "start": 209.2,
+        "duration": 6.6,
+        "text": "And when they go after high profile individuals like CEOs, CFOs or government officials, it's"
+      },
+      {
+        "start": 215.7,
+        "duration": 2.3,
+        "text": "called whale phishing."
+      },
+      {
+        "start": 218.0,
+        "duration": 5.1,
+        "text": "Next on the list, we have business email compromise, which is BEC."
+      },
+      {
+        "start": 223.1,
+        "duration": 3.0,
+        "text": "So this is one of the costliest phishing attacks."
+      },
+      {
+        "start": 226.2,
+        "duration": 4.5,
+        "text": "Hackers take over a legitimate business email account and use it to send fake invoices"
+      },
+      {
+        "start": 230.6,
+        "duration": 2.4,
+        "text": "or request confidential data."
+      },
+      {
+        "start": 233.0,
+        "duration": 5.6,
+        "text": "So Facebook and Google once lost over $100 million to a single BEC scam."
+      },
+      {
+        "start": 238.7,
+        "duration": 5.3,
+        "text": "So if you ever receive a spatial email requesting funds, always verify the source through a different"
+      },
+      {
+        "start": 244.0,
+        "duration": 2.1,
+        "text": "communication channel."
+      },
+      {
+        "start": 246.1,
+        "duration": 4.0,
+        "text": "Next on our list, we have smishing and wishing."
+      },
+      {
+        "start": 250.0,
+        "duration": 2.6,
+        "text": "Fishing isn't just limited to emails."
+      },
+      {
+        "start": 252.6,
+        "duration": 5.8,
+        "text": "Smashing which is SMS phishing and wishing which is voice phishing are on the rise."
+      },
+      {
+        "start": 258.4,
+        "duration": 5.2,
+        "text": "So if you ever receive a text from your bank saying your account will be suspended, click"
+      },
+      {
+        "start": 263.7,
+        "duration": 2.0,
+        "text": "here to verify your details."
+      },
+      {
+        "start": 265.7,
+        "duration": 1.0,
+        "text": "That's smishing."
+      },
+      {
+        "start": 266.7,
+        "duration": 3.6,
+        "text": "Similarly, wishing attacks involves cameras called victims."
+      },
+      {
+        "start": 270.3,
+        "duration": 4.6,
+        "text": "Often smoothing caller ideas to make it seem like they are from official sources such"
+      },
+      {
+        "start": 274.9,
+        "duration": 3.9,
+        "text": "as the IRS or your bank or tech support."
+      },
+      {
+        "start": 278.8,
+        "duration": 5.3,
+        "text": "Alright, next moving on to the next type, which is social media phishing."
+      },
+      {
+        "start": 284.1,
+        "duration": 4.8,
+        "text": "Here the hackers now exploit social media platforms to gain access to personal and business"
+      },
+      {
+        "start": 288.9,
+        "duration": 1.0,
+        "text": "accounts."
+      },
+      {
+        "start": 289.9,
+        "duration": 3.4,
+        "text": "So they send messages like, hey, I lost access to my account."
+      },
+      {
+        "start": 293.3,
+        "duration": 1.3,
+        "text": "Can you help?"
+      },
+      {
+        "start": 294.6,
+        "duration": 2.9,
+        "text": "So tricking users into revealing login credentials."
+      },
+      {
+        "start": 297.6,
+        "duration": 4.3,
+        "text": "And if you use the same password across multiple accounts, one successful phishing"
+      },
+      {
+        "start": 301.9,
+        "duration": 4.1,
+        "text": "attempts can lead to a change reaction of breaches."
+      },
+      {
+        "start": 306.0,
+        "duration": 3.4,
+        "text": "So I hope types of phishing attacks is clear now."
+      },
+      {
+        "start": 309.4,
+        "duration": 3.9,
+        "text": "Now let us move on to how to identify a phishing attack."
+      },
+      {
+        "start": 313.3,
+        "duration": 3.8,
+        "text": "So how can you spot a phishing attempt before it's too late?"
+      },
+      {
+        "start": 317.2,
+        "duration": 2.4,
+        "text": "So here are some red flags."
+      },
+      {
+        "start": 319.6,
+        "duration": 4.1,
+        "text": "So first we have urgency and pressure tactics."
+      },
+      {
+        "start": 323.7,
+        "duration": 5.4,
+        "text": "And messages that demand immediate actions like, pay now or lose access."
+      },
+      {
+        "start": 329.1,
+        "duration": 3.6,
+        "text": "The next is the request for sensitive information."
+      },
+      {
+        "start": 332.7,
+        "duration": 4.2,
+        "text": "No legitimate organization will ask for your password via email or text."
+      },
+      {
+        "start": 336.9,
+        "duration": 1.9,
+        "text": "So remember this."
+      },
+      {
+        "start": 338.8,
+        "duration": 3.2,
+        "text": "Next is the poor grammar and spelling mistakes."
+      },
+      {
+        "start": 342.0,
+        "duration": 5.3,
+        "text": "So many phishing emails come from international fraudsters leading to awkward phrasing or"
+      },
+      {
+        "start": 347.4,
+        "duration": 1.0,
+        "text": "typos."
+      },
+      {
+        "start": 348.4,
+        "duration": 2.8,
+        "text": "Next is the generic greetings."
+      },
+      {
+        "start": 351.2,
+        "duration": 3.9,
+        "text": "They might greet you like dear customer instead of your actual name."
+      },
+      {
+        "start": 355.1,
+        "duration": 2.8,
+        "text": "So this can be a major reply."
+      },
+      {
+        "start": 357.9,
+        "duration": 3.2,
+        "text": "Next is the fake URLs and email addresses."
+      },
+      {
+        "start": 361.1,
+        "duration": 6.1,
+        "text": "So when you look closely here, this is not exactly this, right?"
+      },
+      {
+        "start": 367.2,
+        "duration": 2.6,
+        "text": "So this is not a Microsoft dot com."
+      },
+      {
+        "start": 369.8,
+        "duration": 3.2,
+        "text": "So always hover over the links before clicking."
+      },
+      {
+        "start": 373.0,
+        "duration": 1.5,
+        "text": "All right."
+      },
+      {
+        "start": 374.5,
+        "duration": 2.2,
+        "text": "Now that you know how phishing works, right?"
+      },
+      {
+        "start": 376.7,
+        "duration": 4.8,
+        "text": "So let's talk about how you can protect yourself and your organizations."
+      },
+      {
+        "start": 381.5,
+        "duration": 4.0,
+        "text": "So always remember to enable multi factor authentication."
+      },
+      {
+        "start": 385.5,
+        "duration": 4.5,
+        "text": "So even if hackers steal your password, they can't access your account without this second"
+      },
+      {
+        "start": 390.0,
+        "duration": 2.2,
+        "text": "authentication step."
+      },
+      {
+        "start": 392.2,
+        "duration": 2.5,
+        "text": "Next, verify before clicking."
+      },
+      {
+        "start": 394.7,
+        "duration": 5.0,
+        "text": "So if you ever receive an email about a bank issue or over two invoices, don't click"
+      },
+      {
+        "start": 399.6,
+        "duration": 1.0,
+        "text": "on the link."
+      },
+      {
+        "start": 400.6,
+        "duration": 2.8,
+        "text": "Go directly to the website yourself."
+      },
+      {
+        "start": 403.4,
+        "duration": 2.7,
+        "text": "Next educate yourself and others."
+      },
+      {
+        "start": 406.1,
+        "duration": 4.9,
+        "text": "Well, organizations should conduct security awareness training to help employees recognize"
+      },
+      {
+        "start": 411.0,
+        "duration": 1.8,
+        "text": "phishing attempts."
+      },
+      {
+        "start": 412.7,
+        "duration": 3.6,
+        "text": "Next, always make sure to use the security tools."
+      },
+      {
+        "start": 416.3,
+        "duration": 4.6,
+        "text": "You need to install anti phishing filters, spam blockers and endpoint security solutions"
+      },
+      {
+        "start": 420.9,
+        "duration": 2.8,
+        "text": "to detect and block malicious emails."
+      },
+      {
+        "start": 423.7,
+        "duration": 3.0,
+        "text": "And finally report suspicious messages."
+      },
+      {
+        "start": 426.6,
+        "duration": 4.3,
+        "text": "So if you receive a phishing email, report it to your IT department or you can even use"
+      },
+      {
+        "start": 431.0,
+        "duration": 3.2,
+        "text": "your email provider's report phishing option."
+      },
+      {
+        "start": 434.1,
+        "duration": 1.2,
+        "text": "So that's it."
+      },
+      {
+        "start": 435.4,
+        "duration": 5.4,
+        "text": "So phishing attacks are evolving everything, but awareness is your best defense."
+      },
+      {
+        "start": 440.7,
+        "duration": 4.6,
+        "text": "So now that you know how to identify and prevent phishing scams and your one step closer to"
+      },
+      {
+        "start": 445.4,
+        "duration": 7.2,
+        "text": "keeping your data secure and with this we come to an end to this video on phishing attacks."
+      },
+      {
+        "start": 452.5,
+        "duration": 3.8,
+        "text": "So if you enjoyed listening to this video, please be kind enough to like it and you can"
+      },
+      {
+        "start": 456.4,
+        "duration": 2.1,
+        "text": "comment on any of your doubts and queries."
+      },
+      {
+        "start": 458.4,
+        "duration": 5.1,
+        "text": "We will reply to them or the earliest and do look up for more videos and playlist and"
+      },
+      {
+        "start": 463.6,
+        "duration": 3.2,
+        "text": "subscribe to the Aduricas YouTube channel to learn more."
+      },
+      {
+        "start": 466.8,
+        "duration": 1.9,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idioreka. So today we are diving into one of the most deceptive and widespread cyber threats, which is phishing attacks. This attacks have been responsible for millions in financial losses, data breaches and identity types worldwide. But what exactly is phishing and how do attackers use it to manipulate people into giving up sensitive information? So let's find it out. But before we begin, make sure to like, share and subscribe to our YouTube channel and hit the bell icon to stay updated on the latest tech content from Idioreka. Along with this, check out the certified ethical hacking course designed in partnership with AC Council to elevate your cyber security skills. This course offers a globally recognized CEHV13 AI certification and features 20 comprehensive modules that cover over 500 attack techniques enhanced by AI GPT tools, where you will gain hands-on experience through 221 practical apps and benefit from the round clock support provided by the certified professionals. With access to exclusive eco-swear and an exam boature from AC Council, this course is your gateway to mastering ethical hacking and securing a rewarding career in cyber defense. So go check out the course link in the description box below. Moving on, let us understand what is phishing. Well, phishing is a social engineering attack where cyber criminals pretend themselves as it trustworthy entity to deceive people into revealing confidential information, such as past words, credit card numbers or financial details. Unlike traditional cyber attacks that exploit software vulnerabilities, phishing relies on human error which makes it one of the most dangerous and effective cyber crime tactics. A hacker could pretend to be your bank, a well-known company or even your boss sending a convincing email, text or call urging you to take immediate action. So clicking a malicious link, downloading and attachment or simply entering your logging credentials could put your address. So now let us break down some common phishing techniques you need to watch out for. So first on the list we have bulk email phishing. So imagine getting an email from your favorite online store saying your account has been compromised. Click here to secure it now. Sounds urgent right? So this is bulk email phishing where hackers send out thousands of emails hoping someone takes the beat. They open spoof emails to look like they are from legitimate companies, complete with logos and realistic messages. So if you click on the link, you are taken to a fake website designed to steal your credentials. So always check the sender's email and hover over the link before clicking. The next type of phishing attack is spear phishing. So unlike bulk phishing, spear phishing is highly targeted. Hackers study their victims and craft personalized messages. So let's say you are a financial manager and you receive an urgent email from CEO saying that transfer $10,000 to your new vendor immediately. Would you come play? It is you have just fallen for spear phishing. Hackers gather personal details from social media, LinkedIn and company website to make their attack more believable. And when they go after high profile individuals like CEOs, CFOs or government officials, it's called whale phishing. Next on the list, we have business email compromise, which is BEC. So this is one of the costliest phishing attacks. Hackers take over a legitimate business email account and use it to send fake invoices or request confidential data. So Facebook and Google once lost over $100 million to a single BEC scam. So if you ever receive a spatial email requesting funds, always verify the source through a different communication channel. Next on our list, we have smishing and wishing. Fishing isn't just limited to emails. Smashing which is SMS phishing and wishing which is voice phishing are on the rise. So if you ever receive a text from your bank saying your account will be suspended, click here to verify your details. That's smishing. Similarly, wishing attacks involves cameras called victims. Often smoothing caller ideas to make it seem like they are from official sources such as the IRS or your bank or tech support. Alright, next moving on to the next type, which is social media phishing. Here the hackers now exploit social media platforms to gain access to personal and business accounts. So they send messages like, hey, I lost access to my account. Can you help? So tricking users into revealing login credentials. And if you use the same password across multiple accounts, one successful phishing attempts can lead to a change reaction of breaches. So I hope types of phishing attacks is clear now. Now let us move on to how to identify a phishing attack. So how can you spot a phishing attempt before it's too late? So here are some red flags. So first we have urgency and pressure tactics. And messages that demand immediate actions like, pay now or lose access. The next is the request for sensitive information. No legitimate organization will ask for your password via email or text. So remember this. Next is the poor grammar and spelling mistakes. So many phishing emails come from international fraudsters leading to awkward phrasing or typos. Next is the generic greetings. They might greet you like dear customer instead of your actual name. So this can be a major reply. Next is the fake URLs and email addresses. So when you look closely here, this is not exactly this, right? So this is not a Microsoft dot com. So always hover over the links before clicking. All right. Now that you know how phishing works, right? So let's talk about how you can protect yourself and your organizations. So always remember to enable multi factor authentication. So even if hackers steal your password, they can't access your account without this second authentication step. Next, verify before clicking. So if you ever receive an email about a bank issue or over two invoices, don't click on the link. Go directly to the website yourself. Next educate yourself and others. Well, organizations should conduct security awareness training to help employees recognize phishing attempts. Next, always make sure to use the security tools. You need to install anti phishing filters, spam blockers and endpoint security solutions to detect and block malicious emails. And finally report suspicious messages. So if you receive a phishing email, report it to your IT department or you can even use your email provider's report phishing option. So that's it. So phishing attacks are evolving everything, but awareness is your best defense. So now that you know how to identify and prevent phishing scams and your one step closer to keeping your data secure and with this we come to an end to this video on phishing attacks. So if you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries. We will reply to them or the earliest and do look up for more videos and playlist and subscribe to the Aduricas YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

@@ -1,0 +1,1474 @@
+{
+  "video_id": "cb-RXX_q_wM",
+  "video_title": "What Is Multimodal AI? | AI Tutorials For Beginners | How Multimodal AI Works? | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 1112.0,
+  "view_count": 6729,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 14.0,
+        "text": "Have you seen how tools like Chargeipity with Vision can look at an image you upload and"
+      },
+      {
+        "start": 14.0,
+        "duration": 1.0,
+        "text": "describe it?"
+      },
+      {
+        "start": 15.0,
+        "duration": 5.4,
+        "text": "Or how Dalie and Mid-Jerney can generate stunning images from just a text from?"
+      },
+      {
+        "start": 20.4,
+        "duration": 3.9,
+        "text": "And now some AI models can even do both at the same time."
+      },
+      {
+        "start": 24.3,
+        "duration": 5.3,
+        "text": "They can see, read, listen and even create all in one go."
+      },
+      {
+        "start": 29.6,
+        "duration": 1.8,
+        "text": "So how is that possible?"
+      },
+      {
+        "start": 31.4,
+        "duration": 3.8,
+        "text": "Well, that's because of something called multi-model AI."
+      },
+      {
+        "start": 35.2,
+        "duration": 6.0,
+        "text": "AI that doesn't just work with one type of data like only text or only images, but can"
+      },
+      {
+        "start": 41.2,
+        "duration": 5.7,
+        "text": "understand and combine multiple types of information together, just like we humans do."
+      },
+      {
+        "start": 46.9,
+        "duration": 4.6,
+        "text": "So in this video, we are going to break down what multi-model AI really means and how"
+      },
+      {
+        "start": 51.5,
+        "duration": 5.7,
+        "text": "multi-model AI works and explores some amazing real world examples that you're probably"
+      },
+      {
+        "start": 57.2,
+        "duration": 3.0,
+        "text": "already using without even realizing it."
+      },
+      {
+        "start": 60.2,
+        "duration": 4.5,
+        "text": "So before we dive in, please like, share and subscribe to Idureka's YouTube channel"
+      },
+      {
+        "start": 64.7,
+        "duration": 4.6,
+        "text": "and hit the bell icon to stay updated on the latest content from Idureka."
+      },
+      {
+        "start": 69.3,
+        "duration": 4.5,
+        "text": "Also, check out Idureka's Ancientique AI certification training."
+      },
+      {
+        "start": 73.8,
+        "duration": 4.7,
+        "text": "It is carefully crafted to meet industry demands and prepare you for the future of intelligent"
+      },
+      {
+        "start": 78.5,
+        "duration": 1.0,
+        "text": "agents."
+      },
+      {
+        "start": 79.5,
+        "duration": 5.3,
+        "text": "You will gain practical skills in lengthening, drag, LLM ops and more through live instructor"
+      },
+      {
+        "start": 84.8,
+        "duration": 2.2,
+        "text": "and live sessions and hands-on labs."
+      },
+      {
+        "start": 87.0,
+        "duration": 4.8,
+        "text": "Whether you are a beginner or a tech professional, this course helps you master the concepts and"
+      },
+      {
+        "start": 91.8,
+        "duration": 2.2,
+        "text": "accelerate your AI career."
+      },
+      {
+        "start": 94.0,
+        "duration": 3.4,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 97.4,
+        "duration": 3.7,
+        "text": "So first, let's break down the word multi-model."
+      },
+      {
+        "start": 101.1,
+        "duration": 7.3,
+        "text": "So multi means many and model refers to the modes of information like text, images, sound"
+      },
+      {
+        "start": 108.4,
+        "duration": 1.3,
+        "text": "or video."
+      },
+      {
+        "start": 109.8,
+        "duration": 5.9,
+        "text": "So multi-model AI is an AI that can understand and work with multiple types of data at the"
+      },
+      {
+        "start": 115.6,
+        "duration": 1.1,
+        "text": "same time."
+      },
+      {
+        "start": 116.8,
+        "duration": 6.5,
+        "text": "For example, a single AI model that can read text, look at images, listen to audio, watch"
+      },
+      {
+        "start": 123.2,
+        "duration": 4.2,
+        "text": "videos and combine all of this to give a better answer."
+      },
+      {
+        "start": 127.4,
+        "duration": 4.0,
+        "text": "It sounds a bit like how humans process information, right?"
+      },
+      {
+        "start": 131.5,
+        "duration": 2.4,
+        "text": "So why do we need multi-model AI?"
+      },
+      {
+        "start": 133.9,
+        "duration": 2.8,
+        "text": "So think about how we interact with the world."
+      },
+      {
+        "start": 136.7,
+        "duration": 4.8,
+        "text": "If you are watching a movie, you are seeing visuals, listening to dialogue and understanding"
+      },
+      {
+        "start": 141.4,
+        "duration": 1.7,
+        "text": "the story together."
+      },
+      {
+        "start": 143.2,
+        "duration": 5.4,
+        "text": "Or when you are explaining a recipe to someone, you might show pictures, describe steps"
+      },
+      {
+        "start": 148.6,
+        "duration": 2.2,
+        "text": "and maybe even play a video."
+      },
+      {
+        "start": 150.7,
+        "duration": 4.2,
+        "text": "So humans naturally combine different scenes to understand things."
+      },
+      {
+        "start": 155.0,
+        "duration": 2.8,
+        "text": "So old AI models were single models."
+      },
+      {
+        "start": 157.7,
+        "duration": 2.8,
+        "text": "They could only process one type of data."
+      },
+      {
+        "start": 160.5,
+        "duration": 6.2,
+        "text": "Like a text model could only read and write and a vision model could only look at images."
+      },
+      {
+        "start": 166.6,
+        "duration": 4.9,
+        "text": "That real world problems are not just text or just images, they are mixed."
+      },
+      {
+        "start": 171.5,
+        "duration": 6.2,
+        "text": "So multi-model AI bridges this gap and it lets AI connect the dots between text, visuals,"
+      },
+      {
+        "start": 177.7,
+        "duration": 1.7,
+        "text": "audio and more."
+      },
+      {
+        "start": 179.4,
+        "duration": 2.4,
+        "text": "So how does multi-model AI work?"
+      },
+      {
+        "start": 181.8,
+        "duration": 2.7,
+        "text": "In simple terms, it works like this."
+      },
+      {
+        "start": 184.5,
+        "duration": 2.5,
+        "text": "It takes different types of input."
+      },
+      {
+        "start": 187.0,
+        "duration": 5.3,
+        "text": "For example, it could take a photo and a text question about that photo."
+      },
+      {
+        "start": 192.2,
+        "duration": 4.5,
+        "text": "It converts them into a common language inside the AI model."
+      },
+      {
+        "start": 196.8,
+        "duration": 5.1,
+        "text": "So think of it like translating text, images and audio into one shared understanding."
+      },
+      {
+        "start": 201.9,
+        "duration": 4.0,
+        "text": "Next, it results over all the data together."
+      },
+      {
+        "start": 205.9,
+        "duration": 3.8,
+        "text": "Then it gives you a smart answer that considers all the inputs."
+      },
+      {
+        "start": 209.8,
+        "duration": 5.4,
+        "text": "So for example, you show AI a picture of a dog and ask what breed is this?"
+      },
+      {
+        "start": 215.2,
+        "duration": 5.0,
+        "text": "So it looks at the image, understands the features and responds that looks like a golden"
+      },
+      {
+        "start": 220.2,
+        "duration": 1.0,
+        "text": "retriever."
+      },
+      {
+        "start": 221.2,
+        "duration": 3.9,
+        "text": "So it's combining vision plus language to answer."
+      },
+      {
+        "start": 225.2,
+        "duration": 4.8,
+        "text": "Now let us go through a working diagram of a full multi-model pipeline."
+      },
+      {
+        "start": 229.9,
+        "duration": 4.6,
+        "text": "So as you can see the screen, first it takes different inputs."
+      },
+      {
+        "start": 234.5,
+        "duration": 3.6,
+        "text": "It could be a text, image or even a video."
+      },
+      {
+        "start": 238.1,
+        "duration": 3.0,
+        "text": "Then it encoders for each modality."
+      },
+      {
+        "start": 241.1,
+        "duration": 5.0,
+        "text": "Later, this inputs will be translated into common AI language."
+      },
+      {
+        "start": 246.1,
+        "duration": 5.7,
+        "text": "Then a multi-model transformer uses cross-attention to connect relationship across text, images"
+      },
+      {
+        "start": 251.8,
+        "duration": 4.3,
+        "text": "and audio and finally the model generates a response."
+      },
+      {
+        "start": 256.1,
+        "duration": 3.7,
+        "text": "So let me take another example to explain this diagram."
+      },
+      {
+        "start": 259.8,
+        "duration": 3.4,
+        "text": "So as you can see, we have different inputs."
+      },
+      {
+        "start": 263.2,
+        "duration": 4.9,
+        "text": "So the model can take text, images, audio or even video as input."
+      },
+      {
+        "start": 268.1,
+        "duration": 3.1,
+        "text": "Next is the encoders for each modality."
+      },
+      {
+        "start": 271.2,
+        "duration": 5.9,
+        "text": "That means a text encoder converts words into vectors and an image encoder converts pixels"
+      },
+      {
+        "start": 277.1,
+        "duration": 6.1,
+        "text": "into vectors and then an audio encoder converts sound waves into vectors."
+      },
+      {
+        "start": 283.2,
+        "duration": 4.6,
+        "text": "Next is the shared embedding space where all these different inputs are translated into"
+      },
+      {
+        "start": 287.8,
+        "duration": 5.9,
+        "text": "a common AI language, which is a vector space where similar meanings are close together."
+      },
+      {
+        "start": 293.7,
+        "duration": 5.2,
+        "text": "For example, the word card and the picture of a card are mapped close together."
+      },
+      {
+        "start": 298.9,
+        "duration": 6.6,
+        "text": "Next is the fusion plus reasoning layer where a multi-model transformer uses cross-attention"
+      },
+      {
+        "start": 305.5,
+        "duration": 3.6,
+        "text": "to connect relationship across text, images and audio."
+      },
+      {
+        "start": 309.1,
+        "duration": 6.2,
+        "text": "For example, it links the word red to the red region of the card image."
+      },
+      {
+        "start": 315.3,
+        "duration": 2.4,
+        "text": "Next is the output generation."
+      },
+      {
+        "start": 317.6,
+        "duration": 5.8,
+        "text": "So finally, the model generates a response, which could be text, a caption and image like"
+      },
+      {
+        "start": 323.4,
+        "duration": 2.0,
+        "text": "Dali or even sound."
+      },
+      {
+        "start": 325.5,
+        "duration": 2.2,
+        "text": "Alright, I hope this is clear now."
+      },
+      {
+        "start": 327.7,
+        "duration": 4.5,
+        "text": "So now let's look at some real world examples that make it easier to understand."
+      },
+      {
+        "start": 332.2,
+        "duration": 2.6,
+        "text": "So first we have shared GPD with vision."
+      },
+      {
+        "start": 334.8,
+        "duration": 5.2,
+        "text": "So if you upload an image to shared GPD and ask what's in this picture, then it can"
+      },
+      {
+        "start": 340.0,
+        "duration": 4.8,
+        "text": "describe the objects, text or even analyze data like a chart."
+      },
+      {
+        "start": 344.8,
+        "duration": 5.7,
+        "text": "So that's multi-model A and it's using both image and the standing and text generation together."
+      },
+      {
+        "start": 350.5,
+        "duration": 2.6,
+        "text": "The next example is Google Lens."
+      },
+      {
+        "start": 353.1,
+        "duration": 5.7,
+        "text": "So when you point your camera at something, Google Lens can recognize the object, read"
+      },
+      {
+        "start": 358.8,
+        "duration": 4.2,
+        "text": "the text in the image and translate into another language."
+      },
+      {
+        "start": 363.0,
+        "duration": 5.8,
+        "text": "Again, it's a vision plus language plus translation all in one model."
+      },
+      {
+        "start": 368.8,
+        "duration": 3.4,
+        "text": "The next example could be a self-driving cars."
+      },
+      {
+        "start": 372.2,
+        "duration": 5.1,
+        "text": "So autonomous cars like this last uses multi-model AI because they have to see the road through"
+      },
+      {
+        "start": 377.3,
+        "duration": 7.1,
+        "text": "cameras, retrafics signals, here alerts and also process maps and text instructions."
+      },
+      {
+        "start": 384.4,
+        "duration": 4.3,
+        "text": "So they combine all these modes to make driving decisions."
+      },
+      {
+        "start": 388.7,
+        "duration": 2.0,
+        "text": "Next is the healthcare AI."
+      },
+      {
+        "start": 390.6,
+        "duration": 6.4,
+        "text": "So doctors now use AI that can look at medical images like X-rays and also read patient reports"
+      },
+      {
+        "start": 397.0,
+        "duration": 4.5,
+        "text": "combining the information to help diagnose diseases more accurately."
+      },
+      {
+        "start": 401.5,
+        "duration": 3.7,
+        "text": "But why is multi-model AI a game changer?"
+      },
+      {
+        "start": 405.2,
+        "duration": 3.8,
+        "text": "Multi-model AI is powerful because it's closer to human intelligence."
+      },
+      {
+        "start": 409.0,
+        "duration": 1.8,
+        "text": "We don't rely on one sense."
+      },
+      {
+        "start": 410.9,
+        "duration": 1.6,
+        "text": "We combine many."
+      },
+      {
+        "start": 412.5,
+        "duration": 6.0,
+        "text": "And it makes AI more flexible because one model can handle text, images, audio and more."
+      },
+      {
+        "start": 418.5,
+        "duration": 4.9,
+        "text": "It can solve more complex problems like explaining what's happening in a video or understanding"
+      },
+      {
+        "start": 423.4,
+        "duration": 2.6,
+        "text": "a full conversation with context."
+      },
+      {
+        "start": 426.0,
+        "duration": 4.5,
+        "text": "Alright, now for those of you who want a bit more technical depth, here's a quick pick"
+      },
+      {
+        "start": 430.5,
+        "duration": 1.7,
+        "text": "behind the scene."
+      },
+      {
+        "start": 432.2,
+        "duration": 5.2,
+        "text": "So as I discussed earlier, a multi-model AI uses transformer based models."
+      },
+      {
+        "start": 437.5,
+        "duration": 2.6,
+        "text": "The same type of models behind GPD."
+      },
+      {
+        "start": 440.1,
+        "duration": 5.9,
+        "text": "So the text, images and audio are all converted into a common representations like a shade"
+      },
+      {
+        "start": 446.0,
+        "duration": 2.9,
+        "text": "language of numbers called embeddings."
+      },
+      {
+        "start": 448.9,
+        "duration": 5.5,
+        "text": "For example, a picture of a dog and the word dog are both mapped into a similar space."
+      },
+      {
+        "start": 454.4,
+        "duration": 2.5,
+        "text": "So the AI knows they mean the same thing."
+      },
+      {
+        "start": 456.9,
+        "duration": 5.0,
+        "text": "Then, the model can reason across all modalities together and generate an output."
+      },
+      {
+        "start": 462.0,
+        "duration": 5.3,
+        "text": "A great example is click from open AI which connects images and text."
+      },
+      {
+        "start": 467.3,
+        "duration": 5.3,
+        "text": "Another is Google Gemini, designed from the ground up as a truly multi-model model."
+      },
+      {
+        "start": 472.6,
+        "duration": 2.3,
+        "text": "So what is the biggest challenge?"
+      },
+      {
+        "start": 474.9,
+        "duration": 4.4,
+        "text": "So the different types of data have different formats and complexity."
+      },
+      {
+        "start": 479.3,
+        "duration": 4.8,
+        "text": "Combining them efficiently without losing meaning is still an ongoing research area."
+      },
+      {
+        "start": 484.1,
+        "duration": 5.0,
+        "text": "So it's not just a magic, so it's smart design that lets the AI translate everything"
+      },
+      {
+        "start": 489.1,
+        "duration": 2.4,
+        "text": "into one common understanding."
+      },
+      {
+        "start": 491.5,
+        "duration": 5.0,
+        "text": "Let's now look at some of the most important multi-model models, how they work and where"
+      },
+      {
+        "start": 496.6,
+        "duration": 1.6,
+        "text": "they are used."
+      },
+      {
+        "start": 498.2,
+        "duration": 3.1,
+        "text": "So here are the key multi-model models."
+      },
+      {
+        "start": 501.3,
+        "duration": 6.2,
+        "text": "So first on the list, we have click which is CLIP, which stands for contrastive language"
+      },
+      {
+        "start": 507.5,
+        "duration": 3.4,
+        "text": "image pre-training from open AI."
+      },
+      {
+        "start": 511.0,
+        "duration": 1.7,
+        "text": "So let's see how it works."
+      },
+      {
+        "start": 512.7,
+        "duration": 4.8,
+        "text": "So it has two encoders, a text encoder and an image encoder."
+      },
+      {
+        "start": 517.4,
+        "duration": 3.9,
+        "text": "So both encoders map inputs into the same emitting space."
+      },
+      {
+        "start": 521.4,
+        "duration": 5.3,
+        "text": "So during training, it learns this caption matches this image and this caption does not match"
+      },
+      {
+        "start": 526.6,
+        "duration": 1.0,
+        "text": "that image."
+      },
+      {
+        "start": 527.6,
+        "duration": 2.4,
+        "text": "So it uses contrastive learning."
+      },
+      {
+        "start": 530.0,
+        "duration": 4.9,
+        "text": "It pushes correct pairs closer and incorrect pairs further apart."
+      },
+      {
+        "start": 534.9,
+        "duration": 2.2,
+        "text": "So here is the working diagram."
+      },
+      {
+        "start": 537.1,
+        "duration": 5.0,
+        "text": "So it takes the input, beat image or text and then it encoders."
+      },
+      {
+        "start": 542.1,
+        "duration": 4.9,
+        "text": "So an image is a vision encoder and for text is a text encoder."
+      },
+      {
+        "start": 547.0,
+        "duration": 3.0,
+        "text": "Then it is shared to a embedding space."
+      },
+      {
+        "start": 550.0,
+        "duration": 2.8,
+        "text": "And finally, it generates the output."
+      },
+      {
+        "start": 552.9,
+        "duration": 2.4,
+        "text": "So let's have a look at the use cases."
+      },
+      {
+        "start": 555.3,
+        "duration": 5.1,
+        "text": "So it is used in Dali and stable diffusion to align text prompts with images."
+      },
+      {
+        "start": 560.4,
+        "duration": 5.3,
+        "text": "Next, it is used in zero short classification where you give it a photo of a dog versus"
+      },
+      {
+        "start": 565.7,
+        "duration": 5.3,
+        "text": "a photo of a cat and it recognizes which one matches the image without pre-training."
+      },
+      {
+        "start": 571.0,
+        "duration": 4.9,
+        "text": "And then it is used in search where it finds images similar to this caption."
+      },
+      {
+        "start": 576.0,
+        "duration": 4.7,
+        "text": "Next, moving on to second model, which is BLIP2."
+      },
+      {
+        "start": 580.7,
+        "duration": 3.8,
+        "text": "It stands for both strapping language image pre-training."
+      },
+      {
+        "start": 584.5,
+        "duration": 2.0,
+        "text": "So let us see how it works."
+      },
+      {
+        "start": 586.5,
+        "duration": 5.9,
+        "text": "So first, it connects a frozen vision encoder, for example, a clip or VIT with a frozen"
+      },
+      {
+        "start": 592.4,
+        "duration": 2.6,
+        "text": "large language model which is NLM."
+      },
+      {
+        "start": 595.0,
+        "duration": 5.4,
+        "text": "A query transformer acts as a bridge where it converts visual features into a language-friendly"
+      },
+      {
+        "start": 600.5,
+        "duration": 1.0,
+        "text": "representation."
+      },
+      {
+        "start": 601.5,
+        "duration": 2.6,
+        "text": "So here is the working diagram."
+      },
+      {
+        "start": 604.1,
+        "duration": 5.4,
+        "text": "The A and first looks at the image and turns it into a features like objects, color and"
+      },
+      {
+        "start": 609.5,
+        "duration": 1.3,
+        "text": "shapes."
+      },
+      {
+        "start": 610.8,
+        "duration": 5.7,
+        "text": "Then a small bridge model called Qformer takes those visual features and converts them into"
+      },
+      {
+        "start": 616.5,
+        "duration": 3.3,
+        "text": "a format the language model can understand."
+      },
+      {
+        "start": 619.8,
+        "duration": 5.2,
+        "text": "Next, the large language model then reasons about the image features just like it reasons"
+      },
+      {
+        "start": 625.1,
+        "duration": 1.3,
+        "text": "about text."
+      },
+      {
+        "start": 626.4,
+        "duration": 4.7,
+        "text": "And finally, it generates a text answer or a caption describing the image."
+      },
+      {
+        "start": 631.1,
+        "duration": 5.4,
+        "text": "So vision encoder sees and Qformer translates and the LLM explains."
+      },
+      {
+        "start": 636.5,
+        "duration": 1.8,
+        "text": "So let us have a look at the use cases."
+      },
+      {
+        "start": 638.4,
+        "duration": 3.4,
+        "text": "So first, it is used in visual question answering."
+      },
+      {
+        "start": 641.8,
+        "duration": 2.0,
+        "text": "For example, what is in this picture?"
+      },
+      {
+        "start": 643.8,
+        "duration": 6.7,
+        "text": "Next, in the image captioning, where it can give it like a man riding a horse on a beach."
+      },
+      {
+        "start": 650.5,
+        "duration": 5.3,
+        "text": "Next in a chat box with vision, for example, where you upload an image and ask questions."
+      },
+      {
+        "start": 655.8,
+        "duration": 5.0,
+        "text": "Okay, the next model on a list is Flamingo from DeepMind."
+      },
+      {
+        "start": 660.8,
+        "duration": 2.2,
+        "text": "So let us have a look at its working."
+      },
+      {
+        "start": 663.0,
+        "duration": 1.8,
+        "text": "So here is how it works."
+      },
+      {
+        "start": 664.9,
+        "duration": 3.2,
+        "text": "So first, it is a few short multi model model."
+      },
+      {
+        "start": 668.0,
+        "duration": 3.2,
+        "text": "It doesn't need huge fine tuning for a new task."
+      },
+      {
+        "start": 671.2,
+        "duration": 5.6,
+        "text": "And then it uses gated cross attention liars to integrate image plus text inside a frozen"
+      },
+      {
+        "start": 676.8,
+        "duration": 1.1,
+        "text": "LLM."
+      },
+      {
+        "start": 677.9,
+        "duration": 4.6,
+        "text": "And it can reason across multiple images and a long text sequence."
+      },
+      {
+        "start": 682.5,
+        "duration": 5.0,
+        "text": "So it looks at the image, reads a question, connects go through cross attention and then"
+      },
+      {
+        "start": 687.5,
+        "duration": 1.5,
+        "text": "explains it."
+      },
+      {
+        "start": 689.0,
+        "duration": 2.3,
+        "text": "So let us have a look at the use cases."
+      },
+      {
+        "start": 691.3,
+        "duration": 5.2,
+        "text": "So it is used in multi model chat box like look at these five images and now answer this"
+      },
+      {
+        "start": 696.5,
+        "duration": 1.0,
+        "text": "question."
+      },
+      {
+        "start": 697.5,
+        "duration": 6.0,
+        "text": "Next, it is used in educational AI, where it read diagrams plus answer questions."
+      },
+      {
+        "start": 703.5,
+        "duration": 5.4,
+        "text": "Next in document understanding, where it reads text plus images in a video."
+      },
+      {
+        "start": 708.9,
+        "duration": 4.7,
+        "text": "And the next multi model on a list is palm from Google."
+      },
+      {
+        "start": 713.6,
+        "duration": 1.6,
+        "text": "So here is how it works."
+      },
+      {
+        "start": 715.2,
+        "duration": 2.6,
+        "text": "So as you can see, this is the working diagram."
+      },
+      {
+        "start": 717.9,
+        "duration": 6.7,
+        "text": "So first, the AI gets both visual input like a photo or a live camera feed and the text"
+      },
+      {
+        "start": 724.6,
+        "duration": 3.8,
+        "text": "instructions like pick up the red apple on the table."
+      },
+      {
+        "start": 728.4,
+        "duration": 6.8,
+        "text": "Next, the vision transformer understand what's in the image like objects, colors and position."
+      },
+      {
+        "start": 735.1,
+        "duration": 4.3,
+        "text": "And the palm language model understands the instruction and reasons about what needs"
+      },
+      {
+        "start": 739.4,
+        "duration": 1.0,
+        "text": "to be done."
+      },
+      {
+        "start": 740.4,
+        "duration": 1.7,
+        "text": "So it's combining both."
+      },
+      {
+        "start": 742.1,
+        "duration": 5.1,
+        "text": "The AI creates a step by step action plan for the robot like move forward, grab the red"
+      },
+      {
+        "start": 747.2,
+        "duration": 2.7,
+        "text": "apple and place it in the basket."
+      },
+      {
+        "start": 749.9,
+        "duration": 1.7,
+        "text": "So here are the use cases."
+      },
+      {
+        "start": 751.6,
+        "duration": 4.5,
+        "text": "It is used in robotics like pick up the red apple on the table."
+      },
+      {
+        "start": 756.1,
+        "duration": 4.5,
+        "text": "Next, it is used in real world reasoning for embodied AI."
+      },
+      {
+        "start": 760.6,
+        "duration": 3.8,
+        "text": "Then it is also used in visual navigation task."
+      },
+      {
+        "start": 764.4,
+        "duration": 3.0,
+        "text": "And the next multi model is Google Gemini."
+      },
+      {
+        "start": 767.4,
+        "duration": 1.2,
+        "text": "So here's how it works."
+      },
+      {
+        "start": 768.6,
+        "duration": 5.8,
+        "text": "It's a native multi model trained from scratch on text images audio and video."
+      },
+      {
+        "start": 774.4,
+        "duration": 5.7,
+        "text": "So unlike clip, which aligns two encoders, Gemini has a single model handling all model"
+      },
+      {
+        "start": 780.1,
+        "duration": 4.2,
+        "text": "entities and it uses joint training with cross attention."
+      },
+      {
+        "start": 784.3,
+        "duration": 2.3,
+        "text": "So this is the working diagram."
+      },
+      {
+        "start": 786.6,
+        "duration": 1.5,
+        "text": "So let me explain this."
+      },
+      {
+        "start": 788.1,
+        "duration": 5.9,
+        "text": "The AI takes in all types of inputs at once such as written text, pictures, sound and"
+      },
+      {
+        "start": 794.0,
+        "duration": 1.5,
+        "text": "even video."
+      },
+      {
+        "start": 795.5,
+        "duration": 5.3,
+        "text": "Then instead of using separate models for each type, it uses one powerful transformer model"
+      },
+      {
+        "start": 800.8,
+        "duration": 3.8,
+        "text": "that can understand and combine all these inputs together."
+      },
+      {
+        "start": 804.5,
+        "duration": 4.9,
+        "text": "And from that combined understanding, it can give any kind of output, a text answer,"
+      },
+      {
+        "start": 809.4,
+        "duration": 3.2,
+        "text": "a generated image or even an audio response."
+      },
+      {
+        "start": 812.7,
+        "duration": 6.0,
+        "text": "So basically it understands everything together and response in any form you need."
+      },
+      {
+        "start": 818.7,
+        "duration": 2.8,
+        "text": "So let us have a look at its use cases."
+      },
+      {
+        "start": 821.5,
+        "duration": 5.8,
+        "text": "It is used in complex queries such as some rise this video and create a chart."
+      },
+      {
+        "start": 827.3,
+        "duration": 7.5,
+        "text": "It is used in advanced digital assistance and also in future AR VR multi model applications."
+      },
+      {
+        "start": 834.8,
+        "duration": 4.1,
+        "text": "The next model is GPT 4.0 from open AR."
+      },
+      {
+        "start": 839.0,
+        "duration": 2.3,
+        "text": "It's a optimized multi model model."
+      },
+      {
+        "start": 841.2,
+        "duration": 6.5,
+        "text": "It accepts text images audio in real time and it uses fused embedding and parallel processing"
+      },
+      {
+        "start": 847.7,
+        "duration": 4.5,
+        "text": "for speed and it works as a true interactive assistant."
+      },
+      {
+        "start": 852.2,
+        "duration": 2.4,
+        "text": "So here are its use cases."
+      },
+      {
+        "start": 854.6,
+        "duration": 5.4,
+        "text": "It is used in conversational AI with vision plus audio and in real time assistance where"
+      },
+      {
+        "start": 860.0,
+        "duration": 5.7,
+        "text": "you upload an image and get explanation instantly and also in accessibility tools."
+      },
+      {
+        "start": 865.7,
+        "duration": 4.8,
+        "text": "For example, disk X surroundings for visually impaired users."
+      },
+      {
+        "start": 870.4,
+        "duration": 4.4,
+        "text": "So this models represent different approaches to multi modality."
+      },
+      {
+        "start": 874.8,
+        "duration": 6.7,
+        "text": "Some align separate encoders like clip, some bridge vision plus LLNs like BL IP2 and some"
+      },
+      {
+        "start": 881.5,
+        "duration": 4.2,
+        "text": "are natively multi model like Gemini and GPT 4.0."
+      },
+      {
+        "start": 885.8,
+        "duration": 4.2,
+        "text": "So now let us see how our multi model models trained."
+      },
+      {
+        "start": 890.0,
+        "duration": 5.9,
+        "text": "So training multi model models is much more complex than training single model models."
+      },
+      {
+        "start": 895.9,
+        "duration": 2.7,
+        "text": "So first is the data set alignment."
+      },
+      {
+        "start": 898.6,
+        "duration": 5.8,
+        "text": "So you need paid data sets such as images plus captions, videos plus transcripts and audio"
+      },
+      {
+        "start": 904.4,
+        "duration": 1.5,
+        "text": "plus text."
+      },
+      {
+        "start": 905.9,
+        "duration": 4.8,
+        "text": "So this challenges the text and images don't always align perfectly."
+      },
+      {
+        "start": 910.7,
+        "duration": 2.3,
+        "text": "So this is the contrastive learning."
+      },
+      {
+        "start": 913.0,
+        "duration": 5.0,
+        "text": "So trained model to pull matching pairs closer and push non matching pairs apart."
+      },
+      {
+        "start": 918.0,
+        "duration": 5.4,
+        "text": "For example, image of a cat plus caption or cat is a matching pair."
+      },
+      {
+        "start": 923.4,
+        "duration": 6.0,
+        "text": "Whereas image of a cat plus caption as a dog is not a matching pair."
+      },
+      {
+        "start": 929.5,
+        "duration": 2.6,
+        "text": "Next is the mask modeling."
+      },
+      {
+        "start": 932.0,
+        "duration": 6.9,
+        "text": "Mask parts of the input such as image patches, text tokens as model predicts missing information."
+      },
+      {
+        "start": 939.0,
+        "duration": 3.4,
+        "text": "And it forces the model to reason across modalities."
+      },
+      {
+        "start": 942.3,
+        "duration": 5.6,
+        "text": "For example, mask the object in a caption or dash is sitting on the table plus providing"
+      },
+      {
+        "start": 948.0,
+        "duration": 1.0,
+        "text": "image."
+      },
+      {
+        "start": 949.0,
+        "duration": 3.8,
+        "text": "Next, is it fusion and cross attention training?"
+      },
+      {
+        "start": 952.7,
+        "duration": 5.6,
+        "text": "Were models like flamingo or Gemini trained cross attention liars to integrate modalities?"
+      },
+      {
+        "start": 958.3,
+        "duration": 2.8,
+        "text": "It requires huge compute clusters."
+      },
+      {
+        "start": 961.1,
+        "duration": 6.6,
+        "text": "Next is scaling loss like LLNs multi model models get better with size and data diversity."
+      },
+      {
+        "start": 967.8,
+        "duration": 4.8,
+        "text": "Gemini plus GPT-40 trained on massive multi model corpora."
+      },
+      {
+        "start": 972.5,
+        "duration": 2.1,
+        "text": "So here are the training requirements."
+      },
+      {
+        "start": 974.6,
+        "duration": 6.6,
+        "text": "You need to have high quality paid data set billions of parameters and GPUs for weeks"
+      },
+      {
+        "start": 981.2,
+        "duration": 6.5,
+        "text": "or months and advanced optimization such as mixed position or shade training."
+      },
+      {
+        "start": 987.7,
+        "duration": 4.0,
+        "text": "So why is true multi model AI still hot?"
+      },
+      {
+        "start": 991.7,
+        "duration": 2.8,
+        "text": "It's because of data mismatch."
+      },
+      {
+        "start": 994.5,
+        "duration": 1.9,
+        "text": "Next is sequential."
+      },
+      {
+        "start": 996.4,
+        "duration": 3.3,
+        "text": "Images are spatial and audio is temporal."
+      },
+      {
+        "start": 999.7,
+        "duration": 3.0,
+        "text": "So aligning them perfectly is difficult."
+      },
+      {
+        "start": 1002.7,
+        "duration": 2.7,
+        "text": "Next is limited high quality data."
+      },
+      {
+        "start": 1005.4,
+        "duration": 6.0,
+        "text": "So billions of image text pairs exist but have noises and bias."
+      },
+      {
+        "start": 1011.4,
+        "duration": 2.9,
+        "text": "Next, bias and fairness."
+      },
+      {
+        "start": 1014.3,
+        "duration": 3.8,
+        "text": "Models learn cultural and social biases from multi model data."
+      },
+      {
+        "start": 1018.1,
+        "duration": 4.0,
+        "text": "For example, stereotypes in images and captions."
+      },
+      {
+        "start": 1022.2,
+        "duration": 2.3,
+        "text": "Next challenge is compute cost."
+      },
+      {
+        "start": 1024.5,
+        "duration": 2.6,
+        "text": "So training needs huge GPU clusters."
+      },
+      {
+        "start": 1027.1,
+        "duration": 5.8,
+        "text": "For example, hundreds of a hundred GPUs and fine tuning multi model models is even more"
+      },
+      {
+        "start": 1033.0,
+        "duration": 2.6,
+        "text": "expensive than text only."
+      },
+      {
+        "start": 1035.6,
+        "duration": 3.2,
+        "text": "And the final challenge is the evaluation difficulty."
+      },
+      {
+        "start": 1038.8,
+        "duration": 3.0,
+        "text": "So how do you measure reasoning across modalities?"
+      },
+      {
+        "start": 1041.8,
+        "duration": 2.3,
+        "text": "So there's no single easy benchmark."
+      },
+      {
+        "start": 1044.1,
+        "duration": 7.0,
+        "text": "So while multi model AI is powerful, it's also data hungry, compute heavy and still evolving."
+      },
+      {
+        "start": 1051.0,
+        "duration": 5.8,
+        "text": "So in simple words, the multi model AI can process and combine multiple types of data"
+      },
+      {
+        "start": 1056.8,
+        "duration": 3.3,
+        "text": "such as text, images, audio and video."
+      },
+      {
+        "start": 1060.1,
+        "duration": 5.4,
+        "text": "It's already in use such as GPT vision, Google lens, set driving cars and healthcare"
+      },
+      {
+        "start": 1065.6,
+        "duration": 1.0,
+        "text": "AI."
+      },
+      {
+        "start": 1066.6,
+        "duration": 4.4,
+        "text": "It's a big step towards AI that can understand the word like humans do."
+      },
+      {
+        "start": 1070.9,
+        "duration": 1.0,
+        "text": "So what do you think?"
+      },
+      {
+        "start": 1071.9,
+        "duration": 3.5,
+        "text": "Will multi model AI make AI more human like?"
+      },
+      {
+        "start": 1075.4,
+        "duration": 2.2,
+        "text": "So drop your thoughts in the comments."
+      },
+      {
+        "start": 1077.6,
+        "duration": 5.4,
+        "text": "And with this, we have come to an end to this video on what is multi model AI."
+      },
+      {
+        "start": 1083.0,
+        "duration": 4.3,
+        "text": "If you enjoy listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 1087.4,
+        "duration": 3.9,
+        "text": "on any of your dozen queries we will reply to them a day earlier."
+      },
+      {
+        "start": 1091.2,
+        "duration": 5.1,
+        "text": "And do look up for more videos and playlist and subscribe to Idureka's YouTube channel"
+      },
+      {
+        "start": 1096.3,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 1097.3,
+        "duration": 2.3,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Have you seen how tools like Chargeipity with Vision can look at an image you upload and describe it? Or how Dalie and Mid-Jerney can generate stunning images from just a text from? And now some AI models can even do both at the same time. They can see, read, listen and even create all in one go. So how is that possible? Well, that's because of something called multi-model AI. AI that doesn't just work with one type of data like only text or only images, but can understand and combine multiple types of information together, just like we humans do. So in this video, we are going to break down what multi-model AI really means and how multi-model AI works and explores some amazing real world examples that you're probably already using without even realizing it. So before we dive in, please like, share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Also, check out Idureka's Ancientique AI certification training. It is carefully crafted to meet industry demands and prepare you for the future of intelligent agents. You will gain practical skills in lengthening, drag, LLM ops and more through live instructor and live sessions and hands-on labs. Whether you are a beginner or a tech professional, this course helps you master the concepts and accelerate your AI career. So check out the course link given in the description box below. So first, let's break down the word multi-model. So multi means many and model refers to the modes of information like text, images, sound or video. So multi-model AI is an AI that can understand and work with multiple types of data at the same time. For example, a single AI model that can read text, look at images, listen to audio, watch videos and combine all of this to give a better answer. It sounds a bit like how humans process information, right? So why do we need multi-model AI? So think about how we interact with the world. If you are watching a movie, you are seeing visuals, listening to dialogue and understanding the story together. Or when you are explaining a recipe to someone, you might show pictures, describe steps and maybe even play a video. So humans naturally combine different scenes to understand things. So old AI models were single models. They could only process one type of data. Like a text model could only read and write and a vision model could only look at images. That real world problems are not just text or just images, they are mixed. So multi-model AI bridges this gap and it lets AI connect the dots between text, visuals, audio and more. So how does multi-model AI work? In simple terms, it works like this. It takes different types of input. For example, it could take a photo and a text question about that photo. It converts them into a common language inside the AI model. So think of it like translating text, images and audio into one shared understanding. Next, it results over all the data together. Then it gives you a smart answer that considers all the inputs. So for example, you show AI a picture of a dog and ask what breed is this? So it looks at the image, understands the features and responds that looks like a golden retriever. So it's combining vision plus language to answer. Now let us go through a working diagram of a full multi-model pipeline. So as you can see the screen, first it takes different inputs. It could be a text, image or even a video. Then it encoders for each modality. Later, this inputs will be translated into common AI language. Then a multi-model transformer uses cross-attention to connect relationship across text, images and audio and finally the model generates a response. So let me take another example to explain this diagram. So as you can see, we have different inputs. So the model can take text, images, audio or even video as input. Next is the encoders for each modality. That means a text encoder converts words into vectors and an image encoder converts pixels into vectors and then an audio encoder converts sound waves into vectors. Next is the shared embedding space where all these different inputs are translated into a common AI language, which is a vector space where similar meanings are close together. For example, the word card and the picture of a card are mapped close together. Next is the fusion plus reasoning layer where a multi-model transformer uses cross-attention to connect relationship across text, images and audio. For example, it links the word red to the red region of the card image. Next is the output generation. So finally, the model generates a response, which could be text, a caption and image like Dali or even sound. Alright, I hope this is clear now. So now let's look at some real world examples that make it easier to understand. So first we have shared GPD with vision. So if you upload an image to shared GPD and ask what's in this picture, then it can describe the objects, text or even analyze data like a chart. So that's multi-model A and it's using both image and the standing and text generation together. The next example is Google Lens. So when you point your camera at something, Google Lens can recognize the object, read the text in the image and translate into another language. Again, it's a vision plus language plus translation all in one model. The next example could be a self-driving cars. So autonomous cars like this last uses multi-model AI because they have to see the road through cameras, retrafics signals, here alerts and also process maps and text instructions. So they combine all these modes to make driving decisions. Next is the healthcare AI. So doctors now use AI that can look at medical images like X-rays and also read patient reports combining the information to help diagnose diseases more accurately. But why is multi-model AI a game changer? Multi-model AI is powerful because it's closer to human intelligence. We don't rely on one sense. We combine many. And it makes AI more flexible because one model can handle text, images, audio and more. It can solve more complex problems like explaining what's happening in a video or understanding a full conversation with context. Alright, now for those of you who want a bit more technical depth, here's a quick pick behind the scene. So as I discussed earlier, a multi-model AI uses transformer based models. The same type of models behind GPD. So the text, images and audio are all converted into a common representations like a shade language of numbers called embeddings. For example, a picture of a dog and the word dog are both mapped into a similar space. So the AI knows they mean the same thing. Then, the model can reason across all modalities together and generate an output. A great example is click from open AI which connects images and text. Another is Google Gemini, designed from the ground up as a truly multi-model model. So what is the biggest challenge? So the different types of data have different formats and complexity. Combining them efficiently without losing meaning is still an ongoing research area. So it's not just a magic, so it's smart design that lets the AI translate everything into one common understanding. Let's now look at some of the most important multi-model models, how they work and where they are used. So here are the key multi-model models. So first on the list, we have click which is CLIP, which stands for contrastive language image pre-training from open AI. So let's see how it works. So it has two encoders, a text encoder and an image encoder. So both encoders map inputs into the same emitting space. So during training, it learns this caption matches this image and this caption does not match that image. So it uses contrastive learning. It pushes correct pairs closer and incorrect pairs further apart. So here is the working diagram. So it takes the input, beat image or text and then it encoders. So an image is a vision encoder and for text is a text encoder. Then it is shared to a embedding space. And finally, it generates the output. So let's have a look at the use cases. So it is used in Dali and stable diffusion to align text prompts with images. Next, it is used in zero short classification where you give it a photo of a dog versus a photo of a cat and it recognizes which one matches the image without pre-training. And then it is used in search where it finds images similar to this caption. Next, moving on to second model, which is BLIP2. It stands for both strapping language image pre-training. So let us see how it works. So first, it connects a frozen vision encoder, for example, a clip or VIT with a frozen large language model which is NLM. A query transformer acts as a bridge where it converts visual features into a language-friendly representation. So here is the working diagram. The A and first looks at the image and turns it into a features like objects, color and shapes. Then a small bridge model called Qformer takes those visual features and converts them into a format the language model can understand. Next, the large language model then reasons about the image features just like it reasons about text. And finally, it generates a text answer or a caption describing the image. So vision encoder sees and Qformer translates and the LLM explains. So let us have a look at the use cases. So first, it is used in visual question answering. For example, what is in this picture? Next, in the image captioning, where it can give it like a man riding a horse on a beach. Next in a chat box with vision, for example, where you upload an image and ask questions. Okay, the next model on a list is Flamingo from DeepMind. So let us have a look at its working. So here is how it works. So first, it is a few short multi model model. It doesn't need huge fine tuning for a new task. And then it uses gated cross attention liars to integrate image plus text inside a frozen LLM. And it can reason across multiple images and a long text sequence. So it looks at the image, reads a question, connects go through cross attention and then explains it. So let us have a look at the use cases. So it is used in multi model chat box like look at these five images and now answer this question. Next, it is used in educational AI, where it read diagrams plus answer questions. Next in document understanding, where it reads text plus images in a video. And the next multi model on a list is palm from Google. So here is how it works. So as you can see, this is the working diagram. So first, the AI gets both visual input like a photo or a live camera feed and the text instructions like pick up the red apple on the table. Next, the vision transformer understand what's in the image like objects, colors and position. And the palm language model understands the instruction and reasons about what needs to be done. So it's combining both. The AI creates a step by step action plan for the robot like move forward, grab the red apple and place it in the basket. So here are the use cases. It is used in robotics like pick up the red apple on the table. Next, it is used in real world reasoning for embodied AI. Then it is also used in visual navigation task. And the next multi model is Google Gemini. So here's how it works. It's a native multi model trained from scratch on text images audio and video. So unlike clip, which aligns two encoders, Gemini has a single model handling all model entities and it uses joint training with cross attention. So this is the working diagram. So let me explain this. The AI takes in all types of inputs at once such as written text, pictures, sound and even video. Then instead of using separate models for each type, it uses one powerful transformer model that can understand and combine all these inputs together. And from that combined understanding, it can give any kind of output, a text answer, a generated image or even an audio response. So basically it understands everything together and response in any form you need. So let us have a look at its use cases. It is used in complex queries such as some rise this video and create a chart. It is used in advanced digital assistance and also in future AR VR multi model applications. The next model is GPT 4.0 from open AR. It's a optimized multi model model. It accepts text images audio in real time and it uses fused embedding and parallel processing for speed and it works as a true interactive assistant. So here are its use cases. It is used in conversational AI with vision plus audio and in real time assistance where you upload an image and get explanation instantly and also in accessibility tools. For example, disk X surroundings for visually impaired users. So this models represent different approaches to multi modality. Some align separate encoders like clip, some bridge vision plus LLNs like BL IP2 and some are natively multi model like Gemini and GPT 4.0. So now let us see how our multi model models trained. So training multi model models is much more complex than training single model models. So first is the data set alignment. So you need paid data sets such as images plus captions, videos plus transcripts and audio plus text. So this challenges the text and images don't always align perfectly. So this is the contrastive learning. So trained model to pull matching pairs closer and push non matching pairs apart. For example, image of a cat plus caption or cat is a matching pair. Whereas image of a cat plus caption as a dog is not a matching pair. Next is the mask modeling. Mask parts of the input such as image patches, text tokens as model predicts missing information. And it forces the model to reason across modalities. For example, mask the object in a caption or dash is sitting on the table plus providing image. Next, is it fusion and cross attention training? Were models like flamingo or Gemini trained cross attention liars to integrate modalities? It requires huge compute clusters. Next is scaling loss like LLNs multi model models get better with size and data diversity. Gemini plus GPT-40 trained on massive multi model corpora. So here are the training requirements. You need to have high quality paid data set billions of parameters and GPUs for weeks or months and advanced optimization such as mixed position or shade training. So why is true multi model AI still hot? It's because of data mismatch. Next is sequential. Images are spatial and audio is temporal. So aligning them perfectly is difficult. Next is limited high quality data. So billions of image text pairs exist but have noises and bias. Next, bias and fairness. Models learn cultural and social biases from multi model data. For example, stereotypes in images and captions. Next challenge is compute cost. So training needs huge GPU clusters. For example, hundreds of a hundred GPUs and fine tuning multi model models is even more expensive than text only. And the final challenge is the evaluation difficulty. So how do you measure reasoning across modalities? So there's no single easy benchmark. So while multi model AI is powerful, it's also data hungry, compute heavy and still evolving. So in simple words, the multi model AI can process and combine multiple types of data such as text, images, audio and video. It's already in use such as GPT vision, Google lens, set driving cars and healthcare AI. It's a big step towards AI that can understand the word like humans do. So what do you think? Will multi model AI make AI more human like? So drop your thoughts in the comments. And with this, we have come to an end to this video on what is multi model AI. If you enjoy listening to this video, please be kind enough to like it and you can comment on any of your dozen queries we will reply to them a day earlier. And do look up for more videos and playlist and subscribe to Idureka's YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

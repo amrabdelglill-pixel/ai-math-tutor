@@ -1,0 +1,974 @@
+{
+  "video_id": "tcImHmE6APc",
+  "video_title": "What is Data Driven Decision Making (DDDM) | How Data is Changing Business Forever | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 747.0,
+  "view_count": 4887,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.4,
+        "text": "Hello everyone and welcome to this video on Data Driven Decision Making."
+      },
+      {
+        "start": 12.4,
+        "duration": 4.2,
+        "text": "But before we get started, please like, share and subscribe to Adurekars YouTube channel"
+      },
+      {
+        "start": 16.6,
+        "duration": 4.2,
+        "text": "and hit the bell icon to stay updated on the latest account in from Adurekars."
+      },
+      {
+        "start": 20.8,
+        "duration": 4.9,
+        "text": "Also, take on the Adurekars Data Science course designed by industry professionals which"
+      },
+      {
+        "start": 25.8,
+        "duration": 4.2,
+        "text": "eqks learners with a solid foundation in data science concepts."
+      },
+      {
+        "start": 29.9,
+        "duration": 4.0,
+        "text": "Through interactive real world projects, you will gain practical skills in building machine"
+      },
+      {
+        "start": 33.9,
+        "duration": 5.3,
+        "text": "learning models, analyzing data using Python and making data driven decisions."
+      },
+      {
+        "start": 39.2,
+        "duration": 5.1,
+        "text": "And learn to craft advanced data science solutions that align with the organizational goals."
+      },
+      {
+        "start": 44.3,
+        "duration": 4.7,
+        "text": "So start your journey with Adurekars and take a step closer to becoming a globally recognized"
+      },
+      {
+        "start": 49.0,
+        "duration": 1.6,
+        "text": "data science expert."
+      },
+      {
+        "start": 50.6,
+        "duration": 3.6,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 54.2,
+        "duration": 4.0,
+        "text": "You may not work with programming or analyze complex data sets."
+      },
+      {
+        "start": 58.2,
+        "duration": 5.3,
+        "text": "But if you manage teams, make business decisions or track performance, you are already working"
+      },
+      {
+        "start": 63.5,
+        "duration": 1.0,
+        "text": "with data."
+      },
+      {
+        "start": 64.5,
+        "duration": 2.7,
+        "text": "So this is where data literacy becomes important."
+      },
+      {
+        "start": 67.2,
+        "duration": 5.8,
+        "text": "It's the ability to understand, interpret and apply data in your everyday task."
+      },
+      {
+        "start": 73.0,
+        "duration": 5.0,
+        "text": "So data literacy enables you to make decisions that are more informed, timely and aligned with"
+      },
+      {
+        "start": 78.0,
+        "duration": 1.0,
+        "text": "business goals."
+      },
+      {
+        "start": 79.0,
+        "duration": 2.9,
+        "text": "So here's what we will cover in this video."
+      },
+      {
+        "start": 82.2,
+        "duration": 5.5,
+        "text": "First, we will explore why data is crucial even for non-tech teams and how it impacts everyday"
+      },
+      {
+        "start": 87.8,
+        "duration": 1.0,
+        "text": "decisions."
+      },
+      {
+        "start": 88.8,
+        "duration": 5.5,
+        "text": "Next, we will dive into what data driven decision making means and how it transforms decisions"
+      },
+      {
+        "start": 94.2,
+        "duration": 2.4,
+        "text": "from guesswork to precision."
+      },
+      {
+        "start": 96.6,
+        "duration": 6.3,
+        "text": "And then we will discuss how DDDM improves decisions in various departments like sales,"
+      },
+      {
+        "start": 103.0,
+        "duration": 2.5,
+        "text": "marketing, HR and more."
+      },
+      {
+        "start": 105.4,
+        "duration": 5.1,
+        "text": "After that, we will look at what data literacy looks like in your specific role and how you"
+      },
+      {
+        "start": 110.6,
+        "duration": 2.2,
+        "text": "can use data effectively."
+      },
+      {
+        "start": 112.8,
+        "duration": 5.7,
+        "text": "We will also cover where the data comes from, including CRM, ERP and other common sources"
+      },
+      {
+        "start": 118.5,
+        "duration": 1.7,
+        "text": "you can rely on."
+      },
+      {
+        "start": 120.2,
+        "duration": 4.8,
+        "text": "Later, we will explore real world examples of how companies in the auto industry apply"
+      },
+      {
+        "start": 125.0,
+        "duration": 4.6,
+        "text": "DDDM in areas like procurement, sales and R&D."
+      },
+      {
+        "start": 129.6,
+        "duration": 6.2,
+        "text": "Next, we will introduce some user friendly tools like Excel, Power BI and Wender Portals to"
+      },
+      {
+        "start": 135.8,
+        "duration": 2.0,
+        "text": "help you make data back decisions."
+      },
+      {
+        "start": 138.4,
+        "duration": 5.0,
+        "text": "And then we will talk about how to build a data first mindset within your team and"
+      },
+      {
+        "start": 143.4,
+        "duration": 2.1,
+        "text": "across your organization."
+      },
+      {
+        "start": 145.6,
+        "duration": 4.5,
+        "text": "And finally, we will recap the key points and give you actionable steps to start using"
+      },
+      {
+        "start": 150.0,
+        "duration": 2.8,
+        "text": "data in your decision today."
+      },
+      {
+        "start": 152.8,
+        "duration": 4.3,
+        "text": "Now let us understand what is data driven decision making is."
+      },
+      {
+        "start": 157.1,
+        "duration": 5.9,
+        "text": "So the data driven decision making means using facts, trends and measurable insights to guide"
+      },
+      {
+        "start": 163.1,
+        "duration": 5.0,
+        "text": "your actions instead of relying only on instinct or past experience."
+      },
+      {
+        "start": 168.1,
+        "duration": 2.6,
+        "text": "So let us say you are choosing between two suppliers."
+      },
+      {
+        "start": 170.7,
+        "duration": 4.7,
+        "text": "You could go with the one you have used before or you could compare their delivery records,"
+      },
+      {
+        "start": 175.4,
+        "duration": 2.3,
+        "text": "cost trends and defect rates."
+      },
+      {
+        "start": 177.6,
+        "duration": 5.9,
+        "text": "So with data, you are still making the decisions but with greater clarity and confidence."
+      },
+      {
+        "start": 183.6,
+        "duration": 3.9,
+        "text": "But why DDDM matters in the automobile industry?"
+      },
+      {
+        "start": 187.5,
+        "duration": 5.0,
+        "text": "So the automotive industry relies on efficiency, accuracy and speed."
+      },
+      {
+        "start": 192.4,
+        "duration": 4.2,
+        "text": "The delivery department can benefit from making decision based on actual data rather than"
+      },
+      {
+        "start": 196.6,
+        "duration": 1.0,
+        "text": "assumptions."
+      },
+      {
+        "start": 197.6,
+        "duration": 5.2,
+        "text": "So let us look at how data driven decision making supports different teams across the automobile"
+      },
+      {
+        "start": 202.8,
+        "duration": 1.0,
+        "text": "industry."
+      },
+      {
+        "start": 203.8,
+        "duration": 3.4,
+        "text": "So first let us have a look at these sales."
+      },
+      {
+        "start": 207.3,
+        "duration": 5.6,
+        "text": "So sales teams use data to identify top selling car models, regions with highest demand"
+      },
+      {
+        "start": 212.9,
+        "duration": 2.4,
+        "text": "and the performance of dealerships."
+      },
+      {
+        "start": 215.2,
+        "duration": 5.7,
+        "text": "For example, if a specific model of SUV is performing well in a particular region, sales"
+      },
+      {
+        "start": 220.9,
+        "duration": 4.1,
+        "text": "can allocate more units to that area to meet demand."
+      },
+      {
+        "start": 225.0,
+        "duration": 6.2,
+        "text": "Next in marketing, marketing teams rely on data to try the effectiveness of their campaigns."
+      },
+      {
+        "start": 231.2,
+        "duration": 5.2,
+        "text": "They look at the customer engagement, the success of digital ads and the market trends."
+      },
+      {
+        "start": 236.4,
+        "duration": 6.1,
+        "text": "For example, if an online ad campaign is increasing traffic to showrooms in one city, they can"
+      },
+      {
+        "start": 242.6,
+        "duration": 3.7,
+        "text": "adjust the budget and focus more on digital marketing for that region."
+      },
+      {
+        "start": 246.3,
+        "duration": 2.4,
+        "text": "And the next team is the HR."
+      },
+      {
+        "start": 248.8,
+        "duration": 5.8,
+        "text": "HR teams analyze data to identify employee turnover trends and engagement levels."
+      },
+      {
+        "start": 254.6,
+        "duration": 5.6,
+        "text": "For example, if there is a spike in resignations from a specific department, HR can investigate"
+      },
+      {
+        "start": 260.3,
+        "duration": 6.6,
+        "text": "the causes such as workload or work life balance and take necessary actions to improve retention."
+      },
+      {
+        "start": 266.9,
+        "duration": 2.8,
+        "text": "The next team we are going to discuss is finance."
+      },
+      {
+        "start": 269.7,
+        "duration": 5.5,
+        "text": "So finance teams use historical data to focus budgets, track variances and look for"
+      },
+      {
+        "start": 275.2,
+        "duration": 1.9,
+        "text": "cost saving opportunities."
+      },
+      {
+        "start": 277.1,
+        "duration": 4.7,
+        "text": "So if a supplier's prices for certain car parts have been increasingly over the past few"
+      },
+      {
+        "start": 281.8,
+        "duration": 6.0,
+        "text": "quarters, finance can look into alternative suppliers or negotiate better deals."
+      },
+      {
+        "start": 287.8,
+        "duration": 1.9,
+        "text": "Next is the operations."
+      },
+      {
+        "start": 289.7,
+        "duration": 4.9,
+        "text": "So the operation teams monitor production lines and identify inefficiency or recurring"
+      },
+      {
+        "start": 294.6,
+        "duration": 1.0,
+        "text": "quality issues."
+      },
+      {
+        "start": 295.6,
+        "duration": 5.1,
+        "text": "For example, we can say that if there is consistent downtime in one assembly line, data"
+      },
+      {
+        "start": 300.7,
+        "duration": 4.8,
+        "text": "front sensors can show that a specific machine needs maintenance or replacement, which allow"
+      },
+      {
+        "start": 305.6,
+        "duration": 4.3,
+        "text": "operation teams to schedule repairs before it affects production."
+      },
+      {
+        "start": 309.9,
+        "duration": 2.0,
+        "text": "Next is a customer service."
+      },
+      {
+        "start": 311.8,
+        "duration": 4.2,
+        "text": "So the customer service team extract feedback to identify common complaints."
+      },
+      {
+        "start": 316.0,
+        "duration": 5.8,
+        "text": "So if many customer report issues with a particular car model such as faulty brakes or poor fuel"
+      },
+      {
+        "start": 321.8,
+        "duration": 5.2,
+        "text": "efficiency, the team can escalate the issue to the engineering or quality control departments"
+      },
+      {
+        "start": 327.0,
+        "duration": 1.7,
+        "text": "to address the problem."
+      },
+      {
+        "start": 328.8,
+        "duration": 2.3,
+        "text": "Next is the procurement teams."
+      },
+      {
+        "start": 331.0,
+        "duration": 3.9,
+        "text": "So the procurement teams use data to evaluate supplier performance."
+      },
+      {
+        "start": 335.0,
+        "duration": 6.0,
+        "text": "So they compare factors such as delivery times, cost fluctuations and product quality."
+      },
+      {
+        "start": 341.0,
+        "duration": 4.7,
+        "text": "So for example, if a supplier consistently delivers parts late, procurement can switch"
+      },
+      {
+        "start": 345.6,
+        "duration": 3.8,
+        "text": "to a more reliable supplier to avoid production delays."
+      },
+      {
+        "start": 349.4,
+        "duration": 3.3,
+        "text": "The next thing that we are going to discuss is R&D teams."
+      },
+      {
+        "start": 352.7,
+        "duration": 5.4,
+        "text": "So the R&D teams use data from customer feedback, service logs and feed reports to define"
+      },
+      {
+        "start": 358.1,
+        "duration": 1.3,
+        "text": "car designs."
+      },
+      {
+        "start": 359.4,
+        "duration": 5.5,
+        "text": "So if a specific feature such as the dashboard receives repeated complaints, R&D can redesign"
+      },
+      {
+        "start": 364.9,
+        "duration": 4.8,
+        "text": "that feature in the next car model, improving the user experience."
+      },
+      {
+        "start": 369.7,
+        "duration": 4.9,
+        "text": "Now let us have a look at what does data literacy look like in your role?"
+      },
+      {
+        "start": 374.6,
+        "duration": 6.0,
+        "text": "Well, data literacy means being able to work with information to support your responsibilities."
+      },
+      {
+        "start": 380.5,
+        "duration": 4.8,
+        "text": "It includes skills such as asking the right questions based on business needs and reading"
+      },
+      {
+        "start": 385.3,
+        "duration": 6.1,
+        "text": "dashboards, reports or Excel summaries and then identifying trends outliners or performance"
+      },
+      {
+        "start": 391.4,
+        "duration": 6.9,
+        "text": "shifts and also verifying ideas with supporting data and sharing insights clearly with others."
+      },
+      {
+        "start": 398.3,
+        "duration": 3.2,
+        "text": "So let us have a look at the examples by role."
+      },
+      {
+        "start": 401.4,
+        "duration": 6.3,
+        "text": "So a procurement manager checks supplier performance using scorecards and an R&D head"
+      },
+      {
+        "start": 407.8,
+        "duration": 6.9,
+        "text": "reviews field data on product defects and an HR analyst identifies turnover trends using"
+      },
+      {
+        "start": 414.7,
+        "duration": 1.0,
+        "text": "historical charts."
+      },
+      {
+        "start": 415.7,
+        "duration": 4.9,
+        "text": "So they are not just asking how many people left but to why wear and wear."
+      },
+      {
+        "start": 420.6,
+        "duration": 5.8,
+        "text": "A marketer studies heat maps and engagement dashboards to evaluate campaign effectiveness."
+      },
+      {
+        "start": 426.4,
+        "duration": 5.8,
+        "text": "And then a salesperson tracks closures across different regions and time periods."
+      },
+      {
+        "start": 432.2,
+        "duration": 3.6,
+        "text": "And this is how the data literacy look like in your role."
+      },
+      {
+        "start": 435.8,
+        "duration": 1.6,
+        "text": "I hope it's clear now."
+      },
+      {
+        "start": 437.4,
+        "duration": 4.0,
+        "text": "Moving on to let us understand where does the data comes from."
+      },
+      {
+        "start": 441.4,
+        "duration": 4.9,
+        "text": "So the good news is most of the data you need already exists in your systems and you"
+      },
+      {
+        "start": 446.3,
+        "duration": 2.1,
+        "text": "don't have to build it from scratch."
+      },
+      {
+        "start": 448.4,
+        "duration": 5.8,
+        "text": "Typically sources include CRN systems which captures customer feedback, complaints and interaction"
+      },
+      {
+        "start": 454.2,
+        "duration": 1.2,
+        "text": "history."
+      },
+      {
+        "start": 455.4,
+        "duration": 6.2,
+        "text": "And then ARP platforms provide inventory updates, supplier performance and production data."
+      },
+      {
+        "start": 461.6,
+        "duration": 5.9,
+        "text": "Next is the quality control logs which helps track defect rates and inception outcomes."
+      },
+      {
+        "start": 467.4,
+        "duration": 6.7,
+        "text": "This is the Excel or MIS reports with some rise sales numbers, expenses and procurement"
+      },
+      {
+        "start": 474.2,
+        "duration": 1.0,
+        "text": "records."
+      },
+      {
+        "start": 475.2,
+        "duration": 6.2,
+        "text": "Next is the service and forms which collect feedback from employees and customers."
+      },
+      {
+        "start": 481.3,
+        "duration": 5.6,
+        "text": "And finally, an industry reports help benchmark your performance against market trends."
+      },
+      {
+        "start": 487.0,
+        "duration": 4.7,
+        "text": "And understanding how to access and interpret this data allows you to ask better questions"
+      },
+      {
+        "start": 491.6,
+        "duration": 1.7,
+        "text": "and take timely actions."
+      },
+      {
+        "start": 494.2,
+        "duration": 5.4,
+        "text": "Now let us discuss some of the real world examples of data driven decision making."
+      },
+      {
+        "start": 499.6,
+        "duration": 5.3,
+        "text": "So in procurement team, the Toyota noted a gradual decrease in timely delivers from one"
+      },
+      {
+        "start": 504.9,
+        "duration": 2.7,
+        "text": "of its regional parts suppliers."
+      },
+      {
+        "start": 507.6,
+        "duration": 4.4,
+        "text": "And the procurement team examine vendor scorecards and monthly delivery logs."
+      },
+      {
+        "start": 512.0,
+        "duration": 3.6,
+        "text": "Data revealed a constant reduction over a three month period."
+      },
+      {
+        "start": 515.6,
+        "duration": 4.6,
+        "text": "And instead of depending on previous relationships, they chose a more dependable supplier with"
+      },
+      {
+        "start": 520.2,
+        "duration": 2.1,
+        "text": "higher lead time consistency."
+      },
+      {
+        "start": 522.3,
+        "duration": 7.4,
+        "text": "And as a result, turnaround time improved by 12% and assembly line delays were reduced."
+      },
+      {
+        "start": 529.7,
+        "duration": 1.8,
+        "text": "Next in the R&D team."
+      },
+      {
+        "start": 531.5,
+        "duration": 6.4,
+        "text": "So between 2009 and 2011, Toyota issued recalls from millions of vehicles globally owning"
+      },
+      {
+        "start": 537.9,
+        "duration": 4.9,
+        "text": "two issues such as unintended accelerations and break few with leakage."
+      },
+      {
+        "start": 542.8,
+        "duration": 4.5,
+        "text": "And the company examined defect data and customers' complaints to determine the fundamental"
+      },
+      {
+        "start": 547.3,
+        "duration": 1.2,
+        "text": "issues."
+      },
+      {
+        "start": 548.5,
+        "duration": 4.4,
+        "text": "This resulted in design changes and the introduction of new safety features."
+      },
+      {
+        "start": 552.9,
+        "duration": 5.0,
+        "text": "Toyota improved vehicle safety and restored customer trust by thoroughly studying field"
+      },
+      {
+        "start": 558.0,
+        "duration": 1.0,
+        "text": "data."
+      },
+      {
+        "start": 559.0,
+        "duration": 2.4,
+        "text": "Next in operation teams."
+      },
+      {
+        "start": 561.3,
+        "duration": 5.2,
+        "text": "So Toyota adapted the single-minute exchange of dye technology to minimize the time necessary"
+      },
+      {
+        "start": 566.6,
+        "duration": 3.4,
+        "text": "to change stamping dye throughout the manufacturing process."
+      },
+      {
+        "start": 570.0,
+        "duration": 4.6,
+        "text": "Initially, dye changes took between 12 hours and nearly 3 days."
+      },
+      {
+        "start": 574.8,
+        "duration": 4.6,
+        "text": "Toyota decreased dye replacement time to less than 10 minutes by studying the process"
+      },
+      {
+        "start": 579.4,
+        "duration": 6.5,
+        "text": "and implementing precise measurement devices, standardized procedures and specialized tools."
+      },
+      {
+        "start": 586.0,
+        "duration": 5.2,
+        "text": "So this major improvement enables smaller production lot sizes and greater manufacturing"
+      },
+      {
+        "start": 591.1,
+        "duration": 1.0,
+        "text": "flexibility."
+      },
+      {
+        "start": 592.1,
+        "duration": 5.2,
+        "text": "So let's look at some simple tools that make it easier to work with data without needing"
+      },
+      {
+        "start": 597.3,
+        "duration": 2.1,
+        "text": "any technical background."
+      },
+      {
+        "start": 599.4,
+        "duration": 4.4,
+        "text": "So you don't need to learn advanced software to start using data effectively."
+      },
+      {
+        "start": 603.8,
+        "duration": 6.2,
+        "text": "Most organizations already use tools that support data-based work such as Excel to use filters,"
+      },
+      {
+        "start": 610.1,
+        "duration": 6.1,
+        "text": "pivot tables and charts to analyze sales trends, cost reports or supplier performance."
+      },
+      {
+        "start": 616.2,
+        "duration": 4.9,
+        "text": "The next tool that is used is Power BI or Tab U. So these tools provide interactive"
+      },
+      {
+        "start": 621.1,
+        "duration": 5.6,
+        "text": "experts that allow you to easily explore sales, quality or production data."
+      },
+      {
+        "start": 626.6,
+        "duration": 3.6,
+        "text": "The next tool is the Google sheet or MIS emails."
+      },
+      {
+        "start": 630.2,
+        "duration": 5.6,
+        "text": "So use this for team collaboration, sharing updates and tracking ongoing projects."
+      },
+      {
+        "start": 635.8,
+        "duration": 4.6,
+        "text": "And the next tool is the Wender Portals, where you can track the status of orders including"
+      },
+      {
+        "start": 640.4,
+        "duration": 3.4,
+        "text": "delays or fulfillment issues in real time."
+      },
+      {
+        "start": 643.8,
+        "duration": 5.7,
+        "text": "And finally, the field reports, which helps to analyze product quality and customer experiences,"
+      },
+      {
+        "start": 649.5,
+        "duration": 4.2,
+        "text": "which highlights areas for improvements in the next production cycle."
+      },
+      {
+        "start": 653.7,
+        "duration": 5.5,
+        "text": "Next, let's see how you can create a culture where data becomes part of every date decision"
+      },
+      {
+        "start": 659.2,
+        "duration": 1.6,
+        "text": "making across your team."
+      },
+      {
+        "start": 660.8,
+        "duration": 5.1,
+        "text": "So creating a data first to work environment doesn't require major changes."
+      },
+      {
+        "start": 665.9,
+        "duration": 5.0,
+        "text": "It starts with consistent practice such as bringing data into daily discussion, making"
+      },
+      {
+        "start": 670.9,
+        "duration": 5.8,
+        "text": "key metrics visible to the team and encouraging feedback based on facts and recognizing team"
+      },
+      {
+        "start": 676.7,
+        "duration": 5.2,
+        "text": "members who apply insights to solve problems and finally, sharing success stories driven"
+      },
+      {
+        "start": 682.0,
+        "duration": 1.5,
+        "text": "by data use."
+      },
+      {
+        "start": 683.5,
+        "duration": 5.7,
+        "text": "And this helps every team become more informed, responsive and aligned with business goals."
+      },
+      {
+        "start": 689.2,
+        "duration": 4.8,
+        "text": "So we can say that data is not limited to analyst or IT department."
+      },
+      {
+        "start": 694.0,
+        "duration": 4.8,
+        "text": "It is a powerful tool for all professionals, whether you are deciding which vendor to choose,"
+      },
+      {
+        "start": 698.7,
+        "duration": 3.8,
+        "text": "how to improve a process or when to act on a new trend."
+      },
+      {
+        "start": 702.6,
+        "duration": 2.8,
+        "text": "Data provides clarity and direction."
+      },
+      {
+        "start": 705.4,
+        "duration": 3.9,
+        "text": "And with a thoughtful approach and the right questions, every non-technical professionals"
+      },
+      {
+        "start": 709.3,
+        "duration": 3.9,
+        "text": "can contribute to a data driven organization starting today."
+      },
+      {
+        "start": 713.2,
+        "duration": 4.5,
+        "text": "And with this, we have come to an end to this video on data driven decision making."
+      },
+      {
+        "start": 717.7,
+        "duration": 4.4,
+        "text": "If you enjoyed listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 722.1,
+        "duration": 4.2,
+        "text": "on any of your doubts and queries we will reply to them earlier."
+      },
+      {
+        "start": 726.3,
+        "duration": 4.5,
+        "text": "And do look up for more videos and playlists and subscribe to Id Urika's YouTube channel"
+      },
+      {
+        "start": 730.8,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 731.8,
+        "duration": 1.9,
+        "text": "Thank you for watching and Happy Learning!"
+      }
+    ],
+    "full_text": "Hello everyone and welcome to this video on Data Driven Decision Making. But before we get started, please like, share and subscribe to Adurekars YouTube channel and hit the bell icon to stay updated on the latest account in from Adurekars. Also, take on the Adurekars Data Science course designed by industry professionals which eqks learners with a solid foundation in data science concepts. Through interactive real world projects, you will gain practical skills in building machine learning models, analyzing data using Python and making data driven decisions. And learn to craft advanced data science solutions that align with the organizational goals. So start your journey with Adurekars and take a step closer to becoming a globally recognized data science expert. So check out the course link given in the description box below. You may not work with programming or analyze complex data sets. But if you manage teams, make business decisions or track performance, you are already working with data. So this is where data literacy becomes important. It's the ability to understand, interpret and apply data in your everyday task. So data literacy enables you to make decisions that are more informed, timely and aligned with business goals. So here's what we will cover in this video. First, we will explore why data is crucial even for non-tech teams and how it impacts everyday decisions. Next, we will dive into what data driven decision making means and how it transforms decisions from guesswork to precision. And then we will discuss how DDDM improves decisions in various departments like sales, marketing, HR and more. After that, we will look at what data literacy looks like in your specific role and how you can use data effectively. We will also cover where the data comes from, including CRM, ERP and other common sources you can rely on. Later, we will explore real world examples of how companies in the auto industry apply DDDM in areas like procurement, sales and R&D. Next, we will introduce some user friendly tools like Excel, Power BI and Wender Portals to help you make data back decisions. And then we will talk about how to build a data first mindset within your team and across your organization. And finally, we will recap the key points and give you actionable steps to start using data in your decision today. Now let us understand what is data driven decision making is. So the data driven decision making means using facts, trends and measurable insights to guide your actions instead of relying only on instinct or past experience. So let us say you are choosing between two suppliers. You could go with the one you have used before or you could compare their delivery records, cost trends and defect rates. So with data, you are still making the decisions but with greater clarity and confidence. But why DDDM matters in the automobile industry? So the automotive industry relies on efficiency, accuracy and speed. The delivery department can benefit from making decision based on actual data rather than assumptions. So let us look at how data driven decision making supports different teams across the automobile industry. So first let us have a look at these sales. So sales teams use data to identify top selling car models, regions with highest demand and the performance of dealerships. For example, if a specific model of SUV is performing well in a particular region, sales can allocate more units to that area to meet demand. Next in marketing, marketing teams rely on data to try the effectiveness of their campaigns. They look at the customer engagement, the success of digital ads and the market trends. For example, if an online ad campaign is increasing traffic to showrooms in one city, they can adjust the budget and focus more on digital marketing for that region. And the next team is the HR. HR teams analyze data to identify employee turnover trends and engagement levels. For example, if there is a spike in resignations from a specific department, HR can investigate the causes such as workload or work life balance and take necessary actions to improve retention. The next team we are going to discuss is finance. So finance teams use historical data to focus budgets, track variances and look for cost saving opportunities. So if a supplier's prices for certain car parts have been increasingly over the past few quarters, finance can look into alternative suppliers or negotiate better deals. Next is the operations. So the operation teams monitor production lines and identify inefficiency or recurring quality issues. For example, we can say that if there is consistent downtime in one assembly line, data front sensors can show that a specific machine needs maintenance or replacement, which allow operation teams to schedule repairs before it affects production. Next is a customer service. So the customer service team extract feedback to identify common complaints. So if many customer report issues with a particular car model such as faulty brakes or poor fuel efficiency, the team can escalate the issue to the engineering or quality control departments to address the problem. Next is the procurement teams. So the procurement teams use data to evaluate supplier performance. So they compare factors such as delivery times, cost fluctuations and product quality. So for example, if a supplier consistently delivers parts late, procurement can switch to a more reliable supplier to avoid production delays. The next thing that we are going to discuss is R&D teams. So the R&D teams use data from customer feedback, service logs and feed reports to define car designs. So if a specific feature such as the dashboard receives repeated complaints, R&D can redesign that feature in the next car model, improving the user experience. Now let us have a look at what does data literacy look like in your role? Well, data literacy means being able to work with information to support your responsibilities. It includes skills such as asking the right questions based on business needs and reading dashboards, reports or Excel summaries and then identifying trends outliners or performance shifts and also verifying ideas with supporting data and sharing insights clearly with others. So let us have a look at the examples by role. So a procurement manager checks supplier performance using scorecards and an R&D head reviews field data on product defects and an HR analyst identifies turnover trends using historical charts. So they are not just asking how many people left but to why wear and wear. A marketer studies heat maps and engagement dashboards to evaluate campaign effectiveness. And then a salesperson tracks closures across different regions and time periods. And this is how the data literacy look like in your role. I hope it's clear now. Moving on to let us understand where does the data comes from. So the good news is most of the data you need already exists in your systems and you don't have to build it from scratch. Typically sources include CRN systems which captures customer feedback, complaints and interaction history. And then ARP platforms provide inventory updates, supplier performance and production data. Next is the quality control logs which helps track defect rates and inception outcomes. This is the Excel or MIS reports with some rise sales numbers, expenses and procurement records. Next is the service and forms which collect feedback from employees and customers. And finally, an industry reports help benchmark your performance against market trends. And understanding how to access and interpret this data allows you to ask better questions and take timely actions. Now let us discuss some of the real world examples of data driven decision making. So in procurement team, the Toyota noted a gradual decrease in timely delivers from one of its regional parts suppliers. And the procurement team examine vendor scorecards and monthly delivery logs. Data revealed a constant reduction over a three month period. And instead of depending on previous relationships, they chose a more dependable supplier with higher lead time consistency. And as a result, turnaround time improved by 12% and assembly line delays were reduced. Next in the R&D team. So between 2009 and 2011, Toyota issued recalls from millions of vehicles globally owning two issues such as unintended accelerations and break few with leakage. And the company examined defect data and customers' complaints to determine the fundamental issues. This resulted in design changes and the introduction of new safety features. Toyota improved vehicle safety and restored customer trust by thoroughly studying field data. Next in operation teams. So Toyota adapted the single-minute exchange of dye technology to minimize the time necessary to change stamping dye throughout the manufacturing process. Initially, dye changes took between 12 hours and nearly 3 days. Toyota decreased dye replacement time to less than 10 minutes by studying the process and implementing precise measurement devices, standardized procedures and specialized tools. So this major improvement enables smaller production lot sizes and greater manufacturing flexibility. So let's look at some simple tools that make it easier to work with data without needing any technical background. So you don't need to learn advanced software to start using data effectively. Most organizations already use tools that support data-based work such as Excel to use filters, pivot tables and charts to analyze sales trends, cost reports or supplier performance. The next tool that is used is Power BI or Tab U. So these tools provide interactive experts that allow you to easily explore sales, quality or production data. The next tool is the Google sheet or MIS emails. So use this for team collaboration, sharing updates and tracking ongoing projects. And the next tool is the Wender Portals, where you can track the status of orders including delays or fulfillment issues in real time. And finally, the field reports, which helps to analyze product quality and customer experiences, which highlights areas for improvements in the next production cycle. Next, let's see how you can create a culture where data becomes part of every date decision making across your team. So creating a data first to work environment doesn't require major changes. It starts with consistent practice such as bringing data into daily discussion, making key metrics visible to the team and encouraging feedback based on facts and recognizing team members who apply insights to solve problems and finally, sharing success stories driven by data use. And this helps every team become more informed, responsive and aligned with business goals. So we can say that data is not limited to analyst or IT department. It is a powerful tool for all professionals, whether you are deciding which vendor to choose, how to improve a process or when to act on a new trend. Data provides clarity and direction. And with a thoughtful approach and the right questions, every non-technical professionals can contribute to a data driven organization starting today. And with this, we have come to an end to this video on data driven decision making. If you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them earlier. And do look up for more videos and playlists and subscribe to Id Urika's YouTube channel to learn more. Thank you for watching and Happy Learning!"
+  }
+}

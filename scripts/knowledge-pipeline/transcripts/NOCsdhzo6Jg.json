@@ -1,0 +1,514 @@
+{
+  "video_id": "NOCsdhzo6Jg",
+  "video_title": "How They Fool Ya (live) | Math parody of Hallelujah",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 240.0,
+  "view_count": 1143322,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 2.0,
+        "text": "It's two of them farther than eight and at 16, right?"
+      },
+      {
+        "start": 2.0,
+        "duration": 1.0,
+        "text": "This is very nice."
+      },
+      {
+        "start": 5.0,
+        "duration": 3.3,
+        "text": "And before I go on with this particular pattern,"
+      },
+      {
+        "start": 8.3,
+        "duration": 1.5,
+        "text": "there's a fun story about it."
+      },
+      {
+        "start": 9.8,
+        "duration": 1.3,
+        "text": "A little known fact."
+      },
+      {
+        "start": 11.2,
+        "duration": 2.1,
+        "text": "Do you guys know the song, Hallelujah,"
+      },
+      {
+        "start": 13.2,
+        "duration": 1.5,
+        "text": "the one popular contract?"
+      },
+      {
+        "start": 14.7,
+        "duration": 1.5,
+        "text": "Oh, there's a lot of this."
+      },
+      {
+        "start": 16.2,
+        "duration": 1.6,
+        "text": "Yeah, okay, we own it a song."
+      },
+      {
+        "start": 17.8,
+        "duration": 1.9,
+        "text": "Lots of different artists have played it."
+      },
+      {
+        "start": 19.7,
+        "duration": 2.1,
+        "text": "The original artist was Leonard Cohen."
+      },
+      {
+        "start": 21.8,
+        "duration": 1.8,
+        "text": "He was the one who wrote the lyrics."
+      },
+      {
+        "start": 23.6,
+        "duration": 1.6,
+        "text": "Few people know, can't you went through"
+      },
+      {
+        "start": 25.2,
+        "duration": 1.9,
+        "text": "many, many, many different iterations"
+      },
+      {
+        "start": 27.1,
+        "duration": 1.5,
+        "text": "of what the song would be?"
+      },
+      {
+        "start": 28.6,
+        "duration": 2.3,
+        "text": "And ultimately ended up as this kind of"
+      },
+      {
+        "start": 30.9,
+        "duration": 3.0,
+        "text": "biblical devastation of love."
+      },
+      {
+        "start": 33.8,
+        "duration": 2.0,
+        "text": "But one of the earlier versions was about"
+      },
+      {
+        "start": 35.8,
+        "duration": 1.8,
+        "text": "this particular pattern in math."
+      },
+      {
+        "start": 37.6,
+        "duration": 2.9,
+        "text": "I'm just in truth."
+      },
+      {
+        "start": 40.5,
+        "duration": 2.0,
+        "text": "Leonard Cohen was a low key math puff."
+      },
+      {
+        "start": 42.5,
+        "duration": 1.0,
+        "text": "Oh, good."
+      },
+      {
+        "start": 43.5,
+        "duration": 3.4,
+        "text": "And I thought, it might be fun."
+      },
+      {
+        "start": 46.9,
+        "duration": 2.2,
+        "text": "Because I don't want the original version to get lost"
+      },
+      {
+        "start": 49.1,
+        "duration": 2.4,
+        "text": "in the annals of history."
+      },
+      {
+        "start": 51.5,
+        "duration": 3.5,
+        "text": "To share with you guys what this would have sounded like."
+      },
+      {
+        "start": 55.0,
+        "duration": 2.0,
+        "text": "If history had turned out by the way, if you didn't,"
+      },
+      {
+        "start": 57.0,
+        "duration": 2.4,
+        "text": "you know, make it out about this religion"
+      },
+      {
+        "start": 59.4,
+        "duration": 2.0,
+        "text": "and homologous great things."
+      },
+      {
+        "start": 61.4,
+        "duration": 4.2,
+        "text": "So I could welcome to the stage yet again."
+      },
+      {
+        "start": 65.6,
+        "duration": 3.4,
+        "text": "To accompany on keynote, Matt Parker."
+      },
+      {
+        "start": 69.0,
+        "duration": 2.6,
+        "text": "You're wonderful."
+      },
+      {
+        "start": 71.6,
+        "duration": 1.8,
+        "text": "And I know I'm no Leonard Cohen,"
+      },
+      {
+        "start": 73.4,
+        "duration": 2.2,
+        "text": "but just imagine if you're watching track"
+      },
+      {
+        "start": 75.6,
+        "duration": 2.0,
+        "text": "and you're going to get to that typical moment"
+      },
+      {
+        "start": 77.6,
+        "duration": 1.6,
+        "text": "and you don't know what it's going to hold."
+      },
+      {
+        "start": 79.2,
+        "duration": 2.2,
+        "text": "You would actually hear the popular original."
+      },
+      {
+        "start": 82.2,
+        "duration": 2.3,
+        "text": "You're a lot heard."
+      },
+      {
+        "start": 84.4,
+        "duration": 3.0,
+        "text": "There are ones, the secrets of chords."
+      },
+      {
+        "start": 87.4,
+        "duration": 2.2,
+        "text": "It's but the circle to one, two, then four."
+      },
+      {
+        "start": 89.7,
+        "duration": 5.0,
+        "text": "And points seem to come in hours or two."
+      },
+      {
+        "start": 94.6,
+        "duration": 2.0,
+        "text": "Yeah."
+      },
+      {
+        "start": 96.6,
+        "duration": 1.0,
+        "text": "I'm like this."
+      },
+      {
+        "start": 97.6,
+        "duration": 4.0,
+        "text": "And four, then the fifth, and the something's up."
+      },
+      {
+        "start": 101.6,
+        "duration": 6.0,
+        "text": "When you're out of six, it's about 731."
+      },
+      {
+        "start": 107.9,
+        "duration": 1.5,
+        "text": "All right, you can do that."
+      },
+      {
+        "start": 109.3,
+        "duration": 0.6,
+        "text": "Thanks."
+      },
+      {
+        "start": 114.2,
+        "duration": 5.1,
+        "text": "Honestly, you have to smile and give it a try."
+      },
+      {
+        "start": 119.3,
+        "duration": 4.8,
+        "text": "I always want you to hear this habit."
+      },
+      {
+        "start": 126.1,
+        "duration": 2.0,
+        "text": "I'll follow you in a minute."
+      },
+      {
+        "start": 128.1,
+        "duration": 3.5,
+        "text": "Anya, whatever, all that."
+      },
+      {
+        "start": 131.6,
+        "duration": 8.0,
+        "text": "When you're on the surface, you still need proof."
+      },
+      {
+        "start": 139.6,
+        "duration": 3.0,
+        "text": "I believe you are a truth."
+      },
+      {
+        "start": 142.6,
+        "duration": 5.0,
+        "text": "The general upon the left is pie over to you."
+      },
+      {
+        "start": 147.6,
+        "duration": 2.0,
+        "text": "I think that's true."
+      },
+      {
+        "start": 149.6,
+        "duration": 4.0,
+        "text": "For the next, you're just better, but like a girl we've shown,"
+      },
+      {
+        "start": 153.6,
+        "duration": 1.0,
+        "text": "that it's off by her hair."
+      },
+      {
+        "start": 154.6,
+        "duration": 4.0,
+        "text": "It's a sudden, stupid, terrible, terrible, terrible,"
+      },
+      {
+        "start": 158.6,
+        "duration": 15.0,
+        "text": "terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, bad."
+      },
+      {
+        "start": 173.6,
+        "duration": 11.0,
+        "text": "Now take a prime and write it in face form."
+      },
+      {
+        "start": 184.6,
+        "duration": 4.5,
+        "text": "You just have to have the floor to keep the fine gifts"
+      },
+      {
+        "start": 189.2,
+        "duration": 3.2,
+        "text": "And you will run with this room, yeah"
+      },
+      {
+        "start": 192.3,
+        "duration": 3.2,
+        "text": "Or does it though?"
+      },
+      {
+        "start": 195.6,
+        "duration": 3.0,
+        "text": "It will eventually find new friends or not"
+      },
+      {
+        "start": 198.5,
+        "duration": 2.9,
+        "text": "So simply design patterns hold"
+      },
+      {
+        "start": 201.4,
+        "duration": 1.8,
+        "text": "Then they're broken"
+      },
+      {
+        "start": 203.2,
+        "duration": 2.9,
+        "text": "How did you know?"
+      },
+      {
+        "start": 206.1,
+        "duration": 1.8,
+        "text": "How did you know?"
+      },
+      {
+        "start": 208.0,
+        "duration": 2.7,
+        "text": "How did you know?"
+      },
+      {
+        "start": 210.6,
+        "duration": 3.0,
+        "text": "How did you know?"
+      },
+      {
+        "start": 213.6,
+        "duration": 3.1,
+        "text": "How did you know?"
+      },
+      {
+        "start": 216.7,
+        "duration": 3.3,
+        "text": "How did you know?"
+      },
+      {
+        "start": 220.0,
+        "duration": 4.1,
+        "text": "You just have to have the floor to keep the fine gifts"
+      },
+      {
+        "start": 224.1,
+        "duration": 3.0,
+        "text": "And you just have to have the floor to keep the fine gifts"
+      },
+      {
+        "start": 227.1,
+        "duration": 2.4,
+        "text": "That's it, I'm just guitarist"
+      },
+      {
+        "start": 229.5,
+        "duration": 3.0,
+        "text": "Cheers"
+      },
+      {
+        "start": 232.5,
+        "duration": 2.2,
+        "text": "Thank you very much, thank you very much"
+      },
+      {
+        "start": 234.8,
+        "duration": 4.0,
+        "text": "Thank you very much, thank you"
+      }
+    ],
+    "full_text": "It's two of them farther than eight and at 16, right? This is very nice. And before I go on with this particular pattern, there's a fun story about it. A little known fact. Do you guys know the song, Hallelujah, the one popular contract? Oh, there's a lot of this. Yeah, okay, we own it a song. Lots of different artists have played it. The original artist was Leonard Cohen. He was the one who wrote the lyrics. Few people know, can't you went through many, many, many different iterations of what the song would be? And ultimately ended up as this kind of biblical devastation of love. But one of the earlier versions was about this particular pattern in math. I'm just in truth. Leonard Cohen was a low key math puff. Oh, good. And I thought, it might be fun. Because I don't want the original version to get lost in the annals of history. To share with you guys what this would have sounded like. If history had turned out by the way, if you didn't, you know, make it out about this religion and homologous great things. So I could welcome to the stage yet again. To accompany on keynote, Matt Parker. You're wonderful. And I know I'm no Leonard Cohen, but just imagine if you're watching track and you're going to get to that typical moment and you don't know what it's going to hold. You would actually hear the popular original. You're a lot heard. There are ones, the secrets of chords. It's but the circle to one, two, then four. And points seem to come in hours or two. Yeah. I'm like this. And four, then the fifth, and the something's up. When you're out of six, it's about 731. All right, you can do that. Thanks. Honestly, you have to smile and give it a try. I always want you to hear this habit. I'll follow you in a minute. Anya, whatever, all that. When you're on the surface, you still need proof. I believe you are a truth. The general upon the left is pie over to you. I think that's true. For the next, you're just better, but like a girl we've shown, that it's off by her hair. It's a sudden, stupid, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, terrible, bad. Now take a prime and write it in face form. You just have to have the floor to keep the fine gifts And you will run with this room, yeah Or does it though? It will eventually find new friends or not So simply design patterns hold Then they're broken How did you know? How did you know? How did you know? How did you know? How did you know? How did you know? You just have to have the floor to keep the fine gifts And you just have to have the floor to keep the fine gifts That's it, I'm just guitarist Cheers Thank you very much, thank you very much Thank you very much, thank you"
+  }
+}

@@ -1,0 +1,4319 @@
+{
+  "video_id": "_BrFKp-U8GI",
+  "video_title": "Exploration & Epiphany | Guest video by Paul Dancstep",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 3132.0,
+  "view_count": 479512,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.6,
+        "text": "Imagine yourself in an art museum."
+      },
+      {
+        "start": 4.6,
+        "duration": 4.6,
+        "text": "As you stroll through the galleries, you come across a large, low table covered in small,"
+      },
+      {
+        "start": 9.2,
+        "duration": 2.2,
+        "text": "white skeletal frames."
+      },
+      {
+        "start": 11.3,
+        "duration": 4.9,
+        "text": "Each looks like a random fragment of a cube, and they're all laid out in an orderly grid."
+      },
+      {
+        "start": 16.2,
+        "duration": 4.7,
+        "text": "What we're looking at is a digital reproduction of an artwork called Variations of Incomplete"
+      },
+      {
+        "start": 20.9,
+        "duration": 2.5,
+        "text": "Open Cubes by Solowit."
+      },
+      {
+        "start": 23.4,
+        "duration": 5.6,
+        "text": "It represents every possible way that a cube can be incomplete, subject to a few conditions."
+      },
+      {
+        "start": 29.0,
+        "duration": 3.8,
+        "text": "In this video, you and I will investigate this sculpture and explore some of the mathematical"
+      },
+      {
+        "start": 32.7,
+        "duration": 1.6,
+        "text": "ideas behind it."
+      },
+      {
+        "start": 34.3,
+        "duration": 5.1,
+        "text": "We'll get to know these cubes, making visualizations, observing patterns, and asking simple questions"
+      },
+      {
+        "start": 39.5,
+        "duration": 1.9,
+        "text": "with surprising answers."
+      },
+      {
+        "start": 41.4,
+        "duration": 3.9,
+        "text": "Although I've tried to make these explorations accessible and playful, in the end we'll stumble"
+      },
+      {
+        "start": 45.3,
+        "duration": 4.9,
+        "text": "into a highly non-trivial result, a lovely classical technique in ingenious trick for"
+      },
+      {
+        "start": 50.2,
+        "duration": 4.7,
+        "text": "counting cubes by thinking about symmetry."
+      },
+      {
+        "start": 55.0,
+        "duration": 3.7,
+        "text": "But first, let's get a little more specific about what we're looking at here."
+      },
+      {
+        "start": 58.7,
+        "duration": 4.0,
+        "text": "First of all, a cube is, of course, a regular, six-sided shape."
+      },
+      {
+        "start": 62.7,
+        "duration": 5.0,
+        "text": "By OpenCube, we mean a hollow cube framed by its 12 edges."
+      },
+      {
+        "start": 67.7,
+        "duration": 5.4,
+        "text": "We can make an OpenCube incomplete by selecting one of these edges and getting rid of it."
+      },
+      {
+        "start": 73.1,
+        "duration": 8.6,
+        "text": "By removing other edges, we can create different variations."
+      },
+      {
+        "start": 81.7,
+        "duration": 4.1,
+        "text": "The first of Louis' constraints is that the existing edges must all be connected."
+      },
+      {
+        "start": 85.8,
+        "duration": 5.0,
+        "text": "We can't remove so many edges that the cube falls apart into separate pieces."
+      },
+      {
+        "start": 90.8,
+        "duration": 5.0,
+        "text": "The second constraint basically says that the existing edges have to form an obvious cube."
+      },
+      {
+        "start": 95.9,
+        "duration": 4.6,
+        "text": "If we reduce our cube down to, say, a flat square, we're going to say that doesn't count."
+      },
+      {
+        "start": 100.5,
+        "duration": 4.6,
+        "text": "Nor does anything less, a corner, a single edge, or nothing at all."
+      },
+      {
+        "start": 105.0,
+        "duration": 4.0,
+        "text": "Our cubes must be properly three-dimensional, meaning they have to have at least one edge"
+      },
+      {
+        "start": 109.0,
+        "duration": 5.4,
+        "text": "along the height, width, and depth of the cube."
+      },
+      {
+        "start": 114.4,
+        "duration": 1.5,
+        "text": "So understand the final constraint."
+      },
+      {
+        "start": 115.9,
+        "duration": 3.9,
+        "text": "Let's bring in another OpenCube and make it incomplete."
+      },
+      {
+        "start": 119.8,
+        "duration": 3.6,
+        "text": "This may look different than the first cube, but if we grab it and tumble it around like"
+      },
+      {
+        "start": 123.4,
+        "duration": 5.1,
+        "text": "this, we can see that it is actually the same incomplete OpenCube."
+      },
+      {
+        "start": 128.5,
+        "duration": 2.5,
+        "text": "We were just looking at it from a different angle."
+      },
+      {
+        "start": 131.0,
+        "duration": 3.4,
+        "text": "In fact, if we played around with this shape long enough, we would eventually discover that"
+      },
+      {
+        "start": 134.5,
+        "duration": 4.9,
+        "text": "there are 24 different ways we can reposition it, each of which looks unique from the others,"
+      },
+      {
+        "start": 139.4,
+        "duration": 3.2,
+        "text": "but all fundamentally the same shape."
+      },
+      {
+        "start": 142.6,
+        "duration": 4.0,
+        "text": "In the final art piece, it would be a little redundant to include all of these rotationally"
+      },
+      {
+        "start": 146.6,
+        "duration": 5.9,
+        "text": "equivalent figures, so we just choose one to represent the whole family."
+      },
+      {
+        "start": 152.5,
+        "duration": 2.7,
+        "text": "We then place this representative on the table."
+      },
+      {
+        "start": 155.2,
+        "duration": 4.3,
+        "text": "The next cube will be rotationally distinct from this one, a genuinely different shape."
+      },
+      {
+        "start": 159.5,
+        "duration": 4.6,
+        "text": "The next cube is rotationally unique from those, and so on for the whole table."
+      },
+      {
+        "start": 164.1,
+        "duration": 7.4,
+        "text": "The final work of art shows the full collection of 122 rotationally unique incomplete OpenCubes."
+      },
+      {
+        "start": 171.5,
+        "duration": 3.6,
+        "text": "One of the interesting things about this piece is that the entire definition can be put"
+      },
+      {
+        "start": 175.1,
+        "duration": 2.7,
+        "text": "into explicit mathematical terms."
+      },
+      {
+        "start": 177.8,
+        "duration": 4.1,
+        "text": "In the business, you might rephrase this as, an enumeration of all proper subsets of"
+      },
+      {
+        "start": 182.0,
+        "duration": 4.2,
+        "text": "a cube that are connected and span R3 modulo rotations."
+      },
+      {
+        "start": 186.2,
+        "duration": 4.5,
+        "text": "If you told the mathematician to find such an enumeration, this table is basically what"
+      },
+      {
+        "start": 190.7,
+        "duration": 2.3,
+        "text": "they would come up with."
+      },
+      {
+        "start": 193.0,
+        "duration": 4.3,
+        "text": "So we have something interesting, an artist who effectively solved a math problem as part"
+      },
+      {
+        "start": 197.2,
+        "duration": 1.8,
+        "text": "of his creative process."
+      },
+      {
+        "start": 199.1,
+        "duration": 5.8,
+        "text": "Who was Solowit, and what was he trying to accomplish at this piece?"
+      },
+      {
+        "start": 204.8,
+        "duration": 5.3,
+        "text": "Solowit was a modern artist associated with conceptual art, minimalism, and serial art."
+      },
+      {
+        "start": 210.2,
+        "duration": 4.2,
+        "text": "The core idea of conceptual art can be seen in Louis' series of wall drawings."
+      },
+      {
+        "start": 214.4,
+        "duration": 3.8,
+        "text": "Louis would provide a set of instructions for how a wall should be drawn or painted on,"
+      },
+      {
+        "start": 218.2,
+        "duration": 5.2,
+        "text": "in this case, wall drawing number 118, he specifies a drawing with 50 points all connected"
+      },
+      {
+        "start": 223.4,
+        "duration": 1.8,
+        "text": "by lines."
+      },
+      {
+        "start": 225.2,
+        "duration": 3.3,
+        "text": "Trained in stallors would then follow these instructions to produce the actual piece"
+      },
+      {
+        "start": 228.5,
+        "duration": 2.9,
+        "text": "on the walls of galleries and museums."
+      },
+      {
+        "start": 231.4,
+        "duration": 4.4,
+        "text": "Like a musician writing a score to be performed by others, Louis' instructions emphasize"
+      },
+      {
+        "start": 235.8,
+        "duration": 2.9,
+        "text": "the conceptual nature of the resulting work."
+      },
+      {
+        "start": 238.6,
+        "duration": 3.6,
+        "text": "It's the idea of the piece that is the true product of the artist."
+      },
+      {
+        "start": 242.2,
+        "duration": 4.9,
+        "text": "And perhaps, as most well-known quote, Louis said, the idea becomes a machine that makes"
+      },
+      {
+        "start": 247.2,
+        "duration": 1.6,
+        "text": "art."
+      },
+      {
+        "start": 248.8,
+        "duration": 2.8,
+        "text": "Minimalism is, to some degree, exactly what it sounds like."
+      },
+      {
+        "start": 251.6,
+        "duration": 3.0,
+        "text": "Louis' work uses very minimal ornamentation."
+      },
+      {
+        "start": 254.6,
+        "duration": 5.0,
+        "text": "Much of it is flat white because, as he put it, white is less expressive than black,"
+      },
+      {
+        "start": 259.6,
+        "duration": 3.8,
+        "text": "and most of the sculptures are simple geometric forms like the cube."
+      },
+      {
+        "start": 263.4,
+        "duration": 4.4,
+        "text": "Of the cube, he wrote, the most interesting characteristic of the cube is that it is relatively"
+      },
+      {
+        "start": 267.7,
+        "duration": 1.0,
+        "text": "uninteresting."
+      },
+      {
+        "start": 268.7,
+        "duration": 4.6,
+        "text": "Therefore, it is the best form to use for any more elaborate function, the grammatical"
+      },
+      {
+        "start": 273.3,
+        "duration": 3.0,
+        "text": "device from which the work may proceed."
+      },
+      {
+        "start": 276.3,
+        "duration": 4.9,
+        "text": "In the prior decade, modern art was dominated by abstract expressionism, famous for paintings"
+      },
+      {
+        "start": 281.2,
+        "duration": 4.6,
+        "text": "filled with splatters and splotches and other acts of randomness."
+      },
+      {
+        "start": 285.8,
+        "duration": 2.7,
+        "text": "Serial art was a reaction to this arbitrariness."
+      },
+      {
+        "start": 288.5,
+        "duration": 3.8,
+        "text": "Louis sought instead a technique in which he said, all of the planning and decisions are made"
+      },
+      {
+        "start": 292.3,
+        "duration": 4.2,
+        "text": "beforehand, and the execution is a perfunct or he affair."
+      },
+      {
+        "start": 296.5,
+        "duration": 4.0,
+        "text": "Many of Louis' serial structures begin with the question, how many ways?"
+      },
+      {
+        "start": 300.5,
+        "duration": 4.2,
+        "text": "Like, how many ways can I put five cubes on 25 squares?"
+      },
+      {
+        "start": 304.6,
+        "duration": 3.4,
+        "text": "Or how many ways can I stack three open boxes?"
+      },
+      {
+        "start": 308.0,
+        "duration": 5.1,
+        "text": "The resulting artworks are simply a presentation of the correct answers to these questions."
+      },
+      {
+        "start": 313.1,
+        "duration": 5.8,
+        "text": "Sometime in 1973, Louis asked himself a new serial art style question, how many ways"
+      },
+      {
+        "start": 318.9,
+        "duration": 2.8,
+        "text": "can a cube be incomplete?"
+      },
+      {
+        "start": 321.7,
+        "duration": 5.0,
+        "text": "And we have something pretty amazing, a surprisingly intact record of the artist's thought process"
+      },
+      {
+        "start": 326.6,
+        "duration": 2.9,
+        "text": "as he went about solving this problem."
+      },
+      {
+        "start": 329.5,
+        "duration": 4.6,
+        "text": "Saul Louis left behind about 50 notebook pages, which show sketches and working drawings"
+      },
+      {
+        "start": 334.1,
+        "duration": 3.4,
+        "text": "that capture the development of the incomplete open cubes."
+      },
+      {
+        "start": 337.5,
+        "duration": 3.4,
+        "text": "These are currently in the archives at the Wadsworth Athenium in Connecticut, who were"
+      },
+      {
+        "start": 341.0,
+        "duration": 4.2,
+        "text": "kind enough to let us examine these drawings and reproduce them here."
+      },
+      {
+        "start": 345.2,
+        "duration": 4.6,
+        "text": "By reviewing their contents, we effectively get to look over Saul Louis' shoulder as"
+      },
+      {
+        "start": 349.8,
+        "duration": 2.7,
+        "text": "he solves the problem."
+      },
+      {
+        "start": 352.4,
+        "duration": 3.7,
+        "text": "One of the things these notebooks make clear is that of the three constraints, rotational"
+      },
+      {
+        "start": 356.1,
+        "duration": 3.4,
+        "text": "equivalence was by far the most difficult to figure out."
+      },
+      {
+        "start": 359.6,
+        "duration": 4.3,
+        "text": "It's easy to tell at a glance if a cube is flat or disconnected, but in page after page"
+      },
+      {
+        "start": 363.9,
+        "duration": 4.9,
+        "text": "of these notebooks, we see Louis struggling to eliminate rotational duplicates."
+      },
+      {
+        "start": 368.8,
+        "duration": 4.0,
+        "text": "As the story goes, he would make small models of the cubes out of paper clips or pipe"
+      },
+      {
+        "start": 372.8,
+        "duration": 1.0,
+        "text": "cleaners."
+      },
+      {
+        "start": 373.8,
+        "duration": 3.3,
+        "text": "By comparing the models, he would occasionally discover that two cubes he had thought were"
+      },
+      {
+        "start": 377.1,
+        "duration": 2.4,
+        "text": "distinct turned out to be the same shape."
+      },
+      {
+        "start": 379.6,
+        "duration": 4.8,
+        "text": "The red marks indicate times when he found duplicates and had to cross one off."
+      },
+      {
+        "start": 384.4,
+        "duration": 3.5,
+        "text": "As Louis explained, I was trying to figure out a way to do it through numbers and letters"
+      },
+      {
+        "start": 387.8,
+        "duration": 3.3,
+        "text": "logically, but in the end it all had to be done empirically."
+      },
+      {
+        "start": 391.2,
+        "duration": 3.6,
+        "text": "I had to build a model for each one and then rotate it."
+      },
+      {
+        "start": 394.8,
+        "duration": 4.0,
+        "text": "Although he never found a purely mathematical solution, as we'll see from these notebooks,"
+      },
+      {
+        "start": 398.8,
+        "duration": 4.9,
+        "text": "Louis did find many clever tricks and ingenious simplifications on the way to his solution,"
+      },
+      {
+        "start": 403.7,
+        "duration": 2.4,
+        "text": "a true thinking process."
+      },
+      {
+        "start": 406.1,
+        "duration": 4.2,
+        "text": "It was only after he'd completed the piece that Louis consulted with two mathematicians"
+      },
+      {
+        "start": 410.4,
+        "duration": 2.9,
+        "text": "who confirmed that he'd found the right number."
+      },
+      {
+        "start": 413.2,
+        "duration": 4.4,
+        "text": "While Louis had to solve the problem painstakingly by hand, it seems a mathematician is someone"
+      },
+      {
+        "start": 417.6,
+        "duration": 4.5,
+        "text": "who knows how to pull this number out of thin air with a simple calculation."
+      },
+      {
+        "start": 422.1,
+        "duration": 4.0,
+        "text": "But in the beginning, the mathematician doesn't know anything about the problem either."
+      },
+      {
+        "start": 426.2,
+        "duration": 5.5,
+        "text": "They too must go through some exploratory thought process in order to figure out the answer."
+      },
+      {
+        "start": 431.7,
+        "duration": 4.0,
+        "text": "In this video, we're going to solve the specific problem that eluded soluit and we're"
+      },
+      {
+        "start": 435.7,
+        "duration": 4.0,
+        "text": "going to do it by showing a thought process that leads to the solution."
+      },
+      {
+        "start": 439.7,
+        "duration": 2.0,
+        "text": "A little housekeeping before we begin."
+      },
+      {
+        "start": 441.7,
+        "duration": 4.6,
+        "text": "Our mathematical exploration is going to focus only on the problem of rotational equivalence,"
+      },
+      {
+        "start": 446.3,
+        "duration": 2.6,
+        "text": "so relax these other constraints for now."
+      },
+      {
+        "start": 448.9,
+        "duration": 3.9,
+        "text": "This means that we'll be considering all possible cubes, including flat or disconnected"
+      },
+      {
+        "start": 452.8,
+        "duration": 3.2,
+        "text": "ones, and even the full cube and the empty cube."
+      },
+      {
+        "start": 456.0,
+        "duration": 4.0,
+        "text": "As a consequence, the number of families we find is going to be larger than Louis' final"
+      },
+      {
+        "start": 460.0,
+        "duration": 5.5,
+        "text": "count of 122, at least until we bring back the other conditions at the end."
+      },
+      {
+        "start": 465.5,
+        "duration": 4.6,
+        "text": "Let's begin."
+      },
+      {
+        "start": 470.1,
+        "duration": 4.2,
+        "text": "Lots of the pages and soluit's notebooks are made up of loose sketches, which show him"
+      },
+      {
+        "start": 474.3,
+        "duration": 3.8,
+        "text": "just kind of exploring the idea of incomplete cubes."
+      },
+      {
+        "start": 478.2,
+        "duration": 5.0,
+        "text": "Pages in this style don't show much strategy or organization, just a cloud of partial cube"
+      },
+      {
+        "start": 483.2,
+        "duration": 3.6,
+        "text": "doodles as he was getting familiar with the general concept."
+      },
+      {
+        "start": 486.8,
+        "duration": 3.6,
+        "text": "A wonderful document in the collection is this business letter to Louis."
+      },
+      {
+        "start": 490.4,
+        "duration": 4.0,
+        "text": "If you look closely, you can see that the back of the sheet has clearly been used as incomplete"
+      },
+      {
+        "start": 494.4,
+        "duration": 2.4,
+        "text": "open cubes scratch paper."
+      },
+      {
+        "start": 496.8,
+        "duration": 3.4,
+        "text": "Anyone who's ever gotten obsessed with a math problem will find this familiar how the"
+      },
+      {
+        "start": 500.2,
+        "duration": 3.4,
+        "text": "problem just starts to get all over your paperwork."
+      },
+      {
+        "start": 503.6,
+        "duration": 5.0,
+        "text": "One way for us to begin poking at this problem is to notice that there is a simpler version."
+      },
+      {
+        "start": 508.6,
+        "duration": 4.0,
+        "text": "Instead of taking on the incomplete open cubes, let's warm up by considering the two-dimensional"
+      },
+      {
+        "start": 512.6,
+        "duration": 1.0,
+        "text": "case."
+      },
+      {
+        "start": 513.6,
+        "duration": 3.8,
+        "text": "What are all of the rotationally equivalent incomplete open squares?"
+      },
+      {
+        "start": 517.4,
+        "duration": 3.6,
+        "text": "This is a more bite-sized version of the problem, one which we'll be able to think through"
+      },
+      {
+        "start": 520.9,
+        "duration": 2.0,
+        "text": "in all of its details."
+      },
+      {
+        "start": 522.9,
+        "duration": 3.6,
+        "text": "To begin, let's set aside these constraints and just ask how many squares do we have to"
+      },
+      {
+        "start": 526.5,
+        "duration": 4.1,
+        "text": "worry about altogether before we start sorting and filtering them?"
+      },
+      {
+        "start": 530.6,
+        "duration": 5.7,
+        "text": "To define an incomplete square, each edge presents us with two choices, on or off."
+      },
+      {
+        "start": 536.3,
+        "duration": 4.5,
+        "text": "And from this sequence of choices, we get a tree of decisions which generates all possible"
+      },
+      {
+        "start": 540.8,
+        "duration": 1.2,
+        "text": "squares."
+      },
+      {
+        "start": 542.0,
+        "duration": 5.0,
+        "text": "For example, if we choose the top edge to be on, the left edge off, the bottom on, and"
+      },
+      {
+        "start": 547.0,
+        "duration": 3.6,
+        "text": "the right on, we get this in complete square."
+      },
+      {
+        "start": 550.6,
+        "duration": 2.4,
+        "text": "Every other outcome is similar."
+      },
+      {
+        "start": 553.1,
+        "duration": 3.9,
+        "text": "If we take the side view of our decision tree, we can see that the number of possibilities"
+      },
+      {
+        "start": 557.0,
+        "duration": 5.0,
+        "text": "doubles at every level, so the number of outcomes at the bottom must equal to raised"
+      },
+      {
+        "start": 561.9,
+        "duration": 2.2,
+        "text": "to the height of the decision tree."
+      },
+      {
+        "start": 564.1,
+        "duration": 4.0,
+        "text": "That is, there's a formula we can use for calculating the number of possible outcomes"
+      },
+      {
+        "start": 568.1,
+        "duration": 1.4,
+        "text": "of a tree like this."
+      },
+      {
+        "start": 569.5,
+        "duration": 4.3,
+        "text": "In general, it's two raised to the number of choices we have to make."
+      },
+      {
+        "start": 573.8,
+        "duration": 3.4,
+        "text": "The beauty of a formula like this is that it makes our life much easier when we move"
+      },
+      {
+        "start": 577.2,
+        "duration": 2.8,
+        "text": "on to the more complicated case of the cubes."
+      },
+      {
+        "start": 580.0,
+        "duration": 5.9,
+        "text": "A cube has 12 edges that can be set to on or off, so we have 12 binary choices to make."
+      },
+      {
+        "start": 585.9,
+        "duration": 5.9,
+        "text": "Due to the 12th gives us 4,096 total incomplete open cubes, and it's very convenient to be"
+      },
+      {
+        "start": 591.8,
+        "duration": 5.4,
+        "text": "able to just calculate that number rather than having to try and figure it out manually."
+      },
+      {
+        "start": 597.2,
+        "duration": 4.1,
+        "text": "Now let's get down to the main problem of how to sort these 16 incomplete open squares"
+      },
+      {
+        "start": 601.3,
+        "duration": 2.8,
+        "text": "into rotationally equivalent families."
+      },
+      {
+        "start": 604.1,
+        "duration": 2.1,
+        "text": "We'll start with this one part square."
+      },
+      {
+        "start": 606.2,
+        "duration": 2.4,
+        "text": "What is the family it belongs to?"
+      },
+      {
+        "start": 608.5,
+        "duration": 4.0,
+        "text": "If we compare it to its neighbor, we can see that they are rotationally equivalent."
+      },
+      {
+        "start": 612.5,
+        "duration": 4.3,
+        "text": "It is by reorienting one, we can get them to look exactly the same."
+      },
+      {
+        "start": 616.8,
+        "duration": 4.2,
+        "text": "So we gather these together and say they're part of the same family."
+      },
+      {
+        "start": 621.1,
+        "duration": 3.2,
+        "text": "This next square is obviously not going to belong to this family."
+      },
+      {
+        "start": 624.2,
+        "duration": 3.8,
+        "text": "If we want to be thorough, we can rotate it through its possible positions just to be"
+      },
+      {
+        "start": 628.0,
+        "duration": 2.4,
+        "text": "sure and then reject it."
+      },
+      {
+        "start": 630.5,
+        "duration": 4.8,
+        "text": "The next one is another member of this family, and we just proceed down the whole length"
+      },
+      {
+        "start": 635.3,
+        "duration": 4.9,
+        "text": "in this way, scooping up any rotationally equivalent squares we come across."
+      },
+      {
+        "start": 640.2,
+        "duration": 4.9,
+        "text": "Number one part squares form a rotationally equivalent family of 4."
+      },
+      {
+        "start": 645.2,
+        "duration": 3.8,
+        "text": "And now we go through the list again, this time picking up all the corner pieces."
+      },
+      {
+        "start": 649.0,
+        "duration": 3.1,
+        "text": "These also gather into a family of 4."
+      },
+      {
+        "start": 652.1,
+        "duration": 4.3,
+        "text": "Now if all families had 4 members, then it would be easy to calculate the total number"
+      },
+      {
+        "start": 656.4,
+        "duration": 1.0,
+        "text": "of families."
+      },
+      {
+        "start": 657.4,
+        "duration": 5.0,
+        "text": "16 squares divided into groups of 4 would mean 4 families total."
+      },
+      {
+        "start": 662.4,
+        "duration": 5.1,
+        "text": "Unfortunately, the parallel bars break this pattern by collecting into a family of only"
+      },
+      {
+        "start": 667.5,
+        "duration": 0.9,
+        "text": "2."
+      },
+      {
+        "start": 668.4,
+        "duration": 3.5,
+        "text": "The 3 parts squares form another family of 4."
+      },
+      {
+        "start": 672.0,
+        "duration": 4.7,
+        "text": "Finally, the complete square is only rotationally equivalent to itself, so it forms a family"
+      },
+      {
+        "start": 676.7,
+        "duration": 1.0,
+        "text": "of 1."
+      },
+      {
+        "start": 677.7,
+        "duration": 1.8,
+        "text": "Same for the empty square."
+      },
+      {
+        "start": 679.5,
+        "duration": 6.2,
+        "text": "And there we are, 6 total families of rotationally equivalent incomplete open squares."
+      },
+      {
+        "start": 685.7,
+        "duration": 3.2,
+        "text": "We got this result using brute force search."
+      },
+      {
+        "start": 688.9,
+        "duration": 4.3,
+        "text": "What we'd really like is a formula, something we can also apply to the cube."
+      },
+      {
+        "start": 693.2,
+        "duration": 4.0,
+        "text": "If we had that mathematical confirmation, then it would be easy to then apply Solowitz"
+      },
+      {
+        "start": 697.2,
+        "duration": 2.2,
+        "text": "other conditions for the art piece."
+      },
+      {
+        "start": 699.4,
+        "duration": 4.3,
+        "text": "A representative from each family forms a collection of rotationally unique incomplete"
+      },
+      {
+        "start": 703.6,
+        "duration": 1.5,
+        "text": "open squares."
+      },
+      {
+        "start": 705.1,
+        "duration": 3.5,
+        "text": "We can get rid of the square on the right because it isn't incomplete."
+      },
+      {
+        "start": 708.6,
+        "duration": 5.0,
+        "text": "We can get rid of the 2 squares on the left because they aren't properly too dimensional."
+      },
+      {
+        "start": 713.6,
+        "duration": 3.3,
+        "text": "And we can get rid of the square in the middle because it isn't connected."
+      },
+      {
+        "start": 717.0,
+        "duration": 1.8,
+        "text": "That leaves us with these 2."
+      },
+      {
+        "start": 718.8,
+        "duration": 5.2,
+        "text": "And there we have it, the complete variations of incomplete open squares."
+      },
+      {
+        "start": 723.9,
+        "duration": 1.2,
+        "text": "Beautiful."
+      },
+      {
+        "start": 725.2,
+        "duration": 3.6,
+        "text": "One of the great things about this piece is that it gives us some appreciation for the"
+      },
+      {
+        "start": 728.8,
+        "duration": 5.6,
+        "text": "added complexity that seems to arise when we consider the same problem in 3 dimensions."
+      },
+      {
+        "start": 734.4,
+        "duration": 3.2,
+        "text": "Just for the fun of it, let's think through what it would be like to try and do a brute"
+      },
+      {
+        "start": 737.6,
+        "duration": 3.6,
+        "text": "force search for families of the cubes."
+      },
+      {
+        "start": 741.1,
+        "duration": 5.8,
+        "text": "So here we are moving down a hallway that has all 4,096 incomplete open cubes."
+      },
+      {
+        "start": 746.9,
+        "duration": 3.6,
+        "text": "To sort these cubes into families you'd have to go down the line and manually compare"
+      },
+      {
+        "start": 750.4,
+        "duration": 1.8,
+        "text": "them one by one."
+      },
+      {
+        "start": 752.2,
+        "duration": 3.6,
+        "text": "And keep in mind that unlike with squares cubes are actually kind of tricky with regards"
+      },
+      {
+        "start": 755.8,
+        "duration": 1.6,
+        "text": "to rotational equivalents."
+      },
+      {
+        "start": 757.4,
+        "duration": 2.2,
+        "text": "You may have to tumble them around for a while to be sure."
+      },
+      {
+        "start": 759.6,
+        "duration": 3.4,
+        "text": "So this is going to take some focus and concentration."
+      },
+      {
+        "start": 763.0,
+        "duration": 3.9,
+        "text": "It's also going to take a lot of time because this is really a very long hallway."
+      },
+      {
+        "start": 766.9,
+        "duration": 4.9,
+        "text": "4,096 is one of those numbers where you know it's big but it's hard to really appreciate"
+      },
+      {
+        "start": 771.8,
+        "duration": 2.6,
+        "text": "how big until you see a hallway like this."
+      },
+      {
+        "start": 774.4,
+        "duration": 3.6,
+        "text": "In fact we're going to need to speed things up a little bit to get where we're going."
+      },
+      {
+        "start": 777.9,
+        "duration": 3.8,
+        "text": "And as we zoom along here, keep in mind that you'll have to go down this hallway over"
+      },
+      {
+        "start": 781.7,
+        "duration": 3.5,
+        "text": "and over again, one time for each family you gather up."
+      },
+      {
+        "start": 785.2,
+        "duration": 2.8,
+        "text": "So clearly this is going to be quite an ordeal."
+      },
+      {
+        "start": 788.0,
+        "duration": 4.7,
+        "text": "In fact after all this travel we've only made it to the halfway point of the hallway."
+      },
+      {
+        "start": 792.7,
+        "duration": 4.0,
+        "text": "So we've come up with a pretty vivid sense of the difficulty of our problem."
+      },
+      {
+        "start": 796.6,
+        "duration": 2.8,
+        "text": "But enough goofing around, let's make a plan."
+      },
+      {
+        "start": 799.5,
+        "duration": 2.6,
+        "text": "Clearly solowit has his work cut out for him."
+      },
+      {
+        "start": 802.1,
+        "duration": 2.9,
+        "text": "To make any progress he's probably going to have to come up with something better than"
+      },
+      {
+        "start": 805.0,
+        "duration": 2.3,
+        "text": "brute force search."
+      },
+      {
+        "start": 807.3,
+        "duration": 3.9,
+        "text": "When you're comparing two cubes to see if they might be rotationally equivalent, a good"
+      },
+      {
+        "start": 811.2,
+        "duration": 3.7,
+        "text": "question to ask is do they have the same number of edges?"
+      },
+      {
+        "start": 814.9,
+        "duration": 4.5,
+        "text": "A five-part cube and a six-part cube will never look the same no matter how we position"
+      },
+      {
+        "start": 819.4,
+        "duration": 1.0,
+        "text": "them."
+      },
+      {
+        "start": 820.4,
+        "duration": 3.8,
+        "text": "From early on we see lueit restricting his attention to cubes with a given number of"
+      },
+      {
+        "start": 824.2,
+        "duration": 1.2,
+        "text": "edges."
+      },
+      {
+        "start": 825.4,
+        "duration": 4.8,
+        "text": "Different pages dedicated to different sized cubes show how he broke the overall problem"
+      },
+      {
+        "start": 830.2,
+        "duration": 2.4,
+        "text": "into several smaller problems."
+      },
+      {
+        "start": 832.6,
+        "duration": 4.2,
+        "text": "This divide and conquer approach is reflected in the final layout of the art piece."
+      },
+      {
+        "start": 836.9,
+        "duration": 4.8,
+        "text": "The bottom row contains all possible three-part cubes, the next row contains all of the four"
+      },
+      {
+        "start": 841.7,
+        "duration": 3.7,
+        "text": "part cubes, and so on row by row up the table."
+      },
+      {
+        "start": 845.4,
+        "duration": 4.5,
+        "text": "By breaking the overall problem into nine smaller problems, lueit makes the first of several"
+      },
+      {
+        "start": 849.9,
+        "duration": 3.8,
+        "text": "simplifications that we'll see him bring to the task."
+      },
+      {
+        "start": 853.6,
+        "duration": 1.0,
+        "text": "What about us?"
+      },
+      {
+        "start": 854.6,
+        "duration": 3.7,
+        "text": "We're hoping to come up with a formula, so what kind of strategy should we consider to"
+      },
+      {
+        "start": 858.3,
+        "duration": 1.8,
+        "text": "attack the problem?"
+      },
+      {
+        "start": 860.2,
+        "duration": 4.4,
+        "text": "When we found the decision tree formula was by considering the decision process itself"
+      },
+      {
+        "start": 864.5,
+        "duration": 2.7,
+        "text": "and then noticing a formula that described it."
+      },
+      {
+        "start": 867.2,
+        "duration": 3.4,
+        "text": "If we want to do the same thing for sorting the shapes into families, then we probably"
+      },
+      {
+        "start": 870.6,
+        "duration": 2.6,
+        "text": "want to study the associated process."
+      },
+      {
+        "start": 873.1,
+        "duration": 3.9,
+        "text": "That is, while solowit is trying to get away from brute force search, for us it might"
+      },
+      {
+        "start": 877.0,
+        "duration": 3.9,
+        "text": "make sense to actually look directly at this process and see if we can understand what"
+      },
+      {
+        "start": 880.9,
+        "duration": 2.1,
+        "text": "it is accomplishing."
+      },
+      {
+        "start": 883.0,
+        "duration": 3.8,
+        "text": "Obviously, it's a method that's going to take a while, but if we did have all the time"
+      },
+      {
+        "start": 886.8,
+        "duration": 2.0,
+        "text": "in the world, then it would be perfectly straightforward."
+      },
+      {
+        "start": 888.9,
+        "duration": 4.6,
+        "text": "We just pick up one of the cubes, travel the length of the hallway, gathering up its rotational"
+      },
+      {
+        "start": 893.4,
+        "duration": 3.0,
+        "text": "equivalence, and that's one family."
+      },
+      {
+        "start": 896.5,
+        "duration": 4.2,
+        "text": "Moving down the line, we pick up the next cube and gather up its family, and the next"
+      },
+      {
+        "start": 900.6,
+        "duration": 2.4,
+        "text": "one gives us another family."
+      },
+      {
+        "start": 903.1,
+        "duration": 5.2,
+        "text": "And then, once more, we find that some cubes seem to belong to smaller families than others."
+      },
+      {
+        "start": 908.3,
+        "duration": 5.8,
+        "text": "It's important to appreciate that this irregularity is what's making our counting problem hard."
+      },
+      {
+        "start": 914.2,
+        "duration": 3.4,
+        "text": "If every family were the same size, then it would be easy to calculate the total number"
+      },
+      {
+        "start": 917.5,
+        "duration": 1.0,
+        "text": "of families."
+      },
+      {
+        "start": 918.5,
+        "duration": 4.1,
+        "text": "But if every family seems to be doing its own thing in terms of size, then we apparently"
+      },
+      {
+        "start": 922.6,
+        "duration": 5.4,
+        "text": "have no choice but to go through and manually count them up like this one at a time."
+      },
+      {
+        "start": 928.0,
+        "duration": 3.7,
+        "text": "Before we can make any progress on our main question of how many families there are, it"
+      },
+      {
+        "start": 931.7,
+        "duration": 3.9,
+        "text": "seems like we first want to understand a more local problem."
+      },
+      {
+        "start": 935.6,
+        "duration": 3.8,
+        "text": "For a given incomplete open cube, how big is its family?"
+      },
+      {
+        "start": 939.4,
+        "duration": 3.8,
+        "text": "For instance, if I give you a cube shaped like a table, could you reason about how big"
+      },
+      {
+        "start": 943.2,
+        "duration": 1.7,
+        "text": "its family must be?"
+      },
+      {
+        "start": 945.0,
+        "duration": 1.4,
+        "text": "Try looking at it this way."
+      },
+      {
+        "start": 946.4,
+        "duration": 2.8,
+        "text": "The table has one complete square side on top."
+      },
+      {
+        "start": 949.1,
+        "duration": 6.2,
+        "text": "A cube has six sides total, six directions the table top could be oriented to point."
+      },
+      {
+        "start": 955.3,
+        "duration": 4.9,
+        "text": "Based on this logic, we would expect a family size of six, and that is indeed what we find."
+      },
+      {
+        "start": 960.2,
+        "duration": 3.6,
+        "text": "If we try this with a few different cubes, we'll quickly notice that the ones that belong"
+      },
+      {
+        "start": 963.8,
+        "duration": 5.4,
+        "text": "to large 24-member families tend to be a bit more irregular looking like this weird character"
+      },
+      {
+        "start": 969.2,
+        "duration": 4.4,
+        "text": "on the right, while the shapes like the table that are more orderly or symmetrical seem to"
+      },
+      {
+        "start": 973.7,
+        "duration": 2.3,
+        "text": "belong to smaller families."
+      },
+      {
+        "start": 976.0,
+        "duration": 4.4,
+        "text": "This makes sense in a way if a cube is oddly shaped then it probably looks different in"
+      },
+      {
+        "start": 980.4,
+        "duration": 2.3,
+        "text": "each possible orientation."
+      },
+      {
+        "start": 982.6,
+        "duration": 4.8,
+        "text": "So this is a kind of hunch we might develop that more symmetrical shapes seem to have smaller"
+      },
+      {
+        "start": 987.4,
+        "duration": 1.8,
+        "text": "families."
+      },
+      {
+        "start": 989.2,
+        "duration": 3.7,
+        "text": "For soluette, the best plan seems to be divide and conquer."
+      },
+      {
+        "start": 992.9,
+        "duration": 4.6,
+        "text": "For us, the plan is to delay the main question and first focus on a simpler question, how"
+      },
+      {
+        "start": 997.5,
+        "duration": 4.7,
+        "text": "to calculate a given cube's family size, and we'll pursue our hunch that this has something"
+      },
+      {
+        "start": 1002.2,
+        "duration": 2.1,
+        "text": "to do with symmetry."
+      },
+      {
+        "start": 1004.2,
+        "duration": 4.0,
+        "text": "Both approaches still have a lot of work to do, but we each now have a strategy for how"
+      },
+      {
+        "start": 1008.2,
+        "duration": 2.5,
+        "text": "we're going to dig into this problem."
+      },
+      {
+        "start": 1010.7,
+        "duration": 4.0,
+        "text": "In Louis' notebooks, we see him devise a number of different label concepts."
+      },
+      {
+        "start": 1014.7,
+        "duration": 4.3,
+        "text": "He came up with a numbering system for the cubes themselves, two integers separated by"
+      },
+      {
+        "start": 1019.0,
+        "duration": 4.2,
+        "text": "a slash in which the first number describes how many parts the cube has, and the second"
+      },
+      {
+        "start": 1023.2,
+        "duration": 2.8,
+        "text": "part is an arbitrarily assigned index."
+      },
+      {
+        "start": 1026.0,
+        "duration": 4.2,
+        "text": "Obviously, the cubes don't come in any specific order, but by giving each a number, Louis"
+      },
+      {
+        "start": 1030.3,
+        "duration": 4.8,
+        "text": "was able to bring some orderliness and consistency to his investigations."
+      },
+      {
+        "start": 1035.1,
+        "duration": 4.2,
+        "text": "He also experimented with a couple of different ways of labeling the parts of the cube."
+      },
+      {
+        "start": 1039.2,
+        "duration": 4.6,
+        "text": "In one, he assigned letters to the corners, and in another, he numbered the edges."
+      },
+      {
+        "start": 1043.8,
+        "duration": 2.8,
+        "text": "Which of these do you think is a better notation?"
+      },
+      {
+        "start": 1046.6,
+        "duration": 4.2,
+        "text": "In Louis' case, he started with the corner labels, but after creating extensive notes in"
+      },
+      {
+        "start": 1050.8,
+        "duration": 4.8,
+        "text": "this style, he abandoned this system and switched to the numbered edges."
+      },
+      {
+        "start": 1055.6,
+        "duration": 3.2,
+        "text": "As we'll see, this turns out to be a more efficient and elegant way to annotate the"
+      },
+      {
+        "start": 1058.8,
+        "duration": 1.0,
+        "text": "cubes."
+      },
+      {
+        "start": 1059.8,
+        "duration": 4.6,
+        "text": "Moreover, good notation can also help you think about the problem in new ways."
+      },
+      {
+        "start": 1064.5,
+        "duration": 2.0,
+        "text": "Consider an incomplete open cube."
+      },
+      {
+        "start": 1066.5,
+        "duration": 4.3,
+        "text": "If we imagine the set of edges that are missing, we can then imagine an incomplete open cube"
+      },
+      {
+        "start": 1070.8,
+        "duration": 2.1,
+        "text": "made of just those edges."
+      },
+      {
+        "start": 1072.8,
+        "duration": 4.7,
+        "text": "That is, every incomplete open cube is part of a complementary pair."
+      },
+      {
+        "start": 1077.5,
+        "duration": 3.9,
+        "text": "The edge numbering notation makes it easy to think about complementary pairs."
+      },
+      {
+        "start": 1081.4,
+        "duration": 4.5,
+        "text": "By taking a given cube's label and literally counting off the missing numbers, we can obtain"
+      },
+      {
+        "start": 1086.0,
+        "duration": 2.0,
+        "text": "the label of its complement."
+      },
+      {
+        "start": 1088.0,
+        "duration": 3.9,
+        "text": "It was only after Louis' switched to this edge numbering system that we suddenly see"
+      },
+      {
+        "start": 1091.9,
+        "duration": 4.1,
+        "text": "him begin to explore cubes and their compliments at the same time."
+      },
+      {
+        "start": 1096.0,
+        "duration": 3.9,
+        "text": "And these combinations are useful to consider, because the number of edges of a cube and its"
+      },
+      {
+        "start": 1099.9,
+        "duration": 2.8,
+        "text": "complement must always add up to 12."
+      },
+      {
+        "start": 1102.7,
+        "duration": 3.2,
+        "text": "For example, every four-part cube has an eight-part complement."
+      },
+      {
+        "start": 1105.9,
+        "duration": 5.0,
+        "text": "Thus, Louis' could basically explore four and eight-part cubes in parallel, similarly"
+      },
+      {
+        "start": 1110.9,
+        "duration": 3.2,
+        "text": "for five and seven-part cubes, and so on."
+      },
+      {
+        "start": 1114.1,
+        "duration": 5.2,
+        "text": "By exploiting this duality, Louis was cleverly able to cut his search effort in half."
+      },
+      {
+        "start": 1119.4,
+        "duration": 5.4,
+        "text": "Finding the right labeling system can be an invaluable step in making sense of a problem."
+      },
+      {
+        "start": 1124.7,
+        "duration": 3.3,
+        "text": "So what's something that might be useful for us to label?"
+      },
+      {
+        "start": 1128.0,
+        "duration": 4.6,
+        "text": "We're interested in understanding families, such as this 24-member group, and currently"
+      },
+      {
+        "start": 1132.7,
+        "duration": 4.8,
+        "text": "we don't have any way of referring to specific family members, so this could be a good candidate"
+      },
+      {
+        "start": 1137.4,
+        "duration": 2.1,
+        "text": "for a new labeling system."
+      },
+      {
+        "start": 1139.6,
+        "duration": 3.9,
+        "text": "For instance, what is the relationship between the given cube and this family member in"
+      },
+      {
+        "start": 1143.4,
+        "duration": 1.8,
+        "text": "the lower corner?"
+      },
+      {
+        "start": 1145.3,
+        "duration": 4.7,
+        "text": "We can see that if we spin the given cube by 90 degrees, we obtain the orientation shown"
+      },
+      {
+        "start": 1150.0,
+        "duration": 1.8,
+        "text": "by that lower cube."
+      },
+      {
+        "start": 1151.8,
+        "duration": 4.6,
+        "text": "We might even think to label that as the cube we get when we rotate the given cube by 90"
+      },
+      {
+        "start": 1156.4,
+        "duration": 2.8,
+        "text": "degrees around the vertical axis."
+      },
+      {
+        "start": 1159.2,
+        "duration": 5.0,
+        "text": "A similar kind of geometric description could be applied to all of these family members,"
+      },
+      {
+        "start": 1164.2,
+        "duration": 3.6,
+        "text": "and we can work out this labeling system by just thinking about all the different ways"
+      },
+      {
+        "start": 1167.7,
+        "duration": 2.3,
+        "text": "of reorienting a cube."
+      },
+      {
+        "start": 1170.0,
+        "duration": 4.8,
+        "text": "For instance, we've seen that we can rotate the cube 90 degrees around the vertical axis,"
+      },
+      {
+        "start": 1174.8,
+        "duration": 6.4,
+        "text": "but we can also keep spinning to 180 degrees and 270 degrees before returning to the original"
+      },
+      {
+        "start": 1181.2,
+        "duration": 1.8,
+        "text": "orientation."
+      },
+      {
+        "start": 1183.0,
+        "duration": 6.2,
+        "text": "So let's take our given cube and make three copies and apply each of these transformations."
+      },
+      {
+        "start": 1189.2,
+        "duration": 5.6,
+        "text": "The result is three different orientations of the cube all distinct from one another."
+      },
+      {
+        "start": 1194.7,
+        "duration": 4.0,
+        "text": "The vertical axis runs through two opposite faces of the cube."
+      },
+      {
+        "start": 1198.7,
+        "duration": 6.3,
+        "text": "There are two other face-centered axes we might call our set F1, F2, and F3, and each one"
+      },
+      {
+        "start": 1205.0,
+        "duration": 6.8,
+        "text": "of these can be used to give three new orientations of the cube."
+      },
+      {
+        "start": 1211.8,
+        "duration": 5.5,
+        "text": "In total, we get nine additional family members by rotating around these axes."
+      },
+      {
+        "start": 1217.2,
+        "duration": 4.1,
+        "text": "Let's zoom in on the first example, and in the spirit of soluette we'll give it a two-part"
+      },
+      {
+        "start": 1221.3,
+        "duration": 1.0,
+        "text": "label."
+      },
+      {
+        "start": 1222.3,
+        "duration": 5.3,
+        "text": "F1 tells us the axis, and 90 degrees tells us how much to rotate."
+      },
+      {
+        "start": 1227.6,
+        "duration": 4.6,
+        "text": "We can apply this label to all of the family members shown here."
+      },
+      {
+        "start": 1232.2,
+        "duration": 4.9,
+        "text": "Another axis we can twirl the cube around as this diagonal line that passes through opposite"
+      },
+      {
+        "start": 1237.2,
+        "duration": 1.3,
+        "text": "corners."
+      },
+      {
+        "start": 1238.5,
+        "duration": 5.9,
+        "text": "We can call it a corner axis and see that we can spin a cube 120 degrees or 240 degrees"
+      },
+      {
+        "start": 1244.4,
+        "duration": 1.8,
+        "text": "around it."
+      },
+      {
+        "start": 1246.2,
+        "duration": 4.5,
+        "text": "Applying this to a pair of copies, we find two new orientations."
+      },
+      {
+        "start": 1250.8,
+        "duration": 4.1,
+        "text": "If we work our way around the cube, we'll find a total of four axes like this, which we"
+      },
+      {
+        "start": 1254.8,
+        "duration": 3.2,
+        "text": "can label C1 to C4."
+      },
+      {
+        "start": 1258.0,
+        "duration": 5.3,
+        "text": "Those first two examples we saw were the rotations around C1, and here are the outputs of all"
+      },
+      {
+        "start": 1263.3,
+        "duration": 3.6,
+        "text": "the rest."
+      },
+      {
+        "start": 1266.9,
+        "duration": 4.8,
+        "text": "And at last, it is also possible to run an axis between diagonal edges and give the cube"
+      },
+      {
+        "start": 1271.7,
+        "duration": 2.6,
+        "text": "a 180 degrees spin."
+      },
+      {
+        "start": 1274.3,
+        "duration": 6.2,
+        "text": "The 12 edges of the cube pair off to make six of these axes, which will label like this."
+      },
+      {
+        "start": 1280.6,
+        "duration": 6.9,
+        "text": "Here's a new cube orientation we can get from spinning around E1, and here are the rest."
+      },
+      {
+        "start": 1287.4,
+        "duration": 5.1,
+        "text": "With six cubes from the edge axes, eight from the corner axes, and nine from the face axes,"
+      },
+      {
+        "start": 1292.6,
+        "duration": 3.5,
+        "text": "we end up with 23 distinct orientations of the cube."
+      },
+      {
+        "start": 1296.0,
+        "duration": 5.5,
+        "text": "If we include the original cube, to which we did nothing, we get 24 distinct orientations,"
+      },
+      {
+        "start": 1301.6,
+        "duration": 3.3,
+        "text": "24 uniquely labeled family members."
+      },
+      {
+        "start": 1304.8,
+        "duration": 4.5,
+        "text": "There are simpler ways to deduce that there must be 24 rotations, but what we'll find"
+      },
+      {
+        "start": 1309.3,
+        "duration": 5.4,
+        "text": "later is that having an explicit list of all 24 will be crucial for our final step in"
+      },
+      {
+        "start": 1314.8,
+        "duration": 2.6,
+        "text": "counting incomplete cubes."
+      },
+      {
+        "start": 1317.3,
+        "duration": 2.2,
+        "text": "Note that what we've really labeled our actions."
+      },
+      {
+        "start": 1319.5,
+        "duration": 6.5,
+        "text": "A label like 120-degree rotation around C4 refers to a transformation that can be applied"
+      },
+      {
+        "start": 1326.0,
+        "duration": 1.8,
+        "text": "to any given cube."
+      },
+      {
+        "start": 1327.8,
+        "duration": 5.1,
+        "text": "If we grab a random incomplete open cube, we can supply it as input to the transformation"
+      },
+      {
+        "start": 1332.9,
+        "duration": 4.4,
+        "text": "and get a generally different incomplete open cube as output."
+      },
+      {
+        "start": 1337.2,
+        "duration": 4.7,
+        "text": "If we take this same input and supply it to all 24 of our transformations, we get all"
+      },
+      {
+        "start": 1342.0,
+        "duration": 4.4,
+        "text": "24 orientations of that shape, that is, all of its family members."
+      },
+      {
+        "start": 1346.4,
+        "duration": 4.8,
+        "text": "We effectively have a recipe for taking any incomplete open cube and generating a copy"
+      },
+      {
+        "start": 1351.2,
+        "duration": 1.1,
+        "text": "of its whole family."
+      },
+      {
+        "start": 1352.3,
+        "duration": 3.2,
+        "text": "We'll call this a family portrait."
+      },
+      {
+        "start": 1355.4,
+        "duration": 3.3,
+        "text": "But what do you think would happen if we made the family portrait of a shape that doesn't"
+      },
+      {
+        "start": 1358.7,
+        "duration": 2.8,
+        "text": "have 24 family members?"
+      },
+      {
+        "start": 1361.5,
+        "duration": 4.0,
+        "text": "For instance, we know this table looking cube only has six members in its family, so if"
+      },
+      {
+        "start": 1365.5,
+        "duration": 4.1,
+        "text": "we make its family portrait, what's going to go in the other 18 slots?"
+      },
+      {
+        "start": 1369.6,
+        "duration": 3.9,
+        "text": "One thing we can say for sure is that there are going to be repeats."
+      },
+      {
+        "start": 1373.6,
+        "duration": 3.7,
+        "text": "The reason for this is that we're about to knock over a table 24 different ways, but"
+      },
+      {
+        "start": 1377.3,
+        "duration": 3.0,
+        "text": "there are only six ways a table can land."
+      },
+      {
+        "start": 1380.3,
+        "duration": 3.2,
+        "text": "So let's apply the transformations and see what we get."
+      },
+      {
+        "start": 1383.5,
+        "duration": 4.0,
+        "text": "There are definitely a lot of repeats, perhaps most noticeably here in the upper corner."
+      },
+      {
+        "start": 1387.6,
+        "duration": 4.3,
+        "text": "In addition to the unchanged cube, there are three manipulated cubes that end up still"
+      },
+      {
+        "start": 1391.9,
+        "duration": 1.5,
+        "text": "being upright."
+      },
+      {
+        "start": 1393.4,
+        "duration": 2.9,
+        "text": "We'll color code the upright tables green."
+      },
+      {
+        "start": 1396.3,
+        "duration": 2.6,
+        "text": "Now consider these four transformations."
+      },
+      {
+        "start": 1399.0,
+        "duration": 3.5,
+        "text": "Each one manages to knock the table into the upside down position."
+      },
+      {
+        "start": 1402.5,
+        "duration": 4.2,
+        "text": "We'll color code upside down tables purple, and we can see that our portrait then contains"
+      },
+      {
+        "start": 1406.7,
+        "duration": 2.9,
+        "text": "four tables in this orientation."
+      },
+      {
+        "start": 1409.6,
+        "duration": 4.2,
+        "text": "In fact, it turns out there are four ways to get a table pointing in any particular direction,"
+      },
+      {
+        "start": 1413.8,
+        "duration": 4.0,
+        "text": "which means we get exactly four copies of every family member."
+      },
+      {
+        "start": 1417.8,
+        "duration": 3.5,
+        "text": "Another way to say this is that we can take this family portrait and we can rearrange"
+      },
+      {
+        "start": 1421.4,
+        "duration": 4.5,
+        "text": "the pieces into four complete copies of our six member family."
+      },
+      {
+        "start": 1425.9,
+        "duration": 1.6,
+        "text": "So we're seeing some structure here."
+      },
+      {
+        "start": 1427.4,
+        "duration": 4.5,
+        "text": "It's not just all upside down tables or alternating left and right tables."
+      },
+      {
+        "start": 1431.9,
+        "duration": 2.5,
+        "text": "The family portrait worked like a copy machine."
+      },
+      {
+        "start": 1434.4,
+        "duration": 2.8,
+        "text": "It made four complete replicas of this family."
+      },
+      {
+        "start": 1437.2,
+        "duration": 2.4,
+        "text": "Does this happen with other small families?"
+      },
+      {
+        "start": 1439.6,
+        "duration": 3.7,
+        "text": "In this three part cube, the edges all meet at one corner."
+      },
+      {
+        "start": 1443.3,
+        "duration": 3.9,
+        "text": "A complete cube has eight corners that a triple like this could be clustered around,"
+      },
+      {
+        "start": 1447.2,
+        "duration": 4.4,
+        "text": "and so we can reason that there are eight distinct orientations for this incomplete"
+      },
+      {
+        "start": 1451.6,
+        "duration": 1.8,
+        "text": "open cube."
+      },
+      {
+        "start": 1453.3,
+        "duration": 1.4,
+        "text": "So now let's make a family portrait."
+      },
+      {
+        "start": 1454.7,
+        "duration": 4.7,
+        "text": "We'll use this color coding to identify family members in the output."
+      },
+      {
+        "start": 1459.4,
+        "duration": 3.9,
+        "text": "After we apply all the transformations, we discover that once again we have gotten complete"
+      },
+      {
+        "start": 1463.3,
+        "duration": 4.5,
+        "text": "copies of the entire family, this time a total of three."
+      },
+      {
+        "start": 1467.8,
+        "duration": 3.1,
+        "text": "Let's compare these copies from the previous example."
+      },
+      {
+        "start": 1470.9,
+        "duration": 2.6,
+        "text": "What can we say about these rectangles?"
+      },
+      {
+        "start": 1473.4,
+        "duration": 4.4,
+        "text": "For one thing, they both have 24 squares in total because that's how many cubes are"
+      },
+      {
+        "start": 1477.9,
+        "duration": 1.8,
+        "text": "in a family portrait."
+      },
+      {
+        "start": 1479.6,
+        "duration": 4.4,
+        "text": "The height of these rectangles is the specific thing we're interested in, the size of the family"
+      },
+      {
+        "start": 1484.0,
+        "duration": 2.6,
+        "text": "that a given shape belongs to."
+      },
+      {
+        "start": 1486.6,
+        "duration": 1.6,
+        "text": "What about across the top?"
+      },
+      {
+        "start": 1488.2,
+        "duration": 5.3,
+        "text": "What can we say about the family members that are giving width to these rectangles?"
+      },
+      {
+        "start": 1493.5,
+        "duration": 5.6,
+        "text": "In the first case, we see the familiar set of tables which look unchanged by their transformations."
+      },
+      {
+        "start": 1499.1,
+        "duration": 2.0,
+        "text": "In the second case, we see something similar."
+      },
+      {
+        "start": 1501.0,
+        "duration": 5.1,
+        "text": "All the corner pieces which ended up in the portrait looking just like they did before."
+      },
+      {
+        "start": 1506.1,
+        "duration": 3.4,
+        "text": "We're going to call these cubes in the family portrait lookalikes."
+      },
+      {
+        "start": 1509.6,
+        "duration": 4.0,
+        "text": "To be more specific, consider any cube and any transformation."
+      },
+      {
+        "start": 1513.6,
+        "duration": 4.7,
+        "text": "A lookalike is what results if the cube looks the same after applying the transformation"
+      },
+      {
+        "start": 1518.3,
+        "duration": 2.0,
+        "text": "as it did before."
+      },
+      {
+        "start": 1520.3,
+        "duration": 4.4,
+        "text": "In the examples from before, the cubes we did nothing to will always be lookalikes,"
+      },
+      {
+        "start": 1524.7,
+        "duration": 5.5,
+        "text": "but families may have additional lookalikes and these add additional width to our rectangles."
+      },
+      {
+        "start": 1530.2,
+        "duration": 2.8,
+        "text": "This shows us that there seems to be a numerical relationship."
+      },
+      {
+        "start": 1533.0,
+        "duration": 4.4,
+        "text": "The size of a given family, times the number of lookalikes in its family portrait, always"
+      },
+      {
+        "start": 1537.4,
+        "duration": 1.8,
+        "text": "equals 24."
+      },
+      {
+        "start": 1539.2,
+        "duration": 4.1,
+        "text": "To put it another way, it seems we can calculate how big a cube's family is by counting"
+      },
+      {
+        "start": 1543.4,
+        "duration": 3.4,
+        "text": "its lookalikes and dividing 24 by that number."
+      },
+      {
+        "start": 1546.8,
+        "duration": 1.3,
+        "text": "Let's give it a try."
+      },
+      {
+        "start": 1548.1,
+        "duration": 2.4,
+        "text": "Consider this cube with one edge removed."
+      },
+      {
+        "start": 1550.5,
+        "duration": 1.8,
+        "text": "How big is its family?"
+      },
+      {
+        "start": 1552.3,
+        "duration": 4.1,
+        "text": "In order to use our formula, we need to think of all the ways to manipulate this cube that"
+      },
+      {
+        "start": 1556.4,
+        "duration": 2.8,
+        "text": "leave it apparently unchanged."
+      },
+      {
+        "start": 1559.2,
+        "duration": 4.3,
+        "text": "One option is always to do nothing to it, but we can also spin the cube around this"
+      },
+      {
+        "start": 1563.5,
+        "duration": 2.9,
+        "text": "edge axis and it stays the same as before."
+      },
+      {
+        "start": 1566.4,
+        "duration": 4.4,
+        "text": "The cube will look the same as long as that bottom left edge stays in place."
+      },
+      {
+        "start": 1570.8,
+        "duration": 4.7,
+        "text": "And it turns out there are no other transformations that leave it fixed, so that gives us two lookalikes"
+      },
+      {
+        "start": 1575.6,
+        "duration": 3.9,
+        "text": "total and that implies that the family size is 12."
+      },
+      {
+        "start": 1579.5,
+        "duration": 4.4,
+        "text": "We can actually corroborate this result by remembering that a cube has 12 edges, so there"
+      },
+      {
+        "start": 1583.9,
+        "duration": 3.9,
+        "text": "should be 12 distinct ways to remove a single edge from a cube."
+      },
+      {
+        "start": 1587.8,
+        "duration": 1.9,
+        "text": "So the formula checks out."
+      },
+      {
+        "start": 1589.7,
+        "duration": 3.7,
+        "text": "The formula also seems to apply in our various edge cases."
+      },
+      {
+        "start": 1593.4,
+        "duration": 2.7,
+        "text": "Let's make the family portrait of a complete cube."
+      },
+      {
+        "start": 1596.1,
+        "duration": 3.8,
+        "text": "Of course, this turns out to be nothing but lookalikes since a cube looks the same from"
+      },
+      {
+        "start": 1599.9,
+        "duration": 5.9,
+        "text": "every direction, according to our formula 24 divided by 24 is 1 and the cube is indeed"
+      },
+      {
+        "start": 1605.8,
+        "duration": 2.6,
+        "text": "the only member of its family."
+      },
+      {
+        "start": 1608.4,
+        "duration": 4.1,
+        "text": "Suppose we have another family portrait, this one contains no lookalikes, other than"
+      },
+      {
+        "start": 1612.5,
+        "duration": 5.1,
+        "text": "the unchanged cube at the top, 24 divided by this minimum number of lookalikes and"
+      },
+      {
+        "start": 1617.7,
+        "duration": 4.0,
+        "text": "ends up with the maximum family size of 24."
+      },
+      {
+        "start": 1621.6,
+        "duration": 4.2,
+        "text": "So we have found a formulaic answer to our question, and in a way we've confirmed our"
+      },
+      {
+        "start": 1625.8,
+        "duration": 1.8,
+        "text": "hunch about symmetry."
+      },
+      {
+        "start": 1627.6,
+        "duration": 4.0,
+        "text": "To say that a shape is symmetrical is really to say that it looks the same from various"
+      },
+      {
+        "start": 1631.6,
+        "duration": 1.3,
+        "text": "points of view."
+      },
+      {
+        "start": 1632.9,
+        "duration": 4.6,
+        "text": "The number of lookalikes is basically a numerical measure of symmetry, and our formula captures"
+      },
+      {
+        "start": 1637.5,
+        "duration": 3.2,
+        "text": "how more symmetry means smaller families."
+      },
+      {
+        "start": 1640.7,
+        "duration": 5.2,
+        "text": "Conceptually, we now know families and lookalikes are related ideas."
+      },
+      {
+        "start": 1646.0,
+        "duration": 3.8,
+        "text": "After that in order to notice this relationship, we had to be able to ask what happens if we"
+      },
+      {
+        "start": 1649.8,
+        "duration": 4.3,
+        "text": "take the family portrait of a table, and it's impossible to even ask this question until"
+      },
+      {
+        "start": 1654.1,
+        "duration": 4.5,
+        "text": "we use our labeling system to define what a family portrait is."
+      },
+      {
+        "start": 1658.6,
+        "duration": 3.4,
+        "text": "A good labeling system does more than just organize your data."
+      },
+      {
+        "start": 1662.0,
+        "duration": 4.7,
+        "text": "Much as Louis Edge labels may have guided him to thinking about complementary pairs,"
+      },
+      {
+        "start": 1666.7,
+        "duration": 4.7,
+        "text": "our labeling system has enabled us to find a hidden connection between two seemingly unrelated"
+      },
+      {
+        "start": 1671.4,
+        "duration": 1.0,
+        "text": "concepts."
+      },
+      {
+        "start": 1672.8,
+        "duration": 4.0,
+        "text": "Now, as we turn our attention back to the bigger problem of determining the total number"
+      },
+      {
+        "start": 1676.7,
+        "duration": 7.0,
+        "text": "of families, we can come at this question knowing that lookalikes may turn out to be useful."
+      },
+      {
+        "start": 1683.7,
+        "duration": 4.0,
+        "text": "Another kind of scribbling you can find throughout the notebooks are running totals for"
+      },
+      {
+        "start": 1687.7,
+        "duration": 3.3,
+        "text": "the number of cubes Louis had found at a given time."
+      },
+      {
+        "start": 1691.0,
+        "duration": 4.0,
+        "text": "Here for instance, he's adding up the counts for three part, four part, five part cubes,"
+      },
+      {
+        "start": 1695.0,
+        "duration": 3.0,
+        "text": "and so on for a total of 79."
+      },
+      {
+        "start": 1698.0,
+        "duration": 2.9,
+        "text": "He then tries to divide 79 by 12."
+      },
+      {
+        "start": 1700.9,
+        "duration": 1.0,
+        "text": "Why?"
+      },
+      {
+        "start": 1701.9,
+        "duration": 1.3,
+        "text": "Here's my theory."
+      },
+      {
+        "start": 1703.2,
+        "duration": 4.8,
+        "text": "In any sensible universe, the total number of incomplete open cubes should have some numerical"
+      },
+      {
+        "start": 1708.0,
+        "duration": 2.7,
+        "text": "relationship with the geometry of a cube."
+      },
+      {
+        "start": 1710.6,
+        "duration": 5.2,
+        "text": "A cube has 12 sides, so I propose that Louis was dividing his total by 12 to see if it"
+      },
+      {
+        "start": 1715.8,
+        "duration": 2.0,
+        "text": "happens to come out even."
+      },
+      {
+        "start": 1717.8,
+        "duration": 4.2,
+        "text": "I just love this because it's such a common part of struggling with a math problem where"
+      },
+      {
+        "start": 1722.0,
+        "duration": 4.8,
+        "text": "you're just kind of blindly but optimistically probing for patterns."
+      },
+      {
+        "start": 1726.8,
+        "duration": 3.6,
+        "text": "Conceptual artists are mystics rather than rationalists, Louis wrote."
+      },
+      {
+        "start": 1730.4,
+        "duration": 3.7,
+        "text": "They leap to conclusions that logic cannot reach."
+      },
+      {
+        "start": 1734.2,
+        "duration": 5.0,
+        "text": "In a similar way, mathematical problem solving can often involve phases where we just experimentally"
+      },
+      {
+        "start": 1739.1,
+        "duration": 3.3,
+        "text": "combine different ideas in search of patterns."
+      },
+      {
+        "start": 1742.4,
+        "duration": 3.6,
+        "text": "For example, let's take this incomplete open cube and begin playing around with its"
+      },
+      {
+        "start": 1746.0,
+        "duration": 2.6,
+        "text": "family portrait."
+      },
+      {
+        "start": 1748.6,
+        "duration": 4.0,
+        "text": "Now presumably we could create this family portrait using any of these family members"
+      },
+      {
+        "start": 1752.6,
+        "duration": 1.3,
+        "text": "as a starting point."
+      },
+      {
+        "start": 1753.9,
+        "duration": 1.6,
+        "text": "For example, this cube here."
+      },
+      {
+        "start": 1755.5,
+        "duration": 5.5,
+        "text": "This pulled this one out and generated a new family portrait based on its various orientations."
+      },
+      {
+        "start": 1761.0,
+        "duration": 3.2,
+        "text": "What can we say about these two family portraits?"
+      },
+      {
+        "start": 1764.2,
+        "duration": 4.4,
+        "text": "First of all, they depict the same family, any member you can find on the left can also"
+      },
+      {
+        "start": 1768.6,
+        "duration": 4.5,
+        "text": "be found somewhere on the right, but the portraits are also clearly different."
+      },
+      {
+        "start": 1773.0,
+        "duration": 3.7,
+        "text": "In order to compare them, let's stack them up vertically and take a look at each entry"
+      },
+      {
+        "start": 1776.7,
+        "duration": 2.2,
+        "text": "side by side."
+      },
+      {
+        "start": 1778.9,
+        "duration": 3.8,
+        "text": "We know that these top two are different, we chose them as distinct family members when"
+      },
+      {
+        "start": 1782.7,
+        "duration": 2.4,
+        "text": "we created these portraits."
+      },
+      {
+        "start": 1785.2,
+        "duration": 4.8,
+        "text": "These two show the result of applying a 90 degree rotation, but clearly two different"
+      },
+      {
+        "start": 1789.9,
+        "duration": 5.1,
+        "text": "cubes will remain different after a 90 degree twist, and they remain different when they"
+      },
+      {
+        "start": 1795.0,
+        "duration": 4.2,
+        "text": "are both turned by 180 degrees and so on."
+      },
+      {
+        "start": 1799.2,
+        "duration": 3.6,
+        "text": "So we can see that while these two columns have complete agreement about their overall"
+      },
+      {
+        "start": 1802.8,
+        "duration": 6.6,
+        "text": "contents, they necessarily have zero agreement about which family members actually go where."
+      },
+      {
+        "start": 1809.4,
+        "duration": 1.9,
+        "text": "So we can make an observation."
+      },
+      {
+        "start": 1811.3,
+        "duration": 4.9,
+        "text": "Different portraits of the same family are just scrambled versions of each other."
+      },
+      {
+        "start": 1816.2,
+        "duration": 4.1,
+        "text": "There is a unique family portrait generated by each member of the family, and so we can"
+      },
+      {
+        "start": 1820.4,
+        "duration": 5.5,
+        "text": "bring in all 24 family members, generate their 24 distinct family portraits, and then"
+      },
+      {
+        "start": 1825.8,
+        "duration": 5.0,
+        "text": "pile these portraits into one big collection which will call a family album."
+      },
+      {
+        "start": 1830.9,
+        "duration": 2.4,
+        "text": "Now this is obviously a pretty abstract idea."
+      },
+      {
+        "start": 1833.2,
+        "duration": 3.2,
+        "text": "Is there anything interesting we can say about this grid?"
+      },
+      {
+        "start": 1836.4,
+        "duration": 4.3,
+        "text": "We know that lookalikes are a relevant idea, so we could ask how do lookalikes show up"
+      },
+      {
+        "start": 1840.7,
+        "duration": 1.8,
+        "text": "in family albums."
+      },
+      {
+        "start": 1842.5,
+        "duration": 4.8,
+        "text": "I would say that this question is kind of our version of dividing by 12 in that we may"
+      },
+      {
+        "start": 1847.3,
+        "duration": 2.6,
+        "text": "not be sure what we're looking for exactly."
+      },
+      {
+        "start": 1849.9,
+        "duration": 4.3,
+        "text": "Guided more by intuition than logic, we're just going to put these ideas of family albums"
+      },
+      {
+        "start": 1854.2,
+        "duration": 3.8,
+        "text": "and lookalikes together and see if anything interesting happens."
+      },
+      {
+        "start": 1858.0,
+        "duration": 4.1,
+        "text": "And it turns out that if we give it a little thought, there is a pattern we can find."
+      },
+      {
+        "start": 1862.0,
+        "duration": 4.8,
+        "text": "In particular, we're looking at a full sized family of 24, so each of these columns is"
+      },
+      {
+        "start": 1866.8,
+        "duration": 2.7,
+        "text": "only going to contain a single lookalike."
+      },
+      {
+        "start": 1869.6,
+        "duration": 4.7,
+        "text": "It's going to be different in a family album where a column has two lookalikes."
+      },
+      {
+        "start": 1874.3,
+        "duration": 4.4,
+        "text": "First of all, while the column on the left has 24 distinct family members, the column on"
+      },
+      {
+        "start": 1878.7,
+        "duration": 4.3,
+        "text": "the right is going to contain two full copies of the family, which therefore can only have"
+      },
+      {
+        "start": 1883.0,
+        "duration": 1.6,
+        "text": "12 members."
+      },
+      {
+        "start": 1884.6,
+        "duration": 5.4,
+        "text": "So when we go to produce the rest of the family album, we're only going to get 12 columns."
+      },
+      {
+        "start": 1890.0,
+        "duration": 3.9,
+        "text": "But if the first column has two lookalikes, and if all the columns are just scrambled"
+      },
+      {
+        "start": 1893.9,
+        "duration": 5.7,
+        "text": "versions of each other, then all 12 of these columns should contain two lookalikes each."
+      },
+      {
+        "start": 1899.5,
+        "duration": 4.4,
+        "text": "So although these two albums have different sizes, their overall count of lookalikes should"
+      },
+      {
+        "start": 1904.0,
+        "duration": 2.7,
+        "text": "be the same, 24 each."
+      },
+      {
+        "start": 1906.6,
+        "duration": 4.1,
+        "text": "A similar kind of rebalancing would happen with any number of lookalikes."
+      },
+      {
+        "start": 1910.8,
+        "duration": 4.5,
+        "text": "Three lookalikes means one third as many columns, but three times as many lookalikes per"
+      },
+      {
+        "start": 1915.2,
+        "duration": 1.4,
+        "text": "column."
+      },
+      {
+        "start": 1916.6,
+        "duration": 4.2,
+        "text": "Four lookalikes means a quarter as many columns, but quadruple the density of lookalikes"
+      },
+      {
+        "start": 1920.8,
+        "duration": 1.4,
+        "text": "per column."
+      },
+      {
+        "start": 1922.3,
+        "duration": 4.5,
+        "text": "That is, in theory at least, we're predicting that every family album should contain 24"
+      },
+      {
+        "start": 1926.8,
+        "duration": 1.0,
+        "text": "lookalikes."
+      },
+      {
+        "start": 1927.8,
+        "duration": 2.4,
+        "text": "Let's see how this looks in practice."
+      },
+      {
+        "start": 1930.2,
+        "duration": 4.5,
+        "text": "To generate this family's album, we make a column of copies of each member, apply our"
+      },
+      {
+        "start": 1934.7,
+        "duration": 6.2,
+        "text": "transformations, and we indeed see four lookalikes distributed in each of the six columns."
+      },
+      {
+        "start": 1940.9,
+        "duration": 2.6,
+        "text": "We can do the same thing with the three part corner piece."
+      },
+      {
+        "start": 1943.5,
+        "duration": 3.7,
+        "text": "Here we see eight columns with three lookalikes each."
+      },
+      {
+        "start": 1947.2,
+        "duration": 4.6,
+        "text": "And in the case of the cubes with a single missing edge, we get 12 columns with two lookalikes"
+      },
+      {
+        "start": 1951.8,
+        "duration": 1.3,
+        "text": "per column."
+      },
+      {
+        "start": 1953.1,
+        "duration": 5.1,
+        "text": "In all cases, this construction gives a total of 24 lookalikes per family."
+      },
+      {
+        "start": 1958.2,
+        "duration": 3.8,
+        "text": "If we ignore everything but the lookalikes, we can arrange them into columns and begin"
+      },
+      {
+        "start": 1962.0,
+        "duration": 6.2,
+        "text": "building up a new rectangle, piling up a column from each family."
+      },
+      {
+        "start": 1968.2,
+        "duration": 2.7,
+        "text": "So it's width is the total number of families."
+      },
+      {
+        "start": 1971.0,
+        "duration": 2.2,
+        "text": "The height of this rectangle is 24."
+      },
+      {
+        "start": 1973.1,
+        "duration": 5.8,
+        "text": "But we could say that the number of families times 24 gives the total number of lookalikes."
+      },
+      {
+        "start": 1979.0,
+        "duration": 4.5,
+        "text": "We can turn this another way if we count it up all the lookalikes and divided by 24,"
+      },
+      {
+        "start": 1983.4,
+        "duration": 2.2,
+        "text": "this would give us the number of families."
+      },
+      {
+        "start": 1985.6,
+        "duration": 4.3,
+        "text": "And technically this is what we've been looking for the whole time, a formula that outputs"
+      },
+      {
+        "start": 1989.9,
+        "duration": 1.7,
+        "text": "the number of families."
+      },
+      {
+        "start": 1991.6,
+        "duration": 2.6,
+        "text": "Could we actually solve the problem this way?"
+      },
+      {
+        "start": 1994.2,
+        "duration": 5.4,
+        "text": "As usual, we can turn to the two-dimensional case to see this technique in action."
+      },
+      {
+        "start": 1999.6,
+        "duration": 3.6,
+        "text": "So here are the six families of incomplete open squares."
+      },
+      {
+        "start": 2003.2,
+        "duration": 4.6,
+        "text": "Our plan basically is to go through each of these and generate its family album."
+      },
+      {
+        "start": 2007.8,
+        "duration": 3.6,
+        "text": "Then we'll count up all the lookalikes this produces, and then we'll see how that number"
+      },
+      {
+        "start": 2011.4,
+        "duration": 2.1,
+        "text": "works in our formula."
+      },
+      {
+        "start": 2013.5,
+        "duration": 2.5,
+        "text": "Let's start with the family of elbows."
+      },
+      {
+        "start": 2016.0,
+        "duration": 3.8,
+        "text": "In the 2D case, there are only four possible transformations we can apply."
+      },
+      {
+        "start": 2019.8,
+        "duration": 6.4,
+        "text": "We can do nothing, and we can rotate by 90 degrees, 180 degrees, and 270 degrees."
+      },
+      {
+        "start": 2026.2,
+        "duration": 4.2,
+        "text": "So the family portrait for this square involves four transformed copies."
+      },
+      {
+        "start": 2030.4,
+        "duration": 6.2,
+        "text": "Notice that the only lookalike in this column is the unchanged entry up at the top."
+      },
+      {
+        "start": 2036.7,
+        "duration": 3.3,
+        "text": "Following out the other four portraits to produce our family album, we ultimately find"
+      },
+      {
+        "start": 2040.0,
+        "duration": 2.6,
+        "text": "four lookalikes overall."
+      },
+      {
+        "start": 2042.6,
+        "duration": 4.0,
+        "text": "Let's compare this to the album produced by the family of parallel bars."
+      },
+      {
+        "start": 2046.6,
+        "duration": 4.6,
+        "text": "Unpacking these, we find two lookalikes in each column, once again giving four lookalikes"
+      },
+      {
+        "start": 2051.2,
+        "duration": 1.2,
+        "text": "overall."
+      },
+      {
+        "start": 2052.4,
+        "duration": 4.0,
+        "text": "So in 2D, the general rule appears to be that each family contributes four lookalikes"
+      },
+      {
+        "start": 2056.4,
+        "duration": 2.2,
+        "text": "to the total."
+      },
+      {
+        "start": 2058.6,
+        "duration": 4.2,
+        "text": "If we bring in all six families and unpack them, we can see that there is a grand total"
+      },
+      {
+        "start": 2062.8,
+        "duration": 2.6,
+        "text": "of 24 lookalikes altogether."
+      },
+      {
+        "start": 2065.4,
+        "duration": 3.5,
+        "text": "Now, when we have all of the families sorted out like this, it's easy to see that each"
+      },
+      {
+        "start": 2068.9,
+        "duration": 5.1,
+        "text": "one contributes four lookalikes to our total, but the power of our formula becomes apparent"
+      },
+      {
+        "start": 2074.0,
+        "duration": 5.3,
+        "text": "when we remember that these incomplete open squares were first presented to us, unsorted."
+      },
+      {
+        "start": 2079.3,
+        "duration": 3.0,
+        "text": "This is the order of the squares we originally started with."
+      },
+      {
+        "start": 2082.4,
+        "duration": 4.6,
+        "text": "In this state, we didn't know which squares belong to which families, but each column is"
+      },
+      {
+        "start": 2087.0,
+        "duration": 4.3,
+        "text": "the same as it was before, and the number of yellow squares is the same, regardless of"
+      },
+      {
+        "start": 2091.3,
+        "duration": 4.2,
+        "text": "the arrangement of these columns, so we can just count these off directly."
+      },
+      {
+        "start": 2095.6,
+        "duration": 4.4,
+        "text": "The first column has four lookalikes, the next one has just one, and so on down the"
+      },
+      {
+        "start": 2100.0,
+        "duration": 1.3,
+        "text": "line."
+      },
+      {
+        "start": 2101.3,
+        "duration": 4.8,
+        "text": "Adding these up, we find 24 total lookalikes, and we know that each family contributes"
+      },
+      {
+        "start": 2106.1,
+        "duration": 3.8,
+        "text": "four, so that tells us there must be six families in here."
+      },
+      {
+        "start": 2109.9,
+        "duration": 2.2,
+        "text": "And this is exactly what we were looking for."
+      },
+      {
+        "start": 2112.1,
+        "duration": 3.6,
+        "text": "We've been able to calculate that there must be six families without having to do any"
+      },
+      {
+        "start": 2115.7,
+        "duration": 1.6,
+        "text": "actual sorting."
+      },
+      {
+        "start": 2117.3,
+        "duration": 4.2,
+        "text": "Notice that in this approach, we have no idea which squares belong to which families,"
+      },
+      {
+        "start": 2121.4,
+        "duration": 5.9,
+        "text": "or how big any of the families are, only that there must be six families in there somewhere."
+      },
+      {
+        "start": 2127.4,
+        "duration": 3.8,
+        "text": "Exciting though this may seem, we are in for some disappointment."
+      },
+      {
+        "start": 2131.2,
+        "duration": 3.8,
+        "text": "When we try to apply this technique to our cubes, we will quickly discover that it doesn't"
+      },
+      {
+        "start": 2134.9,
+        "duration": 1.6,
+        "text": "really help us."
+      },
+      {
+        "start": 2136.5,
+        "duration": 4.9,
+        "text": "First of all, it's not generally easier to count lookalikes than family size, and further"
+      },
+      {
+        "start": 2141.4,
+        "duration": 3.7,
+        "text": "more, we're still going to have to go down this darn hallway, so it's kind of cute"
+      },
+      {
+        "start": 2145.1,
+        "duration": 4.5,
+        "text": "that this approach should work technically, but it's pretty useless from a practical"
+      },
+      {
+        "start": 2149.6,
+        "duration": 1.0,
+        "text": "perspective."
+      },
+      {
+        "start": 2150.6,
+        "duration": 4.2,
+        "text": "All we've really shown is that the number of families, which we know is hard to count,"
+      },
+      {
+        "start": 2154.8,
+        "duration": 5.8,
+        "text": "is related to this other thing, lookalikes, which are also hard to count."
+      },
+      {
+        "start": 2160.6,
+        "duration": 2.3,
+        "text": "Disappointment is part of doing business."
+      },
+      {
+        "start": 2162.8,
+        "duration": 4.2,
+        "text": "Like soluite, dividing by 12, you should never be afraid to stir the food around on the"
+      },
+      {
+        "start": 2167.0,
+        "duration": 2.3,
+        "text": "plate and see what happens."
+      },
+      {
+        "start": 2169.3,
+        "duration": 1.7,
+        "text": "Sometimes it's a waste of time."
+      },
+      {
+        "start": 2171.0,
+        "duration": 3.6,
+        "text": "Sometimes you discover something useless, but interesting, like the relationship between"
+      },
+      {
+        "start": 2174.6,
+        "duration": 2.0,
+        "text": "families and lookalikes."
+      },
+      {
+        "start": 2176.6,
+        "duration": 4.3,
+        "text": "And sometimes, the disappointment is just the precursor to a different, almost opposite"
+      },
+      {
+        "start": 2180.9,
+        "duration": 3.6,
+        "text": "emotion, the euphoria of an epiphany."
+      },
+      {
+        "start": 2184.5,
+        "duration": 3.8,
+        "text": "Unfortunately, for us, you can't really arrange for an epiphany."
+      },
+      {
+        "start": 2188.4,
+        "duration": 2.2,
+        "text": "They just kind of happen sometimes."
+      },
+      {
+        "start": 2190.5,
+        "duration": 3.6,
+        "text": "For instance, maybe you're thinking about something else, but you're also noticing the"
+      },
+      {
+        "start": 2194.2,
+        "duration": 2.6,
+        "text": "grid of squares out of the corner of your eye."
+      },
+      {
+        "start": 2196.8,
+        "duration": 5.1,
+        "text": "And your vision idly traces these horizontal lines, and now you're sort of gazing at"
+      },
+      {
+        "start": 2201.8,
+        "duration": 2.5,
+        "text": "all these lookalikes you wish you could count."
+      },
+      {
+        "start": 2204.3,
+        "duration": 3.1,
+        "text": "And then all of a sudden, you're like, wait a minute, I don't have to count these up going"
+      },
+      {
+        "start": 2207.4,
+        "duration": 1.0,
+        "text": "this way."
+      },
+      {
+        "start": 2208.4,
+        "duration": 3.0,
+        "text": "I can also count them up going this way."
+      },
+      {
+        "start": 2211.5,
+        "duration": 3.7,
+        "text": "And before we proceed, I just want to take a minute and describe what it can feel like"
+      },
+      {
+        "start": 2215.2,
+        "duration": 2.4,
+        "text": "when a thought like this occurs to you."
+      },
+      {
+        "start": 2217.6,
+        "duration": 4.4,
+        "text": "Before you even have a chance to think it through in any detail, some part of you knows"
+      },
+      {
+        "start": 2222.0,
+        "duration": 2.1,
+        "text": "that you have just solved the problem."
+      },
+      {
+        "start": 2224.0,
+        "duration": 4.1,
+        "text": "There's still a bit of work to do, but from this point forward, the feeling of the problem"
+      },
+      {
+        "start": 2228.1,
+        "duration": 4.3,
+        "text": "seems to change, as if you're now just pushing on an open door."
+      },
+      {
+        "start": 2232.4,
+        "duration": 3.6,
+        "text": "So we're just going to count up the lookalikes going row by row."
+      },
+      {
+        "start": 2236.0,
+        "duration": 3.4,
+        "text": "How many squares look the same after a zero degree rotation?"
+      },
+      {
+        "start": 2239.4,
+        "duration": 2.0,
+        "text": "Easy, all 16 of them."
+      },
+      {
+        "start": 2241.5,
+        "duration": 2.0,
+        "text": "How about a 90 degree rotation?"
+      },
+      {
+        "start": 2243.5,
+        "duration": 3.2,
+        "text": "Only two, the empty square and the complete square."
+      },
+      {
+        "start": 2246.6,
+        "duration": 4.5,
+        "text": "At 180 degrees, we get four, including the two sets of parallel bars."
+      },
+      {
+        "start": 2251.2,
+        "duration": 4.4,
+        "text": "And 270 degrees is the same as 90 degrees, giving only the empty square and the complete"
+      },
+      {
+        "start": 2255.5,
+        "duration": 1.2,
+        "text": "square."
+      },
+      {
+        "start": 2256.8,
+        "duration": 4.0,
+        "text": "So this is an alternative way of counting up the total of 24 lookalikes, and it's already"
+      },
+      {
+        "start": 2260.8,
+        "duration": 4.0,
+        "text": "a big improvement since we did it in four steps instead of 16."
+      },
+      {
+        "start": 2264.8,
+        "duration": 3.3,
+        "text": "But let's think a little more carefully about what we're really doing here."
+      },
+      {
+        "start": 2268.1,
+        "duration": 5.6,
+        "text": "A lookalike is really a combination between a specific cube and a specific transformation,"
+      },
+      {
+        "start": 2273.6,
+        "duration": 5.4,
+        "text": "such that the cube looks the same after the transformation is applied as it did before."
+      },
+      {
+        "start": 2279.0,
+        "duration": 3.9,
+        "text": "We're trying to count up all possible combinations that make this happen, and our approach"
+      },
+      {
+        "start": 2282.9,
+        "duration": 4.6,
+        "text": "should be to look at each incomplete open cube and ask how many transformations make"
+      },
+      {
+        "start": 2287.5,
+        "duration": 1.7,
+        "text": "it look the same."
+      },
+      {
+        "start": 2289.2,
+        "duration": 4.4,
+        "text": "Our epiphany was basically that we can count to the same number by instead looking at each"
+      },
+      {
+        "start": 2293.6,
+        "duration": 6.6,
+        "text": "transformation and asking how many incomplete open cubes are left unchanged by this transformation."
+      },
+      {
+        "start": 2300.1,
+        "duration": 4.1,
+        "text": "This turns out to be a fundamentally different kind of question that is much easier to answer"
+      },
+      {
+        "start": 2304.2,
+        "duration": 1.2,
+        "text": "in general."
+      },
+      {
+        "start": 2305.4,
+        "duration": 3.7,
+        "text": "As we'll see, it can basically be done with a formula."
+      },
+      {
+        "start": 2309.2,
+        "duration": 4.2,
+        "text": "To figure out how, let's go back to the 2D case and see if we can figure out why it is"
+      },
+      {
+        "start": 2313.3,
+        "duration": 4.8,
+        "text": "that a 90 degree rotation only leaves two shapes looking unchanged, the empty square and"
+      },
+      {
+        "start": 2318.1,
+        "duration": 2.0,
+        "text": "the complete square."
+      },
+      {
+        "start": 2320.2,
+        "duration": 3.1,
+        "text": "Consider an undetermined incomplete open square."
+      },
+      {
+        "start": 2323.3,
+        "duration": 3.6,
+        "text": "What is required for this to be a lookalike under a 90 degree rotation?"
+      },
+      {
+        "start": 2326.9,
+        "duration": 4.6,
+        "text": "We're looking for patterns of edges which, if we make a copy and rotate it 90 degrees,"
+      },
+      {
+        "start": 2331.5,
+        "duration": 3.3,
+        "text": "look the same as before edge by edge."
+      },
+      {
+        "start": 2334.8,
+        "duration": 4.3,
+        "text": "Let's imagine, for instance, that we choose the top edge to be on and leave the rest undetermined"
+      },
+      {
+        "start": 2339.8,
+        "duration": 4.0,
+        "text": "after rotating a copy and comparing, we see that in order for these to be the same,"
+      },
+      {
+        "start": 2343.9,
+        "duration": 4.0,
+        "text": "the original square must have its right edge on as well."
+      },
+      {
+        "start": 2347.9,
+        "duration": 3.8,
+        "text": "But if the top edge being on forces the right edge to be on, then by the same logic,"
+      },
+      {
+        "start": 2351.7,
+        "duration": 5.4,
+        "text": "the right edge forces the bottom edge to be on, and that forces the left edge to be on."
+      },
+      {
+        "start": 2357.0,
+        "duration": 4.0,
+        "text": "If instead we had originally chosen the top edge to be off, the sequence of other edges"
+      },
+      {
+        "start": 2361.1,
+        "duration": 2.4,
+        "text": "would have all been off as well."
+      },
+      {
+        "start": 2363.5,
+        "duration": 4.0,
+        "text": "Whatever choice we make, it is contagious across all sides of the square."
+      },
+      {
+        "start": 2367.6,
+        "duration": 4.9,
+        "text": "So lookalikes for a 90 degree rotation are determined by a single overall choice, all"
+      },
+      {
+        "start": 2372.4,
+        "duration": 2.5,
+        "text": "on or off."
+      },
+      {
+        "start": 2374.9,
+        "duration": 5.7,
+        "text": "Compare this with the 180 degree rotation, which basically splits the square into two independent"
+      },
+      {
+        "start": 2380.6,
+        "duration": 1.0,
+        "text": "subsets."
+      },
+      {
+        "start": 2381.6,
+        "duration": 3.0,
+        "text": "The two horizontal edges get exchanged by the rotation."
+      },
+      {
+        "start": 2384.6,
+        "duration": 5.6,
+        "text": "In order to appear unchanged, they would need to be the same, either both on or both off."
+      },
+      {
+        "start": 2390.2,
+        "duration": 4.7,
+        "text": "Entirely separately, the vertical edges are also exchanged, and also must be both on"
+      },
+      {
+        "start": 2394.9,
+        "duration": 1.8,
+        "text": "or both off."
+      },
+      {
+        "start": 2396.7,
+        "duration": 3.9,
+        "text": "So in this case, we have two choices that specify the possible lookalikes."
+      },
+      {
+        "start": 2400.6,
+        "duration": 4.0,
+        "text": "We can represent these choices as a tree, in which we first decide whether or not there"
+      },
+      {
+        "start": 2404.6,
+        "duration": 4.4,
+        "text": "are horizontal sides, and then for each of those outcomes, we further decide whether"
+      },
+      {
+        "start": 2408.9,
+        "duration": 1.8,
+        "text": "there are vertical sides."
+      },
+      {
+        "start": 2410.8,
+        "duration": 4.8,
+        "text": "The bottom row consists of the four lookalikes for the 180 degree rotation."
+      },
+      {
+        "start": 2415.5,
+        "duration": 3.8,
+        "text": "And from our corresponding formula, we could also calculate this number as two raised"
+      },
+      {
+        "start": 2419.4,
+        "duration": 2.4,
+        "text": "to the second power, or four."
+      },
+      {
+        "start": 2421.8,
+        "duration": 4.0,
+        "text": "In some ways, the three-dimensional case is a little easier to visualize."
+      },
+      {
+        "start": 2425.8,
+        "duration": 2.3,
+        "text": "Here are 90 degree rotation of a cube."
+      },
+      {
+        "start": 2428.1,
+        "duration": 4.0,
+        "text": "In this case, the top four edges of the cube get exchanged amongst each other, and so"
+      },
+      {
+        "start": 2432.1,
+        "duration": 2.6,
+        "text": "they must all be the same, on or off."
+      },
+      {
+        "start": 2434.8,
+        "duration": 3.9,
+        "text": "Separately, the four vertical bars all get exchanged, and therefore must be the same"
+      },
+      {
+        "start": 2438.6,
+        "duration": 1.0,
+        "text": "as each other."
+      },
+      {
+        "start": 2439.6,
+        "duration": 4.4,
+        "text": "And finally, the bottom edges must all be the same, so we basically have three independent"
+      },
+      {
+        "start": 2444.0,
+        "duration": 4.6,
+        "text": "choices to make, which means we have two to the third or eight possible lookalikes."
+      },
+      {
+        "start": 2448.6,
+        "duration": 3.5,
+        "text": "We can show these choices as a decision tree, where the first choice is whether a cube"
+      },
+      {
+        "start": 2452.1,
+        "duration": 4.8,
+        "text": "has the top square, for each of those whether it has the vertical bars, and for each of those"
+      },
+      {
+        "start": 2457.0,
+        "duration": 2.3,
+        "text": "whether it has the bottom square."
+      },
+      {
+        "start": 2459.2,
+        "duration": 3.8,
+        "text": "If we run down the final line and give each of these a choreal, we see that we have generated"
+      },
+      {
+        "start": 2463.0,
+        "duration": 6.1,
+        "text": "all of the incomplete open cubes that look the same after a 90 degree rotation."
+      },
+      {
+        "start": 2469.1,
+        "duration": 4.7,
+        "text": "So we know that there are eight lookalikes associated with this particular transformation."
+      },
+      {
+        "start": 2473.8,
+        "duration": 3.6,
+        "text": "Our plan for finally solving this problem is to make the same assessment for each of our"
+      },
+      {
+        "start": 2477.4,
+        "duration": 1.3,
+        "text": "24 transformations."
+      },
+      {
+        "start": 2479.5,
+        "duration": 2.2,
+        "text": "And we're already further along than you might think."
+      },
+      {
+        "start": 2481.6,
+        "duration": 4.8,
+        "text": "By symmetry, the other 90 degree and 270 degree rotations in this row will have a similar"
+      },
+      {
+        "start": 2486.5,
+        "duration": 1.8,
+        "text": "set of eight lookalikes."
+      },
+      {
+        "start": 2488.3,
+        "duration": 4.6,
+        "text": "So now we just need to think about the 180 degree rotations in this row."
+      },
+      {
+        "start": 2492.9,
+        "duration": 3.4,
+        "text": "Let's consider the partition of the cube from the previous example."
+      },
+      {
+        "start": 2496.2,
+        "duration": 6.1,
+        "text": "Recall how, in the 2D case, the 180 degree rotation splits the square into two pairs of parallel"
+      },
+      {
+        "start": 2502.3,
+        "duration": 1.0,
+        "text": "sides."
+      },
+      {
+        "start": 2503.3,
+        "duration": 1.3,
+        "text": "A similar thing happens here."
+      },
+      {
+        "start": 2504.6,
+        "duration": 6.2,
+        "text": "The top square gets split into two separate subsets, each unaffected by a 180 degree rotation."
+      },
+      {
+        "start": 2510.8,
+        "duration": 3.0,
+        "text": "And the other layers get similarly divided into pairs."
+      },
+      {
+        "start": 2513.8,
+        "duration": 5.2,
+        "text": "So overall, this results in six independent choices, suggesting 64 lookalikes."
+      },
+      {
+        "start": 2519.0,
+        "duration": 1.4,
+        "text": "You can see a set here."
+      },
+      {
+        "start": 2520.4,
+        "duration": 5.1,
+        "text": "These are all of the incomplete open cubes that look the same after a 180 degree spin around"
+      },
+      {
+        "start": 2525.5,
+        "duration": 2.2,
+        "text": "the vertical axis."
+      },
+      {
+        "start": 2527.7,
+        "duration": 4.6,
+        "text": "This allows us to close out the row of face axes with an additional 64 lookalikes for each"
+      },
+      {
+        "start": 2532.3,
+        "duration": 3.3,
+        "text": "of the 180 degree rotations."
+      },
+      {
+        "start": 2535.6,
+        "duration": 3.5,
+        "text": "For the corner axis, it's a little easier to see what we're doing if we tilt the axis"
+      },
+      {
+        "start": 2539.0,
+        "duration": 1.5,
+        "text": "up vertically."
+      },
+      {
+        "start": 2540.6,
+        "duration": 4.0,
+        "text": "Up at the top, there's a cluster of three edges which all get exchanged and therefore"
+      },
+      {
+        "start": 2544.5,
+        "duration": 1.7,
+        "text": "must all be the same."
+      },
+      {
+        "start": 2546.2,
+        "duration": 3.6,
+        "text": "There's a similar set of three edges meeting at the bottom corner."
+      },
+      {
+        "start": 2549.9,
+        "duration": 2.2,
+        "text": "Then we have this ring around the center."
+      },
+      {
+        "start": 2552.1,
+        "duration": 4.8,
+        "text": "This divides into these three sides, which all get exchanged and must all be the same,"
+      },
+      {
+        "start": 2556.9,
+        "duration": 2.8,
+        "text": "and these three sides, which also must be the same."
+      },
+      {
+        "start": 2559.7,
+        "duration": 4.9,
+        "text": "Altogether, that's four distinct choices, giving 16 possible on-off combinations such"
+      },
+      {
+        "start": 2564.6,
+        "duration": 1.3,
+        "text": "as this set."
+      },
+      {
+        "start": 2565.9,
+        "duration": 2.9,
+        "text": "So we get to add a row of 16s to our table."
+      },
+      {
+        "start": 2568.8,
+        "duration": 4.9,
+        "text": "Finally, let's tilt the edge axis vertically and work our way from top to bottom."
+      },
+      {
+        "start": 2573.7,
+        "duration": 2.0,
+        "text": "We've got the top edge by itself."
+      },
+      {
+        "start": 2575.8,
+        "duration": 2.1,
+        "text": "Below that, we find a pair of Vs."
+      },
+      {
+        "start": 2577.9,
+        "duration": 4.4,
+        "text": "These swap opposite arms, so these two edges get exchanged and must be the same."
+      },
+      {
+        "start": 2582.3,
+        "duration": 3.4,
+        "text": "While these two edges also get swapped in must be the same."
+      },
+      {
+        "start": 2585.7,
+        "duration": 3.0,
+        "text": "Below that, we have a pair of edges at the midline."
+      },
+      {
+        "start": 2588.7,
+        "duration": 4.0,
+        "text": "Below that is another pair of Vs, which exchange opposite arms."
+      },
+      {
+        "start": 2592.7,
+        "duration": 2.4,
+        "text": "And finally, the fixed edge at the bottom."
+      },
+      {
+        "start": 2595.1,
+        "duration": 4.2,
+        "text": "This gives a grand total of seven independent choices for lookalikes fixed by the edge axis"
+      },
+      {
+        "start": 2599.3,
+        "duration": 4.9,
+        "text": "rotation, meaning 128 distinct shapes."
+      },
+      {
+        "start": 2604.2,
+        "duration": 4.0,
+        "text": "And after we fill in our final row, we can't forget that the act of doing nothing contributes"
+      },
+      {
+        "start": 2608.2,
+        "duration": 4.3,
+        "text": "a total of 4,096 lookalikes to our total."
+      },
+      {
+        "start": 2612.6,
+        "duration": 4.1,
+        "text": "So we've calculated the number of lookalikes for each transformation, and now we just"
+      },
+      {
+        "start": 2616.6,
+        "duration": 2.6,
+        "text": "add it all up."
+      },
+      {
+        "start": 2619.2,
+        "duration": 4.6,
+        "text": "Ultimately, we find 5,232 total lookalikes."
+      },
+      {
+        "start": 2623.8,
+        "duration": 2.2,
+        "text": "Dividing by 24 gives us our final answer."
+      },
+      {
+        "start": 2626.0,
+        "duration": 6.4,
+        "text": "It seems that there are 218 rotationally unique families of incomplete open cubes."
+      },
+      {
+        "start": 2632.4,
+        "duration": 4.3,
+        "text": "And this number has the happy conclusion of our mathematical train of thought."
+      },
+      {
+        "start": 2636.7,
+        "duration": 3.2,
+        "text": "It's difficult to know for sure what kind of epiphanies might have occurred to Louis"
+      },
+      {
+        "start": 2639.9,
+        "duration": 4.4,
+        "text": "a bit while he was solving this problem, but the notes do contain evidence of a possible"
+      },
+      {
+        "start": 2644.3,
+        "duration": 1.8,
+        "text": "flash of insight."
+      },
+      {
+        "start": 2646.1,
+        "duration": 4.0,
+        "text": "Consider the overall organization of the art piece, with the cubes neatly separated into"
+      },
+      {
+        "start": 2650.1,
+        "duration": 1.8,
+        "text": "different sizes."
+      },
+      {
+        "start": 2651.9,
+        "duration": 4.6,
+        "text": "Many of Louis' notebook pages depict earlier versions of this inventory."
+      },
+      {
+        "start": 2656.5,
+        "duration": 4.3,
+        "text": "Early attempts have a loose, semi-disorganized feeling, while later versions become more"
+      },
+      {
+        "start": 2660.8,
+        "duration": 2.5,
+        "text": "regimented and carefully annotated."
+      },
+      {
+        "start": 2663.3,
+        "duration": 4.5,
+        "text": "Together, they provide us with a high fidelity record of his discovery process."
+      },
+      {
+        "start": 2667.8,
+        "duration": 3.6,
+        "text": "We can see one interesting development by comparing the three part cubes in an earlier"
+      },
+      {
+        "start": 2671.4,
+        "duration": 1.9,
+        "text": "and a later inventory."
+      },
+      {
+        "start": 2673.3,
+        "duration": 3.6,
+        "text": "Notice in the second case that Louis seems to have found a new three part cube that he'd"
+      },
+      {
+        "start": 2677.0,
+        "duration": 1.7,
+        "text": "overlooked before."
+      },
+      {
+        "start": 2678.7,
+        "duration": 1.8,
+        "text": "Where did this come from?"
+      },
+      {
+        "start": 2680.5,
+        "duration": 2.7,
+        "text": "Consider this squiggly three part open cube."
+      },
+      {
+        "start": 2683.2,
+        "duration": 3.2,
+        "text": "Let's hold a mirror up to it and observe its mirror image."
+      },
+      {
+        "start": 2686.4,
+        "duration": 4.1,
+        "text": "Clearly, these shapes look similar, but what Louis discovered at some point is that they"
+      },
+      {
+        "start": 2690.5,
+        "duration": 3.2,
+        "text": "cannot be rotated into one another."
+      },
+      {
+        "start": 2693.7,
+        "duration": 4.7,
+        "text": "Every shape has a mirror image, and apparently some mirror image pairs are not rotationally"
+      },
+      {
+        "start": 2698.4,
+        "duration": 1.1,
+        "text": "equivalent."
+      },
+      {
+        "start": 2699.5,
+        "duration": 4.2,
+        "text": "On the other hand, notice that the other three part in complete cube is equivalent to its"
+      },
+      {
+        "start": 2703.7,
+        "duration": 1.1,
+        "text": "mirror image."
+      },
+      {
+        "start": 2704.8,
+        "duration": 2.7,
+        "text": "In general, there doesn't seem to be a fixed rule here."
+      },
+      {
+        "start": 2707.5,
+        "duration": 4.2,
+        "text": "For any incomplete open cube, we can consider its mirror image."
+      },
+      {
+        "start": 2711.7,
+        "duration": 3.7,
+        "text": "Sometimes the mirror image will be rotationally equivalent, other times it turns out to be"
+      },
+      {
+        "start": 2715.4,
+        "duration": 2.8,
+        "text": "a genuinely distinct shape."
+      },
+      {
+        "start": 2718.2,
+        "duration": 4.8,
+        "text": "This realization was an epiphany for Louis, meaning a sudden, unplanned flash of insight"
+      },
+      {
+        "start": 2723.1,
+        "duration": 2.7,
+        "text": "that instantly transforms the problem."
+      },
+      {
+        "start": 2725.8,
+        "duration": 3.9,
+        "text": "I want to suggest that this is probably not the kind of thing you realize gradually."
+      },
+      {
+        "start": 2729.7,
+        "duration": 4.4,
+        "text": "Rather, I suspect there was a very specific moment when Louis realized that mirror images"
+      },
+      {
+        "start": 2734.1,
+        "duration": 5.3,
+        "text": "could be distinct, and this event is marked by a sudden change in the available documentation."
+      },
+      {
+        "start": 2739.4,
+        "duration": 5.0,
+        "text": "Basically overnight, his tables undergo a dramatic growth spurred, as he discovers that many"
+      },
+      {
+        "start": 2744.4,
+        "duration": 6.0,
+        "text": "of the cubes he'd found had undiscovered rotationally distinct mirror images."
+      },
+      {
+        "start": 2750.3,
+        "duration": 5.1,
+        "text": "Sometime in early 1974, Louis' enumeration had reached its final form."
+      },
+      {
+        "start": 2755.5,
+        "duration": 5.1,
+        "text": "From there, we could say he formalized his result by creating a number of artworks."
+      },
+      {
+        "start": 2760.6,
+        "duration": 4.4,
+        "text": "We have already seen the table of incomplete open cubes, and this existed in at least two"
+      },
+      {
+        "start": 2765.0,
+        "duration": 1.5,
+        "text": "different forms."
+      },
+      {
+        "start": 2766.5,
+        "duration": 3.8,
+        "text": "But Louis also celebrated the result with a number of other creations."
+      },
+      {
+        "start": 2770.3,
+        "duration": 4.8,
+        "text": "He produced 40-inch painted aluminum sculptures of each of the variations."
+      },
+      {
+        "start": 2775.1,
+        "duration": 3.0,
+        "text": "He also created a series of isometric drawings."
+      },
+      {
+        "start": 2778.1,
+        "duration": 4.5,
+        "text": "These were collected along with black and white photographs into an art book, shown here,"
+      },
+      {
+        "start": 2782.6,
+        "duration": 3.9,
+        "text": "which the critic Nicholas Baum described as a cross between a construction manual and a"
+      },
+      {
+        "start": 2786.5,
+        "duration": 2.0,
+        "text": "rosetta stone."
+      },
+      {
+        "start": 2788.5,
+        "duration": 4.5,
+        "text": "Louis' most abstract representation for the cubes compresses the isometric view down"
+      },
+      {
+        "start": 2793.0,
+        "duration": 2.5,
+        "text": "to a flat hexagonal form."
+      },
+      {
+        "start": 2795.5,
+        "duration": 4.6,
+        "text": "His table of these simplified logos gets rid of any sense of three-dimensionality, leaving"
+      },
+      {
+        "start": 2800.2,
+        "duration": 3.8,
+        "text": "just the raw data of the incomplete open cubes."
+      },
+      {
+        "start": 2804.0,
+        "duration": 4.2,
+        "text": "One thing I can say, having just created a digital version of this work, is that this"
+      },
+      {
+        "start": 2808.2,
+        "duration": 4.5,
+        "text": "minimalist table was actually super convenient for entering the relevant data."
+      },
+      {
+        "start": 2812.7,
+        "duration": 3.9,
+        "text": "I came up with a numbering system for the lines of the hexagon, and then just directly"
+      },
+      {
+        "start": 2816.7,
+        "duration": 2.8,
+        "text": "transcribed this table into code."
+      },
+      {
+        "start": 2819.5,
+        "duration": 4.2,
+        "text": "A few clicks later, and there it is, my very own sol-lu-it."
+      },
+      {
+        "start": 2823.7,
+        "duration": 3.9,
+        "text": "It would have been very mentally taxing to have to think about three-dimensional cubes"
+      },
+      {
+        "start": 2827.6,
+        "duration": 4.8,
+        "text": "while entering this data, but was totally effortless to just read off this concise abstract"
+      },
+      {
+        "start": 2832.4,
+        "duration": 1.3,
+        "text": "information."
+      },
+      {
+        "start": 2833.7,
+        "duration": 4.3,
+        "text": "For the purposes of working computationally with his idea, the artist really did format"
+      },
+      {
+        "start": 2838.0,
+        "duration": 4.4,
+        "text": "his findings in the most useful abstract form I could have asked for."
+      },
+      {
+        "start": 2842.4,
+        "duration": 4.4,
+        "text": "Louis himself ended up making practical use of this minimalist representation."
+      },
+      {
+        "start": 2846.8,
+        "duration": 4.7,
+        "text": "This sheet may appear to be another problem-solving effort, but notice the list of names down"
+      },
+      {
+        "start": 2851.5,
+        "duration": 1.6,
+        "text": "the left-hand side."
+      },
+      {
+        "start": 2853.1,
+        "duration": 3.7,
+        "text": "These are the names of fabricators for the large-scale sculptures."
+      },
+      {
+        "start": 2856.8,
+        "duration": 3.4,
+        "text": "This sheet was how Louis kept track of who was making what."
+      },
+      {
+        "start": 2860.3,
+        "duration": 4.5,
+        "text": "The simplified logo grams made for a perfect, lightweight accounting system."
+      },
+      {
+        "start": 2864.8,
+        "duration": 3.1,
+        "text": "Our mathematical journey hinged on two important observations."
+      },
+      {
+        "start": 2867.9,
+        "duration": 3.9,
+        "text": "First, we noticed that the number of families is related to the number of lookalikes."
+      },
+      {
+        "start": 2871.8,
+        "duration": 4.7,
+        "text": "Second, we had an epiphany that these lookalikes could be formulically counted with a re-indexing"
+      },
+      {
+        "start": 2876.5,
+        "duration": 1.2,
+        "text": "trick."
+      },
+      {
+        "start": 2877.7,
+        "duration": 3.7,
+        "text": "This turns out to be an example of a much more general counting technique from group theory"
+      },
+      {
+        "start": 2881.4,
+        "duration": 2.0,
+        "text": "known as Burnside's Lemma."
+      },
+      {
+        "start": 2883.5,
+        "duration": 4.8,
+        "text": "This same logic can be applied in many situations beyond in complete open cubes."
+      },
+      {
+        "start": 2888.3,
+        "duration": 2.8,
+        "text": "Better and in complete open tetrahedron."
+      },
+      {
+        "start": 2891.0,
+        "duration": 4.2,
+        "text": "Following the same steps of listing transforms and counting lookalikes, we can quickly calculate"
+      },
+      {
+        "start": 2895.3,
+        "duration": 4.2,
+        "text": "that there are 12 rotational unique families of such tetrahedra."
+      },
+      {
+        "start": 2899.5,
+        "duration": 5.1,
+        "text": "If instead of on or off, we choose to color the edges of the cube red, yellow, or blue,"
+      },
+      {
+        "start": 2904.5,
+        "duration": 6.9,
+        "text": "Burnside's Lemma tells us that we should expect to find 22,815 rotational unique colorings."
+      },
+      {
+        "start": 2911.4,
+        "duration": 4.1,
+        "text": "In more complex cases, the technique can be used to count up unique positional possibilities"
+      },
+      {
+        "start": 2915.5,
+        "duration": 1.7,
+        "text": "of the Rubik's cube."
+      },
+      {
+        "start": 2917.2,
+        "duration": 4.8,
+        "text": "Burnside's Lemma is a general purpose counting technique you can use any time you find yourself"
+      },
+      {
+        "start": 2922.1,
+        "duration": 5.4,
+        "text": "decorating a symmetrical object and wanting to know exactly how many options you have."
+      },
+      {
+        "start": 2927.4,
+        "duration": 3.8,
+        "text": "From a mathematical point of view, formalizing our result really means putting together"
+      },
+      {
+        "start": 2931.2,
+        "duration": 3.0,
+        "text": "correct proofs for all of our assertions."
+      },
+      {
+        "start": 2934.2,
+        "duration": 3.8,
+        "text": "Our solving process was often messy with a lot of hunches and loose ends that we'd now"
+      },
+      {
+        "start": 2938.1,
+        "duration": 2.2,
+        "text": "have to go back and verify."
+      },
+      {
+        "start": 2940.2,
+        "duration": 4.3,
+        "text": "For example, it seemed like there were 24 distinct orientations of a cube, but who's"
+      },
+      {
+        "start": 2944.5,
+        "duration": 1.6,
+        "text": "to say we didn't miss a few?"
+      },
+      {
+        "start": 2946.1,
+        "duration": 2.6,
+        "text": "We need to prove that this is the right number."
+      },
+      {
+        "start": 2948.6,
+        "duration": 3.9,
+        "text": "We noticed that there tended to be a complete number of copies of a family and the family"
+      },
+      {
+        "start": 2952.5,
+        "duration": 4.1,
+        "text": "portrait, but how can we be sure there aren't exceptions to this pattern?"
+      },
+      {
+        "start": 2956.6,
+        "duration": 4.0,
+        "text": "A formally correct proof would contain proper proofs of each of these results."
+      },
+      {
+        "start": 2960.7,
+        "duration": 4.1,
+        "text": "The first is that the order of the cube group is 24, and the second is what's known as"
+      },
+      {
+        "start": 2964.8,
+        "duration": 2.8,
+        "text": "the orbit's stabilizer theorem."
+      },
+      {
+        "start": 2967.6,
+        "duration": 3.7,
+        "text": "Capturing our results in rigorous proofs is what makes our findings useful to others,"
+      },
+      {
+        "start": 2971.3,
+        "duration": 4.7,
+        "text": "but can contribute to the sense that the mathematicians work as formal and perhaps a bit dry."
+      },
+      {
+        "start": 2976.0,
+        "duration": 4.3,
+        "text": "By taking the time to see how a mathematical exploration actually unfolds, we've gotten"
+      },
+      {
+        "start": 2980.3,
+        "duration": 4.2,
+        "text": "to see a process that can have much in common with an artistic one, with its guesswork and"
+      },
+      {
+        "start": 2984.5,
+        "duration": 10.8,
+        "text": "experiments, emotional ups and downs, and moments of creative breakthrough."
+      },
+      {
+        "start": 2995.3,
+        "duration": 5.6,
+        "text": "In the end, we found that there must be 218 families of rotationally equivalent cubes."
+      },
+      {
+        "start": 3000.9,
+        "duration": 3.1,
+        "text": "What happens to this number if we bring back the other constraints?"
+      },
+      {
+        "start": 3004.1,
+        "duration": 5.4,
+        "text": "A 2014 paper from Kansas State University applies an exhaustive computational search, and"
+      },
+      {
+        "start": 3009.4,
+        "duration": 6.9,
+        "text": "confirms that with all the constraints applied, solowitz finding of 122 is the correct number."
+      },
+      {
+        "start": 3016.3,
+        "duration": 3.5,
+        "text": "But interestingly, although that number is correct, it turns out there's actually"
+      },
+      {
+        "start": 3019.8,
+        "duration": 2.2,
+        "text": "an error in the final sculpture."
+      },
+      {
+        "start": 3022.0,
+        "duration": 5.8,
+        "text": "The cubes labeled 104 and 105 are actually the same in complete open cube, a duplicate."
+      },
+      {
+        "start": 3027.9,
+        "duration": 3.7,
+        "text": "Meanwhile, this cube is nowhere to be found."
+      },
+      {
+        "start": 3031.6,
+        "duration": 3.4,
+        "text": "When I first read this, I remember feeling like there was something kind of perfect about"
+      },
+      {
+        "start": 3035.0,
+        "duration": 1.0,
+        "text": "it."
+      },
+      {
+        "start": 3036.0,
+        "duration": 2.9,
+        "text": "Of course, it would have been a bummer if Lueit had made a lot of mistakes, but it also"
+      },
+      {
+        "start": 3038.9,
+        "duration": 3.7,
+        "text": "might have felt a little sterile if he'd just gotten it exactly right."
+      },
+      {
+        "start": 3042.6,
+        "duration": 5.2,
+        "text": "There's something elegant about this little grace note of imperfection right at the end."
+      },
+      {
+        "start": 3047.8,
+        "duration": 2.1,
+        "text": "So is this what mathematicians are for?"
+      },
+      {
+        "start": 3049.9,
+        "duration": 4.3,
+        "text": "To give a pass-fail grade to the artwork and point out all of the mistakes?"
+      },
+      {
+        "start": 3054.2,
+        "duration": 3.8,
+        "text": "Certainly this is one role the mathematician should be capable of playing."
+      },
+      {
+        "start": 3058.1,
+        "duration": 3.5,
+        "text": "But with regard to this specific sculpture, I think the mathematical point of view has"
+      },
+      {
+        "start": 3061.5,
+        "duration": 2.6,
+        "text": "something richer to contribute."
+      },
+      {
+        "start": 3064.2,
+        "duration": 4.9,
+        "text": "Lueit's biographer Larry Bloom wrote that Lueit's primary impact on contemporary art was the"
+      },
+      {
+        "start": 3069.1,
+        "duration": 5.2,
+        "text": "idea that the product of the mind is more significant than the product of the hand."
+      },
+      {
+        "start": 3074.3,
+        "duration": 1.9,
+        "text": "This is a work of conceptual art."
+      },
+      {
+        "start": 3076.2,
+        "duration": 4.4,
+        "text": "The mathematical point of view is specifically a way of engaging with the art in conceptual"
+      },
+      {
+        "start": 3080.7,
+        "duration": 1.0,
+        "text": "terms."
+      },
+      {
+        "start": 3081.7,
+        "duration": 4.6,
+        "text": "It contributes to the space of ideas around this piece, and I believe adds something"
+      },
+      {
+        "start": 3086.2,
+        "duration": 2.8,
+        "text": "aesthetic to how we can appreciate the work."
+      },
+      {
+        "start": 3089.0,
+        "duration": 5.6,
+        "text": "In Lueit's own words, all intervening steps, scribbles, sketches, drawings, failed works,"
+      },
+      {
+        "start": 3094.6,
+        "duration": 4.3,
+        "text": "models, studies, thoughts, conversations, are of interest."
+      },
+      {
+        "start": 3098.9,
+        "duration": 3.9,
+        "text": "Those that show the thought process of the artist are sometimes more interesting than"
+      },
+      {
+        "start": 3102.8,
+        "duration": 1.0,
+        "text": "the final product."
+      }
+    ],
+    "full_text": "Imagine yourself in an art museum. As you stroll through the galleries, you come across a large, low table covered in small, white skeletal frames. Each looks like a random fragment of a cube, and they're all laid out in an orderly grid. What we're looking at is a digital reproduction of an artwork called Variations of Incomplete Open Cubes by Solowit. It represents every possible way that a cube can be incomplete, subject to a few conditions. In this video, you and I will investigate this sculpture and explore some of the mathematical ideas behind it. We'll get to know these cubes, making visualizations, observing patterns, and asking simple questions with surprising answers. Although I've tried to make these explorations accessible and playful, in the end we'll stumble into a highly non-trivial result, a lovely classical technique in ingenious trick for counting cubes by thinking about symmetry. But first, let's get a little more specific about what we're looking at here. First of all, a cube is, of course, a regular, six-sided shape. By OpenCube, we mean a hollow cube framed by its 12 edges. We can make an OpenCube incomplete by selecting one of these edges and getting rid of it. By removing other edges, we can create different variations. The first of Louis' constraints is that the existing edges must all be connected. We can't remove so many edges that the cube falls apart into separate pieces. The second constraint basically says that the existing edges have to form an obvious cube. If we reduce our cube down to, say, a flat square, we're going to say that doesn't count. Nor does anything less, a corner, a single edge, or nothing at all. Our cubes must be properly three-dimensional, meaning they have to have at least one edge along the height, width, and depth of the cube. So understand the final constraint. Let's bring in another OpenCube and make it incomplete. This may look different than the first cube, but if we grab it and tumble it around like this, we can see that it is actually the same incomplete OpenCube. We were just looking at it from a different angle. In fact, if we played around with this shape long enough, we would eventually discover that there are 24 different ways we can reposition it, each of which looks unique from the others, but all fundamentally the same shape. In the final art piece, it would be a little redundant to include all of these rotationally equivalent figures, so we just choose one to represent the whole family. We then place this representative on the table. The next cube will be rotationally distinct from this one, a genuinely different shape. The next cube is rotationally unique from those, and so on for the whole table. The final work of art shows the full collection of 122 rotationally unique incomplete OpenCubes. One of the interesting things about this piece is that the entire definition can be put into explicit mathematical terms. In the business, you might rephrase this as, an enumeration of all proper subsets of a cube that are connected and span R3 modulo rotations. If you told the mathematician to find such an enumeration, this table is basically what they would come up with. So we have something interesting, an artist who effectively solved a math problem as part of his creative process. Who was Solowit, and what was he trying to accomplish at this piece? Solowit was a modern artist associated with conceptual art, minimalism, and serial art. The core idea of conceptual art can be seen in Louis' series of wall drawings. Louis would provide a set of instructions for how a wall should be drawn or painted on, in this case, wall drawing number 118, he specifies a drawing with 50 points all connected by lines. Trained in stallors would then follow these instructions to produce the actual piece on the walls of galleries and museums. Like a musician writing a score to be performed by others, Louis' instructions emphasize the conceptual nature of the resulting work. It's the idea of the piece that is the true product of the artist. And perhaps, as most well-known quote, Louis said, the idea becomes a machine that makes art. Minimalism is, to some degree, exactly what it sounds like. Louis' work uses very minimal ornamentation. Much of it is flat white because, as he put it, white is less expressive than black, and most of the sculptures are simple geometric forms like the cube. Of the cube, he wrote, the most interesting characteristic of the cube is that it is relatively uninteresting. Therefore, it is the best form to use for any more elaborate function, the grammatical device from which the work may proceed. In the prior decade, modern art was dominated by abstract expressionism, famous for paintings filled with splatters and splotches and other acts of randomness. Serial art was a reaction to this arbitrariness. Louis sought instead a technique in which he said, all of the planning and decisions are made beforehand, and the execution is a perfunct or he affair. Many of Louis' serial structures begin with the question, how many ways? Like, how many ways can I put five cubes on 25 squares? Or how many ways can I stack three open boxes? The resulting artworks are simply a presentation of the correct answers to these questions. Sometime in 1973, Louis asked himself a new serial art style question, how many ways can a cube be incomplete? And we have something pretty amazing, a surprisingly intact record of the artist's thought process as he went about solving this problem. Saul Louis left behind about 50 notebook pages, which show sketches and working drawings that capture the development of the incomplete open cubes. These are currently in the archives at the Wadsworth Athenium in Connecticut, who were kind enough to let us examine these drawings and reproduce them here. By reviewing their contents, we effectively get to look over Saul Louis' shoulder as he solves the problem. One of the things these notebooks make clear is that of the three constraints, rotational equivalence was by far the most difficult to figure out. It's easy to tell at a glance if a cube is flat or disconnected, but in page after page of these notebooks, we see Louis struggling to eliminate rotational duplicates. As the story goes, he would make small models of the cubes out of paper clips or pipe cleaners. By comparing the models, he would occasionally discover that two cubes he had thought were distinct turned out to be the same shape. The red marks indicate times when he found duplicates and had to cross one off. As Louis explained, I was trying to figure out a way to do it through numbers and letters logically, but in the end it all had to be done empirically. I had to build a model for each one and then rotate it. Although he never found a purely mathematical solution, as we'll see from these notebooks, Louis did find many clever tricks and ingenious simplifications on the way to his solution, a true thinking process. It was only after he'd completed the piece that Louis consulted with two mathematicians who confirmed that he'd found the right number. While Louis had to solve the problem painstakingly by hand, it seems a mathematician is someone who knows how to pull this number out of thin air with a simple calculation. But in the beginning, the mathematician doesn't know anything about the problem either. They too must go through some exploratory thought process in order to figure out the answer. In this video, we're going to solve the specific problem that eluded soluit and we're going to do it by showing a thought process that leads to the solution. A little housekeeping before we begin. Our mathematical exploration is going to focus only on the problem of rotational equivalence, so relax these other constraints for now. This means that we'll be considering all possible cubes, including flat or disconnected ones, and even the full cube and the empty cube. As a consequence, the number of families we find is going to be larger than Louis' final count of 122, at least until we bring back the other conditions at the end. Let's begin. Lots of the pages and soluit's notebooks are made up of loose sketches, which show him just kind of exploring the idea of incomplete cubes. Pages in this style don't show much strategy or organization, just a cloud of partial cube doodles as he was getting familiar with the general concept. A wonderful document in the collection is this business letter to Louis. If you look closely, you can see that the back of the sheet has clearly been used as incomplete open cubes scratch paper. Anyone who's ever gotten obsessed with a math problem will find this familiar how the problem just starts to get all over your paperwork. One way for us to begin poking at this problem is to notice that there is a simpler version. Instead of taking on the incomplete open cubes, let's warm up by considering the two-dimensional case. What are all of the rotationally equivalent incomplete open squares? This is a more bite-sized version of the problem, one which we'll be able to think through in all of its details. To begin, let's set aside these constraints and just ask how many squares do we have to worry about altogether before we start sorting and filtering them? To define an incomplete square, each edge presents us with two choices, on or off. And from this sequence of choices, we get a tree of decisions which generates all possible squares. For example, if we choose the top edge to be on, the left edge off, the bottom on, and the right on, we get this in complete square. Every other outcome is similar. If we take the side view of our decision tree, we can see that the number of possibilities doubles at every level, so the number of outcomes at the bottom must equal to raised to the height of the decision tree. That is, there's a formula we can use for calculating the number of possible outcomes of a tree like this. In general, it's two raised to the number of choices we have to make. The beauty of a formula like this is that it makes our life much easier when we move on to the more complicated case of the cubes. A cube has 12 edges that can be set to on or off, so we have 12 binary choices to make. Due to the 12th gives us 4,096 total incomplete open cubes, and it's very convenient to be able to just calculate that number rather than having to try and figure it out manually. Now let's get down to the main problem of how to sort these 16 incomplete open squares into rotationally equivalent families. We'll start with this one part square. What is the family it belongs to? If we compare it to its neighbor, we can see that they are rotationally equivalent. It is by reorienting one, we can get them to look exactly the same. So we gather these together and say they're part of the same family. This next square is obviously not going to belong to this family. If we want to be thorough, we can rotate it through its possible positions just to be sure and then reject it. The next one is another member of this family, and we just proceed down the whole length in this way, scooping up any rotationally equivalent squares we come across. Number one part squares form a rotationally equivalent family of 4. And now we go through the list again, this time picking up all the corner pieces. These also gather into a family of 4. Now if all families had 4 members, then it would be easy to calculate the total number of families. 16 squares divided into groups of 4 would mean 4 families total. Unfortunately, the parallel bars break this pattern by collecting into a family of only 2. The 3 parts squares form another family of 4. Finally, the complete square is only rotationally equivalent to itself, so it forms a family of 1. Same for the empty square. And there we are, 6 total families of rotationally equivalent incomplete open squares. We got this result using brute force search. What we'd really like is a formula, something we can also apply to the cube. If we had that mathematical confirmation, then it would be easy to then apply Solowitz other conditions for the art piece. A representative from each family forms a collection of rotationally unique incomplete open squares. We can get rid of the square on the right because it isn't incomplete. We can get rid of the 2 squares on the left because they aren't properly too dimensional. And we can get rid of the square in the middle because it isn't connected. That leaves us with these 2. And there we have it, the complete variations of incomplete open squares. Beautiful. One of the great things about this piece is that it gives us some appreciation for the added complexity that seems to arise when we consider the same problem in 3 dimensions. Just for the fun of it, let's think through what it would be like to try and do a brute force search for families of the cubes. So here we are moving down a hallway that has all 4,096 incomplete open cubes. To sort these cubes into families you'd have to go down the line and manually compare them one by one. And keep in mind that unlike with squares cubes are actually kind of tricky with regards to rotational equivalents. You may have to tumble them around for a while to be sure. So this is going to take some focus and concentration. It's also going to take a lot of time because this is really a very long hallway. 4,096 is one of those numbers where you know it's big but it's hard to really appreciate how big until you see a hallway like this. In fact we're going to need to speed things up a little bit to get where we're going. And as we zoom along here, keep in mind that you'll have to go down this hallway over and over again, one time for each family you gather up. So clearly this is going to be quite an ordeal. In fact after all this travel we've only made it to the halfway point of the hallway. So we've come up with a pretty vivid sense of the difficulty of our problem. But enough goofing around, let's make a plan. Clearly solowit has his work cut out for him. To make any progress he's probably going to have to come up with something better than brute force search. When you're comparing two cubes to see if they might be rotationally equivalent, a good question to ask is do they have the same number of edges? A five-part cube and a six-part cube will never look the same no matter how we position them. From early on we see lueit restricting his attention to cubes with a given number of edges. Different pages dedicated to different sized cubes show how he broke the overall problem into several smaller problems. This divide and conquer approach is reflected in the final layout of the art piece. The bottom row contains all possible three-part cubes, the next row contains all of the four part cubes, and so on row by row up the table. By breaking the overall problem into nine smaller problems, lueit makes the first of several simplifications that we'll see him bring to the task. What about us? We're hoping to come up with a formula, so what kind of strategy should we consider to attack the problem? When we found the decision tree formula was by considering the decision process itself and then noticing a formula that described it. If we want to do the same thing for sorting the shapes into families, then we probably want to study the associated process. That is, while solowit is trying to get away from brute force search, for us it might make sense to actually look directly at this process and see if we can understand what it is accomplishing. Obviously, it's a method that's going to take a while, but if we did have all the time in the world, then it would be perfectly straightforward. We just pick up one of the cubes, travel the length of the hallway, gathering up its rotational equivalence, and that's one family. Moving down the line, we pick up the next cube and gather up its family, and the next one gives us another family. And then, once more, we find that some cubes seem to belong to smaller families than others. It's important to appreciate that this irregularity is what's making our counting problem hard. If every family were the same size, then it would be easy to calculate the total number of families. But if every family seems to be doing its own thing in terms of size, then we apparently have no choice but to go through and manually count them up like this one at a time. Before we can make any progress on our main question of how many families there are, it seems like we first want to understand a more local problem. For a given incomplete open cube, how big is its family? For instance, if I give you a cube shaped like a table, could you reason about how big its family must be? Try looking at it this way. The table has one complete square side on top. A cube has six sides total, six directions the table top could be oriented to point. Based on this logic, we would expect a family size of six, and that is indeed what we find. If we try this with a few different cubes, we'll quickly notice that the ones that belong to large 24-member families tend to be a bit more irregular looking like this weird character on the right, while the shapes like the table that are more orderly or symmetrical seem to belong to smaller families. This makes sense in a way if a cube is oddly shaped then it probably looks different in each possible orientation. So this is a kind of hunch we might develop that more symmetrical shapes seem to have smaller families. For soluette, the best plan seems to be divide and conquer. For us, the plan is to delay the main question and first focus on a simpler question, how to calculate a given cube's family size, and we'll pursue our hunch that this has something to do with symmetry. Both approaches still have a lot of work to do, but we each now have a strategy for how we're going to dig into this problem. In Louis' notebooks, we see him devise a number of different label concepts. He came up with a numbering system for the cubes themselves, two integers separated by a slash in which the first number describes how many parts the cube has, and the second part is an arbitrarily assigned index. Obviously, the cubes don't come in any specific order, but by giving each a number, Louis was able to bring some orderliness and consistency to his investigations. He also experimented with a couple of different ways of labeling the parts of the cube. In one, he assigned letters to the corners, and in another, he numbered the edges. Which of these do you think is a better notation? In Louis' case, he started with the corner labels, but after creating extensive notes in this style, he abandoned this system and switched to the numbered edges. As we'll see, this turns out to be a more efficient and elegant way to annotate the cubes. Moreover, good notation can also help you think about the problem in new ways. Consider an incomplete open cube. If we imagine the set of edges that are missing, we can then imagine an incomplete open cube made of just those edges. That is, every incomplete open cube is part of a complementary pair. The edge numbering notation makes it easy to think about complementary pairs. By taking a given cube's label and literally counting off the missing numbers, we can obtain the label of its complement. It was only after Louis' switched to this edge numbering system that we suddenly see him begin to explore cubes and their compliments at the same time. And these combinations are useful to consider, because the number of edges of a cube and its complement must always add up to 12. For example, every four-part cube has an eight-part complement. Thus, Louis' could basically explore four and eight-part cubes in parallel, similarly for five and seven-part cubes, and so on. By exploiting this duality, Louis was cleverly able to cut his search effort in half. Finding the right labeling system can be an invaluable step in making sense of a problem. So what's something that might be useful for us to label? We're interested in understanding families, such as this 24-member group, and currently we don't have any way of referring to specific family members, so this could be a good candidate for a new labeling system. For instance, what is the relationship between the given cube and this family member in the lower corner? We can see that if we spin the given cube by 90 degrees, we obtain the orientation shown by that lower cube. We might even think to label that as the cube we get when we rotate the given cube by 90 degrees around the vertical axis. A similar kind of geometric description could be applied to all of these family members, and we can work out this labeling system by just thinking about all the different ways of reorienting a cube. For instance, we've seen that we can rotate the cube 90 degrees around the vertical axis, but we can also keep spinning to 180 degrees and 270 degrees before returning to the original orientation. So let's take our given cube and make three copies and apply each of these transformations. The result is three different orientations of the cube all distinct from one another. The vertical axis runs through two opposite faces of the cube. There are two other face-centered axes we might call our set F1, F2, and F3, and each one of these can be used to give three new orientations of the cube. In total, we get nine additional family members by rotating around these axes. Let's zoom in on the first example, and in the spirit of soluette we'll give it a two-part label. F1 tells us the axis, and 90 degrees tells us how much to rotate. We can apply this label to all of the family members shown here. Another axis we can twirl the cube around as this diagonal line that passes through opposite corners. We can call it a corner axis and see that we can spin a cube 120 degrees or 240 degrees around it. Applying this to a pair of copies, we find two new orientations. If we work our way around the cube, we'll find a total of four axes like this, which we can label C1 to C4. Those first two examples we saw were the rotations around C1, and here are the outputs of all the rest. And at last, it is also possible to run an axis between diagonal edges and give the cube a 180 degrees spin. The 12 edges of the cube pair off to make six of these axes, which will label like this. Here's a new cube orientation we can get from spinning around E1, and here are the rest. With six cubes from the edge axes, eight from the corner axes, and nine from the face axes, we end up with 23 distinct orientations of the cube. If we include the original cube, to which we did nothing, we get 24 distinct orientations, 24 uniquely labeled family members. There are simpler ways to deduce that there must be 24 rotations, but what we'll find later is that having an explicit list of all 24 will be crucial for our final step in counting incomplete cubes. Note that what we've really labeled our actions. A label like 120-degree rotation around C4 refers to a transformation that can be applied to any given cube. If we grab a random incomplete open cube, we can supply it as input to the transformation and get a generally different incomplete open cube as output. If we take this same input and supply it to all 24 of our transformations, we get all 24 orientations of that shape, that is, all of its family members. We effectively have a recipe for taking any incomplete open cube and generating a copy of its whole family. We'll call this a family portrait. But what do you think would happen if we made the family portrait of a shape that doesn't have 24 family members? For instance, we know this table looking cube only has six members in its family, so if we make its family portrait, what's going to go in the other 18 slots? One thing we can say for sure is that there are going to be repeats. The reason for this is that we're about to knock over a table 24 different ways, but there are only six ways a table can land. So let's apply the transformations and see what we get. There are definitely a lot of repeats, perhaps most noticeably here in the upper corner. In addition to the unchanged cube, there are three manipulated cubes that end up still being upright. We'll color code the upright tables green. Now consider these four transformations. Each one manages to knock the table into the upside down position. We'll color code upside down tables purple, and we can see that our portrait then contains four tables in this orientation. In fact, it turns out there are four ways to get a table pointing in any particular direction, which means we get exactly four copies of every family member. Another way to say this is that we can take this family portrait and we can rearrange the pieces into four complete copies of our six member family. So we're seeing some structure here. It's not just all upside down tables or alternating left and right tables. The family portrait worked like a copy machine. It made four complete replicas of this family. Does this happen with other small families? In this three part cube, the edges all meet at one corner. A complete cube has eight corners that a triple like this could be clustered around, and so we can reason that there are eight distinct orientations for this incomplete open cube. So now let's make a family portrait. We'll use this color coding to identify family members in the output. After we apply all the transformations, we discover that once again we have gotten complete copies of the entire family, this time a total of three. Let's compare these copies from the previous example. What can we say about these rectangles? For one thing, they both have 24 squares in total because that's how many cubes are in a family portrait. The height of these rectangles is the specific thing we're interested in, the size of the family that a given shape belongs to. What about across the top? What can we say about the family members that are giving width to these rectangles? In the first case, we see the familiar set of tables which look unchanged by their transformations. In the second case, we see something similar. All the corner pieces which ended up in the portrait looking just like they did before. We're going to call these cubes in the family portrait lookalikes. To be more specific, consider any cube and any transformation. A lookalike is what results if the cube looks the same after applying the transformation as it did before. In the examples from before, the cubes we did nothing to will always be lookalikes, but families may have additional lookalikes and these add additional width to our rectangles. This shows us that there seems to be a numerical relationship. The size of a given family, times the number of lookalikes in its family portrait, always equals 24. To put it another way, it seems we can calculate how big a cube's family is by counting its lookalikes and dividing 24 by that number. Let's give it a try. Consider this cube with one edge removed. How big is its family? In order to use our formula, we need to think of all the ways to manipulate this cube that leave it apparently unchanged. One option is always to do nothing to it, but we can also spin the cube around this edge axis and it stays the same as before. The cube will look the same as long as that bottom left edge stays in place. And it turns out there are no other transformations that leave it fixed, so that gives us two lookalikes total and that implies that the family size is 12. We can actually corroborate this result by remembering that a cube has 12 edges, so there should be 12 distinct ways to remove a single edge from a cube. So the formula checks out. The formula also seems to apply in our various edge cases. Let's make the family portrait of a complete cube. Of course, this turns out to be nothing but lookalikes since a cube looks the same from every direction, according to our formula 24 divided by 24 is 1 and the cube is indeed the only member of its family. Suppose we have another family portrait, this one contains no lookalikes, other than the unchanged cube at the top, 24 divided by this minimum number of lookalikes and ends up with the maximum family size of 24. So we have found a formulaic answer to our question, and in a way we've confirmed our hunch about symmetry. To say that a shape is symmetrical is really to say that it looks the same from various points of view. The number of lookalikes is basically a numerical measure of symmetry, and our formula captures how more symmetry means smaller families. Conceptually, we now know families and lookalikes are related ideas. After that in order to notice this relationship, we had to be able to ask what happens if we take the family portrait of a table, and it's impossible to even ask this question until we use our labeling system to define what a family portrait is. A good labeling system does more than just organize your data. Much as Louis Edge labels may have guided him to thinking about complementary pairs, our labeling system has enabled us to find a hidden connection between two seemingly unrelated concepts. Now, as we turn our attention back to the bigger problem of determining the total number of families, we can come at this question knowing that lookalikes may turn out to be useful. Another kind of scribbling you can find throughout the notebooks are running totals for the number of cubes Louis had found at a given time. Here for instance, he's adding up the counts for three part, four part, five part cubes, and so on for a total of 79. He then tries to divide 79 by 12. Why? Here's my theory. In any sensible universe, the total number of incomplete open cubes should have some numerical relationship with the geometry of a cube. A cube has 12 sides, so I propose that Louis was dividing his total by 12 to see if it happens to come out even. I just love this because it's such a common part of struggling with a math problem where you're just kind of blindly but optimistically probing for patterns. Conceptual artists are mystics rather than rationalists, Louis wrote. They leap to conclusions that logic cannot reach. In a similar way, mathematical problem solving can often involve phases where we just experimentally combine different ideas in search of patterns. For example, let's take this incomplete open cube and begin playing around with its family portrait. Now presumably we could create this family portrait using any of these family members as a starting point. For example, this cube here. This pulled this one out and generated a new family portrait based on its various orientations. What can we say about these two family portraits? First of all, they depict the same family, any member you can find on the left can also be found somewhere on the right, but the portraits are also clearly different. In order to compare them, let's stack them up vertically and take a look at each entry side by side. We know that these top two are different, we chose them as distinct family members when we created these portraits. These two show the result of applying a 90 degree rotation, but clearly two different cubes will remain different after a 90 degree twist, and they remain different when they are both turned by 180 degrees and so on. So we can see that while these two columns have complete agreement about their overall contents, they necessarily have zero agreement about which family members actually go where. So we can make an observation. Different portraits of the same family are just scrambled versions of each other. There is a unique family portrait generated by each member of the family, and so we can bring in all 24 family members, generate their 24 distinct family portraits, and then pile these portraits into one big collection which will call a family album. Now this is obviously a pretty abstract idea. Is there anything interesting we can say about this grid? We know that lookalikes are a relevant idea, so we could ask how do lookalikes show up in family albums. I would say that this question is kind of our version of dividing by 12 in that we may not be sure what we're looking for exactly. Guided more by intuition than logic, we're just going to put these ideas of family albums and lookalikes together and see if anything interesting happens. And it turns out that if we give it a little thought, there is a pattern we can find. In particular, we're looking at a full sized family of 24, so each of these columns is only going to contain a single lookalike. It's going to be different in a family album where a column has two lookalikes. First of all, while the column on the left has 24 distinct family members, the column on the right is going to contain two full copies of the family, which therefore can only have 12 members. So when we go to produce the rest of the family album, we're only going to get 12 columns. But if the first column has two lookalikes, and if all the columns are just scrambled versions of each other, then all 12 of these columns should contain two lookalikes each. So although these two albums have different sizes, their overall count of lookalikes should be the same, 24 each. A similar kind of rebalancing would happen with any number of lookalikes. Three lookalikes means one third as many columns, but three times as many lookalikes per column. Four lookalikes means a quarter as many columns, but quadruple the density of lookalikes per column. That is, in theory at least, we're predicting that every family album should contain 24 lookalikes. Let's see how this looks in practice. To generate this family's album, we make a column of copies of each member, apply our transformations, and we indeed see four lookalikes distributed in each of the six columns. We can do the same thing with the three part corner piece. Here we see eight columns with three lookalikes each. And in the case of the cubes with a single missing edge, we get 12 columns with two lookalikes per column. In all cases, this construction gives a total of 24 lookalikes per family. If we ignore everything but the lookalikes, we can arrange them into columns and begin building up a new rectangle, piling up a column from each family. So it's width is the total number of families. The height of this rectangle is 24. But we could say that the number of families times 24 gives the total number of lookalikes. We can turn this another way if we count it up all the lookalikes and divided by 24, this would give us the number of families. And technically this is what we've been looking for the whole time, a formula that outputs the number of families. Could we actually solve the problem this way? As usual, we can turn to the two-dimensional case to see this technique in action. So here are the six families of incomplete open squares. Our plan basically is to go through each of these and generate its family album. Then we'll count up all the lookalikes this produces, and then we'll see how that number works in our formula. Let's start with the family of elbows. In the 2D case, there are only four possible transformations we can apply. We can do nothing, and we can rotate by 90 degrees, 180 degrees, and 270 degrees. So the family portrait for this square involves four transformed copies. Notice that the only lookalike in this column is the unchanged entry up at the top. Following out the other four portraits to produce our family album, we ultimately find four lookalikes overall. Let's compare this to the album produced by the family of parallel bars. Unpacking these, we find two lookalikes in each column, once again giving four lookalikes overall. So in 2D, the general rule appears to be that each family contributes four lookalikes to the total. If we bring in all six families and unpack them, we can see that there is a grand total of 24 lookalikes altogether. Now, when we have all of the families sorted out like this, it's easy to see that each one contributes four lookalikes to our total, but the power of our formula becomes apparent when we remember that these incomplete open squares were first presented to us, unsorted. This is the order of the squares we originally started with. In this state, we didn't know which squares belong to which families, but each column is the same as it was before, and the number of yellow squares is the same, regardless of the arrangement of these columns, so we can just count these off directly. The first column has four lookalikes, the next one has just one, and so on down the line. Adding these up, we find 24 total lookalikes, and we know that each family contributes four, so that tells us there must be six families in here. And this is exactly what we were looking for. We've been able to calculate that there must be six families without having to do any actual sorting. Notice that in this approach, we have no idea which squares belong to which families, or how big any of the families are, only that there must be six families in there somewhere. Exciting though this may seem, we are in for some disappointment. When we try to apply this technique to our cubes, we will quickly discover that it doesn't really help us. First of all, it's not generally easier to count lookalikes than family size, and further more, we're still going to have to go down this darn hallway, so it's kind of cute that this approach should work technically, but it's pretty useless from a practical perspective. All we've really shown is that the number of families, which we know is hard to count, is related to this other thing, lookalikes, which are also hard to count. Disappointment is part of doing business. Like soluite, dividing by 12, you should never be afraid to stir the food around on the plate and see what happens. Sometimes it's a waste of time. Sometimes you discover something useless, but interesting, like the relationship between families and lookalikes. And sometimes, the disappointment is just the precursor to a different, almost opposite emotion, the euphoria of an epiphany. Unfortunately, for us, you can't really arrange for an epiphany. They just kind of happen sometimes. For instance, maybe you're thinking about something else, but you're also noticing the grid of squares out of the corner of your eye. And your vision idly traces these horizontal lines, and now you're sort of gazing at all these lookalikes you wish you could count. And then all of a sudden, you're like, wait a minute, I don't have to count these up going this way. I can also count them up going this way. And before we proceed, I just want to take a minute and describe what it can feel like when a thought like this occurs to you. Before you even have a chance to think it through in any detail, some part of you knows that you have just solved the problem. There's still a bit of work to do, but from this point forward, the feeling of the problem seems to change, as if you're now just pushing on an open door. So we're just going to count up the lookalikes going row by row. How many squares look the same after a zero degree rotation? Easy, all 16 of them. How about a 90 degree rotation? Only two, the empty square and the complete square. At 180 degrees, we get four, including the two sets of parallel bars. And 270 degrees is the same as 90 degrees, giving only the empty square and the complete square. So this is an alternative way of counting up the total of 24 lookalikes, and it's already a big improvement since we did it in four steps instead of 16. But let's think a little more carefully about what we're really doing here. A lookalike is really a combination between a specific cube and a specific transformation, such that the cube looks the same after the transformation is applied as it did before. We're trying to count up all possible combinations that make this happen, and our approach should be to look at each incomplete open cube and ask how many transformations make it look the same. Our epiphany was basically that we can count to the same number by instead looking at each transformation and asking how many incomplete open cubes are left unchanged by this transformation. This turns out to be a fundamentally different kind of question that is much easier to answer in general. As we'll see, it can basically be done with a formula. To figure out how, let's go back to the 2D case and see if we can figure out why it is that a 90 degree rotation only leaves two shapes looking unchanged, the empty square and the complete square. Consider an undetermined incomplete open square. What is required for this to be a lookalike under a 90 degree rotation? We're looking for patterns of edges which, if we make a copy and rotate it 90 degrees, look the same as before edge by edge. Let's imagine, for instance, that we choose the top edge to be on and leave the rest undetermined after rotating a copy and comparing, we see that in order for these to be the same, the original square must have its right edge on as well. But if the top edge being on forces the right edge to be on, then by the same logic, the right edge forces the bottom edge to be on, and that forces the left edge to be on. If instead we had originally chosen the top edge to be off, the sequence of other edges would have all been off as well. Whatever choice we make, it is contagious across all sides of the square. So lookalikes for a 90 degree rotation are determined by a single overall choice, all on or off. Compare this with the 180 degree rotation, which basically splits the square into two independent subsets. The two horizontal edges get exchanged by the rotation. In order to appear unchanged, they would need to be the same, either both on or both off. Entirely separately, the vertical edges are also exchanged, and also must be both on or both off. So in this case, we have two choices that specify the possible lookalikes. We can represent these choices as a tree, in which we first decide whether or not there are horizontal sides, and then for each of those outcomes, we further decide whether there are vertical sides. The bottom row consists of the four lookalikes for the 180 degree rotation. And from our corresponding formula, we could also calculate this number as two raised to the second power, or four. In some ways, the three-dimensional case is a little easier to visualize. Here are 90 degree rotation of a cube. In this case, the top four edges of the cube get exchanged amongst each other, and so they must all be the same, on or off. Separately, the four vertical bars all get exchanged, and therefore must be the same as each other. And finally, the bottom edges must all be the same, so we basically have three independent choices to make, which means we have two to the third or eight possible lookalikes. We can show these choices as a decision tree, where the first choice is whether a cube has the top square, for each of those whether it has the vertical bars, and for each of those whether it has the bottom square. If we run down the final line and give each of these a choreal, we see that we have generated all of the incomplete open cubes that look the same after a 90 degree rotation. So we know that there are eight lookalikes associated with this particular transformation. Our plan for finally solving this problem is to make the same assessment for each of our 24 transformations. And we're already further along than you might think. By symmetry, the other 90 degree and 270 degree rotations in this row will have a similar set of eight lookalikes. So now we just need to think about the 180 degree rotations in this row. Let's consider the partition of the cube from the previous example. Recall how, in the 2D case, the 180 degree rotation splits the square into two pairs of parallel sides. A similar thing happens here. The top square gets split into two separate subsets, each unaffected by a 180 degree rotation. And the other layers get similarly divided into pairs. So overall, this results in six independent choices, suggesting 64 lookalikes. You can see a set here. These are all of the incomplete open cubes that look the same after a 180 degree spin around the vertical axis. This allows us to close out the row of face axes with an additional 64 lookalikes for each of the 180 degree rotations. For the corner axis, it's a little easier to see what we're doing if we tilt the axis up vertically. Up at the top, there's a cluster of three edges which all get exchanged and therefore must all be the same. There's a similar set of three edges meeting at the bottom corner. Then we have this ring around the center. This divides into these three sides, which all get exchanged and must all be the same, and these three sides, which also must be the same. Altogether, that's four distinct choices, giving 16 possible on-off combinations such as this set. So we get to add a row of 16s to our table. Finally, let's tilt the edge axis vertically and work our way from top to bottom. We've got the top edge by itself. Below that, we find a pair of Vs. These swap opposite arms, so these two edges get exchanged and must be the same. While these two edges also get swapped in must be the same. Below that, we have a pair of edges at the midline. Below that is another pair of Vs, which exchange opposite arms. And finally, the fixed edge at the bottom. This gives a grand total of seven independent choices for lookalikes fixed by the edge axis rotation, meaning 128 distinct shapes. And after we fill in our final row, we can't forget that the act of doing nothing contributes a total of 4,096 lookalikes to our total. So we've calculated the number of lookalikes for each transformation, and now we just add it all up. Ultimately, we find 5,232 total lookalikes. Dividing by 24 gives us our final answer. It seems that there are 218 rotationally unique families of incomplete open cubes. And this number has the happy conclusion of our mathematical train of thought. It's difficult to know for sure what kind of epiphanies might have occurred to Louis a bit while he was solving this problem, but the notes do contain evidence of a possible flash of insight. Consider the overall organization of the art piece, with the cubes neatly separated into different sizes. Many of Louis' notebook pages depict earlier versions of this inventory. Early attempts have a loose, semi-disorganized feeling, while later versions become more regimented and carefully annotated. Together, they provide us with a high fidelity record of his discovery process. We can see one interesting development by comparing the three part cubes in an earlier and a later inventory. Notice in the second case that Louis seems to have found a new three part cube that he'd overlooked before. Where did this come from? Consider this squiggly three part open cube. Let's hold a mirror up to it and observe its mirror image. Clearly, these shapes look similar, but what Louis discovered at some point is that they cannot be rotated into one another. Every shape has a mirror image, and apparently some mirror image pairs are not rotationally equivalent. On the other hand, notice that the other three part in complete cube is equivalent to its mirror image. In general, there doesn't seem to be a fixed rule here. For any incomplete open cube, we can consider its mirror image. Sometimes the mirror image will be rotationally equivalent, other times it turns out to be a genuinely distinct shape. This realization was an epiphany for Louis, meaning a sudden, unplanned flash of insight that instantly transforms the problem. I want to suggest that this is probably not the kind of thing you realize gradually. Rather, I suspect there was a very specific moment when Louis realized that mirror images could be distinct, and this event is marked by a sudden change in the available documentation. Basically overnight, his tables undergo a dramatic growth spurred, as he discovers that many of the cubes he'd found had undiscovered rotationally distinct mirror images. Sometime in early 1974, Louis' enumeration had reached its final form. From there, we could say he formalized his result by creating a number of artworks. We have already seen the table of incomplete open cubes, and this existed in at least two different forms. But Louis also celebrated the result with a number of other creations. He produced 40-inch painted aluminum sculptures of each of the variations. He also created a series of isometric drawings. These were collected along with black and white photographs into an art book, shown here, which the critic Nicholas Baum described as a cross between a construction manual and a rosetta stone. Louis' most abstract representation for the cubes compresses the isometric view down to a flat hexagonal form. His table of these simplified logos gets rid of any sense of three-dimensionality, leaving just the raw data of the incomplete open cubes. One thing I can say, having just created a digital version of this work, is that this minimalist table was actually super convenient for entering the relevant data. I came up with a numbering system for the lines of the hexagon, and then just directly transcribed this table into code. A few clicks later, and there it is, my very own sol-lu-it. It would have been very mentally taxing to have to think about three-dimensional cubes while entering this data, but was totally effortless to just read off this concise abstract information. For the purposes of working computationally with his idea, the artist really did format his findings in the most useful abstract form I could have asked for. Louis himself ended up making practical use of this minimalist representation. This sheet may appear to be another problem-solving effort, but notice the list of names down the left-hand side. These are the names of fabricators for the large-scale sculptures. This sheet was how Louis kept track of who was making what. The simplified logo grams made for a perfect, lightweight accounting system. Our mathematical journey hinged on two important observations. First, we noticed that the number of families is related to the number of lookalikes. Second, we had an epiphany that these lookalikes could be formulically counted with a re-indexing trick. This turns out to be an example of a much more general counting technique from group theory known as Burnside's Lemma. This same logic can be applied in many situations beyond in complete open cubes. Better and in complete open tetrahedron. Following the same steps of listing transforms and counting lookalikes, we can quickly calculate that there are 12 rotational unique families of such tetrahedra. If instead of on or off, we choose to color the edges of the cube red, yellow, or blue, Burnside's Lemma tells us that we should expect to find 22,815 rotational unique colorings. In more complex cases, the technique can be used to count up unique positional possibilities of the Rubik's cube. Burnside's Lemma is a general purpose counting technique you can use any time you find yourself decorating a symmetrical object and wanting to know exactly how many options you have. From a mathematical point of view, formalizing our result really means putting together correct proofs for all of our assertions. Our solving process was often messy with a lot of hunches and loose ends that we'd now have to go back and verify. For example, it seemed like there were 24 distinct orientations of a cube, but who's to say we didn't miss a few? We need to prove that this is the right number. We noticed that there tended to be a complete number of copies of a family and the family portrait, but how can we be sure there aren't exceptions to this pattern? A formally correct proof would contain proper proofs of each of these results. The first is that the order of the cube group is 24, and the second is what's known as the orbit's stabilizer theorem. Capturing our results in rigorous proofs is what makes our findings useful to others, but can contribute to the sense that the mathematicians work as formal and perhaps a bit dry. By taking the time to see how a mathematical exploration actually unfolds, we've gotten to see a process that can have much in common with an artistic one, with its guesswork and experiments, emotional ups and downs, and moments of creative breakthrough. In the end, we found that there must be 218 families of rotationally equivalent cubes. What happens to this number if we bring back the other constraints? A 2014 paper from Kansas State University applies an exhaustive computational search, and confirms that with all the constraints applied, solowitz finding of 122 is the correct number. But interestingly, although that number is correct, it turns out there's actually an error in the final sculpture. The cubes labeled 104 and 105 are actually the same in complete open cube, a duplicate. Meanwhile, this cube is nowhere to be found. When I first read this, I remember feeling like there was something kind of perfect about it. Of course, it would have been a bummer if Lueit had made a lot of mistakes, but it also might have felt a little sterile if he'd just gotten it exactly right. There's something elegant about this little grace note of imperfection right at the end. So is this what mathematicians are for? To give a pass-fail grade to the artwork and point out all of the mistakes? Certainly this is one role the mathematician should be capable of playing. But with regard to this specific sculpture, I think the mathematical point of view has something richer to contribute. Lueit's biographer Larry Bloom wrote that Lueit's primary impact on contemporary art was the idea that the product of the mind is more significant than the product of the hand. This is a work of conceptual art. The mathematical point of view is specifically a way of engaging with the art in conceptual terms. It contributes to the space of ideas around this piece, and I believe adds something aesthetic to how we can appreciate the work. In Lueit's own words, all intervening steps, scribbles, sketches, drawings, failed works, models, studies, thoughts, conversations, are of interest. Those that show the thought process of the artist are sometimes more interesting than the final product."
+  }
+}

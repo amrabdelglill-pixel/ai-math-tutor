@@ -1,0 +1,1464 @@
+{
+  "video_id": "Dlsa9EBKDGI",
+  "video_title": "Where my explanation of Grover’s algorithm failed",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 983.0,
+  "view_count": 627184,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.6,
+        "text": "Last week I put up a video introducing quantum computing, and in the final section, we were"
+      },
+      {
+        "start": 4.6,
+        "duration": 2.5,
+        "text": "stepping through something known as Grover's algorithm."
+      },
+      {
+        "start": 7.1,
+        "duration": 3.6,
+        "text": "And based on the comments that I saw, I think there was a very common point of confusion"
+      },
+      {
+        "start": 10.7,
+        "duration": 4.1,
+        "text": "that reveals I clearly could have done a better job explaining a core piece of it."
+      },
+      {
+        "start": 14.8,
+        "duration": 3.2,
+        "text": "Right here, I wanted to throw together a very quick supplement in the hopes of adding"
+      },
+      {
+        "start": 18.0,
+        "duration": 1.5,
+        "text": "a bit of clarity."
+      },
+      {
+        "start": 19.5,
+        "duration": 4.1,
+        "text": "The premise was to have a function, which is somehow triggered by a unique value out"
+      },
+      {
+        "start": 23.6,
+        "duration": 4.3,
+        "text": "of a big bag of options, and the puzzle is basically to figure out how do you find that"
+      },
+      {
+        "start": 28.0,
+        "duration": 4.2,
+        "text": "unique value just by applying the function on various inputs."
+      },
+      {
+        "start": 32.1,
+        "duration": 2.9,
+        "text": "Now in a classical setting, it's not a very interesting question."
+      },
+      {
+        "start": 35.0,
+        "duration": 1.8,
+        "text": "The best you can do is guess and check."
+      },
+      {
+        "start": 36.8,
+        "duration": 3.7,
+        "text": "But what we walked through was a completely different approach that you can take that"
+      },
+      {
+        "start": 40.5,
+        "duration": 3.7,
+        "text": "becomes possible in the setting of a quantum computer."
+      },
+      {
+        "start": 44.2,
+        "duration": 3.6,
+        "text": "When we did this, there was a certain key step where if I'm understanding the comments"
+      },
+      {
+        "start": 47.8,
+        "duration": 4.2,
+        "text": "correctly, it looked to a lot of people like in order to apply this key step, you would"
+      },
+      {
+        "start": 52.0,
+        "duration": 3.7,
+        "text": "have to already know the value that you're searching for, which would of course defeat"
+      },
+      {
+        "start": 55.6,
+        "duration": 1.9,
+        "text": "the whole purpose of the algorithm."
+      },
+      {
+        "start": 57.5,
+        "duration": 4.7,
+        "text": "More specifically, we had this very high dimensional vector space, and one of the axes in that"
+      },
+      {
+        "start": 62.2,
+        "duration": 4.5,
+        "text": "space corresponded to the value that we're searching for, and this step of the algorithm"
+      },
+      {
+        "start": 66.8,
+        "duration": 5.9,
+        "text": "looked like flipping along that axis, multiplying any component of a vector in that direction"
+      },
+      {
+        "start": 72.6,
+        "duration": 1.6,
+        "text": "by negative one."
+      },
+      {
+        "start": 74.3,
+        "duration": 4.0,
+        "text": "Now viewers were essentially asking, whoa, whoa, whoa, how could you know how to do that"
+      },
+      {
+        "start": 78.2,
+        "duration": 2.8,
+        "text": "without already knowing which axis you're searching for?"
+      },
+      {
+        "start": 81.0,
+        "duration": 4.8,
+        "text": "I genuinely tried to forest all that objection, but I think I failed, so backing up, I think"
+      },
+      {
+        "start": 85.8,
+        "duration": 4.4,
+        "text": "the whole discussion might be clearer if we focus on a very concrete example, something"
+      },
+      {
+        "start": 90.2,
+        "duration": 1.7,
+        "text": "like solving a Sudoku."
+      },
+      {
+        "start": 91.8,
+        "duration": 4.3,
+        "text": "On your normal classical computer, it's not hard to write a function that checks whether"
+      },
+      {
+        "start": 96.2,
+        "duration": 4.7,
+        "text": "a proposed solution follows all of the Sudoku rules and solves the puzzle."
+      },
+      {
+        "start": 100.9,
+        "duration": 3.9,
+        "text": "You know, it would check the rows, the columns, squares for duplicates, things like that."
+      },
+      {
+        "start": 104.8,
+        "duration": 4.1,
+        "text": "If you have written this function, just because you know how to verify a solution, it's"
+      },
+      {
+        "start": 108.9,
+        "duration": 3.8,
+        "text": "not at all obvious what the solution is in the first place."
+      },
+      {
+        "start": 112.8,
+        "duration": 2.8,
+        "text": "This is, after all, why a Sudoku is a puzzle."
+      },
+      {
+        "start": 115.6,
+        "duration": 2.8,
+        "text": "The rules alone don't reveal the answer."
+      },
+      {
+        "start": 118.4,
+        "duration": 4.0,
+        "text": "There are other situations where this is actually a much stronger assumption."
+      },
+      {
+        "start": 122.4,
+        "duration": 4.8,
+        "text": "The function SHA-256, for example, is what's called a cryptographic hash function."
+      },
+      {
+        "start": 127.1,
+        "duration": 4.6,
+        "text": "That basically means if you want to find what input gives you a particular output, it"
+      },
+      {
+        "start": 131.7,
+        "duration": 4.1,
+        "text": "is strongly believed that you really can't gain much insight by looking at how the function"
+      },
+      {
+        "start": 135.8,
+        "duration": 1.4,
+        "text": "is implemented."
+      },
+      {
+        "start": 137.2,
+        "duration": 4.2,
+        "text": "If someone could reverse engineer it, they would be mining all of the Bitcoin in the world"
+      },
+      {
+        "start": 141.4,
+        "duration": 2.9,
+        "text": "and breaking numerous other cryptographic schemes."
+      },
+      {
+        "start": 144.3,
+        "duration": 3.1,
+        "text": "But it's believed that the best thing you can do when you're searching for a particular"
+      },
+      {
+        "start": 147.4,
+        "duration": 2.2,
+        "text": "output is guess and check."
+      },
+      {
+        "start": 149.6,
+        "duration": 4.6,
+        "text": "So it's not that the key value is like hiding inside the function behind some curtain,"
+      },
+      {
+        "start": 154.1,
+        "duration": 4.6,
+        "text": "it's more of a difficult to find emergent phenomenon of the function itself."
+      },
+      {
+        "start": 158.7,
+        "duration": 4.1,
+        "text": "Now the idea with Grover's algorithm is that if you have this sort of verifier function"
+      },
+      {
+        "start": 162.8,
+        "duration": 4.6,
+        "text": "for some hard problem and you translate it into the language of quantum computing, there"
+      },
+      {
+        "start": 167.3,
+        "duration": 4.8,
+        "text": "is a method for sifting out valid solutions which requires fewer steps than simple guessing"
+      },
+      {
+        "start": 172.1,
+        "duration": 2.0,
+        "text": "and checking over all the possibilities."
+      },
+      {
+        "start": 174.1,
+        "duration": 2.6,
+        "text": "Now to be clear, it is not dramatically faster."
+      },
+      {
+        "start": 176.7,
+        "duration": 4.3,
+        "text": "It's only a quadratic speed up and given the overheads for making quantum computing work,"
+      },
+      {
+        "start": 181.0,
+        "duration": 2.2,
+        "text": "this frankly has questionable utility."
+      },
+      {
+        "start": 183.2,
+        "duration": 2.9,
+        "text": "In fact, let's talk a little bit more about that at the end."
+      },
+      {
+        "start": 186.1,
+        "duration": 5.0,
+        "text": "First, to the clarification, if you have this Sudoku verifying function, it's not like"
+      },
+      {
+        "start": 191.1,
+        "duration": 2.6,
+        "text": "you can just run it on a quantum computer."
+      },
+      {
+        "start": 193.6,
+        "duration": 2.9,
+        "text": "For all quantum computers, speak an entirely different language."
+      },
+      {
+        "start": 196.6,
+        "duration": 5.0,
+        "text": "It's a totally different framework for computing that looks a lot more like vector manipulation."
+      },
+      {
+        "start": 201.6,
+        "duration": 4.6,
+        "text": "The first step to port over this verification function into the new context is to imagine"
+      },
+      {
+        "start": 206.2,
+        "duration": 5.1,
+        "text": "that we've kind of compiled your verifier into a bunch of logic gates, things like AND"
+      },
+      {
+        "start": 211.2,
+        "duration": 1.6,
+        "text": "or and not."
+      },
+      {
+        "start": 212.8,
+        "duration": 4.7,
+        "text": "So for any proposed Sudoku solution, you would represent it all in binary."
+      },
+      {
+        "start": 217.5,
+        "duration": 4.1,
+        "text": "All of those bits would be processed by your web of logic gates and the output would"
+      },
+      {
+        "start": 221.6,
+        "duration": 5.3,
+        "text": "be a one if it's a valid Sudoku solution and a zero for all the invalid ones."
+      },
+      {
+        "start": 226.9,
+        "duration": 4.8,
+        "text": "And again, being able to assemble these logic gates does not require knowing ahead of time"
+      },
+      {
+        "start": 231.7,
+        "duration": 2.1,
+        "text": "which input solves the puzzle."
+      },
+      {
+        "start": 233.8,
+        "duration": 3.5,
+        "text": "The logic gates distill the rules of the game, but not the strategy."
+      },
+      {
+        "start": 237.2,
+        "duration": 4.3,
+        "text": "Now, I'm assuming everyone has watched the main video, in particular the course section"
+      },
+      {
+        "start": 241.6,
+        "duration": 2.7,
+        "text": "about the fundamentals of the state vector."
+      },
+      {
+        "start": 244.2,
+        "duration": 4.4,
+        "text": "But as a quick recap, the upshot is that you think of every possible bit string as a"
+      },
+      {
+        "start": 248.6,
+        "duration": 4.4,
+        "text": "unit vector along a coordinate axis in some high dimensional space."
+      },
+      {
+        "start": 253.0,
+        "duration": 4.1,
+        "text": "In the language of linear algebra, you would call these the basis vectors of your coordinate"
+      },
+      {
+        "start": 257.1,
+        "duration": 1.2,
+        "text": "system."
+      },
+      {
+        "start": 258.3,
+        "duration": 4.9,
+        "text": "For example, with a 2-qbit quantum computer, you would have 4 possible bit strings and"
+      },
+      {
+        "start": 263.2,
+        "duration": 4.5,
+        "text": "these would all look like basis directions in some 4-dimensional space."
+      },
+      {
+        "start": 267.7,
+        "duration": 2.7,
+        "text": "These state vectors get very big, very fast."
+      },
+      {
+        "start": 270.4,
+        "duration": 5.5,
+        "text": "If you have a k-qbit quantum computer, that gives you 2-k possible bit strings and you"
+      },
+      {
+        "start": 275.8,
+        "duration": 4.8,
+        "text": "think of each one of them as being a coordinate direction in some very high dimensional vector"
+      },
+      {
+        "start": 280.6,
+        "duration": 1.0,
+        "text": "space."
+      },
+      {
+        "start": 281.6,
+        "duration": 3.9,
+        "text": "Now, operations on a quantum computer don't spit out true or false, the way you can see"
+      },
+      {
+        "start": 285.5,
+        "duration": 1.7,
+        "text": "on a classical computer."
+      },
+      {
+        "start": 287.2,
+        "duration": 4.3,
+        "text": "Instead, they take in a vector and they spit out a new vector, both of which live in the"
+      },
+      {
+        "start": 291.5,
+        "duration": 1.0,
+        "text": "same space."
+      },
+      {
+        "start": 292.5,
+        "duration": 4.0,
+        "text": "And, like I said last video, you often think about them as somehow flipping or rotating"
+      },
+      {
+        "start": 296.5,
+        "duration": 2.2,
+        "text": "the vectors in that space."
+      },
+      {
+        "start": 298.6,
+        "duration": 1.8,
+        "text": "Now here's the crux of the confusion."
+      },
+      {
+        "start": 300.4,
+        "duration": 4.0,
+        "text": "I mentioned how if you have this classical verifier function, something like a Sudoku"
+      },
+      {
+        "start": 304.4,
+        "duration": 6.0,
+        "text": "checker that spits out a 1 or a 0, it is possible to translate it into an operation on a quantum"
+      },
+      {
+        "start": 310.4,
+        "duration": 2.6,
+        "text": "computer that has the following behavior."
+      },
+      {
+        "start": 313.0,
+        "duration": 4.6,
+        "text": "If a bit string returns 1 for true up in the classical case, then down in the quantum"
+      },
+      {
+        "start": 317.6,
+        "duration": 5.7,
+        "text": "case, the corresponding basis vector gets multiplied by negative 1, effectively flipping"
+      },
+      {
+        "start": 323.3,
+        "duration": 1.7,
+        "text": "180 degrees."
+      },
+      {
+        "start": 325.0,
+        "duration": 4.4,
+        "text": "And then if in the classical case a bit string outputs 0 for false, then in the quantum"
+      },
+      {
+        "start": 329.5,
+        "duration": 3.9,
+        "text": "translation, the corresponding basis vector is unchanged."
+      },
+      {
+        "start": 334.1,
+        "duration": 4.1,
+        "text": "Now I can see three reasons that this step might have caused some confusion."
+      },
+      {
+        "start": 338.2,
+        "duration": 4.3,
+        "text": "First of all, I didn't explain how it actually works, I didn't step through the translation."
+      },
+      {
+        "start": 342.5,
+        "duration": 4.0,
+        "text": "Now my hope with that video was that it's just not too huge a leap to have you accept"
+      },
+      {
+        "start": 346.4,
+        "duration": 5.2,
+        "text": "that in principle there exists this correspondence between returning true and false up in the classical"
+      },
+      {
+        "start": 351.7,
+        "duration": 5.4,
+        "text": "world and multiplying by negative 1 or positive 1 down in the quantum world with vectors."
+      },
+      {
+        "start": 357.1,
+        "duration": 1.2,
+        "text": "Now maybe that is a leap."
+      },
+      {
+        "start": 358.2,
+        "duration": 2.6,
+        "text": "I could preview for you what that translation looks like."
+      },
+      {
+        "start": 360.8,
+        "duration": 4.1,
+        "text": "The relevant search term here is quantum compilation, but I'm going to be honest, I don't"
+      },
+      {
+        "start": 365.0,
+        "duration": 1.6,
+        "text": "think it would add much clarity."
+      },
+      {
+        "start": 366.6,
+        "duration": 3.8,
+        "text": "In the same way that knowing the logic gates that implement addition, don't really teach"
+      },
+      {
+        "start": 370.3,
+        "duration": 1.9,
+        "text": "you much about how to add two numbers."
+      },
+      {
+        "start": 372.2,
+        "duration": 4.7,
+        "text": "Now it's not exactly like this, but loosely speaking, every time you see an AND gate,"
+      },
+      {
+        "start": 376.9,
+        "duration": 3.7,
+        "text": "you translate it into a quantum operation that looks kind of like an AND."
+      },
+      {
+        "start": 380.6,
+        "duration": 3.4,
+        "text": "Every time you see a NOT gate, there's a quantum analog that does something kind of like"
+      },
+      {
+        "start": 384.0,
+        "duration": 1.0,
+        "text": "a NOT."
+      },
+      {
+        "start": 385.0,
+        "duration": 5.1,
+        "text": "I suspect the real cause of confusion originates not from a lack of low level detail, but"
+      },
+      {
+        "start": 390.2,
+        "duration": 2.3,
+        "text": "from how I had framed the entire setup."
+      },
+      {
+        "start": 392.5,
+        "duration": 3.5,
+        "text": "I opened that video by having you imagine that there was some mystery number that we're"
+      },
+      {
+        "start": 396.0,
+        "duration": 4.9,
+        "text": "searching for, and as one commenter hopefully pointed out, this made it seem like the computer"
+      },
+      {
+        "start": 400.9,
+        "duration": 2.2,
+        "text": "kind of knows the answer ahead of time."
+      },
+      {
+        "start": 403.1,
+        "duration": 1.6,
+        "text": "It's just hiding it from us."
+      },
+      {
+        "start": 404.8,
+        "duration": 3.9,
+        "text": "And this is almost certainly exacerbated by me briefly flashing an example function that"
+      },
+      {
+        "start": 408.7,
+        "duration": 3.9,
+        "text": "just checks if the input is 12 and saying that we were going to treat the function as a"
+      },
+      {
+        "start": 412.6,
+        "duration": 1.0,
+        "text": "black box."
+      },
+      {
+        "start": 413.6,
+        "duration": 1.0,
+        "text": "That's on me."
+      },
+      {
+        "start": 414.6,
+        "duration": 1.8,
+        "text": "That's a misleading way to open things."
+      },
+      {
+        "start": 416.4,
+        "duration": 4.2,
+        "text": "What I wanted to foreshadow is how, with Grover's algorithm, the only way you use the new"
+      },
+      {
+        "start": 420.6,
+        "duration": 5.0,
+        "text": "quantum function is by trying it out on inputs, as opposed to maybe like reverse engineering"
+      },
+      {
+        "start": 425.6,
+        "duration": 1.0,
+        "text": "it."
+      },
+      {
+        "start": 426.6,
+        "duration": 2.6,
+        "text": "So in that sense, it's treated as a black box."
+      },
+      {
+        "start": 429.2,
+        "duration": 4.8,
+        "text": "But to be clear, in order to translate the classical verifier into the quantum version,"
+      },
+      {
+        "start": 434.0,
+        "duration": 2.6,
+        "text": "you absolutely need to get into the guts of the function."
+      },
+      {
+        "start": 436.6,
+        "duration": 3.7,
+        "text": "And if this is going to be a compelling example, it would be very silly if the only thing"
+      },
+      {
+        "start": 440.3,
+        "duration": 4.0,
+        "text": "the function did was just check if the input equals some hidden number."
+      },
+      {
+        "start": 444.3,
+        "duration": 6.0,
+        "text": "The Sudoku example is much better and a cryptographic hash like SHA-256 would be much better still."
+      },
+      {
+        "start": 450.3,
+        "duration": 3.8,
+        "text": "In these contexts, there is one value that will trigger the function and we don't know"
+      },
+      {
+        "start": 454.1,
+        "duration": 1.0,
+        "text": "what it is."
+      },
+      {
+        "start": 455.1,
+        "duration": 2.2,
+        "text": "But the computer also doesn't know what it is."
+      },
+      {
+        "start": 457.3,
+        "duration": 3.1,
+        "text": "It's not like the key value is just hiding in the source code."
+      },
+      {
+        "start": 460.4,
+        "duration": 3.4,
+        "text": "Whether we're up here in the classical setting, we're triggering the function means returning"
+      },
+      {
+        "start": 463.8,
+        "duration": 4.2,
+        "text": "true or down in the quantum setting, we're triggering the function means multiplying by"
+      },
+      {
+        "start": 468.0,
+        "duration": 1.2,
+        "text": "negative one."
+      },
+      {
+        "start": 469.2,
+        "duration": 6.3,
+        "text": "Which specific key input does this is a difficult to find an emergent property of those logic"
+      },
+      {
+        "start": 475.5,
+        "duration": 1.0,
+        "text": "gates."
+      },
+      {
+        "start": 476.5,
+        "duration": 2.2,
+        "text": "It's not something that's baked in ahead of time."
+      },
+      {
+        "start": 478.7,
+        "duration": 4.1,
+        "text": "Now the other potential source of confusion, I suspect, is that I didn't appropriately"
+      },
+      {
+        "start": 482.8,
+        "duration": 2.6,
+        "text": "emphasize the idea of linearity."
+      },
+      {
+        "start": 485.4,
+        "duration": 4.0,
+        "text": "In fact, this is a central enough feature of quantum computing and quantum mechanics"
+      },
+      {
+        "start": 489.4,
+        "duration": 4.2,
+        "text": "that half of my reason for making this whole follow-up video is as an excuse to talk about"
+      },
+      {
+        "start": 493.6,
+        "duration": 1.0,
+        "text": "it."
+      },
+      {
+        "start": 494.6,
+        "duration": 2.9,
+        "text": "So most factors don't look like a pure basis direction."
+      },
+      {
+        "start": 497.5,
+        "duration": 4.0,
+        "text": "They look like some weighted sum of all the different basis vectors."
+      },
+      {
+        "start": 501.6,
+        "duration": 4.1,
+        "text": "One way that you can represent this is with a column vector where we think of each component"
+      },
+      {
+        "start": 505.7,
+        "duration": 3.2,
+        "text": "as being associated with one of the possible bit strings."
+      },
+      {
+        "start": 508.9,
+        "duration": 4.8,
+        "text": "The more common convention among physicists is to write general vectors as an explicit weighted"
+      },
+      {
+        "start": 513.7,
+        "duration": 4.4,
+        "text": "sum of all the basis directions, each one represented with a cat."
+      },
+      {
+        "start": 518.1,
+        "duration": 4.8,
+        "text": "When the state vector for a computer looks like this, you say that it's in superposition,"
+      },
+      {
+        "start": 522.9,
+        "duration": 4.7,
+        "text": "meaning it has some non-zero component associated with multiple distinct bit strings."
+      },
+      {
+        "start": 527.6,
+        "duration": 4.8,
+        "text": "It's a lot like saying if someone is walking northeast, their velocity is a superposition"
+      },
+      {
+        "start": 532.4,
+        "duration": 1.5,
+        "text": "of north and east."
+      },
+      {
+        "start": 533.9,
+        "duration": 2.7,
+        "text": "They're traveling both directions at the same time."
+      },
+      {
+        "start": 536.6,
+        "duration": 4.4,
+        "text": "A core idea from the last video is that you never actually see the coordinates of a state"
+      },
+      {
+        "start": 541.0,
+        "duration": 2.4,
+        "text": "vector in superposition like this."
+      },
+      {
+        "start": 543.4,
+        "duration": 5.0,
+        "text": "When you read out from the computer, all you see is one of the bit strings at random,"
+      },
+      {
+        "start": 548.4,
+        "duration": 4.9,
+        "text": "and the probability of seeing it is equal to the square of the magnitude of the component"
+      },
+      {
+        "start": 553.3,
+        "duration": 2.9,
+        "text": "of the state vector associated with that value."
+      },
+      {
+        "start": 556.2,
+        "duration": 4.5,
+        "text": "I'm saying magnitude here with the absolute value signs because in general, these components"
+      },
+      {
+        "start": 560.7,
+        "duration": 5.2,
+        "text": "can be complex numbers, but for simplicity, I'm only going to be showing real values."
+      },
+      {
+        "start": 565.8,
+        "duration": 4.6,
+        "text": "When I say that operations in quantum computers are linear, what I mean is that if you pass"
+      },
+      {
+        "start": 570.4,
+        "duration": 5.8,
+        "text": "in one of these weighted sums of the different basis directions, that is to say a superposition,"
+      },
+      {
+        "start": 576.3,
+        "duration": 5.3,
+        "text": "and the output looks like the same weighted sum but of the transformed versions of each"
+      },
+      {
+        "start": 581.6,
+        "duration": 1.0,
+        "text": "vector."
+      },
+      {
+        "start": 582.6,
+        "duration": 2.0,
+        "text": "So here's a very small example."
+      },
+      {
+        "start": 584.6,
+        "duration": 3.6,
+        "text": "On a single qubit, there's an operation that we call a z gate."
+      },
+      {
+        "start": 588.2,
+        "duration": 4.5,
+        "text": "What it does is it leaves the zero direction unchanged, but it multiplies that vertical"
+      },
+      {
+        "start": 592.7,
+        "duration": 2.9,
+        "text": "one direction by negative one."
+      },
+      {
+        "start": 595.6,
+        "duration": 3.8,
+        "text": "These are only two out of the infinitely many possible state vectors, but they're all"
+      },
+      {
+        "start": 599.3,
+        "duration": 1.3,
+        "text": "you need to know."
+      },
+      {
+        "start": 600.6,
+        "duration": 4.2,
+        "text": "If you pass in a superposition of those two, something that has a little bit of zero,"
+      },
+      {
+        "start": 604.9,
+        "duration": 5.2,
+        "text": "plus a little bit of one, what you do is look at what the z gate does to each part separately"
+      },
+      {
+        "start": 610.0,
+        "duration": 3.3,
+        "text": "and then add those together, again with the same components."
+      },
+      {
+        "start": 613.4,
+        "duration": 4.4,
+        "text": "In this case, that means flipping the sign associated with the one component."
+      },
+      {
+        "start": 617.7,
+        "duration": 4.7,
+        "text": "Geometrically, when you draw this vector in a 2D space, the action of a z gate looks"
+      },
+      {
+        "start": 622.4,
+        "duration": 2.4,
+        "text": "like flipping around the x-axis."
+      },
+      {
+        "start": 624.9,
+        "duration": 4.3,
+        "text": "The z gate is simple enough that just by looking at the definition, you can clearly see which"
+      },
+      {
+        "start": 629.2,
+        "duration": 1.8,
+        "text": "direction gets flipped."
+      },
+      {
+        "start": 631.0,
+        "duration": 5.4,
+        "text": "But keep in mind, for more complicated functions, the definition alone might not so easily reveal"
+      },
+      {
+        "start": 636.4,
+        "duration": 2.0,
+        "text": "how it behaves."
+      },
+      {
+        "start": 638.4,
+        "duration": 4.5,
+        "text": "Take a look back at the Sudoku verification function, and it's translation onto a quantum"
+      },
+      {
+        "start": 642.9,
+        "duration": 1.0,
+        "text": "computer."
+      },
+      {
+        "start": 643.9,
+        "duration": 4.2,
+        "text": "And then say that the state of your computer is not one of those clean basis directions,"
+      },
+      {
+        "start": 648.1,
+        "duration": 6.6,
+        "text": "but it is a combination of all the basis vectors, a superposition of every possible bitstring"
+      },
+      {
+        "start": 654.7,
+        "duration": 4.2,
+        "text": "in this context representing every possible solution to the Sudoku."
+      },
+      {
+        "start": 658.9,
+        "duration": 5.0,
+        "text": "To figure out what our verifier does to this new vector, what you do is look at what it"
+      },
+      {
+        "start": 663.9,
+        "duration": 5.4,
+        "text": "would do to each basis separately, and then the output is going to be the same scaled sum"
+      },
+      {
+        "start": 669.3,
+        "duration": 1.2,
+        "text": "of the result."
+      },
+      {
+        "start": 670.5,
+        "duration": 5.3,
+        "text": "In this case, most parts of that sum stay unchanged, but one of them, the one that's associated"
+      },
+      {
+        "start": 675.8,
+        "duration": 4.5,
+        "text": "with the key input that represents a Sudoku solution, that part is going to have it sign"
+      },
+      {
+        "start": 680.3,
+        "duration": 1.0,
+        "text": "flipped."
+      },
+      {
+        "start": 681.3,
+        "duration": 3.6,
+        "text": "When you do this, it's very tempting to look at it and say that the function is acting on"
+      },
+      {
+        "start": 684.9,
+        "duration": 4.8,
+        "text": "every possible basis vector at once, in parallel, and then adding the results."
+      },
+      {
+        "start": 689.8,
+        "duration": 3.9,
+        "text": "Now that might be true, but I invite you to reflect on whether that's necessarily a"
+      },
+      {
+        "start": 693.7,
+        "duration": 1.6,
+        "text": "fair way to summarize it."
+      },
+      {
+        "start": 695.3,
+        "duration": 5.4,
+        "text": "As an analogy, if a hiker is walking northeast, and you tell him to rotate 90 degrees, that"
+      },
+      {
+        "start": 700.6,
+        "duration": 2.2,
+        "text": "rotation is a linear operation."
+      },
+      {
+        "start": 702.8,
+        "duration": 4.2,
+        "text": "In other words, the final direction is the same as what you would get by rotating the"
+      },
+      {
+        "start": 707.0,
+        "duration": 6.3,
+        "text": "north vector, 90 degrees, rotating the east vector, 90 degrees, and adding the two results."
+      },
+      {
+        "start": 713.3,
+        "duration": 4.3,
+        "text": "But that doesn't mean that you have to perform two separate rotations in parallel in order"
+      },
+      {
+        "start": 717.6,
+        "duration": 1.2,
+        "text": "to move the hiker."
+      },
+      {
+        "start": 718.8,
+        "duration": 3.1,
+        "text": "The linearity is a property of the transformation."
+      },
+      {
+        "start": 722.0,
+        "duration": 3.4,
+        "text": "It's not necessarily a set of instructions on how to do it."
+      },
+      {
+        "start": 725.4,
+        "duration": 1.7,
+        "text": "It's very similar over here."
+      },
+      {
+        "start": 727.0,
+        "duration": 4.7,
+        "text": "The effect of the quantum translation for our verifier looks like adding together what"
+      },
+      {
+        "start": 731.8,
+        "duration": 5.2,
+        "text": "its effect would be on all of the basis vectors, but I will leave it to your interpretation,"
+      },
+      {
+        "start": 736.9,
+        "duration": 4.4,
+        "text": "whether this means that it is necessarily acting on all two to the k possible bit strings"
+      },
+      {
+        "start": 741.4,
+        "duration": 1.0,
+        "text": "at once."
+      },
+      {
+        "start": 742.4,
+        "duration": 4.4,
+        "text": "Here, I've been writing the vector the physicist way, but if I write it with a column vector,"
+      },
+      {
+        "start": 746.7,
+        "duration": 5.1,
+        "text": "instead, what this operation looks like, is taking one component of that vector and multiplying"
+      },
+      {
+        "start": 751.8,
+        "duration": 6.2,
+        "text": "it by negative one, specifically whichever component corresponds to the Sudoku solution."
+      },
+      {
+        "start": 758.0,
+        "duration": 4.4,
+        "text": "So stepping back, hopefully this helps clear up some of the confusion there was in that"
+      },
+      {
+        "start": 762.4,
+        "duration": 1.2,
+        "text": "last video."
+      },
+      {
+        "start": 763.6,
+        "duration": 4.8,
+        "text": "The starting point of Grover's algorithm is to assume that you're given a function that"
+      },
+      {
+        "start": 768.4,
+        "duration": 4.2,
+        "text": "flips one component of a vector like this, though you don't know which one."
+      },
+      {
+        "start": 772.6,
+        "duration": 4.4,
+        "text": "The puzzle is to somehow figure out which direction is getting flipped, where all you're allowed"
+      },
+      {
+        "start": 777.1,
+        "duration": 5.2,
+        "text": "to do is apply this function to some well chosen set of inputs."
+      },
+      {
+        "start": 782.3,
+        "duration": 5.0,
+        "text": "And in Grover's case, it involves interleaving it with a certain other operation in the toolkit"
+      },
+      {
+        "start": 787.4,
+        "duration": 1.3,
+        "text": "of quantum computing."
+      },
+      {
+        "start": 788.7,
+        "duration": 1.0,
+        "text": "I get it."
+      },
+      {
+        "start": 789.7,
+        "duration": 2.0,
+        "text": "That is a really weird place to start from."
+      },
+      {
+        "start": 791.6,
+        "duration": 3.0,
+        "text": "And it doesn't help that this is a famously confusing topic."
+      },
+      {
+        "start": 794.7,
+        "duration": 5.0,
+        "text": "If you find it weird to work with a state vector whose components you never actually observe,"
+      },
+      {
+        "start": 799.7,
+        "duration": 4.2,
+        "text": "in which instead acts like a kind of square root of a probability distribution, you're"
+      },
+      {
+        "start": 803.9,
+        "duration": 1.2,
+        "text": "not alone."
+      },
+      {
+        "start": 805.1,
+        "duration": 1.9,
+        "text": "Everyone finds that very weird."
+      },
+      {
+        "start": 807.0,
+        "duration": 3.8,
+        "text": "At this point, I genuinely can't tell if I'm over-explaining things or still under-explaining"
+      },
+      {
+        "start": 810.8,
+        "duration": 4.4,
+        "text": "them, but there is one final aspect of the explanation from last time that may have added"
+      },
+      {
+        "start": 815.3,
+        "duration": 1.5,
+        "text": "to this confusion."
+      },
+      {
+        "start": 816.8,
+        "duration": 4.4,
+        "text": "When we visualized the algorithm, we chose to view everything on a certain two-dimensional"
+      },
+      {
+        "start": 821.2,
+        "duration": 5.0,
+        "text": "slice of the enormous end-dimensional vector space where all these state vectors live."
+      },
+      {
+        "start": 826.2,
+        "duration": 5.1,
+        "text": "And this slice, by definition, included the axis associated with that mystery value"
+      },
+      {
+        "start": 831.2,
+        "duration": 1.0,
+        "text": "we're searching for."
+      },
+      {
+        "start": 832.2,
+        "duration": 4.8,
+        "text": "Now, in case that left anyone with the impression that part of the algorithm was to choose that"
+      },
+      {
+        "start": 837.0,
+        "duration": 2.0,
+        "text": "slice, let me be very clear."
+      },
+      {
+        "start": 839.0,
+        "duration": 1.0,
+        "text": "It's not."
+      },
+      {
+        "start": 840.0,
+        "duration": 2.2,
+        "text": "The algorithm is just doing what it's going to do."
+      },
+      {
+        "start": 842.3,
+        "duration": 2.7,
+        "text": "It interleaves two operations that go back and forth."
+      },
+      {
+        "start": 845.0,
+        "duration": 3.5,
+        "text": "It doesn't have a care in the world how you and I choose to visualize it."
+      },
+      {
+        "start": 848.5,
+        "duration": 5.4,
+        "text": "The fact that the state vector stays confined to this particular plane, that's a happy"
+      },
+      {
+        "start": 853.9,
+        "duration": 2.3,
+        "text": "emergent property of the algorithm."
+      },
+      {
+        "start": 856.2,
+        "duration": 4.4,
+        "text": "It is in no way part of the instruction set that we're giving to the computer."
+      },
+      {
+        "start": 860.6,
+        "duration": 4.3,
+        "text": "One very final thing that I do think deserves some added reflection is how Grover's algorithm,"
+      },
+      {
+        "start": 864.9,
+        "duration": 3.7,
+        "text": "while very thought-provoking, is maybe just not really useful?"
+      },
+      {
+        "start": 868.6,
+        "duration": 1.3,
+        "text": "Take this adoco example."
+      },
+      {
+        "start": 869.9,
+        "duration": 4.4,
+        "text": "The number of possible solutions will depend on how many of those 81 squares start off"
+      },
+      {
+        "start": 874.3,
+        "duration": 4.0,
+        "text": "blank, but let's call it something like 9 to the power 60."
+      },
+      {
+        "start": 878.2,
+        "duration": 5.0,
+        "text": "If you tried to use your classical verifier function to find a solution by brute force,"
+      },
+      {
+        "start": 883.3,
+        "duration": 3.0,
+        "text": "there are way way too many possibilities to check."
+      },
+      {
+        "start": 886.3,
+        "duration": 4.5,
+        "text": "But even if you had a fully functioning quantum computer sitting on your desk right now with"
+      },
+      {
+        "start": 890.8,
+        "duration": 4.9,
+        "text": "ample qubits and no issues maintaining coherence and all that, using Grover's algorithm, this"
+      },
+      {
+        "start": 895.7,
+        "duration": 4.8,
+        "text": "would still take around 9 to the 30 steps, which is a much smaller number, but it's still"
+      },
+      {
+        "start": 900.5,
+        "duration": 1.0,
+        "text": "enormous."
+      },
+      {
+        "start": 901.5,
+        "duration": 4.0,
+        "text": "Now in this case, there's obviously many smarter ways to solve a sedoku than a brute force"
+      },
+      {
+        "start": 905.5,
+        "duration": 5.2,
+        "text": "search, but if you take something like SHA256, inverting it by brute force takes 2 to the"
+      },
+      {
+        "start": 910.7,
+        "duration": 6.6,
+        "text": "256 steps on a classical computer, using Grover's algorithm that becomes 2 to the 128,"
+      },
+      {
+        "start": 917.3,
+        "duration": 3.1,
+        "text": "at least up to that pi-fourth constant that we saw last video."
+      },
+      {
+        "start": 920.4,
+        "duration": 4.9,
+        "text": "So even in some sci-fi future where quantum computers are as far along as today's classical"
+      },
+      {
+        "start": 925.3,
+        "duration": 3.8,
+        "text": "computers, that is still an infeasibly large number of steps."
+      },
+      {
+        "start": 929.1,
+        "duration": 4.4,
+        "text": "The way some people write about quantum computing, it makes it sound like the moment they arrive,"
+      },
+      {
+        "start": 933.5,
+        "duration": 2.8,
+        "text": "computing is going to change and all of cryptography will break."
+      },
+      {
+        "start": 936.3,
+        "duration": 4.5,
+        "text": "And it's true that there are specific problems that have exponential speedups, and especially"
+      },
+      {
+        "start": 940.8,
+        "duration": 4.7,
+        "text": "with RSA, some of those are relevant to cryptography, but that's not true in general."
+      },
+      {
+        "start": 945.5,
+        "duration": 4.6,
+        "text": "This quadratic speedup is much more representative of what you get for most problems."
+      },
+      {
+        "start": 950.0,
+        "duration": 4.4,
+        "text": "It's really cool, and the math is just beautiful, and there continues to be lots of interesting"
+      },
+      {
+        "start": 954.4,
+        "duration": 3.8,
+        "text": "research in the field, but one of my hopes with this whole project is that you now have"
+      },
+      {
+        "start": 958.2,
+        "duration": 3.9,
+        "text": "enough background to maybe see through some of the hyperbole that certain outlets are"
+      },
+      {
+        "start": 962.1,
+        "duration": 1.0,
+        "text": "so fond of."
+      }
+    ],
+    "full_text": "Last week I put up a video introducing quantum computing, and in the final section, we were stepping through something known as Grover's algorithm. And based on the comments that I saw, I think there was a very common point of confusion that reveals I clearly could have done a better job explaining a core piece of it. Right here, I wanted to throw together a very quick supplement in the hopes of adding a bit of clarity. The premise was to have a function, which is somehow triggered by a unique value out of a big bag of options, and the puzzle is basically to figure out how do you find that unique value just by applying the function on various inputs. Now in a classical setting, it's not a very interesting question. The best you can do is guess and check. But what we walked through was a completely different approach that you can take that becomes possible in the setting of a quantum computer. When we did this, there was a certain key step where if I'm understanding the comments correctly, it looked to a lot of people like in order to apply this key step, you would have to already know the value that you're searching for, which would of course defeat the whole purpose of the algorithm. More specifically, we had this very high dimensional vector space, and one of the axes in that space corresponded to the value that we're searching for, and this step of the algorithm looked like flipping along that axis, multiplying any component of a vector in that direction by negative one. Now viewers were essentially asking, whoa, whoa, whoa, how could you know how to do that without already knowing which axis you're searching for? I genuinely tried to forest all that objection, but I think I failed, so backing up, I think the whole discussion might be clearer if we focus on a very concrete example, something like solving a Sudoku. On your normal classical computer, it's not hard to write a function that checks whether a proposed solution follows all of the Sudoku rules and solves the puzzle. You know, it would check the rows, the columns, squares for duplicates, things like that. If you have written this function, just because you know how to verify a solution, it's not at all obvious what the solution is in the first place. This is, after all, why a Sudoku is a puzzle. The rules alone don't reveal the answer. There are other situations where this is actually a much stronger assumption. The function SHA-256, for example, is what's called a cryptographic hash function. That basically means if you want to find what input gives you a particular output, it is strongly believed that you really can't gain much insight by looking at how the function is implemented. If someone could reverse engineer it, they would be mining all of the Bitcoin in the world and breaking numerous other cryptographic schemes. But it's believed that the best thing you can do when you're searching for a particular output is guess and check. So it's not that the key value is like hiding inside the function behind some curtain, it's more of a difficult to find emergent phenomenon of the function itself. Now the idea with Grover's algorithm is that if you have this sort of verifier function for some hard problem and you translate it into the language of quantum computing, there is a method for sifting out valid solutions which requires fewer steps than simple guessing and checking over all the possibilities. Now to be clear, it is not dramatically faster. It's only a quadratic speed up and given the overheads for making quantum computing work, this frankly has questionable utility. In fact, let's talk a little bit more about that at the end. First, to the clarification, if you have this Sudoku verifying function, it's not like you can just run it on a quantum computer. For all quantum computers, speak an entirely different language. It's a totally different framework for computing that looks a lot more like vector manipulation. The first step to port over this verification function into the new context is to imagine that we've kind of compiled your verifier into a bunch of logic gates, things like AND or and not. So for any proposed Sudoku solution, you would represent it all in binary. All of those bits would be processed by your web of logic gates and the output would be a one if it's a valid Sudoku solution and a zero for all the invalid ones. And again, being able to assemble these logic gates does not require knowing ahead of time which input solves the puzzle. The logic gates distill the rules of the game, but not the strategy. Now, I'm assuming everyone has watched the main video, in particular the course section about the fundamentals of the state vector. But as a quick recap, the upshot is that you think of every possible bit string as a unit vector along a coordinate axis in some high dimensional space. In the language of linear algebra, you would call these the basis vectors of your coordinate system. For example, with a 2-qbit quantum computer, you would have 4 possible bit strings and these would all look like basis directions in some 4-dimensional space. These state vectors get very big, very fast. If you have a k-qbit quantum computer, that gives you 2-k possible bit strings and you think of each one of them as being a coordinate direction in some very high dimensional vector space. Now, operations on a quantum computer don't spit out true or false, the way you can see on a classical computer. Instead, they take in a vector and they spit out a new vector, both of which live in the same space. And, like I said last video, you often think about them as somehow flipping or rotating the vectors in that space. Now here's the crux of the confusion. I mentioned how if you have this classical verifier function, something like a Sudoku checker that spits out a 1 or a 0, it is possible to translate it into an operation on a quantum computer that has the following behavior. If a bit string returns 1 for true up in the classical case, then down in the quantum case, the corresponding basis vector gets multiplied by negative 1, effectively flipping 180 degrees. And then if in the classical case a bit string outputs 0 for false, then in the quantum translation, the corresponding basis vector is unchanged. Now I can see three reasons that this step might have caused some confusion. First of all, I didn't explain how it actually works, I didn't step through the translation. Now my hope with that video was that it's just not too huge a leap to have you accept that in principle there exists this correspondence between returning true and false up in the classical world and multiplying by negative 1 or positive 1 down in the quantum world with vectors. Now maybe that is a leap. I could preview for you what that translation looks like. The relevant search term here is quantum compilation, but I'm going to be honest, I don't think it would add much clarity. In the same way that knowing the logic gates that implement addition, don't really teach you much about how to add two numbers. Now it's not exactly like this, but loosely speaking, every time you see an AND gate, you translate it into a quantum operation that looks kind of like an AND. Every time you see a NOT gate, there's a quantum analog that does something kind of like a NOT. I suspect the real cause of confusion originates not from a lack of low level detail, but from how I had framed the entire setup. I opened that video by having you imagine that there was some mystery number that we're searching for, and as one commenter hopefully pointed out, this made it seem like the computer kind of knows the answer ahead of time. It's just hiding it from us. And this is almost certainly exacerbated by me briefly flashing an example function that just checks if the input is 12 and saying that we were going to treat the function as a black box. That's on me. That's a misleading way to open things. What I wanted to foreshadow is how, with Grover's algorithm, the only way you use the new quantum function is by trying it out on inputs, as opposed to maybe like reverse engineering it. So in that sense, it's treated as a black box. But to be clear, in order to translate the classical verifier into the quantum version, you absolutely need to get into the guts of the function. And if this is going to be a compelling example, it would be very silly if the only thing the function did was just check if the input equals some hidden number. The Sudoku example is much better and a cryptographic hash like SHA-256 would be much better still. In these contexts, there is one value that will trigger the function and we don't know what it is. But the computer also doesn't know what it is. It's not like the key value is just hiding in the source code. Whether we're up here in the classical setting, we're triggering the function means returning true or down in the quantum setting, we're triggering the function means multiplying by negative one. Which specific key input does this is a difficult to find an emergent property of those logic gates. It's not something that's baked in ahead of time. Now the other potential source of confusion, I suspect, is that I didn't appropriately emphasize the idea of linearity. In fact, this is a central enough feature of quantum computing and quantum mechanics that half of my reason for making this whole follow-up video is as an excuse to talk about it. So most factors don't look like a pure basis direction. They look like some weighted sum of all the different basis vectors. One way that you can represent this is with a column vector where we think of each component as being associated with one of the possible bit strings. The more common convention among physicists is to write general vectors as an explicit weighted sum of all the basis directions, each one represented with a cat. When the state vector for a computer looks like this, you say that it's in superposition, meaning it has some non-zero component associated with multiple distinct bit strings. It's a lot like saying if someone is walking northeast, their velocity is a superposition of north and east. They're traveling both directions at the same time. A core idea from the last video is that you never actually see the coordinates of a state vector in superposition like this. When you read out from the computer, all you see is one of the bit strings at random, and the probability of seeing it is equal to the square of the magnitude of the component of the state vector associated with that value. I'm saying magnitude here with the absolute value signs because in general, these components can be complex numbers, but for simplicity, I'm only going to be showing real values. When I say that operations in quantum computers are linear, what I mean is that if you pass in one of these weighted sums of the different basis directions, that is to say a superposition, and the output looks like the same weighted sum but of the transformed versions of each vector. So here's a very small example. On a single qubit, there's an operation that we call a z gate. What it does is it leaves the zero direction unchanged, but it multiplies that vertical one direction by negative one. These are only two out of the infinitely many possible state vectors, but they're all you need to know. If you pass in a superposition of those two, something that has a little bit of zero, plus a little bit of one, what you do is look at what the z gate does to each part separately and then add those together, again with the same components. In this case, that means flipping the sign associated with the one component. Geometrically, when you draw this vector in a 2D space, the action of a z gate looks like flipping around the x-axis. The z gate is simple enough that just by looking at the definition, you can clearly see which direction gets flipped. But keep in mind, for more complicated functions, the definition alone might not so easily reveal how it behaves. Take a look back at the Sudoku verification function, and it's translation onto a quantum computer. And then say that the state of your computer is not one of those clean basis directions, but it is a combination of all the basis vectors, a superposition of every possible bitstring in this context representing every possible solution to the Sudoku. To figure out what our verifier does to this new vector, what you do is look at what it would do to each basis separately, and then the output is going to be the same scaled sum of the result. In this case, most parts of that sum stay unchanged, but one of them, the one that's associated with the key input that represents a Sudoku solution, that part is going to have it sign flipped. When you do this, it's very tempting to look at it and say that the function is acting on every possible basis vector at once, in parallel, and then adding the results. Now that might be true, but I invite you to reflect on whether that's necessarily a fair way to summarize it. As an analogy, if a hiker is walking northeast, and you tell him to rotate 90 degrees, that rotation is a linear operation. In other words, the final direction is the same as what you would get by rotating the north vector, 90 degrees, rotating the east vector, 90 degrees, and adding the two results. But that doesn't mean that you have to perform two separate rotations in parallel in order to move the hiker. The linearity is a property of the transformation. It's not necessarily a set of instructions on how to do it. It's very similar over here. The effect of the quantum translation for our verifier looks like adding together what its effect would be on all of the basis vectors, but I will leave it to your interpretation, whether this means that it is necessarily acting on all two to the k possible bit strings at once. Here, I've been writing the vector the physicist way, but if I write it with a column vector, instead, what this operation looks like, is taking one component of that vector and multiplying it by negative one, specifically whichever component corresponds to the Sudoku solution. So stepping back, hopefully this helps clear up some of the confusion there was in that last video. The starting point of Grover's algorithm is to assume that you're given a function that flips one component of a vector like this, though you don't know which one. The puzzle is to somehow figure out which direction is getting flipped, where all you're allowed to do is apply this function to some well chosen set of inputs. And in Grover's case, it involves interleaving it with a certain other operation in the toolkit of quantum computing. I get it. That is a really weird place to start from. And it doesn't help that this is a famously confusing topic. If you find it weird to work with a state vector whose components you never actually observe, in which instead acts like a kind of square root of a probability distribution, you're not alone. Everyone finds that very weird. At this point, I genuinely can't tell if I'm over-explaining things or still under-explaining them, but there is one final aspect of the explanation from last time that may have added to this confusion. When we visualized the algorithm, we chose to view everything on a certain two-dimensional slice of the enormous end-dimensional vector space where all these state vectors live. And this slice, by definition, included the axis associated with that mystery value we're searching for. Now, in case that left anyone with the impression that part of the algorithm was to choose that slice, let me be very clear. It's not. The algorithm is just doing what it's going to do. It interleaves two operations that go back and forth. It doesn't have a care in the world how you and I choose to visualize it. The fact that the state vector stays confined to this particular plane, that's a happy emergent property of the algorithm. It is in no way part of the instruction set that we're giving to the computer. One very final thing that I do think deserves some added reflection is how Grover's algorithm, while very thought-provoking, is maybe just not really useful? Take this adoco example. The number of possible solutions will depend on how many of those 81 squares start off blank, but let's call it something like 9 to the power 60. If you tried to use your classical verifier function to find a solution by brute force, there are way way too many possibilities to check. But even if you had a fully functioning quantum computer sitting on your desk right now with ample qubits and no issues maintaining coherence and all that, using Grover's algorithm, this would still take around 9 to the 30 steps, which is a much smaller number, but it's still enormous. Now in this case, there's obviously many smarter ways to solve a sedoku than a brute force search, but if you take something like SHA256, inverting it by brute force takes 2 to the 256 steps on a classical computer, using Grover's algorithm that becomes 2 to the 128, at least up to that pi-fourth constant that we saw last video. So even in some sci-fi future where quantum computers are as far along as today's classical computers, that is still an infeasibly large number of steps. The way some people write about quantum computing, it makes it sound like the moment they arrive, computing is going to change and all of cryptography will break. And it's true that there are specific problems that have exponential speedups, and especially with RSA, some of those are relevant to cryptography, but that's not true in general. This quadratic speedup is much more representative of what you get for most problems. It's really cool, and the math is just beautiful, and there continues to be lots of interesting research in the field, but one of my hopes with this whole project is that you now have enough background to maybe see through some of the hyperbole that certain outlets are so fond of."
+  }
+}

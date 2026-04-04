@@ -1,0 +1,789 @@
+{
+  "video_id": "sEqOSvNN4NQ",
+  "video_title": "AWS Data Engineering Roadmap 2026 | AWS Data Engineer Roadmap | Top AWS Services to Focus | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 581.0,
+  "view_count": 4216,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 11.6,
+        "text": "Imagine you're streaming your favorite show on Netflix."
+      },
+      {
+        "start": 11.6,
+        "duration": 5.0,
+        "text": "Behind the scenes, massive volumes of data are being collected, transformed and optimized"
+      },
+      {
+        "start": 16.6,
+        "duration": 4.0,
+        "text": "in real time so you get the best recommendation in a blink."
+      },
+      {
+        "start": 20.6,
+        "duration": 2.5,
+        "text": "That's the power of data engineering."
+      },
+      {
+        "start": 23.1,
+        "duration": 1.0,
+        "text": "And guess what?"
+      },
+      {
+        "start": 24.1,
+        "duration": 5.2,
+        "text": "Much of this magic today happens on the cloud, specifically on AWS."
+      },
+      {
+        "start": 29.3,
+        "duration": 5.1,
+        "text": "If you have ever thought about becoming AWS Data Engineer or wondered where to start,"
+      },
+      {
+        "start": 34.4,
+        "duration": 2.6,
+        "text": "this video is your ultimate roadmap."
+      },
+      {
+        "start": 37.0,
+        "duration": 5.6,
+        "text": "So today, we are diving deep into what it takes to become an AWS Data Engineer from skills"
+      },
+      {
+        "start": 42.5,
+        "duration": 2.4,
+        "text": "and tools to certifications."
+      },
+      {
+        "start": 45.0,
+        "duration": 5.4,
+        "text": "Data engineering is the backbone of modern tech, powering real-time analytics, AI models"
+      },
+      {
+        "start": 50.4,
+        "duration": 3.5,
+        "text": "and personalized experience across industries."
+      },
+      {
+        "start": 53.9,
+        "duration": 5.4,
+        "text": "AWS serves as the foundation of modern data engineering, trusted by the world's leading"
+      },
+      {
+        "start": 59.2,
+        "duration": 5.7,
+        "text": "organizations to deliver scalable, secure and high performance data solutions."
+      },
+      {
+        "start": 64.9,
+        "duration": 5.0,
+        "text": "The demand for skilled AWS Data Engineers has never been higher and this roadmap will help"
+      },
+      {
+        "start": 69.9,
+        "duration": 2.7,
+        "text": "you break into the field confidently."
+      },
+      {
+        "start": 72.6,
+        "duration": 3.8,
+        "text": "So before we get started, make sure to like, share and subscribe to Idureka's YouTube"
+      },
+      {
+        "start": 76.4,
+        "duration": 4.8,
+        "text": "channel and hit the bell icon to stay updated on the latest content from Idureka."
+      },
+      {
+        "start": 81.3,
+        "duration": 5.0,
+        "text": "Also, if you're looking to advance your data engineering career, then check out Idureka's"
+      },
+      {
+        "start": 86.3,
+        "duration": 3.7,
+        "text": "AWS certified Data Engineer Associate Training."
+      },
+      {
+        "start": 90.0,
+        "duration": 6.5,
+        "text": "This course is aligned with the latest DEA C1 certification exam and covers critical skills"
+      },
+      {
+        "start": 96.5,
+        "duration": 6.0,
+        "text": "such as setting up schedule loss, optimizing data processing and managing robust data pipelines."
+      },
+      {
+        "start": 102.4,
+        "duration": 4.9,
+        "text": "You will get 30 hours of live instructor-led training, work on 5-plus real-world industry"
+      },
+      {
+        "start": 107.4,
+        "duration": 5.5,
+        "text": "use cases and gain hands-on experience through 20-plus demos and cash run projects."
+      },
+      {
+        "start": 112.8,
+        "duration": 4.7,
+        "text": "Plus, the course includes assignments and knowledge checks to reinforce your learning"
+      },
+      {
+        "start": 117.5,
+        "duration": 2.1,
+        "text": "and get your fully certified grading."
+      },
+      {
+        "start": 119.6,
+        "duration": 5.4,
+        "text": "So before you even start with AWS, you need to build strong foundational skills."
+      },
+      {
+        "start": 125.0,
+        "duration": 2.6,
+        "text": "So start with Python and SQL."
+      },
+      {
+        "start": 127.6,
+        "duration": 5.2,
+        "text": "Python for scripting data pipelines and SQL for querying massive data sets."
+      },
+      {
+        "start": 132.8,
+        "duration": 5.2,
+        "text": "Next, learn data modeling by understanding how to structure data using ER diagrams,"
+      },
+      {
+        "start": 138.0,
+        "duration": 2.6,
+        "text": "normalization and denomalization."
+      },
+      {
+        "start": 140.6,
+        "duration": 3.1,
+        "text": "This knowledge helps in building efficient databases."
+      },
+      {
+        "start": 143.7,
+        "duration": 1.6,
+        "text": "Then don't ignore Git."
+      },
+      {
+        "start": 145.3,
+        "duration": 5.4,
+        "text": "It is essential for version control and collaboration particularly in team environments."
+      },
+      {
+        "start": 150.7,
+        "duration": 4.6,
+        "text": "And finally, give basic Linux skills like navigating file systems,"
+      },
+      {
+        "start": 155.3,
+        "duration": 6.6,
+        "text": "writing shell scripts and managing permissions will go a long way when working on EC2 or EMR."
+      },
+      {
+        "start": 161.9,
+        "duration": 4.5,
+        "text": "Now that you have got your base ready, now it's time to move into the cloud."
+      },
+      {
+        "start": 166.4,
+        "duration": 3.1,
+        "text": "So now understanding AWS course services."
+      },
+      {
+        "start": 169.5,
+        "duration": 2.4,
+        "text": "So storage is your first stop."
+      },
+      {
+        "start": 171.9,
+        "duration": 2.8,
+        "text": "AWS S3, which is simple storage service,"
+      },
+      {
+        "start": 174.8,
+        "duration": 6.2,
+        "text": "is the go to for storing data of any type such as images, logs, structure data sets, etc."
+      },
+      {
+        "start": 180.9,
+        "duration": 4.8,
+        "text": "It's a highly durable, scalable object storage service that can handle everything"
+      },
+      {
+        "start": 185.7,
+        "duration": 3.2,
+        "text": "from raw files to big data lake architectures."
+      },
+      {
+        "start": 188.8,
+        "duration": 4.5,
+        "text": "Compute options like EC2, which stands for elastic compute cloud"
+      },
+      {
+        "start": 193.3,
+        "duration": 5.4,
+        "text": "and Lambda, let you run code, automate task and scale data processing on demand."
+      },
+      {
+        "start": 198.8,
+        "duration": 5.1,
+        "text": "EC2 provides flexible virtual machines to run custom applications or scripts."
+      },
+      {
+        "start": 203.9,
+        "duration": 5.8,
+        "text": "While Lambda is a serverless compute service that executes code in response to events"
+      },
+      {
+        "start": 209.6,
+        "duration": 2.3,
+        "text": "and no server management required."
+      },
+      {
+        "start": 212.0,
+        "duration": 1.9,
+        "text": "Then comes databases."
+      },
+      {
+        "start": 213.8,
+        "duration": 6.1,
+        "text": "Use Amazon RDS, which is relational database service for traditional relational databases"
+      },
+      {
+        "start": 219.9,
+        "duration": 2.8,
+        "text": "like Post-Qual SQL and MySQL."
+      },
+      {
+        "start": 222.7,
+        "duration": 4.3,
+        "text": "It's fully managed handling backups updates and scalable."
+      },
+      {
+        "start": 227.0,
+        "duration": 5.2,
+        "text": "For no SQL use cases, Dynamo DP offers a fast serverless key value"
+      },
+      {
+        "start": 232.2,
+        "duration": 3.8,
+        "text": "and document database design for high performance applications."
+      },
+      {
+        "start": 236.0,
+        "duration": 3.6,
+        "text": "And for large scale analytics, meet Amazon Redshift."
+      },
+      {
+        "start": 239.6,
+        "duration": 5.7,
+        "text": "AWS powerful data warehousing solution that enables you to run complex SQL queries"
+      },
+      {
+        "start": 245.3,
+        "duration": 5.9,
+        "text": "across petabytes of structured data, making it ideal for BI and reporting workloads."
+      },
+      {
+        "start": 251.2,
+        "duration": 3.0,
+        "text": "So once you know where and how your data is stored,"
+      },
+      {
+        "start": 254.2,
+        "duration": 2.5,
+        "text": "the next step is to move it efficiently."
+      },
+      {
+        "start": 256.8,
+        "duration": 4.4,
+        "text": "Next, moving on to data injections and processing tools."
+      },
+      {
+        "start": 261.1,
+        "duration": 3.9,
+        "text": "ETL, which stands for extract, transform and load,"
+      },
+      {
+        "start": 265.0,
+        "duration": 3.6,
+        "text": "is the core process of gathering data from multiple sources,"
+      },
+      {
+        "start": 268.6,
+        "duration": 3.9,
+        "text": "transforming it and loading it into storage for analysis."
+      },
+      {
+        "start": 272.6,
+        "duration": 4.7,
+        "text": "AWS view is the serverless ETL tool that automates schema discovery,"
+      },
+      {
+        "start": 277.3,
+        "duration": 3.0,
+        "text": "code generation and workflow orchestration."
+      },
+      {
+        "start": 280.2,
+        "duration": 4.3,
+        "text": "For real time data, Amazon Kinesz enables high throughput streaming"
+      },
+      {
+        "start": 284.6,
+        "duration": 4.8,
+        "text": "with tools like data streams for capture and firehose for delivery to storage"
+      },
+      {
+        "start": 289.4,
+        "duration": 2.3,
+        "text": "like S3 or Redshift."
+      },
+      {
+        "start": 291.7,
+        "duration": 3.5,
+        "text": "Next, Amazon EMR allows large scale processing"
+      },
+      {
+        "start": 295.2,
+        "duration": 3.9,
+        "text": "using distributed frameworks like Apache Spark and Hadoop."
+      },
+      {
+        "start": 299.1,
+        "duration": 5.5,
+        "text": "Together, this tools enables scalable, efficient data engineering on AWS."
+      },
+      {
+        "start": 304.6,
+        "duration": 4.0,
+        "text": "But even the best pipelines need to be orchestrated smoothly."
+      },
+      {
+        "start": 308.6,
+        "duration": 4.3,
+        "text": "So now let us move on to orchestration and workflow management."
+      },
+      {
+        "start": 313.0,
+        "duration": 4.7,
+        "text": "So AWS step functions, let you chain tasks into serverless workflows,"
+      },
+      {
+        "start": 317.7,
+        "duration": 3.8,
+        "text": "making it easy to coordinate services like Lambda, EC2,"
+      },
+      {
+        "start": 321.4,
+        "duration": 2.5,
+        "text": "or GU in a defined sequence."
+      },
+      {
+        "start": 323.9,
+        "duration": 3.1,
+        "text": "So for more complex and customizable data workflows,"
+      },
+      {
+        "start": 327.0,
+        "duration": 3.8,
+        "text": "use Apache Airflow through AWS MWA,"
+      },
+      {
+        "start": 330.9,
+        "duration": 3.0,
+        "text": "which is managed workflows for Apache Airflow."
+      },
+      {
+        "start": 333.9,
+        "duration": 5.0,
+        "text": "Airflow is an open source platform that allows you to define workflows as code,"
+      },
+      {
+        "start": 339.0,
+        "duration": 3.9,
+        "text": "complete with scheduling task dependencies and retreat logic."
+      },
+      {
+        "start": 343.3,
+        "duration": 3.3,
+        "text": "MWAA provides a fully managed version,"
+      },
+      {
+        "start": 346.6,
+        "duration": 5.7,
+        "text": "reducing operational overhead while giving you full control over complex pipeline orchestration,"
+      },
+      {
+        "start": 352.2,
+        "duration": 5.3,
+        "text": "perfect for scenarios well timing, order of execution and conditional branching matter."
+      },
+      {
+        "start": 357.5,
+        "duration": 4.8,
+        "text": "And while your workflows run, you will need visibility and control over them."
+      },
+      {
+        "start": 362.3,
+        "duration": 3.8,
+        "text": "So for that, let us move on to monitoring and security."
+      },
+      {
+        "start": 366.1,
+        "duration": 4.5,
+        "text": "Use Amazon Cloud was to monitor your entire data engineering workflow."
+      },
+      {
+        "start": 370.6,
+        "duration": 3.0,
+        "text": "It collects logs, tracks performance metric,"
+      },
+      {
+        "start": 373.6,
+        "duration": 3.0,
+        "text": "and helps you set up alerts when something goes wrong,"
+      },
+      {
+        "start": 376.6,
+        "duration": 3.9,
+        "text": "like a failed ETL jobs or a spike in processing time."
+      },
+      {
+        "start": 380.5,
+        "duration": 3.9,
+        "text": "So this ensures you catch issues early and keep your pipelines healthy."
+      },
+      {
+        "start": 385.0,
+        "duration": 1.8,
+        "text": "Control access using IA Young,"
+      },
+      {
+        "start": 386.9,
+        "duration": 3.1,
+        "text": "which is identity and access management policies,"
+      },
+      {
+        "start": 390.0,
+        "duration": 3.0,
+        "text": "which let your grant precise permissions to user,"
+      },
+      {
+        "start": 393.0,
+        "duration": 4.3,
+        "text": "roles and services, ensuring the principles of least privilege is"
+      },
+      {
+        "start": 397.3,
+        "duration": 3.3,
+        "text": "followed for better security and compliance."
+      },
+      {
+        "start": 400.6,
+        "duration": 3.8,
+        "text": "And when managing data at scale, especially in data lake setup,"
+      },
+      {
+        "start": 404.3,
+        "duration": 2.6,
+        "text": "AWS Lake Formation helps you define,"
+      },
+      {
+        "start": 407.0,
+        "duration": 4.4,
+        "text": "enforce and audit access controls across all your data in S3."
+      },
+      {
+        "start": 411.4,
+        "duration": 2.3,
+        "text": "Now that you are building with AWS,"
+      },
+      {
+        "start": 413.7,
+        "duration": 2.3,
+        "text": "but how can you demonstrate your skills?"
+      },
+      {
+        "start": 416.9,
+        "duration": 3.6,
+        "text": "So now let us move ahead with certification and learning part."
+      },
+      {
+        "start": 421.0,
+        "duration": 4.4,
+        "text": "You can start with a new AWS certified data engineer associate."
+      },
+      {
+        "start": 425.4,
+        "duration": 4.7,
+        "text": "It covers everything from data ingestions and storage to security and visualization."
+      },
+      {
+        "start": 430.7,
+        "duration": 3.8,
+        "text": "Prep using AWS skill builder, white papers and Mochax sounds."
+      },
+      {
+        "start": 435.2,
+        "duration": 1.4,
+        "text": "And if you want to go deeper,"
+      },
+      {
+        "start": 436.6,
+        "duration": 4.5,
+        "text": "then the data analytics specialty certification is for advanced data engineers"
+      },
+      {
+        "start": 441.0,
+        "duration": 3.4,
+        "text": "working with big data tools like Kinesis and Redshift."
+      },
+      {
+        "start": 444.5,
+        "duration": 3.9,
+        "text": "Also, AWS data engineering certification course"
+      },
+      {
+        "start": 448.4,
+        "duration": 5.6,
+        "text": "equips you with hands-on skills in tools like S3, Redshift, Blue and Kinesis,"
+      },
+      {
+        "start": 454.0,
+        "duration": 3.5,
+        "text": "all essential for building real world data pipelines on AWS."
+      },
+      {
+        "start": 458.1,
+        "duration": 4.1,
+        "text": "You will learn to ingest process and manage data at scale"
+      },
+      {
+        "start": 462.2,
+        "duration": 3.8,
+        "text": "with life projects and case studies designed to make your job ready."
+      },
+      {
+        "start": 466.0,
+        "duration": 4.1,
+        "text": "And by the end, you will be ready to build and manage robot's data workflows"
+      },
+      {
+        "start": 470.1,
+        "duration": 1.8,
+        "text": "on AWS with confidence."
+      },
+      {
+        "start": 472.5,
+        "duration": 3.6,
+        "text": "So learning is good, but nothing beats building something real."
+      },
+      {
+        "start": 476.6,
+        "duration": 4.8,
+        "text": "So with this skills, you open the door to high impact roles like data engineer,"
+      },
+      {
+        "start": 481.4,
+        "duration": 4.3,
+        "text": "data architect or analytics engineer, all of which play critical roles"
+      },
+      {
+        "start": 485.8,
+        "duration": 2.2,
+        "text": "in turning raw data into actionable insights."
+      },
+      {
+        "start": 488.6,
+        "duration": 3.8,
+        "text": "Data engineers build and maintain data pipelines and infrastructure"
+      },
+      {
+        "start": 492.4,
+        "duration": 2.6,
+        "text": "ensuring data flows reliably across systems."
+      },
+      {
+        "start": 495.4,
+        "duration": 3.6,
+        "text": "Data architects designs the overall structure of the data systems,"
+      },
+      {
+        "start": 499.0,
+        "duration": 4.9,
+        "text": "choosing the right tools and technologies to support scalable performance and governance."
+      },
+      {
+        "start": 504.6,
+        "duration": 5.5,
+        "text": "Analytics engineers risk the gap between engineering and analysis by modeling data"
+      },
+      {
+        "start": 510.1,
+        "duration": 2.6,
+        "text": "and making it ready for business intelligence tools."
+      },
+      {
+        "start": 513.2,
+        "duration": 3.9,
+        "text": "So AWS engineers are in high demand across industries like"
+      },
+      {
+        "start": 517.1,
+        "duration": 7.0,
+        "text": "FinTech, Healthcare, Retail and Tech, where scalable, secure and intelligent data systems are critical."
+      },
+      {
+        "start": 525.0,
+        "duration": 5.7,
+        "text": "In India, the average annual salary of an AWS data engineer is around 18 lakhs."
+      },
+      {
+        "start": 531.1,
+        "duration": 5.5,
+        "text": "Whereas in the United States, it is about $123,000 per year."
+      },
+      {
+        "start": 536.6,
+        "duration": 4.6,
+        "text": "The career path is rich with opportunities and if you commit to continuous learning"
+      },
+      {
+        "start": 541.3,
+        "duration": 5.8,
+        "text": "and hands-on building, you will be in strong position to grow in a weight and lead in a data driven"
+      },
+      {
+        "start": 547.0,
+        "duration": 4.6,
+        "text": "future. So there you have it, your AWS data engineering roadmap."
+      },
+      {
+        "start": 552.2,
+        "duration": 4.9,
+        "text": "So if you enjoy listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 557.1,
+        "duration": 3.4,
+        "text": "on any of your doubts and queries we will reply to them a few years."
+      },
+      {
+        "start": 561.0,
+        "duration": 4.0,
+        "text": "And do look up for more videos and playlist and subscribe to"
+      },
+      {
+        "start": 565.0,
+        "duration": 5.6,
+        "text": "Adurika's YouTube channel to learn more. Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Imagine you're streaming your favorite show on Netflix. Behind the scenes, massive volumes of data are being collected, transformed and optimized in real time so you get the best recommendation in a blink. That's the power of data engineering. And guess what? Much of this magic today happens on the cloud, specifically on AWS. If you have ever thought about becoming AWS Data Engineer or wondered where to start, this video is your ultimate roadmap. So today, we are diving deep into what it takes to become an AWS Data Engineer from skills and tools to certifications. Data engineering is the backbone of modern tech, powering real-time analytics, AI models and personalized experience across industries. AWS serves as the foundation of modern data engineering, trusted by the world's leading organizations to deliver scalable, secure and high performance data solutions. The demand for skilled AWS Data Engineers has never been higher and this roadmap will help you break into the field confidently. So before we get started, make sure to like, share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Also, if you're looking to advance your data engineering career, then check out Idureka's AWS certified Data Engineer Associate Training. This course is aligned with the latest DEA C1 certification exam and covers critical skills such as setting up schedule loss, optimizing data processing and managing robust data pipelines. You will get 30 hours of live instructor-led training, work on 5-plus real-world industry use cases and gain hands-on experience through 20-plus demos and cash run projects. Plus, the course includes assignments and knowledge checks to reinforce your learning and get your fully certified grading. So before you even start with AWS, you need to build strong foundational skills. So start with Python and SQL. Python for scripting data pipelines and SQL for querying massive data sets. Next, learn data modeling by understanding how to structure data using ER diagrams, normalization and denomalization. This knowledge helps in building efficient databases. Then don't ignore Git. It is essential for version control and collaboration particularly in team environments. And finally, give basic Linux skills like navigating file systems, writing shell scripts and managing permissions will go a long way when working on EC2 or EMR. Now that you have got your base ready, now it's time to move into the cloud. So now understanding AWS course services. So storage is your first stop. AWS S3, which is simple storage service, is the go to for storing data of any type such as images, logs, structure data sets, etc. It's a highly durable, scalable object storage service that can handle everything from raw files to big data lake architectures. Compute options like EC2, which stands for elastic compute cloud and Lambda, let you run code, automate task and scale data processing on demand. EC2 provides flexible virtual machines to run custom applications or scripts. While Lambda is a serverless compute service that executes code in response to events and no server management required. Then comes databases. Use Amazon RDS, which is relational database service for traditional relational databases like Post-Qual SQL and MySQL. It's fully managed handling backups updates and scalable. For no SQL use cases, Dynamo DP offers a fast serverless key value and document database design for high performance applications. And for large scale analytics, meet Amazon Redshift. AWS powerful data warehousing solution that enables you to run complex SQL queries across petabytes of structured data, making it ideal for BI and reporting workloads. So once you know where and how your data is stored, the next step is to move it efficiently. Next, moving on to data injections and processing tools. ETL, which stands for extract, transform and load, is the core process of gathering data from multiple sources, transforming it and loading it into storage for analysis. AWS view is the serverless ETL tool that automates schema discovery, code generation and workflow orchestration. For real time data, Amazon Kinesz enables high throughput streaming with tools like data streams for capture and firehose for delivery to storage like S3 or Redshift. Next, Amazon EMR allows large scale processing using distributed frameworks like Apache Spark and Hadoop. Together, this tools enables scalable, efficient data engineering on AWS. But even the best pipelines need to be orchestrated smoothly. So now let us move on to orchestration and workflow management. So AWS step functions, let you chain tasks into serverless workflows, making it easy to coordinate services like Lambda, EC2, or GU in a defined sequence. So for more complex and customizable data workflows, use Apache Airflow through AWS MWA, which is managed workflows for Apache Airflow. Airflow is an open source platform that allows you to define workflows as code, complete with scheduling task dependencies and retreat logic. MWAA provides a fully managed version, reducing operational overhead while giving you full control over complex pipeline orchestration, perfect for scenarios well timing, order of execution and conditional branching matter. And while your workflows run, you will need visibility and control over them. So for that, let us move on to monitoring and security. Use Amazon Cloud was to monitor your entire data engineering workflow. It collects logs, tracks performance metric, and helps you set up alerts when something goes wrong, like a failed ETL jobs or a spike in processing time. So this ensures you catch issues early and keep your pipelines healthy. Control access using IA Young, which is identity and access management policies, which let your grant precise permissions to user, roles and services, ensuring the principles of least privilege is followed for better security and compliance. And when managing data at scale, especially in data lake setup, AWS Lake Formation helps you define, enforce and audit access controls across all your data in S3. Now that you are building with AWS, but how can you demonstrate your skills? So now let us move ahead with certification and learning part. You can start with a new AWS certified data engineer associate. It covers everything from data ingestions and storage to security and visualization. Prep using AWS skill builder, white papers and Mochax sounds. And if you want to go deeper, then the data analytics specialty certification is for advanced data engineers working with big data tools like Kinesis and Redshift. Also, AWS data engineering certification course equips you with hands-on skills in tools like S3, Redshift, Blue and Kinesis, all essential for building real world data pipelines on AWS. You will learn to ingest process and manage data at scale with life projects and case studies designed to make your job ready. And by the end, you will be ready to build and manage robot's data workflows on AWS with confidence. So learning is good, but nothing beats building something real. So with this skills, you open the door to high impact roles like data engineer, data architect or analytics engineer, all of which play critical roles in turning raw data into actionable insights. Data engineers build and maintain data pipelines and infrastructure ensuring data flows reliably across systems. Data architects designs the overall structure of the data systems, choosing the right tools and technologies to support scalable performance and governance. Analytics engineers risk the gap between engineering and analysis by modeling data and making it ready for business intelligence tools. So AWS engineers are in high demand across industries like FinTech, Healthcare, Retail and Tech, where scalable, secure and intelligent data systems are critical. In India, the average annual salary of an AWS data engineer is around 18 lakhs. Whereas in the United States, it is about $123,000 per year. The career path is rich with opportunities and if you commit to continuous learning and hands-on building, you will be in strong position to grow in a weight and lead in a data driven future. So there you have it, your AWS data engineering roadmap. So if you enjoy listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a few years. And do look up for more videos and playlist and subscribe to Adurika's YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

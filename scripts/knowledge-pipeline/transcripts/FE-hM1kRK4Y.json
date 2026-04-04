@@ -1,0 +1,1859 @@
+{
+  "video_id": "FE-hM1kRK4Y",
+  "video_title": "Why Laplace transforms are so useful",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1385.0,
+  "view_count": 676779,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.5,
+        "text": "I want to show you this simple simulation that I put together that has a mass on a spring,"
+      },
+      {
+        "start": 4.5,
+        "duration": 4.7,
+        "text": "but it's being influenced by an external force that oscillates back and forth."
+      },
+      {
+        "start": 9.2,
+        "duration": 4.0,
+        "text": "Now if there was no external force and you pull out this mass and you just let it go,"
+      },
+      {
+        "start": 13.2,
+        "duration": 4.4,
+        "text": "the spring has some kind of natural frequency that it wants to oscillate at."
+      },
+      {
+        "start": 17.6,
+        "duration": 4.2,
+        "text": "But here when I'm adding that external force like a wind blowing back and forth, it"
+      },
+      {
+        "start": 21.8,
+        "duration": 3.4,
+        "text": "oscillates at a distinct unrelated frequency."
+      },
+      {
+        "start": 25.1,
+        "duration": 4.7,
+        "text": "What I want you to notice is how in the beginning you get this very irregular looking behavior."
+      },
+      {
+        "start": 29.8,
+        "duration": 4.4,
+        "text": "It's kind of stronger and then weaker and then stronger again before eventually it settles"
+      },
+      {
+        "start": 34.2,
+        "duration": 1.6,
+        "text": "into a rhythm."
+      },
+      {
+        "start": 35.8,
+        "duration": 2.0,
+        "text": "What specifically is going on there?"
+      },
+      {
+        "start": 37.8,
+        "duration": 5.6,
+        "text": "How could you mathematically analyze what exactly this weird wibbly startup trajectory is, and"
+      },
+      {
+        "start": 43.4,
+        "duration": 3.4,
+        "text": "could you predict how long it takes before the system hits its stride?"
+      },
+      {
+        "start": 46.8,
+        "duration": 3.9,
+        "text": "And when it does hit that stride, could you predict exactly how big this wings back"
+      },
+      {
+        "start": 50.7,
+        "duration": 2.0,
+        "text": "and forth are?"
+      },
+      {
+        "start": 52.7,
+        "duration": 4.3,
+        "text": "One of the most powerful tools for studying systems like this and many many others is"
+      },
+      {
+        "start": 57.0,
+        "duration": 1.6,
+        "text": "the Laplace transform."
+      },
+      {
+        "start": 58.6,
+        "duration": 4.6,
+        "text": "And today I want to show you exactly how it looks to use this tool to study differential"
+      },
+      {
+        "start": 63.2,
+        "duration": 3.5,
+        "text": "equations and analyze dynamic systems."
+      },
+      {
+        "start": 66.6,
+        "duration": 4.3,
+        "text": "For context, this is the third chapter in a sequence all about this Laplace transform"
+      },
+      {
+        "start": 70.9,
+        "duration": 1.4,
+        "text": "and is a very quick recap."
+      },
+      {
+        "start": 72.3,
+        "duration": 4.4,
+        "text": "In the first chapter, you and I became acquainted with functions that look like e to the s times"
+      },
+      {
+        "start": 76.7,
+        "duration": 4.6,
+        "text": "t where s is a complex number and the output of these functions kind of spirals through"
+      },
+      {
+        "start": 81.3,
+        "duration": 1.5,
+        "text": "the complex plane."
+      },
+      {
+        "start": 82.8,
+        "duration": 4.5,
+        "text": "The key concept you have to have in your mind is what engineers call the s plane, which"
+      },
+      {
+        "start": 87.6,
+        "duration": 5.4,
+        "text": "is the complex plane representing all possible values of this term s in the exponent."
+      },
+      {
+        "start": 93.1,
+        "duration": 5.0,
+        "text": "The idea is to think of each point of the plane as encoding the entire function e to the"
+      },
+      {
+        "start": 98.1,
+        "duration": 1.4,
+        "text": "s times t."
+      },
+      {
+        "start": 99.4,
+        "duration": 5.4,
+        "text": "And the primary takeaway is that bigger imaginary values of s correspond to functions with more"
+      },
+      {
+        "start": 104.8,
+        "duration": 6.6,
+        "text": "oscillation than negative real parts reflect decay and positive real parts reflect growth."
+      },
+      {
+        "start": 111.4,
+        "duration": 4.4,
+        "text": "The reason we care is that many functions in nature can be broken down into exponential"
+      },
+      {
+        "start": 115.8,
+        "duration": 1.0,
+        "text": "pieces."
+      },
+      {
+        "start": 116.8,
+        "duration": 4.1,
+        "text": "So what we want is a machine that exposes how that breakdown looks."
+      },
+      {
+        "start": 120.9,
+        "duration": 4.2,
+        "text": "This is the key motivation for what Laplace transforms even are and we unpacked that in"
+      },
+      {
+        "start": 125.1,
+        "duration": 2.1,
+        "text": "some detail through the last chapter."
+      },
+      {
+        "start": 127.2,
+        "duration": 3.9,
+        "text": "Again, in the spirit of a quick recap, the rough way this transform looks is that it takes"
+      },
+      {
+        "start": 131.1,
+        "duration": 5.5,
+        "text": "a function of time and translates it into a new language, turning it into a new function"
+      },
+      {
+        "start": 136.6,
+        "duration": 3.0,
+        "text": "whose input is this complex number s."
+      },
+      {
+        "start": 139.6,
+        "duration": 5.1,
+        "text": "The key conclusion from last time is that if your function really can be broken into exponential"
+      },
+      {
+        "start": 144.6,
+        "duration": 7.3,
+        "text": "pieces, then when you plot this new transformed version over the s plane, pulls in that plot"
+      },
+      {
+        "start": 152.0,
+        "duration": 6.0,
+        "text": "correspond to the exponential pieces hiding inside the original function."
+      },
+      {
+        "start": 158.0,
+        "duration": 3.9,
+        "text": "Symbolically, this amounts to two key properties that I want you to remember."
+      },
+      {
+        "start": 161.9,
+        "duration": 5.2,
+        "text": "Number one, if you pump in an exponential function, something like e to the a times t, it"
+      },
+      {
+        "start": 167.1,
+        "duration": 5.4,
+        "text": "transforms into one divided by s minus a, an expression which you should see in your"
+      },
+      {
+        "start": 172.5,
+        "duration": 6.4,
+        "text": "mind's eye as a function over the s plane with a pull above the value a."
+      },
+      {
+        "start": 178.9,
+        "duration": 2.8,
+        "text": "Number two, the transform is linear."
+      },
+      {
+        "start": 181.7,
+        "duration": 4.6,
+        "text": "What this means is if you have a scaled sum of functions and then you transform them,"
+      },
+      {
+        "start": 186.2,
+        "duration": 4.9,
+        "text": "it's the same as applying the transform to each individual function and taking that same"
+      },
+      {
+        "start": 191.2,
+        "duration": 2.0,
+        "text": "scaled sum of the results."
+      },
+      {
+        "start": 193.1,
+        "duration": 4.7,
+        "text": "So for example, if your function going in really does look like a combination of exponential"
+      },
+      {
+        "start": 197.8,
+        "duration": 4.4,
+        "text": "terms, then what comes out looks like this sum of fractions, which you should read in"
+      },
+      {
+        "start": 202.3,
+        "duration": 3.5,
+        "text": "your mind as an expression with multiple different poles."
+      },
+      {
+        "start": 205.8,
+        "duration": 4.3,
+        "text": "Each pole reflects one of those exponential pieces."
+      },
+      {
+        "start": 210.1,
+        "duration": 4.3,
+        "text": "These two properties alone already give you a glimpse of why this is a helpful tool"
+      },
+      {
+        "start": 214.4,
+        "duration": 4.0,
+        "text": "for getting a qualitative sense for the dynamics of some situation."
+      },
+      {
+        "start": 218.4,
+        "duration": 4.0,
+        "text": "If you have some system evolving over time and with techniques I'll show you shortly,"
+      },
+      {
+        "start": 222.4,
+        "duration": 2.5,
+        "text": "you're able to find its Laplace transform."
+      },
+      {
+        "start": 224.9,
+        "duration": 4.3,
+        "text": "And when you see poles in this transform with imaginary values, that tells you, hey,"
+      },
+      {
+        "start": 229.2,
+        "duration": 1.7,
+        "text": "there's some kind of oscillation."
+      },
+      {
+        "start": 231.0,
+        "duration": 4.8,
+        "text": "If those poles have negative real values, that indicates a tendency to decay toward zero,"
+      },
+      {
+        "start": 235.7,
+        "duration": 5.3,
+        "text": "but any poles with a positive real part would indicate instability, a tendency to explode"
+      },
+      {
+        "start": 241.0,
+        "duration": 1.8,
+        "text": "away from zero."
+      },
+      {
+        "start": 242.8,
+        "duration": 3.8,
+        "text": "Often when you're studying physics, you don't know immediately what function describes"
+      },
+      {
+        "start": 246.6,
+        "duration": 4.8,
+        "text": "a dynamic system, but you do know a differential equation describing it."
+      },
+      {
+        "start": 251.4,
+        "duration": 5.0,
+        "text": "What's neat is that there's a way to go directly from such a differential equation to the Laplace"
+      },
+      {
+        "start": 256.4,
+        "duration": 2.0,
+        "text": "transform of its solution."
+      },
+      {
+        "start": 258.4,
+        "duration": 4.4,
+        "text": "And this is useful both as an intermediate step to finding an exact solution you can circle"
+      },
+      {
+        "start": 262.8,
+        "duration": 5.2,
+        "text": "on your page, but also equally importantly, it's a meaningful representation of the system"
+      },
+      {
+        "start": 268.0,
+        "duration": 2.0,
+        "text": "in its own right."
+      },
+      {
+        "start": 270.0,
+        "duration": 5.0,
+        "text": "The ability to do this is going to rely on a third key property that is worth remembering,"
+      },
+      {
+        "start": 275.1,
+        "duration": 5.5,
+        "text": "one that explains how exactly Laplace transforms can convert differential equations into algebra,"
+      },
+      {
+        "start": 280.6,
+        "duration": 2.0,
+        "text": "and making them easier to solve."
+      },
+      {
+        "start": 282.6,
+        "duration": 1.0,
+        "text": "Here's how it looks."
+      },
+      {
+        "start": 283.6,
+        "duration": 4.9,
+        "text": "If you take the derivative of some function, little f of t, with respect to time, and then"
+      },
+      {
+        "start": 288.5,
+        "duration": 5.5,
+        "text": "you take a Laplace transform of that derivative, the effect is the same as if you had first"
+      },
+      {
+        "start": 294.0,
+        "duration": 6.4,
+        "text": "applied the transform to the original function, and then multiplied that result by s, at least"
+      },
+      {
+        "start": 300.4,
+        "duration": 1.0,
+        "text": "almost."
+      },
+      {
+        "start": 301.4,
+        "duration": 5.2,
+        "text": "There's also this additional term where you subtract off the initial condition, subtracting"
+      },
+      {
+        "start": 306.6,
+        "duration": 5.1,
+        "text": "the value of your original function, little f, at the time t equals zero."
+      },
+      {
+        "start": 311.7,
+        "duration": 6.4,
+        "text": "So in other words, the transform turns differentiation in the time domain into multiplication over"
+      },
+      {
+        "start": 318.2,
+        "duration": 1.4,
+        "text": "in the s domain."
+      },
+      {
+        "start": 319.6,
+        "duration": 5.3,
+        "text": "Now this should feel very reminiscent of the fact that for exponential functions, differentiation"
+      },
+      {
+        "start": 324.8,
+        "duration": 5.6,
+        "text": "in time is the same as multiplication by s, and it's no coincidence, ultimately the"
+      },
+      {
+        "start": 330.4,
+        "duration": 2.4,
+        "text": "underlying reason is the same."
+      },
+      {
+        "start": 332.8,
+        "duration": 3.7,
+        "text": "Now at first glance, when you look at this rule, that little minus f of zero term might"
+      },
+      {
+        "start": 336.6,
+        "duration": 4.1,
+        "text": "seem like kind of an annoying quirk to an otherwise very elegant equation."
+      },
+      {
+        "start": 340.7,
+        "duration": 2.1,
+        "text": "But really it's a feature, not a bug."
+      },
+      {
+        "start": 342.8,
+        "duration": 4.2,
+        "text": "As you apply this to differential equations, this little quirk means you have a built-in"
+      },
+      {
+        "start": 347.0,
+        "duration": 2.6,
+        "text": "way to account for initial conditions."
+      },
+      {
+        "start": 349.6,
+        "duration": 3.3,
+        "text": "Now I can hear you asking, why is this property true?"
+      },
+      {
+        "start": 352.9,
+        "duration": 1.2,
+        "text": "Where does it come from?"
+      },
+      {
+        "start": 354.1,
+        "duration": 4.8,
+        "text": "How exactly is this connected to the idea of differentiating an exponential?"
+      },
+      {
+        "start": 358.9,
+        "duration": 3.7,
+        "text": "And where does that minus f of zero term come from in the first place?"
+      },
+      {
+        "start": 362.6,
+        "duration": 1.8,
+        "text": "I will, of course, explain this."
+      },
+      {
+        "start": 364.4,
+        "duration": 2.4,
+        "text": "In fact, I can think of three ways to explain it."
+      },
+      {
+        "start": 366.8,
+        "duration": 4.5,
+        "text": "But let's postpone those for just a minute and instead dive into how you actually use this"
+      },
+      {
+        "start": 371.3,
+        "duration": 1.8,
+        "text": "property in practice."
+      },
+      {
+        "start": 373.1,
+        "duration": 4.1,
+        "text": "The example I want to show starts with the simple harmonic oscillator, which is something"
+      },
+      {
+        "start": 377.2,
+        "duration": 4.5,
+        "text": "you and I studied two chapters ago where you might imagine a mass on a spring."
+      },
+      {
+        "start": 381.7,
+        "duration": 5.3,
+        "text": "As a reminder, one component of the force that acts on that mass pulls it towards a middle"
+      },
+      {
+        "start": 387.0,
+        "duration": 4.8,
+        "text": "position with a strength that's proportional to its distance away from that middle."
+      },
+      {
+        "start": 391.8,
+        "duration": 2.4,
+        "text": "We write that as negative k times x."
+      },
+      {
+        "start": 394.2,
+        "duration": 5.0,
+        "text": "And it's also common to include a damping force, which acts by slowing down this mass's"
+      },
+      {
+        "start": 399.3,
+        "duration": 5.7,
+        "text": "movement with a strength proportional to its velocity, again, using some negative proportionality"
+      },
+      {
+        "start": 404.9,
+        "duration": 1.3,
+        "text": "constant."
+      },
+      {
+        "start": 406.2,
+        "duration": 3.8,
+        "text": "And then the algebra always ends up looking very nice if we move all of these terms to just"
+      },
+      {
+        "start": 410.0,
+        "duration": 2.4,
+        "text": "one side of the equation, like this."
+      },
+      {
+        "start": 412.5,
+        "duration": 4.2,
+        "text": "With no further modification, this right here is a very friendly linear equation."
+      },
+      {
+        "start": 416.7,
+        "duration": 5.4,
+        "text": "We talked all about how to solve it simply by substituting in e to the st, which, depending"
+      },
+      {
+        "start": 422.2,
+        "duration": 5.2,
+        "text": "on your perspective, is either a frustratingly unmotivated guess, or that's just the"
+      },
+      {
+        "start": 427.4,
+        "duration": 4.3,
+        "text": "established procedure you do once you've learned the fundamental fact that linear equations"
+      },
+      {
+        "start": 431.7,
+        "duration": 3.8,
+        "text": "like this always have an exponential solution."
+      },
+      {
+        "start": 435.5,
+        "duration": 4.1,
+        "text": "That's all previous material, but this time we're going to imagine there is a third force"
+      },
+      {
+        "start": 439.6,
+        "duration": 5.3,
+        "text": "acting on the mass, some kind of external force, which in our example will oscillate back"
+      },
+      {
+        "start": 444.9,
+        "duration": 5.1,
+        "text": "and forth according to a cosine function, like a wind with periodic gusts to the left"
+      },
+      {
+        "start": 450.0,
+        "duration": 1.4,
+        "text": "and to the right."
+      },
+      {
+        "start": 451.4,
+        "duration": 4.5,
+        "text": "Importantly, the frequency of this external force will generally have nothing to do with the"
+      },
+      {
+        "start": 456.0,
+        "duration": 2.8,
+        "text": "natural resonant frequency for the spring."
+      },
+      {
+        "start": 458.8,
+        "duration": 3.6,
+        "text": "And this is not an arbitrary example that came up for us before on this channel when"
+      },
+      {
+        "start": 462.4,
+        "duration": 3.8,
+        "text": "we studied why light slows down in a medium like glass."
+      },
+      {
+        "start": 466.2,
+        "duration": 4.6,
+        "text": "In that context, once we were deep into the video, the relevant oscillator was a little"
+      },
+      {
+        "start": 470.8,
+        "duration": 5.0,
+        "text": "charge inside the material and the external force was an incoming light wave."
+      },
+      {
+        "start": 475.9,
+        "duration": 3.8,
+        "text": "Faced with an equation like this, which is no longer a linear equation, it's more complicated"
+      },
+      {
+        "start": 479.7,
+        "duration": 3.5,
+        "text": "to solve, here's a preview of the general strategy."
+      },
+      {
+        "start": 483.2,
+        "duration": 4.2,
+        "text": "What you do is you take a Laplace transform of all of the terms, and then you can solve"
+      },
+      {
+        "start": 487.4,
+        "duration": 5.5,
+        "text": "that result to reveal the transformed version of the solution, and then from there you can"
+      },
+      {
+        "start": 492.8,
+        "duration": 4.8,
+        "text": "invert the process to recover that solution in our usual language, in the time domain"
+      },
+      {
+        "start": 497.7,
+        "duration": 1.7,
+        "text": "instead of the s domain."
+      },
+      {
+        "start": 499.8,
+        "duration": 3.4,
+        "text": "Okay, that's the high level view, but let's roll up our sleeves and actually step through"
+      },
+      {
+        "start": 503.2,
+        "duration": 2.1,
+        "text": "this piece by piece."
+      },
+      {
+        "start": 505.2,
+        "duration": 4.6,
+        "text": "Following the usual convention, I'm going to write the transform for little x of t as"
+      },
+      {
+        "start": 509.8,
+        "duration": 2.0,
+        "text": "capital x of s."
+      },
+      {
+        "start": 511.8,
+        "duration": 3.9,
+        "text": "And then using the rule that we just talked all about, the transform for its derivative"
+      },
+      {
+        "start": 515.8,
+        "duration": 5.3,
+        "text": "is going to look like s times capital x, all minus an initial condition, which I'm"
+      },
+      {
+        "start": 521.1,
+        "duration": 2.2,
+        "text": "going to write as little x not."
+      },
+      {
+        "start": 523.3,
+        "duration": 2.8,
+        "text": "And then for the second derivative, what should that look like?"
+      },
+      {
+        "start": 526.2,
+        "duration": 3.2,
+        "text": "This is actually a good chance to pause and try it out as an exercise."
+      },
+      {
+        "start": 529.4,
+        "duration": 4.9,
+        "text": "It basically looks like applying that key rule we just talked about, but twice in a row."
+      },
+      {
+        "start": 534.3,
+        "duration": 3.7,
+        "text": "Applying it once, you get that the transform of this second derivative should look like"
+      },
+      {
+        "start": 538.0,
+        "duration": 4.9,
+        "text": "s times the transform of the first derivative, all minus x prime of zero."
+      },
+      {
+        "start": 542.8,
+        "duration": 4.0,
+        "text": "That term is the same as the initial velocity, so I'll write it as v not."
+      },
+      {
+        "start": 546.9,
+        "duration": 4.2,
+        "text": "This is where in the whole procedure, that part of the initial condition is kind of automatically"
+      },
+      {
+        "start": 551.0,
+        "duration": 1.4,
+        "text": "accounted for."
+      },
+      {
+        "start": 552.4,
+        "duration": 4.2,
+        "text": "And from here, you can substitute in the Laplace transform of that derivative as again"
+      },
+      {
+        "start": 556.6,
+        "duration": 4.1,
+        "text": "s times capital x of s, all minus an initial condition."
+      },
+      {
+        "start": 560.8,
+        "duration": 4.2,
+        "text": "We can distribute a couple terms here, substitute it back up in what we had."
+      },
+      {
+        "start": 565.0,
+        "duration": 4.6,
+        "text": "And if we bring along those other constants m, mu, and k for the ride, we get this kind"
+      },
+      {
+        "start": 569.6,
+        "duration": 3.1,
+        "text": "of large, but not wholly unreasonable expression."
+      },
+      {
+        "start": 572.7,
+        "duration": 4.7,
+        "text": "And what I want to draw your attention to are these three terms here, the ones that include"
+      },
+      {
+        "start": 577.4,
+        "duration": 3.1,
+        "text": "a component of capital x of s."
+      },
+      {
+        "start": 580.5,
+        "duration": 4.2,
+        "text": "If we add those together and factor out the whole capital x part, what we're left with"
+      },
+      {
+        "start": 584.7,
+        "duration": 2.8,
+        "text": "is a nice little quadratic polynomial."
+      },
+      {
+        "start": 587.5,
+        "duration": 4.0,
+        "text": "What would be very clean and pretty as if that's all we had, but messing up the elegance"
+      },
+      {
+        "start": 591.5,
+        "duration": 4.0,
+        "text": "is that we have all of these initial condition terms kind of writing along."
+      },
+      {
+        "start": 595.5,
+        "duration": 2.9,
+        "text": "And I say they're messing up the elegance, but again, I want to point out it actually"
+      },
+      {
+        "start": 598.4,
+        "duration": 3.5,
+        "text": "is very nice to have a baked in way to incorporate initial conditions."
+      },
+      {
+        "start": 601.8,
+        "duration": 2.8,
+        "text": "That's not going to be some added step later on."
+      },
+      {
+        "start": 604.6,
+        "duration": 4.6,
+        "text": "Nevertheless, for the sake of a clean initial example, let's assume that both the initial"
+      },
+      {
+        "start": 609.2,
+        "duration": 2.9,
+        "text": "position and the initial velocity are zero."
+      },
+      {
+        "start": 612.2,
+        "duration": 3.6,
+        "text": "So our spring on a mass starts off completely stationary."
+      },
+      {
+        "start": 615.8,
+        "duration": 4.1,
+        "text": "Keep in mind, for a more general solution, you might want to keep these constants around."
+      },
+      {
+        "start": 619.9,
+        "duration": 3.6,
+        "text": "What's nice about ignoring them is that it shines a light on a characteristic pattern"
+      },
+      {
+        "start": 623.5,
+        "duration": 4.8,
+        "text": "of applying Laplace transforms, where this part of our differential equation, the left"
+      },
+      {
+        "start": 628.3,
+        "duration": 4.9,
+        "text": "hand side on the top, basically gets turned into a polynomial that looks like a kind of"
+      },
+      {
+        "start": 633.2,
+        "duration": 5.3,
+        "text": "mirror image of it, one that has all the same constants, and where each higher order derivative,"
+      },
+      {
+        "start": 638.5,
+        "duration": 5.1,
+        "text": "like that x double prime, turns into some power of s, in this case, s squared."
+      },
+      {
+        "start": 643.6,
+        "duration": 2.6,
+        "text": "That is really the essence of why this tool works."
+      },
+      {
+        "start": 646.3,
+        "duration": 4.2,
+        "text": "Differential expressions turn into polynomials, and polynomials are something we can do algebra"
+      },
+      {
+        "start": 650.5,
+        "duration": 1.0,
+        "text": "with."
+      },
+      {
+        "start": 651.5,
+        "duration": 2.9,
+        "text": "But of course, for this example, what makes it interesting is that we have this other"
+      },
+      {
+        "start": 654.4,
+        "duration": 5.5,
+        "text": "oscillating force on the right hand side, and taking a Laplace transform of a cosine expression"
+      },
+      {
+        "start": 659.9,
+        "duration": 3.6,
+        "text": "is something we talked all about in the previous episode."
+      },
+      {
+        "start": 663.5,
+        "duration": 4.0,
+        "text": "In practice, this is the kind of thing you would either have memorized or look up."
+      },
+      {
+        "start": 667.6,
+        "duration": 3.5,
+        "text": "But if you want to pause, I think this is a good chance for an exercise to take a moment"
+      },
+      {
+        "start": 671.1,
+        "duration": 5.0,
+        "text": "and see if you remember why the transform of a cosine expression should have two different"
+      },
+      {
+        "start": 676.1,
+        "duration": 6.1,
+        "text": "poles, in this case, one pole at omega i, and the other pole at negative omega i, and"
+      },
+      {
+        "start": 682.2,
+        "duration": 3.8,
+        "text": "take a moment to quickly gut check that that lines up with the expression you're looking"
+      },
+      {
+        "start": 686.0,
+        "duration": 3.9,
+        "text": "at here, with this denominator s squared plus omega squared."
+      },
+      {
+        "start": 689.9,
+        "duration": 3.9,
+        "text": "What I really want to pop into your mind's eye when you see that in the denominator is"
+      },
+      {
+        "start": 693.8,
+        "duration": 6.0,
+        "text": "the idea of poles at omega i and omega negative i, and with a nice intuition of the s plane,"
+      },
+      {
+        "start": 699.8,
+        "duration": 4.7,
+        "text": "that should feel in your bones like oscillation with a frequency of omega."
+      },
+      {
+        "start": 704.5,
+        "duration": 3.7,
+        "text": "The next step when it comes to just pushing around the symbols on the page is to divide"
+      },
+      {
+        "start": 708.2,
+        "duration": 2.2,
+        "text": "out by this component here."
+      },
+      {
+        "start": 710.4,
+        "duration": 5.4,
+        "text": "And with that, you now have an exact final expression, fully describing, well, not the solution"
+      },
+      {
+        "start": 715.8,
+        "duration": 4.2,
+        "text": "of your system, but the Laplace transform of its solution."
+      },
+      {
+        "start": 720.0,
+        "duration": 4.1,
+        "text": "As I previewed the final step, we'll be to invert the Laplace transform process, revealing"
+      },
+      {
+        "start": 724.1,
+        "duration": 1.8,
+        "text": "the original mystery function."
+      },
+      {
+        "start": 725.9,
+        "duration": 4.3,
+        "text": "But before that, even just at this step, I want you to notice how by seeing this transformed"
+      },
+      {
+        "start": 730.2,
+        "duration": 4.4,
+        "text": "version, you already get a lot of intuition for the dynamics of the system."
+      },
+      {
+        "start": 734.5,
+        "duration": 5.1,
+        "text": "Remember, the key question over in the s domain is where are all the poles?"
+      },
+      {
+        "start": 739.6,
+        "duration": 4.8,
+        "text": "And this expression has a pole wherever its denominator is equal to zero."
+      },
+      {
+        "start": 744.4,
+        "duration": 5.5,
+        "text": "In this example, there are four different values of s that make this denominator zero."
+      },
+      {
+        "start": 749.9,
+        "duration": 3.4,
+        "text": "Two of them come from the roots of this polynomial here."
+      },
+      {
+        "start": 753.3,
+        "duration": 4.3,
+        "text": "The one I described is a mirror image of the harmonic oscillator equation."
+      },
+      {
+        "start": 757.6,
+        "duration": 3.4,
+        "text": "Any of you who watched the previous chapters will remember how this looks."
+      },
+      {
+        "start": 761.0,
+        "duration": 5.8,
+        "text": "It amounts to applying the quadratic formula, and as you tweak the constants k, mu, and m,"
+      },
+      {
+        "start": 766.8,
+        "duration": 4.4,
+        "text": "the roots of that polynomial fall in different places on the s plane."
+      },
+      {
+        "start": 771.2,
+        "duration": 4.5,
+        "text": "But generally, they have a negative real part, and, assuming the damping coefficient is"
+      },
+      {
+        "start": 775.7,
+        "duration": 2.9,
+        "text": "not too big, they have an imaginary part."
+      },
+      {
+        "start": 778.6,
+        "duration": 3.9,
+        "text": "And when you see points on the s plane like that, what should pop into your mind's"
+      },
+      {
+        "start": 782.5,
+        "duration": 3.6,
+        "text": "eye is the notion of oscillation with some kind of decay."
+      },
+      {
+        "start": 786.1,
+        "duration": 5.0,
+        "text": "In other words, even when you add this external force to the oscillator, the solution of the"
+      },
+      {
+        "start": 791.1,
+        "duration": 5.0,
+        "text": "unforced oscillator, what it would do on its own, is still lurking inside."
+      },
+      {
+        "start": 796.1,
+        "duration": 4.2,
+        "text": "Hidden somewhere in there is the oscillation matching the natural resonant frequency of"
+      },
+      {
+        "start": 800.3,
+        "duration": 1.5,
+        "text": "the spring system."
+      },
+      {
+        "start": 801.8,
+        "duration": 5.0,
+        "text": "The other poles of our transformed function come from the roots of this part right here,"
+      },
+      {
+        "start": 806.8,
+        "duration": 6.2,
+        "text": "which are omega i and negative omega i, and those correspond to the cosine external force."
+      },
+      {
+        "start": 813.1,
+        "duration": 4.6,
+        "text": "In other words, another component of the final dynamics, really the dominant component in"
+      },
+      {
+        "start": 817.7,
+        "duration": 5.9,
+        "text": "this case, is a tendency to oscillate in sync with that external force."
+      },
+      {
+        "start": 823.6,
+        "duration": 1.5,
+        "text": "And this should feel intuitive."
+      },
+      {
+        "start": 825.1,
+        "duration": 4.0,
+        "text": "If you go and you push a kid on a swing, but with a frequency that doesn't necessarily"
+      },
+      {
+        "start": 829.1,
+        "duration": 4.1,
+        "text": "match the natural resonant frequency of this swing, what ultimately happens to their"
+      },
+      {
+        "start": 833.2,
+        "duration": 5.0,
+        "text": "motion is that they also oscillate in a way that matches your frequency, not the natural"
+      },
+      {
+        "start": 838.2,
+        "duration": 1.8,
+        "text": "one of the spring."
+      },
+      {
+        "start": 839.9,
+        "duration": 4.8,
+        "text": "Here, this might all make a little bit more sense if I return back to that simulation"
+      },
+      {
+        "start": 844.7,
+        "duration": 4.0,
+        "text": "that I opened with, that has a graph on the top showing the position of this mass on a"
+      },
+      {
+        "start": 848.7,
+        "duration": 1.5,
+        "text": "spring over time."
+      },
+      {
+        "start": 850.2,
+        "duration": 4.2,
+        "text": "Again, notice how that graph has this weird initial startup period where it's sort of"
+      },
+      {
+        "start": 854.5,
+        "duration": 4.5,
+        "text": "wibbling about finding it stride, but eventually it does fall into that rhythm and follow"
+      },
+      {
+        "start": 859.0,
+        "duration": 4.6,
+        "text": "this consistent sine wave pattern synced up with the external force."
+      },
+      {
+        "start": 863.7,
+        "duration": 4.4,
+        "text": "What's going on here is that the solution can be thought of as a sum of two different"
+      },
+      {
+        "start": 868.0,
+        "duration": 1.3,
+        "text": "components."
+      },
+      {
+        "start": 869.4,
+        "duration": 5.4,
+        "text": "One component corresponds to those poles on the left half of the s plane, and it matches"
+      },
+      {
+        "start": 874.8,
+        "duration": 7.0,
+        "text": "a solution to the unforced equation, what the spring would do without any external influence."
+      },
+      {
+        "start": 881.8,
+        "duration": 5.0,
+        "text": "The other component corresponds to the two poles of the Laplace transform on the imaginary"
+      },
+      {
+        "start": 886.8,
+        "duration": 5.2,
+        "text": "axis, meaning it's pure oscillation with no growth or decay, and it's simply a cosine"
+      },
+      {
+        "start": 892.0,
+        "duration": 3.5,
+        "text": "wave matching the rhythm of that external force."
+      },
+      {
+        "start": 895.5,
+        "duration": 4.8,
+        "text": "From this perspective, you can recognize how that initial period of wibbling about corresponds"
+      },
+      {
+        "start": 900.3,
+        "duration": 3.2,
+        "text": "to the time when that first component is still relevant."
+      },
+      {
+        "start": 903.5,
+        "duration": 4.5,
+        "text": "You have these two distinct frequencies competing with each other, and that first one has not"
+      },
+      {
+        "start": 908.0,
+        "duration": 6.4,
+        "text": "yet decayed away into obscurity, but eventually it does leaving behind only the pure cosine."
+      },
+      {
+        "start": 915.1,
+        "duration": 4.1,
+        "text": "Okay, okay, okay, I hear some of you saying, that's all well and good, but what is the"
+      },
+      {
+        "start": 919.2,
+        "duration": 1.0,
+        "text": "actual solution?"
+      },
+      {
+        "start": 920.2,
+        "duration": 4.5,
+        "text": "I have an exam tomorrow, and I need to circle some expression at the bottom of my paper."
+      },
+      {
+        "start": 924.7,
+        "duration": 5.4,
+        "text": "Well, if you do want an exact analytic solution, this next part is not exactly fun, but it"
+      },
+      {
+        "start": 930.1,
+        "duration": 1.9,
+        "text": "is straightforward."
+      },
+      {
+        "start": 932.0,
+        "duration": 5.0,
+        "text": "If you have a fraction like this one that we found, and you know the roots of its denominator,"
+      },
+      {
+        "start": 937.0,
+        "duration": 5.1,
+        "text": "like the four roots that we just discussed, you can break it up as a sum of four fractions"
+      },
+      {
+        "start": 942.1,
+        "duration": 4.4,
+        "text": "where the denominator of each one looks like S minus one of those roots."
+      },
+      {
+        "start": 946.5,
+        "duration": 4.5,
+        "text": "The work you have to do goes into solving for these constants up in the numerator."
+      },
+      {
+        "start": 951.0,
+        "duration": 2.8,
+        "text": "There's a process for it, it's called partial fraction decomposition."
+      },
+      {
+        "start": 953.8,
+        "duration": 3.2,
+        "text": "I'm not going to walk through the details, I don't think you want me to walk through"
+      },
+      {
+        "start": 957.0,
+        "duration": 4.4,
+        "text": "the details, but I'll leave up the key idea as a little on screen note."
+      },
+      {
+        "start": 961.4,
+        "duration": 4.7,
+        "text": "Once you do solve for those constants, because you know that an exponential term transforms"
+      },
+      {
+        "start": 966.1,
+        "duration": 4.6,
+        "text": "into a simple fraction, like the ones we're looking at, inverting the process amounts to"
+      },
+      {
+        "start": 970.7,
+        "duration": 5.1,
+        "text": "inverting that one key rule, you turn each of these fractions into the appropriate exponential"
+      },
+      {
+        "start": 975.8,
+        "duration": 1.0,
+        "text": "term."
+      },
+      {
+        "start": 976.8,
+        "duration": 4.3,
+        "text": "So the locations of each pole, those roots of the denominator, correspond to the values"
+      },
+      {
+        "start": 981.1,
+        "duration": 3.3,
+        "text": "in the exponents, sitting in front of the time t."
+      },
+      {
+        "start": 984.4,
+        "duration": 4.4,
+        "text": "And those constants that you have to put in the work to solve for remain as the constants"
+      },
+      {
+        "start": 988.8,
+        "duration": 2.9,
+        "text": "in front of each of these exponentials."
+      },
+      {
+        "start": 991.7,
+        "duration": 3.8,
+        "text": "If you're the kind of person who likes homework and enjoys digging into the formulas,"
+      },
+      {
+        "start": 995.5,
+        "duration": 3.9,
+        "text": "and you choose to take on the challenge of solving for those constants, there's one"
+      },
+      {
+        "start": 999.4,
+        "duration": 3.7,
+        "text": "very interesting conclusion of that exercise I want you to focus on."
+      },
+      {
+        "start": 1003.1,
+        "duration": 5.5,
+        "text": "Look at the first two terms, corresponding to the poles omega i and negative omega i."
+      },
+      {
+        "start": 1008.6,
+        "duration": 3.8,
+        "text": "When you solve for the two relevant constants, the expressions you get are not quite the"
+      },
+      {
+        "start": 1012.4,
+        "duration": 5.7,
+        "text": "same, but if mu is very close to zero, each one is approximately this shared expression"
+      },
+      {
+        "start": 1018.1,
+        "duration": 1.8,
+        "text": "that we can factor out."
+      },
+      {
+        "start": 1019.9,
+        "duration": 4.9,
+        "text": "Now you know that two imaginary exponentials like this combine to make a cosine."
+      },
+      {
+        "start": 1024.8,
+        "duration": 4.2,
+        "text": "So this part you're looking at is that final steady state cosine rhythm that the mass"
+      },
+      {
+        "start": 1029.0,
+        "duration": 1.8,
+        "text": "eventually falls into."
+      },
+      {
+        "start": 1030.9,
+        "duration": 4.7,
+        "text": "And inside that big expression that you solve for, the exercise I want to leave you with"
+      },
+      {
+        "start": 1035.6,
+        "duration": 5.7,
+        "text": "as homework is to think deeply about how the amplitude of this final expression depends"
+      },
+      {
+        "start": 1041.2,
+        "duration": 5.3,
+        "text": "on the difference between the resonant frequency of the spring and the frequency of that external"
+      },
+      {
+        "start": 1046.6,
+        "duration": 1.1,
+        "text": "force."
+      },
+      {
+        "start": 1047.7,
+        "duration": 5.0,
+        "text": "In particular, what happens as both of those frequencies get closer together?"
+      },
+      {
+        "start": 1052.7,
+        "duration": 3.8,
+        "text": "And how might this be relevant to anyone wishing to build a bridge that they don't want"
+      },
+      {
+        "start": 1056.5,
+        "duration": 2.9,
+        "text": "to wobble into ruin?"
+      },
+      {
+        "start": 1059.4,
+        "duration": 3.8,
+        "text": "Stepping out from the trees to look over the forest, you see what I mean about how Laplace"
+      },
+      {
+        "start": 1063.2,
+        "duration": 5.3,
+        "text": "transforms can turn a differential equation into algebra and how it's all rooted in this"
+      },
+      {
+        "start": 1068.5,
+        "duration": 5.6,
+        "text": "third key property where a derivative in time turns into multiplication by s."
+      },
+      {
+        "start": 1074.1,
+        "duration": 4.9,
+        "text": "So naturally the burning question is why is this property true in the first place?"
+      },
+      {
+        "start": 1079.0,
+        "duration": 3.2,
+        "text": "And like I said, I can think of three different ways to explain it."
+      },
+      {
+        "start": 1082.1,
+        "duration": 5.0,
+        "text": "One that's elementary but limited, one that's general but a bit opaque, and then there's"
+      },
+      {
+        "start": 1087.1,
+        "duration": 3.7,
+        "text": "my favorite, which requires a little added theory to describe."
+      },
+      {
+        "start": 1090.8,
+        "duration": 2.8,
+        "text": "The first one is actually not a complete explanation."
+      },
+      {
+        "start": 1093.5,
+        "duration": 5.0,
+        "text": "The idea is that anytime you see a new formula in math, it's never a bad idea to just try"
+      },
+      {
+        "start": 1098.6,
+        "duration": 2.3,
+        "text": "it out on an example you know well."
+      },
+      {
+        "start": 1100.9,
+        "duration": 2.2,
+        "text": "That way you build a little intuition."
+      },
+      {
+        "start": 1103.0,
+        "duration": 3.0,
+        "text": "In this case, what's an example that you and I know very well?"
+      },
+      {
+        "start": 1106.0,
+        "duration": 5.1,
+        "text": "Well, we have emphasized to death the fact that if you pump in an exponential function,"
+      },
+      {
+        "start": 1111.2,
+        "duration": 5.0,
+        "text": "something like E to the A T, then its Laplace transform looks like one divided by s minus"
+      },
+      {
+        "start": 1116.1,
+        "duration": 1.0,
+        "text": "A."
+      },
+      {
+        "start": 1117.1,
+        "duration": 2.3,
+        "text": "So let's see what happens for this example."
+      },
+      {
+        "start": 1119.4,
+        "duration": 2.8,
+        "text": "You know how to take the derivative of an exponential like this?"
+      },
+      {
+        "start": 1122.2,
+        "duration": 3.5,
+        "text": "It's delightfully simple, you just multiply by that constant A."
+      },
+      {
+        "start": 1125.7,
+        "duration": 5.1,
+        "text": "And then because of linearity, this means the Laplace transform also just picks up that"
+      },
+      {
+        "start": 1130.8,
+        "duration": 1.9,
+        "text": "added factor of A."
+      },
+      {
+        "start": 1132.7,
+        "duration": 2.4,
+        "text": "And at first, this actually seems wrong."
+      },
+      {
+        "start": 1135.1,
+        "duration": 3.0,
+        "text": "It seems inconsistent with the desired conclusion."
+      },
+      {
+        "start": 1138.1,
+        "duration": 4.6,
+        "text": "We're not multiplying by s, the input of our new transform function."
+      },
+      {
+        "start": 1142.7,
+        "duration": 4.3,
+        "text": "Instead the thing we're multiplying by is this random constant A that characterizes what"
+      },
+      {
+        "start": 1147.0,
+        "duration": 2.9,
+        "text": "specific exponential we happen to throw in."
+      },
+      {
+        "start": 1149.9,
+        "duration": 3.4,
+        "text": "But this is really just a matter of some gentle algebraic massaging."
+      },
+      {
+        "start": 1153.4,
+        "duration": 5.4,
+        "text": "Notice what happens if I add this fraction, s minus A over s minus A, which is the same"
+      },
+      {
+        "start": 1158.8,
+        "duration": 4.0,
+        "text": "as adding one, so I have to subtract off one to account for it."
+      },
+      {
+        "start": 1162.7,
+        "duration": 4.5,
+        "text": "When you combine these two fractions here, you get some nice cancellation in the numerator,"
+      },
+      {
+        "start": 1167.2,
+        "duration": 2.6,
+        "text": "giving behind this clean factor of s."
+      },
+      {
+        "start": 1169.9,
+        "duration": 3.7,
+        "text": "And you'll notice we're now subtracting off something from the whole expression."
+      },
+      {
+        "start": 1173.6,
+        "duration": 3.2,
+        "text": "One, and that happens to be the initial condition."
+      },
+      {
+        "start": 1176.8,
+        "duration": 5.1,
+        "text": "It's what you get if you plug in T equals zero to the original function we pumped in."
+      },
+      {
+        "start": 1181.9,
+        "duration": 3.6,
+        "text": "So in fact, it really is consistent with the desired conclusion."
+      },
+      {
+        "start": 1185.5,
+        "duration": 2.5,
+        "text": "Now of course, this is just one very specific function."
+      },
+      {
+        "start": 1188.0,
+        "duration": 5.9,
+        "text": "This is not a general explanation, but it holds within it the seeds of much more generality."
+      },
+      {
+        "start": 1193.9,
+        "duration": 4.8,
+        "text": "If you like exercises, take a moment to convince yourself that this result is also true for"
+      },
+      {
+        "start": 1198.7,
+        "duration": 3.2,
+        "text": "any combination of exponential functions."
+      },
+      {
+        "start": 1201.9,
+        "duration": 5.0,
+        "text": "This really just amounts to leaning hard on linearity again, both linearity of the transform"
+      },
+      {
+        "start": 1206.9,
+        "duration": 1.8,
+        "text": "and of the derivative."
+      },
+      {
+        "start": 1208.8,
+        "duration": 2.2,
+        "text": "This is still not a complete explanation."
+      },
+      {
+        "start": 1211.0,
+        "duration": 4.7,
+        "text": "It only applies to combinations of exponentials, but to be fair, that includes every example"
+      },
+      {
+        "start": 1215.7,
+        "duration": 1.6,
+        "text": "we've seen so far."
+      },
+      {
+        "start": 1217.3,
+        "duration": 4.3,
+        "text": "And an overarching theme of this whole series will be how many, many things really can be"
+      },
+      {
+        "start": 1221.6,
+        "duration": 3.8,
+        "text": "broken into exponentials with the right point of view."
+      },
+      {
+        "start": 1225.4,
+        "duration": 3.6,
+        "text": "The second explanation I want to at least briefly flash up here is the one that you'll"
+      },
+      {
+        "start": 1229.0,
+        "duration": 1.5,
+        "text": "see in most textbooks."
+      },
+      {
+        "start": 1230.4,
+        "duration": 5.0,
+        "text": "The idea is to simply pull up the definition of a Laplace transform, which somewhat bizarrely"
+      },
+      {
+        "start": 1235.4,
+        "duration": 3.0,
+        "text": "we actually haven't had to look at ever since the last chapter."
+      },
+      {
+        "start": 1238.4,
+        "duration": 3.4,
+        "text": "And then to evaluate it, you apply integration by parts."
+      },
+      {
+        "start": 1241.8,
+        "duration": 3.8,
+        "text": "This is another case where I think it's best to just leave the details on screen for any"
+      },
+      {
+        "start": 1245.6,
+        "duration": 3.9,
+        "text": "curious and calculus savvy students who want to pause and think it through."
+      },
+      {
+        "start": 1249.5,
+        "duration": 3.8,
+        "text": "It's a perfectly fine and tidy derivation, really short, actually."
+      },
+      {
+        "start": 1253.4,
+        "duration": 4.4,
+        "text": "But sometimes I feel like whenever you appeal to integration by parts, you can almost see"
+      },
+      {
+        "start": 1257.7,
+        "duration": 4.2,
+        "text": "the intuition evaporating away from the audience in front of you."
+      },
+      {
+        "start": 1261.9,
+        "duration": 5.3,
+        "text": "And in this case, if you stop and ask yourself where that times S really came from, or why"
+      },
+      {
+        "start": 1267.2,
+        "duration": 4.6,
+        "text": "we're subtracting an initial condition, both of them kind of feel like things that happened"
+      },
+      {
+        "start": 1271.8,
+        "duration": 1.6,
+        "text": "to fall out."
+      },
+      {
+        "start": 1273.4,
+        "duration": 4.4,
+        "text": "The third explanation, at least in my own head, is what really shows why the property is"
+      },
+      {
+        "start": 1277.8,
+        "duration": 5.8,
+        "text": "not just true, but woven into the fabric of what a Laplace transform was born to do."
+      },
+      {
+        "start": 1283.6,
+        "duration": 4.2,
+        "text": "The caveat is that it requires understanding something we haven't talked about yet,"
+      },
+      {
+        "start": 1287.8,
+        "duration": 2.4,
+        "text": "known as the inverse Laplace transform."
+      },
+      {
+        "start": 1290.2,
+        "duration": 2.5,
+        "text": "This is something you might have already started wondering about."
+      },
+      {
+        "start": 1292.7,
+        "duration": 4.6,
+        "text": "If you look back at our differential equation example, in that very last step, where we inverted"
+      },
+      {
+        "start": 1297.4,
+        "duration": 4.8,
+        "text": "the process to recover the original function, a perfectly reasonable question to ask would"
+      },
+      {
+        "start": 1302.2,
+        "duration": 4.5,
+        "text": "be, how is this supposed to work if you can't necessarily break the result into these"
+      },
+      {
+        "start": 1306.7,
+        "duration": 2.2,
+        "text": "clean fractional pieces?"
+      },
+      {
+        "start": 1308.8,
+        "duration": 4.9,
+        "text": "That question is very closely tied to the question of what Laplace transforms mean if your"
+      },
+      {
+        "start": 1313.8,
+        "duration": 4.9,
+        "text": "original function cannot be broken down into a discrete sum of exponential pieces in the"
+      },
+      {
+        "start": 1318.6,
+        "duration": 2.0,
+        "text": "first place."
+      },
+      {
+        "start": 1320.7,
+        "duration": 4.4,
+        "text": "This inverse transform is a big enough topic that it deserves its own chapter."
+      },
+      {
+        "start": 1325.0,
+        "duration": 4.8,
+        "text": "For example, it involves a fun new concept for us, known as a contour integral."
+      },
+      {
+        "start": 1329.9,
+        "duration": 3.7,
+        "text": "What I'd like to do with that next chapter is walk through how you could reinvent this"
+      },
+      {
+        "start": 1333.6,
+        "duration": 5.4,
+        "text": "tool for yourself, starting from a desire to create something that has this third key"
+      },
+      {
+        "start": 1339.0,
+        "duration": 5.1,
+        "text": "property we've been focusing on, where derivatives turn into a kind of multiplication."
+      },
+      {
+        "start": 1344.1,
+        "duration": 4.8,
+        "text": "I think there's a very natural storyline where slowly tugging on a certain logical thread"
+      },
+      {
+        "start": 1348.9,
+        "duration": 6.2,
+        "text": "leads you to inventing both the Laplace transform and its inversion formula as a unified pair."
+      },
+      {
+        "start": 1355.1,
+        "duration": 5.4,
+        "text": "Along the way, you also get to see how it relates to Fourier transforms and Fourier inversion."
+      },
+      {
+        "start": 1360.5,
+        "duration": 3.7,
+        "text": "If you're feeling up for a jaunt into the deeper theory of the subject, come join me in"
+      },
+      {
+        "start": 1364.2,
+        "duration": 0.8,
+        "text": "the next chapter."
+      }
+    ],
+    "full_text": "I want to show you this simple simulation that I put together that has a mass on a spring, but it's being influenced by an external force that oscillates back and forth. Now if there was no external force and you pull out this mass and you just let it go, the spring has some kind of natural frequency that it wants to oscillate at. But here when I'm adding that external force like a wind blowing back and forth, it oscillates at a distinct unrelated frequency. What I want you to notice is how in the beginning you get this very irregular looking behavior. It's kind of stronger and then weaker and then stronger again before eventually it settles into a rhythm. What specifically is going on there? How could you mathematically analyze what exactly this weird wibbly startup trajectory is, and could you predict how long it takes before the system hits its stride? And when it does hit that stride, could you predict exactly how big this wings back and forth are? One of the most powerful tools for studying systems like this and many many others is the Laplace transform. And today I want to show you exactly how it looks to use this tool to study differential equations and analyze dynamic systems. For context, this is the third chapter in a sequence all about this Laplace transform and is a very quick recap. In the first chapter, you and I became acquainted with functions that look like e to the s times t where s is a complex number and the output of these functions kind of spirals through the complex plane. The key concept you have to have in your mind is what engineers call the s plane, which is the complex plane representing all possible values of this term s in the exponent. The idea is to think of each point of the plane as encoding the entire function e to the s times t. And the primary takeaway is that bigger imaginary values of s correspond to functions with more oscillation than negative real parts reflect decay and positive real parts reflect growth. The reason we care is that many functions in nature can be broken down into exponential pieces. So what we want is a machine that exposes how that breakdown looks. This is the key motivation for what Laplace transforms even are and we unpacked that in some detail through the last chapter. Again, in the spirit of a quick recap, the rough way this transform looks is that it takes a function of time and translates it into a new language, turning it into a new function whose input is this complex number s. The key conclusion from last time is that if your function really can be broken into exponential pieces, then when you plot this new transformed version over the s plane, pulls in that plot correspond to the exponential pieces hiding inside the original function. Symbolically, this amounts to two key properties that I want you to remember. Number one, if you pump in an exponential function, something like e to the a times t, it transforms into one divided by s minus a, an expression which you should see in your mind's eye as a function over the s plane with a pull above the value a. Number two, the transform is linear. What this means is if you have a scaled sum of functions and then you transform them, it's the same as applying the transform to each individual function and taking that same scaled sum of the results. So for example, if your function going in really does look like a combination of exponential terms, then what comes out looks like this sum of fractions, which you should read in your mind as an expression with multiple different poles. Each pole reflects one of those exponential pieces. These two properties alone already give you a glimpse of why this is a helpful tool for getting a qualitative sense for the dynamics of some situation. If you have some system evolving over time and with techniques I'll show you shortly, you're able to find its Laplace transform. And when you see poles in this transform with imaginary values, that tells you, hey, there's some kind of oscillation. If those poles have negative real values, that indicates a tendency to decay toward zero, but any poles with a positive real part would indicate instability, a tendency to explode away from zero. Often when you're studying physics, you don't know immediately what function describes a dynamic system, but you do know a differential equation describing it. What's neat is that there's a way to go directly from such a differential equation to the Laplace transform of its solution. And this is useful both as an intermediate step to finding an exact solution you can circle on your page, but also equally importantly, it's a meaningful representation of the system in its own right. The ability to do this is going to rely on a third key property that is worth remembering, one that explains how exactly Laplace transforms can convert differential equations into algebra, and making them easier to solve. Here's how it looks. If you take the derivative of some function, little f of t, with respect to time, and then you take a Laplace transform of that derivative, the effect is the same as if you had first applied the transform to the original function, and then multiplied that result by s, at least almost. There's also this additional term where you subtract off the initial condition, subtracting the value of your original function, little f, at the time t equals zero. So in other words, the transform turns differentiation in the time domain into multiplication over in the s domain. Now this should feel very reminiscent of the fact that for exponential functions, differentiation in time is the same as multiplication by s, and it's no coincidence, ultimately the underlying reason is the same. Now at first glance, when you look at this rule, that little minus f of zero term might seem like kind of an annoying quirk to an otherwise very elegant equation. But really it's a feature, not a bug. As you apply this to differential equations, this little quirk means you have a built-in way to account for initial conditions. Now I can hear you asking, why is this property true? Where does it come from? How exactly is this connected to the idea of differentiating an exponential? And where does that minus f of zero term come from in the first place? I will, of course, explain this. In fact, I can think of three ways to explain it. But let's postpone those for just a minute and instead dive into how you actually use this property in practice. The example I want to show starts with the simple harmonic oscillator, which is something you and I studied two chapters ago where you might imagine a mass on a spring. As a reminder, one component of the force that acts on that mass pulls it towards a middle position with a strength that's proportional to its distance away from that middle. We write that as negative k times x. And it's also common to include a damping force, which acts by slowing down this mass's movement with a strength proportional to its velocity, again, using some negative proportionality constant. And then the algebra always ends up looking very nice if we move all of these terms to just one side of the equation, like this. With no further modification, this right here is a very friendly linear equation. We talked all about how to solve it simply by substituting in e to the st, which, depending on your perspective, is either a frustratingly unmotivated guess, or that's just the established procedure you do once you've learned the fundamental fact that linear equations like this always have an exponential solution. That's all previous material, but this time we're going to imagine there is a third force acting on the mass, some kind of external force, which in our example will oscillate back and forth according to a cosine function, like a wind with periodic gusts to the left and to the right. Importantly, the frequency of this external force will generally have nothing to do with the natural resonant frequency for the spring. And this is not an arbitrary example that came up for us before on this channel when we studied why light slows down in a medium like glass. In that context, once we were deep into the video, the relevant oscillator was a little charge inside the material and the external force was an incoming light wave. Faced with an equation like this, which is no longer a linear equation, it's more complicated to solve, here's a preview of the general strategy. What you do is you take a Laplace transform of all of the terms, and then you can solve that result to reveal the transformed version of the solution, and then from there you can invert the process to recover that solution in our usual language, in the time domain instead of the s domain. Okay, that's the high level view, but let's roll up our sleeves and actually step through this piece by piece. Following the usual convention, I'm going to write the transform for little x of t as capital x of s. And then using the rule that we just talked all about, the transform for its derivative is going to look like s times capital x, all minus an initial condition, which I'm going to write as little x not. And then for the second derivative, what should that look like? This is actually a good chance to pause and try it out as an exercise. It basically looks like applying that key rule we just talked about, but twice in a row. Applying it once, you get that the transform of this second derivative should look like s times the transform of the first derivative, all minus x prime of zero. That term is the same as the initial velocity, so I'll write it as v not. This is where in the whole procedure, that part of the initial condition is kind of automatically accounted for. And from here, you can substitute in the Laplace transform of that derivative as again s times capital x of s, all minus an initial condition. We can distribute a couple terms here, substitute it back up in what we had. And if we bring along those other constants m, mu, and k for the ride, we get this kind of large, but not wholly unreasonable expression. And what I want to draw your attention to are these three terms here, the ones that include a component of capital x of s. If we add those together and factor out the whole capital x part, what we're left with is a nice little quadratic polynomial. What would be very clean and pretty as if that's all we had, but messing up the elegance is that we have all of these initial condition terms kind of writing along. And I say they're messing up the elegance, but again, I want to point out it actually is very nice to have a baked in way to incorporate initial conditions. That's not going to be some added step later on. Nevertheless, for the sake of a clean initial example, let's assume that both the initial position and the initial velocity are zero. So our spring on a mass starts off completely stationary. Keep in mind, for a more general solution, you might want to keep these constants around. What's nice about ignoring them is that it shines a light on a characteristic pattern of applying Laplace transforms, where this part of our differential equation, the left hand side on the top, basically gets turned into a polynomial that looks like a kind of mirror image of it, one that has all the same constants, and where each higher order derivative, like that x double prime, turns into some power of s, in this case, s squared. That is really the essence of why this tool works. Differential expressions turn into polynomials, and polynomials are something we can do algebra with. But of course, for this example, what makes it interesting is that we have this other oscillating force on the right hand side, and taking a Laplace transform of a cosine expression is something we talked all about in the previous episode. In practice, this is the kind of thing you would either have memorized or look up. But if you want to pause, I think this is a good chance for an exercise to take a moment and see if you remember why the transform of a cosine expression should have two different poles, in this case, one pole at omega i, and the other pole at negative omega i, and take a moment to quickly gut check that that lines up with the expression you're looking at here, with this denominator s squared plus omega squared. What I really want to pop into your mind's eye when you see that in the denominator is the idea of poles at omega i and omega negative i, and with a nice intuition of the s plane, that should feel in your bones like oscillation with a frequency of omega. The next step when it comes to just pushing around the symbols on the page is to divide out by this component here. And with that, you now have an exact final expression, fully describing, well, not the solution of your system, but the Laplace transform of its solution. As I previewed the final step, we'll be to invert the Laplace transform process, revealing the original mystery function. But before that, even just at this step, I want you to notice how by seeing this transformed version, you already get a lot of intuition for the dynamics of the system. Remember, the key question over in the s domain is where are all the poles? And this expression has a pole wherever its denominator is equal to zero. In this example, there are four different values of s that make this denominator zero. Two of them come from the roots of this polynomial here. The one I described is a mirror image of the harmonic oscillator equation. Any of you who watched the previous chapters will remember how this looks. It amounts to applying the quadratic formula, and as you tweak the constants k, mu, and m, the roots of that polynomial fall in different places on the s plane. But generally, they have a negative real part, and, assuming the damping coefficient is not too big, they have an imaginary part. And when you see points on the s plane like that, what should pop into your mind's eye is the notion of oscillation with some kind of decay. In other words, even when you add this external force to the oscillator, the solution of the unforced oscillator, what it would do on its own, is still lurking inside. Hidden somewhere in there is the oscillation matching the natural resonant frequency of the spring system. The other poles of our transformed function come from the roots of this part right here, which are omega i and negative omega i, and those correspond to the cosine external force. In other words, another component of the final dynamics, really the dominant component in this case, is a tendency to oscillate in sync with that external force. And this should feel intuitive. If you go and you push a kid on a swing, but with a frequency that doesn't necessarily match the natural resonant frequency of this swing, what ultimately happens to their motion is that they also oscillate in a way that matches your frequency, not the natural one of the spring. Here, this might all make a little bit more sense if I return back to that simulation that I opened with, that has a graph on the top showing the position of this mass on a spring over time. Again, notice how that graph has this weird initial startup period where it's sort of wibbling about finding it stride, but eventually it does fall into that rhythm and follow this consistent sine wave pattern synced up with the external force. What's going on here is that the solution can be thought of as a sum of two different components. One component corresponds to those poles on the left half of the s plane, and it matches a solution to the unforced equation, what the spring would do without any external influence. The other component corresponds to the two poles of the Laplace transform on the imaginary axis, meaning it's pure oscillation with no growth or decay, and it's simply a cosine wave matching the rhythm of that external force. From this perspective, you can recognize how that initial period of wibbling about corresponds to the time when that first component is still relevant. You have these two distinct frequencies competing with each other, and that first one has not yet decayed away into obscurity, but eventually it does leaving behind only the pure cosine. Okay, okay, okay, I hear some of you saying, that's all well and good, but what is the actual solution? I have an exam tomorrow, and I need to circle some expression at the bottom of my paper. Well, if you do want an exact analytic solution, this next part is not exactly fun, but it is straightforward. If you have a fraction like this one that we found, and you know the roots of its denominator, like the four roots that we just discussed, you can break it up as a sum of four fractions where the denominator of each one looks like S minus one of those roots. The work you have to do goes into solving for these constants up in the numerator. There's a process for it, it's called partial fraction decomposition. I'm not going to walk through the details, I don't think you want me to walk through the details, but I'll leave up the key idea as a little on screen note. Once you do solve for those constants, because you know that an exponential term transforms into a simple fraction, like the ones we're looking at, inverting the process amounts to inverting that one key rule, you turn each of these fractions into the appropriate exponential term. So the locations of each pole, those roots of the denominator, correspond to the values in the exponents, sitting in front of the time t. And those constants that you have to put in the work to solve for remain as the constants in front of each of these exponentials. If you're the kind of person who likes homework and enjoys digging into the formulas, and you choose to take on the challenge of solving for those constants, there's one very interesting conclusion of that exercise I want you to focus on. Look at the first two terms, corresponding to the poles omega i and negative omega i. When you solve for the two relevant constants, the expressions you get are not quite the same, but if mu is very close to zero, each one is approximately this shared expression that we can factor out. Now you know that two imaginary exponentials like this combine to make a cosine. So this part you're looking at is that final steady state cosine rhythm that the mass eventually falls into. And inside that big expression that you solve for, the exercise I want to leave you with as homework is to think deeply about how the amplitude of this final expression depends on the difference between the resonant frequency of the spring and the frequency of that external force. In particular, what happens as both of those frequencies get closer together? And how might this be relevant to anyone wishing to build a bridge that they don't want to wobble into ruin? Stepping out from the trees to look over the forest, you see what I mean about how Laplace transforms can turn a differential equation into algebra and how it's all rooted in this third key property where a derivative in time turns into multiplication by s. So naturally the burning question is why is this property true in the first place? And like I said, I can think of three different ways to explain it. One that's elementary but limited, one that's general but a bit opaque, and then there's my favorite, which requires a little added theory to describe. The first one is actually not a complete explanation. The idea is that anytime you see a new formula in math, it's never a bad idea to just try it out on an example you know well. That way you build a little intuition. In this case, what's an example that you and I know very well? Well, we have emphasized to death the fact that if you pump in an exponential function, something like E to the A T, then its Laplace transform looks like one divided by s minus A. So let's see what happens for this example. You know how to take the derivative of an exponential like this? It's delightfully simple, you just multiply by that constant A. And then because of linearity, this means the Laplace transform also just picks up that added factor of A. And at first, this actually seems wrong. It seems inconsistent with the desired conclusion. We're not multiplying by s, the input of our new transform function. Instead the thing we're multiplying by is this random constant A that characterizes what specific exponential we happen to throw in. But this is really just a matter of some gentle algebraic massaging. Notice what happens if I add this fraction, s minus A over s minus A, which is the same as adding one, so I have to subtract off one to account for it. When you combine these two fractions here, you get some nice cancellation in the numerator, giving behind this clean factor of s. And you'll notice we're now subtracting off something from the whole expression. One, and that happens to be the initial condition. It's what you get if you plug in T equals zero to the original function we pumped in. So in fact, it really is consistent with the desired conclusion. Now of course, this is just one very specific function. This is not a general explanation, but it holds within it the seeds of much more generality. If you like exercises, take a moment to convince yourself that this result is also true for any combination of exponential functions. This really just amounts to leaning hard on linearity again, both linearity of the transform and of the derivative. This is still not a complete explanation. It only applies to combinations of exponentials, but to be fair, that includes every example we've seen so far. And an overarching theme of this whole series will be how many, many things really can be broken into exponentials with the right point of view. The second explanation I want to at least briefly flash up here is the one that you'll see in most textbooks. The idea is to simply pull up the definition of a Laplace transform, which somewhat bizarrely we actually haven't had to look at ever since the last chapter. And then to evaluate it, you apply integration by parts. This is another case where I think it's best to just leave the details on screen for any curious and calculus savvy students who want to pause and think it through. It's a perfectly fine and tidy derivation, really short, actually. But sometimes I feel like whenever you appeal to integration by parts, you can almost see the intuition evaporating away from the audience in front of you. And in this case, if you stop and ask yourself where that times S really came from, or why we're subtracting an initial condition, both of them kind of feel like things that happened to fall out. The third explanation, at least in my own head, is what really shows why the property is not just true, but woven into the fabric of what a Laplace transform was born to do. The caveat is that it requires understanding something we haven't talked about yet, known as the inverse Laplace transform. This is something you might have already started wondering about. If you look back at our differential equation example, in that very last step, where we inverted the process to recover the original function, a perfectly reasonable question to ask would be, how is this supposed to work if you can't necessarily break the result into these clean fractional pieces? That question is very closely tied to the question of what Laplace transforms mean if your original function cannot be broken down into a discrete sum of exponential pieces in the first place. This inverse transform is a big enough topic that it deserves its own chapter. For example, it involves a fun new concept for us, known as a contour integral. What I'd like to do with that next chapter is walk through how you could reinvent this tool for yourself, starting from a desire to create something that has this third key property we've been focusing on, where derivatives turn into a kind of multiplication. I think there's a very natural storyline where slowly tugging on a certain logical thread leads you to inventing both the Laplace transform and its inversion formula as a unified pair. Along the way, you also get to see how it relates to Fourier transforms and Fourier inversion. If you're feeling up for a jaunt into the deeper theory of the subject, come join me in the next chapter."
+  }
+}

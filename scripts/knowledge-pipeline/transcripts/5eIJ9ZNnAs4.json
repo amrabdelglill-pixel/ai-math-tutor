@@ -1,0 +1,1094 @@
+{
+  "video_id": "5eIJ9ZNnAs4",
+  "video_title": "Build AI Applicant Tracking System | How to Build a Applicant Tracking System For Resume |  Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 982.0,
+  "view_count": 3643,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 25.1,
+        "text": "You were blind to dozens, maybe even hundreds of jobs, but the interview calls just never"
+      },
+      {
+        "start": 25.1,
+        "duration": 1.0,
+        "text": "come."
+      },
+      {
+        "start": 26.1,
+        "duration": 1.0,
+        "text": "Sounds familiar?"
+      },
+      {
+        "start": 27.1,
+        "duration": 1.5,
+        "text": "You're not alone."
+      },
+      {
+        "start": 28.6,
+        "duration": 5.5,
+        "text": "Many job seekers face the same problem and the reason isn't always a lack of qualifications."
+      },
+      {
+        "start": 34.1,
+        "duration": 1.0,
+        "text": "The real culprit?"
+      },
+      {
+        "start": 35.1,
+        "duration": 3.7,
+        "text": "Application tracking system or ATS?"
+      },
+      {
+        "start": 38.8,
+        "duration": 3.9,
+        "text": "Companies use ATS software to filter through thousands of applications."
+      },
+      {
+        "start": 42.7,
+        "duration": 4.2,
+        "text": "If your resume isn't optimized for these systems, it might never even reach a human"
+      },
+      {
+        "start": 46.8,
+        "duration": 1.0,
+        "text": "recruiter."
+      },
+      {
+        "start": 47.8,
+        "duration": 3.2,
+        "text": "That's where an ATS resume tracker comes in."
+      },
+      {
+        "start": 51.0,
+        "duration": 3.2,
+        "text": "This tool scans your resume just like an ATS word."
+      },
+      {
+        "start": 54.1,
+        "duration": 4.4,
+        "text": "Delighting formatting issues, missing keywords and other factors that could be holding you"
+      },
+      {
+        "start": 58.5,
+        "duration": 1.0,
+        "text": "back."
+      },
+      {
+        "start": 59.5,
+        "duration": 3.0,
+        "text": "Stop letting your resume get lost in the system."
+      },
+      {
+        "start": 62.5,
+        "duration": 4.9,
+        "text": "Optimize it with an ATS resume tracket and take control of your job search today."
+      },
+      {
+        "start": 67.3,
+        "duration": 5.0,
+        "text": "In this video, we'll be creating a powerful ATS resume tracker that not only analyzes your"
+      },
+      {
+        "start": 72.4,
+        "duration": 5.2,
+        "text": "resume but also identifies issues and provides AI-powered suggestion for improvement using"
+      },
+      {
+        "start": 77.6,
+        "duration": 1.8,
+        "text": "Google's generated AI."
+      },
+      {
+        "start": 79.3,
+        "duration": 2.2,
+        "text": "So stay tuned till the end."
+      },
+      {
+        "start": 81.5,
+        "duration": 2.9,
+        "text": "Before we begin, please like, share and subscribe."
+      },
+      {
+        "start": 84.5,
+        "duration": 4.5,
+        "text": "Remember to hit the bell icon to stay updated on the latest tech content on Adirika's YouTube"
+      },
+      {
+        "start": 88.9,
+        "duration": 1.0,
+        "text": "channel."
+      },
+      {
+        "start": 89.9,
+        "duration": 4.3,
+        "text": "Adirika's Generative AI course Master's program helps you master the principles of"
+      },
+      {
+        "start": 94.2,
+        "duration": 4.2,
+        "text": "Generative AI and implement them in real world applications."
+      },
+      {
+        "start": 98.4,
+        "duration": 5.1,
+        "text": "This course includes training on artificial intelligence, Python programming, data science,"
+      },
+      {
+        "start": 103.5,
+        "duration": 5.7,
+        "text": "natural language processing, Generative AI, prompt engineering, chat GPT and mode."
+      },
+      {
+        "start": 109.2,
+        "duration": 4.6,
+        "text": "This course includes 5 plus hands-on projects to help you apply what you learn in real world"
+      },
+      {
+        "start": 113.8,
+        "duration": 1.0,
+        "text": "scenarios."
+      },
+      {
+        "start": 114.8,
+        "duration": 5.6,
+        "text": "The curriculum is metaciously designed by industry experts based on an analysis of 5000 plus"
+      },
+      {
+        "start": 120.4,
+        "duration": 2.2,
+        "text": "global job description."
+      },
+      {
+        "start": 122.6,
+        "duration": 4.9,
+        "text": "Adirika's Generative AI and ML Pro-Oscratch 8 program designed by industry experts prepares"
+      },
+      {
+        "start": 127.5,
+        "duration": 4.4,
+        "text": "you for roles like Senior Machine Learning Engineer and AI Research Scientist."
+      },
+      {
+        "start": 131.9,
+        "duration": 5.3,
+        "text": "With 9 plus projects, 15 plus use cases and 100 plus hands-on labs, the program covers"
+      },
+      {
+        "start": 137.1,
+        "duration": 6.0,
+        "text": "key concepts like Python, Machine Learning, Deep Learning, Text Mining and NLP to strengthen"
+      },
+      {
+        "start": 143.1,
+        "duration": 1.8,
+        "text": "your AI and ML skills."
+      },
+      {
+        "start": 144.9,
+        "duration": 2.1,
+        "text": "Alright, let's get started."
+      },
+      {
+        "start": 147.0,
+        "duration": 3.8,
+        "text": "What exactly is an ATS and why does it matter?"
+      },
+      {
+        "start": 150.8,
+        "duration": 5.2,
+        "text": "An ATS or applicant tracking system is a software used by companies to filter and rank resumes"
+      },
+      {
+        "start": 156.1,
+        "duration": 2.3,
+        "text": "before they reach a human recruiter."
+      },
+      {
+        "start": 158.4,
+        "duration": 6.3,
+        "text": "It scans for keywords for matting and structure, rejecting resumes that don't meet its criteria."
+      },
+      {
+        "start": 164.7,
+        "duration": 4.5,
+        "text": "Modern issues like missing keywords, complex formatting or improper file types can get"
+      },
+      {
+        "start": 169.1,
+        "duration": 1.9,
+        "text": "your resume discarded instantly."
+      },
+      {
+        "start": 171.0,
+        "duration": 3.6,
+        "text": "That's why ATS optimization is crucial."
+      },
+      {
+        "start": 174.7,
+        "duration": 4.8,
+        "text": "It ensures that your resume gets past the filters and into the hands of hiring managers."
+      },
+      {
+        "start": 179.5,
+        "duration": 4.5,
+        "text": "Now that you know what ATS is, have you ever wondered how an ATS processes resume in the"
+      },
+      {
+        "start": 183.9,
+        "duration": 1.0,
+        "text": "back end?"
+      },
+      {
+        "start": 184.9,
+        "duration": 1.7,
+        "text": "Here's how it works."
+      },
+      {
+        "start": 186.7,
+        "duration": 4.9,
+        "text": "When you submit your resume, the ATS passes the content, extracting key details like your"
+      },
+      {
+        "start": 191.6,
+        "duration": 4.2,
+        "text": "name, contact info, skills and work experience."
+      },
+      {
+        "start": 195.8,
+        "duration": 4.2,
+        "text": "It then compares your resume against the job description, looking for relevant keywords"
+      },
+      {
+        "start": 200.0,
+        "duration": 2.2,
+        "text": "and formatting that matches the role."
+      },
+      {
+        "start": 202.2,
+        "duration": 5.2,
+        "text": "Next, it scores your resume based on keywords, relevance, structure and readability."
+      },
+      {
+        "start": 207.3,
+        "duration": 4.2,
+        "text": "If your resume doesn't meet the system's criteria, whether due to missing keywords,"
+      },
+      {
+        "start": 211.5,
+        "duration": 4.6,
+        "text": "complex formatting or incorrect file types, it might get filtered out before a recruiter"
+      },
+      {
+        "start": 216.1,
+        "duration": 2.0,
+        "text": "ever sees it."
+      },
+      {
+        "start": 218.1,
+        "duration": 3.5,
+        "text": "That's why optimizing your resume for ATS is so important."
+      },
+      {
+        "start": 221.6,
+        "duration": 3.9,
+        "text": "By structuring it correctly, including the right keywords, you can boost your chances"
+      },
+      {
+        "start": 225.5,
+        "duration": 4.1,
+        "text": "of getting past the filters and into the hands of hiring managers."
+      },
+      {
+        "start": 229.7,
+        "duration": 4.2,
+        "text": "Now the question is, will companies keep using ATS tracker in the future?"
+      },
+      {
+        "start": 233.8,
+        "duration": 2.2,
+        "text": "The answer is a resounding yes."
+      },
+      {
+        "start": 236.1,
+        "duration": 2.9,
+        "text": "The future of ATS tracker is evolving fast."
+      },
+      {
+        "start": 238.9,
+        "duration": 4.8,
+        "text": "As hiring becomes more data driven, companies are relying on ATS software more than ever"
+      },
+      {
+        "start": 243.7,
+        "duration": 1.9,
+        "text": "to streamline recruitment."
+      },
+      {
+        "start": 245.6,
+        "duration": 4.8,
+        "text": "With AI and machine learning advancing, ATS systems are getting smarter, analyzing not"
+      },
+      {
+        "start": 250.5,
+        "duration": 4.7,
+        "text": "just keywords but also context, experience and even writing style."
+      },
+      {
+        "start": 255.1,
+        "duration": 2.6,
+        "text": "Will companies continue using ATS?"
+      },
+      {
+        "start": 257.8,
+        "duration": 1.4,
+        "text": "Absolutely."
+      },
+      {
+        "start": 259.1,
+        "duration": 5.3,
+        "text": "As job applications increases, businesses need efficient ways to filter top talent."
+      },
+      {
+        "start": 264.5,
+        "duration": 3.9,
+        "text": "For job seekers, this means ATS optimization isn't just a trend."
+      },
+      {
+        "start": 268.4,
+        "duration": 1.9,
+        "text": "It's becoming a necessity."
+      },
+      {
+        "start": 270.3,
+        "duration": 3.9,
+        "text": "Napting to these changes can give you a real edge in landing interviews and securing"
+      },
+      {
+        "start": 274.2,
+        "duration": 1.5,
+        "text": "your dream job."
+      },
+      {
+        "start": 275.7,
+        "duration": 4.5,
+        "text": "Now the part which you're desperately waiting for are own ATS."
+      },
+      {
+        "start": 280.2,
+        "duration": 4.8,
+        "text": "So for that, open your VS code or any code editor and let's get started."
+      },
+      {
+        "start": 285.0,
+        "duration": 3.3,
+        "text": "Let's start by creating an ATS resume tracker project."
+      },
+      {
+        "start": 288.3,
+        "duration": 4.4,
+        "text": "First, we need to set up a Condo environment to manage our project dependencies."
+      },
+      {
+        "start": 292.7,
+        "duration": 3.8,
+        "text": "To do this, we open the terminal and run the following command."
+      },
+      {
+        "start": 296.5,
+        "duration": 8.2,
+        "text": "We'll write Condo create hyphen p, vnv, python equals to 3.10 hyphen y."
+      },
+      {
+        "start": 304.8,
+        "duration": 3.2,
+        "text": "So here, Condo creates a new environment."
+      },
+      {
+        "start": 308.0,
+        "duration": 4.1,
+        "text": "First, we'll need to import all the required live reviews."
+      },
+      {
+        "start": 312.1,
+        "duration": 5.5,
+        "text": "These will help us handle PDF processing, environment variables, image conversion and interactions"
+      },
+      {
+        "start": 317.6,
+        "duration": 2.5,
+        "text": "with Google's Gemini AI model."
+      },
+      {
+        "start": 320.1,
+        "duration": 6.8,
+        "text": "We'll write import base 64 and import IO."
+      },
+      {
+        "start": 326.9,
+        "duration": 5.6,
+        "text": "These are used for encoding and decoding the resume PDF into an image format for processing."
+      },
+      {
+        "start": 332.5,
+        "duration": 9.1,
+        "text": "Then from dotnv, we'll import load underscore dotnv and then load underscore dotnv."
+      },
+      {
+        "start": 341.6,
+        "duration": 4.4,
+        "text": "This will help us load API keys securely from a dotnv file."
+      },
+      {
+        "start": 346.0,
+        "duration": 5.5,
+        "text": "Then we'll write import streamer as sc, which is used to build the website base ATS tracking"
+      },
+      {
+        "start": 351.5,
+        "duration": 1.0,
+        "text": "system."
+      },
+      {
+        "start": 352.5,
+        "duration": 5.6,
+        "text": "Then import OS and from PIL import image."
+      },
+      {
+        "start": 358.1,
+        "duration": 2.7,
+        "text": "And then import PDF to image."
+      },
+      {
+        "start": 360.7,
+        "duration": 3.3,
+        "text": "This will convert the PDF files into images."
+      },
+      {
+        "start": 364.0,
+        "duration": 5.5,
+        "text": "And then import google dot generative AI as genai, which connects to Google's Gemini"
+      },
+      {
+        "start": 369.5,
+        "duration": 2.0,
+        "text": "AI for resume analysis."
+      },
+      {
+        "start": 371.6,
+        "duration": 6.1,
+        "text": "Next, we'll configure the Gemini AI API by retrieving the API key from environment variables."
+      },
+      {
+        "start": 377.7,
+        "duration": 9.8,
+        "text": "We'll write genai.configure in the bracket api underscore key equals to OS dot getnv and"
+      },
+      {
+        "start": 387.5,
+        "duration": 6.9,
+        "text": "in the bracket google API key OS dot getnv fetches the API key from the dotnv file to ensure"
+      },
+      {
+        "start": 394.3,
+        "duration": 5.9,
+        "text": "security and genai.configure initializes the connection to Gemini AI."
+      },
+      {
+        "start": 400.3,
+        "duration": 4.8,
+        "text": "Now we'll define a function that takes user input, the extracted PDF content and a prompt"
+      },
+      {
+        "start": 405.1,
+        "duration": 2.5,
+        "text": "that sends it to Gemini AI for analysis."
+      },
+      {
+        "start": 407.6,
+        "duration": 8.6,
+        "text": "We'll write def, then get underscore Gemini and underscore response in the bracket input"
+      },
+      {
+        "start": 416.2,
+        "duration": 3.8,
+        "text": "comma PDF content comma prompt."
+      },
+      {
+        "start": 420.0,
+        "duration": 10.9,
+        "text": "Then model equals to genai generative model in the bracket Gemini 1.5 flash response equals"
+      },
+      {
+        "start": 430.9,
+        "duration": 11.1,
+        "text": "to model generate underscore content in the bracket input comma PDF content 0 comma prompt."
+      },
+      {
+        "start": 442.1,
+        "duration": 4.5,
+        "text": "And then return response dot text."
+      },
+      {
+        "start": 446.6,
+        "duration": 19.6,
+        "text": "Now let's create a function to process the uploaded PDF."
+      },
+      {
+        "start": 466.2,
+        "duration": 7.8,
+        "text": "We'll write def input PDF set up in the bracket uploaded file."
+      },
+      {
+        "start": 473.9,
+        "duration": 7.2,
+        "text": "Then if uploaded file is not done, this is to convert the PDF to image."
+      },
+      {
+        "start": 481.1,
+        "duration": 8.8,
+        "text": "Then we'll write image equals to PDF to image dot convert from bytes in the bracket uploaded"
+      },
+      {
+        "start": 489.9,
+        "duration": 6.2,
+        "text": "file dot read in the bracket uploaded file dot read."
+      },
+      {
+        "start": 496.1,
+        "duration": 6.3,
+        "text": "Then first page equals to images in the bracket 0."
+      },
+      {
+        "start": 502.4,
+        "duration": 10.4,
+        "text": "This is to convert to bytes image by array equals to IO dot bytes IO then first page dot"
+      },
+      {
+        "start": 512.8,
+        "duration": 7.9,
+        "text": "save in the bracket image by array comma format equals to jpeg."
+      },
+      {
+        "start": 520.7,
+        "duration": 6.3,
+        "text": "Then image by array equals to imagebyteray dot get value."
+      },
+      {
+        "start": 527.1,
+        "duration": 11.8,
+        "text": "Then PDF path equals to square bracket and then curly bracket MIME underscore type colon"
+      },
+      {
+        "start": 538.9,
+        "duration": 9.8,
+        "text": "image slash jpeg and then data colon base 64 dot b6 for encode in the bracket image"
+      },
+      {
+        "start": 548.7,
+        "duration": 6.2,
+        "text": "by array dot decode. This is to encode to base 64."
+      },
+      {
+        "start": 554.9,
+        "duration": 9.8,
+        "text": "Then we'll close both the brackets and then return PDF paths else raise file not found"
+      },
+      {
+        "start": 564.7,
+        "duration": 3.6,
+        "text": "in the bracket no file uploaded."
+      },
+      {
+        "start": 568.3,
+        "duration": 6.2,
+        "text": "The PDF to image dot convert converts the PDF into images first and a school page selects"
+      },
+      {
+        "start": 574.5,
+        "duration": 3.9,
+        "text": "the first page which usually contains the main resume content."
+      },
+      {
+        "start": 578.3,
+        "duration": 5.9,
+        "text": "IO dot bytes prepares the image for conversion and first page dot save saves the resume as"
+      },
+      {
+        "start": 584.2,
+        "duration": 1.5,
+        "text": "jpeg."
+      },
+      {
+        "start": 585.7,
+        "duration": 6.6,
+        "text": "Base 64 dot b6 for encode the image to base 64 which is required for AI processing."
+      },
+      {
+        "start": 592.3,
+        "duration": 5.7,
+        "text": "This function converts the uploaded PDF resume into an image format encodes it in base 64"
+      },
+      {
+        "start": 598.0,
+        "duration": 4.4,
+        "text": "and prepares it for processing by Gemini AI."
+      },
+      {
+        "start": 602.3,
+        "duration": 3.1,
+        "text": "Let's set a page configuration first."
+      },
+      {
+        "start": 605.4,
+        "duration": 7.0,
+        "text": "For that we'll write sd dot set underscore page underscore config in the bracket page"
+      },
+      {
+        "start": 612.4,
+        "duration": 9.0,
+        "text": "title equals to a t s resume export and let's keep the layout as centered."
+      },
+      {
+        "start": 621.3,
+        "duration": 8.6,
+        "text": "Then let's add the page header we'll write sd dot mark down in the bracket h1 style equals"
+      },
+      {
+        "start": 629.9,
+        "duration": 5.6,
+        "text": "to text align center colon color."
+      },
+      {
+        "start": 635.5,
+        "duration": 6.1,
+        "text": "Add the color of your choice and then 80 is tracking system and close the h1 dark then"
+      },
+      {
+        "start": 641.6,
+        "duration": 5.3,
+        "text": "unsafe underscore allow underscore html equals to true."
+      },
+      {
+        "start": 646.9,
+        "duration": 8.4,
+        "text": "Then in the next line sd dot mark down in the bracket enter job description below enter"
+      },
+      {
+        "start": 655.3,
+        "duration": 3.6,
+        "text": "job description below then we'll put the job description input."
+      },
+      {
+        "start": 659.5,
+        "duration": 6.6,
+        "text": "We'll write input text equals to sd dot text underscore area in the bracket job description"
+      },
+      {
+        "start": 666.1,
+        "duration": 4.6,
+        "text": "key equals to input comma height equals to 200."
+      },
+      {
+        "start": 670.8,
+        "duration": 4.4,
+        "text": "sd dot set page configuration sets the page title for stream data."
+      },
+      {
+        "start": 675.2,
+        "duration": 5.3,
+        "text": "sd text area provides a text input area where users can paste a job description."
+      },
+      {
+        "start": 680.5,
+        "duration": 5.0,
+        "text": "Now if a file is uploaded we notify the user that the PDF for successful is a seat."
+      },
+      {
+        "start": 685.5,
+        "duration": 3.4,
+        "text": "For that we'll be creating a checking PDF upload sheet."
+      },
+      {
+        "start": 688.9,
+        "duration": 5.8,
+        "text": "For that we'll write uploaded file equals to sd dot file uploaded in the bracket upload"
+      },
+      {
+        "start": 694.7,
+        "duration": 5.2,
+        "text": "your resume PDF only comma type equals to PDF."
+      },
+      {
+        "start": 699.9,
+        "duration": 8.1,
+        "text": "Then if uploaded underscore file is not none colon sd dot success in the bracket resume uploaded"
+      },
+      {
+        "start": 708.1,
+        "duration": 1.4,
+        "text": "successfully."
+      },
+      {
+        "start": 709.5,
+        "duration": 5.2,
+        "text": "If uploaded file is not none checks if a resume was uploaded and sd dot success displays"
+      },
+      {
+        "start": 714.7,
+        "duration": 3.4,
+        "text": "a success message."
+      },
+      {
+        "start": 718.1,
+        "duration": 4.1,
+        "text": "Now let's create buttons for different ATS functions."
+      },
+      {
+        "start": 722.2,
+        "duration": 4.5,
+        "text": "We will be adding three buttons that let's use a analyze the resume improve skills or check"
+      },
+      {
+        "start": 726.7,
+        "duration": 2.0,
+        "text": "the ATS match percentage."
+      },
+      {
+        "start": 728.7,
+        "duration": 6.1,
+        "text": "We'll write first button colon 1 comma colon 2 equals to sd dot columns."
+      },
+      {
+        "start": 734.9,
+        "duration": 6.9,
+        "text": "Then with column 1 we'll write submit 1 equals to sd dot button in the bracket tell me about"
+      },
+      {
+        "start": 741.8,
+        "duration": 2.4,
+        "text": "the resume."
+      },
+      {
+        "start": 744.2,
+        "duration": 8.2,
+        "text": "Then with column 2 we'll write submit 2 equals to sd dot button in the bracket how can I improve"
+      },
+      {
+        "start": 752.4,
+        "duration": 2.5,
+        "text": "my skills."
+      },
+      {
+        "start": 754.9,
+        "duration": 3.6,
+        "text": "sd dot button creates the buttons for three functionalities."
+      },
+      {
+        "start": 758.5,
+        "duration": 2.6,
+        "text": "Tell me about the resume general evaluation."
+      },
+      {
+        "start": 761.2,
+        "duration": 4.0,
+        "text": "How can I improve my skills suggest the ways to improve."
+      },
+      {
+        "start": 765.2,
+        "duration": 2.0,
+        "text": "Now we'll be defining the prompt templates."
+      },
+      {
+        "start": 767.3,
+        "duration": 5.4,
+        "text": "We'll define two different prompt templates for Gemna AI one for general resume evaluation"
+      },
+      {
+        "start": 772.7,
+        "duration": 2.8,
+        "text": "and another one for percentage ways ATS coding."
+      },
+      {
+        "start": 775.5,
+        "duration": 4.6,
+        "text": "I have already created the prompt so you can use your own prompt using gen AI models like"
+      },
+      {
+        "start": 780.1,
+        "duration": 2.4,
+        "text": "GPT or Gemna."
+      },
+      {
+        "start": 782.4,
+        "duration": 5.3,
+        "text": "The input prompt one makes Gemna AI act like an HR manager to evaluate the resume and"
+      },
+      {
+        "start": 787.7,
+        "duration": 5.0,
+        "text": "input prompt group makes Gemna AI act as an ATS scanner providing a match percentage"
+      },
+      {
+        "start": 792.7,
+        "duration": 2.8,
+        "text": "and missing keywords."
+      },
+      {
+        "start": 795.5,
+        "duration": 3.4,
+        "text": "Now let's handle button clicks and calling Gemna AI."
+      },
+      {
+        "start": 798.9,
+        "duration": 4.4,
+        "text": "When a user clicks a button we check if the resume is uploaded process it and send it"
+      },
+      {
+        "start": 803.3,
+        "duration": 3.1,
+        "text": "to Gemna AI and displays the response."
+      },
+      {
+        "start": 806.3,
+        "duration": 6.5,
+        "text": "For that we'll write if submit one call in if uploaded file is not done."
+      },
+      {
+        "start": 812.8,
+        "duration": 9.6,
+        "text": "Then PDF content equals to input PDF set up in the bracket uploaded file."
+      },
+      {
+        "start": 822.4,
+        "duration": 8.2,
+        "text": "It equals to get Gemna AI response in the bracket input prompt one comma PDF content comma"
+      },
+      {
+        "start": 830.6,
+        "duration": 4.6,
+        "text": "input text comma input text."
+      },
+      {
+        "start": 835.2,
+        "duration": 6.9,
+        "text": "Then we'll write ST dot sub header in the bracket the responses is and then ST dot"
+      },
+      {
+        "start": 842.1,
+        "duration": 10.6,
+        "text": "write in the bracket response else ST dot write in the bracket please upload the resume."
+      },
+      {
+        "start": 852.8,
+        "duration": 5.6,
+        "text": "Then LF submit to call in if uploaded file is not done."
+      },
+      {
+        "start": 858.4,
+        "duration": 7.0,
+        "text": "Then PDF content equals to input PDF set up in the bracket uploaded file."
+      },
+      {
+        "start": 865.4,
+        "duration": 8.4,
+        "text": "Then response equals to get Gemna AI underscore response in the bracket input prompt two comma"
+      },
+      {
+        "start": 873.7,
+        "duration": 3.5,
+        "text": "PDF content comma input text."
+      },
+      {
+        "start": 877.2,
+        "duration": 9.2,
+        "text": "Then ST dot sub header in the bracket the responses is then ST dot write in the bracket response."
+      },
+      {
+        "start": 886.4,
+        "duration": 6.0,
+        "text": "Else ST dot write in the bracket please upload the resume."
+      },
+      {
+        "start": 892.4,
+        "duration": 5.2,
+        "text": "Please tell me about the resume is click Gemna AI evaluates the resume if how can I improve"
+      },
+      {
+        "start": 897.6,
+        "duration": 5.6,
+        "text": "my skills is click Gemna AI suggests the improvements if no resume is uploaded it prompts"
+      },
+      {
+        "start": 903.2,
+        "duration": 2.9,
+        "text": "the user to upload one first."
+      },
+      {
+        "start": 906.0,
+        "duration": 5.8,
+        "text": "So now is the testing time we will open the terminal and write stream letter and app.py"
+      },
+      {
+        "start": 911.8,
+        "duration": 1.4,
+        "text": "and it's running."
+      },
+      {
+        "start": 913.2,
+        "duration": 6.2,
+        "text": "First let's upload job description from LinkedIn now let us upload our resume and check."
+      },
+      {
+        "start": 923.4,
+        "duration": 4.2,
+        "text": "And do it's giving everything we need as you can see the description and suggestions"
+      },
+      {
+        "start": 927.6,
+        "duration": 5.0,
+        "text": "using generate a way this is the best example of an ATS agent using Gen AI."
+      },
+      {
+        "start": 933.6,
+        "duration": 4.8,
+        "text": "So in conclusion this code effectively builds an AI power 80s resume tracker with"
+      },
+      {
+        "start": 938.4,
+        "duration": 6.8,
+        "text": "300 and Gemna AI it allows users to upload resume get professional AI driven feedback see"
+      },
+      {
+        "start": 945.2,
+        "duration": 3.6,
+        "text": "80s match percentage and improve the resume with AI insights."
+      },
+      {
+        "start": 949.3,
+        "duration": 2.6,
+        "text": "We've come to an end of 80s stress you may track a project."
+      },
+      {
+        "start": 953.6,
+        "duration": 3.7,
+        "text": "If you've enjoyed listening to this video please be kind enough to like it and you can"
+      },
+      {
+        "start": 957.3,
+        "duration": 4.4,
+        "text": "comment on any of your doubts and queries. We will reply to them as soon as possible."
+      },
+      {
+        "start": 962.4,
+        "duration": 4.5,
+        "text": "Look for more videos and playlist and subscribe to our dailycast youtube channel to learn more."
+      },
+      {
+        "start": 966.8,
+        "duration": 1.0,
+        "text": "Happy learning."
+      }
+    ],
+    "full_text": "You were blind to dozens, maybe even hundreds of jobs, but the interview calls just never come. Sounds familiar? You're not alone. Many job seekers face the same problem and the reason isn't always a lack of qualifications. The real culprit? Application tracking system or ATS? Companies use ATS software to filter through thousands of applications. If your resume isn't optimized for these systems, it might never even reach a human recruiter. That's where an ATS resume tracker comes in. This tool scans your resume just like an ATS word. Delighting formatting issues, missing keywords and other factors that could be holding you back. Stop letting your resume get lost in the system. Optimize it with an ATS resume tracket and take control of your job search today. In this video, we'll be creating a powerful ATS resume tracker that not only analyzes your resume but also identifies issues and provides AI-powered suggestion for improvement using Google's generated AI. So stay tuned till the end. Before we begin, please like, share and subscribe. Remember to hit the bell icon to stay updated on the latest tech content on Adirika's YouTube channel. Adirika's Generative AI course Master's program helps you master the principles of Generative AI and implement them in real world applications. This course includes training on artificial intelligence, Python programming, data science, natural language processing, Generative AI, prompt engineering, chat GPT and mode. This course includes 5 plus hands-on projects to help you apply what you learn in real world scenarios. The curriculum is metaciously designed by industry experts based on an analysis of 5000 plus global job description. Adirika's Generative AI and ML Pro-Oscratch 8 program designed by industry experts prepares you for roles like Senior Machine Learning Engineer and AI Research Scientist. With 9 plus projects, 15 plus use cases and 100 plus hands-on labs, the program covers key concepts like Python, Machine Learning, Deep Learning, Text Mining and NLP to strengthen your AI and ML skills. Alright, let's get started. What exactly is an ATS and why does it matter? An ATS or applicant tracking system is a software used by companies to filter and rank resumes before they reach a human recruiter. It scans for keywords for matting and structure, rejecting resumes that don't meet its criteria. Modern issues like missing keywords, complex formatting or improper file types can get your resume discarded instantly. That's why ATS optimization is crucial. It ensures that your resume gets past the filters and into the hands of hiring managers. Now that you know what ATS is, have you ever wondered how an ATS processes resume in the back end? Here's how it works. When you submit your resume, the ATS passes the content, extracting key details like your name, contact info, skills and work experience. It then compares your resume against the job description, looking for relevant keywords and formatting that matches the role. Next, it scores your resume based on keywords, relevance, structure and readability. If your resume doesn't meet the system's criteria, whether due to missing keywords, complex formatting or incorrect file types, it might get filtered out before a recruiter ever sees it. That's why optimizing your resume for ATS is so important. By structuring it correctly, including the right keywords, you can boost your chances of getting past the filters and into the hands of hiring managers. Now the question is, will companies keep using ATS tracker in the future? The answer is a resounding yes. The future of ATS tracker is evolving fast. As hiring becomes more data driven, companies are relying on ATS software more than ever to streamline recruitment. With AI and machine learning advancing, ATS systems are getting smarter, analyzing not just keywords but also context, experience and even writing style. Will companies continue using ATS? Absolutely. As job applications increases, businesses need efficient ways to filter top talent. For job seekers, this means ATS optimization isn't just a trend. It's becoming a necessity. Napting to these changes can give you a real edge in landing interviews and securing your dream job. Now the part which you're desperately waiting for are own ATS. So for that, open your VS code or any code editor and let's get started. Let's start by creating an ATS resume tracker project. First, we need to set up a Condo environment to manage our project dependencies. To do this, we open the terminal and run the following command. We'll write Condo create hyphen p, vnv, python equals to 3.10 hyphen y. So here, Condo creates a new environment. First, we'll need to import all the required live reviews. These will help us handle PDF processing, environment variables, image conversion and interactions with Google's Gemini AI model. We'll write import base 64 and import IO. These are used for encoding and decoding the resume PDF into an image format for processing. Then from dotnv, we'll import load underscore dotnv and then load underscore dotnv. This will help us load API keys securely from a dotnv file. Then we'll write import streamer as sc, which is used to build the website base ATS tracking system. Then import OS and from PIL import image. And then import PDF to image. This will convert the PDF files into images. And then import google dot generative AI as genai, which connects to Google's Gemini AI for resume analysis. Next, we'll configure the Gemini AI API by retrieving the API key from environment variables. We'll write genai.configure in the bracket api underscore key equals to OS dot getnv and in the bracket google API key OS dot getnv fetches the API key from the dotnv file to ensure security and genai.configure initializes the connection to Gemini AI. Now we'll define a function that takes user input, the extracted PDF content and a prompt that sends it to Gemini AI for analysis. We'll write def, then get underscore Gemini and underscore response in the bracket input comma PDF content comma prompt. Then model equals to genai generative model in the bracket Gemini 1.5 flash response equals to model generate underscore content in the bracket input comma PDF content 0 comma prompt. And then return response dot text. Now let's create a function to process the uploaded PDF. We'll write def input PDF set up in the bracket uploaded file. Then if uploaded file is not done, this is to convert the PDF to image. Then we'll write image equals to PDF to image dot convert from bytes in the bracket uploaded file dot read in the bracket uploaded file dot read. Then first page equals to images in the bracket 0. This is to convert to bytes image by array equals to IO dot bytes IO then first page dot save in the bracket image by array comma format equals to jpeg. Then image by array equals to imagebyteray dot get value. Then PDF path equals to square bracket and then curly bracket MIME underscore type colon image slash jpeg and then data colon base 64 dot b6 for encode in the bracket image by array dot decode. This is to encode to base 64. Then we'll close both the brackets and then return PDF paths else raise file not found in the bracket no file uploaded. The PDF to image dot convert converts the PDF into images first and a school page selects the first page which usually contains the main resume content. IO dot bytes prepares the image for conversion and first page dot save saves the resume as jpeg. Base 64 dot b6 for encode the image to base 64 which is required for AI processing. This function converts the uploaded PDF resume into an image format encodes it in base 64 and prepares it for processing by Gemini AI. Let's set a page configuration first. For that we'll write sd dot set underscore page underscore config in the bracket page title equals to a t s resume export and let's keep the layout as centered. Then let's add the page header we'll write sd dot mark down in the bracket h1 style equals to text align center colon color. Add the color of your choice and then 80 is tracking system and close the h1 dark then unsafe underscore allow underscore html equals to true. Then in the next line sd dot mark down in the bracket enter job description below enter job description below then we'll put the job description input. We'll write input text equals to sd dot text underscore area in the bracket job description key equals to input comma height equals to 200. sd dot set page configuration sets the page title for stream data. sd text area provides a text input area where users can paste a job description. Now if a file is uploaded we notify the user that the PDF for successful is a seat. For that we'll be creating a checking PDF upload sheet. For that we'll write uploaded file equals to sd dot file uploaded in the bracket upload your resume PDF only comma type equals to PDF. Then if uploaded underscore file is not none colon sd dot success in the bracket resume uploaded successfully. If uploaded file is not none checks if a resume was uploaded and sd dot success displays a success message. Now let's create buttons for different ATS functions. We will be adding three buttons that let's use a analyze the resume improve skills or check the ATS match percentage. We'll write first button colon 1 comma colon 2 equals to sd dot columns. Then with column 1 we'll write submit 1 equals to sd dot button in the bracket tell me about the resume. Then with column 2 we'll write submit 2 equals to sd dot button in the bracket how can I improve my skills. sd dot button creates the buttons for three functionalities. Tell me about the resume general evaluation. How can I improve my skills suggest the ways to improve. Now we'll be defining the prompt templates. We'll define two different prompt templates for Gemna AI one for general resume evaluation and another one for percentage ways ATS coding. I have already created the prompt so you can use your own prompt using gen AI models like GPT or Gemna. The input prompt one makes Gemna AI act like an HR manager to evaluate the resume and input prompt group makes Gemna AI act as an ATS scanner providing a match percentage and missing keywords. Now let's handle button clicks and calling Gemna AI. When a user clicks a button we check if the resume is uploaded process it and send it to Gemna AI and displays the response. For that we'll write if submit one call in if uploaded file is not done. Then PDF content equals to input PDF set up in the bracket uploaded file. It equals to get Gemna AI response in the bracket input prompt one comma PDF content comma input text comma input text. Then we'll write ST dot sub header in the bracket the responses is and then ST dot write in the bracket response else ST dot write in the bracket please upload the resume. Then LF submit to call in if uploaded file is not done. Then PDF content equals to input PDF set up in the bracket uploaded file. Then response equals to get Gemna AI underscore response in the bracket input prompt two comma PDF content comma input text. Then ST dot sub header in the bracket the responses is then ST dot write in the bracket response. Else ST dot write in the bracket please upload the resume. Please tell me about the resume is click Gemna AI evaluates the resume if how can I improve my skills is click Gemna AI suggests the improvements if no resume is uploaded it prompts the user to upload one first. So now is the testing time we will open the terminal and write stream letter and app.py and it's running. First let's upload job description from LinkedIn now let us upload our resume and check. And do it's giving everything we need as you can see the description and suggestions using generate a way this is the best example of an ATS agent using Gen AI. So in conclusion this code effectively builds an AI power 80s resume tracker with 300 and Gemna AI it allows users to upload resume get professional AI driven feedback see 80s match percentage and improve the resume with AI insights. We've come to an end of 80s stress you may track a project. If you've enjoyed listening to this video please be kind enough to like it and you can comment on any of your doubts and queries. We will reply to them as soon as possible. Look for more videos and playlist and subscribe to our dailycast youtube channel to learn more. Happy learning."
+  }
+}

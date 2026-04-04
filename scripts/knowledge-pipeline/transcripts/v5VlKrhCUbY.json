@@ -1,0 +1,619 @@
+{
+  "video_id": "v5VlKrhCUbY",
+  "video_title": "How to Connect SQL Server in Power BI | Power BI Tutorial | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 445.0,
+  "view_count": 4296,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 11.3,
+        "text": "Hello everyone and welcome back to Adurika's YouTube channel."
+      },
+      {
+        "start": 11.3,
+        "duration": 5.6,
+        "text": "Today, we will explore how to connect and analyze data using Power BI and SQL."
+      },
+      {
+        "start": 16.9,
+        "duration": 5.2,
+        "text": "Imagine having a massive database filled with valuable insights, but use struggle to extract"
+      },
+      {
+        "start": 22.1,
+        "duration": 2.3,
+        "text": "the right information efficiently."
+      },
+      {
+        "start": 24.4,
+        "duration": 5.4,
+        "text": "This is where the SQL structured query language becomes a game changer in Power BI."
+      },
+      {
+        "start": 29.8,
+        "duration": 6.4,
+        "text": "SQL acts as a data gatekeeper, helping you filter, transform and optimize datasets before"
+      },
+      {
+        "start": 36.2,
+        "duration": 2.1,
+        "text": "they reach your Power BI reports."
+      },
+      {
+        "start": 38.3,
+        "duration": 5.1,
+        "text": "So whether you're pulling real-time sales figures or analyzing custom trends, SQL ensures"
+      },
+      {
+        "start": 43.4,
+        "duration": 3.8,
+        "text": "your data is clean, fast and ready for visualization."
+      },
+      {
+        "start": 47.2,
+        "duration": 4.2,
+        "text": "But before we get into the content, like share and subscribe to our YouTube channel and"
+      },
+      {
+        "start": 51.4,
+        "duration": 4.7,
+        "text": "do not forget to hit the bell icon to stay updated on the latest content from Adurika."
+      },
+      {
+        "start": 56.1,
+        "duration": 5.9,
+        "text": "Also check out Adurika's Power BI certification training course in collaboration with PWC Academy,"
+      },
+      {
+        "start": 62.0,
+        "duration": 4.7,
+        "text": "which equips you with the business and analytics skills, covering Power BI desktop, DAGS,"
+      },
+      {
+        "start": 66.7,
+        "duration": 4.9,
+        "text": "service, data modeling, reports and more with real-time use cases."
+      },
+      {
+        "start": 71.6,
+        "duration": 4.8,
+        "text": "This live instructor led training offers hands-on experience and prepares you for the PL 300"
+      },
+      {
+        "start": 76.4,
+        "duration": 4.0,
+        "text": "exam with guidance from 10 plus years of industry experts."
+      },
+      {
+        "start": 80.3,
+        "duration": 4.3,
+        "text": "Now let us understand what is SQL in Power BI."
+      },
+      {
+        "start": 84.6,
+        "duration": 5.6,
+        "text": "Well, structured query language in Power BI extracts, transforms and manages data before"
+      },
+      {
+        "start": 90.2,
+        "duration": 2.9,
+        "text": "visualizing it in reports and dashboards."
+      },
+      {
+        "start": 93.1,
+        "duration": 5.3,
+        "text": "Power BI connects to SQL databases, allowing users to fetch relevant data, optimize queries"
+      },
+      {
+        "start": 98.4,
+        "duration": 1.9,
+        "text": "and enhance performance."
+      },
+      {
+        "start": 100.3,
+        "duration": 3.0,
+        "text": "But why SQL is crucial for Power BI?"
+      },
+      {
+        "start": 103.2,
+        "duration": 5.4,
+        "text": "SQL plays a vital role in Power BI by enabling efficient data extraction, transformation and"
+      },
+      {
+        "start": 108.6,
+        "duration": 2.6,
+        "text": "optimization before visualization."
+      },
+      {
+        "start": 111.2,
+        "duration": 4.4,
+        "text": "This Power BI is a data driven tool, having clean and well-structured data significantly"
+      },
+      {
+        "start": 115.6,
+        "duration": 3.2,
+        "text": "improves performance and reporting accuracy."
+      },
+      {
+        "start": 118.8,
+        "duration": 6.1,
+        "text": "SQL helps query large datasets, perform complex joints and aggregations and optimize data"
+      },
+      {
+        "start": 124.8,
+        "duration": 2.8,
+        "text": "loads before bringing them into Power BI."
+      },
+      {
+        "start": 127.6,
+        "duration": 2.4,
+        "text": "Now let us see some of the key reasons."
+      },
+      {
+        "start": 130.0,
+        "duration": 3.7,
+        "text": "So first here we have efficient data extraction."
+      },
+      {
+        "start": 133.7,
+        "duration": 4.4,
+        "text": "SQL allows you to fetch only the necessary columns and rows, reducing the data loads on"
+      },
+      {
+        "start": 138.1,
+        "duration": 1.0,
+        "text": "Power BI."
+      },
+      {
+        "start": 139.1,
+        "duration": 5.6,
+        "text": "Also, using join and group by in SQL minimizes data processing inside Power BI."
+      },
+      {
+        "start": 144.6,
+        "duration": 2.7,
+        "text": "The next key reason is performance optimization."
+      },
+      {
+        "start": 147.3,
+        "duration": 4.7,
+        "text": "Here, the last dataset slowed down Power BI if not optimized."
+      },
+      {
+        "start": 152.0,
+        "duration": 5.6,
+        "text": "So SQL pre-aggregates data, reducing the need for complex data calculations."
+      },
+      {
+        "start": 157.6,
+        "duration": 4.7,
+        "text": "Indexes and views in SQL help speed up query performance in Power BI."
+      },
+      {
+        "start": 162.4,
+        "duration": 3.3,
+        "text": "The next key reason is handling complex data models."
+      },
+      {
+        "start": 165.7,
+        "duration": 5.2,
+        "text": "So SQL simplifies many to many relationships and data normalization before loading into"
+      },
+      {
+        "start": 170.9,
+        "duration": 1.0,
+        "text": "Power BI."
+      },
+      {
+        "start": 171.9,
+        "duration": 6.3,
+        "text": "Using CTEs, sub queries and window functions, SQL ensures clean data for efficient Power BI"
+      },
+      {
+        "start": 178.2,
+        "duration": 1.0,
+        "text": "modeling."
+      },
+      {
+        "start": 179.2,
+        "duration": 4.4,
+        "text": "The next key reason is direct query versus import mode benefits."
+      },
+      {
+        "start": 183.7,
+        "duration": 4.5,
+        "text": "So with direct query, SQL ensures that Power BI always fetches real-time data from the"
+      },
+      {
+        "start": 188.2,
+        "duration": 1.3,
+        "text": "databases."
+      },
+      {
+        "start": 189.5,
+        "duration": 5.8,
+        "text": "In import mode, SQL pre-processes large tables, reducing Power BI's memory consumption."
+      },
+      {
+        "start": 195.2,
+        "duration": 4.9,
+        "text": "Alright, I hope now it's clear what is SQL in Power BI and also white is crucial in"
+      },
+      {
+        "start": 200.1,
+        "duration": 2.5,
+        "text": "Power BI and its key reasons."
+      },
+      {
+        "start": 202.6,
+        "duration": 5.0,
+        "text": "So now we will see how to import data into Power BI with the use of SQL."
+      },
+      {
+        "start": 207.6,
+        "duration": 6.4,
+        "text": "So first, let me connect to my SQL and then create a new database."
+      },
+      {
+        "start": 214.0,
+        "duration": 7.6,
+        "text": "So here I'll select new database and create a database called Power BI DB and then click"
+      },
+      {
+        "start": 221.6,
+        "duration": 1.6,
+        "text": "okay."
+      },
+      {
+        "start": 223.2,
+        "duration": 5.9,
+        "text": "And if you expand the Power BI DB and rightly on it, you will get the following options."
+      },
+      {
+        "start": 229.2,
+        "duration": 3.8,
+        "text": "So go to new query, we will be using a new query to create the table."
+      },
+      {
+        "start": 233.0,
+        "duration": 4.1,
+        "text": "So before creating the table, let me show you the dataset first."
+      },
+      {
+        "start": 237.0,
+        "duration": 1.6,
+        "text": "So this is my CSV file."
+      },
+      {
+        "start": 238.7,
+        "duration": 5.2,
+        "text": "The columns in this dataset are ID, product, region, sales and profit."
+      },
+      {
+        "start": 243.9,
+        "duration": 3.6,
+        "text": "So that we will create a table for this dataset now."
+      },
+      {
+        "start": 247.5,
+        "duration": 5.1,
+        "text": "Now here coming back to SQL, let's type create table sales data."
+      },
+      {
+        "start": 252.6,
+        "duration": 4.3,
+        "text": "And then I will type the column names and their data types such as ID and its data type"
+      },
+      {
+        "start": 256.9,
+        "duration": 7.6,
+        "text": "in and then the same way for the product and its data type as varcat 255."
+      },
+      {
+        "start": 264.5,
+        "duration": 8.7,
+        "text": "Then the next column region varcat followed by sales and its data type as decimal and finally"
+      },
+      {
+        "start": 273.2,
+        "duration": 5.8,
+        "text": "the profit and its data type again decimal and now let's close the bracket."
+      },
+      {
+        "start": 279.0,
+        "duration": 7.3,
+        "text": "Now let us select all and click execute and you will see that the comments were successfully"
+      },
+      {
+        "start": 286.3,
+        "duration": 1.3,
+        "text": "executed."
+      },
+      {
+        "start": 287.6,
+        "duration": 2.6,
+        "text": "Now we will insert the values in the columns."
+      },
+      {
+        "start": 290.2,
+        "duration": 5.4,
+        "text": "So we will type insert into sales data value because we have named our tables as sales"
+      },
+      {
+        "start": 295.6,
+        "duration": 6.9,
+        "text": "data and open the bracket and then type each column value in and close the brackets."
+      },
+      {
+        "start": 302.4,
+        "duration": 6.2,
+        "text": "And then let us type select star from sales data and now select the first line and execute"
+      },
+      {
+        "start": 309.4,
+        "duration": 5.4,
+        "text": "it followed by let's execute the second line and you can see that our columns and values"
+      },
+      {
+        "start": 314.8,
+        "duration": 1.8,
+        "text": "have been executed."
+      },
+      {
+        "start": 316.7,
+        "duration": 5.4,
+        "text": "Let us follow the same step select and execute it and to input data into Power BI desktop"
+      },
+      {
+        "start": 322.0,
+        "duration": 5.7,
+        "text": "click on get data and select SQL server and in the database tab you can add this server name"
+      },
+      {
+        "start": 327.7,
+        "duration": 3.7,
+        "text": "by right clicking on the server and selecting properties."
+      },
+      {
+        "start": 331.4,
+        "duration": 5.6,
+        "text": "Now copy the server name and paste it into Power BI and then click OK."
+      },
+      {
+        "start": 337.0,
+        "duration": 3.8,
+        "text": "And then click on connect and then click OK."
+      },
+      {
+        "start": 340.8,
+        "duration": 4.8,
+        "text": "So the data is now displayed and you can also select and load it into Power BI."
+      },
+      {
+        "start": 345.6,
+        "duration": 5.9,
+        "text": "So as you can see this is the data that we have loaded using SQL and now to view this"
+      },
+      {
+        "start": 351.5,
+        "duration": 5.6,
+        "text": "data set click on table view and this is how it is presented."
+      },
+      {
+        "start": 357.1,
+        "duration": 1.2,
+        "text": "Here it is."
+      },
+      {
+        "start": 358.2,
+        "duration": 3.2,
+        "text": "So now let us create a chart and present these values."
+      },
+      {
+        "start": 361.5,
+        "duration": 4.5,
+        "text": "So for that go to report view and let's do a small example."
+      },
+      {
+        "start": 366.4,
+        "duration": 5.9,
+        "text": "So I'm going to select this chart and in this I'm going to drag and drop the columns."
+      },
+      {
+        "start": 372.3,
+        "duration": 0.6,
+        "text": "OK."
+      },
+      {
+        "start": 372.9,
+        "duration": 5.9,
+        "text": "So if you buy access I'm going to drag and drop the product column and in the x axis I'll"
+      },
+      {
+        "start": 378.8,
+        "duration": 1.6,
+        "text": "be selecting profit."
+      },
+      {
+        "start": 380.4,
+        "duration": 0.8,
+        "text": "So that's it."
+      },
+      {
+        "start": 381.2,
+        "duration": 3.6,
+        "text": "It's simple right and I hope it's pretty much clear now."
+      },
+      {
+        "start": 384.8,
+        "duration": 5.0,
+        "text": "So this is how the power BI and SQL integration simplifies the data analysis by enabling"
+      },
+      {
+        "start": 389.8,
+        "duration": 2.6,
+        "text": "seamless connectivity and transformation."
+      },
+      {
+        "start": 392.4,
+        "duration": 4.5,
+        "text": "So here the users can choose between that it query for real time access or import mode"
+      },
+      {
+        "start": 396.9,
+        "duration": 2.0,
+        "text": "for performance optimization."
+      },
+      {
+        "start": 398.9,
+        "duration": 5.2,
+        "text": "Also the strong SQL skills enhance data modeling and querying capabilities and together"
+      },
+      {
+        "start": 404.1,
+        "duration": 4.2,
+        "text": "these tools empower businesses with insightful data driven decision making."
+      },
+      {
+        "start": 408.2,
+        "duration": 0.5,
+        "text": "All right."
+      },
+      {
+        "start": 408.8,
+        "duration": 4.6,
+        "text": "I hope it's clear now and with this we have come to an end to this video on how to connect"
+      },
+      {
+        "start": 413.3,
+        "duration": 2.9,
+        "text": "and analyze data using power BI and a square."
+      },
+      {
+        "start": 416.2,
+        "duration": 3.8,
+        "text": "So if you enjoyed listening to this video please be kind enough to like it and you can"
+      },
+      {
+        "start": 420.0,
+        "duration": 4.6,
+        "text": "comment on any of it doubts and queries where you'll reply to them a day and year."
+      },
+      {
+        "start": 424.6,
+        "duration": 4.2,
+        "text": "And do look up for more videos and playlist and subscribe to the idureka youtube channel"
+      },
+      {
+        "start": 428.8,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 429.8,
+        "duration": 2.0,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome back to Adurika's YouTube channel. Today, we will explore how to connect and analyze data using Power BI and SQL. Imagine having a massive database filled with valuable insights, but use struggle to extract the right information efficiently. This is where the SQL structured query language becomes a game changer in Power BI. SQL acts as a data gatekeeper, helping you filter, transform and optimize datasets before they reach your Power BI reports. So whether you're pulling real-time sales figures or analyzing custom trends, SQL ensures your data is clean, fast and ready for visualization. But before we get into the content, like share and subscribe to our YouTube channel and do not forget to hit the bell icon to stay updated on the latest content from Adurika. Also check out Adurika's Power BI certification training course in collaboration with PWC Academy, which equips you with the business and analytics skills, covering Power BI desktop, DAGS, service, data modeling, reports and more with real-time use cases. This live instructor led training offers hands-on experience and prepares you for the PL 300 exam with guidance from 10 plus years of industry experts. Now let us understand what is SQL in Power BI. Well, structured query language in Power BI extracts, transforms and manages data before visualizing it in reports and dashboards. Power BI connects to SQL databases, allowing users to fetch relevant data, optimize queries and enhance performance. But why SQL is crucial for Power BI? SQL plays a vital role in Power BI by enabling efficient data extraction, transformation and optimization before visualization. This Power BI is a data driven tool, having clean and well-structured data significantly improves performance and reporting accuracy. SQL helps query large datasets, perform complex joints and aggregations and optimize data loads before bringing them into Power BI. Now let us see some of the key reasons. So first here we have efficient data extraction. SQL allows you to fetch only the necessary columns and rows, reducing the data loads on Power BI. Also, using join and group by in SQL minimizes data processing inside Power BI. The next key reason is performance optimization. Here, the last dataset slowed down Power BI if not optimized. So SQL pre-aggregates data, reducing the need for complex data calculations. Indexes and views in SQL help speed up query performance in Power BI. The next key reason is handling complex data models. So SQL simplifies many to many relationships and data normalization before loading into Power BI. Using CTEs, sub queries and window functions, SQL ensures clean data for efficient Power BI modeling. The next key reason is direct query versus import mode benefits. So with direct query, SQL ensures that Power BI always fetches real-time data from the databases. In import mode, SQL pre-processes large tables, reducing Power BI's memory consumption. Alright, I hope now it's clear what is SQL in Power BI and also white is crucial in Power BI and its key reasons. So now we will see how to import data into Power BI with the use of SQL. So first, let me connect to my SQL and then create a new database. So here I'll select new database and create a database called Power BI DB and then click okay. And if you expand the Power BI DB and rightly on it, you will get the following options. So go to new query, we will be using a new query to create the table. So before creating the table, let me show you the dataset first. So this is my CSV file. The columns in this dataset are ID, product, region, sales and profit. So that we will create a table for this dataset now. Now here coming back to SQL, let's type create table sales data. And then I will type the column names and their data types such as ID and its data type in and then the same way for the product and its data type as varcat 255. Then the next column region varcat followed by sales and its data type as decimal and finally the profit and its data type again decimal and now let's close the bracket. Now let us select all and click execute and you will see that the comments were successfully executed. Now we will insert the values in the columns. So we will type insert into sales data value because we have named our tables as sales data and open the bracket and then type each column value in and close the brackets. And then let us type select star from sales data and now select the first line and execute it followed by let's execute the second line and you can see that our columns and values have been executed. Let us follow the same step select and execute it and to input data into Power BI desktop click on get data and select SQL server and in the database tab you can add this server name by right clicking on the server and selecting properties. Now copy the server name and paste it into Power BI and then click OK. And then click on connect and then click OK. So the data is now displayed and you can also select and load it into Power BI. So as you can see this is the data that we have loaded using SQL and now to view this data set click on table view and this is how it is presented. Here it is. So now let us create a chart and present these values. So for that go to report view and let's do a small example. So I'm going to select this chart and in this I'm going to drag and drop the columns. OK. So if you buy access I'm going to drag and drop the product column and in the x axis I'll be selecting profit. So that's it. It's simple right and I hope it's pretty much clear now. So this is how the power BI and SQL integration simplifies the data analysis by enabling seamless connectivity and transformation. So here the users can choose between that it query for real time access or import mode for performance optimization. Also the strong SQL skills enhance data modeling and querying capabilities and together these tools empower businesses with insightful data driven decision making. All right. I hope it's clear now and with this we have come to an end to this video on how to connect and analyze data using power BI and a square. So if you enjoyed listening to this video please be kind enough to like it and you can comment on any of it doubts and queries where you'll reply to them a day and year. And do look up for more videos and playlist and subscribe to the idureka youtube channel to learn more. Thank you for watching and happy learning."
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "video_id": "VayZ_Z8Mohc",
+  "video_title": "Uncovering the Reality of OTP Hacking in 2026 | How Hackers Steal Your OTPs | OTP Security | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 423.0,
+  "view_count": 3847,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.9,
+        "text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka."
+      },
+      {
+        "start": 12.9,
+        "duration": 5.4,
+        "text": "Today we are diving into one of the fastest growing threats in the digital world, that is"
+      },
+      {
+        "start": 18.2,
+        "duration": 1.7,
+        "text": "OTP hacking."
+      },
+      {
+        "start": 20.0,
+        "duration": 5.4,
+        "text": "From phishing schemes to AI powered voice scams, hackers are evolving and so should your"
+      },
+      {
+        "start": 25.4,
+        "duration": 1.0,
+        "text": "defenses."
+      },
+      {
+        "start": 26.4,
+        "duration": 4.8,
+        "text": "So in the next few minutes, we will uncover how OTP hacking actually works and give"
+      },
+      {
+        "start": 31.2,
+        "duration": 4.3,
+        "text": "you the tools to protect yourself in 2025 and beyond."
+      },
+      {
+        "start": 35.5,
+        "duration": 3.8,
+        "text": "But before we begin, please make sure to like, share and subscribe to Idureka's YouTube"
+      },
+      {
+        "start": 39.4,
+        "duration": 5.0,
+        "text": "channel and hit the bell icon to stay updated on the latest content from Idureka."
+      },
+      {
+        "start": 44.3,
+        "duration": 4.4,
+        "text": "Along with this, check out the certified ethical hacking course, Designing Partnership with"
+      },
+      {
+        "start": 48.8,
+        "duration": 3.2,
+        "text": "Easy Console to elevate your cybersecurity skills."
+      },
+      {
+        "start": 52.0,
+        "duration": 6.6,
+        "text": "This course offers a globally recognized CEHV13 AI certification and features 20 comprehensive"
+      },
+      {
+        "start": 58.5,
+        "duration": 5.5,
+        "text": "modules that cover over 500 attack techniques enhanced by AI GPT tools."
+      },
+      {
+        "start": 64.0,
+        "duration": 5.1,
+        "text": "You will gain hands-on experience through 221 practical lab and benefit from round-clock"
+      },
+      {
+        "start": 69.1,
+        "duration": 3.0,
+        "text": "support provided by certified professionals."
+      },
+      {
+        "start": 72.1,
+        "duration": 5.7,
+        "text": "With access to exclusive e-course web and an example to from Easy Console, this course is your"
+      },
+      {
+        "start": 77.8,
+        "duration": 5.3,
+        "text": "gateway to mastering ethical hacking and securing a rewarding career in cyber defense."
+      },
+      {
+        "start": 83.2,
+        "duration": 2.4,
+        "text": "So let's start with the basics now."
+      },
+      {
+        "start": 85.6,
+        "duration": 6.8,
+        "text": "OTP or one-time password is a unique time-sensitive code sent to your mobile number or email."
+      },
+      {
+        "start": 92.3,
+        "duration": 5.4,
+        "text": "It's used to double check that you are the one trying to log in or authorize a transaction."
+      },
+      {
+        "start": 97.7,
+        "duration": 4.5,
+        "text": "This is a part of what's known as two-factor authentication or two-fay."
+      },
+      {
+        "start": 102.2,
+        "duration": 4.3,
+        "text": "It's that extra layer of security after entering your regular password, something you know"
+      },
+      {
+        "start": 106.5,
+        "duration": 2.2,
+        "text": "plus something you receive."
+      },
+      {
+        "start": 108.7,
+        "duration": 6.5,
+        "text": "And banks use it, social media apps use it, e-commerce sites use it and OTP are everywhere."
+      },
+      {
+        "start": 115.2,
+        "duration": 4.2,
+        "text": "And for the longest time, they will consider the go-to security layer for protecting our"
+      },
+      {
+        "start": 119.4,
+        "duration": 1.3,
+        "text": "digital lives."
+      },
+      {
+        "start": 120.7,
+        "duration": 1.7,
+        "text": "But here's the hard-thruth."
+      },
+      {
+        "start": 122.4,
+        "duration": 3.8,
+        "text": "Hackers have caught up and now even OTP is vulnerable."
+      },
+      {
+        "start": 126.2,
+        "duration": 6.0,
+        "text": "So if OTPs can no longer guarantee complete safety, then how exactly are hackers breaking"
+      },
+      {
+        "start": 132.2,
+        "duration": 2.7,
+        "text": "through this second layer of defense?"
+      },
+      {
+        "start": 134.9,
+        "duration": 4.5,
+        "text": "So in 2020-25, OTP hacking isn't about brute force."
+      },
+      {
+        "start": 139.4,
+        "duration": 5.5,
+        "text": "It's about deception, automation and technology that feels almost sci-fi."
+      },
+      {
+        "start": 144.9,
+        "duration": 4.0,
+        "text": "Now we are going to explore some of the most common techniques attackers are using right"
+      },
+      {
+        "start": 148.9,
+        "duration": 1.0,
+        "text": "now."
+      },
+      {
+        "start": 149.9,
+        "duration": 2.4,
+        "text": "First on the list, we have phishing attacks."
+      },
+      {
+        "start": 152.3,
+        "duration": 5.0,
+        "text": "Hackers send fake emails or SMS messages that look like they are from your bank or service"
+      },
+      {
+        "start": 157.3,
+        "duration": 1.0,
+        "text": "provider."
+      },
+      {
+        "start": 158.3,
+        "duration": 1.6,
+        "text": "One click and boom."
+      },
+      {
+        "start": 159.9,
+        "duration": 4.9,
+        "text": "You're on the fake login page or handling over your OTP to a scammer."
+      },
+      {
+        "start": 164.8,
+        "duration": 2.1,
+        "text": "Next is the OTP bots."
+      },
+      {
+        "start": 167.0,
+        "duration": 2.0,
+        "text": "These are the automated bots."
+      },
+      {
+        "start": 169.0,
+        "duration": 4.8,
+        "text": "Often found on platforms like Telegram that call a message and you pretending to be from"
+      },
+      {
+        "start": 173.8,
+        "duration": 1.0,
+        "text": "customer service."
+      },
+      {
+        "start": 174.8,
+        "duration": 4.4,
+        "text": "They use social engineering to trick you into giving up your OTP."
+      },
+      {
+        "start": 179.2,
+        "duration": 3.0,
+        "text": "Next is the AI voice cloning."
+      },
+      {
+        "start": 182.2,
+        "duration": 1.8,
+        "text": "This is where it gets white."
+      },
+      {
+        "start": 184.0,
+        "duration": 2.3,
+        "text": "Hackers now use AI to clone voices."
+      },
+      {
+        "start": 186.3,
+        "duration": 3.9,
+        "text": "So when you get a call from your bank, it actually sounds like your bank manager or"
+      },
+      {
+        "start": 190.2,
+        "duration": 1.3,
+        "text": "a real agent."
+      },
+      {
+        "start": 191.6,
+        "duration": 4.1,
+        "text": "The voice asks for your OTP and just like that, you're compromised."
+      },
+      {
+        "start": 195.7,
+        "duration": 2.2,
+        "text": "And then we have technical exploits."
+      },
+      {
+        "start": 197.9,
+        "duration": 1.6,
+        "text": "And it's not just human error."
+      },
+      {
+        "start": 199.5,
+        "duration": 6.3,
+        "text": "In some cases, attackers find loopholes in apps or APIs that completely bypass OTP systems,"
+      },
+      {
+        "start": 205.8,
+        "duration": 3.9,
+        "text": "especially when the OTP is hard coded or poorly implemented."
+      },
+      {
+        "start": 209.7,
+        "duration": 2.0,
+        "text": "All this sounds intense right?"
+      },
+      {
+        "start": 211.7,
+        "duration": 1.7,
+        "text": "That's because it is."
+      },
+      {
+        "start": 213.4,
+        "duration": 2.4,
+        "text": "But we are not done yet."
+      },
+      {
+        "start": 215.8,
+        "duration": 4.4,
+        "text": "Let me show you how real this threat has become with a few shocking incidents."
+      },
+      {
+        "start": 220.2,
+        "duration": 4.2,
+        "text": "So let's talk about some real incidents that highlight just how dangerous OTP hacking"
+      },
+      {
+        "start": 224.4,
+        "duration": 2.2,
+        "text": "has become in recent times."
+      },
+      {
+        "start": 226.6,
+        "duration": 3.8,
+        "text": "So in first case, here we are going to discuss the refund trap."
+      },
+      {
+        "start": 230.4,
+        "duration": 4.6,
+        "text": "In Mumbai, a businessman received a message climbing to be a refund from an e-commerce"
+      },
+      {
+        "start": 235.0,
+        "duration": 1.0,
+        "text": "site."
+      },
+      {
+        "start": 236.0,
+        "duration": 3.6,
+        "text": "The message looked genuine and asked him to verify via OTP."
+      },
+      {
+        "start": 239.6,
+        "duration": 4.5,
+        "text": "And he entered the court within minutes to a lack of his vanished from his account."
+      },
+      {
+        "start": 244.1,
+        "duration": 1.0,
+        "text": "It wasn't a refund."
+      },
+      {
+        "start": 245.1,
+        "duration": 2.1,
+        "text": "It was a well crafted trap."
+      },
+      {
+        "start": 247.2,
+        "duration": 4.5,
+        "text": "The next real world example is the AI bought impersonation."
+      },
+      {
+        "start": 251.7,
+        "duration": 5.3,
+        "text": "A user received a phone call and it sounded exactly like their bank's fraud department."
+      },
+      {
+        "start": 257.0,
+        "duration": 4.5,
+        "text": "The caller calmly explained their hack being suspicious activity and requested the OTP"
+      },
+      {
+        "start": 261.5,
+        "duration": 1.5,
+        "text": "send to their phone."
+      },
+      {
+        "start": 263.0,
+        "duration": 2.4,
+        "text": "The user trusting the voice complied."
+      },
+      {
+        "start": 265.4,
+        "duration": 2.2,
+        "text": "What they didn't know was it wasn't a human."
+      },
+      {
+        "start": 267.6,
+        "duration": 4.7,
+        "text": "It was an AI powered bot using voice clone to mimic bank officials."
+      },
+      {
+        "start": 272.2,
+        "duration": 3.7,
+        "text": "And if it can happen to them, it can happen to any of us."
+      },
+      {
+        "start": 276.0,
+        "duration": 1.2,
+        "text": "But here's the good news."
+      },
+      {
+        "start": 277.2,
+        "duration": 5.2,
+        "text": "For every trick hackers come up with, there are steps you can take to stay ahead of them."
+      },
+      {
+        "start": 282.3,
+        "duration": 3.3,
+        "text": "So here's your protection guide for 2025."
+      },
+      {
+        "start": 285.6,
+        "duration": 4.9,
+        "text": "Simple but powerful practices to secure your OTPs and digital identity."
+      },
+      {
+        "start": 290.6,
+        "duration": 2.9,
+        "text": "Make sure you don't rely on SMS-based OTPs."
+      },
+      {
+        "start": 293.4,
+        "duration": 5.0,
+        "text": "SMS OTPs are easy to intercept through sim swapping or malware."
+      },
+      {
+        "start": 298.5,
+        "duration": 6.4,
+        "text": "Instead, use apps like Google Authenticator and T or even hardware keys like UB key or"
+      },
+      {
+        "start": 304.8,
+        "duration": 2.3,
+        "text": "stronger 2FA."
+      },
+      {
+        "start": 307.1,
+        "duration": 3.4,
+        "text": "Also, never share OTPs even if they sound legit."
+      },
+      {
+        "start": 310.5,
+        "duration": 5.5,
+        "text": "So no real bank or platform will ever ask you for your OTP over a call, message or email."
+      },
+      {
+        "start": 316.0,
+        "duration": 5.0,
+        "text": "And if someone asks, it's a scam and hang up, report or block it."
+      },
+      {
+        "start": 321.0,
+        "duration": 2.9,
+        "text": "And then use biometric authentication."
+      },
+      {
+        "start": 324.0,
+        "duration": 3.6,
+        "text": "Fingerprints and facial recognition are much harder to fake."
+      },
+      {
+        "start": 327.6,
+        "duration": 4.6,
+        "text": "So whenever possible, enable biometric logins for added security."
+      },
+      {
+        "start": 332.2,
+        "duration": 3.6,
+        "text": "Next, combine strong passwords with MFA."
+      },
+      {
+        "start": 335.8,
+        "duration": 1.8,
+        "text": "Don't just rely on OTPs."
+      },
+      {
+        "start": 337.6,
+        "duration": 4.8,
+        "text": "Use a strong, unique password and always pair it with multi factor authentication."
+      },
+      {
+        "start": 342.4,
+        "duration": 2.6,
+        "text": "Also stay informed and stay alert."
+      },
+      {
+        "start": 345.0,
+        "duration": 3.3,
+        "text": "Cyber criminals evolve so should your awareness."
+      },
+      {
+        "start": 348.3,
+        "duration": 5.3,
+        "text": "So follow trusted sources, take courses and most importantly, trust your gut."
+      },
+      {
+        "start": 353.6,
+        "duration": 2.8,
+        "text": "So if something feels off, it probably is."
+      },
+      {
+        "start": 356.4,
+        "duration": 5.0,
+        "text": "These small changes in how you handle OTPs can go a long way in protecting your identity,"
+      },
+      {
+        "start": 361.4,
+        "duration": 1.6,
+        "text": "money and peace of mind."
+      },
+      {
+        "start": 363.0,
+        "duration": 5.6,
+        "text": "So once considered the gold standard of digital security, OTPs are no longer bullet proof."
+      },
+      {
+        "start": 368.6,
+        "duration": 5.5,
+        "text": "So from phishing and AI voice-cloning to telegram bots and back in exploits, cyber criminals"
+      },
+      {
+        "start": 374.1,
+        "duration": 3.9,
+        "text": "have found ways to crack through that extra layer of protection."
+      },
+      {
+        "start": 378.0,
+        "duration": 2.2,
+        "text": "But the power still lies with you."
+      },
+      {
+        "start": 380.2,
+        "duration": 5.1,
+        "text": "By switching to stronger authentication methods, avoiding risky behavior and staying informed"
+      },
+      {
+        "start": 385.3,
+        "duration": 3.8,
+        "text": "and you can stay once to the head of even the smartest attackers."
+      },
+      {
+        "start": 389.1,
+        "duration": 5.0,
+        "text": "And with this, we have come to an end to this video on the reality of OTP hacking."
+      },
+      {
+        "start": 394.1,
+        "duration": 4.7,
+        "text": "If you enjoyed listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 398.8,
+        "duration": 4.3,
+        "text": "on any of your doubts and queries we will reply to them a year earlier."
+      },
+      {
+        "start": 403.1,
+        "duration": 4.6,
+        "text": "And do look up for more videos and playlists and subscribe to Idurekars YouTube channel to"
+      },
+      {
+        "start": 407.7,
+        "duration": 1.0,
+        "text": "learn more."
+      },
+      {
+        "start": 408.7,
+        "duration": 1.8,
+        "text": "Thank you for watching and Happy Learning!"
+      }
+    ],
+    "full_text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka. Today we are diving into one of the fastest growing threats in the digital world, that is OTP hacking. From phishing schemes to AI powered voice scams, hackers are evolving and so should your defenses. So in the next few minutes, we will uncover how OTP hacking actually works and give you the tools to protect yourself in 2025 and beyond. But before we begin, please make sure to like, share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Along with this, check out the certified ethical hacking course, Designing Partnership with Easy Console to elevate your cybersecurity skills. This course offers a globally recognized CEHV13 AI certification and features 20 comprehensive modules that cover over 500 attack techniques enhanced by AI GPT tools. You will gain hands-on experience through 221 practical lab and benefit from round-clock support provided by certified professionals. With access to exclusive e-course web and an example to from Easy Console, this course is your gateway to mastering ethical hacking and securing a rewarding career in cyber defense. So let's start with the basics now. OTP or one-time password is a unique time-sensitive code sent to your mobile number or email. It's used to double check that you are the one trying to log in or authorize a transaction. This is a part of what's known as two-factor authentication or two-fay. It's that extra layer of security after entering your regular password, something you know plus something you receive. And banks use it, social media apps use it, e-commerce sites use it and OTP are everywhere. And for the longest time, they will consider the go-to security layer for protecting our digital lives. But here's the hard-thruth. Hackers have caught up and now even OTP is vulnerable. So if OTPs can no longer guarantee complete safety, then how exactly are hackers breaking through this second layer of defense? So in 2020-25, OTP hacking isn't about brute force. It's about deception, automation and technology that feels almost sci-fi. Now we are going to explore some of the most common techniques attackers are using right now. First on the list, we have phishing attacks. Hackers send fake emails or SMS messages that look like they are from your bank or service provider. One click and boom. You're on the fake login page or handling over your OTP to a scammer. Next is the OTP bots. These are the automated bots. Often found on platforms like Telegram that call a message and you pretending to be from customer service. They use social engineering to trick you into giving up your OTP. Next is the AI voice cloning. This is where it gets white. Hackers now use AI to clone voices. So when you get a call from your bank, it actually sounds like your bank manager or a real agent. The voice asks for your OTP and just like that, you're compromised. And then we have technical exploits. And it's not just human error. In some cases, attackers find loopholes in apps or APIs that completely bypass OTP systems, especially when the OTP is hard coded or poorly implemented. All this sounds intense right? That's because it is. But we are not done yet. Let me show you how real this threat has become with a few shocking incidents. So let's talk about some real incidents that highlight just how dangerous OTP hacking has become in recent times. So in first case, here we are going to discuss the refund trap. In Mumbai, a businessman received a message climbing to be a refund from an e-commerce site. The message looked genuine and asked him to verify via OTP. And he entered the court within minutes to a lack of his vanished from his account. It wasn't a refund. It was a well crafted trap. The next real world example is the AI bought impersonation. A user received a phone call and it sounded exactly like their bank's fraud department. The caller calmly explained their hack being suspicious activity and requested the OTP send to their phone. The user trusting the voice complied. What they didn't know was it wasn't a human. It was an AI powered bot using voice clone to mimic bank officials. And if it can happen to them, it can happen to any of us. But here's the good news. For every trick hackers come up with, there are steps you can take to stay ahead of them. So here's your protection guide for 2025. Simple but powerful practices to secure your OTPs and digital identity. Make sure you don't rely on SMS-based OTPs. SMS OTPs are easy to intercept through sim swapping or malware. Instead, use apps like Google Authenticator and T or even hardware keys like UB key or stronger 2FA. Also, never share OTPs even if they sound legit. So no real bank or platform will ever ask you for your OTP over a call, message or email. And if someone asks, it's a scam and hang up, report or block it. And then use biometric authentication. Fingerprints and facial recognition are much harder to fake. So whenever possible, enable biometric logins for added security. Next, combine strong passwords with MFA. Don't just rely on OTPs. Use a strong, unique password and always pair it with multi factor authentication. Also stay informed and stay alert. Cyber criminals evolve so should your awareness. So follow trusted sources, take courses and most importantly, trust your gut. So if something feels off, it probably is. These small changes in how you handle OTPs can go a long way in protecting your identity, money and peace of mind. So once considered the gold standard of digital security, OTPs are no longer bullet proof. So from phishing and AI voice-cloning to telegram bots and back in exploits, cyber criminals have found ways to crack through that extra layer of protection. But the power still lies with you. By switching to stronger authentication methods, avoiding risky behavior and staying informed and you can stay once to the head of even the smartest attackers. And with this, we have come to an end to this video on the reality of OTP hacking. If you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a year earlier. And do look up for more videos and playlists and subscribe to Idurekars YouTube channel to learn more. Thank you for watching and Happy Learning!"
+  }
+}

@@ -1,0 +1,1719 @@
+{
+  "video_id": "d_qvLDhkg00",
+  "video_title": "A pretty reason why Gaussian + Gaussian = Gaussian",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 796.0,
+  "view_count": 931226,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 2.8,
+        "text": "The basic function underlying a normal distribution,"
+      },
+      {
+        "start": 2.8,
+        "duration": 3.8,
+        "text": "aka a Gaussian, is e to the negative x squared."
+      },
+      {
+        "start": 6.6,
+        "duration": 2.1,
+        "text": "But you might wonder why this function?"
+      },
+      {
+        "start": 8.6,
+        "duration": 1.7,
+        "text": "Of all the expressions we could dream up"
+      },
+      {
+        "start": 10.3,
+        "duration": 2.2,
+        "text": "that give you some symmetric smooth graph"
+      },
+      {
+        "start": 12.6,
+        "duration": 2.4,
+        "text": "with mass concentrated towards the middle,"
+      },
+      {
+        "start": 15.0,
+        "duration": 1.9,
+        "text": "why is it that the theory of probability"
+      },
+      {
+        "start": 16.9,
+        "duration": 2.0,
+        "text": "seems to have a special place in its heart"
+      },
+      {
+        "start": 18.8,
+        "duration": 2.5,
+        "text": "for this particular expression?"
+      },
+      {
+        "start": 21.3,
+        "duration": 1.3,
+        "text": "For the last many videos,"
+      },
+      {
+        "start": 22.6,
+        "duration": 1.9,
+        "text": "I've been hinting at an answer to this question,"
+      },
+      {
+        "start": 24.6,
+        "duration": 1.9,
+        "text": "and here we'll finally arrive at something"
+      },
+      {
+        "start": 26.5,
+        "duration": 1.7,
+        "text": "like a satisfying answer."
+      },
+      {
+        "start": 28.2,
+        "duration": 1.6,
+        "text": "As a quick refresher on where we are,"
+      },
+      {
+        "start": 29.7,
+        "duration": 1.0,
+        "text": "a couple videos ago,"
+      },
+      {
+        "start": 30.7,
+        "duration": 1.9,
+        "text": "we talked about the central limit theorem,"
+      },
+      {
+        "start": 32.6,
+        "duration": 2.6,
+        "text": "which describes how as you add multiple copies"
+      },
+      {
+        "start": 35.3,
+        "duration": 1.4,
+        "text": "of a random variable,"
+      },
+      {
+        "start": 36.7,
+        "duration": 2.8,
+        "text": "for example, rolling a weighted die many different times,"
+      },
+      {
+        "start": 39.5,
+        "duration": 2.6,
+        "text": "or letting a ball bounce off of a peg repeatedly,"
+      },
+      {
+        "start": 42.1,
+        "duration": 2.9,
+        "text": "then the distribution describing that sum"
+      },
+      {
+        "start": 45.1,
+        "duration": 3.3,
+        "text": "tends to look approximately like a normal distribution."
+      },
+      {
+        "start": 48.4,
+        "duration": 1.5,
+        "text": "What the central limit theorem says"
+      },
+      {
+        "start": 49.9,
+        "duration": 2.1,
+        "text": "is as you make that sum bigger and bigger"
+      },
+      {
+        "start": 52.0,
+        "duration": 1.6,
+        "text": "under appropriate conditions,"
+      },
+      {
+        "start": 53.5,
+        "duration": 2.9,
+        "text": "that approximation to a normal becomes better and better."
+      },
+      {
+        "start": 57.3,
+        "duration": 3.1,
+        "text": "But I never explained why this theorem is actually true."
+      },
+      {
+        "start": 60.4,
+        "duration": 1.9,
+        "text": "We only talked about what it's claiming."
+      },
+      {
+        "start": 63.4,
+        "duration": 0.8,
+        "text": "In the last video,"
+      },
+      {
+        "start": 64.2,
+        "duration": 2.0,
+        "text": "we started talking about the math involved"
+      },
+      {
+        "start": 66.2,
+        "duration": 2.1,
+        "text": "in adding two random variables."
+      },
+      {
+        "start": 68.3,
+        "duration": 1.6,
+        "text": "If you have two random variables,"
+      },
+      {
+        "start": 69.9,
+        "duration": 1.8,
+        "text": "each following some distribution,"
+      },
+      {
+        "start": 71.7,
+        "duration": 1.6,
+        "text": "then to find the distribution"
+      },
+      {
+        "start": 73.3,
+        "duration": 2.3,
+        "text": "describing the sum of those variables,"
+      },
+      {
+        "start": 75.6,
+        "duration": 2.4,
+        "text": "you compute something known as a convolution"
+      },
+      {
+        "start": 78.1,
+        "duration": 2.2,
+        "text": "between the two original functions."
+      },
+      {
+        "start": 80.2,
+        "duration": 2.4,
+        "text": "And we spent a lot of time building up two distinct ways"
+      },
+      {
+        "start": 82.6,
+        "duration": 3.5,
+        "text": "to visualize what this convolution operation really is."
+      },
+      {
+        "start": 86.4,
+        "duration": 3.4,
+        "text": "Today, our basic job is to work through a particular example,"
+      },
+      {
+        "start": 89.8,
+        "duration": 0.9,
+        "text": "which is to ask,"
+      },
+      {
+        "start": 90.7,
+        "duration": 4.4,
+        "text": "what happens when you add to normally distributed random variables?"
+      },
+      {
+        "start": 95.0,
+        "duration": 1.5,
+        "text": "Which, as you know by now,"
+      },
+      {
+        "start": 96.5,
+        "duration": 1.0,
+        "text": "is the same as asking,"
+      },
+      {
+        "start": 97.5,
+        "duration": 2.4,
+        "text": "what do you get if you compute a convolution"
+      },
+      {
+        "start": 100.0,
+        "duration": 2.5,
+        "text": "between two Gaussian functions?"
+      },
+      {
+        "start": 102.5,
+        "duration": 2.5,
+        "text": "I'd like to share an especially pleasing visual way"
+      },
+      {
+        "start": 105.0,
+        "duration": 2.0,
+        "text": "that you can think about this calculation,"
+      },
+      {
+        "start": 107.0,
+        "duration": 1.6,
+        "text": "which hopefully offers some sense"
+      },
+      {
+        "start": 108.6,
+        "duration": 2.5,
+        "text": "of what makes the e to the negative x squared function"
+      },
+      {
+        "start": 111.1,
+        "duration": 1.8,
+        "text": "special in the first place."
+      },
+      {
+        "start": 112.9,
+        "duration": 0.9,
+        "text": "After we walk through it,"
+      },
+      {
+        "start": 113.8,
+        "duration": 1.5,
+        "text": "we'll talk about how this calculation"
+      },
+      {
+        "start": 115.3,
+        "duration": 1.4,
+        "text": "is one of the steps involved"
+      },
+      {
+        "start": 116.7,
+        "duration": 1.8,
+        "text": "in proving the central limit theorem."
+      },
+      {
+        "start": 118.5,
+        "duration": 1.6,
+        "text": "It's the step that answers the question"
+      },
+      {
+        "start": 120.1,
+        "duration": 4.0,
+        "text": "of why a Gaussian and not something else is the central limit."
+      },
+      {
+        "start": 124.1,
+        "duration": 1.4,
+        "text": "But first, let's dive in."
+      },
+      {
+        "start": 130.1,
+        "duration": 1.6,
+        "text": "The full formula for a Gaussian"
+      },
+      {
+        "start": 131.8,
+        "duration": 3.0,
+        "text": "is more complicated than just e to the negative x squared."
+      },
+      {
+        "start": 134.7,
+        "duration": 2.7,
+        "text": "The exponent is typically written as negative 1 half"
+      },
+      {
+        "start": 137.4,
+        "duration": 2.2,
+        "text": "times x divided by sigma squared,"
+      },
+      {
+        "start": 139.6,
+        "duration": 2.9,
+        "text": "where sigma describes the spread of the distribution,"
+      },
+      {
+        "start": 142.5,
+        "duration": 2.2,
+        "text": "specifically the standard deviation."
+      },
+      {
+        "start": 144.6,
+        "duration": 3.4,
+        "text": "All of this needs to be multiplied by a fraction on the front,"
+      },
+      {
+        "start": 148.0,
+        "duration": 2.4,
+        "text": "which is there to make sure that the area under the curve"
+      },
+      {
+        "start": 150.5,
+        "duration": 3.6,
+        "text": "is one, making it a valid probability distribution."
+      },
+      {
+        "start": 154.0,
+        "duration": 1.6,
+        "text": "And if you want to consider distributions"
+      },
+      {
+        "start": 155.6,
+        "duration": 2.1,
+        "text": "that aren't necessarily centered at zero,"
+      },
+      {
+        "start": 157.7,
+        "duration": 2.0,
+        "text": "you would also throw another parameter mu"
+      },
+      {
+        "start": 159.7,
+        "duration": 1.8,
+        "text": "into the exponent like this."
+      },
+      {
+        "start": 161.5,
+        "duration": 1.7,
+        "text": "Although, for everything we'll be doing here,"
+      },
+      {
+        "start": 163.2,
+        "duration": 3.0,
+        "text": "we just considered centered distributions."
+      },
+      {
+        "start": 166.2,
+        "duration": 2.3,
+        "text": "Now, if you look at our central goal for today,"
+      },
+      {
+        "start": 168.5,
+        "duration": 2.0,
+        "text": "which is to compute a convolution"
+      },
+      {
+        "start": 170.5,
+        "duration": 2.2,
+        "text": "between two Gaussian functions,"
+      },
+      {
+        "start": 172.7,
+        "duration": 1.6,
+        "text": "the direct way to do this would be"
+      },
+      {
+        "start": 174.3,
+        "duration": 2.2,
+        "text": "to take the definition of a convolution,"
+      },
+      {
+        "start": 176.5,
+        "duration": 2.8,
+        "text": "this integral expression we built up last video,"
+      },
+      {
+        "start": 179.3,
+        "duration": 2.8,
+        "text": "and then to plug in for each one of the functions involved,"
+      },
+      {
+        "start": 182.1,
+        "duration": 2.0,
+        "text": "the formula for a Gaussian."
+      },
+      {
+        "start": 184.2,
+        "duration": 2.4,
+        "text": "It's kind of a lot of symbols when you throw it all together,"
+      },
+      {
+        "start": 186.6,
+        "duration": 1.6,
+        "text": "but more than anything working this out"
+      },
+      {
+        "start": 188.2,
+        "duration": 2.4,
+        "text": "is an exercise in completing the square."
+      },
+      {
+        "start": 190.6,
+        "duration": 1.1,
+        "text": "And there's nothing wrong with that."
+      },
+      {
+        "start": 191.7,
+        "duration": 2.1,
+        "text": "That will get you the answer that you want."
+      },
+      {
+        "start": 193.8,
+        "duration": 2.9,
+        "text": "But of course, you know me, I'm a sucker for visual intuition."
+      },
+      {
+        "start": 196.7,
+        "duration": 2.2,
+        "text": "And in this case, there's another way to think about it"
+      },
+      {
+        "start": 198.8,
+        "duration": 2.1,
+        "text": "that I haven't seen written about before,"
+      },
+      {
+        "start": 200.9,
+        "duration": 1.4,
+        "text": "that offers a very nice connection"
+      },
+      {
+        "start": 202.3,
+        "duration": 2.1,
+        "text": "to other aspects of this distribution,"
+      },
+      {
+        "start": 204.4,
+        "duration": 1.8,
+        "text": "like the presence of pi and certain ways"
+      },
+      {
+        "start": 206.3,
+        "duration": 1.9,
+        "text": "to derive where it comes from."
+      },
+      {
+        "start": 208.1,
+        "duration": 2.3,
+        "text": "And the way I'd like to do this is by first peeling away"
+      },
+      {
+        "start": 210.4,
+        "duration": 3.1,
+        "text": "all of the constants associated with the actual distribution"
+      },
+      {
+        "start": 213.5,
+        "duration": 3.2,
+        "text": "and just showing the computation for the simplified form,"
+      },
+      {
+        "start": 216.7,
+        "duration": 1.6,
+        "text": "e to the negative x squared."
+      },
+      {
+        "start": 218.3,
+        "duration": 1.9,
+        "text": "The essence of what we want to compute"
+      },
+      {
+        "start": 220.2,
+        "duration": 2.2,
+        "text": "is what the convolution between two copies"
+      },
+      {
+        "start": 222.4,
+        "duration": 2.3,
+        "text": "of this function looks like."
+      },
+      {
+        "start": 224.7,
+        "duration": 1.5,
+        "text": "If you'll remember, in the last video,"
+      },
+      {
+        "start": 226.2,
+        "duration": 3.0,
+        "text": "we had two different ways to visualize convolutions."
+      },
+      {
+        "start": 229.2,
+        "duration": 2.2,
+        "text": "And the one we'll be using here is the second one,"
+      },
+      {
+        "start": 231.4,
+        "duration": 1.9,
+        "text": "involving diagonal slices."
+      },
+      {
+        "start": 233.3,
+        "duration": 2.5,
+        "text": "And as a quick reminder of the way that worked,"
+      },
+      {
+        "start": 235.8,
+        "duration": 2.2,
+        "text": "if you have two different distributions"
+      },
+      {
+        "start": 238.0,
+        "duration": 3.2,
+        "text": "that are described by two different functions, f and g,"
+      },
+      {
+        "start": 241.2,
+        "duration": 3.0,
+        "text": "then every possible pair of values that you might get"
+      },
+      {
+        "start": 244.2,
+        "duration": 2.4,
+        "text": "when you sample from these two distributions"
+      },
+      {
+        "start": 246.5,
+        "duration": 3.7,
+        "text": "can be thought of as individual points on the xy plane."
+      },
+      {
+        "start": 250.3,
+        "duration": 3.6,
+        "text": "And the probability density of landing on one such point,"
+      },
+      {
+        "start": 253.8,
+        "duration": 4.1,
+        "text": "assuming independence, looks like f of x times g of y."
+      },
+      {
+        "start": 257.9,
+        "duration": 3.2,
+        "text": "So what we do is we look at a graph of that expression"
+      },
+      {
+        "start": 261.1,
+        "duration": 2.8,
+        "text": "as a two variable function of x and y, which"
+      },
+      {
+        "start": 263.9,
+        "duration": 3.4,
+        "text": "is a way of showing the distribution of all possible outcomes"
+      },
+      {
+        "start": 267.3,
+        "duration": 3.2,
+        "text": "when we sample from the two different variables."
+      },
+      {
+        "start": 270.6,
+        "duration": 2.4,
+        "text": "To interpret the convolution of f and g,"
+      },
+      {
+        "start": 273.0,
+        "duration": 3.4,
+        "text": "evaluated on some input s, which is a way of saying,"
+      },
+      {
+        "start": 276.3,
+        "duration": 2.4,
+        "text": "how likely are you to get a pair of samples that"
+      },
+      {
+        "start": 278.8,
+        "duration": 2.3,
+        "text": "adds up to this sum s?"
+      },
+      {
+        "start": 281.1,
+        "duration": 2.8,
+        "text": "What you do is you look at a slice of this graph"
+      },
+      {
+        "start": 283.8,
+        "duration": 3.0,
+        "text": "over the line x plus y equals s."
+      },
+      {
+        "start": 286.8,
+        "duration": 4.6,
+        "text": "And you consider the area under that slice."
+      },
+      {
+        "start": 291.3,
+        "duration": 2.8,
+        "text": "This area is almost, but not quite,"
+      },
+      {
+        "start": 294.1,
+        "duration": 2.7,
+        "text": "the value of the convolution at s."
+      },
+      {
+        "start": 296.8,
+        "duration": 1.6,
+        "text": "For a mildly technical reason, you"
+      },
+      {
+        "start": 298.4,
+        "duration": 2.4,
+        "text": "need to divide by the square root of 2."
+      },
+      {
+        "start": 300.8,
+        "duration": 2.8,
+        "text": "Still, this area is the key feature to focus on."
+      },
+      {
+        "start": 303.7,
+        "duration": 2.2,
+        "text": "You can think of it as a way to combine together"
+      },
+      {
+        "start": 305.9,
+        "duration": 3.4,
+        "text": "all the probability densities for all of the outcomes"
+      },
+      {
+        "start": 309.2,
+        "duration": 1.7,
+        "text": "corresponding to a given sum."
+      },
+      {
+        "start": 313.6,
+        "duration": 2.3,
+        "text": "In the specific case, where these two functions"
+      },
+      {
+        "start": 315.9,
+        "duration": 2.1,
+        "text": "look like e to the negative x squared"
+      },
+      {
+        "start": 318.0,
+        "duration": 2.0,
+        "text": "and e to the negative y squared,"
+      },
+      {
+        "start": 320.0,
+        "duration": 2.7,
+        "text": "the resulting 3D graph has a really nice property"
+      },
+      {
+        "start": 322.7,
+        "duration": 1.3,
+        "text": "that you can exploit."
+      },
+      {
+        "start": 324.0,
+        "duration": 3.3,
+        "text": "It's rotationally symmetric."
+      },
+      {
+        "start": 327.3,
+        "duration": 2.0,
+        "text": "You can see this by combining the terms"
+      },
+      {
+        "start": 329.2,
+        "duration": 2.7,
+        "text": "and noticing that it's entirely a function of x squared"
+      },
+      {
+        "start": 331.9,
+        "duration": 1.2,
+        "text": "plus y squared."
+      },
+      {
+        "start": 333.1,
+        "duration": 2.6,
+        "text": "And this term describes the square of the distance"
+      },
+      {
+        "start": 335.7,
+        "duration": 3.4,
+        "text": "between any point on the x y plane and the origin."
+      },
+      {
+        "start": 339.1,
+        "duration": 1.4,
+        "text": "So in other words, the expression"
+      },
+      {
+        "start": 340.5,
+        "duration": 4.0,
+        "text": "is purely a function of the distance from the origin."
+      },
+      {
+        "start": 344.5,
+        "duration": 2.0,
+        "text": "And by the way, this would not be true"
+      },
+      {
+        "start": 346.5,
+        "duration": 1.8,
+        "text": "for any other distribution."
+      },
+      {
+        "start": 348.3,
+        "duration": 4.8,
+        "text": "It's a property that uniquely characterizes bell curves."
+      },
+      {
+        "start": 353.2,
+        "duration": 1.9,
+        "text": "So for most other pairs of functions,"
+      },
+      {
+        "start": 355.1,
+        "duration": 2.8,
+        "text": "these diagonal slices will be some complicated shape"
+      },
+      {
+        "start": 357.9,
+        "duration": 1.5,
+        "text": "that's hard to think about."
+      },
+      {
+        "start": 359.4,
+        "duration": 1.6,
+        "text": "And honestly, calculating the area"
+      },
+      {
+        "start": 361.1,
+        "duration": 2.4,
+        "text": "would just amount to computing the original integral"
+      },
+      {
+        "start": 363.4,
+        "duration": 2.4,
+        "text": "that defines a convolution in the first place."
+      },
+      {
+        "start": 365.8,
+        "duration": 2.2,
+        "text": "So in most cases, the visual intuition"
+      },
+      {
+        "start": 367.9,
+        "duration": 2.3,
+        "text": "doesn't really buy you anything."
+      },
+      {
+        "start": 370.3,
+        "duration": 1.8,
+        "text": "But in the case of bell curves,"
+      },
+      {
+        "start": 372.1,
+        "duration": 2.6,
+        "text": "you can leverage that rotational symmetry."
+      },
+      {
+        "start": 374.7,
+        "duration": 2.1,
+        "text": "Here, focus on one of these slices"
+      },
+      {
+        "start": 376.8,
+        "duration": 4.4,
+        "text": "over the line x plus y equals s for some value of s."
+      },
+      {
+        "start": 381.2,
+        "duration": 3.1,
+        "text": "And remember, the convolution that we're trying to compute"
+      },
+      {
+        "start": 384.3,
+        "duration": 1.9,
+        "text": "is a function of s."
+      },
+      {
+        "start": 386.3,
+        "duration": 2.4,
+        "text": "The thing that you want is an expression of s"
+      },
+      {
+        "start": 388.7,
+        "duration": 3.4,
+        "text": "that tells you the area under this slice."
+      },
+      {
+        "start": 392.1,
+        "duration": 2.8,
+        "text": "Well, if you look at that line, it intersects the x-axis"
+      },
+      {
+        "start": 394.8,
+        "duration": 3.7,
+        "text": "at s0 and the y-axis at 0s."
+      },
+      {
+        "start": 398.5,
+        "duration": 1.6,
+        "text": "And a little bit of Pythagoras will show you"
+      },
+      {
+        "start": 400.1,
+        "duration": 2.2,
+        "text": "that the straight line distance from the origin"
+      },
+      {
+        "start": 402.2,
+        "duration": 3.6,
+        "text": "to this line is s divided by the square root of 2."
+      },
+      {
+        "start": 405.8,
+        "duration": 2.0,
+        "text": "Now, because of the symmetry, this slice"
+      },
+      {
+        "start": 407.8,
+        "duration": 3.9,
+        "text": "is identical to one that you get rotating 45 degrees,"
+      },
+      {
+        "start": 411.7,
+        "duration": 2.8,
+        "text": "where you'd find something parallel to the y-axis,"
+      },
+      {
+        "start": 414.6,
+        "duration": 3.0,
+        "text": "the same distance away from the origin."
+      },
+      {
+        "start": 417.6,
+        "duration": 2.3,
+        "text": "The key is that computing this other area"
+      },
+      {
+        "start": 419.9,
+        "duration": 3.3,
+        "text": "of a slice parallel to the y-axis is much, much easier"
+      },
+      {
+        "start": 423.2,
+        "duration": 1.8,
+        "text": "than slices in other directions,"
+      },
+      {
+        "start": 424.9,
+        "duration": 2.8,
+        "text": "because it only involves taking an integral with respect"
+      },
+      {
+        "start": 427.7,
+        "duration": 1.2,
+        "text": "to y."
+      },
+      {
+        "start": 428.9,
+        "duration": 3.3,
+        "text": "The value of x on this slice is a constant, specifically,"
+      },
+      {
+        "start": 432.2,
+        "duration": 3.2,
+        "text": "it would be the constant s divided by the square root of 2."
+      },
+      {
+        "start": 435.3,
+        "duration": 3.3,
+        "text": "So when you're computing the integral, finding this area,"
+      },
+      {
+        "start": 438.6,
+        "duration": 3.5,
+        "text": "all of this term here behaves like it was just some number,"
+      },
+      {
+        "start": 442.1,
+        "duration": 1.6,
+        "text": "and you can factor it out."
+      },
+      {
+        "start": 443.7,
+        "duration": 1.5,
+        "text": "This is the important point."
+      },
+      {
+        "start": 445.2,
+        "duration": 1.8,
+        "text": "All of the stuff that's involving s"
+      },
+      {
+        "start": 447.1,
+        "duration": 3.7,
+        "text": "is now entirely separate from the integrated variable."
+      },
+      {
+        "start": 450.7,
+        "duration": 2.3,
+        "text": "This remaining integral is a little bit tricky."
+      },
+      {
+        "start": 453.1,
+        "duration": 1.1,
+        "text": "I did a whole video on it."
+      },
+      {
+        "start": 454.2,
+        "duration": 1.4,
+        "text": "It's actually quite famous."
+      },
+      {
+        "start": 455.6,
+        "duration": 1.7,
+        "text": "But you almost don't really care."
+      },
+      {
+        "start": 457.3,
+        "duration": 2.2,
+        "text": "The point is that it's just some number."
+      },
+      {
+        "start": 459.5,
+        "duration": 2.4,
+        "text": "That number happens to be the square root of pi,"
+      },
+      {
+        "start": 461.9,
+        "duration": 2.1,
+        "text": "but what really matters is that it's something"
+      },
+      {
+        "start": 464.0,
+        "duration": 1.7,
+        "text": "with no dependence on s."
+      },
+      {
+        "start": 466.8,
+        "duration": 2.0,
+        "text": "And essentially, this is our answer."
+      },
+      {
+        "start": 468.8,
+        "duration": 2.0,
+        "text": "We were looking for an expression for the area"
+      },
+      {
+        "start": 470.8,
+        "duration": 3.5,
+        "text": "of these slices as a function of s, and now we have it."
+      },
+      {
+        "start": 474.3,
+        "duration": 3.4,
+        "text": "It looks like e to the negative s squared divided by 2,"
+      },
+      {
+        "start": 477.7,
+        "duration": 1.6,
+        "text": "scaled by some constant."
+      },
+      {
+        "start": 479.3,
+        "duration": 3.6,
+        "text": "In other words, it's also a bell curve, another Gaussian,"
+      },
+      {
+        "start": 482.9,
+        "duration": 1.4,
+        "text": "just stretched out a little bit"
+      },
+      {
+        "start": 484.2,
+        "duration": 2.2,
+        "text": "because of this 2 in the exponent."
+      },
+      {
+        "start": 486.4,
+        "duration": 3.1,
+        "text": "As I said earlier, the convolution evaluated at s"
+      },
+      {
+        "start": 489.5,
+        "duration": 1.8,
+        "text": "is not quite this area."
+      },
+      {
+        "start": 491.3,
+        "duration": 3.5,
+        "text": "Technically, it's this area divided by the square root of 2."
+      },
+      {
+        "start": 494.7,
+        "duration": 1.5,
+        "text": "We talked about it in the last video,"
+      },
+      {
+        "start": 496.2,
+        "duration": 2.3,
+        "text": "but it doesn't really matter because it just gets baked"
+      },
+      {
+        "start": 498.5,
+        "duration": 1.1,
+        "text": "into the constant."
+      },
+      {
+        "start": 499.6,
+        "duration": 1.9,
+        "text": "What really matters is the conclusion"
+      },
+      {
+        "start": 501.5,
+        "duration": 2.4,
+        "text": "that a convolution between two Gaussian's"
+      },
+      {
+        "start": 503.9,
+        "duration": 1.8,
+        "text": "is itself another Gaussian."
+      },
+      {
+        "start": 507.9,
+        "duration": 2.4,
+        "text": "If you were to go back and reintroduce all of the constants"
+      },
+      {
+        "start": 510.3,
+        "duration": 2.5,
+        "text": "for a normal distribution with a mean zero"
+      },
+      {
+        "start": 512.9,
+        "duration": 2.6,
+        "text": "and an arbitrary standard deviation sigma,"
+      },
+      {
+        "start": 515.5,
+        "duration": 2.2,
+        "text": "essentially identical reasoning will lead"
+      },
+      {
+        "start": 517.7,
+        "duration": 1.8,
+        "text": "to the same square root of 2 factor"
+      },
+      {
+        "start": 519.5,
+        "duration": 2.0,
+        "text": "that shows up in the exponent and out front."
+      },
+      {
+        "start": 521.5,
+        "duration": 2.2,
+        "text": "And it leads to the conclusion that the convolution"
+      },
+      {
+        "start": 523.7,
+        "duration": 1.9,
+        "text": "between two such normal distributions"
+      },
+      {
+        "start": 525.5,
+        "duration": 3.1,
+        "text": "is another normal distribution with a standard deviation"
+      },
+      {
+        "start": 528.7,
+        "duration": 2.3,
+        "text": "square root of 2 times sigma."
+      },
+      {
+        "start": 530.9,
+        "duration": 1.9,
+        "text": "If you haven't computed a lot of convolutions"
+      },
+      {
+        "start": 532.9,
+        "duration": 1.9,
+        "text": "before, it's worth emphasizing this"
+      },
+      {
+        "start": 534.7,
+        "duration": 1.6,
+        "text": "is a very special result."
+      },
+      {
+        "start": 536.3,
+        "duration": 2.6,
+        "text": "Almost always you end up with a completely different kind"
+      },
+      {
+        "start": 539.0,
+        "duration": 0.9,
+        "text": "of function."
+      },
+      {
+        "start": 539.9,
+        "duration": 3.6,
+        "text": "But here, there's a sort of stability to the process."
+      },
+      {
+        "start": 543.5,
+        "duration": 1.9,
+        "text": "Also, for those of you who enjoy exercises,"
+      },
+      {
+        "start": 545.4,
+        "duration": 1.4,
+        "text": "I'll leave one up on the screen for how"
+      },
+      {
+        "start": 546.7,
+        "duration": 3.6,
+        "text": "you would handle the case of two different standard deviations."
+      },
+      {
+        "start": 550.3,
+        "duration": 1.9,
+        "text": "Still, some of you might be raising your hands"
+      },
+      {
+        "start": 552.2,
+        "duration": 2.2,
+        "text": "and saying, what's the big deal?"
+      },
+      {
+        "start": 554.4,
+        "duration": 1.7,
+        "text": "I mean, when you first heard the question,"
+      },
+      {
+        "start": 556.1,
+        "duration": 2.4,
+        "text": "what do you get when you add two normally distributed"
+      },
+      {
+        "start": 558.6,
+        "duration": 1.2,
+        "text": "random variables?"
+      },
+      {
+        "start": 559.7,
+        "duration": 2.5,
+        "text": "You probably even guessed that the answer should be"
+      },
+      {
+        "start": 562.3,
+        "duration": 2.4,
+        "text": "another normally distributed variable."
+      },
+      {
+        "start": 564.7,
+        "duration": 2.1,
+        "text": "After all, what else is it going to be?"
+      },
+      {
+        "start": 566.8,
+        "duration": 2.4,
+        "text": "Normal distributions are supposedly quite common,"
+      },
+      {
+        "start": 569.2,
+        "duration": 1.3,
+        "text": "so why not?"
+      },
+      {
+        "start": 570.5,
+        "duration": 1.7,
+        "text": "And you could even say that this should follow"
+      },
+      {
+        "start": 572.2,
+        "duration": 1.7,
+        "text": "from the central limit theorem."
+      },
+      {
+        "start": 573.9,
+        "duration": 2.2,
+        "text": "But that would have it all backwards."
+      },
+      {
+        "start": 576.1,
+        "duration": 3.0,
+        "text": "First of all, the supposed ubiquity of normal distributions"
+      },
+      {
+        "start": 579.1,
+        "duration": 1.9,
+        "text": "is often a little exaggerated."
+      },
+      {
+        "start": 580.9,
+        "duration": 2.0,
+        "text": "But to the extent that they do come up,"
+      },
+      {
+        "start": 582.9,
+        "duration": 2.3,
+        "text": "it is because of the central limit theorem."
+      },
+      {
+        "start": 585.2,
+        "duration": 2.1,
+        "text": "But it would be cheating to say the central limit theorem"
+      },
+      {
+        "start": 587.3,
+        "duration": 3.3,
+        "text": "implies this result, because this computation we just did"
+      },
+      {
+        "start": 590.5,
+        "duration": 2.6,
+        "text": "is the reason that the function at the heart of the central"
+      },
+      {
+        "start": 593.2,
+        "duration": 2.6,
+        "text": "limit theorem is a Gaussian in the first place"
+      },
+      {
+        "start": 595.8,
+        "duration": 2.2,
+        "text": "and not some other function."
+      },
+      {
+        "start": 597.9,
+        "duration": 1.9,
+        "text": "We've talked all about the central limit theorem"
+      },
+      {
+        "start": 599.9,
+        "duration": 3.4,
+        "text": "before, but essentially it says, if you repeatedly add copies"
+      },
+      {
+        "start": 603.3,
+        "duration": 3.3,
+        "text": "of a random variable to itself, which mathematically looks"
+      },
+      {
+        "start": 606.6,
+        "duration": 2.2,
+        "text": "like repeatedly computing convolutions"
+      },
+      {
+        "start": 608.8,
+        "duration": 3.2,
+        "text": "against a given distribution, then after appropriate shifting"
+      },
+      {
+        "start": 612.0,
+        "duration": 2.7,
+        "text": "and rescaling, the tendency is always"
+      },
+      {
+        "start": 614.7,
+        "duration": 2.2,
+        "text": "to approach a normal distribution."
+      },
+      {
+        "start": 616.9,
+        "duration": 1.7,
+        "text": "Technically, there's a small assumption."
+      },
+      {
+        "start": 618.6,
+        "duration": 2.9,
+        "text": "The distribution you start with can't have infinite variance,"
+      },
+      {
+        "start": 621.5,
+        "duration": 2.0,
+        "text": "but it's a relatively soft assumption."
+      },
+      {
+        "start": 623.5,
+        "duration": 2.4,
+        "text": "The magic is that for a huge category"
+      },
+      {
+        "start": 625.9,
+        "duration": 2.1,
+        "text": "of initial distributions, this process"
+      },
+      {
+        "start": 628.0,
+        "duration": 2.1,
+        "text": "of adding a whole bunch of random variables"
+      },
+      {
+        "start": 630.1,
+        "duration": 2.1,
+        "text": "drawn from that distribution always"
+      },
+      {
+        "start": 632.2,
+        "duration": 3.5,
+        "text": "tends towards this one universal shape, a Gaussian."
+      },
+      {
+        "start": 635.7,
+        "duration": 2.2,
+        "text": "One common approach to proving this theorem"
+      },
+      {
+        "start": 637.9,
+        "duration": 1.7,
+        "text": "involves two separate steps."
+      },
+      {
+        "start": 639.5,
+        "duration": 3.0,
+        "text": "The first step is to show that for all the different finite variance"
+      },
+      {
+        "start": 642.5,
+        "duration": 1.7,
+        "text": "distributions you might start with,"
+      },
+      {
+        "start": 644.2,
+        "duration": 2.4,
+        "text": "there exists a single universal shape"
+      },
+      {
+        "start": 646.6,
+        "duration": 4.0,
+        "text": "that this process of repeated convolutions tends towards."
+      },
+      {
+        "start": 650.5,
+        "duration": 1.6,
+        "text": "This step is actually pretty technical."
+      },
+      {
+        "start": 652.2,
+        "duration": 2.2,
+        "text": "It goes a little beyond what I want to talk about here."
+      },
+      {
+        "start": 654.4,
+        "duration": 3.1,
+        "text": "You often use these objects called moment generating functions"
+      },
+      {
+        "start": 657.5,
+        "duration": 2.0,
+        "text": "that gives you a very abstract argument"
+      },
+      {
+        "start": 659.5,
+        "duration": 2.0,
+        "text": "that there must be some universal shape,"
+      },
+      {
+        "start": 661.5,
+        "duration": 1.8,
+        "text": "but it doesn't make any claim about what"
+      },
+      {
+        "start": 663.3,
+        "duration": 3.6,
+        "text": "that particular shape is, just that everything in this big family"
+      },
+      {
+        "start": 666.9,
+        "duration": 3.6,
+        "text": "is tending towards a single point in the space of distributions."
+      },
+      {
+        "start": 670.5,
+        "duration": 3.0,
+        "text": "So then step number two is what we just showed in this video."
+      },
+      {
+        "start": 673.5,
+        "duration": 4.2,
+        "text": "Prove that the convolution of two Gaussians gives another Gaussian."
+      },
+      {
+        "start": 677.8,
+        "duration": 4.0,
+        "text": "What that means is that as you apply this process of repeated convolutions,"
+      },
+      {
+        "start": 681.7,
+        "duration": 1.3,
+        "text": "a Gaussian doesn't change."
+      },
+      {
+        "start": 683.1,
+        "duration": 1.2,
+        "text": "It's a fixed point."
+      },
+      {
+        "start": 684.2,
+        "duration": 2.8,
+        "text": "So the only thing it can approach is itself."
+      },
+      {
+        "start": 687.1,
+        "duration": 2.9,
+        "text": "And since it's one member in this big family of distributions,"
+      },
+      {
+        "start": 690.0,
+        "duration": 3.0,
+        "text": "all of which must be tending towards a single universal shape,"
+      },
+      {
+        "start": 693.0,
+        "duration": 2.5,
+        "text": "it must be that universal shape."
+      },
+      {
+        "start": 695.5,
+        "duration": 2.7,
+        "text": "I mentioned at the start how this calculation, step two,"
+      },
+      {
+        "start": 698.2,
+        "duration": 1.8,
+        "text": "is something that you can do directly,"
+      },
+      {
+        "start": 700.0,
+        "duration": 2.1,
+        "text": "just symbolically with the definitions."
+      },
+      {
+        "start": 702.1,
+        "duration": 3.2,
+        "text": "But one of the reasons I'm so charmed by a geometric argument"
+      },
+      {
+        "start": 705.3,
+        "duration": 3.2,
+        "text": "that leverages the rotational symmetry of this graph"
+      },
+      {
+        "start": 708.5,
+        "duration": 2.0,
+        "text": "is that it directly connects to a few things"
+      },
+      {
+        "start": 710.5,
+        "duration": 2.2,
+        "text": "that we've talked about on this channel before."
+      },
+      {
+        "start": 712.7,
+        "duration": 3.4,
+        "text": "For example, the Herschel Maxwell derivation of a Gaussian,"
+      },
+      {
+        "start": 716.1,
+        "duration": 3.5,
+        "text": "which essentially says that you can view this rotational symmetry"
+      },
+      {
+        "start": 719.6,
+        "duration": 2.6,
+        "text": "as the defining feature of the distribution."
+      },
+      {
+        "start": 722.2,
+        "duration": 3.5,
+        "text": "That it locks you into this e to the negative x squared form."
+      },
+      {
+        "start": 725.7,
+        "duration": 3.0,
+        "text": "And also as an added bonus, it connects to the classic proof"
+      },
+      {
+        "start": 728.8,
+        "duration": 2.2,
+        "text": "for why pi shows up in the formula,"
+      },
+      {
+        "start": 730.9,
+        "duration": 2.4,
+        "text": "meaning we now have a direct line between the presence"
+      },
+      {
+        "start": 733.4,
+        "duration": 3.5,
+        "text": "and mystery of that pi and the central limit theorem."
+      },
+      {
+        "start": 736.9,
+        "duration": 2.6,
+        "text": "Also on a recent Patreon post, the channel supporter,"
+      },
+      {
+        "start": 739.5,
+        "duration": 2.1,
+        "text": "Dr. Veid Quinter, brought my attention"
+      },
+      {
+        "start": 741.6,
+        "duration": 2.3,
+        "text": "to a completely different approach I hadn't seen before,"
+      },
+      {
+        "start": 743.9,
+        "duration": 2.2,
+        "text": "which leverages the use of entropy."
+      },
+      {
+        "start": 746.1,
+        "duration": 2.1,
+        "text": "And again, for the theoretically curious among you,"
+      },
+      {
+        "start": 748.2,
+        "duration": 2.8,
+        "text": "I'll leave some links in the description."
+      },
+      {
+        "start": 750.9,
+        "duration": 2.3,
+        "text": "By the way, if you want to stay up to date with new videos"
+      },
+      {
+        "start": 753.2,
+        "duration": 2.3,
+        "text": "and also any other projects that I put out there"
+      },
+      {
+        "start": 755.5,
+        "duration": 3.1,
+        "text": "like the Summer of Math Exposition, there is a mailing list."
+      },
+      {
+        "start": 758.7,
+        "duration": 2.0,
+        "text": "It's relatively new, and I'm pretty sparing"
+      },
+      {
+        "start": 760.7,
+        "duration": 2.5,
+        "text": "about only posting what I think people will enjoy."
+      },
+      {
+        "start": 763.2,
+        "duration": 1.8,
+        "text": "Usually I try not to be too promotional"
+      },
+      {
+        "start": 765.0,
+        "duration": 1.5,
+        "text": "at the end of videos these days,"
+      },
+      {
+        "start": 766.5,
+        "duration": 2.5,
+        "text": "but if you are interested in following the work that I do,"
+      },
+      {
+        "start": 769.0,
+        "duration": 2.8,
+        "text": "this is probably one of the most enduring ways to do so."
+      }
+    ],
+    "full_text": "The basic function underlying a normal distribution, aka a Gaussian, is e to the negative x squared. But you might wonder why this function? Of all the expressions we could dream up that give you some symmetric smooth graph with mass concentrated towards the middle, why is it that the theory of probability seems to have a special place in its heart for this particular expression? For the last many videos, I've been hinting at an answer to this question, and here we'll finally arrive at something like a satisfying answer. As a quick refresher on where we are, a couple videos ago, we talked about the central limit theorem, which describes how as you add multiple copies of a random variable, for example, rolling a weighted die many different times, or letting a ball bounce off of a peg repeatedly, then the distribution describing that sum tends to look approximately like a normal distribution. What the central limit theorem says is as you make that sum bigger and bigger under appropriate conditions, that approximation to a normal becomes better and better. But I never explained why this theorem is actually true. We only talked about what it's claiming. In the last video, we started talking about the math involved in adding two random variables. If you have two random variables, each following some distribution, then to find the distribution describing the sum of those variables, you compute something known as a convolution between the two original functions. And we spent a lot of time building up two distinct ways to visualize what this convolution operation really is. Today, our basic job is to work through a particular example, which is to ask, what happens when you add to normally distributed random variables? Which, as you know by now, is the same as asking, what do you get if you compute a convolution between two Gaussian functions? I'd like to share an especially pleasing visual way that you can think about this calculation, which hopefully offers some sense of what makes the e to the negative x squared function special in the first place. After we walk through it, we'll talk about how this calculation is one of the steps involved in proving the central limit theorem. It's the step that answers the question of why a Gaussian and not something else is the central limit. But first, let's dive in. The full formula for a Gaussian is more complicated than just e to the negative x squared. The exponent is typically written as negative 1 half times x divided by sigma squared, where sigma describes the spread of the distribution, specifically the standard deviation. All of this needs to be multiplied by a fraction on the front, which is there to make sure that the area under the curve is one, making it a valid probability distribution. And if you want to consider distributions that aren't necessarily centered at zero, you would also throw another parameter mu into the exponent like this. Although, for everything we'll be doing here, we just considered centered distributions. Now, if you look at our central goal for today, which is to compute a convolution between two Gaussian functions, the direct way to do this would be to take the definition of a convolution, this integral expression we built up last video, and then to plug in for each one of the functions involved, the formula for a Gaussian. It's kind of a lot of symbols when you throw it all together, but more than anything working this out is an exercise in completing the square. And there's nothing wrong with that. That will get you the answer that you want. But of course, you know me, I'm a sucker for visual intuition. And in this case, there's another way to think about it that I haven't seen written about before, that offers a very nice connection to other aspects of this distribution, like the presence of pi and certain ways to derive where it comes from. And the way I'd like to do this is by first peeling away all of the constants associated with the actual distribution and just showing the computation for the simplified form, e to the negative x squared. The essence of what we want to compute is what the convolution between two copies of this function looks like. If you'll remember, in the last video, we had two different ways to visualize convolutions. And the one we'll be using here is the second one, involving diagonal slices. And as a quick reminder of the way that worked, if you have two different distributions that are described by two different functions, f and g, then every possible pair of values that you might get when you sample from these two distributions can be thought of as individual points on the xy plane. And the probability density of landing on one such point, assuming independence, looks like f of x times g of y. So what we do is we look at a graph of that expression as a two variable function of x and y, which is a way of showing the distribution of all possible outcomes when we sample from the two different variables. To interpret the convolution of f and g, evaluated on some input s, which is a way of saying, how likely are you to get a pair of samples that adds up to this sum s? What you do is you look at a slice of this graph over the line x plus y equals s. And you consider the area under that slice. This area is almost, but not quite, the value of the convolution at s. For a mildly technical reason, you need to divide by the square root of 2. Still, this area is the key feature to focus on. You can think of it as a way to combine together all the probability densities for all of the outcomes corresponding to a given sum. In the specific case, where these two functions look like e to the negative x squared and e to the negative y squared, the resulting 3D graph has a really nice property that you can exploit. It's rotationally symmetric. You can see this by combining the terms and noticing that it's entirely a function of x squared plus y squared. And this term describes the square of the distance between any point on the x y plane and the origin. So in other words, the expression is purely a function of the distance from the origin. And by the way, this would not be true for any other distribution. It's a property that uniquely characterizes bell curves. So for most other pairs of functions, these diagonal slices will be some complicated shape that's hard to think about. And honestly, calculating the area would just amount to computing the original integral that defines a convolution in the first place. So in most cases, the visual intuition doesn't really buy you anything. But in the case of bell curves, you can leverage that rotational symmetry. Here, focus on one of these slices over the line x plus y equals s for some value of s. And remember, the convolution that we're trying to compute is a function of s. The thing that you want is an expression of s that tells you the area under this slice. Well, if you look at that line, it intersects the x-axis at s0 and the y-axis at 0s. And a little bit of Pythagoras will show you that the straight line distance from the origin to this line is s divided by the square root of 2. Now, because of the symmetry, this slice is identical to one that you get rotating 45 degrees, where you'd find something parallel to the y-axis, the same distance away from the origin. The key is that computing this other area of a slice parallel to the y-axis is much, much easier than slices in other directions, because it only involves taking an integral with respect to y. The value of x on this slice is a constant, specifically, it would be the constant s divided by the square root of 2. So when you're computing the integral, finding this area, all of this term here behaves like it was just some number, and you can factor it out. This is the important point. All of the stuff that's involving s is now entirely separate from the integrated variable. This remaining integral is a little bit tricky. I did a whole video on it. It's actually quite famous. But you almost don't really care. The point is that it's just some number. That number happens to be the square root of pi, but what really matters is that it's something with no dependence on s. And essentially, this is our answer. We were looking for an expression for the area of these slices as a function of s, and now we have it. It looks like e to the negative s squared divided by 2, scaled by some constant. In other words, it's also a bell curve, another Gaussian, just stretched out a little bit because of this 2 in the exponent. As I said earlier, the convolution evaluated at s is not quite this area. Technically, it's this area divided by the square root of 2. We talked about it in the last video, but it doesn't really matter because it just gets baked into the constant. What really matters is the conclusion that a convolution between two Gaussian's is itself another Gaussian. If you were to go back and reintroduce all of the constants for a normal distribution with a mean zero and an arbitrary standard deviation sigma, essentially identical reasoning will lead to the same square root of 2 factor that shows up in the exponent and out front. And it leads to the conclusion that the convolution between two such normal distributions is another normal distribution with a standard deviation square root of 2 times sigma. If you haven't computed a lot of convolutions before, it's worth emphasizing this is a very special result. Almost always you end up with a completely different kind of function. But here, there's a sort of stability to the process. Also, for those of you who enjoy exercises, I'll leave one up on the screen for how you would handle the case of two different standard deviations. Still, some of you might be raising your hands and saying, what's the big deal? I mean, when you first heard the question, what do you get when you add two normally distributed random variables? You probably even guessed that the answer should be another normally distributed variable. After all, what else is it going to be? Normal distributions are supposedly quite common, so why not? And you could even say that this should follow from the central limit theorem. But that would have it all backwards. First of all, the supposed ubiquity of normal distributions is often a little exaggerated. But to the extent that they do come up, it is because of the central limit theorem. But it would be cheating to say the central limit theorem implies this result, because this computation we just did is the reason that the function at the heart of the central limit theorem is a Gaussian in the first place and not some other function. We've talked all about the central limit theorem before, but essentially it says, if you repeatedly add copies of a random variable to itself, which mathematically looks like repeatedly computing convolutions against a given distribution, then after appropriate shifting and rescaling, the tendency is always to approach a normal distribution. Technically, there's a small assumption. The distribution you start with can't have infinite variance, but it's a relatively soft assumption. The magic is that for a huge category of initial distributions, this process of adding a whole bunch of random variables drawn from that distribution always tends towards this one universal shape, a Gaussian. One common approach to proving this theorem involves two separate steps. The first step is to show that for all the different finite variance distributions you might start with, there exists a single universal shape that this process of repeated convolutions tends towards. This step is actually pretty technical. It goes a little beyond what I want to talk about here. You often use these objects called moment generating functions that gives you a very abstract argument that there must be some universal shape, but it doesn't make any claim about what that particular shape is, just that everything in this big family is tending towards a single point in the space of distributions. So then step number two is what we just showed in this video. Prove that the convolution of two Gaussians gives another Gaussian. What that means is that as you apply this process of repeated convolutions, a Gaussian doesn't change. It's a fixed point. So the only thing it can approach is itself. And since it's one member in this big family of distributions, all of which must be tending towards a single universal shape, it must be that universal shape. I mentioned at the start how this calculation, step two, is something that you can do directly, just symbolically with the definitions. But one of the reasons I'm so charmed by a geometric argument that leverages the rotational symmetry of this graph is that it directly connects to a few things that we've talked about on this channel before. For example, the Herschel Maxwell derivation of a Gaussian, which essentially says that you can view this rotational symmetry as the defining feature of the distribution. That it locks you into this e to the negative x squared form. And also as an added bonus, it connects to the classic proof for why pi shows up in the formula, meaning we now have a direct line between the presence and mystery of that pi and the central limit theorem. Also on a recent Patreon post, the channel supporter, Dr. Veid Quinter, brought my attention to a completely different approach I hadn't seen before, which leverages the use of entropy. And again, for the theoretically curious among you, I'll leave some links in the description. By the way, if you want to stay up to date with new videos and also any other projects that I put out there like the Summer of Math Exposition, there is a mailing list. It's relatively new, and I'm pretty sparing about only posting what I think people will enjoy. Usually I try not to be too promotional at the end of videos these days, but if you are interested in following the work that I do, this is probably one of the most enduring ways to do so."
+  }
+}

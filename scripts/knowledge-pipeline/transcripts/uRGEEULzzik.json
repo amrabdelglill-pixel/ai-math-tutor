@@ -1,0 +1,709 @@
+{
+  "video_id": "uRGEEULzzik",
+  "video_title": "AI & ML Engineer Roadmap For 2026 | Step-by-Step Guide for Beginners | AI & ML Roadmap | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 545.0,
+  "view_count": 5653,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.9,
+        "text": "Hello everyone and welcome to this video on AI and ML Engineer roadmap."
+      },
+      {
+        "start": 13.9,
+        "duration": 4.7,
+        "text": "Artificial intelligence and machine learning are not just training technologies anymore."
+      },
+      {
+        "start": 18.6,
+        "duration": 5.6,
+        "text": "They are becoming the backbone of every industry and right now the remind for AI and ML"
+      },
+      {
+        "start": 24.2,
+        "duration": 2.7,
+        "text": "engineers is exploding worldwide."
+      },
+      {
+        "start": 26.8,
+        "duration": 6.6,
+        "text": "In India AI engineers earn anywhere from 8 lakhs to 36 lakhs per year depending on skills"
+      },
+      {
+        "start": 33.4,
+        "duration": 1.6,
+        "text": "and experience."
+      },
+      {
+        "start": 35.0,
+        "duration": 6.1,
+        "text": "In the United States the same roles can start from $120,000 and can go all the way up to"
+      },
+      {
+        "start": 41.1,
+        "duration": 4.4,
+        "text": "$250,000 for senior and specialized positions."
+      },
+      {
+        "start": 45.5,
+        "duration": 5.2,
+        "text": "So if you have been thinking about getting into AI and ML, switching careers or upscaling"
+      },
+      {
+        "start": 50.7,
+        "duration": 4.3,
+        "text": "for higher paying opportunities that has never been a better time."
+      },
+      {
+        "start": 55.0,
+        "duration": 5.7,
+        "text": "And in this video I am giving you a complete, big and friendly and deeply practical AI"
+      },
+      {
+        "start": 60.8,
+        "duration": 5.4,
+        "text": "and ML Engineer roadmap that shows you exactly what to learn and how to grow in this booming"
+      },
+      {
+        "start": 66.1,
+        "duration": 1.0,
+        "text": "field."
+      },
+      {
+        "start": 67.1,
+        "duration": 4.5,
+        "text": "So before we begin please like, share and subscribe to Idureka's YouTube channel and"
+      },
+      {
+        "start": 71.6,
+        "duration": 4.3,
+        "text": "hit the bell icon to stay updated on the latest content from Idureka."
+      },
+      {
+        "start": 76.0,
+        "duration": 5.6,
+        "text": "Also, check out Idureka's post-graduate program in Generative AI and Machine Learning in"
+      },
+      {
+        "start": 81.6,
+        "duration": 2.2,
+        "text": "collaboration with Illinois Tech."
+      },
+      {
+        "start": 83.7,
+        "duration": 5.3,
+        "text": "It offers a unique opportunity to explore the cutting edge world of genetic AI and develop"
+      },
+      {
+        "start": 89.0,
+        "duration": 3.0,
+        "text": "advanced AI-powered solutions."
+      },
+      {
+        "start": 92.0,
+        "duration": 5.3,
+        "text": "This program covers in-demand topics including machine learning, deep learning, natural language"
+      },
+      {
+        "start": 97.3,
+        "duration": 7.3,
+        "text": "processing, prompt engineering, generative AI, LLMs, RAID, agentic AI and much more."
+      },
+      {
+        "start": 104.6,
+        "duration": 4.8,
+        "text": "Starting from industry experts through a curriculum built around real world, hands on use cases"
+      },
+      {
+        "start": 109.4,
+        "duration": 3.7,
+        "text": "designed to equip you with practical and job-ready skills."
+      },
+      {
+        "start": 113.1,
+        "duration": 3.6,
+        "text": "So check out the post-link given in the description box below."
+      },
+      {
+        "start": 116.7,
+        "duration": 5.5,
+        "text": "And now, the first step of your AI journey starts with the strong foundations."
+      },
+      {
+        "start": 122.2,
+        "duration": 2.8,
+        "text": "And no, you don't need to be a mathematician."
+      },
+      {
+        "start": 125.1,
+        "duration": 2.0,
+        "text": "You simply need the essentials."
+      },
+      {
+        "start": 127.1,
+        "duration": 6.7,
+        "text": "So start with Python because Python is the language that powers almost every modern AI system."
+      },
+      {
+        "start": 133.8,
+        "duration": 7.1,
+        "text": "You focus on the basics like variables, loops, functions, list, dictionaries, file handling"
+      },
+      {
+        "start": 140.9,
+        "duration": 2.3,
+        "text": "and how to work with APIs."
+      },
+      {
+        "start": 143.2,
+        "duration": 4.9,
+        "text": "So these skills are enough to write simple programs and understand AI code."
+      },
+      {
+        "start": 148.1,
+        "duration": 4.4,
+        "text": "Next, learn data handling because AI is built on data."
+      },
+      {
+        "start": 152.5,
+        "duration": 6.0,
+        "text": "Use pandas to clean and organize data, numpy to perform calculation and matplot, lab or"
+      },
+      {
+        "start": 158.5,
+        "duration": 2.7,
+        "text": "sea bond to visualize patterns."
+      },
+      {
+        "start": 161.2,
+        "duration": 4.7,
+        "text": "Learn simple tasks like removing missing values or analyzing sales trends will prepare"
+      },
+      {
+        "start": 165.9,
+        "duration": 2.7,
+        "text": "you for the real AI projects."
+      },
+      {
+        "start": 168.6,
+        "duration": 2.9,
+        "text": "Then learn the essential math behind AI."
+      },
+      {
+        "start": 171.5,
+        "duration": 3.2,
+        "text": "Not heavy equations, just the basic understanding."
+      },
+      {
+        "start": 174.7,
+        "duration": 6.4,
+        "text": "Understand mean, median, variance, probability basic, code relations and what vectors and matrices"
+      },
+      {
+        "start": 181.2,
+        "duration": 1.0,
+        "text": "are."
+      },
+      {
+        "start": 182.2,
+        "duration": 4.8,
+        "text": "Learn what gradient decent means conceptually so you understand how models learn without"
+      },
+      {
+        "start": 187.0,
+        "duration": 2.3,
+        "text": "getting buried in complex math."
+      },
+      {
+        "start": 189.3,
+        "duration": 3.4,
+        "text": "So once your foundations are ready, move to machine learning."
+      },
+      {
+        "start": 192.6,
+        "duration": 4.1,
+        "text": "ML is simply teaching computers to learn from examples."
+      },
+      {
+        "start": 196.7,
+        "duration": 5.4,
+        "text": "Instead of writing instruction, show the model real world data and let it find patterns."
+      },
+      {
+        "start": 202.1,
+        "duration": 5.7,
+        "text": "So learn key ML concepts like training and testing, accuracy and position, underfitting"
+      },
+      {
+        "start": 207.8,
+        "duration": 4.3,
+        "text": "and overfitting, cross validation and feature engineering."
+      },
+      {
+        "start": 212.1,
+        "duration": 5.6,
+        "text": "So these concepts helps you understand how to build, tune and improve models."
+      },
+      {
+        "start": 217.7,
+        "duration": 4.6,
+        "text": "Then learn the core ML algorithms that companies use every single day."
+      },
+      {
+        "start": 222.3,
+        "duration": 5.8,
+        "text": "So you need to start with linear regression, logistic regression, decision trees, random"
+      },
+      {
+        "start": 228.1,
+        "duration": 5.8,
+        "text": "forest, SVM, NAF base, K means clustering and PCA."
+      },
+      {
+        "start": 233.8,
+        "duration": 5.6,
+        "text": "These algorithms cover most practical business problems like predicting sales, detecting fraud,"
+      },
+      {
+        "start": 239.4,
+        "duration": 5.1,
+        "text": "segmenting customers and identifying patterns in large datasets."
+      },
+      {
+        "start": 244.6,
+        "duration": 6.3,
+        "text": "Then build small ML projects such as house price predictor, span email classifier, credit"
+      },
+      {
+        "start": 250.9,
+        "duration": 3.4,
+        "text": "score predictor or customer segmentation model."
+      },
+      {
+        "start": 254.2,
+        "duration": 4.5,
+        "text": "So these projects give you confidence and make your portfolio job ready."
+      },
+      {
+        "start": 258.7,
+        "duration": 2.3,
+        "text": "After ML, move into deep learning."
+      },
+      {
+        "start": 261.0,
+        "duration": 4.8,
+        "text": "The technology behind chargeability, self driving cars and medical AI."
+      },
+      {
+        "start": 265.9,
+        "duration": 2.9,
+        "text": "Start by understanding how neural networks work."
+      },
+      {
+        "start": 268.8,
+        "duration": 5.5,
+        "text": "Learn what neurons, layers, activation functions and loss functions are."
+      },
+      {
+        "start": 274.3,
+        "duration": 1.9,
+        "text": "You don't need to memorize formulas."
+      },
+      {
+        "start": 276.2,
+        "duration": 4.0,
+        "text": "Just understand how the network adjusts itself to improve predictions."
+      },
+      {
+        "start": 280.2,
+        "duration": 4.8,
+        "text": "Pick either tens of flow or pytods as your deep learning framework."
+      },
+      {
+        "start": 285.0,
+        "duration": 4.2,
+        "text": "Because both are used by companies in production, so you only need to choose one."
+      },
+      {
+        "start": 289.1,
+        "duration": 5.1,
+        "text": "And then build deep learning projects like digit recognition, image classification, sentiment"
+      },
+      {
+        "start": 294.2,
+        "duration": 3.5,
+        "text": "analysis or both of fake news classification."
+      },
+      {
+        "start": 297.8,
+        "duration": 4.6,
+        "text": "So this project teaches you how to use neural networks in real scenarios."
+      },
+      {
+        "start": 302.4,
+        "duration": 3.6,
+        "text": "So AI is no longer about learning everything."
+      },
+      {
+        "start": 306.0,
+        "duration": 2.5,
+        "text": "It's about choosing your specialization."
+      },
+      {
+        "start": 308.5,
+        "duration": 1.8,
+        "text": "So here we have options."
+      },
+      {
+        "start": 310.3,
+        "duration": 5.4,
+        "text": "So option A is NLP and LLMs, which has the highest demand."
+      },
+      {
+        "start": 315.7,
+        "duration": 5.9,
+        "text": "So if you want to work with chatbots, smart assistants or language models like chat GPT,"
+      },
+      {
+        "start": 321.6,
+        "duration": 2.2,
+        "text": "choose NLP and LLMs."
+      },
+      {
+        "start": 323.8,
+        "duration": 6.9,
+        "text": "And all you need to learn is tokenization, embeddings, transformers, but GPT models from"
+      },
+      {
+        "start": 330.7,
+        "duration": 4.9,
+        "text": "engineering, fine tuning, write and agentic architectures."
+      },
+      {
+        "start": 335.6,
+        "duration": 5.2,
+        "text": "And you can build projects like AI chatbots, documents, search tools, question and answer"
+      },
+      {
+        "start": 340.8,
+        "duration": 3.2,
+        "text": "systems or customer support bots."
+      },
+      {
+        "start": 343.9,
+        "duration": 2.1,
+        "text": "Option B is computer vision."
+      },
+      {
+        "start": 346.0,
+        "duration": 4.3,
+        "text": "If you like working with images and videos, choose computer vision."
+      },
+      {
+        "start": 350.3,
+        "duration": 4.2,
+        "text": "Learn CNN's YOLO object detection and segmentation."
+      },
+      {
+        "start": 354.5,
+        "duration": 5.4,
+        "text": "And you can build real world projects like page detection, medical image analysis, CCTV"
+      },
+      {
+        "start": 359.9,
+        "duration": 3.6,
+        "text": "monitoring systems or vehicle counting tools."
+      },
+      {
+        "start": 363.5,
+        "duration": 2.2,
+        "text": "Option C is generative AI."
+      },
+      {
+        "start": 365.7,
+        "duration": 3.5,
+        "text": "If you enjoy creativity, choose generative AI."
+      },
+      {
+        "start": 369.2,
+        "duration": 3.4,
+        "text": "Learn GANs, VAEs and diffusion models."
+      },
+      {
+        "start": 372.6,
+        "duration": 5.4,
+        "text": "Build applications like AI art generators, product design tools, image to image systems"
+      },
+      {
+        "start": 378.0,
+        "duration": 2.6,
+        "text": "or video generation models."
+      },
+      {
+        "start": 380.6,
+        "duration": 1.8,
+        "text": "Option D is MLOPS."
+      },
+      {
+        "start": 382.4,
+        "duration": 4.4,
+        "text": "If you prefer infrastructure and deployment, then choose MLOPS."
+      },
+      {
+        "start": 386.8,
+        "duration": 6.9,
+        "text": "And Docker, Humanities, MLflow, CI, CDPIP lines, Cloud deployment and model monitoring."
+      },
+      {
+        "start": 393.7,
+        "duration": 5.9,
+        "text": "And you can build projects that focus on deploying ML and LLM models into real environments."
+      },
+      {
+        "start": 399.6,
+        "duration": 1.0,
+        "text": "All right."
+      },
+      {
+        "start": 400.6,
+        "duration": 4.1,
+        "text": "So, agentic AI is the biggest trend of 2026."
+      },
+      {
+        "start": 404.7,
+        "duration": 1.8,
+        "text": "These are not just models."
+      },
+      {
+        "start": 406.5,
+        "duration": 6.0,
+        "text": "These are the intelligent agents that can reason, plan, use tools and take actions."
+      },
+      {
+        "start": 412.5,
+        "duration": 7.1,
+        "text": "So learn how agents work with frameworks like chain, land graph and crew based agent architectures."
+      },
+      {
+        "start": 419.6,
+        "duration": 5.9,
+        "text": "Understand tool calling, memory systems, planning and multi agent collaboration."
+      },
+      {
+        "start": 425.5,
+        "duration": 6.8,
+        "text": "Also build agentic projects like an AI research assistant and autonomous email automation agent,"
+      },
+      {
+        "start": 432.3,
+        "duration": 5.0,
+        "text": "a financial analysis agent or a customer service automation agent."
+      },
+      {
+        "start": 437.4,
+        "duration": 5.4,
+        "text": "So this project stand out in the interviews because companies want people who can build intelligent"
+      },
+      {
+        "start": 442.8,
+        "duration": 2.5,
+        "text": "workflows and not just models."
+      },
+      {
+        "start": 445.3,
+        "duration": 3.9,
+        "text": "So now that you have skills, you need projects that prove it."
+      },
+      {
+        "start": 449.2,
+        "duration": 5.0,
+        "text": "So your portfolio should have two machine learning projects, two deep learning projects,"
+      },
+      {
+        "start": 454.2,
+        "duration": 4.3,
+        "text": "two specialization projects and one real end to end AI system."
+      },
+      {
+        "start": 458.5,
+        "duration": 5.2,
+        "text": "And this final project could be a chatbot with RAC, a vision based attendance system,"
+      },
+      {
+        "start": 463.7,
+        "duration": 6.2,
+        "text": "an AI assistant with memory or a complete ML pipeline deployed on cloud."
+      },
+      {
+        "start": 469.8,
+        "duration": 6.1,
+        "text": "And finally, upload your work on GitHub, write clear documentation and add deployment links."
+      },
+      {
+        "start": 475.9,
+        "duration": 2.9,
+        "text": "So employers can test your work instantly."
+      },
+      {
+        "start": 478.8,
+        "duration": 5.2,
+        "text": "So with this roadmap, you can apply for the most in demand roles in 2026,"
+      },
+      {
+        "start": 484.0,
+        "duration": 5.9,
+        "text": "such as AI engineer, machine learning engineer, LLM engineer, NLP engineer,"
+      },
+      {
+        "start": 489.9,
+        "duration": 3.6,
+        "text": "generative AI engineer, computer vision engineer,"
+      },
+      {
+        "start": 493.5,
+        "duration": 3.3,
+        "text": "MLOX engineer or AI automation specialist."
+      },
+      {
+        "start": 497.6,
+        "duration": 3.8,
+        "text": "AI is not just the future, it's the career shift of today."
+      },
+      {
+        "start": 501.4,
+        "duration": 5.7,
+        "text": "If you follow this roadmap step by step, you will build the skills, the projects and the confidence"
+      },
+      {
+        "start": 507.1,
+        "duration": 2.6,
+        "text": "to enter the world of AI and much learning."
+      },
+      {
+        "start": 510.2,
+        "duration": 5.8,
+        "text": "And with this, we have come to an end to this video on AI and ML engineer roadmap."
+      },
+      {
+        "start": 516.0,
+        "duration": 3.8,
+        "text": "If you enjoy listening to this video, please be kind and off to like it"
+      },
+      {
+        "start": 519.8,
+        "duration": 3.8,
+        "text": "and you can comment on any of your doubts and queries we will reply to them"
+      },
+      {
+        "start": 523.7,
+        "duration": 4.7,
+        "text": "a day earlier. And do look up for more videos and playlist and subscribe to"
+      },
+      {
+        "start": 528.4,
+        "duration": 4.6,
+        "text": "Idureka's YouTube channel to learn more. Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome to this video on AI and ML Engineer roadmap. Artificial intelligence and machine learning are not just training technologies anymore. They are becoming the backbone of every industry and right now the remind for AI and ML engineers is exploding worldwide. In India AI engineers earn anywhere from 8 lakhs to 36 lakhs per year depending on skills and experience. In the United States the same roles can start from $120,000 and can go all the way up to $250,000 for senior and specialized positions. So if you have been thinking about getting into AI and ML, switching careers or upscaling for higher paying opportunities that has never been a better time. And in this video I am giving you a complete, big and friendly and deeply practical AI and ML Engineer roadmap that shows you exactly what to learn and how to grow in this booming field. So before we begin please like, share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Also, check out Idureka's post-graduate program in Generative AI and Machine Learning in collaboration with Illinois Tech. It offers a unique opportunity to explore the cutting edge world of genetic AI and develop advanced AI-powered solutions. This program covers in-demand topics including machine learning, deep learning, natural language processing, prompt engineering, generative AI, LLMs, RAID, agentic AI and much more. Starting from industry experts through a curriculum built around real world, hands on use cases designed to equip you with practical and job-ready skills. So check out the post-link given in the description box below. And now, the first step of your AI journey starts with the strong foundations. And no, you don't need to be a mathematician. You simply need the essentials. So start with Python because Python is the language that powers almost every modern AI system. You focus on the basics like variables, loops, functions, list, dictionaries, file handling and how to work with APIs. So these skills are enough to write simple programs and understand AI code. Next, learn data handling because AI is built on data. Use pandas to clean and organize data, numpy to perform calculation and matplot, lab or sea bond to visualize patterns. Learn simple tasks like removing missing values or analyzing sales trends will prepare you for the real AI projects. Then learn the essential math behind AI. Not heavy equations, just the basic understanding. Understand mean, median, variance, probability basic, code relations and what vectors and matrices are. Learn what gradient decent means conceptually so you understand how models learn without getting buried in complex math. So once your foundations are ready, move to machine learning. ML is simply teaching computers to learn from examples. Instead of writing instruction, show the model real world data and let it find patterns. So learn key ML concepts like training and testing, accuracy and position, underfitting and overfitting, cross validation and feature engineering. So these concepts helps you understand how to build, tune and improve models. Then learn the core ML algorithms that companies use every single day. So you need to start with linear regression, logistic regression, decision trees, random forest, SVM, NAF base, K means clustering and PCA. These algorithms cover most practical business problems like predicting sales, detecting fraud, segmenting customers and identifying patterns in large datasets. Then build small ML projects such as house price predictor, span email classifier, credit score predictor or customer segmentation model. So these projects give you confidence and make your portfolio job ready. After ML, move into deep learning. The technology behind chargeability, self driving cars and medical AI. Start by understanding how neural networks work. Learn what neurons, layers, activation functions and loss functions are. You don't need to memorize formulas. Just understand how the network adjusts itself to improve predictions. Pick either tens of flow or pytods as your deep learning framework. Because both are used by companies in production, so you only need to choose one. And then build deep learning projects like digit recognition, image classification, sentiment analysis or both of fake news classification. So this project teaches you how to use neural networks in real scenarios. So AI is no longer about learning everything. It's about choosing your specialization. So here we have options. So option A is NLP and LLMs, which has the highest demand. So if you want to work with chatbots, smart assistants or language models like chat GPT, choose NLP and LLMs. And all you need to learn is tokenization, embeddings, transformers, but GPT models from engineering, fine tuning, write and agentic architectures. And you can build projects like AI chatbots, documents, search tools, question and answer systems or customer support bots. Option B is computer vision. If you like working with images and videos, choose computer vision. Learn CNN's YOLO object detection and segmentation. And you can build real world projects like page detection, medical image analysis, CCTV monitoring systems or vehicle counting tools. Option C is generative AI. If you enjoy creativity, choose generative AI. Learn GANs, VAEs and diffusion models. Build applications like AI art generators, product design tools, image to image systems or video generation models. Option D is MLOPS. If you prefer infrastructure and deployment, then choose MLOPS. And Docker, Humanities, MLflow, CI, CDPIP lines, Cloud deployment and model monitoring. And you can build projects that focus on deploying ML and LLM models into real environments. All right. So, agentic AI is the biggest trend of 2026. These are not just models. These are the intelligent agents that can reason, plan, use tools and take actions. So learn how agents work with frameworks like chain, land graph and crew based agent architectures. Understand tool calling, memory systems, planning and multi agent collaboration. Also build agentic projects like an AI research assistant and autonomous email automation agent, a financial analysis agent or a customer service automation agent. So this project stand out in the interviews because companies want people who can build intelligent workflows and not just models. So now that you have skills, you need projects that prove it. So your portfolio should have two machine learning projects, two deep learning projects, two specialization projects and one real end to end AI system. And this final project could be a chatbot with RAC, a vision based attendance system, an AI assistant with memory or a complete ML pipeline deployed on cloud. And finally, upload your work on GitHub, write clear documentation and add deployment links. So employers can test your work instantly. So with this roadmap, you can apply for the most in demand roles in 2026, such as AI engineer, machine learning engineer, LLM engineer, NLP engineer, generative AI engineer, computer vision engineer, MLOX engineer or AI automation specialist. AI is not just the future, it's the career shift of today. If you follow this roadmap step by step, you will build the skills, the projects and the confidence to enter the world of AI and much learning. And with this, we have come to an end to this video on AI and ML engineer roadmap. If you enjoy listening to this video, please be kind and off to like it and you can comment on any of your doubts and queries we will reply to them a day earlier. And do look up for more videos and playlist and subscribe to Idureka's YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

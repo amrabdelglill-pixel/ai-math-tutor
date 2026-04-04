@@ -1,0 +1,794 @@
+{
+  "video_id": "LJ-qntmvXsU",
+  "video_title": "DDoS Attack | What is a DDoS Attack? | DDoS Attack Explained | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 628.0,
+  "view_count": 3957,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.9,
+        "text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka."
+      },
+      {
+        "start": 12.9,
+        "duration": 4.2,
+        "text": "So today we are diving straight into one of the most talked about attack methods in this"
+      },
+      {
+        "start": 17.2,
+        "duration": 3.1,
+        "text": "cyber world, which is the DDoS attack."
+      },
+      {
+        "start": 20.3,
+        "duration": 4.7,
+        "text": "So you will learn what a DDoS attack really is, how it works and most importantly how to"
+      },
+      {
+        "start": 25.0,
+        "duration": 2.7,
+        "text": "simulate one in control environment."
+      },
+      {
+        "start": 27.7,
+        "duration": 4.1,
+        "text": "And before we begin, make sure to like, share and subscribe to Idureka's YouTube channel"
+      },
+      {
+        "start": 31.8,
+        "duration": 4.1,
+        "text": "and hit the bell icon to stay updated on the latest content from Idureka."
+      },
+      {
+        "start": 35.9,
+        "duration": 4.2,
+        "text": "Along with this, check out the certified ethical hacking course designed in partnership with"
+      },
+      {
+        "start": 40.1,
+        "duration": 3.2,
+        "text": "EC Council to elevate your cyber security skills."
+      },
+      {
+        "start": 43.4,
+        "duration": 6.3,
+        "text": "And this course offers a globally recognized CEHV13 AI certification and features 20 comprehensive"
+      },
+      {
+        "start": 49.7,
+        "duration": 5.8,
+        "text": "modules that cover over 500 attack techniques enhanced by AI GPT tools."
+      },
+      {
+        "start": 55.4,
+        "duration": 4.7,
+        "text": "You will also gain hands-on experience through 221 practical apps and benefit from wrong"
+      },
+      {
+        "start": 60.2,
+        "duration": 3.0,
+        "text": "the clock support provided by certified professionals."
+      },
+      {
+        "start": 63.2,
+        "duration": 5.2,
+        "text": "And with access to exclusive e-codes where, and an exam voucher from EC Council, this course"
+      },
+      {
+        "start": 68.3,
+        "duration": 5.1,
+        "text": "is your gateway to mastering ethical hacking and securing a rewarding career in cyber defense."
+      },
+      {
+        "start": 73.4,
+        "duration": 3.2,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 76.6,
+        "duration": 2.4,
+        "text": "So now let's start with the basics."
+      },
+      {
+        "start": 79.0,
+        "duration": 3.4,
+        "text": "So let us understand what exactly is a DDoS attack."
+      },
+      {
+        "start": 82.3,
+        "duration": 5.7,
+        "text": "A DDoS attack or distributed denial of service is when multiple systems flood the bandwidth"
+      },
+      {
+        "start": 88.0,
+        "duration": 6.4,
+        "text": "or resources of a targeted server, service or network causing it to crash or become unavailable."
+      },
+      {
+        "start": 94.4,
+        "duration": 4.6,
+        "text": "And there are different types of DDoS attacks like wall metric attacks that are designed"
+      },
+      {
+        "start": 99.0,
+        "duration": 5.3,
+        "text": "to flood a network's bandwidth with massive amounts of traffic, making it difficult or"
+      },
+      {
+        "start": 104.4,
+        "duration": 3.6,
+        "text": "impossible for legitimate users to access the service."
+      },
+      {
+        "start": 107.9,
+        "duration": 2.1,
+        "text": "The next type is the protocol attacks."
+      },
+      {
+        "start": 110.0,
+        "duration": 5.0,
+        "text": "That take advantage of weaknesses in the network protocol to consume server resources like CPU"
+      },
+      {
+        "start": 115.0,
+        "duration": 3.5,
+        "text": "and memory, slowing down or crashing the system."
+      },
+      {
+        "start": 118.5,
+        "duration": 4.3,
+        "text": "The next type of attack that we are going to talk about is application layer attacks."
+      },
+      {
+        "start": 122.8,
+        "duration": 4.9,
+        "text": "It attacks specific features of a website or application by sending a large number of seemingly"
+      },
+      {
+        "start": 127.7,
+        "duration": 4.2,
+        "text": "normal requests to overwhelm the app's ability to respond."
+      },
+      {
+        "start": 131.9,
+        "duration": 4.4,
+        "text": "So the goal is to interrupt normal traffic and make services unusable."
+      },
+      {
+        "start": 136.3,
+        "duration": 4.2,
+        "text": "So now that we understand what a DDoS attack is and how it works."
+      },
+      {
+        "start": 140.5,
+        "duration": 4.6,
+        "text": "So now let's take a look at just how much damage it can cause in real world."
+      },
+      {
+        "start": 145.1,
+        "duration": 4.4,
+        "text": "So let's take a moment to understand just how serious DDoS attacks can be."
+      },
+      {
+        "start": 149.5,
+        "duration": 4.6,
+        "text": "Back in 2016, one of the most powerful DDoS attack in history was launched using the"
+      },
+      {
+        "start": 154.1,
+        "duration": 1.6,
+        "text": "Mirai botnet."
+      },
+      {
+        "start": 155.7,
+        "duration": 5.2,
+        "text": "This attack targeted a company called DIN, which provides DNS services that help route"
+      },
+      {
+        "start": 160.8,
+        "duration": 1.7,
+        "text": "internet traffic."
+      },
+      {
+        "start": 162.5,
+        "duration": 5.5,
+        "text": "By flooding DIN servers with an enormous amount of traffic, it caused major websites like"
+      },
+      {
+        "start": 168.0,
+        "duration": 4.5,
+        "text": "Twitter, Netflix and Reddit to go offline for hours."
+      },
+      {
+        "start": 172.5,
+        "duration": 5.0,
+        "text": "The attack reached a peak of 1.2 terabytes per second of traffic, which is massive by any"
+      },
+      {
+        "start": 177.5,
+        "duration": 1.0,
+        "text": "standard."
+      },
+      {
+        "start": 178.5,
+        "duration": 4.0,
+        "text": "So DDoS attacks like this don't just cause inconvenience."
+      },
+      {
+        "start": 182.5,
+        "duration": 5.5,
+        "text": "They can cause businesses millions of dollars in downtime, damage customer trust and even"
+      },
+      {
+        "start": 188.0,
+        "duration": 2.7,
+        "text": "open the doors to larger security breaches."
+      },
+      {
+        "start": 190.6,
+        "duration": 4.1,
+        "text": "And in some cases millions of users can be affected in just minutes."
+      },
+      {
+        "start": 194.7,
+        "duration": 3.9,
+        "text": "So now that we understand the impact of DDoS attacks, so let's take a look at some of"
+      },
+      {
+        "start": 198.6,
+        "duration": 3.5,
+        "text": "the most commonly used tools hackers used to carry them out."
+      },
+      {
+        "start": 202.2,
+        "duration": 4.6,
+        "text": "So here we will talk about five of the most well-known DDoS tools you should be aware"
+      },
+      {
+        "start": 206.7,
+        "duration": 1.0,
+        "text": "of."
+      },
+      {
+        "start": 207.7,
+        "duration": 5.4,
+        "text": "So first on the list we have Loic, which stands for low orbit, IN, Kennen."
+      },
+      {
+        "start": 213.1,
+        "duration": 4.4,
+        "text": "So Loic is one of the most basic tools used to launch DDoS attacks."
+      },
+      {
+        "start": 217.5,
+        "duration": 4.7,
+        "text": "Loic works by directing a flood of traffic from one or more computers to a specific server"
+      },
+      {
+        "start": 222.2,
+        "duration": 2.9,
+        "text": "or website in an attempt to overwhelm it."
+      },
+      {
+        "start": 225.2,
+        "duration": 6.4,
+        "text": "So it can send different types of packets such as TCP, UDP, HTTP get used in HTTP flood"
+      },
+      {
+        "start": 231.6,
+        "duration": 1.0,
+        "text": "attacks."
+      },
+      {
+        "start": 232.6,
+        "duration": 4.8,
+        "text": "So Loic becomes popular because it's easy to use and has a simple interface."
+      },
+      {
+        "start": 237.4,
+        "duration": 4.6,
+        "text": "But it's not very stealthy and can be detected quickly by modern defenses."
+      },
+      {
+        "start": 241.9,
+        "duration": 4.9,
+        "text": "Moeng on to second tool which is Huyk, which stands for high orbit IN Kennen."
+      },
+      {
+        "start": 246.8,
+        "duration": 3.0,
+        "text": "So Huyk was developed as an upgrade of Loic."
+      },
+      {
+        "start": 249.8,
+        "duration": 4.2,
+        "text": "It can generate more traffic at a faster rate and allows users to create custom attack"
+      },
+      {
+        "start": 254.1,
+        "duration": 2.2,
+        "text": "scripts for more advanced attacks."
+      },
+      {
+        "start": 256.3,
+        "duration": 5.6,
+        "text": "So unlike Loic, Huyk focuses mainly on HTTP get and HTTP post."
+      },
+      {
+        "start": 261.8,
+        "duration": 6.1,
+        "text": "And Huyk is capable of launching powerful web based DDoS attacks and can send up to 250"
+      },
+      {
+        "start": 268.0,
+        "duration": 5.4,
+        "text": "request at once, making it much more difficult to detect and block than Loic."
+      },
+      {
+        "start": 273.4,
+        "duration": 2.1,
+        "text": "The next tool is slow lorries."
+      },
+      {
+        "start": 275.5,
+        "duration": 4.3,
+        "text": "Slow lorries is highly affected DDoS tool that works very differently."
+      },
+      {
+        "start": 279.8,
+        "duration": 5.3,
+        "text": "So instead of flooding a server with large amounts of data, it sends small, slow and incomplete"
+      },
+      {
+        "start": 285.1,
+        "duration": 1.6,
+        "text": "HTTP request."
+      },
+      {
+        "start": 286.7,
+        "duration": 4.3,
+        "text": "So this causes the server to keep many connections open while waiting for the full request to"
+      },
+      {
+        "start": 291.0,
+        "duration": 1.1,
+        "text": "come through."
+      },
+      {
+        "start": 292.1,
+        "duration": 4.6,
+        "text": "So since the server is waiting and using up its resources, it eventually becomes too"
+      },
+      {
+        "start": 296.8,
+        "duration": 2.3,
+        "text": "overwhelmed to serve real users."
+      },
+      {
+        "start": 299.0,
+        "duration": 4.4,
+        "text": "So this tool is particularly dangerous because it uses very little bandwidth but causing"
+      },
+      {
+        "start": 303.5,
+        "duration": 1.5,
+        "text": "a big impact."
+      },
+      {
+        "start": 305.0,
+        "duration": 2.9,
+        "text": "The next tool is are you dead yet."
+      },
+      {
+        "start": 307.9,
+        "duration": 5.2,
+        "text": "So are you dead yet tool is another clever tool that targets web servers with forms."
+      },
+      {
+        "start": 313.2,
+        "duration": 5.0,
+        "text": "It works by slowly sending long HTTP post request through an input field on web forms"
+      },
+      {
+        "start": 318.2,
+        "duration": 1.7,
+        "text": "one character at a time."
+      },
+      {
+        "start": 319.8,
+        "duration": 4.5,
+        "text": "So this low and steady approach keeps server connections tied up for a long period,"
+      },
+      {
+        "start": 324.3,
+        "duration": 4.1,
+        "text": "eventually exhausting the server's ability to handle real user input."
+      },
+      {
+        "start": 328.4,
+        "duration": 3.1,
+        "text": "The next tool on our list is Hp3."
+      },
+      {
+        "start": 331.5,
+        "duration": 4.8,
+        "text": "There's a more advanced tool that allows you to craft and send custom TCP IP packets."
+      },
+      {
+        "start": 336.4,
+        "duration": 5.6,
+        "text": "It can simulate various types of attacks including sent floods and ICMP floods."
+      },
+      {
+        "start": 341.9,
+        "duration": 5.7,
+        "text": "So what makes Hp3 especially useful is that it also shows how the target response which"
+      },
+      {
+        "start": 347.6,
+        "duration": 5.2,
+        "text": "makes it perfect for testing and simulating DDoS attacks in a lab environment."
+      },
+      {
+        "start": 352.8,
+        "duration": 4.4,
+        "text": "So now that we have covered the tools used in DDoS attacks, so let's see how a DDoS"
+      },
+      {
+        "start": 357.2,
+        "duration": 2.8,
+        "text": "attack is actually executed."
+      },
+      {
+        "start": 360.1,
+        "duration": 5.2,
+        "text": "So now we will be using two virtual machines, one as they are tackled and another as the"
+      },
+      {
+        "start": 365.3,
+        "duration": 1.0,
+        "text": "victim."
+      },
+      {
+        "start": 366.3,
+        "duration": 2.9,
+        "text": "In step one we are doing environment setup."
+      },
+      {
+        "start": 369.2,
+        "duration": 4.0,
+        "text": "So here the attacker machine that we are going to use is cally Linux and the tool that"
+      },
+      {
+        "start": 373.2,
+        "duration": 2.6,
+        "text": "we will be using is Hp3."
+      },
+      {
+        "start": 375.8,
+        "duration": 4.4,
+        "text": "And for victim machine we will be using Ubuntu and the tool we are using for monitoring"
+      },
+      {
+        "start": 380.1,
+        "duration": 3.3,
+        "text": "is if top for network traffic."
+      },
+      {
+        "start": 383.4,
+        "duration": 3.2,
+        "text": "So now moving on to network setup."
+      },
+      {
+        "start": 386.6,
+        "duration": 4.9,
+        "text": "So both virtual machines should be on the same net or host only network so they can communicate"
+      },
+      {
+        "start": 391.6,
+        "duration": 6.2,
+        "text": "internally without touching your external internet and use virtual box or VMWare to create"
+      },
+      {
+        "start": 397.7,
+        "duration": 18.9,
+        "text": "and configure the virtual machines."
+      },
+      {
+        "start": 416.6,
+        "duration": 4.5,
+        "text": "And make sure that you have the victim's virtual machines internal IP and you can also check"
+      },
+      {
+        "start": 421.1,
+        "duration": 2.8,
+        "text": "it by running IPA."
+      },
+      {
+        "start": 423.9,
+        "duration": 5.0,
+        "text": "So it looks something like this and this is our victim's virtual machines IP address."
+      },
+      {
+        "start": 428.9,
+        "duration": 4.1,
+        "text": "So before jumping into the demonstration let's talk about what we are going to do with"
+      },
+      {
+        "start": 433.0,
+        "duration": 2.3,
+        "text": "this setup that we have created."
+      },
+      {
+        "start": 435.3,
+        "duration": 5.1,
+        "text": "So as discussed we will use Hp3 from the attacker machines to flood the victim's machines"
+      },
+      {
+        "start": 440.4,
+        "duration": 3.2,
+        "text": "port 80 with TCP sin packets."
+      },
+      {
+        "start": 443.6,
+        "duration": 5.1,
+        "text": "And then we will monitor the effect using if top on the victim site to visualize the spike"
+      },
+      {
+        "start": 448.7,
+        "duration": 1.4,
+        "text": "in traffic."
+      },
+      {
+        "start": 450.1,
+        "duration": 7.4,
+        "text": "Now to install the Hp2 let us give a command sudo apt install Hp3."
+      },
+      {
+        "start": 457.5,
+        "duration": 7.8,
+        "text": "Alright so now let us install the tool on victim's virtual machine which is if top."
+      },
+      {
+        "start": 465.3,
+        "duration": 4.4,
+        "text": "So now let us give command sudo apt install if top."
+      },
+      {
+        "start": 469.6,
+        "duration": 4.0,
+        "text": "So this command should install our if top tool."
+      },
+      {
+        "start": 473.6,
+        "duration": 4.2,
+        "text": "Now moving on to step 3 launching the attack."
+      },
+      {
+        "start": 477.8,
+        "duration": 6.8,
+        "text": "So now let's initiate the dedos simulation from our Kali Linux attacker machine using Hp3."
+      },
+      {
+        "start": 484.6,
+        "duration": 5.8,
+        "text": "So let us give a command as sudo Hp3."
+      },
+      {
+        "start": 490.4,
+        "duration": 16.0,
+        "text": "So in this following command the if and s sends the sin packets."
+      },
+      {
+        "start": 506.4,
+        "duration": 5.3,
+        "text": "Followed by if we have if and if and flood with sends packets as fast as possible and then"
+      },
+      {
+        "start": 511.7,
+        "duration": 4.3,
+        "text": "the if and be verbose output so we can see what is going on."
+      },
+      {
+        "start": 516.0,
+        "duration": 6.0,
+        "text": "And then we also have hyphen p80 which is targeting port 80 which is a default HTTP port."
+      },
+      {
+        "start": 522.0,
+        "duration": 5.2,
+        "text": "So this command floods the victim's web port with connection request simulating a real"
+      },
+      {
+        "start": 527.2,
+        "duration": 2.3,
+        "text": "world sin flood attack."
+      },
+      {
+        "start": 529.5,
+        "duration": 4.0,
+        "text": "Now moving on to step 5 which is monitoring traffic on the victim."
+      },
+      {
+        "start": 533.5,
+        "duration": 4.7,
+        "text": "So let us move on to the victim machine to see what kind of damage this flood is causing."
+      },
+      {
+        "start": 538.2,
+        "duration": 8.4,
+        "text": "So on the victim's machine run the following command as sudo if top hyphen i it 0."
+      },
+      {
+        "start": 546.6,
+        "duration": 10.0,
+        "text": "So if it 0 doesn't work check your interface with ip 8."
+      },
+      {
+        "start": 556.6,
+        "duration": 4.2,
+        "text": "So as you can see on the screen traffic from the attacker machine is flooding in."
+      },
+      {
+        "start": 560.8,
+        "duration": 5.6,
+        "text": "So the network bandwidth is piking and the victim system becomes slow and possibly in responsive."
+      },
+      {
+        "start": 566.5,
+        "duration": 6.9,
+        "text": "So let's open another terminal and try running a simple command like ping google.com."
+      },
+      {
+        "start": 573.4,
+        "duration": 8.4,
+        "text": "Alright so this command is to see how slow or blocked the connection becomes."
+      },
+      {
+        "start": 581.8,
+        "duration": 5.3,
+        "text": "Now this shows how even a simple attack can impact a service ability to respond to traffic."
+      },
+      {
+        "start": 587.1,
+        "duration": 4.7,
+        "text": "So in real world attacks hundreds or thousands of systems are used simultaneously to take"
+      },
+      {
+        "start": 591.8,
+        "duration": 2.5,
+        "text": "down targets completely."
+      },
+      {
+        "start": 594.3,
+        "duration": 4.8,
+        "text": "And with this we have come to an end to this video on how to execute a ddor attack."
+      },
+      {
+        "start": 599.1,
+        "duration": 3.8,
+        "text": "So if you enjoyed listening to this video please be kind enough to like it and you can"
+      },
+      {
+        "start": 602.9,
+        "duration": 5.0,
+        "text": "comment on any of your doubts and queries we will reply to them earlier."
+      },
+      {
+        "start": 607.8,
+        "duration": 4.6,
+        "text": "And do look up for more videos and playlists and subscribe to Adurika's youtube channel"
+      },
+      {
+        "start": 612.5,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 613.5,
+        "duration": 1.8,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka. So today we are diving straight into one of the most talked about attack methods in this cyber world, which is the DDoS attack. So you will learn what a DDoS attack really is, how it works and most importantly how to simulate one in control environment. And before we begin, make sure to like, share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Along with this, check out the certified ethical hacking course designed in partnership with EC Council to elevate your cyber security skills. And this course offers a globally recognized CEHV13 AI certification and features 20 comprehensive modules that cover over 500 attack techniques enhanced by AI GPT tools. You will also gain hands-on experience through 221 practical apps and benefit from wrong the clock support provided by certified professionals. And with access to exclusive e-codes where, and an exam voucher from EC Council, this course is your gateway to mastering ethical hacking and securing a rewarding career in cyber defense. So check out the course link given in the description box below. So now let's start with the basics. So let us understand what exactly is a DDoS attack. A DDoS attack or distributed denial of service is when multiple systems flood the bandwidth or resources of a targeted server, service or network causing it to crash or become unavailable. And there are different types of DDoS attacks like wall metric attacks that are designed to flood a network's bandwidth with massive amounts of traffic, making it difficult or impossible for legitimate users to access the service. The next type is the protocol attacks. That take advantage of weaknesses in the network protocol to consume server resources like CPU and memory, slowing down or crashing the system. The next type of attack that we are going to talk about is application layer attacks. It attacks specific features of a website or application by sending a large number of seemingly normal requests to overwhelm the app's ability to respond. So the goal is to interrupt normal traffic and make services unusable. So now that we understand what a DDoS attack is and how it works. So now let's take a look at just how much damage it can cause in real world. So let's take a moment to understand just how serious DDoS attacks can be. Back in 2016, one of the most powerful DDoS attack in history was launched using the Mirai botnet. This attack targeted a company called DIN, which provides DNS services that help route internet traffic. By flooding DIN servers with an enormous amount of traffic, it caused major websites like Twitter, Netflix and Reddit to go offline for hours. The attack reached a peak of 1.2 terabytes per second of traffic, which is massive by any standard. So DDoS attacks like this don't just cause inconvenience. They can cause businesses millions of dollars in downtime, damage customer trust and even open the doors to larger security breaches. And in some cases millions of users can be affected in just minutes. So now that we understand the impact of DDoS attacks, so let's take a look at some of the most commonly used tools hackers used to carry them out. So here we will talk about five of the most well-known DDoS tools you should be aware of. So first on the list we have Loic, which stands for low orbit, IN, Kennen. So Loic is one of the most basic tools used to launch DDoS attacks. Loic works by directing a flood of traffic from one or more computers to a specific server or website in an attempt to overwhelm it. So it can send different types of packets such as TCP, UDP, HTTP get used in HTTP flood attacks. So Loic becomes popular because it's easy to use and has a simple interface. But it's not very stealthy and can be detected quickly by modern defenses. Moeng on to second tool which is Huyk, which stands for high orbit IN Kennen. So Huyk was developed as an upgrade of Loic. It can generate more traffic at a faster rate and allows users to create custom attack scripts for more advanced attacks. So unlike Loic, Huyk focuses mainly on HTTP get and HTTP post. And Huyk is capable of launching powerful web based DDoS attacks and can send up to 250 request at once, making it much more difficult to detect and block than Loic. The next tool is slow lorries. Slow lorries is highly affected DDoS tool that works very differently. So instead of flooding a server with large amounts of data, it sends small, slow and incomplete HTTP request. So this causes the server to keep many connections open while waiting for the full request to come through. So since the server is waiting and using up its resources, it eventually becomes too overwhelmed to serve real users. So this tool is particularly dangerous because it uses very little bandwidth but causing a big impact. The next tool is are you dead yet. So are you dead yet tool is another clever tool that targets web servers with forms. It works by slowly sending long HTTP post request through an input field on web forms one character at a time. So this low and steady approach keeps server connections tied up for a long period, eventually exhausting the server's ability to handle real user input. The next tool on our list is Hp3. There's a more advanced tool that allows you to craft and send custom TCP IP packets. It can simulate various types of attacks including sent floods and ICMP floods. So what makes Hp3 especially useful is that it also shows how the target response which makes it perfect for testing and simulating DDoS attacks in a lab environment. So now that we have covered the tools used in DDoS attacks, so let's see how a DDoS attack is actually executed. So now we will be using two virtual machines, one as they are tackled and another as the victim. In step one we are doing environment setup. So here the attacker machine that we are going to use is cally Linux and the tool that we will be using is Hp3. And for victim machine we will be using Ubuntu and the tool we are using for monitoring is if top for network traffic. So now moving on to network setup. So both virtual machines should be on the same net or host only network so they can communicate internally without touching your external internet and use virtual box or VMWare to create and configure the virtual machines. And make sure that you have the victim's virtual machines internal IP and you can also check it by running IPA. So it looks something like this and this is our victim's virtual machines IP address. So before jumping into the demonstration let's talk about what we are going to do with this setup that we have created. So as discussed we will use Hp3 from the attacker machines to flood the victim's machines port 80 with TCP sin packets. And then we will monitor the effect using if top on the victim site to visualize the spike in traffic. Now to install the Hp2 let us give a command sudo apt install Hp3. Alright so now let us install the tool on victim's virtual machine which is if top. So now let us give command sudo apt install if top. So this command should install our if top tool. Now moving on to step 3 launching the attack. So now let's initiate the dedos simulation from our Kali Linux attacker machine using Hp3. So let us give a command as sudo Hp3. So in this following command the if and s sends the sin packets. Followed by if we have if and if and flood with sends packets as fast as possible and then the if and be verbose output so we can see what is going on. And then we also have hyphen p80 which is targeting port 80 which is a default HTTP port. So this command floods the victim's web port with connection request simulating a real world sin flood attack. Now moving on to step 5 which is monitoring traffic on the victim. So let us move on to the victim machine to see what kind of damage this flood is causing. So on the victim's machine run the following command as sudo if top hyphen i it 0. So if it 0 doesn't work check your interface with ip 8. So as you can see on the screen traffic from the attacker machine is flooding in. So the network bandwidth is piking and the victim system becomes slow and possibly in responsive. So let's open another terminal and try running a simple command like ping google.com. Alright so this command is to see how slow or blocked the connection becomes. Now this shows how even a simple attack can impact a service ability to respond to traffic. So in real world attacks hundreds or thousands of systems are used simultaneously to take down targets completely. And with this we have come to an end to this video on how to execute a ddor attack. So if you enjoyed listening to this video please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them earlier. And do look up for more videos and playlists and subscribe to Adurika's youtube channel to learn more. Thank you for watching and happy learning."
+  }
+}

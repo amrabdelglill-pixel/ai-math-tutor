@@ -1,0 +1,784 @@
+{
+  "video_id": "5li85GZgF28",
+  "video_title": "LangChain Agents Explained | How LangChain Works to Create AI Agents | AI Agents | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 532.0,
+  "view_count": 3815,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 10.6,
+        "text": "Hello everyone and welcome back to the channel."
+      },
+      {
+        "start": 10.6,
+        "duration": 5.4,
+        "text": "Today we are driving into LinkedIn agents, one of its most powerful features."
+      },
+      {
+        "start": 15.9,
+        "duration": 5.0,
+        "text": "So if you have ever wondered how to make your AI not just respond but actually act, this"
+      },
+      {
+        "start": 20.9,
+        "duration": 1.0,
+        "text": "is for you."
+      },
+      {
+        "start": 21.9,
+        "duration": 3.2,
+        "text": "So let's break it down in a simple and practical way."
+      },
+      {
+        "start": 25.2,
+        "duration": 4.5,
+        "text": "And by the end, you will understand what LinkedIn agents are, how they work and how you can"
+      },
+      {
+        "start": 29.6,
+        "duration": 2.3,
+        "text": "use them in real world projects."
+      },
+      {
+        "start": 32.0,
+        "duration": 4.5,
+        "text": "So before we begin, please like, share and subscribe to Adurika's YouTube channel and"
+      },
+      {
+        "start": 36.4,
+        "duration": 4.0,
+        "text": "hit the bell icon to stay updated on the latest content from Adurika."
+      },
+      {
+        "start": 40.4,
+        "duration": 4.5,
+        "text": "Also, check out Adurika's Agentec AI certification training."
+      },
+      {
+        "start": 44.9,
+        "duration": 5.0,
+        "text": "It is carefully crafted to meet industry demands and prepare you for the future of intelligent"
+      },
+      {
+        "start": 49.9,
+        "duration": 1.0,
+        "text": "agents."
+      },
+      {
+        "start": 50.9,
+        "duration": 5.9,
+        "text": "You will gain practical skills in LinkedIn, RAC, LLM ops and more through live instructor"
+      },
+      {
+        "start": 56.8,
+        "duration": 2.3,
+        "text": "led sessions and hands on labs."
+      },
+      {
+        "start": 59.1,
+        "duration": 4.7,
+        "text": "Whether you are a beginner or a tech professional, this course helps you master the concepts and"
+      },
+      {
+        "start": 63.8,
+        "duration": 2.0,
+        "text": "accelerate your AI career."
+      },
+      {
+        "start": 65.8,
+        "duration": 3.3,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 69.1,
+        "duration": 4.4,
+        "text": "So before we talk about agents, let's quickly understand LinkedIn."
+      },
+      {
+        "start": 73.4,
+        "duration": 5.6,
+        "text": "LinkedIn is a framework designed to help you connect large language models such as GPT"
+      },
+      {
+        "start": 79.0,
+        "duration": 4.6,
+        "text": "with external tools, APIs, memory and custom logic."
+      },
+      {
+        "start": 83.6,
+        "duration": 5.7,
+        "text": "Normally, LLM's like chat GPT can only generate responses based on the text you give them."
+      },
+      {
+        "start": 89.3,
+        "duration": 5.2,
+        "text": "But what if you want it to search the web, run Python code, query a database or use a"
+      },
+      {
+        "start": 94.5,
+        "duration": 1.0,
+        "text": "calculator?"
+      },
+      {
+        "start": 95.5,
+        "duration": 2.0,
+        "text": "That's where LinkedIn comes in."
+      },
+      {
+        "start": 97.6,
+        "duration": 5.0,
+        "text": "It acts as a bridge between the LLM and the tools it can use to interact with the real"
+      },
+      {
+        "start": 102.6,
+        "duration": 1.0,
+        "text": "world."
+      },
+      {
+        "start": 103.6,
+        "duration": 3.8,
+        "text": "And one of the most powerful features in Lanchin is agents."
+      },
+      {
+        "start": 107.4,
+        "duration": 2.8,
+        "text": "So what exactly is a Lanchin agent?"
+      },
+      {
+        "start": 110.2,
+        "duration": 1.9,
+        "text": "So think of it like this."
+      },
+      {
+        "start": 112.1,
+        "duration": 5.0,
+        "text": "Instead of you telling the AI exactly what to do, you just give it a goal and the agent"
+      },
+      {
+        "start": 117.0,
+        "duration": 2.2,
+        "text": "figures out how to get it done."
+      },
+      {
+        "start": 119.3,
+        "duration": 4.5,
+        "text": "An agent combines the power of reasoning, decision making and tools."
+      },
+      {
+        "start": 123.8,
+        "duration": 5.7,
+        "text": "It uses the LLM to understand the task, choose which tools it needs, call those tools in"
+      },
+      {
+        "start": 129.5,
+        "duration": 3.8,
+        "text": "the right order and then return the final result to the user."
+      },
+      {
+        "start": 133.3,
+        "duration": 5.1,
+        "text": "It's like giving your AI assistant a doorbox and letting it decide which tools to use based"
+      },
+      {
+        "start": 138.4,
+        "duration": 1.8,
+        "text": "on the question you ask."
+      },
+      {
+        "start": 140.2,
+        "duration": 3.3,
+        "text": "So let's look at a real example to make it clear."
+      },
+      {
+        "start": 143.5,
+        "duration": 1.3,
+        "text": "Imagine this prompt."
+      },
+      {
+        "start": 144.8,
+        "duration": 5.6,
+        "text": "Check the current stock price of Apple and calculate the average over the past five days."
+      },
+      {
+        "start": 150.4,
+        "duration": 2.5,
+        "text": "A regular chatbot can't do that."
+      },
+      {
+        "start": 152.8,
+        "duration": 5.6,
+        "text": "But a Lanchin agent can use a web search API to find today's stock price and use a Python"
+      },
+      {
+        "start": 158.4,
+        "duration": 4.8,
+        "text": "tool to calculate the average and then respond with the results all automatically."
+      },
+      {
+        "start": 163.3,
+        "duration": 2.2,
+        "text": "So here's what happening under the hood."
+      },
+      {
+        "start": 165.5,
+        "duration": 6.0,
+        "text": "The LLM receives your prompt and it decides it needs to search and calculate and then it"
+      },
+      {
+        "start": 171.5,
+        "duration": 7.1,
+        "text": "picks the right tools, maybe serve API for search and Python REPL from Mac and it performs"
+      },
+      {
+        "start": 178.6,
+        "duration": 3.4,
+        "text": "each step in a sequence and gives you the final output."
+      },
+      {
+        "start": 182.0,
+        "duration": 4.6,
+        "text": "So this is all done dynamically meaning you don't hard good each step."
+      },
+      {
+        "start": 186.5,
+        "duration": 4.1,
+        "text": "So the agent figures it out using the language models reasoning."
+      },
+      {
+        "start": 190.6,
+        "duration": 3.7,
+        "text": "Now let's look at the inner working of a Lanchin agent."
+      },
+      {
+        "start": 194.3,
+        "duration": 4.1,
+        "text": "So when you create an agent in Lanchin you define three things."
+      },
+      {
+        "start": 198.4,
+        "duration": 4.3,
+        "text": "First the LLM to use like GPT-4 or CLERD."
+      },
+      {
+        "start": 202.8,
+        "duration": 5.8,
+        "text": "Next the tools available like calculator, web search, database query etc."
+      },
+      {
+        "start": 208.6,
+        "duration": 1.9,
+        "text": "Next the agent type."
+      },
+      {
+        "start": 210.5,
+        "duration": 5.0,
+        "text": "So the Lanchin supports types like 0Short Agent and Conversational Agent."
+      },
+      {
+        "start": 215.5,
+        "duration": 3.0,
+        "text": "So now that you understand how Lanchin agents work."
+      },
+      {
+        "start": 218.5,
+        "duration": 3.4,
+        "text": "So let's quickly talk about the two most popular types."
+      },
+      {
+        "start": 222.0,
+        "duration": 2.5,
+        "text": "So first we have 0Short Agent."
+      },
+      {
+        "start": 224.5,
+        "duration": 2.6,
+        "text": "So this is the most commonly used agent."
+      },
+      {
+        "start": 227.1,
+        "duration": 4.8,
+        "text": "It works by giving the language model a list of tools along with a description of what"
+      },
+      {
+        "start": 231.8,
+        "duration": 1.6,
+        "text": "each tool does."
+      },
+      {
+        "start": 233.5,
+        "duration": 5.4,
+        "text": "Then the model uses that information to figure out on the fly which tool to use and in what"
+      },
+      {
+        "start": 238.9,
+        "duration": 1.0,
+        "text": "order."
+      },
+      {
+        "start": 239.9,
+        "duration": 3.7,
+        "text": "So it's called 0Short because the model doesn't get examples."
+      },
+      {
+        "start": 243.6,
+        "duration": 5.0,
+        "text": "It just reasons based on the tool descriptions and it is best for tasks that doesn't meet"
+      },
+      {
+        "start": 248.6,
+        "duration": 3.2,
+        "text": "memory or a back and forth conversation."
+      },
+      {
+        "start": 251.9,
+        "duration": 3.6,
+        "text": "Just like data lookups, calculations or API calls."
+      },
+      {
+        "start": 255.5,
+        "duration": 2.8,
+        "text": "And the next type is the conversational agent."
+      },
+      {
+        "start": 258.3,
+        "duration": 2.0,
+        "text": "This one is more advanced."
+      },
+      {
+        "start": 260.3,
+        "duration": 3.0,
+        "text": "It is designed for multi turn conversations."
+      },
+      {
+        "start": 263.3,
+        "duration": 5.8,
+        "text": "That means the agent remembers previous steps and keeps track of what's already been done."
+      },
+      {
+        "start": 269.2,
+        "duration": 5.6,
+        "text": "So it uses a chat history and a memory module to maintain context across multiple prompts."
+      },
+      {
+        "start": 274.8,
+        "duration": 5.7,
+        "text": "And it is best for chat bots, virtual assistants or tools where the user asks follow up questions"
+      },
+      {
+        "start": 280.5,
+        "duration": 3.0,
+        "text": "or expect the AI to remember context."
+      },
+      {
+        "start": 283.6,
+        "duration": 6.0,
+        "text": "So in short, I can say that the 0Short Agent is fast, simple and one short task."
+      },
+      {
+        "start": 289.6,
+        "duration": 5.3,
+        "text": "Whereas the conversational agent is context aware back and forth dialogues."
+      },
+      {
+        "start": 294.9,
+        "duration": 6.2,
+        "text": "And there are other agents like tool using agents, plan and execute agents or multi action"
+      },
+      {
+        "start": 301.1,
+        "duration": 4.8,
+        "text": "agents for more advanced workflows and perfect for the future deep dives."
+      },
+      {
+        "start": 305.9,
+        "duration": 5.4,
+        "text": "Now to understand chain agents, let's quickly explore its core building blocks."
+      },
+      {
+        "start": 311.3,
+        "duration": 2.0,
+        "text": "So first we have the LLMs."
+      },
+      {
+        "start": 313.3,
+        "duration": 1.9,
+        "text": "It is a brain of the system."
+      },
+      {
+        "start": 315.2,
+        "duration": 5.5,
+        "text": "LLMs supports modules like open AI, GPT 3.5 or GPT 4."
+      },
+      {
+        "start": 320.7,
+        "duration": 5.1,
+        "text": "Also anthropic alert and hugging phase, Poulama, Kohair etc."
+      },
+      {
+        "start": 325.8,
+        "duration": 2.4,
+        "text": "And the next component is prompts."
+      },
+      {
+        "start": 328.2,
+        "duration": 3.2,
+        "text": "These are the templates that guide the LLMs behavior."
+      },
+      {
+        "start": 331.4,
+        "duration": 6.7,
+        "text": "You can use static prompts or chat prompt template for more dynamic and multi turn interactions."
+      },
+      {
+        "start": 338.1,
+        "duration": 1.3,
+        "text": "Next we have chains."
+      },
+      {
+        "start": 339.4,
+        "duration": 2.6,
+        "text": "It is a sequence of calls or logic."
+      },
+      {
+        "start": 342.0,
+        "duration": 1.5,
+        "text": "Next tools."
+      },
+      {
+        "start": 343.5,
+        "duration": 3.3,
+        "text": "These are the external functions the LLMs can call."
+      },
+      {
+        "start": 346.8,
+        "duration": 5.5,
+        "text": "Such as python calculator, web search API or SQL query executor."
+      },
+      {
+        "start": 352.3,
+        "duration": 1.4,
+        "text": "Then we have agents."
+      },
+      {
+        "start": 353.7,
+        "duration": 4.9,
+        "text": "Agents dynamically decide which tool to use and when based on your input."
+      },
+      {
+        "start": 358.6,
+        "duration": 5.3,
+        "text": "So agents are water and chain from a chatbot into a multi tool problem solver."
+      },
+      {
+        "start": 364.0,
+        "duration": 4.8,
+        "text": "So over here the tools adjust python functions wrapped in a LLM format."
+      },
+      {
+        "start": 368.8,
+        "duration": 2.4,
+        "text": "For example this is the python function."
+      },
+      {
+        "start": 371.2,
+        "duration": 4.8,
+        "text": "So it's like giving your AI assistant a toolbox and letting it decide what to use based"
+      },
+      {
+        "start": 376.0,
+        "duration": 1.4,
+        "text": "on your prompt."
+      },
+      {
+        "start": 377.4,
+        "duration": 6.6,
+        "text": "Next, the agent then follows a process called react which stands for reasoning plus acting."
+      },
+      {
+        "start": 384.0,
+        "duration": 1.8,
+        "text": "So here's what that looks like."
+      },
+      {
+        "start": 385.9,
+        "duration": 6.2,
+        "text": "So first the agent receives the prompt then the LLM decides that I need to search the web."
+      },
+      {
+        "start": 392.0,
+        "duration": 4.4,
+        "text": "So the lantern calls the search tool and then the tool returns the result."
+      },
+      {
+        "start": 396.5,
+        "duration": 1.9,
+        "text": "Next LLM reasons."
+      },
+      {
+        "start": 398.4,
+        "duration": 2.6,
+        "text": "Now I need to do a calculation."
+      },
+      {
+        "start": 401.0,
+        "duration": 4.5,
+        "text": "So the lantern calls a calculator tool and agent returns the final answer."
+      },
+      {
+        "start": 405.5,
+        "duration": 2.7,
+        "text": "So here's the example of the react loop."
+      },
+      {
+        "start": 408.2,
+        "duration": 3.0,
+        "text": "So the thought is I need to find today's weather."
+      },
+      {
+        "start": 411.2,
+        "duration": 4.1,
+        "text": "The action that takes us it uses a weather API."
+      },
+      {
+        "start": 415.3,
+        "duration": 1.4,
+        "text": "Next is the observation."
+      },
+      {
+        "start": 416.7,
+        "duration": 3.7,
+        "text": "For example, it's at 28 degrees Celsius in Bangalore."
+      },
+      {
+        "start": 420.4,
+        "duration": 5.0,
+        "text": "The thought is now I can tell the user the temperature and the final answer would be"
+      },
+      {
+        "start": 425.5,
+        "duration": 3.4,
+        "text": "it's currently 28 degrees Celsius in Bangalore."
+      },
+      {
+        "start": 428.8,
+        "duration": 5.2,
+        "text": "So this entire flow is written and passed by the LLM itself using intermediate steps"
+      },
+      {
+        "start": 434.0,
+        "duration": 1.7,
+        "text": "called scratch paths."
+      },
+      {
+        "start": 435.8,
+        "duration": 5.5,
+        "text": "So the lantern passes those steps and knows when to call a tool or stop."
+      },
+      {
+        "start": 441.2,
+        "duration": 4.8,
+        "text": "Now let's look at where lantern agents are used in real world projects."
+      },
+      {
+        "start": 446.0,
+        "duration": 3.6,
+        "text": "So first it is used in AI customer assistance."
+      },
+      {
+        "start": 449.6,
+        "duration": 5.8,
+        "text": "So the agents can look up user info reset passwords and respond to queries automatically."
+      },
+      {
+        "start": 455.4,
+        "duration": 4.6,
+        "text": "So the users can ask things like what was my profit margin last quarter."
+      },
+      {
+        "start": 460.0,
+        "duration": 4.7,
+        "text": "So the agent pulls data from a database does the math and explains it."
+      },
+      {
+        "start": 464.8,
+        "duration": 3.8,
+        "text": "Next the lantern agents can be used in research tools."
+      },
+      {
+        "start": 468.6,
+        "duration": 5.6,
+        "text": "So you can build a research box that searches multiple sources summarizes and gives you"
+      },
+      {
+        "start": 474.2,
+        "duration": 2.1,
+        "text": "an answer step by step."
+      },
+      {
+        "start": 476.3,
+        "duration": 5.9,
+        "text": "Then in automated workflows like send a message, create a task in a Trello and update the"
+      },
+      {
+        "start": 482.2,
+        "duration": 2.4,
+        "text": "CRM all with one prompt."
+      },
+      {
+        "start": 484.6,
+        "duration": 2.5,
+        "text": "So that's the power of lantern agents."
+      },
+      {
+        "start": 487.0,
+        "duration": 4.7,
+        "text": "So they allow your language models to take action, use tools and solve real world tasks"
+      },
+      {
+        "start": 491.7,
+        "duration": 1.3,
+        "text": "step by step."
+      },
+      {
+        "start": 493.0,
+        "duration": 4.0,
+        "text": "So let me know in comments if you want a full coding tutorial on building your first"
+      },
+      {
+        "start": 497.1,
+        "duration": 1.4,
+        "text": "lantern agent."
+      },
+      {
+        "start": 498.5,
+        "duration": 4.3,
+        "text": "And with this we have come to an end to this video on lantern agents."
+      },
+      {
+        "start": 502.8,
+        "duration": 4.6,
+        "text": "If you enjoyed listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 507.5,
+        "duration": 4.0,
+        "text": "on any of your Belgian queries we will reply to them a day earlier."
+      },
+      {
+        "start": 511.4,
+        "duration": 5.2,
+        "text": "And do look up for more videos and playlist and subscribe to Idureka's YouTube channel"
+      },
+      {
+        "start": 516.6,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 517.6,
+        "duration": 2.0,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome back to the channel. Today we are driving into LinkedIn agents, one of its most powerful features. So if you have ever wondered how to make your AI not just respond but actually act, this is for you. So let's break it down in a simple and practical way. And by the end, you will understand what LinkedIn agents are, how they work and how you can use them in real world projects. So before we begin, please like, share and subscribe to Adurika's YouTube channel and hit the bell icon to stay updated on the latest content from Adurika. Also, check out Adurika's Agentec AI certification training. It is carefully crafted to meet industry demands and prepare you for the future of intelligent agents. You will gain practical skills in LinkedIn, RAC, LLM ops and more through live instructor led sessions and hands on labs. Whether you are a beginner or a tech professional, this course helps you master the concepts and accelerate your AI career. So check out the course link given in the description box below. So before we talk about agents, let's quickly understand LinkedIn. LinkedIn is a framework designed to help you connect large language models such as GPT with external tools, APIs, memory and custom logic. Normally, LLM's like chat GPT can only generate responses based on the text you give them. But what if you want it to search the web, run Python code, query a database or use a calculator? That's where LinkedIn comes in. It acts as a bridge between the LLM and the tools it can use to interact with the real world. And one of the most powerful features in Lanchin is agents. So what exactly is a Lanchin agent? So think of it like this. Instead of you telling the AI exactly what to do, you just give it a goal and the agent figures out how to get it done. An agent combines the power of reasoning, decision making and tools. It uses the LLM to understand the task, choose which tools it needs, call those tools in the right order and then return the final result to the user. It's like giving your AI assistant a doorbox and letting it decide which tools to use based on the question you ask. So let's look at a real example to make it clear. Imagine this prompt. Check the current stock price of Apple and calculate the average over the past five days. A regular chatbot can't do that. But a Lanchin agent can use a web search API to find today's stock price and use a Python tool to calculate the average and then respond with the results all automatically. So here's what happening under the hood. The LLM receives your prompt and it decides it needs to search and calculate and then it picks the right tools, maybe serve API for search and Python REPL from Mac and it performs each step in a sequence and gives you the final output. So this is all done dynamically meaning you don't hard good each step. So the agent figures it out using the language models reasoning. Now let's look at the inner working of a Lanchin agent. So when you create an agent in Lanchin you define three things. First the LLM to use like GPT-4 or CLERD. Next the tools available like calculator, web search, database query etc. Next the agent type. So the Lanchin supports types like 0Short Agent and Conversational Agent. So now that you understand how Lanchin agents work. So let's quickly talk about the two most popular types. So first we have 0Short Agent. So this is the most commonly used agent. It works by giving the language model a list of tools along with a description of what each tool does. Then the model uses that information to figure out on the fly which tool to use and in what order. So it's called 0Short because the model doesn't get examples. It just reasons based on the tool descriptions and it is best for tasks that doesn't meet memory or a back and forth conversation. Just like data lookups, calculations or API calls. And the next type is the conversational agent. This one is more advanced. It is designed for multi turn conversations. That means the agent remembers previous steps and keeps track of what's already been done. So it uses a chat history and a memory module to maintain context across multiple prompts. And it is best for chat bots, virtual assistants or tools where the user asks follow up questions or expect the AI to remember context. So in short, I can say that the 0Short Agent is fast, simple and one short task. Whereas the conversational agent is context aware back and forth dialogues. And there are other agents like tool using agents, plan and execute agents or multi action agents for more advanced workflows and perfect for the future deep dives. Now to understand chain agents, let's quickly explore its core building blocks. So first we have the LLMs. It is a brain of the system. LLMs supports modules like open AI, GPT 3.5 or GPT 4. Also anthropic alert and hugging phase, Poulama, Kohair etc. And the next component is prompts. These are the templates that guide the LLMs behavior. You can use static prompts or chat prompt template for more dynamic and multi turn interactions. Next we have chains. It is a sequence of calls or logic. Next tools. These are the external functions the LLMs can call. Such as python calculator, web search API or SQL query executor. Then we have agents. Agents dynamically decide which tool to use and when based on your input. So agents are water and chain from a chatbot into a multi tool problem solver. So over here the tools adjust python functions wrapped in a LLM format. For example this is the python function. So it's like giving your AI assistant a toolbox and letting it decide what to use based on your prompt. Next, the agent then follows a process called react which stands for reasoning plus acting. So here's what that looks like. So first the agent receives the prompt then the LLM decides that I need to search the web. So the lantern calls the search tool and then the tool returns the result. Next LLM reasons. Now I need to do a calculation. So the lantern calls a calculator tool and agent returns the final answer. So here's the example of the react loop. So the thought is I need to find today's weather. The action that takes us it uses a weather API. Next is the observation. For example, it's at 28 degrees Celsius in Bangalore. The thought is now I can tell the user the temperature and the final answer would be it's currently 28 degrees Celsius in Bangalore. So this entire flow is written and passed by the LLM itself using intermediate steps called scratch paths. So the lantern passes those steps and knows when to call a tool or stop. Now let's look at where lantern agents are used in real world projects. So first it is used in AI customer assistance. So the agents can look up user info reset passwords and respond to queries automatically. So the users can ask things like what was my profit margin last quarter. So the agent pulls data from a database does the math and explains it. Next the lantern agents can be used in research tools. So you can build a research box that searches multiple sources summarizes and gives you an answer step by step. Then in automated workflows like send a message, create a task in a Trello and update the CRM all with one prompt. So that's the power of lantern agents. So they allow your language models to take action, use tools and solve real world tasks step by step. So let me know in comments if you want a full coding tutorial on building your first lantern agent. And with this we have come to an end to this video on lantern agents. If you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your Belgian queries we will reply to them a day earlier. And do look up for more videos and playlist and subscribe to Idureka's YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

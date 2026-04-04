@@ -1,0 +1,874 @@
+{
+  "video_id": "HI5muXcNngQ",
+  "video_title": "Types of Machine Learning Models | How Machine Learning Models REALLY Work | ML Models | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 603.0,
+  "view_count": 4633,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 11.5,
+        "text": "Hello everyone and welcome back to EduRyka's YouTube channel."
+      },
+      {
+        "start": 11.5,
+        "duration": 3.8,
+        "text": "Today in this video we will explore the types of machine learning models."
+      },
+      {
+        "start": 15.4,
+        "duration": 5.1,
+        "text": "Did you know that machine learning powers everything from Netflix recommendations to self"
+      },
+      {
+        "start": 20.5,
+        "duration": 1.4,
+        "text": "driving costs?"
+      },
+      {
+        "start": 21.8,
+        "duration": 2.7,
+        "text": "But here's the catch, it's not just one thing."
+      },
+      {
+        "start": 24.6,
+        "duration": 4.1,
+        "text": "Machine learning comes in different types, it's designed to solve unique problems."
+      },
+      {
+        "start": 28.7,
+        "duration": 3.8,
+        "text": "So in this video we will discuss the four main types of machine learning models such"
+      },
+      {
+        "start": 32.5,
+        "duration": 4.9,
+        "text": "as supervised, unsupervised, semi-supervised and reinforcement learning."
+      },
+      {
+        "start": 37.4,
+        "duration": 4.2,
+        "text": "And by the end you will not only understand how they work but also see their real world"
+      },
+      {
+        "start": 41.7,
+        "duration": 1.4,
+        "text": "applications."
+      },
+      {
+        "start": 43.0,
+        "duration": 4.2,
+        "text": "But before we get into the details, please like share and subscribe to our YouTube channel"
+      },
+      {
+        "start": 47.2,
+        "duration": 4.8,
+        "text": "and remember to hit the bell icon to stay updated on the latest content from EduRyka."
+      },
+      {
+        "start": 52.0,
+        "duration": 5.1,
+        "text": "Also, EduRyka's generative AI course master's program helps you master the principles of"
+      },
+      {
+        "start": 57.2,
+        "duration": 3.8,
+        "text": "generative AI and implement them in real world application."
+      },
+      {
+        "start": 60.9,
+        "duration": 5.0,
+        "text": "So this course includes training on artificial intelligence, python programming, data science,"
+      },
+      {
+        "start": 65.9,
+        "duration": 5.5,
+        "text": "natural language processing, generative AI, prompt engineering, chat, GPT and more."
+      },
+      {
+        "start": 71.4,
+        "duration": 4.6,
+        "text": "This course includes five plus hands-on projects to help you apply what you learn in real world"
+      },
+      {
+        "start": 76.0,
+        "duration": 1.0,
+        "text": "scenarios."
+      },
+      {
+        "start": 77.0,
+        "duration": 4.7,
+        "text": "The curriculum is meticulously designed by industry experts based on the analysis of 5000"
+      },
+      {
+        "start": 81.8,
+        "duration": 2.1,
+        "text": "plus global job description."
+      },
+      {
+        "start": 83.8,
+        "duration": 3.1,
+        "text": "So check out the course link in the description box below."
+      },
+      {
+        "start": 87.0,
+        "duration": 4.2,
+        "text": "But before we dive in, let's outline what we will cover in this video."
+      },
+      {
+        "start": 91.2,
+        "duration": 4.5,
+        "text": "So first, we will cover what machine learning is where we will discuss how we differ from"
+      },
+      {
+        "start": 95.7,
+        "duration": 3.1,
+        "text": "traditional programming and why it's so powerful."
+      },
+      {
+        "start": 98.8,
+        "duration": 5.8,
+        "text": "Next, we will explore the role of ML models in generative AI and get to know why do we"
+      },
+      {
+        "start": 104.6,
+        "duration": 3.1,
+        "text": "need ML models in gen AI frameworks."
+      },
+      {
+        "start": 107.7,
+        "duration": 3.5,
+        "text": "Then we will dive into the types of machine learning models."
+      },
+      {
+        "start": 111.2,
+        "duration": 4.6,
+        "text": "And finally, we will wrap up on how to choose the right model, sharing key tips to help"
+      },
+      {
+        "start": 115.8,
+        "duration": 5.2,
+        "text": "you select the best one based on your data, problem type and real world constraints."
+      },
+      {
+        "start": 121.0,
+        "duration": 3.4,
+        "text": "So let's begin with our first question, what is machine learning?"
+      },
+      {
+        "start": 124.4,
+        "duration": 5.2,
+        "text": "Well, machine learning is a branch of artificial intelligence that enable computers to learn"
+      },
+      {
+        "start": 129.6,
+        "duration": 6.1,
+        "text": "patterns from data and make predictions or decisions without being explicitly programmed."
+      },
+      {
+        "start": 135.6,
+        "duration": 5.3,
+        "text": "So instead of following the rigid rules, ML models adapt and improve over time by analyzing"
+      },
+      {
+        "start": 141.0,
+        "duration": 1.9,
+        "text": "vast amounts of data."
+      },
+      {
+        "start": 142.8,
+        "duration": 4.9,
+        "text": "Some personalized recommendations on Netflix to fraud detection in banking, ML powers"
+      },
+      {
+        "start": 147.8,
+        "duration": 2.4,
+        "text": "conflicts real world applications."
+      },
+      {
+        "start": 150.1,
+        "duration": 4.2,
+        "text": "So now that we have a basic understanding of machine learning, right, now let's explore"
+      },
+      {
+        "start": 154.4,
+        "duration": 2.6,
+        "text": "different types of ML models."
+      },
+      {
+        "start": 157.0,
+        "duration": 5.4,
+        "text": "So not all data is structured the same way and different problems require different approaches."
+      },
+      {
+        "start": 162.4,
+        "duration": 5.7,
+        "text": "So for example, predicting stock prices requires the models that learn from historical trends."
+      },
+      {
+        "start": 168.0,
+        "duration": 4.5,
+        "text": "And then identifying objects in images needs models that recognize patterns in visual"
+      },
+      {
+        "start": 172.5,
+        "duration": 1.0,
+        "text": "data."
+      },
+      {
+        "start": 173.5,
+        "duration": 5.3,
+        "text": "Next, the chatboards and voice assistants rely on the models to understand and generate"
+      },
+      {
+        "start": 178.8,
+        "duration": 1.0,
+        "text": "human language."
+      },
+      {
+        "start": 179.8,
+        "duration": 5.6,
+        "text": "So to tackle these challenges, as I discussed previously, that ML is divided into different"
+      },
+      {
+        "start": 185.4,
+        "duration": 6.0,
+        "text": "learning models, such as supervised, unsupervised and reinforcement learning and each has its"
+      },
+      {
+        "start": 191.4,
+        "duration": 4.0,
+        "text": "own strengths and it is used depending on the problem at hand."
+      },
+      {
+        "start": 195.4,
+        "duration": 4.3,
+        "text": "As we know why different ML models are needed, let's say how they play a crucial role"
+      },
+      {
+        "start": 199.7,
+        "duration": 2.0,
+        "text": "in generative AI."
+      },
+      {
+        "start": 201.7,
+        "duration": 5.3,
+        "text": "Well, generative AI is one of the most exciting applications of machine learning and unlike"
+      },
+      {
+        "start": 207.0,
+        "duration": 5.0,
+        "text": "traditional ML models that make predictions or classifications, generative models create"
+      },
+      {
+        "start": 212.0,
+        "duration": 1.9,
+        "text": "entirely new content."
+      },
+      {
+        "start": 213.8,
+        "duration": 2.8,
+        "text": "And here's how ML enables AI to generate."
+      },
+      {
+        "start": 216.7,
+        "duration": 5.3,
+        "text": "So first here we have text, a language models like GPT generate human like text for chat"
+      },
+      {
+        "start": 222.0,
+        "duration": 3.1,
+        "text": "bots, content writing and coding."
+      },
+      {
+        "start": 225.1,
+        "duration": 1.7,
+        "text": "Next is the image."
+      },
+      {
+        "start": 226.8,
+        "duration": 5.9,
+        "text": "So AI power tools like Dali can create realistic images from textual descriptions."
+      },
+      {
+        "start": 232.7,
+        "duration": 1.3,
+        "text": "Next is videos."
+      },
+      {
+        "start": 234.0,
+        "duration": 5.8,
+        "text": "So advanced ML models synthesize life like video content, transforming media, marketing"
+      },
+      {
+        "start": 239.8,
+        "duration": 1.8,
+        "text": "and even flim making."
+      },
+      {
+        "start": 241.6,
+        "duration": 4.6,
+        "text": "So this advancements in generative AI are reshaping creativity and automation."
+      },
+      {
+        "start": 246.2,
+        "duration": 3.8,
+        "text": "Proving that machine learning is not just about making decision, it's about creating new"
+      },
+      {
+        "start": 250.0,
+        "duration": 1.0,
+        "text": "possibilities."
+      },
+      {
+        "start": 251.4,
+        "duration": 4.4,
+        "text": "So now that we have seen how ML models enable AI to create new content."
+      },
+      {
+        "start": 255.8,
+        "duration": 4.0,
+        "text": "So now let us briefly understand the different types of machine learning models."
+      },
+      {
+        "start": 259.8,
+        "duration": 4.6,
+        "text": "So here the first type of machine learning model is supervised learning."
+      },
+      {
+        "start": 264.4,
+        "duration": 4.3,
+        "text": "Supervised learning trains are model using label data where each input has a corresponding"
+      },
+      {
+        "start": 268.7,
+        "duration": 4.6,
+        "text": "correct output and this makes it ideal for task where historical data can be used to"
+      },
+      {
+        "start": 273.3,
+        "duration": 2.2,
+        "text": "predict future outcomes."
+      },
+      {
+        "start": 275.5,
+        "duration": 3.3,
+        "text": "For example, let's say spam detection."
+      },
+      {
+        "start": 278.8,
+        "duration": 5.6,
+        "text": "Design services like Gmail uses supervised learning to classify emails as spam or not spam"
+      },
+      {
+        "start": 284.4,
+        "duration": 3.0,
+        "text": "by learning from past labeled examples."
+      },
+      {
+        "start": 287.4,
+        "duration": 2.8,
+        "text": "The next example is the price predictions."
+      },
+      {
+        "start": 290.2,
+        "duration": 4.4,
+        "text": "So realistic platforms use regression models to predict how prices based on the features"
+      },
+      {
+        "start": 294.6,
+        "duration": 3.8,
+        "text": "like location, size and amenities."
+      },
+      {
+        "start": 298.4,
+        "duration": 3.5,
+        "text": "Now let us see some of the popular algorithms."
+      },
+      {
+        "start": 301.8,
+        "duration": 3.1,
+        "text": "So first let's discuss on decision trees."
+      },
+      {
+        "start": 304.9,
+        "duration": 4.8,
+        "text": "These models break down the data into a tree light structure where each note represent"
+      },
+      {
+        "start": 309.7,
+        "duration": 2.2,
+        "text": "a decision based on a feature."
+      },
+      {
+        "start": 311.9,
+        "duration": 3.4,
+        "text": "So they are easy to interpret and work well for both classification."
+      },
+      {
+        "start": 315.4,
+        "duration": 5.8,
+        "text": "For example, deciding if an email is a spam or not and regression example predicting"
+      },
+      {
+        "start": 321.2,
+        "duration": 1.0,
+        "text": "horse price."
+      },
+      {
+        "start": 322.2,
+        "duration": 3.0,
+        "text": "However, they can become overly complex."
+      },
+      {
+        "start": 325.2,
+        "duration": 3.0,
+        "text": "Next is the support vector machines."
+      },
+      {
+        "start": 328.2,
+        "duration": 4.7,
+        "text": "So SVMs are powerful for classification tasks as they find the optimal boundary also"
+      },
+      {
+        "start": 332.9,
+        "duration": 5.7,
+        "text": "called a hyperplane and that best separates different losses in the data."
+      },
+      {
+        "start": 338.6,
+        "duration": 4.6,
+        "text": "They work well for high dimensional spaces and cases where the distinction between categories"
+      },
+      {
+        "start": 343.2,
+        "duration": 5.7,
+        "text": "is clear, such as handwriting, facial recognition or medical diagnosis."
+      },
+      {
+        "start": 348.9,
+        "duration": 2.3,
+        "text": "So now that we have seen how label data is used."
+      },
+      {
+        "start": 351.2,
+        "duration": 4.7,
+        "text": "So now let's explore how unsupervised learning finds pattern without labels."
+      },
+      {
+        "start": 356.0,
+        "duration": 5.7,
+        "text": "Well, unsupervised learning works with unlabeled data, identifying hidden patterns and relationships"
+      },
+      {
+        "start": 361.7,
+        "duration": 2.2,
+        "text": "without predefined categories."
+      },
+      {
+        "start": 363.8,
+        "duration": 3.0,
+        "text": "So here we have some of the popular algorithms."
+      },
+      {
+        "start": 366.8,
+        "duration": 2.6,
+        "text": "So first is the key means clustering."
+      },
+      {
+        "start": 369.4,
+        "duration": 5.6,
+        "text": "This algorithm partitions data into a predefined number of clusters by grouping similar data"
+      },
+      {
+        "start": 375.0,
+        "duration": 2.3,
+        "text": "points based on their attributes."
+      },
+      {
+        "start": 377.3,
+        "duration": 5.5,
+        "text": "It works well for tasks like customer segmentation where businesses can group customer based"
+      },
+      {
+        "start": 382.8,
+        "duration": 1.7,
+        "text": "on purchasing behavior."
+      },
+      {
+        "start": 384.5,
+        "duration": 5.6,
+        "text": "However, it assumes clusters are spherical and may struggle with irregular shift data."
+      },
+      {
+        "start": 390.1,
+        "duration": 3.0,
+        "text": "Next we have auto encoders."
+      },
+      {
+        "start": 393.1,
+        "duration": 4.8,
+        "text": "So these are specialized neural networks designed to learn efficient data representations"
+      },
+      {
+        "start": 397.9,
+        "duration": 2.8,
+        "text": "by encoding and reconstructing input data."
+      },
+      {
+        "start": 400.7,
+        "duration": 2.4,
+        "text": "Let us see some of the examples."
+      },
+      {
+        "start": 403.1,
+        "duration": 4.2,
+        "text": "So first example here we have is customer segmentation."
+      },
+      {
+        "start": 407.3,
+        "duration": 4.8,
+        "text": "When e-commerce platforms group customer based on day shopping behavior to offer personalized"
+      },
+      {
+        "start": 412.0,
+        "duration": 1.0,
+        "text": "recommendations."
+      },
+      {
+        "start": 413.0,
+        "duration": 3.6,
+        "text": "The next example is market analysis."
+      },
+      {
+        "start": 416.7,
+        "duration": 4.8,
+        "text": "Analysis, analyzed purchasing trends to find association such as which products are frequently"
+      },
+      {
+        "start": 421.5,
+        "duration": 1.5,
+        "text": "brought together."
+      },
+      {
+        "start": 423.0,
+        "duration": 3.0,
+        "text": "Now we have covered both labeled and unlabeled learning."
+      },
+      {
+        "start": 426.0,
+        "duration": 4.7,
+        "text": "So let's see how semi-supervised learning combines the best of both worlds."
+      },
+      {
+        "start": 430.7,
+        "duration": 5.2,
+        "text": "So semi-supervised learning bridges the gap between the supervised and unsupervised learning"
+      },
+      {
+        "start": 435.9,
+        "duration": 4.8,
+        "text": "by using a small amount of label data along with large amount of unlabeled data."
+      },
+      {
+        "start": 440.6,
+        "duration": 4.1,
+        "text": "So for example, let's say AI assistant medical diagnosis."
+      },
+      {
+        "start": 444.7,
+        "duration": 4.7,
+        "text": "Product medical images such as x-rays with diagnosis are scarce."
+      },
+      {
+        "start": 449.4,
+        "duration": 3.1,
+        "text": "But large amounts of unlabeled images exist."
+      },
+      {
+        "start": 452.5,
+        "duration": 5.7,
+        "text": "semi-supervised learning help AI learn patterns from both labeled and unlabeled data, improving"
+      },
+      {
+        "start": 458.2,
+        "duration": 2.4,
+        "text": "accuracy in this detection."
+      },
+      {
+        "start": 460.6,
+        "duration": 4.8,
+        "text": "Alright, now let's explore the reinforcement learning where AI learns through trial and"
+      },
+      {
+        "start": 465.4,
+        "duration": 1.0,
+        "text": "error."
+      },
+      {
+        "start": 466.4,
+        "duration": 5.8,
+        "text": "Well, reinforcement learning is inspired by the concept of learning through trial and error."
+      },
+      {
+        "start": 472.2,
+        "duration": 5.5,
+        "text": "So models interact with an environment, receive rewards or penalties for actions and refine"
+      },
+      {
+        "start": 477.7,
+        "duration": 1.8,
+        "text": "their strengths over time."
+      },
+      {
+        "start": 479.4,
+        "duration": 5.4,
+        "text": "For example, let's say gaming, Mario AI developed using reinforcement learning learns"
+      },
+      {
+        "start": 484.8,
+        "duration": 4.3,
+        "text": "to navigate levels by optimizing actions through trial and error."
+      },
+      {
+        "start": 489.1,
+        "duration": 5.5,
+        "text": "The next example is robotics where robots learn to work, balance or perform tasks through"
+      },
+      {
+        "start": 494.6,
+        "duration": 4.2,
+        "text": "reinforcement learning by maximizing positive outcomes."
+      },
+      {
+        "start": 498.9,
+        "duration": 5.8,
+        "text": "So reinforcement learning uses agents, actions and rewards to improve decision making, making"
+      },
+      {
+        "start": 504.7,
+        "duration": 4.3,
+        "text": "it ideal for task requiring continuous learning and adaption."
+      },
+      {
+        "start": 509.0,
+        "duration": 4.0,
+        "text": "So now that we have covered all the types of machine learning models, so let's go over"
+      },
+      {
+        "start": 513.0,
+        "duration": 4.0,
+        "text": "some of the key tips to help you choose the right one for your needs."
+      },
+      {
+        "start": 517.0,
+        "duration": 1.6,
+        "text": "So here are the tips."
+      },
+      {
+        "start": 518.6,
+        "duration": 5.1,
+        "text": "When it comes to supervised learning, classifying emails as spam or not and diagnosing"
+      },
+      {
+        "start": 523.8,
+        "duration": 2.6,
+        "text": "diseases from patient data."
+      },
+      {
+        "start": 526.4,
+        "duration": 2.1,
+        "text": "Next is the unsupervised learning."
+      },
+      {
+        "start": 528.4,
+        "duration": 4.6,
+        "text": "So unsupervised learning is best when you're grouping shoppers by behavior and detecting"
+      },
+      {
+        "start": 533.0,
+        "duration": 1.7,
+        "text": "fraud in banking."
+      },
+      {
+        "start": 534.7,
+        "duration": 4.6,
+        "text": "Next we have semi supervised learning and this is best when you're improving speech recognition"
+      },
+      {
+        "start": 539.4,
+        "duration": 4.2,
+        "text": "with limited label data and identifying fake news."
+      },
+      {
+        "start": 543.5,
+        "duration": 2.7,
+        "text": "And finally, the reinforcement learning."
+      },
+      {
+        "start": 546.2,
+        "duration": 4.6,
+        "text": "This will be best when you're training self driving cars to navigate optimizing AI in"
+      },
+      {
+        "start": 550.8,
+        "duration": 2.1,
+        "text": "video games like Mario."
+      },
+      {
+        "start": 552.9,
+        "duration": 4.9,
+        "text": "So whether it's supervised unsupervised semi supervised or reinforcement learning,"
+      },
+      {
+        "start": 557.8,
+        "duration": 3.6,
+        "text": "each model plays a crucial role in shaping AI's future."
+      },
+      {
+        "start": 561.3,
+        "duration": 4.8,
+        "text": "So as generative AI continues to evolve, this models are driving innovation in text,"
+      },
+      {
+        "start": 566.2,
+        "duration": 2.3,
+        "text": "images and video generation."
+      },
+      {
+        "start": 568.5,
+        "duration": 3.4,
+        "text": "So which machine learning model do you find the most fascinating?"
+      },
+      {
+        "start": 571.9,
+        "duration": 2.0,
+        "text": "Let me know in the comments below."
+      },
+      {
+        "start": 573.9,
+        "duration": 4.2,
+        "text": "So if you enjoyed listening to this video, please be kind and often like it and you can"
+      },
+      {
+        "start": 578.2,
+        "duration": 4.7,
+        "text": "comment on any of your doubts and queries we will reply to them a few years."
+      },
+      {
+        "start": 582.8,
+        "duration": 4.4,
+        "text": "Do look up for more videos and playlists and subscribe to the IduRikers YouTube channel"
+      },
+      {
+        "start": 587.2,
+        "duration": 1.2,
+        "text": "to learn more."
+      },
+      {
+        "start": 588.4,
+        "duration": 1.9,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome back to EduRyka's YouTube channel. Today in this video we will explore the types of machine learning models. Did you know that machine learning powers everything from Netflix recommendations to self driving costs? But here's the catch, it's not just one thing. Machine learning comes in different types, it's designed to solve unique problems. So in this video we will discuss the four main types of machine learning models such as supervised, unsupervised, semi-supervised and reinforcement learning. And by the end you will not only understand how they work but also see their real world applications. But before we get into the details, please like share and subscribe to our YouTube channel and remember to hit the bell icon to stay updated on the latest content from EduRyka. Also, EduRyka's generative AI course master's program helps you master the principles of generative AI and implement them in real world application. So this course includes training on artificial intelligence, python programming, data science, natural language processing, generative AI, prompt engineering, chat, GPT and more. This course includes five plus hands-on projects to help you apply what you learn in real world scenarios. The curriculum is meticulously designed by industry experts based on the analysis of 5000 plus global job description. So check out the course link in the description box below. But before we dive in, let's outline what we will cover in this video. So first, we will cover what machine learning is where we will discuss how we differ from traditional programming and why it's so powerful. Next, we will explore the role of ML models in generative AI and get to know why do we need ML models in gen AI frameworks. Then we will dive into the types of machine learning models. And finally, we will wrap up on how to choose the right model, sharing key tips to help you select the best one based on your data, problem type and real world constraints. So let's begin with our first question, what is machine learning? Well, machine learning is a branch of artificial intelligence that enable computers to learn patterns from data and make predictions or decisions without being explicitly programmed. So instead of following the rigid rules, ML models adapt and improve over time by analyzing vast amounts of data. Some personalized recommendations on Netflix to fraud detection in banking, ML powers conflicts real world applications. So now that we have a basic understanding of machine learning, right, now let's explore different types of ML models. So not all data is structured the same way and different problems require different approaches. So for example, predicting stock prices requires the models that learn from historical trends. And then identifying objects in images needs models that recognize patterns in visual data. Next, the chatboards and voice assistants rely on the models to understand and generate human language. So to tackle these challenges, as I discussed previously, that ML is divided into different learning models, such as supervised, unsupervised and reinforcement learning and each has its own strengths and it is used depending on the problem at hand. As we know why different ML models are needed, let's say how they play a crucial role in generative AI. Well, generative AI is one of the most exciting applications of machine learning and unlike traditional ML models that make predictions or classifications, generative models create entirely new content. And here's how ML enables AI to generate. So first here we have text, a language models like GPT generate human like text for chat bots, content writing and coding. Next is the image. So AI power tools like Dali can create realistic images from textual descriptions. Next is videos. So advanced ML models synthesize life like video content, transforming media, marketing and even flim making. So this advancements in generative AI are reshaping creativity and automation. Proving that machine learning is not just about making decision, it's about creating new possibilities. So now that we have seen how ML models enable AI to create new content. So now let us briefly understand the different types of machine learning models. So here the first type of machine learning model is supervised learning. Supervised learning trains are model using label data where each input has a corresponding correct output and this makes it ideal for task where historical data can be used to predict future outcomes. For example, let's say spam detection. Design services like Gmail uses supervised learning to classify emails as spam or not spam by learning from past labeled examples. The next example is the price predictions. So realistic platforms use regression models to predict how prices based on the features like location, size and amenities. Now let us see some of the popular algorithms. So first let's discuss on decision trees. These models break down the data into a tree light structure where each note represent a decision based on a feature. So they are easy to interpret and work well for both classification. For example, deciding if an email is a spam or not and regression example predicting horse price. However, they can become overly complex. Next is the support vector machines. So SVMs are powerful for classification tasks as they find the optimal boundary also called a hyperplane and that best separates different losses in the data. They work well for high dimensional spaces and cases where the distinction between categories is clear, such as handwriting, facial recognition or medical diagnosis. So now that we have seen how label data is used. So now let's explore how unsupervised learning finds pattern without labels. Well, unsupervised learning works with unlabeled data, identifying hidden patterns and relationships without predefined categories. So here we have some of the popular algorithms. So first is the key means clustering. This algorithm partitions data into a predefined number of clusters by grouping similar data points based on their attributes. It works well for tasks like customer segmentation where businesses can group customer based on purchasing behavior. However, it assumes clusters are spherical and may struggle with irregular shift data. Next we have auto encoders. So these are specialized neural networks designed to learn efficient data representations by encoding and reconstructing input data. Let us see some of the examples. So first example here we have is customer segmentation. When e-commerce platforms group customer based on day shopping behavior to offer personalized recommendations. The next example is market analysis. Analysis, analyzed purchasing trends to find association such as which products are frequently brought together. Now we have covered both labeled and unlabeled learning. So let's see how semi-supervised learning combines the best of both worlds. So semi-supervised learning bridges the gap between the supervised and unsupervised learning by using a small amount of label data along with large amount of unlabeled data. So for example, let's say AI assistant medical diagnosis. Product medical images such as x-rays with diagnosis are scarce. But large amounts of unlabeled images exist. semi-supervised learning help AI learn patterns from both labeled and unlabeled data, improving accuracy in this detection. Alright, now let's explore the reinforcement learning where AI learns through trial and error. Well, reinforcement learning is inspired by the concept of learning through trial and error. So models interact with an environment, receive rewards or penalties for actions and refine their strengths over time. For example, let's say gaming, Mario AI developed using reinforcement learning learns to navigate levels by optimizing actions through trial and error. The next example is robotics where robots learn to work, balance or perform tasks through reinforcement learning by maximizing positive outcomes. So reinforcement learning uses agents, actions and rewards to improve decision making, making it ideal for task requiring continuous learning and adaption. So now that we have covered all the types of machine learning models, so let's go over some of the key tips to help you choose the right one for your needs. So here are the tips. When it comes to supervised learning, classifying emails as spam or not and diagnosing diseases from patient data. Next is the unsupervised learning. So unsupervised learning is best when you're grouping shoppers by behavior and detecting fraud in banking. Next we have semi supervised learning and this is best when you're improving speech recognition with limited label data and identifying fake news. And finally, the reinforcement learning. This will be best when you're training self driving cars to navigate optimizing AI in video games like Mario. So whether it's supervised unsupervised semi supervised or reinforcement learning, each model plays a crucial role in shaping AI's future. So as generative AI continues to evolve, this models are driving innovation in text, images and video generation. So which machine learning model do you find the most fascinating? Let me know in the comments below. So if you enjoyed listening to this video, please be kind and often like it and you can comment on any of your doubts and queries we will reply to them a few years. Do look up for more videos and playlists and subscribe to the IduRikers YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

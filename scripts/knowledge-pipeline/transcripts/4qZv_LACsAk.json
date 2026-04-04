@@ -1,0 +1,1234 @@
+{
+  "video_id": "4qZv_LACsAk",
+  "video_title": "What is SSRF? | Server-Side Request Forgery Explained |  Impact of SSRF Attacks | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 970.0,
+  "view_count": 3795,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.8,
+        "text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka."
+      },
+      {
+        "start": 13.8,
+        "duration": 6.1,
+        "text": "In today's video, we will explore SSRF attacks, also known as Service Site Request for"
+      },
+      {
+        "start": 19.9,
+        "duration": 5.1,
+        "text": "Jury, a critical vulnerability that can exploit the trust web service placed in internal"
+      },
+      {
+        "start": 25.0,
+        "duration": 1.0,
+        "text": "resources."
+      },
+      {
+        "start": 26.0,
+        "duration": 5.3,
+        "text": "We will break down how SSRF attacks work, the dangers they bring to your web applications"
+      },
+      {
+        "start": 31.3,
+        "duration": 5.3,
+        "text": "and most importantly, the steps you can take to secure your system from these threats."
+      },
+      {
+        "start": 36.6,
+        "duration": 5.1,
+        "text": "So whether you are a developer, a cybersecurity professional or someone eager to understand"
+      },
+      {
+        "start": 41.7,
+        "duration": 6.2,
+        "text": "how attackers manipulate web servers to do their bidding, this video is packed with insights"
+      },
+      {
+        "start": 47.9,
+        "duration": 1.8,
+        "text": "you won't want to miss."
+      },
+      {
+        "start": 49.7,
+        "duration": 3.7,
+        "text": "So first, let's take a look at our today's agenda."
+      },
+      {
+        "start": 53.4,
+        "duration": 8.2,
+        "text": "So first, we will understand what SSRF is next, we will see how SSRF works, then we will"
+      },
+      {
+        "start": 61.7,
+        "duration": 5.3,
+        "text": "explore the impact of SSRF attacks and this attacks can cause serious problems like"
+      },
+      {
+        "start": 66.9,
+        "duration": 4.9,
+        "text": "data leaks, internal network access or further system compromise."
+      },
+      {
+        "start": 71.8,
+        "duration": 3.9,
+        "text": "After that, we will look at the types of SSRF attacks."
+      },
+      {
+        "start": 75.7,
+        "duration": 5.4,
+        "text": "So there are different forms including blind SSRF where attackers get no direct response"
+      },
+      {
+        "start": 81.1,
+        "duration": 2.2,
+        "text": "but still cause damage."
+      },
+      {
+        "start": 83.7,
+        "duration": 3.0,
+        "text": "First, we will dive deeper into blind SSRF."
+      },
+      {
+        "start": 86.7,
+        "duration": 6.0,
+        "text": "Finally, we will learn how to prevent SSRF using input validation, blocking internal"
+      },
+      {
+        "start": 92.7,
+        "duration": 4.3,
+        "text": "IPs and limiting server access can help keep systems safe."
+      },
+      {
+        "start": 97.0,
+        "duration": 4.4,
+        "text": "And by the end of this video, you will have a thorough understanding of SSRF vulnerabilities"
+      },
+      {
+        "start": 101.4,
+        "duration": 2.6,
+        "text": "and how to defend against them."
+      },
+      {
+        "start": 104.0,
+        "duration": 4.4,
+        "text": "But before we begin, please like, share and subscribe to EduRagas YouTube channel and"
+      },
+      {
+        "start": 108.4,
+        "duration": 4.2,
+        "text": "hit the bell icon to stay updated on the latest updates from EduRagas."
+      },
+      {
+        "start": 112.6,
+        "duration": 5.4,
+        "text": "Also, check out the certified ethical hacking codes designed in partnership with AC Council"
+      },
+      {
+        "start": 118.0,
+        "duration": 2.8,
+        "text": "to elevate your cybersecurity skills."
+      },
+      {
+        "start": 120.8,
+        "duration": 6.9,
+        "text": "This course offers a globally recognized CEHV13 AI certification and features 20 comprehensive"
+      },
+      {
+        "start": 127.7,
+        "duration": 6.1,
+        "text": "modules that covered over 500 attack techniques enhanced by AI GPT tools."
+      },
+      {
+        "start": 133.7,
+        "duration": 5.1,
+        "text": "You will gain hands-on experience through 221 practical labs and benefit from round-the-clock"
+      },
+      {
+        "start": 138.8,
+        "duration": 3.0,
+        "text": "support provided by certified professionals."
+      },
+      {
+        "start": 141.8,
+        "duration": 5.2,
+        "text": "With access to exclusive echoes where and an example to from the EC Council, this course"
+      },
+      {
+        "start": 147.0,
+        "duration": 5.0,
+        "text": "is your gateway to mastering ethical hacking and securing a rebarding career in cyber"
+      },
+      {
+        "start": 152.0,
+        "duration": 1.0,
+        "text": "defense."
+      },
+      {
+        "start": 153.0,
+        "duration": 3.8,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 156.8,
+        "duration": 5.9,
+        "text": "So let's start by understanding SSRF or service side request for jelly."
+      },
+      {
+        "start": 162.7,
+        "duration": 6.1,
+        "text": "SSRF is a security flaw that occurs when an attacker manipulates a web application or API"
+      },
+      {
+        "start": 168.8,
+        "duration": 2.4,
+        "text": "to request internal resources."
+      },
+      {
+        "start": 171.3,
+        "duration": 5.4,
+        "text": "These internal resources could include sensitive data, private systems or even services that"
+      },
+      {
+        "start": 176.6,
+        "duration": 3.1,
+        "text": "are not meant to be accessible externally."
+      },
+      {
+        "start": 179.7,
+        "duration": 5.9,
+        "text": "And by exploiting these vulnerabilities, attackers can potentially gain unauthorized access, expose"
+      },
+      {
+        "start": 185.6,
+        "duration": 5.6,
+        "text": "sensitive data, compromise systems and even execute malicious code remotely."
+      },
+      {
+        "start": 191.2,
+        "duration": 5.6,
+        "text": "Now that we know what SSRF is, let's dive into how this vulnerability works."
+      },
+      {
+        "start": 196.8,
+        "duration": 5.2,
+        "text": "Imagine a web application that allows users to import data from a URL, publish data to"
+      },
+      {
+        "start": 202.1,
+        "duration": 3.8,
+        "text": "a URL or fetch data from a remote resource."
+      },
+      {
+        "start": 205.8,
+        "duration": 5.3,
+        "text": "But what if the application doesn't validate or sanitize the user provided URLs?"
+      },
+      {
+        "start": 211.1,
+        "duration": 4.0,
+        "text": "So the application becomes vulnerable to an SSRF attack."
+      },
+      {
+        "start": 215.2,
+        "duration": 1.8,
+        "text": "So here's how it works."
+      },
+      {
+        "start": 217.0,
+        "duration": 5.0,
+        "text": "The attacker finds an input field, form or parameter in the application where they can"
+      },
+      {
+        "start": 222.0,
+        "duration": 1.9,
+        "text": "specify a URL."
+      },
+      {
+        "start": 223.9,
+        "duration": 5.1,
+        "text": "And instead of providing a legitimate URL, the attacker craft a malicious one."
+      },
+      {
+        "start": 229.0,
+        "duration": 6.1,
+        "text": "So this URL could point to internal systems, private APIs or even metadata services in cloud"
+      },
+      {
+        "start": 235.1,
+        "duration": 1.6,
+        "text": "environments."
+      },
+      {
+        "start": 236.7,
+        "duration": 5.9,
+        "text": "For example, a common target is the metadata service in cloud servers which can be accessed"
+      },
+      {
+        "start": 242.6,
+        "duration": 1.7,
+        "text": "via this."
+      },
+      {
+        "start": 244.3,
+        "duration": 5.2,
+        "text": "And then these services often store sensitive information such as configuration details or"
+      },
+      {
+        "start": 249.5,
+        "duration": 1.6,
+        "text": "authentication keys."
+      },
+      {
+        "start": 251.2,
+        "duration": 5.4,
+        "text": "The server trusting the user's input process, this malicious URL and it makes a server-side"
+      },
+      {
+        "start": 256.5,
+        "duration": 5.0,
+        "text": "request to a specified resource, unknowingly carrying out the attacker's commands."
+      },
+      {
+        "start": 261.5,
+        "duration": 4.9,
+        "text": "So through this manipulation, an attacker can access sensitive internal resources such"
+      },
+      {
+        "start": 266.5,
+        "duration": 2.9,
+        "text": "as private database or rest APIs."
+      },
+      {
+        "start": 269.3,
+        "duration": 5.5,
+        "text": "Next, exploit resources that assume all requests from the server are trustworthy."
+      },
+      {
+        "start": 274.8,
+        "duration": 4.8,
+        "text": "Then scan internal systems to identify weaknesses or open ports."
+      },
+      {
+        "start": 279.6,
+        "duration": 5.1,
+        "text": "Then extract sensitive data and expel trade it to an external location they control."
+      },
+      {
+        "start": 284.7,
+        "duration": 6.7,
+        "text": "SSRF has become so prominent that it is listed among the OWARP's top 10 vulnerabilities,"
+      },
+      {
+        "start": 291.4,
+        "duration": 4.9,
+        "text": "a widely recognized list of the most critical web application security risks."
+      },
+      {
+        "start": 296.3,
+        "duration": 4.2,
+        "text": "This highlights just how severe and common SSRF attacks are."
+      },
+      {
+        "start": 300.5,
+        "duration": 5.3,
+        "text": "Now that we understand how SSRF works, let's explore the real world impacts these attacks"
+      },
+      {
+        "start": 305.7,
+        "duration": 3.6,
+        "text": "can have on organizations and their systems."
+      },
+      {
+        "start": 309.3,
+        "duration": 4.0,
+        "text": "A successful SSRF attack can have far reaching consequences."
+      },
+      {
+        "start": 313.3,
+        "duration": 4.0,
+        "text": "First, here we have unauthorized access."
+      },
+      {
+        "start": 317.4,
+        "duration": 6.2,
+        "text": "Attackers can gain access to sensitive configuration such as server finds, cloud metadata or even"
+      },
+      {
+        "start": 323.6,
+        "duration": 1.5,
+        "text": "open ports."
+      },
+      {
+        "start": 325.1,
+        "duration": 5.4,
+        "text": "For example, they might extract credentials or manipulate configurations to further exploit"
+      },
+      {
+        "start": 330.5,
+        "duration": 1.0,
+        "text": "the system."
+      },
+      {
+        "start": 331.5,
+        "duration": 3.1,
+        "text": "Next, internal ports can be."
+      },
+      {
+        "start": 334.5,
+        "duration": 6.4,
+        "text": "With SSRF, attackers can perform internal network scans, identifying weak or unprotected"
+      },
+      {
+        "start": 340.9,
+        "duration": 1.5,
+        "text": "services."
+      },
+      {
+        "start": 342.4,
+        "duration": 3.8,
+        "text": "This reconnaissance helps them plan more advanced attacks."
+      },
+      {
+        "start": 346.2,
+        "duration": 2.0,
+        "text": "Next, exploit chaining."
+      },
+      {
+        "start": 348.2,
+        "duration": 5.6,
+        "text": "SSRF vulnerabilities are often a stepping stone to most severe exploits like remote code"
+      },
+      {
+        "start": 353.8,
+        "duration": 3.6,
+        "text": "execution or reflected XSS attacks."
+      },
+      {
+        "start": 357.4,
+        "duration": 5.4,
+        "text": "This means a simple SSRF vulnerability can lead to a complete system compromise."
+      },
+      {
+        "start": 362.8,
+        "duration": 3.2,
+        "text": "And then we have malicious onward attacks."
+      },
+      {
+        "start": 366.0,
+        "duration": 5.0,
+        "text": "Attackers can exploit SSRF to launch malicious requests to external systems."
+      },
+      {
+        "start": 371.0,
+        "duration": 4.8,
+        "text": "These requests appear to originate from the victim organization leading to reputational"
+      },
+      {
+        "start": 375.8,
+        "duration": 1.0,
+        "text": "damage."
+      },
+      {
+        "start": 376.8,
+        "duration": 6.2,
+        "text": "Now, let's talk about a real world examples of the devastating impact SSRF can have."
+      },
+      {
+        "start": 383.0,
+        "duration": 9.8,
+        "text": "In early 2024, a critical SSRF vulnerability, CVE-224-2893 in IvantiConnect Secure and"
+      },
+      {
+        "start": 392.8,
+        "duration": 3.8,
+        "text": "Policis Secure Products was massively exploited."
+      },
+      {
+        "start": 396.6,
+        "duration": 5.4,
+        "text": "This flaw allowed attackers to bypass authentication and access restricted resources."
+      },
+      {
+        "start": 402.1,
+        "duration": 5.9,
+        "text": "And if we talk about its impact, over 170 unique IPs were used for attacks aiming to establish"
+      },
+      {
+        "start": 408.0,
+        "duration": 3.6,
+        "text": "reverse shells and extract sensitive data."
+      },
+      {
+        "start": 411.5,
+        "duration": 4.9,
+        "text": "Right actors changed this vulnerability with others, achieving unauthenticated remote"
+      },
+      {
+        "start": 416.5,
+        "duration": 1.7,
+        "text": "code execution."
+      },
+      {
+        "start": 418.1,
+        "duration": 7.6,
+        "text": "And over 28,000 Ivanti devices were identified as exploit across 145 countries with hundreds"
+      },
+      {
+        "start": 425.7,
+        "duration": 1.8,
+        "text": "confirmed compromised."
+      },
+      {
+        "start": 427.5,
+        "duration": 6.0,
+        "text": "Organizations including the European Union issued urgent advisers to mitigate the risk."
+      },
+      {
+        "start": 433.5,
+        "duration": 5.4,
+        "text": "So, this incident highlights the massive risk SSRF poses, especially in today's interconnected"
+      },
+      {
+        "start": 438.9,
+        "duration": 2.6,
+        "text": "systems and cloud environments."
+      },
+      {
+        "start": 441.5,
+        "duration": 5.9,
+        "text": "So now that we have explored the impact of SSRF attacks, let's see their different types."
+      },
+      {
+        "start": 447.4,
+        "duration": 4.3,
+        "text": "Understanding these categories will help you grab the various ways attackers exploit this"
+      },
+      {
+        "start": 451.7,
+        "duration": 1.0,
+        "text": "vulnerability."
+      },
+      {
+        "start": 452.7,
+        "duration": 3.0,
+        "text": "So, here are the types of SSRF attacks."
+      },
+      {
+        "start": 455.7,
+        "duration": 5.4,
+        "text": "SSRF can manifest in different ways, depending on what the attackers is targeting."
+      },
+      {
+        "start": 461.1,
+        "duration": 3.4,
+        "text": "So, we will explore three primary types."
+      },
+      {
+        "start": 464.5,
+        "duration": 3.3,
+        "text": "First, attacks targeting the server itself."
+      },
+      {
+        "start": 467.8,
+        "duration": 2.8,
+        "text": "Next, cross-site port attacks."
+      },
+      {
+        "start": 470.6,
+        "duration": 6.3,
+        "text": "And finally, meta data exploitation in AWS, Azure and Oracle, cloud environments."
+      },
+      {
+        "start": 476.9,
+        "duration": 6.0,
+        "text": "First, we will talk about SSRF attacks where the server itself becomes the target."
+      },
+      {
+        "start": 483.0,
+        "duration": 2.4,
+        "text": "So, accessing restricted URLs."
+      },
+      {
+        "start": 485.4,
+        "duration": 5.6,
+        "text": "So, imagine a web application that lets user load contain from a URL."
+      },
+      {
+        "start": 491.0,
+        "duration": 5.0,
+        "text": "Now, if there is no proper validation, an attacker could change the URL to something"
+      },
+      {
+        "start": 495.9,
+        "duration": 1.6,
+        "text": "internal like this."
+      },
+      {
+        "start": 497.5,
+        "duration": 4.8,
+        "text": "Okay, so this could expose sensitive data or admin panels."
+      },
+      {
+        "start": 502.3,
+        "duration": 2.4,
+        "text": "Next, reading files on the server."
+      },
+      {
+        "start": 504.7,
+        "duration": 5.4,
+        "text": "So, sometimes attackers use SSRF to access local files on the server."
+      },
+      {
+        "start": 510.1,
+        "duration": 4.3,
+        "text": "For example, they could craft a request to something like this."
+      },
+      {
+        "start": 514.4,
+        "duration": 5.5,
+        "text": "This might give them a list of system users, which is a valuable first step in hacking."
+      },
+      {
+        "start": 519.9,
+        "duration": 2.6,
+        "text": "Then using uncommon protocols."
+      },
+      {
+        "start": 522.7,
+        "duration": 5.6,
+        "text": "SSRF can also abuse less common protocols like FTP or GoFur."
+      },
+      {
+        "start": 528.3,
+        "duration": 7.6,
+        "text": "For example, an attacker could send emails or interact with internal APIs using payloads like this."
+      },
+      {
+        "start": 535.9,
+        "duration": 5.2,
+        "text": "Next, let's examine cross-site port attacks or XSPA."
+      },
+      {
+        "start": 541.1,
+        "duration": 6.2,
+        "text": "So, in this type of attack, SSRF scans open ports or services inside a network."
+      },
+      {
+        "start": 547.3,
+        "duration": 2.2,
+        "text": "So, first we have scanning ports."
+      },
+      {
+        "start": 549.5,
+        "duration": 6.4,
+        "text": "An attacker could make the server check if the ports are open on the network, such as this."
+      },
+      {
+        "start": 555.9,
+        "duration": 2.6,
+        "text": "Next, we have probing private IPs."
+      },
+      {
+        "start": 558.5,
+        "duration": 3.8,
+        "text": "They might even scan private IP range like this."
+      },
+      {
+        "start": 562.3,
+        "duration": 2.6,
+        "text": "Here, as you can see on the screen."
+      },
+      {
+        "start": 564.9,
+        "duration": 4.6,
+        "text": "So, this helps them map out the network and find services to target."
+      },
+      {
+        "start": 569.5,
+        "duration": 4.2,
+        "text": "Finally, we have exploitations of cloud metadata endpoints."
+      },
+      {
+        "start": 573.7,
+        "duration": 5.0,
+        "text": "This endpoints stores sensitive information like access keys, configurations,"
+      },
+      {
+        "start": 578.7,
+        "duration": 1.8,
+        "text": "and instance details."
+      },
+      {
+        "start": 580.5,
+        "duration": 3.4,
+        "text": "Now, let's see how this works for AWS cloud."
+      },
+      {
+        "start": 583.9,
+        "duration": 4.2,
+        "text": "In AWS, there's a special endpoint that stores metadata."
+      },
+      {
+        "start": 588.1,
+        "duration": 2.4,
+        "text": "It's always available at this."
+      },
+      {
+        "start": 590.5,
+        "duration": 5.2,
+        "text": "So, if attackers exploit SSRF to hit this endpoint, they can extract instance details"
+      },
+      {
+        "start": 595.7,
+        "duration": 3.2,
+        "text": "like the server's host name or IP address."
+      },
+      {
+        "start": 598.9,
+        "duration": 4.2,
+        "text": "Also, IAM role credentials which can look like this."
+      },
+      {
+        "start": 603.1,
+        "duration": 5.0,
+        "text": "So, with this credentials, attackers might access AWS services or steal data."
+      },
+      {
+        "start": 608.1,
+        "duration": 3.6,
+        "text": "Now that we have exploit different types of SSRF attacks,"
+      },
+      {
+        "start": 611.7,
+        "duration": 4.6,
+        "text": "let's take it a step further and examine blind SSRF vulnerability,"
+      },
+      {
+        "start": 616.3,
+        "duration": 3.6,
+        "text": "which is a bit more challenging but equally fascinating."
+      },
+      {
+        "start": 619.9,
+        "duration": 4.4,
+        "text": "So, now, we will explore blind SSRF and its potential impact"
+      },
+      {
+        "start": 624.3,
+        "duration": 3.6,
+        "text": "and how attackers find and exploit this vulnerability."
+      },
+      {
+        "start": 627.9,
+        "duration": 5.4,
+        "text": "Plus, we will talk about some advanced techniques used to elevate blind SSRF attacks."
+      },
+      {
+        "start": 633.3,
+        "duration": 2.6,
+        "text": "So, let's get into it."
+      },
+      {
+        "start": 635.9,
+        "duration": 2.6,
+        "text": "So, first, what is blind SSRF?"
+      },
+      {
+        "start": 638.5,
+        "duration": 5.2,
+        "text": "Blind SSRF occurs when a server processes a back-end HTTP request"
+      },
+      {
+        "start": 643.7,
+        "duration": 2.4,
+        "text": "based on an attacker's URL."
+      },
+      {
+        "start": 646.1,
+        "duration": 4.2,
+        "text": "But the response isn't visible to the attackers in the front end."
+      },
+      {
+        "start": 650.3,
+        "duration": 3.4,
+        "text": "So, you can make the server send requests to other systems"
+      },
+      {
+        "start": 653.7,
+        "duration": 2.2,
+        "text": "but can't directly see the result."
+      },
+      {
+        "start": 655.9,
+        "duration": 2.4,
+        "text": "Now, let's talk about the impact."
+      },
+      {
+        "start": 658.3,
+        "duration": 3.8,
+        "text": "At the first glance, the impact of blind SSRF might seem lower"
+      },
+      {
+        "start": 662.1,
+        "duration": 2.0,
+        "text": "compared to regular SSRF."
+      },
+      {
+        "start": 664.3,
+        "duration": 2.6,
+        "text": "Because you can't directly retrieve sensitive data."
+      },
+      {
+        "start": 666.9,
+        "duration": 4.4,
+        "text": "However, it's still dangerous because attackers can probe internal systems"
+      },
+      {
+        "start": 671.3,
+        "duration": 3.8,
+        "text": "or hidden applications and they might uncover vulnerabilities"
+      },
+      {
+        "start": 675.1,
+        "duration": 4.2,
+        "text": "like shell shock or exploit servers that haven't been patched."
+      },
+      {
+        "start": 679.3,
+        "duration": 4.4,
+        "text": "And in external cases, they could even achieve remote code execution"
+      },
+      {
+        "start": 683.7,
+        "duration": 2.6,
+        "text": "gaining complete control over the server."
+      },
+      {
+        "start": 686.3,
+        "duration": 5.8,
+        "text": "While it's not always as direct, blind SSRF still poses a serious risk."
+      },
+      {
+        "start": 692.1,
+        "duration": 2.2,
+        "text": "So, now comes the interesting part."
+      },
+      {
+        "start": 694.3,
+        "duration": 4.0,
+        "text": "How to find and exploit blind SSRF vulnerabilities?"
+      },
+      {
+        "start": 698.3,
+        "duration": 3.2,
+        "text": "So, first is using out of brand techniques."
+      },
+      {
+        "start": 701.5,
+        "duration": 4.8,
+        "text": "The most effective way to detect blind SSRF is by using out of brand techniques"
+      },
+      {
+        "start": 706.3,
+        "duration": 2.4,
+        "text": "also known as OASD."
+      },
+      {
+        "start": 708.7,
+        "duration": 1.6,
+        "text": "And here's how it works."
+      },
+      {
+        "start": 710.3,
+        "duration": 4.6,
+        "text": "You can create unique domain name that point to a system you can't load."
+      },
+      {
+        "start": 714.9,
+        "duration": 5.0,
+        "text": "Next, send these domain names in your payloads to the vulnerable application."
+      },
+      {
+        "start": 719.9,
+        "duration": 4.8,
+        "text": "And if the application is vulnerable, it will make an HTTP request to your domain"
+      },
+      {
+        "start": 724.7,
+        "duration": 2.4,
+        "text": "and you will detect that interaction."
+      },
+      {
+        "start": 727.1,
+        "duration": 3.6,
+        "text": "So, this may even though the server's response isn't visible to you,"
+      },
+      {
+        "start": 730.7,
+        "duration": 2.8,
+        "text": "you can confirm its behavior indirectly."
+      },
+      {
+        "start": 733.5,
+        "duration": 2.6,
+        "text": "Next is using burp collaborator."
+      },
+      {
+        "start": 736.1,
+        "duration": 5.0,
+        "text": "The easiest tool for performing OASD testing is burp collaborator."
+      },
+      {
+        "start": 741.1,
+        "duration": 2.2,
+        "text": "And here's how you can use it."
+      },
+      {
+        "start": 743.3,
+        "duration": 3.8,
+        "text": "First, generate a unique domain name in burp collaborator."
+      },
+      {
+        "start": 747.1,
+        "duration": 4.8,
+        "text": "Then, inject this domain name into your play load and send it to the application."
+      },
+      {
+        "start": 751.9,
+        "duration": 7.6,
+        "text": "Next, monitor for interactions like DNS, lookups or HTTP requests from the application to your domain."
+      },
+      {
+        "start": 759.5,
+        "duration": 3.2,
+        "text": "So, if you detect any interaction, then congratulations."
+      },
+      {
+        "start": 762.7,
+        "duration": 3.6,
+        "text": "You have found a blind SSRF vulnerability."
+      },
+      {
+        "start": 766.3,
+        "duration": 4.8,
+        "text": "Now that we have explored blind SSRF vulnerabilities and their potential impact."
+      },
+      {
+        "start": 771.1,
+        "duration": 4.4,
+        "text": "Let's talk about the techniques to prevent SSRF attacks effectively."
+      },
+      {
+        "start": 775.5,
+        "duration": 4.0,
+        "text": "Preventing SSRF attacks require a multi-layered approach."
+      },
+      {
+        "start": 779.5,
+        "duration": 4.0,
+        "text": "Since attackers can use creative ways to bypass simple defenses."
+      },
+      {
+        "start": 783.5,
+        "duration": 4.0,
+        "text": "And here are some of the best practices to mitigate SSRF risk."
+      },
+      {
+        "start": 787.5,
+        "duration": 4.0,
+        "text": "First, we have avoid blacklist and use whitelist instead."
+      },
+      {
+        "start": 791.5,
+        "duration": 3.2,
+        "text": "So, blacklist rely on blocking specific inputs."
+      },
+      {
+        "start": 794.7,
+        "duration": 5.0,
+        "text": "But attackers can easily bypass them using wildcard DNS services,"
+      },
+      {
+        "start": 799.7,
+        "duration": 3.8,
+        "text": "HTTP redirects or alternate IP encodings."
+      },
+      {
+        "start": 803.5,
+        "duration": 7.0,
+        "text": "While whitelist only allows access to trusted IP addresses or DNS names that the application needs."
+      },
+      {
+        "start": 810.5,
+        "duration": 3.8,
+        "text": "So, this limits the scope of potentially malicious requests."
+      },
+      {
+        "start": 814.3,
+        "duration": 4.4,
+        "text": "Next, preventing attack is validate and sanitize user input."
+      },
+      {
+        "start": 818.7,
+        "duration": 4.0,
+        "text": "So, ensure that the user provided URLs are thoroughly validated."
+      },
+      {
+        "start": 822.7,
+        "duration": 5.2,
+        "text": "Also, reject requests to private IP addresses or disallowed domains."
+      },
+      {
+        "start": 827.9,
+        "duration": 4.8,
+        "text": "The next way to prevent attack is by handling server responses carefully."
+      },
+      {
+        "start": 832.7,
+        "duration": 6.0,
+        "text": "Never forward raw response bodies received from server initiated requests directly to the client."
+      },
+      {
+        "start": 838.7,
+        "duration": 7.6,
+        "text": "Instead, filter the responses and only rely expected data to prevent leaking sensitive server information to attackers."
+      },
+      {
+        "start": 846.3,
+        "duration": 3.2,
+        "text": "Next, restrict URLs schemas."
+      },
+      {
+        "start": 849.5,
+        "duration": 5.6,
+        "text": "Allow only the necessary URLs schemas such as HTTP and HTTPs."
+      },
+      {
+        "start": 855.1,
+        "duration": 5.2,
+        "text": "Then, unused schemas like 5 go for or dictionary."
+      },
+      {
+        "start": 860.3,
+        "duration": 4.0,
+        "text": "To block attackers from exploiting this protocols."
+      },
+      {
+        "start": 864.3,
+        "duration": 2.8,
+        "text": "Next, secure internal services."
+      },
+      {
+        "start": 867.1,
+        "duration": 5.2,
+        "text": "Many internal services, for example, Redis, WengerDB or Elastic Research,"
+      },
+      {
+        "start": 872.3,
+        "duration": 2.4,
+        "text": "don't require authentication by default."
+      },
+      {
+        "start": 874.7,
+        "duration": 4.8,
+        "text": "Enforce authentication for all services even those operating within local networks."
+      },
+      {
+        "start": 879.5,
+        "duration": 2.8,
+        "text": "Next, monitor and log request."
+      },
+      {
+        "start": 882.3,
+        "duration": 4.2,
+        "text": "Implement logging for outgoing request initiated by the server."
+      },
+      {
+        "start": 886.5,
+        "duration": 6.4,
+        "text": "Analyze log-sregularly to identify abnormal patterns that might indicate SSRF attempts."
+      },
+      {
+        "start": 892.9,
+        "duration": 3.6,
+        "text": "Next, leverage security tools and frameworks."
+      },
+      {
+        "start": 896.5,
+        "duration": 6.8,
+        "text": "Use web application firewalls or SSRF detection plugins to detect and block potential attacks in real time."
+      },
+      {
+        "start": 903.3,
+        "duration": 2.0,
+        "text": "And by combining these measures,"
+      },
+      {
+        "start": 905.3,
+        "duration": 5.2,
+        "text": "you can significantly reduce the chances of SSRF vulnerabilities being exploited,"
+      },
+      {
+        "start": 910.5,
+        "duration": 4.4,
+        "text": "making your applications more resilient against potential threats."
+      },
+      {
+        "start": 914.9,
+        "duration": 1.2,
+        "text": "And that's a wrap."
+      },
+      {
+        "start": 916.1,
+        "duration": 5.6,
+        "text": "So in this video, we explored the fascinating yet dangerous world of SSRF attacks."
+      },
+      {
+        "start": 921.7,
+        "duration": 6.0,
+        "text": "We started by understanding what SSRF is, how it works and its potential impacts."
+      },
+      {
+        "start": 927.7,
+        "duration": 2.8,
+        "text": "Within moved into different types of SSRF attacks,"
+      },
+      {
+        "start": 930.5,
+        "duration": 4.4,
+        "text": "we are world examples and even techniques like blind SSRF."
+      },
+      {
+        "start": 934.9,
+        "duration": 6.0,
+        "text": "And most importantly, we learnt how to safeguard against these vulnerabilities to keep your system secure."
+      },
+      {
+        "start": 941.3,
+        "duration": 2.2,
+        "text": "So if you enjoyed listening to this video,"
+      },
+      {
+        "start": 943.5,
+        "duration": 4.6,
+        "text": "please be kind to like it and you can comment on any of your doubts and queries"
+      },
+      {
+        "start": 948.1,
+        "duration": 2.4,
+        "text": "we will reply to them earlier."
+      },
+      {
+        "start": 950.5,
+        "duration": 6.0,
+        "text": "And do look up for more videos and playlists and subscribe to Adurika's YouTube channel to learn more."
+      },
+      {
+        "start": 956.5,
+        "duration": 2.0,
+        "text": "Thank you for watching and Happy Learning!"
+      }
+    ],
+    "full_text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka. In today's video, we will explore SSRF attacks, also known as Service Site Request for Jury, a critical vulnerability that can exploit the trust web service placed in internal resources. We will break down how SSRF attacks work, the dangers they bring to your web applications and most importantly, the steps you can take to secure your system from these threats. So whether you are a developer, a cybersecurity professional or someone eager to understand how attackers manipulate web servers to do their bidding, this video is packed with insights you won't want to miss. So first, let's take a look at our today's agenda. So first, we will understand what SSRF is next, we will see how SSRF works, then we will explore the impact of SSRF attacks and this attacks can cause serious problems like data leaks, internal network access or further system compromise. After that, we will look at the types of SSRF attacks. So there are different forms including blind SSRF where attackers get no direct response but still cause damage. First, we will dive deeper into blind SSRF. Finally, we will learn how to prevent SSRF using input validation, blocking internal IPs and limiting server access can help keep systems safe. And by the end of this video, you will have a thorough understanding of SSRF vulnerabilities and how to defend against them. But before we begin, please like, share and subscribe to EduRagas YouTube channel and hit the bell icon to stay updated on the latest updates from EduRagas. Also, check out the certified ethical hacking codes designed in partnership with AC Council to elevate your cybersecurity skills. This course offers a globally recognized CEHV13 AI certification and features 20 comprehensive modules that covered over 500 attack techniques enhanced by AI GPT tools. You will gain hands-on experience through 221 practical labs and benefit from round-the-clock support provided by certified professionals. With access to exclusive echoes where and an example to from the EC Council, this course is your gateway to mastering ethical hacking and securing a rebarding career in cyber defense. So check out the course link given in the description box below. So let's start by understanding SSRF or service side request for jelly. SSRF is a security flaw that occurs when an attacker manipulates a web application or API to request internal resources. These internal resources could include sensitive data, private systems or even services that are not meant to be accessible externally. And by exploiting these vulnerabilities, attackers can potentially gain unauthorized access, expose sensitive data, compromise systems and even execute malicious code remotely. Now that we know what SSRF is, let's dive into how this vulnerability works. Imagine a web application that allows users to import data from a URL, publish data to a URL or fetch data from a remote resource. But what if the application doesn't validate or sanitize the user provided URLs? So the application becomes vulnerable to an SSRF attack. So here's how it works. The attacker finds an input field, form or parameter in the application where they can specify a URL. And instead of providing a legitimate URL, the attacker craft a malicious one. So this URL could point to internal systems, private APIs or even metadata services in cloud environments. For example, a common target is the metadata service in cloud servers which can be accessed via this. And then these services often store sensitive information such as configuration details or authentication keys. The server trusting the user's input process, this malicious URL and it makes a server-side request to a specified resource, unknowingly carrying out the attacker's commands. So through this manipulation, an attacker can access sensitive internal resources such as private database or rest APIs. Next, exploit resources that assume all requests from the server are trustworthy. Then scan internal systems to identify weaknesses or open ports. Then extract sensitive data and expel trade it to an external location they control. SSRF has become so prominent that it is listed among the OWARP's top 10 vulnerabilities, a widely recognized list of the most critical web application security risks. This highlights just how severe and common SSRF attacks are. Now that we understand how SSRF works, let's explore the real world impacts these attacks can have on organizations and their systems. A successful SSRF attack can have far reaching consequences. First, here we have unauthorized access. Attackers can gain access to sensitive configuration such as server finds, cloud metadata or even open ports. For example, they might extract credentials or manipulate configurations to further exploit the system. Next, internal ports can be. With SSRF, attackers can perform internal network scans, identifying weak or unprotected services. This reconnaissance helps them plan more advanced attacks. Next, exploit chaining. SSRF vulnerabilities are often a stepping stone to most severe exploits like remote code execution or reflected XSS attacks. This means a simple SSRF vulnerability can lead to a complete system compromise. And then we have malicious onward attacks. Attackers can exploit SSRF to launch malicious requests to external systems. These requests appear to originate from the victim organization leading to reputational damage. Now, let's talk about a real world examples of the devastating impact SSRF can have. In early 2024, a critical SSRF vulnerability, CVE-224-2893 in IvantiConnect Secure and Policis Secure Products was massively exploited. This flaw allowed attackers to bypass authentication and access restricted resources. And if we talk about its impact, over 170 unique IPs were used for attacks aiming to establish reverse shells and extract sensitive data. Right actors changed this vulnerability with others, achieving unauthenticated remote code execution. And over 28,000 Ivanti devices were identified as exploit across 145 countries with hundreds confirmed compromised. Organizations including the European Union issued urgent advisers to mitigate the risk. So, this incident highlights the massive risk SSRF poses, especially in today's interconnected systems and cloud environments. So now that we have explored the impact of SSRF attacks, let's see their different types. Understanding these categories will help you grab the various ways attackers exploit this vulnerability. So, here are the types of SSRF attacks. SSRF can manifest in different ways, depending on what the attackers is targeting. So, we will explore three primary types. First, attacks targeting the server itself. Next, cross-site port attacks. And finally, meta data exploitation in AWS, Azure and Oracle, cloud environments. First, we will talk about SSRF attacks where the server itself becomes the target. So, accessing restricted URLs. So, imagine a web application that lets user load contain from a URL. Now, if there is no proper validation, an attacker could change the URL to something internal like this. Okay, so this could expose sensitive data or admin panels. Next, reading files on the server. So, sometimes attackers use SSRF to access local files on the server. For example, they could craft a request to something like this. This might give them a list of system users, which is a valuable first step in hacking. Then using uncommon protocols. SSRF can also abuse less common protocols like FTP or GoFur. For example, an attacker could send emails or interact with internal APIs using payloads like this. Next, let's examine cross-site port attacks or XSPA. So, in this type of attack, SSRF scans open ports or services inside a network. So, first we have scanning ports. An attacker could make the server check if the ports are open on the network, such as this. Next, we have probing private IPs. They might even scan private IP range like this. Here, as you can see on the screen. So, this helps them map out the network and find services to target. Finally, we have exploitations of cloud metadata endpoints. This endpoints stores sensitive information like access keys, configurations, and instance details. Now, let's see how this works for AWS cloud. In AWS, there's a special endpoint that stores metadata. It's always available at this. So, if attackers exploit SSRF to hit this endpoint, they can extract instance details like the server's host name or IP address. Also, IAM role credentials which can look like this. So, with this credentials, attackers might access AWS services or steal data. Now that we have exploit different types of SSRF attacks, let's take it a step further and examine blind SSRF vulnerability, which is a bit more challenging but equally fascinating. So, now, we will explore blind SSRF and its potential impact and how attackers find and exploit this vulnerability. Plus, we will talk about some advanced techniques used to elevate blind SSRF attacks. So, let's get into it. So, first, what is blind SSRF? Blind SSRF occurs when a server processes a back-end HTTP request based on an attacker's URL. But the response isn't visible to the attackers in the front end. So, you can make the server send requests to other systems but can't directly see the result. Now, let's talk about the impact. At the first glance, the impact of blind SSRF might seem lower compared to regular SSRF. Because you can't directly retrieve sensitive data. However, it's still dangerous because attackers can probe internal systems or hidden applications and they might uncover vulnerabilities like shell shock or exploit servers that haven't been patched. And in external cases, they could even achieve remote code execution gaining complete control over the server. While it's not always as direct, blind SSRF still poses a serious risk. So, now comes the interesting part. How to find and exploit blind SSRF vulnerabilities? So, first is using out of brand techniques. The most effective way to detect blind SSRF is by using out of brand techniques also known as OASD. And here's how it works. You can create unique domain name that point to a system you can't load. Next, send these domain names in your payloads to the vulnerable application. And if the application is vulnerable, it will make an HTTP request to your domain and you will detect that interaction. So, this may even though the server's response isn't visible to you, you can confirm its behavior indirectly. Next is using burp collaborator. The easiest tool for performing OASD testing is burp collaborator. And here's how you can use it. First, generate a unique domain name in burp collaborator. Then, inject this domain name into your play load and send it to the application. Next, monitor for interactions like DNS, lookups or HTTP requests from the application to your domain. So, if you detect any interaction, then congratulations. You have found a blind SSRF vulnerability. Now that we have explored blind SSRF vulnerabilities and their potential impact. Let's talk about the techniques to prevent SSRF attacks effectively. Preventing SSRF attacks require a multi-layered approach. Since attackers can use creative ways to bypass simple defenses. And here are some of the best practices to mitigate SSRF risk. First, we have avoid blacklist and use whitelist instead. So, blacklist rely on blocking specific inputs. But attackers can easily bypass them using wildcard DNS services, HTTP redirects or alternate IP encodings. While whitelist only allows access to trusted IP addresses or DNS names that the application needs. So, this limits the scope of potentially malicious requests. Next, preventing attack is validate and sanitize user input. So, ensure that the user provided URLs are thoroughly validated. Also, reject requests to private IP addresses or disallowed domains. The next way to prevent attack is by handling server responses carefully. Never forward raw response bodies received from server initiated requests directly to the client. Instead, filter the responses and only rely expected data to prevent leaking sensitive server information to attackers. Next, restrict URLs schemas. Allow only the necessary URLs schemas such as HTTP and HTTPs. Then, unused schemas like 5 go for or dictionary. To block attackers from exploiting this protocols. Next, secure internal services. Many internal services, for example, Redis, WengerDB or Elastic Research, don't require authentication by default. Enforce authentication for all services even those operating within local networks. Next, monitor and log request. Implement logging for outgoing request initiated by the server. Analyze log-sregularly to identify abnormal patterns that might indicate SSRF attempts. Next, leverage security tools and frameworks. Use web application firewalls or SSRF detection plugins to detect and block potential attacks in real time. And by combining these measures, you can significantly reduce the chances of SSRF vulnerabilities being exploited, making your applications more resilient against potential threats. And that's a wrap. So in this video, we explored the fascinating yet dangerous world of SSRF attacks. We started by understanding what SSRF is, how it works and its potential impacts. Within moved into different types of SSRF attacks, we are world examples and even techniques like blind SSRF. And most importantly, we learnt how to safeguard against these vulnerabilities to keep your system secure. So if you enjoyed listening to this video, please be kind to like it and you can comment on any of your doubts and queries we will reply to them earlier. And do look up for more videos and playlists and subscribe to Adurika's YouTube channel to learn more. Thank you for watching and Happy Learning!"
+  }
+}

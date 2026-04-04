@@ -1,0 +1,1069 @@
+{
+  "video_id": "odt3iDNsL3w",
+  "video_title": "Salesforce Trailhead Tutorial | Salesforce Trailhead Explained - how to Use It | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 764.0,
+  "view_count": 5382,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.6,
+        "text": "Hello everyone, I am Nithi from Adirika and I welcome you back to Adirika's YouTube channel."
+      },
+      {
+        "start": 13.6,
+        "duration": 4.7,
+        "text": "And today's exciting session where we'll explore Salesforce Trailhead."
+      },
+      {
+        "start": 18.3,
+        "duration": 4.2,
+        "text": "Before we get into the details, make sure to subscribe to our YouTube channel and hit"
+      },
+      {
+        "start": 22.5,
+        "duration": 3.9,
+        "text": "the bell icon to stay updated on latest content from Adirika."
+      },
+      {
+        "start": 26.5,
+        "duration": 4.8,
+        "text": "If you're looking to boost your career in Salesforce ecosystem, Adirika's Salesforce training"
+      },
+      {
+        "start": 31.3,
+        "duration": 5.6,
+        "text": "course offers comprehensive instructor-led online training designed by industry experts."
+      },
+      {
+        "start": 36.8,
+        "duration": 5.6,
+        "text": "This program covers essential topics like Salesforce objects and fields, security controls,"
+      },
+      {
+        "start": 42.5,
+        "duration": 6.2,
+        "text": "validations and workflow rules, data management, application lifecycle and Salesforce cloud service."
+      },
+      {
+        "start": 48.7,
+        "duration": 4.5,
+        "text": "You will gain hands-on experience through real-world projects, preparing you for Salesforce"
+      },
+      {
+        "start": 53.2,
+        "duration": 4.0,
+        "text": "administrator and platform app builder certification exams."
+      },
+      {
+        "start": 57.2,
+        "duration": 5.3,
+        "text": "With lifetime access of course material and 24-7 support, Adirika ensures a flexible"
+      },
+      {
+        "start": 62.5,
+        "duration": 2.1,
+        "text": "and supportive learning environment."
+      },
+      {
+        "start": 64.6,
+        "duration": 3.9,
+        "text": "So don't miss this opportunity and advance your Salesforce skills and career."
+      },
+      {
+        "start": 68.5,
+        "duration": 3.2,
+        "text": "Visit Adirika's website to learn more and enroll today."
+      },
+      {
+        "start": 71.7,
+        "duration": 2.9,
+        "text": "The link to this course is in the description box below."
+      },
+      {
+        "start": 74.6,
+        "duration": 2.0,
+        "text": "Now let's get started."
+      },
+      {
+        "start": 76.5,
+        "duration": 2.8,
+        "text": "So now let's outline what we will cover in this video."
+      },
+      {
+        "start": 79.8,
+        "duration": 4.9,
+        "text": "First we will cover what Salesforce Trailhead is and how it helps you to learn Salesforce"
+      },
+      {
+        "start": 84.7,
+        "duration": 3.0,
+        "text": "through hands-on modules and guided parts."
+      },
+      {
+        "start": 87.7,
+        "duration": 4.9,
+        "text": "Next we will explore the key features like game-wide learning, skill-based badges and real-world"
+      },
+      {
+        "start": 92.6,
+        "duration": 1.3,
+        "text": "projects."
+      },
+      {
+        "start": 93.9,
+        "duration": 4.6,
+        "text": "Then we will look at the benefits of learning via Trailhead from career growth to industry"
+      },
+      {
+        "start": 98.5,
+        "duration": 2.4,
+        "text": "recognized certifications."
+      },
+      {
+        "start": 100.9,
+        "duration": 5.6,
+        "text": "Finally I will show you how to use Trailhead so you can start your learning journey today."
+      },
+      {
+        "start": 106.4,
+        "duration": 5.3,
+        "text": "So now let's talk about Trailhead, a Salesforce official learning platform."
+      },
+      {
+        "start": 111.7,
+        "duration": 4.8,
+        "text": "Trailhead is a free interactive platform that helps you to learn Salesforce in a fun and"
+      },
+      {
+        "start": 116.5,
+        "duration": 1.7,
+        "text": "engaging way."
+      },
+      {
+        "start": 118.3,
+        "duration": 5.4,
+        "text": "Instead of traditional courses, it offers you guided modules, hands-on projects and super"
+      },
+      {
+        "start": 123.7,
+        "duration": 3.1,
+        "text": "badges to help you develop real-world skills."
+      },
+      {
+        "start": 126.8,
+        "duration": 4.4,
+        "text": "So what sets Trailhead apart is its gamified learning experience."
+      },
+      {
+        "start": 131.2,
+        "duration": 3.6,
+        "text": "As you complete lessons you will earn badges and points."
+      },
+      {
+        "start": 134.7,
+        "duration": 3.3,
+        "text": "Learning learning into engaging and rewarding journey."
+      },
+      {
+        "start": 138.0,
+        "duration": 4.8,
+        "text": "So best of all it is completely free and helps you to build the industry recognized skills"
+      },
+      {
+        "start": 142.8,
+        "duration": 3.6,
+        "text": "that can give your Salesforce career a significant boost."
+      },
+      {
+        "start": 146.4,
+        "duration": 4.8,
+        "text": "So now that we know what Trailhead is and why it is valuable, let's dive into the key"
+      },
+      {
+        "start": 151.2,
+        "duration": 4.9,
+        "text": "features and see how it makes the learning Salesforce easy and fun."
+      },
+      {
+        "start": 156.1,
+        "duration": 3.5,
+        "text": "So the first point that we have is guided learning parts."
+      },
+      {
+        "start": 159.5,
+        "duration": 4.8,
+        "text": "So Trailhead offers structure learning part called trails which break down the complex"
+      },
+      {
+        "start": 164.4,
+        "duration": 4.8,
+        "text": "topics into easy to flow modules covering everything from basics to advanced sales for"
+      },
+      {
+        "start": 169.2,
+        "duration": 1.0,
+        "text": "skills."
+      },
+      {
+        "start": 170.2,
+        "duration": 4.6,
+        "text": "The next one that we have is hands-on projects and super badges."
+      },
+      {
+        "start": 174.7,
+        "duration": 1.0,
+        "text": "Learn by doing."
+      },
+      {
+        "start": 175.7,
+        "duration": 4.8,
+        "text": "Trailhead provides real-world projects and super badges that test your skills giving you hands-on"
+      },
+      {
+        "start": 180.5,
+        "duration": 2.7,
+        "text": "experience employers look for."
+      },
+      {
+        "start": 183.2,
+        "duration": 2.9,
+        "text": "And the next one is Trailblazer community."
+      },
+      {
+        "start": 186.1,
+        "duration": 4.2,
+        "text": "Learning that Trailblazer community to connect with Salesforce experts ask questions, share"
+      },
+      {
+        "start": 190.3,
+        "duration": 3.3,
+        "text": "insights and grow your professional network."
+      },
+      {
+        "start": 193.7,
+        "duration": 3.3,
+        "text": "The next point that we have is certification preparation."
+      },
+      {
+        "start": 197.0,
+        "duration": 4.2,
+        "text": "Trailhead helps you to prepare for Salesforce certification with dedicated learning parts"
+      },
+      {
+        "start": 201.2,
+        "duration": 3.0,
+        "text": "making it easier to boost your career."
+      },
+      {
+        "start": 204.2,
+        "duration": 3.8,
+        "text": "And the next point that we have is free and self-paced learning."
+      },
+      {
+        "start": 208.0,
+        "duration": 4.6,
+        "text": "Best of all, Trailhead is completely free and lets you learn at your own pace."
+      },
+      {
+        "start": 212.6,
+        "duration": 3.0,
+        "text": "Making it ideal for beginners and professional life."
+      },
+      {
+        "start": 215.6,
+        "duration": 4.0,
+        "text": "So now that we have explored the Trailhead's key features, let's talk about the benefits"
+      },
+      {
+        "start": 219.6,
+        "duration": 4.0,
+        "text": "of learning Trailhead and how it can accelerate your sales for journey."
+      },
+      {
+        "start": 223.6,
+        "duration": 4.8,
+        "text": "So the first point that we have is hands-on skill development."
+      },
+      {
+        "start": 228.4,
+        "duration": 5.1,
+        "text": "Trailhead focuses on practical learning allowing you to apply concepts in real-world scenarios"
+      },
+      {
+        "start": 233.5,
+        "duration": 2.6,
+        "text": "rather than just theoretical knowledge."
+      },
+      {
+        "start": 236.1,
+        "duration": 3.8,
+        "text": "The next point that we have is career growth and job readiness."
+      },
+      {
+        "start": 239.9,
+        "duration": 5.2,
+        "text": "With structural learning part and certification prep, Trailhead helps you to build highly demanded"
+      },
+      {
+        "start": 245.1,
+        "duration": 2.6,
+        "text": "skill faster making your job ready."
+      },
+      {
+        "start": 247.7,
+        "duration": 3.9,
+        "text": "The next point that we have is engaging and fun learning."
+      },
+      {
+        "start": 251.6,
+        "duration": 4.4,
+        "text": "Learning on Trailhead is interactive and gamified, keeping you motivated with badges, points"
+      },
+      {
+        "start": 255.9,
+        "duration": 2.1,
+        "text": "and real-world challenges."
+      },
+      {
+        "start": 258.0,
+        "duration": 3.5,
+        "text": "The next point that we have is globally recognized learning."
+      },
+      {
+        "start": 261.5,
+        "duration": 4.9,
+        "text": "Trailhead is trusted by professional worldwide and completing its module can add credibility"
+      },
+      {
+        "start": 266.4,
+        "duration": 2.4,
+        "text": "to your resume and LinkedIn profile."
+      },
+      {
+        "start": 268.8,
+        "duration": 2.6,
+        "text": "The next point that we have is flexible and self-paced."
+      },
+      {
+        "start": 271.7,
+        "duration": 4.2,
+        "text": "Whether you are a student working professional or career switcher, Trailhead allows you to"
+      },
+      {
+        "start": 275.8,
+        "duration": 3.4,
+        "text": "learn anytime, anywhere at your own pace."
+      },
+      {
+        "start": 279.3,
+        "duration": 4.4,
+        "text": "So now that we know the benefits, let's talk about how can you get started with Trailhead"
+      },
+      {
+        "start": 283.7,
+        "duration": 1.8,
+        "text": "and begin your journey."
+      },
+      {
+        "start": 285.5,
+        "duration": 3.8,
+        "text": "So let's start by creating an account on sales for Trailhead."
+      },
+      {
+        "start": 289.3,
+        "duration": 5.1,
+        "text": "Now to create an account on sales for Trailhead, the first step that you have to do is open"
+      },
+      {
+        "start": 294.4,
+        "duration": 4.3,
+        "text": "your browser and search for sales for Trailhead."
+      },
+      {
+        "start": 298.7,
+        "duration": 1.7,
+        "text": "So we are going to visit this site."
+      },
+      {
+        "start": 300.4,
+        "duration": 2.2,
+        "text": "This is the official site of Trailhead."
+      },
+      {
+        "start": 302.5,
+        "duration": 4.2,
+        "text": "Just click here and then sign up to the sales force platform."
+      },
+      {
+        "start": 306.8,
+        "duration": 3.8,
+        "text": "Just click on sign up and then you will see this interface."
+      },
+      {
+        "start": 310.6,
+        "duration": 5.4,
+        "text": "You have the options to log in with Google, Salesforce, tab view and Mule Zone."
+      },
+      {
+        "start": 316.0,
+        "duration": 2.4,
+        "text": "So choose the option that works best for you."
+      },
+      {
+        "start": 318.5,
+        "duration": 2.4,
+        "text": "I will go ahead with the Google."
+      },
+      {
+        "start": 320.8,
+        "duration": 4.2,
+        "text": "So if you are serious about learning sales force, I will recommend using your primary email"
+      },
+      {
+        "start": 325.0,
+        "duration": 2.6,
+        "text": "so you can track your progress easily."
+      },
+      {
+        "start": 327.6,
+        "duration": 4.8,
+        "text": "I'll just choose my Gmail and then just continue."
+      },
+      {
+        "start": 332.4,
+        "duration": 2.3,
+        "text": "So that's it."
+      },
+      {
+        "start": 334.7,
+        "duration": 2.7,
+        "text": "And the next step is to select the region."
+      },
+      {
+        "start": 337.3,
+        "duration": 5.0,
+        "text": "Just click on next and then you will see this interface."
+      },
+      {
+        "start": 342.4,
+        "duration": 4.4,
+        "text": "I'll just write my company name, my role."
+      },
+      {
+        "start": 346.8,
+        "duration": 5.3,
+        "text": "You can select anything here and the relationship with sales force."
+      },
+      {
+        "start": 352.1,
+        "duration": 7.6,
+        "text": "Just click on next and then click on next and after that you are ready to go."
+      },
+      {
+        "start": 359.8,
+        "duration": 3.2,
+        "text": "So now we have successfully logged into our Trailhead account."
+      },
+      {
+        "start": 363.0,
+        "duration": 2.4,
+        "text": "This is the interface that you are going to see."
+      },
+      {
+        "start": 365.3,
+        "duration": 3.6,
+        "text": "Here I can see my name and this is my profile right here."
+      },
+      {
+        "start": 368.9,
+        "duration": 1.8,
+        "text": "This is the Trailhead platform."
+      },
+      {
+        "start": 370.7,
+        "duration": 5.4,
+        "text": "Here you can see the learning options, the community option, career growth credentials"
+      },
+      {
+        "start": 376.1,
+        "duration": 3.4,
+        "text": "and inside these you have many options."
+      },
+      {
+        "start": 379.4,
+        "duration": 4.6,
+        "text": "Here you can see the materials, modules, projects after that here you can see the certification."
+      },
+      {
+        "start": 384.1,
+        "duration": 2.6,
+        "text": "So this is the learning platform for sales force."
+      },
+      {
+        "start": 386.6,
+        "duration": 3.8,
+        "text": "Here if you come as a big enough to learn sales force, you can master sales force easily"
+      },
+      {
+        "start": 390.4,
+        "duration": 2.0,
+        "text": "just by one platform."
+      },
+      {
+        "start": 392.3,
+        "duration": 3.8,
+        "text": "Just by using the Trailhead platform you can master sales force."
+      },
+      {
+        "start": 396.1,
+        "duration": 4.6,
+        "text": "So now quickly let's explore the sales force Trailhead platform and now I will guide you"
+      },
+      {
+        "start": 400.7,
+        "duration": 3.8,
+        "text": "what you need to do in order to learn sales force."
+      },
+      {
+        "start": 404.4,
+        "duration": 4.3,
+        "text": "So first of all we can see here we have searched but here I can search any module, any like"
+      },
+      {
+        "start": 408.7,
+        "duration": 8.1,
+        "text": "I can go and I can search let's say Edmund and here I will get the results of Edmund,"
+      },
+      {
+        "start": 416.9,
+        "duration": 1.3,
+        "text": "Edmund, Bigna."
+      },
+      {
+        "start": 418.2,
+        "duration": 3.1,
+        "text": "This is the first thing that you need to start with and everything."
+      },
+      {
+        "start": 421.3,
+        "duration": 4.0,
+        "text": "So here you can basically search the modules and courses and everything whichever you've"
+      },
+      {
+        "start": 425.3,
+        "duration": 1.0,
+        "text": "gone."
+      },
+      {
+        "start": 426.3,
+        "duration": 4.8,
+        "text": "So after that what we have is here we will go and learn and then we can see we have trails"
+      },
+      {
+        "start": 431.1,
+        "duration": 2.6,
+        "text": "here, we have modules here, we have projects here."
+      },
+      {
+        "start": 433.7,
+        "duration": 1.6,
+        "text": "So let's talk about trails now."
+      },
+      {
+        "start": 435.7,
+        "duration": 4.7,
+        "text": "So basically you have different trails organized by the skill level from Bigna to intermediate"
+      },
+      {
+        "start": 440.4,
+        "duration": 1.0,
+        "text": "to advanced."
+      },
+      {
+        "start": 441.4,
+        "duration": 6.0,
+        "text": "So each trail is made up of modules, short lessons and projects which is for hands on experience"
+      },
+      {
+        "start": 447.4,
+        "duration": 6.4,
+        "text": "and let's open one trail let's say and inside this trail what we are going to see is different"
+      },
+      {
+        "start": 453.8,
+        "duration": 5.3,
+        "text": "types of modules here we can see these are different types of modules you have the practice"
+      },
+      {
+        "start": 459.1,
+        "duration": 5.7,
+        "text": "set here you have the classes here like 20 minutes, 5 minutes and everything."
+      },
+      {
+        "start": 464.8,
+        "duration": 5.5,
+        "text": "So it is super simple to navigate through modules and trails and everything you can just"
+      },
+      {
+        "start": 470.3,
+        "duration": 1.7,
+        "text": "start here and start your course."
+      },
+      {
+        "start": 472.0,
+        "duration": 5.1,
+        "text": "This is absolutely free and then you can perform any kind of hands on experience here."
+      },
+      {
+        "start": 477.1,
+        "duration": 3.9,
+        "text": "So these are basically the trails in Salesforce platform."
+      },
+      {
+        "start": 481.0,
+        "duration": 2.8,
+        "text": "Now after that what we are going to see is modules."
+      },
+      {
+        "start": 483.8,
+        "duration": 5.3,
+        "text": "So I've already showed you the module but you can see here you can just go and any module"
+      },
+      {
+        "start": 489.1,
+        "duration": 3.1,
+        "text": "here and you will get the lessons here."
+      },
+      {
+        "start": 492.2,
+        "duration": 3.5,
+        "text": "After completing you will get these points and badges."
+      },
+      {
+        "start": 495.7,
+        "duration": 5.2,
+        "text": "So here I can see 25 minutes left that means this whole module is of 25 minutes."
+      },
+      {
+        "start": 500.9,
+        "duration": 4.9,
+        "text": "So when I will complete this I will get 500 points into my profile here I can see my profile"
+      },
+      {
+        "start": 505.8,
+        "duration": 6.3,
+        "text": "I have zero badges and zero points but if I will complete this module I will get 500 points."
+      },
+      {
+        "start": 512.1,
+        "duration": 1.3,
+        "text": "So this is how it works."
+      },
+      {
+        "start": 513.3,
+        "duration": 8.2,
+        "text": "This is what the gamified learning is and now let us see the next thing that is projects."
+      },
+      {
+        "start": 521.6,
+        "duration": 3.0,
+        "text": "So here I am able to see different kinds of projects."
+      },
+      {
+        "start": 524.5,
+        "duration": 2.2,
+        "text": "I will just click on one project."
+      },
+      {
+        "start": 526.7,
+        "duration": 5.4,
+        "text": "So after I complete this project what will have is I will get 300 points it is of intermediate"
+      },
+      {
+        "start": 532.1,
+        "duration": 3.2,
+        "text": "level and it is of 45 minutes."
+      },
+      {
+        "start": 535.3,
+        "duration": 2.7,
+        "text": "So this is how you can cover everything."
+      },
+      {
+        "start": 538.0,
+        "duration": 4.8,
+        "text": "So the next thing that we need to see is trailblazers quest."
+      },
+      {
+        "start": 542.8,
+        "duration": 2.0,
+        "text": "So that makes your learning more fun."
+      },
+      {
+        "start": 544.8,
+        "duration": 4.1,
+        "text": "Quest are interactive challenges where you can complete the task and earn badges and"
+      },
+      {
+        "start": 548.9,
+        "duration": 1.0,
+        "text": "price."
+      },
+      {
+        "start": 549.9,
+        "duration": 4.0,
+        "text": "So this is the great way to keep you motivated for learning Salesforce."
+      },
+      {
+        "start": 554.0,
+        "duration": 4.2,
+        "text": "So after that in this credentials platform we have certifications."
+      },
+      {
+        "start": 558.1,
+        "duration": 5.1,
+        "text": "So here every certification that you need to get certified in order to become Salesforce"
+      },
+      {
+        "start": 563.2,
+        "duration": 5.4,
+        "text": "administrator, advanced administrator or Salesforce developer every certification is present"
+      },
+      {
+        "start": 568.6,
+        "duration": 1.0,
+        "text": "here."
+      },
+      {
+        "start": 569.6,
+        "duration": 4.7,
+        "text": "You will just go on one certification let us say it is of administrator and here I can"
+      },
+      {
+        "start": 574.3,
+        "duration": 5.8,
+        "text": "see whatever courses I need to study and everything to get this certification done."
+      },
+      {
+        "start": 580.1,
+        "duration": 4.8,
+        "text": "So this is how you can get your certification done and that is about the certification."
+      },
+      {
+        "start": 584.9,
+        "duration": 4.3,
+        "text": "Here are so many certification present once you are done with your Creel's and modules"
+      },
+      {
+        "start": 589.2,
+        "duration": 3.2,
+        "text": "and projects you can move on to the certification part."
+      },
+      {
+        "start": 592.4,
+        "duration": 1.8,
+        "text": "So now let me tell you one more thing."
+      },
+      {
+        "start": 594.2,
+        "duration": 2.8,
+        "text": "Let us say you are familiar with the trailhead platform now."
+      },
+      {
+        "start": 597.0,
+        "duration": 5.9,
+        "text": "So now the most important question is where to start learning Salesforce."
+      },
+      {
+        "start": 602.9,
+        "duration": 3.4,
+        "text": "So on what level you should start learning Salesforce."
+      },
+      {
+        "start": 606.3,
+        "duration": 3.2,
+        "text": "So the first thing that you need to learn is Edmund."
+      },
+      {
+        "start": 609.5,
+        "duration": 1.5,
+        "text": "How do we go my Salesforce Edmund?"
+      },
+      {
+        "start": 611.1,
+        "duration": 2.2,
+        "text": "So I will search Edmund Bignard."
+      },
+      {
+        "start": 613.2,
+        "duration": 3.7,
+        "text": "So I will just search Edmund Bignard here."
+      },
+      {
+        "start": 616.9,
+        "duration": 2.1,
+        "text": "So here I can see the Edmund Bignard Trail."
+      },
+      {
+        "start": 619.1,
+        "duration": 1.5,
+        "text": "I will just go on this."
+      },
+      {
+        "start": 620.6,
+        "duration": 5.2,
+        "text": "So I just opened the Edmund Bignard Trail and inside this I have 8600 points."
+      },
+      {
+        "start": 625.8,
+        "duration": 5.1,
+        "text": "If I will complete this Edmund Bignard course which is of 8 hours and 5 minutes I will get"
+      },
+      {
+        "start": 630.9,
+        "duration": 2.8,
+        "text": "this 8600 points."
+      },
+      {
+        "start": 633.7,
+        "duration": 3.6,
+        "text": "So by completing this trail the foundation of Salesforce will be done."
+      },
+      {
+        "start": 637.3,
+        "duration": 4.2,
+        "text": "So once you complete this you will be comfortable with using the platform."
+      },
+      {
+        "start": 641.5,
+        "duration": 7.7,
+        "text": "So after Salesforce Bignard you need to move on to the Salesforce intermediate."
+      },
+      {
+        "start": 649.1,
+        "duration": 4.4,
+        "text": "Right we have Salesforce intermediate platform here."
+      },
+      {
+        "start": 653.5,
+        "duration": 4.6,
+        "text": "So similarly just like Salesforce Bignard we have the Salesforce intermediate platform."
+      },
+      {
+        "start": 658.5,
+        "duration": 5.1,
+        "text": "Here we get 9800 points and it is 11 hours 45 minutes."
+      },
+      {
+        "start": 663.5,
+        "duration": 6.7,
+        "text": "So again this trail takes you from basic user to confident Salesforce administrator."
+      },
+      {
+        "start": 670.2,
+        "duration": 4.4,
+        "text": "Now after completing this intermediate finally you will move on to Edmund advance."
+      },
+      {
+        "start": 674.7,
+        "duration": 4.7,
+        "text": "And by the end of Edmund advance you will have a solid grip on Salesforce administration"
+      },
+      {
+        "start": 679.4,
+        "duration": 5.2,
+        "text": "and you'll be ready for real world projects or even Salesforce admin certification."
+      },
+      {
+        "start": 684.5,
+        "duration": 4.1,
+        "text": "So after completing the Edmund you will move on to the developer."
+      },
+      {
+        "start": 688.7,
+        "duration": 4.6,
+        "text": "Let's say you have completed every trail which is required to become Salesforce administrator."
+      },
+      {
+        "start": 693.2,
+        "duration": 3.0,
+        "text": "So now you want to become a Salesforce developer."
+      },
+      {
+        "start": 696.2,
+        "duration": 2.6,
+        "text": "So for that you will move on to the super badges."
+      },
+      {
+        "start": 698.8,
+        "duration": 3.8,
+        "text": "Again you have to complete the Trains of developer in which you can start with"
+      },
+      {
+        "start": 702.6,
+        "duration": 4.8,
+        "text": "Epic specialist, security specialist and process automation specialist."
+      },
+      {
+        "start": 707.4,
+        "duration": 5.2,
+        "text": "So this will help you to stand out and get closer to Salesforce certification and jobs."
+      },
+      {
+        "start": 712.6,
+        "duration": 3.0,
+        "text": "So this is all about the Salesforce Trailhead platform."
+      },
+      {
+        "start": 715.6,
+        "duration": 6.1,
+        "text": "So this is how you can start learning your Salesforce and you can start your Salesforce journey with the Trailhead."
+      },
+      {
+        "start": 721.7,
+        "duration": 2.4,
+        "text": "So that's it for this video."
+      },
+      {
+        "start": 724.0,
+        "duration": 3.3,
+        "text": "I have covered the importance of Salesforce Trailhead."
+      },
+      {
+        "start": 727.3,
+        "duration": 6.4,
+        "text": "What is Salesforce Trailhead and after that I have given you the idea of Salesforce Trailhead platform."
+      },
+      {
+        "start": 733.7,
+        "duration": 2.3,
+        "text": "So that's it for this video."
+      },
+      {
+        "start": 735.9,
+        "duration": 2.2,
+        "text": "I hope you have enjoyed listening to this video."
+      },
+      {
+        "start": 738.1,
+        "duration": 4.2,
+        "text": "Please be kind enough to like it and you can comment down any of your doubts and queries."
+      },
+      {
+        "start": 742.4,
+        "duration": 2.2,
+        "text": "We will reply them at the earliest."
+      },
+      {
+        "start": 744.5,
+        "duration": 4.9,
+        "text": "Do look out for more videos in our playlist and subscribe to our Dureka's channel to learn more."
+      },
+      {
+        "start": 749.4,
+        "duration": 0.7,
+        "text": "Happy learning."
+      }
+    ],
+    "full_text": "Hello everyone, I am Nithi from Adirika and I welcome you back to Adirika's YouTube channel. And today's exciting session where we'll explore Salesforce Trailhead. Before we get into the details, make sure to subscribe to our YouTube channel and hit the bell icon to stay updated on latest content from Adirika. If you're looking to boost your career in Salesforce ecosystem, Adirika's Salesforce training course offers comprehensive instructor-led online training designed by industry experts. This program covers essential topics like Salesforce objects and fields, security controls, validations and workflow rules, data management, application lifecycle and Salesforce cloud service. You will gain hands-on experience through real-world projects, preparing you for Salesforce administrator and platform app builder certification exams. With lifetime access of course material and 24-7 support, Adirika ensures a flexible and supportive learning environment. So don't miss this opportunity and advance your Salesforce skills and career. Visit Adirika's website to learn more and enroll today. The link to this course is in the description box below. Now let's get started. So now let's outline what we will cover in this video. First we will cover what Salesforce Trailhead is and how it helps you to learn Salesforce through hands-on modules and guided parts. Next we will explore the key features like game-wide learning, skill-based badges and real-world projects. Then we will look at the benefits of learning via Trailhead from career growth to industry recognized certifications. Finally I will show you how to use Trailhead so you can start your learning journey today. So now let's talk about Trailhead, a Salesforce official learning platform. Trailhead is a free interactive platform that helps you to learn Salesforce in a fun and engaging way. Instead of traditional courses, it offers you guided modules, hands-on projects and super badges to help you develop real-world skills. So what sets Trailhead apart is its gamified learning experience. As you complete lessons you will earn badges and points. Learning learning into engaging and rewarding journey. So best of all it is completely free and helps you to build the industry recognized skills that can give your Salesforce career a significant boost. So now that we know what Trailhead is and why it is valuable, let's dive into the key features and see how it makes the learning Salesforce easy and fun. So the first point that we have is guided learning parts. So Trailhead offers structure learning part called trails which break down the complex topics into easy to flow modules covering everything from basics to advanced sales for skills. The next one that we have is hands-on projects and super badges. Learn by doing. Trailhead provides real-world projects and super badges that test your skills giving you hands-on experience employers look for. And the next one is Trailblazer community. Learning that Trailblazer community to connect with Salesforce experts ask questions, share insights and grow your professional network. The next point that we have is certification preparation. Trailhead helps you to prepare for Salesforce certification with dedicated learning parts making it easier to boost your career. And the next point that we have is free and self-paced learning. Best of all, Trailhead is completely free and lets you learn at your own pace. Making it ideal for beginners and professional life. So now that we have explored the Trailhead's key features, let's talk about the benefits of learning Trailhead and how it can accelerate your sales for journey. So the first point that we have is hands-on skill development. Trailhead focuses on practical learning allowing you to apply concepts in real-world scenarios rather than just theoretical knowledge. The next point that we have is career growth and job readiness. With structural learning part and certification prep, Trailhead helps you to build highly demanded skill faster making your job ready. The next point that we have is engaging and fun learning. Learning on Trailhead is interactive and gamified, keeping you motivated with badges, points and real-world challenges. The next point that we have is globally recognized learning. Trailhead is trusted by professional worldwide and completing its module can add credibility to your resume and LinkedIn profile. The next point that we have is flexible and self-paced. Whether you are a student working professional or career switcher, Trailhead allows you to learn anytime, anywhere at your own pace. So now that we know the benefits, let's talk about how can you get started with Trailhead and begin your journey. So let's start by creating an account on sales for Trailhead. Now to create an account on sales for Trailhead, the first step that you have to do is open your browser and search for sales for Trailhead. So we are going to visit this site. This is the official site of Trailhead. Just click here and then sign up to the sales force platform. Just click on sign up and then you will see this interface. You have the options to log in with Google, Salesforce, tab view and Mule Zone. So choose the option that works best for you. I will go ahead with the Google. So if you are serious about learning sales force, I will recommend using your primary email so you can track your progress easily. I'll just choose my Gmail and then just continue. So that's it. And the next step is to select the region. Just click on next and then you will see this interface. I'll just write my company name, my role. You can select anything here and the relationship with sales force. Just click on next and then click on next and after that you are ready to go. So now we have successfully logged into our Trailhead account. This is the interface that you are going to see. Here I can see my name and this is my profile right here. This is the Trailhead platform. Here you can see the learning options, the community option, career growth credentials and inside these you have many options. Here you can see the materials, modules, projects after that here you can see the certification. So this is the learning platform for sales force. Here if you come as a big enough to learn sales force, you can master sales force easily just by one platform. Just by using the Trailhead platform you can master sales force. So now quickly let's explore the sales force Trailhead platform and now I will guide you what you need to do in order to learn sales force. So first of all we can see here we have searched but here I can search any module, any like I can go and I can search let's say Edmund and here I will get the results of Edmund, Edmund, Bigna. This is the first thing that you need to start with and everything. So here you can basically search the modules and courses and everything whichever you've gone. So after that what we have is here we will go and learn and then we can see we have trails here, we have modules here, we have projects here. So let's talk about trails now. So basically you have different trails organized by the skill level from Bigna to intermediate to advanced. So each trail is made up of modules, short lessons and projects which is for hands on experience and let's open one trail let's say and inside this trail what we are going to see is different types of modules here we can see these are different types of modules you have the practice set here you have the classes here like 20 minutes, 5 minutes and everything. So it is super simple to navigate through modules and trails and everything you can just start here and start your course. This is absolutely free and then you can perform any kind of hands on experience here. So these are basically the trails in Salesforce platform. Now after that what we are going to see is modules. So I've already showed you the module but you can see here you can just go and any module here and you will get the lessons here. After completing you will get these points and badges. So here I can see 25 minutes left that means this whole module is of 25 minutes. So when I will complete this I will get 500 points into my profile here I can see my profile I have zero badges and zero points but if I will complete this module I will get 500 points. So this is how it works. This is what the gamified learning is and now let us see the next thing that is projects. So here I am able to see different kinds of projects. I will just click on one project. So after I complete this project what will have is I will get 300 points it is of intermediate level and it is of 45 minutes. So this is how you can cover everything. So the next thing that we need to see is trailblazers quest. So that makes your learning more fun. Quest are interactive challenges where you can complete the task and earn badges and price. So this is the great way to keep you motivated for learning Salesforce. So after that in this credentials platform we have certifications. So here every certification that you need to get certified in order to become Salesforce administrator, advanced administrator or Salesforce developer every certification is present here. You will just go on one certification let us say it is of administrator and here I can see whatever courses I need to study and everything to get this certification done. So this is how you can get your certification done and that is about the certification. Here are so many certification present once you are done with your Creel's and modules and projects you can move on to the certification part. So now let me tell you one more thing. Let us say you are familiar with the trailhead platform now. So now the most important question is where to start learning Salesforce. So on what level you should start learning Salesforce. So the first thing that you need to learn is Edmund. How do we go my Salesforce Edmund? So I will search Edmund Bignard. So I will just search Edmund Bignard here. So here I can see the Edmund Bignard Trail. I will just go on this. So I just opened the Edmund Bignard Trail and inside this I have 8600 points. If I will complete this Edmund Bignard course which is of 8 hours and 5 minutes I will get this 8600 points. So by completing this trail the foundation of Salesforce will be done. So once you complete this you will be comfortable with using the platform. So after Salesforce Bignard you need to move on to the Salesforce intermediate. Right we have Salesforce intermediate platform here. So similarly just like Salesforce Bignard we have the Salesforce intermediate platform. Here we get 9800 points and it is 11 hours 45 minutes. So again this trail takes you from basic user to confident Salesforce administrator. Now after completing this intermediate finally you will move on to Edmund advance. And by the end of Edmund advance you will have a solid grip on Salesforce administration and you'll be ready for real world projects or even Salesforce admin certification. So after completing the Edmund you will move on to the developer. Let's say you have completed every trail which is required to become Salesforce administrator. So now you want to become a Salesforce developer. So for that you will move on to the super badges. Again you have to complete the Trains of developer in which you can start with Epic specialist, security specialist and process automation specialist. So this will help you to stand out and get closer to Salesforce certification and jobs. So this is all about the Salesforce Trailhead platform. So this is how you can start learning your Salesforce and you can start your Salesforce journey with the Trailhead. So that's it for this video. I have covered the importance of Salesforce Trailhead. What is Salesforce Trailhead and after that I have given you the idea of Salesforce Trailhead platform. So that's it for this video. I hope you have enjoyed listening to this video. Please be kind enough to like it and you can comment down any of your doubts and queries. We will reply them at the earliest. Do look out for more videos in our playlist and subscribe to our Dureka's channel to learn more. Happy learning."
+  }
+}

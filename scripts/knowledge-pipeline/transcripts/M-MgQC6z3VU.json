@@ -1,0 +1,1899 @@
+{
+  "video_id": "M-MgQC6z3VU",
+  "video_title": "What was Euclid really doing? | Guest video by Ben Syversen",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 2009.0,
+  "view_count": 719733,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.5,
+        "text": "This is the fifth and final in a series of guest videos that I've been putting up on the channel."
+      },
+      {
+        "start": 4.5,
+        "duration": 4.9,
+        "text": "The context, in case any of you missed the first one, is that I've been away on leave this summer."
+      },
+      {
+        "start": 9.4,
+        "duration": 3.8,
+        "text": "And I decided to use the Patreon funds that were coming into the channel during that time"
+      },
+      {
+        "start": 13.2,
+        "duration": 5.8,
+        "text": "to commission a few guest videos from creators who I am very excited to share with this particular audience."
+      },
+      {
+        "start": 19.0,
+        "duration": 5.6,
+        "text": "By the way, I am back to making my own videos now, currently working on a trilogy about the Laplace Transform,"
+      },
+      {
+        "start": 24.6,
+        "duration": 3.4,
+        "text": "the first of which is available as an early view for channel supporters."
+      },
+      {
+        "start": 28.0,
+        "duration": 2.2,
+        "text": "Just, you know, throwing that out there."
+      },
+      {
+        "start": 30.2,
+        "duration": 3.9,
+        "text": "This last guest video is probably the most different from the channel's usual vibe,"
+      },
+      {
+        "start": 34.1,
+        "duration": 4.5,
+        "text": "and yet I'm as confident as ever that viewers of this channel will thoroughly enjoy it."
+      },
+      {
+        "start": 38.6,
+        "duration": 4.5,
+        "text": "It comes from Ben Siverson, who is a very talented and I think underappreciated creator"
+      },
+      {
+        "start": 43.0,
+        "duration": 4.1,
+        "text": "who makes these great mini documentaries about the history of math and science."
+      },
+      {
+        "start": 47.1,
+        "duration": 4.2,
+        "text": "The content here changed the way I think about Euclid and the history of geometry,"
+      },
+      {
+        "start": 51.3,
+        "duration": 2.6,
+        "text": "and perhaps it will for you as well."
+      },
+      {
+        "start": 54.6,
+        "duration": 5.0,
+        "text": "This is the most influential math book in human history, Euclid's elements."
+      },
+      {
+        "start": 60.6,
+        "duration": 5.9,
+        "text": "For 2000 years, it was the ultimate authority for absolute mathematical truth,"
+      },
+      {
+        "start": 66.6,
+        "duration": 3.3,
+        "text": "an enduring symbol of exact reasoning from the ancient Greeks."
+      },
+      {
+        "start": 70.5,
+        "duration": 3.4,
+        "text": "But the Greeks did an approach math the way we do today."
+      },
+      {
+        "start": 73.9,
+        "duration": 4.9,
+        "text": "Their methods fly in the face of some of the most important rules of modern practice."
+      },
+      {
+        "start": 78.8,
+        "duration": 6.2,
+        "text": "But yet, the approach that Euclid used in the elements was the most successful way to discover"
+      },
+      {
+        "start": 85.0,
+        "duration": 2.9,
+        "text": "mathematical truth until the 17th century."
+      },
+      {
+        "start": 89.3,
+        "duration": 2.1,
+        "text": "Ruler and Compass constructions."
+      },
+      {
+        "start": 93.8,
+        "duration": 6.1,
+        "text": "But how could physical tools like these actually be a reliable way to do abstract math?"
+      },
+      {
+        "start": 99.8,
+        "duration": 4.8,
+        "text": "Understanding what the Greeks were really doing starts with the question that anybody who's ever"
+      },
+      {
+        "start": 104.6,
+        "duration": 4.3,
+        "text": "had to use a ruler and compass in geometry class has probably asked."
+      },
+      {
+        "start": 109.0,
+        "duration": 3.8,
+        "text": "What's the point? What are these constructions actually for?"
+      },
+      {
+        "start": 113.8,
+        "duration": 3.8,
+        "text": "Most people would probably assume that the ruler and compass are basically a way of"
+      },
+      {
+        "start": 117.6,
+        "duration": 5.1,
+        "text": "drawing nicer looking shapes, like there are a quaint way of doing it if you don't have a computer."
+      },
+      {
+        "start": 122.7,
+        "duration": 5.0,
+        "text": "And while that's not entirely wrong to the ancient Greeks, it's far from the whole story."
+      },
+      {
+        "start": 128.8,
+        "duration": 4.6,
+        "text": "To them, diagrams weren't just incidental schematic illustrations."
+      },
+      {
+        "start": 133.4,
+        "duration": 3.1,
+        "text": "They were part of the reasoning of the proof itself."
+      },
+      {
+        "start": 137.4,
+        "duration": 2.0,
+        "text": "This is not how we do math today."
+      },
+      {
+        "start": 139.4,
+        "duration": 4.2,
+        "text": "Today, every single logical assumption needs to be explicitly stated,"
+      },
+      {
+        "start": 143.5,
+        "duration": 5.4,
+        "text": "like a line of code, and a proof isn't considered valid until it's completely independent for many"
+      },
+      {
+        "start": 148.9,
+        "duration": 6.6,
+        "text": "diagram. But in Euclid's elements, the compilation of Greek math from around 300 BC, things are"
+      },
+      {
+        "start": 155.5,
+        "duration": 5.6,
+        "text": "different. In Euclid's very first proof, he makes what modern mathematicians would consider to be"
+      },
+      {
+        "start": 161.1,
+        "duration": 5.8,
+        "text": "an unstated assumption, basically a mistake. To try to spot what Euclid missed in proposition"
+      },
+      {
+        "start": 167.0,
+        "duration": 3.7,
+        "text": "one of the elements, you have to also know what his stated assumptions were."
+      },
+      {
+        "start": 171.3,
+        "duration": 5.1,
+        "text": "Before he writes any proofs, he lays out some definitions, five logical assumptions called"
+      },
+      {
+        "start": 176.4,
+        "duration": 5.3,
+        "text": "common notions, and five assumptions about geometry called postulates. Whenever one of these is used"
+      },
+      {
+        "start": 181.7,
+        "duration": 5.3,
+        "text": "in a proof, it'll show up on screen. We can read this proposition as a recipe for constructing"
+      },
+      {
+        "start": 187.4,
+        "duration": 6.0,
+        "text": "an equilateral triangle using a ruler and a compass. You start with a line segment AB. When you draw"
+      },
+      {
+        "start": 193.4,
+        "duration": 6.7,
+        "text": "these two circles centered at A and B that each have AB as a radius, like this, then you get this"
+      },
+      {
+        "start": 200.2,
+        "duration": 5.2,
+        "text": "intersection point. Connecting the dots gives you another radius of each circle, and of course we"
+      },
+      {
+        "start": 205.4,
+        "duration": 5.7,
+        "text": "know that the radius of a circle is the same length everywhere. So this is equal to this, and this"
+      },
+      {
+        "start": 211.0,
+        "duration": 5.6,
+        "text": "is equal to this. Since two things that are equal to the same thing are also equal, Euclid proves"
+      },
+      {
+        "start": 216.6,
+        "duration": 6.4,
+        "text": "that he's made an equilateral triangle. Did you catch the unstated assumption? You never"
+      },
+      {
+        "start": 223.0,
+        "duration": 4.1,
+        "text": "proved that the two circles overlap each other. This should have been some other axiom. There"
+      },
+      {
+        "start": 227.1,
+        "duration": 4.6,
+        "text": "should have been something else that said how we know when the two circles overlap and when they"
+      },
+      {
+        "start": 231.8,
+        "duration": 6.2,
+        "text": "don't. But there's another way of looking at this. Rather than making a mistake by relying on"
+      },
+      {
+        "start": 237.9,
+        "duration": 6.1,
+        "text": "the diagram, the Greeks were arguably using this series of steps to build the equilateral triangle"
+      },
+      {
+        "start": 244.1,
+        "duration": 6.9,
+        "text": "as part of the proof itself. This is the perspective of Victor Blasjo, who hosts the excellent podcast"
+      },
+      {
+        "start": 251.0,
+        "duration": 5.7,
+        "text": "opinionated history of mathematics, which features an 18 episode season about Euclid's elements"
+      },
+      {
+        "start": 256.6,
+        "duration": 5.0,
+        "text": "and the history of geometry. When people say there is a gap in the proof, I think it is like an"
+      },
+      {
+        "start": 261.7,
+        "duration": 4.6,
+        "text": "anachronistic way of thinking about it. The existence needs to be ensured by a new axiom that's the"
+      },
+      {
+        "start": 266.3,
+        "duration": 7.5,
+        "text": "way modern logic nerds think it's supposed to be. But in the spirit of the times, we should start"
+      },
+      {
+        "start": 274.0,
+        "duration": 5.1,
+        "text": "by thinking of mathematical proofs as something that arose alongside the Greek tradition of"
+      },
+      {
+        "start": 279.1,
+        "duration": 5.9,
+        "text": "antagonistic debate. You have somebody trying to prove a claim and they're confronted by a skeptic"
+      },
+      {
+        "start": 285.0,
+        "duration": 5.7,
+        "text": "who wants to prove them wrong. The prover is saying, now, carry out these steps. The skeptic is"
+      },
+      {
+        "start": 290.7,
+        "duration": 4.2,
+        "text": "then asked to perform these steps and had literally just drawn this in front of their very own eyes."
+      },
+      {
+        "start": 295.6,
+        "duration": 4.4,
+        "text": "And then the skeptic is supposed to or say, oh no, I don't think they intersect. There's no"
+      },
+      {
+        "start": 300.1,
+        "duration": 3.9,
+        "text": "credibility. You know, you're just true. It is right there. Anybody can see. You know, you just look"
+      },
+      {
+        "start": 304.0,
+        "duration": 4.5,
+        "text": "make yourself look ridiculous. In the modern mathematics, you think of the skeptic as if it was"
+      },
+      {
+        "start": 308.5,
+        "duration": 5.7,
+        "text": "like a logic machine who's just like crunching axioms like a machine doing calculations. And then"
+      },
+      {
+        "start": 314.2,
+        "duration": 7.3,
+        "text": "oh, there's no axiom here error error. But that's not the context we must visualize. You know,"
+      },
+      {
+        "start": 321.4,
+        "duration": 4.6,
+        "text": "we must think of the degrees we're doing this. If the skeptic wants to say, I think maybe they"
+      },
+      {
+        "start": 326.1,
+        "duration": 4.2,
+        "text": "don't intersect, then it's the burden is on him to give a credible way that you could doubt that"
+      },
+      {
+        "start": 330.3,
+        "duration": 3.6,
+        "text": "these are, but if you literally just drew it in front of you and it's obviously cutting right"
+      },
+      {
+        "start": 333.9,
+        "duration": 6.1,
+        "text": "through it, there's nothing you can say that has any credibility to try to get around the fact that"
+      },
+      {
+        "start": 340.0,
+        "duration": 4.6,
+        "text": "obviously they intersect, you know, like any normal person would accept. By following the steps"
+      },
+      {
+        "start": 344.6,
+        "duration": 5.4,
+        "text": "in the elements, our construction undeniably has two circles that intersect. It's impossible to"
+      },
+      {
+        "start": 350.0,
+        "duration": 4.7,
+        "text": "create this construction otherwise. But how do we decide what's obvious in a diagram and what's"
+      },
+      {
+        "start": 354.7,
+        "duration": 5.0,
+        "text": "not? I mean, we can't just look at this diagram and say the triangle is obviously equilateral,"
+      },
+      {
+        "start": 359.8,
+        "duration": 5.0,
+        "text": "because that's not a proof at all. So why is it that we can use the picture to know for sure that"
+      },
+      {
+        "start": 364.8,
+        "duration": 5.0,
+        "text": "the circles intersect? That is an inexact property because the drawing doesn't need to be exact to"
+      },
+      {
+        "start": 370.6,
+        "duration": 5.4,
+        "text": "for the to cross obviously. However, what you want to prove is that this is an equilateral triangle"
+      },
+      {
+        "start": 376.0,
+        "duration": 5.0,
+        "text": "that all the three sides are exactly the same. Well, that's different. Well, maybe one of them is"
+      },
+      {
+        "start": 381.0,
+        "duration": 5.5,
+        "text": "99% the length of the other. I don't know. That's not self-evident. Obviously, that's something"
+      },
+      {
+        "start": 386.6,
+        "duration": 5.4,
+        "text": "that needs to be established with with rational argument and like Euclidus. This is a key distinction"
+      },
+      {
+        "start": 392.0,
+        "duration": 4.1,
+        "text": "for this interpretation of Greek geometry, which is going to come up again later."
+      },
+      {
+        "start": 397.5,
+        "duration": 5.1,
+        "text": "Because Euclid never establishes exact properties like equality based on diagrams,"
+      },
+      {
+        "start": 402.6,
+        "duration": 5.2,
+        "text": "but he does allow diagrams to be used for non-exact or topological properties."
+      },
+      {
+        "start": 408.8,
+        "duration": 5.2,
+        "text": "Whether a point is inside or outside of a figure or the order in which points appear along a line,"
+      },
+      {
+        "start": 414.7,
+        "duration": 5.8,
+        "text": "this approach to geometry allows the written proof and the diagram to go hand in hand to share the"
+      },
+      {
+        "start": 420.6,
+        "duration": 6.0,
+        "text": "work. The parts of the proof that were impractical to demonstrate verbally are instead demonstrated"
+      },
+      {
+        "start": 426.6,
+        "duration": 6.3,
+        "text": "diagrammatically. So these diagrams, they're not just a supplemental illustration to an otherwise"
+      },
+      {
+        "start": 432.9,
+        "duration": 5.1,
+        "text": "logical argument. They're actually part of the proof itself, which a skeptic would need to refute."
+      },
+      {
+        "start": 441.7,
+        "duration": 4.5,
+        "text": "But for this to work, we can't just draw any picture and start doing geometry with it."
+      },
+      {
+        "start": 446.2,
+        "duration": 6.4,
+        "text": "Our diagrams need to follow rules. So for every object that's specified in the elements,"
+      },
+      {
+        "start": 452.6,
+        "duration": 6.6,
+        "text": "its construction is given by a precise set of steps. If the book says let the equilateral triangle"
+      },
+      {
+        "start": 459.1,
+        "duration": 5.4,
+        "text": "have been constructed, then it's referring you back to Proposition 1 where the steps for"
+      },
+      {
+        "start": 464.5,
+        "duration": 7.4,
+        "text": "constructing an equilateral triangle are given. From this point of view, an equilateral triangle isn't"
+      },
+      {
+        "start": 471.9,
+        "duration": 6.3,
+        "text": "some perfect entity that floats in the eternal platonic realm. It doesn't exist at all until you"
+      },
+      {
+        "start": 478.2,
+        "duration": 5.5,
+        "text": "follow the steps to make an equilateral triangle, almost like the output from some lines of code."
+      },
+      {
+        "start": 483.8,
+        "duration": 9.0,
+        "text": "But given that Greek mathematicians didn't write about their thoughts and feelings and were"
+      },
+      {
+        "start": 492.8,
+        "duration": 4.8,
+        "text": "making inferences from their technical work, this is kind of a lot of inference to take away from"
+      },
+      {
+        "start": 497.6,
+        "duration": 5.8,
+        "text": "one little proposition about equilateral triangles. So let's take a look at what Euclid does next,"
+      },
+      {
+        "start": 503.4,
+        "duration": 3.2,
+        "text": "because it's about to become very clear that there's more going on."
+      },
+      {
+        "start": 508.3,
+        "duration": 4.7,
+        "text": "If the point of the ruler and compass was just to make accurate diagrams, then the very next"
+      },
+      {
+        "start": 513.0,
+        "duration": 6.6,
+        "text": "proposition wouldn't make any sense. Proposition 2, to place a straight line equal to a given"
+      },
+      {
+        "start": 519.7,
+        "duration": 5.1,
+        "text": "straight line at a given point at an extremity. Somebody has drawn a line segment on a piece of paper"
+      },
+      {
+        "start": 524.8,
+        "duration": 4.5,
+        "text": "and now you want to draw an equally long line segment somewhere else on the paper."
+      },
+      {
+        "start": 529.9,
+        "duration": 4.1,
+        "text": "Euclid accomplishes this by a very elaborate construction."
+      },
+      {
+        "start": 534.6,
+        "duration": 1.0,
+        "text": "That's proposition 1."
+      },
+      {
+        "start": 535.6,
+        "duration": 3.6,
+        "text": "Euclid involves drawing several circles and an equilateral triangle."
+      },
+      {
+        "start": 539.8,
+        "duration": 5.1,
+        "text": "It's very elegantly indeed. This leads exactly to what you need. The given segment has"
+      },
+      {
+        "start": 545.0,
+        "duration": 4.6,
+        "text": "been reproduced in a new position with the exact mathematical precision. You can prove everything"
+      },
+      {
+        "start": 549.5,
+        "duration": 6.3,
+        "text": "in order, whatever triangle, the radius, the circular equal, the whole kind of logical steps showing"
+      },
+      {
+        "start": 555.8,
+        "duration": 5.0,
+        "text": "that this is correct. This is something that I can literally do by picking up this compass and"
+      },
+      {
+        "start": 560.8,
+        "duration": 4.4,
+        "text": "putting it down on another spot. So Euclid acts as if this is not possible."
+      },
+      {
+        "start": 566.4,
+        "duration": 3.8,
+        "text": "One might say that Euclid behaves as if his compass is collapsible."
+      },
+      {
+        "start": 571.0,
+        "duration": 5.2,
+        "text": "The compass stays at a fixed opening while drawing a particular circle, but as soon as it's lifted"
+      },
+      {
+        "start": 576.2,
+        "duration": 5.4,
+        "text": "from the paper, it collapses or closes up. Of course, there are no collapsible compasses."
+      },
+      {
+        "start": 581.7,
+        "duration": 6.2,
+        "text": "That's not the real thing. Thus, AL is also equal to Bc. The moral of this is that this straight"
+      },
+      {
+        "start": 587.9,
+        "duration": 4.0,
+        "text": "line here, which was the one that I started with, is equal to this straight line here."
+      },
+      {
+        "start": 591.9,
+        "duration": 5.8,
+        "text": "So, very neat is also very weird, isn't it? Seems totally out of touch with reality."
+      },
+      {
+        "start": 597.7,
+        "duration": 6.2,
+        "text": "If a craftsman or an engineer or an architect would need to transfer a length, surely they would"
+      },
+      {
+        "start": 603.9,
+        "duration": 3.3,
+        "text": "not use Euclid's absolute Baroque procedure."
+      },
+      {
+        "start": 610.3,
+        "duration": 5.7,
+        "text": "So, what are we doing here? If we follow these steps every time we wanted to copy a length,"
+      },
+      {
+        "start": 616.0,
+        "duration": 4.5,
+        "text": "even the simplest diagram would be incredibly complicated to make. But if Euclid's"
+      },
+      {
+        "start": 620.5,
+        "duration": 6.0,
+        "text": "constructions are about serving a theoretical purpose, then things start to come into focus."
+      },
+      {
+        "start": 626.5,
+        "duration": 4.9,
+        "text": "Proposition 2 becomes another verified operation that you can add to your toolkit."
+      },
+      {
+        "start": 631.4,
+        "duration": 5.2,
+        "text": "So, each construction is like a little module or a little subroutine. It's a bit of proof that"
+      },
+      {
+        "start": 636.6,
+        "duration": 5.2,
+        "text": "signs off on the fact that this object can legitimately be constructed using nothing but the"
+      },
+      {
+        "start": 641.8,
+        "duration": 6.0,
+        "text": "initial postulates and common notions. Euclid's version of this construction works perfectly for"
+      },
+      {
+        "start": 647.8,
+        "duration": 5.0,
+        "text": "any situation involving copying a length. So, it's not saying that you have to do this every time,"
+      },
+      {
+        "start": 652.7,
+        "duration": 5.3,
+        "text": "but whenever we do want to copy a length, we can invoke Proposition 2 to show that it is in fact"
+      },
+      {
+        "start": 658.0,
+        "duration": 6.8,
+        "text": "constructible from the postulates. But why did Euclid need to be this pedantic? What was it about"
+      },
+      {
+        "start": 664.8,
+        "duration": 5.7,
+        "text": "the Greeks that made them so fixated on proving things in the first place? Civilizations like the"
+      },
+      {
+        "start": 670.5,
+        "duration": 5.4,
+        "text": "Egyptians and the Mesopotamians had been doing math and service of things like surveying land,"
+      },
+      {
+        "start": 675.8,
+        "duration": 6.5,
+        "text": "collecting taxes and constructing the pyramids for centuries. But they never wrote proofs."
+      },
+      {
+        "start": 683.2,
+        "duration": 6.2,
+        "text": "The first civilization to write proofs were the Greeks, with the first proof coming around 600 BC."
+      },
+      {
+        "start": 690.3,
+        "duration": 4.9,
+        "text": "For the Greeks, it wasn't enough for math to just be useful. They wanted geometry to address"
+      },
+      {
+        "start": 695.3,
+        "duration": 5.9,
+        "text": "deeply philosophical questions, because at the time philosophy was where the action was,"
+      },
+      {
+        "start": 701.2,
+        "duration": 5.5,
+        "text": "and the Greeks had a culture of antagonistic debate, where the very nature of absolute truth was"
+      },
+      {
+        "start": 706.7,
+        "duration": 6.7,
+        "text": "hotly contested. While there were people arguing for all kinds of wild ideas, two main camps emerged"
+      },
+      {
+        "start": 713.4,
+        "duration": 6.6,
+        "text": "that we still think about today. The first were the rationalists, epitomized by Plato, who said that"
+      },
+      {
+        "start": 720.1,
+        "duration": 6.3,
+        "text": "the only thing that can be trusted is intuition. In this view, things like shapes exist in the perfect"
+      },
+      {
+        "start": 726.4,
+        "duration": 6.6,
+        "text": "realm of ideas, untarnished by worldly imperfections. And then there were the empiricists, often"
+      },
+      {
+        "start": 733.0,
+        "duration": 6.2,
+        "text": "associated with Aristotle, who said that observations of the world are the only way to gain knowledge."
+      },
+      {
+        "start": 739.1,
+        "duration": 5.2,
+        "text": "But these conflicting viewpoints were doomed to endless argumentation. Their perspectives"
+      },
+      {
+        "start": 744.3,
+        "duration": 5.3,
+        "text": "fundamentally came down to beliefs about how the world works, so one camp would never definitively"
+      },
+      {
+        "start": 749.6,
+        "duration": 6.5,
+        "text": "win out over the other. But alongside this endless debate, mathematicians found a way to use"
+      },
+      {
+        "start": 756.1,
+        "duration": 7.0,
+        "text": "constructions to answer the objections of philosophers. It let them build a consistent intellectual"
+      },
+      {
+        "start": 763.0,
+        "duration": 6.3,
+        "text": "framework, which even outsiders could test and conclusively prove right or wrong. And it meant that"
+      },
+      {
+        "start": 769.4,
+        "duration": 6.2,
+        "text": "their field could develop new irrefutable knowledge and leave those squabbling philosophers in the dust."
+      },
+      {
+        "start": 775.9,
+        "duration": 9.0,
+        "text": "Math, specifically geometry, would become an indisputable source of absolute truth in a world filled with uncertainty."
+      },
+      {
+        "start": 785.0,
+        "duration": 7.6,
+        "text": "But to build knowledge within geometry, mathematicians needed some starting assumptions,"
+      },
+      {
+        "start": 792.6,
+        "duration": 6.2,
+        "text": "a set of ground rules or demands that you would ask of a skeptic. In ancient Greece, these demands were"
+      },
+      {
+        "start": 798.8,
+        "duration": 6.4,
+        "text": "known as postulates or axioms. We associate these words with math, but their origin is in the crucible of"
+      },
+      {
+        "start": 805.2,
+        "duration": 6.4,
+        "text": "philosophical debate. For Euclid and the ancient Greek geometers, the first three postulates in the"
+      },
+      {
+        "start": 811.6,
+        "duration": 6.6,
+        "text": "elements were basic assumptions about constructions. If we agree that the straight edge can draw a segment"
+      },
+      {
+        "start": 818.2,
+        "duration": 5.9,
+        "text": "of a straight line, and that we can extend it if we need to, and if we also agree that a device"
+      },
+      {
+        "start": 824.2,
+        "duration": 6.1,
+        "text": "like a compass can form a circle given a certain center and radius, then we've established our first"
+      },
+      {
+        "start": 830.5,
+        "duration": 5.8,
+        "text": "three ground rules. It's crucial that any starting assumptions are simple enough to be plausible and"
+      },
+      {
+        "start": 836.3,
+        "duration": 6.3,
+        "text": "are free from contradictions. Grounding the postulates in physical actions addresses these issues."
+      },
+      {
+        "start": 842.6,
+        "duration": 5.4,
+        "text": "That's what the ruler and compass achieves. It shows that Euclid's axioms are not just something"
+      },
+      {
+        "start": 848.0,
+        "duration": 4.7,
+        "text": "some guy made up, which is we know that people can make up inconsistent theories. It's with the"
+      },
+      {
+        "start": 852.7,
+        "duration": 5.9,
+        "text": "ruler and the compass. We are now saying the, we have geometries based on these axioms. For the more,"
+      },
+      {
+        "start": 858.7,
+        "duration": 5.0,
+        "text": "these axioms are instantiated in physical reality. Therefore, they must be as consistent as the"
+      },
+      {
+        "start": 863.8,
+        "duration": 5.4,
+        "text": "physical experience itself, which has a great track record than a human thought and then just"
+      },
+      {
+        "start": 869.1,
+        "duration": 5.0,
+        "text": "imagination is making stuff up in your head, has a fallible track record. Many people have failed"
+      },
+      {
+        "start": 874.2,
+        "duration": 5.7,
+        "text": "at doing that perfectly, whereas direct experience is not full of contradiction. Nature does not"
+      },
+      {
+        "start": 879.8,
+        "duration": 4.8,
+        "text": "contradict itself. We know that our first three postulates are consistent because we can build them"
+      },
+      {
+        "start": 884.9,
+        "duration": 5.4,
+        "text": "in the real world. As long as you only use the straight edge for straight lines, no measurement allowed,"
+      },
+      {
+        "start": 890.3,
+        "duration": 6.2,
+        "text": "and the compass for circles, then any other necessary assumptions are implied by these constructions."
+      },
+      {
+        "start": 897.1,
+        "duration": 4.2,
+        "text": "Lines and curves are continuous because they've been formed by a continuous motion,"
+      },
+      {
+        "start": 901.4,
+        "duration": 5.4,
+        "text": "and when they cross each other, they intersect at a point. The elements goes on to build every single"
+      },
+      {
+        "start": 906.7,
+        "duration": 5.3,
+        "text": "geometrical object that it ever uses with a ruler and compass construction followed by a proof of"
+      },
+      {
+        "start": 912.0,
+        "duration": 5.8,
+        "text": "its validity. So, in a sense, the ruler and compass become like tools for building geometrical"
+      },
+      {
+        "start": 917.8,
+        "duration": 6.5,
+        "text": "knowledge from the basic postulates. But if these constructions are meant to be embedded in the"
+      },
+      {
+        "start": 924.2,
+        "duration": 5.2,
+        "text": "philosophy of Euclidean geometry, then there was a big problem that these Greek geometers were"
+      },
+      {
+        "start": 929.4,
+        "duration": 4.6,
+        "text": "going to have to reckon with, because it was well known at the time that diagrams could have subtle"
+      },
+      {
+        "start": 934.0,
+        "duration": 5.0,
+        "text": "mistakes that would ruin an entire proof. If a mistake found its way into a geometric theorem,"
+      },
+      {
+        "start": 939.0,
+        "duration": 5.9,
+        "text": "then not only would the proof be wrong, but it could potentially ruin the credibility of geometry,"
+      },
+      {
+        "start": 945.0,
+        "duration": 3.9,
+        "text": "because how can you trust a system of thought if it's been shown to make mistakes?"
+      },
+      {
+        "start": 949.9,
+        "duration": 5.0,
+        "text": "Here's an example. I'm going to prove to you that some right angles are not equal to other"
+      },
+      {
+        "start": 955.0,
+        "duration": 5.4,
+        "text": "right angles. Now, to be clear, this is completely wrong. In fact, Euclid's fourth postulate says"
+      },
+      {
+        "start": 960.4,
+        "duration": 5.5,
+        "text": "that all right angles are equal. But in this proof, the reasoning behind every single step is flawless,"
+      },
+      {
+        "start": 965.9,
+        "duration": 4.6,
+        "text": "except for one subtle, almost invisible mistake, which ruins the whole thing."
+      },
+      {
+        "start": 972.4,
+        "duration": 5.8,
+        "text": "Here's a square. It's got four equal sides and four right angles. I'm going to draw a line over"
+      },
+      {
+        "start": 978.2,
+        "duration": 4.6,
+        "text": "here, which I've measured to have the same length as the sides of my square. And then I'm going to"
+      },
+      {
+        "start": 982.9,
+        "duration": 8.3,
+        "text": "connect this point to this point. So, this, this, this, this, and this are all congruent. Next,"
+      },
+      {
+        "start": 991.2,
+        "duration": 5.4,
+        "text": "I draw a perpendicular bisector to this side up here, and then I draw another perpendicular bisector"
+      },
+      {
+        "start": 996.6,
+        "duration": 7.5,
+        "text": "to this side down here. Then I connect these points, and I make two triangles here. This down here"
+      },
+      {
+        "start": 1004.1,
+        "duration": 5.8,
+        "text": "is a perpendicular bisector, which makes these two sides equal. Meanwhile, since it's perpendicular,"
+      },
+      {
+        "start": 1009.9,
+        "duration": 6.3,
+        "text": "this angle is also equal to this angle. And then finally, this side is shared by both of the triangles."
+      },
+      {
+        "start": 1016.2,
+        "duration": 5.1,
+        "text": "So, side angle side, these two triangles are congruent. So, that means that this length is equal"
+      },
+      {
+        "start": 1021.4,
+        "duration": 8.1,
+        "text": "to this length. Next, I'm going to draw a line here and a line here. If I look at these two triangles,"
+      },
+      {
+        "start": 1029.4,
+        "duration": 5.6,
+        "text": "once again, this was a perpendicular bisector, so this length and this length are equal. This line"
+      },
+      {
+        "start": 1035.0,
+        "duration": 5.0,
+        "text": "is shared between the two triangles and it's perpendicular, which makes these two angles equal."
+      },
+      {
+        "start": 1041.0,
+        "duration": 4.9,
+        "text": "Because of this, these two triangles are congruent. And that means that this side and this side are"
+      },
+      {
+        "start": 1045.8,
+        "duration": 6.6,
+        "text": "also equal. Okay, so far, we have two pairs of triangles, which are each undeniably equal to"
+      },
+      {
+        "start": 1052.4,
+        "duration": 5.5,
+        "text": "each other because they came from drawing these perpendicular bisectors. And that also means that"
+      },
+      {
+        "start": 1057.9,
+        "duration": 7.0,
+        "text": "this third side for each pair is congruent as well. So now, this triangle and this triangle"
+      },
+      {
+        "start": 1064.9,
+        "duration": 7.0,
+        "text": "also have side side side congruency with each other. Hmm, but this is a right angle plus some other"
+      },
+      {
+        "start": 1071.9,
+        "duration": 4.5,
+        "text": "angle. I'll call that measurement alpha. We know it's the same over here because these were"
+      },
+      {
+        "start": 1076.4,
+        "duration": 6.3,
+        "text": "congruent triangles. So, alpha plus a right angle again. But this right angle is bigger than the"
+      },
+      {
+        "start": 1082.7,
+        "duration": 7.1,
+        "text": "other one because of this little extra piece. So, what happened? Well, because my perpendicular"
+      },
+      {
+        "start": 1089.8,
+        "duration": 5.4,
+        "text": "bisectors are drawn slightly wrong, the diagram made the triangle on the right look like it's basically"
+      },
+      {
+        "start": 1095.3,
+        "duration": 5.1,
+        "text": "symmetrical to the triangle on the left, instead of being completely outside of the square like this."
+      },
+      {
+        "start": 1100.9,
+        "duration": 4.2,
+        "text": "Since the right angle of the square is no longer inside of the triangle, the proof"
+      },
+      {
+        "start": 1105.1,
+        "duration": 4.9,
+        "text": "completely falls apart. This is why modern math is so stringent about avoiding diagrams."
+      },
+      {
+        "start": 1110.0,
+        "duration": 4.9,
+        "text": "That single hidden assumption about where the triangle is located gave us a diagram that allowed"
+      },
+      {
+        "start": 1114.9,
+        "duration": 5.8,
+        "text": "us to prove an impossible result. But the Greek practice of ruler and compass constructions"
+      },
+      {
+        "start": 1120.6,
+        "duration": 5.4,
+        "text": "has an answer to this problem. Because if you used the recipes from the elements to properly"
+      },
+      {
+        "start": 1126.1,
+        "duration": 5.1,
+        "text": "construct the diagram for that false proof, you would avoid the subtle mistake that I just made"
+      },
+      {
+        "start": 1131.2,
+        "duration": 4.5,
+        "text": "when I drew the picture by eye. Even if your constructions have a certain margin of error,"
+      },
+      {
+        "start": 1135.7,
+        "duration": 4.8,
+        "text": "following the steps from the elements still gives you the precision that you need to determine"
+      },
+      {
+        "start": 1140.5,
+        "duration": 5.0,
+        "text": "these inexact properties like which point lies inside or outside of which shape."
+      },
+      {
+        "start": 1146.9,
+        "duration": 5.0,
+        "text": "In the context of Euclid's elements, if a diagram like this hasn't been properly constructed,"
+      },
+      {
+        "start": 1151.8,
+        "duration": 4.5,
+        "text": "it effectively doesn't exist, or at least it can't be used in a proof. In fact,"
+      },
+      {
+        "start": 1156.3,
+        "duration": 4.6,
+        "text": "Euclid is very careful throughout the elements to only ever use shapes that he's already shown how"
+      },
+      {
+        "start": 1160.9,
+        "duration": 6.4,
+        "text": "to construct. As he proves new theorems, he introduces new shapes that these new tools allow him to build."
+      },
+      {
+        "start": 1168.1,
+        "duration": 5.2,
+        "text": "But this leads to some surprises, shapes that seem like they should be simple but actually aren't."
+      },
+      {
+        "start": 1173.3,
+        "duration": 5.8,
+        "text": "For example, squares. If you asked me to construct a square using Euclid's propositions,"
+      },
+      {
+        "start": 1179.0,
+        "duration": 4.4,
+        "text": "and I didn't know any better, I'd probably say the simplest way to do it would be something like this."
+      },
+      {
+        "start": 1184.0,
+        "duration": 5.1,
+        "text": "Draw line segment. Construct another line segment equal to the first and perpendicular to the first"
+      },
+      {
+        "start": 1189.1,
+        "duration": 6.3,
+        "text": "using proposition 11. And then just do the same thing again, and then again one more time and you have a"
+      },
+      {
+        "start": 1195.4,
+        "duration": 6.8,
+        "text": "square. But when it comes time to prove that this really is a square, we've got a problem."
+      },
+      {
+        "start": 1202.2,
+        "duration": 5.6,
+        "text": "Because to be sure that the side opposite the first one really is the same length as the original,"
+      },
+      {
+        "start": 1207.8,
+        "duration": 6.2,
+        "text": "we would need to say something about parallel lines. Euclid waits until more than halfway through"
+      },
+      {
+        "start": 1214.0,
+        "duration": 6.7,
+        "text": "book one before he finally uses his most famous and most controversial postulate, postulate five,"
+      },
+      {
+        "start": 1220.7,
+        "duration": 7.2,
+        "text": "the parallel postulate. Unlike the other postulates, it's not simple or intuitive. Even the actual"
+      },
+      {
+        "start": 1227.9,
+        "duration": 6.4,
+        "text": "statement is strangely convoluted. If a straight line falling across two other straight lines makes"
+      },
+      {
+        "start": 1234.3,
+        "duration": 5.0,
+        "text": "internal angles on the same side of itself, whose sum is less than two right angles,"
+      },
+      {
+        "start": 1239.3,
+        "duration": 4.7,
+        "text": "then the two other straight lines being produced to infinity meet on that side of the original"
+      },
+      {
+        "start": 1244.0,
+        "duration": 5.7,
+        "text": "straight line that the sum of the internal angles is less than two right angles. This is a"
+      },
+      {
+        "start": 1249.7,
+        "duration": 5.7,
+        "text": "statement about non-parallel lines, but taking the contrapositive gives logically equivalent"
+      },
+      {
+        "start": 1255.4,
+        "duration": 7.2,
+        "text": "information about parallels. Anytime two lines don't cross, then the sum of the angles equals 180 degrees."
+      },
+      {
+        "start": 1262.6,
+        "duration": 5.8,
+        "text": "Today, we usually say it like this. For any line and a point not on the line, there's exactly"
+      },
+      {
+        "start": 1268.3,
+        "duration": 5.9,
+        "text": "one line through the point which is parallel to the first line. But in the context of ruler and"
+      },
+      {
+        "start": 1274.2,
+        "duration": 6.8,
+        "text": "compass constructions, the first one is not the same as the other two. Because there's no way"
+      },
+      {
+        "start": 1281.0,
+        "duration": 6.2,
+        "text": "to physically verify that lines continue forever and never intersect. How do you check for never?"
+      },
+      {
+        "start": 1288.1,
+        "duration": 5.3,
+        "text": "Even though Euclid's definitions say that parallel lines are two lines that never intersect,"
+      },
+      {
+        "start": 1293.4,
+        "duration": 5.4,
+        "text": "when it comes time to ask somebody to accept an assumption about them, he avoids the problem"
+      },
+      {
+        "start": 1298.8,
+        "duration": 6.1,
+        "text": "of checking for never by phrasing it in a way that can be constructed. Whenever two lines are"
+      },
+      {
+        "start": 1304.9,
+        "duration": 5.8,
+        "text": "drawn through a transversal so that they're converging, they'll cross eventually. It's an assertion"
+      },
+      {
+        "start": 1310.6,
+        "duration": 5.3,
+        "text": "that's physically checkable, even if doing it in practice requires a bit of extra space."
+      },
+      {
+        "start": 1316.9,
+        "duration": 6.6,
+        "text": "But even so, this is not empirical science. Because this postulate lets Euclid derive theorems"
+      },
+      {
+        "start": 1323.4,
+        "duration": 5.2,
+        "text": "about parallel lines that are not physically checkable. We can't actually make lines that go on"
+      },
+      {
+        "start": 1328.6,
+        "duration": 6.2,
+        "text": "forever without touching, especially on the spherical surface of the earth. So Euclid is using"
+      },
+      {
+        "start": 1334.9,
+        "duration": 5.5,
+        "text": "physically verifiable principles to develop a theory that goes beyond the scope of empirical"
+      },
+      {
+        "start": 1340.4,
+        "duration": 5.4,
+        "text": "observation. It's an approach that's different from both platonic rationalism and Aristotelian"
+      },
+      {
+        "start": 1346.1,
+        "duration": 6.2,
+        "text": "empiricism. And once he introduces the parallel postulate for the first time in Proposition 29,"
+      },
+      {
+        "start": 1352.2,
+        "duration": 4.4,
+        "text": "all of the subsequent theorems and constructions require it for their existence."
+      },
+      {
+        "start": 1356.6,
+        "duration": 4.6,
+        "text": "This kind of additive structure of the elements reveals hidden complexities in shapes that we"
+      },
+      {
+        "start": 1361.2,
+        "duration": 6.3,
+        "text": "might have assumed to be simple. So Euclid's construction of a square is much more complicated than mine."
+      },
+      {
+        "start": 1367.5,
+        "duration": 4.2,
+        "text": "In fact, when I followed his construction and I included all the subroutines from earlier"
+      },
+      {
+        "start": 1371.7,
+        "duration": 6.0,
+        "text": "propositions, it took me close to 10 minutes just to make a square. Proposition 46."
+      },
+      {
+        "start": 1378.4,
+        "duration": 6.1,
+        "text": "To describe a square on a given straight line, let A, B be the given straight line. Let A, C"
+      },
+      {
+        "start": 1384.5,
+        "duration": 5.1,
+        "text": "have been drawn at right angles to the straight line A, B from the point A on it. To get a right angle,"
+      },
+      {
+        "start": 1389.6,
+        "duration": 4.5,
+        "text": "I have to go to the proposition 11. To draw a straight line at right angles to a given"
+      },
+      {
+        "start": 1394.1,
+        "duration": 4.9,
+        "text": "straight line. Let A, B give a straight line and C give a point D have been taken at random on"
+      },
+      {
+        "start": 1399.0,
+        "duration": 5.1,
+        "text": "and let C, E be made equal. And let the equilateral triangle F, D, E have been constructed on"
+      },
+      {
+        "start": 1404.1,
+        "duration": 5.8,
+        "text": "one make A, D, E, which is proposition 3. D, E have been drawn through point D parallel to A"
+      },
+      {
+        "start": 1409.8,
+        "duration": 3.8,
+        "text": "proposition 30. Draw a straight line parallel to a given straight line through a given"
+      },
+      {
+        "start": 1413.7,
+        "duration": 4.4,
+        "text": "going to have me make alternate angle D, A, E equal to angle A, D, C have been constructed"
+      },
+      {
+        "start": 1418.1,
+        "duration": 6.4,
+        "text": "on the straight line D, A proposition 23. Back to proposition, where to let D, E have been drawn"
+      },
+      {
+        "start": 1424.6,
+        "duration": 5.5,
+        "text": "through point D parallel to A, B have been drawn through point B parallel to A, D, and this are"
+      },
+      {
+        "start": 1430.1,
+        "duration": 4.3,
+        "text": "parallel and this are also parallel and this angle is equal to this. We have a square with four"
+      },
+      {
+        "start": 1434.4,
+        "duration": 7.3,
+        "text": "equal sides and four right angles. The key steps here were that after drawing the second side so"
+      },
+      {
+        "start": 1441.7,
+        "duration": 5.8,
+        "text": "that it was perpendicular and equal in length to the first, the third side was constructed to be"
+      },
+      {
+        "start": 1447.4,
+        "duration": 5.4,
+        "text": "parallel to the first and the fourth side was parallel to the second. This allows him to then"
+      },
+      {
+        "start": 1452.8,
+        "duration": 5.5,
+        "text": "use the already established properties of parallelograms to state that the opposite sides and the"
+      },
+      {
+        "start": 1458.3,
+        "duration": 5.6,
+        "text": "opposite angles are all equal to each other. With my simpler method of constructing the square,"
+      },
+      {
+        "start": 1463.9,
+        "duration": 4.6,
+        "text": "I wouldn't have been able to prove that it was a square at all without invoking the parallel"
+      },
+      {
+        "start": 1468.5,
+        "duration": 5.6,
+        "text": "postulate, but it's actually even worse than that because without the parallel postulate,"
+      },
+      {
+        "start": 1474.1,
+        "duration": 6.7,
+        "text": "squares don't exist. If the parallel postulate is false, one can instead prove that this"
+      },
+      {
+        "start": 1480.8,
+        "duration": 6.6,
+        "text": "configuration does not make a square, but rather weirdly, this figured quadrilateral."
+      },
+      {
+        "start": 1487.4,
+        "duration": 3.9,
+        "text": "So even though you made sure you had right angles at the base of the quadrilateral and"
+      },
+      {
+        "start": 1492.2,
+        "duration": 5.9,
+        "text": "that the perpendicular sides were equal, the fourth and final side somehow still manages to"
+      },
+      {
+        "start": 1498.1,
+        "duration": 6.1,
+        "text": "miss the mark, so to speak. It makes non-right angles. It's as if the sides are sort of bent."
+      },
+      {
+        "start": 1504.2,
+        "duration": 5.5,
+        "text": "It's not that Greek mathematicians were doubting whether or not squares existed or that you could somehow"
+      },
+      {
+        "start": 1509.7,
+        "duration": 6.2,
+        "text": "anticipate a non-uclidean geometry, which he didn't, but rather it's that Euclid was using the"
+      },
+      {
+        "start": 1515.8,
+        "duration": 6.3,
+        "text": "process of constructions combined with axiomatic deductive proofs to pin down the very foundations of"
+      },
+      {
+        "start": 1522.2,
+        "duration": 7.0,
+        "text": "geometric knowledge. To systematically catalog every assumption that's required before we can make"
+      },
+      {
+        "start": 1529.2,
+        "duration": 6.2,
+        "text": "something like a square, so the elements isn't just a collection of proofs accompanied by subroutines"
+      },
+      {
+        "start": 1535.4,
+        "duration": 5.9,
+        "text": "showing how to construct geometric objects. It's a taxonomy of the exact components that are"
+      },
+      {
+        "start": 1541.4,
+        "duration": 6.7,
+        "text": "required for any geometric object, a family tree of the universe of geometry. And with this type of"
+      },
+      {
+        "start": 1548.1,
+        "duration": 6.9,
+        "text": "analysis, Euclid is able to identify precisely what fundamental starting assumptions are required"
+      },
+      {
+        "start": 1555.0,
+        "duration": 5.9,
+        "text": "for the entire Greek system of geometry. It's not obvious that the square requires the parallel"
+      },
+      {
+        "start": 1560.9,
+        "duration": 4.5,
+        "text": "postulate to be true until you pull it apart and put it under a microscope."
+      },
+      {
+        "start": 1567.5,
+        "duration": 5.7,
+        "text": "But for centuries other mathematicians were sure that Euclid had made another mistake by calling"
+      },
+      {
+        "start": 1573.2,
+        "duration": 6.4,
+        "text": "postulate 5 a postulate. This complicated prediction about two lines crossing seems more like a"
+      },
+      {
+        "start": 1579.6,
+        "duration": 5.8,
+        "text": "theorem that should be proven not a postulate to be accepted. In the dark ages when Europe had"
+      },
+      {
+        "start": 1585.4,
+        "duration": 5.0,
+        "text": "forgotten about the elements and the only people actively studying it were in the Middle East"
+      },
+      {
+        "start": 1590.5,
+        "duration": 6.2,
+        "text": "the Arab mathematician Eben Al-Heitham and the Persian scholar Omar Qayem both tried to prove"
+      },
+      {
+        "start": 1596.6,
+        "duration": 7.7,
+        "text": "the parallel postulate as a theorem. And they weren't the last to try either. Many people tried to"
+      },
+      {
+        "start": 1604.3,
+        "duration": 7.4,
+        "text": "improve on Euclid in this way. Around 1800 people like Lagrange and Lejeanne proposed so cold"
+      },
+      {
+        "start": 1611.7,
+        "duration": 7.4,
+        "text": "proofs of the parallel postulate. These are big name mathematicians. Their names are engraved"
+      },
+      {
+        "start": 1619.2,
+        "duration": 7.6,
+        "text": "in gold on the Eiffel Tower. Elite establishment stuff. But even these big wigs were wrong."
+      },
+      {
+        "start": 1627.4,
+        "duration": 6.2,
+        "text": "Their proofs contain hidden mistakes. It's astonishing that this was more than 2000 years after"
+      },
+      {
+        "start": 1633.6,
+        "duration": 8.4,
+        "text": "Euclid people tried to improve on Euclid for millennia. The fact is that Euclid was right all along."
+      },
+      {
+        "start": 1642.0,
+        "duration": 5.5,
+        "text": "The parallel postulate really does need to be a separate assumption just as Euclid had made it."
+      },
+      {
+        "start": 1647.5,
+        "duration": 5.2,
+        "text": "It cannot be proved from the other axioms as so many mathematicians during those millennia had"
+      },
+      {
+        "start": 1652.7,
+        "duration": 7.2,
+        "text": "mistakenly believed. The Greeks, you know, those guys were really something else. It's so easy to"
+      },
+      {
+        "start": 1659.9,
+        "duration": 5.0,
+        "text": "make subtle mistakes in the theory of parallel. History shows that there are a hundred ways to make"
+      },
+      {
+        "start": 1665.0,
+        "duration": 5.4,
+        "text": "tiny, indiscible mistakes that fool even the best mathematicians. Top mathematicians they were"
+      },
+      {
+        "start": 1670.4,
+        "duration": 6.6,
+        "text": "never wrong but anything else stumbled on this one issue. And somehow Euclid got it exactly right."
+      },
+      {
+        "start": 1677.5,
+        "duration": 3.5,
+        "text": "He didn't make any of those hundred mistakes that the legitimate mathematicians did."
+      },
+      {
+        "start": 1681.8,
+        "duration": 7.1,
+        "text": "It's not luck in my opinion. Arguably the Greeks were genuinely more sophisticated"
+      },
+      {
+        "start": 1689.0,
+        "duration": 6.7,
+        "text": "foundational geometers than even the Paris Elite in 1800. Unbelievable but true."
+      },
+      {
+        "start": 1696.6,
+        "duration": 5.8,
+        "text": "Euclid's elements is not a classic for nothing. Euclid is not a symbol of exaggeration because of"
+      },
+      {
+        "start": 1702.5,
+        "duration": 6.5,
+        "text": "some lazy Eurocentric birthright. No, Euclid's elements really is that good."
+      },
+      {
+        "start": 1714.0,
+        "duration": 5.4,
+        "text": "Euclid's construction of the square leads directly into the culminating proof of book one,"
+      },
+      {
+        "start": 1719.4,
+        "duration": 6.1,
+        "text": "the Pythagorean theorem, and its converse. From there, Euclid has five more books about plain"
+      },
+      {
+        "start": 1725.5,
+        "duration": 5.2,
+        "text": "geometry. Before moving on to number theory in books 7 through 10, where he gives theories of"
+      },
+      {
+        "start": 1730.7,
+        "duration": 6.6,
+        "text": "prime and irrational numbers. Even within number theory, Euclid gives every proof a diagram,"
+      },
+      {
+        "start": 1737.4,
+        "duration": 3.9,
+        "text": "seeming to suggest that even numbers are subservient to geometry."
+      },
+      {
+        "start": 1742.6,
+        "duration": 6.1,
+        "text": "After all, numerals can't precisely represent an irrational number like the square root of 2,"
+      },
+      {
+        "start": 1748.7,
+        "duration": 6.0,
+        "text": "but a geometric construction can easily show that length. The final three books cover three"
+      },
+      {
+        "start": 1754.7,
+        "duration": 5.0,
+        "text": "dimensional geometry, culminating with the construction of the five platonic solids,"
+      },
+      {
+        "start": 1759.8,
+        "duration": 4.9,
+        "text": "improving that there are the only five ways to create 3D figures from regular polygons."
+      },
+      {
+        "start": 1765.4,
+        "duration": 6.1,
+        "text": "But this wasn't just the work of a single person. It was the culmination of the work of generations"
+      },
+      {
+        "start": 1771.5,
+        "duration": 6.0,
+        "text": "of Greek mathematicians. Other elements of mathematics existed before Euclid's, but his is the one"
+      },
+      {
+        "start": 1777.5,
+        "duration": 6.6,
+        "text": "that survives because its impeccable structure made the others obsolete. This book and the system"
+      },
+      {
+        "start": 1784.2,
+        "duration": 6.3,
+        "text": "of ruler encompass constructions at its core acted as the arbiter of absolute mathematical truth"
+      },
+      {
+        "start": 1790.5,
+        "duration": 4.6,
+        "text": "for the next two millennia. The Middle Eastern scholars who built on the elements during the"
+      },
+      {
+        "start": 1795.1,
+        "duration": 5.9,
+        "text": "Dark Ages developed powerful empirical science which laid the groundwork for the modern scientific"
+      },
+      {
+        "start": 1801.0,
+        "duration": 6.6,
+        "text": "method. Once Europeans started to reduclyt again, ruler encompass constructions were seen as the"
+      },
+      {
+        "start": 1807.6,
+        "duration": 5.8,
+        "text": "only path to absolute mathematical certainty. Even as the powerful Islamic innovation of algebra"
+      },
+      {
+        "start": 1813.4,
+        "duration": 6.2,
+        "text": "found its way to Europe, the Europeans saw it as less rigorous than geometry, a tool for mere"
+      },
+      {
+        "start": 1819.7,
+        "duration": 5.0,
+        "text": "practical applications or a mathematical trick for finding the right answer. They were skeptical"
+      },
+      {
+        "start": 1824.7,
+        "duration": 5.8,
+        "text": "of algebra for centuries because it used symbols instead of the physically verifiable procedures"
+      },
+      {
+        "start": 1830.5,
+        "duration": 7.1,
+        "text": "of Euclidean geometry. In the 17th century when René Descartes took the bold step of assigning"
+      },
+      {
+        "start": 1837.6,
+        "duration": 5.6,
+        "text": "coordinate values to points, the beginnings of analytic geometry, he still justified his work"
+      },
+      {
+        "start": 1843.3,
+        "duration": 6.2,
+        "text": "with constructions. To him, the ruler encompass were like a mechanism for trust. His philosophy was"
+      },
+      {
+        "start": 1849.5,
+        "duration": 6.2,
+        "text": "to doubt everything, but even he didn't doubt Euclid's postulates. Descartes went so far as to create"
+      },
+      {
+        "start": 1855.8,
+        "duration": 5.5,
+        "text": "new compasses, mechanical devices that were more complex than the ruler encompass, but which served"
+      },
+      {
+        "start": 1861.3,
+        "duration": 5.6,
+        "text": "a similar constructive purpose. He wanted to bring absolute certainty to the mathematics of higher"
+      },
+      {
+        "start": 1866.9,
+        "duration": 4.8,
+        "text": "degree curves which go beyond the scope of what's constructible with a ruler encompass."
+      },
+      {
+        "start": 1872.6,
+        "duration": 6.1,
+        "text": "So even as he revealed the power of using algebra to do geometry, he still couldn't let go"
+      },
+      {
+        "start": 1878.7,
+        "duration": 5.5,
+        "text": "of constructions. Even though he has the alternative right there, to do it algebraically,"
+      },
+      {
+        "start": 1884.2,
+        "duration": 5.1,
+        "text": "to take algebra's defundation is the one who shows that that could easily be done."
+      },
+      {
+        "start": 1889.4,
+        "duration": 4.2,
+        "text": "And still he refuses. He has the standing at the gates of paradise,"
+      },
+      {
+        "start": 1893.5,
+        "duration": 5.4,
+        "text": "what he's denying himself. And now that's strong. We should do it insist on this classical"
+      },
+      {
+        "start": 1898.9,
+        "duration": 5.1,
+        "text": "stuff eat, despite himself. But soon the reign of constructions as the philosophical bedrock"
+      },
+      {
+        "start": 1904.0,
+        "duration": 5.4,
+        "text": "for math would have to come to an end. The 19th century realization that there are valid forms"
+      },
+      {
+        "start": 1909.4,
+        "duration": 5.2,
+        "text": "of geometry where the parallel postulate is false, along with other seemingly contradictory"
+      },
+      {
+        "start": 1914.6,
+        "duration": 5.8,
+        "text": "discoveries in that century, led to a search for new formal foundations for math. Math"
+      },
+      {
+        "start": 1920.4,
+        "duration": 6.6,
+        "text": "increasingly turned to formal logic, which today is embodied by computer systems. Rather than relying"
+      },
+      {
+        "start": 1927.4,
+        "duration": 5.1,
+        "text": "on intuition or abstract thought, computerized proof checkers like Lean serve a similar purpose"
+      },
+      {
+        "start": 1932.5,
+        "duration": 3.8,
+        "text": "to the one that a skeptic with a ruler encompass would have served in ancient Greece."
+      },
+      {
+        "start": 1937.7,
+        "duration": 5.9,
+        "text": "Just like in those early days of axiomatic deductive mathematics, we still need tools that"
+      },
+      {
+        "start": 1943.6,
+        "duration": 6.8,
+        "text": "ground abstract reasoning in systematic verifiable procedures. Instead of constructions,"
+      },
+      {
+        "start": 1950.4,
+        "duration": 5.3,
+        "text": "computer systems are built on countless on-off switches of transistors, following explicit"
+      },
+      {
+        "start": 1955.7,
+        "duration": 7.3,
+        "text": "chakable rules. As is the case with Euclid, smaller operations based on fundamental starting points"
+      },
+      {
+        "start": 1963.0,
+        "duration": 6.2,
+        "text": "form subroutines that build into ever larger programmatic structures. But where Euclid's basic"
+      },
+      {
+        "start": 1969.2,
+        "duration": 9.5,
+        "text": "operations were lines and circles, hours are ones and zeros. There was a very strong parallel"
+      },
+      {
+        "start": 1978.7,
+        "duration": 4.2,
+        "text": "between understanding what Euclid was really getting at with constructions and like my own"
+      },
+      {
+        "start": 1982.9,
+        "duration": 5.1,
+        "text": "process for making videos with programmatic animation. That which felt like a very modern"
+      },
+      {
+        "start": 1988.0,
+        "duration": 5.4,
+        "text": "thing like wanting to implement it on a computer was actually maybe more reflective of how people's"
+      },
+      {
+        "start": 1993.4,
+        "duration": 4.6,
+        "text": "relationship was with math through most of history. I don't have, I'm not a computer coder, but"
+      },
+      {
+        "start": 1998.1,
+        "duration": 5.8,
+        "text": "there are many similar ways where actually having to instantiate something changes it from what"
+      },
+      {
+        "start": 2003.9,
+        "duration": 10.0,
+        "text": "you had in your mind and I did find that kind of core idea."
+      }
+    ],
+    "full_text": "This is the fifth and final in a series of guest videos that I've been putting up on the channel. The context, in case any of you missed the first one, is that I've been away on leave this summer. And I decided to use the Patreon funds that were coming into the channel during that time to commission a few guest videos from creators who I am very excited to share with this particular audience. By the way, I am back to making my own videos now, currently working on a trilogy about the Laplace Transform, the first of which is available as an early view for channel supporters. Just, you know, throwing that out there. This last guest video is probably the most different from the channel's usual vibe, and yet I'm as confident as ever that viewers of this channel will thoroughly enjoy it. It comes from Ben Siverson, who is a very talented and I think underappreciated creator who makes these great mini documentaries about the history of math and science. The content here changed the way I think about Euclid and the history of geometry, and perhaps it will for you as well. This is the most influential math book in human history, Euclid's elements. For 2000 years, it was the ultimate authority for absolute mathematical truth, an enduring symbol of exact reasoning from the ancient Greeks. But the Greeks did an approach math the way we do today. Their methods fly in the face of some of the most important rules of modern practice. But yet, the approach that Euclid used in the elements was the most successful way to discover mathematical truth until the 17th century. Ruler and Compass constructions. But how could physical tools like these actually be a reliable way to do abstract math? Understanding what the Greeks were really doing starts with the question that anybody who's ever had to use a ruler and compass in geometry class has probably asked. What's the point? What are these constructions actually for? Most people would probably assume that the ruler and compass are basically a way of drawing nicer looking shapes, like there are a quaint way of doing it if you don't have a computer. And while that's not entirely wrong to the ancient Greeks, it's far from the whole story. To them, diagrams weren't just incidental schematic illustrations. They were part of the reasoning of the proof itself. This is not how we do math today. Today, every single logical assumption needs to be explicitly stated, like a line of code, and a proof isn't considered valid until it's completely independent for many diagram. But in Euclid's elements, the compilation of Greek math from around 300 BC, things are different. In Euclid's very first proof, he makes what modern mathematicians would consider to be an unstated assumption, basically a mistake. To try to spot what Euclid missed in proposition one of the elements, you have to also know what his stated assumptions were. Before he writes any proofs, he lays out some definitions, five logical assumptions called common notions, and five assumptions about geometry called postulates. Whenever one of these is used in a proof, it'll show up on screen. We can read this proposition as a recipe for constructing an equilateral triangle using a ruler and a compass. You start with a line segment AB. When you draw these two circles centered at A and B that each have AB as a radius, like this, then you get this intersection point. Connecting the dots gives you another radius of each circle, and of course we know that the radius of a circle is the same length everywhere. So this is equal to this, and this is equal to this. Since two things that are equal to the same thing are also equal, Euclid proves that he's made an equilateral triangle. Did you catch the unstated assumption? You never proved that the two circles overlap each other. This should have been some other axiom. There should have been something else that said how we know when the two circles overlap and when they don't. But there's another way of looking at this. Rather than making a mistake by relying on the diagram, the Greeks were arguably using this series of steps to build the equilateral triangle as part of the proof itself. This is the perspective of Victor Blasjo, who hosts the excellent podcast opinionated history of mathematics, which features an 18 episode season about Euclid's elements and the history of geometry. When people say there is a gap in the proof, I think it is like an anachronistic way of thinking about it. The existence needs to be ensured by a new axiom that's the way modern logic nerds think it's supposed to be. But in the spirit of the times, we should start by thinking of mathematical proofs as something that arose alongside the Greek tradition of antagonistic debate. You have somebody trying to prove a claim and they're confronted by a skeptic who wants to prove them wrong. The prover is saying, now, carry out these steps. The skeptic is then asked to perform these steps and had literally just drawn this in front of their very own eyes. And then the skeptic is supposed to or say, oh no, I don't think they intersect. There's no credibility. You know, you're just true. It is right there. Anybody can see. You know, you just look make yourself look ridiculous. In the modern mathematics, you think of the skeptic as if it was like a logic machine who's just like crunching axioms like a machine doing calculations. And then oh, there's no axiom here error error. But that's not the context we must visualize. You know, we must think of the degrees we're doing this. If the skeptic wants to say, I think maybe they don't intersect, then it's the burden is on him to give a credible way that you could doubt that these are, but if you literally just drew it in front of you and it's obviously cutting right through it, there's nothing you can say that has any credibility to try to get around the fact that obviously they intersect, you know, like any normal person would accept. By following the steps in the elements, our construction undeniably has two circles that intersect. It's impossible to create this construction otherwise. But how do we decide what's obvious in a diagram and what's not? I mean, we can't just look at this diagram and say the triangle is obviously equilateral, because that's not a proof at all. So why is it that we can use the picture to know for sure that the circles intersect? That is an inexact property because the drawing doesn't need to be exact to for the to cross obviously. However, what you want to prove is that this is an equilateral triangle that all the three sides are exactly the same. Well, that's different. Well, maybe one of them is 99% the length of the other. I don't know. That's not self-evident. Obviously, that's something that needs to be established with with rational argument and like Euclidus. This is a key distinction for this interpretation of Greek geometry, which is going to come up again later. Because Euclid never establishes exact properties like equality based on diagrams, but he does allow diagrams to be used for non-exact or topological properties. Whether a point is inside or outside of a figure or the order in which points appear along a line, this approach to geometry allows the written proof and the diagram to go hand in hand to share the work. The parts of the proof that were impractical to demonstrate verbally are instead demonstrated diagrammatically. So these diagrams, they're not just a supplemental illustration to an otherwise logical argument. They're actually part of the proof itself, which a skeptic would need to refute. But for this to work, we can't just draw any picture and start doing geometry with it. Our diagrams need to follow rules. So for every object that's specified in the elements, its construction is given by a precise set of steps. If the book says let the equilateral triangle have been constructed, then it's referring you back to Proposition 1 where the steps for constructing an equilateral triangle are given. From this point of view, an equilateral triangle isn't some perfect entity that floats in the eternal platonic realm. It doesn't exist at all until you follow the steps to make an equilateral triangle, almost like the output from some lines of code. But given that Greek mathematicians didn't write about their thoughts and feelings and were making inferences from their technical work, this is kind of a lot of inference to take away from one little proposition about equilateral triangles. So let's take a look at what Euclid does next, because it's about to become very clear that there's more going on. If the point of the ruler and compass was just to make accurate diagrams, then the very next proposition wouldn't make any sense. Proposition 2, to place a straight line equal to a given straight line at a given point at an extremity. Somebody has drawn a line segment on a piece of paper and now you want to draw an equally long line segment somewhere else on the paper. Euclid accomplishes this by a very elaborate construction. That's proposition 1. Euclid involves drawing several circles and an equilateral triangle. It's very elegantly indeed. This leads exactly to what you need. The given segment has been reproduced in a new position with the exact mathematical precision. You can prove everything in order, whatever triangle, the radius, the circular equal, the whole kind of logical steps showing that this is correct. This is something that I can literally do by picking up this compass and putting it down on another spot. So Euclid acts as if this is not possible. One might say that Euclid behaves as if his compass is collapsible. The compass stays at a fixed opening while drawing a particular circle, but as soon as it's lifted from the paper, it collapses or closes up. Of course, there are no collapsible compasses. That's not the real thing. Thus, AL is also equal to Bc. The moral of this is that this straight line here, which was the one that I started with, is equal to this straight line here. So, very neat is also very weird, isn't it? Seems totally out of touch with reality. If a craftsman or an engineer or an architect would need to transfer a length, surely they would not use Euclid's absolute Baroque procedure. So, what are we doing here? If we follow these steps every time we wanted to copy a length, even the simplest diagram would be incredibly complicated to make. But if Euclid's constructions are about serving a theoretical purpose, then things start to come into focus. Proposition 2 becomes another verified operation that you can add to your toolkit. So, each construction is like a little module or a little subroutine. It's a bit of proof that signs off on the fact that this object can legitimately be constructed using nothing but the initial postulates and common notions. Euclid's version of this construction works perfectly for any situation involving copying a length. So, it's not saying that you have to do this every time, but whenever we do want to copy a length, we can invoke Proposition 2 to show that it is in fact constructible from the postulates. But why did Euclid need to be this pedantic? What was it about the Greeks that made them so fixated on proving things in the first place? Civilizations like the Egyptians and the Mesopotamians had been doing math and service of things like surveying land, collecting taxes and constructing the pyramids for centuries. But they never wrote proofs. The first civilization to write proofs were the Greeks, with the first proof coming around 600 BC. For the Greeks, it wasn't enough for math to just be useful. They wanted geometry to address deeply philosophical questions, because at the time philosophy was where the action was, and the Greeks had a culture of antagonistic debate, where the very nature of absolute truth was hotly contested. While there were people arguing for all kinds of wild ideas, two main camps emerged that we still think about today. The first were the rationalists, epitomized by Plato, who said that the only thing that can be trusted is intuition. In this view, things like shapes exist in the perfect realm of ideas, untarnished by worldly imperfections. And then there were the empiricists, often associated with Aristotle, who said that observations of the world are the only way to gain knowledge. But these conflicting viewpoints were doomed to endless argumentation. Their perspectives fundamentally came down to beliefs about how the world works, so one camp would never definitively win out over the other. But alongside this endless debate, mathematicians found a way to use constructions to answer the objections of philosophers. It let them build a consistent intellectual framework, which even outsiders could test and conclusively prove right or wrong. And it meant that their field could develop new irrefutable knowledge and leave those squabbling philosophers in the dust. Math, specifically geometry, would become an indisputable source of absolute truth in a world filled with uncertainty. But to build knowledge within geometry, mathematicians needed some starting assumptions, a set of ground rules or demands that you would ask of a skeptic. In ancient Greece, these demands were known as postulates or axioms. We associate these words with math, but their origin is in the crucible of philosophical debate. For Euclid and the ancient Greek geometers, the first three postulates in the elements were basic assumptions about constructions. If we agree that the straight edge can draw a segment of a straight line, and that we can extend it if we need to, and if we also agree that a device like a compass can form a circle given a certain center and radius, then we've established our first three ground rules. It's crucial that any starting assumptions are simple enough to be plausible and are free from contradictions. Grounding the postulates in physical actions addresses these issues. That's what the ruler and compass achieves. It shows that Euclid's axioms are not just something some guy made up, which is we know that people can make up inconsistent theories. It's with the ruler and the compass. We are now saying the, we have geometries based on these axioms. For the more, these axioms are instantiated in physical reality. Therefore, they must be as consistent as the physical experience itself, which has a great track record than a human thought and then just imagination is making stuff up in your head, has a fallible track record. Many people have failed at doing that perfectly, whereas direct experience is not full of contradiction. Nature does not contradict itself. We know that our first three postulates are consistent because we can build them in the real world. As long as you only use the straight edge for straight lines, no measurement allowed, and the compass for circles, then any other necessary assumptions are implied by these constructions. Lines and curves are continuous because they've been formed by a continuous motion, and when they cross each other, they intersect at a point. The elements goes on to build every single geometrical object that it ever uses with a ruler and compass construction followed by a proof of its validity. So, in a sense, the ruler and compass become like tools for building geometrical knowledge from the basic postulates. But if these constructions are meant to be embedded in the philosophy of Euclidean geometry, then there was a big problem that these Greek geometers were going to have to reckon with, because it was well known at the time that diagrams could have subtle mistakes that would ruin an entire proof. If a mistake found its way into a geometric theorem, then not only would the proof be wrong, but it could potentially ruin the credibility of geometry, because how can you trust a system of thought if it's been shown to make mistakes? Here's an example. I'm going to prove to you that some right angles are not equal to other right angles. Now, to be clear, this is completely wrong. In fact, Euclid's fourth postulate says that all right angles are equal. But in this proof, the reasoning behind every single step is flawless, except for one subtle, almost invisible mistake, which ruins the whole thing. Here's a square. It's got four equal sides and four right angles. I'm going to draw a line over here, which I've measured to have the same length as the sides of my square. And then I'm going to connect this point to this point. So, this, this, this, this, and this are all congruent. Next, I draw a perpendicular bisector to this side up here, and then I draw another perpendicular bisector to this side down here. Then I connect these points, and I make two triangles here. This down here is a perpendicular bisector, which makes these two sides equal. Meanwhile, since it's perpendicular, this angle is also equal to this angle. And then finally, this side is shared by both of the triangles. So, side angle side, these two triangles are congruent. So, that means that this length is equal to this length. Next, I'm going to draw a line here and a line here. If I look at these two triangles, once again, this was a perpendicular bisector, so this length and this length are equal. This line is shared between the two triangles and it's perpendicular, which makes these two angles equal. Because of this, these two triangles are congruent. And that means that this side and this side are also equal. Okay, so far, we have two pairs of triangles, which are each undeniably equal to each other because they came from drawing these perpendicular bisectors. And that also means that this third side for each pair is congruent as well. So now, this triangle and this triangle also have side side side congruency with each other. Hmm, but this is a right angle plus some other angle. I'll call that measurement alpha. We know it's the same over here because these were congruent triangles. So, alpha plus a right angle again. But this right angle is bigger than the other one because of this little extra piece. So, what happened? Well, because my perpendicular bisectors are drawn slightly wrong, the diagram made the triangle on the right look like it's basically symmetrical to the triangle on the left, instead of being completely outside of the square like this. Since the right angle of the square is no longer inside of the triangle, the proof completely falls apart. This is why modern math is so stringent about avoiding diagrams. That single hidden assumption about where the triangle is located gave us a diagram that allowed us to prove an impossible result. But the Greek practice of ruler and compass constructions has an answer to this problem. Because if you used the recipes from the elements to properly construct the diagram for that false proof, you would avoid the subtle mistake that I just made when I drew the picture by eye. Even if your constructions have a certain margin of error, following the steps from the elements still gives you the precision that you need to determine these inexact properties like which point lies inside or outside of which shape. In the context of Euclid's elements, if a diagram like this hasn't been properly constructed, it effectively doesn't exist, or at least it can't be used in a proof. In fact, Euclid is very careful throughout the elements to only ever use shapes that he's already shown how to construct. As he proves new theorems, he introduces new shapes that these new tools allow him to build. But this leads to some surprises, shapes that seem like they should be simple but actually aren't. For example, squares. If you asked me to construct a square using Euclid's propositions, and I didn't know any better, I'd probably say the simplest way to do it would be something like this. Draw line segment. Construct another line segment equal to the first and perpendicular to the first using proposition 11. And then just do the same thing again, and then again one more time and you have a square. But when it comes time to prove that this really is a square, we've got a problem. Because to be sure that the side opposite the first one really is the same length as the original, we would need to say something about parallel lines. Euclid waits until more than halfway through book one before he finally uses his most famous and most controversial postulate, postulate five, the parallel postulate. Unlike the other postulates, it's not simple or intuitive. Even the actual statement is strangely convoluted. If a straight line falling across two other straight lines makes internal angles on the same side of itself, whose sum is less than two right angles, then the two other straight lines being produced to infinity meet on that side of the original straight line that the sum of the internal angles is less than two right angles. This is a statement about non-parallel lines, but taking the contrapositive gives logically equivalent information about parallels. Anytime two lines don't cross, then the sum of the angles equals 180 degrees. Today, we usually say it like this. For any line and a point not on the line, there's exactly one line through the point which is parallel to the first line. But in the context of ruler and compass constructions, the first one is not the same as the other two. Because there's no way to physically verify that lines continue forever and never intersect. How do you check for never? Even though Euclid's definitions say that parallel lines are two lines that never intersect, when it comes time to ask somebody to accept an assumption about them, he avoids the problem of checking for never by phrasing it in a way that can be constructed. Whenever two lines are drawn through a transversal so that they're converging, they'll cross eventually. It's an assertion that's physically checkable, even if doing it in practice requires a bit of extra space. But even so, this is not empirical science. Because this postulate lets Euclid derive theorems about parallel lines that are not physically checkable. We can't actually make lines that go on forever without touching, especially on the spherical surface of the earth. So Euclid is using physically verifiable principles to develop a theory that goes beyond the scope of empirical observation. It's an approach that's different from both platonic rationalism and Aristotelian empiricism. And once he introduces the parallel postulate for the first time in Proposition 29, all of the subsequent theorems and constructions require it for their existence. This kind of additive structure of the elements reveals hidden complexities in shapes that we might have assumed to be simple. So Euclid's construction of a square is much more complicated than mine. In fact, when I followed his construction and I included all the subroutines from earlier propositions, it took me close to 10 minutes just to make a square. Proposition 46. To describe a square on a given straight line, let A, B be the given straight line. Let A, C have been drawn at right angles to the straight line A, B from the point A on it. To get a right angle, I have to go to the proposition 11. To draw a straight line at right angles to a given straight line. Let A, B give a straight line and C give a point D have been taken at random on and let C, E be made equal. And let the equilateral triangle F, D, E have been constructed on one make A, D, E, which is proposition 3. D, E have been drawn through point D parallel to A proposition 30. Draw a straight line parallel to a given straight line through a given going to have me make alternate angle D, A, E equal to angle A, D, C have been constructed on the straight line D, A proposition 23. Back to proposition, where to let D, E have been drawn through point D parallel to A, B have been drawn through point B parallel to A, D, and this are parallel and this are also parallel and this angle is equal to this. We have a square with four equal sides and four right angles. The key steps here were that after drawing the second side so that it was perpendicular and equal in length to the first, the third side was constructed to be parallel to the first and the fourth side was parallel to the second. This allows him to then use the already established properties of parallelograms to state that the opposite sides and the opposite angles are all equal to each other. With my simpler method of constructing the square, I wouldn't have been able to prove that it was a square at all without invoking the parallel postulate, but it's actually even worse than that because without the parallel postulate, squares don't exist. If the parallel postulate is false, one can instead prove that this configuration does not make a square, but rather weirdly, this figured quadrilateral. So even though you made sure you had right angles at the base of the quadrilateral and that the perpendicular sides were equal, the fourth and final side somehow still manages to miss the mark, so to speak. It makes non-right angles. It's as if the sides are sort of bent. It's not that Greek mathematicians were doubting whether or not squares existed or that you could somehow anticipate a non-uclidean geometry, which he didn't, but rather it's that Euclid was using the process of constructions combined with axiomatic deductive proofs to pin down the very foundations of geometric knowledge. To systematically catalog every assumption that's required before we can make something like a square, so the elements isn't just a collection of proofs accompanied by subroutines showing how to construct geometric objects. It's a taxonomy of the exact components that are required for any geometric object, a family tree of the universe of geometry. And with this type of analysis, Euclid is able to identify precisely what fundamental starting assumptions are required for the entire Greek system of geometry. It's not obvious that the square requires the parallel postulate to be true until you pull it apart and put it under a microscope. But for centuries other mathematicians were sure that Euclid had made another mistake by calling postulate 5 a postulate. This complicated prediction about two lines crossing seems more like a theorem that should be proven not a postulate to be accepted. In the dark ages when Europe had forgotten about the elements and the only people actively studying it were in the Middle East the Arab mathematician Eben Al-Heitham and the Persian scholar Omar Qayem both tried to prove the parallel postulate as a theorem. And they weren't the last to try either. Many people tried to improve on Euclid in this way. Around 1800 people like Lagrange and Lejeanne proposed so cold proofs of the parallel postulate. These are big name mathematicians. Their names are engraved in gold on the Eiffel Tower. Elite establishment stuff. But even these big wigs were wrong. Their proofs contain hidden mistakes. It's astonishing that this was more than 2000 years after Euclid people tried to improve on Euclid for millennia. The fact is that Euclid was right all along. The parallel postulate really does need to be a separate assumption just as Euclid had made it. It cannot be proved from the other axioms as so many mathematicians during those millennia had mistakenly believed. The Greeks, you know, those guys were really something else. It's so easy to make subtle mistakes in the theory of parallel. History shows that there are a hundred ways to make tiny, indiscible mistakes that fool even the best mathematicians. Top mathematicians they were never wrong but anything else stumbled on this one issue. And somehow Euclid got it exactly right. He didn't make any of those hundred mistakes that the legitimate mathematicians did. It's not luck in my opinion. Arguably the Greeks were genuinely more sophisticated foundational geometers than even the Paris Elite in 1800. Unbelievable but true. Euclid's elements is not a classic for nothing. Euclid is not a symbol of exaggeration because of some lazy Eurocentric birthright. No, Euclid's elements really is that good. Euclid's construction of the square leads directly into the culminating proof of book one, the Pythagorean theorem, and its converse. From there, Euclid has five more books about plain geometry. Before moving on to number theory in books 7 through 10, where he gives theories of prime and irrational numbers. Even within number theory, Euclid gives every proof a diagram, seeming to suggest that even numbers are subservient to geometry. After all, numerals can't precisely represent an irrational number like the square root of 2, but a geometric construction can easily show that length. The final three books cover three dimensional geometry, culminating with the construction of the five platonic solids, improving that there are the only five ways to create 3D figures from regular polygons. But this wasn't just the work of a single person. It was the culmination of the work of generations of Greek mathematicians. Other elements of mathematics existed before Euclid's, but his is the one that survives because its impeccable structure made the others obsolete. This book and the system of ruler encompass constructions at its core acted as the arbiter of absolute mathematical truth for the next two millennia. The Middle Eastern scholars who built on the elements during the Dark Ages developed powerful empirical science which laid the groundwork for the modern scientific method. Once Europeans started to reduclyt again, ruler encompass constructions were seen as the only path to absolute mathematical certainty. Even as the powerful Islamic innovation of algebra found its way to Europe, the Europeans saw it as less rigorous than geometry, a tool for mere practical applications or a mathematical trick for finding the right answer. They were skeptical of algebra for centuries because it used symbols instead of the physically verifiable procedures of Euclidean geometry. In the 17th century when René Descartes took the bold step of assigning coordinate values to points, the beginnings of analytic geometry, he still justified his work with constructions. To him, the ruler encompass were like a mechanism for trust. His philosophy was to doubt everything, but even he didn't doubt Euclid's postulates. Descartes went so far as to create new compasses, mechanical devices that were more complex than the ruler encompass, but which served a similar constructive purpose. He wanted to bring absolute certainty to the mathematics of higher degree curves which go beyond the scope of what's constructible with a ruler encompass. So even as he revealed the power of using algebra to do geometry, he still couldn't let go of constructions. Even though he has the alternative right there, to do it algebraically, to take algebra's defundation is the one who shows that that could easily be done. And still he refuses. He has the standing at the gates of paradise, what he's denying himself. And now that's strong. We should do it insist on this classical stuff eat, despite himself. But soon the reign of constructions as the philosophical bedrock for math would have to come to an end. The 19th century realization that there are valid forms of geometry where the parallel postulate is false, along with other seemingly contradictory discoveries in that century, led to a search for new formal foundations for math. Math increasingly turned to formal logic, which today is embodied by computer systems. Rather than relying on intuition or abstract thought, computerized proof checkers like Lean serve a similar purpose to the one that a skeptic with a ruler encompass would have served in ancient Greece. Just like in those early days of axiomatic deductive mathematics, we still need tools that ground abstract reasoning in systematic verifiable procedures. Instead of constructions, computer systems are built on countless on-off switches of transistors, following explicit chakable rules. As is the case with Euclid, smaller operations based on fundamental starting points form subroutines that build into ever larger programmatic structures. But where Euclid's basic operations were lines and circles, hours are ones and zeros. There was a very strong parallel between understanding what Euclid was really getting at with constructions and like my own process for making videos with programmatic animation. That which felt like a very modern thing like wanting to implement it on a computer was actually maybe more reflective of how people's relationship was with math through most of history. I don't have, I'm not a computer coder, but there are many similar ways where actually having to instantiate something changes it from what you had in your mind and I did find that kind of core idea."
+  }
+}

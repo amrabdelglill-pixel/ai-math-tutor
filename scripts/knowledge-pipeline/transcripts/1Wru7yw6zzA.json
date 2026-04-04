@@ -1,0 +1,734 @@
+{
+  "video_id": "1Wru7yw6zzA",
+  "video_title": "Power BI Maps - The Ultimate Tutorial for Beginners | How to Create Maps in Power BI | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 548.0,
+  "view_count": 5129,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.5,
+        "text": "Have you ever wondered how to bring your data to life with interactive maps?"
+      },
+      {
+        "start": 12.5,
+        "duration": 4.8,
+        "text": "Imagine highlighting sales hotspots across continents, tracking customer location in real"
+      },
+      {
+        "start": 17.3,
+        "duration": 3.5,
+        "text": "time or visualizing business performance at a glance."
+      },
+      {
+        "start": 20.8,
+        "duration": 4.3,
+        "text": "In today's data-driven world, location intelligence is a game changer."
+      },
+      {
+        "start": 25.1,
+        "duration": 4.8,
+        "text": "And Power BI makes it easier than ever to turn geographical data into compelling visual"
+      },
+      {
+        "start": 29.9,
+        "duration": 1.0,
+        "text": "insights."
+      },
+      {
+        "start": 30.9,
+        "duration": 4.2,
+        "text": "So stay with us until the end of this video to learn how to create impressive maps"
+      },
+      {
+        "start": 35.1,
+        "duration": 1.4,
+        "text": "like this."
+      },
+      {
+        "start": 36.5,
+        "duration": 4.4,
+        "text": "And in this video, we will dive into the art of creating dynamic maps in Power BI from"
+      },
+      {
+        "start": 40.9,
+        "duration": 5.0,
+        "text": "plotting basic locations to unlocking advanced and geospatial insights."
+      },
+      {
+        "start": 45.9,
+        "duration": 2.3,
+        "text": "But before we begin, like, share and subscribe."
+      },
+      {
+        "start": 48.2,
+        "duration": 4.5,
+        "text": "Do not forget to hit the bell icon to stay updated on the latest content from Idureka's"
+      },
+      {
+        "start": 52.6,
+        "duration": 1.0,
+        "text": "YouTube channel."
+      },
+      {
+        "start": 54.1,
+        "duration": 6.3,
+        "text": "Also, take out Idureka's Power BI certification training course in collaboration with PWC Academy."
+      },
+      {
+        "start": 60.4,
+        "duration": 5.0,
+        "text": "This course equips you with the business analytics skills covering Power BI desktop, DAX,"
+      },
+      {
+        "start": 65.4,
+        "duration": 4.8,
+        "text": "services, data modeling, reports and more with real world use cases."
+      },
+      {
+        "start": 70.2,
+        "duration": 5.1,
+        "text": "This live instructor-led training offers hands-on experience and prepares you for the PL-300"
+      },
+      {
+        "start": 75.4,
+        "duration": 4.7,
+        "text": "exam with guidance from 10-plus years of industry experts."
+      },
+      {
+        "start": 80.0,
+        "duration": 3.8,
+        "text": "So first, let us understand what are maps in Power BI."
+      },
+      {
+        "start": 83.9,
+        "duration": 6.7,
+        "text": "Well, maps in Power BI are interactive visualizations that help display geographical data, making"
+      },
+      {
+        "start": 90.6,
+        "duration": 3.7,
+        "text": "it easier to analyze location-based trends and patterns."
+      },
+      {
+        "start": 94.3,
+        "duration": 6.4,
+        "text": "They allow users to plot data points using locations such as cities, states or coordinates,"
+      },
+      {
+        "start": 100.7,
+        "duration": 5.2,
+        "text": "providing deeper insights into regional performance, sales distribution, customer demographics"
+      },
+      {
+        "start": 106.0,
+        "duration": 1.2,
+        "text": "and more."
+      },
+      {
+        "start": 107.1,
+        "duration": 5.9,
+        "text": "So, by leveraging Power BI's mapping capabilities, businesses can transform raw data into actionable"
+      },
+      {
+        "start": 113.0,
+        "duration": 4.8,
+        "text": "insights, uncoming trends that might be overlooked in traditional reports."
+      },
+      {
+        "start": 117.8,
+        "duration": 5.2,
+        "text": "Whether tracking sales across different regions or optimizing logistics, maps offer a compelling"
+      },
+      {
+        "start": 123.1,
+        "duration": 4.1,
+        "text": "way to visualize and interpret spatial data effectively."
+      },
+      {
+        "start": 127.2,
+        "duration": 3.1,
+        "text": "But why use maps in Power BI?"
+      },
+      {
+        "start": 130.3,
+        "duration": 5.2,
+        "text": "Maps in Power BI help visualize geographical data, making it easier to identify location-based"
+      },
+      {
+        "start": 135.5,
+        "duration": 4.2,
+        "text": "trends, track sales and analyze customer distribution."
+      },
+      {
+        "start": 139.7,
+        "duration": 5.1,
+        "text": "They enhance data storytelling, improve decision-making and provide deeper insights into regional"
+      },
+      {
+        "start": 144.8,
+        "duration": 1.0,
+        "text": "performance."
+      },
+      {
+        "start": 145.8,
+        "duration": 2.5,
+        "text": "But how to use maps in Power BI?"
+      },
+      {
+        "start": 148.3,
+        "duration": 4.5,
+        "text": "Now, let us see how the maps will visualize the data in Power BI."
+      },
+      {
+        "start": 152.8,
+        "duration": 2.6,
+        "text": "Now, let us get started."
+      },
+      {
+        "start": 155.4,
+        "duration": 4.0,
+        "text": "But before we begin creating a map in Power BI, we need to ensure that the map settings"
+      },
+      {
+        "start": 159.3,
+        "duration": 1.0,
+        "text": "are enabled."
+      },
+      {
+        "start": 160.7,
+        "duration": 7.9,
+        "text": "So for that, let us go to File, from here select Options and Settings, then click on Options,"
+      },
+      {
+        "start": 168.6,
+        "duration": 5.5,
+        "text": "and in the Security section, scroll down to find Map and Field Map visual."
+      },
+      {
+        "start": 174.1,
+        "duration": 5.2,
+        "text": "So here, ensure the setting is turned on and if it's not enabled, the map option won't"
+      },
+      {
+        "start": 179.3,
+        "duration": 1.0,
+        "text": "work."
+      },
+      {
+        "start": 180.3,
+        "duration": 3.6,
+        "text": "So once enabled, click OK and close the window."
+      },
+      {
+        "start": 184.0,
+        "duration": 3.8,
+        "text": "Next, we need to import our dataset into Power BI."
+      },
+      {
+        "start": 187.8,
+        "duration": 6.2,
+        "text": "So for that, go to Get dataset and from here select Text or CSV file as our dataset isn't"
+      },
+      {
+        "start": 194.0,
+        "duration": 1.7,
+        "text": "this format."
+      },
+      {
+        "start": 195.8,
+        "duration": 6.2,
+        "text": "Now select the dataset and then click on Open."
+      },
+      {
+        "start": 202.0,
+        "duration": 8.1,
+        "text": "Now let us click on Load to add the dataset into Power BI."
+      },
+      {
+        "start": 210.1,
+        "duration": 1.3,
+        "text": "And there you have it."
+      },
+      {
+        "start": 211.4,
+        "duration": 4.1,
+        "text": "So once the dataset is loaded, go to the Table View to review the dataset."
+      },
+      {
+        "start": 215.7,
+        "duration": 4.8,
+        "text": "So to do that, click on the dataset and go to Table View and this is how you can view"
+      },
+      {
+        "start": 220.5,
+        "duration": 2.0,
+        "text": "your dataset."
+      },
+      {
+        "start": 222.4,
+        "duration": 6.4,
+        "text": "So here you will see columns such as Order ID, Country, State, City, Region, Latitude,"
+      },
+      {
+        "start": 228.8,
+        "duration": 2.0,
+        "text": "Longitude and Since."
+      },
+      {
+        "start": 230.8,
+        "duration": 5.2,
+        "text": "So to create a map visual, ensure your dataset includes columns like City, State, Country,"
+      },
+      {
+        "start": 236.0,
+        "duration": 2.5,
+        "text": "Latitude and Longitude."
+      },
+      {
+        "start": 238.5,
+        "duration": 6.7,
+        "text": "Now go to Report View and in the Visualization panel, here you can select the Map Visual."
+      },
+      {
+        "start": 245.2,
+        "duration": 3.2,
+        "text": "So from here, click on the Maps."
+      },
+      {
+        "start": 248.4,
+        "duration": 3.7,
+        "text": "You can resize the map visual for better visibility."
+      },
+      {
+        "start": 252.1,
+        "duration": 5.9,
+        "text": "Alright, now let us drag the Country column into the location field."
+      },
+      {
+        "start": 258.0,
+        "duration": 3.5,
+        "text": "So as you can see here are the columns of our dataset."
+      },
+      {
+        "start": 261.5,
+        "duration": 4.7,
+        "text": "So these are the columns and here we are going to add the country under the location."
+      },
+      {
+        "start": 266.2,
+        "duration": 3.2,
+        "text": "So just drag and drop the location."
+      },
+      {
+        "start": 269.5,
+        "duration": 4.4,
+        "text": "So basically what we are trying to do is we are going to find out the total sales across"
+      },
+      {
+        "start": 273.8,
+        "duration": 1.6,
+        "text": "different countries."
+      },
+      {
+        "start": 275.4,
+        "duration": 6.0,
+        "text": "Okay, so now here you will see this blue color bubbles right which are up here on the map."
+      },
+      {
+        "start": 281.5,
+        "duration": 2.8,
+        "text": "And these are representing each country in your dataset."
+      },
+      {
+        "start": 284.3,
+        "duration": 7.8,
+        "text": "So for example, here as you can see this is India and here Germany, France, UK and this"
+      },
+      {
+        "start": 292.1,
+        "duration": 2.3,
+        "text": "way it's representing the countries."
+      },
+      {
+        "start": 294.4,
+        "duration": 3.9,
+        "text": "Next, let us drag and drop the Order ID column into the bubble size field."
+      },
+      {
+        "start": 298.4,
+        "duration": 2.2,
+        "text": "So here we have the bubble size."
+      },
+      {
+        "start": 300.5,
+        "duration": 6.5,
+        "text": "So let us drag and drop the Order ID and now as you can see you will get the country"
+      },
+      {
+        "start": 307.0,
+        "duration": 3.4,
+        "text": "and the count of Order ID such as 83."
+      },
+      {
+        "start": 310.4,
+        "duration": 4.0,
+        "text": "Similarly you can see for other countries as well here you will see India count of Order"
+      },
+      {
+        "start": 314.4,
+        "duration": 2.4,
+        "text": "ID is 105."
+      },
+      {
+        "start": 316.8,
+        "duration": 4.3,
+        "text": "So as you can see the bubble sizes will now vary based on the number of orders in each"
+      },
+      {
+        "start": 321.1,
+        "duration": 1.0,
+        "text": "country."
+      },
+      {
+        "start": 322.1,
+        "duration": 5.8,
+        "text": "Okay, now to add more details, let us drag the region column into the legend field."
+      },
+      {
+        "start": 329.0,
+        "duration": 4.8,
+        "text": "Well, the bubbles will now be color coded based on the region categories such as North"
+      },
+      {
+        "start": 333.7,
+        "duration": 1.0,
+        "text": "and South."
+      },
+      {
+        "start": 334.7,
+        "duration": 4.6,
+        "text": "Now as you can see if you just click on this you will see North and South."
+      },
+      {
+        "start": 339.3,
+        "duration": 1.7,
+        "text": "So this is North and this is South."
+      },
+      {
+        "start": 341.0,
+        "duration": 5.0,
+        "text": "Here it is representing light blue and dark blue which is North and South."
+      },
+      {
+        "start": 346.0,
+        "duration": 5.1,
+        "text": "Similarly you can see for India this is South India and here you have the North India."
+      },
+      {
+        "start": 351.1,
+        "duration": 6.7,
+        "text": "And it's also giving the count of Order ID such as 56 in South and 49 in North."
+      },
+      {
+        "start": 357.8,
+        "duration": 4.4,
+        "text": "Now let us drag the sales column into the tool tips field."
+      },
+      {
+        "start": 362.2,
+        "duration": 7.4,
+        "text": "So here you will have the tool tips field in this we will drag and drop the sales column."
+      },
+      {
+        "start": 369.6,
+        "duration": 3.0,
+        "text": "So now it should show the sum of the sales."
+      },
+      {
+        "start": 372.7,
+        "duration": 4.5,
+        "text": "So here you can see for Australia you have the sum of sales displayed."
+      },
+      {
+        "start": 377.2,
+        "duration": 4.2,
+        "text": "Again similarly you can see for other countries as well here you will see for India and"
+      },
+      {
+        "start": 381.3,
+        "duration": 3.2,
+        "text": "Europe similarly for Canada as well."
+      },
+      {
+        "start": 384.6,
+        "duration": 1.0,
+        "text": "Okay."
+      },
+      {
+        "start": 385.6,
+        "duration": 5.4,
+        "text": "Now when you hover over a bubble you will see details like the country region order ID"
+      },
+      {
+        "start": 390.9,
+        "duration": 2.6,
+        "text": "count and also the total sales."
+      },
+      {
+        "start": 393.6,
+        "duration": 6.1,
+        "text": "Now to improve the maps visual appeal go to the form at your visuals and here click on"
+      },
+      {
+        "start": 399.6,
+        "duration": 6.2,
+        "text": "map settings and from here under the controls you will see this zoom buttons."
+      },
+      {
+        "start": 405.9,
+        "duration": 3.1,
+        "text": "So you need to enable it."
+      },
+      {
+        "start": 409.0,
+        "duration": 7.1,
+        "text": "So in this way you can zoom in and zoom out."
+      },
+      {
+        "start": 416.1,
+        "duration": 5.2,
+        "text": "So this will become easy for you to find out the sales."
+      },
+      {
+        "start": 421.4,
+        "duration": 8.2,
+        "text": "Now to change the map style go to this style and select your preferred option such as you"
+      },
+      {
+        "start": 429.5,
+        "duration": 7.3,
+        "text": "have Ariel and it looks like this and if you want to select dark just click on it or if"
+      },
+      {
+        "start": 436.8,
+        "duration": 5.2,
+        "text": "you want light then just go for it and this way you can change the style of your map"
+      },
+      {
+        "start": 442.0,
+        "duration": 1.9,
+        "text": "for better visibility."
+      },
+      {
+        "start": 443.9,
+        "duration": 4.8,
+        "text": "Now let me select the light and that's all about the maps."
+      },
+      {
+        "start": 448.8,
+        "duration": 2.3,
+        "text": "You can also add title for your map."
+      },
+      {
+        "start": 451.0,
+        "duration": 4.8,
+        "text": "So go to general and here click on titles from here."
+      },
+      {
+        "start": 455.9,
+        "duration": 9.0,
+        "text": "Let me keep it as sales by country and region and let me make it bold and also you can"
+      },
+      {
+        "start": 464.9,
+        "duration": 2.1,
+        "text": "align this to center."
+      },
+      {
+        "start": 467.0,
+        "duration": 6.0,
+        "text": "You can also increase the font size of your title."
+      },
+      {
+        "start": 473.0,
+        "duration": 2.9,
+        "text": "For a professional look you can also add borders."
+      },
+      {
+        "start": 475.9,
+        "duration": 2.4,
+        "text": "So for that let us go to effects."
+      },
+      {
+        "start": 478.2,
+        "duration": 9.3,
+        "text": "Now you can also go to visual border and you can enable it and you can also set the border"
+      },
+      {
+        "start": 487.6,
+        "duration": 5.4,
+        "text": "width to be 2 and that's how it looks."
+      },
+      {
+        "start": 492.9,
+        "duration": 5.0,
+        "text": "And you can also enable this shadow effect to enhance the maps appearance."
+      },
+      {
+        "start": 497.9,
+        "duration": 3.8,
+        "text": "So this is how it looks and that's it."
+      },
+      {
+        "start": 501.7,
+        "duration": 4.6,
+        "text": "Now you have a well structured map visual displaying total sales across different countries"
+      },
+      {
+        "start": 506.3,
+        "duration": 1.5,
+        "text": "and regions."
+      },
+      {
+        "start": 507.8,
+        "duration": 3.7,
+        "text": "If you would like the dataset used in this demo let me know in the comments and I will"
+      },
+      {
+        "start": 511.5,
+        "duration": 2.4,
+        "text": "be happy to share it with you."
+      },
+      {
+        "start": 513.9,
+        "duration": 6.4,
+        "text": "And with this we come to an end to this video on how to create maps in Papia."
+      },
+      {
+        "start": 520.3,
+        "duration": 4.1,
+        "text": "If you enjoyed listening to it please be kind enough to like it and you can comment on"
+      },
+      {
+        "start": 524.4,
+        "duration": 3.7,
+        "text": "any of your doubts and queries we will reply to them a de-alias."
+      },
+      {
+        "start": 528.1,
+        "duration": 5.0,
+        "text": "And do look up for more videos and playlist and subscribe to the AduriKas YouTube channel"
+      },
+      {
+        "start": 533.1,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 534.1,
+        "duration": 2.1,
+        "text": "Thank you for watching and Happy Learning!"
+      }
+    ],
+    "full_text": "Have you ever wondered how to bring your data to life with interactive maps? Imagine highlighting sales hotspots across continents, tracking customer location in real time or visualizing business performance at a glance. In today's data-driven world, location intelligence is a game changer. And Power BI makes it easier than ever to turn geographical data into compelling visual insights. So stay with us until the end of this video to learn how to create impressive maps like this. And in this video, we will dive into the art of creating dynamic maps in Power BI from plotting basic locations to unlocking advanced and geospatial insights. But before we begin, like, share and subscribe. Do not forget to hit the bell icon to stay updated on the latest content from Idureka's YouTube channel. Also, take out Idureka's Power BI certification training course in collaboration with PWC Academy. This course equips you with the business analytics skills covering Power BI desktop, DAX, services, data modeling, reports and more with real world use cases. This live instructor-led training offers hands-on experience and prepares you for the PL-300 exam with guidance from 10-plus years of industry experts. So first, let us understand what are maps in Power BI. Well, maps in Power BI are interactive visualizations that help display geographical data, making it easier to analyze location-based trends and patterns. They allow users to plot data points using locations such as cities, states or coordinates, providing deeper insights into regional performance, sales distribution, customer demographics and more. So, by leveraging Power BI's mapping capabilities, businesses can transform raw data into actionable insights, uncoming trends that might be overlooked in traditional reports. Whether tracking sales across different regions or optimizing logistics, maps offer a compelling way to visualize and interpret spatial data effectively. But why use maps in Power BI? Maps in Power BI help visualize geographical data, making it easier to identify location-based trends, track sales and analyze customer distribution. They enhance data storytelling, improve decision-making and provide deeper insights into regional performance. But how to use maps in Power BI? Now, let us see how the maps will visualize the data in Power BI. Now, let us get started. But before we begin creating a map in Power BI, we need to ensure that the map settings are enabled. So for that, let us go to File, from here select Options and Settings, then click on Options, and in the Security section, scroll down to find Map and Field Map visual. So here, ensure the setting is turned on and if it's not enabled, the map option won't work. So once enabled, click OK and close the window. Next, we need to import our dataset into Power BI. So for that, go to Get dataset and from here select Text or CSV file as our dataset isn't this format. Now select the dataset and then click on Open. Now let us click on Load to add the dataset into Power BI. And there you have it. So once the dataset is loaded, go to the Table View to review the dataset. So to do that, click on the dataset and go to Table View and this is how you can view your dataset. So here you will see columns such as Order ID, Country, State, City, Region, Latitude, Longitude and Since. So to create a map visual, ensure your dataset includes columns like City, State, Country, Latitude and Longitude. Now go to Report View and in the Visualization panel, here you can select the Map Visual. So from here, click on the Maps. You can resize the map visual for better visibility. Alright, now let us drag the Country column into the location field. So as you can see here are the columns of our dataset. So these are the columns and here we are going to add the country under the location. So just drag and drop the location. So basically what we are trying to do is we are going to find out the total sales across different countries. Okay, so now here you will see this blue color bubbles right which are up here on the map. And these are representing each country in your dataset. So for example, here as you can see this is India and here Germany, France, UK and this way it's representing the countries. Next, let us drag and drop the Order ID column into the bubble size field. So here we have the bubble size. So let us drag and drop the Order ID and now as you can see you will get the country and the count of Order ID such as 83. Similarly you can see for other countries as well here you will see India count of Order ID is 105. So as you can see the bubble sizes will now vary based on the number of orders in each country. Okay, now to add more details, let us drag the region column into the legend field. Well, the bubbles will now be color coded based on the region categories such as North and South. Now as you can see if you just click on this you will see North and South. So this is North and this is South. Here it is representing light blue and dark blue which is North and South. Similarly you can see for India this is South India and here you have the North India. And it's also giving the count of Order ID such as 56 in South and 49 in North. Now let us drag the sales column into the tool tips field. So here you will have the tool tips field in this we will drag and drop the sales column. So now it should show the sum of the sales. So here you can see for Australia you have the sum of sales displayed. Again similarly you can see for other countries as well here you will see for India and Europe similarly for Canada as well. Okay. Now when you hover over a bubble you will see details like the country region order ID count and also the total sales. Now to improve the maps visual appeal go to the form at your visuals and here click on map settings and from here under the controls you will see this zoom buttons. So you need to enable it. So in this way you can zoom in and zoom out. So this will become easy for you to find out the sales. Now to change the map style go to this style and select your preferred option such as you have Ariel and it looks like this and if you want to select dark just click on it or if you want light then just go for it and this way you can change the style of your map for better visibility. Now let me select the light and that's all about the maps. You can also add title for your map. So go to general and here click on titles from here. Let me keep it as sales by country and region and let me make it bold and also you can align this to center. You can also increase the font size of your title. For a professional look you can also add borders. So for that let us go to effects. Now you can also go to visual border and you can enable it and you can also set the border width to be 2 and that's how it looks. And you can also enable this shadow effect to enhance the maps appearance. So this is how it looks and that's it. Now you have a well structured map visual displaying total sales across different countries and regions. If you would like the dataset used in this demo let me know in the comments and I will be happy to share it with you. And with this we come to an end to this video on how to create maps in Papia. If you enjoyed listening to it please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a de-alias. And do look up for more videos and playlist and subscribe to the AduriKas YouTube channel to learn more. Thank you for watching and Happy Learning!"
+  }
+}

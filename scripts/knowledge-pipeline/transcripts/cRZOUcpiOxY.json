@@ -1,0 +1,989 @@
+{
+  "video_id": "cRZOUcpiOxY",
+  "video_title": "Fever Feels Horrible, but is Actually Awesome!",
+  "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+  "channel_title": "Kurzgesagt – In a Nutshell",
+  "published_at": "",
+  "duration_secs": 668.0,
+  "view_count": 10308416,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 6.1,
+        "text": "Fever feels bad, so we take medication to suppress it."
+      },
+      {
+        "start": 6.1,
+        "duration": 2.4,
+        "text": "But is this a good idea?"
+      },
+      {
+        "start": 8.5,
+        "duration": 5.8,
+        "text": "It turns out fever is one of the oldest defenses against disease."
+      },
+      {
+        "start": 14.3,
+        "duration": 1.5,
+        "text": "What exactly is it?"
+      },
+      {
+        "start": 15.8,
+        "duration": 6.9,
+        "text": "How does it make your immune defense stronger and should you take a pill to combat it?"
+      },
+      {
+        "start": 22.7,
+        "duration": 2.5,
+        "text": "The heat of life."
+      },
+      {
+        "start": 25.2,
+        "duration": 4.5,
+        "text": "One Earth life is able to thrive between the extremes of minus 10 degrees Celsius in deep"
+      },
+      {
+        "start": 29.8,
+        "duration": 4.4,
+        "text": "cool pools and 120 degrees Celsius in thermal vents."
+      },
+      {
+        "start": 34.2,
+        "duration": 2.9,
+        "text": "Step outside this range and die."
+      },
+      {
+        "start": 37.0,
+        "duration": 4.3,
+        "text": "Every animal or microbe has a temperature range that's ideal and one that's stressful"
+      },
+      {
+        "start": 41.4,
+        "duration": 2.4,
+        "text": "but survivable for a while."
+      },
+      {
+        "start": 43.8,
+        "duration": 4.2,
+        "text": "Your ideal temperature is where your cells work best, where their internal machinery is the"
+      },
+      {
+        "start": 48.0,
+        "duration": 4.9,
+        "text": "most efficient and the animal as a whole the best adapted to its niche."
+      },
+      {
+        "start": 52.8,
+        "duration": 5.2,
+        "text": "Our warm blooded animals and our bodies expand a lot of energy to keep us around 37 degrees"
+      },
+      {
+        "start": 58.0,
+        "duration": 6.5,
+        "text": "Celsius or 98.6 degrees Fahrenheit, which seems wasteful but this may actually be a defensive"
+      },
+      {
+        "start": 64.5,
+        "duration": 1.5,
+        "text": "adaptation."
+      },
+      {
+        "start": 66.0,
+        "duration": 5.0,
+        "text": "Our temperature makes us almost entirely immune to one of the worst killers and parasites"
+      },
+      {
+        "start": 71.0,
+        "duration": 1.8,
+        "text": "fun guy."
+      },
+      {
+        "start": 72.7,
+        "duration": 6.5,
+        "text": "Most colder animals and their insides are infected by them but you are just too hot,"
+      },
+      {
+        "start": 79.2,
+        "duration": 2.2,
+        "text": "which brings us to fever."
+      },
+      {
+        "start": 81.4,
+        "duration": 6.0,
+        "text": "For any microbe that wants to infect you your body is a world they want to conquer."
+      },
+      {
+        "start": 87.4,
+        "duration": 5.0,
+        "text": "Fever is defensive climate change pushing an invader outside its ideal temperature range"
+      },
+      {
+        "start": 92.4,
+        "duration": 2.6,
+        "text": "and making the world horrible."
+      },
+      {
+        "start": 95.0,
+        "duration": 3.9,
+        "text": "It evolved at least 600 million years ago and is widespread."
+      },
+      {
+        "start": 98.9,
+        "duration": 3.3,
+        "text": "Most animals increase their core temperature when they're sick."
+      },
+      {
+        "start": 102.2,
+        "duration": 4.7,
+        "text": "Fish swim into warmer waters, lizards bathe in the sun, bees heat up the air inside their"
+      },
+      {
+        "start": 107.0,
+        "duration": 1.0,
+        "text": "hive."
+      },
+      {
+        "start": 108.2,
+        "duration": 5.4,
+        "text": "But you warm blooded mammal you have way more drastic options."
+      },
+      {
+        "start": 113.6,
+        "duration": 4.0,
+        "text": "Let's make you sick and see what happens."
+      },
+      {
+        "start": 117.6,
+        "duration": 7.1,
+        "text": "When your blood turns into lava you're invaded by bacteria and viruses at the same time."
+      },
+      {
+        "start": 124.7,
+        "duration": 5.1,
+        "text": "The invasion is powerful and you need to slow it down as fast as possible."
+      },
+      {
+        "start": 129.8,
+        "duration": 4.7,
+        "text": "Fever is part of your first liner defense triggered by diverse group of chemicals called"
+      },
+      {
+        "start": 134.5,
+        "duration": 3.2,
+        "text": "pyrogens, the creators of heat."
+      },
+      {
+        "start": 137.7,
+        "duration": 4.1,
+        "text": "You can easily float away from the battlefield and pass right into your brain where specialized"
+      },
+      {
+        "start": 141.8,
+        "duration": 4.2,
+        "text": "receptors pick them up and crack up your internal thermostat."
+      },
+      {
+        "start": 146.0,
+        "duration": 4.9,
+        "text": "First you begin to chevver, your skeletal muscles contract really quickly which generates a"
+      },
+      {
+        "start": 150.9,
+        "duration": 1.9,
+        "text": "lot of heat in your core."
+      },
+      {
+        "start": 152.8,
+        "duration": 4.8,
+        "text": "At the same time usually the blood vessels near your surfaces contract and prevent heat"
+      },
+      {
+        "start": 157.6,
+        "duration": 2.1,
+        "text": "from escaping through your skin."
+      },
+      {
+        "start": 159.7,
+        "duration": 4.3,
+        "text": "Your skin cools down while you're inside's burn."
+      },
+      {
+        "start": 164.0,
+        "duration": 5.1,
+        "text": "Fever is a systemic body-wide response and is a serious energy investment for your body."
+      },
+      {
+        "start": 169.1,
+        "duration": 4.5,
+        "text": "You burn about 10% more calories to stay alive for every degree centigrade your body temperature"
+      },
+      {
+        "start": 173.6,
+        "duration": 1.0,
+        "text": "rises."
+      },
+      {
+        "start": 174.6,
+        "duration": 6.0,
+        "text": "Fever is also a strong order to lay down and rest, to save energy and give your immune system"
+      },
+      {
+        "start": 180.6,
+        "duration": 2.3,
+        "text": "time to fight."
+      },
+      {
+        "start": 182.8,
+        "duration": 1.8,
+        "text": "Back to the battlefield."
+      },
+      {
+        "start": 184.6,
+        "duration": 4.1,
+        "text": "When the bacteria enter your body they try to be stealthy but now they've switched into"
+      },
+      {
+        "start": 188.7,
+        "duration": 2.1,
+        "text": "high production mode."
+      },
+      {
+        "start": 190.8,
+        "duration": 4.1,
+        "text": "The goal is to multiply as fast as possible which means they need a lot of resources and"
+      },
+      {
+        "start": 194.9,
+        "duration": 1.6,
+        "text": "a highly stressed."
+      },
+      {
+        "start": 196.5,
+        "duration": 4.6,
+        "text": "Imagine running a marathon while eating a succulent Chinese meal and giving birth."
+      },
+      {
+        "start": 201.0,
+        "duration": 3.7,
+        "text": "The last thing bacteria need right now is more stress."
+      },
+      {
+        "start": 204.8,
+        "duration": 4.7,
+        "text": "So your immune system tries to stress them out as much as possible by ordering inflammation"
+      },
+      {
+        "start": 209.5,
+        "duration": 4.1,
+        "text": "which floods the battlefield with fluids, attack proteins and soldiers."
+      },
+      {
+        "start": 213.6,
+        "duration": 1.0,
+        "text": "Pretty stressful."
+      },
+      {
+        "start": 214.6,
+        "duration": 2.6,
+        "text": "Fever is even more stress."
+      },
+      {
+        "start": 217.2,
+        "duration": 3.4,
+        "text": "For the bacteria a moment ago the temperature range was pleasant."
+      },
+      {
+        "start": 220.6,
+        "duration": 2.5,
+        "text": "Now the world burns."
+      },
+      {
+        "start": 223.1,
+        "duration": 6.2,
+        "text": "Heat can cause their organs to break and demembranes to rupture, damage their DNA and diminish protein"
+      },
+      {
+        "start": 229.3,
+        "duration": 1.0,
+        "text": "production."
+      },
+      {
+        "start": 230.3,
+        "duration": 2.9,
+        "text": "They are seriously suffering from the heat."
+      },
+      {
+        "start": 233.2,
+        "duration": 2.6,
+        "text": "Why doesn't this affect your cells?"
+      },
+      {
+        "start": 235.8,
+        "duration": 1.5,
+        "text": "It does."
+      },
+      {
+        "start": 237.2,
+        "duration": 2.9,
+        "text": "All of this is stressful for your cells too."
+      },
+      {
+        "start": 240.2,
+        "duration": 5.3,
+        "text": "Virtually every system and organ of your body works worse during Fever except one your"
+      },
+      {
+        "start": 245.5,
+        "duration": 1.6,
+        "text": "immune system."
+      },
+      {
+        "start": 247.1,
+        "duration": 2.3,
+        "text": "Nutrophils are recruited faster."
+      },
+      {
+        "start": 249.4,
+        "duration": 4.6,
+        "text": "Macrophages and antritic cells are better at devouring enemies, killer cells, kill better"
+      },
+      {
+        "start": 254.0,
+        "duration": 1.8,
+        "text": "and so on."
+      },
+      {
+        "start": 255.8,
+        "duration": 4.5,
+        "text": "And Fever animates your immune cells to gobble up the critical resources your enemies need"
+      },
+      {
+        "start": 260.2,
+        "duration": 5.8,
+        "text": "like iron, glucose and glutamine, turning the battlefield into a food desert."
+      },
+      {
+        "start": 266.1,
+        "duration": 4.5,
+        "text": "The viruses that infected millions of cells are doing even worse because they're also"
+      },
+      {
+        "start": 270.6,
+        "duration": 2.3,
+        "text": "very sensitive to heat."
+      },
+      {
+        "start": 272.9,
+        "duration": 4.7,
+        "text": "For example, the rhinovirus that causes the common cold can only infect your respiratory"
+      },
+      {
+        "start": 277.6,
+        "duration": 6.2,
+        "text": "tract because it is significantly colder than the rest of your body, even without Fever."
+      },
+      {
+        "start": 283.8,
+        "duration": 4.2,
+        "text": "The heat is also really bad for the millions of cells that are infected by viruses at this"
+      },
+      {
+        "start": 288.0,
+        "duration": 1.0,
+        "text": "point."
+      },
+      {
+        "start": 289.0,
+        "duration": 5.4,
+        "text": "They are working super hard producing viruses which is pretty stressful."
+      },
+      {
+        "start": 294.4,
+        "duration": 4.7,
+        "text": "As the heat becomes too much to bear, the super stressed cells panic."
+      },
+      {
+        "start": 299.1,
+        "duration": 4.3,
+        "text": "As their internal machinery is breaking and failing, they quickly produce billions of"
+      },
+      {
+        "start": 303.4,
+        "duration": 5.8,
+        "text": "heat shock proteins or HSPs that start repairs keeping them alive."
+      },
+      {
+        "start": 309.2,
+        "duration": 2.6,
+        "text": "But this is a trap."
+      },
+      {
+        "start": 311.8,
+        "duration": 5.0,
+        "text": "Even your healthy cells produce HSPs to deal with the heat, but if a cell makes too many"
+      },
+      {
+        "start": 316.8,
+        "duration": 3.8,
+        "text": "of them, this means it's more stressed that it should be."
+      },
+      {
+        "start": 320.7,
+        "duration": 4.6,
+        "text": "And if it's too stressed, something is wrong and it should be killed."
+      },
+      {
+        "start": 325.3,
+        "duration": 5.5,
+        "text": "So your natural killer cells and killer T cells are activated and attracted by HSPs and"
+      },
+      {
+        "start": 330.8,
+        "duration": 4.3,
+        "text": "start killing infected cells and all the viruses inside them."
+      },
+      {
+        "start": 335.1,
+        "duration": 5.5,
+        "text": "By trying to protect themselves, infected cells are calling out to be destroyed."
+      },
+      {
+        "start": 340.6,
+        "duration": 5.4,
+        "text": "But if Fever is such an effective weapon, why don't your enemies adapt to it?"
+      },
+      {
+        "start": 346.0,
+        "duration": 5.6,
+        "text": "How is it still viable in so many different animals after hundreds of millions of years?"
+      },
+      {
+        "start": 351.6,
+        "duration": 5.5,
+        "text": "A wild reason is that Fever actually might outsmart evolution."
+      },
+      {
+        "start": 357.1,
+        "duration": 4.8,
+        "text": "If your enemies survive Fever long enough, natural selection changes them."
+      },
+      {
+        "start": 361.9,
+        "duration": 3.6,
+        "text": "The individuals that are better suited to deal with heat reproduce more."
+      },
+      {
+        "start": 365.6,
+        "duration": 2.7,
+        "text": "After a few days, they've adapted."
+      },
+      {
+        "start": 368.2,
+        "duration": 5.7,
+        "text": "But this becomes a handicap because the next step is to infect new victims in new bodies"
+      },
+      {
+        "start": 374.0,
+        "duration": 3.7,
+        "text": "and now healthy humans are too cold for them."
+      },
+      {
+        "start": 377.7,
+        "duration": 3.6,
+        "text": "Not impossible to infect just harder."
+      },
+      {
+        "start": 381.2,
+        "duration": 4.2,
+        "text": "Because the heat-resistant microbes now compete with their cousins that like a colder and"
+      },
+      {
+        "start": 385.5,
+        "duration": 3.3,
+        "text": "have an advantage infecting healthy hosts."
+      },
+      {
+        "start": 388.8,
+        "duration": 4.4,
+        "text": "This creates an evolutionary dilemma without a perfect solution."
+      },
+      {
+        "start": 393.2,
+        "duration": 5.0,
+        "text": "To circumvent this, serious pathogens like measles use hidden run tactics."
+      },
+      {
+        "start": 398.2,
+        "duration": 4.9,
+        "text": "The measles virus is the most infectious right before your Fever hits with full force."
+      },
+      {
+        "start": 403.1,
+        "duration": 3.5,
+        "text": "It's brutally beaten back once your full immune response shows up."
+      },
+      {
+        "start": 406.6,
+        "duration": 2.9,
+        "text": "But by then, the damage is done."
+      },
+      {
+        "start": 409.5,
+        "duration": 3.9,
+        "text": "Fever is an effective part of the puzzle of your immune system, helping to attack and"
+      },
+      {
+        "start": 413.4,
+        "duration": 3.4,
+        "text": "stress your enemies from as many angles as possible."
+      },
+      {
+        "start": 416.8,
+        "duration": 4.8,
+        "text": "But if Fever is so great, why do we stop it when we're sick?"
+      },
+      {
+        "start": 421.6,
+        "duration": 3.7,
+        "text": "Should you fight Fever with medications?"
+      },
+      {
+        "start": 425.3,
+        "duration": 4.5,
+        "text": "We think it's normal to have magic pills, but relatively harmless over-the-counter pain"
+      },
+      {
+        "start": 429.8,
+        "duration": 4.7,
+        "text": "medication like aspirin or ibuprofen only became cheap and widely available in the last"
+      },
+      {
+        "start": 434.6,
+        "duration": 1.7,
+        "text": "century or so."
+      },
+      {
+        "start": 436.2,
+        "duration": 5.0,
+        "text": "Having to a pharmacy to get something for your headache is extremely new in human history."
+      },
+      {
+        "start": 441.2,
+        "duration": 4.1,
+        "text": "Pain feels bad, so we've gotten used to stopping it when we feel it."
+      },
+      {
+        "start": 445.3,
+        "duration": 3.5,
+        "text": "If you're sick, you're supposed to feel a reasonable amount of pain so you lie down and"
+      },
+      {
+        "start": 448.8,
+        "duration": 1.6,
+        "text": "save energy."
+      },
+      {
+        "start": 450.4,
+        "duration": 3.2,
+        "text": "This is not a bug, but a feature of your immune system."
+      },
+      {
+        "start": 453.6,
+        "duration": 4.6,
+        "text": "But pain and fever are closely connected, and over-the-counter pain medication like ibuprofen"
+      },
+      {
+        "start": 458.2,
+        "duration": 3.7,
+        "text": "and paracetamol also work against fever."
+      },
+      {
+        "start": 462.0,
+        "duration": 5.0,
+        "text": "Especially in children, fever is often suppressed by worried parents or doctors."
+      },
+      {
+        "start": 466.9,
+        "duration": 4.0,
+        "text": "Sometimes because they think fever itself is the disease or they're worried that it can"
+      },
+      {
+        "start": 470.9,
+        "duration": 2.5,
+        "text": "do long-term harm."
+      },
+      {
+        "start": 473.4,
+        "duration": 5.3,
+        "text": "In general, it's fair to say that for temperatures below 40 degrees Celsius or 104 Fahrenheit,"
+      },
+      {
+        "start": 478.7,
+        "duration": 3.5,
+        "text": "fever is not dangerous and doesn't need to be treated."
+      },
+      {
+        "start": 482.2,
+        "duration": 4.3,
+        "text": "Of course, there are also patients that should not have fever, like pregnant women, seniors"
+      },
+      {
+        "start": 486.5,
+        "duration": 2.5,
+        "text": "and seriously weakened patients."
+      },
+      {
+        "start": 489.0,
+        "duration": 3.5,
+        "text": "For them, the extra stress may be dangerous."
+      },
+      {
+        "start": 492.5,
+        "duration": 4.8,
+        "text": "Feaver over 40 degrees Celsius is dangerous to anybody because it's most likely caused"
+      },
+      {
+        "start": 497.3,
+        "duration": 2.8,
+        "text": "by your internal heat monitor failing."
+      },
+      {
+        "start": 500.0,
+        "duration": 3.3,
+        "text": "Things get more complicated in serious disease territory."
+      },
+      {
+        "start": 503.4,
+        "duration": 5.1,
+        "text": "We also have evidence that for some diseases like influenza or chickenpox, anti-fever drugs"
+      },
+      {
+        "start": 508.4,
+        "duration": 2.3,
+        "text": "do not help you to heal faster."
+      },
+      {
+        "start": 510.7,
+        "duration": 4.4,
+        "text": "But we're also running into ethics problems here that make clinical trials difficult."
+      },
+      {
+        "start": 515.1,
+        "duration": 4.3,
+        "text": "In one study, doctors gave strong anti-fever treatment to critical care patients, but had"
+      },
+      {
+        "start": 519.4,
+        "duration": 2.6,
+        "text": "to stop after mortality shot up."
+      },
+      {
+        "start": 522.0,
+        "duration": 4.4,
+        "text": "Overall, we have strong indications that more people may survive serious infectious diseases"
+      },
+      {
+        "start": 526.4,
+        "duration": 2.0,
+        "text": "better with a fever."
+      },
+      {
+        "start": 528.5,
+        "duration": 5.0,
+        "text": "And there is very little clinical evidence that stopping fever leads to better health outcomes."
+      },
+      {
+        "start": 533.4,
+        "duration": 4.6,
+        "text": "But there are important exceptions like neurological injuries and stroke."
+      },
+      {
+        "start": 538.0,
+        "duration": 2.7,
+        "text": "We definitely need a lot more research."
+      },
+      {
+        "start": 540.7,
+        "duration": 2.1,
+        "text": "So should you fight fever?"
+      },
+      {
+        "start": 542.8,
+        "duration": 4.8,
+        "text": "Well, speak to your doctor and don't listen to internet videos."
+      },
+      {
+        "start": 547.6,
+        "duration": 2.7,
+        "text": "But this decision is really about payoffs."
+      },
+      {
+        "start": 550.2,
+        "duration": 5.1,
+        "text": "If a fever is not dangerously high and you can bear it, you're supporting your defenses"
+      },
+      {
+        "start": 555.3,
+        "duration": 2.9,
+        "text": "and may even get healthy a bit faster."
+      },
+      {
+        "start": 558.2,
+        "duration": 4.6,
+        "text": "But if you feel really bad and a healthy in general, taking a pill against pain and fever"
+      },
+      {
+        "start": 562.9,
+        "duration": 5.6,
+        "text": "will make you feel better quicker at the cost of a slightly less effective immune defense."
+      },
+      {
+        "start": 568.5,
+        "duration": 5.3,
+        "text": "However, you decide the next time you're burning up and feeling bad, you can rest easy"
+      },
+      {
+        "start": 573.8,
+        "duration": 6.4,
+        "text": "in the knowledge that your enemies are having a much worse time than you."
+      },
+      {
+        "start": 580.2,
+        "duration": 4.1,
+        "text": "It's thanks to doctors and researchers that we have these insights we're just doing"
+      },
+      {
+        "start": 584.4,
+        "duration": 2.0,
+        "text": "apart by bringing them to you."
+      },
+      {
+        "start": 586.4,
+        "duration": 4.9,
+        "text": "If you are also aiming to make a positive difference in the world, where should you start?"
+      },
+      {
+        "start": 591.3,
+        "duration": 3.4,
+        "text": "Today's sponsor 80,000 hours can help you with that decision."
+      },
+      {
+        "start": 594.8,
+        "duration": 4.7,
+        "text": "80,000 hours is a nonprofit career advice organisation that wants to help people find"
+      },
+      {
+        "start": 599.5,
+        "duration": 3.4,
+        "text": "fulfilling careers that also do a lot of good in the world."
+      },
+      {
+        "start": 602.8,
+        "duration": 4.6,
+        "text": "And their advice is free without any hidden cost or fee later on."
+      },
+      {
+        "start": 607.4,
+        "duration": 4.4,
+        "text": "Like us, they care a lot about making sure their work is based on the best available evidence"
+      },
+      {
+        "start": 611.8,
+        "duration": 2.2,
+        "text": "and consultation with experts."
+      },
+      {
+        "start": 614.0,
+        "duration": 4.3,
+        "text": "So they spent the last decade compiling and conducting research into topics like how"
+      },
+      {
+        "start": 618.3,
+        "duration": 4.9,
+        "text": "much impact can one person actually have and what are the best ways to make a positive"
+      },
+      {
+        "start": 623.2,
+        "duration": 2.1,
+        "text": "difference on important global issues."
+      },
+      {
+        "start": 625.3,
+        "duration": 4.4,
+        "text": "Turns out following a well-known career path isn't your only option to achieve that goal."
+      },
+      {
+        "start": 629.7,
+        "duration": 4.3,
+        "text": "In fact, there may be many paths that make an even bigger difference in the world that"
+      },
+      {
+        "start": 634.0,
+        "duration": 1.8,
+        "text": "you may not have even heard of."
+      },
+      {
+        "start": 635.8,
+        "duration": 4.9,
+        "text": "The time you'll spend on your career is probably your biggest opportunity to have an impact."
+      },
+      {
+        "start": 640.7,
+        "duration": 4.0,
+        "text": "If you want to make the most of it, join the newsletter now and get a free copy of their"
+      },
+      {
+        "start": 644.7,
+        "duration": 2.8,
+        "text": "in-depth career guide sent to your inbox."
+      },
+      {
+        "start": 647.5,
+        "duration": 4.0,
+        "text": "Just sign up at 80,000hours.org slash in a nutshell."
+      }
+    ],
+    "full_text": "Fever feels bad, so we take medication to suppress it. But is this a good idea? It turns out fever is one of the oldest defenses against disease. What exactly is it? How does it make your immune defense stronger and should you take a pill to combat it? The heat of life. One Earth life is able to thrive between the extremes of minus 10 degrees Celsius in deep cool pools and 120 degrees Celsius in thermal vents. Step outside this range and die. Every animal or microbe has a temperature range that's ideal and one that's stressful but survivable for a while. Your ideal temperature is where your cells work best, where their internal machinery is the most efficient and the animal as a whole the best adapted to its niche. Our warm blooded animals and our bodies expand a lot of energy to keep us around 37 degrees Celsius or 98.6 degrees Fahrenheit, which seems wasteful but this may actually be a defensive adaptation. Our temperature makes us almost entirely immune to one of the worst killers and parasites fun guy. Most colder animals and their insides are infected by them but you are just too hot, which brings us to fever. For any microbe that wants to infect you your body is a world they want to conquer. Fever is defensive climate change pushing an invader outside its ideal temperature range and making the world horrible. It evolved at least 600 million years ago and is widespread. Most animals increase their core temperature when they're sick. Fish swim into warmer waters, lizards bathe in the sun, bees heat up the air inside their hive. But you warm blooded mammal you have way more drastic options. Let's make you sick and see what happens. When your blood turns into lava you're invaded by bacteria and viruses at the same time. The invasion is powerful and you need to slow it down as fast as possible. Fever is part of your first liner defense triggered by diverse group of chemicals called pyrogens, the creators of heat. You can easily float away from the battlefield and pass right into your brain where specialized receptors pick them up and crack up your internal thermostat. First you begin to chevver, your skeletal muscles contract really quickly which generates a lot of heat in your core. At the same time usually the blood vessels near your surfaces contract and prevent heat from escaping through your skin. Your skin cools down while you're inside's burn. Fever is a systemic body-wide response and is a serious energy investment for your body. You burn about 10% more calories to stay alive for every degree centigrade your body temperature rises. Fever is also a strong order to lay down and rest, to save energy and give your immune system time to fight. Back to the battlefield. When the bacteria enter your body they try to be stealthy but now they've switched into high production mode. The goal is to multiply as fast as possible which means they need a lot of resources and a highly stressed. Imagine running a marathon while eating a succulent Chinese meal and giving birth. The last thing bacteria need right now is more stress. So your immune system tries to stress them out as much as possible by ordering inflammation which floods the battlefield with fluids, attack proteins and soldiers. Pretty stressful. Fever is even more stress. For the bacteria a moment ago the temperature range was pleasant. Now the world burns. Heat can cause their organs to break and demembranes to rupture, damage their DNA and diminish protein production. They are seriously suffering from the heat. Why doesn't this affect your cells? It does. All of this is stressful for your cells too. Virtually every system and organ of your body works worse during Fever except one your immune system. Nutrophils are recruited faster. Macrophages and antritic cells are better at devouring enemies, killer cells, kill better and so on. And Fever animates your immune cells to gobble up the critical resources your enemies need like iron, glucose and glutamine, turning the battlefield into a food desert. The viruses that infected millions of cells are doing even worse because they're also very sensitive to heat. For example, the rhinovirus that causes the common cold can only infect your respiratory tract because it is significantly colder than the rest of your body, even without Fever. The heat is also really bad for the millions of cells that are infected by viruses at this point. They are working super hard producing viruses which is pretty stressful. As the heat becomes too much to bear, the super stressed cells panic. As their internal machinery is breaking and failing, they quickly produce billions of heat shock proteins or HSPs that start repairs keeping them alive. But this is a trap. Even your healthy cells produce HSPs to deal with the heat, but if a cell makes too many of them, this means it's more stressed that it should be. And if it's too stressed, something is wrong and it should be killed. So your natural killer cells and killer T cells are activated and attracted by HSPs and start killing infected cells and all the viruses inside them. By trying to protect themselves, infected cells are calling out to be destroyed. But if Fever is such an effective weapon, why don't your enemies adapt to it? How is it still viable in so many different animals after hundreds of millions of years? A wild reason is that Fever actually might outsmart evolution. If your enemies survive Fever long enough, natural selection changes them. The individuals that are better suited to deal with heat reproduce more. After a few days, they've adapted. But this becomes a handicap because the next step is to infect new victims in new bodies and now healthy humans are too cold for them. Not impossible to infect just harder. Because the heat-resistant microbes now compete with their cousins that like a colder and have an advantage infecting healthy hosts. This creates an evolutionary dilemma without a perfect solution. To circumvent this, serious pathogens like measles use hidden run tactics. The measles virus is the most infectious right before your Fever hits with full force. It's brutally beaten back once your full immune response shows up. But by then, the damage is done. Fever is an effective part of the puzzle of your immune system, helping to attack and stress your enemies from as many angles as possible. But if Fever is so great, why do we stop it when we're sick? Should you fight Fever with medications? We think it's normal to have magic pills, but relatively harmless over-the-counter pain medication like aspirin or ibuprofen only became cheap and widely available in the last century or so. Having to a pharmacy to get something for your headache is extremely new in human history. Pain feels bad, so we've gotten used to stopping it when we feel it. If you're sick, you're supposed to feel a reasonable amount of pain so you lie down and save energy. This is not a bug, but a feature of your immune system. But pain and fever are closely connected, and over-the-counter pain medication like ibuprofen and paracetamol also work against fever. Especially in children, fever is often suppressed by worried parents or doctors. Sometimes because they think fever itself is the disease or they're worried that it can do long-term harm. In general, it's fair to say that for temperatures below 40 degrees Celsius or 104 Fahrenheit, fever is not dangerous and doesn't need to be treated. Of course, there are also patients that should not have fever, like pregnant women, seniors and seriously weakened patients. For them, the extra stress may be dangerous. Feaver over 40 degrees Celsius is dangerous to anybody because it's most likely caused by your internal heat monitor failing. Things get more complicated in serious disease territory. We also have evidence that for some diseases like influenza or chickenpox, anti-fever drugs do not help you to heal faster. But we're also running into ethics problems here that make clinical trials difficult. In one study, doctors gave strong anti-fever treatment to critical care patients, but had to stop after mortality shot up. Overall, we have strong indications that more people may survive serious infectious diseases better with a fever. And there is very little clinical evidence that stopping fever leads to better health outcomes. But there are important exceptions like neurological injuries and stroke. We definitely need a lot more research. So should you fight fever? Well, speak to your doctor and don't listen to internet videos. But this decision is really about payoffs. If a fever is not dangerously high and you can bear it, you're supporting your defenses and may even get healthy a bit faster. But if you feel really bad and a healthy in general, taking a pill against pain and fever will make you feel better quicker at the cost of a slightly less effective immune defense. However, you decide the next time you're burning up and feeling bad, you can rest easy in the knowledge that your enemies are having a much worse time than you. It's thanks to doctors and researchers that we have these insights we're just doing apart by bringing them to you. If you are also aiming to make a positive difference in the world, where should you start? Today's sponsor 80,000 hours can help you with that decision. 80,000 hours is a nonprofit career advice organisation that wants to help people find fulfilling careers that also do a lot of good in the world. And their advice is free without any hidden cost or fee later on. Like us, they care a lot about making sure their work is based on the best available evidence and consultation with experts. So they spent the last decade compiling and conducting research into topics like how much impact can one person actually have and what are the best ways to make a positive difference on important global issues. Turns out following a well-known career path isn't your only option to achieve that goal. In fact, there may be many paths that make an even bigger difference in the world that you may not have even heard of. The time you'll spend on your career is probably your biggest opportunity to have an impact. If you want to make the most of it, join the newsletter now and get a free copy of their in-depth career guide sent to your inbox. Just sign up at 80,000hours.org slash in a nutshell."
+  }
+}

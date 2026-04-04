@@ -1,0 +1,974 @@
+{
+  "video_id": "hxT7M0HdGXo",
+  "video_title": "What is Selenium? | Selenium WebDriver | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 710.0,
+  "view_count": 3963,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 11.7,
+        "text": "Hello everyone and welcome to this video on Selenium."
+      },
+      {
+        "start": 11.7,
+        "duration": 4.1,
+        "text": "Have you ever wondered how websites are tested without manual effort?"
+      },
+      {
+        "start": 15.8,
+        "duration": 6.0,
+        "text": "Meet Selenium, the most powerful web automation tool used by testers and developers worldwide."
+      },
+      {
+        "start": 21.8,
+        "duration": 5.2,
+        "text": "From clicking buttons to running entire test cases, Selenium makes testing faster, smarter"
+      },
+      {
+        "start": 27.0,
+        "duration": 1.7,
+        "text": "and more efficient."
+      },
+      {
+        "start": 28.7,
+        "duration": 5.0,
+        "text": "Imagine you want to watch your favorite show, but the Netflix website lacks or crashes,"
+      },
+      {
+        "start": 33.7,
+        "duration": 1.7,
+        "text": "which is frustrating right?"
+      },
+      {
+        "start": 35.4,
+        "duration": 5.0,
+        "text": "So as a global streaming giant, Netflix ensures a seamless viewing experience for millions"
+      },
+      {
+        "start": 40.4,
+        "duration": 1.7,
+        "text": "of users worldwide."
+      },
+      {
+        "start": 42.2,
+        "duration": 5.8,
+        "text": "However, with constant updates and diverse devices and multiple browsers, maintaining performance"
+      },
+      {
+        "start": 48.0,
+        "duration": 2.1,
+        "text": "and usability is a challenge."
+      },
+      {
+        "start": 50.1,
+        "duration": 5.2,
+        "text": "Before we move ahead and look at the challenges Netflix faced, please like share and subscribe"
+      },
+      {
+        "start": 55.3,
+        "duration": 3.8,
+        "text": "to Idureka's YouTube channel and hit the bell icon to stay updated with the latest"
+      },
+      {
+        "start": 59.1,
+        "duration": 1.0,
+        "text": "content."
+      },
+      {
+        "start": 60.1,
+        "duration": 5.5,
+        "text": "Also, Idureka's Selenium certification training course helps you become a certified automation"
+      },
+      {
+        "start": 65.6,
+        "duration": 1.0,
+        "text": "tester."
+      },
+      {
+        "start": 66.6,
+        "duration": 5.4,
+        "text": "You will learn how to locate web elements, use plugins like testNG, robot class and many"
+      },
+      {
+        "start": 72.1,
+        "duration": 4.8,
+        "text": "more and work with automation frameworks like Data Driven, Keyword Driven, Hybrid"
+      },
+      {
+        "start": 76.8,
+        "duration": 1.0,
+        "text": "and BDD."
+      },
+      {
+        "start": 77.8,
+        "duration": 5.0,
+        "text": "Also, get hands on experience and boost your skills with our online Selenium course."
+      },
+      {
+        "start": 82.9,
+        "duration": 1.0,
+        "text": "Alright."
+      },
+      {
+        "start": 83.9,
+        "duration": 4.2,
+        "text": "Now, let us have a look at the challenges Netflix faced in UI testing."
+      },
+      {
+        "start": 88.1,
+        "duration": 4.2,
+        "text": "So the first one is cross-processor compatibility issue."
+      },
+      {
+        "start": 92.3,
+        "duration": 6.8,
+        "text": "So, Netflix needed to ensure a seamless experience across Chrome, Firefox, Safari, Edge and"
+      },
+      {
+        "start": 99.1,
+        "duration": 2.0,
+        "text": "different screen resolutions."
+      },
+      {
+        "start": 101.1,
+        "duration": 3.0,
+        "text": "Next, is the frequent UI changes."
+      },
+      {
+        "start": 104.1,
+        "duration": 5.5,
+        "text": "Continuous updates to the Netflix UI meant testing had to be a frequent and scalable."
+      },
+      {
+        "start": 109.6,
+        "duration": 3.0,
+        "text": "And the next challenges manual testing bottlenecks."
+      },
+      {
+        "start": 112.6,
+        "duration": 5.6,
+        "text": "Manual testing features like login, video playback and recommendation algorithms was time"
+      },
+      {
+        "start": 118.2,
+        "duration": 2.2,
+        "text": "consuming and error prone."
+      },
+      {
+        "start": 120.4,
+        "duration": 3.2,
+        "text": "Next, is the scalability and performance testing."
+      },
+      {
+        "start": 123.6,
+        "duration": 4.4,
+        "text": "And the Netflix had to simulate thousands of users streaming simultaneously to detect"
+      },
+      {
+        "start": 127.9,
+        "duration": 1.0,
+        "text": "performance issues."
+      },
+      {
+        "start": 128.9,
+        "duration": 4.0,
+        "text": "Now, let us see how Netflix found the right tool."
+      },
+      {
+        "start": 132.9,
+        "duration": 5.7,
+        "text": "Well, Netflix evaluated various testing frameworks and chose Selenium web driver because it"
+      },
+      {
+        "start": 138.6,
+        "duration": 2.9,
+        "text": "supports multiple browsers and platforms."
+      },
+      {
+        "start": 141.5,
+        "duration": 4.1,
+        "text": "And it can be integrated with CI CDPiP lines for automated testing."
+      },
+      {
+        "start": 145.6,
+        "duration": 6.6,
+        "text": "Works well with other tools like RPM for mobile testing and test ENGY for test management."
+      },
+      {
+        "start": 152.3,
+        "duration": 6.2,
+        "text": "Next, Netflix combined Selenium with test ENGY and Jenkins to create an automated UI testing"
+      },
+      {
+        "start": 158.4,
+        "duration": 1.0,
+        "text": "framework."
+      },
+      {
+        "start": 159.4,
+        "duration": 5.2,
+        "text": "And to improve scalability, they integrated cloud-based testing using tools like Selenium"
+      },
+      {
+        "start": 164.8,
+        "duration": 4.6,
+        "text": "Great and AWS Lambda to parallelize test execution."
+      },
+      {
+        "start": 169.4,
+        "duration": 5.6,
+        "text": "Now let us have a look at the impact after implementing Selenium and automation."
+      },
+      {
+        "start": 175.0,
+        "duration": 3.5,
+        "text": "So first is the faster testing and deployment."
+      },
+      {
+        "start": 178.4,
+        "duration": 5.0,
+        "text": "UI tests that took days manually now run in minutes with automation."
+      },
+      {
+        "start": 183.4,
+        "duration": 2.9,
+        "text": "Next, improved user experience."
+      },
+      {
+        "start": 186.4,
+        "duration": 5.4,
+        "text": "Fewer UI glitches in login, video streaming and subtitles ensuring a smooth experience"
+      },
+      {
+        "start": 191.8,
+        "duration": 1.4,
+        "text": "for millions."
+      },
+      {
+        "start": 193.2,
+        "duration": 3.4,
+        "text": "Netflix in terms of scalability and stability."
+      },
+      {
+        "start": 196.6,
+        "duration": 5.3,
+        "text": "Netflix can simulate thousands of users streaming in different environments without performance"
+      },
+      {
+        "start": 201.9,
+        "duration": 1.0,
+        "text": "degradation."
+      },
+      {
+        "start": 202.9,
+        "duration": 6.2,
+        "text": "Next, in terms of continuous deployment and innovation, automated testing allows Netflix"
+      },
+      {
+        "start": 209.2,
+        "duration": 4.3,
+        "text": "to release features faster without worrying about breaking the UI."
+      },
+      {
+        "start": 213.5,
+        "duration": 5.9,
+        "text": "By leveraging Selenium for web automation, Netflix successfully overcame UI testing challenges"
+      },
+      {
+        "start": 219.4,
+        "duration": 4.7,
+        "text": "such as cross browser compatibility issues and regression delays."
+      },
+      {
+        "start": 224.1,
+        "duration": 5.4,
+        "text": "Automation streamlined testing improved efficiency, scalability and platform stability, ensuring"
+      },
+      {
+        "start": 229.5,
+        "duration": 3.7,
+        "text": "a seamless user experience for millions worldwide."
+      },
+      {
+        "start": 233.2,
+        "duration": 5.4,
+        "text": "As Netflix continues to evolve, Selenium remains a key tool in maintaining its high performance"
+      },
+      {
+        "start": 238.6,
+        "duration": 1.5,
+        "text": "streaming platform."
+      },
+      {
+        "start": 240.1,
+        "duration": 3.6,
+        "text": "Now let us understand what is Selenium."
+      },
+      {
+        "start": 243.7,
+        "duration": 5.4,
+        "text": "Selenium is an open source of tools and libraries that automates the testing of website and"
+      },
+      {
+        "start": 249.1,
+        "duration": 1.6,
+        "text": "web applications."
+      },
+      {
+        "start": 250.7,
+        "duration": 5.7,
+        "text": "Its versatility in testing across different environments is attributed to its cross browser,"
+      },
+      {
+        "start": 256.3,
+        "duration": 3.5,
+        "text": "cross language and cross platform capabilities."
+      },
+      {
+        "start": 259.8,
+        "duration": 4.5,
+        "text": "Selenium seamlessly integrates with existing development workflows and supports programming"
+      },
+      {
+        "start": 264.4,
+        "duration": 7.1,
+        "text": "languages such as Java, JavaScript, C hash, PHP, Python and Ruby."
+      },
+      {
+        "start": 271.4,
+        "duration": 3.2,
+        "text": "But why choose Selenium for automation testing?"
+      },
+      {
+        "start": 274.6,
+        "duration": 5.5,
+        "text": "Well, Selenium is widely used for automation testing because it is flexible, scalable"
+      },
+      {
+        "start": 280.1,
+        "duration": 1.6,
+        "text": "and open source."
+      },
+      {
+        "start": 281.7,
+        "duration": 2.0,
+        "text": "And here are some of the key reasons."
+      },
+      {
+        "start": 283.7,
+        "duration": 4.3,
+        "text": "So first is the cross browser and cross platform support."
+      },
+      {
+        "start": 288.0,
+        "duration": 7.2,
+        "text": "So it tests web applications on Chrome, Firefox, Edge and multiple operating systems."
+      },
+      {
+        "start": 295.2,
+        "duration": 2.8,
+        "text": "Next is the supports multiple programming languages."
+      },
+      {
+        "start": 298.1,
+        "duration": 6.3,
+        "text": "It works with Python, Java, C hash, JavaScript and more, allowing developers to use their"
+      },
+      {
+        "start": 304.4,
+        "duration": 2.0,
+        "text": "preferred language."
+      },
+      {
+        "start": 306.4,
+        "duration": 3.0,
+        "text": "Next is the integration with CI CD pipelines."
+      },
+      {
+        "start": 309.4,
+        "duration": 5.5,
+        "text": "It seamlessly integrates with Jenkins, GitHub actions and Docker for continuous testing"
+      },
+      {
+        "start": 314.8,
+        "duration": 1.5,
+        "text": "and deployment."
+      },
+      {
+        "start": 316.4,
+        "duration": 3.8,
+        "text": "The next reason is parallel execution and scalability."
+      },
+      {
+        "start": 320.2,
+        "duration": 5.0,
+        "text": "It supports running multiple tests simultaneously, reducing execution time."
+      },
+      {
+        "start": 325.1,
+        "duration": 3.8,
+        "text": "And the fifth reason is the large community and open source."
+      },
+      {
+        "start": 328.9,
+        "duration": 5.3,
+        "text": "It is free to use with strong community support, frequent updates and compatibility with"
+      },
+      {
+        "start": 334.2,
+        "duration": 1.9,
+        "text": "various testing frameworks."
+      },
+      {
+        "start": 336.1,
+        "duration": 1.0,
+        "text": "All right."
+      },
+      {
+        "start": 337.1,
+        "duration": 4.3,
+        "text": "Now, moving on to what types of testing can Selenium automate?"
+      },
+      {
+        "start": 341.4,
+        "duration": 2.9,
+        "text": "So here are the types of testing Selenium can automate."
+      },
+      {
+        "start": 344.3,
+        "duration": 1.9,
+        "text": "First is the functional testing."
+      },
+      {
+        "start": 346.2,
+        "duration": 5.8,
+        "text": "It ensures web applications work as expected by automating user interactions like clicks,"
+      },
+      {
+        "start": 352.1,
+        "duration": 2.3,
+        "text": "form submission and navigation."
+      },
+      {
+        "start": 354.4,
+        "duration": 5.3,
+        "text": "Next is the regression testing, which rerun tests to verify that new updates don't break"
+      },
+      {
+        "start": 359.7,
+        "duration": 1.8,
+        "text": "existing functionalities."
+      },
+      {
+        "start": 361.5,
+        "duration": 2.3,
+        "text": "The next type is the visual testing."
+      },
+      {
+        "start": 363.8,
+        "duration": 6.6,
+        "text": "It compares UI changes against a baseline to detect unintended visual deviation."
+      },
+      {
+        "start": 370.4,
+        "duration": 5.1,
+        "text": "The next type is this mode testing, which run quick tests to check basic functionality"
+      },
+      {
+        "start": 375.5,
+        "duration": 1.9,
+        "text": "after new updates."
+      },
+      {
+        "start": 377.4,
+        "duration": 4.6,
+        "text": "The next type is the cross browser testing, which ensures website consistency across"
+      },
+      {
+        "start": 382.0,
+        "duration": 2.4,
+        "text": "different browsers and versions."
+      },
+      {
+        "start": 384.4,
+        "duration": 5.0,
+        "text": "And then we have data driven testing, which uses varied input data to validate website"
+      },
+      {
+        "start": 389.5,
+        "duration": 3.0,
+        "text": "behavior under different scenarios."
+      },
+      {
+        "start": 392.5,
+        "duration": 6.1,
+        "text": "And then we have UI testing, test buttons, menus and other UI components for usability"
+      },
+      {
+        "start": 398.6,
+        "duration": 1.8,
+        "text": "and responsiveness."
+      },
+      {
+        "start": 400.4,
+        "duration": 5.8,
+        "text": "And finally is the monkey testing randomised input testing to detect unexpected crashes"
+      },
+      {
+        "start": 406.2,
+        "duration": 1.3,
+        "text": "or issues."
+      },
+      {
+        "start": 407.6,
+        "duration": 6.1,
+        "text": "So the Selenium automates these tests efficiently improving accuracy, speed and also the software"
+      },
+      {
+        "start": 413.7,
+        "duration": 1.0,
+        "text": "quality."
+      },
+      {
+        "start": 414.7,
+        "duration": 3.8,
+        "text": "Now, let us have a look at the components of Selenium."
+      },
+      {
+        "start": 418.4,
+        "duration": 5.0,
+        "text": "So Selenium is a powerful automation framework consisting of 4 key components."
+      },
+      {
+        "start": 423.4,
+        "duration": 4.7,
+        "text": "So first is the Selenium web driver, which directly interacts with web browsers to automate"
+      },
+      {
+        "start": 428.1,
+        "duration": 4.3,
+        "text": "user actions like clicking, typing and navigating pages."
+      },
+      {
+        "start": 432.4,
+        "duration": 4.6,
+        "text": "As previously discussed, it supports multiple programming languages like Python, Java,"
+      },
+      {
+        "start": 437.0,
+        "duration": 1.5,
+        "text": "C hash and more."
+      },
+      {
+        "start": 438.5,
+        "duration": 6.3,
+        "text": "And browsers such as Chrome, Firefox and H. Next is the Selenium ID, Integrated Development"
+      },
+      {
+        "start": 444.8,
+        "duration": 1.2,
+        "text": "environment."
+      },
+      {
+        "start": 446.1,
+        "duration": 4.8,
+        "text": "A browser extensions for record and playback testing ideal for beginners and quick test"
+      },
+      {
+        "start": 450.9,
+        "duration": 1.9,
+        "text": "automation without coding."
+      },
+      {
+        "start": 452.8,
+        "duration": 5.4,
+        "text": "And then is the Selenium grid, which enables parallel execution of test cases across multiple"
+      },
+      {
+        "start": 458.2,
+        "duration": 5.5,
+        "text": "machines and browsers improving efficiency and reducing the test execution time."
+      },
+      {
+        "start": 463.7,
+        "duration": 3.8,
+        "text": "And finally is the Selenium RC, which stands for remote control."
+      },
+      {
+        "start": 467.5,
+        "duration": 4.8,
+        "text": "So the older versions of web driver, which required a server to interact with browsers,"
+      },
+      {
+        "start": 472.3,
+        "duration": 3.4,
+        "text": "but is now replaced by web driver for better performance."
+      },
+      {
+        "start": 475.7,
+        "duration": 4.4,
+        "text": "So this components work together to automate web application testing, ensuring speed,"
+      },
+      {
+        "start": 480.1,
+        "duration": 2.4,
+        "text": "accuracy and scalability."
+      },
+      {
+        "start": 482.6,
+        "duration": 6.1,
+        "text": "Now let us have a look at the architecture of Selenium web driver, Selenium 3."
+      },
+      {
+        "start": 488.6,
+        "duration": 4.0,
+        "text": "Selenium web driver architecture is made up of 4 major components."
+      },
+      {
+        "start": 492.7,
+        "duration": 4.2,
+        "text": "So here first we have Selenium client literally."
+      },
+      {
+        "start": 496.9,
+        "duration": 5.9,
+        "text": "Selenium provides support to multiple libraries such as Ruby, Python, Java, etc. as a language"
+      },
+      {
+        "start": 502.8,
+        "duration": 1.0,
+        "text": "bindings."
+      },
+      {
+        "start": 503.8,
+        "duration": 4.9,
+        "text": "Next is the Jason, Jason wire protocol over HDDP."
+      },
+      {
+        "start": 508.7,
+        "duration": 3.6,
+        "text": "Jason is an acronym for JavaScript object notation."
+      },
+      {
+        "start": 512.3,
+        "duration": 5.5,
+        "text": "It is an open standard that provides a transport mechanism for transferring data between client"
+      },
+      {
+        "start": 517.8,
+        "duration": 2.3,
+        "text": "and server on the web."
+      },
+      {
+        "start": 520.1,
+        "duration": 2.1,
+        "text": "Next is the browser drivers."
+      },
+      {
+        "start": 522.2,
+        "duration": 5.3,
+        "text": "Selenium browser drivers are native to each browser and interact with it by establishing"
+      },
+      {
+        "start": 527.5,
+        "duration": 1.7,
+        "text": "a secure connection."
+      },
+      {
+        "start": 529.2,
+        "duration": 2.6,
+        "text": "Selenium supports different browser drivers."
+      },
+      {
+        "start": 531.8,
+        "duration": 6.5,
+        "text": "It has Chrome driver, Gecko driver, Microsoft Edge web driver, Safari driver and Internet"
+      },
+      {
+        "start": 538.3,
+        "duration": 2.0,
+        "text": "Explorer driver."
+      },
+      {
+        "start": 540.3,
+        "duration": 6.1,
+        "text": "And next, as previously discussed, Selenium supports multiple browsers like Chrome, Firefox,"
+      },
+      {
+        "start": 546.4,
+        "duration": 3.2,
+        "text": "Safari, Internet Explorer, etc."
+      },
+      {
+        "start": 549.6,
+        "duration": 5.1,
+        "text": "Alright, now let us move on to the architecture of Selenium 4 web driver."
+      },
+      {
+        "start": 554.6,
+        "duration": 3.3,
+        "text": "The architecture of Selenium 4 is similar to Selenium 3."
+      },
+      {
+        "start": 558.0,
+        "duration": 5.9,
+        "text": "However, it uses W3C protocol instead of Jason wire protocol for communication between"
+      },
+      {
+        "start": 563.8,
+        "duration": 2.9,
+        "text": "client libraries and browser drivers."
+      },
+      {
+        "start": 566.7,
+        "duration": 5.0,
+        "text": "And web drivers in Selenium 4 is fully W3C compliant."
+      },
+      {
+        "start": 571.8,
+        "duration": 2.2,
+        "text": "Now what does this mean?"
+      },
+      {
+        "start": 574.0,
+        "duration": 4.0,
+        "text": "So let us first understand what W3C is."
+      },
+      {
+        "start": 577.9,
+        "duration": 5.0,
+        "text": "Well, W3C stands for World Wide Web Consortium."
+      },
+      {
+        "start": 582.9,
+        "duration": 4.1,
+        "text": "An international community that develops and maintains standard and guidelines for the"
+      },
+      {
+        "start": 587.0,
+        "duration": 1.7,
+        "text": "world wide web."
+      },
+      {
+        "start": 588.7,
+        "duration": 6.6,
+        "text": "The main aim of the W3C is to ensure the long-term growth and interoperability of the web."
+      },
+      {
+        "start": 595.3,
+        "duration": 4.9,
+        "text": "And it creates open standards and specialization that promote compatibility and consistency"
+      },
+      {
+        "start": 600.2,
+        "duration": 3.5,
+        "text": "across various web technologies and platforms."
+      },
+      {
+        "start": 603.7,
+        "duration": 6.6,
+        "text": "And when we say Selenium 4 is W3C compliant, it states that Selenium adheres to the standards"
+      },
+      {
+        "start": 610.3,
+        "duration": 4.7,
+        "text": "and specializations led by the W3C for web automation."
+      },
+      {
+        "start": 615.0,
+        "duration": 5.4,
+        "text": "All the browsers and the browser drivers in Selenium architecture follow W3C except"
+      },
+      {
+        "start": 620.4,
+        "duration": 2.0,
+        "text": "Selenium 3 web driver."
+      },
+      {
+        "start": 622.4,
+        "duration": 6.2,
+        "text": "Hence, Jason wire protocol is used to encode and decode the request and responses."
+      },
+      {
+        "start": 628.6,
+        "duration": 5.6,
+        "text": "Selenium 4 web driver was made W3C compliant to make communication easy and direct between"
+      },
+      {
+        "start": 634.2,
+        "duration": 2.8,
+        "text": "the client libraries and the browser drivers."
+      },
+      {
+        "start": 637.4,
+        "duration": 3.4,
+        "text": "W3C improved communication led to more stability."
+      },
+      {
+        "start": 640.8,
+        "duration": 6.1,
+        "text": "So this has also enhanced browser compatibility, performance and efficiency as there is no overhead"
+      },
+      {
+        "start": 647.0,
+        "duration": 5.8,
+        "text": "of HTTP requests and responses for communication between the web driver client and the browser"
+      },
+      {
+        "start": 652.8,
+        "duration": 1.0,
+        "text": "driver."
+      },
+      {
+        "start": 653.8,
+        "duration": 5.3,
+        "text": "And instead, web driver now utilizes native browser communication channels and protocols."
+      },
+      {
+        "start": 659.1,
+        "duration": 6.3,
+        "text": "Alright, so the Selenium is the secret weapon for the effortless web automation."
+      },
+      {
+        "start": 665.4,
+        "duration": 6.2,
+        "text": "With cross-browser compatibility and W3C compliant to web driver 4, it delivers faster,"
+      },
+      {
+        "start": 671.6,
+        "duration": 5.1,
+        "text": "more stable and more efficient testing, making web automation smoother than ever."
+      },
+      {
+        "start": 676.8,
+        "duration": 4.7,
+        "text": "And with this, we have come to an end to this video on what is Selenium."
+      },
+      {
+        "start": 681.4,
+        "duration": 3.7,
+        "text": "So if you enjoyed listening to this video, please be kind enough to like it and you can"
+      },
+      {
+        "start": 685.2,
+        "duration": 4.8,
+        "text": "comment on any of your doubts and queries we will reply to them a day earlier."
+      },
+      {
+        "start": 690.0,
+        "duration": 4.3,
+        "text": "Do look up for more videos and playlist and subscribe to the Adurica's YouTube channel"
+      },
+      {
+        "start": 694.2,
+        "duration": 0.6,
+        "text": "to learn more."
+      },
+      {
+        "start": 695.4,
+        "duration": 2.0,
+        "text": "Thank you for watching and Happy Learning!"
+      }
+    ],
+    "full_text": "Hello everyone and welcome to this video on Selenium. Have you ever wondered how websites are tested without manual effort? Meet Selenium, the most powerful web automation tool used by testers and developers worldwide. From clicking buttons to running entire test cases, Selenium makes testing faster, smarter and more efficient. Imagine you want to watch your favorite show, but the Netflix website lacks or crashes, which is frustrating right? So as a global streaming giant, Netflix ensures a seamless viewing experience for millions of users worldwide. However, with constant updates and diverse devices and multiple browsers, maintaining performance and usability is a challenge. Before we move ahead and look at the challenges Netflix faced, please like share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated with the latest content. Also, Idureka's Selenium certification training course helps you become a certified automation tester. You will learn how to locate web elements, use plugins like testNG, robot class and many more and work with automation frameworks like Data Driven, Keyword Driven, Hybrid and BDD. Also, get hands on experience and boost your skills with our online Selenium course. Alright. Now, let us have a look at the challenges Netflix faced in UI testing. So the first one is cross-processor compatibility issue. So, Netflix needed to ensure a seamless experience across Chrome, Firefox, Safari, Edge and different screen resolutions. Next, is the frequent UI changes. Continuous updates to the Netflix UI meant testing had to be a frequent and scalable. And the next challenges manual testing bottlenecks. Manual testing features like login, video playback and recommendation algorithms was time consuming and error prone. Next, is the scalability and performance testing. And the Netflix had to simulate thousands of users streaming simultaneously to detect performance issues. Now, let us see how Netflix found the right tool. Well, Netflix evaluated various testing frameworks and chose Selenium web driver because it supports multiple browsers and platforms. And it can be integrated with CI CDPiP lines for automated testing. Works well with other tools like RPM for mobile testing and test ENGY for test management. Next, Netflix combined Selenium with test ENGY and Jenkins to create an automated UI testing framework. And to improve scalability, they integrated cloud-based testing using tools like Selenium Great and AWS Lambda to parallelize test execution. Now let us have a look at the impact after implementing Selenium and automation. So first is the faster testing and deployment. UI tests that took days manually now run in minutes with automation. Next, improved user experience. Fewer UI glitches in login, video streaming and subtitles ensuring a smooth experience for millions. Netflix in terms of scalability and stability. Netflix can simulate thousands of users streaming in different environments without performance degradation. Next, in terms of continuous deployment and innovation, automated testing allows Netflix to release features faster without worrying about breaking the UI. By leveraging Selenium for web automation, Netflix successfully overcame UI testing challenges such as cross browser compatibility issues and regression delays. Automation streamlined testing improved efficiency, scalability and platform stability, ensuring a seamless user experience for millions worldwide. As Netflix continues to evolve, Selenium remains a key tool in maintaining its high performance streaming platform. Now let us understand what is Selenium. Selenium is an open source of tools and libraries that automates the testing of website and web applications. Its versatility in testing across different environments is attributed to its cross browser, cross language and cross platform capabilities. Selenium seamlessly integrates with existing development workflows and supports programming languages such as Java, JavaScript, C hash, PHP, Python and Ruby. But why choose Selenium for automation testing? Well, Selenium is widely used for automation testing because it is flexible, scalable and open source. And here are some of the key reasons. So first is the cross browser and cross platform support. So it tests web applications on Chrome, Firefox, Edge and multiple operating systems. Next is the supports multiple programming languages. It works with Python, Java, C hash, JavaScript and more, allowing developers to use their preferred language. Next is the integration with CI CD pipelines. It seamlessly integrates with Jenkins, GitHub actions and Docker for continuous testing and deployment. The next reason is parallel execution and scalability. It supports running multiple tests simultaneously, reducing execution time. And the fifth reason is the large community and open source. It is free to use with strong community support, frequent updates and compatibility with various testing frameworks. All right. Now, moving on to what types of testing can Selenium automate? So here are the types of testing Selenium can automate. First is the functional testing. It ensures web applications work as expected by automating user interactions like clicks, form submission and navigation. Next is the regression testing, which rerun tests to verify that new updates don't break existing functionalities. The next type is the visual testing. It compares UI changes against a baseline to detect unintended visual deviation. The next type is this mode testing, which run quick tests to check basic functionality after new updates. The next type is the cross browser testing, which ensures website consistency across different browsers and versions. And then we have data driven testing, which uses varied input data to validate website behavior under different scenarios. And then we have UI testing, test buttons, menus and other UI components for usability and responsiveness. And finally is the monkey testing randomised input testing to detect unexpected crashes or issues. So the Selenium automates these tests efficiently improving accuracy, speed and also the software quality. Now, let us have a look at the components of Selenium. So Selenium is a powerful automation framework consisting of 4 key components. So first is the Selenium web driver, which directly interacts with web browsers to automate user actions like clicking, typing and navigating pages. As previously discussed, it supports multiple programming languages like Python, Java, C hash and more. And browsers such as Chrome, Firefox and H. Next is the Selenium ID, Integrated Development environment. A browser extensions for record and playback testing ideal for beginners and quick test automation without coding. And then is the Selenium grid, which enables parallel execution of test cases across multiple machines and browsers improving efficiency and reducing the test execution time. And finally is the Selenium RC, which stands for remote control. So the older versions of web driver, which required a server to interact with browsers, but is now replaced by web driver for better performance. So this components work together to automate web application testing, ensuring speed, accuracy and scalability. Now let us have a look at the architecture of Selenium web driver, Selenium 3. Selenium web driver architecture is made up of 4 major components. So here first we have Selenium client literally. Selenium provides support to multiple libraries such as Ruby, Python, Java, etc. as a language bindings. Next is the Jason, Jason wire protocol over HDDP. Jason is an acronym for JavaScript object notation. It is an open standard that provides a transport mechanism for transferring data between client and server on the web. Next is the browser drivers. Selenium browser drivers are native to each browser and interact with it by establishing a secure connection. Selenium supports different browser drivers. It has Chrome driver, Gecko driver, Microsoft Edge web driver, Safari driver and Internet Explorer driver. And next, as previously discussed, Selenium supports multiple browsers like Chrome, Firefox, Safari, Internet Explorer, etc. Alright, now let us move on to the architecture of Selenium 4 web driver. The architecture of Selenium 4 is similar to Selenium 3. However, it uses W3C protocol instead of Jason wire protocol for communication between client libraries and browser drivers. And web drivers in Selenium 4 is fully W3C compliant. Now what does this mean? So let us first understand what W3C is. Well, W3C stands for World Wide Web Consortium. An international community that develops and maintains standard and guidelines for the world wide web. The main aim of the W3C is to ensure the long-term growth and interoperability of the web. And it creates open standards and specialization that promote compatibility and consistency across various web technologies and platforms. And when we say Selenium 4 is W3C compliant, it states that Selenium adheres to the standards and specializations led by the W3C for web automation. All the browsers and the browser drivers in Selenium architecture follow W3C except Selenium 3 web driver. Hence, Jason wire protocol is used to encode and decode the request and responses. Selenium 4 web driver was made W3C compliant to make communication easy and direct between the client libraries and the browser drivers. W3C improved communication led to more stability. So this has also enhanced browser compatibility, performance and efficiency as there is no overhead of HTTP requests and responses for communication between the web driver client and the browser driver. And instead, web driver now utilizes native browser communication channels and protocols. Alright, so the Selenium is the secret weapon for the effortless web automation. With cross-browser compatibility and W3C compliant to web driver 4, it delivers faster, more stable and more efficient testing, making web automation smoother than ever. And with this, we have come to an end to this video on what is Selenium. So if you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a day earlier. Do look up for more videos and playlist and subscribe to the Adurica's YouTube channel to learn more. Thank you for watching and Happy Learning!"
+  }
+}

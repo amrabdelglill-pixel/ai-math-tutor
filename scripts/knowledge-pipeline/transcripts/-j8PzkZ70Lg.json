@@ -1,0 +1,1699 @@
+{
+  "video_id": "-j8PzkZ70Lg",
+  "video_title": "The Physics of Euler's Formula | Laplace Transform Prelude",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1669.0,
+  "view_count": 942632,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 5.9,
+        "text": "This is the first video in a trilogy aimed at demystifying the Laplace transform, a powerful"
+      },
+      {
+        "start": 5.9,
+        "duration": 4.5,
+        "text": "tool for studying differential equations. Although we won't dig into the Laplace transform"
+      },
+      {
+        "start": 10.4,
+        "duration": 5.4,
+        "text": "itself until the next two chapters, everything that we cover here sets up the mental frameworks"
+      },
+      {
+        "start": 15.8,
+        "duration": 5.4,
+        "text": "and the prerequisite knowledge that make understanding that transform as easy as I know how."
+      },
+      {
+        "start": 21.6,
+        "duration": 4.6,
+        "text": "This video is a lot more than just preamble, though. It's a very fun lesson in its own right"
+      },
+      {
+        "start": 26.2,
+        "duration": 5.2,
+        "text": "about how one of the most famous equations in all of math enables a bizarre trick for solving"
+      },
+      {
+        "start": 31.4,
+        "duration": 6.2,
+        "text": "an equation that is used ubiquitously throughout physics. The main characters throughout this chapter"
+      },
+      {
+        "start": 37.6,
+        "duration": 6.2,
+        "text": "and the next two are exponential functions, and I'm always going to be writing these as E to the S times"
+      },
+      {
+        "start": 43.8,
+        "duration": 6.4,
+        "text": "T. Here we think of T as being time, and then S is just some number determining which specific"
+      },
+      {
+        "start": 50.2,
+        "duration": 5.4,
+        "text": "exponential we're talking about. One of the big aims of this video is to motivate using physics"
+      },
+      {
+        "start": 55.7,
+        "duration": 5.9,
+        "text": "why it's useful to give S the freedom to take on not only real number values, but complex ones"
+      },
+      {
+        "start": 61.6,
+        "duration": 5.7,
+        "text": "as well. But wait a minute, what does it even mean to shove a complex number into an exponent?"
+      },
+      {
+        "start": 67.3,
+        "duration": 4.1,
+        "text": "Here, I imagine there's a bit of a divide in the audience. You see there's some regular"
+      },
+      {
+        "start": 71.4,
+        "duration": 5.8,
+        "text": "viewers of math videos online, for whom the specific case of plugging in Pi times i is a little"
+      },
+      {
+        "start": 77.2,
+        "duration": 5.8,
+        "text": "bit cliché by this point. It is ample covered by many videos on YouTube. But on the other hand,"
+      },
+      {
+        "start": 83.0,
+        "duration": 5.8,
+        "text": "most students find this to be an understandably baffling notion. Given how absolutely fundamental"
+      },
+      {
+        "start": 88.8,
+        "duration": 4.1,
+        "text": "this is to everything that follows, even if you fall into that first camp, I hope you'll agree"
+      },
+      {
+        "start": 92.9,
+        "duration": 5.0,
+        "text": "that it's worth kicking things off here by reviewing a very beautiful and visual way to understand"
+      },
+      {
+        "start": 97.9,
+        "duration": 5.8,
+        "text": "what this idea is all about. The nice part is that what follows doubles as a gentle warmup for"
+      },
+      {
+        "start": 103.8,
+        "duration": 3.0,
+        "text": "visualizing and thinking about differential equations."
+      },
+      {
+        "start": 106.8,
+        "duration": 9.7,
+        "text": "You start with the fact that e to the t is its own derivative. And really you should think of"
+      },
+      {
+        "start": 116.5,
+        "duration": 5.0,
+        "text": "this as what defines the number e. Exponentials with other bases will have derivatives that are"
+      },
+      {
+        "start": 121.4,
+        "duration": 5.5,
+        "text": "proportional to themselves, but e is the special number such that that proportionality constant is one."
+      },
+      {
+        "start": 127.0,
+        "duration": 4.7,
+        "text": "Now very often in a calculus class you visualize derivatives as slopes of graphs, that's all well"
+      },
+      {
+        "start": 131.7,
+        "duration": 4.3,
+        "text": "and good, but it's not the only way. You should get in the habit of flexing your mind a bit more."
+      },
+      {
+        "start": 136.0,
+        "duration": 4.0,
+        "text": "For example, let's say you think of this as telling you the position of some point on the number"
+      },
+      {
+        "start": 140.0,
+        "duration": 6.0,
+        "text": "line as a function of time. Then what the derivative expression is telling you is that at every moment,"
+      },
+      {
+        "start": 146.0,
+        "duration": 5.7,
+        "text": "the velocity vector must look identical to the position vector. And more specifically because"
+      },
+      {
+        "start": 151.7,
+        "duration": 5.7,
+        "text": "you know that e to the zero equals one, anything to the zero is one, you also have an initial condition."
+      },
+      {
+        "start": 157.4,
+        "duration": 5.2,
+        "text": "It's telling you you start at the number one. So at the very first moment, the velocity is also one,"
+      },
+      {
+        "start": 162.6,
+        "duration": 4.6,
+        "text": "meaning it's pointed to the right, but the farther to the right the position gets, the faster it"
+      },
+      {
+        "start": 167.1,
+        "duration": 5.4,
+        "text": "must move. So even if you had never heard of the function e to the t or exponential growth,"
+      },
+      {
+        "start": 172.5,
+        "duration": 5.2,
+        "text": "this property alone is enough to give you a very visceral feeling for how it gives a value that"
+      },
+      {
+        "start": 177.7,
+        "duration": 5.4,
+        "text": "grows and at an accelerating rate. But what if there was some constant in that exponent, like e to"
+      },
+      {
+        "start": 183.1,
+        "duration": 5.8,
+        "text": "the two times t? Well by the chain rule, the derivative is then two times the function itself,"
+      },
+      {
+        "start": 189.0,
+        "duration": 5.4,
+        "text": "and reading this dynamically, it's telling you the velocity vector is always two times the position"
+      },
+      {
+        "start": 194.5,
+        "duration": 4.8,
+        "text": "vector. Again, the farther to the right the position gets, the faster it must move, but this time,"
+      },
+      {
+        "start": 199.3,
+        "duration": 4.6,
+        "text": "the feeling is that that growth gets out of hand all the more quickly. What if that constant was"
+      },
+      {
+        "start": 203.8,
+        "duration": 6.5,
+        "text": "negative? Say negative 0.5. Well, once again, by the chain rule, the derivative of this function is"
+      },
+      {
+        "start": 210.3,
+        "duration": 6.6,
+        "text": "negative 0.5 times the function itself. So at every moment in time, that velocity vector looks like a"
+      },
+      {
+        "start": 216.9,
+        "duration": 6.2,
+        "text": "180 degree rotation of the position vector, but scaled down to be half its length. This means"
+      },
+      {
+        "start": 223.1,
+        "duration": 5.8,
+        "text": "you start moving to the left, but as you approach 0 with a smaller position vector, that velocity"
+      },
+      {
+        "start": 228.9,
+        "duration": 5.9,
+        "text": "must get proportionally smaller. So it approaches 0, but at an ever-sloing pace. This, of course,"
+      },
+      {
+        "start": 234.8,
+        "duration": 5.1,
+        "text": "is exponential decay. But now for the fun part, why we're here in the first place. What if that"
+      },
+      {
+        "start": 239.9,
+        "duration": 6.1,
+        "text": "constant was an imaginary number? I, the square root of negative 1. Again, the chain rule tells us"
+      },
+      {
+        "start": 246.0,
+        "duration": 5.1,
+        "text": "that the derivative of this function is going to be i times the function itself. Geometrically,"
+      },
+      {
+        "start": 251.1,
+        "duration": 6.2,
+        "text": "multiplying by i acts like a 90 degree rotation. So this is telling you, velocity always has to be"
+      },
+      {
+        "start": 257.3,
+        "duration": 4.7,
+        "text": "perpendicular to position. For anyone who's a little bit rusty or needs a quick review with complex"
+      },
+      {
+        "start": 262.0,
+        "duration": 5.0,
+        "text": "numbers, let's say you have an arbitrary complex value, a plus b i, which you typically draw in the"
+      },
+      {
+        "start": 267.0,
+        "duration": 5.8,
+        "text": "2d plane like this. The easiest way to think about multiplying by i is to go component by component."
+      },
+      {
+        "start": 272.9,
+        "duration": 7.9,
+        "text": "A times i ends up on this vertical imaginary line. And then bi times i is bi squared, which is"
+      },
+      {
+        "start": 280.8,
+        "duration": 5.0,
+        "text": "negative b. This is where you actually use the defining property of i. And you'll notice each"
+      },
+      {
+        "start": 285.8,
+        "duration": 5.0,
+        "text": "of those two individual components is rotated 90 degrees. So the sum as a whole also has to get"
+      },
+      {
+        "start": 290.8,
+        "duration": 5.3,
+        "text": "rotated 90 degrees. Looking back at the equation, where this time evidently we must be thinking"
+      },
+      {
+        "start": 296.1,
+        "duration": 5.6,
+        "text": "about position as being in the complex plane, even if you had never heard of raising e to an imaginary"
+      },
+      {
+        "start": 301.7,
+        "duration": 4.6,
+        "text": "number. And even if it's not clear at first what that would actually mean, the expression is"
+      },
+      {
+        "start": 306.3,
+        "duration": 5.4,
+        "text": "telling you that this value has to move in such a way that the velocity vector is always locked to"
+      },
+      {
+        "start": 311.8,
+        "duration": 6.8,
+        "text": "be a 90 degree rotated copy of the position vector. The only motion that satisfies this criterion"
+      },
+      {
+        "start": 318.6,
+        "duration": 5.4,
+        "text": "is rotation around a circle. And you can be more specific because the initial position is one"
+      },
+      {
+        "start": 323.9,
+        "duration": 5.5,
+        "text": "that velocity vector always has a unit length. So this tells you how fast you have to move. Your point"
+      },
+      {
+        "start": 329.4,
+        "duration": 5.7,
+        "text": "wanders around that circle in such a way that it traces one unit of arc length for every unit of"
+      },
+      {
+        "start": 335.1,
+        "duration": 5.7,
+        "text": "time. For example, to get one of the most famous equations in all of math, if you wait for pi units"
+      },
+      {
+        "start": 340.8,
+        "duration": 6.2,
+        "text": "of time, you end up precisely halfway around the circle. This is why e to the pi times i is negative"
+      },
+      {
+        "start": 347.0,
+        "duration": 5.6,
+        "text": "one. One thing that's always worth emphasizing to any students initially confused by this expression"
+      },
+      {
+        "start": 352.6,
+        "duration": 5.0,
+        "text": "is just how misleading the notation is. When you input a complex value, the expression really has"
+      },
+      {
+        "start": 357.5,
+        "duration": 4.9,
+        "text": "very little to do with repeated multiplication. And honestly not that much to do with the number e,"
+      },
+      {
+        "start": 362.4,
+        "duration": 6.4,
+        "text": "the computation that it refers to is plugging in the input into this infinite polynomial, the Taylor"
+      },
+      {
+        "start": 368.8,
+        "duration": 5.3,
+        "text": "series for e to the x. It's actually very fun, I think, to take a moment to interpret the literal"
+      },
+      {
+        "start": 374.1,
+        "duration": 5.4,
+        "text": "meaning of plugging in something like pi times i for each one of these polynomial terms. As you take"
+      },
+      {
+        "start": 379.5,
+        "duration": 6.7,
+        "text": "a higher power, each extra factor of i rotates you another 90 degrees. And then the pi to the end"
+      },
+      {
+        "start": 386.2,
+        "duration": 5.5,
+        "text": "divided by in factorial terms initially grow, but then they shrink as that denominator takes over,"
+      },
+      {
+        "start": 391.8,
+        "duration": 4.9,
+        "text": "and you end up with this spiraling sum that converges to negative one. Now that said, it is not"
+      },
+      {
+        "start": 396.6,
+        "duration": 5.0,
+        "text": "at all obvious just looking at this infinite polynomial that if you change the value t in the expression"
+      },
+      {
+        "start": 401.6,
+        "duration": 5.4,
+        "text": "e to the i times t, you're going to end up walking around a unit circle. This is why focusing on the"
+      },
+      {
+        "start": 407.0,
+        "duration": 4.3,
+        "text": "property of being its own derivative is a lot more helpful than focusing on the underlying"
+      },
+      {
+        "start": 411.5,
+        "duration": 5.0,
+        "text": "computation. In practice, people get used to using the expression e to the x as a notational"
+      },
+      {
+        "start": 416.5,
+        "duration": 4.9,
+        "text": "shorthand here, and really think nothing of it. Throughout this lesson, I'm going to be pulling"
+      },
+      {
+        "start": 421.4,
+        "duration": 6.0,
+        "text": "up a complex plane representing possible values for this number s, and for each point on this plane,"
+      },
+      {
+        "start": 427.4,
+        "duration": 5.0,
+        "text": "I want you to be able to think about the corresponding exponential function e to the s times t."
+      },
+      {
+        "start": 432.4,
+        "duration": 4.6,
+        "text": "We were just talking through what happens when s is equal to i. On the lower right, I can show"
+      },
+      {
+        "start": 437.0,
+        "duration": 4.7,
+        "text": "you how that output changes with time, and then on the top right, I might show a graph where,"
+      },
+      {
+        "start": 441.8,
+        "duration": 5.2,
+        "text": "in order to fit it on the screen, I'll typically only graph the real part of that output, with respect to"
+      },
+      {
+        "start": 447.0,
+        "duration": 5.7,
+        "text": "time, in this case it looks like a cosine wave. If s is a different imaginary number, something like"
+      },
+      {
+        "start": 452.6,
+        "duration": 5.0,
+        "text": "two times i, it means you rotate at a different rate. And on the one hand, this is obvious,"
+      },
+      {
+        "start": 457.6,
+        "duration": 4.5,
+        "text": "throwing in a two in front of the time obviously moves you twice as fast. But again, I think it's"
+      },
+      {
+        "start": 462.1,
+        "duration": 4.6,
+        "text": "kind of fun to read what the derivative expression is telling you dynamically. In this case, you can"
+      },
+      {
+        "start": 466.7,
+        "duration": 6.0,
+        "text": "read it as saying the velocity is always a copy of the position vector, rotated 90 degrees,"
+      },
+      {
+        "start": 472.7,
+        "duration": 5.0,
+        "text": "but stretched to have a length of two. More generally, it's common to label this imaginary part"
+      },
+      {
+        "start": 477.7,
+        "duration": 5.9,
+        "text": "with the Greek letter omega, which describes the angular frequency of the motion. In other words,"
+      },
+      {
+        "start": 483.6,
+        "duration": 5.7,
+        "text": "how many radians of arc length does it traverse around the circle per unit time? This is just the"
+      },
+      {
+        "start": 489.3,
+        "duration": 5.6,
+        "text": "imaginary axis, but what about when s has both a real and an imaginary part, something like negative"
+      },
+      {
+        "start": 494.9,
+        "duration": 6.4,
+        "text": "0.5 plus i? On the one hand, you can split up the exponential, and this part here is telling you"
+      },
+      {
+        "start": 501.3,
+        "duration": 5.5,
+        "text": "that the magnitude decays over time, and then this part is telling you that there's rotation."
+      },
+      {
+        "start": 506.8,
+        "duration": 4.3,
+        "text": "That's all well and good, but for fun, another way that you can think about it is to continue with"
+      },
+      {
+        "start": 511.1,
+        "duration": 5.7,
+        "text": "the previous intuition. To understand what multiplication by any complex number looks like, you can ask"
+      },
+      {
+        "start": 516.8,
+        "duration": 5.9,
+        "text": "what combination of rotation and stretching would place the vector at one onto this new value s."
+      },
+      {
+        "start": 522.7,
+        "duration": 4.6,
+        "text": "For this example here, that would look like rotating a little over 90 degrees and stretching it"
+      },
+      {
+        "start": 527.3,
+        "duration": 5.0,
+        "text": "out a bit. So the derivative expression is telling you this is always the relationship between the"
+      },
+      {
+        "start": 532.2,
+        "duration": 5.3,
+        "text": "position and velocity vectors, and I think geometrically this gives you a very visceral way to see"
+      },
+      {
+        "start": 537.5,
+        "duration": 5.2,
+        "text": "why the motion must be spiraling inwards. You'll sometimes hear engineers refer to this as the"
+      },
+      {
+        "start": 542.7,
+        "duration": 4.9,
+        "text": "s plane, which essentially means you should think of each point on that plane as encoding the"
+      },
+      {
+        "start": 547.6,
+        "duration": 5.9,
+        "text": "entire function e to the s t. The imaginary part of s is always telling you how rapidly the"
+      },
+      {
+        "start": 553.5,
+        "duration": 5.0,
+        "text": "function oscillates, and in which direction, and then the real part of s is telling you whether"
+      },
+      {
+        "start": 558.6,
+        "duration": 4.6,
+        "text": "the magnitude grows or shrinks, positive real parts corresponding to exponential growth,"
+      },
+      {
+        "start": 563.2,
+        "duration": 7.4,
+        "text": "negative real parts corresponding to exponential decay. This key equation telling us the velocity"
+      },
+      {
+        "start": 570.6,
+        "duration": 6.1,
+        "text": "is a modified version of position is basically a differential equation, and for you and me,"
+      },
+      {
+        "start": 576.7,
+        "duration": 5.4,
+        "text": "having just seen how an intuition for reading off a differential equation like this can explain"
+      },
+      {
+        "start": 582.2,
+        "duration": 4.9,
+        "text": "what complex exponents mean, at least if you want e to the x to retain its core property,"
+      },
+      {
+        "start": 587.0,
+        "duration": 5.0,
+        "text": "let's flip this around to get back to our core question and see how a different set of differential"
+      },
+      {
+        "start": 592.1,
+        "duration": 5.0,
+        "text": "equations can motivate why you would ever care about complex exponents in the first place."
+      },
+      {
+        "start": 597.8,
+        "duration": 4.3,
+        "text": "The easiest case to show you what I mean by this is a very central example used all throughout"
+      },
+      {
+        "start": 602.1,
+        "duration": 4.9,
+        "text": "physics, where you imagine having a mass on a spring. We're going to describe the position of this"
+      },
+      {
+        "start": 607.0,
+        "duration": 5.4,
+        "text": "mass as x, which will change over time. The value zero is going to correspond to the equilibrium"
+      },
+      {
+        "start": 612.4,
+        "duration": 5.2,
+        "text": "position. The derivative of this position versus time function of course gives you the velocity"
+      },
+      {
+        "start": 617.6,
+        "duration": 4.9,
+        "text": "of that mass, and then the second derivative, the rate of change of the velocity, gives you its"
+      },
+      {
+        "start": 622.5,
+        "duration": 5.5,
+        "text": "acceleration. The key feature of this spring setup is that the more you pull that spring to one side,"
+      },
+      {
+        "start": 628.0,
+        "duration": 4.2,
+        "text": "the more strongly it accelerates the mass towards that equilibrium position."
+      },
+      {
+        "start": 632.7,
+        "duration": 4.6,
+        "text": "More specifically, we say that the force, which is equal to mass times acceleration, that's"
+      },
+      {
+        "start": 637.4,
+        "duration": 6.9,
+        "text": "Newton's second law, is often well approximated as negative k times the position. k here is just"
+      },
+      {
+        "start": 644.2,
+        "duration": 4.1,
+        "text": "some positive proportionality constant, it tells you how strong the spring is, and this whole"
+      },
+      {
+        "start": 648.3,
+        "duration": 4.8,
+        "text": "equation is telling you force is proportional to position. Now the reason this example is used"
+      },
+      {
+        "start": 653.1,
+        "duration": 4.8,
+        "text": "all throughout physics is because there are lots of other situations where you approximate a force"
+      },
+      {
+        "start": 658.2,
+        "duration": 4.7,
+        "text": "as being proportional to some kind of offset. Often it's not exactly that, but as a first order"
+      },
+      {
+        "start": 662.9,
+        "duration": 4.7,
+        "text": "approximation, it really helps you model what's going to happen. It's also common to include a term"
+      },
+      {
+        "start": 667.6,
+        "duration": 5.7,
+        "text": "here proportional to the velocity. We call it a damping term. This Greek letter mu is representing"
+      },
+      {
+        "start": 673.3,
+        "duration": 5.3,
+        "text": "another positive coefficient, and the negative sign is telling you the faster this mass is moving,"
+      },
+      {
+        "start": 678.6,
+        "duration": 4.6,
+        "text": "the stronger that damping force. Maybe you think of it as friction, maybe you think of it as air"
+      },
+      {
+        "start": 683.1,
+        "duration": 4.4,
+        "text": "resistance. I remember as a physics student always being bothered by the fact that neither friction"
+      },
+      {
+        "start": 687.5,
+        "duration": 4.3,
+        "text": "nor air resistance actually behave like this, but the better way to view it is that again,"
+      },
+      {
+        "start": 691.8,
+        "duration": 5.4,
+        "text": "this is a first order approximation of whatever the slowing forces might be on this mass."
+      },
+      {
+        "start": 698.3,
+        "duration": 4.9,
+        "text": "The point is, we now have a differential equation. The position over time is an unknown function,"
+      },
+      {
+        "start": 703.2,
+        "duration": 4.6,
+        "text": "but we know it has to adhere to this constraint. And your physical intuition probably tells you"
+      },
+      {
+        "start": 707.8,
+        "duration": 4.2,
+        "text": "loosely what you expect the solution to look like here. There's going to be some oscillation"
+      },
+      {
+        "start": 712.0,
+        "duration": 5.0,
+        "text": "back and forth, and then as it loses energy to whatever those damping effects are, the amplitude"
+      },
+      {
+        "start": 717.0,
+        "duration": 4.5,
+        "text": "of that oscillation is going to decay. I'm going to go ahead and take this equation and move"
+      },
+      {
+        "start": 721.5,
+        "duration": 4.0,
+        "text": "everything to one side of it so that we're setting a bunch of stuff equal to zero. As a quick"
+      },
+      {
+        "start": 725.5,
+        "duration": 5.0,
+        "text": "reminder with differential equations, there's not one specific function that solves it per se."
+      },
+      {
+        "start": 730.5,
+        "duration": 5.3,
+        "text": "For different initial positions where this mass might be, you're going to get distinct functions"
+      },
+      {
+        "start": 735.8,
+        "duration": 5.3,
+        "text": "that also solve the equation. And that's actually only one out of two free parameters that we can"
+      },
+      {
+        "start": 741.0,
+        "duration": 4.9,
+        "text": "change here, because all of these are solutions where the initial velocity is zero. But you could also"
+      },
+      {
+        "start": 745.9,
+        "duration": 4.6,
+        "text": "imagine that the mass starts out with some other non-zero velocity. And every one of these"
+      },
+      {
+        "start": 750.6,
+        "duration": 5.5,
+        "text": "combinations of an initial position and initial velocity corresponds to a distinct function that"
+      },
+      {
+        "start": 756.1,
+        "duration": 4.9,
+        "text": "also solves the equation. So to solve this, really you're looking for a family of functions that"
+      },
+      {
+        "start": 761.0,
+        "duration": 5.0,
+        "text": "solve it. And preferably, you'd like some way to be able to narrow down which member of that family"
+      },
+      {
+        "start": 765.9,
+        "duration": 5.8,
+        "text": "solves it for your specific initial conditions. So how do you solve it? Well, there's this one very"
+      },
+      {
+        "start": 771.8,
+        "duration": 4.4,
+        "text": "bizarre trick, which I remember really bothered me when I was a calculus student who first saw it,"
+      },
+      {
+        "start": 776.2,
+        "duration": 5.9,
+        "text": "which is where you simply guess that the answer looks like E to the S times T, where S is just"
+      },
+      {
+        "start": 782.1,
+        "duration": 4.0,
+        "text": "some constant, something that you're going to solve for. The reason this really bothered me is"
+      },
+      {
+        "start": 786.1,
+        "duration": 4.2,
+        "text": "that guessing and checking like this sort of just feels like asking the student to know the answer"
+      },
+      {
+        "start": 790.2,
+        "duration": 5.0,
+        "text": "ahead of time. And also your physical intuition is telling you that an exponential is probably not"
+      },
+      {
+        "start": 795.3,
+        "duration": 5.3,
+        "text": "really how this mass on a spring behaves. And yes, this is frankly unsystematic. But the point I"
+      },
+      {
+        "start": 800.6,
+        "duration": 5.2,
+        "text": "want to make is that a desire to make this trick more systematic and more generalizable is going"
+      },
+      {
+        "start": 805.8,
+        "duration": 4.5,
+        "text": "to be one of the things that leads you and me to the Laplace transform. Right here, let's just"
+      },
+      {
+        "start": 810.2,
+        "duration": 5.2,
+        "text": "run forward and see what it gives us. If that position versus time really did look like E to the S"
+      },
+      {
+        "start": 815.4,
+        "duration": 4.9,
+        "text": "times T, then when you take its derivative, you get the same function, but by the chain rule,"
+      },
+      {
+        "start": 820.3,
+        "duration": 5.1,
+        "text": "you multiply it by S. And then the second derivative, again, looks like the same function,"
+      },
+      {
+        "start": 825.4,
+        "duration": 5.0,
+        "text": "but it's picked up another factor of S. And then all of the other constants just kind of come along"
+      },
+      {
+        "start": 830.4,
+        "duration": 5.3,
+        "text": "for the ride. What's very nice here is that you can factor out that E to the S times T term."
+      },
+      {
+        "start": 835.7,
+        "duration": 5.5,
+        "text": "And now everything that depends on time is tied up in this term right here. And more over,"
+      },
+      {
+        "start": 841.2,
+        "duration": 5.8,
+        "text": "exponentials will never equal zero. So if this equation is going to be true, it means that this part"
+      },
+      {
+        "start": 847.0,
+        "duration": 5.5,
+        "text": "right here has to equal zero. So what you're left with is a piece of algebra, solve this quadratic"
+      },
+      {
+        "start": 852.6,
+        "duration": 5.1,
+        "text": "equation, one that looks kind of like a mirror image of the original differential equation that we"
+      },
+      {
+        "start": 857.7,
+        "duration": 5.9,
+        "text": "had. The easiest case here is if we ignore that damping coefficient, basically setting new equal"
+      },
+      {
+        "start": 863.6,
+        "duration": 5.3,
+        "text": "to zero with a little bit of rearrangement and taking a square root. What you find is that S is"
+      },
+      {
+        "start": 868.9,
+        "duration": 6.3,
+        "text": "going to be plus or minus the square root of negative K over M. Now K and M are both positive"
+      },
+      {
+        "start": 875.2,
+        "duration": 5.4,
+        "text": "numbers. So that means whether you wanted it or not, I, the square root of negative one, has now"
+      },
+      {
+        "start": 880.6,
+        "duration": 4.6,
+        "text": "entered the game. This square root of K over M term is something that I'm going to give the"
+      },
+      {
+        "start": 885.2,
+        "duration": 5.7,
+        "text": "suggestive shorthand name omega. And rolling back, remember what it is that S represents."
+      },
+      {
+        "start": 890.9,
+        "duration": 5.6,
+        "text": "We were exploring the possibility that a solution to this equation looks like E to the S times T."
+      },
+      {
+        "start": 896.5,
+        "duration": 5.6,
+        "text": "If we plug in these values for S, you now know what that means. Plugging in a purely imaginary"
+      },
+      {
+        "start": 902.1,
+        "duration": 5.8,
+        "text": "term like this corresponds to oscillation in the complex plane. Now on the one hand, that is very"
+      },
+      {
+        "start": 907.9,
+        "duration": 5.8,
+        "text": "weird because obviously our mass on a spring needs a real valued solution, not these complex functions."
+      },
+      {
+        "start": 913.8,
+        "duration": 4.3,
+        "text": "But on the other hand, the idea of oscillating kind of matches what you want to find."
+      },
+      {
+        "start": 918.1,
+        "duration": 5.0,
+        "text": "And it matches it quantitatively too. Imagine that you increase that value K, meaning you have a"
+      },
+      {
+        "start": 923.0,
+        "duration": 5.1,
+        "text": "stronger spring, well then omega goes up so that corresponds to faster oscillation, and your"
+      },
+      {
+        "start": 928.2,
+        "duration": 4.5,
+        "text": "physical intuition backs that up. A stronger spring probably would give you faster oscillation."
+      },
+      {
+        "start": 934.2,
+        "duration": 5.5,
+        "text": "Even still, the result frankly feels bizarre, if not obviously nonsense. I mean, the position"
+      },
+      {
+        "start": 939.8,
+        "duration": 4.6,
+        "text": "of the mass on a spring is clearly a real number. And if you zoom out really what's going on"
+      },
+      {
+        "start": 944.4,
+        "duration": 5.1,
+        "text": "here is that we found for the pure mathematical equation divorced from any physics,"
+      },
+      {
+        "start": 949.5,
+        "duration": 5.8,
+        "text": "there exists a complex valued function that solves it, namely E raised to the i omega times T."
+      },
+      {
+        "start": 956.1,
+        "duration": 4.5,
+        "text": "To connect this pure math land answer to something that's actually physical,"
+      },
+      {
+        "start": 960.6,
+        "duration": 4.6,
+        "text": "you need to squeeze out a real valued solution from this. And the animation on screen kind of"
+      },
+      {
+        "start": 965.2,
+        "duration": 4.2,
+        "text": "gives you one indication of how you could do this. You could just ignore the imaginary part,"
+      },
+      {
+        "start": 969.4,
+        "duration": 5.3,
+        "text": "only consider the real component of this solution that does actually work. But a better way to think"
+      },
+      {
+        "start": 974.6,
+        "duration": 4.0,
+        "text": "about it, which will line up with the overall story I want to tell here that navigates towards"
+      },
+      {
+        "start": 978.6,
+        "duration": 5.8,
+        "text": "Laplace transforms is to add up the two distinct complex solutions that we just found."
+      },
+      {
+        "start": 985.3,
+        "duration": 4.6,
+        "text": "When you add these rotating vectors, tip to tail, the result stays constrained to the real"
+      },
+      {
+        "start": 989.8,
+        "duration": 4.6,
+        "text": "number line. And in fact, the way that it oscillates on that number line over time looks like"
+      },
+      {
+        "start": 994.5,
+        "duration": 7.1,
+        "text": "the function 2 times the cosine of that same frequency term times T. Now the reason that you're"
+      },
+      {
+        "start": 1001.6,
+        "duration": 4.5,
+        "text": "allowed to just add two different solutions like this to get another solution is based on a"
+      },
+      {
+        "start": 1006.1,
+        "duration": 5.6,
+        "text": "critical property of our equation. It's what we call a linear equation, which means if you have two"
+      },
+      {
+        "start": 1011.7,
+        "duration": 4.9,
+        "text": "distinct functions that solve it, then when you add up those functions, that sum of the two"
+      },
+      {
+        "start": 1016.6,
+        "duration": 5.9,
+        "text": "functions also solves the differential equation. And actually, you have more flexibility than that."
+      },
+      {
+        "start": 1022.5,
+        "duration": 4.9,
+        "text": "If you scale each one of those functions by some constant and you add them up, that scaled sum"
+      },
+      {
+        "start": 1027.4,
+        "duration": 5.8,
+        "text": "is also a solution of the equation. Remember, in solving an equation like this, we're not just looking"
+      },
+      {
+        "start": 1033.2,
+        "duration": 5.5,
+        "text": "for one function or even two functions. We're looking for a family of a whole bunch of solutions"
+      },
+      {
+        "start": 1038.7,
+        "duration": 4.9,
+        "text": "that will depend on the initial conditions. In this case, when we tried our admittedly random"
+      },
+      {
+        "start": 1043.6,
+        "duration": 4.8,
+        "text": "looking guess, and the math came back to us with two distinct functions, because it's linear,"
+      },
+      {
+        "start": 1048.4,
+        "duration": 4.9,
+        "text": "you can scale each one of those functions by some constant, add them together, and get a valid"
+      },
+      {
+        "start": 1053.3,
+        "duration": 4.8,
+        "text": "solution to the equation. And those scaling coefficients don't have to be real numbers. Those could"
+      },
+      {
+        "start": 1058.1,
+        "duration": 4.7,
+        "text": "also be complex numbers, which in this case affects the initial angle of each of those rotating"
+      },
+      {
+        "start": 1062.8,
+        "duration": 5.8,
+        "text": "vectors. The family of all possible functions you can get by tuning these two coefficients is the"
+      },
+      {
+        "start": 1068.6,
+        "duration": 5.8,
+        "text": "family of all possible solutions to the original equation. And most of these solutions are complex"
+      },
+      {
+        "start": 1074.4,
+        "duration": 5.0,
+        "text": "valued functions, but the real valued solutions are a special case of those, and which when you want"
+      },
+      {
+        "start": 1079.4,
+        "duration": 5.2,
+        "text": "depends on the initial conditions. For example, if the initial position is supposed to be two,"
+      },
+      {
+        "start": 1084.6,
+        "duration": 4.6,
+        "text": "and the initial velocity is supposed to be zero, then you get a valid answer by setting both of"
+      },
+      {
+        "start": 1089.2,
+        "duration": 5.3,
+        "text": "these coefficients to be one, basically meaning you're just adding the two solutions we found earlier."
+      },
+      {
+        "start": 1094.5,
+        "duration": 4.6,
+        "text": "If the initial position is something different, then you simply scale both those constants by the same"
+      },
+      {
+        "start": 1099.1,
+        "duration": 7.0,
+        "text": "amount. Now, as presented so far, if this is supposed to be an example of why complex exponents"
+      },
+      {
+        "start": 1106.2,
+        "duration": 5.0,
+        "text": "are a natural and desirable thing, one of you could rightfully complain, this is all just needlessly"
+      },
+      {
+        "start": 1111.1,
+        "duration": 4.7,
+        "text": "complicated. If the so-called strategy is to just guess some function with a free parameter,"
+      },
+      {
+        "start": 1115.8,
+        "duration": 4.9,
+        "text": "it's not like it's hard to guess for the situation that a cosine or a sine would solve the"
+      },
+      {
+        "start": 1120.7,
+        "duration": 5.0,
+        "text": "equation, and you could have that frequency term be the free parameter that you're solving for."
+      },
+      {
+        "start": 1125.7,
+        "duration": 4.9,
+        "text": "What you would find, if you knew to make this guess, is that either cosine or sine can totally"
+      },
+      {
+        "start": 1130.6,
+        "duration": 5.4,
+        "text": "solve this equation as long as you set that frequency to be the square root of k over m."
+      },
+      {
+        "start": 1135.9,
+        "duration": 4.6,
+        "text": "And then, just as before, because this is a linear equation, you can get the full family of"
+      },
+      {
+        "start": 1140.6,
+        "duration": 5.0,
+        "text": "solutions by scaling both of these and adding them together. And this is another valid way to"
+      },
+      {
+        "start": 1145.6,
+        "duration": 4.2,
+        "text": "describe the family of solutions, essentially we're describing it with an alternate coordinate"
+      },
+      {
+        "start": 1150.3,
+        "duration": 3.9,
+        "text": "system. And you could argue this is a way more sensible coordinate system to use when we care"
+      },
+      {
+        "start": 1154.2,
+        "duration": 4.8,
+        "text": "about real solutions, because in this case, all the real solutions are what you get, simply by"
+      },
+      {
+        "start": 1159.0,
+        "duration": 5.0,
+        "text": "setting those scaling coefficients to be real numbers. Isn't this just way more sensible"
+      },
+      {
+        "start": 1164.0,
+        "duration": 4.9,
+        "text": "why complicate things with complex numbers? The value of putting exponentials front and center"
+      },
+      {
+        "start": 1168.9,
+        "duration": 6.0,
+        "text": "makes itself clear as soon as we try to generalize things. So far, when we solved for s, we got these"
+      },
+      {
+        "start": 1174.9,
+        "duration": 5.1,
+        "text": "two different values in the complex plane that are constrained to the imaginary line."
+      },
+      {
+        "start": 1180.0,
+        "duration": 5.6,
+        "text": "And as you change what the constants k and m look like, you end up with different imaginary values"
+      },
+      {
+        "start": 1185.6,
+        "duration": 5.0,
+        "text": "that for your solution correspond to distinct frequencies in the oscillation that you get."
+      },
+      {
+        "start": 1190.6,
+        "duration": 4.0,
+        "text": "But think about what it means if we reintroduce that damping coefficient, mu,"
+      },
+      {
+        "start": 1194.6,
+        "duration": 5.1,
+        "text": "setting it to something that's not equal to zero. Well, in this case, solving the equation looks like"
+      },
+      {
+        "start": 1199.7,
+        "duration": 4.7,
+        "text": "applying the quadratic formula, and you don't really need to dwell on the details of the algebra here,"
+      },
+      {
+        "start": 1204.4,
+        "duration": 4.6,
+        "text": "I'm just going to go ahead and show you what it looks like if I increase the value of that"
+      },
+      {
+        "start": 1209.0,
+        "duration": 6.6,
+        "text": "coefficient mu, and we see where the two corresponding solutions for s land in the complex plane."
+      },
+      {
+        "start": 1216.2,
+        "duration": 5.6,
+        "text": "The salient feature is that they have not only an imaginary, but also a negative real component."
+      },
+      {
+        "start": 1221.8,
+        "duration": 3.7,
+        "text": "And just a few minutes ago, we talked all about what it looks like if you want to"
+      },
+      {
+        "start": 1225.5,
+        "duration": 6.6,
+        "text": "exponentially something with a negative real part and an imaginary part. It both decays and oscillates."
+      },
+      {
+        "start": 1232.1,
+        "duration": 4.8,
+        "text": "With a real part tells you how much it decays, the imaginary part tells you how much it oscillates."
+      },
+      {
+        "start": 1236.9,
+        "duration": 4.6,
+        "text": "In this case, what I'll do is graph for you the real component of that exponential."
+      },
+      {
+        "start": 1241.4,
+        "duration": 3.6,
+        "text": "And it kind of matches what you would expect of the spring. One thing that's actually pretty fun"
+      },
+      {
+        "start": 1245.0,
+        "duration": 5.4,
+        "text": "here is how if you increase that damping coefficient mu enough, eventually the solutions no longer"
+      },
+      {
+        "start": 1250.4,
+        "duration": 5.6,
+        "text": "have any imaginary part and they only have a real component, meaning the solution just looks like decay."
+      },
+      {
+        "start": 1256.0,
+        "duration": 4.9,
+        "text": "And when this happens, you call the spring over damped. This whole example is called the damped"
+      },
+      {
+        "start": 1261.0,
+        "duration": 5.0,
+        "text": "harmonic oscillator. Like I said, it's very fundamental throughout physics. So just understanding it"
+      },
+      {
+        "start": 1265.9,
+        "duration": 6.0,
+        "text": "in its own right is a worthy enough task. But how far does this dumb little trick actually take us?"
+      },
+      {
+        "start": 1271.9,
+        "duration": 4.7,
+        "text": "The straightforward way that you can generalize it is for any equation that looks like this,"
+      },
+      {
+        "start": 1276.6,
+        "duration": 4.7,
+        "text": "where you're taking a bunch of higher order derivatives, you're scaling each one by some constant,"
+      },
+      {
+        "start": 1281.4,
+        "duration": 5.1,
+        "text": "you add them all up, and you set the result equal to zero. In that case, everything we just did"
+      },
+      {
+        "start": 1286.5,
+        "duration": 6.3,
+        "text": "works essentially the same way. If you substitute E to the ST for X, then all of these derivative terms"
+      },
+      {
+        "start": 1292.8,
+        "duration": 5.8,
+        "text": "look just like that, but each one picks up an additional factor of S. This lets you factor out"
+      },
+      {
+        "start": 1298.6,
+        "duration": 5.2,
+        "text": "all of the exponential parts, leaving you with a certain polynomial in S that you want to equal zero."
+      },
+      {
+        "start": 1304.4,
+        "duration": 5.4,
+        "text": "One of the most fundamental facts in algebra, literally called the fundamental theorem of algebra,"
+      },
+      {
+        "start": 1309.8,
+        "duration": 6.6,
+        "text": "is that polynomials can always be factored into linear terms like this, exposing N roots to"
+      },
+      {
+        "start": 1316.4,
+        "duration": 5.8,
+        "text": "the equation, as long as you give those roots the freedom to maybe take on complex number values."
+      },
+      {
+        "start": 1322.2,
+        "duration": 5.0,
+        "text": "So for example, if this was some fifth degree equation, your solutions might look something like"
+      },
+      {
+        "start": 1327.2,
+        "duration": 5.0,
+        "text": "this in the S plane. Just like the oscillator example, this is basically the math telling you,"
+      },
+      {
+        "start": 1332.2,
+        "duration": 6.3,
+        "text": "hey, E to the ST can absolutely be a valid solution, as long as you set S equal to one of these values."
+      },
+      {
+        "start": 1338.5,
+        "duration": 5.7,
+        "text": "And just as before, this is a linear equation. So you can find the family of all solutions by"
+      },
+      {
+        "start": 1344.2,
+        "duration": 5.1,
+        "text": "scaling each one of these exponentials and adding them together. All of these constants are like"
+      },
+      {
+        "start": 1349.3,
+        "duration": 4.9,
+        "text": "knobs and dials that you can tune to your heart's content. They can be real or they can be complex,"
+      },
+      {
+        "start": 1354.2,
+        "duration": 4.9,
+        "text": "allowing them to influence both the amplitude and the phase of each term. The specific values will"
+      },
+      {
+        "start": 1359.0,
+        "duration": 4.8,
+        "text": "depend on your initial conditions. I am glossing over a certain nuance when it comes to repeated"
+      },
+      {
+        "start": 1363.8,
+        "duration": 6.6,
+        "text": "roots, but this is the general idea. Unfortunately, most real world equations are not simple linear ones"
+      },
+      {
+        "start": 1370.4,
+        "duration": 4.9,
+        "text": "like this. For example, the equation for a damped harmonic oscillator has actually come up on this"
+      },
+      {
+        "start": 1375.3,
+        "duration": 5.4,
+        "text": "channel before in a video about optics, but it came with a twist. We were studying why light"
+      },
+      {
+        "start": 1380.7,
+        "duration": 5.2,
+        "text": "appears to slow down in a medium-like glass, causing it to refract. And the key question was to"
+      },
+      {
+        "start": 1385.9,
+        "duration": 5.0,
+        "text": "understand why this depends on the color of that light, giving the effect of a prism. Now,"
+      },
+      {
+        "start": 1391.0,
+        "duration": 4.5,
+        "text": "I'm not going to recount all the details here, but what you need to know is that deep in that video,"
+      },
+      {
+        "start": 1395.4,
+        "duration": 5.8,
+        "text": "we were modeling charges inside the material, like glass, as little damped harmonic oscillators."
+      },
+      {
+        "start": 1401.3,
+        "duration": 4.4,
+        "text": "These little charges wiggling about some equilibrium position were being influenced by an"
+      },
+      {
+        "start": 1405.7,
+        "duration": 5.4,
+        "text": "external force, in this case an incoming light wave, which oscillated up and down as a sine wave,"
+      },
+      {
+        "start": 1411.1,
+        "duration": 4.8,
+        "text": "and critically the frequency of that incoming light would in general have nothing to do with the"
+      },
+      {
+        "start": 1415.9,
+        "duration": 5.1,
+        "text": "natural resonant frequency of the oscillator. So, in short, we were studying the same equation,"
+      },
+      {
+        "start": 1421.1,
+        "duration": 5.3,
+        "text": "but with this added term that looks like a certain cosine expression. Now, unlike the linear case,"
+      },
+      {
+        "start": 1426.4,
+        "duration": 4.8,
+        "text": "the family of solutions here does not look as simple as a linear combination of exponentials,"
+      },
+      {
+        "start": 1431.2,
+        "duration": 4.6,
+        "text": "where you can freely tune all of those constants to your heart's content. And this dumb trick of"
+      },
+      {
+        "start": 1435.8,
+        "duration": 4.6,
+        "text": "just guessing e to the st certainly is not going to work. However, everything that we've"
+      },
+      {
+        "start": 1440.5,
+        "duration": 4.7,
+        "text": "discussed here does actually bring you a lot closer than you might expect. The solutions in this"
+      },
+      {
+        "start": 1445.2,
+        "duration": 5.7,
+        "text": "more complicated case do happen to look like a combination of four specific exponentials."
+      },
+      {
+        "start": 1450.9,
+        "duration": 4.4,
+        "text": "It's just that unlike the linear case, you can't freely tune all of the coefficients. It's a"
+      },
+      {
+        "start": 1455.3,
+        "duration": 5.4,
+        "text": "lot more constrained. In fact, the whole substance of that prism example comes down to understanding"
+      },
+      {
+        "start": 1460.7,
+        "duration": 5.4,
+        "text": "exactly how big these coefficients are as a function of that incoming light frequency."
+      },
+      {
+        "start": 1466.1,
+        "duration": 4.1,
+        "text": "This is a surprisingly common outcome where the solutions to some differential equation that"
+      },
+      {
+        "start": 1470.2,
+        "duration": 5.5,
+        "text": "pops up in the real world looks like a certain combination of exponentials, but with particular"
+      },
+      {
+        "start": 1475.7,
+        "duration": 5.9,
+        "text": "coefficients. This ubiquity of exponentials is why engineers benefit from an intuitive understanding"
+      },
+      {
+        "start": 1481.6,
+        "duration": 4.6,
+        "text": "of points on the s plane and how they can encode growth decay and oscillation."
+      },
+      {
+        "start": 1487.8,
+        "duration": 5.4,
+        "text": "You can kind of think about these functions e to the st as being like the atoms of calculus."
+      },
+      {
+        "start": 1493.2,
+        "duration": 4.6,
+        "text": "What I mean by that is that complicated functions that describe our world can often be broken up"
+      },
+      {
+        "start": 1497.8,
+        "duration": 4.5,
+        "text": "into these parts, as long as you give s the freedom to take on complex values."
+      },
+      {
+        "start": 1502.2,
+        "duration": 5.0,
+        "text": "And by breaking it up that way, they become simpler to understand and to study. This becomes"
+      },
+      {
+        "start": 1507.3,
+        "duration": 6.4,
+        "text": "especially true if you allow for infinite combinations, potentially over a continuum of values for s,"
+      },
+      {
+        "start": 1513.7,
+        "duration": 4.6,
+        "text": "rather than some discrete set. We're going to go deep with that idea and it is hard to overstate"
+      },
+      {
+        "start": 1518.2,
+        "duration": 5.8,
+        "text": "how powerful it is. The key question is, given some unknown function and a differential equation"
+      },
+      {
+        "start": 1525.0,
+        "duration": 3.9,
+        "text": "even if you assume it can be broken up into exponential parts like this, how do you actually"
+      },
+      {
+        "start": 1529.0,
+        "duration": 5.0,
+        "text": "find what those parts are? Taking the forced harmonic oscillator, for example, how would you"
+      },
+      {
+        "start": 1533.9,
+        "duration": 4.6,
+        "text": "know that the solution is built out of four specific exponentials? How would you solve for the"
+      },
+      {
+        "start": 1538.6,
+        "duration": 5.0,
+        "text": "appropriate values of s in the exponents and how would you solve for the corresponding coefficients"
+      },
+      {
+        "start": 1543.6,
+        "duration": 5.4,
+        "text": "for a particular initial condition? There is a tool for this job, and as you may have guessed by"
+      },
+      {
+        "start": 1549.0,
+        "duration": 5.3,
+        "text": "this point, it's something known as a Laplace transform. If you watch the earlier chapter"
+      },
+      {
+        "start": 1554.2,
+        "duration": 4.9,
+        "text": "about Fourier series, a lot of what I'm saying here is probably ringing all kinds of bells,"
+      },
+      {
+        "start": 1559.1,
+        "duration": 5.7,
+        "text": "imaginary exponentials as describing a kind of rotation, breaking up general functions as a sum"
+      },
+      {
+        "start": 1564.8,
+        "duration": 4.7,
+        "text": "of those rotating exponentials. And there is absolutely a connection here, a big part of the"
+      },
+      {
+        "start": 1569.5,
+        "duration": 5.3,
+        "text": "story I want to tell is how this Laplace transform we are building up to extends the notion of"
+      },
+      {
+        "start": 1574.8,
+        "duration": 4.6,
+        "text": "Fourier series and Fourier transforms, applying to a much more general family of functions."
+      },
+      {
+        "start": 1580.1,
+        "duration": 4.0,
+        "text": "We're going to go into much more detail in the next two chapters, but here's a high level"
+      },
+      {
+        "start": 1584.1,
+        "duration": 5.0,
+        "text": "preview. When you use a Laplace transform to solve a differential equation, it actually ends up"
+      },
+      {
+        "start": 1589.1,
+        "duration": 6.1,
+        "text": "looking remarkably similar to that dumb trick of substituting e to the st. In the context of our"
+      },
+      {
+        "start": 1595.2,
+        "duration": 5.0,
+        "text": "dumb trick, the differential equation turned into algebra basically because the act of taking a"
+      },
+      {
+        "start": 1600.2,
+        "duration": 5.2,
+        "text": "derivative is the same as multiplication by s, at least for these specific functions."
+      },
+      {
+        "start": 1606.3,
+        "duration": 4.7,
+        "text": "That same thing happens when you use a Laplace transform, and it's for essentially the same"
+      },
+      {
+        "start": 1611.0,
+        "duration": 6.2,
+        "text": "reason too. What that operation does is translate functions into a new language, where these terms"
+      },
+      {
+        "start": 1617.2,
+        "duration": 6.8,
+        "text": "e to the st, the atoms of calculus, are the fundamental units. Then again, the fact that differentiation"
+      },
+      {
+        "start": 1624.0,
+        "duration": 5.7,
+        "text": "in time looks like multiplication by s for these terms means that in this new language,"
+      },
+      {
+        "start": 1629.7,
+        "duration": 5.5,
+        "text": "derivatives start to look a lot like multiplication, and differential equations start to look like algebra."
+      },
+      {
+        "start": 1636.2,
+        "duration": 5.0,
+        "text": "To see how exactly this transform is defined, how you can visualize what it's doing,"
+      },
+      {
+        "start": 1641.1,
+        "duration": 5.0,
+        "text": "and how to use it to concretely solve a nonlinear equation, come join me in the next chapter."
+      },
+      {
+        "start": 1647.5,
+        "duration": 4.6,
+        "text": "At the time I'm publishing this, an early view for that next chapter is available on Patreon,"
+      },
+      {
+        "start": 1652.1,
+        "duration": 5.0,
+        "text": "and my plan is to incorporate the feedback and get a finalized version out by next week. See you then!"
+      }
+    ],
+    "full_text": "This is the first video in a trilogy aimed at demystifying the Laplace transform, a powerful tool for studying differential equations. Although we won't dig into the Laplace transform itself until the next two chapters, everything that we cover here sets up the mental frameworks and the prerequisite knowledge that make understanding that transform as easy as I know how. This video is a lot more than just preamble, though. It's a very fun lesson in its own right about how one of the most famous equations in all of math enables a bizarre trick for solving an equation that is used ubiquitously throughout physics. The main characters throughout this chapter and the next two are exponential functions, and I'm always going to be writing these as E to the S times T. Here we think of T as being time, and then S is just some number determining which specific exponential we're talking about. One of the big aims of this video is to motivate using physics why it's useful to give S the freedom to take on not only real number values, but complex ones as well. But wait a minute, what does it even mean to shove a complex number into an exponent? Here, I imagine there's a bit of a divide in the audience. You see there's some regular viewers of math videos online, for whom the specific case of plugging in Pi times i is a little bit cliché by this point. It is ample covered by many videos on YouTube. But on the other hand, most students find this to be an understandably baffling notion. Given how absolutely fundamental this is to everything that follows, even if you fall into that first camp, I hope you'll agree that it's worth kicking things off here by reviewing a very beautiful and visual way to understand what this idea is all about. The nice part is that what follows doubles as a gentle warmup for visualizing and thinking about differential equations. You start with the fact that e to the t is its own derivative. And really you should think of this as what defines the number e. Exponentials with other bases will have derivatives that are proportional to themselves, but e is the special number such that that proportionality constant is one. Now very often in a calculus class you visualize derivatives as slopes of graphs, that's all well and good, but it's not the only way. You should get in the habit of flexing your mind a bit more. For example, let's say you think of this as telling you the position of some point on the number line as a function of time. Then what the derivative expression is telling you is that at every moment, the velocity vector must look identical to the position vector. And more specifically because you know that e to the zero equals one, anything to the zero is one, you also have an initial condition. It's telling you you start at the number one. So at the very first moment, the velocity is also one, meaning it's pointed to the right, but the farther to the right the position gets, the faster it must move. So even if you had never heard of the function e to the t or exponential growth, this property alone is enough to give you a very visceral feeling for how it gives a value that grows and at an accelerating rate. But what if there was some constant in that exponent, like e to the two times t? Well by the chain rule, the derivative is then two times the function itself, and reading this dynamically, it's telling you the velocity vector is always two times the position vector. Again, the farther to the right the position gets, the faster it must move, but this time, the feeling is that that growth gets out of hand all the more quickly. What if that constant was negative? Say negative 0.5. Well, once again, by the chain rule, the derivative of this function is negative 0.5 times the function itself. So at every moment in time, that velocity vector looks like a 180 degree rotation of the position vector, but scaled down to be half its length. This means you start moving to the left, but as you approach 0 with a smaller position vector, that velocity must get proportionally smaller. So it approaches 0, but at an ever-sloing pace. This, of course, is exponential decay. But now for the fun part, why we're here in the first place. What if that constant was an imaginary number? I, the square root of negative 1. Again, the chain rule tells us that the derivative of this function is going to be i times the function itself. Geometrically, multiplying by i acts like a 90 degree rotation. So this is telling you, velocity always has to be perpendicular to position. For anyone who's a little bit rusty or needs a quick review with complex numbers, let's say you have an arbitrary complex value, a plus b i, which you typically draw in the 2d plane like this. The easiest way to think about multiplying by i is to go component by component. A times i ends up on this vertical imaginary line. And then bi times i is bi squared, which is negative b. This is where you actually use the defining property of i. And you'll notice each of those two individual components is rotated 90 degrees. So the sum as a whole also has to get rotated 90 degrees. Looking back at the equation, where this time evidently we must be thinking about position as being in the complex plane, even if you had never heard of raising e to an imaginary number. And even if it's not clear at first what that would actually mean, the expression is telling you that this value has to move in such a way that the velocity vector is always locked to be a 90 degree rotated copy of the position vector. The only motion that satisfies this criterion is rotation around a circle. And you can be more specific because the initial position is one that velocity vector always has a unit length. So this tells you how fast you have to move. Your point wanders around that circle in such a way that it traces one unit of arc length for every unit of time. For example, to get one of the most famous equations in all of math, if you wait for pi units of time, you end up precisely halfway around the circle. This is why e to the pi times i is negative one. One thing that's always worth emphasizing to any students initially confused by this expression is just how misleading the notation is. When you input a complex value, the expression really has very little to do with repeated multiplication. And honestly not that much to do with the number e, the computation that it refers to is plugging in the input into this infinite polynomial, the Taylor series for e to the x. It's actually very fun, I think, to take a moment to interpret the literal meaning of plugging in something like pi times i for each one of these polynomial terms. As you take a higher power, each extra factor of i rotates you another 90 degrees. And then the pi to the end divided by in factorial terms initially grow, but then they shrink as that denominator takes over, and you end up with this spiraling sum that converges to negative one. Now that said, it is not at all obvious just looking at this infinite polynomial that if you change the value t in the expression e to the i times t, you're going to end up walking around a unit circle. This is why focusing on the property of being its own derivative is a lot more helpful than focusing on the underlying computation. In practice, people get used to using the expression e to the x as a notational shorthand here, and really think nothing of it. Throughout this lesson, I'm going to be pulling up a complex plane representing possible values for this number s, and for each point on this plane, I want you to be able to think about the corresponding exponential function e to the s times t. We were just talking through what happens when s is equal to i. On the lower right, I can show you how that output changes with time, and then on the top right, I might show a graph where, in order to fit it on the screen, I'll typically only graph the real part of that output, with respect to time, in this case it looks like a cosine wave. If s is a different imaginary number, something like two times i, it means you rotate at a different rate. And on the one hand, this is obvious, throwing in a two in front of the time obviously moves you twice as fast. But again, I think it's kind of fun to read what the derivative expression is telling you dynamically. In this case, you can read it as saying the velocity is always a copy of the position vector, rotated 90 degrees, but stretched to have a length of two. More generally, it's common to label this imaginary part with the Greek letter omega, which describes the angular frequency of the motion. In other words, how many radians of arc length does it traverse around the circle per unit time? This is just the imaginary axis, but what about when s has both a real and an imaginary part, something like negative 0.5 plus i? On the one hand, you can split up the exponential, and this part here is telling you that the magnitude decays over time, and then this part is telling you that there's rotation. That's all well and good, but for fun, another way that you can think about it is to continue with the previous intuition. To understand what multiplication by any complex number looks like, you can ask what combination of rotation and stretching would place the vector at one onto this new value s. For this example here, that would look like rotating a little over 90 degrees and stretching it out a bit. So the derivative expression is telling you this is always the relationship between the position and velocity vectors, and I think geometrically this gives you a very visceral way to see why the motion must be spiraling inwards. You'll sometimes hear engineers refer to this as the s plane, which essentially means you should think of each point on that plane as encoding the entire function e to the s t. The imaginary part of s is always telling you how rapidly the function oscillates, and in which direction, and then the real part of s is telling you whether the magnitude grows or shrinks, positive real parts corresponding to exponential growth, negative real parts corresponding to exponential decay. This key equation telling us the velocity is a modified version of position is basically a differential equation, and for you and me, having just seen how an intuition for reading off a differential equation like this can explain what complex exponents mean, at least if you want e to the x to retain its core property, let's flip this around to get back to our core question and see how a different set of differential equations can motivate why you would ever care about complex exponents in the first place. The easiest case to show you what I mean by this is a very central example used all throughout physics, where you imagine having a mass on a spring. We're going to describe the position of this mass as x, which will change over time. The value zero is going to correspond to the equilibrium position. The derivative of this position versus time function of course gives you the velocity of that mass, and then the second derivative, the rate of change of the velocity, gives you its acceleration. The key feature of this spring setup is that the more you pull that spring to one side, the more strongly it accelerates the mass towards that equilibrium position. More specifically, we say that the force, which is equal to mass times acceleration, that's Newton's second law, is often well approximated as negative k times the position. k here is just some positive proportionality constant, it tells you how strong the spring is, and this whole equation is telling you force is proportional to position. Now the reason this example is used all throughout physics is because there are lots of other situations where you approximate a force as being proportional to some kind of offset. Often it's not exactly that, but as a first order approximation, it really helps you model what's going to happen. It's also common to include a term here proportional to the velocity. We call it a damping term. This Greek letter mu is representing another positive coefficient, and the negative sign is telling you the faster this mass is moving, the stronger that damping force. Maybe you think of it as friction, maybe you think of it as air resistance. I remember as a physics student always being bothered by the fact that neither friction nor air resistance actually behave like this, but the better way to view it is that again, this is a first order approximation of whatever the slowing forces might be on this mass. The point is, we now have a differential equation. The position over time is an unknown function, but we know it has to adhere to this constraint. And your physical intuition probably tells you loosely what you expect the solution to look like here. There's going to be some oscillation back and forth, and then as it loses energy to whatever those damping effects are, the amplitude of that oscillation is going to decay. I'm going to go ahead and take this equation and move everything to one side of it so that we're setting a bunch of stuff equal to zero. As a quick reminder with differential equations, there's not one specific function that solves it per se. For different initial positions where this mass might be, you're going to get distinct functions that also solve the equation. And that's actually only one out of two free parameters that we can change here, because all of these are solutions where the initial velocity is zero. But you could also imagine that the mass starts out with some other non-zero velocity. And every one of these combinations of an initial position and initial velocity corresponds to a distinct function that also solves the equation. So to solve this, really you're looking for a family of functions that solve it. And preferably, you'd like some way to be able to narrow down which member of that family solves it for your specific initial conditions. So how do you solve it? Well, there's this one very bizarre trick, which I remember really bothered me when I was a calculus student who first saw it, which is where you simply guess that the answer looks like E to the S times T, where S is just some constant, something that you're going to solve for. The reason this really bothered me is that guessing and checking like this sort of just feels like asking the student to know the answer ahead of time. And also your physical intuition is telling you that an exponential is probably not really how this mass on a spring behaves. And yes, this is frankly unsystematic. But the point I want to make is that a desire to make this trick more systematic and more generalizable is going to be one of the things that leads you and me to the Laplace transform. Right here, let's just run forward and see what it gives us. If that position versus time really did look like E to the S times T, then when you take its derivative, you get the same function, but by the chain rule, you multiply it by S. And then the second derivative, again, looks like the same function, but it's picked up another factor of S. And then all of the other constants just kind of come along for the ride. What's very nice here is that you can factor out that E to the S times T term. And now everything that depends on time is tied up in this term right here. And more over, exponentials will never equal zero. So if this equation is going to be true, it means that this part right here has to equal zero. So what you're left with is a piece of algebra, solve this quadratic equation, one that looks kind of like a mirror image of the original differential equation that we had. The easiest case here is if we ignore that damping coefficient, basically setting new equal to zero with a little bit of rearrangement and taking a square root. What you find is that S is going to be plus or minus the square root of negative K over M. Now K and M are both positive numbers. So that means whether you wanted it or not, I, the square root of negative one, has now entered the game. This square root of K over M term is something that I'm going to give the suggestive shorthand name omega. And rolling back, remember what it is that S represents. We were exploring the possibility that a solution to this equation looks like E to the S times T. If we plug in these values for S, you now know what that means. Plugging in a purely imaginary term like this corresponds to oscillation in the complex plane. Now on the one hand, that is very weird because obviously our mass on a spring needs a real valued solution, not these complex functions. But on the other hand, the idea of oscillating kind of matches what you want to find. And it matches it quantitatively too. Imagine that you increase that value K, meaning you have a stronger spring, well then omega goes up so that corresponds to faster oscillation, and your physical intuition backs that up. A stronger spring probably would give you faster oscillation. Even still, the result frankly feels bizarre, if not obviously nonsense. I mean, the position of the mass on a spring is clearly a real number. And if you zoom out really what's going on here is that we found for the pure mathematical equation divorced from any physics, there exists a complex valued function that solves it, namely E raised to the i omega times T. To connect this pure math land answer to something that's actually physical, you need to squeeze out a real valued solution from this. And the animation on screen kind of gives you one indication of how you could do this. You could just ignore the imaginary part, only consider the real component of this solution that does actually work. But a better way to think about it, which will line up with the overall story I want to tell here that navigates towards Laplace transforms is to add up the two distinct complex solutions that we just found. When you add these rotating vectors, tip to tail, the result stays constrained to the real number line. And in fact, the way that it oscillates on that number line over time looks like the function 2 times the cosine of that same frequency term times T. Now the reason that you're allowed to just add two different solutions like this to get another solution is based on a critical property of our equation. It's what we call a linear equation, which means if you have two distinct functions that solve it, then when you add up those functions, that sum of the two functions also solves the differential equation. And actually, you have more flexibility than that. If you scale each one of those functions by some constant and you add them up, that scaled sum is also a solution of the equation. Remember, in solving an equation like this, we're not just looking for one function or even two functions. We're looking for a family of a whole bunch of solutions that will depend on the initial conditions. In this case, when we tried our admittedly random looking guess, and the math came back to us with two distinct functions, because it's linear, you can scale each one of those functions by some constant, add them together, and get a valid solution to the equation. And those scaling coefficients don't have to be real numbers. Those could also be complex numbers, which in this case affects the initial angle of each of those rotating vectors. The family of all possible functions you can get by tuning these two coefficients is the family of all possible solutions to the original equation. And most of these solutions are complex valued functions, but the real valued solutions are a special case of those, and which when you want depends on the initial conditions. For example, if the initial position is supposed to be two, and the initial velocity is supposed to be zero, then you get a valid answer by setting both of these coefficients to be one, basically meaning you're just adding the two solutions we found earlier. If the initial position is something different, then you simply scale both those constants by the same amount. Now, as presented so far, if this is supposed to be an example of why complex exponents are a natural and desirable thing, one of you could rightfully complain, this is all just needlessly complicated. If the so-called strategy is to just guess some function with a free parameter, it's not like it's hard to guess for the situation that a cosine or a sine would solve the equation, and you could have that frequency term be the free parameter that you're solving for. What you would find, if you knew to make this guess, is that either cosine or sine can totally solve this equation as long as you set that frequency to be the square root of k over m. And then, just as before, because this is a linear equation, you can get the full family of solutions by scaling both of these and adding them together. And this is another valid way to describe the family of solutions, essentially we're describing it with an alternate coordinate system. And you could argue this is a way more sensible coordinate system to use when we care about real solutions, because in this case, all the real solutions are what you get, simply by setting those scaling coefficients to be real numbers. Isn't this just way more sensible why complicate things with complex numbers? The value of putting exponentials front and center makes itself clear as soon as we try to generalize things. So far, when we solved for s, we got these two different values in the complex plane that are constrained to the imaginary line. And as you change what the constants k and m look like, you end up with different imaginary values that for your solution correspond to distinct frequencies in the oscillation that you get. But think about what it means if we reintroduce that damping coefficient, mu, setting it to something that's not equal to zero. Well, in this case, solving the equation looks like applying the quadratic formula, and you don't really need to dwell on the details of the algebra here, I'm just going to go ahead and show you what it looks like if I increase the value of that coefficient mu, and we see where the two corresponding solutions for s land in the complex plane. The salient feature is that they have not only an imaginary, but also a negative real component. And just a few minutes ago, we talked all about what it looks like if you want to exponentially something with a negative real part and an imaginary part. It both decays and oscillates. With a real part tells you how much it decays, the imaginary part tells you how much it oscillates. In this case, what I'll do is graph for you the real component of that exponential. And it kind of matches what you would expect of the spring. One thing that's actually pretty fun here is how if you increase that damping coefficient mu enough, eventually the solutions no longer have any imaginary part and they only have a real component, meaning the solution just looks like decay. And when this happens, you call the spring over damped. This whole example is called the damped harmonic oscillator. Like I said, it's very fundamental throughout physics. So just understanding it in its own right is a worthy enough task. But how far does this dumb little trick actually take us? The straightforward way that you can generalize it is for any equation that looks like this, where you're taking a bunch of higher order derivatives, you're scaling each one by some constant, you add them all up, and you set the result equal to zero. In that case, everything we just did works essentially the same way. If you substitute E to the ST for X, then all of these derivative terms look just like that, but each one picks up an additional factor of S. This lets you factor out all of the exponential parts, leaving you with a certain polynomial in S that you want to equal zero. One of the most fundamental facts in algebra, literally called the fundamental theorem of algebra, is that polynomials can always be factored into linear terms like this, exposing N roots to the equation, as long as you give those roots the freedom to maybe take on complex number values. So for example, if this was some fifth degree equation, your solutions might look something like this in the S plane. Just like the oscillator example, this is basically the math telling you, hey, E to the ST can absolutely be a valid solution, as long as you set S equal to one of these values. And just as before, this is a linear equation. So you can find the family of all solutions by scaling each one of these exponentials and adding them together. All of these constants are like knobs and dials that you can tune to your heart's content. They can be real or they can be complex, allowing them to influence both the amplitude and the phase of each term. The specific values will depend on your initial conditions. I am glossing over a certain nuance when it comes to repeated roots, but this is the general idea. Unfortunately, most real world equations are not simple linear ones like this. For example, the equation for a damped harmonic oscillator has actually come up on this channel before in a video about optics, but it came with a twist. We were studying why light appears to slow down in a medium-like glass, causing it to refract. And the key question was to understand why this depends on the color of that light, giving the effect of a prism. Now, I'm not going to recount all the details here, but what you need to know is that deep in that video, we were modeling charges inside the material, like glass, as little damped harmonic oscillators. These little charges wiggling about some equilibrium position were being influenced by an external force, in this case an incoming light wave, which oscillated up and down as a sine wave, and critically the frequency of that incoming light would in general have nothing to do with the natural resonant frequency of the oscillator. So, in short, we were studying the same equation, but with this added term that looks like a certain cosine expression. Now, unlike the linear case, the family of solutions here does not look as simple as a linear combination of exponentials, where you can freely tune all of those constants to your heart's content. And this dumb trick of just guessing e to the st certainly is not going to work. However, everything that we've discussed here does actually bring you a lot closer than you might expect. The solutions in this more complicated case do happen to look like a combination of four specific exponentials. It's just that unlike the linear case, you can't freely tune all of the coefficients. It's a lot more constrained. In fact, the whole substance of that prism example comes down to understanding exactly how big these coefficients are as a function of that incoming light frequency. This is a surprisingly common outcome where the solutions to some differential equation that pops up in the real world looks like a certain combination of exponentials, but with particular coefficients. This ubiquity of exponentials is why engineers benefit from an intuitive understanding of points on the s plane and how they can encode growth decay and oscillation. You can kind of think about these functions e to the st as being like the atoms of calculus. What I mean by that is that complicated functions that describe our world can often be broken up into these parts, as long as you give s the freedom to take on complex values. And by breaking it up that way, they become simpler to understand and to study. This becomes especially true if you allow for infinite combinations, potentially over a continuum of values for s, rather than some discrete set. We're going to go deep with that idea and it is hard to overstate how powerful it is. The key question is, given some unknown function and a differential equation even if you assume it can be broken up into exponential parts like this, how do you actually find what those parts are? Taking the forced harmonic oscillator, for example, how would you know that the solution is built out of four specific exponentials? How would you solve for the appropriate values of s in the exponents and how would you solve for the corresponding coefficients for a particular initial condition? There is a tool for this job, and as you may have guessed by this point, it's something known as a Laplace transform. If you watch the earlier chapter about Fourier series, a lot of what I'm saying here is probably ringing all kinds of bells, imaginary exponentials as describing a kind of rotation, breaking up general functions as a sum of those rotating exponentials. And there is absolutely a connection here, a big part of the story I want to tell is how this Laplace transform we are building up to extends the notion of Fourier series and Fourier transforms, applying to a much more general family of functions. We're going to go into much more detail in the next two chapters, but here's a high level preview. When you use a Laplace transform to solve a differential equation, it actually ends up looking remarkably similar to that dumb trick of substituting e to the st. In the context of our dumb trick, the differential equation turned into algebra basically because the act of taking a derivative is the same as multiplication by s, at least for these specific functions. That same thing happens when you use a Laplace transform, and it's for essentially the same reason too. What that operation does is translate functions into a new language, where these terms e to the st, the atoms of calculus, are the fundamental units. Then again, the fact that differentiation in time looks like multiplication by s for these terms means that in this new language, derivatives start to look a lot like multiplication, and differential equations start to look like algebra. To see how exactly this transform is defined, how you can visualize what it's doing, and how to use it to concretely solve a nonlinear equation, come join me in the next chapter. At the time I'm publishing this, an early view for that next chapter is available on Patreon, and my plan is to incorporate the feedback and get a finalized version out by next week. See you then!"
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "video_id": "e50Bj7jn9IQ",
+  "video_title": "A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 793.0,
+  "view_count": 1277978,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.0,
+        "text": "This is a video for anyone who already knows what eigenvalues and eigenvectors are,"
+      },
+      {
+        "start": 4.0,
+        "duration": 3.6,
+        "text": "and who might enjoy a quick way to compute them, in the case of 2x2 matrices."
+      },
+      {
+        "start": 8.5,
+        "duration": 3.4,
+        "text": "If you're unfamiliar with eigenvalues, go ahead and take a look at this video here,"
+      },
+      {
+        "start": 11.9,
+        "duration": 1.7,
+        "text": "which is actually meant to introduce them."
+      },
+      {
+        "start": 14.6,
+        "duration": 3.2,
+        "text": "You can skip ahead if all you want to do is see the trick, but if possible,"
+      },
+      {
+        "start": 17.8,
+        "duration": 4.6,
+        "text": "I'd like you to rediscover it for yourself. So for that, let's lay out a little background."
+      },
+      {
+        "start": 23.0,
+        "duration": 4.5,
+        "text": "As a quick reminder, if the effect of a linear transformation on a given vector"
+      },
+      {
+        "start": 27.5,
+        "duration": 5.8,
+        "text": "is to scale that vector by some constant, we call it an eigenvector of the transformation,"
+      },
+      {
+        "start": 33.3,
+        "duration": 4.6,
+        "text": "and we call the relevant scaling factor the corresponding eigenvalue, often denoted with the"
+      },
+      {
+        "start": 37.8,
+        "duration": 4.6,
+        "text": "letter lambda. When you write this as an equation, and you rearrange a little bit,"
+      },
+      {
+        "start": 45.8,
+        "duration": 4.5,
+        "text": "what you see is that if the number lambda is an eigenvalue of a matrix A,"
+      },
+      {
+        "start": 51.0,
+        "duration": 5.3,
+        "text": "then the matrix A minus lambda times the identity must send some non-zero vector,"
+      },
+      {
+        "start": 56.2,
+        "duration": 5.0,
+        "text": "namely the corresponding eigenvector, to the zero vector, which in turn means that the"
+      },
+      {
+        "start": 61.3,
+        "duration": 6.1,
+        "text": "determinant of this modified matrix must be zero. Okay, that's all a little bit of a"
+      },
+      {
+        "start": 67.4,
+        "duration": 4.1,
+        "text": "mouthful to say, but again, I'm assuming that all of this is review for any of you watching."
+      },
+      {
+        "start": 73.0,
+        "duration": 4.9,
+        "text": "So, the usual way to compute eigenvalues, how I used to do it and how I believe most"
+      },
+      {
+        "start": 77.8,
+        "duration": 5.3,
+        "text": "students are taught to carry it out, is to subtract the unknown value lambda off the diagonals,"
+      },
+      {
+        "start": 83.1,
+        "duration": 2.6,
+        "text": "and then solve for when the determinant is equal to zero."
+      },
+      {
+        "start": 87.5,
+        "duration": 4.9,
+        "text": "Doing this always involves a few extra steps to expand out and simplify to get a clean quadratic"
+      },
+      {
+        "start": 92.4,
+        "duration": 5.8,
+        "text": "polynomial, what's known as the characteristic polynomial of the matrix. The eigenvalues are the"
+      },
+      {
+        "start": 98.2,
+        "duration": 5.5,
+        "text": "roots of this polynomial, so to find them you have to apply the quadratic formula, which itself"
+      },
+      {
+        "start": 103.8,
+        "duration": 6.0,
+        "text": "typically requires one or two more steps of simplification. Honestly, the process isn't terrible,"
+      },
+      {
+        "start": 109.8,
+        "duration": 4.5,
+        "text": "but at least for two by two matrices, there is a much more direct way that you can get at the"
+      },
+      {
+        "start": 114.2,
+        "duration": 4.4,
+        "text": "answer. And if you want to rediscover this trick, there's only three relevant facts that you need"
+      },
+      {
+        "start": 118.6,
+        "duration": 4.2,
+        "text": "to know, each of which is worth knowing in its own right and can help you with other problem solving."
+      },
+      {
+        "start": 123.6,
+        "duration": 5.0,
+        "text": "Number one, the trace of a matrix, which is the sum of these two diagonal entries,"
+      },
+      {
+        "start": 128.6,
+        "duration": 5.9,
+        "text": "is equal to the sum of the eigenvalues. Or another way to phrase it, more useful for our purposes,"
+      },
+      {
+        "start": 134.6,
+        "duration": 4.8,
+        "text": "is that the mean of the two eigenvalues is the same as the mean of these two diagonal entries."
+      },
+      {
+        "start": 140.7,
+        "duration": 7.0,
+        "text": "Number two, the determinant of a matrix, our usual AD minus BC formula, is equal to the product"
+      },
+      {
+        "start": 147.7,
+        "duration": 4.7,
+        "text": "of the two eigenvalues. And this should kind of make sense if you understand that eigenvalues"
+      },
+      {
+        "start": 152.4,
+        "duration": 5.1,
+        "text": "describe how much an operator stretches space in a particular direction, and that the determinant"
+      },
+      {
+        "start": 157.5,
+        "duration": 5.8,
+        "text": "describes how much an operator scales areas or volumes as a whole. Now before getting to the"
+      },
+      {
+        "start": 163.4,
+        "duration": 4.6,
+        "text": "third fact, notice how you can essentially read these first two values out of the matrix without"
+      },
+      {
+        "start": 168.0,
+        "duration": 5.0,
+        "text": "really writing much down. Take this matrix here as an example. Straight away, you can know that the"
+      },
+      {
+        "start": 173.0,
+        "duration": 7.1,
+        "text": "mean of the eigenvalues is the same as the mean of eight and six, which is seven. Likewise,"
+      },
+      {
+        "start": 180.2,
+        "duration": 4.6,
+        "text": "most linear algebra students are pretty well practiced at finding the determinant, which in this case"
+      },
+      {
+        "start": 184.7,
+        "duration": 6.9,
+        "text": "works out to be 48 minus eight. So right away, you know that the product of the two eigenvalues is 40."
+      },
+      {
+        "start": 192.6,
+        "duration": 4.1,
+        "text": "Now take a moment to see if you can derive what will be our third relevant fact,"
+      },
+      {
+        "start": 196.7,
+        "duration": 4.7,
+        "text": "which is how you can quickly recover two numbers when you know their mean and you know their product."
+      },
+      {
+        "start": 202.2,
+        "duration": 4.8,
+        "text": "Here, let's focus on this example. You know that the two values are evenly spaced around the number"
+      },
+      {
+        "start": 207.0,
+        "duration": 5.7,
+        "text": "seven, so they look like seven plus or minus something. Let's call that something D for distance."
+      },
+      {
+        "start": 213.7,
+        "duration": 2.6,
+        "text": "You also know that the product of these two numbers is 40."
+      },
+      {
+        "start": 218.4,
+        "duration": 4.7,
+        "text": "Now to find D, notice that this product expands really nicely. It works out as a difference of"
+      },
+      {
+        "start": 223.1,
+        "duration": 8.1,
+        "text": "squares. So from there, you can directly find D. D squared is seven squared minus 40 or nine,"
+      },
+      {
+        "start": 231.2,
+        "duration": 8.2,
+        "text": "which means that D itself is three. In other words, the two values for this very specific example"
+      },
+      {
+        "start": 239.4,
+        "duration": 5.1,
+        "text": "work out to be four and ten. But our goal is a quick trick and you wouldn't want to think through"
+      },
+      {
+        "start": 244.6,
+        "duration": 6.5,
+        "text": "this each time. So let's wrap up what we just did in a general formula. For any mean M and product"
+      },
+      {
+        "start": 251.1,
+        "duration": 4.4,
+        "text": "P, the distance squared is always going to be M squared minus P."
+      },
+      {
+        "start": 257.6,
+        "duration": 5.3,
+        "text": "This gives the third key fact, which is that when two numbers have a mean M and a product P,"
+      },
+      {
+        "start": 262.9,
+        "duration": 5.4,
+        "text": "you can write those two numbers as M plus or minus the square root of M squared minus P."
+      },
+      {
+        "start": 269.8,
+        "duration": 4.9,
+        "text": "This is decently fast to read arrive on the fly if you ever forget it, and it's essentially just"
+      },
+      {
+        "start": 274.7,
+        "duration": 4.6,
+        "text": "a rephrasing of the difference of squares formula. But even still, it's a fact that's worth"
+      },
+      {
+        "start": 279.4,
+        "duration": 4.0,
+        "text": "memorizing, so it's at the tip of your fingers. In fact, my friend Tim from the channel"
+      },
+      {
+        "start": 283.4,
+        "duration": 3.7,
+        "text": "Acapella science wrote us a nice quick jingle to make it a little bit more memorable."
+      },
+      {
+        "start": 293.6,
+        "duration": 5.8,
+        "text": "Let me show you how this works. Say for the matrix 3-1-4-1. You start by bringing to mind the"
+      },
+      {
+        "start": 299.4,
+        "duration": 9.4,
+        "text": "formula. Maybe it's stating it all in your head. But when you write it down, you fill in the"
+      },
+      {
+        "start": 308.9,
+        "duration": 5.7,
+        "text": "appropriate values for M and P as you go. So in this example, the mean of the eigenvalues"
+      },
+      {
+        "start": 314.6,
+        "duration": 6.4,
+        "text": "is the same as the mean of 3-1, which is 2. So the thing you start writing is 2 plus or minus"
+      },
+      {
+        "start": 321.0,
+        "duration": 6.0,
+        "text": "the square root of 2 squared minus. Then the product of the eigenvalues is the determinant, which"
+      },
+      {
+        "start": 327.0,
+        "duration": 7.0,
+        "text": "in this example is 3 times 1 minus 1 times 4 or negative 1. So that's the final thing you fill in."
+      },
+      {
+        "start": 334.7,
+        "duration": 3.9,
+        "text": "Which means the eigenvalues are 2 plus or minus the square root of 5."
+      },
+      {
+        "start": 340.2,
+        "duration": 3.7,
+        "text": "You might recognize that this is the same matrix I was using at the beginning,"
+      },
+      {
+        "start": 343.8,
+        "duration": 2.5,
+        "text": "but notice how much more directly we can get at the answer."
+      },
+      {
+        "start": 347.9,
+        "duration": 4.9,
+        "text": "Here, try another one. This time, the mean of the eigenvalues is the same as the mean of 2"
+      },
+      {
+        "start": 352.8,
+        "duration": 5.4,
+        "text": "and 8, which is 5. So again, you start writing out the formula, but this time writing 5 in"
+      },
+      {
+        "start": 358.3,
+        "duration": 12.2,
+        "text": "place of M. And then the determinant is 2 times 8 minus 7 times 1 or 9. So in this example,"
+      },
+      {
+        "start": 370.6,
+        "duration": 6.2,
+        "text": "the eigenvalues look like 5 plus or minus the square root of 16, which simplifies even further"
+      },
+      {
+        "start": 376.8,
+        "duration": 6.3,
+        "text": "as 9 and 1. You see what I mean about how you can basically just start writing down the eigenvalues"
+      },
+      {
+        "start": 383.1,
+        "duration": 4.8,
+        "text": "while you're staring at the matrix? It's typically just the tiniest bit of simplification at the end."
+      },
+      {
+        "start": 388.9,
+        "duration": 4.0,
+        "text": "Honestly, I've found myself using this trick a lot when I'm sketching quick notes related to"
+      },
+      {
+        "start": 392.9,
+        "duration": 4.4,
+        "text": "linear algebra and want to use small matrices as examples. I've been working on a video about"
+      },
+      {
+        "start": 397.3,
+        "duration": 5.2,
+        "text": "matrix exponents where eigenvalues pop up a lot, and I realize it's just very handy if students"
+      },
+      {
+        "start": 402.5,
+        "duration": 4.3,
+        "text": "can read out the eigenvalues from small examples without losing the main line of thought by getting"
+      },
+      {
+        "start": 406.8,
+        "duration": 5.8,
+        "text": "bogged down in a different calculation. As another fun example, take a look at this set of 3"
+      },
+      {
+        "start": 412.6,
+        "duration": 3.5,
+        "text": "different matrices, which comes up a lot in quantum mechanics. They're known as the"
+      },
+      {
+        "start": 416.2,
+        "duration": 5.1,
+        "text": "Pauley spin matrices. If you know quantum mechanics, you'll know that the eigenvalues of"
+      },
+      {
+        "start": 421.3,
+        "duration": 4.8,
+        "text": "matrices are highly relevant to the physics that they describe. And if you don't know quantum"
+      },
+      {
+        "start": 426.1,
+        "duration": 4.1,
+        "text": "mechanics, let this just be a little glimpse of how these computations are actually very relevant"
+      },
+      {
+        "start": 430.2,
+        "duration": 5.6,
+        "text": "to real applications. The mean of the diagonal entries in all three cases is 0."
+      },
+      {
+        "start": 437.7,
+        "duration": 4.9,
+        "text": "So the mean of the eigenvalues in all of these cases is 0, which makes our formula look especially"
+      },
+      {
+        "start": 442.6,
+        "duration": 6.2,
+        "text": "simple. What about the products of the eigenvalues, the determinants of these matrices?"
+      },
+      {
+        "start": 449.4,
+        "duration": 6.0,
+        "text": "For the first one, it's 0 minus 1 or negative 1. The second one also looks like 0 minus 1,"
+      },
+      {
+        "start": 455.4,
+        "duration": 4.6,
+        "text": "but it takes a moment more to see because of the complex numbers. And the final one looks like"
+      },
+      {
+        "start": 460.1,
+        "duration": 6.8,
+        "text": "negative 1 minus 0. So in all cases, the eigenvalues simplify to be plus and minus 1. Although,"
+      },
+      {
+        "start": 466.9,
+        "duration": 4.0,
+        "text": "in this case, you really don't need a formula to find two values if you know that they're evenly"
+      },
+      {
+        "start": 470.9,
+        "duration": 5.8,
+        "text": "spaced around 0 and their product is negative 1. If you're curious, in the context of quantum"
+      },
+      {
+        "start": 476.7,
+        "duration": 5.1,
+        "text": "mechanics, these matrices describe observations you might make about a particle's spin in the"
+      },
+      {
+        "start": 481.8,
+        "duration": 5.3,
+        "text": "x, y, or z direction. And the fact that their eigenvalues are plus and minus 1 corresponds with"
+      },
+      {
+        "start": 487.1,
+        "duration": 5.0,
+        "text": "the idea that the values for the spin that you would observe would be either entirely in one"
+      },
+      {
+        "start": 492.2,
+        "duration": 4.9,
+        "text": "direction or entirely in another, as opposed to something continuously ranging in between."
+      },
+      {
+        "start": 498.0,
+        "duration": 4.8,
+        "text": "Maybe you'd wonder how exactly this works, or why you would use 2x2 matrices that have complex"
+      },
+      {
+        "start": 502.8,
+        "duration": 5.4,
+        "text": "numbers to describe spin in three dimensions. And those are repair questions just outside the"
+      },
+      {
+        "start": 508.2,
+        "duration": 4.6,
+        "text": "scope of what I want to talk about here. You know, it's funny. I wrote this section because I wanted"
+      },
+      {
+        "start": 512.8,
+        "duration": 5.1,
+        "text": "some case where you have 2x2 matrices that aren't just toy examples or homework problems,"
+      },
+      {
+        "start": 517.9,
+        "duration": 4.4,
+        "text": "ones where they actually come up in practice, and quantum mechanics is great for that. But the thing"
+      },
+      {
+        "start": 522.4,
+        "duration": 5.3,
+        "text": "is, after I made it, I realized that the whole example kind of undercuts the point that I'm trying"
+      },
+      {
+        "start": 527.7,
+        "duration": 5.7,
+        "text": "to make. For these specific matrices, when you use the traditional method, the one with characteristic"
+      },
+      {
+        "start": 533.4,
+        "duration": 5.4,
+        "text": "polynomials, it's essentially just as fast. It might actually be faster. I mean, take a look at"
+      },
+      {
+        "start": 538.7,
+        "duration": 5.3,
+        "text": "the first one. The relevant determinant directly gives you a characteristic polynomial of lambda"
+      },
+      {
+        "start": 544.0,
+        "duration": 6.0,
+        "text": "squared minus 1, and clearly that has roots of plus and minus 1. Same answer when you do the second"
+      },
+      {
+        "start": 550.0,
+        "duration": 7.0,
+        "text": "matrix, lambda squared minus 1. And as for the last matrix, forget about doing any computations,"
+      },
+      {
+        "start": 557.0,
+        "duration": 5.8,
+        "text": "traditional or otherwise. It's already a diagonal matrix, so this diagonal entries are the eigenvalues."
+      },
+      {
+        "start": 564.1,
+        "duration": 5.3,
+        "text": "However, the example is not totally lost to our cause, where you will actually feel the speed up"
+      },
+      {
+        "start": 569.4,
+        "duration": 5.1,
+        "text": "is in the more general case, where you take a linear combination of these three matrices and then"
+      },
+      {
+        "start": 574.5,
+        "duration": 5.8,
+        "text": "try to compute the eigenvalues. You might write this as A times the first one plus B times the"
+      },
+      {
+        "start": 580.2,
+        "duration": 6.5,
+        "text": "second plus C times the third. In quantum mechanics, this would describe spin observations in a general"
+      },
+      {
+        "start": 586.7,
+        "duration": 6.6,
+        "text": "direction of a vector with coordinates A, B, C. More specifically, you should assume that this vector"
+      },
+      {
+        "start": 593.3,
+        "duration": 6.1,
+        "text": "is normalized, meaning A squared plus B squared plus C squared is equal to 1. When you look at this"
+      },
+      {
+        "start": 599.4,
+        "duration": 5.5,
+        "text": "new matrix, it's immediate to see that the mean of the eigenvalues is still 0, and you might"
+      },
+      {
+        "start": 604.9,
+        "duration": 5.4,
+        "text": "also enjoy pausing for a brief moment to confirm that the product of those eigenvalues is still negative 1."
+      },
+      {
+        "start": 613.0,
+        "duration": 5.7,
+        "text": "And then from there, concluding what the eigenvalues must be. And this time, the characteristic"
+      },
+      {
+        "start": 618.6,
+        "duration": 4.8,
+        "text": "polynomial approach would be by comparison a lot more cumbersome, definitely harder to do in your head."
+      },
+      {
+        "start": 624.9,
+        "duration": 4.2,
+        "text": "To be clear, using the mean product formula is not fundamentally different from finding"
+      },
+      {
+        "start": 629.1,
+        "duration": 4.2,
+        "text": "roots of the characteristic polynomial. I mean, it can't be, they're solving the same problem."
+      },
+      {
+        "start": 633.8,
+        "duration": 3.8,
+        "text": "One way to think about this actually is that the mean product formula is a nice way to solve"
+      },
+      {
+        "start": 637.7,
+        "duration": 5.4,
+        "text": "quadratics in general, and some viewers of the channel may recognize this. Think about it."
+      },
+      {
+        "start": 643.1,
+        "duration": 4.9,
+        "text": "When you're trying to find the roots of a quadratic given the coefficients, that's another situation,"
+      },
+      {
+        "start": 648.0,
+        "duration": 4.7,
+        "text": "where you know the sum of two values, and you also know their product, but you're trying to recover"
+      },
+      {
+        "start": 652.7,
+        "duration": 5.8,
+        "text": "the original two values. Specifically, if the polynomial is normalized so that this leading"
+      },
+      {
+        "start": 658.6,
+        "duration": 6.1,
+        "text": "coefficient is 1, then the mean of the roots will be negative 1 half times this linear coefficient,"
+      },
+      {
+        "start": 664.6,
+        "duration": 5.1,
+        "text": "which is negative 1 times the sum of those roots. For the example on the screen, that makes the mean"
+      },
+      {
+        "start": 669.8,
+        "duration": 6.7,
+        "text": "5. And the product of the roots is even easier. It's just the constant term. No adjustments needed."
+      },
+      {
+        "start": 677.1,
+        "duration": 3.8,
+        "text": "So from there, you would apply the mean product formula, and that gives you the root."
+      },
+      {
+        "start": 681.1,
+        "duration": 8.6,
+        "text": "And on the one hand, you could think of this as a lighter weight version of the traditional quadratic"
+      },
+      {
+        "start": 689.7,
+        "duration": 5.0,
+        "text": "formula. But the real advantage is not just that it's fewer symbols to memorize, it's that each one"
+      },
+      {
+        "start": 694.7,
+        "duration": 5.4,
+        "text": "of them carries more meaning with it. I mean, the whole point of this eigenvalue trick is that"
+      },
+      {
+        "start": 700.1,
+        "duration": 4.4,
+        "text": "because you can read out the mean and product directly from looking at the matrix, you don't need"
+      },
+      {
+        "start": 704.5,
+        "duration": 4.6,
+        "text": "to go through the intermediate step of setting up the characteristic polynomial. You can jump straight"
+      },
+      {
+        "start": 709.1,
+        "duration": 4.6,
+        "text": "to writing down the roots without ever explicitly thinking about what the polynomial looks like."
+      },
+      {
+        "start": 713.8,
+        "duration": 5.0,
+        "text": "But to do that, we need a version of the quadratic formula where the terms carry some kind of meaning."
+      },
+      {
+        "start": 720.4,
+        "duration": 4.1,
+        "text": "I realize this is a very specific trick for a very specific audience, but it's something I"
+      },
+      {
+        "start": 724.5,
+        "duration": 3.8,
+        "text": "wish I knew in college, so if you happen to know any students who might benefit from this,"
+      },
+      {
+        "start": 728.3,
+        "duration": 5.0,
+        "text": "consider sharing it with them. The hope is that it's not just one more thing that you memorize,"
+      },
+      {
+        "start": 733.4,
+        "duration": 3.8,
+        "text": "but that the framing reinforces some other nice facts that are worth knowing,"
+      },
+      {
+        "start": 737.1,
+        "duration": 4.2,
+        "text": "like how the traits in the determinant are related to eigenvalues. If you want to prove those"
+      },
+      {
+        "start": 741.3,
+        "duration": 4.6,
+        "text": "facts, by the way, take a moment to expand out the characteristic polynomial for a general"
+      },
+      {
+        "start": 745.9,
+        "duration": 3.6,
+        "text": "matrix and then think hard about the meaning of each of these coefficients."
+      },
+      {
+        "start": 752.2,
+        "duration": 4.3,
+        "text": "Many thanks to Tim for ensuring that this mean product formula will stay stuck in all of our"
+      },
+      {
+        "start": 756.6,
+        "duration": 9.4,
+        "text": "heads for at least a few months. If you don't know about alchipelus science, please do check it out."
+      },
+      {
+        "start": 766.0,
+        "duration": 10.0,
+        "text": "The molecular shape of you in particular is one of the greatest things on the internet."
+      }
+    ],
+    "full_text": "This is a video for anyone who already knows what eigenvalues and eigenvectors are, and who might enjoy a quick way to compute them, in the case of 2x2 matrices. If you're unfamiliar with eigenvalues, go ahead and take a look at this video here, which is actually meant to introduce them. You can skip ahead if all you want to do is see the trick, but if possible, I'd like you to rediscover it for yourself. So for that, let's lay out a little background. As a quick reminder, if the effect of a linear transformation on a given vector is to scale that vector by some constant, we call it an eigenvector of the transformation, and we call the relevant scaling factor the corresponding eigenvalue, often denoted with the letter lambda. When you write this as an equation, and you rearrange a little bit, what you see is that if the number lambda is an eigenvalue of a matrix A, then the matrix A minus lambda times the identity must send some non-zero vector, namely the corresponding eigenvector, to the zero vector, which in turn means that the determinant of this modified matrix must be zero. Okay, that's all a little bit of a mouthful to say, but again, I'm assuming that all of this is review for any of you watching. So, the usual way to compute eigenvalues, how I used to do it and how I believe most students are taught to carry it out, is to subtract the unknown value lambda off the diagonals, and then solve for when the determinant is equal to zero. Doing this always involves a few extra steps to expand out and simplify to get a clean quadratic polynomial, what's known as the characteristic polynomial of the matrix. The eigenvalues are the roots of this polynomial, so to find them you have to apply the quadratic formula, which itself typically requires one or two more steps of simplification. Honestly, the process isn't terrible, but at least for two by two matrices, there is a much more direct way that you can get at the answer. And if you want to rediscover this trick, there's only three relevant facts that you need to know, each of which is worth knowing in its own right and can help you with other problem solving. Number one, the trace of a matrix, which is the sum of these two diagonal entries, is equal to the sum of the eigenvalues. Or another way to phrase it, more useful for our purposes, is that the mean of the two eigenvalues is the same as the mean of these two diagonal entries. Number two, the determinant of a matrix, our usual AD minus BC formula, is equal to the product of the two eigenvalues. And this should kind of make sense if you understand that eigenvalues describe how much an operator stretches space in a particular direction, and that the determinant describes how much an operator scales areas or volumes as a whole. Now before getting to the third fact, notice how you can essentially read these first two values out of the matrix without really writing much down. Take this matrix here as an example. Straight away, you can know that the mean of the eigenvalues is the same as the mean of eight and six, which is seven. Likewise, most linear algebra students are pretty well practiced at finding the determinant, which in this case works out to be 48 minus eight. So right away, you know that the product of the two eigenvalues is 40. Now take a moment to see if you can derive what will be our third relevant fact, which is how you can quickly recover two numbers when you know their mean and you know their product. Here, let's focus on this example. You know that the two values are evenly spaced around the number seven, so they look like seven plus or minus something. Let's call that something D for distance. You also know that the product of these two numbers is 40. Now to find D, notice that this product expands really nicely. It works out as a difference of squares. So from there, you can directly find D. D squared is seven squared minus 40 or nine, which means that D itself is three. In other words, the two values for this very specific example work out to be four and ten. But our goal is a quick trick and you wouldn't want to think through this each time. So let's wrap up what we just did in a general formula. For any mean M and product P, the distance squared is always going to be M squared minus P. This gives the third key fact, which is that when two numbers have a mean M and a product P, you can write those two numbers as M plus or minus the square root of M squared minus P. This is decently fast to read arrive on the fly if you ever forget it, and it's essentially just a rephrasing of the difference of squares formula. But even still, it's a fact that's worth memorizing, so it's at the tip of your fingers. In fact, my friend Tim from the channel Acapella science wrote us a nice quick jingle to make it a little bit more memorable. Let me show you how this works. Say for the matrix 3-1-4-1. You start by bringing to mind the formula. Maybe it's stating it all in your head. But when you write it down, you fill in the appropriate values for M and P as you go. So in this example, the mean of the eigenvalues is the same as the mean of 3-1, which is 2. So the thing you start writing is 2 plus or minus the square root of 2 squared minus. Then the product of the eigenvalues is the determinant, which in this example is 3 times 1 minus 1 times 4 or negative 1. So that's the final thing you fill in. Which means the eigenvalues are 2 plus or minus the square root of 5. You might recognize that this is the same matrix I was using at the beginning, but notice how much more directly we can get at the answer. Here, try another one. This time, the mean of the eigenvalues is the same as the mean of 2 and 8, which is 5. So again, you start writing out the formula, but this time writing 5 in place of M. And then the determinant is 2 times 8 minus 7 times 1 or 9. So in this example, the eigenvalues look like 5 plus or minus the square root of 16, which simplifies even further as 9 and 1. You see what I mean about how you can basically just start writing down the eigenvalues while you're staring at the matrix? It's typically just the tiniest bit of simplification at the end. Honestly, I've found myself using this trick a lot when I'm sketching quick notes related to linear algebra and want to use small matrices as examples. I've been working on a video about matrix exponents where eigenvalues pop up a lot, and I realize it's just very handy if students can read out the eigenvalues from small examples without losing the main line of thought by getting bogged down in a different calculation. As another fun example, take a look at this set of 3 different matrices, which comes up a lot in quantum mechanics. They're known as the Pauley spin matrices. If you know quantum mechanics, you'll know that the eigenvalues of matrices are highly relevant to the physics that they describe. And if you don't know quantum mechanics, let this just be a little glimpse of how these computations are actually very relevant to real applications. The mean of the diagonal entries in all three cases is 0. So the mean of the eigenvalues in all of these cases is 0, which makes our formula look especially simple. What about the products of the eigenvalues, the determinants of these matrices? For the first one, it's 0 minus 1 or negative 1. The second one also looks like 0 minus 1, but it takes a moment more to see because of the complex numbers. And the final one looks like negative 1 minus 0. So in all cases, the eigenvalues simplify to be plus and minus 1. Although, in this case, you really don't need a formula to find two values if you know that they're evenly spaced around 0 and their product is negative 1. If you're curious, in the context of quantum mechanics, these matrices describe observations you might make about a particle's spin in the x, y, or z direction. And the fact that their eigenvalues are plus and minus 1 corresponds with the idea that the values for the spin that you would observe would be either entirely in one direction or entirely in another, as opposed to something continuously ranging in between. Maybe you'd wonder how exactly this works, or why you would use 2x2 matrices that have complex numbers to describe spin in three dimensions. And those are repair questions just outside the scope of what I want to talk about here. You know, it's funny. I wrote this section because I wanted some case where you have 2x2 matrices that aren't just toy examples or homework problems, ones where they actually come up in practice, and quantum mechanics is great for that. But the thing is, after I made it, I realized that the whole example kind of undercuts the point that I'm trying to make. For these specific matrices, when you use the traditional method, the one with characteristic polynomials, it's essentially just as fast. It might actually be faster. I mean, take a look at the first one. The relevant determinant directly gives you a characteristic polynomial of lambda squared minus 1, and clearly that has roots of plus and minus 1. Same answer when you do the second matrix, lambda squared minus 1. And as for the last matrix, forget about doing any computations, traditional or otherwise. It's already a diagonal matrix, so this diagonal entries are the eigenvalues. However, the example is not totally lost to our cause, where you will actually feel the speed up is in the more general case, where you take a linear combination of these three matrices and then try to compute the eigenvalues. You might write this as A times the first one plus B times the second plus C times the third. In quantum mechanics, this would describe spin observations in a general direction of a vector with coordinates A, B, C. More specifically, you should assume that this vector is normalized, meaning A squared plus B squared plus C squared is equal to 1. When you look at this new matrix, it's immediate to see that the mean of the eigenvalues is still 0, and you might also enjoy pausing for a brief moment to confirm that the product of those eigenvalues is still negative 1. And then from there, concluding what the eigenvalues must be. And this time, the characteristic polynomial approach would be by comparison a lot more cumbersome, definitely harder to do in your head. To be clear, using the mean product formula is not fundamentally different from finding roots of the characteristic polynomial. I mean, it can't be, they're solving the same problem. One way to think about this actually is that the mean product formula is a nice way to solve quadratics in general, and some viewers of the channel may recognize this. Think about it. When you're trying to find the roots of a quadratic given the coefficients, that's another situation, where you know the sum of two values, and you also know their product, but you're trying to recover the original two values. Specifically, if the polynomial is normalized so that this leading coefficient is 1, then the mean of the roots will be negative 1 half times this linear coefficient, which is negative 1 times the sum of those roots. For the example on the screen, that makes the mean 5. And the product of the roots is even easier. It's just the constant term. No adjustments needed. So from there, you would apply the mean product formula, and that gives you the root. And on the one hand, you could think of this as a lighter weight version of the traditional quadratic formula. But the real advantage is not just that it's fewer symbols to memorize, it's that each one of them carries more meaning with it. I mean, the whole point of this eigenvalue trick is that because you can read out the mean and product directly from looking at the matrix, you don't need to go through the intermediate step of setting up the characteristic polynomial. You can jump straight to writing down the roots without ever explicitly thinking about what the polynomial looks like. But to do that, we need a version of the quadratic formula where the terms carry some kind of meaning. I realize this is a very specific trick for a very specific audience, but it's something I wish I knew in college, so if you happen to know any students who might benefit from this, consider sharing it with them. The hope is that it's not just one more thing that you memorize, but that the framing reinforces some other nice facts that are worth knowing, like how the traits in the determinant are related to eigenvalues. If you want to prove those facts, by the way, take a moment to expand out the characteristic polynomial for a general matrix and then think hard about the meaning of each of these coefficients. Many thanks to Tim for ensuring that this mean product formula will stay stuck in all of our heads for at least a few months. If you don't know about alchipelus science, please do check it out. The molecular shape of you in particular is one of the greatest things on the internet."
+  }
+}

@@ -1,0 +1,3219 @@
+{
+  "video_id": "itRV2jEtV8Q",
+  "video_title": "Simulating and understanding phase change | Guest video by Vilas Winstein",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 2463.0,
+  "view_count": 433856,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 9.8,
+        "text": "This is a video about phase transitions."
+      },
+      {
+        "start": 9.8,
+        "duration": 4.3,
+        "text": "Our main goal will be to study a simulation of a discretized fluid model which has a phase"
+      },
+      {
+        "start": 14.1,
+        "duration": 2.7,
+        "text": "transition as the parameters are varied."
+      },
+      {
+        "start": 16.8,
+        "duration": 4.3,
+        "text": "That's what you're looking at right now and it's called the liquid vapor model."
+      },
+      {
+        "start": 21.1,
+        "duration": 3.8,
+        "text": "To understand how this simulation works, we'll need to introduce one of the most important"
+      },
+      {
+        "start": 24.8,
+        "duration": 3.7,
+        "text": "formulas in physics, the Boltzmann formula."
+      },
+      {
+        "start": 28.5,
+        "duration": 3.4,
+        "text": "Then we'll see how you could build this simulation yourself and we'll investigate"
+      },
+      {
+        "start": 31.9,
+        "duration": 4.6,
+        "text": "some of the very interesting behavior that it exhibits."
+      },
+      {
+        "start": 36.5,
+        "duration": 4.0,
+        "text": "By the way, this video is part 1 in a two-part series."
+      },
+      {
+        "start": 40.4,
+        "duration": 3.4,
+        "text": "The follow-up is live now on the Spectral Collective channel."
+      },
+      {
+        "start": 43.8,
+        "duration": 4.6,
+        "text": "There, we'll look at a simplified version of the liquid vapor model which we can essentially"
+      },
+      {
+        "start": 48.5,
+        "duration": 3.6,
+        "text": "completely understand using basic mathematics."
+      },
+      {
+        "start": 52.1,
+        "duration": 4.5,
+        "text": "Okay, so what is a phase transition?"
+      },
+      {
+        "start": 56.6,
+        "duration": 5.3,
+        "text": "You might remember from a chemistry class that phase transitions are not chemical reactions."
+      },
+      {
+        "start": 61.9,
+        "duration": 3.8,
+        "text": "The molecules of ice are the same as those in water and steam."
+      },
+      {
+        "start": 65.7,
+        "duration": 2.3,
+        "text": "It's all H2O."
+      },
+      {
+        "start": 68.0,
+        "duration": 4.4,
+        "text": "The different phases of matter correspond to different ways in which the molecules interact"
+      },
+      {
+        "start": 72.5,
+        "duration": 1.4,
+        "text": "with each other."
+      },
+      {
+        "start": 73.9,
+        "duration": 5.0,
+        "text": "For instance, in ice, the molecules are locked into a rigid structure and the interactions"
+      },
+      {
+        "start": 78.9,
+        "duration": 2.6,
+        "text": "span long distances."
+      },
+      {
+        "start": 81.4,
+        "duration": 4.4,
+        "text": "In other words, if you push on one end of an ice cube, the other end moves."
+      },
+      {
+        "start": 85.8,
+        "duration": 4.3,
+        "text": "This doesn't happen for water and it definitely doesn't happen for steam."
+      },
+      {
+        "start": 90.1,
+        "duration": 3.9,
+        "text": "There is still some semblance of long-range interaction in water though since ripples"
+      },
+      {
+        "start": 94.0,
+        "duration": 2.0,
+        "text": "can travel pretty far."
+      },
+      {
+        "start": 96.0,
+        "duration": 5.2,
+        "text": "However, if you move one small region of steam a little bit, there is pretty much no"
+      },
+      {
+        "start": 101.2,
+        "duration": 2.9,
+        "text": "effect on another distant location."
+      },
+      {
+        "start": 104.1,
+        "duration": 4.6,
+        "text": "You've probably seen a phase diagram like this one before."
+      },
+      {
+        "start": 108.7,
+        "duration": 3.9,
+        "text": "It tells you what phase of matter you'll observe if you have a bunch of H2O molecules"
+      },
+      {
+        "start": 112.6,
+        "duration": 3.0,
+        "text": "at various temperatures and pressures."
+      },
+      {
+        "start": 115.7,
+        "duration": 4.7,
+        "text": "Crossing any of these lines between phases results in a phase transition."
+      },
+      {
+        "start": 120.4,
+        "duration": 4.1,
+        "text": "This is not something that happens suddenly in real time, as you probably know from waiting"
+      },
+      {
+        "start": 124.4,
+        "duration": 1.8,
+        "text": "for water to boil."
+      },
+      {
+        "start": 126.2,
+        "duration": 4.8,
+        "text": "Instead, the phase of a system refers to its equilibrium behavior, which is what you see"
+      },
+      {
+        "start": 131.0,
+        "duration": 3.5,
+        "text": "after the system has had enough time to settle down."
+      },
+      {
+        "start": 134.5,
+        "duration": 4.6,
+        "text": "The equilibrium behavior is determined by only a few parameters, in this case temperature"
+      },
+      {
+        "start": 139.1,
+        "duration": 1.7,
+        "text": "and pressure."
+      },
+      {
+        "start": 140.8,
+        "duration": 4.3,
+        "text": "And a phase transition is a discontinuity in the equilibrium behavior as a function"
+      },
+      {
+        "start": 145.1,
+        "duration": 2.7,
+        "text": "of the parameters."
+      },
+      {
+        "start": 147.8,
+        "duration": 3.8,
+        "text": "Something you might not have seen before is that there are actually at least 19 different"
+      },
+      {
+        "start": 151.6,
+        "duration": 4.6,
+        "text": "types of ice, but that's beyond the scope of this video."
+      },
+      {
+        "start": 156.2,
+        "duration": 4.2,
+        "text": "Also at very high temperatures and pressures, there is something over here called a supercritical"
+      },
+      {
+        "start": 160.4,
+        "duration": 4.6,
+        "text": "fluid, which varies continuously between liquid and gas."
+      },
+      {
+        "start": 164.9,
+        "duration": 3.7,
+        "text": "This means that by moving the parameters through this region, you can actually get steam"
+      },
+      {
+        "start": 168.6,
+        "duration": 4.1,
+        "text": "from water without ever witnessing a phase transition."
+      },
+      {
+        "start": 172.7,
+        "duration": 4.2,
+        "text": "One of the main goals of this video is to introduce the liquid vapor model, which is a discretized"
+      },
+      {
+        "start": 176.9,
+        "duration": 3.4,
+        "text": "model of a fluid in this region of the phase diagram."
+      },
+      {
+        "start": 180.2,
+        "duration": 2.9,
+        "text": "Here's what that looks like again."
+      },
+      {
+        "start": 183.2,
+        "duration": 4.1,
+        "text": "Each blue pixel on the screen represents a molecule, and each white pixel represents an empty"
+      },
+      {
+        "start": 187.3,
+        "duration": 1.8,
+        "text": "space."
+      },
+      {
+        "start": 189.1,
+        "duration": 4.5,
+        "text": "We have a control panel here, which also shows the phase diagram where we can set the values"
+      },
+      {
+        "start": 193.6,
+        "duration": 4.6,
+        "text": "of two parameters which control the behavior of the simulation."
+      },
+      {
+        "start": 198.2,
+        "duration": 4.5,
+        "text": "E is the temperature, and you might be expecting pressure for the second parameter, but it"
+      },
+      {
+        "start": 202.7,
+        "duration": 4.2,
+        "text": "turns out that pressure is a bit tricky to work with in a simulation like this."
+      },
+      {
+        "start": 206.9,
+        "duration": 5.0,
+        "text": "So we use a different parameter called the chemical potential instead."
+      },
+      {
+        "start": 211.9,
+        "duration": 4.1,
+        "text": "Just to clarify this point, let me say that there's a nice correspondence between various"
+      },
+      {
+        "start": 216.0,
+        "duration": 5.6,
+        "text": "pairs of thermodynamic observables, which I'll say more about later in the video."
+      },
+      {
+        "start": 221.6,
+        "duration": 4.6,
+        "text": "Temperature is paired up with energy, pressure is paired up with volume, and chemical potential"
+      },
+      {
+        "start": 226.3,
+        "duration": 5.7,
+        "text": "is the thing which is paired up with the molecule count or the number of molecules."
+      },
+      {
+        "start": 232.0,
+        "duration": 3.9,
+        "text": "We'll get into the details of this later, but for now just know that if we have a system"
+      },
+      {
+        "start": 236.0,
+        "duration": 5.9,
+        "text": "at a specific fixed temperature, then it turns out we have to allow the energy to vary slightly,"
+      },
+      {
+        "start": 241.8,
+        "duration": 4.6,
+        "text": "and how it varies is determined by the specific temperature we set."
+      },
+      {
+        "start": 246.4,
+        "duration": 4.2,
+        "text": "In the same way, if we wanted a system at a specific pressure, we'd have to allow the"
+      },
+      {
+        "start": 250.6,
+        "duration": 4.6,
+        "text": "volume to change, and this isn't so easy to do in a simulation like the one I'm showing"
+      },
+      {
+        "start": 255.4,
+        "duration": 4.9,
+        "text": "you, since the state of this simulation is represented in my computer by an array of fixed"
+      },
+      {
+        "start": 260.3,
+        "duration": 2.0,
+        "text": "size."
+      },
+      {
+        "start": 262.3,
+        "duration": 3.8,
+        "text": "Instead, we'll allow the number of molecules on the screen to change, in a way that's"
+      },
+      {
+        "start": 266.1,
+        "duration": 4.0,
+        "text": "controlled by this other parameter, the chemical potential."
+      },
+      {
+        "start": 270.1,
+        "duration": 6.7,
+        "text": "At high chemical potential, there will generally be more molecules on the screen and vice versa."
+      },
+      {
+        "start": 276.8,
+        "duration": 4.7,
+        "text": "Increasing the number of molecules has a somewhat similar effect to decreasing the volume,"
+      },
+      {
+        "start": 281.5,
+        "duration": 3.4,
+        "text": "since both of these increase the density of the molecules."
+      },
+      {
+        "start": 284.9,
+        "duration": 4.6,
+        "text": "And this is why the chemical potential is at least an okay stand in for pressure."
+      },
+      {
+        "start": 289.5,
+        "duration": 5.0,
+        "text": "Now, although you might have some intuition for it, the temperature is actually a little"
+      },
+      {
+        "start": 294.4,
+        "duration": 2.1,
+        "text": "bit more mysterious."
+      },
+      {
+        "start": 296.5,
+        "duration": 5.1,
+        "text": "It controls how important the energy is, and in our simulation, the energy corresponds"
+      },
+      {
+        "start": 301.6,
+        "duration": 3.2,
+        "text": "to how clumped up the molecules are."
+      },
+      {
+        "start": 304.8,
+        "duration": 4.4,
+        "text": "We'll understand much more about this later, but for now just notice that at high temperatures,"
+      },
+      {
+        "start": 309.2,
+        "duration": 4.0,
+        "text": "having molecules clumped up next to each other doesn't matter so much, and randomness"
+      },
+      {
+        "start": 313.2,
+        "duration": 2.6,
+        "text": "is the key factor instead."
+      },
+      {
+        "start": 315.8,
+        "duration": 3.7,
+        "text": "When we vary the chemical potential at high temperatures, the density of the molecules"
+      },
+      {
+        "start": 319.6,
+        "duration": 3.0,
+        "text": "vary smoothly without a phase transition."
+      },
+      {
+        "start": 322.6,
+        "duration": 4.8,
+        "text": "And this is like the supercritical fluid region of our real phase diagram."
+      },
+      {
+        "start": 327.4,
+        "duration": 5.4,
+        "text": "But at low temperatures, once we cross a certain threshold, a phase transition begins to happen,"
+      },
+      {
+        "start": 332.8,
+        "duration": 5.5,
+        "text": "and the density goes from very low, like a gas, to very high, like a liquid, skipping"
+      },
+      {
+        "start": 338.3,
+        "duration": 3.0,
+        "text": "all the intermediate values."
+      },
+      {
+        "start": 341.3,
+        "duration": 3.8,
+        "text": "Due to the nature of the simulation, the number of molecules on the screen still has to"
+      },
+      {
+        "start": 345.0,
+        "duration": 5.4,
+        "text": "change gradually, and the phase transition doesn't happen all at once."
+      },
+      {
+        "start": 350.4,
+        "duration": 4.2,
+        "text": "But during the phase transition, every region of the picture is either mostly blue or"
+      },
+      {
+        "start": 354.6,
+        "duration": 5.0,
+        "text": "mostly white, and there are no regions with intermediate density."
+      },
+      {
+        "start": 359.6,
+        "duration": 3.9,
+        "text": "Where the blue and white regions meet, we see well-defined curves with shapes that can"
+      },
+      {
+        "start": 363.5,
+        "duration": 3.8,
+        "text": "actually be described mathematically."
+      },
+      {
+        "start": 367.3,
+        "duration": 4.0,
+        "text": "There is so much to talk about in this one simulation, and in this video I want to"
+      },
+      {
+        "start": 371.4,
+        "duration": 4.8,
+        "text": "introduce everything we need to really understand what's going on here."
+      },
+      {
+        "start": 376.2,
+        "duration": 3.7,
+        "text": "The main question at this point, which I didn't say much about yet, is how exactly does"
+      },
+      {
+        "start": 379.9,
+        "duration": 2.4,
+        "text": "this simulation work?"
+      },
+      {
+        "start": 382.3,
+        "duration": 3.5,
+        "text": "To answer this question, we'll need to talk about the most important formula in statistical"
+      },
+      {
+        "start": 385.8,
+        "duration": 3.9,
+        "text": "mechanics, the Boltzmann law."
+      },
+      {
+        "start": 389.7,
+        "duration": 4.6,
+        "text": "The Boltzmann law is a formula for a probability distribution, telling us the probability of each"
+      },
+      {
+        "start": 394.3,
+        "duration": 3.4,
+        "text": "configuration x of molecules."
+      },
+      {
+        "start": 397.7,
+        "duration": 4.7,
+        "text": "A first question you might have is why are we using randomness here at all?"
+      },
+      {
+        "start": 402.4,
+        "duration": 5.0,
+        "text": "I want to first say that this is not the randomness that might come from quantum mechanics."
+      },
+      {
+        "start": 407.3,
+        "duration": 4.2,
+        "text": "Even if the universe is truly deterministic, using randomness to model systems with many"
+      },
+      {
+        "start": 411.6,
+        "duration": 3.5,
+        "text": "particles can be extremely useful."
+      },
+      {
+        "start": 415.0,
+        "duration": 3.0,
+        "text": "To see why, let's start with a thought experiment."
+      },
+      {
+        "start": 418.0,
+        "duration": 5.0,
+        "text": "Suppose we have 20 particles in a box with given initial positions in velocities."
+      },
+      {
+        "start": 423.0,
+        "duration": 4.0,
+        "text": "This is called a micro-state, since it contains all the information about the microscopic"
+      },
+      {
+        "start": 427.0,
+        "duration": 2.5,
+        "text": "particles in the system."
+      },
+      {
+        "start": 429.5,
+        "duration": 3.8,
+        "text": "Let's suppose that these are perfectly spherical particles, evolving according to Newton's"
+      },
+      {
+        "start": 433.3,
+        "duration": 4.7,
+        "text": "laws of motion, colliding elastically with each other with no friction."
+      },
+      {
+        "start": 438.0,
+        "duration": 3.8,
+        "text": "Now let's suppose you close your eyes and take a 30 minute nap."
+      },
+      {
+        "start": 441.8,
+        "duration": 3.6,
+        "text": "What micro-state will you observe when you wake up?"
+      },
+      {
+        "start": 445.3,
+        "duration": 2.8,
+        "text": "You probably couldn't solve this problem by hand."
+      },
+      {
+        "start": 448.1,
+        "duration": 3.4,
+        "text": "Maybe you could do it if you had a computer, but even a computer will start to struggle"
+      },
+      {
+        "start": 451.5,
+        "duration": 2.4,
+        "text": "if we increase the particle count."
+      },
+      {
+        "start": 453.8,
+        "duration": 4.1,
+        "text": "For instance, even this simulation with just 200 particles took my computer multiple"
+      },
+      {
+        "start": 458.0,
+        "duration": 2.0,
+        "text": "hours to make."
+      },
+      {
+        "start": 459.9,
+        "duration": 3.5,
+        "text": "Even the most powerful computers we have could never solve this problem if the number of"
+      },
+      {
+        "start": 463.4,
+        "duration": 4.2,
+        "text": "particles was something like 10 billion, or 10 to the power of 10."
+      },
+      {
+        "start": 467.6,
+        "duration": 2.7,
+        "text": "There are just too many calculations."
+      },
+      {
+        "start": 470.4,
+        "duration": 3.9,
+        "text": "And by the way, 10 billion isn't even close to the typical number of particles in anything"
+      },
+      {
+        "start": 474.2,
+        "duration": 1.6,
+        "text": "we interact with."
+      },
+      {
+        "start": 475.9,
+        "duration": 4.7,
+        "text": "In just one teaspoon of water, the number of water molecules is around 10 to the 23rd"
+      },
+      {
+        "start": 480.6,
+        "duration": 1.6,
+        "text": "power."
+      },
+      {
+        "start": 482.2,
+        "duration": 4.1,
+        "text": "To get a bit of a grasp on just how large this is, there are about that many teaspoons"
+      },
+      {
+        "start": 486.2,
+        "duration": 2.6,
+        "text": "worth of water in the entire ocean."
+      },
+      {
+        "start": 488.9,
+        "duration": 4.2,
+        "text": "So clearly we're not going to be able to predict the exact location of every water molecule"
+      },
+      {
+        "start": 493.0,
+        "duration": 3.4,
+        "text": "in a class of water in order to determine the microstate."
+      },
+      {
+        "start": 496.5,
+        "duration": 3.4,
+        "text": "But we don't need to do that in order to know that it's water and not ice."
+      },
+      {
+        "start": 499.8,
+        "duration": 4.2,
+        "text": "I mean, people could tell the difference between water, ice, and steam far before anyone"
+      },
+      {
+        "start": 504.0,
+        "duration": 2.6,
+        "text": "even knew that molecules existed."
+      },
+      {
+        "start": 506.6,
+        "duration": 4.2,
+        "text": "Once we can only see the large scale behavior or the macro state, we really only care about"
+      },
+      {
+        "start": 510.9,
+        "duration": 5.0,
+        "text": "the overall statistics of the molecules, rather than their individual behavior."
+      },
+      {
+        "start": 515.8,
+        "duration": 4.8,
+        "text": "This is the key motivation for the first main idea, which is approximating a deterministic"
+      },
+      {
+        "start": 520.7,
+        "duration": 4.6,
+        "text": "microstate like this one by a random microstate."
+      },
+      {
+        "start": 525.2,
+        "duration": 3.8,
+        "text": "One perspective on this is that we are using randomness as a proxy for the fact that we"
+      },
+      {
+        "start": 529.0,
+        "duration": 2.1,
+        "text": "don't know the true microstate."
+      },
+      {
+        "start": 531.1,
+        "duration": 5.4,
+        "text": "In other words, we're using randomness as a stand-in for our own uncertainty."
+      },
+      {
+        "start": 536.5,
+        "duration": 4.4,
+        "text": "This is a subtle point, and in fact it's still an open problem to prove mathematically"
+      },
+      {
+        "start": 540.8,
+        "duration": 3.0,
+        "text": "that this approximation is a good one in general."
+      },
+      {
+        "start": 543.8,
+        "duration": 2.5,
+        "text": "But that's beyond the scope of this video."
+      },
+      {
+        "start": 546.3,
+        "duration": 5.3,
+        "text": "For now, we'll just accept the positive randomness because it works well in practice."
+      },
+      {
+        "start": 551.6,
+        "duration": 4.8,
+        "text": "But just saying that the microstate of a system is random doesn't tell the full picture."
+      },
+      {
+        "start": 556.4,
+        "duration": 3.1,
+        "text": "We need to know the distribution of the microstates."
+      },
+      {
+        "start": 559.6,
+        "duration": 5.0,
+        "text": "In other words, we need to know the probability that we see any particular microstate."
+      },
+      {
+        "start": 564.6,
+        "duration": 4.6,
+        "text": "It turns out that the probability of a microstate x is proportional to the exponential of the"
+      },
+      {
+        "start": 569.2,
+        "duration": 4.4,
+        "text": "negation of the energy of the microstate over the temperature of the system."
+      },
+      {
+        "start": 573.6,
+        "duration": 3.4,
+        "text": "This is called the Boltzmann distribution, and understanding this is our first main"
+      },
+      {
+        "start": 577.0,
+        "duration": 2.4,
+        "text": "task for this video."
+      },
+      {
+        "start": 579.3,
+        "duration": 5.0,
+        "text": "If you've seen this before, you might remember a factor of k in the denominator here."
+      },
+      {
+        "start": 584.3,
+        "duration": 4.5,
+        "text": "This is called Boltzmann's constant, and we'll just ignore it in this video."
+      },
+      {
+        "start": 588.8,
+        "duration": 4.5,
+        "text": "We can do this by choosing our units in such a way that the numerical value of k is equal"
+      },
+      {
+        "start": 593.3,
+        "duration": 1.0,
+        "text": "to 1."
+      },
+      {
+        "start": 594.3,
+        "duration": 5.1,
+        "text": "Anyway, this formula actually already explains how phase transitions can arise as we vary"
+      },
+      {
+        "start": 599.4,
+        "duration": 1.5,
+        "text": "the temperature."
+      },
+      {
+        "start": 600.9,
+        "duration": 4.5,
+        "text": "So before we prove the Boltzmann formula itself, let's see how this works."
+      },
+      {
+        "start": 605.4,
+        "duration": 5.6,
+        "text": "First, states with higher energy have lower probability and vice versa."
+      },
+      {
+        "start": 611.1,
+        "duration": 3.6,
+        "text": "This agrees with the fact that nature likes to minimize energy."
+      },
+      {
+        "start": 614.7,
+        "duration": 3.4,
+        "text": "But this doesn't necessarily mean that we'll typically see a microstate with very low"
+      },
+      {
+        "start": 618.1,
+        "duration": 2.9,
+        "text": "energy under the Boltzmann distribution."
+      },
+      {
+        "start": 621.0,
+        "duration": 4.0,
+        "text": "In order to understand which energy levels are more likely, we also have to account for"
+      },
+      {
+        "start": 625.1,
+        "duration": 3.2,
+        "text": "the number of microstates at a particular energy level."
+      },
+      {
+        "start": 628.3,
+        "duration": 5.0,
+        "text": "Let's use omegaE to denote the set of microstates with energyE."
+      },
+      {
+        "start": 633.3,
+        "duration": 4.1,
+        "text": "Since all of these microstates have the same probability, which is proportional to the exponential"
+      },
+      {
+        "start": 637.4,
+        "duration": 5.5,
+        "text": "of minus E over T, the probability that we get a microstate in omegaE is proportional"
+      },
+      {
+        "start": 642.9,
+        "duration": 4.2,
+        "text": "to this exponential factor times the size of omegaE."
+      },
+      {
+        "start": 647.0,
+        "duration": 4.5,
+        "text": "To put things on common footing, we can move the size of omegaE into the exponential by"
+      },
+      {
+        "start": 651.6,
+        "duration": 1.9,
+        "text": "taking a logarithm."
+      },
+      {
+        "start": 653.4,
+        "duration": 4.7,
+        "text": "The logarithm of the size of omegaE is actually a very important quantity called the entropy"
+      },
+      {
+        "start": 658.2,
+        "duration": 5.0,
+        "text": "of the system at energy level E, and we denote it by S."
+      },
+      {
+        "start": 663.1,
+        "duration": 5.4,
+        "text": "Keep in mind that in this context, the entropy S is actually a function of the energyE,"
+      },
+      {
+        "start": 668.5,
+        "duration": 4.6,
+        "text": "although for now we'll just write it as S to keep the notation simple."
+      },
+      {
+        "start": 673.2,
+        "duration": 3.7,
+        "text": "In this formula, we can see that the most likely energy level is the one where minus"
+      },
+      {
+        "start": 676.8,
+        "duration": 4.0,
+        "text": "E over T plus S is maximized."
+      },
+      {
+        "start": 680.8,
+        "duration": 6.1,
+        "text": "Since temperature is non-negative, this is equivalent to minimizing E minus T times S."
+      },
+      {
+        "start": 686.9,
+        "duration": 3.2,
+        "text": "This important quantity is called the free energy."
+      },
+      {
+        "start": 690.1,
+        "duration": 3.6,
+        "text": "Let's take a minute to see how this minimization problem is solved."
+      },
+      {
+        "start": 693.6,
+        "duration": 4.8,
+        "text": "First, when the temperature is very low, changing the entropy doesn't change the free energy"
+      },
+      {
+        "start": 698.5,
+        "duration": 1.2,
+        "text": "by much."
+      },
+      {
+        "start": 699.7,
+        "duration": 5.2,
+        "text": "So minimizing the free energy essentially amounts to minimizing the energy itself."
+      },
+      {
+        "start": 704.9,
+        "duration": 4.2,
+        "text": "At high temperatures, changes in entropy are much more important, and so the minimization"
+      },
+      {
+        "start": 709.2,
+        "duration": 4.9,
+        "text": "of free energy is driven by maximizing the entropy instead."
+      },
+      {
+        "start": 714.1,
+        "duration": 4.0,
+        "text": "In summary, nature tries to minimize the free energy, and at different temperatures,"
+      },
+      {
+        "start": 718.1,
+        "duration": 2.8,
+        "text": "this is done in different ways."
+      },
+      {
+        "start": 720.9,
+        "duration": 4.1,
+        "text": "This simple fact is ultimately what leads to the different phases of matter and the transitions"
+      },
+      {
+        "start": 725.0,
+        "duration": 2.4,
+        "text": "between them."
+      },
+      {
+        "start": 727.5,
+        "duration": 3.6,
+        "text": "We can see this principle in action using our simulation."
+      },
+      {
+        "start": 731.1,
+        "duration": 4.7,
+        "text": "For now, let's consider a situation with a fixed number N of molecules, represented"
+      },
+      {
+        "start": 735.8,
+        "duration": 2.2,
+        "text": "by blue pixels."
+      },
+      {
+        "start": 738.1,
+        "duration": 4.3,
+        "text": "The molecules can move around from pixel to pixel inside of a box, but it's energetically"
+      },
+      {
+        "start": 742.4,
+        "duration": 3.8,
+        "text": "favorable for them to be next to each other."
+      },
+      {
+        "start": 746.2,
+        "duration": 5.1,
+        "text": "This is inspired by real intermolecular interactions, which have a sort of sweet spot."
+      },
+      {
+        "start": 751.3,
+        "duration": 4.7,
+        "text": "Molecules really don't like to be too close, but they also don't like to be too far apart."
+      },
+      {
+        "start": 756.0,
+        "duration": 3.7,
+        "text": "We encode the fact that the molecules can't be too close, by the fact that each pixel"
+      },
+      {
+        "start": 759.7,
+        "duration": 2.2,
+        "text": "can contain at most one."
+      },
+      {
+        "start": 761.9,
+        "duration": 3.2,
+        "text": "And we encode the fact that they don't like to be too far apart by giving each pair"
+      },
+      {
+        "start": 765.2,
+        "duration": 4.8,
+        "text": "of molecules an energy of minus one if they're adjacent and zero if they're not."
+      },
+      {
+        "start": 770.0,
+        "duration": 3.1,
+        "text": "Remember, lower energy is better."
+      },
+      {
+        "start": 773.0,
+        "duration": 4.3,
+        "text": "In other words, we can actually write the energy of a microstate explicitly, as minus the number"
+      },
+      {
+        "start": 777.4,
+        "duration": 3.3,
+        "text": "of pairs of molecules which are adjacent."
+      },
+      {
+        "start": 780.6,
+        "duration": 3.6,
+        "text": "Since having lower energy is good, I'll put a little green diamond between each pair"
+      },
+      {
+        "start": 784.2,
+        "duration": 4.7,
+        "text": "of adjacent molecules, so that the energy is exactly equal to the negative of the number"
+      },
+      {
+        "start": 788.9,
+        "duration": 2.8,
+        "text": "of little green diamonds you see."
+      },
+      {
+        "start": 791.7,
+        "duration": 4.1,
+        "text": "Note that we're totally ignoring kinetic energy here, so our model isn't exactly a realistic"
+      },
+      {
+        "start": 795.8,
+        "duration": 3.2,
+        "text": "fluid simulation, but that's not the point."
+      },
+      {
+        "start": 799.0,
+        "duration": 5.8,
+        "text": "The main point of this model is to be as simple as possible while still exhibiting a phase transition."
+      },
+      {
+        "start": 804.9,
+        "duration": 3.7,
+        "text": "And at high and low temperatures, we can see two distinct behaviors emerging, which we"
+      },
+      {
+        "start": 808.6,
+        "duration": 2.6,
+        "text": "call macro states."
+      },
+      {
+        "start": 811.2,
+        "duration": 4.0,
+        "text": "At high temperatures, the molecules bounce around and mostly ignore one another, which is"
+      },
+      {
+        "start": 815.2,
+        "duration": 4.7,
+        "text": "how molecules behave in a gas, so this is a gas macro state."
+      },
+      {
+        "start": 820.0,
+        "duration": 3.8,
+        "text": "At low temperatures, though, the molecules start to clump up into a droplet."
+      },
+      {
+        "start": 823.8,
+        "duration": 2.6,
+        "text": "This is a liquid macro state."
+      },
+      {
+        "start": 826.4,
+        "duration": 4.8,
+        "text": "The energy of a droplet is much lower since there are more pairs of adjacent molecules represented"
+      },
+      {
+        "start": 831.2,
+        "duration": 2.1,
+        "text": "by green diamonds."
+      },
+      {
+        "start": 833.4,
+        "duration": 4.5,
+        "text": "But at the same time, the entropy is also lower since there are far fewer configurations"
+      },
+      {
+        "start": 837.9,
+        "duration": 2.3,
+        "text": "that look like this."
+      },
+      {
+        "start": 840.2,
+        "duration": 4.1,
+        "text": "If you just chose a random configuration of N molecules in a box, without considering"
+      },
+      {
+        "start": 844.3,
+        "duration": 5.4,
+        "text": "the energy, there is basically no way that you'd choose a configuration that looks like a droplet."
+      },
+      {
+        "start": 849.7,
+        "duration": 3.8,
+        "text": "Instead, you get something that looks like a gas, since there are just more micro states"
+      },
+      {
+        "start": 853.5,
+        "duration": 3.8,
+        "text": "that look like this, although they have higher energy."
+      },
+      {
+        "start": 857.3,
+        "duration": 4.4,
+        "text": "But at low temperatures, when you're considering energy as an important factor, the higher energy"
+      },
+      {
+        "start": 861.6,
+        "duration": 3.6,
+        "text": "gas configurations lose to the droplets."
+      },
+      {
+        "start": 865.2,
+        "duration": 4.9,
+        "text": "Notice that there are no macro states with both low energy and high entropy."
+      },
+      {
+        "start": 870.2,
+        "duration": 4.5,
+        "text": "So when minimizing the free energy, our simulation can't just minimize energy and maximize"
+      },
+      {
+        "start": 874.6,
+        "duration": 2.2,
+        "text": "entropy simultaneously."
+      },
+      {
+        "start": 876.8,
+        "duration": 5.4,
+        "text": "Instead, it has to choose which of these optimization tasks is more important, and that's determined"
+      },
+      {
+        "start": 882.2,
+        "duration": 2.3,
+        "text": "by the temperature."
+      },
+      {
+        "start": 884.5,
+        "duration": 4.1,
+        "text": "I think this point that energy and entropy are in competition with each other and that"
+      },
+      {
+        "start": 888.6,
+        "duration": 5.4,
+        "text": "this competition is mediated by the temperature is the main takeaway of this video."
+      },
+      {
+        "start": 894.0,
+        "duration": 4.1,
+        "text": "This is all a consequence of the formula for the Boltzmann distribution, where the probability"
+      },
+      {
+        "start": 898.1,
+        "duration": 4.4,
+        "text": "of a particular micro state is proportional to the exponential of the negative of the energy"
+      },
+      {
+        "start": 902.5,
+        "duration": 4.2,
+        "text": "of the micro state, divided by the temperature of the system."
+      },
+      {
+        "start": 906.7,
+        "duration": 4.8,
+        "text": "But we still haven't seen exactly why this is the correct formula, so our next task"
+      },
+      {
+        "start": 911.4,
+        "duration": 2.3,
+        "text": "will be to explain this."
+      },
+      {
+        "start": 913.8,
+        "duration": 3.6,
+        "text": "After that, we'll be ready to really understand what's going on in the simulations I've shown"
+      },
+      {
+        "start": 917.4,
+        "duration": 2.4,
+        "text": "you so far."
+      },
+      {
+        "start": 919.8,
+        "duration": 4.7,
+        "text": "It will actually take us a few steps to get to this formula for the Boltzmann distribution,"
+      },
+      {
+        "start": 924.5,
+        "duration": 3.6,
+        "text": "but bear with me because along the way we'll get a more precise understanding of what"
+      },
+      {
+        "start": 928.1,
+        "duration": 1.9,
+        "text": "temperature actually is."
+      },
+      {
+        "start": 930.0,
+        "duration": 4.3,
+        "text": "Let's first consider a completely isolated system."
+      },
+      {
+        "start": 934.3,
+        "duration": 4.5,
+        "text": "This system has no way to exchange energy with the outside world, and so every possible"
+      },
+      {
+        "start": 938.8,
+        "duration": 3.5,
+        "text": "micro state of this system has the same energy."
+      },
+      {
+        "start": 942.3,
+        "duration": 3.6,
+        "text": "In fact, by the same reasoning, there's essentially no way to tell the possible micro"
+      },
+      {
+        "start": 945.9,
+        "duration": 3.6,
+        "text": "states of this system apart in any meaningful way."
+      },
+      {
+        "start": 949.5,
+        "duration": 4.8,
+        "text": "In this situation, the only reasonable probability distribution on the micro states is the one"
+      },
+      {
+        "start": 954.3,
+        "duration": 3.9,
+        "text": "where every possible micro state is equally likely."
+      },
+      {
+        "start": 958.2,
+        "duration": 4.3,
+        "text": "In other words, if the collection of micro states of an isolated system at fixed energy level"
+      },
+      {
+        "start": 962.6,
+        "duration": 5.4,
+        "text": "E is called omega E, then each possible micro state will be chosen with probability 1 over"
+      },
+      {
+        "start": 968.0,
+        "duration": 5.2,
+        "text": "the size of omega E, because all of the probabilities need to add up to 1."
+      },
+      {
+        "start": 973.2,
+        "duration": 5.0,
+        "text": "This fact that in an isolated system at fixed energy E, all micro states are equally likely,"
+      },
+      {
+        "start": 978.2,
+        "duration": 6.9,
+        "text": "will come up a few more times during our derivation of the Boltzmann law, so keep this in mind."
+      },
+      {
+        "start": 985.1,
+        "duration": 4.7,
+        "text": "Now what would happen if we have two isolated systems at different energies and then suddenly"
+      },
+      {
+        "start": 989.8,
+        "duration": 4.8,
+        "text": "put them in contact, allowing energy to transfer from one system to the other?"
+      },
+      {
+        "start": 994.5,
+        "duration": 4.4,
+        "text": "Well, one thing we know from experience is that after enough time, the temperatures of"
+      },
+      {
+        "start": 998.9,
+        "duration": 3.4,
+        "text": "two things in contact with each other will equalize."
+      },
+      {
+        "start": 1002.3,
+        "duration": 3.2,
+        "text": "But what is temperature?"
+      },
+      {
+        "start": 1005.5,
+        "duration": 4.7,
+        "text": "Actually this fact that temperature equalizes when things are put into contact is essentially"
+      },
+      {
+        "start": 1010.2,
+        "duration": 1.7,
+        "text": "all we know about it."
+      },
+      {
+        "start": 1011.9,
+        "duration": 5.6,
+        "text": "So let's try to figure out what quantity must equalize once the system has reached equilibrium."
+      },
+      {
+        "start": 1017.5,
+        "duration": 2.5,
+        "text": "To do this, let's formalize things a bit."
+      },
+      {
+        "start": 1020.0,
+        "duration": 4.6,
+        "text": "At any given instant, system 1 will have some energy, which we'll call E1, and system"
+      },
+      {
+        "start": 1024.5,
+        "duration": 2.5,
+        "text": "2 will have energy E2."
+      },
+      {
+        "start": 1027.0,
+        "duration": 5.7,
+        "text": "The total energy of the combined system is E1 plus E2, and that can't be changed."
+      },
+      {
+        "start": 1032.7,
+        "duration": 4.8,
+        "text": "But energy can move back and forth between the two subsystems, so E1 can increase if"
+      },
+      {
+        "start": 1037.6,
+        "duration": 2.3,
+        "text": "E2 decreases by the same amount."
+      },
+      {
+        "start": 1039.9,
+        "duration": 5.1,
+        "text": "We'll use DE to denote a small energy packet that could be transferred from one system"
+      },
+      {
+        "start": 1045.0,
+        "duration": 1.7,
+        "text": "to the other."
+      },
+      {
+        "start": 1046.7,
+        "duration": 4.7,
+        "text": "These small energy packets will continuously be transferred back and forth randomly, and"
+      },
+      {
+        "start": 1051.4,
+        "duration": 4.0,
+        "text": "the system reaches equilibrium when there's no overall flow of energy packets from one"
+      },
+      {
+        "start": 1055.4,
+        "duration": 5.2,
+        "text": "system to the other, or in other words when both directions are equally likely."
+      },
+      {
+        "start": 1060.6,
+        "duration": 4.7,
+        "text": "But what determines the chances that an energy packet will flow from one system to the other?"
+      },
+      {
+        "start": 1065.3,
+        "duration": 4.8,
+        "text": "Well remember that the combined system is in isolation, so each microstate of the combined"
+      },
+      {
+        "start": 1070.1,
+        "duration": 2.8,
+        "text": "system is equally likely."
+      },
+      {
+        "start": 1072.9,
+        "duration": 4.6,
+        "text": "This means that we need to understand the number of combined microstates of the combined system"
+      },
+      {
+        "start": 1077.6,
+        "duration": 4.4,
+        "text": "with various splits of the energy across the two subsystems."
+      },
+      {
+        "start": 1082.0,
+        "duration": 5.8,
+        "text": "If there are more combined microstates with energy split, E1 plus DE and E2 minus DE,"
+      },
+      {
+        "start": 1087.8,
+        "duration": 5.6,
+        "text": "when there are with energy split, E1 and E2, then an energy packet DE will be more likely"
+      },
+      {
+        "start": 1093.4,
+        "duration": 5.2,
+        "text": "to flow from system 2 to system 1, simply because there are more possibilities for the energy"
+      },
+      {
+        "start": 1098.6,
+        "duration": 2.2,
+        "text": "to flow in this direction."
+      },
+      {
+        "start": 1100.8,
+        "duration": 6.8,
+        "text": "Let's use Omega E1 E2 to denote the set of combined microstates with energy E1 in system"
+      },
+      {
+        "start": 1107.6,
+        "duration": 3.7,
+        "text": "1 and energy E2 in system 2."
+      },
+      {
+        "start": 1111.4,
+        "duration": 4.3,
+        "text": "This is the same as the Cartesian product of the set of microstates of system 1 with energy"
+      },
+      {
+        "start": 1115.6,
+        "duration": 4.5,
+        "text": "E1 and the set of microstates of system 2 with energy E2."
+      },
+      {
+        "start": 1120.2,
+        "duration": 4.2,
+        "text": "Since any combined microstate with the correct energy configuration is valid and a combined"
+      },
+      {
+        "start": 1124.3,
+        "duration": 4.1,
+        "text": "microstate is the same thing as its two pieces combined."
+      },
+      {
+        "start": 1128.4,
+        "duration": 5.4,
+        "text": "So we can consider a sort of combined entropy, S12, which is the log of the size of Omega"
+      },
+      {
+        "start": 1133.8,
+        "duration": 1.6,
+        "text": "E1 E2."
+      },
+      {
+        "start": 1135.4,
+        "duration": 5.0,
+        "text": "And this is just the sum of the entropies of the two subsystems at their respective energies,"
+      },
+      {
+        "start": 1140.4,
+        "duration": 3.1,
+        "text": "which will denote by S1 and S2."
+      },
+      {
+        "start": 1143.5,
+        "duration": 4.8,
+        "text": "Now to determine if there are more combined microstates with energy split E1 plus DE and"
+      },
+      {
+        "start": 1148.2,
+        "duration": 4.8,
+        "text": "E2 minus DE, we should consider the change in this combined entropy, which will denote"
+      },
+      {
+        "start": 1153.0,
+        "duration": 2.2,
+        "text": "by DS12."
+      },
+      {
+        "start": 1155.3,
+        "duration": 4.4,
+        "text": "If this change is positive, then the energy packet DE will be more likely to flow from"
+      },
+      {
+        "start": 1159.7,
+        "duration": 2.6,
+        "text": "system 2 to system 1."
+      },
+      {
+        "start": 1162.4,
+        "duration": 4.2,
+        "text": "Since the energy packet is very small, the change in combined entropy can be written"
+      },
+      {
+        "start": 1166.5,
+        "duration": 4.7,
+        "text": "in terms of the derivatives of the two entries as functions of the energies of the two systems,"
+      },
+      {
+        "start": 1171.2,
+        "duration": 3.0,
+        "text": "like this, using the chain rule."
+      },
+      {
+        "start": 1174.2,
+        "duration": 4.9,
+        "text": "Factoring out DE, like this, we find that energy is more likely to flow from system 2 to"
+      },
+      {
+        "start": 1179.1,
+        "duration": 5.3,
+        "text": "system 1, as long as the derivative of S1 with respect to E1 is greater than the derivative"
+      },
+      {
+        "start": 1184.4,
+        "duration": 3.2,
+        "text": "of S2 with respect to E2."
+      },
+      {
+        "start": 1187.5,
+        "duration": 3.7,
+        "text": "Similar reasoning shows that energy is more likely to flow in the opposite direction"
+      },
+      {
+        "start": 1191.2,
+        "duration": 2.9,
+        "text": "if the opposite inequality holds."
+      },
+      {
+        "start": 1194.2,
+        "duration": 4.1,
+        "text": "Remember equilibrium is reached when energy is equally likely to flow from either system"
+      },
+      {
+        "start": 1198.2,
+        "duration": 1.5,
+        "text": "to the other."
+      },
+      {
+        "start": 1199.7,
+        "duration": 4.6,
+        "text": "This means that these two derivatives must be equal at equilibrium."
+      },
+      {
+        "start": 1204.3,
+        "duration": 1.1,
+        "text": "And here it is."
+      },
+      {
+        "start": 1205.4,
+        "duration": 4.2,
+        "text": "This is the quantity which equalizes when systems are brought into contact, exactly what we were"
+      },
+      {
+        "start": 1209.6,
+        "duration": 1.8,
+        "text": "looking for."
+      },
+      {
+        "start": 1211.4,
+        "duration": 2.3,
+        "text": "But is this temperature?"
+      },
+      {
+        "start": 1213.7,
+        "duration": 1.7,
+        "text": "Actually not quite."
+      },
+      {
+        "start": 1215.4,
+        "duration": 4.8,
+        "text": "We usually think that energy flows from a hotter system to a colder one, but we just saw"
+      },
+      {
+        "start": 1220.2,
+        "duration": 4.2,
+        "text": "that energy flows from the system with a lower value of this derivative to the system"
+      },
+      {
+        "start": 1224.4,
+        "duration": 2.0,
+        "text": "with the higher value."
+      },
+      {
+        "start": 1226.5,
+        "duration": 5.8,
+        "text": "So the derivative of entropy with respect to energy is actually 1 over temperature."
+      },
+      {
+        "start": 1232.2,
+        "duration": 3.9,
+        "text": "To get a better understanding for why this is the correct definition for temperature,"
+      },
+      {
+        "start": 1236.1,
+        "duration": 5.2,
+        "text": "let's just take a step back and review the math we just did on a more intuitive level."
+      },
+      {
+        "start": 1241.3,
+        "duration": 5.0,
+        "text": "Generally, increasing the energy also increases the number of microstates available to the"
+      },
+      {
+        "start": 1246.4,
+        "duration": 1.4,
+        "text": "system."
+      },
+      {
+        "start": 1247.8,
+        "duration": 4.5,
+        "text": "For instance, like we saw before, there are many more gas microstates than there are liquid"
+      },
+      {
+        "start": 1252.3,
+        "duration": 3.5,
+        "text": "microstates in our discretized simulation."
+      },
+      {
+        "start": 1255.8,
+        "duration": 2.6,
+        "text": "But this increase is not consistent."
+      },
+      {
+        "start": 1258.4,
+        "duration": 4.4,
+        "text": "At high temperatures when the derivative of entropy with respect to energy is small,"
+      },
+      {
+        "start": 1262.8,
+        "duration": 4.6,
+        "text": "adding or removing energy doesn't impact the number of microstates that much."
+      },
+      {
+        "start": 1267.4,
+        "duration": 4.5,
+        "text": "On the other hand, at low temperatures when this derivative is large, adding even a little"
+      },
+      {
+        "start": 1271.9,
+        "duration": 4.2,
+        "text": "bit of energy can increase the number of microstates by a lot."
+      },
+      {
+        "start": 1276.1,
+        "duration": 4.4,
+        "text": "So when two systems are in contact, to get more combined microstates, it makes sense"
+      },
+      {
+        "start": 1280.5,
+        "duration": 4.4,
+        "text": "for a high temperature system to donate energy to a low temperature system."
+      },
+      {
+        "start": 1284.8,
+        "duration": 5.0,
+        "text": "And this is how we understand temperature intuitively."
+      },
+      {
+        "start": 1289.8,
+        "duration": 3.7,
+        "text": "Now that we know what temperature is, we can derive the formula for the Boltzmann distribution"
+      },
+      {
+        "start": 1293.5,
+        "duration": 5.6,
+        "text": "of a system at fixed temperature T. But how can we control the temperature of our system?"
+      },
+      {
+        "start": 1299.1,
+        "duration": 4.2,
+        "text": "One way is to put it in contact with a huge reservoir of energy at that temperature,"
+      },
+      {
+        "start": 1303.3,
+        "duration": 3.6,
+        "text": "sometimes called a heat bath, although it could also be cold."
+      },
+      {
+        "start": 1306.9,
+        "duration": 3.7,
+        "text": "The temperatures will equalize between our system and the heat bath, but the temperature"
+      },
+      {
+        "start": 1310.6,
+        "duration": 3.4,
+        "text": "of the huge heat bath won't change by much at all."
+      },
+      {
+        "start": 1314.0,
+        "duration": 3.5,
+        "text": "Although the resulting temperature of our little system will essentially be set to the"
+      },
+      {
+        "start": 1317.5,
+        "duration": 3.6,
+        "text": "same temperature T as the heat bath."
+      },
+      {
+        "start": 1321.1,
+        "duration": 4.4,
+        "text": "Now we want to figure out the probability that we see a particular microstate, say X,"
+      },
+      {
+        "start": 1325.4,
+        "duration": 2.3,
+        "text": "when we just look at the little system."
+      },
+      {
+        "start": 1327.7,
+        "duration": 4.5,
+        "text": "But again the combined system of the heat bath plus the little system is isolated and"
+      },
+      {
+        "start": 1332.2,
+        "duration": 3.3,
+        "text": "has some fixed total energy, say E0."
+      },
+      {
+        "start": 1335.5,
+        "duration": 4.0,
+        "text": "So each combined microstate is equally likely again."
+      },
+      {
+        "start": 1339.5,
+        "duration": 3.6,
+        "text": "This means that the probability that we see a particular microstate X in the little"
+      },
+      {
+        "start": 1343.1,
+        "duration": 6.3,
+        "text": "system is proportional to the number of microstates of the heat bath that are compatible with X."
+      },
+      {
+        "start": 1349.4,
+        "duration": 4.8,
+        "text": "Since the two systems can only exchange energy, a microstate of the heat bath is compatible"
+      },
+      {
+        "start": 1354.2,
+        "duration": 4.7,
+        "text": "with a microstate X of the little system exactly when it has the right energy, which is the"
+      },
+      {
+        "start": 1358.9,
+        "duration": 2.9,
+        "text": "total energy minus the energy of X."
+      },
+      {
+        "start": 1361.8,
+        "duration": 4.2,
+        "text": "So the set of heat bath microstates compatible with X is the same as the set of microstates"
+      },
+      {
+        "start": 1366.0,
+        "duration": 4.1,
+        "text": "with this energy, which we can write using our omega notation."
+      },
+      {
+        "start": 1370.1,
+        "duration": 5.0,
+        "text": "This is the exponential of the entropy of the heat bath at this particular energy."
+      },
+      {
+        "start": 1375.1,
+        "duration": 4.9,
+        "text": "Now remember the heat bath is huge and can basically donate as much energy as the little"
+      },
+      {
+        "start": 1380.0,
+        "duration": 3.1,
+        "text": "system needs without changing temperature."
+      },
+      {
+        "start": 1383.0,
+        "duration": 4.3,
+        "text": "In other words, for all relevant energy values, the derivative of the entropy of the heat"
+      },
+      {
+        "start": 1387.4,
+        "duration": 5.0,
+        "text": "bath with respect to its energy is a constant, which is 1 over the temperature."
+      },
+      {
+        "start": 1392.4,
+        "duration": 5.0,
+        "text": "This means that the entropy of the heat bath at energy E0 minus E of X is essentially the"
+      },
+      {
+        "start": 1397.4,
+        "duration": 6.6,
+        "text": "same as its entropy at energy E0 minus 1 over T times E of X."
+      },
+      {
+        "start": 1404.0,
+        "duration": 4.7,
+        "text": "Let's call the entropy of the heat bath at energy E0 S0."
+      },
+      {
+        "start": 1408.7,
+        "duration": 3.1,
+        "text": "Now we can factor the exponential like this."
+      },
+      {
+        "start": 1411.8,
+        "duration": 4.8,
+        "text": "Since the exponential of S0 is a constant which doesn't depend on X, we can just absorb"
+      },
+      {
+        "start": 1416.5,
+        "duration": 2.6,
+        "text": "that in our proportionality relation."
+      },
+      {
+        "start": 1419.1,
+        "duration": 5.1,
+        "text": "And we find that the probability of X is proportional to the exponential of minus the energy of X"
+      },
+      {
+        "start": 1424.2,
+        "duration": 3.3,
+        "text": "over the temperature, exactly what we wanted."
+      },
+      {
+        "start": 1427.5,
+        "duration": 4.2,
+        "text": "This finishes the proof of Boltzmann's formula for the probability of microstates in a system"
+      },
+      {
+        "start": 1431.7,
+        "duration": 3.2,
+        "text": "at temperature T."
+      },
+      {
+        "start": 1434.9,
+        "duration": 4.2,
+        "text": "This is the distribution that the simulation I've shown is sampling from."
+      },
+      {
+        "start": 1439.1,
+        "duration": 4.1,
+        "text": "So far we've been considering configurations where there are a fixed number of molecules,"
+      },
+      {
+        "start": 1443.2,
+        "duration": 4.7,
+        "text": "and the energy of a microstate is the negative of the number of pairs of adjacent molecules,"
+      },
+      {
+        "start": 1447.9,
+        "duration": 4.4,
+        "text": "which we could also see visually as the number of green diamonds here."
+      },
+      {
+        "start": 1452.2,
+        "duration": 4.0,
+        "text": "This mimics the fact that intermolecular forces have a sweet spot where molecules prefer"
+      },
+      {
+        "start": 1456.2,
+        "duration": 3.2,
+        "text": "to be relatively close to each other."
+      },
+      {
+        "start": 1459.5,
+        "duration": 4.7,
+        "text": "So now we understand this distribution on some level, but just knowing the Boltzmann formula"
+      },
+      {
+        "start": 1464.2,
+        "duration": 4.0,
+        "text": "is not enough to actually sample from this distribution, at least not efficiently on"
+      },
+      {
+        "start": 1468.2,
+        "duration": 1.8,
+        "text": "a computer."
+      },
+      {
+        "start": 1470.0,
+        "duration": 4.9,
+        "text": "The key reason for this is that there are exponentially many different possible microstates."
+      },
+      {
+        "start": 1474.9,
+        "duration": 4.0,
+        "text": "So even though we have a formula for the distribution, which does allow us to implement"
+      },
+      {
+        "start": 1478.9,
+        "duration": 4.7,
+        "text": "some basic sampling procedure, like generating a uniform random number and choosing the"
+      },
+      {
+        "start": 1483.6,
+        "duration": 4.3,
+        "text": "microstate based on the division of the unit interval into bins, this kind of procedure"
+      },
+      {
+        "start": 1487.9,
+        "duration": 3.7,
+        "text": "will take an exponentially long time to run on a computer."
+      },
+      {
+        "start": 1491.6,
+        "duration": 3.5,
+        "text": "So how are we getting the samples you're seeing on the screen right now?"
+      },
+      {
+        "start": 1495.2,
+        "duration": 5.1,
+        "text": "Well, you probably noticed that the simulation is continuously changing over time, so we're"
+      },
+      {
+        "start": 1500.3,
+        "duration": 3.9,
+        "text": "not just getting a sample from the Boltzmann distribution in one go."
+      },
+      {
+        "start": 1504.2,
+        "duration": 4.4,
+        "text": "Instead, we're making a bunch of small, manageable random changes to the picture that eventually"
+      },
+      {
+        "start": 1508.6,
+        "duration": 2.0,
+        "text": "lead to a proper sample."
+      },
+      {
+        "start": 1510.6,
+        "duration": 2.3,
+        "text": "You can think of this like shuffling cards."
+      },
+      {
+        "start": 1513.0,
+        "duration": 4.2,
+        "text": "Each time you shuffle, a little bit of randomness is added, and eventually you get a roughly"
+      },
+      {
+        "start": 1517.1,
+        "duration": 3.9,
+        "text": "uniform distribution on the arrangements of cards."
+      },
+      {
+        "start": 1521.0,
+        "duration": 4.4,
+        "text": "For this simulation, at each time step, we choose two pixels, and if there's a molecule"
+      },
+      {
+        "start": 1525.5,
+        "duration": 4.5,
+        "text": "in only one, we randomly decide whether or not to switch the position of the molecule"
+      },
+      {
+        "start": 1530.0,
+        "duration": 2.5,
+        "text": "from one pixel to the other."
+      },
+      {
+        "start": 1532.5,
+        "duration": 3.1,
+        "text": "But how do we decide the probability of the swap?"
+      },
+      {
+        "start": 1535.6,
+        "duration": 2.7,
+        "text": "Here's where we use our formula for the Boltzmann distribution."
+      },
+      {
+        "start": 1538.3,
+        "duration": 4.5,
+        "text": "Let's call the microstate we've currently got x, and the microstate with the molecule"
+      },
+      {
+        "start": 1542.8,
+        "duration": 2.0,
+        "text": "swapped x prime."
+      },
+      {
+        "start": 1544.8,
+        "duration": 4.3,
+        "text": "By our formula, we know that the ratio of these probabilities is exactly the exponential"
+      },
+      {
+        "start": 1549.2,
+        "duration": 3.5,
+        "text": "of the energy difference over the temperature."
+      },
+      {
+        "start": 1552.6,
+        "duration": 4.1,
+        "text": "Here we're using the fact that the proportionality constant that's hidden in the Boltzmann formula"
+      },
+      {
+        "start": 1556.8,
+        "duration": 4.8,
+        "text": "is the same for both x and x prime, so it cancels out and we actually get an equality"
+      },
+      {
+        "start": 1561.5,
+        "duration": 1.8,
+        "text": "here."
+      },
+      {
+        "start": 1563.3,
+        "duration": 4.1,
+        "text": "Now given that we've chosen this pair of pixels to potentially swap, we can only choose"
+      },
+      {
+        "start": 1567.4,
+        "duration": 2.5,
+        "text": "between x and x prime."
+      },
+      {
+        "start": 1569.9,
+        "duration": 4.1,
+        "text": "So given that we've only got two choices and we know the ratio of their probabilities,"
+      },
+      {
+        "start": 1574.0,
+        "duration": 4.0,
+        "text": "we can also find each probability individually because the probabilities have to add up to"
+      },
+      {
+        "start": 1577.9,
+        "duration": 1.5,
+        "text": "one."
+      },
+      {
+        "start": 1579.4,
+        "duration": 4.7,
+        "text": "If you only have two choices and the ratio of their probabilities is q, then the raw probability"
+      },
+      {
+        "start": 1584.1,
+        "duration": 4.0,
+        "text": "of the choice in the numerator is q over 1 plus q."
+      },
+      {
+        "start": 1588.1,
+        "duration": 2.9,
+        "text": "So this is the probability that we pick x prime."
+      },
+      {
+        "start": 1591.0,
+        "duration": 4.1,
+        "text": "Or in other words, the probability that we swap the molecules."
+      },
+      {
+        "start": 1595.1,
+        "duration": 2.0,
+        "text": "And that's basically it."
+      },
+      {
+        "start": 1597.1,
+        "duration": 4.6,
+        "text": "Repeating this one step is the entire algorithm."
+      },
+      {
+        "start": 1601.7,
+        "duration": 5.0,
+        "text": "Now it's important that the energy difference here can actually be calculated quite easily."
+      },
+      {
+        "start": 1606.6,
+        "duration": 4.2,
+        "text": "This is because it only depends on the at most 8 pixels surrounding the two that we've"
+      },
+      {
+        "start": 1610.8,
+        "duration": 2.0,
+        "text": "chosen to potentially swap."
+      },
+      {
+        "start": 1612.8,
+        "duration": 3.8,
+        "text": "So this algorithm can easily be run on a computer."
+      },
+      {
+        "start": 1616.6,
+        "duration": 2.0,
+        "text": "And it's really not that complicated."
+      },
+      {
+        "start": 1618.6,
+        "duration": 3.8,
+        "text": "I hope that by this point in the video, if you have some programming experience, you"
+      },
+      {
+        "start": 1622.4,
+        "duration": 2.7,
+        "text": "could make this simulation yourself."
+      },
+      {
+        "start": 1625.0,
+        "duration": 2.9,
+        "text": "By the way, this algorithm is called Kawasaki Dynamics."
+      },
+      {
+        "start": 1627.9,
+        "duration": 3.6,
+        "text": "And it's an example of a more general class of algorithms that go by the name of Markov"
+      },
+      {
+        "start": 1631.5,
+        "duration": 3.2,
+        "text": "Chain Monte Carlo."
+      },
+      {
+        "start": 1634.7,
+        "duration": 3.3,
+        "text": "One thing you might be wondering about is why don't we force the swap to happen between"
+      },
+      {
+        "start": 1638.0,
+        "duration": 1.8,
+        "text": "neighboring pixels?"
+      },
+      {
+        "start": 1639.8,
+        "duration": 3.9,
+        "text": "After all, that would be a more realistic choice, since we wouldn't have molecules teleporting"
+      },
+      {
+        "start": 1643.6,
+        "duration": 1.8,
+        "text": "all over the place."
+      },
+      {
+        "start": 1645.4,
+        "duration": 3.6,
+        "text": "But as I mentioned before, this procedure shouldn't really be thought of as a simulation"
+      },
+      {
+        "start": 1649.0,
+        "duration": 1.9,
+        "text": "of real fluid dynamics."
+      },
+      {
+        "start": 1650.9,
+        "duration": 4.1,
+        "text": "It's just a sort of random walk through the space of possible micro-states."
+      },
+      {
+        "start": 1655.0,
+        "duration": 3.7,
+        "text": "As it turns out, by running this random walk for long enough, we do end up getting a sample"
+      },
+      {
+        "start": 1658.7,
+        "duration": 2.5,
+        "text": "that's very close to the Boltzmann distribution."
+      },
+      {
+        "start": 1661.2,
+        "duration": 3.4,
+        "text": "Just like how when you shuffle a deck of cards enough, its distribution gets close to the"
+      },
+      {
+        "start": 1664.6,
+        "duration": 2.6,
+        "text": "uniform distribution on all arrangements."
+      },
+      {
+        "start": 1667.2,
+        "duration": 4.4,
+        "text": "Actually, this also holds for the algorithm where we only swap neighboring pixels, but"
+      },
+      {
+        "start": 1671.7,
+        "duration": 3.8,
+        "text": "the number of steps it would take to get an accurate sample is much higher."
+      },
+      {
+        "start": 1675.5,
+        "duration": 3.2,
+        "text": "This is similar to how there are multiple different ways to shuffle cards, but some"
+      },
+      {
+        "start": 1678.7,
+        "duration": 2.5,
+        "text": "are more efficient than others."
+      },
+      {
+        "start": 1681.2,
+        "duration": 3.9,
+        "text": "With the algorithm I've presented here, which allows for teleportation, we can even look"
+      },
+      {
+        "start": 1685.1,
+        "duration": 4.0,
+        "text": "at a slightly bigger simulation, and we can see the change in behavior as the temperature"
+      },
+      {
+        "start": 1689.1,
+        "duration": 1.0,
+        "text": "changes."
+      },
+      {
+        "start": 1690.1,
+        "duration": 5.6,
+        "text": "Again, at high temperatures, we see a gaseous phase, with high energy and entropy."
+      },
+      {
+        "start": 1695.7,
+        "duration": 4.2,
+        "text": "While at low temperatures, we see a liquid phase with low energy and entropy."
+      },
+      {
+        "start": 1700.2,
+        "duration": 3.7,
+        "text": "Additionally, the phase transition doesn't happen all at once, especially when we're"
+      },
+      {
+        "start": 1703.9,
+        "duration": 4.0,
+        "text": "going from high temperature to low temperature, since it takes the molecules a while to clump"
+      },
+      {
+        "start": 1707.9,
+        "duration": 2.5,
+        "text": "up."
+      },
+      {
+        "start": 1710.4,
+        "duration": 4.4,
+        "text": "Now I promised a simulation which has a phase diagram similar to that of H2O in this"
+      },
+      {
+        "start": 1714.8,
+        "duration": 5.6,
+        "text": "region, but this is a two-dimensional phase diagram, and so far we've only got temperatures"
+      },
+      {
+        "start": 1720.4,
+        "duration": 4.3,
+        "text": "a parameter, meaning the model we've been considering so far could only have a one-dimensional"
+      },
+      {
+        "start": 1724.7,
+        "duration": 2.0,
+        "text": "phase diagram."
+      },
+      {
+        "start": 1726.7,
+        "duration": 4.4,
+        "text": "The other axis on the standard phase diagram is pressure, but we're actually going to"
+      },
+      {
+        "start": 1731.0,
+        "duration": 3.5,
+        "text": "use a different second parameter for this video."
+      },
+      {
+        "start": 1734.5,
+        "duration": 4.6,
+        "text": "In the same way that temperature is defined as the thing which equalizes when systems"
+      },
+      {
+        "start": 1739.1,
+        "duration": 4.7,
+        "text": "are allowed to swap energy, pressure can be defined as the thing which equalizes when"
+      },
+      {
+        "start": 1743.8,
+        "duration": 6.2,
+        "text": "systems are also allowed to swap volume, maybe by using a moving wall between the systems."
+      },
+      {
+        "start": 1750.0,
+        "duration": 4.4,
+        "text": "But in our simulation, it might be a bit tough to expand and contract the container on"
+      },
+      {
+        "start": 1754.4,
+        "duration": 1.5,
+        "text": "the fly."
+      },
+      {
+        "start": 1755.9,
+        "duration": 3.5,
+        "text": "That will allow the number of molecules to change."
+      },
+      {
+        "start": 1759.4,
+        "duration": 4.6,
+        "text": "When two systems are brought into contact with a permeable wall which lets molecules through,"
+      },
+      {
+        "start": 1764.0,
+        "duration": 3.9,
+        "text": "the thing which equalizes is called the chemical potential."
+      },
+      {
+        "start": 1767.9,
+        "duration": 3.9,
+        "text": "If you have some fancy setup with multiple different kinds of molecules, each kind of"
+      },
+      {
+        "start": 1771.8,
+        "duration": 4.7,
+        "text": "molecule will have its own associated chemical potential, which will equalize when two systems"
+      },
+      {
+        "start": 1776.5,
+        "duration": 5.7,
+        "text": "are put into contact using a permeable wall which only lets that type of molecule through."
+      },
+      {
+        "start": 1782.2,
+        "duration": 3.9,
+        "text": "We only have one type of molecule though, so we'll only have one chemical potential which"
+      },
+      {
+        "start": 1786.1,
+        "duration": 5.7,
+        "text": "we'll call C. This is defined as minus T times the derivative of entropy S with respect"
+      },
+      {
+        "start": 1791.8,
+        "duration": 6.2,
+        "text": "to the number of molecules N. By the way, unlike the temperature which is always non-negative,"
+      },
+      {
+        "start": 1798.0,
+        "duration": 3.9,
+        "text": "the chemical potential could be any real number."
+      },
+      {
+        "start": 1801.9,
+        "duration": 3.9,
+        "text": "Now we'll place our small system in a huge heat bath at fixed temperature and fixed"
+      },
+      {
+        "start": 1805.8,
+        "duration": 4.7,
+        "text": "chemical potential and allow our system to exchange energy and molecules with the heat"
+      },
+      {
+        "start": 1810.5,
+        "duration": 1.8,
+        "text": "bath."
+      },
+      {
+        "start": 1812.2,
+        "duration": 3.4,
+        "text": "Using an argument similar to the one we used when deriving the formula for the Boltzmann"
+      },
+      {
+        "start": 1815.6,
+        "duration": 4.2,
+        "text": "distribution, we can see that the probability of any particular microstate of our small"
+      },
+      {
+        "start": 1819.8,
+        "duration": 4.3,
+        "text": "system is now proportional to the exponential of the negative of one over the temperature"
+      },
+      {
+        "start": 1824.2,
+        "duration": 4.2,
+        "text": "times the energy of the microstate plus the chemical potential over the temperature times"
+      },
+      {
+        "start": 1828.4,
+        "duration": 2.9,
+        "text": "the number of molecules in the microstate."
+      },
+      {
+        "start": 1831.3,
+        "duration": 4.0,
+        "text": "This means that when the chemical potential is positive, microstates with more molecules"
+      },
+      {
+        "start": 1835.2,
+        "duration": 3.4,
+        "text": "are favored and vice versa."
+      },
+      {
+        "start": 1838.6,
+        "duration": 4.0,
+        "text": "Another way to think about this is that we're redefining the energy function like this,"
+      },
+      {
+        "start": 1842.7,
+        "duration": 4.0,
+        "text": "so that it depends on the chemical potential and the molecule number as well."
+      },
+      {
+        "start": 1846.6,
+        "duration": 4.8,
+        "text": "This way we still have the same Boltzmann formula as before."
+      },
+      {
+        "start": 1851.4,
+        "duration": 4.3,
+        "text": "Allowing the number of molecules to change actually makes the simulation easier."
+      },
+      {
+        "start": 1855.8,
+        "duration": 4.0,
+        "text": "Instead of choosing two pixels and possibly swapping a molecule from one to the other,"
+      },
+      {
+        "start": 1859.7,
+        "duration": 4.5,
+        "text": "we can just choose one pixel and randomly decide to add or remove a molecule."
+      },
+      {
+        "start": 1864.2,
+        "duration": 3.9,
+        "text": "What this means is that each pixel can make its own decisions, and these decisions can"
+      },
+      {
+        "start": 1868.1,
+        "duration": 6.2,
+        "text": "actually be somewhat parallelized, meaning that this simulation can be run on the GPU."
+      },
+      {
+        "start": 1874.3,
+        "duration": 4.2,
+        "text": "So we can increase the size of the simulation by a lot, and we can change the temperature"
+      },
+      {
+        "start": 1878.5,
+        "duration": 4.8,
+        "text": "and the chemical potential on the fly in real time."
+      },
+      {
+        "start": 1883.3,
+        "duration": 3.8,
+        "text": "Now let's explore the phase diagram for this model, which describes the behavior as a"
+      },
+      {
+        "start": 1887.1,
+        "duration": 6.1,
+        "text": "function of T and C. This simulation is more spatially homogeneous than the one with fixed"
+      },
+      {
+        "start": 1893.2,
+        "duration": 5.9,
+        "text": "molecule count, so the density of molecules gives a decent large scale characterization."
+      },
+      {
+        "start": 1899.1,
+        "duration": 4.5,
+        "text": "In other words, our phase diagram will be a function telling us the density of molecules"
+      },
+      {
+        "start": 1903.6,
+        "duration": 5.3,
+        "text": "for each value of the parameters T and C. At high temperatures, changing the chemical"
+      },
+      {
+        "start": 1908.9,
+        "duration": 4.2,
+        "text": "potential makes the density change smoothly, so the phase diagram looks something like this"
+      },
+      {
+        "start": 1913.1,
+        "duration": 1.7,
+        "text": "over here."
+      },
+      {
+        "start": 1914.8,
+        "duration": 5.8,
+        "text": "This is the supercritical fluid phase, which interpolates smoothly between liquid and gas."
+      },
+      {
+        "start": 1920.6,
+        "duration": 3.7,
+        "text": "When the chemical potential is greater than minus 2, changing the temperature also makes"
+      },
+      {
+        "start": 1924.3,
+        "duration": 4.3,
+        "text": "the density change smoothly, and we can fill in this corner of the diagram identifying"
+      },
+      {
+        "start": 1928.6,
+        "duration": 2.2,
+        "text": "the liquid phase."
+      },
+      {
+        "start": 1930.8,
+        "duration": 5.3,
+        "text": "The density also changes smoothly with T when C is less than minus 2, which is the gas phase,"
+      },
+      {
+        "start": 1936.1,
+        "duration": 4.4,
+        "text": "and so the overall phase diagram looks like this."
+      },
+      {
+        "start": 1940.5,
+        "duration": 4.7,
+        "text": "As promised, this looks like the phase diagram of H2O in this region, with a phase transition"
+      },
+      {
+        "start": 1945.2,
+        "duration": 5.8,
+        "text": "line between a liquid phase and a gas phase, as well as a region of supercritical fluid."
+      },
+      {
+        "start": 1951.0,
+        "duration": 2.1,
+        "text": "To me, this is pretty amazing."
+      },
+      {
+        "start": 1953.2,
+        "duration": 3.7,
+        "text": "After all, the model we're working with is almost nothing like the real world, where"
+      },
+      {
+        "start": 1956.9,
+        "duration": 4.8,
+        "text": "molecules have nontrivial shapes and can move around freely in three dimensions, where"
+      },
+      {
+        "start": 1961.6,
+        "duration": 5.2,
+        "text": "kinetic energy is relevant at all, and where the intermolecular energy is much more complicated"
+      },
+      {
+        "start": 1966.8,
+        "duration": 3.2,
+        "text": "than just it's good when molecules are next to each other."
+      },
+      {
+        "start": 1970.0,
+        "duration": 4.3,
+        "text": "Still, with all of these simplifications, we can recover behavior that is qualitatively"
+      },
+      {
+        "start": 1974.4,
+        "duration": 2.8,
+        "text": "similar to something in the real world."
+      },
+      {
+        "start": 1977.1,
+        "duration": 4.8,
+        "text": "This is an example of the principle of universality, which is the idea that most specific details"
+      },
+      {
+        "start": 1982.0,
+        "duration": 4.0,
+        "text": "of a model shouldn't actually be too important."
+      },
+      {
+        "start": 1986.0,
+        "duration": 3.8,
+        "text": "Universality posits that there are usually only a few fundamental microscopic rules that"
+      },
+      {
+        "start": 1989.8,
+        "duration": 6.0,
+        "text": "you need in order to see the same macroscopic behavior, at least qualitatively."
+      },
+      {
+        "start": 1995.8,
+        "duration": 4.9,
+        "text": "This is maybe the second and final key point of this video, but before we wrap things"
+      },
+      {
+        "start": 2000.7,
+        "duration": 3.8,
+        "text": "up, I want to talk a bit more about some of the interesting behavior we can observe in"
+      },
+      {
+        "start": 2004.5,
+        "duration": 4.8,
+        "text": "this model, as well as some connections to other models you might have heard of."
+      },
+      {
+        "start": 2009.3,
+        "duration": 6.5,
+        "text": "First, you probably notice these shapes expanding as we cross the line of phase transition."
+      },
+      {
+        "start": 2015.8,
+        "duration": 4.0,
+        "text": "Since the density can't change smoothly as a function of the chemical potential, these"
+      },
+      {
+        "start": 2019.8,
+        "duration": 4.3,
+        "text": "droplets are bubbled and need to form so that, locally, it always looks like either a liquid"
+      },
+      {
+        "start": 2024.1,
+        "duration": 2.0,
+        "text": "or a gas."
+      },
+      {
+        "start": 2026.1,
+        "duration": 4.2,
+        "text": "As we change the temperature, the shape of the droplets changes as well, and this is simply"
+      },
+      {
+        "start": 2030.3,
+        "duration": 3.6,
+        "text": "due to the fact that we're working on a square lattice of pixels."
+      },
+      {
+        "start": 2033.9,
+        "duration": 4.0,
+        "text": "At very low temperatures, the droplets really feel the shape of the lattice, and become"
+      },
+      {
+        "start": 2037.9,
+        "duration": 1.8,
+        "text": "square themselves."
+      },
+      {
+        "start": 2039.7,
+        "duration": 4.4,
+        "text": "While at higher but still subcritical temperatures, they look more round."
+      },
+      {
+        "start": 2044.2,
+        "duration": 4.2,
+        "text": "It's actually possible to calculate the shape of these bubbles as a function of temperature."
+      },
+      {
+        "start": 2048.4,
+        "duration": 4.0,
+        "text": "Look up the wolf shape if you want to learn more."
+      },
+      {
+        "start": 2052.4,
+        "duration": 3.6,
+        "text": "You might have also noticed that we actually have to cross the phase transition line by a"
+      },
+      {
+        "start": 2056.0,
+        "duration": 3.8,
+        "text": "decent amount in order to see the droplets appearing and the phase transition happening"
+      },
+      {
+        "start": 2059.8,
+        "duration": 1.6,
+        "text": "in real time."
+      },
+      {
+        "start": 2061.4,
+        "duration": 4.0,
+        "text": "If we instead only just barely cross the line from the gas to the liquid phase, you'll"
+      },
+      {
+        "start": 2065.4,
+        "duration": 3.5,
+        "text": "see that the system actually remains in the gas phase."
+      },
+      {
+        "start": 2068.8,
+        "duration": 4.0,
+        "text": "This is because the phase transition actually needs to happen through the droplets we just"
+      },
+      {
+        "start": 2072.8,
+        "duration": 1.3,
+        "text": "discussed."
+      },
+      {
+        "start": 2074.2,
+        "duration": 4.1,
+        "text": "If we artificially insert a big enough droplet, then it will slowly grow and fill up the whole"
+      },
+      {
+        "start": 2078.2,
+        "duration": 1.3,
+        "text": "simulation."
+      },
+      {
+        "start": 2079.6,
+        "duration": 4.0,
+        "text": "But without this kickstart, the droplets that arise naturally in the gas won't get big"
+      },
+      {
+        "start": 2083.5,
+        "duration": 4.0,
+        "text": "enough to start this reaction, even though the liquid macro state is the true phase at"
+      },
+      {
+        "start": 2087.5,
+        "duration": 2.2,
+        "text": "these parameters."
+      },
+      {
+        "start": 2089.6,
+        "duration": 3.5,
+        "text": "Instead, they're overwhelmed by the gas around them and shrink back down as soon as they"
+      },
+      {
+        "start": 2093.2,
+        "duration": 1.0,
+        "text": "form."
+      },
+      {
+        "start": 2094.2,
+        "duration": 4.4,
+        "text": "They just can't get big enough to be stable like the one we inserted artificially."
+      },
+      {
+        "start": 2098.6,
+        "duration": 4.0,
+        "text": "This phenomenon is known as metastability, where the system remains in the wrong macro"
+      },
+      {
+        "start": 2102.6,
+        "duration": 4.2,
+        "text": "state for a very long time if there's no external impulse like our artificial insertion"
+      },
+      {
+        "start": 2106.8,
+        "duration": 1.9,
+        "text": "of a droplet."
+      },
+      {
+        "start": 2108.8,
+        "duration": 3.2,
+        "text": "You might have seen something like this in real life, where water can be cooled slightly"
+      },
+      {
+        "start": 2112.0,
+        "duration": 4.5,
+        "text": "below its freezing point, but doesn't actually turn into ice until some external impulse"
+      },
+      {
+        "start": 2116.5,
+        "duration": 4.6,
+        "text": "starts a freezing chain reaction."
+      },
+      {
+        "start": 2121.1,
+        "duration": 4.0,
+        "text": "Now let's take a look at the behavior of the model exactly at the critical point, the"
+      },
+      {
+        "start": 2125.1,
+        "duration": 2.8,
+        "text": "end of the phase transition line."
+      },
+      {
+        "start": 2127.9,
+        "duration": 4.8,
+        "text": "The behavior here is somewhat unlike at any other point in the phase diagram."
+      },
+      {
+        "start": 2132.8,
+        "duration": 4.2,
+        "text": "At the critical point, the molecules form strange fractal-like structures, and there's"
+      },
+      {
+        "start": 2136.9,
+        "duration": 4.4,
+        "text": "a self-similarity to the model at criticality, meaning that it looks essentially the same"
+      },
+      {
+        "start": 2141.4,
+        "duration": 2.8,
+        "text": "no matter how much you zoom out."
+      },
+      {
+        "start": 2144.2,
+        "duration": 2.6,
+        "text": "This doesn't happen away from the critical point."
+      },
+      {
+        "start": 2146.8,
+        "duration": 3.5,
+        "text": "Anywhere except for the critical point, when you zoom out, the model becomes more and"
+      },
+      {
+        "start": 2150.3,
+        "duration": 2.1,
+        "text": "more homogeneous."
+      },
+      {
+        "start": 2152.4,
+        "duration": 4.4,
+        "text": "At slightly higher temperatures, it becomes homogeneous with density one-half, and at slightly"
+      },
+      {
+        "start": 2156.8,
+        "duration": 6.0,
+        "text": "lower temperatures, it becomes homogeneous with density either one or zero."
+      },
+      {
+        "start": 2162.8,
+        "duration": 4.6,
+        "text": "The critical point is the only point where scaling the model doesn't seem to change anything,"
+      },
+      {
+        "start": 2167.3,
+        "duration": 4.6,
+        "text": "and this mysterious behavior sparks a lot of interesting ideas, including the critical"
+      },
+      {
+        "start": 2171.9,
+        "duration": 6.0,
+        "text": "brain hypothesis, which hypothesizes that brains are in some sense at criticality, with"
+      },
+      {
+        "start": 2177.9,
+        "duration": 5.4,
+        "text": "the self-similarity and multi-scale structure allowing for long-range impulses and intercommunication"
+      },
+      {
+        "start": 2183.2,
+        "duration": 3.9,
+        "text": "in the brain without it being overwhelmed by electrical activity."
+      },
+      {
+        "start": 2187.2,
+        "duration": 5.0,
+        "text": "But that is far beyond the scope of this video."
+      },
+      {
+        "start": 2192.1,
+        "duration": 3.5,
+        "text": "Something slightly more accessible which you might have heard of before is the Easing"
+      },
+      {
+        "start": 2195.6,
+        "duration": 1.0,
+        "text": "Model."
+      },
+      {
+        "start": 2196.6,
+        "duration": 4.0,
+        "text": "This is a model of a magnet, which consists of a bunch of tiny magnetic elements arranged"
+      },
+      {
+        "start": 2200.6,
+        "duration": 4.4,
+        "text": "and aggrid, each of which is pointing either up or down."
+      },
+      {
+        "start": 2205.0,
+        "duration": 3.1,
+        "text": "Neighboring elements would like to be aligned with each other, and there's an external"
+      },
+      {
+        "start": 2208.1,
+        "duration": 4.6,
+        "text": "field which also influences each element individually."
+      },
+      {
+        "start": 2212.6,
+        "duration": 4.0,
+        "text": "If this simulation looks familiar, that's because it's exactly the same model as the fluid"
+      },
+      {
+        "start": 2216.7,
+        "duration": 2.3,
+        "text": "we've been looking at this whole time."
+      },
+      {
+        "start": 2219.0,
+        "duration": 4.6,
+        "text": "Just identify a molecule with up and an empty space with down."
+      },
+      {
+        "start": 2223.5,
+        "duration": 4.4,
+        "text": "Under this identification, we need to reinterpret the chemical potential as an external magnetic"
+      },
+      {
+        "start": 2228.0,
+        "duration": 2.9,
+        "text": "field over the whole magnet."
+      },
+      {
+        "start": 2230.9,
+        "duration": 3.6,
+        "text": "In this particular simulation, I'm also imposing boundary conditions where the left"
+      },
+      {
+        "start": 2234.5,
+        "duration": 5.8,
+        "text": "border of the simulation is fixed to be up, and the right border is fixed to be down."
+      },
+      {
+        "start": 2240.2,
+        "duration": 4.4,
+        "text": "These are called dobrachine boundary conditions, and they lead to very interesting behavior,"
+      },
+      {
+        "start": 2244.6,
+        "duration": 5.6,
+        "text": "especially at the critical point, which is what we're looking at right now."
+      },
+      {
+        "start": 2250.2,
+        "duration": 3.8,
+        "text": "With this magnetic interpretation, something interesting also happens if we allow the"
+      },
+      {
+        "start": 2254.0,
+        "duration": 4.3,
+        "text": "magnets to not just point up or down, but to point in any direction."
+      },
+      {
+        "start": 2258.3,
+        "duration": 3.7,
+        "text": "For now, let's just let them point in any direction in two-dimensional space, which"
+      },
+      {
+        "start": 2262.0,
+        "duration": 2.8,
+        "text": "I'll parameterize by a color wheel."
+      },
+      {
+        "start": 2264.8,
+        "duration": 3.5,
+        "text": "Then we get a truly different model, which actually doesn't have the same type of phase"
+      },
+      {
+        "start": 2268.3,
+        "duration": 4.2,
+        "text": "transition anymore, at least not in two dimensions."
+      },
+      {
+        "start": 2272.6,
+        "duration": 3.6,
+        "text": "The fact that the direction of the magnet can change smoothly means that the elements"
+      },
+      {
+        "start": 2276.2,
+        "duration": 5.1,
+        "text": "will never end up all pointing in the same direction, even at very low temperatures."
+      },
+      {
+        "start": 2281.5,
+        "duration": 3.6,
+        "text": "Instead, as we decrease the temperature, we see a new phenomenon, where the color"
+      },
+      {
+        "start": 2285.1,
+        "duration": 4.8,
+        "text": "varies smoothly except for a few points where all the colors meet."
+      },
+      {
+        "start": 2289.9,
+        "duration": 3.8,
+        "text": "These are called vortices, and they come in two different orientations, depending on"
+      },
+      {
+        "start": 2293.8,
+        "duration": 3.6,
+        "text": "the direction in which the colors change around the vortex."
+      },
+      {
+        "start": 2297.4,
+        "duration": 5.5,
+        "text": "Interestingly, these vortices behave somewhat like positively and negatively charged particles,"
+      },
+      {
+        "start": 2302.8,
+        "duration": 4.0,
+        "text": "and they interact with something like an electrical force, with vortices of opposite"
+      },
+      {
+        "start": 2306.8,
+        "duration": 5.9,
+        "text": "types attracting each other, and a repulsive force between vortices of the same type."
+      },
+      {
+        "start": 2312.8,
+        "duration": 6.3,
+        "text": "This is called the XY model, if you're curious and want to learn more."
+      },
+      {
+        "start": 2319.1,
+        "duration": 4.2,
+        "text": "All of these models can also be considered in three dimensions, or even higher, or on"
+      },
+      {
+        "start": 2323.3,
+        "duration": 3.7,
+        "text": "other strange non-uclidean geometries."
+      },
+      {
+        "start": 2327.0,
+        "duration": 4.1,
+        "text": "Even in just three dimensions, our simple liquid vapor model is not as well understood"
+      },
+      {
+        "start": 2331.1,
+        "duration": 1.4,
+        "text": "as we might like."
+      },
+      {
+        "start": 2332.5,
+        "duration": 3.4,
+        "text": "For instance, in two dimensions, it's known that the temperature at the critical point"
+      },
+      {
+        "start": 2336.0,
+        "duration": 4.1,
+        "text": "is exactly one over two times log of one plus the square root of two."
+      },
+      {
+        "start": 2340.1,
+        "duration": 4.7,
+        "text": "But in three dimensions, there's no such formula yet, only numerical approximation, and it's"
+      },
+      {
+        "start": 2344.8,
+        "duration": 3.3,
+        "text": "unclear if there will ever be a formula."
+      },
+      {
+        "start": 2348.1,
+        "duration": 5.4,
+        "text": "Unfortunately, performing rigorous mathematical analysis on a more realistic model of H2O"
+      },
+      {
+        "start": 2353.4,
+        "duration": 3.4,
+        "text": "in three dimensions is simply out of the question."
+      },
+      {
+        "start": 2356.9,
+        "duration": 4.3,
+        "text": "Something like that would have to incorporate the electromagnetic asymmetry of the molecules,"
+      },
+      {
+        "start": 2361.2,
+        "duration": 3.4,
+        "text": "and allow them to move and rotate freely in space."
+      },
+      {
+        "start": 2364.5,
+        "duration": 4.7,
+        "text": "So far, most techniques we have to solve things exactly are restricted to two dimensions,"
+      },
+      {
+        "start": 2369.2,
+        "duration": 4.8,
+        "text": "and adding all these extra details would certainly not make anything easier."
+      },
+      {
+        "start": 2374.0,
+        "duration": 3.6,
+        "text": "For all of these reasons, we'll probably never have a precise mathematical description"
+      },
+      {
+        "start": 2377.7,
+        "duration": 5.5,
+        "text": "of H2O that allows us to prove things like the fact that the melting point of ice is 273"
+      },
+      {
+        "start": 2383.2,
+        "duration": 2.0,
+        "text": "Kelvin."
+      },
+      {
+        "start": 2385.2,
+        "duration": 4.4,
+        "text": "Rather than despair at this fact, we can, as mathematicians, recognize that such a question"
+      },
+      {
+        "start": 2389.6,
+        "duration": 3.6,
+        "text": "is not really mathematical in nature to begin with."
+      },
+      {
+        "start": 2393.2,
+        "duration": 5.0,
+        "text": "In math, we prefer to simplify things as much as we can while still retaining core features."
+      },
+      {
+        "start": 2398.1,
+        "duration": 4.0,
+        "text": "This helps us gain a better conceptual understanding of which mechanisms are the most fundamental"
+      },
+      {
+        "start": 2402.1,
+        "duration": 2.5,
+        "text": "to the observed behavior."
+      },
+      {
+        "start": 2404.6,
+        "duration": 4.6,
+        "text": "In the second video, which is live now on spectral collective, we'll do exactly that."
+      },
+      {
+        "start": 2409.2,
+        "duration": 4.5,
+        "text": "There, we'll simplify the liquid vapor model from this video even more, to the point where"
+      },
+      {
+        "start": 2413.7,
+        "duration": 5.8,
+        "text": "we can essentially completely understand it in a rigorous way using basic mathematics."
+      },
+      {
+        "start": 2419.6,
+        "duration": 3.7,
+        "text": "I find the fact that we can do this without completely destroying the phase diagram really"
+      },
+      {
+        "start": 2423.3,
+        "duration": 1.0,
+        "text": "amazing."
+      },
+      {
+        "start": 2424.3,
+        "duration": 4.1,
+        "text": "And in the second video, we'll see exactly how the different phases arise and what makes"
+      },
+      {
+        "start": 2428.4,
+        "duration": 3.2,
+        "text": "a phase transition happen mathematically."
+      },
+      {
+        "start": 2431.5,
+        "duration": 0.9,
+        "text": "I hope to see you there."
+      }
+    ],
+    "full_text": "This is a video about phase transitions. Our main goal will be to study a simulation of a discretized fluid model which has a phase transition as the parameters are varied. That's what you're looking at right now and it's called the liquid vapor model. To understand how this simulation works, we'll need to introduce one of the most important formulas in physics, the Boltzmann formula. Then we'll see how you could build this simulation yourself and we'll investigate some of the very interesting behavior that it exhibits. By the way, this video is part 1 in a two-part series. The follow-up is live now on the Spectral Collective channel. There, we'll look at a simplified version of the liquid vapor model which we can essentially completely understand using basic mathematics. Okay, so what is a phase transition? You might remember from a chemistry class that phase transitions are not chemical reactions. The molecules of ice are the same as those in water and steam. It's all H2O. The different phases of matter correspond to different ways in which the molecules interact with each other. For instance, in ice, the molecules are locked into a rigid structure and the interactions span long distances. In other words, if you push on one end of an ice cube, the other end moves. This doesn't happen for water and it definitely doesn't happen for steam. There is still some semblance of long-range interaction in water though since ripples can travel pretty far. However, if you move one small region of steam a little bit, there is pretty much no effect on another distant location. You've probably seen a phase diagram like this one before. It tells you what phase of matter you'll observe if you have a bunch of H2O molecules at various temperatures and pressures. Crossing any of these lines between phases results in a phase transition. This is not something that happens suddenly in real time, as you probably know from waiting for water to boil. Instead, the phase of a system refers to its equilibrium behavior, which is what you see after the system has had enough time to settle down. The equilibrium behavior is determined by only a few parameters, in this case temperature and pressure. And a phase transition is a discontinuity in the equilibrium behavior as a function of the parameters. Something you might not have seen before is that there are actually at least 19 different types of ice, but that's beyond the scope of this video. Also at very high temperatures and pressures, there is something over here called a supercritical fluid, which varies continuously between liquid and gas. This means that by moving the parameters through this region, you can actually get steam from water without ever witnessing a phase transition. One of the main goals of this video is to introduce the liquid vapor model, which is a discretized model of a fluid in this region of the phase diagram. Here's what that looks like again. Each blue pixel on the screen represents a molecule, and each white pixel represents an empty space. We have a control panel here, which also shows the phase diagram where we can set the values of two parameters which control the behavior of the simulation. E is the temperature, and you might be expecting pressure for the second parameter, but it turns out that pressure is a bit tricky to work with in a simulation like this. So we use a different parameter called the chemical potential instead. Just to clarify this point, let me say that there's a nice correspondence between various pairs of thermodynamic observables, which I'll say more about later in the video. Temperature is paired up with energy, pressure is paired up with volume, and chemical potential is the thing which is paired up with the molecule count or the number of molecules. We'll get into the details of this later, but for now just know that if we have a system at a specific fixed temperature, then it turns out we have to allow the energy to vary slightly, and how it varies is determined by the specific temperature we set. In the same way, if we wanted a system at a specific pressure, we'd have to allow the volume to change, and this isn't so easy to do in a simulation like the one I'm showing you, since the state of this simulation is represented in my computer by an array of fixed size. Instead, we'll allow the number of molecules on the screen to change, in a way that's controlled by this other parameter, the chemical potential. At high chemical potential, there will generally be more molecules on the screen and vice versa. Increasing the number of molecules has a somewhat similar effect to decreasing the volume, since both of these increase the density of the molecules. And this is why the chemical potential is at least an okay stand in for pressure. Now, although you might have some intuition for it, the temperature is actually a little bit more mysterious. It controls how important the energy is, and in our simulation, the energy corresponds to how clumped up the molecules are. We'll understand much more about this later, but for now just notice that at high temperatures, having molecules clumped up next to each other doesn't matter so much, and randomness is the key factor instead. When we vary the chemical potential at high temperatures, the density of the molecules vary smoothly without a phase transition. And this is like the supercritical fluid region of our real phase diagram. But at low temperatures, once we cross a certain threshold, a phase transition begins to happen, and the density goes from very low, like a gas, to very high, like a liquid, skipping all the intermediate values. Due to the nature of the simulation, the number of molecules on the screen still has to change gradually, and the phase transition doesn't happen all at once. But during the phase transition, every region of the picture is either mostly blue or mostly white, and there are no regions with intermediate density. Where the blue and white regions meet, we see well-defined curves with shapes that can actually be described mathematically. There is so much to talk about in this one simulation, and in this video I want to introduce everything we need to really understand what's going on here. The main question at this point, which I didn't say much about yet, is how exactly does this simulation work? To answer this question, we'll need to talk about the most important formula in statistical mechanics, the Boltzmann law. The Boltzmann law is a formula for a probability distribution, telling us the probability of each configuration x of molecules. A first question you might have is why are we using randomness here at all? I want to first say that this is not the randomness that might come from quantum mechanics. Even if the universe is truly deterministic, using randomness to model systems with many particles can be extremely useful. To see why, let's start with a thought experiment. Suppose we have 20 particles in a box with given initial positions in velocities. This is called a micro-state, since it contains all the information about the microscopic particles in the system. Let's suppose that these are perfectly spherical particles, evolving according to Newton's laws of motion, colliding elastically with each other with no friction. Now let's suppose you close your eyes and take a 30 minute nap. What micro-state will you observe when you wake up? You probably couldn't solve this problem by hand. Maybe you could do it if you had a computer, but even a computer will start to struggle if we increase the particle count. For instance, even this simulation with just 200 particles took my computer multiple hours to make. Even the most powerful computers we have could never solve this problem if the number of particles was something like 10 billion, or 10 to the power of 10. There are just too many calculations. And by the way, 10 billion isn't even close to the typical number of particles in anything we interact with. In just one teaspoon of water, the number of water molecules is around 10 to the 23rd power. To get a bit of a grasp on just how large this is, there are about that many teaspoons worth of water in the entire ocean. So clearly we're not going to be able to predict the exact location of every water molecule in a class of water in order to determine the microstate. But we don't need to do that in order to know that it's water and not ice. I mean, people could tell the difference between water, ice, and steam far before anyone even knew that molecules existed. Once we can only see the large scale behavior or the macro state, we really only care about the overall statistics of the molecules, rather than their individual behavior. This is the key motivation for the first main idea, which is approximating a deterministic microstate like this one by a random microstate. One perspective on this is that we are using randomness as a proxy for the fact that we don't know the true microstate. In other words, we're using randomness as a stand-in for our own uncertainty. This is a subtle point, and in fact it's still an open problem to prove mathematically that this approximation is a good one in general. But that's beyond the scope of this video. For now, we'll just accept the positive randomness because it works well in practice. But just saying that the microstate of a system is random doesn't tell the full picture. We need to know the distribution of the microstates. In other words, we need to know the probability that we see any particular microstate. It turns out that the probability of a microstate x is proportional to the exponential of the negation of the energy of the microstate over the temperature of the system. This is called the Boltzmann distribution, and understanding this is our first main task for this video. If you've seen this before, you might remember a factor of k in the denominator here. This is called Boltzmann's constant, and we'll just ignore it in this video. We can do this by choosing our units in such a way that the numerical value of k is equal to 1. Anyway, this formula actually already explains how phase transitions can arise as we vary the temperature. So before we prove the Boltzmann formula itself, let's see how this works. First, states with higher energy have lower probability and vice versa. This agrees with the fact that nature likes to minimize energy. But this doesn't necessarily mean that we'll typically see a microstate with very low energy under the Boltzmann distribution. In order to understand which energy levels are more likely, we also have to account for the number of microstates at a particular energy level. Let's use omegaE to denote the set of microstates with energyE. Since all of these microstates have the same probability, which is proportional to the exponential of minus E over T, the probability that we get a microstate in omegaE is proportional to this exponential factor times the size of omegaE. To put things on common footing, we can move the size of omegaE into the exponential by taking a logarithm. The logarithm of the size of omegaE is actually a very important quantity called the entropy of the system at energy level E, and we denote it by S. Keep in mind that in this context, the entropy S is actually a function of the energyE, although for now we'll just write it as S to keep the notation simple. In this formula, we can see that the most likely energy level is the one where minus E over T plus S is maximized. Since temperature is non-negative, this is equivalent to minimizing E minus T times S. This important quantity is called the free energy. Let's take a minute to see how this minimization problem is solved. First, when the temperature is very low, changing the entropy doesn't change the free energy by much. So minimizing the free energy essentially amounts to minimizing the energy itself. At high temperatures, changes in entropy are much more important, and so the minimization of free energy is driven by maximizing the entropy instead. In summary, nature tries to minimize the free energy, and at different temperatures, this is done in different ways. This simple fact is ultimately what leads to the different phases of matter and the transitions between them. We can see this principle in action using our simulation. For now, let's consider a situation with a fixed number N of molecules, represented by blue pixels. The molecules can move around from pixel to pixel inside of a box, but it's energetically favorable for them to be next to each other. This is inspired by real intermolecular interactions, which have a sort of sweet spot. Molecules really don't like to be too close, but they also don't like to be too far apart. We encode the fact that the molecules can't be too close, by the fact that each pixel can contain at most one. And we encode the fact that they don't like to be too far apart by giving each pair of molecules an energy of minus one if they're adjacent and zero if they're not. Remember, lower energy is better. In other words, we can actually write the energy of a microstate explicitly, as minus the number of pairs of molecules which are adjacent. Since having lower energy is good, I'll put a little green diamond between each pair of adjacent molecules, so that the energy is exactly equal to the negative of the number of little green diamonds you see. Note that we're totally ignoring kinetic energy here, so our model isn't exactly a realistic fluid simulation, but that's not the point. The main point of this model is to be as simple as possible while still exhibiting a phase transition. And at high and low temperatures, we can see two distinct behaviors emerging, which we call macro states. At high temperatures, the molecules bounce around and mostly ignore one another, which is how molecules behave in a gas, so this is a gas macro state. At low temperatures, though, the molecules start to clump up into a droplet. This is a liquid macro state. The energy of a droplet is much lower since there are more pairs of adjacent molecules represented by green diamonds. But at the same time, the entropy is also lower since there are far fewer configurations that look like this. If you just chose a random configuration of N molecules in a box, without considering the energy, there is basically no way that you'd choose a configuration that looks like a droplet. Instead, you get something that looks like a gas, since there are just more micro states that look like this, although they have higher energy. But at low temperatures, when you're considering energy as an important factor, the higher energy gas configurations lose to the droplets. Notice that there are no macro states with both low energy and high entropy. So when minimizing the free energy, our simulation can't just minimize energy and maximize entropy simultaneously. Instead, it has to choose which of these optimization tasks is more important, and that's determined by the temperature. I think this point that energy and entropy are in competition with each other and that this competition is mediated by the temperature is the main takeaway of this video. This is all a consequence of the formula for the Boltzmann distribution, where the probability of a particular micro state is proportional to the exponential of the negative of the energy of the micro state, divided by the temperature of the system. But we still haven't seen exactly why this is the correct formula, so our next task will be to explain this. After that, we'll be ready to really understand what's going on in the simulations I've shown you so far. It will actually take us a few steps to get to this formula for the Boltzmann distribution, but bear with me because along the way we'll get a more precise understanding of what temperature actually is. Let's first consider a completely isolated system. This system has no way to exchange energy with the outside world, and so every possible micro state of this system has the same energy. In fact, by the same reasoning, there's essentially no way to tell the possible micro states of this system apart in any meaningful way. In this situation, the only reasonable probability distribution on the micro states is the one where every possible micro state is equally likely. In other words, if the collection of micro states of an isolated system at fixed energy level E is called omega E, then each possible micro state will be chosen with probability 1 over the size of omega E, because all of the probabilities need to add up to 1. This fact that in an isolated system at fixed energy E, all micro states are equally likely, will come up a few more times during our derivation of the Boltzmann law, so keep this in mind. Now what would happen if we have two isolated systems at different energies and then suddenly put them in contact, allowing energy to transfer from one system to the other? Well, one thing we know from experience is that after enough time, the temperatures of two things in contact with each other will equalize. But what is temperature? Actually this fact that temperature equalizes when things are put into contact is essentially all we know about it. So let's try to figure out what quantity must equalize once the system has reached equilibrium. To do this, let's formalize things a bit. At any given instant, system 1 will have some energy, which we'll call E1, and system 2 will have energy E2. The total energy of the combined system is E1 plus E2, and that can't be changed. But energy can move back and forth between the two subsystems, so E1 can increase if E2 decreases by the same amount. We'll use DE to denote a small energy packet that could be transferred from one system to the other. These small energy packets will continuously be transferred back and forth randomly, and the system reaches equilibrium when there's no overall flow of energy packets from one system to the other, or in other words when both directions are equally likely. But what determines the chances that an energy packet will flow from one system to the other? Well remember that the combined system is in isolation, so each microstate of the combined system is equally likely. This means that we need to understand the number of combined microstates of the combined system with various splits of the energy across the two subsystems. If there are more combined microstates with energy split, E1 plus DE and E2 minus DE, when there are with energy split, E1 and E2, then an energy packet DE will be more likely to flow from system 2 to system 1, simply because there are more possibilities for the energy to flow in this direction. Let's use Omega E1 E2 to denote the set of combined microstates with energy E1 in system 1 and energy E2 in system 2. This is the same as the Cartesian product of the set of microstates of system 1 with energy E1 and the set of microstates of system 2 with energy E2. Since any combined microstate with the correct energy configuration is valid and a combined microstate is the same thing as its two pieces combined. So we can consider a sort of combined entropy, S12, which is the log of the size of Omega E1 E2. And this is just the sum of the entropies of the two subsystems at their respective energies, which will denote by S1 and S2. Now to determine if there are more combined microstates with energy split E1 plus DE and E2 minus DE, we should consider the change in this combined entropy, which will denote by DS12. If this change is positive, then the energy packet DE will be more likely to flow from system 2 to system 1. Since the energy packet is very small, the change in combined entropy can be written in terms of the derivatives of the two entries as functions of the energies of the two systems, like this, using the chain rule. Factoring out DE, like this, we find that energy is more likely to flow from system 2 to system 1, as long as the derivative of S1 with respect to E1 is greater than the derivative of S2 with respect to E2. Similar reasoning shows that energy is more likely to flow in the opposite direction if the opposite inequality holds. Remember equilibrium is reached when energy is equally likely to flow from either system to the other. This means that these two derivatives must be equal at equilibrium. And here it is. This is the quantity which equalizes when systems are brought into contact, exactly what we were looking for. But is this temperature? Actually not quite. We usually think that energy flows from a hotter system to a colder one, but we just saw that energy flows from the system with a lower value of this derivative to the system with the higher value. So the derivative of entropy with respect to energy is actually 1 over temperature. To get a better understanding for why this is the correct definition for temperature, let's just take a step back and review the math we just did on a more intuitive level. Generally, increasing the energy also increases the number of microstates available to the system. For instance, like we saw before, there are many more gas microstates than there are liquid microstates in our discretized simulation. But this increase is not consistent. At high temperatures when the derivative of entropy with respect to energy is small, adding or removing energy doesn't impact the number of microstates that much. On the other hand, at low temperatures when this derivative is large, adding even a little bit of energy can increase the number of microstates by a lot. So when two systems are in contact, to get more combined microstates, it makes sense for a high temperature system to donate energy to a low temperature system. And this is how we understand temperature intuitively. Now that we know what temperature is, we can derive the formula for the Boltzmann distribution of a system at fixed temperature T. But how can we control the temperature of our system? One way is to put it in contact with a huge reservoir of energy at that temperature, sometimes called a heat bath, although it could also be cold. The temperatures will equalize between our system and the heat bath, but the temperature of the huge heat bath won't change by much at all. Although the resulting temperature of our little system will essentially be set to the same temperature T as the heat bath. Now we want to figure out the probability that we see a particular microstate, say X, when we just look at the little system. But again the combined system of the heat bath plus the little system is isolated and has some fixed total energy, say E0. So each combined microstate is equally likely again. This means that the probability that we see a particular microstate X in the little system is proportional to the number of microstates of the heat bath that are compatible with X. Since the two systems can only exchange energy, a microstate of the heat bath is compatible with a microstate X of the little system exactly when it has the right energy, which is the total energy minus the energy of X. So the set of heat bath microstates compatible with X is the same as the set of microstates with this energy, which we can write using our omega notation. This is the exponential of the entropy of the heat bath at this particular energy. Now remember the heat bath is huge and can basically donate as much energy as the little system needs without changing temperature. In other words, for all relevant energy values, the derivative of the entropy of the heat bath with respect to its energy is a constant, which is 1 over the temperature. This means that the entropy of the heat bath at energy E0 minus E of X is essentially the same as its entropy at energy E0 minus 1 over T times E of X. Let's call the entropy of the heat bath at energy E0 S0. Now we can factor the exponential like this. Since the exponential of S0 is a constant which doesn't depend on X, we can just absorb that in our proportionality relation. And we find that the probability of X is proportional to the exponential of minus the energy of X over the temperature, exactly what we wanted. This finishes the proof of Boltzmann's formula for the probability of microstates in a system at temperature T. This is the distribution that the simulation I've shown is sampling from. So far we've been considering configurations where there are a fixed number of molecules, and the energy of a microstate is the negative of the number of pairs of adjacent molecules, which we could also see visually as the number of green diamonds here. This mimics the fact that intermolecular forces have a sweet spot where molecules prefer to be relatively close to each other. So now we understand this distribution on some level, but just knowing the Boltzmann formula is not enough to actually sample from this distribution, at least not efficiently on a computer. The key reason for this is that there are exponentially many different possible microstates. So even though we have a formula for the distribution, which does allow us to implement some basic sampling procedure, like generating a uniform random number and choosing the microstate based on the division of the unit interval into bins, this kind of procedure will take an exponentially long time to run on a computer. So how are we getting the samples you're seeing on the screen right now? Well, you probably noticed that the simulation is continuously changing over time, so we're not just getting a sample from the Boltzmann distribution in one go. Instead, we're making a bunch of small, manageable random changes to the picture that eventually lead to a proper sample. You can think of this like shuffling cards. Each time you shuffle, a little bit of randomness is added, and eventually you get a roughly uniform distribution on the arrangements of cards. For this simulation, at each time step, we choose two pixels, and if there's a molecule in only one, we randomly decide whether or not to switch the position of the molecule from one pixel to the other. But how do we decide the probability of the swap? Here's where we use our formula for the Boltzmann distribution. Let's call the microstate we've currently got x, and the microstate with the molecule swapped x prime. By our formula, we know that the ratio of these probabilities is exactly the exponential of the energy difference over the temperature. Here we're using the fact that the proportionality constant that's hidden in the Boltzmann formula is the same for both x and x prime, so it cancels out and we actually get an equality here. Now given that we've chosen this pair of pixels to potentially swap, we can only choose between x and x prime. So given that we've only got two choices and we know the ratio of their probabilities, we can also find each probability individually because the probabilities have to add up to one. If you only have two choices and the ratio of their probabilities is q, then the raw probability of the choice in the numerator is q over 1 plus q. So this is the probability that we pick x prime. Or in other words, the probability that we swap the molecules. And that's basically it. Repeating this one step is the entire algorithm. Now it's important that the energy difference here can actually be calculated quite easily. This is because it only depends on the at most 8 pixels surrounding the two that we've chosen to potentially swap. So this algorithm can easily be run on a computer. And it's really not that complicated. I hope that by this point in the video, if you have some programming experience, you could make this simulation yourself. By the way, this algorithm is called Kawasaki Dynamics. And it's an example of a more general class of algorithms that go by the name of Markov Chain Monte Carlo. One thing you might be wondering about is why don't we force the swap to happen between neighboring pixels? After all, that would be a more realistic choice, since we wouldn't have molecules teleporting all over the place. But as I mentioned before, this procedure shouldn't really be thought of as a simulation of real fluid dynamics. It's just a sort of random walk through the space of possible micro-states. As it turns out, by running this random walk for long enough, we do end up getting a sample that's very close to the Boltzmann distribution. Just like how when you shuffle a deck of cards enough, its distribution gets close to the uniform distribution on all arrangements. Actually, this also holds for the algorithm where we only swap neighboring pixels, but the number of steps it would take to get an accurate sample is much higher. This is similar to how there are multiple different ways to shuffle cards, but some are more efficient than others. With the algorithm I've presented here, which allows for teleportation, we can even look at a slightly bigger simulation, and we can see the change in behavior as the temperature changes. Again, at high temperatures, we see a gaseous phase, with high energy and entropy. While at low temperatures, we see a liquid phase with low energy and entropy. Additionally, the phase transition doesn't happen all at once, especially when we're going from high temperature to low temperature, since it takes the molecules a while to clump up. Now I promised a simulation which has a phase diagram similar to that of H2O in this region, but this is a two-dimensional phase diagram, and so far we've only got temperatures a parameter, meaning the model we've been considering so far could only have a one-dimensional phase diagram. The other axis on the standard phase diagram is pressure, but we're actually going to use a different second parameter for this video. In the same way that temperature is defined as the thing which equalizes when systems are allowed to swap energy, pressure can be defined as the thing which equalizes when systems are also allowed to swap volume, maybe by using a moving wall between the systems. But in our simulation, it might be a bit tough to expand and contract the container on the fly. That will allow the number of molecules to change. When two systems are brought into contact with a permeable wall which lets molecules through, the thing which equalizes is called the chemical potential. If you have some fancy setup with multiple different kinds of molecules, each kind of molecule will have its own associated chemical potential, which will equalize when two systems are put into contact using a permeable wall which only lets that type of molecule through. We only have one type of molecule though, so we'll only have one chemical potential which we'll call C. This is defined as minus T times the derivative of entropy S with respect to the number of molecules N. By the way, unlike the temperature which is always non-negative, the chemical potential could be any real number. Now we'll place our small system in a huge heat bath at fixed temperature and fixed chemical potential and allow our system to exchange energy and molecules with the heat bath. Using an argument similar to the one we used when deriving the formula for the Boltzmann distribution, we can see that the probability of any particular microstate of our small system is now proportional to the exponential of the negative of one over the temperature times the energy of the microstate plus the chemical potential over the temperature times the number of molecules in the microstate. This means that when the chemical potential is positive, microstates with more molecules are favored and vice versa. Another way to think about this is that we're redefining the energy function like this, so that it depends on the chemical potential and the molecule number as well. This way we still have the same Boltzmann formula as before. Allowing the number of molecules to change actually makes the simulation easier. Instead of choosing two pixels and possibly swapping a molecule from one to the other, we can just choose one pixel and randomly decide to add or remove a molecule. What this means is that each pixel can make its own decisions, and these decisions can actually be somewhat parallelized, meaning that this simulation can be run on the GPU. So we can increase the size of the simulation by a lot, and we can change the temperature and the chemical potential on the fly in real time. Now let's explore the phase diagram for this model, which describes the behavior as a function of T and C. This simulation is more spatially homogeneous than the one with fixed molecule count, so the density of molecules gives a decent large scale characterization. In other words, our phase diagram will be a function telling us the density of molecules for each value of the parameters T and C. At high temperatures, changing the chemical potential makes the density change smoothly, so the phase diagram looks something like this over here. This is the supercritical fluid phase, which interpolates smoothly between liquid and gas. When the chemical potential is greater than minus 2, changing the temperature also makes the density change smoothly, and we can fill in this corner of the diagram identifying the liquid phase. The density also changes smoothly with T when C is less than minus 2, which is the gas phase, and so the overall phase diagram looks like this. As promised, this looks like the phase diagram of H2O in this region, with a phase transition line between a liquid phase and a gas phase, as well as a region of supercritical fluid. To me, this is pretty amazing. After all, the model we're working with is almost nothing like the real world, where molecules have nontrivial shapes and can move around freely in three dimensions, where kinetic energy is relevant at all, and where the intermolecular energy is much more complicated than just it's good when molecules are next to each other. Still, with all of these simplifications, we can recover behavior that is qualitatively similar to something in the real world. This is an example of the principle of universality, which is the idea that most specific details of a model shouldn't actually be too important. Universality posits that there are usually only a few fundamental microscopic rules that you need in order to see the same macroscopic behavior, at least qualitatively. This is maybe the second and final key point of this video, but before we wrap things up, I want to talk a bit more about some of the interesting behavior we can observe in this model, as well as some connections to other models you might have heard of. First, you probably notice these shapes expanding as we cross the line of phase transition. Since the density can't change smoothly as a function of the chemical potential, these droplets are bubbled and need to form so that, locally, it always looks like either a liquid or a gas. As we change the temperature, the shape of the droplets changes as well, and this is simply due to the fact that we're working on a square lattice of pixels. At very low temperatures, the droplets really feel the shape of the lattice, and become square themselves. While at higher but still subcritical temperatures, they look more round. It's actually possible to calculate the shape of these bubbles as a function of temperature. Look up the wolf shape if you want to learn more. You might have also noticed that we actually have to cross the phase transition line by a decent amount in order to see the droplets appearing and the phase transition happening in real time. If we instead only just barely cross the line from the gas to the liquid phase, you'll see that the system actually remains in the gas phase. This is because the phase transition actually needs to happen through the droplets we just discussed. If we artificially insert a big enough droplet, then it will slowly grow and fill up the whole simulation. But without this kickstart, the droplets that arise naturally in the gas won't get big enough to start this reaction, even though the liquid macro state is the true phase at these parameters. Instead, they're overwhelmed by the gas around them and shrink back down as soon as they form. They just can't get big enough to be stable like the one we inserted artificially. This phenomenon is known as metastability, where the system remains in the wrong macro state for a very long time if there's no external impulse like our artificial insertion of a droplet. You might have seen something like this in real life, where water can be cooled slightly below its freezing point, but doesn't actually turn into ice until some external impulse starts a freezing chain reaction. Now let's take a look at the behavior of the model exactly at the critical point, the end of the phase transition line. The behavior here is somewhat unlike at any other point in the phase diagram. At the critical point, the molecules form strange fractal-like structures, and there's a self-similarity to the model at criticality, meaning that it looks essentially the same no matter how much you zoom out. This doesn't happen away from the critical point. Anywhere except for the critical point, when you zoom out, the model becomes more and more homogeneous. At slightly higher temperatures, it becomes homogeneous with density one-half, and at slightly lower temperatures, it becomes homogeneous with density either one or zero. The critical point is the only point where scaling the model doesn't seem to change anything, and this mysterious behavior sparks a lot of interesting ideas, including the critical brain hypothesis, which hypothesizes that brains are in some sense at criticality, with the self-similarity and multi-scale structure allowing for long-range impulses and intercommunication in the brain without it being overwhelmed by electrical activity. But that is far beyond the scope of this video. Something slightly more accessible which you might have heard of before is the Easing Model. This is a model of a magnet, which consists of a bunch of tiny magnetic elements arranged and aggrid, each of which is pointing either up or down. Neighboring elements would like to be aligned with each other, and there's an external field which also influences each element individually. If this simulation looks familiar, that's because it's exactly the same model as the fluid we've been looking at this whole time. Just identify a molecule with up and an empty space with down. Under this identification, we need to reinterpret the chemical potential as an external magnetic field over the whole magnet. In this particular simulation, I'm also imposing boundary conditions where the left border of the simulation is fixed to be up, and the right border is fixed to be down. These are called dobrachine boundary conditions, and they lead to very interesting behavior, especially at the critical point, which is what we're looking at right now. With this magnetic interpretation, something interesting also happens if we allow the magnets to not just point up or down, but to point in any direction. For now, let's just let them point in any direction in two-dimensional space, which I'll parameterize by a color wheel. Then we get a truly different model, which actually doesn't have the same type of phase transition anymore, at least not in two dimensions. The fact that the direction of the magnet can change smoothly means that the elements will never end up all pointing in the same direction, even at very low temperatures. Instead, as we decrease the temperature, we see a new phenomenon, where the color varies smoothly except for a few points where all the colors meet. These are called vortices, and they come in two different orientations, depending on the direction in which the colors change around the vortex. Interestingly, these vortices behave somewhat like positively and negatively charged particles, and they interact with something like an electrical force, with vortices of opposite types attracting each other, and a repulsive force between vortices of the same type. This is called the XY model, if you're curious and want to learn more. All of these models can also be considered in three dimensions, or even higher, or on other strange non-uclidean geometries. Even in just three dimensions, our simple liquid vapor model is not as well understood as we might like. For instance, in two dimensions, it's known that the temperature at the critical point is exactly one over two times log of one plus the square root of two. But in three dimensions, there's no such formula yet, only numerical approximation, and it's unclear if there will ever be a formula. Unfortunately, performing rigorous mathematical analysis on a more realistic model of H2O in three dimensions is simply out of the question. Something like that would have to incorporate the electromagnetic asymmetry of the molecules, and allow them to move and rotate freely in space. So far, most techniques we have to solve things exactly are restricted to two dimensions, and adding all these extra details would certainly not make anything easier. For all of these reasons, we'll probably never have a precise mathematical description of H2O that allows us to prove things like the fact that the melting point of ice is 273 Kelvin. Rather than despair at this fact, we can, as mathematicians, recognize that such a question is not really mathematical in nature to begin with. In math, we prefer to simplify things as much as we can while still retaining core features. This helps us gain a better conceptual understanding of which mechanisms are the most fundamental to the observed behavior. In the second video, which is live now on spectral collective, we'll do exactly that. There, we'll simplify the liquid vapor model from this video even more, to the point where we can essentially completely understand it in a rigorous way using basic mathematics. I find the fact that we can do this without completely destroying the phase diagram really amazing. And in the second video, we'll see exactly how the different phases arise and what makes a phase transition happen mathematically. I hope to see you there."
+  }
+}

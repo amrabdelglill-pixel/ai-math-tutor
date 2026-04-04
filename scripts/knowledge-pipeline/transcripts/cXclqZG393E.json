@@ -1,0 +1,549 @@
+{
+  "video_id": "cXclqZG393E",
+  "video_title": "The Pyramid of Puzzles - Full Episode | Series 8 E20 | Numberblocks",
+  "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+  "channel_title": "Numberblocks",
+  "published_at": "",
+  "duration_secs": 285.0,
+  "view_count": 2933584,
+  "tags": [
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 3
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 2.0,
+        "duration": 3.0,
+        "text": "The pyramid of puzzles!"
+      },
+      {
+        "start": 5.0,
+        "duration": 4.0,
+        "text": "And who knows what mysteries it holds!"
+      },
+      {
+        "start": 10.0,
+        "duration": 7.0,
+        "text": "We might find out if we can get this door open!"
+      },
+      {
+        "start": 17.0,
+        "duration": 1.0,
+        "text": "Look!"
+      },
+      {
+        "start": 18.0,
+        "duration": 4.0,
+        "text": "Two pictures! A stick and a leaf!"
+      },
+      {
+        "start": 22.0,
+        "duration": 3.0,
+        "text": "It's our first puzzle!"
+      },
+      {
+        "start": 25.0,
+        "duration": 2.0,
+        "text": "And this is easy!"
+      },
+      {
+        "start": 27.0,
+        "duration": 2.0,
+        "text": "We just need to put a stick by the stick!"
+      },
+      {
+        "start": 30.0,
+        "duration": 3.0,
+        "text": "And a leaf by the leaf!"
+      },
+      {
+        "start": 33.0,
+        "duration": 2.0,
+        "text": "Ta-da!"
+      },
+      {
+        "start": 36.0,
+        "duration": 3.0,
+        "text": "Uh... opens sesame!"
+      },
+      {
+        "start": 42.0,
+        "duration": 1.0,
+        "text": "Look!"
+      },
+      {
+        "start": 43.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 44.0,
+        "duration": 2.0,
+        "text": "Numbers!"
+      },
+      {
+        "start": 46.0,
+        "duration": 2.0,
+        "text": "It looks like some sort of chart!"
+      },
+      {
+        "start": 48.0,
+        "duration": 3.0,
+        "text": "With tall bars!"
+      },
+      {
+        "start": 51.0,
+        "duration": 2.0,
+        "text": "This bar reaches up to three!"
+      },
+      {
+        "start": 53.0,
+        "duration": 2.0,
+        "text": "Like me!"
+      },
+      {
+        "start": 55.0,
+        "duration": 2.0,
+        "text": "And this one goes up to five!"
+      },
+      {
+        "start": 57.0,
+        "duration": 2.0,
+        "text": "The same height as me!"
+      },
+      {
+        "start": 59.0,
+        "duration": 2.0,
+        "text": "With a stick bar goes up to three!"
+      },
+      {
+        "start": 61.0,
+        "duration": 3.0,
+        "text": "And the leaf bar goes up to five!"
+      },
+      {
+        "start": 64.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 65.0,
+        "duration": 6.0,
+        "text": "I think it's showing us how many sticks and how many leaves we need to lay down!"
+      },
+      {
+        "start": 71.0,
+        "duration": 1.0,
+        "text": "Let's see!"
+      },
+      {
+        "start": 75.0,
+        "duration": 2.0,
+        "text": "Three sticks!"
+      },
+      {
+        "start": 77.0,
+        "duration": 2.0,
+        "text": "Five leaves!"
+      },
+      {
+        "start": 83.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 85.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 87.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 89.0,
+        "duration": 2.0,
+        "text": "Oh! Squares!"
+      },
+      {
+        "start": 91.0,
+        "duration": 2.0,
+        "text": "What are those?"
+      },
+      {
+        "start": 93.0,
+        "duration": 2.0,
+        "text": "Let's see!"
+      },
+      {
+        "start": 95.0,
+        "duration": 2.0,
+        "text": "They're musical!"
+      },
+      {
+        "start": 97.0,
+        "duration": 3.0,
+        "text": "Maybe this is a music puzzle!"
+      },
+      {
+        "start": 100.0,
+        "duration": 4.0,
+        "text": "This bar chart is three blocks high!"
+      },
+      {
+        "start": 104.0,
+        "duration": 2.0,
+        "text": "Oh, I don't want to do!"
+      },
+      {
+        "start": 110.0,
+        "duration": 2.0,
+        "text": "Uh... worth a try?"
+      },
+      {
+        "start": 112.0,
+        "duration": 1.0,
+        "text": "Hmm..."
+      },
+      {
+        "start": 113.0,
+        "duration": 2.0,
+        "text": "Look at the numbers!"
+      },
+      {
+        "start": 115.0,
+        "duration": 1.0,
+        "text": "Ah!"
+      },
+      {
+        "start": 116.0,
+        "duration": 3.0,
+        "text": "This chart doesn't go up in ones like before!"
+      },
+      {
+        "start": 119.0,
+        "duration": 2.0,
+        "text": "It goes up in two!"
+      },
+      {
+        "start": 121.0,
+        "duration": 2.0,
+        "text": "So the first bar is a..."
+      },
+      {
+        "start": 123.0,
+        "duration": 1.0,
+        "text": "Two!"
+      },
+      {
+        "start": 127.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 128.0,
+        "duration": 1.0,
+        "text": "And this bar is..."
+      },
+      {
+        "start": 129.0,
+        "duration": 2.0,
+        "text": "Two, four!"
+      },
+      {
+        "start": 135.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 136.0,
+        "duration": 2.0,
+        "text": "And the final bar is..."
+      },
+      {
+        "start": 138.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 139.0,
+        "duration": 2.0,
+        "text": "It's in between numbers!"
+      },
+      {
+        "start": 141.0,
+        "duration": 3.0,
+        "text": "In between four and six!"
+      },
+      {
+        "start": 144.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 145.0,
+        "duration": 1.0,
+        "text": "That's me!"
+      },
+      {
+        "start": 146.0,
+        "duration": 1.0,
+        "text": "Five!"
+      },
+      {
+        "start": 156.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 157.0,
+        "duration": 2.0,
+        "text": "Onwards and upwards!"
+      },
+      {
+        "start": 165.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 166.0,
+        "duration": 2.0,
+        "text": "That was our way out!"
+      },
+      {
+        "start": 168.0,
+        "duration": 2.0,
+        "text": "Maybe there's another way!"
+      },
+      {
+        "start": 171.0,
+        "duration": 1.0,
+        "text": "Look!"
+      },
+      {
+        "start": 172.0,
+        "duration": 1.0,
+        "text": "Another bar chart!"
+      },
+      {
+        "start": 173.0,
+        "duration": 2.0,
+        "text": "With four bars!"
+      },
+      {
+        "start": 176.0,
+        "duration": 1.0,
+        "text": "Maybe!"
+      },
+      {
+        "start": 177.0,
+        "duration": 2.0,
+        "text": "If we can solve this puzzle,"
+      },
+      {
+        "start": 179.0,
+        "duration": 2.0,
+        "text": "we'll find a different way out!"
+      },
+      {
+        "start": 181.0,
+        "duration": 3.0,
+        "text": "Do we fill the dishes with gems?"
+      },
+      {
+        "start": 184.0,
+        "duration": 2.0,
+        "text": "And if so, how many?"
+      },
+      {
+        "start": 186.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 188.0,
+        "duration": 1.0,
+        "text": "Five!"
+      },
+      {
+        "start": 189.0,
+        "duration": 1.0,
+        "text": "Ten!"
+      },
+      {
+        "start": 190.0,
+        "duration": 1.0,
+        "text": "Fifteen!"
+      },
+      {
+        "start": 191.0,
+        "duration": 1.0,
+        "text": "Twenty!"
+      },
+      {
+        "start": 192.0,
+        "duration": 3.0,
+        "text": "Each mark goes up by five!"
+      },
+      {
+        "start": 195.0,
+        "duration": 2.0,
+        "text": "So the first bar means five gems?"
+      },
+      {
+        "start": 197.0,
+        "duration": 2.0,
+        "text": "The second bar means ten!"
+      },
+      {
+        "start": 199.0,
+        "duration": 3.0,
+        "text": "Then fifteen, then twenty gems!"
+      },
+      {
+        "start": 202.0,
+        "duration": 1.0,
+        "text": "Come on!"
+      },
+      {
+        "start": 203.0,
+        "duration": 2.0,
+        "text": "Pick up five gems at a time!"
+      },
+      {
+        "start": 205.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 206.0,
+        "duration": 2.0,
+        "text": "And don't forget to match the cars!"
+      },
+      {
+        "start": 208.0,
+        "duration": 3.0,
+        "text": "One, two, three, four, five!"
+      },
+      {
+        "start": 211.0,
+        "duration": 2.0,
+        "text": "That's five gems!"
+      },
+      {
+        "start": 213.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 216.0,
+        "duration": 2.0,
+        "text": "Five!"
+      },
+      {
+        "start": 218.0,
+        "duration": 1.0,
+        "text": "Ten!"
+      },
+      {
+        "start": 223.0,
+        "duration": 1.0,
+        "text": "Five!"
+      },
+      {
+        "start": 224.0,
+        "duration": 1.0,
+        "text": "Ten!"
+      },
+      {
+        "start": 225.0,
+        "duration": 2.0,
+        "text": "Fifteen!"
+      },
+      {
+        "start": 230.0,
+        "duration": 1.0,
+        "text": "Five!"
+      },
+      {
+        "start": 231.0,
+        "duration": 1.0,
+        "text": "Ten!"
+      },
+      {
+        "start": 232.0,
+        "duration": 1.0,
+        "text": "Fifteen!"
+      },
+      {
+        "start": 233.0,
+        "duration": 2.0,
+        "text": "Twenty!"
+      },
+      {
+        "start": 237.0,
+        "duration": 2.0,
+        "text": "Three!"
+      },
+      {
+        "start": 249.0,
+        "duration": 4.0,
+        "text": "So that's the mystery of the pyramid puzzle!"
+      },
+      {
+        "start": 255.0,
+        "duration": 1.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 257.0,
+        "duration": 1.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 259.0,
+        "duration": 3.0,
+        "text": "This was the best bar none!"
+      },
+      {
+        "start": 262.0,
+        "duration": 2.0,
+        "text": "Who wants another go?"
+      },
+      {
+        "start": 264.0,
+        "duration": 2.0,
+        "text": "They are the two boys!"
+      },
+      {
+        "start": 266.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      }
+    ],
+    "full_text": "Oh! The pyramid of puzzles! And who knows what mysteries it holds! We might find out if we can get this door open! Look! Two pictures! A stick and a leaf! It's our first puzzle! And this is easy! We just need to put a stick by the stick! And a leaf by the leaf! Ta-da! Uh... opens sesame! Look! Oh! Numbers! It looks like some sort of chart! With tall bars! This bar reaches up to three! Like me! And this one goes up to five! The same height as me! With a stick bar goes up to three! And the leaf bar goes up to five! Oh! I think it's showing us how many sticks and how many leaves we need to lay down! Let's see! Three sticks! Five leaves! Oh! Oh! Oh! Oh! Squares! What are those? Let's see! They're musical! Maybe this is a music puzzle! This bar chart is three blocks high! Oh, I don't want to do! Uh... worth a try? Hmm... Look at the numbers! Ah! This chart doesn't go up in ones like before! It goes up in two! So the first bar is a... Two! Oh! And this bar is... Two, four! Oh! And the final bar is... Oh! It's in between numbers! In between four and six! Oh! That's me! Five! Oh! Onwards and upwards! Oh! That was our way out! Maybe there's another way! Look! Another bar chart! With four bars! Maybe! If we can solve this puzzle, we'll find a different way out! Do we fill the dishes with gems? And if so, how many? Oh! Five! Ten! Fifteen! Twenty! Each mark goes up by five! So the first bar means five gems? The second bar means ten! Then fifteen, then twenty gems! Come on! Pick up five gems at a time! Oh! And don't forget to match the cars! One, two, three, four, five! That's five gems! Oh! Five! Ten! Five! Ten! Fifteen! Five! Ten! Fifteen! Twenty! Three! So that's the mystery of the pyramid puzzle! Yay! Yay! This was the best bar none! Who wants another go? They are the two boys! Oh!"
+  }
+}

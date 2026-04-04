@@ -1,0 +1,549 @@
+{
+  "video_id": "HZvPSQmZkPg",
+  "video_title": "Happy Campers - Full Episode | Series 8 E22 | Numberblocks",
+  "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+  "channel_title": "Numberblocks",
+  "published_at": "",
+  "duration_secs": 285.0,
+  "view_count": 1197535,
+  "tags": [
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 3
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 6.0,
+        "text": "I'm going camping sleeping in the tent."
+      },
+      {
+        "start": 6.0,
+        "duration": 3.0,
+        "text": "Oh, look at that!"
+      },
+      {
+        "start": 9.0,
+        "duration": 2.0,
+        "text": "One fabulous flower!"
+      },
+      {
+        "start": 11.0,
+        "duration": 3.0,
+        "text": "One brilliant bird!"
+      },
+      {
+        "start": 14.0,
+        "duration": 4.0,
+        "text": "But only one number book."
+      },
+      {
+        "start": 18.0,
+        "duration": 2.0,
+        "text": "Make that too!"
+      },
+      {
+        "start": 20.0,
+        "duration": 5.0,
+        "text": "When I heard you were camping, I just had to join in the adventure."
+      },
+      {
+        "start": 25.0,
+        "duration": 1.0,
+        "text": "Oh, too!"
+      },
+      {
+        "start": 26.0,
+        "duration": 2.0,
+        "text": "I'm so glad you're here!"
+      },
+      {
+        "start": 28.0,
+        "duration": 3.0,
+        "text": "I was just about to stop for a picnic."
+      },
+      {
+        "start": 31.0,
+        "duration": 3.0,
+        "text": "And now I can share it with you!"
+      },
+      {
+        "start": 34.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 35.0,
+        "duration": 2.0,
+        "text": "This part for me?"
+      },
+      {
+        "start": 37.0,
+        "duration": 2.0,
+        "text": "That part for you!"
+      },
+      {
+        "start": 39.0,
+        "duration": 3.0,
+        "text": "Two parts, both the same size."
+      },
+      {
+        "start": 42.0,
+        "duration": 2.0,
+        "text": "They're equal."
+      },
+      {
+        "start": 44.0,
+        "duration": 2.0,
+        "text": "And that's fair."
+      },
+      {
+        "start": 46.0,
+        "duration": 3.0,
+        "text": "I forgot to pack the picnic."
+      },
+      {
+        "start": 49.0,
+        "duration": 2.0,
+        "text": "No problem."
+      },
+      {
+        "start": 51.0,
+        "duration": 2.0,
+        "text": "I have two apples we can share."
+      },
+      {
+        "start": 53.0,
+        "duration": 2.0,
+        "text": "One for you."
+      },
+      {
+        "start": 55.0,
+        "duration": 2.0,
+        "text": "One for me."
+      },
+      {
+        "start": 57.0,
+        "duration": 1.0,
+        "text": "There equal."
+      },
+      {
+        "start": 58.0,
+        "duration": 2.0,
+        "text": "And that's fair."
+      },
+      {
+        "start": 60.0,
+        "duration": 5.0,
+        "text": "It's a beautiful view."
+      },
+      {
+        "start": 65.0,
+        "duration": 3.0,
+        "text": "I wish I brought some paper and crayons."
+      },
+      {
+        "start": 68.0,
+        "duration": 3.0,
+        "text": "Oh, I've got two crayons here."
+      },
+      {
+        "start": 71.0,
+        "duration": 1.0,
+        "text": "We can share."
+      },
+      {
+        "start": 72.0,
+        "duration": 3.0,
+        "text": "Oh, but only one piece of paper."
+      },
+      {
+        "start": 75.0,
+        "duration": 2.0,
+        "text": "How can we share this?"
+      },
+      {
+        "start": 77.0,
+        "duration": 1.0,
+        "text": "Easy."
+      },
+      {
+        "start": 78.0,
+        "duration": 4.0,
+        "text": "We split the whole piece into two."
+      },
+      {
+        "start": 82.0,
+        "duration": 2.0,
+        "text": "Like this."
+      },
+      {
+        "start": 84.0,
+        "duration": 2.0,
+        "text": "Hmm."
+      },
+      {
+        "start": 86.0,
+        "duration": 2.0,
+        "text": "Finished."
+      },
+      {
+        "start": 88.0,
+        "duration": 1.0,
+        "text": "Look!"
+      },
+      {
+        "start": 89.0,
+        "duration": 2.0,
+        "text": "I drew this part."
+      },
+      {
+        "start": 91.0,
+        "duration": 2.0,
+        "text": "You drew that part."
+      },
+      {
+        "start": 93.0,
+        "duration": 4.0,
+        "text": "Together we've drawn the whole picture."
+      },
+      {
+        "start": 97.0,
+        "duration": 1.0,
+        "text": "Come on."
+      },
+      {
+        "start": 98.0,
+        "duration": 3.0,
+        "text": "Let's go and set up camp."
+      },
+      {
+        "start": 101.0,
+        "duration": 4.0,
+        "text": "I'm going to go to camp."
+      },
+      {
+        "start": 105.0,
+        "duration": 2.0,
+        "text": "I'm going to camp."
+      },
+      {
+        "start": 107.0,
+        "duration": 3.0,
+        "text": "I'm going to go and set up camp."
+      },
+      {
+        "start": 110.0,
+        "duration": 3.0,
+        "text": "Where should we put the tent?"
+      },
+      {
+        "start": 113.0,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 114.0,
+        "duration": 2.0,
+        "text": "Oh."
+      },
+      {
+        "start": 116.0,
+        "duration": 3.0,
+        "text": "If I put my tent on this side,"
+      },
+      {
+        "start": 119.0,
+        "duration": 2.0,
+        "text": "you can put yours on that side."
+      },
+      {
+        "start": 121.0,
+        "duration": 2.0,
+        "text": "They're equal."
+      },
+      {
+        "start": 123.0,
+        "duration": 2.0,
+        "text": "That's fair."
+      },
+      {
+        "start": 125.0,
+        "duration": 4.0,
+        "text": "And what a lovely quiet spot."
+      },
+      {
+        "start": 129.0,
+        "duration": 2.0,
+        "text": "I did it."
+      },
+      {
+        "start": 131.0,
+        "duration": 1.0,
+        "text": "I did it."
+      },
+      {
+        "start": 132.0,
+        "duration": 1.0,
+        "text": "I did it."
+      },
+      {
+        "start": 133.0,
+        "duration": 1.0,
+        "text": "It's me."
+      },
+      {
+        "start": 134.0,
+        "duration": 2.0,
+        "text": "I come to join the camping trip."
+      },
+      {
+        "start": 136.0,
+        "duration": 3.0,
+        "text": "Let's split this side in half."
+      },
+      {
+        "start": 139.0,
+        "duration": 3.0,
+        "text": "So we have room for three tents."
+      },
+      {
+        "start": 142.0,
+        "duration": 3.0,
+        "text": "I'll put my tent here."
+      },
+      {
+        "start": 145.0,
+        "duration": 3.0,
+        "text": "And then you each get a space too."
+      },
+      {
+        "start": 148.0,
+        "duration": 3.0,
+        "text": "That's not fair."
+      },
+      {
+        "start": 151.0,
+        "duration": 3.0,
+        "text": "Your part is bigger than each of ours."
+      },
+      {
+        "start": 154.0,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 155.0,
+        "duration": 3.0,
+        "text": "I'm going to put my tent on that side."
+      },
+      {
+        "start": 158.0,
+        "duration": 2.0,
+        "text": "I'm going to put my tent here."
+      },
+      {
+        "start": 160.0,
+        "duration": 1.0,
+        "text": "Close."
+      },
+      {
+        "start": 161.0,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 162.0,
+        "duration": 1.0,
+        "text": "The..."
+      },
+      {
+        "start": 163.0,
+        "duration": 1.0,
+        "text": "Fine."
+      },
+      {
+        "start": 164.0,
+        "duration": 6.0,
+        "text": "I can move the lines over until the spaces look the same."
+      },
+      {
+        "start": 170.0,
+        "duration": 1.0,
+        "text": "Ta-da!"
+      },
+      {
+        "start": 171.0,
+        "duration": 4.0,
+        "text": "Each part is equal."
+      },
+      {
+        "start": 175.0,
+        "duration": 1.0,
+        "text": "The same."
+      },
+      {
+        "start": 176.0,
+        "duration": 2.0,
+        "text": "Yeah."
+      },
+      {
+        "start": 178.0,
+        "duration": 1.0,
+        "text": "Tent up."
+      },
+      {
+        "start": 179.0,
+        "duration": 3.0,
+        "text": "And now it's snack time."
+      },
+      {
+        "start": 182.0,
+        "duration": 1.0,
+        "text": "Yum."
+      },
+      {
+        "start": 183.0,
+        "duration": 4.0,
+        "text": "Ten top and now it's snack time!"
+      },
+      {
+        "start": 187.0,
+        "duration": 1.0,
+        "text": "Yum!"
+      },
+      {
+        "start": 188.0,
+        "duration": 4.0,
+        "text": "I suppose I could share."
+      },
+      {
+        "start": 192.0,
+        "duration": 1.0,
+        "text": "Hello!"
+      },
+      {
+        "start": 193.0,
+        "duration": 2.0,
+        "text": "Rune for one more!"
+      },
+      {
+        "start": 195.0,
+        "duration": 4.0,
+        "text": "Oh, that super long sandwich looks delicious!"
+      },
+      {
+        "start": 199.0,
+        "duration": 6.0,
+        "text": "So, how exactly do I share my bugget between all of us?"
+      },
+      {
+        "start": 205.0,
+        "duration": 1.0,
+        "text": "Like this!"
+      },
+      {
+        "start": 206.0,
+        "duration": 7.0,
+        "text": "Well, that's not right!"
+      },
+      {
+        "start": 213.0,
+        "duration": 2.0,
+        "text": "There are only two pieces!"
+      },
+      {
+        "start": 215.0,
+        "duration": 2.0,
+        "text": "What we're supposed to do with those?"
+      },
+      {
+        "start": 217.0,
+        "duration": 2.0,
+        "text": "I'll show you!"
+      },
+      {
+        "start": 222.0,
+        "duration": 3.0,
+        "text": "Four equal sized pieces."
+      },
+      {
+        "start": 225.0,
+        "duration": 3.0,
+        "text": "One for each of us."
+      },
+      {
+        "start": 228.0,
+        "duration": 3.0,
+        "text": "And that's fair!"
+      },
+      {
+        "start": 236.0,
+        "duration": 3.0,
+        "text": "I've had a wonderful day!"
+      },
+      {
+        "start": 239.0,
+        "duration": 6.0,
+        "text": "But I wish I'd brought a bigger tent that we could all sleep in together!"
+      },
+      {
+        "start": 245.0,
+        "duration": 4.0,
+        "text": "We could all sleep in my big tent!"
+      },
+      {
+        "start": 249.0,
+        "duration": 3.0,
+        "text": "One square corner each!"
+      },
+      {
+        "start": 252.0,
+        "duration": 2.0,
+        "text": "Oh, that's fair!"
+      },
+      {
+        "start": 254.0,
+        "duration": 3.0,
+        "text": "And square!"
+      },
+      {
+        "start": 257.0,
+        "duration": 2.0,
+        "text": "Thanks for sharing your tent for!"
+      },
+      {
+        "start": 259.0,
+        "duration": 4.0,
+        "text": "Now for a good night's sleep!"
+      },
+      {
+        "start": 263.0,
+        "duration": 2.0,
+        "text": "Shall we have a story?"
+      },
+      {
+        "start": 265.0,
+        "duration": 3.0,
+        "text": "Go, three!"
+      }
+    ],
+    "full_text": "I'm going camping sleeping in the tent. Oh, look at that! One fabulous flower! One brilliant bird! But only one number book. Make that too! When I heard you were camping, I just had to join in the adventure. Oh, too! I'm so glad you're here! I was just about to stop for a picnic. And now I can share it with you! Oh! This part for me? That part for you! Two parts, both the same size. They're equal. And that's fair. I forgot to pack the picnic. No problem. I have two apples we can share. One for you. One for me. There equal. And that's fair. It's a beautiful view. I wish I brought some paper and crayons. Oh, I've got two crayons here. We can share. Oh, but only one piece of paper. How can we share this? Easy. We split the whole piece into two. Like this. Hmm. Finished. Look! I drew this part. You drew that part. Together we've drawn the whole picture. Come on. Let's go and set up camp. I'm going to go to camp. I'm going to camp. I'm going to go and set up camp. Where should we put the tent? Oh. Oh. If I put my tent on this side, you can put yours on that side. They're equal. That's fair. And what a lovely quiet spot. I did it. I did it. I did it. It's me. I come to join the camping trip. Let's split this side in half. So we have room for three tents. I'll put my tent here. And then you each get a space too. That's not fair. Your part is bigger than each of ours. Oh. I'm going to put my tent on that side. I'm going to put my tent here. Close. Oh. The... Fine. I can move the lines over until the spaces look the same. Ta-da! Each part is equal. The same. Yeah. Tent up. And now it's snack time. Yum. Ten top and now it's snack time! Yum! I suppose I could share. Hello! Rune for one more! Oh, that super long sandwich looks delicious! So, how exactly do I share my bugget between all of us? Like this! Well, that's not right! There are only two pieces! What we're supposed to do with those? I'll show you! Four equal sized pieces. One for each of us. And that's fair! I've had a wonderful day! But I wish I'd brought a bigger tent that we could all sleep in together! We could all sleep in my big tent! One square corner each! Oh, that's fair! And square! Thanks for sharing your tent for! Now for a good night's sleep! Shall we have a story? Go, three!"
+  }
+}

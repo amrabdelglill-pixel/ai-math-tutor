@@ -1,0 +1,1254 @@
+{
+  "video_id": "vfOMAz2CmK4",
+  "video_title": "Agentic AI Frameworks | What is Agentic AI Framework? | Best Agentic AI Framework | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 996.0,
+  "view_count": 6485,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.4,
+        "text": "Hello everyone and welcome to this video on Agentec AI frameworks."
+      },
+      {
+        "start": 13.4,
+        "duration": 5.5,
+        "text": "It seems like everywhere you look today, businesses are turning to AI agents to automate"
+      },
+      {
+        "start": 18.9,
+        "duration": 5.2,
+        "text": "complex workflows, boost productivity and mix smarter decisions."
+      },
+      {
+        "start": 24.1,
+        "duration": 4.9,
+        "text": "Across industries like finance, healthcare, retail and tech, more and more companies are"
+      },
+      {
+        "start": 29.0,
+        "duration": 6.4,
+        "text": "already using AI agents to handle tasks that once required entire teams of people."
+      },
+      {
+        "start": 35.4,
+        "duration": 4.6,
+        "text": "Maybe you're here because you have heard the buzz around Agentec AI and want to finally"
+      },
+      {
+        "start": 40.0,
+        "duration": 2.5,
+        "text": "understand what it actually means."
+      },
+      {
+        "start": 42.5,
+        "duration": 5.2,
+        "text": "Or maybe you're curious about which framework is best to build your own intelligence systems."
+      },
+      {
+        "start": 47.6,
+        "duration": 4.8,
+        "text": "And you might be wondering what exactly is an Agentec AI framework, how is it different"
+      },
+      {
+        "start": 52.5,
+        "duration": 5.4,
+        "text": "from traditional AI tools and how can you use it to build autonomous AI systems that"
+      },
+      {
+        "start": 57.9,
+        "duration": 3.9,
+        "text": "don't just respond but actually think plan and act."
+      },
+      {
+        "start": 61.8,
+        "duration": 4.8,
+        "text": "In this video, we are going to break it all down step by step from understanding what"
+      },
+      {
+        "start": 66.6,
+        "duration": 5.8,
+        "text": "AI agents really are to exploring popular frameworks their key features, how to choose the"
+      },
+      {
+        "start": 72.4,
+        "duration": 3.7,
+        "text": "right one and where they are used in real world."
+      },
+      {
+        "start": 76.1,
+        "duration": 4.5,
+        "text": "Whether you're a developer looking to build powerful agents or a business leader exploring"
+      },
+      {
+        "start": 80.6,
+        "duration": 6.0,
+        "text": "automation, by the end of this video you will have a clear roadmap to Agentec AI frameworks."
+      },
+      {
+        "start": 86.7,
+        "duration": 4.8,
+        "text": "Now before we dive into the real world example, please like share and subscribe to Idureka's"
+      },
+      {
+        "start": 91.5,
+        "duration": 5.6,
+        "text": "YouTube channel and hit the bell icon to stay updated on the latest content from Idureka."
+      },
+      {
+        "start": 97.1,
+        "duration": 4.2,
+        "text": "Also, check out Idureka's Agentec AI certification training."
+      },
+      {
+        "start": 101.3,
+        "duration": 5.0,
+        "text": "It is carefully crafted to meet industry demands and prepare you for the future of intelligent"
+      },
+      {
+        "start": 106.3,
+        "duration": 1.0,
+        "text": "agents."
+      },
+      {
+        "start": 107.3,
+        "duration": 5.8,
+        "text": "You will gain practical skills in Langshane, RAD, LLM ops and more through live instructor"
+      },
+      {
+        "start": 113.1,
+        "duration": 2.4,
+        "text": "lectures and hands on labs."
+      },
+      {
+        "start": 115.6,
+        "duration": 4.8,
+        "text": "Whether you're a beginner or a tech professional, this course helps you master the concepts and"
+      },
+      {
+        "start": 120.4,
+        "duration": 2.3,
+        "text": "accelerate your AI career."
+      },
+      {
+        "start": 122.6,
+        "duration": 6.0,
+        "text": "Now let's take a quick look at how AI agents are making real impact, starting with a powerful"
+      },
+      {
+        "start": 128.6,
+        "duration": 2.7,
+        "text": "example in customer experience."
+      },
+      {
+        "start": 131.4,
+        "duration": 5.2,
+        "text": "Imagine reaching out to customer support and getting instant personalized help, no repeating"
+      },
+      {
+        "start": 136.6,
+        "duration": 1.0,
+        "text": "details."
+      },
+      {
+        "start": 137.6,
+        "duration": 3.7,
+        "text": "That's what Agentec AI brings to customer experience."
+      },
+      {
+        "start": 141.3,
+        "duration": 5.8,
+        "text": "With rising customer expectations and growing burnout among support teams, AI agents are"
+      },
+      {
+        "start": 147.1,
+        "duration": 3.9,
+        "text": "stepping in to make every interaction smarter and faster."
+      },
+      {
+        "start": 151.0,
+        "duration": 4.6,
+        "text": "This agents don't just respond, they learn, remember and act."
+      },
+      {
+        "start": 155.6,
+        "duration": 5.8,
+        "text": "Unlike traditional chat boards that follow scripts, agentic AI understand context, predicts"
+      },
+      {
+        "start": 161.4,
+        "duration": 6.5,
+        "text": "needs and can even take proactive action, like offering a refund, opening a support ticket"
+      },
+      {
+        "start": 167.9,
+        "duration": 4.4,
+        "text": "or escalating an issue before it becomes a complaint."
+      },
+      {
+        "start": 172.3,
+        "duration": 5.1,
+        "text": "They use natural language processing to hold real conversations, sentiment analysis to"
+      },
+      {
+        "start": 177.4,
+        "duration": 6.0,
+        "text": "sense emotions and can smoothly hand over complex cases to human agent when needed."
+      },
+      {
+        "start": 183.4,
+        "duration": 5.8,
+        "text": "And behind the scenes, these agents assist customer service representatives to fetching"
+      },
+      {
+        "start": 189.2,
+        "duration": 5.0,
+        "text": "data, troubleshooting problems and suggesting solutions in real time."
+      },
+      {
+        "start": 194.2,
+        "duration": 4.6,
+        "text": "Because they can interact with multiple system and remember customer details."
+      },
+      {
+        "start": 198.8,
+        "duration": 5.8,
+        "text": "Agentec AI delivers support that not just quick, it's deeply personal and proactive."
+      },
+      {
+        "start": 204.6,
+        "duration": 5.6,
+        "text": "And the result is, happier customers produce workload for agents and improve efficiency"
+      },
+      {
+        "start": 210.2,
+        "duration": 5.2,
+        "text": "for businesses and all powered by intelligent evolving AI systems."
+      },
+      {
+        "start": 215.5,
+        "duration": 4.9,
+        "text": "When most people hear AI agent, they feature a simple chat board."
+      },
+      {
+        "start": 220.4,
+        "duration": 4.0,
+        "text": "But real AI agent go far beyond just replying to questions."
+      },
+      {
+        "start": 224.4,
+        "duration": 5.8,
+        "text": "And AI agent is a system that can understand a goal, plan how to achieve it, act on that"
+      },
+      {
+        "start": 230.2,
+        "duration": 4.9,
+        "text": "plan and learn from the results without constant manual input."
+      },
+      {
+        "start": 235.1,
+        "duration": 1.6,
+        "text": "Let me break this down."
+      },
+      {
+        "start": 236.6,
+        "duration": 2.8,
+        "text": "First, the agent understands the task."
+      },
+      {
+        "start": 239.4,
+        "duration": 6.8,
+        "text": "For example, if you see, give me a daily sales report, it knows it meets numbers, trends"
+      },
+      {
+        "start": 246.2,
+        "duration": 1.2,
+        "text": "and summaries."
+      },
+      {
+        "start": 247.7,
+        "duration": 7.6,
+        "text": "Next, it creates a plan like pulling data from your CRM, cleaning it and generating insights."
+      },
+      {
+        "start": 255.3,
+        "duration": 6.9,
+        "text": "Then it connects to external tools such as APIs, databases, web searches or even other"
+      },
+      {
+        "start": 262.2,
+        "duration": 2.8,
+        "text": "AI agents to gather what it needs."
+      },
+      {
+        "start": 264.9,
+        "duration": 3.0,
+        "text": "After that, it executes the plan step by step."
+      },
+      {
+        "start": 268.0,
+        "duration": 4.9,
+        "text": "And finally, it learns from the feedback, storing that experience in memory to perform"
+      },
+      {
+        "start": 272.8,
+        "duration": 1.5,
+        "text": "better next time."
+      },
+      {
+        "start": 274.3,
+        "duration": 2.5,
+        "text": "So that's the real power of AI agents."
+      },
+      {
+        "start": 276.8,
+        "duration": 4.2,
+        "text": "They don't just react, they reason, act and improve over time."
+      },
+      {
+        "start": 281.1,
+        "duration": 2.1,
+        "text": "Now, here's the challenge."
+      },
+      {
+        "start": 283.2,
+        "duration": 3.8,
+        "text": "Building such a capable agent from scratch is not easy."
+      },
+      {
+        "start": 287.0,
+        "duration": 5.0,
+        "text": "You would have to design its architecture, handle communication between components, manage"
+      },
+      {
+        "start": 292.0,
+        "duration": 4.8,
+        "text": "memory, integrate external tools and make sure everything runs smoothly."
+      },
+      {
+        "start": 296.7,
+        "duration": 3.2,
+        "text": "That's a lot of time effort and maintenance."
+      },
+      {
+        "start": 299.9,
+        "duration": 5.5,
+        "text": "Agileate frameworks solve this problem by giving developers and organizations a ready-made"
+      },
+      {
+        "start": 305.4,
+        "duration": 5.6,
+        "text": "structure to build agents, like how a game engine saves developers from writing the entire"
+      },
+      {
+        "start": 311.1,
+        "duration": 2.4,
+        "text": "physics of a game from scratch."
+      },
+      {
+        "start": 313.4,
+        "duration": 1.9,
+        "text": "So think of it like this."
+      },
+      {
+        "start": 315.4,
+        "duration": 3.2,
+        "text": "An AI agent is like a skilled driver."
+      },
+      {
+        "start": 318.6,
+        "duration": 5.6,
+        "text": "An agentic framework is like the road system, providing direction, structure, rules and"
+      },
+      {
+        "start": 324.2,
+        "duration": 2.6,
+        "text": "smooth connections between destination."
+      },
+      {
+        "start": 326.9,
+        "duration": 5.7,
+        "text": "So without a framework, your agent can work, but it's slow, fragile and hard to scale."
+      },
+      {
+        "start": 332.6,
+        "duration": 5.0,
+        "text": "With a solid framework, it can move fast, connect to multiple tools and collaborate with"
+      },
+      {
+        "start": 337.6,
+        "duration": 2.1,
+        "text": "other agents effectively."
+      },
+      {
+        "start": 339.7,
+        "duration": 4.7,
+        "text": "So I hope now it's clear to you all why we need agentic frameworks."
+      },
+      {
+        "start": 344.4,
+        "duration": 3.0,
+        "text": "Now a good agentic framework isn't just a tool."
+      },
+      {
+        "start": 347.3,
+        "duration": 4.1,
+        "text": "It's a complete environment that handles the heavy lifting behind the scenes."
+      },
+      {
+        "start": 351.4,
+        "duration": 2.4,
+        "text": "And here are some of the most important features."
+      },
+      {
+        "start": 353.8,
+        "duration": 2.9,
+        "text": "First is the defined architecture."
+      },
+      {
+        "start": 356.7,
+        "duration": 5.5,
+        "text": "A clear blueprint for how the agent plans, decides and interacts."
+      },
+      {
+        "start": 362.2,
+        "duration": 2.1,
+        "text": "Next comes the communication legal."
+      },
+      {
+        "start": 364.3,
+        "duration": 6.1,
+        "text": "It enables smooth interaction with APIs, databases, humans and other agents."
+      },
+      {
+        "start": 370.4,
+        "duration": 1.9,
+        "text": "Next is the task management."
+      },
+      {
+        "start": 372.3,
+        "duration": 4.7,
+        "text": "It handles multiple step task priorities and dependencies."
+      },
+      {
+        "start": 377.0,
+        "duration": 2.2,
+        "text": "Next comes the tool integration."
+      },
+      {
+        "start": 379.2,
+        "duration": 3.9,
+        "text": "Pre-built connectors makes set up faster and easier."
+      },
+      {
+        "start": 383.2,
+        "duration": 2.0,
+        "text": "Next is memory and learning."
+      },
+      {
+        "start": 385.2,
+        "duration": 4.4,
+        "text": "It allows agents to remember past interaction and improve over time."
+      },
+      {
+        "start": 389.6,
+        "duration": 2.9,
+        "text": "And finally is the monitoring and control."
+      },
+      {
+        "start": 392.5,
+        "duration": 6.1,
+        "text": "It gives visibility into what the agent is doing, making it easier to deeper and optimize."
+      },
+      {
+        "start": 398.6,
+        "duration": 4.6,
+        "text": "So in short, I can say that the framework gives the foundation so you can focus on building"
+      },
+      {
+        "start": 403.2,
+        "duration": 3.6,
+        "text": "intelligence instead of worrying about infrastructure."
+      },
+      {
+        "start": 406.8,
+        "duration": 3.7,
+        "text": "So why are these frameworks gaining so much attention?"
+      },
+      {
+        "start": 410.5,
+        "duration": 5.1,
+        "text": "Because they allow businesses to scale AI beyond single isolated tasks."
+      },
+      {
+        "start": 415.6,
+        "duration": 5.3,
+        "text": "With agent frameworks, organizations can build multiple agents that collaborate on complex"
+      },
+      {
+        "start": 420.9,
+        "duration": 6.1,
+        "text": "workflows, automate entire processes into it, keep systems stable and consistent as they"
+      },
+      {
+        "start": 427.0,
+        "duration": 6.0,
+        "text": "grow and deploy solutions faster since the core infrastructure is already in place."
+      },
+      {
+        "start": 433.0,
+        "duration": 5.8,
+        "text": "So this is what turns a simple chatbot experiment into a real AI driven operation."
+      },
+      {
+        "start": 438.8,
+        "duration": 4.0,
+        "text": "Now let's look at some of the most popular agent frameworks today."
+      },
+      {
+        "start": 442.8,
+        "duration": 3.0,
+        "text": "So first on the list, we have Langcheng."
+      },
+      {
+        "start": 445.8,
+        "duration": 4.9,
+        "text": "It's ideal for connecting language models with external tools and creating multi-step reasoning"
+      },
+      {
+        "start": 450.7,
+        "duration": 1.0,
+        "text": "pipelines."
+      },
+      {
+        "start": 451.7,
+        "duration": 5.2,
+        "text": "Langcheng is an open source framework that helps developers build applications using large"
+      },
+      {
+        "start": 456.9,
+        "duration": 4.0,
+        "text": "language models like GPT, Clared or Lama."
+      },
+      {
+        "start": 461.0,
+        "duration": 3.8,
+        "text": "These apps can think use tools and remember context."
+      },
+      {
+        "start": 464.8,
+        "duration": 6.4,
+        "text": "It connects LLNs to things like APIs, databases, documents, computational tools and memory"
+      },
+      {
+        "start": 471.2,
+        "duration": 3.3,
+        "text": "system letting them follow multi-step logic."
+      },
+      {
+        "start": 474.5,
+        "duration": 7.6,
+        "text": "Basically, Langcheng turns an LLN into an intelligent agent that can perceive, plan and act."
+      },
+      {
+        "start": 482.1,
+        "duration": 3.8,
+        "text": "With Langcheng, you can build agents past and your way."
+      },
+      {
+        "start": 485.9,
+        "duration": 5.0,
+        "text": "Use ready-made templates and patterns like react to create agents in minutes."
+      },
+      {
+        "start": 490.9,
+        "duration": 5.6,
+        "text": "Swap models, tools or databases easily with over a thousand integrations."
+      },
+      {
+        "start": 496.5,
+        "duration": 5.6,
+        "text": "You can also customize agents with a simple middleware for approvals, conversational management"
+      },
+      {
+        "start": 502.1,
+        "duration": 2.0,
+        "text": "for handling sensitive data."
+      },
+      {
+        "start": 504.1,
+        "duration": 5.4,
+        "text": "And with Langcheng's durable runtime, your agents get persistent checkpoints and human"
+      },
+      {
+        "start": 509.5,
+        "duration": 2.4,
+        "text": "in-loop support automatically."
+      },
+      {
+        "start": 511.8,
+        "duration": 3.6,
+        "text": "So with that said, next we have Langcheng."
+      },
+      {
+        "start": 515.4,
+        "duration": 5.3,
+        "text": "It is powerful for designing complex workflows where multiple agents interact."
+      },
+      {
+        "start": 520.7,
+        "duration": 4.8,
+        "text": "Keep your agents on track with human in-loop checks and easy moderation."
+      },
+      {
+        "start": 525.5,
+        "duration": 3.6,
+        "text": "You can guide, approve and control what your agents do."
+      },
+      {
+        "start": 529.1,
+        "duration": 4.0,
+        "text": "Langcheng graph makes it simple to build customizable workflows."
+      },
+      {
+        "start": 533.2,
+        "duration": 4.8,
+        "text": "Whether it's a single agent, multiple agents or hierarchical setup."
+      },
+      {
+        "start": 537.9,
+        "duration": 4.1,
+        "text": "It also remembers conversations for richer long-term interaction."
+      },
+      {
+        "start": 542.0,
+        "duration": 6.2,
+        "text": "Plus, with real-time streaming, users can see what the agent is thinking and doing, making"
+      },
+      {
+        "start": 548.2,
+        "duration": 2.8,
+        "text": "the experience smooth and interactive."
+      },
+      {
+        "start": 551.0,
+        "duration": 3.0,
+        "text": "The next framework on our list is autogen."
+      },
+      {
+        "start": 554.0,
+        "duration": 4.2,
+        "text": "Create for building multi-agent systems that collaborate like a team."
+      },
+      {
+        "start": 558.2,
+        "duration": 5.9,
+        "text": "So autogen is an open source framework by Microsoft that lets you create AI agents that can"
+      },
+      {
+        "start": 564.1,
+        "duration": 4.8,
+        "text": "collaborate, not just with humans but also with other AI's."
+      },
+      {
+        "start": 569.0,
+        "duration": 6.1,
+        "text": "This agents can chat, reason, plan, write code, use tools and even review each other's"
+      },
+      {
+        "start": 575.0,
+        "duration": 3.4,
+        "text": "work to finish complex task automatically."
+      },
+      {
+        "start": 578.4,
+        "duration": 1.8,
+        "text": "Autogen works like a team."
+      },
+      {
+        "start": 580.2,
+        "duration": 3.2,
+        "text": "The user proxy agent represents the user."
+      },
+      {
+        "start": 583.4,
+        "duration": 2.3,
+        "text": "It gives instructions or goals."
+      },
+      {
+        "start": 585.7,
+        "duration": 4.0,
+        "text": "And the assistant agents plan, reason and execute task."
+      },
+      {
+        "start": 589.7,
+        "duration": 4.4,
+        "text": "And a critic agent can review the output and suggest improvements."
+      },
+      {
+        "start": 594.1,
+        "duration": 2.3,
+        "text": "So these agents communicate through messages."
+      },
+      {
+        "start": 596.4,
+        "duration": 4.4,
+        "text": "Just like people chatting in a group project, discussing steps until they reach the right"
+      },
+      {
+        "start": 600.8,
+        "duration": 1.0,
+        "text": "answer."
+      },
+      {
+        "start": 601.8,
+        "duration": 6.4,
+        "text": "Autogen makes it easy to build multi-agent systems for research automation, software development,"
+      },
+      {
+        "start": 608.2,
+        "duration": 2.6,
+        "text": "data analysis, content generation."
+      },
+      {
+        "start": 610.8,
+        "duration": 5.1,
+        "text": "And it saves time, reduces human effort and improve quality through self-review and"
+      },
+      {
+        "start": 616.0,
+        "duration": 1.3,
+        "text": "collaboration."
+      },
+      {
+        "start": 617.3,
+        "duration": 5.1,
+        "text": "So you can create an autogen setup where one agent writes code under the test it's and"
+      },
+      {
+        "start": 622.4,
+        "duration": 2.9,
+        "text": "third, reviews it all automatically."
+      },
+      {
+        "start": 625.3,
+        "duration": 6.1,
+        "text": "Autogen turns AI models into autonomous collaborators that can think, talk and work together."
+      },
+      {
+        "start": 631.4,
+        "duration": 7.0,
+        "text": "It's like giving your AI teammates each with their own role to solve problems faster and smarter."
+      },
+      {
+        "start": 638.4,
+        "duration": 2.7,
+        "text": "Next on our list, we have crew AI."
+      },
+      {
+        "start": 641.1,
+        "duration": 6.0,
+        "text": "It focuses on orchestrating specialized agents to work together on complex task."
+      },
+      {
+        "start": 647.1,
+        "duration": 5.5,
+        "text": "Crew AI makes it easy to build and manage collaborative AI agents that can handle complex"
+      },
+      {
+        "start": 652.6,
+        "duration": 2.8,
+        "text": "tasks on their own and escape."
+      },
+      {
+        "start": 655.4,
+        "duration": 6.7,
+        "text": "It's easy, trusted and scalable helping businesses adapt AI across teams with centralized management"
+      },
+      {
+        "start": 662.0,
+        "duration": 1.6,
+        "text": "and monitoring."
+      },
+      {
+        "start": 663.6,
+        "duration": 6.0,
+        "text": "To get LLM and tool configuration, role-based access and serverless containers."
+      },
+      {
+        "start": 669.6,
+        "duration": 2.6,
+        "text": "Next moving on to open devin."
+      },
+      {
+        "start": 672.1,
+        "duration": 1.8,
+        "text": "Build for developer agents."
+      },
+      {
+        "start": 673.9,
+        "duration": 5.8,
+        "text": "It enables coding AI's that can write test and deployed code independently."
+      },
+      {
+        "start": 679.7,
+        "duration": 5.7,
+        "text": "Open devin is an open source project aimed at creating an autonomous software engineer."
+      },
+      {
+        "start": 685.4,
+        "duration": 6.0,
+        "text": "An AI agent that can understand software task, write code, debug, test and deploy solutions"
+      },
+      {
+        "start": 691.4,
+        "duration": 1.7,
+        "text": "automatically."
+      },
+      {
+        "start": 693.2,
+        "duration": 5.6,
+        "text": "Open devin uses large language models combined with specialized tools and environments to"
+      },
+      {
+        "start": 698.8,
+        "duration": 2.9,
+        "text": "perform into and software development tasks."
+      },
+      {
+        "start": 701.7,
+        "duration": 5.6,
+        "text": "It can understand developer instructions, plan coding step, write and modify code, run"
+      },
+      {
+        "start": 707.3,
+        "duration": 3.9,
+        "text": "and test the scripts, fix bugs and deploy solutions."
+      },
+      {
+        "start": 711.2,
+        "duration": 6.7,
+        "text": "Basically, it acts as an AI-pair programmer or even a full autonomous coding agent."
+      },
+      {
+        "start": 717.9,
+        "duration": 4.3,
+        "text": "Open devin is part of the new wave of egedic AI frameworks."
+      },
+      {
+        "start": 722.2,
+        "duration": 2.6,
+        "text": "Use that can act, learn and collaborate."
+      },
+      {
+        "start": 724.8,
+        "duration": 6.8,
+        "text": "It helps developers automate repetitive coding tasks, debug faster, build prototypes independently"
+      },
+      {
+        "start": 731.6,
+        "duration": 2.8,
+        "text": "and finally improve productivity."
+      },
+      {
+        "start": 734.4,
+        "duration": 2.3,
+        "text": "Now let us move on to next framework."
+      },
+      {
+        "start": 736.7,
+        "duration": 2.0,
+        "text": "We have Semantic Kernel."
+      },
+      {
+        "start": 738.7,
+        "duration": 5.4,
+        "text": "A lightweight and flexible framework for integrating external skills easily."
+      },
+      {
+        "start": 744.0,
+        "duration": 5.4,
+        "text": "Semantic Kernel is an open source toolkit that makes it easy to build AI agents and"
+      },
+      {
+        "start": 749.4,
+        "duration": 5.2,
+        "text": "connect the latest AI models to your C-shop, Python or Java projects."
+      },
+      {
+        "start": 754.6,
+        "duration": 4.6,
+        "text": "It works like smart middleware, turning modern requests into function calls and sending"
+      },
+      {
+        "start": 759.2,
+        "duration": 2.1,
+        "text": "results back fast."
+      },
+      {
+        "start": 761.3,
+        "duration": 6.0,
+        "text": "You can plug in your existing code as extensions, integrate AI services easily and share them"
+      },
+      {
+        "start": 767.3,
+        "duration": 1.1,
+        "text": "across your team."
+      },
+      {
+        "start": 768.4,
+        "duration": 5.2,
+        "text": "It's modular, flexible and built to rapid enterprise solutions."
+      },
+      {
+        "start": 773.6,
+        "duration": 3.2,
+        "text": "The next framework on a list is Lama Index."
+      },
+      {
+        "start": 776.8,
+        "duration": 4.1,
+        "text": "It is perfect when your agent need to work with structured data."
+      },
+      {
+        "start": 780.8,
+        "duration": 5.0,
+        "text": "Lama Index is an open source data framework that helps developers connect large language"
+      },
+      {
+        "start": 785.8,
+        "duration": 7.2,
+        "text": "models like GPT or Lama to external data sources such as databases, PDFs, documents,"
+      },
+      {
+        "start": 793.0,
+        "duration": 2.0,
+        "text": "APIs or websites."
+      },
+      {
+        "start": 795.0,
+        "duration": 5.3,
+        "text": "LLMs are created reasoning and generating language, but they don't naturally have access"
+      },
+      {
+        "start": 800.3,
+        "duration": 6.4,
+        "text": "to your private data, like internal documents, business reports or real-time information."
+      },
+      {
+        "start": 806.6,
+        "duration": 4.1,
+        "text": "Lama Index acts as a bridge between LLMs and your data."
+      },
+      {
+        "start": 810.7,
+        "duration": 8.0,
+        "text": "It ingests data from any source like text files, PDFs, SQL databases, APIs, notion, etc."
+      },
+      {
+        "start": 818.7,
+        "duration": 5.0,
+        "text": "Indexes that data efficiently for retrieval, feeds the most relevant information back to"
+      },
+      {
+        "start": 823.8,
+        "duration": 2.8,
+        "text": "the LLMs when you ask a question."
+      },
+      {
+        "start": 826.6,
+        "duration": 5.4,
+        "text": "So this process is known as RAC, which is retrieval augmented generation."
+      },
+      {
+        "start": 832.0,
+        "duration": 3.5,
+        "text": "So each framework brings something unique."
+      },
+      {
+        "start": 835.5,
+        "duration": 5.3,
+        "text": "Some emphasizes tool integration, other collaboration or data handling."
+      },
+      {
+        "start": 840.8,
+        "duration": 4.2,
+        "text": "The right choice depends on your use case and goals."
+      },
+      {
+        "start": 845.0,
+        "duration": 4.9,
+        "text": "So there is no single best framework, only the best one for your specific needs."
+      },
+      {
+        "start": 849.9,
+        "duration": 3.6,
+        "text": "So here is a simple way to choose the right agent framework."
+      },
+      {
+        "start": 853.6,
+        "duration": 2.5,
+        "text": "First, start with your goal."
+      },
+      {
+        "start": 856.0,
+        "duration": 5.4,
+        "text": "Are you building a chatbot and autonomous flow or a multi agent ecosystem?"
+      },
+      {
+        "start": 861.4,
+        "duration": 2.8,
+        "text": "Next, check integration needs."
+      },
+      {
+        "start": 864.2,
+        "duration": 6.0,
+        "text": "If you connect connect easily to your tools and data sources, then consider scalability."
+      },
+      {
+        "start": 870.2,
+        "duration": 3.4,
+        "text": "Think, will you need more agents later?"
+      },
+      {
+        "start": 873.7,
+        "duration": 2.3,
+        "text": "Next, look for flexibility."
+      },
+      {
+        "start": 876.0,
+        "duration": 6.0,
+        "text": "Can you customize how your agents reason and act and then evaluate community support?"
+      },
+      {
+        "start": 882.0,
+        "duration": 4.0,
+        "text": "Good documentation and an active community save time."
+      },
+      {
+        "start": 886.0,
+        "duration": 2.8,
+        "text": "Then balance cost and performance."
+      },
+      {
+        "start": 888.8,
+        "duration": 3.8,
+        "text": "Choose something that fits your resources and growth plans."
+      },
+      {
+        "start": 892.6,
+        "duration": 5.6,
+        "text": "So your framework should align with the problem you want to solve and not the other way around."
+      },
+      {
+        "start": 898.2,
+        "duration": 2.4,
+        "text": "So there is a common confusion for beginners."
+      },
+      {
+        "start": 900.6,
+        "duration": 3.4,
+        "text": "AI agent builders are like a ready to use kits."
+      },
+      {
+        "start": 904.0,
+        "duration": 5.4,
+        "text": "You can drag, drop and launch an agent fast, which is perfect for simple tasks like a"
+      },
+      {
+        "start": 909.4,
+        "duration": 4.6,
+        "text": "support bot, but they are limited in flexibility."
+      },
+      {
+        "start": 914.0,
+        "duration": 4.9,
+        "text": "Agentic frameworks, on the other hand, give developers the freedom to design powerful customized"
+      },
+      {
+        "start": 918.9,
+        "duration": 2.0,
+        "text": "systems from the ground up."
+      },
+      {
+        "start": 920.9,
+        "duration": 5.8,
+        "text": "So it's just that the builders are like instant cake mix, fast but limited."
+      },
+      {
+        "start": 926.8,
+        "duration": 2.4,
+        "text": "Frameworks are like having all the ingredients."
+      },
+      {
+        "start": 929.2,
+        "duration": 4.8,
+        "text": "It takes more effort, but you control the flavor, shape and result."
+      },
+      {
+        "start": 934.0,
+        "duration": 4.8,
+        "text": "So agentic frameworks are becoming the backbone of modern AI automation."
+      },
+      {
+        "start": 938.8,
+        "duration": 5.2,
+        "text": "They make it possible to build intelligent autonomous agents that don't just respond, but"
+      },
+      {
+        "start": 944.0,
+        "duration": 2.2,
+        "text": "plan, act and learn."
+      },
+      {
+        "start": 946.2,
+        "duration": 4.5,
+        "text": "As agentic AI continues to grow, this frameworks will play a key role in shaping the"
+      },
+      {
+        "start": 950.8,
+        "duration": 1.9,
+        "text": "future of automation."
+      },
+      {
+        "start": 952.6,
+        "duration": 4.6,
+        "text": "If this video helped you understand the concepts clearly, don't forget to like, share and subscribe"
+      },
+      {
+        "start": 957.2,
+        "duration": 5.2,
+        "text": "for more deep diets on AI, agentic systems and gen AI tools."
+      },
+      {
+        "start": 962.4,
+        "duration": 4.9,
+        "text": "And with this, we have come to an end to this video on agentic AI frameworks."
+      },
+      {
+        "start": 967.3,
+        "duration": 4.5,
+        "text": "If you enjoyed listening to this video, please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 971.8,
+        "duration": 4.0,
+        "text": "on any of your doubts and queries we will reply to them are the endiest."
+      },
+      {
+        "start": 975.8,
+        "duration": 5.0,
+        "text": "And do look up for more videos and playlists and subscribe to Id U Rikers YouTube channel"
+      },
+      {
+        "start": 980.8,
+        "duration": 1.2,
+        "text": "to learn more."
+      },
+      {
+        "start": 982.0,
+        "duration": 2.0,
+        "text": "Thank you for watching and Happy Learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome to this video on Agentec AI frameworks. It seems like everywhere you look today, businesses are turning to AI agents to automate complex workflows, boost productivity and mix smarter decisions. Across industries like finance, healthcare, retail and tech, more and more companies are already using AI agents to handle tasks that once required entire teams of people. Maybe you're here because you have heard the buzz around Agentec AI and want to finally understand what it actually means. Or maybe you're curious about which framework is best to build your own intelligence systems. And you might be wondering what exactly is an Agentec AI framework, how is it different from traditional AI tools and how can you use it to build autonomous AI systems that don't just respond but actually think plan and act. In this video, we are going to break it all down step by step from understanding what AI agents really are to exploring popular frameworks their key features, how to choose the right one and where they are used in real world. Whether you're a developer looking to build powerful agents or a business leader exploring automation, by the end of this video you will have a clear roadmap to Agentec AI frameworks. Now before we dive into the real world example, please like share and subscribe to Idureka's YouTube channel and hit the bell icon to stay updated on the latest content from Idureka. Also, check out Idureka's Agentec AI certification training. It is carefully crafted to meet industry demands and prepare you for the future of intelligent agents. You will gain practical skills in Langshane, RAD, LLM ops and more through live instructor lectures and hands on labs. Whether you're a beginner or a tech professional, this course helps you master the concepts and accelerate your AI career. Now let's take a quick look at how AI agents are making real impact, starting with a powerful example in customer experience. Imagine reaching out to customer support and getting instant personalized help, no repeating details. That's what Agentec AI brings to customer experience. With rising customer expectations and growing burnout among support teams, AI agents are stepping in to make every interaction smarter and faster. This agents don't just respond, they learn, remember and act. Unlike traditional chat boards that follow scripts, agentic AI understand context, predicts needs and can even take proactive action, like offering a refund, opening a support ticket or escalating an issue before it becomes a complaint. They use natural language processing to hold real conversations, sentiment analysis to sense emotions and can smoothly hand over complex cases to human agent when needed. And behind the scenes, these agents assist customer service representatives to fetching data, troubleshooting problems and suggesting solutions in real time. Because they can interact with multiple system and remember customer details. Agentec AI delivers support that not just quick, it's deeply personal and proactive. And the result is, happier customers produce workload for agents and improve efficiency for businesses and all powered by intelligent evolving AI systems. When most people hear AI agent, they feature a simple chat board. But real AI agent go far beyond just replying to questions. And AI agent is a system that can understand a goal, plan how to achieve it, act on that plan and learn from the results without constant manual input. Let me break this down. First, the agent understands the task. For example, if you see, give me a daily sales report, it knows it meets numbers, trends and summaries. Next, it creates a plan like pulling data from your CRM, cleaning it and generating insights. Then it connects to external tools such as APIs, databases, web searches or even other AI agents to gather what it needs. After that, it executes the plan step by step. And finally, it learns from the feedback, storing that experience in memory to perform better next time. So that's the real power of AI agents. They don't just react, they reason, act and improve over time. Now, here's the challenge. Building such a capable agent from scratch is not easy. You would have to design its architecture, handle communication between components, manage memory, integrate external tools and make sure everything runs smoothly. That's a lot of time effort and maintenance. Agileate frameworks solve this problem by giving developers and organizations a ready-made structure to build agents, like how a game engine saves developers from writing the entire physics of a game from scratch. So think of it like this. An AI agent is like a skilled driver. An agentic framework is like the road system, providing direction, structure, rules and smooth connections between destination. So without a framework, your agent can work, but it's slow, fragile and hard to scale. With a solid framework, it can move fast, connect to multiple tools and collaborate with other agents effectively. So I hope now it's clear to you all why we need agentic frameworks. Now a good agentic framework isn't just a tool. It's a complete environment that handles the heavy lifting behind the scenes. And here are some of the most important features. First is the defined architecture. A clear blueprint for how the agent plans, decides and interacts. Next comes the communication legal. It enables smooth interaction with APIs, databases, humans and other agents. Next is the task management. It handles multiple step task priorities and dependencies. Next comes the tool integration. Pre-built connectors makes set up faster and easier. Next is memory and learning. It allows agents to remember past interaction and improve over time. And finally is the monitoring and control. It gives visibility into what the agent is doing, making it easier to deeper and optimize. So in short, I can say that the framework gives the foundation so you can focus on building intelligence instead of worrying about infrastructure. So why are these frameworks gaining so much attention? Because they allow businesses to scale AI beyond single isolated tasks. With agent frameworks, organizations can build multiple agents that collaborate on complex workflows, automate entire processes into it, keep systems stable and consistent as they grow and deploy solutions faster since the core infrastructure is already in place. So this is what turns a simple chatbot experiment into a real AI driven operation. Now let's look at some of the most popular agent frameworks today. So first on the list, we have Langcheng. It's ideal for connecting language models with external tools and creating multi-step reasoning pipelines. Langcheng is an open source framework that helps developers build applications using large language models like GPT, Clared or Lama. These apps can think use tools and remember context. It connects LLNs to things like APIs, databases, documents, computational tools and memory system letting them follow multi-step logic. Basically, Langcheng turns an LLN into an intelligent agent that can perceive, plan and act. With Langcheng, you can build agents past and your way. Use ready-made templates and patterns like react to create agents in minutes. Swap models, tools or databases easily with over a thousand integrations. You can also customize agents with a simple middleware for approvals, conversational management for handling sensitive data. And with Langcheng's durable runtime, your agents get persistent checkpoints and human in-loop support automatically. So with that said, next we have Langcheng. It is powerful for designing complex workflows where multiple agents interact. Keep your agents on track with human in-loop checks and easy moderation. You can guide, approve and control what your agents do. Langcheng graph makes it simple to build customizable workflows. Whether it's a single agent, multiple agents or hierarchical setup. It also remembers conversations for richer long-term interaction. Plus, with real-time streaming, users can see what the agent is thinking and doing, making the experience smooth and interactive. The next framework on our list is autogen. Create for building multi-agent systems that collaborate like a team. So autogen is an open source framework by Microsoft that lets you create AI agents that can collaborate, not just with humans but also with other AI's. This agents can chat, reason, plan, write code, use tools and even review each other's work to finish complex task automatically. Autogen works like a team. The user proxy agent represents the user. It gives instructions or goals. And the assistant agents plan, reason and execute task. And a critic agent can review the output and suggest improvements. So these agents communicate through messages. Just like people chatting in a group project, discussing steps until they reach the right answer. Autogen makes it easy to build multi-agent systems for research automation, software development, data analysis, content generation. And it saves time, reduces human effort and improve quality through self-review and collaboration. So you can create an autogen setup where one agent writes code under the test it's and third, reviews it all automatically. Autogen turns AI models into autonomous collaborators that can think, talk and work together. It's like giving your AI teammates each with their own role to solve problems faster and smarter. Next on our list, we have crew AI. It focuses on orchestrating specialized agents to work together on complex task. Crew AI makes it easy to build and manage collaborative AI agents that can handle complex tasks on their own and escape. It's easy, trusted and scalable helping businesses adapt AI across teams with centralized management and monitoring. To get LLM and tool configuration, role-based access and serverless containers. Next moving on to open devin. Build for developer agents. It enables coding AI's that can write test and deployed code independently. Open devin is an open source project aimed at creating an autonomous software engineer. An AI agent that can understand software task, write code, debug, test and deploy solutions automatically. Open devin uses large language models combined with specialized tools and environments to perform into and software development tasks. It can understand developer instructions, plan coding step, write and modify code, run and test the scripts, fix bugs and deploy solutions. Basically, it acts as an AI-pair programmer or even a full autonomous coding agent. Open devin is part of the new wave of egedic AI frameworks. Use that can act, learn and collaborate. It helps developers automate repetitive coding tasks, debug faster, build prototypes independently and finally improve productivity. Now let us move on to next framework. We have Semantic Kernel. A lightweight and flexible framework for integrating external skills easily. Semantic Kernel is an open source toolkit that makes it easy to build AI agents and connect the latest AI models to your C-shop, Python or Java projects. It works like smart middleware, turning modern requests into function calls and sending results back fast. You can plug in your existing code as extensions, integrate AI services easily and share them across your team. It's modular, flexible and built to rapid enterprise solutions. The next framework on a list is Lama Index. It is perfect when your agent need to work with structured data. Lama Index is an open source data framework that helps developers connect large language models like GPT or Lama to external data sources such as databases, PDFs, documents, APIs or websites. LLMs are created reasoning and generating language, but they don't naturally have access to your private data, like internal documents, business reports or real-time information. Lama Index acts as a bridge between LLMs and your data. It ingests data from any source like text files, PDFs, SQL databases, APIs, notion, etc. Indexes that data efficiently for retrieval, feeds the most relevant information back to the LLMs when you ask a question. So this process is known as RAC, which is retrieval augmented generation. So each framework brings something unique. Some emphasizes tool integration, other collaboration or data handling. The right choice depends on your use case and goals. So there is no single best framework, only the best one for your specific needs. So here is a simple way to choose the right agent framework. First, start with your goal. Are you building a chatbot and autonomous flow or a multi agent ecosystem? Next, check integration needs. If you connect connect easily to your tools and data sources, then consider scalability. Think, will you need more agents later? Next, look for flexibility. Can you customize how your agents reason and act and then evaluate community support? Good documentation and an active community save time. Then balance cost and performance. Choose something that fits your resources and growth plans. So your framework should align with the problem you want to solve and not the other way around. So there is a common confusion for beginners. AI agent builders are like a ready to use kits. You can drag, drop and launch an agent fast, which is perfect for simple tasks like a support bot, but they are limited in flexibility. Agentic frameworks, on the other hand, give developers the freedom to design powerful customized systems from the ground up. So it's just that the builders are like instant cake mix, fast but limited. Frameworks are like having all the ingredients. It takes more effort, but you control the flavor, shape and result. So agentic frameworks are becoming the backbone of modern AI automation. They make it possible to build intelligent autonomous agents that don't just respond, but plan, act and learn. As agentic AI continues to grow, this frameworks will play a key role in shaping the future of automation. If this video helped you understand the concepts clearly, don't forget to like, share and subscribe for more deep diets on AI, agentic systems and gen AI tools. And with this, we have come to an end to this video on agentic AI frameworks. If you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them are the endiest. And do look up for more videos and playlists and subscribe to Id U Rikers YouTube channel to learn more. Thank you for watching and Happy Learning."
+  }
+}

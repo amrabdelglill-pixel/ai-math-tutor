@@ -1,0 +1,1239 @@
+{
+  "video_id": "4NlrfOl0l8U",
+  "video_title": "The AI that solved IMO Geometry Problems | Guest video by @Aleph 0",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 811.0,
+  "view_count": 393039,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 6.8,
+        "text": "In January 2024, Google DeepMind released an AI model called Alpha Geometry, which could"
+      },
+      {
+        "start": 6.8,
+        "duration": 5.1,
+        "text": "solve geometry problems from the International Mathematical Olympiad or the IMO."
+      },
+      {
+        "start": 12.0,
+        "duration": 4.8,
+        "text": "The IMO is the highest level of competitive math contest at the high school level."
+      },
+      {
+        "start": 16.8,
+        "duration": 5.6,
+        "text": "Every year, more than 100 countries send 16agers to represent them at the competition."
+      },
+      {
+        "start": 22.4,
+        "duration": 4.1,
+        "text": "Each country has its own elaborate system of contests leading to their choice of six"
+      },
+      {
+        "start": 26.5,
+        "duration": 1.1,
+        "text": "representatives."
+      },
+      {
+        "start": 27.6,
+        "duration": 5.2,
+        "text": "When Alpha Geometry was tested on a database of 30 geometry problems, it solved 25 of"
+      },
+      {
+        "start": 32.8,
+        "duration": 1.0,
+        "text": "them."
+      },
+      {
+        "start": 33.8,
+        "duration": 2.6,
+        "text": "This is better than the performance of a silver medalist."
+      },
+      {
+        "start": 36.4,
+        "duration": 3.4,
+        "text": "This quite understandably generated a lot of vise."
+      },
+      {
+        "start": 39.8,
+        "duration": 1.7,
+        "text": "But here's what nobody talks about."
+      },
+      {
+        "start": 41.6,
+        "duration": 4.3,
+        "text": "The most surprising part for me is not that AI managed to solve these problems, but it's"
+      },
+      {
+        "start": 45.8,
+        "duration": 2.8,
+        "text": "what happened even before the AI showed up."
+      },
+      {
+        "start": 48.6,
+        "duration": 5.9,
+        "text": "A 25 year old technique with no AI at all, just using logic and pure equation solving,"
+      },
+      {
+        "start": 54.6,
+        "duration": 3.7,
+        "text": "was already able to solve 18 out of 25 problems."
+      },
+      {
+        "start": 58.3,
+        "duration": 2.7,
+        "text": "That's already a bronze medal at the IMO."
+      },
+      {
+        "start": 61.0,
+        "duration": 1.8,
+        "text": "And then the model hit a wall."
+      },
+      {
+        "start": 62.8,
+        "duration": 4.2,
+        "text": "There were problems that even this ingenious logical model wasn't able to solve."
+      },
+      {
+        "start": 67.0,
+        "duration": 1.8,
+        "text": "And that's where AI comes in."
+      },
+      {
+        "start": 68.8,
+        "duration": 4.6,
+        "text": "But instead of leaving everything to AI, the DeepMind team very cleverly integrated the"
+      },
+      {
+        "start": 73.4,
+        "duration": 5.7,
+        "text": "logical model with an AI component in order to reach their spectacular result of 25 out"
+      },
+      {
+        "start": 79.0,
+        "duration": 1.6,
+        "text": "of 30 problems."
+      },
+      {
+        "start": 80.6,
+        "duration": 3.7,
+        "text": "So in this video, yes, I do want to talk about AI in geometry."
+      },
+      {
+        "start": 84.3,
+        "duration": 5.2,
+        "text": "But before that, I also want to talk about how a non-AI model was already better at geometry"
+      },
+      {
+        "start": 89.4,
+        "duration": 2.4,
+        "text": "than the vast majority of humans."
+      },
+      {
+        "start": 91.8,
+        "duration": 1.9,
+        "text": "So with that, let's begin."
+      },
+      {
+        "start": 93.7,
+        "duration": 2.2,
+        "text": "Our task today is simple."
+      },
+      {
+        "start": 95.9,
+        "duration": 3.4,
+        "text": "Build a bot that can solve IMO geometry problems."
+      },
+      {
+        "start": 99.3,
+        "duration": 3.5,
+        "text": "But I'm going to make a caveat to make our problem a little bit harder."
+      },
+      {
+        "start": 102.8,
+        "duration": 3.8,
+        "text": "Write a bot that solves IMO problems with no AI."
+      },
+      {
+        "start": 106.6,
+        "duration": 4.2,
+        "text": "To begin attacking this, we're going to use a well-kept secret about geometry problems."
+      },
+      {
+        "start": 110.8,
+        "duration": 3.2,
+        "text": "A few key facts can get you very far."
+      },
+      {
+        "start": 114.0,
+        "duration": 3.2,
+        "text": "For example, here are two important facts from geometry."
+      },
+      {
+        "start": 117.1,
+        "duration": 3.5,
+        "text": "One, when two lines cross, the opposite angles are equal."
+      },
+      {
+        "start": 120.6,
+        "duration": 4.6,
+        "text": "And two, if these two horizontal lines are parallel, and you look at the Z over here"
+      },
+      {
+        "start": 125.3,
+        "duration": 4.0,
+        "text": "in blue, the angles on the inside of the Z are equal."
+      },
+      {
+        "start": 129.3,
+        "duration": 3.6,
+        "text": "With these two facts alone, we can already prove a non-trivial theorem."
+      },
+      {
+        "start": 132.9,
+        "duration": 4.0,
+        "text": "In this diagram, the two orange angles alpha are equal."
+      },
+      {
+        "start": 136.9,
+        "duration": 6.8,
+        "text": "If you apply our two facts one after another, it proves our theorem."
+      },
+      {
+        "start": 143.8,
+        "duration": 3.1,
+        "text": "Now this is how far we could get starting with two facts."
+      },
+      {
+        "start": 146.9,
+        "duration": 5.6,
+        "text": "Now imagine how far we could get if we started off with 10 facts, or 50 facts, or 100 facts,"
+      },
+      {
+        "start": 152.5,
+        "duration": 3.6,
+        "text": "the space of theorems we could prove would get larger and larger."
+      },
+      {
+        "start": 156.2,
+        "duration": 6.4,
+        "text": "In October 2000, the researchers, two, gau, and jang, released a paper that did precisely"
+      },
+      {
+        "start": 162.6,
+        "duration": 1.2,
+        "text": "this."
+      },
+      {
+        "start": 163.8,
+        "duration": 4.0,
+        "text": "In their paper, they made a database of 75 geometry rules."
+      },
+      {
+        "start": 167.9,
+        "duration": 4.0,
+        "text": "Applying these facts in various combinations, the researchers could solve some very hard"
+      },
+      {
+        "start": 171.8,
+        "duration": 1.8,
+        "text": "geometry problems."
+      },
+      {
+        "start": 173.6,
+        "duration": 4.0,
+        "text": "These rules start out simple, like the ones I've written on screen."
+      },
+      {
+        "start": 177.6,
+        "duration": 4.9,
+        "text": "But as you go on, the rules get more complicated, like the rule at the bottom of the screen."
+      },
+      {
+        "start": 182.5,
+        "duration": 2.4,
+        "text": "But how do you feed all these diagrams into a computer?"
+      },
+      {
+        "start": 185.0,
+        "duration": 5.3,
+        "text": "Well, then I even way to do it would be to plot everything on Desmos using explicit equations."
+      },
+      {
+        "start": 190.3,
+        "duration": 2.5,
+        "text": "But I think we can both agree that that's far too clunky."
+      },
+      {
+        "start": 192.8,
+        "duration": 4.6,
+        "text": "Another alternative is using a language that's specifically designed for theorem proving."
+      },
+      {
+        "start": 197.3,
+        "duration": 2.8,
+        "text": "The predominant language in this regard is called lean."
+      },
+      {
+        "start": 200.1,
+        "duration": 4.0,
+        "text": "While lean is really great for things like algebra and inequalities, at the moment, it's"
+      },
+      {
+        "start": 204.1,
+        "duration": 2.9,
+        "text": "not very well suited for Euclidean geometry."
+      },
+      {
+        "start": 207.0,
+        "duration": 3.9,
+        "text": "To get around this, the authors used a more niche language that specifically designed"
+      },
+      {
+        "start": 211.0,
+        "duration": 1.2,
+        "text": "for geometry."
+      },
+      {
+        "start": 212.2,
+        "duration": 3.7,
+        "text": "Now to the best of my knowledge, this language doesn't yet have an official name and is only"
+      },
+      {
+        "start": 215.9,
+        "duration": 2.1,
+        "text": "described in research papers."
+      },
+      {
+        "start": 218.0,
+        "duration": 1.6,
+        "text": "Here's what it looks like."
+      },
+      {
+        "start": 219.6,
+        "duration": 3.9,
+        "text": "Say we want to represent this problem over here to a computer, which says that a triangle"
+      },
+      {
+        "start": 223.5,
+        "duration": 3.5,
+        "text": "with two equal sides has two equal angles."
+      },
+      {
+        "start": 227.0,
+        "duration": 3.0,
+        "text": "In the specialized machine language, you'd write it like this."
+      },
+      {
+        "start": 230.0,
+        "duration": 5.0,
+        "text": "ABC points, which means that there are three points ABC."
+      },
+      {
+        "start": 235.0,
+        "duration": 6.0,
+        "text": "AB equals AC, which means that the sides AB and AC have the same length."
+      },
+      {
+        "start": 241.0,
+        "duration": 6.5,
+        "text": "Goal, angle ABC equals angle BCA, which means that the goal is to show that these two angles"
+      },
+      {
+        "start": 247.5,
+        "duration": 1.3,
+        "text": "are equal."
+      },
+      {
+        "start": 248.8,
+        "duration": 4.5,
+        "text": "The researchers called this method deductive database, or DD for short."
+      },
+      {
+        "start": 253.4,
+        "duration": 5.5,
+        "text": "The word database suggests that you're starting with a database of key facts, and deductive"
+      },
+      {
+        "start": 258.9,
+        "duration": 4.0,
+        "text": "means that you're deducing new theorems from those key facts."
+      },
+      {
+        "start": 262.8,
+        "duration": 1.5,
+        "text": "So how do they perform?"
+      },
+      {
+        "start": 264.3,
+        "duration": 4.6,
+        "text": "Well out of 30 geometry IMO problems, it's solved seven of them."
+      },
+      {
+        "start": 269.0,
+        "duration": 2.2,
+        "text": "Now there are two ways to look at this."
+      },
+      {
+        "start": 271.1,
+        "duration": 2.6,
+        "text": "On one hand, seven out of 30 isn't very much."
+      },
+      {
+        "start": 273.8,
+        "duration": 2.8,
+        "text": "It's not even an honorable mention at the IMO."
+      },
+      {
+        "start": 276.6,
+        "duration": 5.6,
+        "text": "On the other hand, the fact that brute force can solve even one of the IMO problems is incredibly"
+      },
+      {
+        "start": 282.1,
+        "duration": 1.0,
+        "text": "impressive."
+      },
+      {
+        "start": 283.1,
+        "duration": 1.9,
+        "text": "No problems are very hard."
+      },
+      {
+        "start": 285.0,
+        "duration": 1.6,
+        "text": "So how do we bring this corp?"
+      },
+      {
+        "start": 286.7,
+        "duration": 3.6,
+        "text": "On one hand, we could just throw hands in the air and say, okay, we need AI to make it"
+      },
+      {
+        "start": 290.3,
+        "duration": 1.0,
+        "text": "better."
+      },
+      {
+        "start": 291.3,
+        "duration": 4.4,
+        "text": "But that's not quite true, because DD has a fundamental limitation that we haven't addressed"
+      },
+      {
+        "start": 295.7,
+        "duration": 1.0,
+        "text": "yet."
+      },
+      {
+        "start": 296.7,
+        "duration": 3.0,
+        "text": "DD can't solve equations."
+      },
+      {
+        "start": 299.7,
+        "duration": 1.0,
+        "text": "This is a problem."
+      },
+      {
+        "start": 300.7,
+        "duration": 3.9,
+        "text": "To see why, I'm going to tell you about a theorem called Thales' theorem."
+      },
+      {
+        "start": 304.6,
+        "duration": 3.4,
+        "text": "The angle in a semicircle here is always a right angle."
+      },
+      {
+        "start": 308.1,
+        "duration": 2.6,
+        "text": "Here's a short proof using equations."
+      },
+      {
+        "start": 310.6,
+        "duration": 3.7,
+        "text": "Draw a third line connecting the third point to the center."
+      },
+      {
+        "start": 314.3,
+        "duration": 3.8,
+        "text": "Then the three lines I'm marking over here are already the eye of the circle, so they"
+      },
+      {
+        "start": 318.2,
+        "duration": 1.6,
+        "text": "have the same length."
+      },
+      {
+        "start": 319.8,
+        "duration": 4.2,
+        "text": "Therefore, the two smaller triangles are both isosceles."
+      },
+      {
+        "start": 324.0,
+        "duration": 2.1,
+        "text": "Their opposite angles are equal."
+      },
+      {
+        "start": 326.0,
+        "duration": 5.6,
+        "text": "Since the angles are the big triangle ABC sum to 180 degrees, we have 2 alpha plus 2"
+      },
+      {
+        "start": 331.6,
+        "duration": 2.6,
+        "text": "beta equals 180 degrees."
+      },
+      {
+        "start": 334.2,
+        "duration": 4.0,
+        "text": "Dividing both sides by 2, alpha plus beta equals 90 degrees."
+      },
+      {
+        "start": 338.2,
+        "duration": 4.9,
+        "text": "That alpha plus beta is the angle ABC, so we're done the theorem."
+      },
+      {
+        "start": 343.1,
+        "duration": 3.4,
+        "text": "Solving linear equations is something that computers can do very well just using linear"
+      },
+      {
+        "start": 346.5,
+        "duration": 4.9,
+        "text": "algebra, so the deep-mind researchers implemented this in their model and called it algebraic"
+      },
+      {
+        "start": 351.4,
+        "duration": 2.8,
+        "text": "reasoning, or AR for short."
+      },
+      {
+        "start": 354.1,
+        "duration": 2.6,
+        "text": "So to recap, we have two modules so far."
+      },
+      {
+        "start": 356.8,
+        "duration": 4.9,
+        "text": "Deductive database, or DD, is a hard-coded list of geometric rules."
+      },
+      {
+        "start": 361.7,
+        "duration": 4.7,
+        "text": "Algebraic reasoning, or AR, is the ability to solve systems of linear equations."
+      },
+      {
+        "start": 366.4,
+        "duration": 5.9,
+        "text": "The deep-mind team used these two models alternatingly, so they first ran DD until it stopped,"
+      },
+      {
+        "start": 372.3,
+        "duration": 5.2,
+        "text": "and then they ran AR until that stopped, and then DD and then AR, and they kept doing"
+      },
+      {
+        "start": 377.5,
+        "duration": 3.6,
+        "text": "this until either the problem was solved or the time ran out."
+      },
+      {
+        "start": 381.0,
+        "duration": 4.3,
+        "text": "Together they called this procedure DD plus AR."
+      },
+      {
+        "start": 385.3,
+        "duration": 1.5,
+        "text": "This works really well."
+      },
+      {
+        "start": 386.8,
+        "duration": 5.6,
+        "text": "For example, given this problem below from their paper, the DD module deduced the first"
+      },
+      {
+        "start": 392.4,
+        "duration": 1.4,
+        "text": "two lines."
+      },
+      {
+        "start": 393.8,
+        "duration": 4.7,
+        "text": "The AR module then took the resulting system of equations and solved them."
+      },
+      {
+        "start": 398.6,
+        "duration": 3.7,
+        "text": "Now, here are the results on the IMO geometry problems."
+      },
+      {
+        "start": 402.2,
+        "duration": 3.2,
+        "text": "DD alone solved 7 out of 30 problems."
+      },
+      {
+        "start": 405.4,
+        "duration": 3.9,
+        "text": "DD plus AR solved 14 out of 30 problems."
+      },
+      {
+        "start": 409.4,
+        "duration": 4.4,
+        "text": "The deep-mind researchers pushed it even further to 18 out of 30 problems by adding"
+      },
+      {
+        "start": 413.8,
+        "duration": 2.9,
+        "text": "in what they call human-coded heuristics."
+      },
+      {
+        "start": 416.7,
+        "duration": 2.7,
+        "text": "This is nearly a bronze medal at the IMO."
+      },
+      {
+        "start": 419.4,
+        "duration": 5.2,
+        "text": "To me, it's really surprising that DD plus AR does so well, because IMO geometry problems"
+      },
+      {
+        "start": 424.5,
+        "duration": 4.2,
+        "text": "are really, really hard, so the fact that a brute force approach can get you this far"
+      },
+      {
+        "start": 428.7,
+        "duration": 2.4,
+        "text": "at all is very surprising."
+      },
+      {
+        "start": 431.0,
+        "duration": 4.5,
+        "text": "And given that we've gotten this far with no AI at all, it's worth asking why bother"
+      },
+      {
+        "start": 435.6,
+        "duration": 5.7,
+        "text": "adding AI in the very first place, because our model has a fundamental weakness."
+      },
+      {
+        "start": 441.2,
+        "duration": 3.8,
+        "text": "It struggles to make so-called auxiliary constructions."
+      },
+      {
+        "start": 445.1,
+        "duration": 4.9,
+        "text": "To solve many hard geometry problems, you have to draw in extra lines or shapes that"
+      },
+      {
+        "start": 450.0,
+        "duration": 1.8,
+        "text": "aren't in the diagram already."
+      },
+      {
+        "start": 451.7,
+        "duration": 4.3,
+        "text": "For example, suppose you want to show that the sum of the angles in a triangle is 180"
+      },
+      {
+        "start": 456.0,
+        "duration": 1.0,
+        "text": "degrees."
+      },
+      {
+        "start": 457.0,
+        "duration": 1.6,
+        "text": "Here's a very slick way to do it."
+      },
+      {
+        "start": 458.6,
+        "duration": 4.0,
+        "text": "Draw two parallel lines at the top and the bottom of the triangle."
+      },
+      {
+        "start": 462.6,
+        "duration": 2.4,
+        "text": "This is the auxiliary construction."
+      },
+      {
+        "start": 465.0,
+        "duration": 3.9,
+        "text": "The angles labeled alpha on the inside of the z are equal."
+      },
+      {
+        "start": 468.9,
+        "duration": 2.8,
+        "text": "Likewise for the angles over here, labeled beta."
+      },
+      {
+        "start": 471.7,
+        "duration": 2.8,
+        "text": "Now call the remaining angle of the triangle gamma."
+      },
+      {
+        "start": 474.5,
+        "duration": 1.8,
+        "text": "And now you just saw the equations."
+      },
+      {
+        "start": 476.3,
+        "duration": 5.3,
+        "text": "We know that alpha plus gamma plus beta is 180 degrees, because the top purple line is"
+      },
+      {
+        "start": 481.6,
+        "duration": 1.5,
+        "text": "a straight line."
+      },
+      {
+        "start": 483.1,
+        "duration": 5.4,
+        "text": "But alpha beta gamma are also the angles of the triangle, so they sum 180 degrees."
+      },
+      {
+        "start": 488.6,
+        "duration": 1.0,
+        "text": "We're now done."
+      },
+      {
+        "start": 489.6,
+        "duration": 3.4,
+        "text": "Now the key step was to draw the two lines at the top and bottom."
+      },
+      {
+        "start": 493.0,
+        "duration": 3.9,
+        "text": "Once we had that, we could deduce the theorem from facts that we already knew."
+      },
+      {
+        "start": 496.9,
+        "duration": 2.7,
+        "text": "In a sense, this is what makes geometry problems so fun."
+      },
+      {
+        "start": 499.6,
+        "duration": 4.2,
+        "text": "The true gems in the field always feel like adding the right idea seemingly came out of"
+      },
+      {
+        "start": 503.8,
+        "duration": 1.2,
+        "text": "left field."
+      },
+      {
+        "start": 504.9,
+        "duration": 4.9,
+        "text": "In animal geometry problems, you typically need to add not just one, but several auxiliary"
+      },
+      {
+        "start": 509.8,
+        "duration": 4.0,
+        "text": "constructions to the diagram, which is bad news for machines, because it means that there's"
+      },
+      {
+        "start": 513.8,
+        "duration": 3.2,
+        "text": "an infinite search space at every step."
+      },
+      {
+        "start": 517.1,
+        "duration": 1.7,
+        "text": "This is where AI comes in."
+      },
+      {
+        "start": 518.8,
+        "duration": 5.4,
+        "text": "The deep mind team builds a language model whose one and only job was to produce auxiliary"
+      },
+      {
+        "start": 524.2,
+        "duration": 1.5,
+        "text": "constructions."
+      },
+      {
+        "start": 525.6,
+        "duration": 3.8,
+        "text": "The input to the language model was the problem statement and the steps in the proof that"
+      },
+      {
+        "start": 529.4,
+        "duration": 1.8,
+        "text": "had been produced so far."
+      },
+      {
+        "start": 531.2,
+        "duration": 3.3,
+        "text": "Now I'm writing it in English, but keep in mind that it has to be inputted using the"
+      },
+      {
+        "start": 534.5,
+        "duration": 3.2,
+        "text": "geometry coding language that we talked about before."
+      },
+      {
+        "start": 537.7,
+        "duration": 5.1,
+        "text": "The output of the language model would be on auxiliary construction, so an extra point"
+      },
+      {
+        "start": 542.8,
+        "duration": 2.2,
+        "text": "or a figure on the diagram."
+      },
+      {
+        "start": 545.0,
+        "duration": 3.5,
+        "text": "So given this, here's how alpha geometry works in total."
+      },
+      {
+        "start": 548.5,
+        "duration": 3.6,
+        "text": "First, input the problem statement into the language model."
+      },
+      {
+        "start": 552.1,
+        "duration": 2.4,
+        "text": "It will return an auxiliary construction."
+      },
+      {
+        "start": 554.5,
+        "duration": 3.6,
+        "text": "Second, give this new diagram to dd plus AR."
+      },
+      {
+        "start": 558.1,
+        "duration": 3.0,
+        "text": "It will output a bunch of steps until it terminates."
+      },
+      {
+        "start": 561.1,
+        "duration": 2.6,
+        "text": "Feed this output back into the language model."
+      },
+      {
+        "start": 563.6,
+        "duration": 3.0,
+        "text": "It will produce yet another auxiliary construction."
+      },
+      {
+        "start": 566.6,
+        "duration": 3.2,
+        "text": "Feed this new output back into dd plus AR."
+      },
+      {
+        "start": 569.8,
+        "duration": 4.4,
+        "text": "Repeat this procedure until either the problem is solved or the time runs out."
+      },
+      {
+        "start": 574.2,
+        "duration": 5.8,
+        "text": "Put simply, the language model is the creative brain, thinking of clever auxiliary constructions."
+      },
+      {
+        "start": 580.0,
+        "duration": 5.0,
+        "text": "On the other hand, dd plus AR is the logical brain, using pure logic to deduce new facts"
+      },
+      {
+        "start": 585.0,
+        "duration": 1.4,
+        "text": "from known ones."
+      },
+      {
+        "start": 586.4,
+        "duration": 4.4,
+        "text": "So the creative brain thinks of a clever idea and the logical brain deduce things from"
+      },
+      {
+        "start": 590.8,
+        "duration": 0.8,
+        "text": "that."
+      },
+      {
+        "start": 591.6,
+        "duration": 4.3,
+        "text": "The creative brain thinks of yet another idea and the logical brain deduces even more"
+      },
+      {
+        "start": 595.9,
+        "duration": 3.2,
+        "text": "things from that and so on and so forth."
+      },
+      {
+        "start": 599.1,
+        "duration": 3.1,
+        "text": "So we've been talking about this language model and that's all fine and good, but there's"
+      },
+      {
+        "start": 602.2,
+        "duration": 1.9,
+        "text": "one thing we haven't discussed."
+      },
+      {
+        "start": 604.2,
+        "duration": 2.1,
+        "text": "Where are they getting their training data?"
+      },
+      {
+        "start": 606.2,
+        "duration": 4.8,
+        "text": "Because there aren't that many IMO geometry problems with solutions available online, so"
+      },
+      {
+        "start": 611.1,
+        "duration": 1.9,
+        "text": "you need to do something else."
+      },
+      {
+        "start": 613.0,
+        "duration": 4.4,
+        "text": "The alpha geometry team, start to invent this issue by doing something quite interesting."
+      },
+      {
+        "start": 617.4,
+        "duration": 2.5,
+        "text": "They generated their own training data."
+      },
+      {
+        "start": 619.9,
+        "duration": 4.3,
+        "text": "Here so you can generate a sample problem and solution for your training data."
+      },
+      {
+        "start": 624.2,
+        "duration": 3.3,
+        "text": "Randomly plot a bunch of points and lines on the plane."
+      },
+      {
+        "start": 627.5,
+        "duration": 3.7,
+        "text": "Then using dd plus AR deduce everything you can."
+      },
+      {
+        "start": 631.2,
+        "duration": 2.2,
+        "text": "Like various angles are equal."
+      },
+      {
+        "start": 633.4,
+        "duration": 1.4,
+        "text": "Various lines are parallel."
+      },
+      {
+        "start": 634.8,
+        "duration": 4.1,
+        "text": "It'll conclude, for example, that the sum of the three angles in the triangle is 180"
+      },
+      {
+        "start": 639.0,
+        "duration": 1.2,
+        "text": "degrees."
+      },
+      {
+        "start": 640.1,
+        "duration": 4.4,
+        "text": "Now go backwards, erase some portions of the diagram."
+      },
+      {
+        "start": 644.5,
+        "duration": 2.0,
+        "text": "Now we can state a problem."
+      },
+      {
+        "start": 646.5,
+        "duration": 3.8,
+        "text": "In this triangle, show that the sum of the angles is 180 degrees."
+      },
+      {
+        "start": 650.4,
+        "duration": 4.0,
+        "text": "To solve it, we would need to draw back the lines that we'd erased, but those would"
+      },
+      {
+        "start": 654.4,
+        "duration": 2.3,
+        "text": "be auxiliary constructions."
+      },
+      {
+        "start": 656.6,
+        "duration": 3.8,
+        "text": "So just like that, alpha geometry generated some new training data."
+      },
+      {
+        "start": 660.4,
+        "duration": 3.4,
+        "text": "They randomly plotted a bunch of lines and points on the plane."
+      },
+      {
+        "start": 663.8,
+        "duration": 4.0,
+        "text": "They used dd plus AR to deduce a bunch of known theorems from that."
+      },
+      {
+        "start": 667.9,
+        "duration": 2.6,
+        "text": "Then they erased some portions of the diagram."
+      },
+      {
+        "start": 670.4,
+        "duration": 3.9,
+        "text": "So that if you want to arrive at that theorem yourself, you would need to draw those portions"
+      },
+      {
+        "start": 674.3,
+        "duration": 2.5,
+        "text": "back in using an auxiliary construction."
+      },
+      {
+        "start": 676.8,
+        "duration": 5.3,
+        "text": "In fact, they generated hundreds of millions of synthetic proof examples, a total of nine"
+      },
+      {
+        "start": 682.1,
+        "duration": 4.4,
+        "text": "million of them required at least one auxiliary construction."
+      },
+      {
+        "start": 686.4,
+        "duration": 4.3,
+        "text": "Here are some examples of the very complicated diagrams that this process produced."
+      },
+      {
+        "start": 690.8,
+        "duration": 7.8,
+        "text": "The most complex synthetic proof had an impressive length of 247 steps with two auxiliary constructions."
+      },
+      {
+        "start": 698.6,
+        "duration": 3.1,
+        "text": "With all this data, they were able to train their language model."
+      },
+      {
+        "start": 701.6,
+        "duration": 1.9,
+        "text": "So how did this whole model perform?"
+      },
+      {
+        "start": 703.6,
+        "duration": 3.6,
+        "text": "Well, recall that dd solved seven out of 30 problems."
+      },
+      {
+        "start": 707.2,
+        "duration": 3.5,
+        "text": "dd plus AR solved 14 out of 30 problems."
+      },
+      {
+        "start": 710.7,
+        "duration": 4.4,
+        "text": "dd plus AR plus human courted heuristics solved 18 out of 30."
+      },
+      {
+        "start": 715.1,
+        "duration": 5.4,
+        "text": "If you combine dd plus AR with the language model with some fine tuning, it was able to"
+      },
+      {
+        "start": 720.5,
+        "duration": 3.4,
+        "text": "solve 25 out of 30 problems."
+      },
+      {
+        "start": 723.8,
+        "duration": 1.6,
+        "text": "So why is this so exciting?"
+      },
+      {
+        "start": 725.5,
+        "duration": 3.8,
+        "text": "Well to me, alpha geometry isn't just about solving triangles."
+      },
+      {
+        "start": 729.3,
+        "duration": 4.2,
+        "text": "It's really about something much deeper about machines being able to think and reason"
+      },
+      {
+        "start": 733.6,
+        "duration": 1.6,
+        "text": "like human beings."
+      },
+      {
+        "start": 735.2,
+        "duration": 4.4,
+        "text": "Alpha geometry can think creatively, but also very logically."
+      },
+      {
+        "start": 739.6,
+        "duration": 4.8,
+        "text": "This is exciting because this general strategy using creativity and logic together is by"
+      },
+      {
+        "start": 744.4,
+        "duration": 2.0,
+        "text": "no means specific to geometry."
+      },
+      {
+        "start": 746.4,
+        "duration": 4.9,
+        "text": "It's used in problem solving in any kind of domain, for example, science, medicine,"
+      },
+      {
+        "start": 751.3,
+        "duration": 1.8,
+        "text": "engineering, you name it."
+      },
+      {
+        "start": 753.1,
+        "duration": 4.4,
+        "text": "Of course, alpha geometry wasn't built to solve problems in those other domains, but"
+      },
+      {
+        "start": 757.5,
+        "duration": 4.6,
+        "text": "it can give us a glimpse into how machines might try to tackle those problems."
+      },
+      {
+        "start": 762.1,
+        "duration": 2.6,
+        "text": "And that's a future I'm really excited for."
+      },
+      {
+        "start": 764.6,
+        "duration": 1.0,
+        "text": "That's all for this video."
+      },
+      {
+        "start": 765.6,
+        "duration": 1.3,
+        "text": "Thanks so much for watching."
+      },
+      {
+        "start": 767.0,
+        "duration": 1.2,
+        "text": "Bye."
+      }
+    ],
+    "full_text": "In January 2024, Google DeepMind released an AI model called Alpha Geometry, which could solve geometry problems from the International Mathematical Olympiad or the IMO. The IMO is the highest level of competitive math contest at the high school level. Every year, more than 100 countries send 16agers to represent them at the competition. Each country has its own elaborate system of contests leading to their choice of six representatives. When Alpha Geometry was tested on a database of 30 geometry problems, it solved 25 of them. This is better than the performance of a silver medalist. This quite understandably generated a lot of vise. But here's what nobody talks about. The most surprising part for me is not that AI managed to solve these problems, but it's what happened even before the AI showed up. A 25 year old technique with no AI at all, just using logic and pure equation solving, was already able to solve 18 out of 25 problems. That's already a bronze medal at the IMO. And then the model hit a wall. There were problems that even this ingenious logical model wasn't able to solve. And that's where AI comes in. But instead of leaving everything to AI, the DeepMind team very cleverly integrated the logical model with an AI component in order to reach their spectacular result of 25 out of 30 problems. So in this video, yes, I do want to talk about AI in geometry. But before that, I also want to talk about how a non-AI model was already better at geometry than the vast majority of humans. So with that, let's begin. Our task today is simple. Build a bot that can solve IMO geometry problems. But I'm going to make a caveat to make our problem a little bit harder. Write a bot that solves IMO problems with no AI. To begin attacking this, we're going to use a well-kept secret about geometry problems. A few key facts can get you very far. For example, here are two important facts from geometry. One, when two lines cross, the opposite angles are equal. And two, if these two horizontal lines are parallel, and you look at the Z over here in blue, the angles on the inside of the Z are equal. With these two facts alone, we can already prove a non-trivial theorem. In this diagram, the two orange angles alpha are equal. If you apply our two facts one after another, it proves our theorem. Now this is how far we could get starting with two facts. Now imagine how far we could get if we started off with 10 facts, or 50 facts, or 100 facts, the space of theorems we could prove would get larger and larger. In October 2000, the researchers, two, gau, and jang, released a paper that did precisely this. In their paper, they made a database of 75 geometry rules. Applying these facts in various combinations, the researchers could solve some very hard geometry problems. These rules start out simple, like the ones I've written on screen. But as you go on, the rules get more complicated, like the rule at the bottom of the screen. But how do you feed all these diagrams into a computer? Well, then I even way to do it would be to plot everything on Desmos using explicit equations. But I think we can both agree that that's far too clunky. Another alternative is using a language that's specifically designed for theorem proving. The predominant language in this regard is called lean. While lean is really great for things like algebra and inequalities, at the moment, it's not very well suited for Euclidean geometry. To get around this, the authors used a more niche language that specifically designed for geometry. Now to the best of my knowledge, this language doesn't yet have an official name and is only described in research papers. Here's what it looks like. Say we want to represent this problem over here to a computer, which says that a triangle with two equal sides has two equal angles. In the specialized machine language, you'd write it like this. ABC points, which means that there are three points ABC. AB equals AC, which means that the sides AB and AC have the same length. Goal, angle ABC equals angle BCA, which means that the goal is to show that these two angles are equal. The researchers called this method deductive database, or DD for short. The word database suggests that you're starting with a database of key facts, and deductive means that you're deducing new theorems from those key facts. So how do they perform? Well out of 30 geometry IMO problems, it's solved seven of them. Now there are two ways to look at this. On one hand, seven out of 30 isn't very much. It's not even an honorable mention at the IMO. On the other hand, the fact that brute force can solve even one of the IMO problems is incredibly impressive. No problems are very hard. So how do we bring this corp? On one hand, we could just throw hands in the air and say, okay, we need AI to make it better. But that's not quite true, because DD has a fundamental limitation that we haven't addressed yet. DD can't solve equations. This is a problem. To see why, I'm going to tell you about a theorem called Thales' theorem. The angle in a semicircle here is always a right angle. Here's a short proof using equations. Draw a third line connecting the third point to the center. Then the three lines I'm marking over here are already the eye of the circle, so they have the same length. Therefore, the two smaller triangles are both isosceles. Their opposite angles are equal. Since the angles are the big triangle ABC sum to 180 degrees, we have 2 alpha plus 2 beta equals 180 degrees. Dividing both sides by 2, alpha plus beta equals 90 degrees. That alpha plus beta is the angle ABC, so we're done the theorem. Solving linear equations is something that computers can do very well just using linear algebra, so the deep-mind researchers implemented this in their model and called it algebraic reasoning, or AR for short. So to recap, we have two modules so far. Deductive database, or DD, is a hard-coded list of geometric rules. Algebraic reasoning, or AR, is the ability to solve systems of linear equations. The deep-mind team used these two models alternatingly, so they first ran DD until it stopped, and then they ran AR until that stopped, and then DD and then AR, and they kept doing this until either the problem was solved or the time ran out. Together they called this procedure DD plus AR. This works really well. For example, given this problem below from their paper, the DD module deduced the first two lines. The AR module then took the resulting system of equations and solved them. Now, here are the results on the IMO geometry problems. DD alone solved 7 out of 30 problems. DD plus AR solved 14 out of 30 problems. The deep-mind researchers pushed it even further to 18 out of 30 problems by adding in what they call human-coded heuristics. This is nearly a bronze medal at the IMO. To me, it's really surprising that DD plus AR does so well, because IMO geometry problems are really, really hard, so the fact that a brute force approach can get you this far at all is very surprising. And given that we've gotten this far with no AI at all, it's worth asking why bother adding AI in the very first place, because our model has a fundamental weakness. It struggles to make so-called auxiliary constructions. To solve many hard geometry problems, you have to draw in extra lines or shapes that aren't in the diagram already. For example, suppose you want to show that the sum of the angles in a triangle is 180 degrees. Here's a very slick way to do it. Draw two parallel lines at the top and the bottom of the triangle. This is the auxiliary construction. The angles labeled alpha on the inside of the z are equal. Likewise for the angles over here, labeled beta. Now call the remaining angle of the triangle gamma. And now you just saw the equations. We know that alpha plus gamma plus beta is 180 degrees, because the top purple line is a straight line. But alpha beta gamma are also the angles of the triangle, so they sum 180 degrees. We're now done. Now the key step was to draw the two lines at the top and bottom. Once we had that, we could deduce the theorem from facts that we already knew. In a sense, this is what makes geometry problems so fun. The true gems in the field always feel like adding the right idea seemingly came out of left field. In animal geometry problems, you typically need to add not just one, but several auxiliary constructions to the diagram, which is bad news for machines, because it means that there's an infinite search space at every step. This is where AI comes in. The deep mind team builds a language model whose one and only job was to produce auxiliary constructions. The input to the language model was the problem statement and the steps in the proof that had been produced so far. Now I'm writing it in English, but keep in mind that it has to be inputted using the geometry coding language that we talked about before. The output of the language model would be on auxiliary construction, so an extra point or a figure on the diagram. So given this, here's how alpha geometry works in total. First, input the problem statement into the language model. It will return an auxiliary construction. Second, give this new diagram to dd plus AR. It will output a bunch of steps until it terminates. Feed this output back into the language model. It will produce yet another auxiliary construction. Feed this new output back into dd plus AR. Repeat this procedure until either the problem is solved or the time runs out. Put simply, the language model is the creative brain, thinking of clever auxiliary constructions. On the other hand, dd plus AR is the logical brain, using pure logic to deduce new facts from known ones. So the creative brain thinks of a clever idea and the logical brain deduce things from that. The creative brain thinks of yet another idea and the logical brain deduces even more things from that and so on and so forth. So we've been talking about this language model and that's all fine and good, but there's one thing we haven't discussed. Where are they getting their training data? Because there aren't that many IMO geometry problems with solutions available online, so you need to do something else. The alpha geometry team, start to invent this issue by doing something quite interesting. They generated their own training data. Here so you can generate a sample problem and solution for your training data. Randomly plot a bunch of points and lines on the plane. Then using dd plus AR deduce everything you can. Like various angles are equal. Various lines are parallel. It'll conclude, for example, that the sum of the three angles in the triangle is 180 degrees. Now go backwards, erase some portions of the diagram. Now we can state a problem. In this triangle, show that the sum of the angles is 180 degrees. To solve it, we would need to draw back the lines that we'd erased, but those would be auxiliary constructions. So just like that, alpha geometry generated some new training data. They randomly plotted a bunch of lines and points on the plane. They used dd plus AR to deduce a bunch of known theorems from that. Then they erased some portions of the diagram. So that if you want to arrive at that theorem yourself, you would need to draw those portions back in using an auxiliary construction. In fact, they generated hundreds of millions of synthetic proof examples, a total of nine million of them required at least one auxiliary construction. Here are some examples of the very complicated diagrams that this process produced. The most complex synthetic proof had an impressive length of 247 steps with two auxiliary constructions. With all this data, they were able to train their language model. So how did this whole model perform? Well, recall that dd solved seven out of 30 problems. dd plus AR solved 14 out of 30 problems. dd plus AR plus human courted heuristics solved 18 out of 30. If you combine dd plus AR with the language model with some fine tuning, it was able to solve 25 out of 30 problems. So why is this so exciting? Well to me, alpha geometry isn't just about solving triangles. It's really about something much deeper about machines being able to think and reason like human beings. Alpha geometry can think creatively, but also very logically. This is exciting because this general strategy using creativity and logic together is by no means specific to geometry. It's used in problem solving in any kind of domain, for example, science, medicine, engineering, you name it. Of course, alpha geometry wasn't built to solve problems in those other domains, but it can give us a glimpse into how machines might try to tackle those problems. And that's a future I'm really excited for. That's all for this video. Thanks so much for watching. Bye."
+  }
+}

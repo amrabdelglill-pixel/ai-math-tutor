@@ -1,0 +1,1024 @@
+{
+  "video_id": "Cz4Q4QOuoo8",
+  "video_title": "Answering viewer questions about refraction",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 805.0,
+  "view_count": 1065128,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.2,
+        "text": "The last video I put out was about the index of refraction."
+      },
+      {
+        "start": 3.2,
+        "duration": 4.3,
+        "text": "It talked about why light slows down when it passes through a medium and in particular,"
+      },
+      {
+        "start": 7.5,
+        "duration": 3.1,
+        "text": "why the rate of slow down would depend on color."
+      },
+      {
+        "start": 10.6,
+        "duration": 3.5,
+        "text": "It turns out people have a lot of questions about the index of refraction,"
+      },
+      {
+        "start": 14.2,
+        "duration": 4.0,
+        "text": "and in this supplemental video, I wanted to take a chance to answer a couple of them."
+      },
+      {
+        "start": 18.2,
+        "duration": 4.0,
+        "text": "For example, how is it possible for this index to be lower than one,"
+      },
+      {
+        "start": 22.2,
+        "duration": 4.6,
+        "text": "which seems to imply that light would travel faster than the speed of light through some materials?"
+      },
+      {
+        "start": 30.2,
+        "duration": 6.1,
+        "text": "To kick things off, though, I want to take a question that does not require too much background,"
+      },
+      {
+        "start": 36.2,
+        "duration": 7.2,
+        "text": "asked by Kevin O'Toole, which is why exactly light slowing down would imply that it bends as it enters a medium."
+      },
+      {
+        "start": 44.1,
+        "duration": 3.8,
+        "text": "There's a common analogy, which is to think of something like a car or a tank,"
+      },
+      {
+        "start": 47.9,
+        "duration": 3.5,
+        "text": "where it turns a little bit while one side of it slows down before the other."
+      },
+      {
+        "start": 51.9,
+        "duration": 5.0,
+        "text": "And although it's a very visceral and memorable analogy, it's not like light has wheels,"
+      },
+      {
+        "start": 56.9,
+        "duration": 3.0,
+        "text": "and it also tells you nothing about how to be more quantitative,"
+      },
+      {
+        "start": 59.8,
+        "duration": 3.8,
+        "text": "and derive the formula describing exactly how much light bends."
+      },
+      {
+        "start": 64.2,
+        "duration": 1.5,
+        "text": "Here's a better way to think about it."
+      },
+      {
+        "start": 65.8,
+        "duration": 3.5,
+        "text": "If you have some light wave shining into a material like glass,"
+      },
+      {
+        "start": 69.3,
+        "duration": 4.0,
+        "text": "if it slows down, notice how that means that it gets kind of scrunched up."
+      },
+      {
+        "start": 73.3,
+        "duration": 2.9,
+        "text": "If it's wavelength in a vacuum with some number lambda,"
+      },
+      {
+        "start": 76.2,
+        "duration": 3.7,
+        "text": "then the wavelength inside this material, where it's gotten slowed down,"
+      },
+      {
+        "start": 79.8,
+        "duration": 1.7,
+        "text": "is something smaller than that."
+      },
+      {
+        "start": 81.5,
+        "duration": 3.4,
+        "text": "Here I am drawing the wave only on a one-dimensional line,"
+      },
+      {
+        "start": 85.0,
+        "duration": 3.1,
+        "text": "but we need to understand it in at least two dimensions,"
+      },
+      {
+        "start": 88.1,
+        "duration": 3.0,
+        "text": "where every point on this plane, for example,"
+      },
+      {
+        "start": 91.0,
+        "duration": 4.5,
+        "text": "is associated with a little vector in the electric field oscillating up and down."
+      },
+      {
+        "start": 95.5,
+        "duration": 3.4,
+        "text": "This particular animation is a little bit messy and hard to follow,"
+      },
+      {
+        "start": 99.0,
+        "duration": 3.9,
+        "text": "so it might be clearer if instead we simply color every point of the plane,"
+      },
+      {
+        "start": 102.9,
+        "duration": 3.6,
+        "text": "such that those points are white near the crests of the wave,"
+      },
+      {
+        "start": 106.5,
+        "duration": 2.4,
+        "text": "and then black away from the crests."
+      },
+      {
+        "start": 108.9,
+        "duration": 3.8,
+        "text": "You can still clearly see the wavelength as the distance between these crests."
+      },
+      {
+        "start": 112.8,
+        "duration": 3.5,
+        "text": "It's exactly what we were looking at before, just drawn in a different way,"
+      },
+      {
+        "start": 116.3,
+        "duration": 3.4,
+        "text": "and in particular notice how they're scrunched up inside the glass."
+      },
+      {
+        "start": 119.7,
+        "duration": 2.6,
+        "text": "If that glass were positioned at an angle,"
+      },
+      {
+        "start": 122.2,
+        "duration": 3.1,
+        "text": "think about what happens to each one of those wave crests."
+      },
+      {
+        "start": 125.4,
+        "duration": 4.6,
+        "text": "As it hits the glass, the lower parts slow down before the top parts,"
+      },
+      {
+        "start": 129.9,
+        "duration": 2.1,
+        "text": "causing it to get sort of smeared out."
+      },
+      {
+        "start": 132.0,
+        "duration": 2.9,
+        "text": "It reminds me a little of the rolling shutter effect,"
+      },
+      {
+        "start": 134.9,
+        "duration": 3.4,
+        "text": "and overall, the wave crest ends up at a different angle."
+      },
+      {
+        "start": 138.3,
+        "duration": 2.6,
+        "text": "When you take into account the fact that for a beam of light,"
+      },
+      {
+        "start": 141.0,
+        "duration": 3.0,
+        "text": "the beam is always perpendicular to those wave crests."
+      },
+      {
+        "start": 144.0,
+        "duration": 1.8,
+        "text": "This means your light has to turn,"
+      },
+      {
+        "start": 145.8,
+        "duration": 3.4,
+        "text": "and moreover, you can calculate exactly how much it needs to turn."
+      },
+      {
+        "start": 149.9,
+        "duration": 2.0,
+        "text": "Think about all those waves in the vacuum,"
+      },
+      {
+        "start": 151.9,
+        "duration": 3.2,
+        "text": "with some kind of wavelength lambda 1 sitting between them,"
+      },
+      {
+        "start": 155.1,
+        "duration": 3.4,
+        "text": "and focus on all the points where those crests intersect"
+      },
+      {
+        "start": 158.5,
+        "duration": 2.7,
+        "text": "with the boundary between the vacuum and the glass."
+      },
+      {
+        "start": 161.2,
+        "duration": 3.1,
+        "text": "But then consider those wave crests inside the glass."
+      },
+      {
+        "start": 164.3,
+        "duration": 2.4,
+        "text": "If it was the case that no bending happened,"
+      },
+      {
+        "start": 166.7,
+        "duration": 2.3,
+        "text": "then because the wavelength is smaller in there,"
+      },
+      {
+        "start": 169.0,
+        "duration": 1.9,
+        "text": "when you look at all those intersection points,"
+      },
+      {
+        "start": 171.0,
+        "duration": 2.2,
+        "text": "they would have to be closer together."
+      },
+      {
+        "start": 173.1,
+        "duration": 1.5,
+        "text": "But of course, that can't happen,"
+      },
+      {
+        "start": 174.6,
+        "duration": 3.0,
+        "text": "whether you're looking at it from one side or looking at it from the other,"
+      },
+      {
+        "start": 177.7,
+        "duration": 2.3,
+        "text": "those intersection points are all the same."
+      },
+      {
+        "start": 180.0,
+        "duration": 3.7,
+        "text": "So the only way this can work is if those wave crests inside the glass"
+      },
+      {
+        "start": 183.7,
+        "duration": 1.8,
+        "text": "were oriented at a different angle."
+      },
+      {
+        "start": 186.0,
+        "duration": 2.7,
+        "text": "And you might mentally imagine turning them with a little knob"
+      },
+      {
+        "start": 188.7,
+        "duration": 1.6,
+        "text": "to find the sweet spot angle,"
+      },
+      {
+        "start": 190.3,
+        "duration": 2.2,
+        "text": "where all those intersection points line up."
+      },
+      {
+        "start": 192.6,
+        "duration": 1.8,
+        "text": "And for those of you into exercises,"
+      },
+      {
+        "start": 194.3,
+        "duration": 3.3,
+        "text": "you could take a moment to try to write down the specific equation,"
+      },
+      {
+        "start": 197.6,
+        "duration": 3.4,
+        "text": "telling you how to relate the wavelengths inside and outside the glass"
+      },
+      {
+        "start": 201.0,
+        "duration": 3.6,
+        "text": "with the angles between those wave crests and the boundary itself."
+      },
+      {
+        "start": 205.2,
+        "duration": 3.7,
+        "text": "If you do this, what you write down is effectively the same thing as snail's law."
+      },
+      {
+        "start": 208.9,
+        "duration": 3.4,
+        "text": "You just have a tiny bit of added work to relate the relevant angles here,"
+      },
+      {
+        "start": 212.2,
+        "duration": 3.1,
+        "text": "and then to note how the speed and the wavelength all depend on each other."
+      },
+      {
+        "start": 216.7,
+        "duration": 2.2,
+        "text": "To answer the other questions I want to get to,"
+      },
+      {
+        "start": 218.9,
+        "duration": 3.6,
+        "text": "we're going to lean pretty heavily on the explanation from the main video."
+      },
+      {
+        "start": 222.5,
+        "duration": 3.1,
+        "text": "I'm mostly assuming that people here will have watched that,"
+      },
+      {
+        "start": 225.6,
+        "duration": 2.2,
+        "text": "but here's a quick recap of the key points."
+      },
+      {
+        "start": 228.5,
+        "duration": 3.0,
+        "text": "When we talk about a light wave slowing down in a material,"
+      },
+      {
+        "start": 231.5,
+        "duration": 4.4,
+        "text": "what's really going on is that it's interaction with each layer of that material"
+      },
+      {
+        "start": 235.9,
+        "duration": 2.8,
+        "text": "slightly kicks back the phase of the wave."
+      },
+      {
+        "start": 238.7,
+        "duration": 5.2,
+        "text": "Now a continuous sequence of infinitesimal phase kicks like this produces something that's"
+      },
+      {
+        "start": 243.9,
+        "duration": 3.8,
+        "text": "mathematically identical to a wave that's just traveling slower."
+      },
+      {
+        "start": 248.3,
+        "duration": 3.7,
+        "text": "The actual mechanism for that phase kick is that the incoming light wave"
+      },
+      {
+        "start": 252.0,
+        "duration": 3.9,
+        "text": "causes the charges in the material to oscillate a little bit."
+      },
+      {
+        "start": 255.9,
+        "duration": 4.4,
+        "text": "Those oscillations produce their own propagation in the electromagnetic field,"
+      },
+      {
+        "start": 260.3,
+        "duration": 3.9,
+        "text": "and when you add together this newly induced wave with the original one,"
+      },
+      {
+        "start": 264.2,
+        "duration": 2.6,
+        "text": "then in the region of space past that layer,"
+      },
+      {
+        "start": 266.8,
+        "duration": 4.5,
+        "text": "the sum looks just like a copy of that original wave, but shifted back a little."
+      },
+      {
+        "start": 272.0,
+        "duration": 4.1,
+        "text": "The last key point is that if you want to know the size of that phase shift,"
+      },
+      {
+        "start": 276.1,
+        "duration": 2.7,
+        "text": "which is what determines the index of refraction,"
+      },
+      {
+        "start": 278.8,
+        "duration": 5.7,
+        "text": "we modeled the charges in the material as simple harmonic oscillators bound to some equilibrium"
+      },
+      {
+        "start": 284.5,
+        "duration": 2.6,
+        "text": "position with a linear restoring force."
+      },
+      {
+        "start": 287.1,
+        "duration": 5.5,
+        "text": "What we found is that the amplitude of oscillation, when you shine a light on a charge like this,"
+      },
+      {
+        "start": 292.6,
+        "duration": 6.0,
+        "text": "will depend on how close the frequency of that light is to the resident frequency associated"
+      },
+      {
+        "start": 298.6,
+        "duration": 5.3,
+        "text": "with this spring-like restoring force, or to put it shortly, the index of refraction"
+      },
+      {
+        "start": 303.9,
+        "duration": 3.8,
+        "text": "depends on how much the light resonates with charges in the material."
+      },
+      {
+        "start": 308.6,
+        "duration": 4.3,
+        "text": "As an example of one phenomenon that this explanation helps us to understand,"
+      },
+      {
+        "start": 312.9,
+        "duration": 4.6,
+        "text": "let's take a question asked by Dan Stock, which is what causes birefringence."
+      },
+      {
+        "start": 317.5,
+        "duration": 5.4,
+        "text": "So, this is a phenomenon where a material has two distinct indices of refraction,"
+      },
+      {
+        "start": 323.0,
+        "duration": 3.3,
+        "text": "which has the effect of making you see double when you look through it."
+      },
+      {
+        "start": 327.3,
+        "duration": 5.4,
+        "text": "Imagine you have some kind of crystal structure, such that the ions in that structure"
+      },
+      {
+        "start": 332.6,
+        "duration": 3.4,
+        "text": "will have some restoring force when you pull them in one direction,"
+      },
+      {
+        "start": 336.0,
+        "duration": 4.2,
+        "text": "which is distinct from the restoring force when you pull them in another direction."
+      },
+      {
+        "start": 341.0,
+        "duration": 5.2,
+        "text": "That is, the resident frequency for oscillations in one direction is distinct from the resident"
+      },
+      {
+        "start": 346.2,
+        "duration": 4.9,
+        "text": "frequency from oscillations in another. What that means is if you shine some light through this"
+      },
+      {
+        "start": 351.1,
+        "duration": 6.4,
+        "text": "material, then because the index of refraction depends on resonance, the value of that index of"
+      },
+      {
+        "start": 357.5,
+        "duration": 4.4,
+        "text": "refraction will be different for light that's oscillating up and down, then it will for light"
+      },
+      {
+        "start": 361.9,
+        "duration": 5.5,
+        "text": "that's oscillating side to side. That is, it depends on the polarization of the light."
+      },
+      {
+        "start": 367.4,
+        "duration": 3.9,
+        "text": "And this really happens. The example you're looking at right now is calcite,"
+      },
+      {
+        "start": 371.4,
+        "duration": 4.4,
+        "text": "and when you're seeing double, it's because light with one polarization is getting bent"
+      },
+      {
+        "start": 375.8,
+        "duration": 2.6,
+        "text": "at a different rate than light with the other polarization."
+      },
+      {
+        "start": 379.5,
+        "duration": 3.3,
+        "text": "For those of you who watched the videos about the barber pull effect,"
+      },
+      {
+        "start": 382.8,
+        "duration": 3.9,
+        "text": "a very similar phenomenon answers the final question that we left there."
+      },
+      {
+        "start": 387.3,
+        "duration": 4.4,
+        "text": "If you didn't watch those, feel free to jump ahead, but if you did, you might recall that"
+      },
+      {
+        "start": 391.7,
+        "duration": 5.7,
+        "text": "where we left off was with a claim that sugar causes right-handed circularly polarized light"
+      },
+      {
+        "start": 397.4,
+        "duration": 5.1,
+        "text": "to travel at a slightly different speed from left-handed circularly polarized light."
+      },
+      {
+        "start": 403.0,
+        "duration": 4.8,
+        "text": "The reason that mattered is that it meant linearly polarized light, which can be expressed as"
+      },
+      {
+        "start": 407.8,
+        "duration": 7.0,
+        "text": "a sum of those two, will slowly rotate over time as one of those two components lags behind the"
+      },
+      {
+        "start": 414.8,
+        "duration": 6.2,
+        "text": "other. Once you understand that an index of refraction depends on resonance, you can start to see"
+      },
+      {
+        "start": 421.0,
+        "duration": 5.6,
+        "text": "why something like this might happen. If the molecular structure of sucrose was one such that"
+      },
+      {
+        "start": 426.6,
+        "duration": 5.4,
+        "text": "electrons might get pushed along a path with a clockwise component more freely than they get"
+      },
+      {
+        "start": 431.9,
+        "duration": 5.0,
+        "text": "pushed along paths with counterclockwise components, while that would mean that the resonance"
+      },
+      {
+        "start": 436.9,
+        "duration": 4.5,
+        "text": "with right-handed circularly polarized light would be a little different from what it is for"
+      },
+      {
+        "start": 441.4,
+        "duration": 5.0,
+        "text": "left-handed circularly polarized light, and hence the indices of refraction would be slightly"
+      },
+      {
+        "start": 446.4,
+        "duration": 5.1,
+        "text": "different for each one. When you combine this together with the fact that the resonance depends"
+      },
+      {
+        "start": 451.5,
+        "duration": 5.4,
+        "text": "on the frequency of the light, which is to say it depends on the color, this ultimately explains"
+      },
+      {
+        "start": 457.0,
+        "duration": 5.0,
+        "text": "why the optical rotation in that barber pull effect separated out the colors the way that it did."
+      },
+      {
+        "start": 462.6,
+        "duration": 4.3,
+        "text": "Now one example of a shape that would resonate differently with left-handed and right-handed"
+      },
+      {
+        "start": 467.0,
+        "duration": 6.0,
+        "text": "circularly polarized light would be a helix, and in fact people will use a helical antenna when"
+      },
+      {
+        "start": 473.0,
+        "duration": 5.1,
+        "text": "they want to pick up on radio waves with just one-handedness. Although sucrose is not so clean and"
+      },
+      {
+        "start": 478.1,
+        "duration": 5.7,
+        "text": "pure an example as a helix, the key property is that it is chiral, meaning it's fundamentally"
+      },
+      {
+        "start": 483.8,
+        "duration": 5.0,
+        "text": "different from its mirror image, in that there's no way to re-oriented in 3D space to make it look like"
+      },
+      {
+        "start": 488.8,
+        "duration": 5.0,
+        "text": "its mirror image. I will not pretend to know why this particular structure resonates with one"
+      },
+      {
+        "start": 493.8,
+        "duration": 4.5,
+        "text": "hand-dness more than another, but at least in principle it makes sense that chirality would lend"
+      },
+      {
+        "start": 498.2,
+        "duration": 5.3,
+        "text": "itself to this phenomenon. And finally to wrap things up let's hit what might be the most"
+      },
+      {
+        "start": 503.5,
+        "duration": 5.2,
+        "text": "intriguing question of them all, which is how the index of refraction can be lower than one,"
+      },
+      {
+        "start": 508.7,
+        "duration": 5.5,
+        "text": "since what that seems to imply is that the speed of light through a medium would be faster than"
+      },
+      {
+        "start": 514.2,
+        "duration": 5.0,
+        "text": "the speed of light. So this really does happen, and it's not as wild as you might think. If you think"
+      },
+      {
+        "start": 519.3,
+        "duration": 4.8,
+        "text": "back to how everything in our discussion arose from how a layer of material can kick back the"
+      },
+      {
+        "start": 524.1,
+        "duration": 4.7,
+        "text": "phase of a wave, there is no reason that the layer of the material can't also kick forward the"
+      },
+      {
+        "start": 528.8,
+        "duration": 5.3,
+        "text": "phase of that wave. And when you have many successive layers all kicking forward the phase like this,"
+      },
+      {
+        "start": 534.1,
+        "duration": 4.7,
+        "text": "it gives the illusion of a wave that's traveling faster than the speed of light, in the sense that"
+      },
+      {
+        "start": 538.8,
+        "duration": 5.4,
+        "text": "those crests genuinely are moving faster than C. In fact when you unpack the math underlying all"
+      },
+      {
+        "start": 544.2,
+        "duration": 4.6,
+        "text": "of this, whenever the key amplitude expression that we wrote down is smaller than zero,"
+      },
+      {
+        "start": 549.0,
+        "duration": 6.0,
+        "text": "that corresponds to an index of refraction smaller than one. So in particular if the frequency"
+      },
+      {
+        "start": 555.0,
+        "duration": 6.0,
+        "text": "of the light omega sub L is bigger than the resonant frequency for our oscillator, you have this"
+      },
+      {
+        "start": 561.0,
+        "duration": 5.1,
+        "text": "effect. For example when you shine an x-ray through glass, the index of refraction really is smaller"
+      },
+      {
+        "start": 566.1,
+        "duration": 6.2,
+        "text": "than one. There is no contradiction with causality here, and it's worth taking a moment to reflect"
+      },
+      {
+        "start": 572.3,
+        "duration": 6.4,
+        "text": "on the role played by the speed C in all of this explanation. C is the speed determining how"
+      },
+      {
+        "start": 578.7,
+        "duration": 6.4,
+        "text": "long it takes for an accelerating charge to induce a force on any other charge. Even if there's material"
+      },
+      {
+        "start": 585.1,
+        "duration": 4.6,
+        "text": "in the way, whether that material has an index of refraction bigger than one or less than one,"
+      },
+      {
+        "start": 589.8,
+        "duration": 5.1,
+        "text": "that amount of time that it takes for the influence of one charge to reach another is always"
+      },
+      {
+        "start": 594.9,
+        "duration": 5.8,
+        "text": "the distance between them divided by C. By contrast the speed that's relevant to an index of"
+      },
+      {
+        "start": 600.7,
+        "duration": 6.7,
+        "text": "refraction is how fast the crest of one of those waves is moving. This is known as the phase velocity."
+      },
+      {
+        "start": 607.4,
+        "duration": 5.1,
+        "text": "That phase velocity is what determines how much the wave gets scrunched up, which in turn determines"
+      },
+      {
+        "start": 612.6,
+        "duration": 4.6,
+        "text": "how much it refracts or bends, which is part of the reason I think it's very good terminology to"
+      },
+      {
+        "start": 617.2,
+        "duration": 6.5,
+        "text": "call this the index of refraction rather than say the index of slowing. In general the electric field"
+      },
+      {
+        "start": 623.7,
+        "duration": 5.9,
+        "text": "inside a medium like glass is this incredibly complicated sum of a whole bunch of propagating"
+      },
+      {
+        "start": 629.6,
+        "duration": 5.4,
+        "text": "influences from every one of the wiggling charges in that material, all together with the incoming"
+      },
+      {
+        "start": 635.0,
+        "duration": 5.2,
+        "text": "light wave. But importantly, all of those individual propagations are traveling at C,"
+      },
+      {
+        "start": 640.2,
+        "duration": 5.3,
+        "text": "never slower, never faster. It is miraculous that the way that these combine can be described"
+      },
+      {
+        "start": 645.4,
+        "duration": 5.9,
+        "text": "simply at all and that it's not some monstrously intractable mess. But we are fortunate, and when you"
+      },
+      {
+        "start": 651.4,
+        "duration": 5.8,
+        "text": "add them all up, the net effect can be described cleanly and it looks just like a sine wave. One whose"
+      },
+      {
+        "start": 657.2,
+        "duration": 4.9,
+        "text": "phase velocity happens to be different from C. Another thing to keep in mind if it seems very"
+      },
+      {
+        "start": 662.1,
+        "duration": 5.8,
+        "text": "weird for these wave crests to move faster than C is that everything in this explanation depends"
+      },
+      {
+        "start": 667.9,
+        "duration": 5.7,
+        "text": "very heavily on things being in a steady state. That's very different from trying to send"
+      },
+      {
+        "start": 673.6,
+        "duration": 5.3,
+        "text": "information through the medium with a little pulse of light. This is what Mithena explores in her"
+      },
+      {
+        "start": 678.9,
+        "duration": 5.0,
+        "text": "videos on the index of refraction over on looking glass universe, which you should definitely look at."
+      },
+      {
+        "start": 683.8,
+        "duration": 5.1,
+        "text": "Over there she talks about how when you express a pulse of light as a sum of many pure sine waves,"
+      },
+      {
+        "start": 689.0,
+        "duration": 4.9,
+        "text": "even if the phase velocities of those constituent components go faster than C,"
+      },
+      {
+        "start": 693.8,
+        "duration": 5.5,
+        "text": "that doesn't necessarily imply that the center of mass of this pulse will itself go faster than C."
+      },
+      {
+        "start": 699.4,
+        "duration": 4.1,
+        "text": "And in fact, when you simulate the effect of passing through a medium, when the index of"
+      },
+      {
+        "start": 703.4,
+        "duration": 4.8,
+        "text": "refraction is less than one, what you find is a pulse that goes slower than C even when the"
+      },
+      {
+        "start": 708.2,
+        "duration": 5.1,
+        "text": "crests within it are going faster. And if that still seems a bit weird, here's an analogy to"
+      },
+      {
+        "start": 713.4,
+        "duration": 5.8,
+        "text": "help see why phase velocity can be way higher than the speed of anything real. Imagine a little"
+      },
+      {
+        "start": 719.1,
+        "duration": 5.4,
+        "text": "machine that has a bunch of rotating arms all extending from a shared shaft. If you view this"
+      },
+      {
+        "start": 724.6,
+        "duration": 5.6,
+        "text": "machine from the side, the tips of all of those arms form what looks like a wave with crests"
+      },
+      {
+        "start": 730.2,
+        "duration": 5.4,
+        "text": "traveling from right to left. But if I go and reposition the arms to be angled quite close to"
+      },
+      {
+        "start": 735.6,
+        "duration": 5.9,
+        "text": "each other, then you can make it so that the phase velocity of this emergent wave is arbitrarily"
+      },
+      {
+        "start": 741.5,
+        "duration": 5.0,
+        "text": "high, potentially faster than the speed of light or anything else, even when the shaft is rotating"
+      },
+      {
+        "start": 746.6,
+        "duration": 4.9,
+        "text": "at a gentle constant rate, and even when every component of the machine is moving at a reasonably"
+      },
+      {
+        "start": 751.4,
+        "duration": 5.0,
+        "text": "slow pace. Here, it's pretty obvious that such a machine doesn't violate the rules of physics,"
+      },
+      {
+        "start": 756.5,
+        "duration": 4.5,
+        "text": "and that it doesn't let you send messages faster than light, because the wave crest is not a"
+      },
+      {
+        "start": 761.0,
+        "duration": 4.2,
+        "text": "real object, it's not something that could carry information, it's more of an illusion."
+      },
+      {
+        "start": 765.2,
+        "duration": 5.0,
+        "text": "The phase velocity in a light wave is similar. Sure, if you shine an x-ray through glass,"
+      },
+      {
+        "start": 770.2,
+        "duration": 4.9,
+        "text": "it is true that the wave crests go faster than the speed of light, but the underlying influences"
+      },
+      {
+        "start": 775.1,
+        "duration": 5.0,
+        "text": "between electric charges that determine the field values in the first place are themselves"
+      },
+      {
+        "start": 780.1,
+        "duration": 2.0,
+        "text": "all bound by the speed c."
+      }
+    ],
+    "full_text": "The last video I put out was about the index of refraction. It talked about why light slows down when it passes through a medium and in particular, why the rate of slow down would depend on color. It turns out people have a lot of questions about the index of refraction, and in this supplemental video, I wanted to take a chance to answer a couple of them. For example, how is it possible for this index to be lower than one, which seems to imply that light would travel faster than the speed of light through some materials? To kick things off, though, I want to take a question that does not require too much background, asked by Kevin O'Toole, which is why exactly light slowing down would imply that it bends as it enters a medium. There's a common analogy, which is to think of something like a car or a tank, where it turns a little bit while one side of it slows down before the other. And although it's a very visceral and memorable analogy, it's not like light has wheels, and it also tells you nothing about how to be more quantitative, and derive the formula describing exactly how much light bends. Here's a better way to think about it. If you have some light wave shining into a material like glass, if it slows down, notice how that means that it gets kind of scrunched up. If it's wavelength in a vacuum with some number lambda, then the wavelength inside this material, where it's gotten slowed down, is something smaller than that. Here I am drawing the wave only on a one-dimensional line, but we need to understand it in at least two dimensions, where every point on this plane, for example, is associated with a little vector in the electric field oscillating up and down. This particular animation is a little bit messy and hard to follow, so it might be clearer if instead we simply color every point of the plane, such that those points are white near the crests of the wave, and then black away from the crests. You can still clearly see the wavelength as the distance between these crests. It's exactly what we were looking at before, just drawn in a different way, and in particular notice how they're scrunched up inside the glass. If that glass were positioned at an angle, think about what happens to each one of those wave crests. As it hits the glass, the lower parts slow down before the top parts, causing it to get sort of smeared out. It reminds me a little of the rolling shutter effect, and overall, the wave crest ends up at a different angle. When you take into account the fact that for a beam of light, the beam is always perpendicular to those wave crests. This means your light has to turn, and moreover, you can calculate exactly how much it needs to turn. Think about all those waves in the vacuum, with some kind of wavelength lambda 1 sitting between them, and focus on all the points where those crests intersect with the boundary between the vacuum and the glass. But then consider those wave crests inside the glass. If it was the case that no bending happened, then because the wavelength is smaller in there, when you look at all those intersection points, they would have to be closer together. But of course, that can't happen, whether you're looking at it from one side or looking at it from the other, those intersection points are all the same. So the only way this can work is if those wave crests inside the glass were oriented at a different angle. And you might mentally imagine turning them with a little knob to find the sweet spot angle, where all those intersection points line up. And for those of you into exercises, you could take a moment to try to write down the specific equation, telling you how to relate the wavelengths inside and outside the glass with the angles between those wave crests and the boundary itself. If you do this, what you write down is effectively the same thing as snail's law. You just have a tiny bit of added work to relate the relevant angles here, and then to note how the speed and the wavelength all depend on each other. To answer the other questions I want to get to, we're going to lean pretty heavily on the explanation from the main video. I'm mostly assuming that people here will have watched that, but here's a quick recap of the key points. When we talk about a light wave slowing down in a material, what's really going on is that it's interaction with each layer of that material slightly kicks back the phase of the wave. Now a continuous sequence of infinitesimal phase kicks like this produces something that's mathematically identical to a wave that's just traveling slower. The actual mechanism for that phase kick is that the incoming light wave causes the charges in the material to oscillate a little bit. Those oscillations produce their own propagation in the electromagnetic field, and when you add together this newly induced wave with the original one, then in the region of space past that layer, the sum looks just like a copy of that original wave, but shifted back a little. The last key point is that if you want to know the size of that phase shift, which is what determines the index of refraction, we modeled the charges in the material as simple harmonic oscillators bound to some equilibrium position with a linear restoring force. What we found is that the amplitude of oscillation, when you shine a light on a charge like this, will depend on how close the frequency of that light is to the resident frequency associated with this spring-like restoring force, or to put it shortly, the index of refraction depends on how much the light resonates with charges in the material. As an example of one phenomenon that this explanation helps us to understand, let's take a question asked by Dan Stock, which is what causes birefringence. So, this is a phenomenon where a material has two distinct indices of refraction, which has the effect of making you see double when you look through it. Imagine you have some kind of crystal structure, such that the ions in that structure will have some restoring force when you pull them in one direction, which is distinct from the restoring force when you pull them in another direction. That is, the resident frequency for oscillations in one direction is distinct from the resident frequency from oscillations in another. What that means is if you shine some light through this material, then because the index of refraction depends on resonance, the value of that index of refraction will be different for light that's oscillating up and down, then it will for light that's oscillating side to side. That is, it depends on the polarization of the light. And this really happens. The example you're looking at right now is calcite, and when you're seeing double, it's because light with one polarization is getting bent at a different rate than light with the other polarization. For those of you who watched the videos about the barber pull effect, a very similar phenomenon answers the final question that we left there. If you didn't watch those, feel free to jump ahead, but if you did, you might recall that where we left off was with a claim that sugar causes right-handed circularly polarized light to travel at a slightly different speed from left-handed circularly polarized light. The reason that mattered is that it meant linearly polarized light, which can be expressed as a sum of those two, will slowly rotate over time as one of those two components lags behind the other. Once you understand that an index of refraction depends on resonance, you can start to see why something like this might happen. If the molecular structure of sucrose was one such that electrons might get pushed along a path with a clockwise component more freely than they get pushed along paths with counterclockwise components, while that would mean that the resonance with right-handed circularly polarized light would be a little different from what it is for left-handed circularly polarized light, and hence the indices of refraction would be slightly different for each one. When you combine this together with the fact that the resonance depends on the frequency of the light, which is to say it depends on the color, this ultimately explains why the optical rotation in that barber pull effect separated out the colors the way that it did. Now one example of a shape that would resonate differently with left-handed and right-handed circularly polarized light would be a helix, and in fact people will use a helical antenna when they want to pick up on radio waves with just one-handedness. Although sucrose is not so clean and pure an example as a helix, the key property is that it is chiral, meaning it's fundamentally different from its mirror image, in that there's no way to re-oriented in 3D space to make it look like its mirror image. I will not pretend to know why this particular structure resonates with one hand-dness more than another, but at least in principle it makes sense that chirality would lend itself to this phenomenon. And finally to wrap things up let's hit what might be the most intriguing question of them all, which is how the index of refraction can be lower than one, since what that seems to imply is that the speed of light through a medium would be faster than the speed of light. So this really does happen, and it's not as wild as you might think. If you think back to how everything in our discussion arose from how a layer of material can kick back the phase of a wave, there is no reason that the layer of the material can't also kick forward the phase of that wave. And when you have many successive layers all kicking forward the phase like this, it gives the illusion of a wave that's traveling faster than the speed of light, in the sense that those crests genuinely are moving faster than C. In fact when you unpack the math underlying all of this, whenever the key amplitude expression that we wrote down is smaller than zero, that corresponds to an index of refraction smaller than one. So in particular if the frequency of the light omega sub L is bigger than the resonant frequency for our oscillator, you have this effect. For example when you shine an x-ray through glass, the index of refraction really is smaller than one. There is no contradiction with causality here, and it's worth taking a moment to reflect on the role played by the speed C in all of this explanation. C is the speed determining how long it takes for an accelerating charge to induce a force on any other charge. Even if there's material in the way, whether that material has an index of refraction bigger than one or less than one, that amount of time that it takes for the influence of one charge to reach another is always the distance between them divided by C. By contrast the speed that's relevant to an index of refraction is how fast the crest of one of those waves is moving. This is known as the phase velocity. That phase velocity is what determines how much the wave gets scrunched up, which in turn determines how much it refracts or bends, which is part of the reason I think it's very good terminology to call this the index of refraction rather than say the index of slowing. In general the electric field inside a medium like glass is this incredibly complicated sum of a whole bunch of propagating influences from every one of the wiggling charges in that material, all together with the incoming light wave. But importantly, all of those individual propagations are traveling at C, never slower, never faster. It is miraculous that the way that these combine can be described simply at all and that it's not some monstrously intractable mess. But we are fortunate, and when you add them all up, the net effect can be described cleanly and it looks just like a sine wave. One whose phase velocity happens to be different from C. Another thing to keep in mind if it seems very weird for these wave crests to move faster than C is that everything in this explanation depends very heavily on things being in a steady state. That's very different from trying to send information through the medium with a little pulse of light. This is what Mithena explores in her videos on the index of refraction over on looking glass universe, which you should definitely look at. Over there she talks about how when you express a pulse of light as a sum of many pure sine waves, even if the phase velocities of those constituent components go faster than C, that doesn't necessarily imply that the center of mass of this pulse will itself go faster than C. And in fact, when you simulate the effect of passing through a medium, when the index of refraction is less than one, what you find is a pulse that goes slower than C even when the crests within it are going faster. And if that still seems a bit weird, here's an analogy to help see why phase velocity can be way higher than the speed of anything real. Imagine a little machine that has a bunch of rotating arms all extending from a shared shaft. If you view this machine from the side, the tips of all of those arms form what looks like a wave with crests traveling from right to left. But if I go and reposition the arms to be angled quite close to each other, then you can make it so that the phase velocity of this emergent wave is arbitrarily high, potentially faster than the speed of light or anything else, even when the shaft is rotating at a gentle constant rate, and even when every component of the machine is moving at a reasonably slow pace. Here, it's pretty obvious that such a machine doesn't violate the rules of physics, and that it doesn't let you send messages faster than light, because the wave crest is not a real object, it's not something that could carry information, it's more of an illusion. The phase velocity in a light wave is similar. Sure, if you shine an x-ray through glass, it is true that the wave crests go faster than the speed of light, but the underlying influences between electric charges that determine the field values in the first place are themselves all bound by the speed c."
+  }
+}

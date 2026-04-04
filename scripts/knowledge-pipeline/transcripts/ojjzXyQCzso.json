@@ -1,0 +1,2269 @@
+{
+  "video_id": "ojjzXyQCzso",
+  "video_title": "Make math videos! | Summer of Math Exposition announcement",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1461.0,
+  "view_count": 737394,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.4,
+        "text": "I want to tell you about a contest that I'm running with a friend of mine, James Schloss,"
+      },
+      {
+        "start": 4.4,
+        "duration": 4.2,
+        "text": "who some of you might recognize from the YouTube channel, LeoSOS and his Twitch stream and"
+      },
+      {
+        "start": 8.6,
+        "duration": 1.5,
+        "text": "things like that."
+      },
+      {
+        "start": 10.0,
+        "duration": 4.8,
+        "text": "Also now there's a 3B1B podcast, but more on that in just a moment."
+      },
+      {
+        "start": 14.8,
+        "duration": 7.0,
+        "text": "Basically, we want there to be more math explanation online, and we want to encourage more"
+      },
+      {
+        "start": 21.8,
+        "duration": 2.2,
+        "text": "people to get started actually doing it."
+      },
+      {
+        "start": 24.0,
+        "duration": 4.4,
+        "text": "We're calling it the Summer of Math Exposition, where essentially we're just inviting anyone"
+      },
+      {
+        "start": 28.4,
+        "duration": 5.0,
+        "text": "who wants to to submit some kind of math explainer, whether that's a video or a blog post"
+      },
+      {
+        "start": 33.4,
+        "duration": 4.4,
+        "text": "or an interactive game or whatever it is that explains math online in some way."
+      },
+      {
+        "start": 37.8,
+        "duration": 5.6,
+        "text": "To the link that's on screen now by August 22nd, and then once we..."
+      },
+      {
+        "start": 43.4,
+        "duration": 1.0,
+        "text": "Yes."
+      },
+      {
+        "start": 44.4,
+        "duration": 2.3,
+        "text": "I see you."
+      },
+      {
+        "start": 46.7,
+        "duration": 4.5,
+        "text": "Would you like to sniff at the microphone?"
+      },
+      {
+        "start": 51.2,
+        "duration": 2.6,
+        "text": "Probably yes, that's very sweet."
+      },
+      {
+        "start": 53.8,
+        "duration": 1.0,
+        "text": "Very sweet."
+      },
+      {
+        "start": 54.8,
+        "duration": 1.4,
+        "text": "You're a very affectionate creature."
+      },
+      {
+        "start": 57.0,
+        "duration": 1.0,
+        "text": "Alright, where was it?"
+      },
+      {
+        "start": 58.0,
+        "duration": 4.5,
+        "text": "Anyway, after August 22nd, we're going to have a selection process to choose some winners"
+      },
+      {
+        "start": 62.5,
+        "duration": 3.8,
+        "text": "from among them, and then I'll feature them in a 3B1B video."
+      },
+      {
+        "start": 66.3,
+        "duration": 3.3,
+        "text": "And then for the rest, I'll probably also put together a playlist of all of the videos"
+      },
+      {
+        "start": 69.6,
+        "duration": 3.8,
+        "text": "and a list of links on the website somewhere to all the project submissions."
+      },
+      {
+        "start": 73.4,
+        "duration": 3.5,
+        "text": "And then I was also thinking maybe I would send something to the winners, like creating"
+      },
+      {
+        "start": 76.9,
+        "duration": 3.6,
+        "text": "some custom gold, plushy pie creatures or something like that."
+      },
+      {
+        "start": 80.6,
+        "duration": 4.4,
+        "text": "But the main prize is to have your work featured and hopefully get it out to a few more people."
+      },
+      {
+        "start": 85.0,
+        "duration": 3.7,
+        "text": "The reason I'm interested in doing this is I think there's a lot of people out there"
+      },
+      {
+        "start": 88.7,
+        "duration": 2.2,
+        "text": "who would be really good at doing this."
+      },
+      {
+        "start": 90.9,
+        "duration": 3.6,
+        "text": "Would have some excellent explanation that would genuinely help a lot of people or show"
+      },
+      {
+        "start": 94.5,
+        "duration": 3.0,
+        "text": "a topic that's not really covered very well elsewhere."
+      },
+      {
+        "start": 97.5,
+        "duration": 2.8,
+        "text": "And who might even be thinking about doing it, you know, there's that back of your mind"
+      },
+      {
+        "start": 100.3,
+        "duration": 4.2,
+        "text": "spot that says, maybe one day I'll try my hand at a video or just write this up as a blog"
+      },
+      {
+        "start": 104.5,
+        "duration": 1.0,
+        "text": "post."
+      },
+      {
+        "start": 105.5,
+        "duration": 2.4,
+        "text": "But you just never really got around to it, you know, life's busy."
+      },
+      {
+        "start": 107.9,
+        "duration": 1.9,
+        "text": "You're not sure where to start."
+      },
+      {
+        "start": 109.8,
+        "duration": 2.1,
+        "text": "Seems like there's a lot of other things out there."
+      },
+      {
+        "start": 111.9,
+        "duration": 4.5,
+        "text": "And my hope is that by dangling the tiniest carrot that I can provide, just mentioning good"
+      },
+      {
+        "start": 116.3,
+        "duration": 4.7,
+        "text": "work when it exists, then maybe that gets a couple more people over this hump who might"
+      },
+      {
+        "start": 121.0,
+        "duration": 3.2,
+        "text": "otherwise not have made something and then actually make it."
+      },
+      {
+        "start": 124.2,
+        "duration": 4.4,
+        "text": "So one of the very few constraints on entries for this particular contest is that it has"
+      },
+      {
+        "start": 128.6,
+        "duration": 1.0,
+        "text": "to be something new."
+      },
+      {
+        "start": 129.6,
+        "duration": 3.7,
+        "text": "It can't be a thing that you made a while ago and you're just submitting a link to it"
+      },
+      {
+        "start": 133.4,
+        "duration": 3.9,
+        "text": "now, but something that you make between now and August 22nd."
+      },
+      {
+        "start": 137.3,
+        "duration": 4.6,
+        "text": "And the real spirit of this all is to encourage people who have never tried it before to get"
+      },
+      {
+        "start": 141.9,
+        "duration": 1.8,
+        "text": "started in it somehow."
+      },
+      {
+        "start": 143.7,
+        "duration": 4.3,
+        "text": "The other constraint is that it does have to be about math, but math in the broadest possible"
+      },
+      {
+        "start": 148.0,
+        "duration": 4.5,
+        "text": "sense of the term so that could include physics or computer science as long as it's got some"
+      },
+      {
+        "start": 152.5,
+        "duration": 1.7,
+        "text": "mathy components to it."
+      },
+      {
+        "start": 154.2,
+        "duration": 3.5,
+        "text": "So if you're doing physics and there's formulas that are relevant, don't try away from those"
+      },
+      {
+        "start": 157.6,
+        "duration": 1.0,
+        "text": "formulas."
+      },
+      {
+        "start": 158.6,
+        "duration": 3.9,
+        "text": "Or if you're doing some computer science and there's some, you know, algorithmic complexity"
+      },
+      {
+        "start": 162.5,
+        "duration": 4.3,
+        "text": "or something mathematical to it, try to lean into that a little bit more."
+      },
+      {
+        "start": 166.8,
+        "duration": 3.0,
+        "text": "So than that, the topic matter is completely up to you."
+      },
+      {
+        "start": 169.8,
+        "duration": 3.2,
+        "text": "So maybe you have some topics that you've seen or that you've learned about, but which"
+      },
+      {
+        "start": 173.0,
+        "duration": 3.8,
+        "text": "you really feel aren't covered well online anywhere and it would really be adding something"
+      },
+      {
+        "start": 176.9,
+        "duration": 1.4,
+        "text": "new to the space."
+      },
+      {
+        "start": 178.3,
+        "duration": 4.6,
+        "text": "Maybe you're a physics buff who is interested in the philosophical side of things and you've"
+      },
+      {
+        "start": 182.9,
+        "duration": 3.7,
+        "text": "learned about Conway's free wheel theorem and you want to talk about it and whether"
+      },
+      {
+        "start": 186.6,
+        "duration": 3.5,
+        "text": "that's an appropriate name, whether it's actually philosophically interesting or not,"
+      },
+      {
+        "start": 190.1,
+        "duration": 1.8,
+        "text": "or just share with people what it is."
+      },
+      {
+        "start": 192.0,
+        "duration": 3.8,
+        "text": "Or maybe you're someone who's into information theory and things like that and you've learned"
+      },
+      {
+        "start": 195.8,
+        "duration": 4.3,
+        "text": "about how Kolmogorov complexity can be used to describe some things about the distributions"
+      },
+      {
+        "start": 200.0,
+        "duration": 1.0,
+        "text": "of primes."
+      },
+      {
+        "start": 201.0,
+        "duration": 3.5,
+        "text": "And you think that's actually an interesting angle for how to introduce Kolmogorov complexity"
+      },
+      {
+        "start": 204.5,
+        "duration": 1.4,
+        "text": "in the first place."
+      },
+      {
+        "start": 205.9,
+        "duration": 3.7,
+        "text": "Or anything like this where it's something kind of new to the space, if that's you, you"
+      },
+      {
+        "start": 209.6,
+        "duration": 2.3,
+        "text": "should definitely consider submitting."
+      },
+      {
+        "start": 211.9,
+        "duration": 3.7,
+        "text": "But it doesn't have to be a topic that no one has ever covered or that's severely under"
+      },
+      {
+        "start": 215.5,
+        "duration": 1.3,
+        "text": "covered online."
+      },
+      {
+        "start": 216.8,
+        "duration": 3.1,
+        "text": "Even if it's something that's very standard and especially if it's something that a lot"
+      },
+      {
+        "start": 219.9,
+        "duration": 4.6,
+        "text": "of students have to reach at some point, coming up with a better way to explain it,"
+      },
+      {
+        "start": 224.5,
+        "duration": 4.0,
+        "text": "and thinking about what's the state of the art explanation on any particular thing,"
+      },
+      {
+        "start": 228.5,
+        "duration": 2.1,
+        "text": "that could also add a lot to the space."
+      },
+      {
+        "start": 230.6,
+        "duration": 3.9,
+        "text": "Say for example, you've taught students about partial fraction decomposition and tutoring"
+      },
+      {
+        "start": 234.5,
+        "duration": 3.6,
+        "text": "or teaching or something like that and you feel like you've come across a way of explaining"
+      },
+      {
+        "start": 238.0,
+        "duration": 2.2,
+        "text": "it that makes it a little bit more memorable."
+      },
+      {
+        "start": 240.2,
+        "duration": 1.5,
+        "text": "You should definitely submit."
+      },
+      {
+        "start": 241.7,
+        "duration": 4.1,
+        "text": "Or maybe you have some really pretty way to visualize certain trig identities that students"
+      },
+      {
+        "start": 245.8,
+        "duration": 4.2,
+        "text": "run into that keeps them from feeling very rote and instead sheds a light on, you know,"
+      },
+      {
+        "start": 250.0,
+        "duration": 2.5,
+        "text": "how beautiful math can be and all that kind of thing."
+      },
+      {
+        "start": 252.6,
+        "duration": 4.1,
+        "text": "If that's you and you feel passionate about it, you should definitely submit that."
+      },
+      {
+        "start": 256.7,
+        "duration": 4.8,
+        "text": "One set of people who I'm particularly interested in for this competition are the teachers and"
+      },
+      {
+        "start": 261.4,
+        "duration": 4.7,
+        "text": "the lecturers and basically anyone with a lot of boots to the ground experience seeing"
+      },
+      {
+        "start": 266.2,
+        "duration": 2.5,
+        "text": "people learn and seeing what actually works."
+      },
+      {
+        "start": 268.7,
+        "duration": 4.3,
+        "text": "Because I think there's a lot of outstanding explanations out there that stay largely confined"
+      },
+      {
+        "start": 273.0,
+        "duration": 4.7,
+        "text": "to the classroom or otherwise stay offline, whereas if just a little bit of effort was"
+      },
+      {
+        "start": 277.7,
+        "duration": 4.8,
+        "text": "put into producing it or sharing it online in some way, those lessons might actually"
+      },
+      {
+        "start": 282.5,
+        "duration": 4.0,
+        "text": "really reach and benefit one to two orders of magnitude more people."
+      },
+      {
+        "start": 286.6,
+        "duration": 1.3,
+        "text": "And I get it."
+      },
+      {
+        "start": 287.9,
+        "duration": 1.0,
+        "text": "Teachers are absurdly busy."
+      },
+      {
+        "start": 288.9,
+        "duration": 3.2,
+        "text": "They don't have time for extra things on the side and it's kind of hard to know where"
+      },
+      {
+        "start": 292.1,
+        "duration": 1.4,
+        "text": "to get started."
+      },
+      {
+        "start": 293.4,
+        "duration": 4.1,
+        "text": "So maybe one potential partnership here would be the teachers who have really good instincts"
+      },
+      {
+        "start": 297.6,
+        "duration": 5.4,
+        "text": "for what works in education and then a student who maybe has a lot of energy or desire to"
+      },
+      {
+        "start": 303.0,
+        "duration": 4.8,
+        "text": "get started on YouTube or otherwise just has more free time on their hands and pairing"
+      },
+      {
+        "start": 307.7,
+        "duration": 3.3,
+        "text": "something together like that might actually make for a good partnership."
+      },
+      {
+        "start": 311.0,
+        "duration": 3.6,
+        "text": "In other case, whatever category you fall into, I do know there's a lot of people who"
+      },
+      {
+        "start": 314.7,
+        "duration": 4.4,
+        "text": "do want to get started with this because they write to me a lot and one of the most common"
+      },
+      {
+        "start": 319.1,
+        "duration": 2.9,
+        "text": "sentiments out there is, well, I don't know where to get started."
+      },
+      {
+        "start": 322.0,
+        "duration": 3.4,
+        "text": "I want to make a video but I don't really have any experience with video making, things"
+      },
+      {
+        "start": 325.3,
+        "duration": 1.5,
+        "text": "like that."
+      },
+      {
+        "start": 326.8,
+        "duration": 8.0,
+        "text": "And I have a couple things to say for someone who feels like they're in that boat."
+      },
+      {
+        "start": 334.8,
+        "duration": 4.5,
+        "text": "In a kind of loose conjunction with this contest, I decided to start a podcast where for the"
+      },
+      {
+        "start": 339.3,
+        "duration": 5.0,
+        "text": "first many conversations, I'll be interviewing people who have some kind of experience in"
+      },
+      {
+        "start": 344.2,
+        "duration": 2.0,
+        "text": "the space of putting out explanations."
+      },
+      {
+        "start": 346.3,
+        "duration": 3.9,
+        "text": "So that could be other YouTubers, but it could also include mathematicians who are really"
+      },
+      {
+        "start": 350.1,
+        "duration": 4.1,
+        "text": "engaged with outreach or the founder of Khan Academy, things like this."
+      },
+      {
+        "start": 354.2,
+        "duration": 5.4,
+        "text": "And essentially have conversations which act to either inspire or otherwise inform anyone"
+      },
+      {
+        "start": 359.6,
+        "duration": 2.1,
+        "text": "who might be getting started with this."
+      },
+      {
+        "start": 361.7,
+        "duration": 4.1,
+        "text": "After doing several of these interviews, one of the most useful pieces of information"
+      },
+      {
+        "start": 365.8,
+        "duration": 4.8,
+        "text": "that I think comes out from them is just how ramshackle and unprofessional the setup"
+      },
+      {
+        "start": 370.5,
+        "duration": 2.0,
+        "text": "for a lot of people is in the very beginning."
+      },
+      {
+        "start": 372.5,
+        "duration": 4.4,
+        "text": "And as a result, it should come as no surprise that one of the most common pieces of advice,"
+      },
+      {
+        "start": 376.8,
+        "duration": 3.7,
+        "text": "one of the most universal answers to the question of what advice would you give to someone"
+      },
+      {
+        "start": 380.5,
+        "duration": 3.4,
+        "text": "getting started with this is to just start."
+      },
+      {
+        "start": 384.0,
+        "duration": 3.5,
+        "text": "The things that differentiate the people who actually put stuff out there versus the ones"
+      },
+      {
+        "start": 387.4,
+        "duration": 4.4,
+        "text": "who don't is not a matter of having a lot more experience with it beforehand."
+      },
+      {
+        "start": 391.8,
+        "duration": 4.2,
+        "text": "As a matter of having a kind of generative spirit that just wants to make stuff."
+      },
+      {
+        "start": 396.0,
+        "duration": 6.8,
+        "text": "Because my, I'll say persona, but this is genuinely me, is give it a go."
+      },
+      {
+        "start": 402.8,
+        "duration": 2.1,
+        "text": "You're probably going to fail, but it's worth a try."
+      },
+      {
+        "start": 404.9,
+        "duration": 3.3,
+        "text": "I get a lot of people saying, oh, you make YouTube videos."
+      },
+      {
+        "start": 408.2,
+        "duration": 2.5,
+        "text": "I've always wanted to make YouTube videos and I'm like, great, just do it."
+      },
+      {
+        "start": 410.7,
+        "duration": 2.9,
+        "text": "And they're like, no, no, but I need to buy a nice camera and I need to get a good"
+      },
+      {
+        "start": 413.6,
+        "duration": 1.0,
+        "text": "set."
+      },
+      {
+        "start": 414.6,
+        "duration": 2.2,
+        "text": "And I'm like, no, no, no, like, just do it."
+      },
+      {
+        "start": 416.8,
+        "duration": 1.7,
+        "text": "There's always a step to, wait, am I ready yet?"
+      },
+      {
+        "start": 418.5,
+        "duration": 1.0,
+        "text": "Am I ready yet?"
+      },
+      {
+        "start": 419.5,
+        "duration": 2.0,
+        "text": "Sal, press record and start."
+      },
+      {
+        "start": 421.4,
+        "duration": 1.3,
+        "text": "See what happens."
+      },
+      {
+        "start": 422.7,
+        "duration": 5.4,
+        "text": "If I take the example which I know best, which is my own, there are so many really embarrassing"
+      },
+      {
+        "start": 428.1,
+        "duration": 4.2,
+        "text": "things about the early videos on this channel or my process in creating them."
+      },
+      {
+        "start": 432.2,
+        "duration": 3.1,
+        "text": "I mean, the sound quality was pretty terrible for a long time."
+      },
+      {
+        "start": 435.3,
+        "duration": 1.6,
+        "text": "That's one big thing."
+      },
+      {
+        "start": 437.0,
+        "duration": 5.0,
+        "text": "I edited in iMovie for way longer than I care to admit."
+      },
+      {
+        "start": 441.9,
+        "duration": 5.3,
+        "text": "Also despite being now a professional YouTuber, when it comes to cameras and actually filming"
+      },
+      {
+        "start": 447.2,
+        "duration": 3.3,
+        "text": "things like this, I really have no idea what I'm doing."
+      },
+      {
+        "start": 450.6,
+        "duration": 2.9,
+        "text": "Like right now, I'm just using a phone, which I guess is fine."
+      },
+      {
+        "start": 453.4,
+        "duration": 5.0,
+        "text": "I find the process of being alone in a room and just talking to a camera incredibly"
+      },
+      {
+        "start": 458.5,
+        "duration": 1.0,
+        "text": "awkward."
+      },
+      {
+        "start": 459.5,
+        "duration": 5.6,
+        "text": "This is actually my second time recording this whole video because the first time I thought"
+      },
+      {
+        "start": 465.1,
+        "duration": 3.6,
+        "text": "I would be really clever and have some notes to like guide what I wanted to say and I'd"
+      },
+      {
+        "start": 468.6,
+        "duration": 2.8,
+        "text": "put them on the monitor next to the camera."
+      },
+      {
+        "start": 471.5,
+        "duration": 3.8,
+        "text": "But what the result was is that I would just kind of have my eyes darting back and forth"
+      },
+      {
+        "start": 475.2,
+        "duration": 3.0,
+        "text": "between the two without me consciously realizing it."
+      },
+      {
+        "start": 478.2,
+        "duration": 3.2,
+        "text": "It's just this reminder that I really don't know what I'm doing."
+      },
+      {
+        "start": 481.4,
+        "duration": 1.8,
+        "text": "But this isn't a self-effacing thing."
+      },
+      {
+        "start": 483.2,
+        "duration": 4.1,
+        "text": "The point here is that if you find yourself with a potentially good explainer that you"
+      },
+      {
+        "start": 487.3,
+        "duration": 3.8,
+        "text": "want to make, but you're a little self-conscious about how to start or you're worried that"
+      },
+      {
+        "start": 491.1,
+        "duration": 2.7,
+        "text": "you're going to make a mistake, just don't worry about it."
+      },
+      {
+        "start": 493.8,
+        "duration": 1.0,
+        "text": "Just dive right in."
+      },
+      {
+        "start": 494.8,
+        "duration": 6.3,
+        "text": "So many of us have no idea what we're doing when we begin."
+      },
+      {
+        "start": 501.1,
+        "duration": 5.2,
+        "text": "All that said, sometimes this just do it advice is a little bit frustrating because"
+      },
+      {
+        "start": 506.3,
+        "duration": 1.4,
+        "text": "I mean it's not actionable."
+      },
+      {
+        "start": 507.6,
+        "duration": 1.6,
+        "text": "You say, okay, I'm going to start."
+      },
+      {
+        "start": 509.2,
+        "duration": 3.1,
+        "text": "But then upon starting, it tells you nothing."
+      },
+      {
+        "start": 512.4,
+        "duration": 3.2,
+        "text": "So in the spirit of some more concrete advice, I do have a couple things that I might want"
+      },
+      {
+        "start": 515.6,
+        "duration": 4.2,
+        "text": "to pass along that are specific to the case of math explainers."
+      },
+      {
+        "start": 519.8,
+        "duration": 3.7,
+        "text": "The first one, and I do actually find this quite important, is when you're putting together"
+      },
+      {
+        "start": 523.5,
+        "duration": 4.5,
+        "text": "the explanation, whatever form, whatever medium, whatever genre you choose, try to be"
+      },
+      {
+        "start": 528.0,
+        "duration": 3.8,
+        "text": "aware of the layers of abstraction that are relevant to your topic."
+      },
+      {
+        "start": 531.8,
+        "duration": 3.5,
+        "text": "So like if you're teaching a young child about fractions and you're talking about two-thirds"
+      },
+      {
+        "start": 535.3,
+        "duration": 3.8,
+        "text": "plus one-fifth, there's two different layers of abstraction that that expression lives"
+      },
+      {
+        "start": 539.1,
+        "duration": 1.0,
+        "text": "in."
+      },
+      {
+        "start": 540.1,
+        "duration": 3.2,
+        "text": "There's one where you have a very concrete example of two-thirds of something, two-thirds"
+      },
+      {
+        "start": 543.3,
+        "duration": 4.6,
+        "text": "of a cake, and then one-fifth of a cake, and trying to get a sense of what that means."
+      },
+      {
+        "start": 547.9,
+        "duration": 4.2,
+        "text": "And then there's the symbols, and a big part of the lesson at play here is understanding"
+      },
+      {
+        "start": 552.0,
+        "duration": 4.8,
+        "text": "how the symbols relate to the actual case, and why the rules that we apply to the symbols"
+      },
+      {
+        "start": 556.9,
+        "duration": 2.1,
+        "text": "make sense in light of the concrete case."
+      },
+      {
+        "start": 559.0,
+        "duration": 4.4,
+        "text": "And also, why we opt to do the more abstract thing, because it takes much less thinking"
+      },
+      {
+        "start": 563.4,
+        "duration": 4.8,
+        "text": "than actually trying to reason about two-thirds of a cake plus one-fifth of a cake."
+      },
+      {
+        "start": 568.2,
+        "duration": 2.8,
+        "text": "And this happens at all levels, if you're teaching a calculus class and you're talking"
+      },
+      {
+        "start": 571.0,
+        "duration": 4.4,
+        "text": "about optimizing functions, there's the idea of a function as a very abstract thing that"
+      },
+      {
+        "start": 575.3,
+        "duration": 4.5,
+        "text": "could be any particular function, or any differentiable function, or what have you, and then"
+      },
+      {
+        "start": 579.8,
+        "duration": 1.5,
+        "text": "there's lots of specific examples."
+      },
+      {
+        "start": 581.3,
+        "duration": 4.8,
+        "text": "Or maybe specific cases where they come up, like a function defining the profit of a company,"
+      },
+      {
+        "start": 586.2,
+        "duration": 2.3,
+        "text": "and that's the thing you want to optimize."
+      },
+      {
+        "start": 588.5,
+        "duration": 3.8,
+        "text": "I made a whole video about group theory, where in the middle I went on for a while about"
+      },
+      {
+        "start": 592.3,
+        "duration": 4.2,
+        "text": "the difference between thinking of group actions as these abstract entities versus as something"
+      },
+      {
+        "start": 596.5,
+        "duration": 4.2,
+        "text": "concrete, like a symmetry, and why there exists the two, and what the benefits and trade"
+      },
+      {
+        "start": 600.7,
+        "duration": 1.3,
+        "text": "offs are."
+      },
+      {
+        "start": 602.0,
+        "duration": 4.4,
+        "text": "But my point in this first piece of advice is not merely to address the layers of abstraction,"
+      },
+      {
+        "start": 606.4,
+        "duration": 1.1,
+        "text": "you don't even have to."
+      },
+      {
+        "start": 607.4,
+        "duration": 4.6,
+        "text": "But if you're clear in your own head, try very hard to structure your explanation to go"
+      },
+      {
+        "start": 612.1,
+        "duration": 2.5,
+        "text": "from the concrete to the abstract."
+      },
+      {
+        "start": 614.6,
+        "duration": 4.6,
+        "text": "I think almost always, when you understand something, the natural inclination is to go"
+      },
+      {
+        "start": 619.3,
+        "duration": 1.2,
+        "text": "the other way around."
+      },
+      {
+        "start": 620.5,
+        "duration": 3.8,
+        "text": "I find myself doing this in pretty much any first draft of a script that I have."
+      },
+      {
+        "start": 624.3,
+        "duration": 3.0,
+        "text": "It seems like all the textbook authors that I ever read tend to do this."
+      },
+      {
+        "start": 627.3,
+        "duration": 3.1,
+        "text": "You start with the abstract idea, you put the examples later."
+      },
+      {
+        "start": 630.4,
+        "duration": 4.4,
+        "text": "But I really do think that in the case of learning, first trying to populate the learner's"
+      },
+      {
+        "start": 634.8,
+        "duration": 4.1,
+        "text": "mind with a bunch of examples of things that have a similar pattern between them, and"
+      },
+      {
+        "start": 638.9,
+        "duration": 2.0,
+        "text": "letting their brain do the abstraction."
+      },
+      {
+        "start": 640.8,
+        "duration": 4.2,
+        "text": "See that similar pattern between things, such that when you bring in that higher layer,"
+      },
+      {
+        "start": 645.0,
+        "duration": 3.7,
+        "text": "you start defining an abstract vector space, or you're doing some symbolic manipulations"
+      },
+      {
+        "start": 648.8,
+        "duration": 1.8,
+        "text": "with particular rules."
+      },
+      {
+        "start": 650.5,
+        "duration": 4.3,
+        "text": "That once that happens, you're articulating something in the brain of the learner that"
+      },
+      {
+        "start": 654.8,
+        "duration": 1.7,
+        "text": "was already sitting there in the first place."
+      },
+      {
+        "start": 656.5,
+        "duration": 2.2,
+        "text": "It wasn't just handed to them in a vacuum."
+      },
+      {
+        "start": 658.7,
+        "duration": 4.2,
+        "text": "Otherwise, it's a little bit like trying to build a building from the top floor down."
+      },
+      {
+        "start": 662.9,
+        "duration": 2.4,
+        "text": "So that's one, and that's very specific to math."
+      },
+      {
+        "start": 665.4,
+        "duration": 5.0,
+        "text": "As a more generic idea, piece of advice number two, would be keeping the very forefront"
+      },
+      {
+        "start": 670.4,
+        "duration": 4.0,
+        "text": "of your mind the fact that content is king, that the thing that you're explaining, the"
+      },
+      {
+        "start": 674.4,
+        "duration": 4.3,
+        "text": "choice of the topic or how you're explaining it, determines the majority of the value and"
+      },
+      {
+        "start": 678.7,
+        "duration": 1.8,
+        "text": "the quality of the thing that you make."
+      },
+      {
+        "start": 680.5,
+        "duration": 5.5,
+        "text": "All the things about production quality, or how fancy the animations are, or the lighting,"
+      },
+      {
+        "start": 686.0,
+        "duration": 4.2,
+        "text": "or whatever it is, all of that is secondary to making sure you've chosen an actually"
+      },
+      {
+        "start": 690.2,
+        "duration": 3.4,
+        "text": "good topic, and it's something that people would want to consume."
+      },
+      {
+        "start": 693.6,
+        "duration": 1.1,
+        "text": "They haven't seen it elsewhere."
+      },
+      {
+        "start": 694.8,
+        "duration": 1.5,
+        "text": "It's offering something fresh."
+      },
+      {
+        "start": 696.4,
+        "duration": 4.3,
+        "text": "Now that's so easy to not along with and say like, yes, yes, of course, content is king."
+      },
+      {
+        "start": 700.7,
+        "duration": 4.8,
+        "text": "But the thing is, you end up spending about 1% of your time, if that, choosing what you're"
+      },
+      {
+        "start": 705.4,
+        "duration": 3.8,
+        "text": "going to explain and how you're going to explain it, and then like 99% of the time just"
+      },
+      {
+        "start": 709.2,
+        "duration": 2.3,
+        "text": "carrying it out in some way."
+      },
+      {
+        "start": 711.5,
+        "duration": 3.4,
+        "text": "And as a result, it can be easy to lose sight of that important part."
+      },
+      {
+        "start": 714.9,
+        "duration": 4.5,
+        "text": "So my encouragement to you would be, spend more time than you would otherwise tend to,"
+      },
+      {
+        "start": 719.4,
+        "duration": 1.4,
+        "text": "on choosing that topic."
+      },
+      {
+        "start": 720.8,
+        "duration": 4.0,
+        "text": "So maybe workshop a couple of different things by doing sample lessons with people, or try"
+      },
+      {
+        "start": 724.7,
+        "duration": 3.6,
+        "text": "to write out a list of all the different things that you could, and ask, are they actually"
+      },
+      {
+        "start": 728.4,
+        "duration": 1.0,
+        "text": "fresh?"
+      },
+      {
+        "start": 729.4,
+        "duration": 1.4,
+        "text": "Are they actually adding something to the space?"
+      },
+      {
+        "start": 730.8,
+        "duration": 2.6,
+        "text": "Is there a reason someone would want to consume this?"
+      },
+      {
+        "start": 733.4,
+        "duration": 3.2,
+        "text": "Spending that extra little bit of time on the thing that determines the majority of the"
+      },
+      {
+        "start": 736.6,
+        "duration": 2.9,
+        "text": "value is almost certainly worth it."
+      },
+      {
+        "start": 739.6,
+        "duration": 4.2,
+        "text": "And the third piece of advice, which maybe plays into this a little bit, is when you're"
+      },
+      {
+        "start": 743.8,
+        "duration": 3.5,
+        "text": "beginning, if you're just starting something fresh, and there's no presence online at this"
+      },
+      {
+        "start": 747.3,
+        "duration": 5.2,
+        "text": "point, try to choose something much more esoteric and specific than you might be inclined to."
+      },
+      {
+        "start": 752.8,
+        "duration": 3.7,
+        "text": "I've seen a lot of people who want to get started on YouTube, for example, and the way"
+      },
+      {
+        "start": 756.5,
+        "duration": 3.8,
+        "text": "that they try to go about it is to choose a topic that will appeal to the most people."
+      },
+      {
+        "start": 760.3,
+        "duration": 1.6,
+        "text": "After all, they want their video to blow up."
+      },
+      {
+        "start": 762.0,
+        "duration": 2.7,
+        "text": "They want a lot of subscribers and things like that."
+      },
+      {
+        "start": 764.6,
+        "duration": 1.8,
+        "text": "But there's a couple issues with this."
+      },
+      {
+        "start": 766.4,
+        "duration": 1.7,
+        "text": "First of all, it's a much more competitive space."
+      },
+      {
+        "start": 768.2,
+        "duration": 3.7,
+        "text": "If you're going to try to describe something, then a lot of people might be searching for."
+      },
+      {
+        "start": 771.8,
+        "duration": 3.2,
+        "text": "So if you go in saying, I'm going to do a series about quantum mechanics."
+      },
+      {
+        "start": 775.1,
+        "duration": 3.5,
+        "text": "Well, there's a billion others out there, and yours is going to have to stand out for"
+      },
+      {
+        "start": 778.6,
+        "duration": 3.3,
+        "text": "some reason, and you don't have a foothold at that point."
+      },
+      {
+        "start": 781.9,
+        "duration": 5.4,
+        "text": "But another one is that the very specific and niche things build a much more loyal audience"
+      },
+      {
+        "start": 787.3,
+        "duration": 3.0,
+        "text": "in that beginning, because you're offering something which they could not find anywhere"
+      },
+      {
+        "start": 790.4,
+        "duration": 4.5,
+        "text": "else, and sometimes to be the consumer of something very specific is such a good feeling"
+      },
+      {
+        "start": 794.8,
+        "duration": 3.6,
+        "text": "that you want to pay it back, and you find yourself rooting for the creator."
+      },
+      {
+        "start": 798.4,
+        "duration": 4.1,
+        "text": "So you're much more likely to get very good faith feedback, just a warmer community,"
+      },
+      {
+        "start": 802.5,
+        "duration": 6.1,
+        "text": "and also, oftentimes we tend to overestimate just how niche things are, like sometimes something"
+      },
+      {
+        "start": 808.6,
+        "duration": 6.2,
+        "text": "that's so weirdly specific, some very esoteric bit of engineering actually appeals to hundreds"
+      },
+      {
+        "start": 814.8,
+        "duration": 4.2,
+        "text": "of thousands or millions of people, especially if you yourself are enthusiastic about it,"
+      },
+      {
+        "start": 819.0,
+        "duration": 1.9,
+        "text": "and people can index on that."
+      },
+      {
+        "start": 820.8,
+        "duration": 4.4,
+        "text": "So by doing that, you find yourself often with a topic that actually does have a broader"
+      },
+      {
+        "start": 825.3,
+        "duration": 3.8,
+        "text": "appeal, but it's not competitive with the things that everyone thinks will have broader"
+      },
+      {
+        "start": 829.1,
+        "duration": 3.6,
+        "text": "appeal, and you potentially get that audience loyalty."
+      },
+      {
+        "start": 832.7,
+        "duration": 3.0,
+        "text": "When I started this channel, I really was thinking of it as a very niche thing."
+      },
+      {
+        "start": 835.8,
+        "duration": 3.2,
+        "text": "I did not think it would be a thing that a lot of people would want to watch."
+      },
+      {
+        "start": 839.0,
+        "duration": 3.6,
+        "text": "I actually specifically wanted to find topics in math that no one would think to search"
+      },
+      {
+        "start": 842.6,
+        "duration": 1.0,
+        "text": "forth."
+      },
+      {
+        "start": 843.6,
+        "duration": 3.6,
+        "text": "I was kind of the original conception that I wavered from a little bit afterward."
+      },
+      {
+        "start": 847.2,
+        "duration": 5.1,
+        "text": "The fourth piece of advice is to pick a genre that your piece falls into."
+      },
+      {
+        "start": 852.3,
+        "duration": 3.2,
+        "text": "So the other day, I was giving this talk to a group of people, and one of them wanted"
+      },
+      {
+        "start": 855.5,
+        "duration": 5.2,
+        "text": "to get started making online explainers, and they asked whether it was ethical for someone"
+      },
+      {
+        "start": 860.7,
+        "duration": 4.1,
+        "text": "who's just barely learning a topic, just starting to learn it, to also make explainers of"
+      },
+      {
+        "start": 864.9,
+        "duration": 0.9,
+        "text": "it online."
+      },
+      {
+        "start": 865.8,
+        "duration": 2.1,
+        "text": "I mean, after all, they're more likely to make mistakes."
+      },
+      {
+        "start": 867.9,
+        "duration": 2.1,
+        "text": "They don't know the broader context."
+      },
+      {
+        "start": 870.0,
+        "duration": 2.0,
+        "text": "And there's so many things I like about that question."
+      },
+      {
+        "start": 872.0,
+        "duration": 5.2,
+        "text": "It's already demonstrating a kind of care and consideration for factual accuracy, and"
+      },
+      {
+        "start": 877.2,
+        "duration": 4.0,
+        "text": "doing right by the student, that more people who are making online explanations should"
+      },
+      {
+        "start": 881.2,
+        "duration": 1.0,
+        "text": "consider."
+      },
+      {
+        "start": 882.2,
+        "duration": 4.4,
+        "text": "So like, that very fact suggested to me that this person probably should be doing it."
+      },
+      {
+        "start": 886.6,
+        "duration": 4.2,
+        "text": "But one of the things I suggested is to acknowledge there are different types of explainers out"
+      },
+      {
+        "start": 890.8,
+        "duration": 1.0,
+        "text": "there."
+      },
+      {
+        "start": 891.8,
+        "duration": 3.4,
+        "text": "And the type where the narrator is a little bit more distanced, they're kind of standing"
+      },
+      {
+        "start": 895.2,
+        "duration": 3.3,
+        "text": "on top of a hill and explaining the way that things are."
+      },
+      {
+        "start": 898.5,
+        "duration": 2.8,
+        "text": "And to do that, you really have to research the topic very deeply."
+      },
+      {
+        "start": 901.3,
+        "duration": 4.1,
+        "text": "You should probably know 10 times as much about the topic as what you're actually saying"
+      },
+      {
+        "start": 905.4,
+        "duration": 3.9,
+        "text": "in the content, so that you know that you're teeing things up for where it actually leads"
+      },
+      {
+        "start": 909.3,
+        "duration": 4.2,
+        "text": "or you're being cognizant of whatever nuances there are, things like that."
+      },
+      {
+        "start": 913.4,
+        "duration": 5.6,
+        "text": "But another genre entirely is the discovery journalism, where the person who is learning"
+      },
+      {
+        "start": 919.0,
+        "duration": 4.9,
+        "text": "the topic kind of just admits that factor is open about the fact that they're just starting"
+      },
+      {
+        "start": 924.0,
+        "duration": 3.0,
+        "text": "with it and taking the viewer along a journey with them."
+      },
+      {
+        "start": 927.0,
+        "duration": 2.2,
+        "text": "And many times that's actually a better piece of content."
+      },
+      {
+        "start": 929.2,
+        "duration": 2.4,
+        "text": "It's actually better for learning the topic."
+      },
+      {
+        "start": 931.6,
+        "duration": 4.4,
+        "text": "And it comes with this imbuilt piece of humility that a lot of online content lacks."
+      },
+      {
+        "start": 936.0,
+        "duration": 1.8,
+        "text": "But there's lots of other genres like this."
+      },
+      {
+        "start": 937.8,
+        "duration": 3.8,
+        "text": "There's the worked example where you're explicitly helping people with homework."
+      },
+      {
+        "start": 941.6,
+        "duration": 4.0,
+        "text": "There's the try to find an interesting demo and serve mainly to inspire."
+      },
+      {
+        "start": 945.6,
+        "duration": 3.8,
+        "text": "And basically just before you get started, decide which one of those you feel like you're"
+      },
+      {
+        "start": 949.4,
+        "duration": 1.2,
+        "text": "the best fit for."
+      },
+      {
+        "start": 950.7,
+        "duration": 3.5,
+        "text": "And then when you're looking at other pieces out there, other explainers, and trying to"
+      },
+      {
+        "start": 954.2,
+        "duration": 4.4,
+        "text": "index off of what seems to work, what doesn't, be aware of which ones are in the lane"
+      },
+      {
+        "start": 958.6,
+        "duration": 5.5,
+        "text": "that you intend to be in and don't necessarily pattern match off of the ones that aren't."
+      },
+      {
+        "start": 964.0,
+        "duration": 4.2,
+        "text": "You know, one of the mistakes I think I made with my very first video is I have this conception"
+      },
+      {
+        "start": 968.2,
+        "duration": 3.9,
+        "text": "that sometimes if you talk faster than is comfortable on the internet, that sort of"
+      },
+      {
+        "start": 972.1,
+        "duration": 1.0,
+        "text": "works."
+      },
+      {
+        "start": 973.1,
+        "duration": 1.8,
+        "text": "That's like a satisfying thing to consume."
+      },
+      {
+        "start": 975.0,
+        "duration": 4.6,
+        "text": "There are videos out there that are this firehose of information and something about that"
+      },
+      {
+        "start": 979.6,
+        "duration": 2.5,
+        "text": "scratches a niche and I think people like it."
+      },
+      {
+        "start": 982.1,
+        "duration": 4.1,
+        "text": "But what I didn't really appreciate was the fact that math should fall into a completely"
+      },
+      {
+        "start": 986.2,
+        "duration": 1.5,
+        "text": "different category than that."
+      },
+      {
+        "start": 987.7,
+        "duration": 3.5,
+        "text": "It is not fun at all to have math come at you at this firehose rate."
+      },
+      {
+        "start": 991.2,
+        "duration": 2.6,
+        "text": "And basically I was just pattern matching off of things that I should not have been"
+      },
+      {
+        "start": 993.9,
+        "duration": 1.8,
+        "text": "pattern matching off of."
+      },
+      {
+        "start": 995.7,
+        "duration": 4.2,
+        "text": "As point number five, or I don't actually know where I am at the list at this point, especially"
+      },
+      {
+        "start": 1000.0,
+        "duration": 4.6,
+        "text": "in the case of math, if you're bringing up definitions of things, try not to let them"
+      },
+      {
+        "start": 1004.6,
+        "duration": 1.4,
+        "text": "feel too arbitrary."
+      },
+      {
+        "start": 1006.0,
+        "duration": 1.9,
+        "text": "Try to let them be well motivated."
+      },
+      {
+        "start": 1007.9,
+        "duration": 1.4,
+        "text": "Explain why that's the definition."
+      },
+      {
+        "start": 1009.3,
+        "duration": 1.2,
+        "text": "What else it could have been."
+      },
+      {
+        "start": 1010.5,
+        "duration": 3.6,
+        "text": "Try to make it something that the learner feels like they discovered themselves."
+      },
+      {
+        "start": 1014.1,
+        "duration": 4.3,
+        "text": "Because too often we hand these things down on high as the starting point and it's not"
+      },
+      {
+        "start": 1018.4,
+        "duration": 3.3,
+        "text": "really clear why or where that came from."
+      },
+      {
+        "start": 1021.7,
+        "duration": 2.3,
+        "text": "So all of that is just on the content side."
+      },
+      {
+        "start": 1024.0,
+        "duration": 4.0,
+        "text": "You know, what exactly are you explaining independent of the multimedia component of it?"
+      },
+      {
+        "start": 1028.0,
+        "duration": 2.0,
+        "text": "You know, the sound and the video and all that."
+      },
+      {
+        "start": 1029.9,
+        "duration": 4.4,
+        "text": "And like I said, content is king that definitely determines the majority of quality."
+      },
+      {
+        "start": 1034.4,
+        "duration": 5.0,
+        "text": "But it does actually matter a little bit beyond that to have at least a little bit of production"
+      },
+      {
+        "start": 1039.4,
+        "duration": 1.4,
+        "text": "quality, I think."
+      },
+      {
+        "start": 1040.7,
+        "duration": 1.3,
+        "text": "And I'll give a really good example."
+      },
+      {
+        "start": 1042.0,
+        "duration": 5.1,
+        "text": "So I was watching this lecture the other day by Tadashi Tokyeda on just a really interesting"
+      },
+      {
+        "start": 1047.1,
+        "duration": 4.1,
+        "text": "set of ideas about applying physical intuition to solving math problems."
+      },
+      {
+        "start": 1051.2,
+        "duration": 4.4,
+        "text": "And he had in there maybe seven or eight outstanding little arguments that each one of which"
+      },
+      {
+        "start": 1055.6,
+        "duration": 3.4,
+        "text": "could have been just a beautiful video in its own right."
+      },
+      {
+        "start": 1059.0,
+        "duration": 4.5,
+        "text": "But the, you know, the talk was over zoom and the intro was really long and the sound quality"
+      },
+      {
+        "start": 1063.4,
+        "duration": 4.0,
+        "text": "is everything that you assume from zoom and the lighting of his shot was weird."
+      },
+      {
+        "start": 1067.4,
+        "duration": 1.3,
+        "text": "And the talk was really good."
+      },
+      {
+        "start": 1068.8,
+        "duration": 3.4,
+        "text": "And I do think, you know, it's great that it's online and a lot of people will be consuming"
+      },
+      {
+        "start": 1072.2,
+        "duration": 1.0,
+        "text": "it."
+      },
+      {
+        "start": 1073.2,
+        "duration": 3.9,
+        "text": "But it's probably fair to say that if all of that content, the actual set of ideas was"
+      },
+      {
+        "start": 1077.1,
+        "duration": 4.3,
+        "text": "instead say a number file video, it would reach a hundred times as many people."
+      },
+      {
+        "start": 1081.4,
+        "duration": 4.2,
+        "text": "And more than that, it would be a more pleasant experience for those who are consuming it."
+      },
+      {
+        "start": 1085.6,
+        "duration": 1.6,
+        "text": "And it really doesn't take that much."
+      },
+      {
+        "start": 1087.2,
+        "duration": 3.4,
+        "text": "So I'll just end with a couple pieces of advice on that front."
+      },
+      {
+        "start": 1090.6,
+        "duration": 4.6,
+        "text": "The first one, which again, I acknowledge as very hypocritical here, is sound quality"
+      },
+      {
+        "start": 1095.1,
+        "duration": 5.0,
+        "text": "actually matters, especially in an era of zoom where we are all inundated with this sort"
+      },
+      {
+        "start": 1100.2,
+        "duration": 3.7,
+        "text": "of suboptimal version of the voices of all the people in our lives."
+      },
+      {
+        "start": 1103.8,
+        "duration": 3.8,
+        "text": "The learner will appreciate a respite from all that with something that actually comes"
+      },
+      {
+        "start": 1107.6,
+        "duration": 6.3,
+        "text": "from a good microphone that you learned how to use at some point."
+      },
+      {
+        "start": 1114.0,
+        "duration": 4.7,
+        "text": "On the side of visuals, you know, I'm obviously a big believer in the idea that a well-chosen"
+      },
+      {
+        "start": 1118.7,
+        "duration": 5.0,
+        "text": "illustration or an animation can really make a mathematical idea a lot more clear."
+      },
+      {
+        "start": 1123.6,
+        "duration": 4.8,
+        "text": "And be an example of that concretization and kind of going from the lower layer of abstraction"
+      },
+      {
+        "start": 1128.4,
+        "duration": 4.4,
+        "text": "on upward by just showing exactly what it is on screen in some way."
+      },
+      {
+        "start": 1132.8,
+        "duration": 2.5,
+        "text": "Now the way I do things is with programmatic animations."
+      },
+      {
+        "start": 1135.4,
+        "duration": 3.3,
+        "text": "I sort of wrote this custom library called Manum to do that."
+      },
+      {
+        "start": 1138.6,
+        "duration": 4.5,
+        "text": "And last year, actually a group of people that called themselves the Manum community created"
+      },
+      {
+        "start": 1143.2,
+        "duration": 3.6,
+        "text": "a fork of it with the hope of making it a lot more user-friendly."
+      },
+      {
+        "start": 1146.8,
+        "duration": 1.0,
+        "text": "And I think they succeeded with that."
+      },
+      {
+        "start": 1147.8,
+        "duration": 3.9,
+        "text": "There's a lot better documentation, it's better tested, just all around friendlier"
+      },
+      {
+        "start": 1151.7,
+        "duration": 1.0,
+        "text": "to use."
+      },
+      {
+        "start": 1152.7,
+        "duration": 3.6,
+        "text": "So you can use that tool and thanks to them, it's actually a lot easier than it used to"
+      },
+      {
+        "start": 1156.3,
+        "duration": 1.0,
+        "text": "be."
+      },
+      {
+        "start": 1157.3,
+        "duration": 3.5,
+        "text": "There's some other libraries that I've seen that mentioned Manum as an inspiration, you"
+      },
+      {
+        "start": 1160.8,
+        "duration": 3.3,
+        "text": "know, one that's written in Julia or one that's in Haskell."
+      },
+      {
+        "start": 1164.1,
+        "duration": 2.1,
+        "text": "And it doesn't have to be programmatic either."
+      },
+      {
+        "start": 1166.2,
+        "duration": 5.0,
+        "text": "I think where programmatic animations make sense for math is if you're somehow leveraging"
+      },
+      {
+        "start": 1171.2,
+        "duration": 3.8,
+        "text": "loops or conditionals or layers of abstraction."
+      },
+      {
+        "start": 1175.0,
+        "duration": 4.2,
+        "text": "And in the right context, I think it can be a wonderful way to let the visuals authentically"
+      },
+      {
+        "start": 1179.2,
+        "duration": 4.7,
+        "text": "reflect the math that you're describing if the code is essentially just that math as"
+      },
+      {
+        "start": 1183.9,
+        "duration": 1.7,
+        "text": "it's illustrating things."
+      },
+      {
+        "start": 1185.6,
+        "duration": 1.0,
+        "text": "But it doesn't have to be."
+      },
+      {
+        "start": 1186.6,
+        "duration": 3.9,
+        "text": "And a lot of times people use Manum or other programmatic animations for things that do"
+      },
+      {
+        "start": 1190.5,
+        "duration": 1.0,
+        "text": "not need to be programmatic."
+      },
+      {
+        "start": 1191.5,
+        "duration": 4.6,
+        "text": "That you could have easily done in something like Keynote or which add flashiness for flashiness"
+      },
+      {
+        "start": 1196.1,
+        "duration": 3.8,
+        "text": "is sake that doesn't actually aid with the explanation."
+      },
+      {
+        "start": 1199.8,
+        "duration": 4.4,
+        "text": "I think one really good example of using traditional animation software is the channel"
+      },
+      {
+        "start": 1204.2,
+        "duration": 1.3,
+        "text": "of Borbock Tree."
+      },
+      {
+        "start": 1205.5,
+        "duration": 6.0,
+        "text": "So he really has these friendly handwritten kind of whiteboard lectures, but uses animation"
+      },
+      {
+        "start": 1211.5,
+        "duration": 2.2,
+        "text": "to help those whiteboards come alive."
+      },
+      {
+        "start": 1213.7,
+        "duration": 1.8,
+        "text": "And he uses Adobe animate for that."
+      },
+      {
+        "start": 1215.5,
+        "duration": 3.6,
+        "text": "And I think it's a really nice way to make this friendly hand drawn environment come to"
+      },
+      {
+        "start": 1219.0,
+        "duration": 4.2,
+        "text": "life, which is different from kind of the platonic stark."
+      },
+      {
+        "start": 1223.3,
+        "duration": 3.4,
+        "text": "This is precisely what the math would draw when you're, you know, illustrating a surface"
+      },
+      {
+        "start": 1226.7,
+        "duration": 1.7,
+        "text": "or something like that."
+      },
+      {
+        "start": 1228.4,
+        "duration": 5.2,
+        "text": "Also I see a lot of people use Manum to manipulate algebraic expressions and things like that."
+      },
+      {
+        "start": 1233.5,
+        "duration": 3.2,
+        "text": "But if you look at other videos, things like Mathologer, you know, he's doing a lot of"
+      },
+      {
+        "start": 1236.8,
+        "duration": 1.6,
+        "text": "that in PowerPoint."
+      },
+      {
+        "start": 1238.4,
+        "duration": 1.5,
+        "text": "And again, content is king."
+      },
+      {
+        "start": 1239.9,
+        "duration": 2.9,
+        "text": "The first thing is to focus on what are you actually describing."
+      },
+      {
+        "start": 1242.8,
+        "duration": 4.3,
+        "text": "And then just showing it however is easiest to show it in that case works totally fine."
+      },
+      {
+        "start": 1247.1,
+        "duration": 4.1,
+        "text": "You don't need anything extremely precise or that leverages loops and abstraction for"
+      },
+      {
+        "start": 1251.2,
+        "duration": 1.0,
+        "text": "the formulas."
+      },
+      {
+        "start": 1252.2,
+        "duration": 3.8,
+        "text": "I recognize a kind of hypocrisy here, but you know, I have walked myself into a certain"
+      },
+      {
+        "start": 1256.0,
+        "duration": 3.2,
+        "text": "corner with the style that I want for the channel."
+      },
+      {
+        "start": 1259.2,
+        "duration": 4.0,
+        "text": "If you do want to go down that whole of programmatic animations, though, another tool which has"
+      },
+      {
+        "start": 1263.2,
+        "duration": 5.6,
+        "text": "popped up recently is something called smoothstep.io, which I think is a really nice way for people"
+      },
+      {
+        "start": 1268.8,
+        "duration": 5.4,
+        "text": "to get started with shaders, which are an absurdly powerful way to do absurdly beautiful things."
+      },
+      {
+        "start": 1274.2,
+        "duration": 3.6,
+        "text": "And it's written by this guy, Matt Henderson, who has a Twitter account that everyone should"
+      },
+      {
+        "start": 1277.8,
+        "duration": 4.4,
+        "text": "follow because he has some of the most beautiful math illustrations that I think I've ever seen."
+      },
+      {
+        "start": 1282.2,
+        "duration": 4.1,
+        "text": "So experimenting with software like that is another rabbit hole that you could go down."
+      },
+      {
+        "start": 1286.3,
+        "duration": 3.7,
+        "text": "If say you want to use this competition as an excuse to try something new, something"
+      },
+      {
+        "start": 1290.0,
+        "duration": 4.8,
+        "text": "that you've always wanted to get started with, but never really had the excuse to do."
+      },
+      {
+        "start": 1294.8,
+        "duration": 3.9,
+        "text": "Now if you have some pieces of advice that you want to pass along to people, or if you"
+      },
+      {
+        "start": 1298.7,
+        "duration": 3.8,
+        "text": "want to just engage with the community in some way to see what other people are thinking"
+      },
+      {
+        "start": 1302.4,
+        "duration": 4.4,
+        "text": "of making or propose your own project ideas, get feedback, talk about software, anything"
+      },
+      {
+        "start": 1306.9,
+        "duration": 4.4,
+        "text": "like that, we did set up a discord space associated with the summer of math exposition."
+      },
+      {
+        "start": 1311.3,
+        "duration": 2.4,
+        "text": "There's a link in the description."
+      },
+      {
+        "start": 1313.8,
+        "duration": 4.5,
+        "text": "Just be mindful if you do contribute to that community that you want your comments to be"
+      },
+      {
+        "start": 1318.3,
+        "duration": 4.9,
+        "text": "encouraging to others who are getting started and productive to that goal and try to avoid"
+      },
+      {
+        "start": 1323.2,
+        "duration": 5.4,
+        "text": "anything that is the opposite of that goal."
+      },
+      {
+        "start": 1328.5,
+        "duration": 4.9,
+        "text": "And again, another source of what will hopefully include some inspirational or informative things"
+      },
+      {
+        "start": 1333.4,
+        "duration": 1.6,
+        "text": "will be the podcast."
+      },
+      {
+        "start": 1335.0,
+        "duration": 1.4,
+        "text": "The first episode is out now."
+      },
+      {
+        "start": 1336.4,
+        "duration": 4.0,
+        "text": "It's with the mathematician Alex Contourvich, who some of you may recognize from the video"
+      },
+      {
+        "start": 1340.3,
+        "duration": 4.7,
+        "text": "he did with Kanta or the video he did with Veritasium on PiDay."
+      },
+      {
+        "start": 1345.0,
+        "duration": 3.6,
+        "text": "The episode after that is going to be with Salcon, and there's just a really interesting"
+      },
+      {
+        "start": 1348.6,
+        "duration": 1.0,
+        "text": "lineup of people here."
+      },
+      {
+        "start": 1349.6,
+        "duration": 1.2,
+        "text": "So I think you'll enjoy it."
+      },
+      {
+        "start": 1350.8,
+        "duration": 2.6,
+        "text": "You can get it wherever you get your podcasts."
+      },
+      {
+        "start": 1353.4,
+        "duration": 4.1,
+        "text": "There's a video version of it, which is going to live on a second channel that is just"
+      },
+      {
+        "start": 1357.5,
+        "duration": 1.8,
+        "text": "my name Grant Sanderson."
+      },
+      {
+        "start": 1359.3,
+        "duration": 3.2,
+        "text": "And I figure for all future videos that are a little bit like this one that's not really"
+      },
+      {
+        "start": 1362.6,
+        "duration": 3.6,
+        "text": "animated math, but other stuff, that's probably the channel that I'll put it on."
+      },
+      {
+        "start": 1366.2,
+        "duration": 4.1,
+        "text": "So keep an eye on that channel if that's something that you're interested in."
+      },
+      {
+        "start": 1370.3,
+        "duration": 1.7,
+        "text": "And I will say this about the podcast."
+      },
+      {
+        "start": 1372.0,
+        "duration": 4.3,
+        "text": "Even though the original intent was something that was very much tied to this competition,"
+      },
+      {
+        "start": 1376.3,
+        "duration": 3.1,
+        "text": "and the idea of targeting people interested and getting started."
+      },
+      {
+        "start": 1379.4,
+        "duration": 3.3,
+        "text": "A lot of the times I would find myself with an interesting guest, and I just have a"
+      },
+      {
+        "start": 1382.7,
+        "duration": 3.9,
+        "text": "whole bunch of other things that I want to ask them that have nothing to do with that."
+      },
+      {
+        "start": 1386.6,
+        "duration": 5.3,
+        "text": "So maybe the better framing here is to say that the podcast is 20% about that goal, and"
+      },
+      {
+        "start": 1391.9,
+        "duration": 5.4,
+        "text": "the other 80% is just the usual interview style podcast vibe where you have interesting"
+      },
+      {
+        "start": 1397.3,
+        "duration": 4.9,
+        "text": "guests, and I just want to ask things that I'm genuinely curious to know about them."
+      },
+      {
+        "start": 1402.2,
+        "duration": 4.5,
+        "text": "And then I get to grad school, and I'm moving into my office in grad school, and I have all"
+      },
+      {
+        "start": 1406.7,
+        "duration": 1.5,
+        "text": "my old papers."
+      },
+      {
+        "start": 1408.2,
+        "duration": 1.9,
+        "text": "And I just started, you know, for fun, leaving through them."
+      },
+      {
+        "start": 1410.1,
+        "duration": 5.1,
+        "text": "I don't know if you ever look back at the stuff you wrote freshman year."
+      },
+      {
+        "start": 1415.2,
+        "duration": 2.5,
+        "text": "And I look at them like, what the hell was I writing?"
+      },
+      {
+        "start": 1417.7,
+        "duration": 1.4,
+        "text": "Oh my god, this is garbage."
+      },
+      {
+        "start": 1419.0,
+        "duration": 1.0,
+        "text": "This is complete."
+      },
+      {
+        "start": 1420.0,
+        "duration": 1.4,
+        "text": "The epsilon's and deltas are backwards."
+      },
+      {
+        "start": 1421.4,
+        "duration": 2.4,
+        "text": "You can't have the epsilon's and deltas be backwards."
+      },
+      {
+        "start": 1423.8,
+        "duration": 1.2,
+        "text": "And you only took off three points."
+      },
+      {
+        "start": 1425.0,
+        "duration": 1.8,
+        "text": "I would have taken off nine or something."
+      },
+      {
+        "start": 1426.8,
+        "duration": 2.1,
+        "text": "Like, it brought me with so nice."
+      },
+      {
+        "start": 1428.9,
+        "duration": 4.2,
+        "text": "So if lean was around back then, boy would it have straightened me out."
+      },
+      {
+        "start": 1433.2,
+        "duration": 3.8,
+        "text": "It's actually very inspiring to me, because I feel one of the common piece of advice that"
+      },
+      {
+        "start": 1437.0,
+        "duration": 2.6,
+        "text": "I'll give to someone if they want to learn more math."
+      }
+    ],
+    "full_text": "I want to tell you about a contest that I'm running with a friend of mine, James Schloss, who some of you might recognize from the YouTube channel, LeoSOS and his Twitch stream and things like that. Also now there's a 3B1B podcast, but more on that in just a moment. Basically, we want there to be more math explanation online, and we want to encourage more people to get started actually doing it. We're calling it the Summer of Math Exposition, where essentially we're just inviting anyone who wants to to submit some kind of math explainer, whether that's a video or a blog post or an interactive game or whatever it is that explains math online in some way. To the link that's on screen now by August 22nd, and then once we... Yes. I see you. Would you like to sniff at the microphone? Probably yes, that's very sweet. Very sweet. You're a very affectionate creature. Alright, where was it? Anyway, after August 22nd, we're going to have a selection process to choose some winners from among them, and then I'll feature them in a 3B1B video. And then for the rest, I'll probably also put together a playlist of all of the videos and a list of links on the website somewhere to all the project submissions. And then I was also thinking maybe I would send something to the winners, like creating some custom gold, plushy pie creatures or something like that. But the main prize is to have your work featured and hopefully get it out to a few more people. The reason I'm interested in doing this is I think there's a lot of people out there who would be really good at doing this. Would have some excellent explanation that would genuinely help a lot of people or show a topic that's not really covered very well elsewhere. And who might even be thinking about doing it, you know, there's that back of your mind spot that says, maybe one day I'll try my hand at a video or just write this up as a blog post. But you just never really got around to it, you know, life's busy. You're not sure where to start. Seems like there's a lot of other things out there. And my hope is that by dangling the tiniest carrot that I can provide, just mentioning good work when it exists, then maybe that gets a couple more people over this hump who might otherwise not have made something and then actually make it. So one of the very few constraints on entries for this particular contest is that it has to be something new. It can't be a thing that you made a while ago and you're just submitting a link to it now, but something that you make between now and August 22nd. And the real spirit of this all is to encourage people who have never tried it before to get started in it somehow. The other constraint is that it does have to be about math, but math in the broadest possible sense of the term so that could include physics or computer science as long as it's got some mathy components to it. So if you're doing physics and there's formulas that are relevant, don't try away from those formulas. Or if you're doing some computer science and there's some, you know, algorithmic complexity or something mathematical to it, try to lean into that a little bit more. So than that, the topic matter is completely up to you. So maybe you have some topics that you've seen or that you've learned about, but which you really feel aren't covered well online anywhere and it would really be adding something new to the space. Maybe you're a physics buff who is interested in the philosophical side of things and you've learned about Conway's free wheel theorem and you want to talk about it and whether that's an appropriate name, whether it's actually philosophically interesting or not, or just share with people what it is. Or maybe you're someone who's into information theory and things like that and you've learned about how Kolmogorov complexity can be used to describe some things about the distributions of primes. And you think that's actually an interesting angle for how to introduce Kolmogorov complexity in the first place. Or anything like this where it's something kind of new to the space, if that's you, you should definitely consider submitting. But it doesn't have to be a topic that no one has ever covered or that's severely under covered online. Even if it's something that's very standard and especially if it's something that a lot of students have to reach at some point, coming up with a better way to explain it, and thinking about what's the state of the art explanation on any particular thing, that could also add a lot to the space. Say for example, you've taught students about partial fraction decomposition and tutoring or teaching or something like that and you feel like you've come across a way of explaining it that makes it a little bit more memorable. You should definitely submit. Or maybe you have some really pretty way to visualize certain trig identities that students run into that keeps them from feeling very rote and instead sheds a light on, you know, how beautiful math can be and all that kind of thing. If that's you and you feel passionate about it, you should definitely submit that. One set of people who I'm particularly interested in for this competition are the teachers and the lecturers and basically anyone with a lot of boots to the ground experience seeing people learn and seeing what actually works. Because I think there's a lot of outstanding explanations out there that stay largely confined to the classroom or otherwise stay offline, whereas if just a little bit of effort was put into producing it or sharing it online in some way, those lessons might actually really reach and benefit one to two orders of magnitude more people. And I get it. Teachers are absurdly busy. They don't have time for extra things on the side and it's kind of hard to know where to get started. So maybe one potential partnership here would be the teachers who have really good instincts for what works in education and then a student who maybe has a lot of energy or desire to get started on YouTube or otherwise just has more free time on their hands and pairing something together like that might actually make for a good partnership. In other case, whatever category you fall into, I do know there's a lot of people who do want to get started with this because they write to me a lot and one of the most common sentiments out there is, well, I don't know where to get started. I want to make a video but I don't really have any experience with video making, things like that. And I have a couple things to say for someone who feels like they're in that boat. In a kind of loose conjunction with this contest, I decided to start a podcast where for the first many conversations, I'll be interviewing people who have some kind of experience in the space of putting out explanations. So that could be other YouTubers, but it could also include mathematicians who are really engaged with outreach or the founder of Khan Academy, things like this. And essentially have conversations which act to either inspire or otherwise inform anyone who might be getting started with this. After doing several of these interviews, one of the most useful pieces of information that I think comes out from them is just how ramshackle and unprofessional the setup for a lot of people is in the very beginning. And as a result, it should come as no surprise that one of the most common pieces of advice, one of the most universal answers to the question of what advice would you give to someone getting started with this is to just start. The things that differentiate the people who actually put stuff out there versus the ones who don't is not a matter of having a lot more experience with it beforehand. As a matter of having a kind of generative spirit that just wants to make stuff. Because my, I'll say persona, but this is genuinely me, is give it a go. You're probably going to fail, but it's worth a try. I get a lot of people saying, oh, you make YouTube videos. I've always wanted to make YouTube videos and I'm like, great, just do it. And they're like, no, no, but I need to buy a nice camera and I need to get a good set. And I'm like, no, no, no, like, just do it. There's always a step to, wait, am I ready yet? Am I ready yet? Sal, press record and start. See what happens. If I take the example which I know best, which is my own, there are so many really embarrassing things about the early videos on this channel or my process in creating them. I mean, the sound quality was pretty terrible for a long time. That's one big thing. I edited in iMovie for way longer than I care to admit. Also despite being now a professional YouTuber, when it comes to cameras and actually filming things like this, I really have no idea what I'm doing. Like right now, I'm just using a phone, which I guess is fine. I find the process of being alone in a room and just talking to a camera incredibly awkward. This is actually my second time recording this whole video because the first time I thought I would be really clever and have some notes to like guide what I wanted to say and I'd put them on the monitor next to the camera. But what the result was is that I would just kind of have my eyes darting back and forth between the two without me consciously realizing it. It's just this reminder that I really don't know what I'm doing. But this isn't a self-effacing thing. The point here is that if you find yourself with a potentially good explainer that you want to make, but you're a little self-conscious about how to start or you're worried that you're going to make a mistake, just don't worry about it. Just dive right in. So many of us have no idea what we're doing when we begin. All that said, sometimes this just do it advice is a little bit frustrating because I mean it's not actionable. You say, okay, I'm going to start. But then upon starting, it tells you nothing. So in the spirit of some more concrete advice, I do have a couple things that I might want to pass along that are specific to the case of math explainers. The first one, and I do actually find this quite important, is when you're putting together the explanation, whatever form, whatever medium, whatever genre you choose, try to be aware of the layers of abstraction that are relevant to your topic. So like if you're teaching a young child about fractions and you're talking about two-thirds plus one-fifth, there's two different layers of abstraction that that expression lives in. There's one where you have a very concrete example of two-thirds of something, two-thirds of a cake, and then one-fifth of a cake, and trying to get a sense of what that means. And then there's the symbols, and a big part of the lesson at play here is understanding how the symbols relate to the actual case, and why the rules that we apply to the symbols make sense in light of the concrete case. And also, why we opt to do the more abstract thing, because it takes much less thinking than actually trying to reason about two-thirds of a cake plus one-fifth of a cake. And this happens at all levels, if you're teaching a calculus class and you're talking about optimizing functions, there's the idea of a function as a very abstract thing that could be any particular function, or any differentiable function, or what have you, and then there's lots of specific examples. Or maybe specific cases where they come up, like a function defining the profit of a company, and that's the thing you want to optimize. I made a whole video about group theory, where in the middle I went on for a while about the difference between thinking of group actions as these abstract entities versus as something concrete, like a symmetry, and why there exists the two, and what the benefits and trade offs are. But my point in this first piece of advice is not merely to address the layers of abstraction, you don't even have to. But if you're clear in your own head, try very hard to structure your explanation to go from the concrete to the abstract. I think almost always, when you understand something, the natural inclination is to go the other way around. I find myself doing this in pretty much any first draft of a script that I have. It seems like all the textbook authors that I ever read tend to do this. You start with the abstract idea, you put the examples later. But I really do think that in the case of learning, first trying to populate the learner's mind with a bunch of examples of things that have a similar pattern between them, and letting their brain do the abstraction. See that similar pattern between things, such that when you bring in that higher layer, you start defining an abstract vector space, or you're doing some symbolic manipulations with particular rules. That once that happens, you're articulating something in the brain of the learner that was already sitting there in the first place. It wasn't just handed to them in a vacuum. Otherwise, it's a little bit like trying to build a building from the top floor down. So that's one, and that's very specific to math. As a more generic idea, piece of advice number two, would be keeping the very forefront of your mind the fact that content is king, that the thing that you're explaining, the choice of the topic or how you're explaining it, determines the majority of the value and the quality of the thing that you make. All the things about production quality, or how fancy the animations are, or the lighting, or whatever it is, all of that is secondary to making sure you've chosen an actually good topic, and it's something that people would want to consume. They haven't seen it elsewhere. It's offering something fresh. Now that's so easy to not along with and say like, yes, yes, of course, content is king. But the thing is, you end up spending about 1% of your time, if that, choosing what you're going to explain and how you're going to explain it, and then like 99% of the time just carrying it out in some way. And as a result, it can be easy to lose sight of that important part. So my encouragement to you would be, spend more time than you would otherwise tend to, on choosing that topic. So maybe workshop a couple of different things by doing sample lessons with people, or try to write out a list of all the different things that you could, and ask, are they actually fresh? Are they actually adding something to the space? Is there a reason someone would want to consume this? Spending that extra little bit of time on the thing that determines the majority of the value is almost certainly worth it. And the third piece of advice, which maybe plays into this a little bit, is when you're beginning, if you're just starting something fresh, and there's no presence online at this point, try to choose something much more esoteric and specific than you might be inclined to. I've seen a lot of people who want to get started on YouTube, for example, and the way that they try to go about it is to choose a topic that will appeal to the most people. After all, they want their video to blow up. They want a lot of subscribers and things like that. But there's a couple issues with this. First of all, it's a much more competitive space. If you're going to try to describe something, then a lot of people might be searching for. So if you go in saying, I'm going to do a series about quantum mechanics. Well, there's a billion others out there, and yours is going to have to stand out for some reason, and you don't have a foothold at that point. But another one is that the very specific and niche things build a much more loyal audience in that beginning, because you're offering something which they could not find anywhere else, and sometimes to be the consumer of something very specific is such a good feeling that you want to pay it back, and you find yourself rooting for the creator. So you're much more likely to get very good faith feedback, just a warmer community, and also, oftentimes we tend to overestimate just how niche things are, like sometimes something that's so weirdly specific, some very esoteric bit of engineering actually appeals to hundreds of thousands or millions of people, especially if you yourself are enthusiastic about it, and people can index on that. So by doing that, you find yourself often with a topic that actually does have a broader appeal, but it's not competitive with the things that everyone thinks will have broader appeal, and you potentially get that audience loyalty. When I started this channel, I really was thinking of it as a very niche thing. I did not think it would be a thing that a lot of people would want to watch. I actually specifically wanted to find topics in math that no one would think to search forth. I was kind of the original conception that I wavered from a little bit afterward. The fourth piece of advice is to pick a genre that your piece falls into. So the other day, I was giving this talk to a group of people, and one of them wanted to get started making online explainers, and they asked whether it was ethical for someone who's just barely learning a topic, just starting to learn it, to also make explainers of it online. I mean, after all, they're more likely to make mistakes. They don't know the broader context. And there's so many things I like about that question. It's already demonstrating a kind of care and consideration for factual accuracy, and doing right by the student, that more people who are making online explanations should consider. So like, that very fact suggested to me that this person probably should be doing it. But one of the things I suggested is to acknowledge there are different types of explainers out there. And the type where the narrator is a little bit more distanced, they're kind of standing on top of a hill and explaining the way that things are. And to do that, you really have to research the topic very deeply. You should probably know 10 times as much about the topic as what you're actually saying in the content, so that you know that you're teeing things up for where it actually leads or you're being cognizant of whatever nuances there are, things like that. But another genre entirely is the discovery journalism, where the person who is learning the topic kind of just admits that factor is open about the fact that they're just starting with it and taking the viewer along a journey with them. And many times that's actually a better piece of content. It's actually better for learning the topic. And it comes with this imbuilt piece of humility that a lot of online content lacks. But there's lots of other genres like this. There's the worked example where you're explicitly helping people with homework. There's the try to find an interesting demo and serve mainly to inspire. And basically just before you get started, decide which one of those you feel like you're the best fit for. And then when you're looking at other pieces out there, other explainers, and trying to index off of what seems to work, what doesn't, be aware of which ones are in the lane that you intend to be in and don't necessarily pattern match off of the ones that aren't. You know, one of the mistakes I think I made with my very first video is I have this conception that sometimes if you talk faster than is comfortable on the internet, that sort of works. That's like a satisfying thing to consume. There are videos out there that are this firehose of information and something about that scratches a niche and I think people like it. But what I didn't really appreciate was the fact that math should fall into a completely different category than that. It is not fun at all to have math come at you at this firehose rate. And basically I was just pattern matching off of things that I should not have been pattern matching off of. As point number five, or I don't actually know where I am at the list at this point, especially in the case of math, if you're bringing up definitions of things, try not to let them feel too arbitrary. Try to let them be well motivated. Explain why that's the definition. What else it could have been. Try to make it something that the learner feels like they discovered themselves. Because too often we hand these things down on high as the starting point and it's not really clear why or where that came from. So all of that is just on the content side. You know, what exactly are you explaining independent of the multimedia component of it? You know, the sound and the video and all that. And like I said, content is king that definitely determines the majority of quality. But it does actually matter a little bit beyond that to have at least a little bit of production quality, I think. And I'll give a really good example. So I was watching this lecture the other day by Tadashi Tokyeda on just a really interesting set of ideas about applying physical intuition to solving math problems. And he had in there maybe seven or eight outstanding little arguments that each one of which could have been just a beautiful video in its own right. But the, you know, the talk was over zoom and the intro was really long and the sound quality is everything that you assume from zoom and the lighting of his shot was weird. And the talk was really good. And I do think, you know, it's great that it's online and a lot of people will be consuming it. But it's probably fair to say that if all of that content, the actual set of ideas was instead say a number file video, it would reach a hundred times as many people. And more than that, it would be a more pleasant experience for those who are consuming it. And it really doesn't take that much. So I'll just end with a couple pieces of advice on that front. The first one, which again, I acknowledge as very hypocritical here, is sound quality actually matters, especially in an era of zoom where we are all inundated with this sort of suboptimal version of the voices of all the people in our lives. The learner will appreciate a respite from all that with something that actually comes from a good microphone that you learned how to use at some point. On the side of visuals, you know, I'm obviously a big believer in the idea that a well-chosen illustration or an animation can really make a mathematical idea a lot more clear. And be an example of that concretization and kind of going from the lower layer of abstraction on upward by just showing exactly what it is on screen in some way. Now the way I do things is with programmatic animations. I sort of wrote this custom library called Manum to do that. And last year, actually a group of people that called themselves the Manum community created a fork of it with the hope of making it a lot more user-friendly. And I think they succeeded with that. There's a lot better documentation, it's better tested, just all around friendlier to use. So you can use that tool and thanks to them, it's actually a lot easier than it used to be. There's some other libraries that I've seen that mentioned Manum as an inspiration, you know, one that's written in Julia or one that's in Haskell. And it doesn't have to be programmatic either. I think where programmatic animations make sense for math is if you're somehow leveraging loops or conditionals or layers of abstraction. And in the right context, I think it can be a wonderful way to let the visuals authentically reflect the math that you're describing if the code is essentially just that math as it's illustrating things. But it doesn't have to be. And a lot of times people use Manum or other programmatic animations for things that do not need to be programmatic. That you could have easily done in something like Keynote or which add flashiness for flashiness is sake that doesn't actually aid with the explanation. I think one really good example of using traditional animation software is the channel of Borbock Tree. So he really has these friendly handwritten kind of whiteboard lectures, but uses animation to help those whiteboards come alive. And he uses Adobe animate for that. And I think it's a really nice way to make this friendly hand drawn environment come to life, which is different from kind of the platonic stark. This is precisely what the math would draw when you're, you know, illustrating a surface or something like that. Also I see a lot of people use Manum to manipulate algebraic expressions and things like that. But if you look at other videos, things like Mathologer, you know, he's doing a lot of that in PowerPoint. And again, content is king. The first thing is to focus on what are you actually describing. And then just showing it however is easiest to show it in that case works totally fine. You don't need anything extremely precise or that leverages loops and abstraction for the formulas. I recognize a kind of hypocrisy here, but you know, I have walked myself into a certain corner with the style that I want for the channel. If you do want to go down that whole of programmatic animations, though, another tool which has popped up recently is something called smoothstep.io, which I think is a really nice way for people to get started with shaders, which are an absurdly powerful way to do absurdly beautiful things. And it's written by this guy, Matt Henderson, who has a Twitter account that everyone should follow because he has some of the most beautiful math illustrations that I think I've ever seen. So experimenting with software like that is another rabbit hole that you could go down. If say you want to use this competition as an excuse to try something new, something that you've always wanted to get started with, but never really had the excuse to do. Now if you have some pieces of advice that you want to pass along to people, or if you want to just engage with the community in some way to see what other people are thinking of making or propose your own project ideas, get feedback, talk about software, anything like that, we did set up a discord space associated with the summer of math exposition. There's a link in the description. Just be mindful if you do contribute to that community that you want your comments to be encouraging to others who are getting started and productive to that goal and try to avoid anything that is the opposite of that goal. And again, another source of what will hopefully include some inspirational or informative things will be the podcast. The first episode is out now. It's with the mathematician Alex Contourvich, who some of you may recognize from the video he did with Kanta or the video he did with Veritasium on PiDay. The episode after that is going to be with Salcon, and there's just a really interesting lineup of people here. So I think you'll enjoy it. You can get it wherever you get your podcasts. There's a video version of it, which is going to live on a second channel that is just my name Grant Sanderson. And I figure for all future videos that are a little bit like this one that's not really animated math, but other stuff, that's probably the channel that I'll put it on. So keep an eye on that channel if that's something that you're interested in. And I will say this about the podcast. Even though the original intent was something that was very much tied to this competition, and the idea of targeting people interested and getting started. A lot of the times I would find myself with an interesting guest, and I just have a whole bunch of other things that I want to ask them that have nothing to do with that. So maybe the better framing here is to say that the podcast is 20% about that goal, and the other 80% is just the usual interview style podcast vibe where you have interesting guests, and I just want to ask things that I'm genuinely curious to know about them. And then I get to grad school, and I'm moving into my office in grad school, and I have all my old papers. And I just started, you know, for fun, leaving through them. I don't know if you ever look back at the stuff you wrote freshman year. And I look at them like, what the hell was I writing? Oh my god, this is garbage. This is complete. The epsilon's and deltas are backwards. You can't have the epsilon's and deltas be backwards. And you only took off three points. I would have taken off nine or something. Like, it brought me with so nice. So if lean was around back then, boy would it have straightened me out. It's actually very inspiring to me, because I feel one of the common piece of advice that I'll give to someone if they want to learn more math."
+  }
+}

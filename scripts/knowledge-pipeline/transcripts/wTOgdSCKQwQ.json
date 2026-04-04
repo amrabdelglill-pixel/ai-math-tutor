@@ -1,0 +1,574 @@
+{
+  "video_id": "wTOgdSCKQwQ",
+  "video_title": "Back in the Box! - Full Episode | Series 8 E17 | Numberblocks",
+  "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+  "channel_title": "Numberblocks",
+  "published_at": "",
+  "duration_secs": 285.0,
+  "view_count": 1062166,
+  "tags": [
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 3
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 2.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 4.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 5.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 6.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 7.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 8.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 9.0,
+        "duration": 1.0,
+        "text": "Wonderful."
+      },
+      {
+        "start": 10.0,
+        "duration": 2.0,
+        "text": "We've played all four games."
+      },
+      {
+        "start": 12.0,
+        "duration": 2.0,
+        "text": "No more games."
+      },
+      {
+        "start": 14.0,
+        "duration": 4.0,
+        "text": "We could play back in the box."
+      },
+      {
+        "start": 18.0,
+        "duration": 2.0,
+        "text": "We count all the bats,"
+      },
+      {
+        "start": 20.0,
+        "duration": 2.0,
+        "text": "skittles, hoops, and balls"
+      },
+      {
+        "start": 22.0,
+        "duration": 3.0,
+        "text": "as we put them back in the box."
+      },
+      {
+        "start": 25.0,
+        "duration": 3.0,
+        "text": "Oh, I'll keep count to make sure we have everything."
+      },
+      {
+        "start": 28.0,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 30.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 31.0,
+        "duration": 2.0,
+        "text": "Three skittles,"
+      },
+      {
+        "start": 33.0,
+        "duration": 1.0,
+        "text": "buck in the box."
+      },
+      {
+        "start": 34.0,
+        "duration": 1.0,
+        "text": "And four more."
+      },
+      {
+        "start": 35.0,
+        "duration": 2.0,
+        "text": "Three and four."
+      },
+      {
+        "start": 37.0,
+        "duration": 1.0,
+        "text": "Two bats."
+      },
+      {
+        "start": 38.0,
+        "duration": 2.0,
+        "text": "Five hoops."
+      },
+      {
+        "start": 40.0,
+        "duration": 2.0,
+        "text": "Two bats and three more bats."
+      },
+      {
+        "start": 42.0,
+        "duration": 1.0,
+        "text": "We can slow down."
+      },
+      {
+        "start": 43.0,
+        "duration": 2.0,
+        "text": "Four round things."
+      },
+      {
+        "start": 45.0,
+        "duration": 1.0,
+        "text": "Stop!"
+      },
+      {
+        "start": 46.0,
+        "duration": 2.0,
+        "text": "I can't keep up."
+      },
+      {
+        "start": 48.0,
+        "duration": 3.0,
+        "text": "We need a way to keep count of everything."
+      },
+      {
+        "start": 51.0,
+        "duration": 4.0,
+        "text": "If only there was something we could use to help us."
+      },
+      {
+        "start": 55.0,
+        "duration": 1.0,
+        "text": "No."
+      },
+      {
+        "start": 56.0,
+        "duration": 5.0,
+        "text": "How about I suppose to think with all these silly sticks everywhere?"
+      },
+      {
+        "start": 61.0,
+        "duration": 1.0,
+        "text": "That's it!"
+      },
+      {
+        "start": 62.0,
+        "duration": 1.0,
+        "text": "Let's start again,"
+      },
+      {
+        "start": 63.0,
+        "duration": 4.0,
+        "text": "but this time I'll keep count using the sticks."
+      },
+      {
+        "start": 67.0,
+        "duration": 2.0,
+        "text": "Are you in genius three?"
+      },
+      {
+        "start": 69.0,
+        "duration": 1.0,
+        "text": "I am."
+      },
+      {
+        "start": 70.0,
+        "duration": 3.0,
+        "text": "I mean, I am."
+      },
+      {
+        "start": 73.0,
+        "duration": 4.0,
+        "text": "One stick means one bat."
+      },
+      {
+        "start": 77.0,
+        "duration": 3.0,
+        "text": "That's two bats."
+      },
+      {
+        "start": 80.0,
+        "duration": 5.0,
+        "text": "And three, four, five sticks means five bats."
+      },
+      {
+        "start": 85.0,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 86.0,
+        "duration": 3.0,
+        "text": "But you might lose count with a long line of sticks."
+      },
+      {
+        "start": 89.0,
+        "duration": 2.0,
+        "text": "I've got an idea."
+      },
+      {
+        "start": 91.0,
+        "duration": 3.0,
+        "text": "This gate has five bars."
+      },
+      {
+        "start": 94.0,
+        "duration": 4.0,
+        "text": "So if we arrange your sticks in the same pattern."
+      },
+      {
+        "start": 98.0,
+        "duration": 4.0,
+        "text": "One, two, three, four standing straight."
+      },
+      {
+        "start": 102.0,
+        "duration": 4.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 106.0,
+        "duration": 1.0,
+        "text": "Yes!"
+      },
+      {
+        "start": 107.0,
+        "duration": 3.0,
+        "text": "That makes it easy to see when we have five things."
+      },
+      {
+        "start": 110.0,
+        "duration": 4.0,
+        "text": "But we'll need a lot more sticks to count everything."
+      },
+      {
+        "start": 114.0,
+        "duration": 1.0,
+        "text": "Hmm."
+      },
+      {
+        "start": 115.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 116.0,
+        "duration": 5.0,
+        "text": "Maybe we only need one stick of chalk."
+      },
+      {
+        "start": 121.0,
+        "duration": 4.0,
+        "text": "One, two, three, four standing straight."
+      },
+      {
+        "start": 125.0,
+        "duration": 3.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 128.0,
+        "duration": 2.0,
+        "text": "Five bats."
+      },
+      {
+        "start": 130.0,
+        "duration": 1.0,
+        "text": "Perfect."
+      },
+      {
+        "start": 131.0,
+        "duration": 2.0,
+        "text": "Now for the Skittles."
+      },
+      {
+        "start": 133.0,
+        "duration": 8.0,
+        "text": "One, two, three, four, five."
+      },
+      {
+        "start": 141.0,
+        "duration": 2.0,
+        "text": "And one, two."
+      },
+      {
+        "start": 143.0,
+        "duration": 2.0,
+        "text": "Now for the Hoops."
+      },
+      {
+        "start": 145.0,
+        "duration": 2.0,
+        "text": "Five for me."
+      },
+      {
+        "start": 147.0,
+        "duration": 4.0,
+        "text": "One, two, three, four, five."
+      },
+      {
+        "start": 151.0,
+        "duration": 2.0,
+        "text": "Four more."
+      },
+      {
+        "start": 153.0,
+        "duration": 5.0,
+        "text": "One, two, three, four."
+      },
+      {
+        "start": 158.0,
+        "duration": 2.0,
+        "text": "Last one."
+      },
+      {
+        "start": 160.0,
+        "duration": 1.0,
+        "text": "All right."
+      },
+      {
+        "start": 161.0,
+        "duration": 5.0,
+        "text": "Well, don't me."
+      },
+      {
+        "start": 166.0,
+        "duration": 3.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 169.0,
+        "duration": 3.0,
+        "text": "Have we collected everything?"
+      },
+      {
+        "start": 172.0,
+        "duration": 2.0,
+        "text": "How many bats?"
+      },
+      {
+        "start": 174.0,
+        "duration": 1.0,
+        "text": "One gate."
+      },
+      {
+        "start": 175.0,
+        "duration": 2.0,
+        "text": "That means five."
+      },
+      {
+        "start": 177.0,
+        "duration": 1.0,
+        "text": "Uh-huh."
+      },
+      {
+        "start": 178.0,
+        "duration": 2.0,
+        "text": "What about the Skittles?"
+      },
+      {
+        "start": 180.0,
+        "duration": 4.0,
+        "text": "Five and two more is seven."
+      },
+      {
+        "start": 184.0,
+        "duration": 3.0,
+        "text": "Seven Skittles exactly."
+      },
+      {
+        "start": 187.0,
+        "duration": 1.0,
+        "text": "Now for the Hoops."
+      },
+      {
+        "start": 188.0,
+        "duration": 3.0,
+        "text": "Five and five is ten."
+      },
+      {
+        "start": 191.0,
+        "duration": 2.0,
+        "text": "Perfect scores."
+      },
+      {
+        "start": 193.0,
+        "duration": 3.0,
+        "text": "Um, what about those round things?"
+      },
+      {
+        "start": 196.0,
+        "duration": 3.0,
+        "text": "Shouldn't they go back in the box?"
+      },
+      {
+        "start": 199.0,
+        "duration": 1.0,
+        "text": "You're right."
+      },
+      {
+        "start": 200.0,
+        "duration": 1.0,
+        "text": "Let's go!"
+      },
+      {
+        "start": 201.0,
+        "duration": 2.0,
+        "text": "Race you."
+      },
+      {
+        "start": 203.0,
+        "duration": 10.0,
+        "text": "One, two, three, one, two, three, four, five."
+      },
+      {
+        "start": 213.0,
+        "duration": 2.0,
+        "text": "Four standing straight."
+      },
+      {
+        "start": 215.0,
+        "duration": 5.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 220.0,
+        "duration": 2.0,
+        "text": "Be brave for."
+      },
+      {
+        "start": 222.0,
+        "duration": 2.0,
+        "text": "Be brave."
+      },
+      {
+        "start": 224.0,
+        "duration": 3.0,
+        "text": "And one, two, three, four."
+      },
+      {
+        "start": 227.0,
+        "duration": 2.0,
+        "text": "Watch your backs."
+      },
+      {
+        "start": 229.0,
+        "duration": 1.0,
+        "text": "Five more."
+      },
+      {
+        "start": 230.0,
+        "duration": 3.0,
+        "text": "That's five, ten."
+      },
+      {
+        "start": 233.0,
+        "duration": 3.0,
+        "text": "And four more is fourteen balls."
+      },
+      {
+        "start": 236.0,
+        "duration": 3.0,
+        "text": "Oh, and this one."
+      },
+      {
+        "start": 239.0,
+        "duration": 6.0,
+        "text": "Five, ten, fifteen."
+      },
+      {
+        "start": 245.0,
+        "duration": 5.0,
+        "text": "Two, no more round things."
+      },
+      {
+        "start": 250.0,
+        "duration": 2.0,
+        "text": "We did it!"
+      },
+      {
+        "start": 252.0,
+        "duration": 3.0,
+        "text": "Everything's back in the box."
+      },
+      {
+        "start": 255.0,
+        "duration": 2.0,
+        "text": "Oh, yeah!"
+      },
+      {
+        "start": 258.0,
+        "duration": 1.0,
+        "text": "Hmm."
+      },
+      {
+        "start": 259.0,
+        "duration": 3.0,
+        "text": "If only there was something else we could..."
+      },
+      {
+        "start": 262.0,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 263.0,
+        "duration": 3.0,
+        "text": "Let's count all the apples in the trees!"
+      },
+      {
+        "start": 266.0,
+        "duration": 3.0,
+        "text": "I think we're going to need a bigger board!"
+      }
+    ],
+    "full_text": "Oh! Oh! Oh! Oh! Oh! Oh! Oh! Oh! Wonderful. We've played all four games. No more games. We could play back in the box. We count all the bats, skittles, hoops, and balls as we put them back in the box. Oh, I'll keep count to make sure we have everything. Oh! Oh! Three skittles, buck in the box. And four more. Three and four. Two bats. Five hoops. Two bats and three more bats. We can slow down. Four round things. Stop! I can't keep up. We need a way to keep count of everything. If only there was something we could use to help us. No. How about I suppose to think with all these silly sticks everywhere? That's it! Let's start again, but this time I'll keep count using the sticks. Are you in genius three? I am. I mean, I am. One stick means one bat. That's two bats. And three, four, five sticks means five bats. Great. But you might lose count with a long line of sticks. I've got an idea. This gate has five bars. So if we arrange your sticks in the same pattern. One, two, three, four standing straight. And here comes five to make a gate. Yes! That makes it easy to see when we have five things. But we'll need a lot more sticks to count everything. Hmm. Oh! Maybe we only need one stick of chalk. One, two, three, four standing straight. And here comes five to make a gate. Five bats. Perfect. Now for the Skittles. One, two, three, four, five. And one, two. Now for the Hoops. Five for me. One, two, three, four, five. Four more. One, two, three, four. Last one. All right. Well, don't me. And here comes five to make a gate. Have we collected everything? How many bats? One gate. That means five. Uh-huh. What about the Skittles? Five and two more is seven. Seven Skittles exactly. Now for the Hoops. Five and five is ten. Perfect scores. Um, what about those round things? Shouldn't they go back in the box? You're right. Let's go! Race you. One, two, three, one, two, three, four, five. Four standing straight. And here comes five to make a gate. Be brave for. Be brave. And one, two, three, four. Watch your backs. Five more. That's five, ten. And four more is fourteen balls. Oh, and this one. Five, ten, fifteen. Two, no more round things. We did it! Everything's back in the box. Oh, yeah! Hmm. If only there was something else we could... Oh! Let's count all the apples in the trees! I think we're going to need a bigger board!"
+  }
+}

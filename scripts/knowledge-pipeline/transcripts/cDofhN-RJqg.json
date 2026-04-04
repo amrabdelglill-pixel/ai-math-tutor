@@ -1,0 +1,1139 @@
+{
+  "video_id": "cDofhN-RJqg",
+  "video_title": "What makes a great math explanation? | SoME2 results",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1021.0,
+  "view_count": 763323,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.2,
+        "text": "In the last month or two, there's been a measurable increase in the attention to a wide variety of"
+      },
+      {
+        "start": 4.2,
+        "duration": 5.2,
+        "text": "smaller math channels on YouTube. My friend James and I ran a second iteration of a contest that we"
+      },
+      {
+        "start": 9.4,
+        "duration": 6.1,
+        "text": "did last year, the Summer of Math Exposition, which invites people to put up lessons about math online."
+      },
+      {
+        "start": 15.5,
+        "duration": 4.2,
+        "text": "Could be a video, could be an article, any medium you dream up, whatever topic you dream up,"
+      },
+      {
+        "start": 19.7,
+        "duration": 4.6,
+        "text": "and we have some prizes available for the ones that we deem in some sense best, whatever that could"
+      },
+      {
+        "start": 24.2,
+        "duration": 5.0,
+        "text": "mean. The deadline for submissions was a little over a month ago, and if we just focus on the video"
+      },
+      {
+        "start": 30.0,
+        "duration": 5.4,
+        "text": "they've collectively accumulated over 7 million views since that time. Considering that the vast"
+      },
+      {
+        "start": 35.4,
+        "duration": 4.4,
+        "text": "majority of these are uploaded to very young channels, where the video is often just the first or"
+      },
+      {
+        "start": 39.8,
+        "duration": 5.0,
+        "text": "the second upload, this was really exciting for me to see. I suspect a big part of the reason for"
+      },
+      {
+        "start": 44.8,
+        "duration": 4.9,
+        "text": "this rising tide is that after the submission deadline we ran a peer review process where an"
+      },
+      {
+        "start": 49.7,
+        "duration": 4.3,
+        "text": "algorithm would feed participants two different videos to compare, and they'd be asked to vote which"
+      },
+      {
+        "start": 54.0,
+        "duration": 6.1,
+        "text": "one of these is, quote, better, according to a few criteria. Now that process generated over 10,000"
+      },
+      {
+        "start": 60.1,
+        "duration": 5.4,
+        "text": "comparisons, which on the one hand helps to provide an initial rough rank ordering of all the videos,"
+      },
+      {
+        "start": 65.5,
+        "duration": 4.8,
+        "text": "but more important than that in each judgements or rankings, it gave an excuse for many hundreds of"
+      },
+      {
+        "start": 70.3,
+        "duration": 4.9,
+        "text": "people to upload around a similar time and then collectively view each other's work, helping to"
+      },
+      {
+        "start": 75.2,
+        "duration": 4.6,
+        "text": "jump start a cluster of videos with a shared viewer base. And that 7 million number doesn't"
+      },
+      {
+        "start": 79.8,
+        "duration": 4.3,
+        "text": "account for other videos on these channels, for instance, the many submissions people made to last"
+      },
+      {
+        "start": 84.2,
+        "duration": 5.7,
+        "text": "years contest, which since this year's deadline could collectively jumped up by about 2 million views."
+      },
+      {
+        "start": 89.8,
+        "duration": 4.5,
+        "text": "One group who told me that last year's contest was what inspired them to put up their first video,"
+      },
+      {
+        "start": 94.3,
+        "duration": 4.8,
+        "text": "mentioned to me that a video they had made in between the two contests managed to suddenly jump from"
+      },
+      {
+        "start": 99.1,
+        "duration": 6.2,
+        "text": "1,000 to 600,000 views during the peer review process for this year's contest, despite not being"
+      },
+      {
+        "start": 105.4,
+        "duration": 4.6,
+        "text": "among those videos reviewed. This is all to say, there can be a surprising value in the seemingly"
+      },
+      {
+        "start": 110.0,
+        "duration": 5.0,
+        "text": "simple presence of a shared goal and a shared deadline. And again, these are just the video entries,"
+      },
+      {
+        "start": 115.0,
+        "duration": 3.9,
+        "text": "where it's easy for us to run these analytics to quickly get a sense of the reach. Many of my"
+      },
+      {
+        "start": 119.0,
+        "duration": 5.0,
+        "text": "favorite entries were the written ones. The spirit of the contest, as you can no doubt tell,"
+      },
+      {
+        "start": 124.0,
+        "duration": 4.3,
+        "text": "is getting more people to put out math lessons, and on that front mission accomplished."
+      },
+      {
+        "start": 128.3,
+        "duration": 4.8,
+        "text": "But I did promise to select five winners, lessons that stood out as especially valuable for one"
+      },
+      {
+        "start": 133.1,
+        "duration": 5.0,
+        "text": "reason or another. And that brings us to this video here. To choose winners, James and I both"
+      },
+      {
+        "start": 138.2,
+        "duration": 4.8,
+        "text": "spent a couple weeks giving a pretty thorough look at over 100 of the top entries, as determined by"
+      },
+      {
+        "start": 143.0,
+        "duration": 4.7,
+        "text": "the peer review process. And we also recruited a few guest judges from the community to help look"
+      },
+      {
+        "start": 147.7,
+        "duration": 4.1,
+        "text": "at a subset of these and make sure that our own biases and blind spots aren't playing too heavy a"
+      },
+      {
+        "start": 151.8,
+        "duration": 4.2,
+        "text": "role. Many, many thanks to them and the time they offered. I won't tell you the final decision"
+      },
+      {
+        "start": 155.9,
+        "duration": 4.6,
+        "text": "until the end of the video. What I thought might be more fun is to lead up to it by talking through"
+      },
+      {
+        "start": 160.5,
+        "duration": 4.9,
+        "text": "the criteria that I had in mind when making this selection, highlighting as many exemplary"
+      },
+      {
+        "start": 165.4,
+        "duration": 4.8,
+        "text": "submissions as I can along the way, hopefully giving any of you who are looking to put out your"
+      },
+      {
+        "start": 170.2,
+        "duration": 5.0,
+        "text": "own math lessons online at some point, a few concrete things to focus on. At a high level, the four"
+      },
+      {
+        "start": 175.1,
+        "duration": 6.0,
+        "text": "criteria I told people I'd look out for were motivation, clarity, novelty, and memorability."
+      },
+      {
+        "start": 181.1,
+        "duration": 4.3,
+        "text": "The first two are probably the most important and let's start with motivation. This actually has"
+      },
+      {
+        "start": 185.4,
+        "duration": 5.4,
+        "text": "two meanings I can think of one on the macro scale and one on the micro scale. By macro scale"
+      },
+      {
+        "start": 190.8,
+        "duration": 6.0,
+        "text": "motivation, I mean how well do you hook someone into the lesson as a whole? This video by Alexander"
+      },
+      {
+        "start": 196.8,
+        "duration": 5.7,
+        "text": "Bairdnikov opens by asking why it is that when you hear a plane approaching, the pitch of its sound"
+      },
+      {
+        "start": 202.5,
+        "duration": 5.6,
+        "text": "seems to slowly fall. He points out how a lot of people assume that this is the Doppler effect,"
+      },
+      {
+        "start": 208.1,
+        "duration": 4.4,
+        "text": "but that this doesn't actually hold up to scrutiny, since for example that pitch actually rises"
+      },
+      {
+        "start": 212.5,
+        "duration": 4.6,
+        "text": "as the plane is going away from you. It's a good point and an interesting question you have my"
+      },
+      {
+        "start": 217.0,
+        "duration": 5.4,
+        "text": "attention. One of my favorite articles in the batch by Adi Mital prompts you to wonder about an"
+      },
+      {
+        "start": 222.5,
+        "duration": 5.4,
+        "text": "algorithm behind the panorama feature on your phone and proceeds to explain one why that's not"
+      },
+      {
+        "start": 227.9,
+        "duration": 5.3,
+        "text": "trivial and then two the linear algebra and projective geometry involved in a DIY style project"
+      },
+      {
+        "start": 233.2,
+        "duration": 5.5,
+        "text": "to stitch together two overlapping images taken at different angles. Application and tangible"
+      },
+      {
+        "start": 238.7,
+        "duration": 3.9,
+        "text": "problems can make for great motivation, but that's not the only source of motivation."
+      },
+      {
+        "start": 242.6,
+        "duration": 3.9,
+        "text": "Depending on the target audience, a good nerd sniping question can also do the trick."
+      },
+      {
+        "start": 247.1,
+        "duration": 5.7,
+        "text": "This video on the channel Going Null opens with a seemingly impossible puzzle. Ten prisoners are"
+      },
+      {
+        "start": 252.8,
+        "duration": 5.5,
+        "text": "each given a hat chosen arbitrarily from ten total hat types available. It is possible for some"
+      },
+      {
+        "start": 258.3,
+        "duration": 4.5,
+        "text": "of the prisoners to have the same hat type as others and everyone can see all of the other hats"
+      },
+      {
+        "start": 262.8,
+        "duration": 5.0,
+        "text": "but not their own. After giving a little time to look at everyone else's hat and think about it all,"
+      },
+      {
+        "start": 267.8,
+        "duration": 5.4,
+        "text": "the prisoners are to simultaneously shout out a guess for their own hat type. The question is,"
+      },
+      {
+        "start": 273.3,
+        "duration": 4.5,
+        "text": "can you find a method that guarantees at least one of the prisoners will make a correct guess?"
+      },
+      {
+        "start": 280.2,
+        "duration": 5.6,
+        "text": "This video by Eric Roland motivates the idea of periodic numbers than the periodic metric by showing"
+      },
+      {
+        "start": 285.8,
+        "duration": 3.8,
+        "text": "how if you take two to the tenth and two to the one hundredth, two to the one thousandth,"
+      },
+      {
+        "start": 289.6,
+        "duration": 5.4,
+        "text": "so on and so on and you assign distinct colors to each digit, lining them all up on the right."
+      },
+      {
+        "start": 295.0,
+        "duration": 3.8,
+        "text": "You can see that their final digits line up more and more with larger powers."
+      },
+      {
+        "start": 299.7,
+        "duration": 5.0,
+        "text": "And he asks the question of whether it's reasonable to interpret this as a kind of convergence,"
+      },
+      {
+        "start": 304.6,
+        "duration": 4.2,
+        "text": "despite the fact that these numbers are clearly diverging to infinity in the usual sense."
+      },
+      {
+        "start": 310.3,
+        "duration": 4.5,
+        "text": "A completely different form of motivation can come from showing the historical significance of"
+      },
+      {
+        "start": 314.8,
+        "duration": 4.1,
+        "text": "a problem or a field in a sense giving the viewer a feeling that they're part of something bigger."
+      },
+      {
+        "start": 319.5,
+        "duration": 5.3,
+        "text": "One excellent video on a channel A Well-Rested Dog provides an overview of the history of calculus."
+      },
+      {
+        "start": 325.0,
+        "duration": 4.0,
+        "text": "The progression of how some of the world's smartest minds grappled with the nuances of"
+      },
+      {
+        "start": 329.0,
+        "duration": 3.9,
+        "text": "infinity and infinitesimals. It's the right mixture of entertaining and detailed,"
+      },
+      {
+        "start": 333.0,
+        "duration": 4.2,
+        "text": "and he goes on to talk about how learning all of this made his own questions and confusions in"
+      },
+      {
+        "start": 337.1,
+        "duration": 4.1,
+        "text": "a calculus class feel validated, which I think a lot of students can resonate with."
+      },
+      {
+        "start": 341.8,
+        "duration": 4.2,
+        "text": "This example is less about the intro of a video motivating the lesson it teaches,"
+      },
+      {
+        "start": 345.9,
+        "duration": 3.3,
+        "text": "and more about the entire video motivating an entire field."
+      },
+      {
+        "start": 349.9,
+        "duration": 3.5,
+        "text": "Another one like that would be this lecture by the channel Thissary,"
+      },
+      {
+        "start": 353.4,
+        "duration": 4.7,
+        "text": "laying out how Kantor's diagonalization argument and the Hulting Problem and a number of other"
+      },
+      {
+        "start": 358.2,
+        "duration": 4.6,
+        "text": "paradoxes people might have heard of in math, computer science, and logic all actually follow the"
+      },
+      {
+        "start": 362.8,
+        "duration": 5.2,
+        "text": "same basic pattern. And moreover, if you try to formalize the exact sense in which they follow"
+      },
+      {
+        "start": 368.0,
+        "duration": 4.7,
+        "text": "the same pattern, that ends up serving as a pretty nice motivation for the subject of category theory."
+      },
+      {
+        "start": 374.2,
+        "duration": 4.5,
+        "text": "And the last flavor of motivation I'll mention is if you can somehow make the learner feel like"
+      },
+      {
+        "start": 378.6,
+        "duration": 5.4,
+        "text": "they're playing an active role in the lesson. This is very hard to do with a video, maybe even"
+      },
+      {
+        "start": 384.0,
+        "duration": 4.7,
+        "text": "impossible, and it's best suited for in-person lessons. But one written entry that I thought"
+      },
+      {
+        "start": 388.7,
+        "duration": 5.1,
+        "text": "did this especially well was an inverse turing test, where you as the reader are challenged to come"
+      },
+      {
+        "start": 393.8,
+        "duration": 5.6,
+        "text": "up with a sequence of ones and zeros that appears random, and the article goes on to explain various"
+      },
+      {
+        "start": 399.4,
+        "duration": 4.7,
+        "text": "statistical tests that you could apply to prove that the sequence was actually human generated,"
+      },
+      {
+        "start": 404.2,
+        "duration": 5.6,
+        "text": "and not really random. The content of the article is centered around the particular sequence that"
+      },
+      {
+        "start": 409.8,
+        "duration": 4.6,
+        "text": "you the reader created, and you're invited to change it along the way to try to get it to pass more"
+      },
+      {
+        "start": 414.3,
+        "duration": 4.5,
+        "text": "tests. It's a nice touch, and I could easily see this working really well as a classroom activity."
+      },
+      {
+        "start": 419.6,
+        "duration": 3.3,
+        "text": "Whatever approach you take, whatever flavor of motivation is your favorite,"
+      },
+      {
+        "start": 422.9,
+        "duration": 4.8,
+        "text": "it's hard to overstate just how important it is that you do actually give viewers a reason to care."
+      },
+      {
+        "start": 428.2,
+        "duration": 4.7,
+        "text": "This is true for any piece of content, but I think it's especially true for educational content,"
+      },
+      {
+        "start": 433.0,
+        "duration": 4.8,
+        "text": "and even more so for math, given the amount of focus and thought that these topics sometimes"
+      },
+      {
+        "start": 437.8,
+        "duration": 4.7,
+        "text": "require. I think this was articulated best by the author of one of my favorite podcasts,"
+      },
+      {
+        "start": 442.5,
+        "duration": 4.9,
+        "text": "an opinionated history of mathematics, who has a manifesto on his website that lays out what he"
+      },
+      {
+        "start": 447.4,
+        "duration": 4.3,
+        "text": "calls the axioms of learning, beginning with the first axiom, quote,"
+      },
+      {
+        "start": 451.7,
+        "duration": 4.7,
+        "text": "in a perfect world, students pursue learning not because it is prescribed to them, but rather out of"
+      },
+      {
+        "start": 456.4,
+        "duration": 5.7,
+        "text": "a genuine desire to figure things out. It follows that we must not introduce any topic for which we"
+      },
+      {
+        "start": 462.1,
+        "duration": 6.0,
+        "text": "cannot first convince the students that they should want to pursue it. That said, one mistake that"
+      },
+      {
+        "start": 468.1,
+        "duration": 6.2,
+        "text": "I think I've made in past videos is to over-philosifies in the video's introduction. Motivation is"
+      },
+      {
+        "start": 474.2,
+        "duration": 4.6,
+        "text": "critical, but it doesn't have to take long, and often what actually keeps the viewer engaged"
+      },
+      {
+        "start": 478.8,
+        "duration": 4.0,
+        "text": "is to get right to the point and leave any commentary about broader themes and connections to the"
+      },
+      {
+        "start": 482.8,
+        "duration": 6.2,
+        "text": "end. If you can, motivate using clear examples, not sweeping statements or promises of what is to come."
+      },
+      {
+        "start": 489.3,
+        "duration": 5.7,
+        "text": "By micro scale motivation, what I mean is whether each new idea that's introduced in the lesson"
+      },
+      {
+        "start": 495.0,
+        "duration": 4.9,
+        "text": "itself feels to the learner like it has a good reason to be there. For instance, this video by"
+      },
+      {
+        "start": 499.8,
+        "duration": 5.5,
+        "text": "Joshua Maros gives a fairly detailed overview of ray tracing, and what I love about it is that before"
+      },
+      {
+        "start": 505.4,
+        "duration": 5.0,
+        "text": "he introduces any new technical topic, like the rendering equation, important sampling or the"
+      },
+      {
+        "start": 510.4,
+        "duration": 5.7,
+        "text": "restore algorithm, he's already outlined the main idea and intuition for that topic with really"
+      },
+      {
+        "start": 516.1,
+        "duration": 4.8,
+        "text": "well-visualized examples. It makes it so that once the equation comes on the screen, or the"
+      },
+      {
+        "start": 520.9,
+        "duration": 5.0,
+        "text": "algorithm is described, it doesn't feel like an expression handed down with nothing to hold on to."
+      },
+      {
+        "start": 525.9,
+        "duration": 4.9,
+        "text": "Instead, it arrives only once it's articulating something that already exists at least loosely"
+      },
+      {
+        "start": 530.8,
+        "duration": 6.1,
+        "text": "in the viewer's mind, making it much easier to parse. This video, by Michael DeFranco, about"
+      },
+      {
+        "start": 536.9,
+        "duration": 4.5,
+        "text": "extending the factorial, offers another great example of a lesson with good motivation along the way."
+      },
+      {
+        "start": 542.1,
+        "duration": 3.8,
+        "text": "You may have heard that there's a function generalizing the factorial to real and even"
+      },
+      {
+        "start": 545.9,
+        "duration": 5.0,
+        "text": "complex inputs, the gamma function. The usual definition is written down as a certain integral"
+      },
+      {
+        "start": 551.0,
+        "duration": 5.0,
+        "text": "expression sort of handed down from on high, and the justification for why this generalizes"
+      },
+      {
+        "start": 556.0,
+        "duration": 4.7,
+        "text": "factorials is certain properties that you can prove about it. But a lot of students find the"
+      },
+      {
+        "start": 560.7,
+        "duration": 5.4,
+        "text": "sun satisfying, where does it come from? By contrast, in Michael's explanation, he starts by"
+      },
+      {
+        "start": 566.2,
+        "duration": 4.5,
+        "text": "observing the properties that are true of the normal factorial function that you would want to be"
+      },
+      {
+        "start": 570.6,
+        "duration": 5.1,
+        "text": "true of a general version, and uses those desired properties to motivate various different"
+      },
+      {
+        "start": 575.8,
+        "duration": 4.7,
+        "text": "alternate expressions massaged here and there to be more amenable to non-hole number inputs,"
+      },
+      {
+        "start": 580.5,
+        "duration": 4.8,
+        "text": "ultimately leading to a pretty satisfying answer. Another good template for this"
+      },
+      {
+        "start": 585.3,
+        "duration": 5.0,
+        "text": "microscale motivation when introducing a pretty complicated solution to a problem is to start with"
+      },
+      {
+        "start": 590.3,
+        "duration": 5.8,
+        "text": "a naive but flawed solution and then progressively refine it. This article, by Max Slater,"
+      },
+      {
+        "start": 596.1,
+        "duration": 5.5,
+        "text": "undifferential programming does this particularly well. The basic question is how you get computers"
+      },
+      {
+        "start": 601.6,
+        "duration": 5.6,
+        "text": "to evaluate derivatives, a ubiquitous task for machine learning. He starts by describing the most"
+      },
+      {
+        "start": 607.2,
+        "duration": 5.5,
+        "text": "obvious approach and then what flaws it has and uses that as motivation for another approach."
+      },
+      {
+        "start": 612.7,
+        "duration": 4.4,
+        "text": "But that one has its own flaws and fixing those motivates yet another approach and so on."
+      },
+      {
+        "start": 617.6,
+        "duration": 5.1,
+        "text": "The ideas he builds up to, dual numbers and backward mode automatic differentiation,"
+      },
+      {
+        "start": 622.7,
+        "duration": 5.4,
+        "text": "both could feel a bit confusing if presented out of the blue. But in context, having motivated"
+      },
+      {
+        "start": 628.1,
+        "duration": 4.9,
+        "text": "each new idea by pointing out flaws with the previous ones, it all ends up feeling utterly reasonable."
+      },
+      {
+        "start": 633.6,
+        "duration": 3.2,
+        "text": "Turning back to that same prisoner hat puzzle I referenced earlier,"
+      },
+      {
+        "start": 636.8,
+        "duration": 4.0,
+        "text": "one of the other things I liked about it is how the author doesn't just present the solution,"
+      },
+      {
+        "start": 640.8,
+        "duration": 4.3,
+        "text": "there are plenty of puzzle videos out there which do that. Instead, he gives a pretty authentic"
+      },
+      {
+        "start": 645.1,
+        "duration": 4.2,
+        "text": "look at the wrong turns and tangents that are involved in the problem solving process,"
+      },
+      {
+        "start": 649.4,
+        "duration": 4.7,
+        "text": "not even eating up too much time to do so, and he justifies each new step with a general problem"
+      },
+      {
+        "start": 654.1,
+        "duration": 5.8,
+        "text": "solving principle. All of this micro scale motivation could just as well be categorized as a subset of"
+      },
+      {
+        "start": 659.8,
+        "duration": 5.1,
+        "text": "clarity. If motivating a lesson determines how much attention and focus the viewer is willing to"
+      },
+      {
+        "start": 665.0,
+        "duration": 5.5,
+        "text": "give you, clarity determines how quickly you burn through that focus. The best hook in the world is"
+      },
+      {
+        "start": 670.5,
+        "duration": 6.2,
+        "text": "wasted if the lesson which follows is confusing. This presentation by Explanaria talks about how to"
+      },
+      {
+        "start": 676.6,
+        "duration": 6.6,
+        "text": "describe various crystal structures using group theory, which considering the complex 3D forms involved"
+      },
+      {
+        "start": 683.2,
+        "duration": 4.4,
+        "text": "and the fact that most people don't know group theory has the potential to be very confusing."
+      },
+      {
+        "start": 688.2,
+        "duration": 4.2,
+        "text": "But they do a really effective job at keeping concrete examples front and center,"
+      },
+      {
+        "start": 692.4,
+        "duration": 4.6,
+        "text": "guiding the reader to focus on one relevant pattern at a time, and distilling down to a simple"
+      },
+      {
+        "start": 697.0,
+        "duration": 4.0,
+        "text": "version of an idea before seeing how that fits into a broader, more general setting."
+      },
+      {
+        "start": 701.8,
+        "duration": 4.3,
+        "text": "In general, entries that struck me as especially clear would often keep one or two"
+      },
+      {
+        "start": 706.2,
+        "duration": 4.7,
+        "text": "examples front and center, and that often give a feeling of playing with those examples, maybe"
+      },
+      {
+        "start": 710.9,
+        "duration": 4.4,
+        "text": "running simulations or tweaking them to run up against edge cases, and all around giving the"
+      },
+      {
+        "start": 715.3,
+        "duration": 4.0,
+        "text": "viewer a chance to build their own intuitions before general rules are presented."
+      },
+      {
+        "start": 720.1,
+        "duration": 5.4,
+        "text": "The example doesn't even have to be explicit. In a visually driven lesson, the choice of what to"
+      },
+      {
+        "start": 725.4,
+        "duration": 5.1,
+        "text": "show on screen when making general points is often a great opportunity to offer the viewer a"
+      },
+      {
+        "start": 730.6,
+        "duration": 4.7,
+        "text": "concrete example to hold on to, but without wasting too much time explicitly talking about that"
+      },
+      {
+        "start": 735.3,
+        "duration": 5.0,
+        "text": "example or over-emphasizing its importance. This, I think, is part of what gives visually driven"
+      },
+      {
+        "start": 740.2,
+        "duration": 4.7,
+        "text": "lessons the opportunity to be clearer. As a brief side comment, by the way, loosely related"
+      },
+      {
+        "start": 745.0,
+        "duration": 6.2,
+        "text": "to clarity, for any of you who want to use music in the videos, while music can enrich the storytelling"
+      },
+      {
+        "start": 751.1,
+        "duration": 4.4,
+        "text": "aspect of a lesson, setting the desired tone and the momentum, once you're getting into the"
+      },
+      {
+        "start": 755.5,
+        "duration": 4.5,
+        "text": "meat of a technical explanation, it's very easy for the music to do more harm than good."
+      },
+      {
+        "start": 760.6,
+        "duration": 3.8,
+        "text": "If it's there at all, you'll want it to be decidedly in the background and not calling"
+      },
+      {
+        "start": 764.3,
+        "duration": 4.3,
+        "text": "attention to itself. I recognize some hypocrisy here, it's definitely something I know I've"
+      },
+      {
+        "start": 768.6,
+        "duration": 4.0,
+        "text": "messed up with past videos, and it's just worth thinking about whatever benefit you see from the"
+      },
+      {
+        "start": 772.6,
+        "duration": 4.2,
+        "text": "music, you don't want to incur a needless cost on clarity that outweighs that benefit."
+      },
+      {
+        "start": 777.8,
+        "duration": 4.4,
+        "text": "Moving on to novelty, this is another category that has two distinct interpretations."
+      },
+      {
+        "start": 782.8,
+        "duration": 5.4,
+        "text": "One would be stylistic originality. Back when I created this channel, part of the reason I wrote"
+      },
+      {
+        "start": 788.2,
+        "duration": 5.7,
+        "text": "my own animation tool behind it was to ensure a kind of stylistic originality. Well, the main"
+      },
+      {
+        "start": 793.9,
+        "duration": 4.7,
+        "text": "reason was it was a fun side project, and having my hands deep into the guts of some tool"
+      },
+      {
+        "start": 798.6,
+        "duration": 4.6,
+        "text": "helped me to feel less constrained in trying to visualize whatever came to mind, but being a"
+      },
+      {
+        "start": 803.3,
+        "duration": 4.8,
+        "text": "forcing function for originality was at least a small part of my reasoning. This means there's"
+      },
+      {
+        "start": 808.1,
+        "duration": 5.0,
+        "text": "at least a little hint of irony in the fact that if we fast forward to today, so many of the entries"
+      },
+      {
+        "start": 813.1,
+        "duration": 5.2,
+        "text": "in this contest use that tool, Manum, to illustrate their lessons. I have nothing wrong with that,"
+      },
+      {
+        "start": 818.3,
+        "duration": 4.0,
+        "text": "it actually delights me, it's why I made it open source, and I'm very grateful to the Manum"
+      },
+      {
+        "start": 822.3,
+        "duration": 4.5,
+        "text": "community for everything they've done to make the tool more accessible. But I would still encourage"
+      },
+      {
+        "start": 826.8,
+        "duration": 5.0,
+        "text": "people to find their own unique voice and aesthetic whatever tools they use and whoever they take"
+      },
+      {
+        "start": 831.8,
+        "duration": 4.5,
+        "text": "inspiration from. I don't want to overemphasize that point because it's the much less important"
+      },
+      {
+        "start": 836.2,
+        "duration": 5.0,
+        "text": "half of novelty, the much more important kind of novelty is when the thing you present would have"
+      },
+      {
+        "start": 841.3,
+        "duration": 5.1,
+        "text": "been very hard to find elsewhere on the internet, either because it's a highly unique topic or because"
+      },
+      {
+        "start": 846.4,
+        "duration": 5.9,
+        "text": "it's a very unique perspective. For example, this video on percolation showed a completely"
+      },
+      {
+        "start": 852.3,
+        "duration": 5.5,
+        "text": "fascinating toy model for studying phase changes, a model where it's easier to make exact proofs,"
+      },
+      {
+        "start": 857.8,
+        "duration": 3.9,
+        "text": "and considering the level of depth and the level of clarity that the authors provided,"
+      },
+      {
+        "start": 861.8,
+        "duration": 3.9,
+        "text": "I think it's fair to say you wouldn't find something like this on YouTube if this group hadn't made it."
+      },
+      {
+        "start": 866.6,
+        "duration": 5.0,
+        "text": "As to memorability, I'll keep this one quick. Lessons take off this box when they ask a question"
+      },
+      {
+        "start": 871.7,
+        "duration": 5.2,
+        "text": "that's just so fun to think about or provide such a satisfying aha moment that it stays with"
+      },
+      {
+        "start": 876.9,
+        "duration": 5.0,
+        "text": "you long after watching it or reading it. Admittedly, this one is highly personal and subjective."
+      },
+      {
+        "start": 881.8,
+        "duration": 5.5,
+        "text": "To my taste, for example, this video by Daria Ivanova discusses the question of when it's possible"
+      },
+      {
+        "start": 887.4,
+        "duration": 5.0,
+        "text": "for a single track to have been left by a bicycle, that is, the back wheel goes through the same path"
+      },
+      {
+        "start": 892.3,
+        "duration": 6.8,
+        "text": "that the front wheel does, which is just so fun to think about. This video by Gurgly Bensic about how"
+      },
+      {
+        "start": 899.1,
+        "duration": 4.8,
+        "text": "Involute Gears work had a really satisfying way of explaining why a certain gear design pattern"
+      },
+      {
+        "start": 903.9,
+        "duration": 6.2,
+        "text": "works so well, that for me at least just stuck. So with all of that, who are the chosen winners?"
+      },
+      {
+        "start": 910.1,
+        "duration": 4.8,
+        "text": "In the announcement, I promised that one winner slot would go to an entry that was made as a collaboration,"
+      },
+      {
+        "start": 914.9,
+        "duration": 4.9,
+        "text": "and that one goes to the percolation video. The other four winners are, perhaps unsurprisingly,"
+      },
+      {
+        "start": 919.8,
+        "duration": 4.6,
+        "text": "also ones that I've already mentioned. They include the post about describing crystal structures"
+      },
+      {
+        "start": 924.4,
+        "duration": 4.2,
+        "text": "with group theory, the video covering the history of calculus, the one about ray tracing,"
+      },
+      {
+        "start": 928.6,
+        "duration": 4.4,
+        "text": "and the algorithms to make it faster, and the problem solving lesson centered around a tricky hat"
+      },
+      {
+        "start": 933.0,
+        "duration": 5.0,
+        "text": "riddle. These entries really do speak for themselves, so rather than telling you too much more here,"
+      },
+      {
+        "start": 938.1,
+        "duration": 5.2,
+        "text": "I encourage you to check them out. To be honest, after I got it down to about 25 entries that I wanted"
+      },
+      {
+        "start": 943.3,
+        "duration": 4.8,
+        "text": "to at least be honorable mentions, it was exceedingly hard to actually choose winners from that."
+      },
+      {
+        "start": 948.1,
+        "duration": 4.3,
+        "text": "Since for each of these, I could easily envision a target audience for whom that entry would actually"
+      },
+      {
+        "start": 952.6,
+        "duration": 6.0,
+        "text": "be the best recommendation. It was a game of comparing apples to oranges, but times 25. Below the video,"
+      },
+      {
+        "start": 958.6,
+        "duration": 4.4,
+        "text": "I've left links to the other 20 that I chose as honorable mentions, and to a playlist that"
+      },
+      {
+        "start": 963.0,
+        "duration": 5.3,
+        "text": "contains all the video submissions, and also to a blog post containing links to all of the non-video"
+      },
+      {
+        "start": 968.2,
+        "duration": 5.5,
+        "text": "submissions. Thanks to a sponsorship from Brilliant, each winner will get $1,000 as a cash prize,"
+      },
+      {
+        "start": 973.8,
+        "duration": 4.5,
+        "text": "and also, and much more importantly, I think, a rare edition golden pie creature. Also,"
+      },
+      {
+        "start": 978.2,
+        "duration": 5.1,
+        "text": "after the initial announcement, Risk Zero and Google Fonts both generously reached out offering"
+      },
+      {
+        "start": 983.4,
+        "duration": 4.6,
+        "text": "additional prize sponsorships. I'd also like to thank Protocol Labs for another contribution to"
+      },
+      {
+        "start": 987.9,
+        "duration": 4.6,
+        "text": "help us cover the costs of managing the whole event. Thanks to everybody who participated,"
+      },
+      {
+        "start": 992.6,
+        "duration": 4.6,
+        "text": "and to everybody who helped in creating this rising tide for new math channels and new math"
+      },
+      {
+        "start": 997.1,
+        "duration": 4.9,
+        "text": "blogs that we've seen in the last month. It was genuinely inspiring to see just how well this all"
+      },
+      {
+        "start": 1002.0,
+        "duration": 6.1,
+        "text": "went."
+      }
+    ],
+    "full_text": "In the last month or two, there's been a measurable increase in the attention to a wide variety of smaller math channels on YouTube. My friend James and I ran a second iteration of a contest that we did last year, the Summer of Math Exposition, which invites people to put up lessons about math online. Could be a video, could be an article, any medium you dream up, whatever topic you dream up, and we have some prizes available for the ones that we deem in some sense best, whatever that could mean. The deadline for submissions was a little over a month ago, and if we just focus on the video they've collectively accumulated over 7 million views since that time. Considering that the vast majority of these are uploaded to very young channels, where the video is often just the first or the second upload, this was really exciting for me to see. I suspect a big part of the reason for this rising tide is that after the submission deadline we ran a peer review process where an algorithm would feed participants two different videos to compare, and they'd be asked to vote which one of these is, quote, better, according to a few criteria. Now that process generated over 10,000 comparisons, which on the one hand helps to provide an initial rough rank ordering of all the videos, but more important than that in each judgements or rankings, it gave an excuse for many hundreds of people to upload around a similar time and then collectively view each other's work, helping to jump start a cluster of videos with a shared viewer base. And that 7 million number doesn't account for other videos on these channels, for instance, the many submissions people made to last years contest, which since this year's deadline could collectively jumped up by about 2 million views. One group who told me that last year's contest was what inspired them to put up their first video, mentioned to me that a video they had made in between the two contests managed to suddenly jump from 1,000 to 600,000 views during the peer review process for this year's contest, despite not being among those videos reviewed. This is all to say, there can be a surprising value in the seemingly simple presence of a shared goal and a shared deadline. And again, these are just the video entries, where it's easy for us to run these analytics to quickly get a sense of the reach. Many of my favorite entries were the written ones. The spirit of the contest, as you can no doubt tell, is getting more people to put out math lessons, and on that front mission accomplished. But I did promise to select five winners, lessons that stood out as especially valuable for one reason or another. And that brings us to this video here. To choose winners, James and I both spent a couple weeks giving a pretty thorough look at over 100 of the top entries, as determined by the peer review process. And we also recruited a few guest judges from the community to help look at a subset of these and make sure that our own biases and blind spots aren't playing too heavy a role. Many, many thanks to them and the time they offered. I won't tell you the final decision until the end of the video. What I thought might be more fun is to lead up to it by talking through the criteria that I had in mind when making this selection, highlighting as many exemplary submissions as I can along the way, hopefully giving any of you who are looking to put out your own math lessons online at some point, a few concrete things to focus on. At a high level, the four criteria I told people I'd look out for were motivation, clarity, novelty, and memorability. The first two are probably the most important and let's start with motivation. This actually has two meanings I can think of one on the macro scale and one on the micro scale. By macro scale motivation, I mean how well do you hook someone into the lesson as a whole? This video by Alexander Bairdnikov opens by asking why it is that when you hear a plane approaching, the pitch of its sound seems to slowly fall. He points out how a lot of people assume that this is the Doppler effect, but that this doesn't actually hold up to scrutiny, since for example that pitch actually rises as the plane is going away from you. It's a good point and an interesting question you have my attention. One of my favorite articles in the batch by Adi Mital prompts you to wonder about an algorithm behind the panorama feature on your phone and proceeds to explain one why that's not trivial and then two the linear algebra and projective geometry involved in a DIY style project to stitch together two overlapping images taken at different angles. Application and tangible problems can make for great motivation, but that's not the only source of motivation. Depending on the target audience, a good nerd sniping question can also do the trick. This video on the channel Going Null opens with a seemingly impossible puzzle. Ten prisoners are each given a hat chosen arbitrarily from ten total hat types available. It is possible for some of the prisoners to have the same hat type as others and everyone can see all of the other hats but not their own. After giving a little time to look at everyone else's hat and think about it all, the prisoners are to simultaneously shout out a guess for their own hat type. The question is, can you find a method that guarantees at least one of the prisoners will make a correct guess? This video by Eric Roland motivates the idea of periodic numbers than the periodic metric by showing how if you take two to the tenth and two to the one hundredth, two to the one thousandth, so on and so on and you assign distinct colors to each digit, lining them all up on the right. You can see that their final digits line up more and more with larger powers. And he asks the question of whether it's reasonable to interpret this as a kind of convergence, despite the fact that these numbers are clearly diverging to infinity in the usual sense. A completely different form of motivation can come from showing the historical significance of a problem or a field in a sense giving the viewer a feeling that they're part of something bigger. One excellent video on a channel A Well-Rested Dog provides an overview of the history of calculus. The progression of how some of the world's smartest minds grappled with the nuances of infinity and infinitesimals. It's the right mixture of entertaining and detailed, and he goes on to talk about how learning all of this made his own questions and confusions in a calculus class feel validated, which I think a lot of students can resonate with. This example is less about the intro of a video motivating the lesson it teaches, and more about the entire video motivating an entire field. Another one like that would be this lecture by the channel Thissary, laying out how Kantor's diagonalization argument and the Hulting Problem and a number of other paradoxes people might have heard of in math, computer science, and logic all actually follow the same basic pattern. And moreover, if you try to formalize the exact sense in which they follow the same pattern, that ends up serving as a pretty nice motivation for the subject of category theory. And the last flavor of motivation I'll mention is if you can somehow make the learner feel like they're playing an active role in the lesson. This is very hard to do with a video, maybe even impossible, and it's best suited for in-person lessons. But one written entry that I thought did this especially well was an inverse turing test, where you as the reader are challenged to come up with a sequence of ones and zeros that appears random, and the article goes on to explain various statistical tests that you could apply to prove that the sequence was actually human generated, and not really random. The content of the article is centered around the particular sequence that you the reader created, and you're invited to change it along the way to try to get it to pass more tests. It's a nice touch, and I could easily see this working really well as a classroom activity. Whatever approach you take, whatever flavor of motivation is your favorite, it's hard to overstate just how important it is that you do actually give viewers a reason to care. This is true for any piece of content, but I think it's especially true for educational content, and even more so for math, given the amount of focus and thought that these topics sometimes require. I think this was articulated best by the author of one of my favorite podcasts, an opinionated history of mathematics, who has a manifesto on his website that lays out what he calls the axioms of learning, beginning with the first axiom, quote, in a perfect world, students pursue learning not because it is prescribed to them, but rather out of a genuine desire to figure things out. It follows that we must not introduce any topic for which we cannot first convince the students that they should want to pursue it. That said, one mistake that I think I've made in past videos is to over-philosifies in the video's introduction. Motivation is critical, but it doesn't have to take long, and often what actually keeps the viewer engaged is to get right to the point and leave any commentary about broader themes and connections to the end. If you can, motivate using clear examples, not sweeping statements or promises of what is to come. By micro scale motivation, what I mean is whether each new idea that's introduced in the lesson itself feels to the learner like it has a good reason to be there. For instance, this video by Joshua Maros gives a fairly detailed overview of ray tracing, and what I love about it is that before he introduces any new technical topic, like the rendering equation, important sampling or the restore algorithm, he's already outlined the main idea and intuition for that topic with really well-visualized examples. It makes it so that once the equation comes on the screen, or the algorithm is described, it doesn't feel like an expression handed down with nothing to hold on to. Instead, it arrives only once it's articulating something that already exists at least loosely in the viewer's mind, making it much easier to parse. This video, by Michael DeFranco, about extending the factorial, offers another great example of a lesson with good motivation along the way. You may have heard that there's a function generalizing the factorial to real and even complex inputs, the gamma function. The usual definition is written down as a certain integral expression sort of handed down from on high, and the justification for why this generalizes factorials is certain properties that you can prove about it. But a lot of students find the sun satisfying, where does it come from? By contrast, in Michael's explanation, he starts by observing the properties that are true of the normal factorial function that you would want to be true of a general version, and uses those desired properties to motivate various different alternate expressions massaged here and there to be more amenable to non-hole number inputs, ultimately leading to a pretty satisfying answer. Another good template for this microscale motivation when introducing a pretty complicated solution to a problem is to start with a naive but flawed solution and then progressively refine it. This article, by Max Slater, undifferential programming does this particularly well. The basic question is how you get computers to evaluate derivatives, a ubiquitous task for machine learning. He starts by describing the most obvious approach and then what flaws it has and uses that as motivation for another approach. But that one has its own flaws and fixing those motivates yet another approach and so on. The ideas he builds up to, dual numbers and backward mode automatic differentiation, both could feel a bit confusing if presented out of the blue. But in context, having motivated each new idea by pointing out flaws with the previous ones, it all ends up feeling utterly reasonable. Turning back to that same prisoner hat puzzle I referenced earlier, one of the other things I liked about it is how the author doesn't just present the solution, there are plenty of puzzle videos out there which do that. Instead, he gives a pretty authentic look at the wrong turns and tangents that are involved in the problem solving process, not even eating up too much time to do so, and he justifies each new step with a general problem solving principle. All of this micro scale motivation could just as well be categorized as a subset of clarity. If motivating a lesson determines how much attention and focus the viewer is willing to give you, clarity determines how quickly you burn through that focus. The best hook in the world is wasted if the lesson which follows is confusing. This presentation by Explanaria talks about how to describe various crystal structures using group theory, which considering the complex 3D forms involved and the fact that most people don't know group theory has the potential to be very confusing. But they do a really effective job at keeping concrete examples front and center, guiding the reader to focus on one relevant pattern at a time, and distilling down to a simple version of an idea before seeing how that fits into a broader, more general setting. In general, entries that struck me as especially clear would often keep one or two examples front and center, and that often give a feeling of playing with those examples, maybe running simulations or tweaking them to run up against edge cases, and all around giving the viewer a chance to build their own intuitions before general rules are presented. The example doesn't even have to be explicit. In a visually driven lesson, the choice of what to show on screen when making general points is often a great opportunity to offer the viewer a concrete example to hold on to, but without wasting too much time explicitly talking about that example or over-emphasizing its importance. This, I think, is part of what gives visually driven lessons the opportunity to be clearer. As a brief side comment, by the way, loosely related to clarity, for any of you who want to use music in the videos, while music can enrich the storytelling aspect of a lesson, setting the desired tone and the momentum, once you're getting into the meat of a technical explanation, it's very easy for the music to do more harm than good. If it's there at all, you'll want it to be decidedly in the background and not calling attention to itself. I recognize some hypocrisy here, it's definitely something I know I've messed up with past videos, and it's just worth thinking about whatever benefit you see from the music, you don't want to incur a needless cost on clarity that outweighs that benefit. Moving on to novelty, this is another category that has two distinct interpretations. One would be stylistic originality. Back when I created this channel, part of the reason I wrote my own animation tool behind it was to ensure a kind of stylistic originality. Well, the main reason was it was a fun side project, and having my hands deep into the guts of some tool helped me to feel less constrained in trying to visualize whatever came to mind, but being a forcing function for originality was at least a small part of my reasoning. This means there's at least a little hint of irony in the fact that if we fast forward to today, so many of the entries in this contest use that tool, Manum, to illustrate their lessons. I have nothing wrong with that, it actually delights me, it's why I made it open source, and I'm very grateful to the Manum community for everything they've done to make the tool more accessible. But I would still encourage people to find their own unique voice and aesthetic whatever tools they use and whoever they take inspiration from. I don't want to overemphasize that point because it's the much less important half of novelty, the much more important kind of novelty is when the thing you present would have been very hard to find elsewhere on the internet, either because it's a highly unique topic or because it's a very unique perspective. For example, this video on percolation showed a completely fascinating toy model for studying phase changes, a model where it's easier to make exact proofs, and considering the level of depth and the level of clarity that the authors provided, I think it's fair to say you wouldn't find something like this on YouTube if this group hadn't made it. As to memorability, I'll keep this one quick. Lessons take off this box when they ask a question that's just so fun to think about or provide such a satisfying aha moment that it stays with you long after watching it or reading it. Admittedly, this one is highly personal and subjective. To my taste, for example, this video by Daria Ivanova discusses the question of when it's possible for a single track to have been left by a bicycle, that is, the back wheel goes through the same path that the front wheel does, which is just so fun to think about. This video by Gurgly Bensic about how Involute Gears work had a really satisfying way of explaining why a certain gear design pattern works so well, that for me at least just stuck. So with all of that, who are the chosen winners? In the announcement, I promised that one winner slot would go to an entry that was made as a collaboration, and that one goes to the percolation video. The other four winners are, perhaps unsurprisingly, also ones that I've already mentioned. They include the post about describing crystal structures with group theory, the video covering the history of calculus, the one about ray tracing, and the algorithms to make it faster, and the problem solving lesson centered around a tricky hat riddle. These entries really do speak for themselves, so rather than telling you too much more here, I encourage you to check them out. To be honest, after I got it down to about 25 entries that I wanted to at least be honorable mentions, it was exceedingly hard to actually choose winners from that. Since for each of these, I could easily envision a target audience for whom that entry would actually be the best recommendation. It was a game of comparing apples to oranges, but times 25. Below the video, I've left links to the other 20 that I chose as honorable mentions, and to a playlist that contains all the video submissions, and also to a blog post containing links to all of the non-video submissions. Thanks to a sponsorship from Brilliant, each winner will get $1,000 as a cash prize, and also, and much more importantly, I think, a rare edition golden pie creature. Also, after the initial announcement, Risk Zero and Google Fonts both generously reached out offering additional prize sponsorships. I'd also like to thank Protocol Labs for another contribution to help us cover the costs of managing the whole event. Thanks to everybody who participated, and to everybody who helped in creating this rising tide for new math channels and new math blogs that we've seen in the last month. It was genuinely inspiring to see just how well this all went."
+  }
+}

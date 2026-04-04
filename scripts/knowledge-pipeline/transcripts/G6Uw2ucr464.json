@@ -1,0 +1,514 @@
+{
+  "video_id": "G6Uw2ucr464",
+  "video_title": "Five's Fruit Festival - Full Episode | Series 8 E18 | Numberblocks",
+  "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+  "channel_title": "Numberblocks",
+  "published_at": "",
+  "duration_secs": 285.0,
+  "view_count": 718605,
+  "tags": [
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 3
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 5.6,
+        "text": "5's fruit festival is later today."
+      },
+      {
+        "start": 5.6,
+        "duration": 2.6,
+        "text": "So what fruit are we going to deliver?"
+      },
+      {
+        "start": 8.3,
+        "duration": 4.0,
+        "text": "I say, let's go bananas."
+      },
+      {
+        "start": 12.3,
+        "duration": 3.5,
+        "text": "What about apples and oranges?"
+      },
+      {
+        "start": 15.8,
+        "duration": 6.3,
+        "text": "Pear's a nice too, but I'll go and ask for you what she really needs."
+      },
+      {
+        "start": 23.5,
+        "duration": 2.8,
+        "text": "Ooh, lovely fruit five."
+      },
+      {
+        "start": 26.3,
+        "duration": 2.0,
+        "text": "Is this enough for the festival?"
+      },
+      {
+        "start": 28.3,
+        "duration": 4.6,
+        "text": "Oh no, I'll need lots more for my fabulous fruit festival."
+      },
+      {
+        "start": 32.9,
+        "duration": 1.0,
+        "text": "Right."
+      },
+      {
+        "start": 33.9,
+        "duration": 1.3,
+        "text": "What do you need?"
+      },
+      {
+        "start": 35.2,
+        "duration": 1.8,
+        "text": "Good question for."
+      },
+      {
+        "start": 37.0,
+        "duration": 1.2,
+        "text": "Perhaps."
+      },
+      {
+        "start": 38.2,
+        "duration": 3.0,
+        "text": "If I keep kind of what everyone buys this morning,"
+      },
+      {
+        "start": 41.2,
+        "duration": 2.0,
+        "text": "then I'll know what they like best."
+      },
+      {
+        "start": 43.2,
+        "duration": 2.5,
+        "text": "Ooh, I can use my reusable stickers."
+      },
+      {
+        "start": 45.7,
+        "duration": 1.1,
+        "text": "Ooh."
+      },
+      {
+        "start": 46.8,
+        "duration": 1.1,
+        "text": "Hello, five."
+      },
+      {
+        "start": 47.9,
+        "duration": 1.5,
+        "text": "Can I buy these?"
+      },
+      {
+        "start": 49.4,
+        "duration": 2.4,
+        "text": "Here's my money if you please."
+      },
+      {
+        "start": 51.8,
+        "duration": 1.1,
+        "text": "Certainly."
+      },
+      {
+        "start": 52.9,
+        "duration": 4.0,
+        "text": "Three apples and three oranges."
+      },
+      {
+        "start": 56.9,
+        "duration": 1.3,
+        "text": "Thank you."
+      },
+      {
+        "start": 58.2,
+        "duration": 1.9,
+        "text": "One of each, please."
+      },
+      {
+        "start": 60.1,
+        "duration": 4.2,
+        "text": "One apple, one orange, one banana, and one pear."
+      },
+      {
+        "start": 66.3,
+        "duration": 1.7,
+        "text": "Eight bananas, please."
+      },
+      {
+        "start": 74.6,
+        "duration": 1.3,
+        "text": "Thank you."
+      },
+      {
+        "start": 75.9,
+        "duration": 3.6,
+        "text": "Ooh, how many of each fruit have you sold?"
+      },
+      {
+        "start": 79.5,
+        "duration": 2.2,
+        "text": "Oh, I can't tell."
+      },
+      {
+        "start": 81.7,
+        "duration": 3.4,
+        "text": "Um, perhaps if I put the stickers into groups."
+      },
+      {
+        "start": 89.0,
+        "duration": 3.5,
+        "text": "Look, I've sold more bananas than anything else,"
+      },
+      {
+        "start": 92.6,
+        "duration": 2.0,
+        "text": "but not many pears at all."
+      },
+      {
+        "start": 94.6,
+        "duration": 4.4,
+        "text": "Altogether, I've sold six apples, five oranges,"
+      },
+      {
+        "start": 98.9,
+        "duration": 3.5,
+        "text": "ten bananas, and two pears."
+      },
+      {
+        "start": 102.4,
+        "duration": 2.9,
+        "text": "Whoa, that's a handy chart."
+      },
+      {
+        "start": 105.3,
+        "duration": 4.9,
+        "text": "So for the festival, you'll need plenty of apples and oranges,"
+      },
+      {
+        "start": 110.2,
+        "duration": 3.3,
+        "text": "lots of bananas, but not so many pears."
+      },
+      {
+        "start": 113.5,
+        "duration": 1.4,
+        "text": "That sounds grand."
+      },
+      {
+        "start": 114.8,
+        "duration": 1.3,
+        "text": "Thanks for."
+      },
+      {
+        "start": 116.1,
+        "duration": 3.2,
+        "text": "Plenty of apples and oranges, lots of bananas,"
+      },
+      {
+        "start": 119.3,
+        "duration": 1.8,
+        "text": "not so many pears."
+      },
+      {
+        "start": 122.1,
+        "duration": 1.0,
+        "text": "Hey, everyone."
+      },
+      {
+        "start": 125.6,
+        "duration": 3.0,
+        "text": "Five needs, plenty of apples and oranges,"
+      },
+      {
+        "start": 128.6,
+        "duration": 4.1,
+        "text": "lots of bananas, but not so many pears."
+      },
+      {
+        "start": 132.7,
+        "duration": 1.1,
+        "text": "I was right."
+      },
+      {
+        "start": 133.8,
+        "duration": 2.2,
+        "text": "Bananas are best."
+      },
+      {
+        "start": 135.9,
+        "duration": 4.0,
+        "text": "This chart will make everything much easier to count."
+      },
+      {
+        "start": 139.9,
+        "duration": 4.0,
+        "text": "I call it the, uh, uh, oh, a pitch is of everything"
+      },
+      {
+        "start": 143.9,
+        "duration": 1.8,
+        "text": "we're counting a gram."
+      },
+      {
+        "start": 145.7,
+        "duration": 1.9,
+        "text": "A picture of a autograph?"
+      },
+      {
+        "start": 147.6,
+        "duration": 2.3,
+        "text": "Maybe it needs a shorter name?"
+      },
+      {
+        "start": 149.8,
+        "duration": 1.5,
+        "text": "Oh."
+      },
+      {
+        "start": 151.3,
+        "duration": 2.6,
+        "text": "Pictogram."
+      },
+      {
+        "start": 153.9,
+        "duration": 1.0,
+        "text": "Nice."
+      },
+      {
+        "start": 154.9,
+        "duration": 2.3,
+        "text": "Each time a crate of fruit arrives,"
+      },
+      {
+        "start": 157.2,
+        "duration": 2.2,
+        "text": "put a stamp on the pictogram."
+      },
+      {
+        "start": 159.4,
+        "duration": 1.6,
+        "text": "Oh, oh, oh."
+      },
+      {
+        "start": 161.0,
+        "duration": 2.6,
+        "text": "Oh, and if we keep them in straight lines,"
+      },
+      {
+        "start": 163.6,
+        "duration": 2.3,
+        "text": "we can see how many we have."
+      },
+      {
+        "start": 165.8,
+        "duration": 1.3,
+        "text": "Let's go."
+      },
+      {
+        "start": 167.2,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 168.2,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 169.2,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 172.2,
+        "duration": 1.0,
+        "text": "Pears."
+      },
+      {
+        "start": 174.2,
+        "duration": 1.0,
+        "text": "Apples."
+      },
+      {
+        "start": 177.2,
+        "duration": 1.0,
+        "text": "Bananas."
+      },
+      {
+        "start": 180.2,
+        "duration": 1.0,
+        "text": "Aranges."
+      },
+      {
+        "start": 183.2,
+        "duration": 1.0,
+        "text": "Pears."
+      },
+      {
+        "start": 184.2,
+        "duration": 1.0,
+        "text": "Aranges."
+      },
+      {
+        "start": 185.2,
+        "duration": 2.0,
+        "text": "More oranges."
+      },
+      {
+        "start": 187.2,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 188.2,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 196.2,
+        "duration": 3.0,
+        "text": "How many of each kind do we have?"
+      },
+      {
+        "start": 199.2,
+        "duration": 3.0,
+        "text": "Well, the pictogram says we have,"
+      },
+      {
+        "start": 202.2,
+        "duration": 4.0,
+        "text": "two crates of apples, three of pears, four of oranges,"
+      },
+      {
+        "start": 206.2,
+        "duration": 3.0,
+        "text": "and one crate of bananas."
+      },
+      {
+        "start": 209.2,
+        "duration": 1.0,
+        "text": "Only one."
+      },
+      {
+        "start": 210.2,
+        "duration": 1.0,
+        "text": "Quick."
+      },
+      {
+        "start": 211.2,
+        "duration": 2.0,
+        "text": "We need more bananas."
+      },
+      {
+        "start": 228.2,
+        "duration": 1.0,
+        "text": "Ah, that's it."
+      },
+      {
+        "start": 229.2,
+        "duration": 1.0,
+        "text": "Finished."
+      },
+      {
+        "start": 230.2,
+        "duration": 2.0,
+        "text": "Let's see what we have."
+      },
+      {
+        "start": 232.2,
+        "duration": 2.0,
+        "text": "Five crates of apples."
+      },
+      {
+        "start": 234.2,
+        "duration": 2.0,
+        "text": "Six crates of oranges."
+      },
+      {
+        "start": 236.2,
+        "duration": 3.0,
+        "text": "Ten crates of bananas."
+      },
+      {
+        "start": 239.2,
+        "duration": 2.0,
+        "text": "And three crates of pears."
+      },
+      {
+        "start": 241.2,
+        "duration": 4.0,
+        "text": "Plenty of apples and oranges, lots of bananas,"
+      },
+      {
+        "start": 245.2,
+        "duration": 2.0,
+        "text": "and not so many pears."
+      },
+      {
+        "start": 247.2,
+        "duration": 2.0,
+        "text": "We did it."
+      },
+      {
+        "start": 249.2,
+        "duration": 2.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 251.2,
+        "duration": 4.0,
+        "text": "Here's your fruit for the fabulous fruit festival, Foy."
+      },
+      {
+        "start": 255.2,
+        "duration": 1.0,
+        "text": "Brilliant."
+      },
+      {
+        "start": 256.2,
+        "duration": 3.0,
+        "text": "Apple, oranges, pears, and lots of..."
+      },
+      {
+        "start": 259.2,
+        "duration": 1.0,
+        "text": "bananas."
+      },
+      {
+        "start": 260.2,
+        "duration": 1.0,
+        "text": "Hmm."
+      },
+      {
+        "start": 261.2,
+        "duration": 4.0,
+        "text": "I told you, it's all about the bananas."
+      },
+      {
+        "start": 265.2,
+        "duration": 3.0,
+        "text": "Let's get this festival started."
+      }
+    ],
+    "full_text": "5's fruit festival is later today. So what fruit are we going to deliver? I say, let's go bananas. What about apples and oranges? Pear's a nice too, but I'll go and ask for you what she really needs. Ooh, lovely fruit five. Is this enough for the festival? Oh no, I'll need lots more for my fabulous fruit festival. Right. What do you need? Good question for. Perhaps. If I keep kind of what everyone buys this morning, then I'll know what they like best. Ooh, I can use my reusable stickers. Ooh. Hello, five. Can I buy these? Here's my money if you please. Certainly. Three apples and three oranges. Thank you. One of each, please. One apple, one orange, one banana, and one pear. Eight bananas, please. Thank you. Ooh, how many of each fruit have you sold? Oh, I can't tell. Um, perhaps if I put the stickers into groups. Look, I've sold more bananas than anything else, but not many pears at all. Altogether, I've sold six apples, five oranges, ten bananas, and two pears. Whoa, that's a handy chart. So for the festival, you'll need plenty of apples and oranges, lots of bananas, but not so many pears. That sounds grand. Thanks for. Plenty of apples and oranges, lots of bananas, not so many pears. Hey, everyone. Five needs, plenty of apples and oranges, lots of bananas, but not so many pears. I was right. Bananas are best. This chart will make everything much easier to count. I call it the, uh, uh, oh, a pitch is of everything we're counting a gram. A picture of a autograph? Maybe it needs a shorter name? Oh. Pictogram. Nice. Each time a crate of fruit arrives, put a stamp on the pictogram. Oh, oh, oh. Oh, and if we keep them in straight lines, we can see how many we have. Let's go. Oh. Oh. Oh. Pears. Apples. Bananas. Aranges. Pears. Aranges. More oranges. Oh. Oh. How many of each kind do we have? Well, the pictogram says we have, two crates of apples, three of pears, four of oranges, and one crate of bananas. Only one. Quick. We need more bananas. Ah, that's it. Finished. Let's see what we have. Five crates of apples. Six crates of oranges. Ten crates of bananas. And three crates of pears. Plenty of apples and oranges, lots of bananas, and not so many pears. We did it. Yay! Here's your fruit for the fabulous fruit festival, Foy. Brilliant. Apple, oranges, pears, and lots of... bananas. Hmm. I told you, it's all about the bananas. Let's get this festival started."
+  }
+}

@@ -1,0 +1,1619 @@
+{
+  "video_id": "_Hl7NJ0r83I",
+  "video_title": "Top Selenium & Java Interview Questions | Selenium Interview Questions and Answers | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 1240.0,
+  "view_count": 48142,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.9,
+        "text": "So guys, want to crack your Selenium Web Driver interview and land your dream job in test"
+      },
+      {
+        "start": 12.9,
+        "duration": 1.0,
+        "text": "automation?"
+      },
+      {
+        "start": 13.9,
+        "duration": 2.3,
+        "text": "Then you are in the right place."
+      },
+      {
+        "start": 16.2,
+        "duration": 4.8,
+        "text": "So in this video we are revealing the top 30 most frequently asked Selenium and Java"
+      },
+      {
+        "start": 20.9,
+        "duration": 4.9,
+        "text": "interview question announces the ones hiring managers actually care about."
+      },
+      {
+        "start": 25.8,
+        "duration": 5.4,
+        "text": "From handling complex dynamic elements to mastering Selenium force, new features and exploring"
+      },
+      {
+        "start": 31.2,
+        "duration": 4.1,
+        "text": "the latest trends shaping automation testing, we have covered it all."
+      },
+      {
+        "start": 35.4,
+        "duration": 4.4,
+        "text": "So whether you are just starting out or leveling up for senior roles, these questions will"
+      },
+      {
+        "start": 39.8,
+        "duration": 1.3,
+        "text": "give you the edge."
+      },
+      {
+        "start": 41.1,
+        "duration": 4.4,
+        "text": "So stick around till the end for exclusive tips and real world answers that can set you"
+      },
+      {
+        "start": 45.5,
+        "duration": 2.9,
+        "text": "apart in interviews."
+      },
+      {
+        "start": 48.4,
+        "duration": 3.9,
+        "text": "But before we begin please like share and subscribe and do not forget to hit the bell icon"
+      },
+      {
+        "start": 52.3,
+        "duration": 4.2,
+        "text": "to stay updated on the latest content from Idureka's YouTube channel."
+      },
+      {
+        "start": 56.5,
+        "duration": 5.8,
+        "text": "Also, check out Idureka's Selenium training course which provides 36 plus hours of instructor"
+      },
+      {
+        "start": 62.3,
+        "duration": 7.4,
+        "text": "and lit sessions covering Selenium Web Driver, TestNG, Maven, Jenkins and automation frameworks."
+      },
+      {
+        "start": 69.7,
+        "duration": 4.9,
+        "text": "With real world projects, hands-on assignments and expert lead guidance, it executes learners"
+      },
+      {
+        "start": 74.6,
+        "duration": 3.0,
+        "text": "with practical automation testing skills."
+      },
+      {
+        "start": 77.6,
+        "duration": 4.7,
+        "text": "This program prepares professionals with roles like automation tester, QA, engineer and"
+      },
+      {
+        "start": 82.3,
+        "duration": 2.9,
+        "text": "test analyst, aligning with industry standards."
+      },
+      {
+        "start": 85.2,
+        "duration": 4.2,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 89.4,
+        "duration": 4.8,
+        "text": "So let's get started with beginner level Selenium interview questions."
+      },
+      {
+        "start": 94.2,
+        "duration": 2.9,
+        "text": "So first let us understand what actually is Selenium."
+      },
+      {
+        "start": 97.1,
+        "duration": 6.0,
+        "text": "Well, Selenium is an open source source of tools and libraries that automates the testing"
+      },
+      {
+        "start": 103.0,
+        "duration": 2.2,
+        "text": "of website and web applications."
+      },
+      {
+        "start": 105.6,
+        "duration": 5.9,
+        "text": "Its versatility in testing across different environments is attributed to its cross-browser,"
+      },
+      {
+        "start": 111.5,
+        "duration": 3.4,
+        "text": "cross-language and cross-platform capabilities."
+      },
+      {
+        "start": 114.9,
+        "duration": 4.9,
+        "text": "Selenium seamlessly integrates with existing developing workflows and supports programming"
+      },
+      {
+        "start": 119.8,
+        "duration": 7.6,
+        "text": "languages such as Java, JavaScript, C-Sharp, PHP, Python and Ruby."
+      },
+      {
+        "start": 127.3,
+        "duration": 5.0,
+        "text": "Now let's move on to our second question which is what are different components of"
+      },
+      {
+        "start": 132.4,
+        "duration": 2.0,
+        "text": "this Selenium."
+      },
+      {
+        "start": 134.4,
+        "duration": 3.3,
+        "text": "So Selenium is not just a single tool or a utility."
+      },
+      {
+        "start": 137.6,
+        "duration": 4.4,
+        "text": "Rather, it's a bundle of multiple test tools referred to as a suit."
+      },
+      {
+        "start": 142.0,
+        "duration": 5.7,
+        "text": "Each of the tools is designed to meet specific criteria for testing and testing environments."
+      },
+      {
+        "start": 147.8,
+        "duration": 3.0,
+        "text": "The suit package contains the following set of tools."
+      },
+      {
+        "start": 150.8,
+        "duration": 5.0,
+        "text": "First we have Selenium ID, which stands for Integrated Development Environment, which"
+      },
+      {
+        "start": 155.8,
+        "duration": 3.8,
+        "text": "is open source record and playback test automation for the web."
+      },
+      {
+        "start": 159.7,
+        "duration": 4.0,
+        "text": "This is distributed as a plugin to Firefox and Chrome."
+      },
+      {
+        "start": 163.7,
+        "duration": 4.2,
+        "text": "Next we have Selenium RC, which stands for Remote Control."
+      },
+      {
+        "start": 167.9,
+        "duration": 4.6,
+        "text": "Selenium RC is a server that allows a user to build test scripts in a desired programming"
+      },
+      {
+        "start": 172.5,
+        "duration": 1.0,
+        "text": "language."
+      },
+      {
+        "start": 173.5,
+        "duration": 5.6,
+        "text": "It also enables test scripts to be performed across a wide spectrum of browsers."
+      },
+      {
+        "start": 179.1,
+        "duration": 2.4,
+        "text": "And then we have Selenium Web Driver."
+      },
+      {
+        "start": 181.4,
+        "duration": 4.9,
+        "text": "Where Selenium Web Driver is an entirely different tool with different advantages over Selenium"
+      },
+      {
+        "start": 186.3,
+        "duration": 1.0,
+        "text": "RC."
+      },
+      {
+        "start": 187.3,
+        "duration": 5.0,
+        "text": "So Web Driver interacts directly with the web browser and makes use of its native compatibility"
+      },
+      {
+        "start": 192.4,
+        "duration": 1.0,
+        "text": "to automate."
+      },
+      {
+        "start": 193.4,
+        "duration": 2.7,
+        "text": "And then we have Selenium Grid."
+      },
+      {
+        "start": 196.0,
+        "duration": 4.4,
+        "text": "Where Selenium Grid is used to distribute the test execution simultaneously on multiple"
+      },
+      {
+        "start": 200.5,
+        "duration": 2.0,
+        "text": "platforms and environments."
+      },
+      {
+        "start": 202.5,
+        "duration": 5.6,
+        "text": "Alright, so now let us move on to our third question which is what are the advantages of"
+      },
+      {
+        "start": 208.1,
+        "duration": 3.8,
+        "text": "Selenium in the automation testing world."
+      },
+      {
+        "start": 212.0,
+        "duration": 4.7,
+        "text": "Selenium is a free open source platform and supports a wide array of users and support"
+      },
+      {
+        "start": 216.6,
+        "duration": 1.0,
+        "text": "communities."
+      },
+      {
+        "start": 217.6,
+        "duration": 6.3,
+        "text": "So it's compatibility across systems making it friendly for Windows, Linux and Mac users."
+      },
+      {
+        "start": 223.9,
+        "duration": 7.0,
+        "text": "It supports Java, Python, Per, PHP, C-Sharp and Ruby programming languages."
+      },
+      {
+        "start": 231.0,
+        "duration": 5.2,
+        "text": "Since Selenium is compatible with cross-prozor testing, it works on almost all common browsers,"
+      },
+      {
+        "start": 236.1,
+        "duration": 5.1,
+        "text": "including Chrome, Firefox, Edge, Internet Explorer and Safari."
+      },
+      {
+        "start": 241.2,
+        "duration": 4.7,
+        "text": "And another benefit is that Selenium Grid allows for parallel execution."
+      },
+      {
+        "start": 245.9,
+        "duration": 4.2,
+        "text": "Now let us move on to our next question which is what is Web Driver."
+      },
+      {
+        "start": 250.1,
+        "duration": 3.7,
+        "text": "Web Driver is a simple and concise programming interface."
+      },
+      {
+        "start": 253.8,
+        "duration": 3.0,
+        "text": "It is an object-oriented and lightweight API."
+      },
+      {
+        "start": 256.8,
+        "duration": 4.5,
+        "text": "It drives the browser through inter-piece type reference variables."
+      },
+      {
+        "start": 261.4,
+        "duration": 4.6,
+        "text": "So now let us move on to our next question which is what is Selenium 4."
+      },
+      {
+        "start": 266.0,
+        "duration": 4.6,
+        "text": "Selenium 4 is the latest version of Selenium Web Driver and which will be fully standardized"
+      },
+      {
+        "start": 270.6,
+        "duration": 1.0,
+        "text": "with W3C."
+      },
+      {
+        "start": 272.6,
+        "duration": 5.5,
+        "text": "Since most browsers such as Chrome, Safari, Firefox, Internet Explorer and Edge follow"
+      },
+      {
+        "start": 278.1,
+        "duration": 5.6,
+        "text": "W3C standardization, browser drivers will interact with Selenium Web Driver in W3C"
+      },
+      {
+        "start": 283.8,
+        "duration": 2.0,
+        "text": "standard protocol."
+      },
+      {
+        "start": 285.8,
+        "duration": 4.7,
+        "text": "Next, what are some noteworthy Selenium 4 features?"
+      },
+      {
+        "start": 290.4,
+        "duration": 2.6,
+        "text": "So here are the Selenium features."
+      },
+      {
+        "start": 293.0,
+        "duration": 2.2,
+        "text": "First on the list we have Selenium Grid."
+      },
+      {
+        "start": 295.3,
+        "duration": 3.6,
+        "text": "The Herbs and Notes are smooth to set up and handle now."
+      },
+      {
+        "start": 298.9,
+        "duration": 5.5,
+        "text": "So once the Selenium server is started, the Grid will act both as a Herb and Notes."
+      },
+      {
+        "start": 304.4,
+        "duration": 4.2,
+        "text": "The next feature is taking screen shots at the element level, section level and page"
+      },
+      {
+        "start": 308.5,
+        "duration": 2.2,
+        "text": "level is possible now."
+      },
+      {
+        "start": 310.8,
+        "duration": 4.4,
+        "text": "Next is the support for the Chromium Driver for the Microsoft Edge browser."
+      },
+      {
+        "start": 315.2,
+        "duration": 4.2,
+        "text": "And then the support of relative locators."
+      },
+      {
+        "start": 319.3,
+        "duration": 4.6,
+        "text": "Moving on to next question which is what is the difference between Get and Navigate"
+      },
+      {
+        "start": 324.0,
+        "duration": 1.6,
+        "text": "2 methods."
+      },
+      {
+        "start": 325.6,
+        "duration": 5.7,
+        "text": "For example, Get URL, loads a page and waits until it fully loaded."
+      },
+      {
+        "start": 331.3,
+        "duration": 4.4,
+        "text": "Whereas Navigate 2 URL just navigates with a waiting."
+      },
+      {
+        "start": 335.7,
+        "duration": 1.8,
+        "text": "So it's simple right?"
+      },
+      {
+        "start": 337.4,
+        "duration": 1.0,
+        "text": "Alright."
+      },
+      {
+        "start": 338.4,
+        "duration": 3.7,
+        "text": "Now moving on to next question which is what are the different weights in Selenium Web"
+      },
+      {
+        "start": 342.1,
+        "duration": 1.0,
+        "text": "Driver."
+      },
+      {
+        "start": 343.1,
+        "duration": 3.7,
+        "text": "So basically there are three types of weights in Web Driver."
+      },
+      {
+        "start": 346.8,
+        "duration": 2.0,
+        "text": "First we have implicit weights."
+      },
+      {
+        "start": 348.8,
+        "duration": 4.0,
+        "text": "This is a weight timeout that applies to an instance on a Web Driver."
+      },
+      {
+        "start": 352.8,
+        "duration": 4.6,
+        "text": "And it implies that all the actions of this instance are timeout only after waiting"
+      },
+      {
+        "start": 357.4,
+        "duration": 1.6,
+        "text": "for some time."
+      },
+      {
+        "start": 359.0,
+        "duration": 2.5,
+        "text": "And next we have the explicit weights."
+      },
+      {
+        "start": 361.5,
+        "duration": 4.7,
+        "text": "So this is an exclusive timeout method that works by adding code to delay the execution"
+      },
+      {
+        "start": 366.2,
+        "duration": 2.9,
+        "text": "until a specific condition arises."
+      },
+      {
+        "start": 369.1,
+        "duration": 4.9,
+        "text": "It is more customizable that we can set it up to wait for any suitable situation."
+      },
+      {
+        "start": 374.0,
+        "duration": 4.6,
+        "text": "Usually we use a few of the prebuilt expected conditions to wait for elements to become"
+      },
+      {
+        "start": 378.6,
+        "duration": 3.6,
+        "text": "clickable, visible and invisible etc."
+      },
+      {
+        "start": 382.2,
+        "duration": 2.7,
+        "text": "And we have another weight which is fluent weight."
+      },
+      {
+        "start": 384.9,
+        "duration": 4.5,
+        "text": "This defines the maximum amount of time to wait for a particular condition and frequency"
+      },
+      {
+        "start": 389.4,
+        "duration": 4.9,
+        "text": "to test the condition before throwing an exception to element not visible exception."
+      },
+      {
+        "start": 394.3,
+        "duration": 1.0,
+        "text": "Alright."
+      },
+      {
+        "start": 395.3,
+        "duration": 5.2,
+        "text": "Now let us move on to our next question that is what is the difference between Web Driver"
+      },
+      {
+        "start": 400.5,
+        "duration": 4.9,
+        "text": "Find Element versus Web Element Find Element."
+      },
+      {
+        "start": 405.4,
+        "duration": 4.3,
+        "text": "And the difference is that so the Web Driver Find Element method."
+      },
+      {
+        "start": 409.7,
+        "duration": 3.8,
+        "text": "This finds the element from the entire page using the given selector."
+      },
+      {
+        "start": 413.4,
+        "duration": 3.7,
+        "text": "Whereas the Web Element Find Element method."
+      },
+      {
+        "start": 417.2,
+        "duration": 5.2,
+        "text": "So in this method first this generates the Web Element and then the child elements of"
+      },
+      {
+        "start": 422.4,
+        "duration": 4.1,
+        "text": "the given element are searched based on the given selector."
+      },
+      {
+        "start": 426.5,
+        "duration": 4.2,
+        "text": "Now what are all the design patterns in Selenium frameworks?"
+      },
+      {
+        "start": 430.7,
+        "duration": 5.6,
+        "text": "So the design patterns in Selenium frameworks are the page object model which is POM,"
+      },
+      {
+        "start": 436.4,
+        "duration": 6.1,
+        "text": "Pattern and then we have Factory Pattern and then we have Passart Pattern and Strategy"
+      },
+      {
+        "start": 442.4,
+        "duration": 1.0,
+        "text": "Pattern."
+      },
+      {
+        "start": 443.4,
+        "duration": 1.0,
+        "text": "Alright."
+      },
+      {
+        "start": 444.4,
+        "duration": 4.4,
+        "text": "Now let us move on to intermediate level Selenium interview questions."
+      },
+      {
+        "start": 448.8,
+        "duration": 6.0,
+        "text": "And the question is what are all the locators that support Selenium?"
+      },
+      {
+        "start": 454.8,
+        "duration": 6.2,
+        "text": "And the locators are named same as ID although it is not unique and then CSS selector works"
+      },
+      {
+        "start": 461.0,
+        "duration": 5.8,
+        "text": "on element tags and attributes and then we have X-PARC searches elements in the dome which"
+      },
+      {
+        "start": 466.9,
+        "duration": 5.9,
+        "text": "is reliable but slow and then we have class name which uses the class name attribute and"
+      },
+      {
+        "start": 472.8,
+        "duration": 6.3,
+        "text": "the tag name uses HTML tags to locate Web Elements and then we have link text which uses"
+      },
+      {
+        "start": 479.0,
+        "duration": 5.5,
+        "text": "anchor text to locate Web Elements and finally partial link text which uses partial link"
+      },
+      {
+        "start": 484.6,
+        "duration": 2.8,
+        "text": "text to find Web Elements."
+      },
+      {
+        "start": 487.4,
+        "duration": 4.8,
+        "text": "And then moving on to next question what are the differences between X-PARC and CSS"
+      },
+      {
+        "start": 492.2,
+        "duration": 1.0,
+        "text": "selectors?"
+      },
+      {
+        "start": 493.2,
+        "duration": 2.6,
+        "text": "So let us understand the differences between them."
+      },
+      {
+        "start": 495.7,
+        "duration": 5.4,
+        "text": "So here in terms of speed we can say that X-PARC is lower due to the complex traverses"
+      },
+      {
+        "start": 501.1,
+        "duration": 5.0,
+        "text": "whereas CSS selector which is faster and optimized for browsers."
+      },
+      {
+        "start": 506.1,
+        "duration": 6.1,
+        "text": "And then in terms of text search so the X-PARC supports the text function, contains function"
+      },
+      {
+        "start": 512.2,
+        "duration": 5.5,
+        "text": "and other text functions whereas CSS selector cannot locate elements by text."
+      },
+      {
+        "start": 517.7,
+        "duration": 6.3,
+        "text": "And then in terms of index based selection the X-PARC supports indexing tag function,"
+      },
+      {
+        "start": 524.0,
+        "duration": 5.0,
+        "text": "index function whereas CSS selector does not support direct indexing."
+      },
+      {
+        "start": 529.0,
+        "duration": 5.9,
+        "text": "And then in terms of traversal direction using X-PARC we can move both forward and backward"
+      },
+      {
+        "start": 534.8,
+        "duration": 6.9,
+        "text": "in the dome whereas CSS selector only moves forward such as a parent to child."
+      },
+      {
+        "start": 541.7,
+        "duration": 3.8,
+        "text": "And now moving on to our next question what is the difference between page object model"
+      },
+      {
+        "start": 545.6,
+        "duration": 2.1,
+        "text": "and page factory?"
+      },
+      {
+        "start": 547.6,
+        "duration": 4.4,
+        "text": "Now let us understand the differences between page object model and page factory."
+      },
+      {
+        "start": 552.0,
+        "duration": 5.8,
+        "text": "When the page object model which is POM is a Selenium design pattern."
+      },
+      {
+        "start": 557.8,
+        "duration": 4.0,
+        "text": "It's seen as a repository where you can store all the Web Elements."
+      },
+      {
+        "start": 561.8,
+        "duration": 6.5,
+        "text": "POM is popular because it's easy to manage offers code reusability and eliminates duplication"
+      },
+      {
+        "start": 568.3,
+        "duration": 1.0,
+        "text": "of code."
+      },
+      {
+        "start": 569.3,
+        "duration": 4.6,
+        "text": "So if you want changes in the future then we can update Web Elements to page classes in"
+      },
+      {
+        "start": 573.8,
+        "duration": 3.7,
+        "text": "POM or object repository accordingly."
+      },
+      {
+        "start": 577.5,
+        "duration": 5.4,
+        "text": "Whereas page factory in Selenium Web Driver is an integrated concept or API."
+      },
+      {
+        "start": 582.9,
+        "duration": 4.5,
+        "text": "It follows the same principle of keeping repository objects or page classes separate from"
+      },
+      {
+        "start": 587.4,
+        "duration": 2.1,
+        "text": "test classes."
+      },
+      {
+        "start": 589.5,
+        "duration": 5.2,
+        "text": "Now let us understand the difference between driver close and driver quit."
+      },
+      {
+        "start": 594.8,
+        "duration": 5.0,
+        "text": "Also the driver close closes the current browser window whereas driver quit closes all"
+      },
+      {
+        "start": 599.8,
+        "duration": 2.6,
+        "text": "the browser windows and ends the session."
+      },
+      {
+        "start": 602.3,
+        "duration": 1.5,
+        "text": "It's simple right?"
+      },
+      {
+        "start": 603.8,
+        "duration": 4.4,
+        "text": "And now moving on to next question which is what are the advantages of using page object"
+      },
+      {
+        "start": 608.2,
+        "duration": 1.3,
+        "text": "model?"
+      },
+      {
+        "start": 609.6,
+        "duration": 5.4,
+        "text": "So the advantages are it enhances code reusability and maintainability."
+      },
+      {
+        "start": 615.0,
+        "duration": 5.4,
+        "text": "And the next advantage is that it reduces the code duplication and then it also improves"
+      },
+      {
+        "start": 620.4,
+        "duration": 3.2,
+        "text": "the readability and scalability."
+      },
+      {
+        "start": 623.6,
+        "duration": 5.4,
+        "text": "Now moving ahead with our next question can capture be automated?"
+      },
+      {
+        "start": 629.0,
+        "duration": 4.0,
+        "text": "And the answer is no because Selenium cannot automate capture."
+      },
+      {
+        "start": 633.0,
+        "duration": 5.3,
+        "text": "Well the whole concept of capture is to ensure that the boards and automated programs don't"
+      },
+      {
+        "start": 638.3,
+        "duration": 4.4,
+        "text": "access sensitive information which is why Selenium cannot automate it."
+      },
+      {
+        "start": 642.8,
+        "duration": 4.8,
+        "text": "So the automation test engineer has to manually type the capture while other fields can be"
+      },
+      {
+        "start": 647.6,
+        "duration": 2.0,
+        "text": "filled automatically."
+      },
+      {
+        "start": 649.6,
+        "duration": 5.0,
+        "text": "The next question is what are the exceptions in Selenium web driver?"
+      },
+      {
+        "start": 654.6,
+        "duration": 5.5,
+        "text": "So Selenium web driver has several exceptions that help identify and handle errors during"
+      },
+      {
+        "start": 660.2,
+        "duration": 1.8,
+        "text": "test execution."
+      },
+      {
+        "start": 661.9,
+        "duration": 5.6,
+        "text": "And some of the most common ones include no such element exception which is raised when"
+      },
+      {
+        "start": 667.5,
+        "duration": 3.1,
+        "text": "an element is not found in the home."
+      },
+      {
+        "start": 670.6,
+        "duration": 3.7,
+        "text": "The next exception is no such frame exception."
+      },
+      {
+        "start": 674.3,
+        "duration": 3.5,
+        "text": "It throws when the specified frame is not found."
+      },
+      {
+        "start": 677.8,
+        "duration": 3.6,
+        "text": "The next exception is no such window exception."
+      },
+      {
+        "start": 681.4,
+        "duration": 4.4,
+        "text": "It occurs when switching to a window that doesn't exist."
+      },
+      {
+        "start": 685.8,
+        "duration": 3.7,
+        "text": "The next exception is no alert present exception."
+      },
+      {
+        "start": 689.5,
+        "duration": 4.2,
+        "text": "It is raised when trying to interact with an alert that isn't present."
+      },
+      {
+        "start": 693.6,
+        "duration": 4.0,
+        "text": "And then we have element not visible exception."
+      },
+      {
+        "start": 697.6,
+        "duration": 5.0,
+        "text": "This throws when an element exists in the dome but it is not visible."
+      },
+      {
+        "start": 702.7,
+        "duration": 4.5,
+        "text": "And the next exception is element non-interactable exception."
+      },
+      {
+        "start": 707.2,
+        "duration": 4.3,
+        "text": "It happens when an element is not in a state to be interacted with."
+      },
+      {
+        "start": 711.5,
+        "duration": 3.1,
+        "text": "Example disabled or hidden."
+      },
+      {
+        "start": 714.6,
+        "duration": 2.2,
+        "text": "Next time out exception."
+      },
+      {
+        "start": 716.8,
+        "duration": 4.9,
+        "text": "It is raised when an operation exits the predefined wait time."
+      },
+      {
+        "start": 721.7,
+        "duration": 2.0,
+        "text": "State element reference exception."
+      },
+      {
+        "start": 723.7,
+        "duration": 5.7,
+        "text": "This occurs when an element is no longer attached to the dome often due to the page refresh."
+      },
+      {
+        "start": 729.4,
+        "duration": 4.2,
+        "text": "And then we have another exception which is invalid selector exception."
+      },
+      {
+        "start": 733.7,
+        "duration": 4.4,
+        "text": "This throws when an invalid x path or CSS selector is used."
+      },
+      {
+        "start": 738.1,
+        "duration": 5.8,
+        "text": "And finally the last exception that we are going to discuss is session not created exception."
+      },
+      {
+        "start": 743.9,
+        "duration": 5.4,
+        "text": "And this is raised when the web driver session cannot be created often due to browser compatibility"
+      },
+      {
+        "start": 749.3,
+        "duration": 1.0,
+        "text": "issues."
+      },
+      {
+        "start": 750.3,
+        "duration": 4.7,
+        "text": "Alright I hope this exception in Selenium web driver is clear now."
+      },
+      {
+        "start": 755.0,
+        "duration": 5.4,
+        "text": "So moving on to next question that is how should one handle windows based alert or pop-ups"
+      },
+      {
+        "start": 760.3,
+        "duration": 1.7,
+        "text": "in Selenium?"
+      },
+      {
+        "start": 762.0,
+        "duration": 4.5,
+        "text": "To Selenium only supports web applications and does not provide a way to automate windows"
+      },
+      {
+        "start": 766.6,
+        "duration": 1.2,
+        "text": "based application."
+      },
+      {
+        "start": 767.8,
+        "duration": 3.1,
+        "text": "However the following approach can help."
+      },
+      {
+        "start": 770.8,
+        "duration": 5.6,
+        "text": "So use the Java based robot class utility to simulate keyboard and mouse actions."
+      },
+      {
+        "start": 776.4,
+        "duration": 5.0,
+        "text": "Next the key press and key release method simulate the user pressing and using a specific"
+      },
+      {
+        "start": 781.4,
+        "duration": 1.4,
+        "text": "key on a keyboard."
+      },
+      {
+        "start": 782.8,
+        "duration": 2.0,
+        "text": "Alright."
+      },
+      {
+        "start": 784.8,
+        "duration": 5.0,
+        "text": "Now let us understand why our test ng annotations frequently used with Selenium."
+      },
+      {
+        "start": 789.8,
+        "duration": 6.0,
+        "text": "Well, test ng annotations prioritize the calling of the test methods over others."
+      },
+      {
+        "start": 795.8,
+        "duration": 3.1,
+        "text": "So here are the ones to use with Selenium."
+      },
+      {
+        "start": 799.0,
+        "duration": 3.8,
+        "text": "Suppose we have before soot this is to run before all test."
+      },
+      {
+        "start": 802.8,
+        "duration": 4.5,
+        "text": "And then after soots to run only once after all test."
+      },
+      {
+        "start": 807.3,
+        "duration": 5.0,
+        "text": "And then before class to run only once before the first test method."
+      },
+      {
+        "start": 812.2,
+        "duration": 5.3,
+        "text": "We also have after class this is to run only once after all the test methods of the current"
+      },
+      {
+        "start": 817.5,
+        "duration": 2.3,
+        "text": "class finished execution."
+      },
+      {
+        "start": 819.8,
+        "duration": 6.6,
+        "text": "We also have before test this is to run before any test method inside the test tag."
+      },
+      {
+        "start": 826.4,
+        "duration": 6.0,
+        "text": "And finally after test to run after any test method inside the test tag."
+      },
+      {
+        "start": 832.4,
+        "duration": 1.0,
+        "text": "Hope that's clear."
+      },
+      {
+        "start": 833.4,
+        "duration": 2.3,
+        "text": "Now going on to next question."
+      },
+      {
+        "start": 835.7,
+        "duration": 4.1,
+        "text": "What is a framework and what are the different types of frameworks available?"
+      },
+      {
+        "start": 839.8,
+        "duration": 4.6,
+        "text": "A framework is a chatter of rules and best practices for the systematic resolution"
+      },
+      {
+        "start": 844.5,
+        "duration": 1.0,
+        "text": "of a problem."
+      },
+      {
+        "start": 845.5,
+        "duration": 4.0,
+        "text": "So there are different kinds of automation frameworks such as data driven testing"
+      },
+      {
+        "start": 849.5,
+        "duration": 6.5,
+        "text": "framework, keyword driven testing framework, hybrid testing framework and behavioral driven"
+      },
+      {
+        "start": 856.0,
+        "duration": 1.9,
+        "text": "framework."
+      },
+      {
+        "start": 857.9,
+        "duration": 4.2,
+        "text": "Now let us explore advanced level Selenium interview questions."
+      },
+      {
+        "start": 862.1,
+        "duration": 6.2,
+        "text": "And the question is what is Selenium great and how does it help in parallel execution?"
+      },
+      {
+        "start": 868.3,
+        "duration": 4.9,
+        "text": "So Selenium great is a tool that enables parallel execution of test cases across multiple"
+      },
+      {
+        "start": 873.2,
+        "duration": 3.2,
+        "text": "browsers, operating systems and machines."
+      },
+      {
+        "start": 876.4,
+        "duration": 5.3,
+        "text": "It follows a hub node architecture with the hub controls test execution and nodes run"
+      },
+      {
+        "start": 881.6,
+        "duration": 2.8,
+        "text": "tests on different environments."
+      },
+      {
+        "start": 884.4,
+        "duration": 5.3,
+        "text": "And the key benefits are faster execution by running tests in parallel, cross browser"
+      },
+      {
+        "start": 889.8,
+        "duration": 5.6,
+        "text": "and cross platform testing for better coverage and efficient resource utilization by distributing"
+      },
+      {
+        "start": 895.4,
+        "duration": 2.6,
+        "text": "tests across multiple machines."
+      },
+      {
+        "start": 898.0,
+        "duration": 5.2,
+        "text": "So this Selenium great helps scale automation testing making it ideal for large test suits."
+      },
+      {
+        "start": 903.2,
+        "duration": 1.0,
+        "text": "All right."
+      },
+      {
+        "start": 904.8,
+        "duration": 6.2,
+        "text": "And the next question is what is a soft assertion and a hard assertion in Selenium?"
+      },
+      {
+        "start": 911.0,
+        "duration": 3.2,
+        "text": "So first let us understand what is soft assertion."
+      },
+      {
+        "start": 914.2,
+        "duration": 5.1,
+        "text": "A soft assert will not throw an exception when an assert fails and it will continue with"
+      },
+      {
+        "start": 919.3,
+        "duration": 1.0,
+        "text": "the next step."
+      },
+      {
+        "start": 920.3,
+        "duration": 6.4,
+        "text": "Whereas the hard assert throws an assert exception immediately when an assert statement fails"
+      },
+      {
+        "start": 926.7,
+        "duration": 3.8,
+        "text": "and test suit continues with next test."
+      },
+      {
+        "start": 930.5,
+        "duration": 6.0,
+        "text": "Starting on to next question what are static blocks or static initializer in Java?"
+      },
+      {
+        "start": 936.6,
+        "duration": 4.7,
+        "text": "So a static blocks are used to initialize static variables in a class and they execute"
+      },
+      {
+        "start": 941.3,
+        "duration": 3.5,
+        "text": "once when the class is loaded before the constructor runs."
+      },
+      {
+        "start": 944.8,
+        "duration": 4.5,
+        "text": "The key features in the unit initializes static fields runs automatically when the class"
+      },
+      {
+        "start": 949.2,
+        "duration": 4.7,
+        "text": "slopes and it executes before any object creation."
+      },
+      {
+        "start": 954.0,
+        "duration": 5.6,
+        "text": "The next question is how should you use the key words this and super in Java?"
+      },
+      {
+        "start": 959.6,
+        "duration": 2.7,
+        "text": "So here first let us understand this keyword."
+      },
+      {
+        "start": 962.2,
+        "duration": 3.2,
+        "text": "So this keyword can only be used for the constructor."
+      },
+      {
+        "start": 965.4,
+        "duration": 5.0,
+        "text": "So it initializes class level variables in the constructor using local variables and we"
+      },
+      {
+        "start": 970.4,
+        "duration": 4.0,
+        "text": "can use more than one this keyword within the constructor at a time."
+      },
+      {
+        "start": 974.4,
+        "duration": 3.8,
+        "text": "We use super keyword to call parent class constructor."
+      },
+      {
+        "start": 978.2,
+        "duration": 4.4,
+        "text": "So we can only have one super keyword declared within the constructor at a time."
+      },
+      {
+        "start": 982.6,
+        "duration": 4.0,
+        "text": "You should always write super keyword in a child class constructor."
+      },
+      {
+        "start": 986.6,
+        "duration": 1.9,
+        "text": "Hope that's clear now."
+      },
+      {
+        "start": 988.6,
+        "duration": 5.0,
+        "text": "So we going on to next question which is why is the main method is public static and"
+      },
+      {
+        "start": 993.5,
+        "duration": 2.0,
+        "text": "avoid in Java?"
+      },
+      {
+        "start": 995.5,
+        "duration": 5.6,
+        "text": "So let's understand public is an access specifier which can be used outside the class."
+      },
+      {
+        "start": 1001.1,
+        "duration": 5.2,
+        "text": "So when the main method is declared public it means it can be used outside the class."
+      },
+      {
+        "start": 1006.2,
+        "duration": 1.3,
+        "text": "Next static."
+      },
+      {
+        "start": 1007.6,
+        "duration": 3.2,
+        "text": "So to call a method we require an object."
+      },
+      {
+        "start": 1010.7,
+        "duration": 3.4,
+        "text": "Sometimes it may be required to call a method without the help of an object."
+      },
+      {
+        "start": 1014.1,
+        "duration": 5.3,
+        "text": "So then we declare the method as in static where JVM calls the main method without creating"
+      },
+      {
+        "start": 1019.4,
+        "duration": 3.7,
+        "text": "an object by declaring the keyword static."
+      },
+      {
+        "start": 1023.1,
+        "duration": 5.5,
+        "text": "Whereas void the void return type is used when a method does not return any value."
+      },
+      {
+        "start": 1028.6,
+        "duration": 6.2,
+        "text": "So if main method does not return any value then main is declared as void."
+      },
+      {
+        "start": 1034.8,
+        "duration": 3.9,
+        "text": "And the next question is what is an exception in Java?"
+      },
+      {
+        "start": 1038.7,
+        "duration": 3.4,
+        "text": "So in Java exception is an object."
+      },
+      {
+        "start": 1042.0,
+        "duration": 3.9,
+        "text": "The options are created when an abnormal situation is raised in the program."
+      },
+      {
+        "start": 1045.9,
+        "duration": 4.1,
+        "text": "So exceptions can be created by JVM or by our application code."
+      },
+      {
+        "start": 1050.0,
+        "duration": 3.4,
+        "text": "So all exception classes are defined in Java.line."
+      },
+      {
+        "start": 1053.5,
+        "duration": 3.9,
+        "text": "In other words we can state this as a runtime error."
+      },
+      {
+        "start": 1057.4,
+        "duration": 4.8,
+        "text": "Moving on to our next Java question which is what are the differences between the interfaces"
+      },
+      {
+        "start": 1062.2,
+        "duration": 1.8,
+        "text": "and abstract class?"
+      },
+      {
+        "start": 1064.0,
+        "duration": 2.9,
+        "text": "So first let us discuss about interface."
+      },
+      {
+        "start": 1066.8,
+        "duration": 5.4,
+        "text": "So interface contains only abstract methods and access specifiers for methods in interface"
+      },
+      {
+        "start": 1072.2,
+        "duration": 7.1,
+        "text": "must be public and defined variables must be public static and final and then multiple"
+      },
+      {
+        "start": 1079.3,
+        "duration": 4.1,
+        "text": "inheritance in Java is implemented using interface."
+      },
+      {
+        "start": 1083.4,
+        "duration": 2.8,
+        "text": "Now let us discuss about the abstract class."
+      },
+      {
+        "start": 1086.2,
+        "duration": 5.9,
+        "text": "So an abstract class can contain abstract methods, concrete methods or both and except"
+      },
+      {
+        "start": 1092.2,
+        "duration": 5.2,
+        "text": "with private variables we can have any access specifier for methods in abstract class."
+      },
+      {
+        "start": 1097.3,
+        "duration": 5.3,
+        "text": "And we cannot achieve multiple inheritance using abstract class and to implement an interface"
+      },
+      {
+        "start": 1102.6,
+        "duration": 2.7,
+        "text": "we use implement keyword."
+      },
+      {
+        "start": 1105.3,
+        "duration": 1.8,
+        "text": "I hope that's clear now."
+      },
+      {
+        "start": 1107.1,
+        "duration": 4.6,
+        "text": "Now let us move on to next question which is so have you ever faced issues with elements"
+      },
+      {
+        "start": 1111.7,
+        "duration": 2.2,
+        "text": "not being interactable?"
+      },
+      {
+        "start": 1113.9,
+        "duration": 1.8,
+        "text": "How did you resolve it?"
+      },
+      {
+        "start": 1115.7,
+        "duration": 6.0,
+        "text": "Yes, this usually happens due to the timing issues and hidden elements or overlays."
+      },
+      {
+        "start": 1122.4,
+        "duration": 5.1,
+        "text": "So I resolved it by using explicit weight like web driver weight to ensure the element"
+      },
+      {
+        "start": 1127.5,
+        "duration": 1.9,
+        "text": "is ready for interaction."
+      },
+      {
+        "start": 1129.4,
+        "duration": 5.9,
+        "text": "So if overlays were present I'll use JavaScript executor to click elements."
+      },
+      {
+        "start": 1135.3,
+        "duration": 2.0,
+        "text": "Hope that's clear now."
+      },
+      {
+        "start": 1137.3,
+        "duration": 4.7,
+        "text": "And the next question is what challenges have you encoded with dynamic elements and how"
+      },
+      {
+        "start": 1142.0,
+        "duration": 1.9,
+        "text": "did you handle them?"
+      },
+      {
+        "start": 1144.0,
+        "duration": 4.3,
+        "text": "So the dynamic elements often have changing attributes like ideas."
+      },
+      {
+        "start": 1148.2,
+        "duration": 7.5,
+        "text": "I handle them using x paths with contains or start with CSS selector or explicit weights"
+      },
+      {
+        "start": 1155.8,
+        "duration": 4.4,
+        "text": "to ensure elements are loaded before interaction."
+      },
+      {
+        "start": 1160.2,
+        "duration": 6.6,
+        "text": "Now moving on to our next question that is have you dealt with flaky test in selenium"
+      },
+      {
+        "start": 1166.8,
+        "duration": 3.4,
+        "text": "and what strategies did you use to stabilize them?"
+      },
+      {
+        "start": 1170.2,
+        "duration": 1.8,
+        "text": "And the answer is yes."
+      },
+      {
+        "start": 1171.9,
+        "duration": 4.7,
+        "text": "Flaky tests often occur due to timing issues or unstable locators."
+      },
+      {
+        "start": 1176.6,
+        "duration": 4.9,
+        "text": "So I stabilized them by using explicit weights in stroke implicit weights improving element"
+      },
+      {
+        "start": 1181.5,
+        "duration": 3.2,
+        "text": "locators and ensuring test data consistency."
+      },
+      {
+        "start": 1184.7,
+        "duration": 5.7,
+        "text": "Alright, so mastering selenium interrequestions gives you a strong edge in automation testing"
+      },
+      {
+        "start": 1190.4,
+        "duration": 5.3,
+        "text": "from handling dynamic elements to integrating with CI and CD pipelines and a solid understanding"
+      },
+      {
+        "start": 1195.7,
+        "duration": 2.8,
+        "text": "of selenium ensures your job rigging."
+      },
+      {
+        "start": 1198.4,
+        "duration": 4.6,
+        "text": "So keep practicing, stay updated and refine your problem solving skills to master your"
+      },
+      {
+        "start": 1203.0,
+        "duration": 1.8,
+        "text": "next interview."
+      },
+      {
+        "start": 1204.8,
+        "duration": 4.7,
+        "text": "And with this we have come to an end to this video on selenium and Java interrequestion"
+      },
+      {
+        "start": 1209.5,
+        "duration": 2.0,
+        "text": "and answers."
+      },
+      {
+        "start": 1211.5,
+        "duration": 4.2,
+        "text": "So if you enjoyed listening to this video please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 1215.8,
+        "duration": 4.0,
+        "text": "on any of your doubts and queries we will reply to them a day earlier."
+      },
+      {
+        "start": 1219.7,
+        "duration": 4.6,
+        "text": "And do look up for more videos and playlists and subscribe to Adurika's YouTube channel"
+      },
+      {
+        "start": 1224.3,
+        "duration": 1.2,
+        "text": "to learn more."
+      },
+      {
+        "start": 1225.5,
+        "duration": 2.0,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "So guys, want to crack your Selenium Web Driver interview and land your dream job in test automation? Then you are in the right place. So in this video we are revealing the top 30 most frequently asked Selenium and Java interview question announces the ones hiring managers actually care about. From handling complex dynamic elements to mastering Selenium force, new features and exploring the latest trends shaping automation testing, we have covered it all. So whether you are just starting out or leveling up for senior roles, these questions will give you the edge. So stick around till the end for exclusive tips and real world answers that can set you apart in interviews. But before we begin please like share and subscribe and do not forget to hit the bell icon to stay updated on the latest content from Idureka's YouTube channel. Also, check out Idureka's Selenium training course which provides 36 plus hours of instructor and lit sessions covering Selenium Web Driver, TestNG, Maven, Jenkins and automation frameworks. With real world projects, hands-on assignments and expert lead guidance, it executes learners with practical automation testing skills. This program prepares professionals with roles like automation tester, QA, engineer and test analyst, aligning with industry standards. So check out the course link given in the description box below. So let's get started with beginner level Selenium interview questions. So first let us understand what actually is Selenium. Well, Selenium is an open source source of tools and libraries that automates the testing of website and web applications. Its versatility in testing across different environments is attributed to its cross-browser, cross-language and cross-platform capabilities. Selenium seamlessly integrates with existing developing workflows and supports programming languages such as Java, JavaScript, C-Sharp, PHP, Python and Ruby. Now let's move on to our second question which is what are different components of this Selenium. So Selenium is not just a single tool or a utility. Rather, it's a bundle of multiple test tools referred to as a suit. Each of the tools is designed to meet specific criteria for testing and testing environments. The suit package contains the following set of tools. First we have Selenium ID, which stands for Integrated Development Environment, which is open source record and playback test automation for the web. This is distributed as a plugin to Firefox and Chrome. Next we have Selenium RC, which stands for Remote Control. Selenium RC is a server that allows a user to build test scripts in a desired programming language. It also enables test scripts to be performed across a wide spectrum of browsers. And then we have Selenium Web Driver. Where Selenium Web Driver is an entirely different tool with different advantages over Selenium RC. So Web Driver interacts directly with the web browser and makes use of its native compatibility to automate. And then we have Selenium Grid. Where Selenium Grid is used to distribute the test execution simultaneously on multiple platforms and environments. Alright, so now let us move on to our third question which is what are the advantages of Selenium in the automation testing world. Selenium is a free open source platform and supports a wide array of users and support communities. So it's compatibility across systems making it friendly for Windows, Linux and Mac users. It supports Java, Python, Per, PHP, C-Sharp and Ruby programming languages. Since Selenium is compatible with cross-prozor testing, it works on almost all common browsers, including Chrome, Firefox, Edge, Internet Explorer and Safari. And another benefit is that Selenium Grid allows for parallel execution. Now let us move on to our next question which is what is Web Driver. Web Driver is a simple and concise programming interface. It is an object-oriented and lightweight API. It drives the browser through inter-piece type reference variables. So now let us move on to our next question which is what is Selenium 4. Selenium 4 is the latest version of Selenium Web Driver and which will be fully standardized with W3C. Since most browsers such as Chrome, Safari, Firefox, Internet Explorer and Edge follow W3C standardization, browser drivers will interact with Selenium Web Driver in W3C standard protocol. Next, what are some noteworthy Selenium 4 features? So here are the Selenium features. First on the list we have Selenium Grid. The Herbs and Notes are smooth to set up and handle now. So once the Selenium server is started, the Grid will act both as a Herb and Notes. The next feature is taking screen shots at the element level, section level and page level is possible now. Next is the support for the Chromium Driver for the Microsoft Edge browser. And then the support of relative locators. Moving on to next question which is what is the difference between Get and Navigate 2 methods. For example, Get URL, loads a page and waits until it fully loaded. Whereas Navigate 2 URL just navigates with a waiting. So it's simple right? Alright. Now moving on to next question which is what are the different weights in Selenium Web Driver. So basically there are three types of weights in Web Driver. First we have implicit weights. This is a weight timeout that applies to an instance on a Web Driver. And it implies that all the actions of this instance are timeout only after waiting for some time. And next we have the explicit weights. So this is an exclusive timeout method that works by adding code to delay the execution until a specific condition arises. It is more customizable that we can set it up to wait for any suitable situation. Usually we use a few of the prebuilt expected conditions to wait for elements to become clickable, visible and invisible etc. And we have another weight which is fluent weight. This defines the maximum amount of time to wait for a particular condition and frequency to test the condition before throwing an exception to element not visible exception. Alright. Now let us move on to our next question that is what is the difference between Web Driver Find Element versus Web Element Find Element. And the difference is that so the Web Driver Find Element method. This finds the element from the entire page using the given selector. Whereas the Web Element Find Element method. So in this method first this generates the Web Element and then the child elements of the given element are searched based on the given selector. Now what are all the design patterns in Selenium frameworks? So the design patterns in Selenium frameworks are the page object model which is POM, Pattern and then we have Factory Pattern and then we have Passart Pattern and Strategy Pattern. Alright. Now let us move on to intermediate level Selenium interview questions. And the question is what are all the locators that support Selenium? And the locators are named same as ID although it is not unique and then CSS selector works on element tags and attributes and then we have X-PARC searches elements in the dome which is reliable but slow and then we have class name which uses the class name attribute and the tag name uses HTML tags to locate Web Elements and then we have link text which uses anchor text to locate Web Elements and finally partial link text which uses partial link text to find Web Elements. And then moving on to next question what are the differences between X-PARC and CSS selectors? So let us understand the differences between them. So here in terms of speed we can say that X-PARC is lower due to the complex traverses whereas CSS selector which is faster and optimized for browsers. And then in terms of text search so the X-PARC supports the text function, contains function and other text functions whereas CSS selector cannot locate elements by text. And then in terms of index based selection the X-PARC supports indexing tag function, index function whereas CSS selector does not support direct indexing. And then in terms of traversal direction using X-PARC we can move both forward and backward in the dome whereas CSS selector only moves forward such as a parent to child. And now moving on to our next question what is the difference between page object model and page factory? Now let us understand the differences between page object model and page factory. When the page object model which is POM is a Selenium design pattern. It's seen as a repository where you can store all the Web Elements. POM is popular because it's easy to manage offers code reusability and eliminates duplication of code. So if you want changes in the future then we can update Web Elements to page classes in POM or object repository accordingly. Whereas page factory in Selenium Web Driver is an integrated concept or API. It follows the same principle of keeping repository objects or page classes separate from test classes. Now let us understand the difference between driver close and driver quit. Also the driver close closes the current browser window whereas driver quit closes all the browser windows and ends the session. It's simple right? And now moving on to next question which is what are the advantages of using page object model? So the advantages are it enhances code reusability and maintainability. And the next advantage is that it reduces the code duplication and then it also improves the readability and scalability. Now moving ahead with our next question can capture be automated? And the answer is no because Selenium cannot automate capture. Well the whole concept of capture is to ensure that the boards and automated programs don't access sensitive information which is why Selenium cannot automate it. So the automation test engineer has to manually type the capture while other fields can be filled automatically. The next question is what are the exceptions in Selenium web driver? So Selenium web driver has several exceptions that help identify and handle errors during test execution. And some of the most common ones include no such element exception which is raised when an element is not found in the home. The next exception is no such frame exception. It throws when the specified frame is not found. The next exception is no such window exception. It occurs when switching to a window that doesn't exist. The next exception is no alert present exception. It is raised when trying to interact with an alert that isn't present. And then we have element not visible exception. This throws when an element exists in the dome but it is not visible. And the next exception is element non-interactable exception. It happens when an element is not in a state to be interacted with. Example disabled or hidden. Next time out exception. It is raised when an operation exits the predefined wait time. State element reference exception. This occurs when an element is no longer attached to the dome often due to the page refresh. And then we have another exception which is invalid selector exception. This throws when an invalid x path or CSS selector is used. And finally the last exception that we are going to discuss is session not created exception. And this is raised when the web driver session cannot be created often due to browser compatibility issues. Alright I hope this exception in Selenium web driver is clear now. So moving on to next question that is how should one handle windows based alert or pop-ups in Selenium? To Selenium only supports web applications and does not provide a way to automate windows based application. However the following approach can help. So use the Java based robot class utility to simulate keyboard and mouse actions. Next the key press and key release method simulate the user pressing and using a specific key on a keyboard. Alright. Now let us understand why our test ng annotations frequently used with Selenium. Well, test ng annotations prioritize the calling of the test methods over others. So here are the ones to use with Selenium. Suppose we have before soot this is to run before all test. And then after soots to run only once after all test. And then before class to run only once before the first test method. We also have after class this is to run only once after all the test methods of the current class finished execution. We also have before test this is to run before any test method inside the test tag. And finally after test to run after any test method inside the test tag. Hope that's clear. Now going on to next question. What is a framework and what are the different types of frameworks available? A framework is a chatter of rules and best practices for the systematic resolution of a problem. So there are different kinds of automation frameworks such as data driven testing framework, keyword driven testing framework, hybrid testing framework and behavioral driven framework. Now let us explore advanced level Selenium interview questions. And the question is what is Selenium great and how does it help in parallel execution? So Selenium great is a tool that enables parallel execution of test cases across multiple browsers, operating systems and machines. It follows a hub node architecture with the hub controls test execution and nodes run tests on different environments. And the key benefits are faster execution by running tests in parallel, cross browser and cross platform testing for better coverage and efficient resource utilization by distributing tests across multiple machines. So this Selenium great helps scale automation testing making it ideal for large test suits. All right. And the next question is what is a soft assertion and a hard assertion in Selenium? So first let us understand what is soft assertion. A soft assert will not throw an exception when an assert fails and it will continue with the next step. Whereas the hard assert throws an assert exception immediately when an assert statement fails and test suit continues with next test. Starting on to next question what are static blocks or static initializer in Java? So a static blocks are used to initialize static variables in a class and they execute once when the class is loaded before the constructor runs. The key features in the unit initializes static fields runs automatically when the class slopes and it executes before any object creation. The next question is how should you use the key words this and super in Java? So here first let us understand this keyword. So this keyword can only be used for the constructor. So it initializes class level variables in the constructor using local variables and we can use more than one this keyword within the constructor at a time. We use super keyword to call parent class constructor. So we can only have one super keyword declared within the constructor at a time. You should always write super keyword in a child class constructor. Hope that's clear now. So we going on to next question which is why is the main method is public static and avoid in Java? So let's understand public is an access specifier which can be used outside the class. So when the main method is declared public it means it can be used outside the class. Next static. So to call a method we require an object. Sometimes it may be required to call a method without the help of an object. So then we declare the method as in static where JVM calls the main method without creating an object by declaring the keyword static. Whereas void the void return type is used when a method does not return any value. So if main method does not return any value then main is declared as void. And the next question is what is an exception in Java? So in Java exception is an object. The options are created when an abnormal situation is raised in the program. So exceptions can be created by JVM or by our application code. So all exception classes are defined in Java.line. In other words we can state this as a runtime error. Moving on to our next Java question which is what are the differences between the interfaces and abstract class? So first let us discuss about interface. So interface contains only abstract methods and access specifiers for methods in interface must be public and defined variables must be public static and final and then multiple inheritance in Java is implemented using interface. Now let us discuss about the abstract class. So an abstract class can contain abstract methods, concrete methods or both and except with private variables we can have any access specifier for methods in abstract class. And we cannot achieve multiple inheritance using abstract class and to implement an interface we use implement keyword. I hope that's clear now. Now let us move on to next question which is so have you ever faced issues with elements not being interactable? How did you resolve it? Yes, this usually happens due to the timing issues and hidden elements or overlays. So I resolved it by using explicit weight like web driver weight to ensure the element is ready for interaction. So if overlays were present I'll use JavaScript executor to click elements. Hope that's clear now. And the next question is what challenges have you encoded with dynamic elements and how did you handle them? So the dynamic elements often have changing attributes like ideas. I handle them using x paths with contains or start with CSS selector or explicit weights to ensure elements are loaded before interaction. Now moving on to our next question that is have you dealt with flaky test in selenium and what strategies did you use to stabilize them? And the answer is yes. Flaky tests often occur due to timing issues or unstable locators. So I stabilized them by using explicit weights in stroke implicit weights improving element locators and ensuring test data consistency. Alright, so mastering selenium interrequestions gives you a strong edge in automation testing from handling dynamic elements to integrating with CI and CD pipelines and a solid understanding of selenium ensures your job rigging. So keep practicing, stay updated and refine your problem solving skills to master your next interview. And with this we have come to an end to this video on selenium and Java interrequestion and answers. So if you enjoyed listening to this video please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a day earlier. And do look up for more videos and playlists and subscribe to Adurika's YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

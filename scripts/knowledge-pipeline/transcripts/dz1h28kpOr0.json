@@ -1,0 +1,604 @@
+{
+  "video_id": "dz1h28kpOr0",
+  "video_title": "LLM vs SLM | LLM vs SLM: The Future of AI Explained | Difference between LLM and SLM | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 425.0,
+  "view_count": 8387,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.5,
+        "text": "AI is transforming the way we interact with technology and two key players in this"
+      },
+      {
+        "start": 12.5,
+        "duration": 2.9,
+        "text": "revolution are LLMs and SLMs."
+      },
+      {
+        "start": 15.5,
+        "duration": 5.2,
+        "text": "LLMs transfer large language models, whereas SLMs transfer small language models."
+      },
+      {
+        "start": 20.7,
+        "duration": 7.5,
+        "text": "LLMs like GPT-4 and Gemini 2.0 are massive models trained on huge datasets, capable of"
+      },
+      {
+        "start": 28.2,
+        "duration": 4.0,
+        "text": "generating highly sophisticated and nuanced responses."
+      },
+      {
+        "start": 32.2,
+        "duration": 6.0,
+        "text": "On the other hand, SLMs like Distill Bird or Time GPD are smaller, more efficient models"
+      },
+      {
+        "start": 38.2,
+        "duration": 3.0,
+        "text": "designed for faster and more lightweight tasks."
+      },
+      {
+        "start": 41.2,
+        "duration": 3.8,
+        "text": "So understanding the differences between them is crucial for selecting the right model"
+      },
+      {
+        "start": 45.0,
+        "duration": 1.0,
+        "text": "for your needs."
+      },
+      {
+        "start": 46.0,
+        "duration": 6.1,
+        "text": "With that said, hello everyone and welcome to this video on LLMs versus SLMs."
+      },
+      {
+        "start": 52.1,
+        "duration": 3.9,
+        "text": "But before we begin, please like, share and subscribe to our YouTube channel and remember"
+      },
+      {
+        "start": 56.0,
+        "duration": 4.0,
+        "text": "to hit the bell icon to stay updated on the latest content from ADURACAM."
+      },
+      {
+        "start": 60.0,
+        "duration": 4.8,
+        "text": "ADURACAM's Generative AI course Master's Program helps you master the principles of"
+      },
+      {
+        "start": 64.8,
+        "duration": 4.0,
+        "text": "Generative AI and implement them in the real world applications."
+      },
+      {
+        "start": 68.7,
+        "duration": 4.5,
+        "text": "This course includes training on artificial intelligence, Python programming, data science,"
+      },
+      {
+        "start": 73.2,
+        "duration": 5.7,
+        "text": "natural language processing, generative AI, prompt engineering, chat GPT and more."
+      },
+      {
+        "start": 78.9,
+        "duration": 4.4,
+        "text": "This course includes five plus hands-on projects to help you apply what you learn in real-world"
+      },
+      {
+        "start": 83.3,
+        "duration": 1.0,
+        "text": "scenarios."
+      },
+      {
+        "start": 84.3,
+        "duration": 4.9,
+        "text": "The curriculum is meticulously designed by industry experts based on analysis of 5,000 plus"
+      },
+      {
+        "start": 89.2,
+        "duration": 1.8,
+        "text": "global job description."
+      },
+      {
+        "start": 91.0,
+        "duration": 2.8,
+        "text": "So check out the course link in the description box below."
+      },
+      {
+        "start": 93.8,
+        "duration": 3.0,
+        "text": "Now, let's dive right in with our first question."
+      },
+      {
+        "start": 96.8,
+        "duration": 3.4,
+        "text": "What exactly are LLMs and SLMs?"
+      },
+      {
+        "start": 100.3,
+        "duration": 5.8,
+        "text": "LLMs, which are large language models, are powerful AI systems trained on vast data sets,"
+      },
+      {
+        "start": 106.1,
+        "duration": 4.2,
+        "text": "offering deep contextual understanding and sophisticated responses."
+      },
+      {
+        "start": 110.3,
+        "duration": 4.3,
+        "text": "So models like GPT-4 and Gemini 2.0 are the examples."
+      },
+      {
+        "start": 114.6,
+        "duration": 5.9,
+        "text": "Whereas SLMs like distal birth or tiny GPT are streamlined for speed and efficiency,"
+      },
+      {
+        "start": 120.5,
+        "duration": 1.9,
+        "text": "excelling in lightweight task."
+      },
+      {
+        "start": 122.4,
+        "duration": 4.2,
+        "text": "So both serve distinct purposes balancing quality, cost and performance."
+      },
+      {
+        "start": 126.6,
+        "duration": 5.8,
+        "text": "Alright, now that we have got a good idea of what LLMs and SLMs are, let's talk about"
+      },
+      {
+        "start": 132.5,
+        "duration": 2.7,
+        "text": "why this comparison is so important."
+      },
+      {
+        "start": 135.2,
+        "duration": 5.1,
+        "text": "As AI adoption grows across industries, the choice between LLMs and SLMs becomes more"
+      },
+      {
+        "start": 140.3,
+        "duration": 1.0,
+        "text": "important."
+      },
+      {
+        "start": 141.3,
+        "duration": 5.8,
+        "text": "LLMs often deep contextual understanding and complex outputs, while SLMs provide efficiency"
+      },
+      {
+        "start": 147.1,
+        "duration": 1.0,
+        "text": "and speed."
+      },
+      {
+        "start": 148.1,
+        "duration": 5.9,
+        "text": "So choosing the wrong model can lead to excessive cost, slow performance or supper results."
+      },
+      {
+        "start": 154.0,
+        "duration": 4.4,
+        "text": "And by understanding the strengths and trade-offs, you can make more informed decision and"
+      },
+      {
+        "start": 158.3,
+        "duration": 2.5,
+        "text": "optimize your AI driven solution."
+      },
+      {
+        "start": 160.8,
+        "duration": 5.4,
+        "text": "So now let's dive into the core differences between LLMs and SLMs and see what sets them"
+      },
+      {
+        "start": 166.2,
+        "duration": 1.0,
+        "text": "apart."
+      },
+      {
+        "start": 167.2,
+        "duration": 4.0,
+        "text": "So first, let us compare in terms of model size and complexity."
+      },
+      {
+        "start": 171.2,
+        "duration": 5.1,
+        "text": "So when it comes to model size and complexity, LLMs often have billions of parameters and"
+      },
+      {
+        "start": 176.4,
+        "duration": 3.4,
+        "text": "required vast computational resources to train and run."
+      },
+      {
+        "start": 179.8,
+        "duration": 4.8,
+        "text": "Their large size enables them to generate high quality, context-street responses."
+      },
+      {
+        "start": 184.6,
+        "duration": 5.0,
+        "text": "And on the other hand, SLMs are designed with fewer parameters, often in millions, making"
+      },
+      {
+        "start": 189.5,
+        "duration": 1.9,
+        "text": "them lighter and faster."
+      },
+      {
+        "start": 191.4,
+        "duration": 5.4,
+        "text": "They prioritize efficiency over complexity, which makes them ideal for simpler task."
+      },
+      {
+        "start": 196.8,
+        "duration": 3.5,
+        "text": "Next, let us compare in terms of performance and output quality."
+      },
+      {
+        "start": 200.2,
+        "duration": 4.5,
+        "text": "So when it comes to performance and output quality, LLMs are known for their exceptional"
+      },
+      {
+        "start": 204.8,
+        "duration": 4.7,
+        "text": "ability to handle complex conversations, creative writing and deep analysis."
+      },
+      {
+        "start": 209.5,
+        "duration": 3.9,
+        "text": "Their vast training data ensures diverse and sophisticated responses."
+      },
+      {
+        "start": 213.4,
+        "duration": 5.2,
+        "text": "On the other hand, while SLMs are efficient, they may sometimes struggle with nuanced or"
+      },
+      {
+        "start": 218.6,
+        "duration": 1.3,
+        "text": "open-ended queries."
+      },
+      {
+        "start": 219.8,
+        "duration": 4.0,
+        "text": "However, they excel in straightforward, well-defined tasks."
+      },
+      {
+        "start": 223.8,
+        "duration": 3.8,
+        "text": "Next, let us compare them with speed and latency."
+      },
+      {
+        "start": 227.6,
+        "duration": 5.2,
+        "text": "When it comes to speed and latency, LLMs can experience longer response time and higher"
+      },
+      {
+        "start": 232.8,
+        "duration": 5.3,
+        "text": "latency due to their large size, especially when processing extensive input data."
+      },
+      {
+        "start": 238.0,
+        "duration": 4.6,
+        "text": "Whereas SLMs are designed for speed, offering quicker responses and making them well suited"
+      },
+      {
+        "start": 242.6,
+        "duration": 3.8,
+        "text": "for real-time applications where low latency is fusion."
+      },
+      {
+        "start": 246.4,
+        "duration": 2.6,
+        "text": "Next, in terms of cost and resource efficiency."
+      },
+      {
+        "start": 249.6,
+        "duration": 5.2,
+        "text": "So when it comes to cost and resource efficiency, LLMs require significant hardware investments"
+      },
+      {
+        "start": 254.8,
+        "duration": 5.5,
+        "text": "such as powerful GPUs and extensive cloud resources, which lead to higher operational costs."
+      },
+      {
+        "start": 260.3,
+        "duration": 5.5,
+        "text": "Whereas SLMs with smaller footprints are more affordable to deploy and maintain, making"
+      },
+      {
+        "start": 265.8,
+        "duration": 3.6,
+        "text": "them accessible even with limited computational resources."
+      },
+      {
+        "start": 269.4,
+        "duration": 4.5,
+        "text": "Now let us explore the real world use cases of LLMs and SLMs."
+      },
+      {
+        "start": 273.9,
+        "duration": 4.9,
+        "text": "LLMs are ideal for creative content generation, customer service chatbots with advanced"
+      },
+      {
+        "start": 278.8,
+        "duration": 4.3,
+        "text": "capabilities, deep data analysis and long form conversations."
+      },
+      {
+        "start": 283.1,
+        "duration": 5.5,
+        "text": "On the other hand, SLMs are perfect for lightweight virtual assistants, real-time customer support,"
+      },
+      {
+        "start": 288.6,
+        "duration": 4.5,
+        "text": "simple automation and tasks that require quick turnaround times."
+      },
+      {
+        "start": 293.1,
+        "duration": 5.3,
+        "text": "Now let us see its advantages and disadvantages of using LLMs and SLMs."
+      },
+      {
+        "start": 298.4,
+        "duration": 5.3,
+        "text": "The key advantages of LLMs include their superior and the signing of complex language,"
+      },
+      {
+        "start": 303.8,
+        "duration": 5.2,
+        "text": "the ability to generate high quality, nuanced responses and better generation across wide"
+      },
+      {
+        "start": 309.0,
+        "duration": 1.8,
+        "text": "range of diverse tasks."
+      },
+      {
+        "start": 310.8,
+        "duration": 5.5,
+        "text": "The main drawbacks of LLMs are their high computational and cost demand along with slower response"
+      },
+      {
+        "start": 316.3,
+        "duration": 3.1,
+        "text": "times due to their large size and complexity."
+      },
+      {
+        "start": 319.4,
+        "duration": 3.3,
+        "text": "Now let us have a look at the advantages of SLMs."
+      },
+      {
+        "start": 322.7,
+        "duration": 5.8,
+        "text": "SLMs offers several advantages including their speed and efficiency, lower operational cost"
+      },
+      {
+        "start": 328.5,
+        "duration": 3.2,
+        "text": "and easy deployment even on limited resources."
+      },
+      {
+        "start": 331.8,
+        "duration": 5.2,
+        "text": "The primary disadvantages of SLMs are their limited contextual understanding and their"
+      },
+      {
+        "start": 337.0,
+        "duration": 3.0,
+        "text": "tendency to struggle with complex open-ended queries."
+      },
+      {
+        "start": 340.0,
+        "duration": 4.5,
+        "text": "Now that we have explored the strengths and limitations, so let us take a look at what"
+      },
+      {
+        "start": 344.5,
+        "duration": 4.3,
+        "text": "the future holds for LLMs and SLMs in AI development."
+      },
+      {
+        "start": 348.8,
+        "duration": 5.0,
+        "text": "So both LLMs and SLMs will play a vital role in the future of AI."
+      },
+      {
+        "start": 353.8,
+        "duration": 5.5,
+        "text": "We can expect ongoing improvements in efficiency, quality and adaptability."
+      },
+      {
+        "start": 359.3,
+        "duration": 4.7,
+        "text": "The main advantage of the LLMs is that the"
+      },
+      {
+        "start": 364.0,
+        "duration": 2.6,
+        "text": "performance and scalability of the LLMs can be improved."
+      },
+      {
+        "start": 366.6,
+        "duration": 5.3,
+        "text": "So the conclusion we get is that the choice between LLMs and SLMs depends on your specific"
+      },
+      {
+        "start": 371.8,
+        "duration": 1.0,
+        "text": "needs."
+      },
+      {
+        "start": 372.8,
+        "duration": 5.6,
+        "text": "So if you prioritize depth, nuance and high quality output, LLMs are the best."
+      },
+      {
+        "start": 378.5,
+        "duration": 5.0,
+        "text": "So if speed, efficiency and cost are more important, SLMs are the way to go."
+      },
+      {
+        "start": 383.4,
+        "duration": 4.7,
+        "text": "So by understanding their strengths and limitations, you can select the right model and unlock"
+      },
+      {
+        "start": 388.2,
+        "duration": 2.6,
+        "text": "AI's full potential for your projects."
+      },
+      {
+        "start": 390.8,
+        "duration": 3.6,
+        "text": "So that wraps up our discussion on LLMs versus SLMs."
+      },
+      {
+        "start": 394.4,
+        "duration": 2.2,
+        "text": "I hope you found it insightful."
+      },
+      {
+        "start": 396.5,
+        "duration": 3.7,
+        "text": "So if you enjoyed listening to this video, please be kind enough to like it and you can"
+      },
+      {
+        "start": 400.2,
+        "duration": 4.7,
+        "text": "comment on any of your doubts and queries we will reply to them a dearly."
+      },
+      {
+        "start": 404.9,
+        "duration": 4.3,
+        "text": "And do look up for more videos and playlist and subscribe to the Adurikas YouTube channel"
+      },
+      {
+        "start": 409.2,
+        "duration": 1.0,
+        "text": "to learn more."
+      },
+      {
+        "start": 410.2,
+        "duration": 1.9,
+        "text": "Thank you for watching and Happy Learning!"
+      }
+    ],
+    "full_text": "AI is transforming the way we interact with technology and two key players in this revolution are LLMs and SLMs. LLMs transfer large language models, whereas SLMs transfer small language models. LLMs like GPT-4 and Gemini 2.0 are massive models trained on huge datasets, capable of generating highly sophisticated and nuanced responses. On the other hand, SLMs like Distill Bird or Time GPD are smaller, more efficient models designed for faster and more lightweight tasks. So understanding the differences between them is crucial for selecting the right model for your needs. With that said, hello everyone and welcome to this video on LLMs versus SLMs. But before we begin, please like, share and subscribe to our YouTube channel and remember to hit the bell icon to stay updated on the latest content from ADURACAM. ADURACAM's Generative AI course Master's Program helps you master the principles of Generative AI and implement them in the real world applications. This course includes training on artificial intelligence, Python programming, data science, natural language processing, generative AI, prompt engineering, chat GPT and more. This course includes five plus hands-on projects to help you apply what you learn in real-world scenarios. The curriculum is meticulously designed by industry experts based on analysis of 5,000 plus global job description. So check out the course link in the description box below. Now, let's dive right in with our first question. What exactly are LLMs and SLMs? LLMs, which are large language models, are powerful AI systems trained on vast data sets, offering deep contextual understanding and sophisticated responses. So models like GPT-4 and Gemini 2.0 are the examples. Whereas SLMs like distal birth or tiny GPT are streamlined for speed and efficiency, excelling in lightweight task. So both serve distinct purposes balancing quality, cost and performance. Alright, now that we have got a good idea of what LLMs and SLMs are, let's talk about why this comparison is so important. As AI adoption grows across industries, the choice between LLMs and SLMs becomes more important. LLMs often deep contextual understanding and complex outputs, while SLMs provide efficiency and speed. So choosing the wrong model can lead to excessive cost, slow performance or supper results. And by understanding the strengths and trade-offs, you can make more informed decision and optimize your AI driven solution. So now let's dive into the core differences between LLMs and SLMs and see what sets them apart. So first, let us compare in terms of model size and complexity. So when it comes to model size and complexity, LLMs often have billions of parameters and required vast computational resources to train and run. Their large size enables them to generate high quality, context-street responses. And on the other hand, SLMs are designed with fewer parameters, often in millions, making them lighter and faster. They prioritize efficiency over complexity, which makes them ideal for simpler task. Next, let us compare in terms of performance and output quality. So when it comes to performance and output quality, LLMs are known for their exceptional ability to handle complex conversations, creative writing and deep analysis. Their vast training data ensures diverse and sophisticated responses. On the other hand, while SLMs are efficient, they may sometimes struggle with nuanced or open-ended queries. However, they excel in straightforward, well-defined tasks. Next, let us compare them with speed and latency. When it comes to speed and latency, LLMs can experience longer response time and higher latency due to their large size, especially when processing extensive input data. Whereas SLMs are designed for speed, offering quicker responses and making them well suited for real-time applications where low latency is fusion. Next, in terms of cost and resource efficiency. So when it comes to cost and resource efficiency, LLMs require significant hardware investments such as powerful GPUs and extensive cloud resources, which lead to higher operational costs. Whereas SLMs with smaller footprints are more affordable to deploy and maintain, making them accessible even with limited computational resources. Now let us explore the real world use cases of LLMs and SLMs. LLMs are ideal for creative content generation, customer service chatbots with advanced capabilities, deep data analysis and long form conversations. On the other hand, SLMs are perfect for lightweight virtual assistants, real-time customer support, simple automation and tasks that require quick turnaround times. Now let us see its advantages and disadvantages of using LLMs and SLMs. The key advantages of LLMs include their superior and the signing of complex language, the ability to generate high quality, nuanced responses and better generation across wide range of diverse tasks. The main drawbacks of LLMs are their high computational and cost demand along with slower response times due to their large size and complexity. Now let us have a look at the advantages of SLMs. SLMs offers several advantages including their speed and efficiency, lower operational cost and easy deployment even on limited resources. The primary disadvantages of SLMs are their limited contextual understanding and their tendency to struggle with complex open-ended queries. Now that we have explored the strengths and limitations, so let us take a look at what the future holds for LLMs and SLMs in AI development. So both LLMs and SLMs will play a vital role in the future of AI. We can expect ongoing improvements in efficiency, quality and adaptability. The main advantage of the LLMs is that the performance and scalability of the LLMs can be improved. So the conclusion we get is that the choice between LLMs and SLMs depends on your specific needs. So if you prioritize depth, nuance and high quality output, LLMs are the best. So if speed, efficiency and cost are more important, SLMs are the way to go. So by understanding their strengths and limitations, you can select the right model and unlock AI's full potential for your projects. So that wraps up our discussion on LLMs versus SLMs. I hope you found it insightful. So if you enjoyed listening to this video, please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them a dearly. And do look up for more videos and playlist and subscribe to the Adurikas YouTube channel to learn more. Thank you for watching and Happy Learning!"
+  }
+}

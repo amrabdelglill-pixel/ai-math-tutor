@@ -1,0 +1,1939 @@
+{
+  "video_id": "O51eCowjVzU",
+  "video_title": "Linux For Beginners | Linux Command for Beginners | What is Linux | Linux Training | Edureka",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 1559.0,
+  "view_count": 4027,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 13.0,
+        "text": "Hey everyone and welcome to this video on Linux for beginners."
+      },
+      {
+        "start": 13.0,
+        "duration": 4.9,
+        "text": "Before we dive into advanced Linux commands, use in real world DevOps task that's important"
+      },
+      {
+        "start": 17.9,
+        "duration": 2.2,
+        "text": "to make sure you're comfortable with the basics."
+      },
+      {
+        "start": 20.2,
+        "duration": 4.6,
+        "text": "Whether you're just getting started on either quick refresher, this video will help you"
+      },
+      {
+        "start": 24.8,
+        "duration": 3.2,
+        "text": "set up an environment and practice some essential commands."
+      },
+      {
+        "start": 28.4,
+        "duration": 4.6,
+        "text": "Before we begin, please like, share and subscribe to Adoreka's YouTube channel and hit"
+      },
+      {
+        "start": 33.0,
+        "duration": 3.8,
+        "text": "the bell icon to stay updated on latest tech content from Adoreka."
+      },
+      {
+        "start": 36.8,
+        "duration": 4.8,
+        "text": "Also, check out Adoreka's DevOps training program which is designed to equip learners"
+      },
+      {
+        "start": 41.6,
+        "duration": 5.1,
+        "text": "with the skills to master AI integrated DevOps across the entire software delivery life"
+      },
+      {
+        "start": 46.7,
+        "duration": 1.0,
+        "text": "cycle."
+      },
+      {
+        "start": 47.7,
+        "duration": 5.2,
+        "text": "Through hands-on learning, you will gain expertise in building intelligent, automated and secure"
+      },
+      {
+        "start": 52.9,
+        "duration": 1.8,
+        "text": "CI-CB pipelines."
+      },
+      {
+        "start": 54.8,
+        "duration": 5.6,
+        "text": "This comprehensive course covers essential tools like gate, Jenkins, Terraform, Enciple,"
+      },
+      {
+        "start": 60.3,
+        "duration": 6.1,
+        "text": "Docker, Kubernetes and Mitering frameworks, while also integrating AI-driven solutions for"
+      },
+      {
+        "start": 66.4,
+        "duration": 3.4,
+        "text": "core generation, testing and analytics."
+      },
+      {
+        "start": 69.8,
+        "duration": 3.7,
+        "text": "Do check out the course link given in the description box below."
+      },
+      {
+        "start": 73.6,
+        "duration": 1.7,
+        "text": "Now let's jump right in."
+      },
+      {
+        "start": 75.2,
+        "duration": 5.1,
+        "text": "Let's take a quick moment to understand what Linux actually is and why it is so important"
+      },
+      {
+        "start": 80.4,
+        "duration": 1.0,
+        "text": "for DevOps."
+      },
+      {
+        "start": 81.6,
+        "duration": 6.0,
+        "text": "Linux is an open source operating system similar to Windows or Mac OS, but here's a big"
+      },
+      {
+        "start": 87.6,
+        "duration": 1.0,
+        "text": "catch."
+      },
+      {
+        "start": 88.6,
+        "duration": 5.9,
+        "text": "Linux is free, customizable and it powers the majority of servers, cloud systems and"
+      },
+      {
+        "start": 94.5,
+        "duration": 2.6,
+        "text": "DevOps pipelines across the world."
+      },
+      {
+        "start": 97.1,
+        "duration": 1.4,
+        "text": "Why it is important?"
+      },
+      {
+        "start": 98.5,
+        "duration": 3.3,
+        "text": "In fact, most of the internet runs on Linux."
+      },
+      {
+        "start": 101.8,
+        "duration": 6.4,
+        "text": "Web servers, databases, cloud providers and tools like Docker and Kubernetes all rely"
+      },
+      {
+        "start": 108.1,
+        "duration": 1.5,
+        "text": "heavily on Linux."
+      },
+      {
+        "start": 109.8,
+        "duration": 5.8,
+        "text": "That's why DevOps engineers, system administrators and cloud professionals must be compatible"
+      },
+      {
+        "start": 115.7,
+        "duration": 2.0,
+        "text": "with Linux commands."
+      },
+      {
+        "start": 117.7,
+        "duration": 5.3,
+        "text": "They let you directly interact with the system, troubleshoot issues and automate tasks."
+      },
+      {
+        "start": 123.0,
+        "duration": 5.6,
+        "text": "So now, first let's talk about how to move around in the Linux terminal."
+      },
+      {
+        "start": 128.6,
+        "duration": 3.6,
+        "text": "These commands will help you navigate your file system."
+      },
+      {
+        "start": 132.2,
+        "duration": 2.0,
+        "text": "So let's get started."
+      },
+      {
+        "start": 134.2,
+        "duration": 3.2,
+        "text": "So here you can see this is my Linux terminal."
+      },
+      {
+        "start": 137.3,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 138.3,
+        "duration": 4.1,
+        "text": "Going with my first command, which is PWD."
+      },
+      {
+        "start": 142.4,
+        "duration": 4.4,
+        "text": "Well, PW stands for Print Working Directory."
+      },
+      {
+        "start": 146.8,
+        "duration": 2.6,
+        "text": "So this shows you where you are right now."
+      },
+      {
+        "start": 149.3,
+        "duration": 5.0,
+        "text": "So it shows me I am into whom and I'm into Adureka."
+      },
+      {
+        "start": 154.4,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 155.4,
+        "duration": 6.4,
+        "text": "Now, I will go with the second command, which is LS, which means LIST."
+      },
+      {
+        "start": 161.8,
+        "duration": 3.6,
+        "text": "So this list all the files and folders in the current directory."
+      },
+      {
+        "start": 165.4,
+        "duration": 6.1,
+        "text": "So my directory was Adureka and these were all the directories, you know, files and"
+      },
+      {
+        "start": 171.5,
+        "duration": 2.3,
+        "text": "folders in the present directory Adureka."
+      },
+      {
+        "start": 173.8,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 174.8,
+        "duration": 3.9,
+        "text": "Now, it is the third command, which is known as CD."
+      },
+      {
+        "start": 178.7,
+        "duration": 3.4,
+        "text": "CD actually means change directory."
+      },
+      {
+        "start": 182.1,
+        "duration": 6.8,
+        "text": "So now if I want to go inside any of these, I will go by this command only."
+      },
+      {
+        "start": 188.8,
+        "duration": 2.5,
+        "text": "So let's see if I want to go into documents."
+      },
+      {
+        "start": 191.4,
+        "duration": 4.9,
+        "text": "So I will print CD documents."
+      },
+      {
+        "start": 196.2,
+        "duration": 7.1,
+        "text": "And now if you can see this slash and documents, it means you are inside the documents."
+      },
+      {
+        "start": 203.4,
+        "duration": 4.6,
+        "text": "Now let's try and again print our working directory what it is."
+      },
+      {
+        "start": 208.0,
+        "duration": 1.0,
+        "text": "Let's see PWD."
+      },
+      {
+        "start": 209.0,
+        "duration": 6.0,
+        "text": "Now it is showing me that I am inside the home, inside the Adureka, inside documents."
+      },
+      {
+        "start": 214.9,
+        "duration": 1.0,
+        "text": "Nice."
+      },
+      {
+        "start": 216.4,
+        "duration": 5.5,
+        "text": "So with these commands, you can easily move through your file system and see what is inside."
+      },
+      {
+        "start": 221.9,
+        "duration": 4.7,
+        "text": "Let's go one step further creating and managing files and directories."
+      },
+      {
+        "start": 226.6,
+        "duration": 5.0,
+        "text": "Let's learn how to create, copy, move and delete files and folders."
+      },
+      {
+        "start": 231.6,
+        "duration": 6.0,
+        "text": "So let's go for our first command, which is MKDIR."
+      },
+      {
+        "start": 237.6,
+        "duration": 1.8,
+        "text": "So what does MKDIR means?"
+      },
+      {
+        "start": 239.4,
+        "duration": 2.4,
+        "text": "It means make directory."
+      },
+      {
+        "start": 241.8,
+        "duration": 2.4,
+        "text": "Let's choose the name for the directory."
+      },
+      {
+        "start": 244.2,
+        "duration": 1.7,
+        "text": "Let's suppose my project."
+      },
+      {
+        "start": 245.9,
+        "duration": 5.2,
+        "text": "Now if I am entering it, it will create a new directory called my project."
+      },
+      {
+        "start": 251.1,
+        "duration": 1.8,
+        "text": "Let's see."
+      },
+      {
+        "start": 253.0,
+        "duration": 2.1,
+        "text": "So this is my documents folder."
+      },
+      {
+        "start": 255.0,
+        "duration": 3.8,
+        "text": "I am into home, Adureka documents and see."
+      },
+      {
+        "start": 258.9,
+        "duration": 1.8,
+        "text": "My project is created."
+      },
+      {
+        "start": 260.6,
+        "duration": 1.0,
+        "text": "Right."
+      },
+      {
+        "start": 261.6,
+        "duration": 2.4,
+        "text": "Let's go one step further."
+      },
+      {
+        "start": 264.1,
+        "duration": 2.6,
+        "text": "Now I will go inside my project."
+      },
+      {
+        "start": 266.6,
+        "duration": 1.8,
+        "text": "So how will I be going?"
+      },
+      {
+        "start": 268.4,
+        "duration": 2.8,
+        "text": "I said you above also CD."
+      },
+      {
+        "start": 271.2,
+        "duration": 1.0,
+        "text": "Let's go."
+      },
+      {
+        "start": 272.2,
+        "duration": 5.6,
+        "text": "I will be my project and see."
+      },
+      {
+        "start": 277.8,
+        "duration": 2.6,
+        "text": "I am inside."
+      },
+      {
+        "start": 280.4,
+        "duration": 4.1,
+        "text": "Before go for the first command, I just show you that there is nothing inside my project"
+      },
+      {
+        "start": 284.4,
+        "duration": 2.1,
+        "text": "right now."
+      },
+      {
+        "start": 286.6,
+        "duration": 4.2,
+        "text": "Now I will be using my third command, which is touch."
+      },
+      {
+        "start": 290.8,
+        "duration": 5.3,
+        "text": "Well, that simply means it will create a empty file."
+      },
+      {
+        "start": 296.1,
+        "duration": 3.1,
+        "text": "So for creating a empty file, you will use the command touch."
+      },
+      {
+        "start": 299.2,
+        "duration": 9.4,
+        "text": "Now I will name the file, which is index dot html for an example and now it has been"
+      },
+      {
+        "start": 308.6,
+        "duration": 1.4,
+        "text": "created."
+      },
+      {
+        "start": 310.0,
+        "duration": 1.0,
+        "text": "Let's see."
+      },
+      {
+        "start": 311.0,
+        "duration": 2.0,
+        "text": "It is there."
+      },
+      {
+        "start": 313.0,
+        "duration": 5.7,
+        "text": "So without coming over here with the help of terminal, I created index dot html."
+      },
+      {
+        "start": 318.7,
+        "duration": 3.8,
+        "text": "But what if I don't want to go to file manager to check whether it's created or not?"
+      },
+      {
+        "start": 322.5,
+        "duration": 4.1,
+        "text": "I will use the command LS."
+      },
+      {
+        "start": 327.6,
+        "duration": 4.4,
+        "text": "It will list all the files and folders over there, index dot html."
+      },
+      {
+        "start": 332.0,
+        "duration": 4.6,
+        "text": "Now let's suppose I want to do the copy of this index dot html."
+      },
+      {
+        "start": 336.7,
+        "duration": 5.2,
+        "text": "So I will be writing CP, which means copy index dot html."
+      },
+      {
+        "start": 341.9,
+        "duration": 4.4,
+        "text": "And by what name I want to copy, let's say backup."
+      },
+      {
+        "start": 346.3,
+        "duration": 8.1,
+        "text": "So I will say backup dot html and so it will actually create a backup file of index dot"
+      },
+      {
+        "start": 354.4,
+        "duration": 3.8,
+        "text": "html, copy piece basically."
+      },
+      {
+        "start": 358.2,
+        "duration": 4.5,
+        "text": "Because I am into the directory of my project only, so it will create the backup over there,"
+      },
+      {
+        "start": 362.7,
+        "duration": 1.5,
+        "text": "means my copy file over there."
+      },
+      {
+        "start": 364.2,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 365.2,
+        "duration": 2.2,
+        "text": "Let's go to next one, which is MV."
+      },
+      {
+        "start": 367.4,
+        "duration": 3.5,
+        "text": "So basically MV command is used for renaming the file."
+      },
+      {
+        "start": 370.9,
+        "duration": 3.4,
+        "text": "Let's say I want to change the name for backup.html."
+      },
+      {
+        "start": 374.2,
+        "duration": 4.8,
+        "text": "I will be using MV backup dot html."
+      },
+      {
+        "start": 379.0,
+        "duration": 7.0,
+        "text": "And I want to say change it by index backup dot html."
+      },
+      {
+        "start": 386.0,
+        "duration": 1.8,
+        "text": "So it's had been changed."
+      },
+      {
+        "start": 387.8,
+        "duration": 2.6,
+        "text": "See index backup dot html."
+      },
+      {
+        "start": 390.4,
+        "duration": 4.8,
+        "text": "Before it was just backup dot html, now it is index backup dot html."
+      },
+      {
+        "start": 395.2,
+        "duration": 1.8,
+        "text": "This is how we rename the file."
+      },
+      {
+        "start": 397.0,
+        "duration": 5.8,
+        "text": "Now what if I want to remove or delete the file, I will be using RM command."
+      },
+      {
+        "start": 402.8,
+        "duration": 9.1,
+        "text": "Now RM, I want to create the backup file, so I will be deleting index backup dot html."
+      },
+      {
+        "start": 411.9,
+        "duration": 3.4,
+        "text": "So by entering it, I actually deleted the file."
+      },
+      {
+        "start": 415.3,
+        "duration": 2.6,
+        "text": "You can see over here, it has been deleted."
+      },
+      {
+        "start": 417.8,
+        "duration": 2.1,
+        "text": "So this is the power of terminal."
+      },
+      {
+        "start": 420.0,
+        "duration": 4.0,
+        "text": "So these commands are the building blocks when working with the files and folders."
+      },
+      {
+        "start": 424.0,
+        "duration": 3.8,
+        "text": "You will use them every day in projects and deployments."
+      },
+      {
+        "start": 427.8,
+        "duration": 2.9,
+        "text": "So now let's view the files."
+      },
+      {
+        "start": 430.7,
+        "duration": 4.5,
+        "text": "Sometimes you will want to peek inside a file to see its content without opening it in"
+      },
+      {
+        "start": 435.2,
+        "duration": 1.3,
+        "text": "an editor."
+      },
+      {
+        "start": 436.6,
+        "duration": 2.0,
+        "text": "So how you will be seeing it."
+      },
+      {
+        "start": 438.6,
+        "duration": 3.9,
+        "text": "So I'm going time to time over here, checking whether it is there or not."
+      },
+      {
+        "start": 442.5,
+        "duration": 2.2,
+        "text": "What is inside index dot html?"
+      },
+      {
+        "start": 444.7,
+        "duration": 3.9,
+        "text": "What if I will see that you can do by the terminal itself?"
+      },
+      {
+        "start": 448.6,
+        "duration": 1.0,
+        "text": "Right."
+      },
+      {
+        "start": 449.6,
+        "duration": 5.9,
+        "text": "So there is a command cat, which actually means print the entire file content."
+      },
+      {
+        "start": 455.4,
+        "duration": 4.0,
+        "text": "So catindex.html."
+      },
+      {
+        "start": 459.4,
+        "duration": 4.5,
+        "text": "By entering it, you will actually print the entire file content."
+      },
+      {
+        "start": 463.9,
+        "duration": 4.4,
+        "text": "So there is nothing over here in the file right now."
+      },
+      {
+        "start": 468.4,
+        "duration": 6.5,
+        "text": "Now there is a next command which is known as less index dot html, which means view the"
+      },
+      {
+        "start": 474.8,
+        "duration": 2.0,
+        "text": "file with scrolling."
+      },
+      {
+        "start": 476.8,
+        "duration": 1.0,
+        "text": "How it will work?"
+      },
+      {
+        "start": 477.8,
+        "duration": 1.0,
+        "text": "Let's see."
+      },
+      {
+        "start": 478.8,
+        "duration": 1.0,
+        "text": "End up."
+      },
+      {
+        "start": 479.8,
+        "duration": 5.0,
+        "text": "So if there is something inside index dot html, you can see over here."
+      },
+      {
+        "start": 484.9,
+        "duration": 3.0,
+        "text": "So now how do I get outside of it?"
+      },
+      {
+        "start": 487.9,
+        "duration": 3.1,
+        "text": "It is a command over here, which is known as q."
+      },
+      {
+        "start": 491.0,
+        "duration": 2.1,
+        "text": "You have to just press the button q."
+      },
+      {
+        "start": 493.1,
+        "duration": 1.0,
+        "text": "It will quit."
+      },
+      {
+        "start": 494.1,
+        "duration": 2.3,
+        "text": "It will get back to your terminal."
+      },
+      {
+        "start": 496.4,
+        "duration": 2.0,
+        "text": "This another command which is known as more."
+      },
+      {
+        "start": 498.4,
+        "duration": 5.2,
+        "text": "Well, it is similar to less, but simpler navigation."
+      },
+      {
+        "start": 503.6,
+        "duration": 3.9,
+        "text": "So this is all the command for viewing the files."
+      },
+      {
+        "start": 507.5,
+        "duration": 5.0,
+        "text": "These are perfect for quickly checking logs or configuration files so that you shouldn't"
+      },
+      {
+        "start": 512.5,
+        "duration": 5.2,
+        "text": "go inside the file manager again and again and see whether it is there or not."
+      },
+      {
+        "start": 517.7,
+        "duration": 3.5,
+        "text": "Now next step further, managing permissions."
+      },
+      {
+        "start": 521.2,
+        "duration": 3.6,
+        "text": "Linux is a secure operating system, so permission matters."
+      },
+      {
+        "start": 524.8,
+        "duration": 4.4,
+        "text": "Let's see how to control and who can access or modify files."
+      },
+      {
+        "start": 529.1,
+        "duration": 3.4,
+        "text": "So here are two commands which have to put in your mind."
+      },
+      {
+        "start": 532.5,
+        "duration": 3.3,
+        "text": "So first command is CHMOD."
+      },
+      {
+        "start": 535.8,
+        "duration": 5.1,
+        "text": "Basically, CHMOD is used for change mode."
+      },
+      {
+        "start": 540.9,
+        "duration": 2.0,
+        "text": "So I will be using it."
+      },
+      {
+        "start": 542.8,
+        "duration": 1.0,
+        "text": "644."
+      },
+      {
+        "start": 543.8,
+        "duration": 3.4,
+        "text": "I want to use for index dot html."
+      },
+      {
+        "start": 547.2,
+        "duration": 6.7,
+        "text": "So this sets the file so the owner can read and write while others only can read it."
+      },
+      {
+        "start": 554.0,
+        "duration": 6.8,
+        "text": "So if I am the user and I am the owner of it, I can only read and write."
+      },
+      {
+        "start": 560.8,
+        "duration": 2.1,
+        "text": "I can do whatever I wish to."
+      },
+      {
+        "start": 562.8,
+        "duration": 5.1,
+        "text": "But if someone else wants to do the same, they want to seek the permission with me."
+      },
+      {
+        "start": 568.0,
+        "duration": 1.5,
+        "text": "They can only read it."
+      },
+      {
+        "start": 569.4,
+        "duration": 2.4,
+        "text": "With this command, I can do that stuff."
+      },
+      {
+        "start": 571.8,
+        "duration": 4.4,
+        "text": "Now let's go to another command, which is CHOWN."
+      },
+      {
+        "start": 576.2,
+        "duration": 2.4,
+        "text": "It means change the owner."
+      },
+      {
+        "start": 578.6,
+        "duration": 8.0,
+        "text": "So for example, I am into a do-regor right now and I want to change the owner for index"
+      },
+      {
+        "start": 586.6,
+        "duration": 2.2,
+        "text": "dot html."
+      },
+      {
+        "start": 588.8,
+        "duration": 3.0,
+        "text": "So with this command, I can actually change it."
+      },
+      {
+        "start": 591.8,
+        "duration": 5.6,
+        "text": "So permissions help keep your environment secure, especially when working on sheet servers."
+      },
+      {
+        "start": 597.4,
+        "duration": 2.3,
+        "text": "So it is very essential for that time."
+      },
+      {
+        "start": 599.7,
+        "duration": 1.0,
+        "text": "Getting help."
+      },
+      {
+        "start": 601.0,
+        "duration": 3.2,
+        "text": "Don't worry if you forget how a command works."
+      },
+      {
+        "start": 604.2,
+        "duration": 4.0,
+        "text": "Linux gives you ways to explore commands anytime."
+      },
+      {
+        "start": 608.2,
+        "duration": 2.8,
+        "text": "So there is a command, man LS."
+      },
+      {
+        "start": 611.0,
+        "duration": 6.5,
+        "text": "So by entering it, you can open the manual for the LS command showing options and usage."
+      },
+      {
+        "start": 617.5,
+        "duration": 7.2,
+        "text": "So author what it will be doing, block size, ignore backups and everything over here."
+      },
+      {
+        "start": 624.6,
+        "duration": 5.4,
+        "text": "So this is how you can see it and how you can learn it by your own."
+      },
+      {
+        "start": 630.0,
+        "duration": 3.9,
+        "text": "And there is one more command, which is known as LS."
+      },
+      {
+        "start": 633.9,
+        "duration": 1.0,
+        "text": "Help."
+      },
+      {
+        "start": 634.9,
+        "duration": 4.6,
+        "text": "So a quick summary of how to use LS."
+      },
+      {
+        "start": 639.5,
+        "duration": 3.1,
+        "text": "So you can read this documentation for your better enhancement."
+      },
+      {
+        "start": 642.6,
+        "duration": 1.9,
+        "text": "Now let's go further."
+      },
+      {
+        "start": 644.5,
+        "duration": 5.1,
+        "text": "So using man or help will help you become more independent and confident when learning new"
+      },
+      {
+        "start": 649.6,
+        "duration": 1.0,
+        "text": "commands."
+      },
+      {
+        "start": 650.6,
+        "duration": 4.4,
+        "text": "Let's put this into practice step by step demo."
+      },
+      {
+        "start": 655.1,
+        "duration": 5.2,
+        "text": "So to navigate out of your current directory in Linux, you use the CD command."
+      },
+      {
+        "start": 660.3,
+        "duration": 4.6,
+        "text": "But moving out of your current directory and going to your parent directory, you will"
+      },
+      {
+        "start": 664.9,
+        "duration": 3.3,
+        "text": "use CD, space, full stop, full stop."
+      },
+      {
+        "start": 668.2,
+        "duration": 5.0,
+        "text": "So for example, my current directory is my project and I want to go my parent directory,"
+      },
+      {
+        "start": 673.2,
+        "duration": 6.7,
+        "text": "which is documents, I will be using CD, space, full stop, full stop."
+      },
+      {
+        "start": 680.0,
+        "duration": 4.8,
+        "text": "So by this, I am again back to my parent directory, which is documents."
+      },
+      {
+        "start": 684.8,
+        "duration": 2.3,
+        "text": "So let's put all of this into practice."
+      },
+      {
+        "start": 687.1,
+        "duration": 2.9,
+        "text": "So step by step demo once again."
+      },
+      {
+        "start": 690.0,
+        "duration": 4.9,
+        "text": "So for creating a directory or a folder, I will be using make directory."
+      },
+      {
+        "start": 694.8,
+        "duration": 1.9,
+        "text": "Let's go for test right now."
+      },
+      {
+        "start": 696.7,
+        "duration": 2.0,
+        "text": "I have created the documents."
+      },
+      {
+        "start": 698.8,
+        "duration": 4.7,
+        "text": "I have created the directory test inside the folder documents."
+      },
+      {
+        "start": 703.5,
+        "duration": 1.8,
+        "text": "Let's see over here."
+      },
+      {
+        "start": 705.2,
+        "duration": 6.0,
+        "text": "So this is documents and there is test over here."
+      },
+      {
+        "start": 711.2,
+        "duration": 1.8,
+        "text": "Now I want to go inside the test."
+      },
+      {
+        "start": 713.0,
+        "duration": 5.0,
+        "text": "I will be using CD test, change directory, create a file."
+      },
+      {
+        "start": 718.0,
+        "duration": 5.8,
+        "text": "So touch, let's say app.log."
+      },
+      {
+        "start": 723.8,
+        "duration": 3.0,
+        "text": "Now I will be checking the contents."
+      },
+      {
+        "start": 726.8,
+        "duration": 3.1,
+        "text": "So there is only app.log which is file over there."
+      },
+      {
+        "start": 729.9,
+        "duration": 2.1,
+        "text": "Now I want to view the file."
+      },
+      {
+        "start": 732.0,
+        "duration": 3.8,
+        "text": "So I will be using cat app.log."
+      },
+      {
+        "start": 735.7,
+        "duration": 8.0,
+        "text": "Now if I want to go to my parent directory, what will be I using CD, space, full stop,"
+      },
+      {
+        "start": 743.8,
+        "duration": 1.0,
+        "text": "full stop."
+      },
+      {
+        "start": 744.8,
+        "duration": 1.0,
+        "text": "Nice."
+      },
+      {
+        "start": 745.8,
+        "duration": 2.7,
+        "text": "Now I want to remove."
+      },
+      {
+        "start": 748.5,
+        "duration": 5.4,
+        "text": "So I will be using RMR test."
+      },
+      {
+        "start": 753.9,
+        "duration": 2.9,
+        "text": "So it will actually delete the folder."
+      },
+      {
+        "start": 756.8,
+        "duration": 1.7,
+        "text": "So let's see."
+      },
+      {
+        "start": 758.5,
+        "duration": 3.8,
+        "text": "Now there is no folder over here because I have deleted it."
+      },
+      {
+        "start": 762.2,
+        "duration": 6.5,
+        "text": "So with just a few commands, you can set up files, explore them and clean up all essentials"
+      },
+      {
+        "start": 768.7,
+        "duration": 2.9,
+        "text": "for any DevOps workflow."
+      },
+      {
+        "start": 771.6,
+        "duration": 4.8,
+        "text": "Now that you have practiced these basic commands, you are ready to learn how Linux commands"
+      },
+      {
+        "start": 776.4,
+        "duration": 6.1,
+        "text": "are grouped by functionality and used in real DevOps scenarios like monitoring logs,"
+      },
+      {
+        "start": 782.5,
+        "duration": 3.7,
+        "text": "troubleshooting networks and automating deployments."
+      },
+      {
+        "start": 786.2,
+        "duration": 3.2,
+        "text": "In Linux, there are hundreds of commands."
+      },
+      {
+        "start": 789.4,
+        "duration": 5.1,
+        "text": "It memorizing them without understanding where and when to use them can be overwhelming."
+      },
+      {
+        "start": 794.5,
+        "duration": 7.0,
+        "text": "That's why structuring them by use keys and functionality makes it easier to learn,"
+      },
+      {
+        "start": 801.5,
+        "duration": 4.0,
+        "text": "practice and troubleshoot tasks in DevOps pipelines."
+      },
+      {
+        "start": 805.5,
+        "duration": 3.2,
+        "text": "So let's break down into practical groups."
+      },
+      {
+        "start": 808.7,
+        "duration": 2.6,
+        "text": "So file and directory management."
+      },
+      {
+        "start": 811.3,
+        "duration": 18.4,
+        "text": "So there is a command for that which is LS, CD, PWD, MKDIR, RM, CP, MV, touch, find and"
+      },
+      {
+        "start": 829.7,
+        "duration": 1.2,
+        "text": "GREP."
+      },
+      {
+        "start": 831.0,
+        "duration": 6.0,
+        "text": "So these are the commands you will use daily to navigate, organize and manipulating files"
+      },
+      {
+        "start": 837.0,
+        "duration": 1.9,
+        "text": "and directories."
+      },
+      {
+        "start": 838.9,
+        "duration": 5.3,
+        "text": "So imagine you want to search for configuration files and containing a specific keyword"
+      },
+      {
+        "start": 844.2,
+        "duration": 2.0,
+        "text": "inside your project directory."
+      },
+      {
+        "start": 846.2,
+        "duration": 4.0,
+        "text": "You can combine fine and GREP like this."
+      },
+      {
+        "start": 850.2,
+        "duration": 7.2,
+        "text": "So for example, if I want to do the same, I will be using fine, let's suppose ETC."
+      },
+      {
+        "start": 857.4,
+        "duration": 2.0,
+        "text": "Well, this is just an example."
+      },
+      {
+        "start": 859.4,
+        "duration": 1.0,
+        "text": "It will not work."
+      },
+      {
+        "start": 860.4,
+        "duration": 19.6,
+        "text": "ETC, hyphen type, f, hyphen name, apostrophe and star dot, CUNF, apostrophe, EXEC, execute,"
+      },
+      {
+        "start": 880.0,
+        "duration": 12.2,
+        "text": "GREP, hyphen, H, listen, forward slash and dump."
+      },
+      {
+        "start": 892.2,
+        "duration": 5.8,
+        "text": "So this helps you quickly locate settings that need tweaking."
+      },
+      {
+        "start": 898.0,
+        "duration": 4.0,
+        "text": "So let's go to the second thing which is process and system monitoring."
+      },
+      {
+        "start": 902.0,
+        "duration": 11.8,
+        "text": "So there are commands for this which is PS, top, H top, kill, kill all, up time, free,"
+      },
+      {
+        "start": 913.7,
+        "duration": 9.8,
+        "text": "VM stat, IO stat, L, SOF, D, M, E, S, G."
+      },
+      {
+        "start": 923.5,
+        "duration": 4.0,
+        "text": "So these are all the commands which is used for process and system monitoring."
+      },
+      {
+        "start": 927.5,
+        "duration": 6.4,
+        "text": "So when systems go down or slow, these tools help you diagnose what is happening under"
+      },
+      {
+        "start": 933.9,
+        "duration": 1.0,
+        "text": "the hood."
+      },
+      {
+        "start": 934.9,
+        "duration": 6.8,
+        "text": "So for example, to monitor a process in real life, you can use top or to more interactive"
+      },
+      {
+        "start": 941.7,
+        "duration": 2.2,
+        "text": "version, you will use H top."
+      },
+      {
+        "start": 944.0,
+        "duration": 5.4,
+        "text": "So you can spot memory hungry processes and safely kill them using kill."
+      },
+      {
+        "start": 949.3,
+        "duration": 1.8,
+        "text": "So let's go further."
+      },
+      {
+        "start": 951.1,
+        "duration": 12.4,
+        "text": "So file viewing and manipulation, you will be using CAD, head, tail, less, more AWK,"
+      },
+      {
+        "start": 963.4,
+        "duration": 11.2,
+        "text": "SCD, Curt, SORT, Unic, WC, paste."
+      },
+      {
+        "start": 974.6,
+        "duration": 5.8,
+        "text": "So parsing logs, reading files and filtering information is essential when debugging deployments"
+      },
+      {
+        "start": 980.4,
+        "duration": 1.7,
+        "text": "or performance issue."
+      },
+      {
+        "start": 982.1,
+        "duration": 1.6,
+        "text": "So let's take a scenario."
+      },
+      {
+        "start": 983.7,
+        "duration": 6.5,
+        "text": "To monitor verification logs for errors in real time, you will use tail so that this"
+      },
+      {
+        "start": 990.2,
+        "duration": 4.8,
+        "text": "will continuously stream log entries containing the word error."
+      },
+      {
+        "start": 995.0,
+        "duration": 4.5,
+        "text": "Now the step 4 which is user and permission management."
+      },
+      {
+        "start": 999.5,
+        "duration": 10.2,
+        "text": "For that, we will be using sudo, CHMOD, change mode, PA, SSWD."
+      },
+      {
+        "start": 1009.6,
+        "duration": 11.2,
+        "text": "User, user delet, user mode, groups, ID."
+      },
+      {
+        "start": 1020.8,
+        "duration": 5.3,
+        "text": "So this will manage user permissions is critical to secure infrastructure, right?"
+      },
+      {
+        "start": 1026.1,
+        "duration": 6.2,
+        "text": "So to allow a user or a permission management, we will be using these commands."
+      },
+      {
+        "start": 1032.3,
+        "duration": 1.6,
+        "text": "Now there is example scenario."
+      },
+      {
+        "start": 1034.0,
+        "duration": 7.4,
+        "text": "To allow a user to run commands with elevated privileges, you can use sudo, SU because"
+      },
+      {
+        "start": 1041.4,
+        "duration": 2.4,
+        "text": "I am a super user."
+      },
+      {
+        "start": 1043.8,
+        "duration": 9.3,
+        "text": "User mode, hyphen A, capital G, Docker, Deployer."
+      },
+      {
+        "start": 1053.1,
+        "duration": 7.2,
+        "text": "Now see, these adds the deployer user to the Docker group so they can run continuous safely."
+      },
+      {
+        "start": 1060.4,
+        "duration": 4.3,
+        "text": "So here you can see there is a command, there is a login section, shell section, it's"
+      },
+      {
+        "start": 1064.6,
+        "duration": 1.5,
+        "text": "basically a firewall."
+      },
+      {
+        "start": 1066.2,
+        "duration": 3.2,
+        "text": "How will you protecting it and how you can do it the same?"
+      },
+      {
+        "start": 1069.4,
+        "duration": 1.7,
+        "text": "Network and connectivity."
+      },
+      {
+        "start": 1071.1,
+        "duration": 2.0,
+        "text": "So there are various commands for that."
+      },
+      {
+        "start": 1073.0,
+        "duration": 8.6,
+        "text": "For example, ping, IF config, you can also use IP config that is also same."
+      },
+      {
+        "start": 1081.6,
+        "duration": 16.1,
+        "text": "Let's start SSH, SCP, R sync, duplicate, curl, NC, trace route, NS lookup."
+      },
+      {
+        "start": 1097.7,
+        "duration": 5.0,
+        "text": "So these are all the commands for using networking and connectivity."
+      },
+      {
+        "start": 1102.8,
+        "duration": 1.9,
+        "text": "Network issues can cause downtime."
+      },
+      {
+        "start": 1104.7,
+        "duration": 4.6,
+        "text": "So having the right tools to diagnose and fix problem is a must."
+      },
+      {
+        "start": 1109.3,
+        "duration": 1.7,
+        "text": "Let's clear it all."
+      },
+      {
+        "start": 1111.0,
+        "duration": 1.6,
+        "text": "So there is a scenario for the scene."
+      },
+      {
+        "start": 1112.6,
+        "duration": 5.8,
+        "text": "To check if a server is reachable and measure the round trip time, so I will be using ping,"
+      },
+      {
+        "start": 1118.4,
+        "duration": 8.2,
+        "text": "hyphen C, 4, example, dot com."
+      },
+      {
+        "start": 1126.6,
+        "duration": 3.0,
+        "text": "See, this is working."
+      },
+      {
+        "start": 1129.6,
+        "duration": 8.5,
+        "text": "Let's terminate it right now and I will be using, let's suppose google.com and it is"
+      },
+      {
+        "start": 1138.1,
+        "duration": 3.9,
+        "text": "pinging to google right now."
+      },
+      {
+        "start": 1142.0,
+        "duration": 1.3,
+        "text": "So it has been done."
+      },
+      {
+        "start": 1143.3,
+        "duration": 5.1,
+        "text": "So it has been transmitted and received 100% packet loss and how much time it has been"
+      },
+      {
+        "start": 1148.3,
+        "duration": 1.3,
+        "text": "taken."
+      },
+      {
+        "start": 1149.7,
+        "duration": 3.7,
+        "text": "So I am pinging from which IP address it is showing that."
+      },
+      {
+        "start": 1153.4,
+        "duration": 5.6,
+        "text": "So this is how you can actually ping or to trace the path packets."
+      },
+      {
+        "start": 1159.0,
+        "duration": 2.1,
+        "text": "So I will be using same thing."
+      },
+      {
+        "start": 1161.1,
+        "duration": 5.7,
+        "text": "I will be going to google.com and I will be using trace route to check how it has been"
+      },
+      {
+        "start": 1166.8,
+        "duration": 1.0,
+        "text": "done."
+      },
+      {
+        "start": 1167.8,
+        "duration": 4.8,
+        "text": "Trace route google.com."
+      },
+      {
+        "start": 1172.6,
+        "duration": 3.8,
+        "text": "So actually I have to install everything and I want to go with stuff."
+      },
+      {
+        "start": 1176.4,
+        "duration": 4.2,
+        "text": "So by installing the trace route I can actually see how to trace route everything and how"
+      },
+      {
+        "start": 1180.5,
+        "duration": 5.3,
+        "text": "can I choose the path in which IP address it is going and where it is coming."
+      },
+      {
+        "start": 1185.8,
+        "duration": 3.6,
+        "text": "So it will help you how to isolate when the connection is feeling."
+      },
+      {
+        "start": 1189.4,
+        "duration": 1.4,
+        "text": "Now let's go to the 6th step."
+      },
+      {
+        "start": 1190.8,
+        "duration": 2.3,
+        "text": "We just package and service management."
+      },
+      {
+        "start": 1193.1,
+        "duration": 1.3,
+        "text": "So there is a command."
+      },
+      {
+        "start": 1194.4,
+        "duration": 4.0,
+        "text": "So let's take an example scenario."
+      },
+      {
+        "start": 1198.4,
+        "duration": 23.2,
+        "text": "You have to restart a service like engine X during a deployment."
+      },
+      {
+        "start": 1221.7,
+        "duration": 1.4,
+        "text": "So what will you use?"
+      },
+      {
+        "start": 1223.1,
+        "duration": 8.2,
+        "text": "You will use suro system CTL restart engines."
+      },
+      {
+        "start": 1231.3,
+        "duration": 4.9,
+        "text": "Fail to restart because it is not installed right now."
+      },
+      {
+        "start": 1236.2,
+        "duration": 6.0,
+        "text": "So it is basically a purpose like how do you use pip install, python, pip install and"
+      },
+      {
+        "start": 1242.2,
+        "duration": 3.4,
+        "text": "you have the services in python or you know, you know, you have used that."
+      },
+      {
+        "start": 1245.6,
+        "duration": 2.7,
+        "text": "So it is basically like that."
+      },
+      {
+        "start": 1249.3,
+        "duration": 1.0,
+        "text": "Okay."
+      },
+      {
+        "start": 1250.3,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 1251.3,
+        "duration": 4.3,
+        "text": "And to check logs you will use sudo journal CTL."
+      },
+      {
+        "start": 1255.6,
+        "duration": 3.6,
+        "text": "These help you troubleshoot issues after deployment."
+      },
+      {
+        "start": 1259.1,
+        "duration": 2.6,
+        "text": "Let's go to the next part which is security and firewall."
+      },
+      {
+        "start": 1261.7,
+        "duration": 13.4,
+        "text": "For that there is a secure shell SSH, SSH, key gen, IP tables and SSH, e gen and etc."
+      },
+      {
+        "start": 1275.0,
+        "duration": 3.2,
+        "text": "There are a lot of things inside the security and firewall."
+      },
+      {
+        "start": 1278.2,
+        "duration": 3.9,
+        "text": "Security is crucial in any of the production environment."
+      },
+      {
+        "start": 1282.2,
+        "duration": 5.2,
+        "text": "For generating a SSH keys to secure authentic to your servers, what command you will be actually"
+      },
+      {
+        "start": 1287.4,
+        "duration": 1.2,
+        "text": "using it."
+      },
+      {
+        "start": 1288.6,
+        "duration": 12.6,
+        "text": "So you will be using SSH, key gen, key generation basically, IP and T, RSA, IP and B, 4096."
+      },
+      {
+        "start": 1301.1,
+        "duration": 4.2,
+        "text": "So it will be generating a public or private key and it is asking me for which file I have"
+      },
+      {
+        "start": 1305.3,
+        "duration": 1.0,
+        "text": "1 to create."
+      },
+      {
+        "start": 1306.3,
+        "duration": 3.6,
+        "text": "So I am saying for index.html."
+      },
+      {
+        "start": 1309.9,
+        "duration": 5.3,
+        "text": "So it is asking me for any phrase if I want to give or pass freeze, what will be the"
+      },
+      {
+        "start": 1315.2,
+        "duration": 1.5,
+        "text": "pass code for the same."
+      },
+      {
+        "start": 1316.6,
+        "duration": 6.7,
+        "text": "So I am just typing it hello and because it is a password, so it will be not visible."
+      },
+      {
+        "start": 1323.3,
+        "duration": 6.8,
+        "text": "Now if you can see index.html is saved and I have to use the password which is hello"
+      },
+      {
+        "start": 1330.2,
+        "duration": 1.2,
+        "text": "to open it."
+      },
+      {
+        "start": 1331.4,
+        "duration": 5.7,
+        "text": "So this ensures you can access servers without exposing passwords."
+      },
+      {
+        "start": 1337.1,
+        "duration": 7.4,
+        "text": "So miscellaneous and automation which is used like commands LIS, history, the secure history"
+      },
+      {
+        "start": 1344.5,
+        "duration": 12.5,
+        "text": "by the word itself says that date, echo, sleep, watch, reboot, shut down and there are"
+      },
+      {
+        "start": 1357.0,
+        "duration": 4.6,
+        "text": "a lot of other examples for that, another commands for that, you can just read a documentation"
+      },
+      {
+        "start": 1361.6,
+        "duration": 2.4,
+        "text": "for the better enhancement of yourself."
+      },
+      {
+        "start": 1363.9,
+        "duration": 3.6,
+        "text": "So these are useful for scripting and simplifying repetitive tasks."
+      },
+      {
+        "start": 1367.5,
+        "duration": 2.5,
+        "text": "So let us take an example."
+      },
+      {
+        "start": 1370.0,
+        "duration": 5.7,
+        "text": "So to repeatedly check CPU usage every 5 seconds what I will be writing watch because I am"
+      },
+      {
+        "start": 1375.7,
+        "duration": 11.7,
+        "text": "going to see right and I want to say for 5 seconds and B and 1."
+      },
+      {
+        "start": 1387.4,
+        "duration": 6.2,
+        "text": "So it is showing me how it is working right now and it is changing in every 5 seconds."
+      },
+      {
+        "start": 1393.7,
+        "duration": 4.0,
+        "text": "See and another 5 seconds it will be changing it."
+      },
+      {
+        "start": 1397.6,
+        "duration": 4.1,
+        "text": "So this is how you can have to work upon it great."
+      },
+      {
+        "start": 1401.7,
+        "duration": 5.0,
+        "text": "So for getting outside of it you will be using control C to get out of it."
+      },
+      {
+        "start": 1406.8,
+        "duration": 5.4,
+        "text": "So to help your monitor system help you doing high load testing you will be using these commands."
+      },
+      {
+        "start": 1412.2,
+        "duration": 2.0,
+        "text": "Let us clear it again."
+      },
+      {
+        "start": 1414.2,
+        "duration": 3.2,
+        "text": "Now real world develops scenario."
+      },
+      {
+        "start": 1417.3,
+        "duration": 4.4,
+        "text": "So let us tie everything together with some practical examples that you will encounter"
+      },
+      {
+        "start": 1421.8,
+        "duration": 2.2,
+        "text": "in devoursware flows."
+      },
+      {
+        "start": 1424.0,
+        "duration": 3.3,
+        "text": "For mining logs for errors what you will be using?"
+      },
+      {
+        "start": 1427.3,
+        "duration": 2.3,
+        "text": "Use teal slash app with grip."
+      },
+      {
+        "start": 1429.6,
+        "duration": 6.9,
+        "text": "You can catch errors as they happen helping you act fast before and issue escalates."
+      },
+      {
+        "start": 1436.5,
+        "duration": 2.3,
+        "text": "So let us see."
+      },
+      {
+        "start": 1438.8,
+        "duration": 13.9,
+        "text": "For example teal slash app space, bar, log, system log using grip over here to check is"
+      },
+      {
+        "start": 1452.7,
+        "duration": 2.2,
+        "text": "it any error or not?"
+      },
+      {
+        "start": 1454.8,
+        "duration": 5.9,
+        "text": "Search checking error and there is no files remaining over there because permission has been"
+      },
+      {
+        "start": 1460.8,
+        "duration": 2.7,
+        "text": "denied for reading it."
+      },
+      {
+        "start": 1463.4,
+        "duration": 4.0,
+        "text": "So this is basically a purpose and how you can find it out."
+      },
+      {
+        "start": 1467.4,
+        "duration": 3.2,
+        "text": "For automating deployment you can actually use arcing."
+      },
+      {
+        "start": 1470.6,
+        "duration": 3.1,
+        "text": "Well using arcing is to copy files between the servers."
+      },
+      {
+        "start": 1473.7,
+        "duration": 3.4,
+        "text": "For xyz server to ebz server what you will be doing?"
+      },
+      {
+        "start": 1477.1,
+        "duration": 5.3,
+        "text": "You will be just writing arcing ebz building a server like aduric at the rate server."
+      },
+      {
+        "start": 1482.4,
+        "duration": 4.3,
+        "text": "My service came us for right now so iddic at the rate came us to and slash to do do"
+      },
+      {
+        "start": 1486.8,
+        "duration": 2.0,
+        "text": "dot whichever I want to go for."
+      },
+      {
+        "start": 1488.8,
+        "duration": 3.9,
+        "text": "So this is how you can automate the deployment with the help of arcing."
+      },
+      {
+        "start": 1492.7,
+        "duration": 3.1,
+        "text": "So mana services in cacd pipeline?"
+      },
+      {
+        "start": 1495.8,
+        "duration": 5.9,
+        "text": "For research services after deployment you will be using system ctl."
+      },
+      {
+        "start": 1501.7,
+        "duration": 2.5,
+        "text": "For checking the service status what you will be typing?"
+      },
+      {
+        "start": 1504.2,
+        "duration": 4.4,
+        "text": "Sudo system ctl status my service so it will actually look for the status."
+      },
+      {
+        "start": 1508.6,
+        "duration": 4.4,
+        "text": "So this is a step in automation pipelines to ensure services are running or not."
+      },
+      {
+        "start": 1513.0,
+        "duration": 3.2,
+        "text": "For network troubleshooting which I told you before also."
+      },
+      {
+        "start": 1516.2,
+        "duration": 4.0,
+        "text": "So using ping and trace route you can actually find connectivity issues."
+      },
+      {
+        "start": 1520.2,
+        "duration": 4.7,
+        "text": "So you can see where packers are delayed or dropped and fix them accordingly."
+      },
+      {
+        "start": 1524.9,
+        "duration": 5.4,
+        "text": "So with this we have come to the end of this video on Linux for beginners."
+      },
+      {
+        "start": 1530.3,
+        "duration": 5.4,
+        "text": "If you enjoyed listening to this video please be kind enough to like it and you can comment"
+      },
+      {
+        "start": 1535.7,
+        "duration": 5.1,
+        "text": "on any of your doubts and queries we will reply to you at the earliest."
+      },
+      {
+        "start": 1540.8,
+        "duration": 4.8,
+        "text": "And to look up for more videos and playlist and subscribe to eduric or ztl channel to learn"
+      },
+      {
+        "start": 1545.6,
+        "duration": 1.0,
+        "text": "more."
+      },
+      {
+        "start": 1546.6,
+        "duration": 2.0,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hey everyone and welcome to this video on Linux for beginners. Before we dive into advanced Linux commands, use in real world DevOps task that's important to make sure you're comfortable with the basics. Whether you're just getting started on either quick refresher, this video will help you set up an environment and practice some essential commands. Before we begin, please like, share and subscribe to Adoreka's YouTube channel and hit the bell icon to stay updated on latest tech content from Adoreka. Also, check out Adoreka's DevOps training program which is designed to equip learners with the skills to master AI integrated DevOps across the entire software delivery life cycle. Through hands-on learning, you will gain expertise in building intelligent, automated and secure CI-CB pipelines. This comprehensive course covers essential tools like gate, Jenkins, Terraform, Enciple, Docker, Kubernetes and Mitering frameworks, while also integrating AI-driven solutions for core generation, testing and analytics. Do check out the course link given in the description box below. Now let's jump right in. Let's take a quick moment to understand what Linux actually is and why it is so important for DevOps. Linux is an open source operating system similar to Windows or Mac OS, but here's a big catch. Linux is free, customizable and it powers the majority of servers, cloud systems and DevOps pipelines across the world. Why it is important? In fact, most of the internet runs on Linux. Web servers, databases, cloud providers and tools like Docker and Kubernetes all rely heavily on Linux. That's why DevOps engineers, system administrators and cloud professionals must be compatible with Linux commands. They let you directly interact with the system, troubleshoot issues and automate tasks. So now, first let's talk about how to move around in the Linux terminal. These commands will help you navigate your file system. So let's get started. So here you can see this is my Linux terminal. Great. Going with my first command, which is PWD. Well, PW stands for Print Working Directory. So this shows you where you are right now. So it shows me I am into whom and I'm into Adureka. Great. Now, I will go with the second command, which is LS, which means LIST. So this list all the files and folders in the current directory. So my directory was Adureka and these were all the directories, you know, files and folders in the present directory Adureka. Great. Now, it is the third command, which is known as CD. CD actually means change directory. So now if I want to go inside any of these, I will go by this command only. So let's see if I want to go into documents. So I will print CD documents. And now if you can see this slash and documents, it means you are inside the documents. Now let's try and again print our working directory what it is. Let's see PWD. Now it is showing me that I am inside the home, inside the Adureka, inside documents. Nice. So with these commands, you can easily move through your file system and see what is inside. Let's go one step further creating and managing files and directories. Let's learn how to create, copy, move and delete files and folders. So let's go for our first command, which is MKDIR. So what does MKDIR means? It means make directory. Let's choose the name for the directory. Let's suppose my project. Now if I am entering it, it will create a new directory called my project. Let's see. So this is my documents folder. I am into home, Adureka documents and see. My project is created. Right. Let's go one step further. Now I will go inside my project. So how will I be going? I said you above also CD. Let's go. I will be my project and see. I am inside. Before go for the first command, I just show you that there is nothing inside my project right now. Now I will be using my third command, which is touch. Well, that simply means it will create a empty file. So for creating a empty file, you will use the command touch. Now I will name the file, which is index dot html for an example and now it has been created. Let's see. It is there. So without coming over here with the help of terminal, I created index dot html. But what if I don't want to go to file manager to check whether it's created or not? I will use the command LS. It will list all the files and folders over there, index dot html. Now let's suppose I want to do the copy of this index dot html. So I will be writing CP, which means copy index dot html. And by what name I want to copy, let's say backup. So I will say backup dot html and so it will actually create a backup file of index dot html, copy piece basically. Because I am into the directory of my project only, so it will create the backup over there, means my copy file over there. Great. Let's go to next one, which is MV. So basically MV command is used for renaming the file. Let's say I want to change the name for backup.html. I will be using MV backup dot html. And I want to say change it by index backup dot html. So it's had been changed. See index backup dot html. Before it was just backup dot html, now it is index backup dot html. This is how we rename the file. Now what if I want to remove or delete the file, I will be using RM command. Now RM, I want to create the backup file, so I will be deleting index backup dot html. So by entering it, I actually deleted the file. You can see over here, it has been deleted. So this is the power of terminal. So these commands are the building blocks when working with the files and folders. You will use them every day in projects and deployments. So now let's view the files. Sometimes you will want to peek inside a file to see its content without opening it in an editor. So how you will be seeing it. So I'm going time to time over here, checking whether it is there or not. What is inside index dot html? What if I will see that you can do by the terminal itself? Right. So there is a command cat, which actually means print the entire file content. So catindex.html. By entering it, you will actually print the entire file content. So there is nothing over here in the file right now. Now there is a next command which is known as less index dot html, which means view the file with scrolling. How it will work? Let's see. End up. So if there is something inside index dot html, you can see over here. So now how do I get outside of it? It is a command over here, which is known as q. You have to just press the button q. It will quit. It will get back to your terminal. This another command which is known as more. Well, it is similar to less, but simpler navigation. So this is all the command for viewing the files. These are perfect for quickly checking logs or configuration files so that you shouldn't go inside the file manager again and again and see whether it is there or not. Now next step further, managing permissions. Linux is a secure operating system, so permission matters. Let's see how to control and who can access or modify files. So here are two commands which have to put in your mind. So first command is CHMOD. Basically, CHMOD is used for change mode. So I will be using it. 644. I want to use for index dot html. So this sets the file so the owner can read and write while others only can read it. So if I am the user and I am the owner of it, I can only read and write. I can do whatever I wish to. But if someone else wants to do the same, they want to seek the permission with me. They can only read it. With this command, I can do that stuff. Now let's go to another command, which is CHOWN. It means change the owner. So for example, I am into a do-regor right now and I want to change the owner for index dot html. So with this command, I can actually change it. So permissions help keep your environment secure, especially when working on sheet servers. So it is very essential for that time. Getting help. Don't worry if you forget how a command works. Linux gives you ways to explore commands anytime. So there is a command, man LS. So by entering it, you can open the manual for the LS command showing options and usage. So author what it will be doing, block size, ignore backups and everything over here. So this is how you can see it and how you can learn it by your own. And there is one more command, which is known as LS. Help. So a quick summary of how to use LS. So you can read this documentation for your better enhancement. Now let's go further. So using man or help will help you become more independent and confident when learning new commands. Let's put this into practice step by step demo. So to navigate out of your current directory in Linux, you use the CD command. But moving out of your current directory and going to your parent directory, you will use CD, space, full stop, full stop. So for example, my current directory is my project and I want to go my parent directory, which is documents, I will be using CD, space, full stop, full stop. So by this, I am again back to my parent directory, which is documents. So let's put all of this into practice. So step by step demo once again. So for creating a directory or a folder, I will be using make directory. Let's go for test right now. I have created the documents. I have created the directory test inside the folder documents. Let's see over here. So this is documents and there is test over here. Now I want to go inside the test. I will be using CD test, change directory, create a file. So touch, let's say app.log. Now I will be checking the contents. So there is only app.log which is file over there. Now I want to view the file. So I will be using cat app.log. Now if I want to go to my parent directory, what will be I using CD, space, full stop, full stop. Nice. Now I want to remove. So I will be using RMR test. So it will actually delete the folder. So let's see. Now there is no folder over here because I have deleted it. So with just a few commands, you can set up files, explore them and clean up all essentials for any DevOps workflow. Now that you have practiced these basic commands, you are ready to learn how Linux commands are grouped by functionality and used in real DevOps scenarios like monitoring logs, troubleshooting networks and automating deployments. In Linux, there are hundreds of commands. It memorizing them without understanding where and when to use them can be overwhelming. That's why structuring them by use keys and functionality makes it easier to learn, practice and troubleshoot tasks in DevOps pipelines. So let's break down into practical groups. So file and directory management. So there is a command for that which is LS, CD, PWD, MKDIR, RM, CP, MV, touch, find and GREP. So these are the commands you will use daily to navigate, organize and manipulating files and directories. So imagine you want to search for configuration files and containing a specific keyword inside your project directory. You can combine fine and GREP like this. So for example, if I want to do the same, I will be using fine, let's suppose ETC. Well, this is just an example. It will not work. ETC, hyphen type, f, hyphen name, apostrophe and star dot, CUNF, apostrophe, EXEC, execute, GREP, hyphen, H, listen, forward slash and dump. So this helps you quickly locate settings that need tweaking. So let's go to the second thing which is process and system monitoring. So there are commands for this which is PS, top, H top, kill, kill all, up time, free, VM stat, IO stat, L, SOF, D, M, E, S, G. So these are all the commands which is used for process and system monitoring. So when systems go down or slow, these tools help you diagnose what is happening under the hood. So for example, to monitor a process in real life, you can use top or to more interactive version, you will use H top. So you can spot memory hungry processes and safely kill them using kill. So let's go further. So file viewing and manipulation, you will be using CAD, head, tail, less, more AWK, SCD, Curt, SORT, Unic, WC, paste. So parsing logs, reading files and filtering information is essential when debugging deployments or performance issue. So let's take a scenario. To monitor verification logs for errors in real time, you will use tail so that this will continuously stream log entries containing the word error. Now the step 4 which is user and permission management. For that, we will be using sudo, CHMOD, change mode, PA, SSWD. User, user delet, user mode, groups, ID. So this will manage user permissions is critical to secure infrastructure, right? So to allow a user or a permission management, we will be using these commands. Now there is example scenario. To allow a user to run commands with elevated privileges, you can use sudo, SU because I am a super user. User mode, hyphen A, capital G, Docker, Deployer. Now see, these adds the deployer user to the Docker group so they can run continuous safely. So here you can see there is a command, there is a login section, shell section, it's basically a firewall. How will you protecting it and how you can do it the same? Network and connectivity. So there are various commands for that. For example, ping, IF config, you can also use IP config that is also same. Let's start SSH, SCP, R sync, duplicate, curl, NC, trace route, NS lookup. So these are all the commands for using networking and connectivity. Network issues can cause downtime. So having the right tools to diagnose and fix problem is a must. Let's clear it all. So there is a scenario for the scene. To check if a server is reachable and measure the round trip time, so I will be using ping, hyphen C, 4, example, dot com. See, this is working. Let's terminate it right now and I will be using, let's suppose google.com and it is pinging to google right now. So it has been done. So it has been transmitted and received 100% packet loss and how much time it has been taken. So I am pinging from which IP address it is showing that. So this is how you can actually ping or to trace the path packets. So I will be using same thing. I will be going to google.com and I will be using trace route to check how it has been done. Trace route google.com. So actually I have to install everything and I want to go with stuff. So by installing the trace route I can actually see how to trace route everything and how can I choose the path in which IP address it is going and where it is coming. So it will help you how to isolate when the connection is feeling. Now let's go to the 6th step. We just package and service management. So there is a command. So let's take an example scenario. You have to restart a service like engine X during a deployment. So what will you use? You will use suro system CTL restart engines. Fail to restart because it is not installed right now. So it is basically a purpose like how do you use pip install, python, pip install and you have the services in python or you know, you know, you have used that. So it is basically like that. Okay. Great. And to check logs you will use sudo journal CTL. These help you troubleshoot issues after deployment. Let's go to the next part which is security and firewall. For that there is a secure shell SSH, SSH, key gen, IP tables and SSH, e gen and etc. There are a lot of things inside the security and firewall. Security is crucial in any of the production environment. For generating a SSH keys to secure authentic to your servers, what command you will be actually using it. So you will be using SSH, key gen, key generation basically, IP and T, RSA, IP and B, 4096. So it will be generating a public or private key and it is asking me for which file I have 1 to create. So I am saying for index.html. So it is asking me for any phrase if I want to give or pass freeze, what will be the pass code for the same. So I am just typing it hello and because it is a password, so it will be not visible. Now if you can see index.html is saved and I have to use the password which is hello to open it. So this ensures you can access servers without exposing passwords. So miscellaneous and automation which is used like commands LIS, history, the secure history by the word itself says that date, echo, sleep, watch, reboot, shut down and there are a lot of other examples for that, another commands for that, you can just read a documentation for the better enhancement of yourself. So these are useful for scripting and simplifying repetitive tasks. So let us take an example. So to repeatedly check CPU usage every 5 seconds what I will be writing watch because I am going to see right and I want to say for 5 seconds and B and 1. So it is showing me how it is working right now and it is changing in every 5 seconds. See and another 5 seconds it will be changing it. So this is how you can have to work upon it great. So for getting outside of it you will be using control C to get out of it. So to help your monitor system help you doing high load testing you will be using these commands. Let us clear it again. Now real world develops scenario. So let us tie everything together with some practical examples that you will encounter in devoursware flows. For mining logs for errors what you will be using? Use teal slash app with grip. You can catch errors as they happen helping you act fast before and issue escalates. So let us see. For example teal slash app space, bar, log, system log using grip over here to check is it any error or not? Search checking error and there is no files remaining over there because permission has been denied for reading it. So this is basically a purpose and how you can find it out. For automating deployment you can actually use arcing. Well using arcing is to copy files between the servers. For xyz server to ebz server what you will be doing? You will be just writing arcing ebz building a server like aduric at the rate server. My service came us for right now so iddic at the rate came us to and slash to do do dot whichever I want to go for. So this is how you can automate the deployment with the help of arcing. So mana services in cacd pipeline? For research services after deployment you will be using system ctl. For checking the service status what you will be typing? Sudo system ctl status my service so it will actually look for the status. So this is a step in automation pipelines to ensure services are running or not. For network troubleshooting which I told you before also. So using ping and trace route you can actually find connectivity issues. So you can see where packers are delayed or dropped and fix them accordingly. So with this we have come to the end of this video on Linux for beginners. If you enjoyed listening to this video please be kind enough to like it and you can comment on any of your doubts and queries we will reply to you at the earliest. And to look up for more videos and playlist and subscribe to eduric or ztl channel to learn more. Thank you for watching and happy learning."
+  }
+}

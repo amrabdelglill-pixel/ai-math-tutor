@@ -1,0 +1,1229 @@
+{
+  "video_id": "qBRaI0ZeAf8",
+  "video_title": "We Have To Talk About Weed",
+  "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+  "channel_title": "Kurzgesagt – In a Nutshell",
+  "published_at": "",
+  "duration_secs": 882.0,
+  "view_count": 12142956,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 7.0,
+        "text": "Cannabis has been vilified to a ridiculous degree for the last century, but it's now"
+      },
+      {
+        "start": 7.0,
+        "duration": 4.3,
+        "text": "finally being decriminalized in more and more places around the world."
+      },
+      {
+        "start": 11.3,
+        "duration": 5.2,
+        "text": "It's just recently been legalized in Germany, and, for very good reasons, compared to legal"
+      },
+      {
+        "start": 16.5,
+        "duration": 5.9,
+        "text": "drugs like alcohol, which will cause one in 20 deaths just this year, cannabis is pretty"
+      },
+      {
+        "start": 22.4,
+        "duration": 1.0,
+        "text": "mild."
+      },
+      {
+        "start": 23.4,
+        "duration": 6.3,
+        "text": "So, to justify harsh prosecution and punishment, its negative effects have been wildly overstated."
+      },
+      {
+        "start": 29.7,
+        "duration": 4.2,
+        "text": "Naturally, there was a lot of pushback, and here's something went wrong."
+      },
+      {
+        "start": 33.8,
+        "duration": 3.7,
+        "text": "If you've followed the discourse over the last few years, you might have got the impression"
+      },
+      {
+        "start": 37.6,
+        "duration": 5.7,
+        "text": "that weed has almost only been upside and few if any negative side effects."
+      },
+      {
+        "start": 43.3,
+        "duration": 3.0,
+        "text": "We ourselves contributed to that narrative."
+      },
+      {
+        "start": 46.3,
+        "duration": 4.3,
+        "text": "What made this worse is that criminalisation made it very hard for scientists to study"
+      },
+      {
+        "start": 50.6,
+        "duration": 2.8,
+        "text": "cannabis, especially its long term effects."
+      },
+      {
+        "start": 53.4,
+        "duration": 4.7,
+        "text": "They faced bureaucratic and legal hurdles, and studies often had to rely on small sample"
+      },
+      {
+        "start": 58.1,
+        "duration": 1.3,
+        "text": "sizes."
+      },
+      {
+        "start": 59.4,
+        "duration": 4.6,
+        "text": "In the last few years, this finally started to change, so it's time to bring new evidence"
+      },
+      {
+        "start": 64.1,
+        "duration": 2.0,
+        "text": "to the discussion."
+      },
+      {
+        "start": 66.1,
+        "duration": 2.7,
+        "text": "And well, it's not pretty."
+      },
+      {
+        "start": 68.8,
+        "duration": 5.4,
+        "text": "While weed is still much less harmful than alcohol, it does have a dark side."
+      },
+      {
+        "start": 74.2,
+        "duration": 4.8,
+        "text": "It is more addictive than we thought, and can have significant negative effects if you"
+      },
+      {
+        "start": 79.0,
+        "duration": 2.1,
+        "text": "use it long term."
+      },
+      {
+        "start": 81.1,
+        "duration": 2.0,
+        "text": "It seems that…"
+      },
+      {
+        "start": 83.1,
+        "duration": 2.5,
+        "text": "What are you doing?"
+      },
+      {
+        "start": 85.6,
+        "duration": 3.4,
+        "text": "Before you tell us how dumb we are, please watch the video."
+      },
+      {
+        "start": 89.0,
+        "duration": 4.5,
+        "text": "To be crystal clear, we think prohibition doesn't work and cannabis should be legal,"
+      },
+      {
+        "start": 93.5,
+        "duration": 5.3,
+        "text": "but this also means that we need to treat it as what it is, a drug, with unique upsides"
+      },
+      {
+        "start": 98.8,
+        "duration": 1.5,
+        "text": "and downsides."
+      },
+      {
+        "start": 100.3,
+        "duration": 6.1,
+        "text": "So, let's take an honest look at some of the latest research together."
+      },
+      {
+        "start": 106.4,
+        "duration": 3.6,
+        "text": "Weed is getting stronger and stronger."
+      },
+      {
+        "start": 110.1,
+        "duration": 5.0,
+        "text": "Cannabis' magic juice is tetrahydro-canabinol THC."
+      },
+      {
+        "start": 115.1,
+        "duration": 4.5,
+        "text": "The docks on your cannabinoid receptors, which affects various brain functions."
+      },
+      {
+        "start": 119.6,
+        "duration": 6.7,
+        "text": "THC activates some regions and calms down others, creating a fun cocktail of sensations."
+      },
+      {
+        "start": 126.3,
+        "duration": 3.7,
+        "text": "The more THC, the more intense the high."
+      },
+      {
+        "start": 130.0,
+        "duration": 5.1,
+        "text": "And people seem to be into higher highs, or at least this is what the market is providing."
+      },
+      {
+        "start": 135.1,
+        "duration": 5.8,
+        "text": "In the US, Canada and in Europe, the concentration of THC in legal and illegal cannabis products"
+      },
+      {
+        "start": 140.9,
+        "duration": 3.0,
+        "text": "has more than doubled in the last few decades."
+      },
+      {
+        "start": 143.9,
+        "duration": 4.5,
+        "text": "Not ever more potent strains are bred, products like edibles or concentrates with more than"
+      },
+      {
+        "start": 148.4,
+        "duration": 3.8,
+        "text": "60% THC have become increasingly common."
+      },
+      {
+        "start": 152.2,
+        "duration": 6.6,
+        "text": "While the share of products with less than 15% THC has declined, unfortunately just about"
+      },
+      {
+        "start": 158.8,
+        "duration": 4.6,
+        "text": "every problem we'd create gets worse at higher THC doses."
+      },
+      {
+        "start": 163.4,
+        "duration": 3.3,
+        "text": "At the same time, more and more people use weeds."
+      },
+      {
+        "start": 166.8,
+        "duration": 5.7,
+        "text": "In the US, more people consumed cannabis daily than alcohol for the first time in 2022."
+      },
+      {
+        "start": 172.5,
+        "duration": 7.1,
+        "text": "In Canada, 26% of people 16 and older use it up from 22% in 2018."
+      },
+      {
+        "start": 179.6,
+        "duration": 4.0,
+        "text": "It's not possible to say if legalisation is the reason for this though, since studies"
+      },
+      {
+        "start": 183.6,
+        "duration": 4.8,
+        "text": "are pretty inconsistent and very massively between different uses."
+      },
+      {
+        "start": 188.4,
+        "duration": 5.8,
+        "text": "In some, consumption went up, in others it stayed stable and the trend to use more weed"
+      },
+      {
+        "start": 194.2,
+        "duration": 6.2,
+        "text": "began in the early 90s and sped up in the 2000s way earlier than legalisation."
+      },
+      {
+        "start": 200.4,
+        "duration": 5.0,
+        "text": "So today, more people consume more weed than ever before in the last century and it's"
+      },
+      {
+        "start": 205.4,
+        "duration": 2.5,
+        "text": "the strongest it's ever been."
+      },
+      {
+        "start": 207.9,
+        "duration": 2.8,
+        "text": "What are we seeing as a result of this?"
+      },
+      {
+        "start": 210.7,
+        "duration": 5.1,
+        "text": "Let's start with something that used to get you laughed out of the room addiction."
+      },
+      {
+        "start": 215.8,
+        "duration": 3.6,
+        "text": "Weed addiction and withdrawal symptoms."
+      },
+      {
+        "start": 219.3,
+        "duration": 4.6,
+        "text": "A big narrative about weed is that it's not addictive or at least not that big of a deal"
+      },
+      {
+        "start": 224.0,
+        "duration": 2.7,
+        "text": "and for most people this is true."
+      },
+      {
+        "start": 226.6,
+        "duration": 2.6,
+        "text": "Studies clearly show that the majority handle it well."
+      },
+      {
+        "start": 229.2,
+        "duration": 5.2,
+        "text": "For 8 out of 10 using weed it's just a casual high and not problematic at all."
+      },
+      {
+        "start": 234.4,
+        "duration": 4.8,
+        "text": "About 2 in 10 uses develop a cannabis use disorder or CUD."
+      },
+      {
+        "start": 239.2,
+        "duration": 4.8,
+        "text": "CUD has 11 different symptoms from the inability to stop when you've had enough to using"
+      },
+      {
+        "start": 244.0,
+        "duration": 5.0,
+        "text": "it when you know it will have negative consequences to tolerance and withdrawal."
+      },
+      {
+        "start": 249.0,
+        "duration": 4.2,
+        "text": "They could all basically be reduced to, you're doing it too often even if it's bad for"
+      },
+      {
+        "start": 253.2,
+        "duration": 3.0,
+        "text": "you and it's less fun than it could be."
+      },
+      {
+        "start": 256.2,
+        "duration": 2.2,
+        "text": "There are 3 major risk factors here."
+      },
+      {
+        "start": 258.5,
+        "duration": 6.3,
+        "text": "The amount of THC how often you consume and your age when you start using cannabis."
+      },
+      {
+        "start": 264.8,
+        "duration": 6.6,
+        "text": "The more THC, the more often and the younger you are when you start, the higher your risk."
+      },
+      {
+        "start": 271.4,
+        "duration": 5.8,
+        "text": "If you smoke too much weed too often, it will have negative impacts on your life."
+      },
+      {
+        "start": 277.2,
+        "duration": 4.3,
+        "text": "So if this is you, toning it down a bit will make a big difference."
+      },
+      {
+        "start": 281.5,
+        "duration": 3.3,
+        "text": "One in 10 uses develops a serious addiction."
+      },
+      {
+        "start": 284.8,
+        "duration": 5.0,
+        "text": "They usually consume daily and their life is significantly impaired or health back because"
+      },
+      {
+        "start": 289.8,
+        "duration": 4.8,
+        "text": "they spend a lot of their time either using or recovering from cannabis use."
+      },
+      {
+        "start": 294.6,
+        "duration": 5.0,
+        "text": "Since their brain is building a tolerance, they need increasingly high doses or stronger"
+      },
+      {
+        "start": 299.6,
+        "duration": 2.4,
+        "text": "weed, often both."
+      },
+      {
+        "start": 301.9,
+        "duration": 6.2,
+        "text": "Studies found a variety of negative effects, heavy users can experience bad moods, feel irritable,"
+      },
+      {
+        "start": 308.1,
+        "duration": 3.8,
+        "text": "restless, paranoid, anxious and even depressive."
+      },
+      {
+        "start": 311.9,
+        "duration": 4.5,
+        "text": "In a sad twist of irony, for many addicts it feels like they need weed to fight these"
+      },
+      {
+        "start": 316.4,
+        "duration": 1.0,
+        "text": "symptoms."
+      },
+      {
+        "start": 317.4,
+        "duration": 5.0,
+        "text": "Maybe it did actually help at first, while in reality it makes those symptoms stronger"
+      },
+      {
+        "start": 322.4,
+        "duration": 1.9,
+        "text": "and more persistent."
+      },
+      {
+        "start": 324.3,
+        "duration": 4.8,
+        "text": "Studies also found that loneliness and frequent cannabis use go hand in hand."
+      },
+      {
+        "start": 329.1,
+        "duration": 4.9,
+        "text": "If you feel lonely you're more likely to use weed and if you use weed you may experience"
+      },
+      {
+        "start": 334.0,
+        "duration": 1.6,
+        "text": "more loneliness."
+      },
+      {
+        "start": 335.5,
+        "duration": 5.3,
+        "text": "It's not always easy to say which came first, but they seem to reinforce each other."
+      },
+      {
+        "start": 340.8,
+        "duration": 4.1,
+        "text": "So on the one hand cannabis makes loneliness feel much less bad."
+      },
+      {
+        "start": 344.9,
+        "duration": 4.8,
+        "text": "On the other hand it can also make you feel more socially awkward than you actually are and"
+      },
+      {
+        "start": 349.7,
+        "duration": 2.0,
+        "text": "withdraw from friends."
+      },
+      {
+        "start": 351.6,
+        "duration": 5.8,
+        "text": "This can lead to a downward spiral that ends in self-isolation and chronic loneliness."
+      },
+      {
+        "start": 357.4,
+        "duration": 4.3,
+        "text": "Another thing many people who consume a lot experience is a mental numbness that makes"
+      },
+      {
+        "start": 361.7,
+        "duration": 5.7,
+        "text": "boredom feel okay because it impacts the reward system of your brain, not great but good"
+      },
+      {
+        "start": 367.4,
+        "duration": 1.0,
+        "text": "enough."
+      },
+      {
+        "start": 368.4,
+        "duration": 4.8,
+        "text": "You can spend your days killing time, binging mildly interesting stuff."
+      },
+      {
+        "start": 373.2,
+        "duration": 3.0,
+        "text": "Being numb rather than having fun."
+      },
+      {
+        "start": 376.2,
+        "duration": 5.9,
+        "text": "Boredom is a signal to your mind to get creative or learn something new, but this is suppressed."
+      },
+      {
+        "start": 382.1,
+        "duration": 4.4,
+        "text": "This also makes quitting so much harder because your daily routine suddenly seem boring"
+      },
+      {
+        "start": 386.6,
+        "duration": 4.1,
+        "text": "and unexciting, making it very tempting to go back."
+      },
+      {
+        "start": 390.6,
+        "duration": 5.5,
+        "text": "If you find yourself using constantly, this can also stunt your development as a person."
+      },
+      {
+        "start": 396.2,
+        "duration": 4.7,
+        "text": "The numbness dulls bad feelings, making it easy not to deal with them, but in life"
+      },
+      {
+        "start": 400.8,
+        "duration": 4.7,
+        "text": "you can only get over bad feelings if you actually feel them and you have to process them"
+      },
+      {
+        "start": 405.5,
+        "duration": 1.0,
+        "text": "to grow."
+      },
+      {
+        "start": 406.5,
+        "duration": 3.5,
+        "text": "Lastly, let's talk about physical withdrawal symptoms."
+      },
+      {
+        "start": 410.0,
+        "duration": 5.3,
+        "text": "The more you consume, the worse they'll be for you, especially if you use daily."
+      },
+      {
+        "start": 415.3,
+        "duration": 5.1,
+        "text": "Withdrawal can cause headaches and sweating or chills, decreased appetite, in severe cases"
+      },
+      {
+        "start": 420.4,
+        "duration": 3.6,
+        "text": "even fever, nausea and abdominal pain."
+      },
+      {
+        "start": 424.0,
+        "duration": 4.2,
+        "text": "You might have trouble falling asleep and if you do, you might have disturbing and vivid"
+      },
+      {
+        "start": 428.1,
+        "duration": 1.0,
+        "text": "dreams."
+      },
+      {
+        "start": 429.1,
+        "duration": 5.0,
+        "text": "The withdrawal computes you in a depressive mood where life feels daft and pointless."
+      },
+      {
+        "start": 434.2,
+        "duration": 4.1,
+        "text": "You can feel restless, angry, anxious or nervous."
+      },
+      {
+        "start": 438.2,
+        "duration": 3.4,
+        "text": "You may feel unable to do anything at all."
+      },
+      {
+        "start": 441.7,
+        "duration": 4.4,
+        "text": "After a few days these symptoms will begin to subside and after a few weeks they'll be"
+      },
+      {
+        "start": 446.0,
+        "duration": 1.6,
+        "text": "gone entirely."
+      },
+      {
+        "start": 447.6,
+        "duration": 4.5,
+        "text": "The exact time depends on how much and how long you've been consuming cannabis."
+      },
+      {
+        "start": 452.8,
+        "duration": 3.4,
+        "text": "Now, let's get to the worst part."
+      },
+      {
+        "start": 456.2,
+        "duration": 3.2,
+        "text": "Weed may damage your brain."
+      },
+      {
+        "start": 459.3,
+        "duration": 4.6,
+        "text": "This section was not fun to research because there's fierce debate among researchers, how"
+      },
+      {
+        "start": 463.9,
+        "duration": 4.7,
+        "text": "bad weed is for your brain and whether it has irreversible long-term consequences or"
+      },
+      {
+        "start": 468.6,
+        "duration": 1.0,
+        "text": "not."
+      },
+      {
+        "start": 469.6,
+        "duration": 4.5,
+        "text": "There's no consensus yet and it's hard to say anything definitive."
+      },
+      {
+        "start": 474.2,
+        "duration": 4.9,
+        "text": "Having said that, THC directly interferes with critical brain chemistry."
+      },
+      {
+        "start": 479.0,
+        "duration": 3.6,
+        "text": "There is some evidence that it may alter its structure."
+      },
+      {
+        "start": 482.6,
+        "duration": 5.3,
+        "text": "If it does this may go away again if you quit after a few years or not, we don't know"
+      },
+      {
+        "start": 487.9,
+        "duration": 1.4,
+        "text": "yet."
+      },
+      {
+        "start": 489.3,
+        "duration": 5.0,
+        "text": "The consequences vary a lot between individuals but especially for heavy users they have a"
+      },
+      {
+        "start": 494.3,
+        "duration": 3.2,
+        "text": "variety of potentially unfunny downsides."
+      },
+      {
+        "start": 497.6,
+        "duration": 5.8,
+        "text": "The most common one is that your memory gets significantly worse."
+      },
+      {
+        "start": 503.3,
+        "duration": 5.0,
+        "text": "And heavy use may reduce your ability to learn, your reasoning, perception, attention"
+      },
+      {
+        "start": 508.3,
+        "duration": 5.1,
+        "text": "span, decision making, language abilities and impulse control."
+      },
+      {
+        "start": 513.4,
+        "duration": 4.7,
+        "text": "Most negative effects seem to go away or at least we can over time after you quit but"
+      },
+      {
+        "start": 518.1,
+        "duration": 4.3,
+        "text": "again we simply don't know enough and need more research."
+      },
+      {
+        "start": 522.4,
+        "duration": 5.9,
+        "text": "Where the evidence is much clearer is that consuming a lot of weed is really bad for teenagers"
+      },
+      {
+        "start": 528.3,
+        "duration": 2.2,
+        "text": "on multiple levels."
+      },
+      {
+        "start": 530.6,
+        "duration": 4.9,
+        "text": "If you start using heavily early you have many more years to build up potentially negative"
+      },
+      {
+        "start": 535.5,
+        "duration": 1.6,
+        "text": "side effects."
+      },
+      {
+        "start": 537.1,
+        "duration": 4.4,
+        "text": "Teens who use a lot are much more likely to become addicted to weight."
+      },
+      {
+        "start": 541.5,
+        "duration": 4.5,
+        "text": "This may just be correlation and weed may not be the underlying cause but heavy weed"
+      },
+      {
+        "start": 546.0,
+        "duration": 5.9,
+        "text": "users are more likely to perform poorly in school and less likely to finish their education."
+      },
+      {
+        "start": 551.8,
+        "duration": 4.6,
+        "text": "They are on average less satisfied with their life and what they've achieved."
+      },
+      {
+        "start": 556.5,
+        "duration": 3.9,
+        "text": "This may simply be because if your memory and motivation are stunted you have fewer"
+      },
+      {
+        "start": 560.4,
+        "duration": 4.1,
+        "text": "interesting experiences and forget the ones you do have."
+      },
+      {
+        "start": 564.4,
+        "duration": 4.4,
+        "text": "And there is strong evidence that teen users are way more likely to develop mental health"
+      },
+      {
+        "start": 568.8,
+        "duration": 5.9,
+        "text": "issues like psychosis, schizophrenia, depression or anxiety later in life."
+      },
+      {
+        "start": 574.8,
+        "duration": 4.9,
+        "text": "Once again the young you start the higher the risk and it also seems to rise massively"
+      },
+      {
+        "start": 579.7,
+        "duration": 6.6,
+        "text": "with high THC doses making highly potent cannabis products even more dangerous for teens."
+      },
+      {
+        "start": 586.2,
+        "duration": 2.6,
+        "text": "Okay, let's wrap this up."
+      },
+      {
+        "start": 588.8,
+        "duration": 4.6,
+        "text": "We've only focused on the negative side in this video that was the whole point."
+      },
+      {
+        "start": 593.4,
+        "duration": 5.4,
+        "text": "As we said before for most people weed in moderation is totally fine and definitely way less harmful"
+      },
+      {
+        "start": 598.8,
+        "duration": 1.0,
+        "text": "than alcohol."
+      },
+      {
+        "start": 599.8,
+        "duration": 3.1,
+        "text": "You do you, we're not your parents."
+      },
+      {
+        "start": 602.9,
+        "duration": 5.1,
+        "text": "The upside of moderation is also that when you do it your experience will be more intense"
+      },
+      {
+        "start": 608.0,
+        "duration": 1.4,
+        "text": "and special."
+      },
+      {
+        "start": 609.4,
+        "duration": 6.8,
+        "text": "But for teens weed especially using it regularly or a lot of it is a bad idea with potentially"
+      },
+      {
+        "start": 616.2,
+        "duration": 2.5,
+        "text": "life changing consequences."
+      },
+      {
+        "start": 618.7,
+        "duration": 3.5,
+        "text": "We know that criminalization did nothing to make this better."
+      },
+      {
+        "start": 622.2,
+        "duration": 3.1,
+        "text": "We now have a new chance to under legalization."
+      },
+      {
+        "start": 625.3,
+        "duration": 5.0,
+        "text": "It begins with being open and honest about the state of science and acknowledging that weed"
+      },
+      {
+        "start": 630.3,
+        "duration": 2.5,
+        "text": "is one drug among many others."
+      },
+      {
+        "start": 632.8,
+        "duration": 5.0,
+        "text": "Certainly not the worst one by a long shot but also problematic for at least one to three"
+      },
+      {
+        "start": 637.8,
+        "duration": 2.6,
+        "text": "out of ten people using it."
+      },
+      {
+        "start": 640.4,
+        "duration": 5.7,
+        "text": "If you really have to try cannabis there is a time and place and that's in your twenties."
+      },
+      {
+        "start": 646.1,
+        "duration": 6.0,
+        "text": "If you're younger the science is clear don't do it at least not yet."
+      },
+      {
+        "start": 652.2,
+        "duration": 5.8,
+        "text": "You'll have plenty of time to experiment later."
+      },
+      {
+        "start": 658.0,
+        "duration": 2.5,
+        "text": "Let's do a different experiment now."
+      },
+      {
+        "start": 660.4,
+        "duration": 5.0,
+        "text": "With the help of today's sponsor Odo a business management software you can do the first step"
+      },
+      {
+        "start": 665.5,
+        "duration": 2.8,
+        "text": "of starting a new business in three minutes."
+      },
+      {
+        "start": 668.3,
+        "duration": 5.8,
+        "text": "Don't believe me, I bet you five ducks and you and I will do it together."
+      },
+      {
+        "start": 674.0,
+        "duration": 2.9,
+        "text": "You can try Odo for free by clicking this button here."
+      },
+      {
+        "start": 677.0,
+        "duration": 4.3,
+        "text": "The first application stays free forever with unlimited hosting and support."
+      },
+      {
+        "start": 681.2,
+        "duration": 3.7,
+        "text": "Let's select the website application to ensure our online presence."
+      },
+      {
+        "start": 684.9,
+        "duration": 3.4,
+        "text": "Then you just follow the website configurator in four easy steps."
+      },
+      {
+        "start": 688.3,
+        "duration": 3.0,
+        "text": "First what kind of website do you want to create?"
+      },
+      {
+        "start": 691.4,
+        "duration": 3.8,
+        "text": "It could be a business website, a blog, an event website."
+      },
+      {
+        "start": 695.2,
+        "duration": 4.0,
+        "text": "I'll put down learning platform because why not?"
+      },
+      {
+        "start": 699.2,
+        "duration": 4.7,
+        "text": "Next what kind of business or project do you have and what's your goal?"
+      },
+      {
+        "start": 704.0,
+        "duration": 2.9,
+        "text": "I'd say science, edgitainment."
+      },
+      {
+        "start": 706.8,
+        "duration": 3.9,
+        "text": "Step two is my favourite what colours do you like?"
+      },
+      {
+        "start": 710.8,
+        "duration": 5.3,
+        "text": "Or simply upload your logo and an AI will suggest a matching colour palette."
+      },
+      {
+        "start": 716.0,
+        "duration": 3.4,
+        "text": "In step three you pick the different pages you need right now."
+      },
+      {
+        "start": 719.5,
+        "duration": 3.7,
+        "text": "In step four you just choose a template for your website."
+      },
+      {
+        "start": 723.2,
+        "duration": 1.2,
+        "text": "That's it."
+      },
+      {
+        "start": 724.4,
+        "duration": 1.8,
+        "text": "You did the first big step."
+      },
+      {
+        "start": 726.2,
+        "duration": 3.8,
+        "text": "You owe me five ducks and you're ready to start your business."
+      },
+      {
+        "start": 730.0,
+        "duration": 2.0,
+        "text": "But Odo offers so much more."
+      },
+      {
+        "start": 732.0,
+        "duration": 3.5,
+        "text": "Applications such as accounting, project management, HR,"
+      },
+      {
+        "start": 735.5,
+        "duration": 4.5,
+        "text": "or the needs of your business centralised on one single platform."
+      },
+      {
+        "start": 740.0,
+        "duration": 4.9,
+        "text": "You can focus on your projects while Odo improves productivity and adapts along with your"
+      },
+      {
+        "start": 744.8,
+        "duration": 1.6,
+        "text": "needs and demands."
+      },
+      {
+        "start": 746.4,
+        "duration": 3.6,
+        "text": "The most impact you can have on your dream within three minutes."
+      },
+      {
+        "start": 750.0,
+        "duration": 3.8,
+        "text": "Just try it out."
+      },
+      {
+        "start": 753.8,
+        "duration": 2.9,
+        "text": "Our latest drop collection has arrived."
+      },
+      {
+        "start": 756.7,
+        "duration": 2.9,
+        "text": "Order now just in time for the holidays."
+      },
+      {
+        "start": 759.6,
+        "duration": 5.4,
+        "text": "We here at Kotkazant are known to cause some light existential dread from time to time."
+      },
+      {
+        "start": 765.0,
+        "duration": 3.8,
+        "text": "But the truth is we actually do it to inspire you."
+      },
+      {
+        "start": 768.8,
+        "duration": 3.8,
+        "text": "So we designed these products to do both."
+      },
+      {
+        "start": 772.7,
+        "duration": 4.3,
+        "text": "The universe can sometimes feel like a cold and foreign place."
+      },
+      {
+        "start": 777.0,
+        "duration": 1.3,
+        "text": "But that's not true."
+      },
+      {
+        "start": 778.3,
+        "duration": 2.3,
+        "text": "The universe is our home."
+      },
+      {
+        "start": 780.6,
+        "duration": 4.8,
+        "text": "This knit sweater will keep you warm and cozy while reminding you that you're just as"
+      },
+      {
+        "start": 785.3,
+        "duration": 4.3,
+        "text": "much a part of the universe as a black hole or a neutron star."
+      },
+      {
+        "start": 789.6,
+        "duration": 4.7,
+        "text": "Dread and awe are actually two sides of the same coin."
+      },
+      {
+        "start": 794.3,
+        "duration": 1.7,
+        "text": "Or scarf."
+      },
+      {
+        "start": 796.0,
+        "duration": 5.8,
+        "text": "Wear this super soft scarf on cold winter walks and bring some light into the dark season."
+      },
+      {
+        "start": 801.8,
+        "duration": 4.7,
+        "text": "And at the core of this lineup is the optimistic nailist t-shirt."
+      },
+      {
+        "start": 806.6,
+        "duration": 3.9,
+        "text": "It represents nothing less than the philosophy of Kotkazant."
+      },
+      {
+        "start": 810.4,
+        "duration": 2.8,
+        "text": "You may only get one shot at life which is scary."
+      },
+      {
+        "start": 813.3,
+        "duration": 4.6,
+        "text": "But it also sets you free to do what truly makes you happy in life."
+      },
+      {
+        "start": 817.9,
+        "duration": 4.6,
+        "text": "We also create other truly special products in our studio like the new edition of our"
+      },
+      {
+        "start": 822.4,
+        "duration": 1.7,
+        "text": "Human Era Calendar."
+      },
+      {
+        "start": 824.2,
+        "duration": 3.8,
+        "text": "In 2025 we'll follow humanity's greatest journey."
+      },
+      {
+        "start": 827.9,
+        "duration": 3.6,
+        "text": "The took our ancestors from East Africa all across the planet."
+      },
+      {
+        "start": 831.6,
+        "duration": 4.8,
+        "text": "We spent a lot of time bringing these adventures to life, crafting epic illustrations worthy"
+      },
+      {
+        "start": 836.4,
+        "duration": 3.9,
+        "text": "of representing this integral part of our shared history."
+      },
+      {
+        "start": 840.3,
+        "duration": 4.8,
+        "text": "It's a brand new weekly desk planner to be extra prepared for the next year and this"
+      },
+      {
+        "start": 845.1,
+        "duration": 1.9,
+        "text": "gift giving season."
+      },
+      {
+        "start": 847.0,
+        "duration": 4.7,
+        "text": "Every single product you buy supports everything we do on this channel and enables us to release"
+      },
+      {
+        "start": 851.8,
+        "duration": 2.5,
+        "text": "our videos for free for everyone."
+      },
+      {
+        "start": 854.2,
+        "duration": 2.6,
+        "text": "Thank you so much for your support."
+      },
+      {
+        "start": 856.8,
+        "duration": 2.5,
+        "text": "Kotkazant would not exist without you."
+      },
+      {
+        "start": 870.3,
+        "duration": 1.0,
+        "text": "Thank you."
+      },
+      {
+        "start": 871.3,
+        "duration": 1.0,
+        "text": "Thank you."
+      }
+    ],
+    "full_text": "Cannabis has been vilified to a ridiculous degree for the last century, but it's now finally being decriminalized in more and more places around the world. It's just recently been legalized in Germany, and, for very good reasons, compared to legal drugs like alcohol, which will cause one in 20 deaths just this year, cannabis is pretty mild. So, to justify harsh prosecution and punishment, its negative effects have been wildly overstated. Naturally, there was a lot of pushback, and here's something went wrong. If you've followed the discourse over the last few years, you might have got the impression that weed has almost only been upside and few if any negative side effects. We ourselves contributed to that narrative. What made this worse is that criminalisation made it very hard for scientists to study cannabis, especially its long term effects. They faced bureaucratic and legal hurdles, and studies often had to rely on small sample sizes. In the last few years, this finally started to change, so it's time to bring new evidence to the discussion. And well, it's not pretty. While weed is still much less harmful than alcohol, it does have a dark side. It is more addictive than we thought, and can have significant negative effects if you use it long term. It seems that… What are you doing? Before you tell us how dumb we are, please watch the video. To be crystal clear, we think prohibition doesn't work and cannabis should be legal, but this also means that we need to treat it as what it is, a drug, with unique upsides and downsides. So, let's take an honest look at some of the latest research together. Weed is getting stronger and stronger. Cannabis' magic juice is tetrahydro-canabinol THC. The docks on your cannabinoid receptors, which affects various brain functions. THC activates some regions and calms down others, creating a fun cocktail of sensations. The more THC, the more intense the high. And people seem to be into higher highs, or at least this is what the market is providing. In the US, Canada and in Europe, the concentration of THC in legal and illegal cannabis products has more than doubled in the last few decades. Not ever more potent strains are bred, products like edibles or concentrates with more than 60% THC have become increasingly common. While the share of products with less than 15% THC has declined, unfortunately just about every problem we'd create gets worse at higher THC doses. At the same time, more and more people use weeds. In the US, more people consumed cannabis daily than alcohol for the first time in 2022. In Canada, 26% of people 16 and older use it up from 22% in 2018. It's not possible to say if legalisation is the reason for this though, since studies are pretty inconsistent and very massively between different uses. In some, consumption went up, in others it stayed stable and the trend to use more weed began in the early 90s and sped up in the 2000s way earlier than legalisation. So today, more people consume more weed than ever before in the last century and it's the strongest it's ever been. What are we seeing as a result of this? Let's start with something that used to get you laughed out of the room addiction. Weed addiction and withdrawal symptoms. A big narrative about weed is that it's not addictive or at least not that big of a deal and for most people this is true. Studies clearly show that the majority handle it well. For 8 out of 10 using weed it's just a casual high and not problematic at all. About 2 in 10 uses develop a cannabis use disorder or CUD. CUD has 11 different symptoms from the inability to stop when you've had enough to using it when you know it will have negative consequences to tolerance and withdrawal. They could all basically be reduced to, you're doing it too often even if it's bad for you and it's less fun than it could be. There are 3 major risk factors here. The amount of THC how often you consume and your age when you start using cannabis. The more THC, the more often and the younger you are when you start, the higher your risk. If you smoke too much weed too often, it will have negative impacts on your life. So if this is you, toning it down a bit will make a big difference. One in 10 uses develops a serious addiction. They usually consume daily and their life is significantly impaired or health back because they spend a lot of their time either using or recovering from cannabis use. Since their brain is building a tolerance, they need increasingly high doses or stronger weed, often both. Studies found a variety of negative effects, heavy users can experience bad moods, feel irritable, restless, paranoid, anxious and even depressive. In a sad twist of irony, for many addicts it feels like they need weed to fight these symptoms. Maybe it did actually help at first, while in reality it makes those symptoms stronger and more persistent. Studies also found that loneliness and frequent cannabis use go hand in hand. If you feel lonely you're more likely to use weed and if you use weed you may experience more loneliness. It's not always easy to say which came first, but they seem to reinforce each other. So on the one hand cannabis makes loneliness feel much less bad. On the other hand it can also make you feel more socially awkward than you actually are and withdraw from friends. This can lead to a downward spiral that ends in self-isolation and chronic loneliness. Another thing many people who consume a lot experience is a mental numbness that makes boredom feel okay because it impacts the reward system of your brain, not great but good enough. You can spend your days killing time, binging mildly interesting stuff. Being numb rather than having fun. Boredom is a signal to your mind to get creative or learn something new, but this is suppressed. This also makes quitting so much harder because your daily routine suddenly seem boring and unexciting, making it very tempting to go back. If you find yourself using constantly, this can also stunt your development as a person. The numbness dulls bad feelings, making it easy not to deal with them, but in life you can only get over bad feelings if you actually feel them and you have to process them to grow. Lastly, let's talk about physical withdrawal symptoms. The more you consume, the worse they'll be for you, especially if you use daily. Withdrawal can cause headaches and sweating or chills, decreased appetite, in severe cases even fever, nausea and abdominal pain. You might have trouble falling asleep and if you do, you might have disturbing and vivid dreams. The withdrawal computes you in a depressive mood where life feels daft and pointless. You can feel restless, angry, anxious or nervous. You may feel unable to do anything at all. After a few days these symptoms will begin to subside and after a few weeks they'll be gone entirely. The exact time depends on how much and how long you've been consuming cannabis. Now, let's get to the worst part. Weed may damage your brain. This section was not fun to research because there's fierce debate among researchers, how bad weed is for your brain and whether it has irreversible long-term consequences or not. There's no consensus yet and it's hard to say anything definitive. Having said that, THC directly interferes with critical brain chemistry. There is some evidence that it may alter its structure. If it does this may go away again if you quit after a few years or not, we don't know yet. The consequences vary a lot between individuals but especially for heavy users they have a variety of potentially unfunny downsides. The most common one is that your memory gets significantly worse. And heavy use may reduce your ability to learn, your reasoning, perception, attention span, decision making, language abilities and impulse control. Most negative effects seem to go away or at least we can over time after you quit but again we simply don't know enough and need more research. Where the evidence is much clearer is that consuming a lot of weed is really bad for teenagers on multiple levels. If you start using heavily early you have many more years to build up potentially negative side effects. Teens who use a lot are much more likely to become addicted to weight. This may just be correlation and weed may not be the underlying cause but heavy weed users are more likely to perform poorly in school and less likely to finish their education. They are on average less satisfied with their life and what they've achieved. This may simply be because if your memory and motivation are stunted you have fewer interesting experiences and forget the ones you do have. And there is strong evidence that teen users are way more likely to develop mental health issues like psychosis, schizophrenia, depression or anxiety later in life. Once again the young you start the higher the risk and it also seems to rise massively with high THC doses making highly potent cannabis products even more dangerous for teens. Okay, let's wrap this up. We've only focused on the negative side in this video that was the whole point. As we said before for most people weed in moderation is totally fine and definitely way less harmful than alcohol. You do you, we're not your parents. The upside of moderation is also that when you do it your experience will be more intense and special. But for teens weed especially using it regularly or a lot of it is a bad idea with potentially life changing consequences. We know that criminalization did nothing to make this better. We now have a new chance to under legalization. It begins with being open and honest about the state of science and acknowledging that weed is one drug among many others. Certainly not the worst one by a long shot but also problematic for at least one to three out of ten people using it. If you really have to try cannabis there is a time and place and that's in your twenties. If you're younger the science is clear don't do it at least not yet. You'll have plenty of time to experiment later. Let's do a different experiment now. With the help of today's sponsor Odo a business management software you can do the first step of starting a new business in three minutes. Don't believe me, I bet you five ducks and you and I will do it together. You can try Odo for free by clicking this button here. The first application stays free forever with unlimited hosting and support. Let's select the website application to ensure our online presence. Then you just follow the website configurator in four easy steps. First what kind of website do you want to create? It could be a business website, a blog, an event website. I'll put down learning platform because why not? Next what kind of business or project do you have and what's your goal? I'd say science, edgitainment. Step two is my favourite what colours do you like? Or simply upload your logo and an AI will suggest a matching colour palette. In step three you pick the different pages you need right now. In step four you just choose a template for your website. That's it. You did the first big step. You owe me five ducks and you're ready to start your business. But Odo offers so much more. Applications such as accounting, project management, HR, or the needs of your business centralised on one single platform. You can focus on your projects while Odo improves productivity and adapts along with your needs and demands. The most impact you can have on your dream within three minutes. Just try it out. Our latest drop collection has arrived. Order now just in time for the holidays. We here at Kotkazant are known to cause some light existential dread from time to time. But the truth is we actually do it to inspire you. So we designed these products to do both. The universe can sometimes feel like a cold and foreign place. But that's not true. The universe is our home. This knit sweater will keep you warm and cozy while reminding you that you're just as much a part of the universe as a black hole or a neutron star. Dread and awe are actually two sides of the same coin. Or scarf. Wear this super soft scarf on cold winter walks and bring some light into the dark season. And at the core of this lineup is the optimistic nailist t-shirt. It represents nothing less than the philosophy of Kotkazant. You may only get one shot at life which is scary. But it also sets you free to do what truly makes you happy in life. We also create other truly special products in our studio like the new edition of our Human Era Calendar. In 2025 we'll follow humanity's greatest journey. The took our ancestors from East Africa all across the planet. We spent a lot of time bringing these adventures to life, crafting epic illustrations worthy of representing this integral part of our shared history. It's a brand new weekly desk planner to be extra prepared for the next year and this gift giving season. Every single product you buy supports everything we do on this channel and enables us to release our videos for free for everyone. Thank you so much for your support. Kotkazant would not exist without you. Thank you. Thank you."
+  }
+}

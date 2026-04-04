@@ -1,0 +1,1084 @@
+{
+  "video_id": "Ufmu1WD2TSk",
+  "video_title": "SOUTH KOREA IS OVER",
+  "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+  "channel_title": "Kurzgesagt – In a Nutshell",
+  "published_at": "",
+  "duration_secs": 887.0,
+  "view_count": 15129677,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.2,
+        "text": "South Korea is over."
+      },
+      {
+        "start": 3.2,
+        "duration": 6.1,
+        "text": "This sounds brutal, but South Korea will soon start melting on all fronts, demographically,"
+      },
+      {
+        "start": 9.3,
+        "duration": 4.8,
+        "text": "economically, socially, culturally and militarily."
+      },
+      {
+        "start": 14.1,
+        "duration": 4.9,
+        "text": "Because for decades, the country has been experiencing a fertility crisis unprecedented"
+      },
+      {
+        "start": 19.0,
+        "duration": 4.4,
+        "text": "in human history, and we've probably reached a point of no return."
+      },
+      {
+        "start": 23.4,
+        "duration": 5.2,
+        "text": "By 2060, the South Korea we know and love today will no longer exist."
+      },
+      {
+        "start": 29.0,
+        "duration": 1.8,
+        "text": "What will the collapse look like?"
+      },
+      {
+        "start": 30.9,
+        "duration": 3.8,
+        "text": "And why is it now almost impossible to stop?"
+      },
+      {
+        "start": 35.6,
+        "duration": 2.6,
+        "text": "The real population bomb."
+      },
+      {
+        "start": 38.2,
+        "duration": 5.2,
+        "text": "To have a stable population, you need a fertility rate of about 2.1 children per woman."
+      },
+      {
+        "start": 43.4,
+        "duration": 4.4,
+        "text": "In the 1950s, South Koreans used to have six children on average."
+      },
+      {
+        "start": 47.8,
+        "duration": 3.0,
+        "text": "In the 1980s, the rate fell below two."
+      },
+      {
+        "start": 50.8,
+        "duration": 7.0,
+        "text": "And in 2023, it was 0.72 kids per woman, the lowest ever recorded in history."
+      },
+      {
+        "start": 57.8,
+        "duration": 4.8,
+        "text": "In Seoul, fertility is even lower around 0.55."
+      },
+      {
+        "start": 62.6,
+        "duration": 5.6,
+        "text": "On average, about half of the women here won't have any kids and the other half just one."
+      },
+      {
+        "start": 68.2,
+        "duration": 4.0,
+        "text": "What do these numbers actually mean in the real world?"
+      },
+      {
+        "start": 72.2,
+        "duration": 5.2,
+        "text": "If fertility stays as it is, then 100 South Koreans will have 36 kids."
+      },
+      {
+        "start": 77.4,
+        "duration": 4.6,
+        "text": "When they grow up, they will have 13 kids who will then have 5."
+      },
+      {
+        "start": 82.0,
+        "duration": 5.0,
+        "text": "Within four generations, 100 South Koreans will turn into 5."
+      },
+      {
+        "start": 87.0,
+        "duration": 4.4,
+        "text": "If we look at today's South Korean population pyramid, we see this is pretty real."
+      },
+      {
+        "start": 91.4,
+        "duration": 3.2,
+        "text": "There's only one one year old for four 50 year olds."
+      },
+      {
+        "start": 94.6,
+        "duration": 5.2,
+        "text": "After four decades below the replacement level, the consequences were still largely invisible."
+      },
+      {
+        "start": 99.8,
+        "duration": 3.0,
+        "text": "Today, South Korea's population is at an all-time high,"
+      },
+      {
+        "start": 102.8,
+        "duration": 3.4,
+        "text": "as are its workforce and its GDP, which is still growing."
+      },
+      {
+        "start": 106.2,
+        "duration": 2.6,
+        "text": "But demographics hits you like a freight train."
+      },
+      {
+        "start": 108.8,
+        "duration": 4.2,
+        "text": "You hear it vaguely in the distance and then it runs you over."
+      },
+      {
+        "start": 113.0,
+        "duration": 3.0,
+        "text": "South Korea is about to be hit."
+      },
+      {
+        "start": 116.0,
+        "duration": 7.2,
+        "text": "Let's time travel 35 years into the future to 2016 and see what the country will look like then."
+      },
+      {
+        "start": 123.2,
+        "duration": 5.4,
+        "text": "When it comes to demographics, the most commonly used projections are those put together by the UN."
+      },
+      {
+        "start": 128.6,
+        "duration": 4.8,
+        "text": "They envisage three scenarios, low fertility, medium and high."
+      },
+      {
+        "start": 133.4,
+        "duration": 5.8,
+        "text": "But in the past, all medium-un projections for South Korea have consistently been too positive."
+      },
+      {
+        "start": 139.2,
+        "duration": 6.4,
+        "text": "Between 2022 and 2023 alone, fertility in South Korea dropped by another 8%."
+      },
+      {
+        "start": 145.6,
+        "duration": 3.4,
+        "text": "So we're going to use the latest low fertility scenario,"
+      },
+      {
+        "start": 149.0,
+        "duration": 2.8,
+        "text": "which has been the most accurate in the last few years."
+      },
+      {
+        "start": 151.8,
+        "duration": 5.4,
+        "text": "Keep in mind that we're still talking about projections and the future is a far away land."
+      },
+      {
+        "start": 157.2,
+        "duration": 2.8,
+        "text": "Okay, let's do this."
+      },
+      {
+        "start": 160.0,
+        "duration": 4.6,
+        "text": "In 2016, South Korea's population pyramid will look like this."
+      },
+      {
+        "start": 164.6,
+        "duration": 2.6,
+        "text": "The population will have shrunk by 30%,"
+      },
+      {
+        "start": 167.2,
+        "duration": 4.6,
+        "text": "16 million South Koreans will have disappeared in just 35 years."
+      },
+      {
+        "start": 171.8,
+        "duration": 3.2,
+        "text": "And it will be the oldest country in human history."
+      },
+      {
+        "start": 175.2,
+        "duration": 3.6,
+        "text": "One in two South Koreans will be over the age of 65,"
+      },
+      {
+        "start": 178.8,
+        "duration": 3.4,
+        "text": "less than one in 10 will be under 25,"
+      },
+      {
+        "start": 182.2,
+        "duration": 3.6,
+        "text": "and only one in 100 will be small children."
+      },
+      {
+        "start": 185.8,
+        "duration": 6.4,
+        "text": "Imagine waking up at a country where the streets are strangely quiet with no children playing on them."
+      },
+      {
+        "start": 192.2,
+        "duration": 2.5,
+        "text": "Entire cities have been abandoned."
+      },
+      {
+        "start": 194.7,
+        "duration": 6.1,
+        "text": "Half of the population is elderly and living either alone or in overcrowded retirement homes,"
+      },
+      {
+        "start": 200.8,
+        "duration": 4.2,
+        "text": "with a minority of people desperately trying to keep society running."
+      },
+      {
+        "start": 205.0,
+        "duration": 3.0,
+        "text": "There will be a few major consequences."
+      },
+      {
+        "start": 208.0,
+        "duration": 2.0,
+        "text": "Academic collapse."
+      },
+      {
+        "start": 210.0,
+        "duration": 6.6,
+        "text": "In 2023, a breathtaking 40% of South Koreans over 65 live below the poverty line."
+      },
+      {
+        "start": 216.6,
+        "duration": 4.6,
+        "text": "But in 2060, this number may seem lovely in comparison."
+      },
+      {
+        "start": 221.2,
+        "duration": 3.8,
+        "text": "Today, South Korea has one of the largest pension funds in the world,"
+      },
+      {
+        "start": 225.0,
+        "duration": 3.6,
+        "text": "worth about $730 billion US dollars."
+      },
+      {
+        "start": 228.6,
+        "duration": 6.0,
+        "text": "But it's projected to stop growing in the 2040s and be completely depleted by the 2050s."
+      },
+      {
+        "start": 234.6,
+        "duration": 4.6,
+        "text": "So in 2060, pensions will have to be paid by the working population."
+      },
+      {
+        "start": 239.2,
+        "duration": 3.0,
+        "text": "Estimates vary, but for a pension system to work,"
+      },
+      {
+        "start": 242.2,
+        "duration": 6.2,
+        "text": "the minimum a society needs is between two to three workers per retiree paying for them with their taxes."
+      },
+      {
+        "start": 248.4,
+        "duration": 4.8,
+        "text": "But even if we assume that all South Koreans over 15 will be working in 2060,"
+      },
+      {
+        "start": 253.2,
+        "duration": 3.2,
+        "text": "the country will have less than one worker per senior."
+      },
+      {
+        "start": 256.4,
+        "duration": 3.4,
+        "text": "Workers will be unable to stand the incredible costs."
+      },
+      {
+        "start": 259.8,
+        "duration": 3.0,
+        "text": "So not only will poverty among the elderly become an,"
+      },
+      {
+        "start": 262.8,
+        "duration": 2.4,
+        "text": "but a big chunk will be forced to work."
+      },
+      {
+        "start": 265.2,
+        "duration": 4.4,
+        "text": "Except they may not be able to find jobs because by 2060,"
+      },
+      {
+        "start": 269.6,
+        "duration": 3.0,
+        "text": "the South Korean economy may have collapsed."
+      },
+      {
+        "start": 272.6,
+        "duration": 4.0,
+        "text": "Broadly speaking, the size of an economy is linked to the size of its workforce."
+      },
+      {
+        "start": 276.6,
+        "duration": 3.6,
+        "text": "To have a big economy, you need a lot of workers to produce a lot of things"
+      },
+      {
+        "start": 280.2,
+        "duration": 1.8,
+        "text": "and a lot more people to buy them."
+      },
+      {
+        "start": 282.0,
+        "duration": 4.0,
+        "text": "Today, South Korea has about 37 million people of working age,"
+      },
+      {
+        "start": 286.0,
+        "duration": 4.0,
+        "text": "generating a GDP of about 1.7 trillion US dollars."
+      },
+      {
+        "start": 290.0,
+        "duration": 6.4,
+        "text": "But by 2060, its workforce would have shrunk to less than half to about 17 million."
+      },
+      {
+        "start": 296.4,
+        "duration": 3.8,
+        "text": "Of course, technological progress means that productivity will be higher"
+      },
+      {
+        "start": 300.2,
+        "duration": 3.4,
+        "text": "and each individual will probably produce more than today."
+      },
+      {
+        "start": 303.6,
+        "duration": 4.6,
+        "text": "But even if productivity keeps growing at the same rate or more than we've seen in the last decades,"
+      },
+      {
+        "start": 308.2,
+        "duration": 3.6,
+        "text": "South Korea's GDP could peak in the 2040s."
+      },
+      {
+        "start": 311.8,
+        "duration": 4.4,
+        "text": "In other words, South Korea will enter a permanent economic recession."
+      },
+      {
+        "start": 316.2,
+        "duration": 4.4,
+        "text": "There are more optimistic projections that see the recession begin as late as 2050,"
+      },
+      {
+        "start": 320.6,
+        "duration": 3.0,
+        "text": "but they're based on the medium-undemographic scenario,"
+      },
+      {
+        "start": 323.6,
+        "duration": 2.8,
+        "text": "and there are no signs that we're heading there."
+      },
+      {
+        "start": 326.4,
+        "duration": 3.4,
+        "text": "Another factor in the economy is science, technology and innovation,"
+      },
+      {
+        "start": 329.8,
+        "duration": 4.2,
+        "text": "areas in which big leaps are typically made by young adults and the middle aged."
+      },
+      {
+        "start": 334.0,
+        "duration": 4.2,
+        "text": "Young people have fresh ideas that contribute to the wealth of society."
+      },
+      {
+        "start": 338.2,
+        "duration": 4.2,
+        "text": "Significantly fewer people working also means way less tax for the government,"
+      },
+      {
+        "start": 342.4,
+        "duration": 2.6,
+        "text": "which will be trapped between a rock and a hard place."
+      },
+      {
+        "start": 345.0,
+        "duration": 3.6,
+        "text": "On the one hand, having to provide for half the population that are seniors,"
+      },
+      {
+        "start": 348.6,
+        "duration": 2.6,
+        "text": "on the other, seeing its income diminish."
+      },
+      {
+        "start": 351.2,
+        "duration": 5.4,
+        "text": "It will be forced to shut down all cut essential services like hospitals or social benefits."
+      },
+      {
+        "start": 356.6,
+        "duration": 2.6,
+        "text": "Since infrastructure only works at scale,"
+      },
+      {
+        "start": 359.2,
+        "duration": 5.2,
+        "text": "smaller communities may be abandoned as the country contracts into its metropolitan areas."
+      },
+      {
+        "start": 364.4,
+        "duration": 3.8,
+        "text": "And of course, there won't be enough money to invest in the future."
+      },
+      {
+        "start": 368.2,
+        "duration": 6.0,
+        "text": "This is bad, but what will happen to South Korean society and culture may be worse."
+      },
+      {
+        "start": 374.2,
+        "duration": 3.0,
+        "text": "Societal and cultural collapse."
+      },
+      {
+        "start": 377.2,
+        "duration": 3.4,
+        "text": "Speculating on how societies will develop is extra hard,"
+      },
+      {
+        "start": 380.6,
+        "duration": 3.0,
+        "text": "but there are a few pretty unavoidable trends."
+      },
+      {
+        "start": 383.6,
+        "duration": 3.8,
+        "text": "Today, already about 20% of Koreans live alone."
+      },
+      {
+        "start": 387.4,
+        "duration": 3.6,
+        "text": "Also, 20% report having no close friends or relatives."
+      },
+      {
+        "start": 391.2,
+        "duration": 4.6,
+        "text": "By 2060, 50% of South Koreans aged 70 will have no siblings,"
+      },
+      {
+        "start": 395.8,
+        "duration": 2.4,
+        "text": "and 30% will have no children."
+      },
+      {
+        "start": 398.2,
+        "duration": 4.8,
+        "text": "Young adults between 25 and 35 will only make up 5% of the population"
+      },
+      {
+        "start": 403.0,
+        "duration": 2.6,
+        "text": "and typically have no siblings at all."
+      },
+      {
+        "start": 405.6,
+        "duration": 2.8,
+        "text": "This leaves the elderly with almost no close family"
+      },
+      {
+        "start": 408.4,
+        "duration": 3.2,
+        "text": "and young adults with little family and few potential friends,"
+      },
+      {
+        "start": 411.6,
+        "duration": 2.0,
+        "text": "especially outside of big cities."
+      },
+      {
+        "start": 413.6,
+        "duration": 4.6,
+        "text": "A loneliness epidemic of epic proportions is all but guaranteed."
+      },
+      {
+        "start": 418.4,
+        "duration": 4.6,
+        "text": "On top of that, South Korean culture will probably experience a huge decline."
+      },
+      {
+        "start": 423.0,
+        "duration": 5.4,
+        "text": "In 2000, there were 17.5 million South Koreans between 25 and 45"
+      },
+      {
+        "start": 428.4,
+        "duration": 3.4,
+        "text": "and they made up 37% of the population."
+      },
+      {
+        "start": 431.8,
+        "duration": 4.0,
+        "text": "This was the generation that brought us Cape Oc, Cape Drama, Cape Food,"
+      },
+      {
+        "start": 435.8,
+        "duration": 2.8,
+        "text": "and many other trends that spread around the world."
+      },
+      {
+        "start": 438.6,
+        "duration": 4.4,
+        "text": "In 2060, there will be just 5.6 million people in that age group"
+      },
+      {
+        "start": 443.0,
+        "duration": 3.4,
+        "text": "and there will only be 16% of the population."
+      },
+      {
+        "start": 446.4,
+        "duration": 2.4,
+        "text": "Many cultural traditions are already struggling"
+      },
+      {
+        "start": 448.8,
+        "duration": 4.2,
+        "text": "because the older generations are having trouble finding young people to pass them on to."
+      },
+      {
+        "start": 453.0,
+        "duration": 3.4,
+        "text": "As young people disappear, many traditions will die out."
+      },
+      {
+        "start": 456.4,
+        "duration": 5.4,
+        "text": "Without young people, the soul of South Korean culture will shrink and wither away."
+      },
+      {
+        "start": 461.8,
+        "duration": 4.8,
+        "text": "And on a personal level, what kind of experience will it be growing up in 2060?"
+      },
+      {
+        "start": 466.6,
+        "duration": 3.0,
+        "text": "What will youth culture be like in a country of seniors?"
+      },
+      {
+        "start": 469.6,
+        "duration": 3.4,
+        "text": "Where many universities, schools and kindergarten are abandoned"
+      },
+      {
+        "start": 473.0,
+        "duration": 2.8,
+        "text": "as there are no longer children to fill them with life?"
+      },
+      {
+        "start": 475.8,
+        "duration": 4.4,
+        "text": "What kind of job prospects will they face and what will politics look like?"
+      },
+      {
+        "start": 480.2,
+        "duration": 2.4,
+        "text": "If young people don't want to remain alone,"
+      },
+      {
+        "start": 482.6,
+        "duration": 3.0,
+        "text": "they'll concentrate in soul or a few other big cities"
+      },
+      {
+        "start": 485.6,
+        "duration": 3.6,
+        "text": "or worse for South Korea, emigrate to other countries."
+      },
+      {
+        "start": 489.2,
+        "duration": 5.0,
+        "text": "Rural areas will decline and most smaller cities will turn into ghost towns."
+      },
+      {
+        "start": 494.2,
+        "duration": 6.0,
+        "text": "We're already seeing this in Japan, which has almost 10 million abandoned houses in rural areas."
+      },
+      {
+        "start": 500.2,
+        "duration": 4.6,
+        "text": "Large parts of South Korea will simply vanish and be claimed by nature."
+      },
+      {
+        "start": 505.0,
+        "duration": 4.0,
+        "text": "Last but not least, South and North Korea are technically at war"
+      },
+      {
+        "start": 509.0,
+        "duration": 3.0,
+        "text": "and they could very well still be in 2060."
+      },
+      {
+        "start": 512.0,
+        "duration": 5.6,
+        "text": "Will South Korea still be able to afford to have its young men do 18 months of mandatory military service?"
+      },
+      {
+        "start": 517.6,
+        "duration": 3.6,
+        "text": "Today, 5% of men of combat age are enrolled in the military."
+      },
+      {
+        "start": 521.2,
+        "duration": 4.6,
+        "text": "In 2060, it would have to be 15% just to match today's numbers."
+      },
+      {
+        "start": 525.8,
+        "duration": 4.8,
+        "text": "Okay, wait, this is all a bit much. Is there no way back?"
+      },
+      {
+        "start": 530.6,
+        "duration": 2.8,
+        "text": "Why there really is no way back?"
+      },
+      {
+        "start": 533.4,
+        "duration": 5.2,
+        "text": "The problem with the Democratic freight train is that once it hits, things become irreversible."
+      },
+      {
+        "start": 538.6,
+        "duration": 6.6,
+        "text": "Let's say fertility in South Korea magically triples to the replacement rate of 2.1 children per woman and stays there."
+      },
+      {
+        "start": 545.2,
+        "duration": 4.2,
+        "text": "In 2060, it will be an inverted pyramid on top of a barrel."
+      },
+      {
+        "start": 549.4,
+        "duration": 5.0,
+        "text": "And there would still be only 1.5 people of working age per senior over 65."
+      },
+      {
+        "start": 554.4,
+        "duration": 6.4,
+        "text": "Even in the best made up scenario, South Korea has to pass through an unavoidable bottleneck before it will recover."
+      },
+      {
+        "start": 561.0,
+        "duration": 2.2,
+        "text": "But there is also a kernel of hope here."
+      },
+      {
+        "start": 563.2,
+        "duration": 10.8,
+        "text": "Yes, the situation is grim, but at least in the long term recovery is possible if South Korea in acts rapid and societal changes that make its population want to have kids again."
+      },
+      {
+        "start": 574.0,
+        "duration": 6.2,
+        "text": "In 2024, births rose for the first time in 9 years, 3% more than in 2023."
+      },
+      {
+        "start": 580.2,
+        "duration": 6.0,
+        "text": "But for that to continue, South Korea needs to face the music and ask how they got to this point."
+      },
+      {
+        "start": 586.2,
+        "duration": 2.6,
+        "text": "How could it get that bad?"
+      },
+      {
+        "start": 588.8,
+        "duration": 7.0,
+        "text": "In general, as societies get richer, more educated to end child mortality plummet, people decide to have fewer kids."
+      },
+      {
+        "start": 595.8,
+        "duration": 5.0,
+        "text": "What makes South Korea special is that it's somehow supercharging all of these trends."
+      },
+      {
+        "start": 600.8,
+        "duration": 8.8,
+        "text": "South Korea lifted itself out of poverty in record time, but in doing so it developed a unique kind of worker holism and extreme competitiveness."
+      },
+      {
+        "start": 609.6,
+        "duration": 6.2,
+        "text": "Although the work week is 40 hours and the legal maximum is 52 per week, unpaid overtime is normal for many,"
+      },
+      {
+        "start": 615.8,
+        "duration": 5.0,
+        "text": "and the government even proposed to raise legal work time to 69 hours per week."
+      },
+      {
+        "start": 620.8,
+        "duration": 5.0,
+        "text": "Despite this, South Korea has relatively low wages and a high cost of living."
+      },
+      {
+        "start": 625.8,
+        "duration": 3.2,
+        "text": "Real estate in big cities is out of reach for most people."
+      },
+      {
+        "start": 629.0,
+        "duration": 7.2,
+        "text": "The cost of education is extremely high, since families have to pay for private lessons if they want to send their kids to a high tier connitch."
+      },
+      {
+        "start": 636.2,
+        "duration": 6.0,
+        "text": "All of this, while South Korea spends less on family benefits than most other rich countries."
+      },
+      {
+        "start": 642.2,
+        "duration": 3.0,
+        "text": "Old-fashioned cultural norms make matters even worse."
+      },
+      {
+        "start": 645.2,
+        "duration": 3.0,
+        "text": "Marriage is all but mandatory if a couple wants to start a family."
+      },
+      {
+        "start": 648.2,
+        "duration": 5.0,
+        "text": "In 2023, only 4.7% of babies were born to unmarried women."
+      },
+      {
+        "start": 653.2,
+        "duration": 7.0,
+        "text": "Out of all developed countries, South Korean men do just about the least share of housework and childcare within their families."
+      },
+      {
+        "start": 660.2,
+        "duration": 6.0,
+        "text": "This leaves women with a disproportionate amount of work if they want to keep their jobs after a pregnancy,"
+      },
+      {
+        "start": 666.2,
+        "duration": 6.0,
+        "text": "while many men are overwhelmed by the societal expectation to be the main breadwinner and have successful careers."
+      },
+      {
+        "start": 672.2,
+        "duration": 6.0,
+        "text": "Starting a family or not is a personal decision, and most South Koreans are deciding against it."
+      },
+      {
+        "start": 678.2,
+        "duration": 5.0,
+        "text": "The bottom line is that South Korea has created a culture that leads to very few kids."
+      },
+      {
+        "start": 683.2,
+        "duration": 2.0,
+        "text": "Conclusion"
+      },
+      {
+        "start": 685.2,
+        "duration": 5.0,
+        "text": "Demographic collapse is not an abstract thing in the future, it's happening right now."
+      },
+      {
+        "start": 690.2,
+        "duration": 2.0,
+        "text": "And it's not just South Korea."
+      },
+      {
+        "start": 692.2,
+        "duration": 12.0,
+        "text": "In 2023, China had a fertility rate of 1, Italy and Spain 1.2, Germany 1.4, the UK 1.6 and the US 1.6, which sounds so much better, doesn't it?"
+      },
+      {
+        "start": 704.2,
+        "duration": 7.0,
+        "text": "Well, after 4 generations, a fertility rate of 1.6 means 60% fewer new people."
+      },
+      {
+        "start": 711.2,
+        "duration": 4.0,
+        "text": "A fertility rate of 1.2 means 87% fewer people."
+      },
+      {
+        "start": 715.2,
+        "duration": 5.0,
+        "text": "And fertility rates are still falling with no sign of stabilization or recovery."
+      },
+      {
+        "start": 720.2,
+        "duration": 8.0,
+        "text": "The weirdest thing about all of this is that almost nobody involved in the public discourse has truly grasped the gravity of the situation."
+      },
+      {
+        "start": 728.2,
+        "duration": 7.0,
+        "text": "The last century was utterly dominated by overpopulation narratives and people who say that we need more kids seem weird."
+      },
+      {
+        "start": 735.2,
+        "duration": 6.0,
+        "text": "And if you do the maths, the future just seems to be too insane to be true, like it's hard to believe."
+      },
+      {
+        "start": 741.2,
+        "duration": 2.0,
+        "text": "None of this has ever happened before."
+      },
+      {
+        "start": 743.2,
+        "duration": 11.0,
+        "text": "So low birth rates are mostly discussed in the context of worker shortages, not as the existential threat to our societies, cultures, wealth and our way of life that they are."
+      },
+      {
+        "start": 754.2,
+        "duration": 12.0,
+        "text": "If we don't take it seriously very soon and change the DNA of our modern societies in a way that encourages young people to start having children again, then the rest of the century will be pretty grim for those of us who will live through it."
+      },
+      {
+        "start": 766.2,
+        "duration": 9.0,
+        "text": "The demographic freight train stops for nobody. We finally need to realise that it's hurtling down the tracks right at us."
+      },
+      {
+        "start": 775.2,
+        "duration": 7.0,
+        "text": "Multilayers who like demographic change are hard to break through in our car media landscape and easy to miss out on."
+      },
+      {
+        "start": 782.2,
+        "duration": 11.0,
+        "text": "This is why we rely on ground news, a long time sponsor and ally in helping find real stories of importance amongst the jump of information we're confronted with every day."
+      },
+      {
+        "start": 793.2,
+        "duration": 9.0,
+        "text": "In a nutshell, the app and website gather the world's news in one place so you can compare coverage, see the bigger picture and make informed decisions."
+      },
+      {
+        "start": 802.2,
+        "duration": 6.0,
+        "text": "Using ground news, you can see that earlier this year South Korea was officially classified as a super-age society."
+      },
+      {
+        "start": 808.2,
+        "duration": 7.0,
+        "text": "A term that basically summarises the effects we described in this video, but less than 100 sources covered this development."
+      },
+      {
+        "start": 815.2,
+        "duration": 3.0,
+        "text": "Interestingly, less than 20% of them are left-leaning media."
+      },
+      {
+        "start": 819.2,
+        "duration": 8.0,
+        "text": "Ground news has a special feature, the Blind Spot Feet, that draws attention to stories like that which get lost amidst your personal publication preferences."
+      },
+      {
+        "start": 827.2,
+        "duration": 4.0,
+        "text": "Most importantly, you can clearly compare how the issue was covered."
+      },
+      {
+        "start": 831.2,
+        "duration": 10.0,
+        "text": "A government-funded source out of Slovenia, for example, mentioned Europe is considering immigration as part of a solution, while Korea, Japan and China are avoiding that aspect."
+      },
+      {
+        "start": 841.2,
+        "duration": 4.0,
+        "text": "This way, you can get a balance to count and come to a conclusion for yourself."
+      },
+      {
+        "start": 845.2,
+        "duration": 9.0,
+        "text": "We encourage you to sign up at ground.newslashkien or scan the QR code and save 40% off their unlimited access vantage plan."
+      },
+      {
+        "start": 854.2,
+        "duration": 3.0,
+        "text": "Our link brings the price down to just $5 a month."
+      },
+      {
+        "start": 857.2,
+        "duration": 13.0,
+        "text": "By subscribing via ground.newslashkien, your investment directly supports Kutskazat plus helps ground news stay independent and able to provide a tool that's now more important than ever."
+      }
+    ],
+    "full_text": "South Korea is over. This sounds brutal, but South Korea will soon start melting on all fronts, demographically, economically, socially, culturally and militarily. Because for decades, the country has been experiencing a fertility crisis unprecedented in human history, and we've probably reached a point of no return. By 2060, the South Korea we know and love today will no longer exist. What will the collapse look like? And why is it now almost impossible to stop? The real population bomb. To have a stable population, you need a fertility rate of about 2.1 children per woman. In the 1950s, South Koreans used to have six children on average. In the 1980s, the rate fell below two. And in 2023, it was 0.72 kids per woman, the lowest ever recorded in history. In Seoul, fertility is even lower around 0.55. On average, about half of the women here won't have any kids and the other half just one. What do these numbers actually mean in the real world? If fertility stays as it is, then 100 South Koreans will have 36 kids. When they grow up, they will have 13 kids who will then have 5. Within four generations, 100 South Koreans will turn into 5. If we look at today's South Korean population pyramid, we see this is pretty real. There's only one one year old for four 50 year olds. After four decades below the replacement level, the consequences were still largely invisible. Today, South Korea's population is at an all-time high, as are its workforce and its GDP, which is still growing. But demographics hits you like a freight train. You hear it vaguely in the distance and then it runs you over. South Korea is about to be hit. Let's time travel 35 years into the future to 2016 and see what the country will look like then. When it comes to demographics, the most commonly used projections are those put together by the UN. They envisage three scenarios, low fertility, medium and high. But in the past, all medium-un projections for South Korea have consistently been too positive. Between 2022 and 2023 alone, fertility in South Korea dropped by another 8%. So we're going to use the latest low fertility scenario, which has been the most accurate in the last few years. Keep in mind that we're still talking about projections and the future is a far away land. Okay, let's do this. In 2016, South Korea's population pyramid will look like this. The population will have shrunk by 30%, 16 million South Koreans will have disappeared in just 35 years. And it will be the oldest country in human history. One in two South Koreans will be over the age of 65, less than one in 10 will be under 25, and only one in 100 will be small children. Imagine waking up at a country where the streets are strangely quiet with no children playing on them. Entire cities have been abandoned. Half of the population is elderly and living either alone or in overcrowded retirement homes, with a minority of people desperately trying to keep society running. There will be a few major consequences. Academic collapse. In 2023, a breathtaking 40% of South Koreans over 65 live below the poverty line. But in 2060, this number may seem lovely in comparison. Today, South Korea has one of the largest pension funds in the world, worth about $730 billion US dollars. But it's projected to stop growing in the 2040s and be completely depleted by the 2050s. So in 2060, pensions will have to be paid by the working population. Estimates vary, but for a pension system to work, the minimum a society needs is between two to three workers per retiree paying for them with their taxes. But even if we assume that all South Koreans over 15 will be working in 2060, the country will have less than one worker per senior. Workers will be unable to stand the incredible costs. So not only will poverty among the elderly become an, but a big chunk will be forced to work. Except they may not be able to find jobs because by 2060, the South Korean economy may have collapsed. Broadly speaking, the size of an economy is linked to the size of its workforce. To have a big economy, you need a lot of workers to produce a lot of things and a lot more people to buy them. Today, South Korea has about 37 million people of working age, generating a GDP of about 1.7 trillion US dollars. But by 2060, its workforce would have shrunk to less than half to about 17 million. Of course, technological progress means that productivity will be higher and each individual will probably produce more than today. But even if productivity keeps growing at the same rate or more than we've seen in the last decades, South Korea's GDP could peak in the 2040s. In other words, South Korea will enter a permanent economic recession. There are more optimistic projections that see the recession begin as late as 2050, but they're based on the medium-undemographic scenario, and there are no signs that we're heading there. Another factor in the economy is science, technology and innovation, areas in which big leaps are typically made by young adults and the middle aged. Young people have fresh ideas that contribute to the wealth of society. Significantly fewer people working also means way less tax for the government, which will be trapped between a rock and a hard place. On the one hand, having to provide for half the population that are seniors, on the other, seeing its income diminish. It will be forced to shut down all cut essential services like hospitals or social benefits. Since infrastructure only works at scale, smaller communities may be abandoned as the country contracts into its metropolitan areas. And of course, there won't be enough money to invest in the future. This is bad, but what will happen to South Korean society and culture may be worse. Societal and cultural collapse. Speculating on how societies will develop is extra hard, but there are a few pretty unavoidable trends. Today, already about 20% of Koreans live alone. Also, 20% report having no close friends or relatives. By 2060, 50% of South Koreans aged 70 will have no siblings, and 30% will have no children. Young adults between 25 and 35 will only make up 5% of the population and typically have no siblings at all. This leaves the elderly with almost no close family and young adults with little family and few potential friends, especially outside of big cities. A loneliness epidemic of epic proportions is all but guaranteed. On top of that, South Korean culture will probably experience a huge decline. In 2000, there were 17.5 million South Koreans between 25 and 45 and they made up 37% of the population. This was the generation that brought us Cape Oc, Cape Drama, Cape Food, and many other trends that spread around the world. In 2060, there will be just 5.6 million people in that age group and there will only be 16% of the population. Many cultural traditions are already struggling because the older generations are having trouble finding young people to pass them on to. As young people disappear, many traditions will die out. Without young people, the soul of South Korean culture will shrink and wither away. And on a personal level, what kind of experience will it be growing up in 2060? What will youth culture be like in a country of seniors? Where many universities, schools and kindergarten are abandoned as there are no longer children to fill them with life? What kind of job prospects will they face and what will politics look like? If young people don't want to remain alone, they'll concentrate in soul or a few other big cities or worse for South Korea, emigrate to other countries. Rural areas will decline and most smaller cities will turn into ghost towns. We're already seeing this in Japan, which has almost 10 million abandoned houses in rural areas. Large parts of South Korea will simply vanish and be claimed by nature. Last but not least, South and North Korea are technically at war and they could very well still be in 2060. Will South Korea still be able to afford to have its young men do 18 months of mandatory military service? Today, 5% of men of combat age are enrolled in the military. In 2060, it would have to be 15% just to match today's numbers. Okay, wait, this is all a bit much. Is there no way back? Why there really is no way back? The problem with the Democratic freight train is that once it hits, things become irreversible. Let's say fertility in South Korea magically triples to the replacement rate of 2.1 children per woman and stays there. In 2060, it will be an inverted pyramid on top of a barrel. And there would still be only 1.5 people of working age per senior over 65. Even in the best made up scenario, South Korea has to pass through an unavoidable bottleneck before it will recover. But there is also a kernel of hope here. Yes, the situation is grim, but at least in the long term recovery is possible if South Korea in acts rapid and societal changes that make its population want to have kids again. In 2024, births rose for the first time in 9 years, 3% more than in 2023. But for that to continue, South Korea needs to face the music and ask how they got to this point. How could it get that bad? In general, as societies get richer, more educated to end child mortality plummet, people decide to have fewer kids. What makes South Korea special is that it's somehow supercharging all of these trends. South Korea lifted itself out of poverty in record time, but in doing so it developed a unique kind of worker holism and extreme competitiveness. Although the work week is 40 hours and the legal maximum is 52 per week, unpaid overtime is normal for many, and the government even proposed to raise legal work time to 69 hours per week. Despite this, South Korea has relatively low wages and a high cost of living. Real estate in big cities is out of reach for most people. The cost of education is extremely high, since families have to pay for private lessons if they want to send their kids to a high tier connitch. All of this, while South Korea spends less on family benefits than most other rich countries. Old-fashioned cultural norms make matters even worse. Marriage is all but mandatory if a couple wants to start a family. In 2023, only 4.7% of babies were born to unmarried women. Out of all developed countries, South Korean men do just about the least share of housework and childcare within their families. This leaves women with a disproportionate amount of work if they want to keep their jobs after a pregnancy, while many men are overwhelmed by the societal expectation to be the main breadwinner and have successful careers. Starting a family or not is a personal decision, and most South Koreans are deciding against it. The bottom line is that South Korea has created a culture that leads to very few kids. Conclusion Demographic collapse is not an abstract thing in the future, it's happening right now. And it's not just South Korea. In 2023, China had a fertility rate of 1, Italy and Spain 1.2, Germany 1.4, the UK 1.6 and the US 1.6, which sounds so much better, doesn't it? Well, after 4 generations, a fertility rate of 1.6 means 60% fewer new people. A fertility rate of 1.2 means 87% fewer people. And fertility rates are still falling with no sign of stabilization or recovery. The weirdest thing about all of this is that almost nobody involved in the public discourse has truly grasped the gravity of the situation. The last century was utterly dominated by overpopulation narratives and people who say that we need more kids seem weird. And if you do the maths, the future just seems to be too insane to be true, like it's hard to believe. None of this has ever happened before. So low birth rates are mostly discussed in the context of worker shortages, not as the existential threat to our societies, cultures, wealth and our way of life that they are. If we don't take it seriously very soon and change the DNA of our modern societies in a way that encourages young people to start having children again, then the rest of the century will be pretty grim for those of us who will live through it. The demographic freight train stops for nobody. We finally need to realise that it's hurtling down the tracks right at us. Multilayers who like demographic change are hard to break through in our car media landscape and easy to miss out on. This is why we rely on ground news, a long time sponsor and ally in helping find real stories of importance amongst the jump of information we're confronted with every day. In a nutshell, the app and website gather the world's news in one place so you can compare coverage, see the bigger picture and make informed decisions. Using ground news, you can see that earlier this year South Korea was officially classified as a super-age society. A term that basically summarises the effects we described in this video, but less than 100 sources covered this development. Interestingly, less than 20% of them are left-leaning media. Ground news has a special feature, the Blind Spot Feet, that draws attention to stories like that which get lost amidst your personal publication preferences. Most importantly, you can clearly compare how the issue was covered. A government-funded source out of Slovenia, for example, mentioned Europe is considering immigration as part of a solution, while Korea, Japan and China are avoiding that aspect. This way, you can get a balance to count and come to a conclusion for yourself. We encourage you to sign up at ground.newslashkien or scan the QR code and save 40% off their unlimited access vantage plan. Our link brings the price down to just $5 a month. By subscribing via ground.newslashkien, your investment directly supports Kutskazat plus helps ground news stay independent and able to provide a tool that's now more important than ever."
+  }
+}

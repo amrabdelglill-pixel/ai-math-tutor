@@ -1,0 +1,2139 @@
+{
+  "video_id": "LxPZmkyT9fc",
+  "video_title": "Penetration Testing For Beginners | Phases of Penetration Testing | Penetration Testing Tutorial",
+  "channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ",
+  "channel_title": "edureka!",
+  "published_at": "",
+  "duration_secs": 1789.0,
+  "view_count": 5018,
+  "tags": [
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 12.6,
+        "text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka."
+      },
+      {
+        "start": 12.6,
+        "duration": 3.7,
+        "text": "Today, we are diving into the world of penetration testing."
+      },
+      {
+        "start": 16.3,
+        "duration": 5.3,
+        "text": "A critical practice that helps organization identify vulnerabilities before attackers do."
+      },
+      {
+        "start": 21.6,
+        "duration": 4.6,
+        "text": "So in this video, we will explore penetration testing and why it is an essential part of"
+      },
+      {
+        "start": 26.2,
+        "duration": 2.4,
+        "text": "a robust cyber security strategy."
+      },
+      {
+        "start": 28.6,
+        "duration": 4.2,
+        "text": "We will walk you through the entire process from the initial stages of gathering information"
+      },
+      {
+        "start": 32.8,
+        "duration": 5.0,
+        "text": "and scanning networks to the practical aspects of gaining access and maintaining it and"
+      },
+      {
+        "start": 37.8,
+        "duration": 2.3,
+        "text": "finally, analyzing the results."
+      },
+      {
+        "start": 40.1,
+        "duration": 5.0,
+        "text": "So we will also discuss the different approaches to penetration testing including open box,"
+      },
+      {
+        "start": 45.1,
+        "duration": 5.8,
+        "text": "closed box, covert, external and internal methods while highlighting the variety of tools"
+      },
+      {
+        "start": 51.0,
+        "duration": 2.0,
+        "text": "that professionals use."
+      },
+      {
+        "start": 53.0,
+        "duration": 5.5,
+        "text": "This range from reconnaissance and vulnerability scanning to specialized proxies and exploitation"
+      },
+      {
+        "start": 58.5,
+        "duration": 4.9,
+        "text": "frameworks and even post exploitation techniques for further analysis."
+      },
+      {
+        "start": 63.4,
+        "duration": 4.4,
+        "text": "And to make it all clear and actionable, we will conclude with a live demonstration using"
+      },
+      {
+        "start": 67.8,
+        "duration": 5.2,
+        "text": "a vulnerable application, showing you how to exploit it and then compiling a comprehensive"
+      },
+      {
+        "start": 73.0,
+        "duration": 1.9,
+        "text": "appendiced report."
+      },
+      {
+        "start": 74.9,
+        "duration": 4.3,
+        "text": "And before we begin, make sure to like, share and subscribe to Idureka's YouTube channel"
+      },
+      {
+        "start": 79.2,
+        "duration": 4.1,
+        "text": "and hit the bell icon to see updated on the latest content from Idureka."
+      },
+      {
+        "start": 83.3,
+        "duration": 4.2,
+        "text": "Along with this, check out the certified ethical hacking course designed in partnership with"
+      },
+      {
+        "start": 87.6,
+        "duration": 3.2,
+        "text": "EasyConsult to elevate your cyber security skills."
+      },
+      {
+        "start": 90.8,
+        "duration": 6.0,
+        "text": "This course offers a globally recognized CEH V13 AI certification and features 20 comprehensive"
+      },
+      {
+        "start": 96.8,
+        "duration": 5.3,
+        "text": "models that cover over 500 attack techniques enhanced by AI GPT tools."
+      },
+      {
+        "start": 102.1,
+        "duration": 4.3,
+        "text": "You will gain hands-on experience through 221 practical labs and benefit from the round"
+      },
+      {
+        "start": 106.4,
+        "duration": 3.0,
+        "text": "the clock support provided by certified professionals."
+      },
+      {
+        "start": 109.4,
+        "duration": 5.0,
+        "text": "And with access to exclusive e-courses where and an exam voucher from EasyConsult, this"
+      },
+      {
+        "start": 114.4,
+        "duration": 4.8,
+        "text": "course is your gateway to mastering ethical hacking and securing a rewarding career in cyber"
+      },
+      {
+        "start": 119.2,
+        "duration": 1.0,
+        "text": "defense."
+      },
+      {
+        "start": 120.2,
+        "duration": 2.8,
+        "text": "So check out the course link given in the description box below."
+      },
+      {
+        "start": 123.0,
+        "duration": 3.6,
+        "text": "Alright, now let us understand what is penetration testing."
+      },
+      {
+        "start": 126.6,
+        "duration": 6.2,
+        "text": "Well, a penetration testing or pen testing is an authorized simulated attack on a computer"
+      },
+      {
+        "start": 132.8,
+        "duration": 3.2,
+        "text": "system designed to elevate its security."
+      },
+      {
+        "start": 136.0,
+        "duration": 5.6,
+        "text": "In a pen test, security experts employ the same tools, techniques and procedures as real"
+      },
+      {
+        "start": 141.6,
+        "duration": 5.0,
+        "text": "world attackers do to identify vulnerabilities and demonstrate the potential business impact"
+      },
+      {
+        "start": 146.6,
+        "duration": 1.7,
+        "text": "of these weaknesses."
+      },
+      {
+        "start": 148.3,
+        "duration": 4.7,
+        "text": "So this process helps organizations understand where the defenses may be lacking and where"
+      },
+      {
+        "start": 153.0,
+        "duration": 1.9,
+        "text": "improvements are needed."
+      },
+      {
+        "start": 154.8,
+        "duration": 5.2,
+        "text": "Penetration testing not only reveals vulnerabilities but also offers several key benefits."
+      },
+      {
+        "start": 160.1,
+        "duration": 3.2,
+        "text": "So let us quickly go over some of these advantages."
+      },
+      {
+        "start": 163.2,
+        "duration": 4.1,
+        "text": "So first of the list, we have proactive vulnerability identification."
+      },
+      {
+        "start": 167.3,
+        "duration": 5.0,
+        "text": "It helps you to uncover potential weaknesses before malicious actors can exploit them."
+      },
+      {
+        "start": 172.3,
+        "duration": 5.6,
+        "text": "Next, risk mitigation, which reduces the likelihood and impact of cyber attacks, safeguarding"
+      },
+      {
+        "start": 178.0,
+        "duration": 1.7,
+        "text": "sensitive data."
+      },
+      {
+        "start": 179.7,
+        "duration": 2.7,
+        "text": "And the next advantage is regulatory compliance."
+      },
+      {
+        "start": 182.4,
+        "duration": 4.6,
+        "text": "We have industry standards and legal requirements avoiding penalties."
+      },
+      {
+        "start": 187.0,
+        "duration": 1.8,
+        "text": "Next is the cost savings."
+      },
+      {
+        "start": 188.8,
+        "duration": 4.8,
+        "text": "Prevent financial losses by addressing issues early and avoiding breaches."
+      },
+      {
+        "start": 193.7,
+        "duration": 2.5,
+        "text": "And then, enhanced trust."
+      },
+      {
+        "start": 196.2,
+        "duration": 4.4,
+        "text": "Build and maintain trust with customers and stakeholders by demonstrating robust security"
+      },
+      {
+        "start": 200.6,
+        "duration": 1.0,
+        "text": "practices."
+      },
+      {
+        "start": 201.6,
+        "duration": 3.5,
+        "text": "And the next advantage is continuous improvement."
+      },
+      {
+        "start": 205.1,
+        "duration": 4.7,
+        "text": "Gain insights that drive ongoing security enhancements and risk management."
+      },
+      {
+        "start": 209.8,
+        "duration": 4.5,
+        "text": "Now let's dive into the phases of penetration testing each one building on the previous"
+      },
+      {
+        "start": 214.3,
+        "duration": 3.1,
+        "text": "to ensure a thorough security evaluation."
+      },
+      {
+        "start": 217.4,
+        "duration": 2.9,
+        "text": "And the first phase is planning and reconnaissance."
+      },
+      {
+        "start": 220.2,
+        "duration": 2.4,
+        "text": "So we start with planning and reconnaissance."
+      },
+      {
+        "start": 222.7,
+        "duration": 4.1,
+        "text": "In this initial phase, the pen tester defines the scope and goals of the test."
+      },
+      {
+        "start": 226.8,
+        "duration": 5.2,
+        "text": "Identifying which systems will be targeted and outlining the testing methods to be used."
+      },
+      {
+        "start": 232.0,
+        "duration": 4.7,
+        "text": "It also involves gathering crucial intelligence such as network details, domain names and"
+      },
+      {
+        "start": 236.7,
+        "duration": 5.6,
+        "text": "mail server information to gain a clear understanding of how the target operates and where its vulnerability"
+      },
+      {
+        "start": 242.3,
+        "duration": 1.8,
+        "text": "might lie."
+      },
+      {
+        "start": 244.1,
+        "duration": 3.6,
+        "text": "Now moving on to the next phase, which is scanning."
+      },
+      {
+        "start": 247.6,
+        "duration": 3.3,
+        "text": "Once the groundwork is late, the next phase is scanning."
+      },
+      {
+        "start": 250.9,
+        "duration": 4.5,
+        "text": "Here, the tested examines how the target application responds to various intrusions"
+      },
+      {
+        "start": 255.4,
+        "duration": 1.0,
+        "text": "attempts."
+      },
+      {
+        "start": 256.4,
+        "duration": 3.9,
+        "text": "So this is a shift through both static and dynamic analysis."
+      },
+      {
+        "start": 260.4,
+        "duration": 4.4,
+        "text": "Static analysis involves inspecting the application's code to predict its behavior."
+      },
+      {
+        "start": 264.8,
+        "duration": 4.6,
+        "text": "While dynamic analysis absorbs the code in a running state, providing real-time insights"
+      },
+      {
+        "start": 269.4,
+        "duration": 2.9,
+        "text": "into its performance and weaknesses."
+      },
+      {
+        "start": 272.3,
+        "duration": 3.0,
+        "text": "After scanning, the focus shifts to gaining access."
+      },
+      {
+        "start": 275.3,
+        "duration": 5.9,
+        "text": "So in this stage, testers employ various web application attacks such as cross-site scripting,"
+      },
+      {
+        "start": 281.2,
+        "duration": 5.0,
+        "text": "SQL injection and the use of backdose to exploit discovered vulnerabilities."
+      },
+      {
+        "start": 286.2,
+        "duration": 5.4,
+        "text": "By escalating privileges, intercepting traffic or even stealing data, they demonstrate the"
+      },
+      {
+        "start": 291.6,
+        "duration": 3.5,
+        "text": "potential impact these weaknesses could have on the system."
+      },
+      {
+        "start": 295.1,
+        "duration": 2.8,
+        "text": "So the process then moves to maintaining access."
+      },
+      {
+        "start": 297.9,
+        "duration": 5.2,
+        "text": "So the aim here is to see if vulnerability can be exploited to establish a persistent presence"
+      },
+      {
+        "start": 303.1,
+        "duration": 4.0,
+        "text": "within the system, mimicking advanced persistent threats."
+      },
+      {
+        "start": 307.2,
+        "duration": 5.6,
+        "text": "So this phase is critical, as it shows how attacker might remain hidden for extended periods,"
+      },
+      {
+        "start": 312.8,
+        "duration": 2.7,
+        "text": "getting deeper access to sensitive information."
+      },
+      {
+        "start": 315.5,
+        "duration": 4.1,
+        "text": "And finally, all the findings are brought together in the analysis phase."
+      },
+      {
+        "start": 319.6,
+        "duration": 4.8,
+        "text": "The tester compiles a detailed report that outlines the specific vulnerability exploited,"
+      },
+      {
+        "start": 324.4,
+        "duration": 5.1,
+        "text": "the sensitive data access and the duration for which they were able to remain undetected."
+      },
+      {
+        "start": 329.5,
+        "duration": 4.4,
+        "text": "So this comprehensive analysis provides organization with actionable insights to strengthen their"
+      },
+      {
+        "start": 334.0,
+        "duration": 1.6,
+        "text": "security posture."
+      },
+      {
+        "start": 335.6,
+        "duration": 4.9,
+        "text": "Here, each phase plays an essential role in ensuring that the penetration testing process"
+      },
+      {
+        "start": 340.4,
+        "duration": 2.2,
+        "text": "is methodical and effective."
+      },
+      {
+        "start": 342.6,
+        "duration": 4.6,
+        "text": "This ultimately helps organizations secure these systems against potential attacks."
+      },
+      {
+        "start": 347.2,
+        "duration": 4.5,
+        "text": "Now let's explore the different methods of penetration testing, each offering a unique"
+      },
+      {
+        "start": 351.6,
+        "duration": 4.0,
+        "text": "perspective and evaluating a system security posture."
+      },
+      {
+        "start": 355.6,
+        "duration": 3.2,
+        "text": "And the first method is open box penetration testing."
+      },
+      {
+        "start": 358.8,
+        "duration": 4.4,
+        "text": "In open box penetration testing, the tester is provided with some information about the"
+      },
+      {
+        "start": 363.2,
+        "duration": 2.2,
+        "text": "target company's security setup."
+      },
+      {
+        "start": 365.4,
+        "duration": 4.6,
+        "text": "This prior knowledge allows the tester to focus on specific areas of concern and design"
+      },
+      {
+        "start": 370.0,
+        "duration": 5.5,
+        "text": "targeted simulations that validate the effectiveness of existing security measures."
+      },
+      {
+        "start": 375.5,
+        "duration": 4.6,
+        "text": "On the other hand, close box penetration testing often referred to as a single blind"
+      },
+      {
+        "start": 380.1,
+        "duration": 4.5,
+        "text": "test, limits the tester's information to only the target company's name."
+      },
+      {
+        "start": 384.6,
+        "duration": 4.3,
+        "text": "And this approach challenges the tester to uncover vulnerabilities without any insight"
+      },
+      {
+        "start": 389.0,
+        "duration": 5.2,
+        "text": "to you, and closely replicating the conditions and external attacker would face."
+      },
+      {
+        "start": 394.2,
+        "duration": 2.8,
+        "text": "And the next method is covert penetration testing."
+      },
+      {
+        "start": 397.0,
+        "duration": 5.0,
+        "text": "In covert penetration testing, also known as a double blind test, the situation is taken"
+      },
+      {
+        "start": 402.0,
+        "duration": 1.6,
+        "text": "a step further."
+      },
+      {
+        "start": 403.7,
+        "duration": 5.2,
+        "text": "Almost no one within the organization, including the IT and security teams, is aware that a test"
+      },
+      {
+        "start": 408.9,
+        "duration": 1.3,
+        "text": "is underway."
+      },
+      {
+        "start": 410.2,
+        "duration": 4.6,
+        "text": "This method is particularly useful for simulating this tell the nature of real world attackers."
+      },
+      {
+        "start": 414.8,
+        "duration": 5.1,
+        "text": "However, it is essential that the tester has documented details of the scope and rules"
+      },
+      {
+        "start": 419.9,
+        "duration": 3.7,
+        "text": "of engagement to ensure legal and ethical boundaries are maintained."
+      },
+      {
+        "start": 423.6,
+        "duration": 5.0,
+        "text": "Another distinct method is external penetration testing, where the ethical hacker focuses"
+      },
+      {
+        "start": 428.6,
+        "duration": 6.2,
+        "text": "on the company's outward facing technology, such as its website and external network servers."
+      },
+      {
+        "start": 434.8,
+        "duration": 4.6,
+        "text": "In some cases, the tester may not be permitted to enter the company's premises, meaning"
+      },
+      {
+        "start": 439.4,
+        "duration": 5.2,
+        "text": "the attacker is orchestrated remotely or even from a nearby location, mirroring the tactics"
+      },
+      {
+        "start": 444.6,
+        "duration": 2.1,
+        "text": "of a determined outsider."
+      },
+      {
+        "start": 446.7,
+        "duration": 5.4,
+        "text": "And lastly, internal penetration testing involves conducting the assessment from within the company's"
+      },
+      {
+        "start": 452.1,
+        "duration": 1.4,
+        "text": "own network."
+      },
+      {
+        "start": 453.5,
+        "duration": 4.2,
+        "text": "This method is invaluable for understanding the potential damage that could be inflected"
+      },
+      {
+        "start": 457.7,
+        "duration": 5.6,
+        "text": "by an incited threat or an attack who has already bypassed external defenses."
+      },
+      {
+        "start": 463.2,
+        "duration": 4.9,
+        "text": "By simulating an internal breach, organizations can goch the effectiveness of their internal"
+      },
+      {
+        "start": 468.1,
+        "duration": 2.8,
+        "text": "controls and respond strategies."
+      },
+      {
+        "start": 470.9,
+        "duration": 4.6,
+        "text": "So each method provides a distinct approach to identify vulnerabilities, ensuring that"
+      },
+      {
+        "start": 475.6,
+        "duration": 4.9,
+        "text": "organizations receive a comprehensive evaluation of their security landscape."
+      },
+      {
+        "start": 480.5,
+        "duration": 4.0,
+        "text": "Now, there isn't a one tool for penetration testing."
+      },
+      {
+        "start": 484.5,
+        "duration": 4.8,
+        "text": "An intelligent targets demand specialized approaches for task-like port scanning, application"
+      },
+      {
+        "start": 489.3,
+        "duration": 4.0,
+        "text": "scanning, Wi-Fi break-ins or directly breaching a network."
+      },
+      {
+        "start": 493.3,
+        "duration": 5.0,
+        "text": "Broadly speaking, the tools used in penetration testing fall into five main categories."
+      },
+      {
+        "start": 498.3,
+        "duration": 4.3,
+        "text": "The first category is reconnaissance tools, which are essentially for discovering network"
+      },
+      {
+        "start": 502.6,
+        "duration": 2.4,
+        "text": "host and open ports."
+      },
+      {
+        "start": 504.9,
+        "duration": 5.3,
+        "text": "Tools like Enmap provides a detailed overview of a network's layout, while utilities like"
+      },
+      {
+        "start": 510.2,
+        "duration": 5.9,
+        "text": "Angry IP scanner help quickly identify life host and active services."
+      },
+      {
+        "start": 516.1,
+        "duration": 3.3,
+        "text": "Next, vulnerability scanners comes into play."
+      },
+      {
+        "start": 519.4,
+        "duration": 4.9,
+        "text": "These tools are designed to probe network services with applications and APIs for potential"
+      },
+      {
+        "start": 524.3,
+        "duration": 1.5,
+        "text": "security issues."
+      },
+      {
+        "start": 525.8,
+        "duration": 4.8,
+        "text": "Tools like Nessus and OpenWaz can for known vulnerabilities, offering insights into where"
+      },
+      {
+        "start": 530.7,
+        "duration": 2.2,
+        "text": "defenses might be weak."
+      },
+      {
+        "start": 532.9,
+        "duration": 5.1,
+        "text": "Then there is a proxy tools, which serve as a specialized web-prox or generate man in"
+      },
+      {
+        "start": 538.0,
+        "duration": 1.6,
+        "text": "the middle process."
+      },
+      {
+        "start": 539.6,
+        "duration": 5.9,
+        "text": "Tools such as Burpsuit is widely used to intercept and analyze traffic, allowing testers to manipulate"
+      },
+      {
+        "start": 545.5,
+        "duration": 5.4,
+        "text": "requests and responses to uncover security flaws in web applications."
+      },
+      {
+        "start": 550.9,
+        "duration": 2.4,
+        "text": "Exploitation tools form the fourth category."
+      },
+      {
+        "start": 553.2,
+        "duration": 4.6,
+        "text": "These tools are used to leverage the vulnerabilities uncovered during earlier phases."
+      },
+      {
+        "start": 557.9,
+        "duration": 4.4,
+        "text": "Made as Floyd, for example, is a well-known exploitation framework that enabled testers"
+      },
+      {
+        "start": 562.3,
+        "duration": 5.6,
+        "text": "to develop and execute exploits and effectively demonstrating how a breath might occur."
+      },
+      {
+        "start": 567.9,
+        "duration": 4.8,
+        "text": "And finally, post-exploitation tools a crucial once-axis has been gained."
+      },
+      {
+        "start": 572.7,
+        "duration": 4.8,
+        "text": "They allow testers to interact with compromised systems, maintain their food hold, and even"
+      },
+      {
+        "start": 577.5,
+        "duration": 3.0,
+        "text": "expand access to further illustrate the potential damage."
+      },
+      {
+        "start": 580.5,
+        "duration": 6.0,
+        "text": "Tools like Kobalt Strike and PowerShell Empire exemplify this category, providing functionalities"
+      },
+      {
+        "start": 586.4,
+        "duration": 4.0,
+        "text": "that simulate the persistent threats seen in real-world attacks."
+      },
+      {
+        "start": 590.4,
+        "duration": 4.8,
+        "text": "And each of these tool categories plays an integral role in the penetration testing process."
+      },
+      {
+        "start": 595.3,
+        "duration": 6.1,
+        "text": "It ensures that every step from initial recognizance to post-exploitation is thoroughly executed"
+      },
+      {
+        "start": 601.4,
+        "duration": 4.6,
+        "text": "to evaluate and ultimately strengthen an organization's security posture."
+      },
+      {
+        "start": 606.0,
+        "duration": 3.8,
+        "text": "Now that we have covered the theory behind penetration testing, so it's time to see"
+      },
+      {
+        "start": 609.8,
+        "duration": 1.2,
+        "text": "it in action."
+      },
+      {
+        "start": 611.0,
+        "duration": 5.0,
+        "text": "So in this final segment, we will dive into a live demonstration by exploiting a vulnerable"
+      },
+      {
+        "start": 616.0,
+        "duration": 2.4,
+        "text": "application known as depth node."
+      },
+      {
+        "start": 618.4,
+        "duration": 4.2,
+        "text": "We will walk you through the exploitation process step-by-step, showing you exactly how"
+      },
+      {
+        "start": 622.6,
+        "duration": 2.9,
+        "text": "vulnerabilities are identified and leveraged."
+      },
+      {
+        "start": 625.5,
+        "duration": 7.7,
+        "text": "So first, open your web browser and navigate to www.1herp.com."
+      },
+      {
+        "start": 633.2,
+        "duration": 4.6,
+        "text": "So once the page loads, locate the search box at the top of the site and type in depth"
+      },
+      {
+        "start": 637.8,
+        "duration": 3.4,
+        "text": "node before pressing enter."
+      },
+      {
+        "start": 641.2,
+        "duration": 4.8,
+        "text": "So when the search result appears, click on the depth node one, enter to open its dedicated"
+      },
+      {
+        "start": 646.0,
+        "duration": 1.0,
+        "text": "page."
+      },
+      {
+        "start": 647.0,
+        "duration": 5.7,
+        "text": "And on this page, you will find a download section that includes a mirror download option."
+      },
+      {
+        "start": 652.7,
+        "duration": 3.8,
+        "text": "So click on the mirror download option, which will immediately start downloading the file"
+      },
+      {
+        "start": 656.5,
+        "duration": 7.7,
+        "text": "named depth node dot OVA and allow the download to complete."
+      },
+      {
+        "start": 664.2,
+        "duration": 4.8,
+        "text": "So now that you have downloaded the depth node one OVA file, so let's set it up in virtual"
+      },
+      {
+        "start": 669.0,
+        "duration": 1.5,
+        "text": "box."
+      },
+      {
+        "start": 670.6,
+        "duration": 3.0,
+        "text": "Step 2 setting up depth node one in virtual mission."
+      },
+      {
+        "start": 673.6,
+        "duration": 4.2,
+        "text": "Open virtual box and let's click on import."
+      },
+      {
+        "start": 677.8,
+        "duration": 4.9,
+        "text": "In the file section dialog, navigate to and select the depth node one OVA file and import"
+      },
+      {
+        "start": 682.7,
+        "duration": 4.2,
+        "text": "it."
+      },
+      {
+        "start": 686.9,
+        "duration": 6.6,
+        "text": "And once the import is complete, proceed to the virtual machine settings."
+      },
+      {
+        "start": 693.5,
+        "duration": 8.1,
+        "text": "Next switch to the network settings and change the network connection type to host only."
+      },
+      {
+        "start": 701.6,
+        "duration": 3.6,
+        "text": "Now confirm these changes by clicking OK."
+      },
+      {
+        "start": 705.2,
+        "duration": 4.8,
+        "text": "And finally, start the virtual machine to launch depth node one and begin your penetration"
+      },
+      {
+        "start": 710.0,
+        "duration": 6.7,
+        "text": "testing demonstration."
+      },
+      {
+        "start": 716.8,
+        "duration": 4.4,
+        "text": "Now that you have set up the target machine, so let's configure your attacker machine,"
+      },
+      {
+        "start": 721.1,
+        "duration": 3.2,
+        "text": "Kali Linux to begin the reconnaissance phase."
+      },
+      {
+        "start": 724.3,
+        "duration": 2.4,
+        "text": "Now moving on to step 3."
+      },
+      {
+        "start": 726.8,
+        "duration": 2.1,
+        "text": "Booting up our Kali Linux machine."
+      },
+      {
+        "start": 728.9,
+        "duration": 5.0,
+        "text": "So before booting up your Kali Linux virtual machine, open its settings and add a second"
+      },
+      {
+        "start": 733.9,
+        "duration": 4.0,
+        "text": "network adapter."
+      },
+      {
+        "start": 737.9,
+        "duration": 5.1,
+        "text": "Now configure this new adapter to use a host only connection to ensure proper network"
+      },
+      {
+        "start": 743.0,
+        "duration": 2.4,
+        "text": "isolation for testing."
+      },
+      {
+        "start": 745.4,
+        "duration": 9.2,
+        "text": "Once done, boot up your Kali Linux machine."
+      },
+      {
+        "start": 754.5,
+        "duration": 5.3,
+        "text": "This system has fully loaded, open a terminal window to ensure that your machine has the"
+      },
+      {
+        "start": 759.8,
+        "duration": 2.5,
+        "text": "latest packages and security patches."
+      },
+      {
+        "start": 762.3,
+        "duration": 16.0,
+        "text": "Run the following command."
+      },
+      {
+        "start": 778.3,
+        "duration": 4.7,
+        "text": "With the update complete, your Kali Linux machine is now ready for reconnaissance and further"
+      },
+      {
+        "start": 783.0,
+        "duration": 1.0,
+        "text": "testing."
+      },
+      {
+        "start": 784.0,
+        "duration": 2.7,
+        "text": "Now moving on to step 4."
+      },
+      {
+        "start": 786.7,
+        "duration": 1.8,
+        "text": "Exploring the vulnerable machine."
+      },
+      {
+        "start": 788.5,
+        "duration": 3.4,
+        "text": "So first, I need to find the target IP address."
+      },
+      {
+        "start": 791.9,
+        "duration": 5.3,
+        "text": "So for that, open a terminal and run the net discover command to find the target machine's"
+      },
+      {
+        "start": 797.2,
+        "duration": 2.0,
+        "text": "IP address."
+      },
+      {
+        "start": 799.2,
+        "duration": 4.6,
+        "text": "Since we have added another host only adapter connection on our Kali machine, we are using"
+      },
+      {
+        "start": 803.8,
+        "duration": 2.8,
+        "text": "the second network interface."
+      },
+      {
+        "start": 806.7,
+        "duration": 5.9,
+        "text": "It's 1 instead of it's 0."
+      },
+      {
+        "start": 812.6,
+        "duration": 1.6,
+        "text": "Run the scan results."
+      },
+      {
+        "start": 814.2,
+        "duration": 7.3,
+        "text": "Note that the target IP is 1.2.168.56.103."
+      },
+      {
+        "start": 821.5,
+        "duration": 5.8,
+        "text": "And next, we will perform a thorough network scan to detect open ports on our target machine."
+      },
+      {
+        "start": 827.3,
+        "duration": 5.3,
+        "text": "Now we are moving on to our next step, which is performing a network scan."
+      },
+      {
+        "start": 832.6,
+        "duration": 5.2,
+        "text": "So we will perform a thorough network scan to detect open ports on our target machine."
+      },
+      {
+        "start": 837.8,
+        "duration": 7.0,
+        "text": "So for this, we will be using in-map with the hyphen SS, hyphen SC, hyphen SV and hyphen"
+      },
+      {
+        "start": 844.8,
+        "duration": 3.4,
+        "text": "P hyphen switches."
+      },
+      {
+        "start": 848.2,
+        "duration": 5.7,
+        "text": "So in the following command, hyphen SS for a TCP-SYN scan, which is fast and effective"
+      },
+      {
+        "start": 853.9,
+        "duration": 2.4,
+        "text": "for scanning thousands of ports."
+      },
+      {
+        "start": 856.3,
+        "duration": 5.6,
+        "text": "And then we have hyphen SC to run a default script scan for additional context."
+      },
+      {
+        "start": 862.0,
+        "duration": 5.2,
+        "text": "And following that, we have hyphen SV for version detection, which helps identify the"
+      },
+      {
+        "start": 867.1,
+        "duration": 2.5,
+        "text": "services running on each port."
+      },
+      {
+        "start": 869.6,
+        "duration": 4.8,
+        "text": "And finally, we have hyphen P hyphen to ensure that all ports are scanned."
+      },
+      {
+        "start": 874.5,
+        "duration": 6.0,
+        "text": "So this scan is critical to enumerate the available services and design targeted attacks."
+      },
+      {
+        "start": 880.5,
+        "duration": 4.2,
+        "text": "Now by analyzing the output, we notice two open ports."
+      },
+      {
+        "start": 884.7,
+        "duration": 5.7,
+        "text": "One is the port 22 SSH, which indicates an SSH service is running."
+      },
+      {
+        "start": 890.4,
+        "duration": 4.2,
+        "text": "If valid credentials are obtained, this could allow login access."
+      },
+      {
+        "start": 894.6,
+        "duration": 6.0,
+        "text": "The second port is port 80 HTTP, which indicates that a web server is running and may be hosting"
+      },
+      {
+        "start": 900.6,
+        "duration": 2.1,
+        "text": "a vulnerable website."
+      },
+      {
+        "start": 902.7,
+        "duration": 4.1,
+        "text": "Now let's start with examining the web content on port 80."
+      },
+      {
+        "start": 906.8,
+        "duration": 6.1,
+        "text": "So for that, open a web browser and navigate to the target IP."
+      },
+      {
+        "start": 913.0,
+        "duration": 9.6,
+        "text": "Okay, so here we come across an error which says can't connect to the server at deadnote.1."
+      },
+      {
+        "start": 922.6,
+        "duration": 4.3,
+        "text": "This error can occur if the browser can't resolve the host name because either the URL"
+      },
+      {
+        "start": 926.9,
+        "duration": 3.0,
+        "text": "was missed time or no host name was provided."
+      },
+      {
+        "start": 929.9,
+        "duration": 5.5,
+        "text": "So to resolve the host name issue, we can edit our local host file, which is located in"
+      },
+      {
+        "start": 935.4,
+        "duration": 1.8,
+        "text": "the ETC directory."
+      },
+      {
+        "start": 937.2,
+        "duration": 8.6,
+        "text": "To do so, open a new tab on your terminal and open the host file within nano editor."
+      },
+      {
+        "start": 945.7,
+        "duration": 5.5,
+        "text": "Here we will add an entry associating the target IP with the expected host name."
+      },
+      {
+        "start": 951.2,
+        "duration": 7.7,
+        "text": "So for that, let us enter the IP 192.168.56.103."
+      },
+      {
+        "start": 958.9,
+        "duration": 4.7,
+        "text": "Following that, we will enter the host name which is deadnote.1."
+      },
+      {
+        "start": 963.6,
+        "duration": 6.2,
+        "text": "And then we will save the changes using control plus X and confirm with enter."
+      },
+      {
+        "start": 969.7,
+        "duration": 6.5,
+        "text": "Now we can verify the entry using the cat command to display the content in the host file."
+      },
+      {
+        "start": 976.2,
+        "duration": 4.4,
+        "text": "So type cat ETC host."
+      },
+      {
+        "start": 980.6,
+        "duration": 2.2,
+        "text": "Now reload the web page."
+      },
+      {
+        "start": 982.8,
+        "duration": 4.0,
+        "text": "With the host name properly mapped, the site should load without errors."
+      },
+      {
+        "start": 986.8,
+        "duration": 3.6,
+        "text": "So once a page loads, examine the URL and page structure."
+      },
+      {
+        "start": 990.4,
+        "duration": 5.6,
+        "text": "So the website appears to be built using WordPress, which is a common target for vulnerability."
+      },
+      {
+        "start": 996.0,
+        "duration": 5.7,
+        "text": "To gather more details about it, we can use WP scan to access the site for no issues."
+      },
+      {
+        "start": 1001.7,
+        "duration": 7.3,
+        "text": "So open a new tab on your terminal and run WP scan with the hyphen hyphen URL flag followed"
+      },
+      {
+        "start": 1009.0,
+        "duration": 4.9,
+        "text": "by the URL."
+      },
+      {
+        "start": 1013.9,
+        "duration": 5.4,
+        "text": "Alright, so the output shows that the WordPress version is secure, but pay attention to other"
+      },
+      {
+        "start": 1019.2,
+        "duration": 1.3,
+        "text": "details."
+      },
+      {
+        "start": 1020.6,
+        "duration": 6.8,
+        "text": "The details such as the server is hosted on Apache and XML RPC is enabled, though not"
+      },
+      {
+        "start": 1027.3,
+        "duration": 1.9,
+        "text": "immediately useful."
+      },
+      {
+        "start": 1029.2,
+        "duration": 5.2,
+        "text": "And the WordPress readme file is accessible and the uploads directory is open, which might"
+      },
+      {
+        "start": 1034.5,
+        "duration": 3.0,
+        "text": "have potential hints for further exploitation."
+      },
+      {
+        "start": 1037.4,
+        "duration": 7.0,
+        "text": "So let's go ahead and access the uploads directory."
+      },
+      {
+        "start": 1044.4,
+        "duration": 6.0,
+        "text": "Here, we have a directory named 2021."
+      },
+      {
+        "start": 1050.4,
+        "duration": 2.8,
+        "text": "So let's go ahead and see the content inside."
+      },
+      {
+        "start": 1053.3,
+        "duration": 2.6,
+        "text": "Now we have three more directories inside."
+      },
+      {
+        "start": 1055.9,
+        "duration": 2.7,
+        "text": "So let's go ahead and check them one by one."
+      },
+      {
+        "start": 1058.6,
+        "duration": 6.6,
+        "text": "So in this 07 directory, we have multiple .jpg files along with the notes.txt and uses"
+      },
+      {
+        "start": 1065.2,
+        "duration": 1.7,
+        "text": ".txt files."
+      },
+      {
+        "start": 1066.8,
+        "duration": 7.2,
+        "text": "Likewise, we check for the 08 and 09 directories, but we couldn't locate any files within them."
+      },
+      {
+        "start": 1074.0,
+        "duration": 6.2,
+        "text": "Next, we'll be performing directly bursting to uncover hidden directories or pages."
+      },
+      {
+        "start": 1080.2,
+        "duration": 3.3,
+        "text": "So for this, we are using dir search."
+      },
+      {
+        "start": 1083.5,
+        "duration": 4.4,
+        "text": "Although it is not primarily available on Kali Linux, it can be easily installed by simply"
+      },
+      {
+        "start": 1088.0,
+        "duration": 5.5,
+        "text": "typing dir search and typing y when prompted."
+      },
+      {
+        "start": 1093.5,
+        "duration": 4.8,
+        "text": "So once it's installed, we will proceed with the directory enumeration by specifying"
+      },
+      {
+        "start": 1098.2,
+        "duration": 10.5,
+        "text": "the target URL using the hyphen u flag."
+      },
+      {
+        "start": 1108.8,
+        "duration": 4.6,
+        "text": "As a result, we have got the WordPress admin page, but we cannot log into this as we"
+      },
+      {
+        "start": 1113.4,
+        "duration": 2.2,
+        "text": "don't have valid credentials."
+      },
+      {
+        "start": 1115.6,
+        "duration": 5.0,
+        "text": "Now instead of performing directory enumeration on the WordPress directory, we will perform the"
+      },
+      {
+        "start": 1120.5,
+        "duration": 6.8,
+        "text": "same dir search scan on the dead node.world webpage as there might be some hidden or hardly accessible"
+      },
+      {
+        "start": 1127.4,
+        "duration": 5.4,
+        "text": "directories on it."
+      },
+      {
+        "start": 1132.7,
+        "duration": 5.6,
+        "text": "So from the results, we can see that there is a robots.txt file present on the dead node.world"
+      },
+      {
+        "start": 1138.3,
+        "duration": 1.0,
+        "text": "webpage."
+      },
+      {
+        "start": 1139.3,
+        "duration": 6.3,
+        "text": "Now, let's go ahead and open the robots.txt file by navigating to robots.txt file in our"
+      },
+      {
+        "start": 1145.6,
+        "duration": 1.0,
+        "text": "browser."
+      },
+      {
+        "start": 1146.8,
+        "duration": 5.1,
+        "text": "So we will look for any hints or entries that might point to sensitive files."
+      },
+      {
+        "start": 1151.9,
+        "duration": 5.8,
+        "text": "So in this case, we discover a reference to an image file named important.jpg that appears"
+      },
+      {
+        "start": 1157.7,
+        "duration": 3.0,
+        "text": "to be mistakenly added to the target application."
+      },
+      {
+        "start": 1160.7,
+        "duration": 5.2,
+        "text": "So let's go ahead and open this image file on our browser."
+      },
+      {
+        "start": 1165.9,
+        "duration": 5.0,
+        "text": "Okay, so it says that the image cannot be displayed because it contains errors."
+      },
+      {
+        "start": 1170.9,
+        "duration": 4.3,
+        "text": "So since the image file does not open properly in the browser, we will download it using"
+      },
+      {
+        "start": 1175.2,
+        "duration": 2.0,
+        "text": "WGET."
+      },
+      {
+        "start": 1177.2,
+        "duration": 8.0,
+        "text": "Alright."
+      },
+      {
+        "start": 1185.2,
+        "duration": 3.1,
+        "text": "Now let's try to open this image file."
+      },
+      {
+        "start": 1188.3,
+        "duration": 3.8,
+        "text": "So even after downloading the file, we are facing the same error as before."
+      },
+      {
+        "start": 1192.1,
+        "duration": 5.4,
+        "text": "So let's use the file command to determine the type of the file."
+      },
+      {
+        "start": 1197.5,
+        "duration": 3.7,
+        "text": "So let's type file important.jpg."
+      },
+      {
+        "start": 1201.2,
+        "duration": 3.8,
+        "text": "So the result says that this file is in the form of an ASCII text."
+      },
+      {
+        "start": 1205.0,
+        "duration": 8.0,
+        "text": "So we will rename the file extension from .jpg to .txt for easier inspection and open the file."
+      },
+      {
+        "start": 1213.0,
+        "duration": 6.6,
+        "text": "Here, we get a hint that tells us about a logging username in the user.txt file."
+      },
+      {
+        "start": 1219.7,
+        "duration": 3.5,
+        "text": "It then asks us to find the password ourselves."
+      },
+      {
+        "start": 1223.2,
+        "duration": 5.4,
+        "text": "So previously we have seen this user.txt file when we were accessing the uploads directory."
+      },
+      {
+        "start": 1228.5,
+        "duration": 4.2,
+        "text": "We also found a notes.txt file that looks like a word list."
+      },
+      {
+        "start": 1232.7,
+        "duration": 4.4,
+        "text": "So if we try to perform a brute force attack, it can act as a password list."
+      },
+      {
+        "start": 1237.1,
+        "duration": 6.0,
+        "text": "Again, we will use WGET to download both .txt files on our systems and perform a brute force"
+      },
+      {
+        "start": 1243.1,
+        "duration": 1.5,
+        "text": "attack."
+      },
+      {
+        "start": 1244.6,
+        "duration": 6.2,
+        "text": "Now we have both the word list for username and passwords."
+      },
+      {
+        "start": 1250.8,
+        "duration": 8.0,
+        "text": "So let's go ahead and perform a brute force attack on the SSHET service using HITER."
+      },
+      {
+        "start": 1258.8,
+        "duration": 5.0,
+        "text": "So from the following command, we are using hyphen LFLAC to load the list of usenames and"
+      },
+      {
+        "start": 1263.8,
+        "duration": 3.2,
+        "text": "hyphen PFLAC to load the list of passwords."
+      },
+      {
+        "start": 1266.9,
+        "duration": 5.2,
+        "text": "And from the result, we got the login username and password for the user to log into the server"
+      },
+      {
+        "start": 1272.2,
+        "duration": 2.0,
+        "text": "using SSH."
+      },
+      {
+        "start": 1274.2,
+        "duration": 4.8,
+        "text": "So now let's try to log into the SSH server using this credentials."
+      },
+      {
+        "start": 1279.0,
+        "duration": 5.6,
+        "text": "Alright, so it will ask if you are sure about connecting."
+      },
+      {
+        "start": 1284.6,
+        "duration": 5.1,
+        "text": "So type S and then enter the password that for me to continue."
+      },
+      {
+        "start": 1289.7,
+        "duration": 3.7,
+        "text": "And as you can see, we have clearly logged into the SSH server."
+      },
+      {
+        "start": 1293.4,
+        "duration": 4.7,
+        "text": "Now let's list out the files and directories using the LS command."
+      },
+      {
+        "start": 1298.1,
+        "duration": 4.6,
+        "text": "So here we found the user.txt file and let's go ahead and view the content of this file"
+      },
+      {
+        "start": 1302.7,
+        "duration": 2.1,
+        "text": "using the cat command."
+      },
+      {
+        "start": 1304.8,
+        "duration": 3.5,
+        "text": "Okay, so the content inside seems to be encoded."
+      },
+      {
+        "start": 1308.2,
+        "duration": 11.0,
+        "text": "So in order to identify the type of encryption, we will use this cyber identifier by decode.fr."
+      },
+      {
+        "start": 1319.2,
+        "duration": 6.1,
+        "text": "Now we will copy the content of the user.txt file and paste it into this cyber to recognize"
+      },
+      {
+        "start": 1325.3,
+        "duration": 4.9,
+        "text": "box and press analyze."
+      },
+      {
+        "start": 1330.2,
+        "duration": 4.5,
+        "text": "Now this will tell you about the encryption method and when you click on the method name,"
+      },
+      {
+        "start": 1334.7,
+        "duration": 3.2,
+        "text": "you will be redirected to the interpreter."
+      },
+      {
+        "start": 1337.9,
+        "duration": 5.6,
+        "text": "Okay, so here we will simply paste the content of the user.txt again and it will decode it"
+      },
+      {
+        "start": 1343.6,
+        "duration": 2.4,
+        "text": "for us."
+      },
+      {
+        "start": 1346.0,
+        "duration": 4.2,
+        "text": "So as you can see the screen, the result says that I think you got the shelf but you"
+      },
+      {
+        "start": 1350.2,
+        "duration": 2.8,
+        "text": "won't be able to kill me says Kira."
+      },
+      {
+        "start": 1353.0,
+        "duration": 5.6,
+        "text": "Now if you go back to the user.txt file we downloaded on our device, we had an entry"
+      },
+      {
+        "start": 1358.7,
+        "duration": 1.8,
+        "text": "for the user Kira."
+      },
+      {
+        "start": 1360.4,
+        "duration": 4.1,
+        "text": "So this might be indicating that we have to access the content inside the user Kira to"
+      },
+      {
+        "start": 1364.5,
+        "duration": 1.2,
+        "text": "proceed forward."
+      },
+      {
+        "start": 1365.8,
+        "duration": 6.2,
+        "text": "All right, now let's run the ID command to check the current user's privileges."
+      },
+      {
+        "start": 1372.0,
+        "duration": 5.0,
+        "text": "So since user L doesn't have root privileges, we have to identify further information about"
+      },
+      {
+        "start": 1377.0,
+        "duration": 4.0,
+        "text": "the target machine which will help us in gaining the root access."
+      },
+      {
+        "start": 1381.0,
+        "duration": 4.6,
+        "text": "So to identify the rights and privileges of the current user, we will execute the pseudo"
+      },
+      {
+        "start": 1385.7,
+        "duration": 3.7,
+        "text": "hyphen L command."
+      },
+      {
+        "start": 1389.4,
+        "duration": 5.9,
+        "text": "So now the output says that sorry user L may not run pseudo on dead node."
+      },
+      {
+        "start": 1395.3,
+        "duration": 4.2,
+        "text": "So this indicates that there might be another user on this machine which might have root"
+      },
+      {
+        "start": 1399.5,
+        "duration": 2.4,
+        "text": "privileges to run pseudo commands."
+      },
+      {
+        "start": 1401.9,
+        "duration": 4.7,
+        "text": "So to list all the users and check for their privileges, we will go to the home directory"
+      },
+      {
+        "start": 1406.6,
+        "duration": 5.4,
+        "text": "and use LS, hyphen AL to list all the users."
+      },
+      {
+        "start": 1412.0,
+        "duration": 3.2,
+        "text": "So here we have two users Kira and L."
+      },
+      {
+        "start": 1415.2,
+        "duration": 5.1,
+        "text": "So there's a possibility that the user Kira might have root privileges, but we don't"
+      },
+      {
+        "start": 1420.3,
+        "duration": 2.2,
+        "text": "have access to the user Kira."
+      },
+      {
+        "start": 1422.5,
+        "duration": 2.8,
+        "text": "But we can definitely see the files inside it."
+      },
+      {
+        "start": 1425.2,
+        "duration": 9.2,
+        "text": "So we will change to the Kira directory and use LS hyphen AL to view hidden files."
+      },
+      {
+        "start": 1434.5,
+        "duration": 5.1,
+        "text": "All right, so here we can notice that the presence of a file named Kira.txt."
+      },
+      {
+        "start": 1439.6,
+        "duration": 5.5,
+        "text": "But when we attempt to open it with the cat command, we receive a permission error."
+      },
+      {
+        "start": 1445.1,
+        "duration": 3.2,
+        "text": "Indicating that we are not logged in as Kira."
+      },
+      {
+        "start": 1448.3,
+        "duration": 2.7,
+        "text": "Now there's a trick to switch to user Kira."
+      },
+      {
+        "start": 1451.0,
+        "duration": 4.2,
+        "text": "If there is a loophole while configuring the SSH server, so let's go ahead and check"
+      },
+      {
+        "start": 1455.2,
+        "duration": 7.4,
+        "text": "the configuration files present in the .ssh directory of the user Kira."
+      },
+      {
+        "start": 1462.6,
+        "duration": 3.6,
+        "text": "Now this directory contains an authorized keys file."
+      },
+      {
+        "start": 1466.2,
+        "duration": 4.3,
+        "text": "This means this file contains public keys for public key authentication."
+      },
+      {
+        "start": 1470.5,
+        "duration": 2.2,
+        "text": "So let's go ahead and view its content."
+      },
+      {
+        "start": 1472.8,
+        "duration": 3.6,
+        "text": "So let us type cat authorized underscore keys."
+      },
+      {
+        "start": 1476.4,
+        "duration": 4.3,
+        "text": "So in order to switch to the user Kira, we have to insert the same public keys in the"
+      },
+      {
+        "start": 1480.7,
+        "duration": 3.9,
+        "text": ".ssh configuration folder for the user L."
+      },
+      {
+        "start": 1484.6,
+        "duration": 4.6,
+        "text": "So let's go ahead and copy the content in a newly created file named authorized underscore"
+      },
+      {
+        "start": 1489.2,
+        "duration": 6.8,
+        "text": "keys in the user L.ssh folder."
+      },
+      {
+        "start": 1496.0,
+        "duration": 4.1,
+        "text": "Now let's paste the copied content here and save the file."
+      },
+      {
+        "start": 1500.1,
+        "duration": 1.0,
+        "text": "Next."
+      },
+      {
+        "start": 1501.4,
+        "duration": 4.3,
+        "text": "Let's apply executable permission to this newly created authorized keys file."
+      },
+      {
+        "start": 1505.7,
+        "duration": 1.8,
+        "text": "All right."
+      },
+      {
+        "start": 1507.5,
+        "duration": 8.4,
+        "text": "Now with the proper authorized keys in place, let's use SSH to switch to the Kira account."
+      },
+      {
+        "start": 1516.0,
+        "duration": 4.8,
+        "text": "And as you can see, we have successfully logged in as we use a Kira in our target machine."
+      },
+      {
+        "start": 1520.7,
+        "duration": 3.7,
+        "text": "Now let's read the content inside the Kira.txt file."
+      },
+      {
+        "start": 1524.4,
+        "duration": 5.5,
+        "text": "So for that, let us type catkira.txt."
+      },
+      {
+        "start": 1529.9,
+        "duration": 5.6,
+        "text": "So this file contains some binary text that looks like it's encoded using the base 64"
+      },
+      {
+        "start": 1535.6,
+        "duration": 1.0,
+        "text": "algorithm."
+      },
+      {
+        "start": 1536.6,
+        "duration": 7.9,
+        "text": "So now let's head to our browser and use the base 64 decoder on decode.fr to decode"
+      },
+      {
+        "start": 1544.4,
+        "duration": 8.3,
+        "text": "the content."
+      },
+      {
+        "start": 1552.7,
+        "duration": 5.5,
+        "text": "So copy the content inside the file and paste it into the box and press decode."
+      },
+      {
+        "start": 1558.2,
+        "duration": 3.4,
+        "text": "And the output says, least product one of the following."
+      },
+      {
+        "start": 1561.6,
+        "duration": 3.0,
+        "text": "The user L or Misa."
+      },
+      {
+        "start": 1564.6,
+        "duration": 4.8,
+        "text": "So let's go ahead and change the directory to OPT directory and list all the files and"
+      },
+      {
+        "start": 1569.4,
+        "duration": 1.0,
+        "text": "directories."
+      },
+      {
+        "start": 1570.4,
+        "duration": 4.1,
+        "text": "Here, we arrived at the L directory as we saw in the hint."
+      },
+      {
+        "start": 1574.6,
+        "duration": 4.6,
+        "text": "So let's list the content inside the L directory."
+      },
+      {
+        "start": 1579.2,
+        "duration": 2.8,
+        "text": "So here we have two more directories."
+      },
+      {
+        "start": 1581.9,
+        "duration": 2.9,
+        "text": "Fake notebook rule and Kira case."
+      },
+      {
+        "start": 1584.8,
+        "duration": 4.5,
+        "text": "So let's go ahead and view the content inside the fake notebook rule first."
+      },
+      {
+        "start": 1589.3,
+        "duration": 5.4,
+        "text": "Here we have two more files, which is case.wav and hint."
+      },
+      {
+        "start": 1594.7,
+        "duration": 6.1,
+        "text": "So here case.wav is a music file and hint as a .txt file."
+      },
+      {
+        "start": 1600.8,
+        "duration": 2.0,
+        "text": "So let's see the hint file first."
+      },
+      {
+        "start": 1602.8,
+        "duration": 3.4,
+        "text": "So let us type cat hint."
+      },
+      {
+        "start": 1606.2,
+        "duration": 2.7,
+        "text": "And it says use cyberchef."
+      },
+      {
+        "start": 1608.9,
+        "duration": 5.1,
+        "text": "This means there might be some encoded text hidden inside the case.wav file."
+      },
+      {
+        "start": 1614.0,
+        "duration": 2.4,
+        "text": "So let's check the file type using the file command."
+      },
+      {
+        "start": 1616.4,
+        "duration": 5.9,
+        "text": "So file case.wav and it says it's an ASCII text file."
+      },
+      {
+        "start": 1622.4,
+        "duration": 5.2,
+        "text": "So let's list the content inside the case.wav file using the cat command."
+      },
+      {
+        "start": 1627.5,
+        "duration": 7.1,
+        "text": "So type cat case.wav and the text file contains a series of hexadecimal digits which can"
+      },
+      {
+        "start": 1634.6,
+        "duration": 4.0,
+        "text": "be decoded using cyberchef."
+      },
+      {
+        "start": 1638.6,
+        "duration": 1.7,
+        "text": "So we have head to our browser."
+      },
+      {
+        "start": 1640.3,
+        "duration": 1.7,
+        "text": "Now let us open cyberchef."
+      },
+      {
+        "start": 1645.0,
+        "duration": 1.0,
+        "text": "Alright."
+      },
+      {
+        "start": 1646.0,
+        "duration": 6.6,
+        "text": "In cyberchef search for from hex and drag the hexadecimal input into the recipe area and"
+      },
+      {
+        "start": 1652.6,
+        "duration": 4.0,
+        "text": "paste the copied hexadecimal content into the input box."
+      },
+      {
+        "start": 1656.6,
+        "duration": 5.9,
+        "text": "So once done the output we got here looks like it's encrypted with the base64 algorithm."
+      },
+      {
+        "start": 1662.5,
+        "duration": 7.5,
+        "text": "empty the recipe box and search for from base64 and drop it to the recipe area."
+      },
+      {
+        "start": 1670.0,
+        "duration": 5.6,
+        "text": "And then paste the base64 output we got before it in the input box."
+      },
+      {
+        "start": 1675.6,
+        "duration": 5.0,
+        "text": "Alright we got the password to the user kera and here it is."
+      },
+      {
+        "start": 1680.6,
+        "duration": 4.8,
+        "text": "So with the password for kera now in hand let's verify keras pseudo privileges by running"
+      },
+      {
+        "start": 1685.4,
+        "duration": 3.4,
+        "text": "pseudo-hiphon-l and enter the password for kera."
+      },
+      {
+        "start": 1688.8,
+        "duration": 3.8,
+        "text": "And it says that user kera has all the permissions."
+      },
+      {
+        "start": 1692.6,
+        "duration": 4.3,
+        "text": "This means we have escalated the highest privileges on the target machine."
+      },
+      {
+        "start": 1696.9,
+        "duration": 7.3,
+        "text": "Now to obtain the flag that we are looking for simply change the directory to root directory."
+      },
+      {
+        "start": 1704.2,
+        "duration": 5.1,
+        "text": "And here it says permission denied but it can be easily fixed by switching into super"
+      },
+      {
+        "start": 1709.3,
+        "duration": 2.5,
+        "text": "user."
+      },
+      {
+        "start": 1711.8,
+        "duration": 6.2,
+        "text": "So we have typed pseudo-su now let's switch the directory."
+      },
+      {
+        "start": 1718.0,
+        "duration": 4.0,
+        "text": "So here we have a root.txt file."
+      },
+      {
+        "start": 1722.0,
+        "duration": 2.8,
+        "text": "So let's go ahead and view the content of this file."
+      },
+      {
+        "start": 1724.8,
+        "duration": 4.0,
+        "text": "So type cat root.txt and there you go."
+      },
+      {
+        "start": 1728.8,
+        "duration": 3.1,
+        "text": "We have successfully obtained a root flag."
+      },
+      {
+        "start": 1732.0,
+        "duration": 4.6,
+        "text": "So this step-by-step demonstration not really showcase the technical execution of a penetration"
+      },
+      {
+        "start": 1736.6,
+        "duration": 5.4,
+        "text": "test but also emphasizes the importance of detailed enumeration, creative exploration"
+      },
+      {
+        "start": 1742.0,
+        "duration": 2.5,
+        "text": "and methodical privilege escalation."
+      },
+      {
+        "start": 1744.6,
+        "duration": 5.2,
+        "text": "So each step builds on the previous one ultimately in revealing the vulnerabilities and demonstrating"
+      },
+      {
+        "start": 1749.8,
+        "duration": 4.9,
+        "text": "how an attacker could move from initial discovery to full system compromise."
+      },
+      {
+        "start": 1754.6,
+        "duration": 4.6,
+        "text": "And with this we have come to an end to this video on the step-by-step guide to penetration"
+      },
+      {
+        "start": 1759.2,
+        "duration": 1.0,
+        "text": "testing."
+      },
+      {
+        "start": 1760.2,
+        "duration": 4.1,
+        "text": "And if you enjoyed listening to this video please be kind enough to like it and you can"
+      },
+      {
+        "start": 1764.4,
+        "duration": 4.4,
+        "text": "comment on any of your doubts and queries we will reply to them earlier."
+      },
+      {
+        "start": 1768.8,
+        "duration": 4.5,
+        "text": "And do look up for more videos and playlist and subscribe to the Idurekars YouTube channel"
+      },
+      {
+        "start": 1773.3,
+        "duration": 1.1,
+        "text": "to learn more."
+      },
+      {
+        "start": 1774.4,
+        "duration": 2.0,
+        "text": "Thank you for watching and happy learning."
+      }
+    ],
+    "full_text": "Hello everyone and welcome to another exciting video on Cybersecurity by Idureka. Today, we are diving into the world of penetration testing. A critical practice that helps organization identify vulnerabilities before attackers do. So in this video, we will explore penetration testing and why it is an essential part of a robust cyber security strategy. We will walk you through the entire process from the initial stages of gathering information and scanning networks to the practical aspects of gaining access and maintaining it and finally, analyzing the results. So we will also discuss the different approaches to penetration testing including open box, closed box, covert, external and internal methods while highlighting the variety of tools that professionals use. This range from reconnaissance and vulnerability scanning to specialized proxies and exploitation frameworks and even post exploitation techniques for further analysis. And to make it all clear and actionable, we will conclude with a live demonstration using a vulnerable application, showing you how to exploit it and then compiling a comprehensive appendiced report. And before we begin, make sure to like, share and subscribe to Idureka's YouTube channel and hit the bell icon to see updated on the latest content from Idureka. Along with this, check out the certified ethical hacking course designed in partnership with EasyConsult to elevate your cyber security skills. This course offers a globally recognized CEH V13 AI certification and features 20 comprehensive models that cover over 500 attack techniques enhanced by AI GPT tools. You will gain hands-on experience through 221 practical labs and benefit from the round the clock support provided by certified professionals. And with access to exclusive e-courses where and an exam voucher from EasyConsult, this course is your gateway to mastering ethical hacking and securing a rewarding career in cyber defense. So check out the course link given in the description box below. Alright, now let us understand what is penetration testing. Well, a penetration testing or pen testing is an authorized simulated attack on a computer system designed to elevate its security. In a pen test, security experts employ the same tools, techniques and procedures as real world attackers do to identify vulnerabilities and demonstrate the potential business impact of these weaknesses. So this process helps organizations understand where the defenses may be lacking and where improvements are needed. Penetration testing not only reveals vulnerabilities but also offers several key benefits. So let us quickly go over some of these advantages. So first of the list, we have proactive vulnerability identification. It helps you to uncover potential weaknesses before malicious actors can exploit them. Next, risk mitigation, which reduces the likelihood and impact of cyber attacks, safeguarding sensitive data. And the next advantage is regulatory compliance. We have industry standards and legal requirements avoiding penalties. Next is the cost savings. Prevent financial losses by addressing issues early and avoiding breaches. And then, enhanced trust. Build and maintain trust with customers and stakeholders by demonstrating robust security practices. And the next advantage is continuous improvement. Gain insights that drive ongoing security enhancements and risk management. Now let's dive into the phases of penetration testing each one building on the previous to ensure a thorough security evaluation. And the first phase is planning and reconnaissance. So we start with planning and reconnaissance. In this initial phase, the pen tester defines the scope and goals of the test. Identifying which systems will be targeted and outlining the testing methods to be used. It also involves gathering crucial intelligence such as network details, domain names and mail server information to gain a clear understanding of how the target operates and where its vulnerability might lie. Now moving on to the next phase, which is scanning. Once the groundwork is late, the next phase is scanning. Here, the tested examines how the target application responds to various intrusions attempts. So this is a shift through both static and dynamic analysis. Static analysis involves inspecting the application's code to predict its behavior. While dynamic analysis absorbs the code in a running state, providing real-time insights into its performance and weaknesses. After scanning, the focus shifts to gaining access. So in this stage, testers employ various web application attacks such as cross-site scripting, SQL injection and the use of backdose to exploit discovered vulnerabilities. By escalating privileges, intercepting traffic or even stealing data, they demonstrate the potential impact these weaknesses could have on the system. So the process then moves to maintaining access. So the aim here is to see if vulnerability can be exploited to establish a persistent presence within the system, mimicking advanced persistent threats. So this phase is critical, as it shows how attacker might remain hidden for extended periods, getting deeper access to sensitive information. And finally, all the findings are brought together in the analysis phase. The tester compiles a detailed report that outlines the specific vulnerability exploited, the sensitive data access and the duration for which they were able to remain undetected. So this comprehensive analysis provides organization with actionable insights to strengthen their security posture. Here, each phase plays an essential role in ensuring that the penetration testing process is methodical and effective. This ultimately helps organizations secure these systems against potential attacks. Now let's explore the different methods of penetration testing, each offering a unique perspective and evaluating a system security posture. And the first method is open box penetration testing. In open box penetration testing, the tester is provided with some information about the target company's security setup. This prior knowledge allows the tester to focus on specific areas of concern and design targeted simulations that validate the effectiveness of existing security measures. On the other hand, close box penetration testing often referred to as a single blind test, limits the tester's information to only the target company's name. And this approach challenges the tester to uncover vulnerabilities without any insight to you, and closely replicating the conditions and external attacker would face. And the next method is covert penetration testing. In covert penetration testing, also known as a double blind test, the situation is taken a step further. Almost no one within the organization, including the IT and security teams, is aware that a test is underway. This method is particularly useful for simulating this tell the nature of real world attackers. However, it is essential that the tester has documented details of the scope and rules of engagement to ensure legal and ethical boundaries are maintained. Another distinct method is external penetration testing, where the ethical hacker focuses on the company's outward facing technology, such as its website and external network servers. In some cases, the tester may not be permitted to enter the company's premises, meaning the attacker is orchestrated remotely or even from a nearby location, mirroring the tactics of a determined outsider. And lastly, internal penetration testing involves conducting the assessment from within the company's own network. This method is invaluable for understanding the potential damage that could be inflected by an incited threat or an attack who has already bypassed external defenses. By simulating an internal breach, organizations can goch the effectiveness of their internal controls and respond strategies. So each method provides a distinct approach to identify vulnerabilities, ensuring that organizations receive a comprehensive evaluation of their security landscape. Now, there isn't a one tool for penetration testing. An intelligent targets demand specialized approaches for task-like port scanning, application scanning, Wi-Fi break-ins or directly breaching a network. Broadly speaking, the tools used in penetration testing fall into five main categories. The first category is reconnaissance tools, which are essentially for discovering network host and open ports. Tools like Enmap provides a detailed overview of a network's layout, while utilities like Angry IP scanner help quickly identify life host and active services. Next, vulnerability scanners comes into play. These tools are designed to probe network services with applications and APIs for potential security issues. Tools like Nessus and OpenWaz can for known vulnerabilities, offering insights into where defenses might be weak. Then there is a proxy tools, which serve as a specialized web-prox or generate man in the middle process. Tools such as Burpsuit is widely used to intercept and analyze traffic, allowing testers to manipulate requests and responses to uncover security flaws in web applications. Exploitation tools form the fourth category. These tools are used to leverage the vulnerabilities uncovered during earlier phases. Made as Floyd, for example, is a well-known exploitation framework that enabled testers to develop and execute exploits and effectively demonstrating how a breath might occur. And finally, post-exploitation tools a crucial once-axis has been gained. They allow testers to interact with compromised systems, maintain their food hold, and even expand access to further illustrate the potential damage. Tools like Kobalt Strike and PowerShell Empire exemplify this category, providing functionalities that simulate the persistent threats seen in real-world attacks. And each of these tool categories plays an integral role in the penetration testing process. It ensures that every step from initial recognizance to post-exploitation is thoroughly executed to evaluate and ultimately strengthen an organization's security posture. Now that we have covered the theory behind penetration testing, so it's time to see it in action. So in this final segment, we will dive into a live demonstration by exploiting a vulnerable application known as depth node. We will walk you through the exploitation process step-by-step, showing you exactly how vulnerabilities are identified and leveraged. So first, open your web browser and navigate to www.1herp.com. So once the page loads, locate the search box at the top of the site and type in depth node before pressing enter. So when the search result appears, click on the depth node one, enter to open its dedicated page. And on this page, you will find a download section that includes a mirror download option. So click on the mirror download option, which will immediately start downloading the file named depth node dot OVA and allow the download to complete. So now that you have downloaded the depth node one OVA file, so let's set it up in virtual box. Step 2 setting up depth node one in virtual mission. Open virtual box and let's click on import. In the file section dialog, navigate to and select the depth node one OVA file and import it. And once the import is complete, proceed to the virtual machine settings. Next switch to the network settings and change the network connection type to host only. Now confirm these changes by clicking OK. And finally, start the virtual machine to launch depth node one and begin your penetration testing demonstration. Now that you have set up the target machine, so let's configure your attacker machine, Kali Linux to begin the reconnaissance phase. Now moving on to step 3. Booting up our Kali Linux machine. So before booting up your Kali Linux virtual machine, open its settings and add a second network adapter. Now configure this new adapter to use a host only connection to ensure proper network isolation for testing. Once done, boot up your Kali Linux machine. This system has fully loaded, open a terminal window to ensure that your machine has the latest packages and security patches. Run the following command. With the update complete, your Kali Linux machine is now ready for reconnaissance and further testing. Now moving on to step 4. Exploring the vulnerable machine. So first, I need to find the target IP address. So for that, open a terminal and run the net discover command to find the target machine's IP address. Since we have added another host only adapter connection on our Kali machine, we are using the second network interface. It's 1 instead of it's 0. Run the scan results. Note that the target IP is 1.2.168.56.103. And next, we will perform a thorough network scan to detect open ports on our target machine. Now we are moving on to our next step, which is performing a network scan. So we will perform a thorough network scan to detect open ports on our target machine. So for this, we will be using in-map with the hyphen SS, hyphen SC, hyphen SV and hyphen P hyphen switches. So in the following command, hyphen SS for a TCP-SYN scan, which is fast and effective for scanning thousands of ports. And then we have hyphen SC to run a default script scan for additional context. And following that, we have hyphen SV for version detection, which helps identify the services running on each port. And finally, we have hyphen P hyphen to ensure that all ports are scanned. So this scan is critical to enumerate the available services and design targeted attacks. Now by analyzing the output, we notice two open ports. One is the port 22 SSH, which indicates an SSH service is running. If valid credentials are obtained, this could allow login access. The second port is port 80 HTTP, which indicates that a web server is running and may be hosting a vulnerable website. Now let's start with examining the web content on port 80. So for that, open a web browser and navigate to the target IP. Okay, so here we come across an error which says can't connect to the server at deadnote.1. This error can occur if the browser can't resolve the host name because either the URL was missed time or no host name was provided. So to resolve the host name issue, we can edit our local host file, which is located in the ETC directory. To do so, open a new tab on your terminal and open the host file within nano editor. Here we will add an entry associating the target IP with the expected host name. So for that, let us enter the IP 192.168.56.103. Following that, we will enter the host name which is deadnote.1. And then we will save the changes using control plus X and confirm with enter. Now we can verify the entry using the cat command to display the content in the host file. So type cat ETC host. Now reload the web page. With the host name properly mapped, the site should load without errors. So once a page loads, examine the URL and page structure. So the website appears to be built using WordPress, which is a common target for vulnerability. To gather more details about it, we can use WP scan to access the site for no issues. So open a new tab on your terminal and run WP scan with the hyphen hyphen URL flag followed by the URL. Alright, so the output shows that the WordPress version is secure, but pay attention to other details. The details such as the server is hosted on Apache and XML RPC is enabled, though not immediately useful. And the WordPress readme file is accessible and the uploads directory is open, which might have potential hints for further exploitation. So let's go ahead and access the uploads directory. Here, we have a directory named 2021. So let's go ahead and see the content inside. Now we have three more directories inside. So let's go ahead and check them one by one. So in this 07 directory, we have multiple .jpg files along with the notes.txt and uses .txt files. Likewise, we check for the 08 and 09 directories, but we couldn't locate any files within them. Next, we'll be performing directly bursting to uncover hidden directories or pages. So for this, we are using dir search. Although it is not primarily available on Kali Linux, it can be easily installed by simply typing dir search and typing y when prompted. So once it's installed, we will proceed with the directory enumeration by specifying the target URL using the hyphen u flag. As a result, we have got the WordPress admin page, but we cannot log into this as we don't have valid credentials. Now instead of performing directory enumeration on the WordPress directory, we will perform the same dir search scan on the dead node.world webpage as there might be some hidden or hardly accessible directories on it. So from the results, we can see that there is a robots.txt file present on the dead node.world webpage. Now, let's go ahead and open the robots.txt file by navigating to robots.txt file in our browser. So we will look for any hints or entries that might point to sensitive files. So in this case, we discover a reference to an image file named important.jpg that appears to be mistakenly added to the target application. So let's go ahead and open this image file on our browser. Okay, so it says that the image cannot be displayed because it contains errors. So since the image file does not open properly in the browser, we will download it using WGET. Alright. Now let's try to open this image file. So even after downloading the file, we are facing the same error as before. So let's use the file command to determine the type of the file. So let's type file important.jpg. So the result says that this file is in the form of an ASCII text. So we will rename the file extension from .jpg to .txt for easier inspection and open the file. Here, we get a hint that tells us about a logging username in the user.txt file. It then asks us to find the password ourselves. So previously we have seen this user.txt file when we were accessing the uploads directory. We also found a notes.txt file that looks like a word list. So if we try to perform a brute force attack, it can act as a password list. Again, we will use WGET to download both .txt files on our systems and perform a brute force attack. Now we have both the word list for username and passwords. So let's go ahead and perform a brute force attack on the SSHET service using HITER. So from the following command, we are using hyphen LFLAC to load the list of usenames and hyphen PFLAC to load the list of passwords. And from the result, we got the login username and password for the user to log into the server using SSH. So now let's try to log into the SSH server using this credentials. Alright, so it will ask if you are sure about connecting. So type S and then enter the password that for me to continue. And as you can see, we have clearly logged into the SSH server. Now let's list out the files and directories using the LS command. So here we found the user.txt file and let's go ahead and view the content of this file using the cat command. Okay, so the content inside seems to be encoded. So in order to identify the type of encryption, we will use this cyber identifier by decode.fr. Now we will copy the content of the user.txt file and paste it into this cyber to recognize box and press analyze. Now this will tell you about the encryption method and when you click on the method name, you will be redirected to the interpreter. Okay, so here we will simply paste the content of the user.txt again and it will decode it for us. So as you can see the screen, the result says that I think you got the shelf but you won't be able to kill me says Kira. Now if you go back to the user.txt file we downloaded on our device, we had an entry for the user Kira. So this might be indicating that we have to access the content inside the user Kira to proceed forward. All right, now let's run the ID command to check the current user's privileges. So since user L doesn't have root privileges, we have to identify further information about the target machine which will help us in gaining the root access. So to identify the rights and privileges of the current user, we will execute the pseudo hyphen L command. So now the output says that sorry user L may not run pseudo on dead node. So this indicates that there might be another user on this machine which might have root privileges to run pseudo commands. So to list all the users and check for their privileges, we will go to the home directory and use LS, hyphen AL to list all the users. So here we have two users Kira and L. So there's a possibility that the user Kira might have root privileges, but we don't have access to the user Kira. But we can definitely see the files inside it. So we will change to the Kira directory and use LS hyphen AL to view hidden files. All right, so here we can notice that the presence of a file named Kira.txt. But when we attempt to open it with the cat command, we receive a permission error. Indicating that we are not logged in as Kira. Now there's a trick to switch to user Kira. If there is a loophole while configuring the SSH server, so let's go ahead and check the configuration files present in the .ssh directory of the user Kira. Now this directory contains an authorized keys file. This means this file contains public keys for public key authentication. So let's go ahead and view its content. So let us type cat authorized underscore keys. So in order to switch to the user Kira, we have to insert the same public keys in the .ssh configuration folder for the user L. So let's go ahead and copy the content in a newly created file named authorized underscore keys in the user L.ssh folder. Now let's paste the copied content here and save the file. Next. Let's apply executable permission to this newly created authorized keys file. All right. Now with the proper authorized keys in place, let's use SSH to switch to the Kira account. And as you can see, we have successfully logged in as we use a Kira in our target machine. Now let's read the content inside the Kira.txt file. So for that, let us type catkira.txt. So this file contains some binary text that looks like it's encoded using the base 64 algorithm. So now let's head to our browser and use the base 64 decoder on decode.fr to decode the content. So copy the content inside the file and paste it into the box and press decode. And the output says, least product one of the following. The user L or Misa. So let's go ahead and change the directory to OPT directory and list all the files and directories. Here, we arrived at the L directory as we saw in the hint. So let's list the content inside the L directory. So here we have two more directories. Fake notebook rule and Kira case. So let's go ahead and view the content inside the fake notebook rule first. Here we have two more files, which is case.wav and hint. So here case.wav is a music file and hint as a .txt file. So let's see the hint file first. So let us type cat hint. And it says use cyberchef. This means there might be some encoded text hidden inside the case.wav file. So let's check the file type using the file command. So file case.wav and it says it's an ASCII text file. So let's list the content inside the case.wav file using the cat command. So type cat case.wav and the text file contains a series of hexadecimal digits which can be decoded using cyberchef. So we have head to our browser. Now let us open cyberchef. Alright. In cyberchef search for from hex and drag the hexadecimal input into the recipe area and paste the copied hexadecimal content into the input box. So once done the output we got here looks like it's encrypted with the base64 algorithm. empty the recipe box and search for from base64 and drop it to the recipe area. And then paste the base64 output we got before it in the input box. Alright we got the password to the user kera and here it is. So with the password for kera now in hand let's verify keras pseudo privileges by running pseudo-hiphon-l and enter the password for kera. And it says that user kera has all the permissions. This means we have escalated the highest privileges on the target machine. Now to obtain the flag that we are looking for simply change the directory to root directory. And here it says permission denied but it can be easily fixed by switching into super user. So we have typed pseudo-su now let's switch the directory. So here we have a root.txt file. So let's go ahead and view the content of this file. So type cat root.txt and there you go. We have successfully obtained a root flag. So this step-by-step demonstration not really showcase the technical execution of a penetration test but also emphasizes the importance of detailed enumeration, creative exploration and methodical privilege escalation. So each step builds on the previous one ultimately in revealing the vulnerabilities and demonstrating how an attacker could move from initial discovery to full system compromise. And with this we have come to an end to this video on the step-by-step guide to penetration testing. And if you enjoyed listening to this video please be kind enough to like it and you can comment on any of your doubts and queries we will reply to them earlier. And do look up for more videos and playlist and subscribe to the Idurekars YouTube channel to learn more. Thank you for watching and happy learning."
+  }
+}

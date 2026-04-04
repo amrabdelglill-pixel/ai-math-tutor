@@ -1,0 +1,1229 @@
+{
+  "video_id": "E55uSCO5D2w",
+  "video_title": "The Most Insane Weapon You Never Heard About",
+  "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+  "channel_title": "Kurzgesagt – In a Nutshell",
+  "published_at": "",
+  "duration_secs": 836.0,
+  "view_count": 13876641,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "SA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "UK",
+      "subject": "science",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 5.7,
+        "text": "In the 1950s, the US began the top secret project Sundial."
+      },
+      {
+        "start": 5.7,
+        "duration": 1.8,
+        "text": "Most of it is still classified."
+      },
+      {
+        "start": 7.5,
+        "duration": 6.1,
+        "text": "The goal, a single nuclear bomb so powerful, it would destroy all of human civilization."
+      },
+      {
+        "start": 13.6,
+        "duration": 4.1,
+        "text": "Conceived in cold logic from the mind of a genius scientist."
+      },
+      {
+        "start": 17.7,
+        "duration": 6.2,
+        "text": "Sundial had the energy equivalent of 10 billion tons of TNT, a pyramid of explosives 13 times"
+      },
+      {
+        "start": 23.9,
+        "duration": 2.5,
+        "text": "taller than the actual great pyramid."
+      },
+      {
+        "start": 26.4,
+        "duration": 4.0,
+        "text": "3,000 more than all the bombs dropped during World War II."
+      },
+      {
+        "start": 30.4,
+        "duration": 5.6,
+        "text": "If you dropped the bomb that destroyed Hiroshima every minute, it would take you over 15 months"
+      },
+      {
+        "start": 36.0,
+        "duration": 1.7,
+        "text": "to match Sundial."
+      },
+      {
+        "start": 37.7,
+        "duration": 5.1,
+        "text": "How was it even possible for us to achieve this insane level of madness?"
+      },
+      {
+        "start": 42.8,
+        "duration": 2.0,
+        "text": "Everything is different forever."
+      },
+      {
+        "start": 44.9,
+        "duration": 1.5,
+        "text": "Let's set the stage."
+      },
+      {
+        "start": 46.4,
+        "duration": 5.0,
+        "text": "If you were 40 in 1945, that means you were born in 1905."
+      },
+      {
+        "start": 51.4,
+        "duration": 2.8,
+        "text": "Back then, monarchs ruled over much of the world."
+      },
+      {
+        "start": 54.2,
+        "duration": 3.0,
+        "text": "Only 3% of homes in the US had electricity."
+      },
+      {
+        "start": 57.3,
+        "duration": 1.9,
+        "text": "Cities were dominated by horses."
+      },
+      {
+        "start": 59.2,
+        "duration": 3.3,
+        "text": "The first experimental planes had just flown."
+      },
+      {
+        "start": 62.5,
+        "duration": 3.8,
+        "text": "Less than 100,000 soldiers died in war each year."
+      },
+      {
+        "start": 66.3,
+        "duration": 5.0,
+        "text": "Imagine growing up in this world and seeing change almost too fast to keep up with."
+      },
+      {
+        "start": 71.4,
+        "duration": 6.8,
+        "text": "By 1945, 24 million soldiers and 50 million civilians had died in two world wars."
+      },
+      {
+        "start": 78.1,
+        "duration": 5.8,
+        "text": "And suddenly there were TVs, microwaves, jet planes, and nuclear bombs."
+      },
+      {
+        "start": 83.9,
+        "duration": 3.7,
+        "text": "They kind of broke the brains of the people alive back then."
+      },
+      {
+        "start": 87.6,
+        "duration": 4.6,
+        "text": "Overnight, nowhere from the edge of space to the bottom of the ocean was safe."
+      },
+      {
+        "start": 92.2,
+        "duration": 4.2,
+        "text": "It's hard for us today to understand the level of terror this instilled in people."
+      },
+      {
+        "start": 96.4,
+        "duration": 2.2,
+        "text": "The implications were wild."
+      },
+      {
+        "start": 98.6,
+        "duration": 4.9,
+        "text": "Without nuclear weapons, it seemed you'd stand no chance in future conflicts."
+      },
+      {
+        "start": 103.5,
+        "duration": 4.0,
+        "text": "Nations without that power would get trampled by those that did have it no matter how big"
+      },
+      {
+        "start": 107.5,
+        "duration": 1.7,
+        "text": "their armies were."
+      },
+      {
+        "start": 109.2,
+        "duration": 3.2,
+        "text": "There was one brief moment where it could all have been stopped."
+      },
+      {
+        "start": 112.4,
+        "duration": 5.2,
+        "text": "In 1946, the US proposed the Baruch plan and promised to get rid of their atom bombs,"
+      },
+      {
+        "start": 117.6,
+        "duration": 4.3,
+        "text": "share nuclear technology with the world, and set up an international authority to make"
+      },
+      {
+        "start": 121.9,
+        "duration": 3.2,
+        "text": "sure no one ever built such weapons again."
+      },
+      {
+        "start": 125.1,
+        "duration": 4.8,
+        "text": "But the military advantage of nuclear bombs was too great to let go."
+      },
+      {
+        "start": 129.9,
+        "duration": 4.7,
+        "text": "Just three years later, the Soviet Union detonated their first atom bomb."
+      },
+      {
+        "start": 134.6,
+        "duration": 2.5,
+        "text": "This caught everyone by complete surprise."
+      },
+      {
+        "start": 137.1,
+        "duration": 4.8,
+        "text": "The Soviets were not decades behind American technology that had just pulled even."
+      },
+      {
+        "start": 141.9,
+        "duration": 4.9,
+        "text": "Shock turned into fear, and fear makes people do crazy things."
+      },
+      {
+        "start": 146.8,
+        "duration": 5.3,
+        "text": "The whole concept of what war was and how it would be won was overturned in a hot second."
+      },
+      {
+        "start": 152.1,
+        "duration": 4.0,
+        "text": "In a world where your enemy could fly over your soldiers and vaporize your cities, the"
+      },
+      {
+        "start": 156.1,
+        "duration": 4.7,
+        "text": "only answer seemed to be a nuclear arsenal that could strike faster and harder."
+      },
+      {
+        "start": 160.8,
+        "duration": 2.4,
+        "text": "The nuclear arms race began."
+      },
+      {
+        "start": 163.2,
+        "duration": 3.8,
+        "text": "In 1946, there were just nine nuclear bombs in the world."
+      },
+      {
+        "start": 167.0,
+        "duration": 2.8,
+        "text": "In 1950, the number was 300."
+      },
+      {
+        "start": 169.8,
+        "duration": 3.4,
+        "text": "In 1960, it would be 20,000."
+      },
+      {
+        "start": 173.3,
+        "duration": 2.9,
+        "text": "In a way, the nuclear arms race was pretty daft."
+      },
+      {
+        "start": 176.2,
+        "duration": 4.3,
+        "text": "One superpower would develop a powerful new bomb and detonate it, and then the other"
+      },
+      {
+        "start": 180.5,
+        "duration": 4.7,
+        "text": "side would build something more powerful and blow it up, and this would continue endlessly."
+      },
+      {
+        "start": 185.2,
+        "duration": 4.7,
+        "text": "A dirty and wasteful game of creating more and more horror that seemed totally reasonable"
+      },
+      {
+        "start": 189.9,
+        "duration": 1.6,
+        "text": "at the time."
+      },
+      {
+        "start": 191.4,
+        "duration": 4.0,
+        "text": "Superpowers spent trillions to have thousands of the most intelligent people show off how"
+      },
+      {
+        "start": 195.5,
+        "duration": 2.2,
+        "text": "hard they could destroy humanity."
+      },
+      {
+        "start": 197.7,
+        "duration": 6.4,
+        "text": "Fear had to be met with much greater horrors, and one man knew how to make nightmares real."
+      },
+      {
+        "start": 204.1,
+        "duration": 3.8,
+        "text": "But what if we destroy humanity even harder?"
+      },
+      {
+        "start": 207.9,
+        "duration": 3.6,
+        "text": "Edward Teller was a brilliant Hungarian theoretical physicist."
+      },
+      {
+        "start": 211.5,
+        "duration": 3.8,
+        "text": "He was among the first people to realize that the fishing chain reaction in uranium could"
+      },
+      {
+        "start": 215.2,
+        "duration": 2.9,
+        "text": "make a bomb, and he helped to build it."
+      },
+      {
+        "start": 218.2,
+        "duration": 2.5,
+        "text": "But for Teller, the bombs were not powerful enough."
+      },
+      {
+        "start": 220.6,
+        "duration": 5.2,
+        "text": "He was ready to pay any price for security, and to be more secure, to be less afraid,"
+      },
+      {
+        "start": 225.8,
+        "duration": 2.9,
+        "text": "he urged that larger bombs were the answer."
+      },
+      {
+        "start": 228.7,
+        "duration": 4.4,
+        "text": "Even in the 1950s, this was a pretty hot take, and many scientists were appalled by his"
+      },
+      {
+        "start": 233.2,
+        "duration": 1.0,
+        "text": "ideas."
+      },
+      {
+        "start": 234.2,
+        "duration": 5.2,
+        "text": "He didn't care one bit, and incessantly lobbied scared politicians to greenlight more devastating"
+      },
+      {
+        "start": 239.4,
+        "duration": 1.6,
+        "text": "nuclear weapons."
+      },
+      {
+        "start": 241.0,
+        "duration": 3.2,
+        "text": "And lucky for him, his timing was just right."
+      },
+      {
+        "start": 244.2,
+        "duration": 4.4,
+        "text": "Terrified by the rapid nuclear progress of the Soviet Union, he got a blank check from"
+      },
+      {
+        "start": 248.6,
+        "duration": 3.4,
+        "text": "the military to bring his most destructive fantasy to life."
+      },
+      {
+        "start": 252.0,
+        "duration": 4.3,
+        "text": "It took him only a few years to make them a reality, the hydrogen bomb."
+      },
+      {
+        "start": 256.3,
+        "duration": 5.4,
+        "text": "A hydrogen bomb is so powerful that it needs a regular atom bomb just to trigger it."
+      },
+      {
+        "start": 261.7,
+        "duration": 5.4,
+        "text": "It's basically a nuke, the first stage, next to a capsule of fusion fuel, the second stage,"
+      },
+      {
+        "start": 267.1,
+        "duration": 2.8,
+        "text": "in case by dense materials like lead."
+      },
+      {
+        "start": 270.0,
+        "duration": 4.9,
+        "text": "When the atom bomb is detonated, it releases ungodly amounts of X-rays that get channeled"
+      },
+      {
+        "start": 274.8,
+        "duration": 1.5,
+        "text": "onto the capsule."
+      },
+      {
+        "start": 276.4,
+        "duration": 5.5,
+        "text": "The capsule surface explodes, pushing inwards, and compressing the fusion fuel so violently"
+      },
+      {
+        "start": 281.8,
+        "duration": 3.3,
+        "text": "that for a brief moment, it simulates a star."
+      },
+      {
+        "start": 285.1,
+        "duration": 5.0,
+        "text": "When this bomb was first tested in 1952, it instantly erased a specific island from the"
+      },
+      {
+        "start": 290.2,
+        "duration": 1.0,
+        "text": "map."
+      },
+      {
+        "start": 291.2,
+        "duration": 4.2,
+        "text": "Two years later, he tested an even bigger nuke, one thousand times more powerful than"
+      },
+      {
+        "start": 295.3,
+        "duration": 1.5,
+        "text": "the Hiroshima bomb."
+      },
+      {
+        "start": 296.8,
+        "duration": 2.3,
+        "text": "The world recalled in horror."
+      },
+      {
+        "start": 299.1,
+        "duration": 5.1,
+        "text": "His weapons this powerful war stopped being about winning, and total human annihilation"
+      },
+      {
+        "start": 304.2,
+        "duration": 2.4,
+        "text": "became very real."
+      },
+      {
+        "start": 306.6,
+        "duration": 4.8,
+        "text": "Teller celebrated, in just two years, he had enabled the creation of American warheads"
+      },
+      {
+        "start": 311.5,
+        "duration": 2.2,
+        "text": "a hundred times more powerful."
+      },
+      {
+        "start": 313.7,
+        "duration": 5.3,
+        "text": "He had stowed on the nuclear fire from the gods and awoken cosmic horrors, but he insisted"
+      },
+      {
+        "start": 319.0,
+        "duration": 2.4,
+        "text": "that it was still not enough."
+      },
+      {
+        "start": 321.4,
+        "duration": 6.0,
+        "text": "His dream was to have a bomb of almost unlimited power, and once again, his timing was pretty"
+      },
+      {
+        "start": 327.4,
+        "duration": 1.3,
+        "text": "great."
+      },
+      {
+        "start": 328.7,
+        "duration": 5.6,
+        "text": "When the Soviet Union detonated its own hydrogen bomb, it sparked a new wave of fear."
+      },
+      {
+        "start": 334.2,
+        "duration": 3.3,
+        "text": "This is where we get the top secret project sundial."
+      },
+      {
+        "start": 337.5,
+        "duration": 3.1,
+        "text": "The bomb to make all other bombs irrelevant."
+      },
+      {
+        "start": 340.6,
+        "duration": 1.6,
+        "text": "The final bomb."
+      },
+      {
+        "start": 342.2,
+        "duration": 2.0,
+        "text": "Teller skipped right to the end."
+      },
+      {
+        "start": 344.2,
+        "duration": 2.2,
+        "text": "The end of the nuclear arms race."
+      },
+      {
+        "start": 346.4,
+        "duration": 5.6,
+        "text": "He wanted to build a world destroyer, something so breathtakingly destructive, so incredibly"
+      },
+      {
+        "start": 352.0,
+        "duration": 4.1,
+        "text": "scary that it made no sense to continue playing."
+      },
+      {
+        "start": 356.1,
+        "duration": 5.1,
+        "text": "Most everything about it is still classified, but what we do know about it is terrifying."
+      },
+      {
+        "start": 361.2,
+        "duration": 3.5,
+        "text": "Work on it actually began, and tests were planned."
+      },
+      {
+        "start": 364.7,
+        "duration": 4.1,
+        "text": "Sundial would be some warhead loaded up onto a bomber and dropped to a target."
+      },
+      {
+        "start": 368.8,
+        "duration": 2.6,
+        "text": "No, it would be a backyard bomb."
+      },
+      {
+        "start": 371.4,
+        "duration": 4.1,
+        "text": "After all, if a bomb can destroy the world, why bother moving it at all?"
+      },
+      {
+        "start": 375.5,
+        "duration": 4.8,
+        "text": "No need to bring it close to your enemies, you could as well just put it in your backyard."
+      },
+      {
+        "start": 380.3,
+        "duration": 3.1,
+        "text": "Maybe it would have actually been put in the center of the country, maybe it would have"
+      },
+      {
+        "start": 383.4,
+        "duration": 2.8,
+        "text": "been put on a remote island or stored on a ship."
+      },
+      {
+        "start": 386.2,
+        "duration": 2.3,
+        "text": "We don't know what the actual plans were."
+      },
+      {
+        "start": 388.4,
+        "duration": 4.2,
+        "text": "But this underlines how insane this weapon was, and that Teller knew exactly what he was"
+      },
+      {
+        "start": 392.6,
+        "duration": 1.1,
+        "text": "proposing."
+      },
+      {
+        "start": 393.7,
+        "duration": 3.3,
+        "text": "In his mind, the rationale was the ultimate deterrence."
+      },
+      {
+        "start": 397.0,
+        "duration": 4.1,
+        "text": "If you attack us or our allies, we will destroy the world."
+      },
+      {
+        "start": 401.1,
+        "duration": 3.4,
+        "text": "On a technical level, his concept was not even that complicated."
+      },
+      {
+        "start": 404.6,
+        "duration": 3.2,
+        "text": "It was probably some kind of nuclear matrioshka doll."
+      },
+      {
+        "start": 407.8,
+        "duration": 4.6,
+        "text": "The truly breathtaking thing is the idea itself, and that he actually attempted to make it"
+      },
+      {
+        "start": 412.4,
+        "duration": 1.0,
+        "text": "real."
+      },
+      {
+        "start": 413.4,
+        "duration": 5.6,
+        "text": "From what we know, Sundial would have weighed at least 2,000 tons as massive as a 250-meter-long"
+      },
+      {
+        "start": 419.0,
+        "duration": 1.5,
+        "text": "cargo train."
+      },
+      {
+        "start": 420.5,
+        "duration": 4.0,
+        "text": "It would explode with the power of at least 10 billion tons of TNT."
+      },
+      {
+        "start": 424.5,
+        "duration": 2.8,
+        "text": "A number so big, it doesn't mean anything anymore."
+      },
+      {
+        "start": 427.3,
+        "duration": 4.4,
+        "text": "So let's make this a bit more graphic and explode it in Nevada."
+      },
+      {
+        "start": 431.7,
+        "duration": 4.4,
+        "text": "One wild thing about it is that humanity never tested anything remotely like it, so this"
+      },
+      {
+        "start": 436.1,
+        "duration": 3.7,
+        "text": "is the best speculation we developed together with experts."
+      },
+      {
+        "start": 439.8,
+        "duration": 5.3,
+        "text": "For a brief moment, a fireball of pure energy appears, up to 50 kilometers in diameter,"
+      },
+      {
+        "start": 445.1,
+        "duration": 2.1,
+        "text": "larger than the visible horizon."
+      },
+      {
+        "start": 447.2,
+        "duration": 3.4,
+        "text": "It radiates blistering heat at the speed of light."
+      },
+      {
+        "start": 450.6,
+        "duration": 6.2,
+        "text": "Everything within 400 kilometers is instantly set on fire, every tree, house, person."
+      },
+      {
+        "start": 456.8,
+        "duration": 5.0,
+        "text": "The energy would reach much further, but the explosion is so big that the earth's horizon"
+      },
+      {
+        "start": 461.8,
+        "duration": 1.8,
+        "text": "curves away from it."
+      },
+      {
+        "start": 463.6,
+        "duration": 5.4,
+        "text": "The surrounding deserts turn into a field of glass, then comes the glassed wave."
+      },
+      {
+        "start": 468.9,
+        "duration": 4.9,
+        "text": "The atmosphere above the explosion is violently shot into space, a magnitude 9 earthquake"
+      },
+      {
+        "start": 473.8,
+        "duration": 5.3,
+        "text": "shakes the United States, while the sound of the blast reverberates around the world."
+      },
+      {
+        "start": 479.1,
+        "duration": 4.8,
+        "text": "North American forests burn, adding their soup to the bomb's radioactive fallout to create"
+      },
+      {
+        "start": 484.0,
+        "duration": 4.2,
+        "text": "toxic death clouds that shroud the world like a dark curtain."
+      },
+      {
+        "start": 488.2,
+        "duration": 5.0,
+        "text": "Sundial is like a nuclear war happening all at once, but it's more like a giant volcano"
+      },
+      {
+        "start": 493.1,
+        "duration": 3.7,
+        "text": "erupting or an asteroid striking the nuclear war."
+      },
+      {
+        "start": 496.8,
+        "duration": 4.2,
+        "text": "Sundial would bring about an apocalyptic nuclear winter where global temperatures suddenly"
+      },
+      {
+        "start": 501.1,
+        "duration": 2.1,
+        "text": "drop by 10 degrees Celsius."
+      },
+      {
+        "start": 503.2,
+        "duration": 4.3,
+        "text": "Most water sources would be contaminated and crops would fail everywhere."
+      },
+      {
+        "start": 507.5,
+        "duration": 2.1,
+        "text": "Most people in the world would die."
+      },
+      {
+        "start": 509.6,
+        "duration": 3.9,
+        "text": "So, hmm, congratulations, you won."
+      },
+      {
+        "start": 513.4,
+        "duration": 1.0,
+        "text": "Good news."
+      },
+      {
+        "start": 514.4,
+        "duration": 1.0,
+        "text": "Wait, no."
+      },
+      {
+        "start": 515.4,
+        "duration": 1.9,
+        "text": "Bad news."
+      },
+      {
+        "start": 517.4,
+        "duration": 3.2,
+        "text": "The good news is that Sundial was never built."
+      },
+      {
+        "start": 520.5,
+        "duration": 4.0,
+        "text": "Most details are still top secret, but we know that scientists reacted with horror and"
+      },
+      {
+        "start": 524.6,
+        "duration": 4.4,
+        "text": "politicians who were secretly informed responded with disbelief."
+      },
+      {
+        "start": 529.0,
+        "duration": 3.0,
+        "text": "Even the US military thought this was a bit much."
+      },
+      {
+        "start": 532.0,
+        "duration": 4.9,
+        "text": "In the insane world of nuclear arms, this madness was too much, building it considered"
+      },
+      {
+        "start": 536.9,
+        "duration": 2.1,
+        "text": "a crime against humanity."
+      },
+      {
+        "start": 539.0,
+        "duration": 1.8,
+        "text": "And it had other problems too."
+      },
+      {
+        "start": 540.7,
+        "duration": 3.4,
+        "text": "A single apocalypse weapon leaves you no wiggle room."
+      },
+      {
+        "start": 544.1,
+        "duration": 4.0,
+        "text": "Would you press the button if enemy soldiers crossed a distant country's borders or attacked"
+      },
+      {
+        "start": 548.1,
+        "duration": 2.1,
+        "text": "one of your distant bases?"
+      },
+      {
+        "start": 550.2,
+        "duration": 3.6,
+        "text": "Would you end the world if your rival overthrew a friendly government?"
+      },
+      {
+        "start": 553.8,
+        "duration": 3.4,
+        "text": "Can you protect an ally with a bomb that would kill them too?"
+      },
+      {
+        "start": 557.2,
+        "duration": 5.0,
+        "text": "The elephant in the room is that while Sundial is clearly insane, humanity still kind of"
+      },
+      {
+        "start": 562.3,
+        "duration": 1.2,
+        "text": "did build it."
+      },
+      {
+        "start": 563.4,
+        "duration": 4.4,
+        "text": "At the peak of the Cold War, humanity had over 70,000 nukes."
+      },
+      {
+        "start": 567.8,
+        "duration": 6.3,
+        "text": "Even today, we still have about 12,000 nuclear weapons enough to destroy human civilization."
+      },
+      {
+        "start": 574.2,
+        "duration": 4.7,
+        "text": "Instead of a single world burner, the superpowers built tens of thousands of nuclear weapons of"
+      },
+      {
+        "start": 578.9,
+        "duration": 1.9,
+        "text": "all types and sizes."
+      },
+      {
+        "start": 580.8,
+        "duration": 3.8,
+        "text": "It's not new, submarines or waiting in bunkers and silos."
+      },
+      {
+        "start": 584.6,
+        "duration": 3.3,
+        "text": "And this sounds so much more reasonable, doesn't it?"
+      },
+      {
+        "start": 587.9,
+        "duration": 3.0,
+        "text": "But this also makes them a much more credible threat."
+      },
+      {
+        "start": 590.9,
+        "duration": 3.6,
+        "text": "Because if people feel they can risk setting off a smaller nuke, they might actually get"
+      },
+      {
+        "start": 594.6,
+        "duration": 1.1,
+        "text": "launched."
+      },
+      {
+        "start": 595.6,
+        "duration": 3.4,
+        "text": "And we don't know what kind of chain reaction this might trigger."
+      },
+      {
+        "start": 599.0,
+        "duration": 5.8,
+        "text": "So in reality, the difference between Sundial and what we have today is not even that big."
+      },
+      {
+        "start": 604.8,
+        "duration": 4.6,
+        "text": "Humanity didn't build a Doomsday bomb, but a Doomsday machine."
+      },
+      {
+        "start": 609.4,
+        "duration": 3.7,
+        "text": "Today, the world may be on the verge of another nuclear arms race."
+      },
+      {
+        "start": 613.2,
+        "duration": 5.8,
+        "text": "The US is on track to spend $3,000 on nuclear modernization programs, while China is expanding"
+      },
+      {
+        "start": 619.0,
+        "duration": 5.9,
+        "text": "its arsenal and might have more than 1,000 nuclear weapons ready to be deployed by 2030."
+      },
+      {
+        "start": 624.9,
+        "duration": 4.8,
+        "text": "So far, we've escaped the existential threat these weapons pose, but if an alien visited"
+      },
+      {
+        "start": 629.6,
+        "duration": 4.0,
+        "text": "Earth, it might ask us if we're okay and need a hug."
+      },
+      {
+        "start": 633.6,
+        "duration": 5.0,
+        "text": "We should ask ourselves as a species if we really want to be ready to destroy ourselves"
+      },
+      {
+        "start": 638.6,
+        "duration": 2.0,
+        "text": "at a moment's notice."
+      },
+      {
+        "start": 640.6,
+        "duration": 1.0,
+        "text": "BOOM!"
+      },
+      {
+        "start": 641.6,
+        "duration": 2.3,
+        "text": "That was a lot."
+      },
+      {
+        "start": 643.9,
+        "duration": 3.1,
+        "text": "Science is never inherently good or bad."
+      },
+      {
+        "start": 647.0,
+        "duration": 5.0,
+        "text": "It's up to us to use our sense of curiosity and exploration for something positive."
+      },
+      {
+        "start": 652.0,
+        "duration": 4.4,
+        "text": "If you want to impart this spirit onto the kids in your life from early on, our sponsor"
+      },
+      {
+        "start": 656.4,
+        "duration": 2.8,
+        "text": "KiwiCo is a great start."
+      },
+      {
+        "start": 659.2,
+        "duration": 3.8,
+        "text": "This is one of their science project crates that delivers you all the ingredients for"
+      },
+      {
+        "start": 663.0,
+        "duration": 2.4,
+        "text": "a science adventure right to your doorstep."
+      },
+      {
+        "start": 665.4,
+        "duration": 1.8,
+        "text": "Let's explore."
+      },
+      {
+        "start": 667.2,
+        "duration": 6.7,
+        "text": "There's a wooden board and pieces, a motor and wires, some marbles and googly eyes."
+      },
+      {
+        "start": 673.9,
+        "duration": 5.2,
+        "text": "It's the maze arcade kit that teaches kids about the intersection of mechanics and physics"
+      },
+      {
+        "start": 679.0,
+        "duration": 2.3,
+        "text": "in a playful and intuitive way."
+      },
+      {
+        "start": 681.4,
+        "duration": 4.6,
+        "text": "This crates is part of the new KiwiCo Labs Learning Club, a program that takes you along"
+      },
+      {
+        "start": 685.9,
+        "duration": 3.5,
+        "text": "on a learning journey for young scientists to be."
+      },
+      {
+        "start": 689.4,
+        "duration": 4.1,
+        "text": "Consective hands-on projects help develop and strengthen problem-solving skills on things"
+      },
+      {
+        "start": 693.5,
+        "duration": 3.6,
+        "text": "like science, engineering and robots over time."
+      },
+      {
+        "start": 697.1,
+        "duration": 5.1,
+        "text": "There are also different programs available on topics like world geography or art and design,"
+      },
+      {
+        "start": 702.2,
+        "duration": 5.1,
+        "text": "or with their own high-quality crates and exclusive online content to unlock."
+      },
+      {
+        "start": 707.3,
+        "duration": 4.3,
+        "text": "This holiday season, a KiwiCo subscription could be the gift that literally keeps on giving"
+      },
+      {
+        "start": 711.6,
+        "duration": 4.7,
+        "text": "to your kids or any niece, nephew, got-chard or other little one in your life, with a new"
+      },
+      {
+        "start": 716.3,
+        "duration": 2.7,
+        "text": "box of wonders arriving every month."
+      },
+      {
+        "start": 719.0,
+        "duration": 4.6,
+        "text": "We like KiwiCo because with their new Learning Club program, they're fostering a mindset"
+      },
+      {
+        "start": 723.7,
+        "duration": 5.4,
+        "text": "of making learning something that's an ongoing exploration, just like we want to."
+      },
+      {
+        "start": 729.0,
+        "duration": 4.6,
+        "text": "If you want to try out the new KiwiCo clubs, click on the link in the description or use"
+      },
+      {
+        "start": 733.7,
+        "duration": 5.6,
+        "text": "the code CutsCuzert to get 50% off your first crate of a monthly club with KiwiCo."
+      },
+      {
+        "start": 739.3,
+        "duration": 7.1,
+        "text": "It's time to reveal our darkest secret."
+      },
+      {
+        "start": 746.4,
+        "duration": 6.8,
+        "text": "This may come as a surprise to you, but CutsCuzert is not actually run by burbs, but by humans."
+      },
+      {
+        "start": 753.6,
+        "duration": 3.3,
+        "text": "Now you might wonder, how's this possible?"
+      },
+      {
+        "start": 757.0,
+        "duration": 5.0,
+        "text": "So many people spend the hundreds of hours on research, writing and animating the CutsCuzert"
+      },
+      {
+        "start": 762.0,
+        "duration": 3.1,
+        "text": "videos that are then released for free."
+      },
+      {
+        "start": 765.0,
+        "duration": 4.8,
+        "text": "Well, the answer is simple, it's possible because of our shop."
+      },
+      {
+        "start": 769.8,
+        "duration": 5.5,
+        "text": "Our products are a piece of CutsCuzert that you can touch, read and have around you."
+      },
+      {
+        "start": 775.4,
+        "duration": 4.4,
+        "text": "Just like our videos, they're a vital part of our dream to inspire people all around"
+      },
+      {
+        "start": 779.7,
+        "duration": 1.0,
+        "text": "the world."
+      },
+      {
+        "start": 780.9,
+        "duration": 5.3,
+        "text": "Our carefully researched to infographic posters are now part of so many people's homes teaching"
+      },
+      {
+        "start": 786.2,
+        "duration": 3.8,
+        "text": "them about evolution, black holes and the night sky."
+      },
+      {
+        "start": 790.0,
+        "duration": 5.3,
+        "text": "While our gratitude journal helps improve lives every day, a special thanks goes out to"
+      },
+      {
+        "start": 795.3,
+        "duration": 3.9,
+        "text": "everyone who appreciates our, where the product ideas."
+      },
+      {
+        "start": 799.2,
+        "duration": 4.6,
+        "text": "Every CutsCuzert product you buy directly funds another moment we get to spend working"
+      },
+      {
+        "start": 803.7,
+        "duration": 5.6,
+        "text": "on our videos, and you get a special piece of CutsCuzert in return."
+      },
+      {
+        "start": 809.3,
+        "duration": 5.2,
+        "text": "Thank you so much for being a part of our story and for making this channel possible."
+      },
+      {
+        "start": 814.5,
+        "duration": 3.8,
+        "text": "The burp humans of CutsCuzert are eternally grateful."
+      }
+    ],
+    "full_text": "In the 1950s, the US began the top secret project Sundial. Most of it is still classified. The goal, a single nuclear bomb so powerful, it would destroy all of human civilization. Conceived in cold logic from the mind of a genius scientist. Sundial had the energy equivalent of 10 billion tons of TNT, a pyramid of explosives 13 times taller than the actual great pyramid. 3,000 more than all the bombs dropped during World War II. If you dropped the bomb that destroyed Hiroshima every minute, it would take you over 15 months to match Sundial. How was it even possible for us to achieve this insane level of madness? Everything is different forever. Let's set the stage. If you were 40 in 1945, that means you were born in 1905. Back then, monarchs ruled over much of the world. Only 3% of homes in the US had electricity. Cities were dominated by horses. The first experimental planes had just flown. Less than 100,000 soldiers died in war each year. Imagine growing up in this world and seeing change almost too fast to keep up with. By 1945, 24 million soldiers and 50 million civilians had died in two world wars. And suddenly there were TVs, microwaves, jet planes, and nuclear bombs. They kind of broke the brains of the people alive back then. Overnight, nowhere from the edge of space to the bottom of the ocean was safe. It's hard for us today to understand the level of terror this instilled in people. The implications were wild. Without nuclear weapons, it seemed you'd stand no chance in future conflicts. Nations without that power would get trampled by those that did have it no matter how big their armies were. There was one brief moment where it could all have been stopped. In 1946, the US proposed the Baruch plan and promised to get rid of their atom bombs, share nuclear technology with the world, and set up an international authority to make sure no one ever built such weapons again. But the military advantage of nuclear bombs was too great to let go. Just three years later, the Soviet Union detonated their first atom bomb. This caught everyone by complete surprise. The Soviets were not decades behind American technology that had just pulled even. Shock turned into fear, and fear makes people do crazy things. The whole concept of what war was and how it would be won was overturned in a hot second. In a world where your enemy could fly over your soldiers and vaporize your cities, the only answer seemed to be a nuclear arsenal that could strike faster and harder. The nuclear arms race began. In 1946, there were just nine nuclear bombs in the world. In 1950, the number was 300. In 1960, it would be 20,000. In a way, the nuclear arms race was pretty daft. One superpower would develop a powerful new bomb and detonate it, and then the other side would build something more powerful and blow it up, and this would continue endlessly. A dirty and wasteful game of creating more and more horror that seemed totally reasonable at the time. Superpowers spent trillions to have thousands of the most intelligent people show off how hard they could destroy humanity. Fear had to be met with much greater horrors, and one man knew how to make nightmares real. But what if we destroy humanity even harder? Edward Teller was a brilliant Hungarian theoretical physicist. He was among the first people to realize that the fishing chain reaction in uranium could make a bomb, and he helped to build it. But for Teller, the bombs were not powerful enough. He was ready to pay any price for security, and to be more secure, to be less afraid, he urged that larger bombs were the answer. Even in the 1950s, this was a pretty hot take, and many scientists were appalled by his ideas. He didn't care one bit, and incessantly lobbied scared politicians to greenlight more devastating nuclear weapons. And lucky for him, his timing was just right. Terrified by the rapid nuclear progress of the Soviet Union, he got a blank check from the military to bring his most destructive fantasy to life. It took him only a few years to make them a reality, the hydrogen bomb. A hydrogen bomb is so powerful that it needs a regular atom bomb just to trigger it. It's basically a nuke, the first stage, next to a capsule of fusion fuel, the second stage, in case by dense materials like lead. When the atom bomb is detonated, it releases ungodly amounts of X-rays that get channeled onto the capsule. The capsule surface explodes, pushing inwards, and compressing the fusion fuel so violently that for a brief moment, it simulates a star. When this bomb was first tested in 1952, it instantly erased a specific island from the map. Two years later, he tested an even bigger nuke, one thousand times more powerful than the Hiroshima bomb. The world recalled in horror. His weapons this powerful war stopped being about winning, and total human annihilation became very real. Teller celebrated, in just two years, he had enabled the creation of American warheads a hundred times more powerful. He had stowed on the nuclear fire from the gods and awoken cosmic horrors, but he insisted that it was still not enough. His dream was to have a bomb of almost unlimited power, and once again, his timing was pretty great. When the Soviet Union detonated its own hydrogen bomb, it sparked a new wave of fear. This is where we get the top secret project sundial. The bomb to make all other bombs irrelevant. The final bomb. Teller skipped right to the end. The end of the nuclear arms race. He wanted to build a world destroyer, something so breathtakingly destructive, so incredibly scary that it made no sense to continue playing. Most everything about it is still classified, but what we do know about it is terrifying. Work on it actually began, and tests were planned. Sundial would be some warhead loaded up onto a bomber and dropped to a target. No, it would be a backyard bomb. After all, if a bomb can destroy the world, why bother moving it at all? No need to bring it close to your enemies, you could as well just put it in your backyard. Maybe it would have actually been put in the center of the country, maybe it would have been put on a remote island or stored on a ship. We don't know what the actual plans were. But this underlines how insane this weapon was, and that Teller knew exactly what he was proposing. In his mind, the rationale was the ultimate deterrence. If you attack us or our allies, we will destroy the world. On a technical level, his concept was not even that complicated. It was probably some kind of nuclear matrioshka doll. The truly breathtaking thing is the idea itself, and that he actually attempted to make it real. From what we know, Sundial would have weighed at least 2,000 tons as massive as a 250-meter-long cargo train. It would explode with the power of at least 10 billion tons of TNT. A number so big, it doesn't mean anything anymore. So let's make this a bit more graphic and explode it in Nevada. One wild thing about it is that humanity never tested anything remotely like it, so this is the best speculation we developed together with experts. For a brief moment, a fireball of pure energy appears, up to 50 kilometers in diameter, larger than the visible horizon. It radiates blistering heat at the speed of light. Everything within 400 kilometers is instantly set on fire, every tree, house, person. The energy would reach much further, but the explosion is so big that the earth's horizon curves away from it. The surrounding deserts turn into a field of glass, then comes the glassed wave. The atmosphere above the explosion is violently shot into space, a magnitude 9 earthquake shakes the United States, while the sound of the blast reverberates around the world. North American forests burn, adding their soup to the bomb's radioactive fallout to create toxic death clouds that shroud the world like a dark curtain. Sundial is like a nuclear war happening all at once, but it's more like a giant volcano erupting or an asteroid striking the nuclear war. Sundial would bring about an apocalyptic nuclear winter where global temperatures suddenly drop by 10 degrees Celsius. Most water sources would be contaminated and crops would fail everywhere. Most people in the world would die. So, hmm, congratulations, you won. Good news. Wait, no. Bad news. The good news is that Sundial was never built. Most details are still top secret, but we know that scientists reacted with horror and politicians who were secretly informed responded with disbelief. Even the US military thought this was a bit much. In the insane world of nuclear arms, this madness was too much, building it considered a crime against humanity. And it had other problems too. A single apocalypse weapon leaves you no wiggle room. Would you press the button if enemy soldiers crossed a distant country's borders or attacked one of your distant bases? Would you end the world if your rival overthrew a friendly government? Can you protect an ally with a bomb that would kill them too? The elephant in the room is that while Sundial is clearly insane, humanity still kind of did build it. At the peak of the Cold War, humanity had over 70,000 nukes. Even today, we still have about 12,000 nuclear weapons enough to destroy human civilization. Instead of a single world burner, the superpowers built tens of thousands of nuclear weapons of all types and sizes. It's not new, submarines or waiting in bunkers and silos. And this sounds so much more reasonable, doesn't it? But this also makes them a much more credible threat. Because if people feel they can risk setting off a smaller nuke, they might actually get launched. And we don't know what kind of chain reaction this might trigger. So in reality, the difference between Sundial and what we have today is not even that big. Humanity didn't build a Doomsday bomb, but a Doomsday machine. Today, the world may be on the verge of another nuclear arms race. The US is on track to spend $3,000 on nuclear modernization programs, while China is expanding its arsenal and might have more than 1,000 nuclear weapons ready to be deployed by 2030. So far, we've escaped the existential threat these weapons pose, but if an alien visited Earth, it might ask us if we're okay and need a hug. We should ask ourselves as a species if we really want to be ready to destroy ourselves at a moment's notice. BOOM! That was a lot. Science is never inherently good or bad. It's up to us to use our sense of curiosity and exploration for something positive. If you want to impart this spirit onto the kids in your life from early on, our sponsor KiwiCo is a great start. This is one of their science project crates that delivers you all the ingredients for a science adventure right to your doorstep. Let's explore. There's a wooden board and pieces, a motor and wires, some marbles and googly eyes. It's the maze arcade kit that teaches kids about the intersection of mechanics and physics in a playful and intuitive way. This crates is part of the new KiwiCo Labs Learning Club, a program that takes you along on a learning journey for young scientists to be. Consective hands-on projects help develop and strengthen problem-solving skills on things like science, engineering and robots over time. There are also different programs available on topics like world geography or art and design, or with their own high-quality crates and exclusive online content to unlock. This holiday season, a KiwiCo subscription could be the gift that literally keeps on giving to your kids or any niece, nephew, got-chard or other little one in your life, with a new box of wonders arriving every month. We like KiwiCo because with their new Learning Club program, they're fostering a mindset of making learning something that's an ongoing exploration, just like we want to. If you want to try out the new KiwiCo clubs, click on the link in the description or use the code CutsCuzert to get 50% off your first crate of a monthly club with KiwiCo. It's time to reveal our darkest secret. This may come as a surprise to you, but CutsCuzert is not actually run by burbs, but by humans. Now you might wonder, how's this possible? So many people spend the hundreds of hours on research, writing and animating the CutsCuzert videos that are then released for free. Well, the answer is simple, it's possible because of our shop. Our products are a piece of CutsCuzert that you can touch, read and have around you. Just like our videos, they're a vital part of our dream to inspire people all around the world. Our carefully researched to infographic posters are now part of so many people's homes teaching them about evolution, black holes and the night sky. While our gratitude journal helps improve lives every day, a special thanks goes out to everyone who appreciates our, where the product ideas. Every CutsCuzert product you buy directly funds another moment we get to spend working on our videos, and you get a special piece of CutsCuzert in return. Thank you so much for being a part of our story and for making this channel possible. The burp humans of CutsCuzert are eternally grateful."
+  }
+}

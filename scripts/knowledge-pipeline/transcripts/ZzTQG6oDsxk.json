@@ -1,0 +1,6419 @@
+{
+  "video_id": "ZzTQG6oDsxk",
+  "video_title": "Peekaboo! - Hide and Seek Games | Learn to Count for Kids | Number Cartoon | Numberblocks",
+  "channel_id": "UCPlwvN0w4qFSP1FllALB92w",
+  "channel_title": "Numberblocks",
+  "published_at": "",
+  "duration_secs": 3773.0,
+  "view_count": 671089,
+  "tags": [
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "UK",
+      "subject": "math",
+      "grade": 3
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 6.5,
+        "text": "One, two, one, two, one, two, one, two, three."
+      },
+      {
+        "start": 6.5,
+        "duration": 2.5,
+        "text": "It bigger than two."
+      },
+      {
+        "start": 9.0,
+        "duration": 3.0,
+        "text": "I can hide behind you."
+      },
+      {
+        "start": 12.0,
+        "duration": 3.0,
+        "text": "Four is bigger than three."
+      },
+      {
+        "start": 15.0,
+        "duration": 3.0,
+        "text": "Three can hide behind you."
+      },
+      {
+        "start": 18.0,
+        "duration": 3.0,
+        "text": "Peekaboo! I'm hiding behind you."
+      },
+      {
+        "start": 21.0,
+        "duration": 3.0,
+        "text": "Cause I'm bigger than you. No one will find you."
+      },
+      {
+        "start": 24.0,
+        "duration": 3.0,
+        "text": "Where if they gone? Go and give us a clue."
+      },
+      {
+        "start": 27.0,
+        "duration": 3.0,
+        "text": "Can you see me? Make a fool."
+      },
+      {
+        "start": 30.0,
+        "duration": 3.5,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 33.5,
+        "duration": 3.0,
+        "text": "One is smaller than two."
+      },
+      {
+        "start": 36.5,
+        "duration": 3.0,
+        "text": "I can hide behind you."
+      },
+      {
+        "start": 39.5,
+        "duration": 3.0,
+        "text": "Two is smaller than three."
+      },
+      {
+        "start": 42.5,
+        "duration": 4.0,
+        "text": "You can hide behind me."
+      },
+      {
+        "start": 46.5,
+        "duration": 3.5,
+        "text": "Peekaboo! You're hiding behind me."
+      },
+      {
+        "start": 50.0,
+        "duration": 3.5,
+        "text": "Cause I'm smaller than you. No one will find me."
+      },
+      {
+        "start": 53.5,
+        "duration": 3.0,
+        "text": "Where if they gone? Go and give us a clue."
+      },
+      {
+        "start": 56.5,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 59.5,
+        "duration": 3.5,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 63.0,
+        "duration": 3.0,
+        "text": "One is the same as three."
+      },
+      {
+        "start": 66.0,
+        "duration": 3.0,
+        "text": "Both of you can hide behind me."
+      },
+      {
+        "start": 69.0,
+        "duration": 3.0,
+        "text": "Three plus one is the same as four."
+      },
+      {
+        "start": 72.0,
+        "duration": 3.0,
+        "text": "I can hide you both for sure."
+      },
+      {
+        "start": 75.0,
+        "duration": 3.0,
+        "text": "Peekaboo! We're hiding behind you."
+      },
+      {
+        "start": 78.0,
+        "duration": 3.0,
+        "text": "Cause I'm bigger than you. No one will find you."
+      },
+      {
+        "start": 81.0,
+        "duration": 3.0,
+        "text": "Where if they gone? Go and give us a clue."
+      },
+      {
+        "start": 84.5,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 87.5,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 91.5,
+        "duration": 2.0,
+        "text": "Where is the pick a burn?"
+      },
+      {
+        "start": 93.5,
+        "duration": 2.0,
+        "text": "Two plus one is the same as three."
+      },
+      {
+        "start": 95.5,
+        "duration": 2.0,
+        "text": "Three is the same as three."
+      },
+      {
+        "start": 97.5,
+        "duration": 2.0,
+        "text": "One is the same as three."
+      },
+      {
+        "start": 99.5,
+        "duration": 1.0,
+        "text": "One is the same as three."
+      },
+      {
+        "start": 100.5,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 103.5,
+        "duration": 3.0,
+        "text": "Five is bigger than four."
+      },
+      {
+        "start": 106.5,
+        "duration": 3.0,
+        "text": "I'll never fit through the door."
+      },
+      {
+        "start": 109.5,
+        "duration": 2.0,
+        "text": "Ow! Ow!"
+      },
+      {
+        "start": 111.5,
+        "duration": 2.0,
+        "text": "Three is smaller than four."
+      },
+      {
+        "start": 114.5,
+        "duration": 3.0,
+        "text": "I can get through the four doors."
+      },
+      {
+        "start": 117.5,
+        "duration": 3.0,
+        "text": "Three plus one is the same as four."
+      },
+      {
+        "start": 120.5,
+        "duration": 3.0,
+        "text": "We can fit through the four doors."
+      },
+      {
+        "start": 123.5,
+        "duration": 3.0,
+        "text": "Two plus two is the same as four."
+      },
+      {
+        "start": 126.5,
+        "duration": 3.0,
+        "text": "We can even up the score."
+      },
+      {
+        "start": 129.5,
+        "duration": 3.0,
+        "text": "Peekaboo! We're hiding behind you."
+      },
+      {
+        "start": 132.5,
+        "duration": 4.0,
+        "text": "Cause I'm equal to you. No one will find you."
+      },
+      {
+        "start": 136.5,
+        "duration": 2.5,
+        "text": "Where is they gone? Go and give us a clue."
+      },
+      {
+        "start": 139.0,
+        "duration": 2.5,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 142.0,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 145.0,
+        "duration": 3.0,
+        "text": "If you're bigger than me, you can hide me."
+      },
+      {
+        "start": 148.0,
+        "duration": 3.0,
+        "text": "As long as you make the right shape."
+      },
+      {
+        "start": 151.0,
+        "duration": 3.5,
+        "text": "If you're smaller than me, it'll never work."
+      },
+      {
+        "start": 154.5,
+        "duration": 2.5,
+        "text": "No matter what shape you make."
+      },
+      {
+        "start": 158.0,
+        "duration": 3.0,
+        "text": "Six plus six is four's little beds."
+      },
+      {
+        "start": 161.0,
+        "duration": 3.0,
+        "text": "I can lie down in ten's beds."
+      },
+      {
+        "start": 164.0,
+        "duration": 3.0,
+        "text": "Seven's bed is too small for ten."
+      },
+      {
+        "start": 167.0,
+        "duration": 4.0,
+        "text": "My feet must be crying at the end. Pick a burn."
+      },
+      {
+        "start": 171.0,
+        "duration": 2.5,
+        "text": "I'm hiding behind you."
+      },
+      {
+        "start": 173.5,
+        "duration": 3.0,
+        "text": "If you're bigger than me, you won't find you."
+      },
+      {
+        "start": 176.5,
+        "duration": 3.0,
+        "text": "Where have they gone? Go and give us a clue."
+      },
+      {
+        "start": 179.5,
+        "duration": 2.5,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 182.0,
+        "duration": 3.5,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 185.5,
+        "duration": 4.0,
+        "text": "Four can't reach up to six himself."
+      },
+      {
+        "start": 189.5,
+        "duration": 3.0,
+        "text": "I'll let the leave that book on the shelf."
+      },
+      {
+        "start": 192.5,
+        "duration": 3.0,
+        "text": "Eight can bend down to reach the book."
+      },
+      {
+        "start": 195.5,
+        "duration": 2.5,
+        "text": "Six can take through and take a look."
+      },
+      {
+        "start": 198.0,
+        "duration": 3.5,
+        "text": "Pick a move. I'm hiding behind you."
+      },
+      {
+        "start": 201.5,
+        "duration": 3.0,
+        "text": "If you're bigger than me, you won't find you."
+      },
+      {
+        "start": 204.5,
+        "duration": 3.0,
+        "text": "Where have they gone? Go and give us a clue."
+      },
+      {
+        "start": 207.5,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 210.5,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 214.5,
+        "duration": 2.0,
+        "text": "One is smaller than?"
+      },
+      {
+        "start": 216.5,
+        "duration": 1.0,
+        "text": "Fewer than?"
+      },
+      {
+        "start": 217.5,
+        "duration": 2.0,
+        "text": "Less than."
+      },
+      {
+        "start": 219.5,
+        "duration": 1.0,
+        "text": "One is less than?"
+      },
+      {
+        "start": 220.5,
+        "duration": 1.0,
+        "text": "Two is less than?"
+      },
+      {
+        "start": 221.5,
+        "duration": 1.0,
+        "text": "Three is less than?"
+      },
+      {
+        "start": 222.5,
+        "duration": 1.0,
+        "text": "Four."
+      },
+      {
+        "start": 223.5,
+        "duration": 1.0,
+        "text": "Five is less than?"
+      },
+      {
+        "start": 224.5,
+        "duration": 1.0,
+        "text": "Six is less than?"
+      },
+      {
+        "start": 225.5,
+        "duration": 2.0,
+        "text": "Seven."
+      },
+      {
+        "start": 227.5,
+        "duration": 1.5,
+        "text": "And eight is less than?"
+      },
+      {
+        "start": 229.0,
+        "duration": 1.0,
+        "text": "Nine is less than?"
+      },
+      {
+        "start": 230.0,
+        "duration": 2.0,
+        "text": "Ten."
+      },
+      {
+        "start": 234.0,
+        "duration": 1.5,
+        "text": "And ten is bigger than?"
+      },
+      {
+        "start": 235.5,
+        "duration": 1.0,
+        "text": "More than?"
+      },
+      {
+        "start": 236.5,
+        "duration": 1.0,
+        "text": "Greater than?"
+      },
+      {
+        "start": 237.5,
+        "duration": 1.0,
+        "text": "Ten is greater than?"
+      },
+      {
+        "start": 238.5,
+        "duration": 1.0,
+        "text": "Nine is greater than?"
+      },
+      {
+        "start": 239.5,
+        "duration": 1.5,
+        "text": "Seven."
+      },
+      {
+        "start": 241.0,
+        "duration": 1.5,
+        "text": "Six is greater than?"
+      },
+      {
+        "start": 242.5,
+        "duration": 1.0,
+        "text": "Five is greater than?"
+      },
+      {
+        "start": 243.5,
+        "duration": 1.0,
+        "text": "Four is greater than?"
+      },
+      {
+        "start": 244.5,
+        "duration": 1.0,
+        "text": "Three."
+      },
+      {
+        "start": 245.5,
+        "duration": 1.0,
+        "text": "And three is greater than?"
+      },
+      {
+        "start": 246.5,
+        "duration": 1.0,
+        "text": "Two is greater than?"
+      },
+      {
+        "start": 247.5,
+        "duration": 4.0,
+        "text": "One."
+      },
+      {
+        "start": 251.5,
+        "duration": 4.0,
+        "text": "Pick a move. I'm hiding behind you."
+      },
+      {
+        "start": 255.5,
+        "duration": 1.5,
+        "text": "Because I'm bigger than you."
+      },
+      {
+        "start": 257.0,
+        "duration": 2.0,
+        "text": "No one will find you."
+      },
+      {
+        "start": 259.0,
+        "duration": 3.0,
+        "text": "Where have they gone? Go and give us a clue."
+      },
+      {
+        "start": 262.0,
+        "duration": 1.5,
+        "text": "Can you see me?"
+      },
+      {
+        "start": 263.5,
+        "duration": 1.5,
+        "text": "Pick a burn."
+      },
+      {
+        "start": 265.0,
+        "duration": 3.0,
+        "text": "Can you see me? Pick a burn."
+      },
+      {
+        "start": 270.5,
+        "duration": 1.5,
+        "text": "Hello, five."
+      },
+      {
+        "start": 272.0,
+        "duration": 1.0,
+        "text": "What are you up to?"
+      },
+      {
+        "start": 273.0,
+        "duration": 3.0,
+        "text": "Oh, is this a toy library?"
+      },
+      {
+        "start": 276.0,
+        "duration": 1.5,
+        "text": "That's right, too."
+      },
+      {
+        "start": 277.5,
+        "duration": 2.0,
+        "text": "You can borrow toys to play with."
+      },
+      {
+        "start": 279.5,
+        "duration": 3.0,
+        "text": "Then when you're done, bring them back for someone else to borrow."
+      },
+      {
+        "start": 282.5,
+        "duration": 2.5,
+        "text": "A library for toys."
+      },
+      {
+        "start": 285.0,
+        "duration": 2.0,
+        "text": "Brilliant."
+      },
+      {
+        "start": 287.0,
+        "duration": 3.0,
+        "text": "Oh, there are so many to choose from."
+      },
+      {
+        "start": 290.0,
+        "duration": 3.0,
+        "text": "But it's hard to see them all."
+      },
+      {
+        "start": 293.0,
+        "duration": 5.0,
+        "text": "Ah, that's where a mind-you-friend sortie the super-sortter can help."
+      },
+      {
+        "start": 298.0,
+        "duration": 5.5,
+        "text": "Just say what kind of toy you'd like and sortie will sort them for you."
+      },
+      {
+        "start": 303.5,
+        "duration": 3.5,
+        "text": "Oh, wow. Hello, sortie."
+      },
+      {
+        "start": 307.0,
+        "duration": 2.5,
+        "text": "I like two types of toy the best."
+      },
+      {
+        "start": 309.5,
+        "duration": 2.0,
+        "text": "Cuddly toys?"
+      },
+      {
+        "start": 311.5,
+        "duration": 2.5,
+        "text": "And toys with wheels."
+      },
+      {
+        "start": 323.5,
+        "duration": 2.5,
+        "text": "It's so easy to see them all now."
+      },
+      {
+        "start": 326.0,
+        "duration": 5.0,
+        "text": "There are two, four, six, six cuddly toys."
+      },
+      {
+        "start": 331.0,
+        "duration": 3.0,
+        "text": "And five toys with wheels."
+      },
+      {
+        "start": 334.0,
+        "duration": 3.0,
+        "text": "Oh, and a duck."
+      },
+      {
+        "start": 337.0,
+        "duration": 3.0,
+        "text": "Ducks don't have wheels, sortie."
+      },
+      {
+        "start": 342.5,
+        "duration": 3.5,
+        "text": "Hmm, there are still a lot of toys to sort."
+      },
+      {
+        "start": 348.0,
+        "duration": 1.5,
+        "text": "That's right, sortie."
+      },
+      {
+        "start": 349.5,
+        "duration": 3.5,
+        "text": "It's because these toys aren't cuddly or wheely."
+      },
+      {
+        "start": 353.0,
+        "duration": 4.0,
+        "text": "Hmm, ducks, stacking squares, and puzzles."
+      },
+      {
+        "start": 357.0,
+        "duration": 4.0,
+        "text": "Could we have a shelf for each type of toy, please?"
+      },
+      {
+        "start": 361.0,
+        "duration": 3.0,
+        "text": "Cool."
+      },
+      {
+        "start": 364.5,
+        "duration": 2.0,
+        "text": "Oh."
+      },
+      {
+        "start": 369.5,
+        "duration": 3.5,
+        "text": "Perfect. All sorted by type of toy."
+      },
+      {
+        "start": 373.0,
+        "duration": 2.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 375.0,
+        "duration": 6.5,
+        "text": "Oops. I think I just found the lever that does that, sortie sortie."
+      },
+      {
+        "start": 383.5,
+        "duration": 2.0,
+        "text": "Ooh, a toy library."
+      },
+      {
+        "start": 385.5,
+        "duration": 3.0,
+        "text": "Do you have any square toys I could borrow?"
+      },
+      {
+        "start": 388.5,
+        "duration": 1.0,
+        "text": "Yes."
+      },
+      {
+        "start": 389.5,
+        "duration": 2.0,
+        "text": "Somewhere."
+      },
+      {
+        "start": 391.5,
+        "duration": 3.5,
+        "text": "Oh, sorry. Can you sort the toys by shape, please?"
+      },
+      {
+        "start": 403.0,
+        "duration": 6.0,
+        "text": "Wow. Triangles, circles, and so many squares."
+      },
+      {
+        "start": 409.0,
+        "duration": 4.0,
+        "text": "Oh, and a cheeky star."
+      },
+      {
+        "start": 413.0,
+        "duration": 2.0,
+        "text": "It's okay, sortie."
+      },
+      {
+        "start": 415.0,
+        "duration": 2.0,
+        "text": "What about these toys, five?"
+      },
+      {
+        "start": 417.5,
+        "duration": 5.0,
+        "text": "Hmm, they're not circles, triangles, or squares."
+      },
+      {
+        "start": 422.5,
+        "duration": 3.0,
+        "text": "Ooh, but the puzzles all have rectangles."
+      },
+      {
+        "start": 425.5,
+        "duration": 4.0,
+        "text": "And the ducks are all, well, duck shaped."
+      },
+      {
+        "start": 437.5,
+        "duration": 3.0,
+        "text": "We'll sort a place for you later."
+      },
+      {
+        "start": 440.5,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 441.5,
+        "duration": 3.0,
+        "text": "Welcome to the toy library."
+      },
+      {
+        "start": 444.5,
+        "duration": 2.0,
+        "text": "What kind of toys are you looking for?"
+      },
+      {
+        "start": 446.5,
+        "duration": 2.5,
+        "text": "Oh, I like small toys."
+      },
+      {
+        "start": 449.0,
+        "duration": 3.0,
+        "text": "I like really big toys."
+      },
+      {
+        "start": 452.0,
+        "duration": 3.0,
+        "text": "sortie, could you sort the toys again by..."
+      },
+      {
+        "start": 458.0,
+        "duration": 2.0,
+        "text": "Oh, no."
+      },
+      {
+        "start": 460.0,
+        "duration": 2.0,
+        "text": "Who put that there?"
+      },
+      {
+        "start": 462.0,
+        "duration": 2.0,
+        "text": "I mean, sorry."
+      },
+      {
+        "start": 464.0,
+        "duration": 4.0,
+        "text": "sortie, could you sort by size, please?"
+      },
+      {
+        "start": 468.5,
+        "duration": 2.0,
+        "text": "Oh."
+      },
+      {
+        "start": 474.5,
+        "duration": 3.0,
+        "text": "Oh, they've been sortie."
+      },
+      {
+        "start": 477.5,
+        "duration": 3.0,
+        "text": "For sortie is slowing down."
+      },
+      {
+        "start": 480.5,
+        "duration": 2.0,
+        "text": "The batteries run out."
+      },
+      {
+        "start": 482.5,
+        "duration": 3.0,
+        "text": "sortie just needs to rest and recharge."
+      },
+      {
+        "start": 487.5,
+        "duration": 3.0,
+        "text": "I should really put a warning sign on this thing."
+      },
+      {
+        "start": 490.5,
+        "duration": 2.0,
+        "text": "What a mess."
+      },
+      {
+        "start": 492.5,
+        "duration": 2.0,
+        "text": "We could help you sort the toys."
+      },
+      {
+        "start": 494.5,
+        "duration": 1.0,
+        "text": "I know."
+      },
+      {
+        "start": 495.5,
+        "duration": 3.0,
+        "text": "This time let's sort by color."
+      },
+      {
+        "start": 498.5,
+        "duration": 1.0,
+        "text": "Red?"
+      },
+      {
+        "start": 499.5,
+        "duration": 1.0,
+        "text": "Orange?"
+      },
+      {
+        "start": 500.5,
+        "duration": 1.0,
+        "text": "Yellow?"
+      },
+      {
+        "start": 501.5,
+        "duration": 1.0,
+        "text": "Green?"
+      },
+      {
+        "start": 502.5,
+        "duration": 2.0,
+        "text": "And blue."
+      },
+      {
+        "start": 512.5,
+        "duration": 3.0,
+        "text": "Hmm, some toys are not where they belong."
+      },
+      {
+        "start": 517.5,
+        "duration": 2.0,
+        "text": "sortie has recharge."
+      },
+      {
+        "start": 524.5,
+        "duration": 6.0,
+        "text": "Five different colors and five toys of each color."
+      },
+      {
+        "start": 530.5,
+        "duration": 2.0,
+        "text": "Thank you, sortie."
+      },
+      {
+        "start": 532.5,
+        "duration": 4.0,
+        "text": "You truly are a super-sortter."
+      },
+      {
+        "start": 537.5,
+        "duration": 3.0,
+        "text": "Welcome to the event of the year."
+      },
+      {
+        "start": 540.5,
+        "duration": 2.0,
+        "text": "The one you've been waiting for."
+      },
+      {
+        "start": 542.5,
+        "duration": 5.0,
+        "text": "It's only Noverlands Grand Zoom bug race."
+      },
+      {
+        "start": 549.5,
+        "duration": 2.0,
+        "text": "Sorry, I just can't help myself."
+      },
+      {
+        "start": 552.5,
+        "duration": 2.0,
+        "text": "Looker are racers."
+      },
+      {
+        "start": 554.5,
+        "duration": 2.0,
+        "text": "One with Dottie."
+      },
+      {
+        "start": 556.5,
+        "duration": 5.0,
+        "text": "Two with two, two, three with trio and four with little square bug."
+      },
+      {
+        "start": 561.5,
+        "duration": 2.0,
+        "text": "What a QD."
+      },
+      {
+        "start": 563.5,
+        "duration": 4.0,
+        "text": "Now let's send Noverta 20 track sign."
+      },
+      {
+        "start": 567.5,
+        "duration": 2.0,
+        "text": "This is the practice race."
+      },
+      {
+        "start": 569.5,
+        "duration": 5.0,
+        "text": "The zoom bugs must run all the way around the perimeter of their square and back to the start."
+      },
+      {
+        "start": 574.5,
+        "duration": 6.0,
+        "text": "The perimeter is the length all the way around the edge of a shape."
+      },
+      {
+        "start": 580.5,
+        "duration": 5.0,
+        "text": "Let's measure the perimeter with my 20 block string."
+      },
+      {
+        "start": 585.5,
+        "duration": 3.0,
+        "text": "Always keep your string right on the line."
+      },
+      {
+        "start": 588.5,
+        "duration": 4.0,
+        "text": "Don't cut any corners."
+      },
+      {
+        "start": 592.5,
+        "duration": 4.0,
+        "text": "And always finish where you started."
+      },
+      {
+        "start": 596.5,
+        "duration": 2.0,
+        "text": "16 look."
+      },
+      {
+        "start": 598.5,
+        "duration": 1.0,
+        "text": "No way."
+      },
+      {
+        "start": 599.5,
+        "duration": 3.0,
+        "text": "The perimeter is 16 blocks."
+      },
+      {
+        "start": 602.5,
+        "duration": 6.0,
+        "text": "Now back to our racers who are all squared up to start."
+      },
+      {
+        "start": 608.5,
+        "duration": 7.0,
+        "text": "Remember, stay on the line, run all the way around the edge of the square and finish back where you started."
+      },
+      {
+        "start": 615.5,
+        "duration": 3.0,
+        "text": "On your marks, get set, go!"
+      },
+      {
+        "start": 618.5,
+        "duration": 2.0,
+        "text": "Run as fast as you can!"
+      },
+      {
+        "start": 620.5,
+        "duration": 2.0,
+        "text": "Don't do it, Dottie."
+      },
+      {
+        "start": 622.5,
+        "duration": 2.0,
+        "text": "Don't do it, don't do it."
+      },
+      {
+        "start": 624.5,
+        "duration": 2.0,
+        "text": "Trio's cutting corners."
+      },
+      {
+        "start": 626.5,
+        "duration": 2.0,
+        "text": "You're not supposed to go inside the line."
+      },
+      {
+        "start": 628.5,
+        "duration": 2.0,
+        "text": "That's not fair and square."
+      },
+      {
+        "start": 630.5,
+        "duration": 3.0,
+        "text": "Oh, Dottie's running is a bit wobbly."
+      },
+      {
+        "start": 633.5,
+        "duration": 2.0,
+        "text": "But it looks like Tuto was about to win."
+      },
+      {
+        "start": 635.5,
+        "duration": 1.0,
+        "text": "Oh, my."
+      },
+      {
+        "start": 636.5,
+        "duration": 4.0,
+        "text": "Oops, Tuto thinks she's finished, but it's not party time yet."
+      },
+      {
+        "start": 640.5,
+        "duration": 2.0,
+        "text": "She hasn't run all the way around."
+      },
+      {
+        "start": 642.5,
+        "duration": 4.0,
+        "text": "Trio is the first back to the starting point."
+      },
+      {
+        "start": 646.5,
+        "duration": 2.0,
+        "text": "With little square butt not far behind."
+      },
+      {
+        "start": 648.5,
+        "duration": 4.0,
+        "text": "And Dottie, well Dottie's very far behind."
+      },
+      {
+        "start": 652.5,
+        "duration": 2.0,
+        "text": "What an amazing finish."
+      },
+      {
+        "start": 654.5,
+        "duration": 3.0,
+        "text": "Oh, for those who did finish."
+      },
+      {
+        "start": 657.5,
+        "duration": 4.0,
+        "text": "Trio finished first, so Trio is the winner."
+      },
+      {
+        "start": 661.5,
+        "duration": 3.0,
+        "text": "Wait, not all the book stayed on the line."
+      },
+      {
+        "start": 665.5,
+        "duration": 1.0,
+        "text": "Let's see."
+      },
+      {
+        "start": 666.5,
+        "duration": 3.0,
+        "text": "Dottie went all the way around, but in a wobbly line."
+      },
+      {
+        "start": 669.5,
+        "duration": 2.0,
+        "text": "So she ran much too far."
+      },
+      {
+        "start": 671.5,
+        "duration": 3.0,
+        "text": "Tuto didn't make it the whole way around."
+      },
+      {
+        "start": 674.5,
+        "duration": 3.0,
+        "text": "And Trio cut corners."
+      },
+      {
+        "start": 677.5,
+        "duration": 4.0,
+        "text": "Only this is square bug stuck to the perimeter."
+      },
+      {
+        "start": 681.5,
+        "duration": 6.0,
+        "text": "Now our zoom bugs must show off their skills in the main race."
+      },
+      {
+        "start": 689.5,
+        "duration": 1.0,
+        "text": "Huh?"
+      },
+      {
+        "start": 690.5,
+        "duration": 1.0,
+        "text": "Wait, wait, wait."
+      },
+      {
+        "start": 691.5,
+        "duration": 2.0,
+        "text": "This race isn't fair."
+      },
+      {
+        "start": 693.5,
+        "duration": 2.0,
+        "text": "All the tracks are different."
+      },
+      {
+        "start": 695.5,
+        "duration": 4.0,
+        "text": "The sheep are different, but how long are their perimeters?"
+      },
+      {
+        "start": 699.5,
+        "duration": 2.0,
+        "text": "Let's check."
+      },
+      {
+        "start": 701.5,
+        "duration": 2.0,
+        "text": "For for sure."
+      },
+      {
+        "start": 703.5,
+        "duration": 2.0,
+        "text": "Remember, keep right on the line,"
+      },
+      {
+        "start": 705.5,
+        "duration": 4.0,
+        "text": "don't cut corners and go all the way back to the start."
+      },
+      {
+        "start": 709.5,
+        "duration": 8.0,
+        "text": "For for for for for for for for"
+      },
+      {
+        "start": 717.5,
+        "duration": 4.0,
+        "text": "our perimeter is five fours."
+      },
+      {
+        "start": 721.5,
+        "duration": 5.0,
+        "text": "And five fours are 20."
+      },
+      {
+        "start": 726.5,
+        "duration": 4.0,
+        "text": "The perimeter of this track is 20 blocks."
+      },
+      {
+        "start": 730.5,
+        "duration": 2.0,
+        "text": "What about the others?"
+      },
+      {
+        "start": 734.5,
+        "duration": 1.0,
+        "text": "20."
+      },
+      {
+        "start": 738.5,
+        "duration": 1.0,
+        "text": "20."
+      },
+      {
+        "start": 742.5,
+        "duration": 1.0,
+        "text": "20."
+      },
+      {
+        "start": 744.5,
+        "duration": 5.0,
+        "text": "The shapes are different, but the perimeters are all the same."
+      },
+      {
+        "start": 749.5,
+        "duration": 2.0,
+        "text": "20 blocks."
+      },
+      {
+        "start": 751.5,
+        "duration": 5.0,
+        "text": "Remember, stay on the line, run all the way around and back to the start."
+      },
+      {
+        "start": 756.5,
+        "duration": 5.0,
+        "text": "On your marks, get set, go!"
+      },
+      {
+        "start": 761.5,
+        "duration": 3.0,
+        "text": "Look at the zoom bugs go!"
+      },
+      {
+        "start": 764.5,
+        "duration": 3.0,
+        "text": "Oh, running around the edge this time,"
+      },
+      {
+        "start": 767.5,
+        "duration": 3.0,
+        "text": "like proper perimeter proofs!"
+      },
+      {
+        "start": 770.5,
+        "duration": 4.0,
+        "text": "They're all running a perfect perimeter!"
+      },
+      {
+        "start": 776.5,
+        "duration": 4.0,
+        "text": "And the winner, who has run the whole perimeter in the fastest time,"
+      },
+      {
+        "start": 780.5,
+        "duration": 3.0,
+        "text": "is Dottie!"
+      },
+      {
+        "start": 783.5,
+        "duration": 2.0,
+        "text": "Oh, we've got this!"
+      },
+      {
+        "start": 788.5,
+        "duration": 6.0,
+        "text": "How did it feel to be the celebrated winner of Numbra Lands Grand Zoom bug race?"
+      },
+      {
+        "start": 795.5,
+        "duration": 8.0,
+        "text": "Oh, I can tell you that Dottie is thrilled to be Numbra 1!"
+      },
+      {
+        "start": 803.5,
+        "duration": 2.0,
+        "text": "Rade!"
+      },
+      {
+        "start": 813.5,
+        "duration": 2.0,
+        "text": "Wonderful!"
+      },
+      {
+        "start": 815.5,
+        "duration": 3.0,
+        "text": "We've played all four games."
+      },
+      {
+        "start": 818.5,
+        "duration": 2.0,
+        "text": "No more games!"
+      },
+      {
+        "start": 821.5,
+        "duration": 3.0,
+        "text": "We could play back in the box."
+      },
+      {
+        "start": 824.5,
+        "duration": 7.0,
+        "text": "We count all the bats, skittles, hoops and balls as we put them back in the box."
+      },
+      {
+        "start": 831.5,
+        "duration": 3.0,
+        "text": "Oh, I'll keep count to make sure we have everything."
+      },
+      {
+        "start": 837.5,
+        "duration": 3.0,
+        "text": "Three skittles, back in the box."
+      },
+      {
+        "start": 840.5,
+        "duration": 1.0,
+        "text": "And four more."
+      },
+      {
+        "start": 841.5,
+        "duration": 2.0,
+        "text": "Three and four."
+      },
+      {
+        "start": 843.5,
+        "duration": 1.0,
+        "text": "Two bats."
+      },
+      {
+        "start": 844.5,
+        "duration": 4.0,
+        "text": "Five hoops, two bats and three more bats."
+      },
+      {
+        "start": 848.5,
+        "duration": 2.0,
+        "text": "Four round things."
+      },
+      {
+        "start": 850.5,
+        "duration": 3.0,
+        "text": "Stop! I can't keep up!"
+      },
+      {
+        "start": 853.5,
+        "duration": 3.0,
+        "text": "We need a way to keep count of everything."
+      },
+      {
+        "start": 856.5,
+        "duration": 4.0,
+        "text": "If only there was something we could use to help us."
+      },
+      {
+        "start": 860.5,
+        "duration": 2.0,
+        "text": "No."
+      },
+      {
+        "start": 862.5,
+        "duration": 4.0,
+        "text": "How about suppose to think with all these silly sticks everywhere?"
+      },
+      {
+        "start": 866.5,
+        "duration": 2.0,
+        "text": "That's it!"
+      },
+      {
+        "start": 868.5,
+        "duration": 2.0,
+        "text": "Let's start again."
+      },
+      {
+        "start": 870.5,
+        "duration": 2.0,
+        "text": "But this time I'll keep count using the sticks."
+      },
+      {
+        "start": 872.5,
+        "duration": 2.0,
+        "text": "You're in genius three?"
+      },
+      {
+        "start": 874.5,
+        "duration": 1.0,
+        "text": "I am."
+      },
+      {
+        "start": 875.5,
+        "duration": 3.0,
+        "text": "I mean, I am."
+      },
+      {
+        "start": 878.5,
+        "duration": 4.0,
+        "text": "One stick means one bat."
+      },
+      {
+        "start": 882.5,
+        "duration": 3.0,
+        "text": "That's two bats."
+      },
+      {
+        "start": 885.5,
+        "duration": 5.0,
+        "text": "And three, four, five sticks means five bats."
+      },
+      {
+        "start": 890.5,
+        "duration": 5.0,
+        "text": "Great, but you might lose count with a long line of sticks."
+      },
+      {
+        "start": 895.5,
+        "duration": 4.0,
+        "text": "I've got an idea. This gate has five bars."
+      },
+      {
+        "start": 899.5,
+        "duration": 4.0,
+        "text": "So if we arrange your sticks in the same pattern,"
+      },
+      {
+        "start": 904.5,
+        "duration": 4.0,
+        "text": "one, two, three, four standing straight."
+      },
+      {
+        "start": 908.5,
+        "duration": 4.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 912.5,
+        "duration": 4.0,
+        "text": "Yes, that makes it easy to see when we have five things."
+      },
+      {
+        "start": 916.5,
+        "duration": 4.0,
+        "text": "But we'll need a lot more sticks to count everything."
+      },
+      {
+        "start": 920.5,
+        "duration": 7.0,
+        "text": "Maybe we only need one stick of chalk."
+      },
+      {
+        "start": 927.5,
+        "duration": 4.0,
+        "text": "One, two, three, four standing straight."
+      },
+      {
+        "start": 931.5,
+        "duration": 3.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 934.5,
+        "duration": 2.0,
+        "text": "Five bats."
+      },
+      {
+        "start": 936.5,
+        "duration": 3.0,
+        "text": "Perfect, now for the Skittles."
+      },
+      {
+        "start": 939.5,
+        "duration": 5.0,
+        "text": "One, two, three, four, five."
+      },
+      {
+        "start": 944.5,
+        "duration": 3.0,
+        "text": "And one, two."
+      },
+      {
+        "start": 947.5,
+        "duration": 4.0,
+        "text": "Now for the hoops."
+      },
+      {
+        "start": 951.5,
+        "duration": 2.0,
+        "text": "Five for me."
+      },
+      {
+        "start": 953.5,
+        "duration": 4.0,
+        "text": "One, two, three, four, five."
+      },
+      {
+        "start": 957.5,
+        "duration": 3.0,
+        "text": "Four more."
+      },
+      {
+        "start": 961.5,
+        "duration": 3.0,
+        "text": "One, two, three, four."
+      },
+      {
+        "start": 964.5,
+        "duration": 2.0,
+        "text": "Last one."
+      },
+      {
+        "start": 966.5,
+        "duration": 3.0,
+        "text": "All right."
+      },
+      {
+        "start": 969.5,
+        "duration": 3.0,
+        "text": "Well, don't me."
+      },
+      {
+        "start": 972.5,
+        "duration": 3.0,
+        "text": "And here comes five to make a gate."
+      },
+      {
+        "start": 975.5,
+        "duration": 3.0,
+        "text": "Have we collected everything?"
+      },
+      {
+        "start": 978.5,
+        "duration": 2.0,
+        "text": "How many bats?"
+      },
+      {
+        "start": 980.5,
+        "duration": 3.0,
+        "text": "One gate. That means five."
+      },
+      {
+        "start": 983.5,
+        "duration": 3.0,
+        "text": "Uh-huh. What about the Skittles?"
+      },
+      {
+        "start": 986.5,
+        "duration": 3.0,
+        "text": "Five and two more is seven."
+      },
+      {
+        "start": 990.5,
+        "duration": 2.0,
+        "text": "Skittles exactly."
+      },
+      {
+        "start": 992.5,
+        "duration": 2.0,
+        "text": "Now for the hoops."
+      },
+      {
+        "start": 994.5,
+        "duration": 3.0,
+        "text": "Five and five is ten."
+      },
+      {
+        "start": 997.5,
+        "duration": 2.0,
+        "text": "Perfect scores."
+      },
+      {
+        "start": 999.5,
+        "duration": 3.0,
+        "text": "Um, what about those round things?"
+      },
+      {
+        "start": 1002.5,
+        "duration": 3.0,
+        "text": "Shouldn't they go back in the box?"
+      },
+      {
+        "start": 1005.5,
+        "duration": 1.0,
+        "text": "You're right."
+      },
+      {
+        "start": 1006.5,
+        "duration": 1.0,
+        "text": "Let's go."
+      },
+      {
+        "start": 1007.5,
+        "duration": 4.0,
+        "text": "Race you."
+      },
+      {
+        "start": 1011.5,
+        "duration": 3.0,
+        "text": "One, two, three."
+      },
+      {
+        "start": 1014.5,
+        "duration": 3.0,
+        "text": "One, two, three."
+      },
+      {
+        "start": 1017.5,
+        "duration": 2.0,
+        "text": "Four, five."
+      },
+      {
+        "start": 1019.5,
+        "duration": 6.0,
+        "text": "Four is standing straight, and here comes five to make a gate."
+      },
+      {
+        "start": 1025.5,
+        "duration": 2.0,
+        "text": "Be brave for."
+      },
+      {
+        "start": 1027.5,
+        "duration": 2.0,
+        "text": "Be brave."
+      },
+      {
+        "start": 1029.5,
+        "duration": 4.0,
+        "text": "And one, two, three, four."
+      },
+      {
+        "start": 1033.5,
+        "duration": 5.0,
+        "text": "Watch your backs. Five more."
+      },
+      {
+        "start": 1038.5,
+        "duration": 2.0,
+        "text": "That's five, ten."
+      },
+      {
+        "start": 1040.5,
+        "duration": 3.0,
+        "text": "And four more is fourteen balls."
+      },
+      {
+        "start": 1043.5,
+        "duration": 3.0,
+        "text": "Oh, and this one."
+      },
+      {
+        "start": 1046.5,
+        "duration": 6.0,
+        "text": "Five, ten, fifteen."
+      },
+      {
+        "start": 1052.5,
+        "duration": 5.0,
+        "text": "Two, no more round things."
+      },
+      {
+        "start": 1057.5,
+        "duration": 2.0,
+        "text": "We did it."
+      },
+      {
+        "start": 1059.5,
+        "duration": 4.0,
+        "text": "Everything's back in the box."
+      },
+      {
+        "start": 1063.5,
+        "duration": 5.0,
+        "text": "Hmm. If only there was something else we could..."
+      },
+      {
+        "start": 1068.5,
+        "duration": 3.0,
+        "text": "Oh, let's count all the apples in the trees."
+      },
+      {
+        "start": 1071.5,
+        "duration": 4.0,
+        "text": "I think we're going to need a bigger board."
+      },
+      {
+        "start": 1075.5,
+        "duration": 6.0,
+        "text": "There. What should we do next?"
+      },
+      {
+        "start": 1081.5,
+        "duration": 2.0,
+        "text": "Build a maze."
+      },
+      {
+        "start": 1083.5,
+        "duration": 2.0,
+        "text": "No, no, no. A pirate ship."
+      },
+      {
+        "start": 1085.5,
+        "duration": 2.0,
+        "text": "How about a rocket?"
+      },
+      {
+        "start": 1087.5,
+        "duration": 4.0,
+        "text": "Oh, we could have this lovely picnic."
+      },
+      {
+        "start": 1091.5,
+        "duration": 4.0,
+        "text": "Oh, great ideas. But how are we going to choose between them?"
+      },
+      {
+        "start": 1095.5,
+        "duration": 2.0,
+        "text": "We should have a vote."
+      },
+      {
+        "start": 1097.5,
+        "duration": 5.0,
+        "text": "A yes, a vote. I am brilliant at voting."
+      },
+      {
+        "start": 1103.5,
+        "duration": 2.0,
+        "text": "What's a vote?"
+      },
+      {
+        "start": 1105.5,
+        "duration": 6.0,
+        "text": "I'll show you. Everyone find a single small block."
+      },
+      {
+        "start": 1119.5,
+        "duration": 4.0,
+        "text": "If you want to build a maze, place your block here."
+      },
+      {
+        "start": 1123.5,
+        "duration": 3.0,
+        "text": "If you'd like to build a ship, put your block here."
+      },
+      {
+        "start": 1126.5,
+        "duration": 3.0,
+        "text": "For a rocket, vote here."
+      },
+      {
+        "start": 1129.5,
+        "duration": 3.0,
+        "text": "For a picnic, your block goes here."
+      },
+      {
+        "start": 1132.5,
+        "duration": 4.0,
+        "text": "Ready, steady, vote."
+      },
+      {
+        "start": 1136.5,
+        "duration": 3.0,
+        "text": "Only one vote each."
+      },
+      {
+        "start": 1139.5,
+        "duration": 3.0,
+        "text": "Oh, sorry."
+      },
+      {
+        "start": 1142.5,
+        "duration": 3.0,
+        "text": "Oh, oh."
+      },
+      {
+        "start": 1151.5,
+        "duration": 4.0,
+        "text": "So we can see that picnic got one vote."
+      },
+      {
+        "start": 1155.5,
+        "duration": 5.0,
+        "text": "A ship and a maze got two votes each."
+      },
+      {
+        "start": 1160.5,
+        "duration": 4.0,
+        "text": "But rocket is the winner with five votes."
+      },
+      {
+        "start": 1164.5,
+        "duration": 3.0,
+        "text": "Number blocks, let's build it."
+      },
+      {
+        "start": 1167.5,
+        "duration": 3.0,
+        "text": "Oh, where are we?"
+      },
+      {
+        "start": 1170.5,
+        "duration": 3.0,
+        "text": "Boosters!"
+      },
+      {
+        "start": 1173.5,
+        "duration": 2.0,
+        "text": "Nice curve."
+      },
+      {
+        "start": 1175.5,
+        "duration": 1.0,
+        "text": "Go."
+      },
+      {
+        "start": 1176.5,
+        "duration": 3.0,
+        "text": "Stairs."
+      },
+      {
+        "start": 1179.5,
+        "duration": 1.0,
+        "text": "Go."
+      },
+      {
+        "start": 1180.5,
+        "duration": 3.0,
+        "text": "Astronaut."
+      },
+      {
+        "start": 1183.5,
+        "duration": 1.0,
+        "text": "Go."
+      },
+      {
+        "start": 1184.5,
+        "duration": 2.0,
+        "text": "10, 9, 8."
+      },
+      {
+        "start": 1186.5,
+        "duration": 2.0,
+        "text": "Blast off!"
+      },
+      {
+        "start": 1190.5,
+        "duration": 6.0,
+        "text": "Brave astronaut one flies through space and lands on a mysterious alien planet."
+      },
+      {
+        "start": 1196.5,
+        "duration": 2.0,
+        "text": "We want to go to the fair."
+      },
+      {
+        "start": 1198.5,
+        "duration": 1.0,
+        "text": "Blue stampedeys."
+      },
+      {
+        "start": 1199.5,
+        "duration": 2.0,
+        "text": "We want to play football."
+      },
+      {
+        "start": 1201.5,
+        "duration": 1.0,
+        "text": "The fair."
+      },
+      {
+        "start": 1202.5,
+        "duration": 1.0,
+        "text": "Football."
+      },
+      {
+        "start": 1203.5,
+        "duration": 2.0,
+        "text": "Stampleines."
+      },
+      {
+        "start": 1205.5,
+        "duration": 2.0,
+        "text": "Picnic?"
+      },
+      {
+        "start": 1207.5,
+        "duration": 1.0,
+        "text": "Oh, picnic."
+      },
+      {
+        "start": 1208.5,
+        "duration": 2.0,
+        "text": "I'm happy to share."
+      },
+      {
+        "start": 1210.5,
+        "duration": 1.0,
+        "text": "We want the fair."
+      },
+      {
+        "start": 1211.5,
+        "duration": 1.0,
+        "text": "Stampleines."
+      },
+      {
+        "start": 1212.5,
+        "duration": 1.0,
+        "text": "Football."
+      },
+      {
+        "start": 1213.5,
+        "duration": 3.0,
+        "text": "And, excuse me, number blobs."
+      },
+      {
+        "start": 1216.5,
+        "duration": 1.0,
+        "text": "Hello, me."
+      },
+      {
+        "start": 1217.5,
+        "duration": 4.0,
+        "text": "If you can't decide, you need to have a vote."
+      },
+      {
+        "start": 1221.5,
+        "duration": 1.0,
+        "text": "Ooh."
+      },
+      {
+        "start": 1222.5,
+        "duration": 2.0,
+        "text": "What's voting you say?"
+      },
+      {
+        "start": 1224.5,
+        "duration": 4.0,
+        "text": "Well, it just so happens that I'm an expert."
+      },
+      {
+        "start": 1228.5,
+        "duration": 3.0,
+        "text": "You two, come with me, please."
+      },
+      {
+        "start": 1237.5,
+        "duration": 4.0,
+        "text": "If you want to go to the fair, stack up here."
+      },
+      {
+        "start": 1241.5,
+        "duration": 3.0,
+        "text": "If you'd rather play football, stack up here."
+      },
+      {
+        "start": 1244.5,
+        "duration": 4.0,
+        "text": "If Stampleines sound like more fun, then stack up here."
+      },
+      {
+        "start": 1248.5,
+        "duration": 2.0,
+        "text": "One by one."
+      },
+      {
+        "start": 1250.5,
+        "duration": 4.0,
+        "text": "Oh, a yummy, yummy picnic."
+      },
+      {
+        "start": 1254.5,
+        "duration": 1.0,
+        "text": "On your marks."
+      },
+      {
+        "start": 1255.5,
+        "duration": 1.0,
+        "text": "Get set."
+      },
+      {
+        "start": 1256.5,
+        "duration": 1.0,
+        "text": "Vote."
+      },
+      {
+        "start": 1257.5,
+        "duration": 2.0,
+        "text": "Oh, yeah!"
+      },
+      {
+        "start": 1259.5,
+        "duration": 2.0,
+        "text": "The results are in."
+      },
+      {
+        "start": 1261.5,
+        "duration": 3.0,
+        "text": "Three of you want to go to the fair."
+      },
+      {
+        "start": 1264.5,
+        "duration": 2.0,
+        "text": "Two want to play football."
+      },
+      {
+        "start": 1266.5,
+        "duration": 3.0,
+        "text": "Four want to play Stampleines."
+      },
+      {
+        "start": 1269.5,
+        "duration": 3.0,
+        "text": "And only one vote for Mod picnic."
+      },
+      {
+        "start": 1272.5,
+        "duration": 3.0,
+        "text": "The number blobs have decided."
+      },
+      {
+        "start": 1275.5,
+        "duration": 2.0,
+        "text": "Stampleines is the winner."
+      },
+      {
+        "start": 1277.5,
+        "duration": 2.0,
+        "text": "Stampleines!"
+      },
+      {
+        "start": 1279.5,
+        "duration": 8.0,
+        "text": "Oh, they seem happy."
+      },
+      {
+        "start": 1287.5,
+        "duration": 2.0,
+        "text": "But what shall we do next?"
+      },
+      {
+        "start": 1289.5,
+        "duration": 2.0,
+        "text": "The fair sounded like fun."
+      },
+      {
+        "start": 1291.5,
+        "duration": 2.0,
+        "text": "We could go 10 pin bowling."
+      },
+      {
+        "start": 1293.5,
+        "duration": 2.0,
+        "text": "Oh, or go courting."
+      },
+      {
+        "start": 1295.5,
+        "duration": 2.0,
+        "text": "I don't suppose you..."
+      },
+      {
+        "start": 1297.5,
+        "duration": 2.0,
+        "text": "Maybe later."
+      },
+      {
+        "start": 1299.5,
+        "duration": 2.0,
+        "text": "Oh, two votes."
+      },
+      {
+        "start": 1301.5,
+        "duration": 4.0,
+        "text": "Is anyone else thinking what I'm thinking?"
+      },
+      {
+        "start": 1307.5,
+        "duration": 2.0,
+        "text": "Vote!"
+      },
+      {
+        "start": 1309.5,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 1311.5,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 1315.5,
+        "duration": 3.0,
+        "text": "Oh, bowling has two votes."
+      },
+      {
+        "start": 1318.5,
+        "duration": 2.0,
+        "text": "Go courting has three votes."
+      },
+      {
+        "start": 1320.5,
+        "duration": 4.0,
+        "text": "But fair is the winner with five votes."
+      },
+      {
+        "start": 1324.5,
+        "duration": 2.0,
+        "text": "Oh, yeah!"
+      },
+      {
+        "start": 1326.5,
+        "duration": 2.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 1328.5,
+        "duration": 3.0,
+        "text": "Is anyone else feeling hungry?"
+      },
+      {
+        "start": 1331.5,
+        "duration": 2.0,
+        "text": "No, you mention it."
+      },
+      {
+        "start": 1333.5,
+        "duration": 3.0,
+        "text": "What are we going to do?"
+      },
+      {
+        "start": 1336.5,
+        "duration": 5.0,
+        "text": "Maybe it's finally picnic time!"
+      },
+      {
+        "start": 1341.5,
+        "duration": 2.0,
+        "text": "I'll vote for that."
+      },
+      {
+        "start": 1343.5,
+        "duration": 2.0,
+        "text": "I'll get it."
+      },
+      {
+        "start": 1345.5,
+        "duration": 2.0,
+        "text": "That's strange."
+      },
+      {
+        "start": 1347.5,
+        "duration": 3.0,
+        "text": "There are four islands here."
+      },
+      {
+        "start": 1350.5,
+        "duration": 3.0,
+        "text": "But only one island on the map."
+      },
+      {
+        "start": 1353.5,
+        "duration": 3.0,
+        "text": "It's a mystery."
+      },
+      {
+        "start": 1356.5,
+        "duration": 3.0,
+        "text": "Who said that?"
+      },
+      {
+        "start": 1359.5,
+        "duration": 2.0,
+        "text": "Hello?"
+      },
+      {
+        "start": 1361.5,
+        "duration": 2.0,
+        "text": "Who?"
+      },
+      {
+        "start": 1363.5,
+        "duration": 1.0,
+        "text": "I'm one."
+      },
+      {
+        "start": 1364.5,
+        "duration": 1.0,
+        "text": "Who are you?"
+      },
+      {
+        "start": 1365.5,
+        "duration": 2.0,
+        "text": "I'm one whole."
+      },
+      {
+        "start": 1367.5,
+        "duration": 2.0,
+        "text": "I'm one whole circle."
+      },
+      {
+        "start": 1369.5,
+        "duration": 3.0,
+        "text": "And if you want to solve the mystery of these islands,"
+      },
+      {
+        "start": 1372.5,
+        "duration": 4.0,
+        "text": "you'll need to divide all my fraction friends."
+      },
+      {
+        "start": 1376.5,
+        "duration": 5.0,
+        "text": "I know what a friend is, but what's a fraction?"
+      },
+      {
+        "start": 1381.5,
+        "duration": 3.0,
+        "text": "Fractions are the parts that make a hole."
+      },
+      {
+        "start": 1384.5,
+        "duration": 2.0,
+        "text": "Who are you?"
+      },
+      {
+        "start": 1386.5,
+        "duration": 2.0,
+        "text": "I'm one half."
+      },
+      {
+        "start": 1388.5,
+        "duration": 2.0,
+        "text": "And I'm the other half."
+      },
+      {
+        "start": 1390.5,
+        "duration": 3.0,
+        "text": "We're two equal parts of a hole."
+      },
+      {
+        "start": 1393.5,
+        "duration": 2.0,
+        "text": "I'm two."
+      },
+      {
+        "start": 1395.5,
+        "duration": 2.0,
+        "text": "It's lovely to meet new friends."
+      },
+      {
+        "start": 1397.5,
+        "duration": 4.0,
+        "text": "Yes, but how does that help solve the mystery?"
+      },
+      {
+        "start": 1401.5,
+        "duration": 3.0,
+        "text": "Well, I was."
+      },
+      {
+        "start": 1407.5,
+        "duration": 3.0,
+        "text": "Being a half is great."
+      },
+      {
+        "start": 1410.5,
+        "duration": 3.0,
+        "text": "But we love to join together."
+      },
+      {
+        "start": 1413.5,
+        "duration": 4.0,
+        "text": "Two halves make one hole."
+      },
+      {
+        "start": 1417.5,
+        "duration": 7.0,
+        "text": "Two halves one hole."
+      },
+      {
+        "start": 1424.5,
+        "duration": 4.0,
+        "text": "You'll meet more fraction friends on the other islands."
+      },
+      {
+        "start": 1428.5,
+        "duration": 4.0,
+        "text": "And that's how I'll do a wheel solve the mystery."
+      },
+      {
+        "start": 1432.5,
+        "duration": 2.0,
+        "text": "There are two more islands."
+      },
+      {
+        "start": 1434.5,
+        "duration": 1.0,
+        "text": "I'll take this one."
+      },
+      {
+        "start": 1435.5,
+        "duration": 2.0,
+        "text": "You take the other."
+      },
+      {
+        "start": 1441.5,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 1444.5,
+        "duration": 3.0,
+        "text": "I'm looking for fractions."
+      },
+      {
+        "start": 1447.5,
+        "duration": 2.0,
+        "text": "We need to be quiet."
+      },
+      {
+        "start": 1453.5,
+        "duration": 2.0,
+        "text": "Oh, hello."
+      },
+      {
+        "start": 1455.5,
+        "duration": 1.0,
+        "text": "I'm three."
+      },
+      {
+        "start": 1456.5,
+        "duration": 2.0,
+        "text": "I'm one third."
+      },
+      {
+        "start": 1458.5,
+        "duration": 3.0,
+        "text": "Oh, you're smaller than one half."
+      },
+      {
+        "start": 1461.5,
+        "duration": 2.0,
+        "text": "Wait, I'm one third."
+      },
+      {
+        "start": 1463.5,
+        "duration": 1.0,
+        "text": "I'm one third."
+      },
+      {
+        "start": 1464.5,
+        "duration": 1.0,
+        "text": "No, it's me."
+      },
+      {
+        "start": 1465.5,
+        "duration": 1.0,
+        "text": "Me, me, me."
+      },
+      {
+        "start": 1466.5,
+        "duration": 2.0,
+        "text": "We're all one thirds."
+      },
+      {
+        "start": 1468.5,
+        "duration": 3.0,
+        "text": "With three equal parts of a hole."
+      },
+      {
+        "start": 1471.5,
+        "duration": 3.0,
+        "text": "Three thirds."
+      },
+      {
+        "start": 1474.5,
+        "duration": 3.0,
+        "text": "You're my kind of fraction friends."
+      },
+      {
+        "start": 1477.5,
+        "duration": 4.0,
+        "text": "And now, if you could kindly jump onto this podium."
+      },
+      {
+        "start": 1483.5,
+        "duration": 2.0,
+        "text": "What?"
+      },
+      {
+        "start": 1485.5,
+        "duration": 1.0,
+        "text": "A?"
+      },
+      {
+        "start": 1486.5,
+        "duration": 1.0,
+        "text": "No."
+      },
+      {
+        "start": 1487.5,
+        "duration": 7.0,
+        "text": "Three thirds make one hole."
+      },
+      {
+        "start": 1494.5,
+        "duration": 1.0,
+        "text": "Yes."
+      },
+      {
+        "start": 1495.5,
+        "duration": 2.0,
+        "text": "Three podiums done."
+      },
+      {
+        "start": 1497.5,
+        "duration": 2.0,
+        "text": "One more to go."
+      },
+      {
+        "start": 1504.5,
+        "duration": 2.0,
+        "text": "Huh?"
+      },
+      {
+        "start": 1509.5,
+        "duration": 2.0,
+        "text": "Found you."
+      },
+      {
+        "start": 1511.5,
+        "duration": 2.0,
+        "text": "I'm four."
+      },
+      {
+        "start": 1513.5,
+        "duration": 1.0,
+        "text": "Who are you?"
+      },
+      {
+        "start": 1514.5,
+        "duration": 2.0,
+        "text": "I'm one quarter."
+      },
+      {
+        "start": 1516.5,
+        "duration": 3.0,
+        "text": "But you can also call me one fourth."
+      },
+      {
+        "start": 1519.5,
+        "duration": 1.0,
+        "text": "Fourth?"
+      },
+      {
+        "start": 1520.5,
+        "duration": 3.0,
+        "text": "That sounds a bit like four."
+      },
+      {
+        "start": 1524.5,
+        "duration": 3.0,
+        "text": "I'm one of four equal parts of a hole."
+      },
+      {
+        "start": 1527.5,
+        "duration": 3.0,
+        "text": "So I need to find three more quarters."
+      },
+      {
+        "start": 1530.5,
+        "duration": 2.0,
+        "text": "Huh?"
+      },
+      {
+        "start": 1532.5,
+        "duration": 2.0,
+        "text": "Quarters."
+      },
+      {
+        "start": 1534.5,
+        "duration": 2.0,
+        "text": "Fourths."
+      },
+      {
+        "start": 1536.5,
+        "duration": 2.0,
+        "text": "Quarters."
+      },
+      {
+        "start": 1538.5,
+        "duration": 2.0,
+        "text": "Fourths."
+      },
+      {
+        "start": 1542.5,
+        "duration": 2.0,
+        "text": "Uh-huh."
+      },
+      {
+        "start": 1545.5,
+        "duration": 2.0,
+        "text": "Found us."
+      },
+      {
+        "start": 1547.5,
+        "duration": 1.0,
+        "text": "I'm one quarter."
+      },
+      {
+        "start": 1548.5,
+        "duration": 2.0,
+        "text": "One fourth."
+      },
+      {
+        "start": 1550.5,
+        "duration": 2.0,
+        "text": "We're all quarters."
+      },
+      {
+        "start": 1552.5,
+        "duration": 1.0,
+        "text": "All fours."
+      },
+      {
+        "start": 1553.5,
+        "duration": 3.0,
+        "text": "All friends together again."
+      },
+      {
+        "start": 1556.5,
+        "duration": 5.0,
+        "text": "No four new fraction friends."
+      },
+      {
+        "start": 1561.5,
+        "duration": 5.0,
+        "text": "Four quarters make one hole."
+      },
+      {
+        "start": 1566.5,
+        "duration": 3.0,
+        "text": "Whoa."
+      },
+      {
+        "start": 1569.5,
+        "duration": 2.0,
+        "text": "Ready, friends?"
+      },
+      {
+        "start": 1571.5,
+        "duration": 2.0,
+        "text": "One hole."
+      },
+      {
+        "start": 1573.5,
+        "duration": 3.0,
+        "text": "Two halves."
+      },
+      {
+        "start": 1576.5,
+        "duration": 2.0,
+        "text": "Three thirds."
+      },
+      {
+        "start": 1578.5,
+        "duration": 3.0,
+        "text": "Four quarters."
+      },
+      {
+        "start": 1582.5,
+        "duration": 1.0,
+        "text": "There we are."
+      },
+      {
+        "start": 1583.5,
+        "duration": 2.0,
+        "text": "Oh, oh again."
+      },
+      {
+        "start": 1585.5,
+        "duration": 3.0,
+        "text": "And you know what that means."
+      },
+      {
+        "start": 1588.5,
+        "duration": 3.0,
+        "text": "Whoa."
+      },
+      {
+        "start": 1591.5,
+        "duration": 2.0,
+        "text": "Whoa."
+      },
+      {
+        "start": 1593.5,
+        "duration": 2.0,
+        "text": "Whoa."
+      },
+      {
+        "start": 1595.5,
+        "duration": 2.0,
+        "text": "Whoa."
+      },
+      {
+        "start": 1597.5,
+        "duration": 4.0,
+        "text": "There were never meant to be four islands."
+      },
+      {
+        "start": 1601.5,
+        "duration": 4.0,
+        "text": "It was always four parts of one whole island."
+      },
+      {
+        "start": 1605.5,
+        "duration": 2.0,
+        "text": "Mystery sold."
+      },
+      {
+        "start": 1607.5,
+        "duration": 2.0,
+        "text": "And we found new friends."
+      },
+      {
+        "start": 1609.5,
+        "duration": 3.0,
+        "text": "Two fraction friends."
+      },
+      {
+        "start": 1612.5,
+        "duration": 3.0,
+        "text": "Ready, go."
+      },
+      {
+        "start": 1615.5,
+        "duration": 9.0,
+        "text": "Ten pins, eight players, four teams, but only one trophy."
+      },
+      {
+        "start": 1624.5,
+        "duration": 3.0,
+        "text": "This is the number blocks bowling championship."
+      },
+      {
+        "start": 1627.5,
+        "duration": 6.0,
+        "text": "Each player gets one ball to knock down as many pins as they can."
+      },
+      {
+        "start": 1633.5,
+        "duration": 3.0,
+        "text": "And who will add the points together for each team?"
+      },
+      {
+        "start": 1636.5,
+        "duration": 2.0,
+        "text": "I'm Mac and Rick."
+      },
+      {
+        "start": 1638.5,
+        "duration": 1.0,
+        "text": "I can't."
+      },
+      {
+        "start": 1639.5,
+        "duration": 2.0,
+        "text": "My beads will show the right amount."
+      },
+      {
+        "start": 1641.5,
+        "duration": 3.0,
+        "text": "The team with the highest score will take home the trophy."
+      },
+      {
+        "start": 1644.5,
+        "duration": 1.0,
+        "text": "Are you ready?"
+      },
+      {
+        "start": 1645.5,
+        "duration": 3.0,
+        "text": "Then let's bowl."
+      },
+      {
+        "start": 1648.5,
+        "duration": 5.0,
+        "text": "First up, team two wide."
+      },
+      {
+        "start": 1653.5,
+        "duration": 2.0,
+        "text": "No then four."
+      },
+      {
+        "start": 1655.5,
+        "duration": 2.0,
+        "text": "Don't rush this."
+      },
+      {
+        "start": 1657.5,
+        "duration": 2.0,
+        "text": "Four round thing."
+      },
+      {
+        "start": 1659.5,
+        "duration": 2.0,
+        "text": "Whoa."
+      },
+      {
+        "start": 1661.5,
+        "duration": 3.0,
+        "text": "I knocked down two pins."
+      },
+      {
+        "start": 1664.5,
+        "duration": 3.0,
+        "text": "In one push, I can't do."
+      },
+      {
+        "start": 1667.5,
+        "duration": 2.0,
+        "text": "You've knocked down two pins."
+      },
+      {
+        "start": 1669.5,
+        "duration": 1.0,
+        "text": "Good start."
+      },
+      {
+        "start": 1670.5,
+        "duration": 2.0,
+        "text": "No ball for me."
+      },
+      {
+        "start": 1672.5,
+        "duration": 1.0,
+        "text": "I've got this."
+      },
+      {
+        "start": 1673.5,
+        "duration": 3.0,
+        "text": "When I roll dice, I never miss."
+      },
+      {
+        "start": 1676.5,
+        "duration": 1.0,
+        "text": "Ten new pins."
+      },
+      {
+        "start": 1677.5,
+        "duration": 2.0,
+        "text": "Come on, dice."
+      },
+      {
+        "start": 1679.5,
+        "duration": 2.0,
+        "text": "Five knocked down."
+      },
+      {
+        "start": 1681.5,
+        "duration": 2.0,
+        "text": "Very nice."
+      },
+      {
+        "start": 1683.5,
+        "duration": 2.0,
+        "text": "Push five."
+      },
+      {
+        "start": 1685.5,
+        "duration": 4.0,
+        "text": "The total score for team two wide is five."
+      },
+      {
+        "start": 1689.5,
+        "duration": 1.0,
+        "text": "And two."
+      },
+      {
+        "start": 1690.5,
+        "duration": 4.0,
+        "text": "Two more than five is seven."
+      },
+      {
+        "start": 1695.5,
+        "duration": 3.0,
+        "text": "Next to bowl, the rainbow rollers."
+      },
+      {
+        "start": 1698.5,
+        "duration": 2.0,
+        "text": "Whoops."
+      },
+      {
+        "start": 1704.5,
+        "duration": 2.0,
+        "text": "I scored six."
+      },
+      {
+        "start": 1706.5,
+        "duration": 2.0,
+        "text": "There's lucky."
+      },
+      {
+        "start": 1708.5,
+        "duration": 1.0,
+        "text": "What's lucky?"
+      },
+      {
+        "start": 1709.5,
+        "duration": 2.0,
+        "text": "Push, next."
+      },
+      {
+        "start": 1711.5,
+        "duration": 2.0,
+        "text": "Am I turn, my turn?"
+      },
+      {
+        "start": 1713.5,
+        "duration": 1.0,
+        "text": "Boing."
+      },
+      {
+        "start": 1714.5,
+        "duration": 2.0,
+        "text": "Are we up?"
+      },
+      {
+        "start": 1718.5,
+        "duration": 2.0,
+        "text": "Six pins down."
+      },
+      {
+        "start": 1720.5,
+        "duration": 2.0,
+        "text": "A new one being good at this."
+      },
+      {
+        "start": 1722.5,
+        "duration": 1.0,
+        "text": "Push, fix."
+      },
+      {
+        "start": 1724.5,
+        "duration": 4.0,
+        "text": "The total for the rainbow rollers is six plus six."
+      },
+      {
+        "start": 1728.5,
+        "duration": 4.0,
+        "text": "That's all ten red beads and two white."
+      },
+      {
+        "start": 1732.5,
+        "duration": 3.0,
+        "text": "Ten and two is twelve."
+      },
+      {
+        "start": 1735.5,
+        "duration": 2.0,
+        "text": "A new high score."
+      },
+      {
+        "start": 1737.5,
+        "duration": 4.0,
+        "text": "Do the super strikers have what it takes?"
+      },
+      {
+        "start": 1741.5,
+        "duration": 1.0,
+        "text": "Octoblock bowl."
+      },
+      {
+        "start": 1742.5,
+        "duration": 2.0,
+        "text": "One, two, three, four, five, six, seven, eight."
+      },
+      {
+        "start": 1744.5,
+        "duration": 2.0,
+        "text": "World ball."
+      },
+      {
+        "start": 1747.5,
+        "duration": 2.0,
+        "text": "Nine pins, so close."
+      },
+      {
+        "start": 1749.5,
+        "duration": 2.0,
+        "text": "Push nine."
+      },
+      {
+        "start": 1751.5,
+        "duration": 2.0,
+        "text": "You scored nine."
+      },
+      {
+        "start": 1753.5,
+        "duration": 1.0,
+        "text": "Amazing."
+      },
+      {
+        "start": 1754.5,
+        "duration": 3.0,
+        "text": "And you still have one more bowl to bowl."
+      },
+      {
+        "start": 1757.5,
+        "duration": 3.0,
+        "text": "One, two, one, two, one, two."
+      },
+      {
+        "start": 1760.5,
+        "duration": 3.0,
+        "text": "Seven pins, nice."
+      },
+      {
+        "start": 1763.5,
+        "duration": 2.0,
+        "text": "Push seven."
+      },
+      {
+        "start": 1765.5,
+        "duration": 4.0,
+        "text": "The total for the super strikers is nine."
+      },
+      {
+        "start": 1769.5,
+        "duration": 2.0,
+        "text": "Plus seven."
+      },
+      {
+        "start": 1771.5,
+        "duration": 5.0,
+        "text": "That's all ten red beads and four and two white beads."
+      },
+      {
+        "start": 1776.5,
+        "duration": 2.0,
+        "text": "That's six."
+      },
+      {
+        "start": 1778.5,
+        "duration": 4.0,
+        "text": "Ten and six is sixteen."
+      },
+      {
+        "start": 1782.5,
+        "duration": 2.0,
+        "text": "Yeah, another high score."
+      },
+      {
+        "start": 1784.5,
+        "duration": 2.0,
+        "text": "Only one team left."
+      },
+      {
+        "start": 1786.5,
+        "duration": 3.0,
+        "text": "The ten pin teddies."
+      },
+      {
+        "start": 1789.5,
+        "duration": 2.0,
+        "text": "That's you."
+      },
+      {
+        "start": 1791.5,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 1792.5,
+        "duration": 2.0,
+        "text": "Oh."
+      },
+      {
+        "start": 1795.5,
+        "duration": 2.0,
+        "text": "He scored seven."
+      },
+      {
+        "start": 1797.5,
+        "duration": 2.0,
+        "text": "How did I do?"
+      },
+      {
+        "start": 1799.5,
+        "duration": 1.0,
+        "text": "Push seven."
+      },
+      {
+        "start": 1800.5,
+        "duration": 2.0,
+        "text": "You've scored seven."
+      },
+      {
+        "start": 1802.5,
+        "duration": 2.0,
+        "text": "The score to beat is sixteen."
+      },
+      {
+        "start": 1804.5,
+        "duration": 4.0,
+        "text": "Reckon wreck, please show us what sixteen looks like."
+      },
+      {
+        "start": 1808.5,
+        "duration": 2.0,
+        "text": "Here's sixteen."
+      },
+      {
+        "start": 1810.5,
+        "duration": 4.0,
+        "text": "Now, if we take your score of seven away from the top row."
+      },
+      {
+        "start": 1814.5,
+        "duration": 1.0,
+        "text": "Push seven."
+      },
+      {
+        "start": 1815.5,
+        "duration": 4.0,
+        "text": "We can see that you need three and six."
+      },
+      {
+        "start": 1819.5,
+        "duration": 2.0,
+        "text": "Which is nine."
+      },
+      {
+        "start": 1821.5,
+        "duration": 5.0,
+        "text": "So we need to knock down nine more pins to equal the high score of sixteen."
+      },
+      {
+        "start": 1826.5,
+        "duration": 3.0,
+        "text": "Or, oh, ten to win."
+      },
+      {
+        "start": 1829.5,
+        "duration": 2.0,
+        "text": "No pressure."
+      },
+      {
+        "start": 1831.5,
+        "duration": 2.0,
+        "text": "Oh."
+      },
+      {
+        "start": 1833.5,
+        "duration": 1.0,
+        "text": "Oh."
+      },
+      {
+        "start": 1834.5,
+        "duration": 2.0,
+        "text": "Ten to win."
+      },
+      {
+        "start": 1836.5,
+        "duration": 2.0,
+        "text": "No pressure."
+      },
+      {
+        "start": 1838.5,
+        "duration": 10.0,
+        "text": "Come on, come on."
+      },
+      {
+        "start": 1848.5,
+        "duration": 10.0,
+        "text": "Oh, sorry."
+      },
+      {
+        "start": 1858.5,
+        "duration": 3.0,
+        "text": "Oh, ten."
+      },
+      {
+        "start": 1862.5,
+        "duration": 2.0,
+        "text": "Oh, ten pins."
+      },
+      {
+        "start": 1864.5,
+        "duration": 3.0,
+        "text": "The seven pin you'll first go plus ten."
+      },
+      {
+        "start": 1867.5,
+        "duration": 3.0,
+        "text": "That makes seventeen points."
+      },
+      {
+        "start": 1870.5,
+        "duration": 3.0,
+        "text": "You won."
+      },
+      {
+        "start": 1873.5,
+        "duration": 4.0,
+        "text": "Team ten pin teddies are the winners."
+      },
+      {
+        "start": 1877.5,
+        "duration": 2.0,
+        "text": "One, hold."
+      },
+      {
+        "start": 1879.5,
+        "duration": 1.0,
+        "text": "Hello."
+      },
+      {
+        "start": 1880.5,
+        "duration": 4.0,
+        "text": "Thanks so much for inviting me to the fraction of friends."
+      },
+      {
+        "start": 1884.5,
+        "duration": 3.0,
+        "text": "I'm going to give you a chance to win."
+      },
+      {
+        "start": 1887.5,
+        "duration": 1.0,
+        "text": "Here."
+      },
+      {
+        "start": 1888.5,
+        "duration": 1.0,
+        "text": "I brought you this."
+      },
+      {
+        "start": 1889.5,
+        "duration": 1.0,
+        "text": "One, hold up."
+      },
+      {
+        "start": 1890.5,
+        "duration": 2.0,
+        "text": "For one, hold me."
+      },
+      {
+        "start": 1892.5,
+        "duration": 1.0,
+        "text": "Thank you."
+      },
+      {
+        "start": 1893.5,
+        "duration": 1.0,
+        "text": "Would you like to share?"
+      },
+      {
+        "start": 1894.5,
+        "duration": 2.0,
+        "text": "How do we share this?"
+      },
+      {
+        "start": 1896.5,
+        "duration": 2.0,
+        "text": "One, hold, pike."
+      },
+      {
+        "start": 1898.5,
+        "duration": 1.0,
+        "text": "All for you."
+      },
+      {
+        "start": 1899.5,
+        "duration": 2.0,
+        "text": "All for me."
+      },
+      {
+        "start": 1901.5,
+        "duration": 2.0,
+        "text": "All for us."
+      },
+      {
+        "start": 1903.5,
+        "duration": 5.0,
+        "text": "When you've only got one cake and your friends are coming round."
+      },
+      {
+        "start": 1908.5,
+        "duration": 3.0,
+        "text": "You know you're going to need a plan."
+      },
+      {
+        "start": 1911.5,
+        "duration": 3.0,
+        "text": "You know you're going to need a plan."
+      },
+      {
+        "start": 1914.5,
+        "duration": 4.0,
+        "text": "You know you're going to need a plan of action."
+      },
+      {
+        "start": 1918.5,
+        "duration": 5.0,
+        "text": "You're going to have to share equal parts to make it fair."
+      },
+      {
+        "start": 1923.5,
+        "duration": 4.0,
+        "text": "Divide it up to everyone's satisfaction."
+      },
+      {
+        "start": 1927.5,
+        "duration": 3.0,
+        "text": "Why not give it a try?"
+      },
+      {
+        "start": 1930.5,
+        "duration": 2.0,
+        "text": "It's as easy as pie."
+      },
+      {
+        "start": 1932.5,
+        "duration": 2.0,
+        "text": "What you need."
+      },
+      {
+        "start": 1934.5,
+        "duration": 3.0,
+        "text": "What you need."
+      },
+      {
+        "start": 1937.5,
+        "duration": 2.0,
+        "text": "Is a fraction."
+      },
+      {
+        "start": 1939.5,
+        "duration": 3.0,
+        "text": "Like us."
+      },
+      {
+        "start": 1942.5,
+        "duration": 5.0,
+        "text": "When you divide a cake into your guitar fish."
+      },
+      {
+        "start": 1947.5,
+        "duration": 4.0,
+        "text": "One half and one half make one whole."
+      },
+      {
+        "start": 1951.5,
+        "duration": 4.0,
+        "text": "One half for me and one half for you."
+      },
+      {
+        "start": 1955.5,
+        "duration": 3.0,
+        "text": "One half is what you get."
+      },
+      {
+        "start": 1958.5,
+        "duration": 2.0,
+        "text": "When you divide by two."
+      },
+      {
+        "start": 1960.5,
+        "duration": 2.0,
+        "text": "But what is one half?"
+      },
+      {
+        "start": 1962.5,
+        "duration": 2.0,
+        "text": "It's a fraction."
+      },
+      {
+        "start": 1964.5,
+        "duration": 3.0,
+        "text": "It's a fraction."
+      },
+      {
+        "start": 1967.5,
+        "duration": 4.0,
+        "text": "Divide it into pieces and a fraction."
+      },
+      {
+        "start": 1971.5,
+        "duration": 4.0,
+        "text": "You take my face and you'll make no mistake."
+      },
+      {
+        "start": 1975.5,
+        "duration": 5.0,
+        "text": "Which every were your slaves and fractions are a piece of pig."
+      },
+      {
+        "start": 1980.5,
+        "duration": 3.0,
+        "text": "I'm one half."
+      },
+      {
+        "start": 1983.5,
+        "duration": 2.0,
+        "text": "I'm one half."
+      },
+      {
+        "start": 1985.5,
+        "duration": 4.0,
+        "text": "I'm one a couple of equal parts."
+      },
+      {
+        "start": 1989.5,
+        "duration": 2.0,
+        "text": "I am one half."
+      },
+      {
+        "start": 1991.5,
+        "duration": 4.0,
+        "text": "I'm one third of each of my equal parts."
+      },
+      {
+        "start": 1995.5,
+        "duration": 2.0,
+        "text": "I'm one half of each of you."
+      },
+      {
+        "start": 1997.5,
+        "duration": 3.0,
+        "text": "Your one half is so cute."
+      },
+      {
+        "start": 2000.5,
+        "duration": 2.0,
+        "text": "It's twins!"
+      },
+      {
+        "start": 2002.5,
+        "duration": 3.4,
+        "text": "But what if more than two of you need to share?"
+      },
+      {
+        "start": 2005.9,
+        "duration": 1.0,
+        "text": "That's easy!"
+      },
+      {
+        "start": 2006.9,
+        "duration": 1.8,
+        "text": "Look here!"
+      },
+      {
+        "start": 2008.7,
+        "duration": 2.0,
+        "text": "Potato pie!"
+      },
+      {
+        "start": 2010.7,
+        "duration": 4.6,
+        "text": "When you divide a pie by three, you get one third."
+      },
+      {
+        "start": 2015.3,
+        "duration": 4.4,
+        "text": "It takes two more thirds to make one whole."
+      },
+      {
+        "start": 2019.7,
+        "duration": 3.8,
+        "text": "One third for you, and two thirds for me!"
+      },
+      {
+        "start": 2023.5,
+        "duration": 2.2,
+        "text": "One third is what you get."
+      },
+      {
+        "start": 2025.7,
+        "duration": 2.6,
+        "text": "When you divide by three."
+      },
+      {
+        "start": 2028.3,
+        "duration": 2.4,
+        "text": "Oh, three one thirds!"
+      },
+      {
+        "start": 2030.7,
+        "duration": 2.0,
+        "text": "And one third, me two!"
+      },
+      {
+        "start": 2032.7,
+        "duration": 2.4,
+        "text": "And one third, me three!"
+      },
+      {
+        "start": 2035.1,
+        "duration": 4.2,
+        "text": "And one three equal part, and one third, so arrayed!"
+      },
+      {
+        "start": 2039.3,
+        "duration": 3.8,
+        "text": "And one part of a whole that's been divided into three."
+      },
+      {
+        "start": 2043.1,
+        "duration": 3.6,
+        "text": "And one third, and one third, that's me and me."
+      },
+      {
+        "start": 2046.7,
+        "duration": 2.0,
+        "text": "And me!"
+      },
+      {
+        "start": 2048.7,
+        "duration": 5.6,
+        "text": "I see fractions are what you get when you divide things into equal parts."
+      },
+      {
+        "start": 2054.3,
+        "duration": 1.0,
+        "text": "Yes!"
+      },
+      {
+        "start": 2055.3,
+        "duration": 2.0,
+        "text": "It's easy when you know how."
+      },
+      {
+        "start": 2057.3,
+        "duration": 1.4,
+        "text": "Pizza!"
+      },
+      {
+        "start": 2058.7,
+        "duration": 3.4,
+        "text": "When you divide a pizza by four, you get one quarter."
+      },
+      {
+        "start": 2062.1,
+        "duration": 1.0,
+        "text": "That's one fourth!"
+      },
+      {
+        "start": 2063.1,
+        "duration": 4.4,
+        "text": "And you know that four quarters make one whole."
+      },
+      {
+        "start": 2067.5,
+        "duration": 4.2,
+        "text": "One quarter for you, and we still got three more."
+      },
+      {
+        "start": 2071.7,
+        "duration": 4.4,
+        "text": "One quarter is what you get when you divide by four."
+      },
+      {
+        "start": 2076.1,
+        "duration": 1.6,
+        "text": "What's a quarter?"
+      },
+      {
+        "start": 2077.7,
+        "duration": 2.0,
+        "text": "It's a four!"
+      },
+      {
+        "start": 2079.7,
+        "duration": 2.2,
+        "text": "I'm one quarter, so am I!"
+      },
+      {
+        "start": 2081.9,
+        "duration": 2.4,
+        "text": "I'm one quarter, so arrayed!"
+      },
+      {
+        "start": 2084.3,
+        "duration": 3.8,
+        "text": "I'm one of four equal parts, I'm one quarter."
+      },
+      {
+        "start": 2088.1,
+        "duration": 4.2,
+        "text": "I'm one part of a whole that's been divided into four."
+      },
+      {
+        "start": 2092.3,
+        "duration": 2.2,
+        "text": "I'm one quarter, I'm one quarter."
+      },
+      {
+        "start": 2094.5,
+        "duration": 2.0,
+        "text": "For sure!"
+      },
+      {
+        "start": 2096.5,
+        "duration": 5.8,
+        "text": "Halls, halves, thirds, quarters, there must be more."
+      },
+      {
+        "start": 2102.3,
+        "duration": 1.8,
+        "text": "Fractions never end!"
+      },
+      {
+        "start": 2104.1,
+        "duration": 7.0,
+        "text": "There are fifths, sixths, sevenths, eighths,"
+      },
+      {
+        "start": 2111.1,
+        "duration": 3.2,
+        "text": "ninths, and..."
+      },
+      {
+        "start": 2114.3,
+        "duration": 1.0,
+        "text": "Tarts?"
+      },
+      {
+        "start": 2115.3,
+        "duration": 2.0,
+        "text": "That's right!"
+      },
+      {
+        "start": 2117.3,
+        "duration": 2.0,
+        "text": "Ten to ten!"
+      },
+      {
+        "start": 2119.3,
+        "duration": 4.0,
+        "text": "No matter how small, if it's a part of a whole..."
+      },
+      {
+        "start": 2123.3,
+        "duration": 2.0,
+        "text": "Interaction!"
+      },
+      {
+        "start": 2125.3,
+        "duration": 2.6,
+        "text": "Interaction!"
+      },
+      {
+        "start": 2127.9,
+        "duration": 4.2,
+        "text": "Flying into pieces is a fraction!"
+      },
+      {
+        "start": 2132.1,
+        "duration": 4.0,
+        "text": "Take my advice until make no mistake."
+      },
+      {
+        "start": 2136.3,
+        "duration": 2.2,
+        "text": "Whichever way you slice it,"
+      },
+      {
+        "start": 2138.5,
+        "duration": 2.2,
+        "text": "Fractions are a piece of cake."
+      },
+      {
+        "start": 2140.7,
+        "duration": 7.2,
+        "text": "Fractions are a piece of cake."
+      },
+      {
+        "start": 2147.9,
+        "duration": 1.4,
+        "text": "Or pizza!"
+      },
+      {
+        "start": 2149.3,
+        "duration": 1.0,
+        "text": "Or pie!"
+      },
+      {
+        "start": 2150.3,
+        "duration": 2.0,
+        "text": "Or anything you like."
+      },
+      {
+        "start": 2153.3,
+        "duration": 1.0,
+        "text": "No!"
+      },
+      {
+        "start": 2154.3,
+        "duration": 1.0,
+        "text": "Routing!"
+      },
+      {
+        "start": 2155.3,
+        "duration": 1.0,
+        "text": "Our ball!"
+      },
+      {
+        "start": 2156.3,
+        "duration": 2.0,
+        "text": "It's flat!"
+      },
+      {
+        "start": 2158.3,
+        "duration": 3.0,
+        "text": "Hmm, what's all the noise?"
+      },
+      {
+        "start": 2161.3,
+        "duration": 4.0,
+        "text": "Oh, I don't think that's a wall at all."
+      },
+      {
+        "start": 2165.3,
+        "duration": 2.0,
+        "text": "I think that's flat!"
+      },
+      {
+        "start": 2167.3,
+        "duration": 3.0,
+        "text": "Oh, I think that's flat!"
+      },
+      {
+        "start": 2170.3,
+        "duration": 3.0,
+        "text": "I think that's flat!"
+      },
+      {
+        "start": 2173.3,
+        "duration": 4.0,
+        "text": "I think that's flat!"
+      },
+      {
+        "start": 2177.3,
+        "duration": 2.0,
+        "text": "I think that's flat!"
+      },
+      {
+        "start": 2180.3,
+        "duration": 2.0,
+        "text": "Hello, Square!"
+      },
+      {
+        "start": 2182.3,
+        "duration": 2.0,
+        "text": "Can we have our ball back, please?"
+      },
+      {
+        "start": 2184.3,
+        "duration": 1.0,
+        "text": "Ball!"
+      },
+      {
+        "start": 2185.3,
+        "duration": 1.0,
+        "text": "You mean the circle?"
+      },
+      {
+        "start": 2186.3,
+        "duration": 5.0,
+        "text": "I always wanted to visit Sticky Ootyland."
+      },
+      {
+        "start": 2191.3,
+        "duration": 3.0,
+        "text": "Here I come!"
+      },
+      {
+        "start": 2194.3,
+        "duration": 4.0,
+        "text": "Oh, he's as flat as a pancake."
+      },
+      {
+        "start": 2198.3,
+        "duration": 3.0,
+        "text": "Souls are a ball."
+      },
+      {
+        "start": 2201.3,
+        "duration": 2.0,
+        "text": "You're changing shape."
+      },
+      {
+        "start": 2203.3,
+        "duration": 1.0,
+        "text": "You're a square."
+      },
+      {
+        "start": 2204.3,
+        "duration": 1.0,
+        "text": "No!"
+      },
+      {
+        "start": 2205.3,
+        "duration": 1.0,
+        "text": "Red dangle!"
+      },
+      {
+        "start": 2206.3,
+        "duration": 1.0,
+        "text": "No!"
+      },
+      {
+        "start": 2207.3,
+        "duration": 1.0,
+        "text": "Red dangle!"
+      },
+      {
+        "start": 2208.3,
+        "duration": 1.0,
+        "text": "No!"
+      },
+      {
+        "start": 2209.3,
+        "duration": 2.0,
+        "text": "All sorts of things!"
+      },
+      {
+        "start": 2211.3,
+        "duration": 5.0,
+        "text": "You're seeing different bits of four as you move around."
+      },
+      {
+        "start": 2216.3,
+        "duration": 5.0,
+        "text": "Try looking at each of my surfaces straight on."
+      },
+      {
+        "start": 2221.3,
+        "duration": 3.0,
+        "text": "From the side, I see a square."
+      },
+      {
+        "start": 2224.3,
+        "duration": 2.0,
+        "text": "From the top, another square."
+      },
+      {
+        "start": 2226.3,
+        "duration": 3.0,
+        "text": "And from the front, a square again."
+      },
+      {
+        "start": 2229.3,
+        "duration": 4.0,
+        "text": "A square on every surface."
+      },
+      {
+        "start": 2233.3,
+        "duration": 3.0,
+        "text": "Ooh, let's try something."
+      },
+      {
+        "start": 2236.3,
+        "duration": 3.0,
+        "text": "Hey, squares!"
+      },
+      {
+        "start": 2239.3,
+        "duration": 2.0,
+        "text": "Let's have a square at the bottom,"
+      },
+      {
+        "start": 2241.3,
+        "duration": 3.0,
+        "text": "a square on the left, and one on the right,"
+      },
+      {
+        "start": 2244.3,
+        "duration": 2.0,
+        "text": "sticking straight up."
+      },
+      {
+        "start": 2246.3,
+        "duration": 4.0,
+        "text": "Two more in the gaps there, and one more square on top."
+      },
+      {
+        "start": 2250.3,
+        "duration": 4.0,
+        "text": "Six squares, make one cube!"
+      },
+      {
+        "start": 2254.3,
+        "duration": 4.0,
+        "text": "Well, well, flat shapes like squares."
+      },
+      {
+        "start": 2258.3,
+        "duration": 5.0,
+        "text": "And join up to make soul in shapes like cubes."
+      },
+      {
+        "start": 2263.3,
+        "duration": 2.0,
+        "text": "Oh, that looks fun."
+      },
+      {
+        "start": 2265.3,
+        "duration": 3.0,
+        "text": "How about some three-sided shapes?"
+      },
+      {
+        "start": 2268.3,
+        "duration": 3.0,
+        "text": "No, you're talking."
+      },
+      {
+        "start": 2271.3,
+        "duration": 2.0,
+        "text": "You lie down here."
+      },
+      {
+        "start": 2273.3,
+        "duration": 5.0,
+        "text": "You can fit on there, and you go there."
+      },
+      {
+        "start": 2278.3,
+        "duration": 2.0,
+        "text": "There's a gap."
+      },
+      {
+        "start": 2280.3,
+        "duration": 3.0,
+        "text": "Lean in so you're touching,"
+      },
+      {
+        "start": 2283.3,
+        "duration": 4.0,
+        "text": "which just leaves room for one more triangle,"
+      },
+      {
+        "start": 2287.3,
+        "duration": 4.0,
+        "text": "making a pyramid with triangle base,"
+      },
+      {
+        "start": 2291.3,
+        "duration": 2.0,
+        "text": "and one, two, three."
+      },
+      {
+        "start": 2293.3,
+        "duration": 4.0,
+        "text": "Three more triangles, meeting at a point."
+      },
+      {
+        "start": 2297.3,
+        "duration": 3.0,
+        "text": "Making four triangles in all."
+      },
+      {
+        "start": 2300.3,
+        "duration": 2.0,
+        "text": "What?"
+      },
+      {
+        "start": 2302.3,
+        "duration": 2.0,
+        "text": "What about circles?"
+      },
+      {
+        "start": 2304.3,
+        "duration": 3.0,
+        "text": "Circles have one curved edge."
+      },
+      {
+        "start": 2307.3,
+        "duration": 6.0,
+        "text": "Look, this is a solid shape with a circle on the top."
+      },
+      {
+        "start": 2313.3,
+        "duration": 2.0,
+        "text": "And another on the bottom."
+      },
+      {
+        "start": 2315.3,
+        "duration": 3.0,
+        "text": "But how do we make this bit?"
+      },
+      {
+        "start": 2318.3,
+        "duration": 3.0,
+        "text": "From here, it looks like a square."
+      },
+      {
+        "start": 2321.3,
+        "duration": 4.0,
+        "text": "Maybe if I try bending."
+      },
+      {
+        "start": 2325.3,
+        "duration": 4.0,
+        "text": "You'd need to be wider, like a long rectangle."
+      },
+      {
+        "start": 2329.3,
+        "duration": 3.0,
+        "text": "But somebody say rectangle?"
+      },
+      {
+        "start": 2332.3,
+        "duration": 3.0,
+        "text": "Let's wrap this up."
+      },
+      {
+        "start": 2335.3,
+        "duration": 1.0,
+        "text": "Great."
+      },
+      {
+        "start": 2336.3,
+        "duration": 3.0,
+        "text": "Now two circles, please."
+      },
+      {
+        "start": 2339.3,
+        "duration": 4.0,
+        "text": "To fit in those two gaps."
+      },
+      {
+        "start": 2343.3,
+        "duration": 4.0,
+        "text": "I'm not impressed by some cylinder."
+      },
+      {
+        "start": 2347.3,
+        "duration": 2.0,
+        "text": "You should be."
+      },
+      {
+        "start": 2349.3,
+        "duration": 5.0,
+        "text": "A cylinder is a solid shape with three surfaces."
+      },
+      {
+        "start": 2354.3,
+        "duration": 3.0,
+        "text": "Oh, I love it."
+      },
+      {
+        "start": 2357.3,
+        "duration": 3.0,
+        "text": "This shape here has a circle on the bottom."
+      },
+      {
+        "start": 2360.3,
+        "duration": 3.0,
+        "text": "But what about this soothing surface?"
+      },
+      {
+        "start": 2363.3,
+        "duration": 2.0,
+        "text": "Powerful moment."
+      },
+      {
+        "start": 2365.3,
+        "duration": 2.0,
+        "text": "I'm half a circle."
+      },
+      {
+        "start": 2367.3,
+        "duration": 2.0,
+        "text": "A semicircle."
+      },
+      {
+        "start": 2369.3,
+        "duration": 3.0,
+        "text": "Let me give this bending thing a go."
+      },
+      {
+        "start": 2378.3,
+        "duration": 2.0,
+        "text": "Well, well."
+      },
+      {
+        "start": 2380.3,
+        "duration": 4.0,
+        "text": "So a cone is a solid shape with two surfaces."
+      },
+      {
+        "start": 2384.3,
+        "duration": 3.0,
+        "text": "One flat and one curved."
+      },
+      {
+        "start": 2387.3,
+        "duration": 3.0,
+        "text": "Oh, this is so much fun."
+      },
+      {
+        "start": 2390.3,
+        "duration": 3.0,
+        "text": "But we still haven't got our ball back."
+      },
+      {
+        "start": 2393.3,
+        "duration": 3.0,
+        "text": "I heard a story once about a circle"
+      },
+      {
+        "start": 2396.3,
+        "duration": 4.0,
+        "text": "whose span really, really fast steps."
+      },
+      {
+        "start": 2400.3,
+        "duration": 3.0,
+        "text": "It just fear, appear."
+      },
+      {
+        "start": 2403.3,
+        "duration": 5.0,
+        "text": "Wow, a solid shape with just one curved surface."
+      },
+      {
+        "start": 2408.3,
+        "duration": 2.0,
+        "text": "Amazing."
+      },
+      {
+        "start": 2410.3,
+        "duration": 2.0,
+        "text": "We didn't get our ball back."
+      },
+      {
+        "start": 2412.3,
+        "duration": 3.0,
+        "text": "We got a bigger ball instead."
+      },
+      {
+        "start": 2415.3,
+        "duration": 1.0,
+        "text": "Hooray!"
+      },
+      {
+        "start": 2416.3,
+        "duration": 2.0,
+        "text": "What play for all?"
+      },
+      {
+        "start": 2418.3,
+        "duration": 3.0,
+        "text": "Hooray!"
+      },
+      {
+        "start": 2421.3,
+        "duration": 2.0,
+        "text": "Hooray!"
+      },
+      {
+        "start": 2423.3,
+        "duration": 3.0,
+        "text": "Play for it!"
+      },
+      {
+        "start": 2429.3,
+        "duration": 3.0,
+        "text": "Here it is, everybody."
+      },
+      {
+        "start": 2432.3,
+        "duration": 2.0,
+        "text": "Oh, hooray!"
+      },
+      {
+        "start": 2434.3,
+        "duration": 3.0,
+        "text": "Cuboid castle construction kit."
+      },
+      {
+        "start": 2437.3,
+        "duration": 3.0,
+        "text": "Oh, what's a cuboid?"
+      },
+      {
+        "start": 2440.3,
+        "duration": 2.0,
+        "text": "Let's find out."
+      },
+      {
+        "start": 2442.3,
+        "duration": 3.0,
+        "text": "Oh, boi!"
+      },
+      {
+        "start": 2446.3,
+        "duration": 3.0,
+        "text": "They can't all be cuboids."
+      },
+      {
+        "start": 2449.3,
+        "duration": 1.0,
+        "text": "Can they?"
+      },
+      {
+        "start": 2450.3,
+        "duration": 3.0,
+        "text": "Um, they're all coy boxy."
+      },
+      {
+        "start": 2453.3,
+        "duration": 4.0,
+        "text": "Ha, why don't they just call it boxy castle?"
+      },
+      {
+        "start": 2457.3,
+        "duration": 2.0,
+        "text": "Cuboid indeed."
+      },
+      {
+        "start": 2459.3,
+        "duration": 2.0,
+        "text": "I like cuboid."
+      },
+      {
+        "start": 2461.3,
+        "duration": 2.0,
+        "text": "Sounds a bit like cub."
+      },
+      {
+        "start": 2463.3,
+        "duration": 3.0,
+        "text": "Square, square, square, square, square, square."
+      },
+      {
+        "start": 2466.3,
+        "duration": 1.0,
+        "text": "Square, square."
+      },
+      {
+        "start": 2467.3,
+        "duration": 3.0,
+        "text": "Oh, I do like cubes."
+      },
+      {
+        "start": 2470.3,
+        "duration": 3.0,
+        "text": "This one has square faces too."
+      },
+      {
+        "start": 2473.3,
+        "duration": 2.0,
+        "text": "Here and here."
+      },
+      {
+        "start": 2475.3,
+        "duration": 2.0,
+        "text": "But the other face is erect angles."
+      },
+      {
+        "start": 2477.3,
+        "duration": 3.0,
+        "text": "A square is a rectangle."
+      },
+      {
+        "start": 2480.3,
+        "duration": 6.0,
+        "text": "Remember a special one with all sides the same length."
+      },
+      {
+        "start": 2486.3,
+        "duration": 5.0,
+        "text": "Which means all these shapes have rectangular faces."
+      },
+      {
+        "start": 2491.3,
+        "duration": 3.0,
+        "text": "Then that must be what a cuboid is."
+      },
+      {
+        "start": 2494.3,
+        "duration": 4.0,
+        "text": "A solid shape made of six rectangles."
+      },
+      {
+        "start": 2504.3,
+        "duration": 2.0,
+        "text": "Here are the instructions."
+      },
+      {
+        "start": 2506.3,
+        "duration": 2.0,
+        "text": "We can work it out together."
+      },
+      {
+        "start": 2508.3,
+        "duration": 2.0,
+        "text": "One step at a time."
+      },
+      {
+        "start": 2510.3,
+        "duration": 3.0,
+        "text": "And the first step is some steps."
+      },
+      {
+        "start": 2513.3,
+        "duration": 3.0,
+        "text": "We need three different cubes."
+      },
+      {
+        "start": 2516.3,
+        "duration": 4.0,
+        "text": "One small, one medium, one big."
+      },
+      {
+        "start": 2520.3,
+        "duration": 2.0,
+        "text": "Oh, here's one."
+      },
+      {
+        "start": 2522.3,
+        "duration": 1.0,
+        "text": "And another."
+      },
+      {
+        "start": 2523.3,
+        "duration": 1.0,
+        "text": "I've got this one."
+      },
+      {
+        "start": 2524.3,
+        "duration": 2.0,
+        "text": "But the small cube on the left."
+      },
+      {
+        "start": 2526.3,
+        "duration": 3.0,
+        "text": "The large cube on the right."
+      },
+      {
+        "start": 2529.3,
+        "duration": 3.0,
+        "text": "And the medium cube in between them."
+      },
+      {
+        "start": 2532.3,
+        "duration": 3.0,
+        "text": "Small cube on the left."
+      },
+      {
+        "start": 2535.3,
+        "duration": 2.0,
+        "text": "Large cube on the right."
+      },
+      {
+        "start": 2537.3,
+        "duration": 3.0,
+        "text": "And this goes in the middle."
+      },
+      {
+        "start": 2540.3,
+        "duration": 2.0,
+        "text": "A good, good, good."
+      },
+      {
+        "start": 2542.3,
+        "duration": 6.0,
+        "text": "Now we need a really long thin flat cuboid."
+      },
+      {
+        "start": 2548.3,
+        "duration": 4.0,
+        "text": "Long flat and thin."
+      },
+      {
+        "start": 2552.3,
+        "duration": 4.0,
+        "text": "Oh, like this."
+      },
+      {
+        "start": 2556.3,
+        "duration": 2.0,
+        "text": "Perfect."
+      },
+      {
+        "start": 2558.3,
+        "duration": 4.0,
+        "text": "Now connect one end to the top of the large cube."
+      },
+      {
+        "start": 2562.3,
+        "duration": 3.0,
+        "text": "So it slopes down to the right."
+      },
+      {
+        "start": 2565.3,
+        "duration": 4.0,
+        "text": "Oh, it's a slide."
+      },
+      {
+        "start": 2569.3,
+        "duration": 4.0,
+        "text": "Hold on."
+      },
+      {
+        "start": 2573.3,
+        "duration": 4.0,
+        "text": "We still have lots of cuboids to go."
+      },
+      {
+        "start": 2577.3,
+        "duration": 4.0,
+        "text": "So let's get building."
+      },
+      {
+        "start": 2600.3,
+        "duration": 3.0,
+        "text": "They're finished."
+      },
+      {
+        "start": 2603.3,
+        "duration": 3.0,
+        "text": "Oh, right."
+      },
+      {
+        "start": 2610.3,
+        "duration": 2.0,
+        "text": "There's one cuboid left."
+      },
+      {
+        "start": 2612.3,
+        "duration": 4.0,
+        "text": "We must have missed something."
+      },
+      {
+        "start": 2616.3,
+        "duration": 2.0,
+        "text": "Four, there you are."
+      },
+      {
+        "start": 2618.3,
+        "duration": 2.0,
+        "text": "You forgot this."
+      },
+      {
+        "start": 2620.3,
+        "duration": 7.0,
+        "text": "The pyramids and triangular prisms expansion pack."
+      },
+      {
+        "start": 2627.3,
+        "duration": 7.0,
+        "text": "This must be a triangular prism with a triangular each end joined up by rectangles."
+      },
+      {
+        "start": 2634.3,
+        "duration": 3.0,
+        "text": "Oh, I see."
+      },
+      {
+        "start": 2637.3,
+        "duration": 3.0,
+        "text": "Two, put that prism down there."
+      },
+      {
+        "start": 2640.3,
+        "duration": 5.0,
+        "text": "One, four, put the long cube on top so it balances in the middle."
+      },
+      {
+        "start": 2645.3,
+        "duration": 3.0,
+        "text": "It's a sea saw."
+      },
+      {
+        "start": 2648.3,
+        "duration": 3.0,
+        "text": "Oh, hey!"
+      },
+      {
+        "start": 2652.3,
+        "duration": 5.0,
+        "text": "We have finished yet."
+      },
+      {
+        "start": 2667.3,
+        "duration": 2.0,
+        "text": "Wait."
+      },
+      {
+        "start": 2669.3,
+        "duration": 3.0,
+        "text": "Where are the number blobs?"
+      },
+      {
+        "start": 2675.3,
+        "duration": 3.0,
+        "text": "Oxy castle!"
+      },
+      {
+        "start": 2682.3,
+        "duration": 2.0,
+        "text": "Oh, hey!"
+      },
+      {
+        "start": 2690.3,
+        "duration": 4.0,
+        "text": "Welcome to Table Spitters!"
+      },
+      {
+        "start": 2694.3,
+        "duration": 2.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 2696.3,
+        "duration": 5.0,
+        "text": "Please welcome to Days Contestant, the six times table."
+      },
+      {
+        "start": 2701.3,
+        "duration": 3.0,
+        "text": "I'm a six-town table keeping it real."
+      },
+      {
+        "start": 2704.3,
+        "duration": 4.0,
+        "text": "Let's go, go, go, and spin that wheel."
+      },
+      {
+        "start": 2708.3,
+        "duration": 4.0,
+        "text": "Now let's meet the team that she'll be trying to find."
+      },
+      {
+        "start": 2712.3,
+        "duration": 3.0,
+        "text": "Give it up for the rolling sixes."
+      },
+      {
+        "start": 2715.3,
+        "duration": 3.0,
+        "text": "Six!"
+      },
+      {
+        "start": 2718.3,
+        "duration": 13.0,
+        "text": "Six, twelve, eighteen, twenty-four, fourteen, thirty-six, forty-two, forty-eight, fifty-four, sixteen."
+      },
+      {
+        "start": 2731.3,
+        "duration": 3.0,
+        "text": "That's today's team."
+      },
+      {
+        "start": 2734.3,
+        "duration": 3.0,
+        "text": "Now you see them, now you don't."
+      },
+      {
+        "start": 2738.3,
+        "duration": 3.0,
+        "text": "It's up to you to find them again."
+      },
+      {
+        "start": 2741.3,
+        "duration": 3.0,
+        "text": "Let's start with round one."
+      },
+      {
+        "start": 2744.3,
+        "duration": 4.0,
+        "text": "Which of your team are behind these first three doors?"
+      },
+      {
+        "start": 2748.3,
+        "duration": 2.0,
+        "text": "That's an easy start."
+      },
+      {
+        "start": 2750.3,
+        "duration": 2.0,
+        "text": "One, six, this is six."
+      },
+      {
+        "start": 2752.3,
+        "duration": 3.0,
+        "text": "Two, six, this is our twelve."
+      },
+      {
+        "start": 2755.3,
+        "duration": 4.0,
+        "text": "And three, sixes are eighteen."
+      },
+      {
+        "start": 2759.3,
+        "duration": 3.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 2762.3,
+        "duration": 3.0,
+        "text": "You got that answer at speed."
+      },
+      {
+        "start": 2765.3,
+        "duration": 3.0,
+        "text": "Time for round two."
+      },
+      {
+        "start": 2768.3,
+        "duration": 5.0,
+        "text": "Who's hiding behind door number ten?"
+      },
+      {
+        "start": 2773.3,
+        "duration": 3.0,
+        "text": "I know that one, ten times six."
+      },
+      {
+        "start": 2776.3,
+        "duration": 2.0,
+        "text": "That's sixty."
+      },
+      {
+        "start": 2778.3,
+        "duration": 2.0,
+        "text": "Yay!"
+      },
+      {
+        "start": 2780.3,
+        "duration": 3.0,
+        "text": "You can count on me, literally."
+      },
+      {
+        "start": 2783.3,
+        "duration": 3.0,
+        "text": "The next question is trickier."
+      },
+      {
+        "start": 2786.3,
+        "duration": 4.0,
+        "text": "Who's behind door number nine?"
+      },
+      {
+        "start": 2790.3,
+        "duration": 1.0,
+        "text": "Hmm."
+      },
+      {
+        "start": 2791.3,
+        "duration": 7.0,
+        "text": "Well, if ten sixes are sixty, nine sixes are six less than sixty."
+      },
+      {
+        "start": 2798.3,
+        "duration": 2.0,
+        "text": "Six less than ten is four."
+      },
+      {
+        "start": 2800.3,
+        "duration": 5.0,
+        "text": "So, six less than sixty is fifty-four."
+      },
+      {
+        "start": 2805.3,
+        "duration": 2.0,
+        "text": "That's me!"
+      },
+      {
+        "start": 2807.3,
+        "duration": 2.0,
+        "text": "Hi everyone!"
+      },
+      {
+        "start": 2809.3,
+        "duration": 5.0,
+        "text": "I love games with Gritzin, as I believe my bowtie shows."
+      },
+      {
+        "start": 2814.3,
+        "duration": 3.0,
+        "text": "We've filled in the start."
+      },
+      {
+        "start": 2817.3,
+        "duration": 2.0,
+        "text": "We've filled in the end."
+      },
+      {
+        "start": 2819.3,
+        "duration": 3.0,
+        "text": "So let's head for the middle."
+      },
+      {
+        "start": 2822.3,
+        "duration": 3.0,
+        "text": "Time for round three."
+      },
+      {
+        "start": 2825.3,
+        "duration": 4.0,
+        "text": "Who's behind this door?"
+      },
+      {
+        "start": 2829.3,
+        "duration": 4.0,
+        "text": "Some friendly neighbors might give you a clue."
+      },
+      {
+        "start": 2833.3,
+        "duration": 3.0,
+        "text": "Four sixes are twenty-four."
+      },
+      {
+        "start": 2836.3,
+        "duration": 5.0,
+        "text": "It's me, thirty-six, the puzzle square."
+      },
+      {
+        "start": 2841.3,
+        "duration": 1.0,
+        "text": "Hmm."
+      },
+      {
+        "start": 2842.3,
+        "duration": 4.0,
+        "text": "Well, if you're square, you must be six sixes."
+      },
+      {
+        "start": 2846.3,
+        "duration": 3.0,
+        "text": "So the door before is five sixes."
+      },
+      {
+        "start": 2849.3,
+        "duration": 5.0,
+        "text": "And six less than thirty-six is thirty."
+      },
+      {
+        "start": 2854.3,
+        "duration": 3.0,
+        "text": "That's what five sixes are thirty."
+      },
+      {
+        "start": 2857.3,
+        "duration": 3.0,
+        "text": "You're on a roll now, my friend."
+      },
+      {
+        "start": 2860.3,
+        "duration": 2.0,
+        "text": "You certainly are."
+      },
+      {
+        "start": 2862.3,
+        "duration": 2.0,
+        "text": "You filled in the hole first half."
+      },
+      {
+        "start": 2864.3,
+        "duration": 5.0,
+        "text": "Six, twelve, eighteen, twenty-four, thirty."
+      },
+      {
+        "start": 2869.3,
+        "duration": 3.0,
+        "text": "And thirty-six."
+      },
+      {
+        "start": 2872.3,
+        "duration": 3.0,
+        "text": "So it's time for the final round."
+      },
+      {
+        "start": 2875.3,
+        "duration": 3.0,
+        "text": "Time for round three."
+      },
+      {
+        "start": 2878.3,
+        "duration": 6.0,
+        "text": "How do you work out which of your team is hiding behind this door?"
+      },
+      {
+        "start": 2884.3,
+        "duration": 2.0,
+        "text": "Here are your clues."
+      },
+      {
+        "start": 2886.3,
+        "duration": 4.0,
+        "text": "Who is the step-shaped stranger?"
+      },
+      {
+        "start": 2890.3,
+        "duration": 3.0,
+        "text": "Heats me again thirty-six."
+      },
+      {
+        "start": 2893.3,
+        "duration": 2.0,
+        "text": "I'm forty-eight."
+      },
+      {
+        "start": 2895.3,
+        "duration": 1.0,
+        "text": "Activate!"
+      },
+      {
+        "start": 2896.3,
+        "duration": 3.0,
+        "text": "Eight Jokey Sixes!"
+      },
+      {
+        "start": 2899.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 2901.3,
+        "duration": 6.0,
+        "text": "So to fill a void, can you find the ultimate answer?"
+      },
+      {
+        "start": 2907.3,
+        "duration": 1.0,
+        "text": "I think so."
+      },
+      {
+        "start": 2908.3,
+        "duration": 4.0,
+        "text": "The number I need is six more than thirty-six."
+      },
+      {
+        "start": 2912.3,
+        "duration": 3.0,
+        "text": "And six less than forty-eight."
+      },
+      {
+        "start": 2915.3,
+        "duration": 4.0,
+        "text": "Now, six less than eight is two."
+      },
+      {
+        "start": 2919.3,
+        "duration": 7.0,
+        "text": "So six less than forty-eight is forty-two."
+      },
+      {
+        "start": 2926.3,
+        "duration": 4.0,
+        "text": "Oh dear."
+      },
+      {
+        "start": 2930.3,
+        "duration": 5.0,
+        "text": "I think my friend forty-two is having teleporting trouble again."
+      },
+      {
+        "start": 2935.3,
+        "duration": 5.0,
+        "text": "Seven sixes in the sky."
+      },
+      {
+        "start": 2940.3,
+        "duration": 3.0,
+        "text": "Making forty-two."
+      },
+      {
+        "start": 2943.3,
+        "duration": 2.0,
+        "text": "Ha-ha! Don't panic. Here I am."
+      },
+      {
+        "start": 2945.3,
+        "duration": 3.0,
+        "text": "And with forty-eight, fifty-four and sixty,"
+      },
+      {
+        "start": 2948.3,
+        "duration": 4.0,
+        "text": "you found all the rolling sixes."
+      },
+      {
+        "start": 2957.3,
+        "duration": 2.0,
+        "text": "See you next time everybody."
+      },
+      {
+        "start": 2961.3,
+        "duration": 2.0,
+        "text": "My board game club."
+      },
+      {
+        "start": 2963.3,
+        "duration": 2.0,
+        "text": "I just can't wait."
+      },
+      {
+        "start": 2965.3,
+        "duration": 3.0,
+        "text": "I hope my special guest's not late."
+      },
+      {
+        "start": 2968.3,
+        "duration": 1.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 2969.3,
+        "duration": 2.0,
+        "text": "Oh, are you early?"
+      },
+      {
+        "start": 2971.3,
+        "duration": 1.0,
+        "text": "I approve."
+      },
+      {
+        "start": 2972.3,
+        "duration": 3.0,
+        "text": "Come in and show us your first move."
+      },
+      {
+        "start": 2975.3,
+        "duration": 2.0,
+        "text": "Show you my moves."
+      },
+      {
+        "start": 2977.3,
+        "duration": 1.0,
+        "text": "Of course."
+      },
+      {
+        "start": 2978.3,
+        "duration": 3.0,
+        "text": "Lucky for you, this superhero was passing."
+      },
+      {
+        "start": 2981.3,
+        "duration": 2.0,
+        "text": "What's the problem?"
+      },
+      {
+        "start": 2983.3,
+        "duration": 1.0,
+        "text": "A superhero?"
+      },
+      {
+        "start": 2984.3,
+        "duration": 1.0,
+        "text": "How bizarre."
+      },
+      {
+        "start": 2985.3,
+        "duration": 3.0,
+        "text": "Are you not too, I think, you are?"
+      },
+      {
+        "start": 2988.3,
+        "duration": 1.0,
+        "text": "Hello?"
+      },
+      {
+        "start": 2989.3,
+        "duration": 2.0,
+        "text": "Sorry I'm late."
+      },
+      {
+        "start": 2991.3,
+        "duration": 3.0,
+        "text": "I cannot wait to be your guest of honour"
+      },
+      {
+        "start": 2994.3,
+        "duration": 3.0,
+        "text": "and play loads of lovely board games."
+      },
+      {
+        "start": 2997.3,
+        "duration": 3.0,
+        "text": "Oh, Dotson Boxes."
+      },
+      {
+        "start": 3000.3,
+        "duration": 2.0,
+        "text": "My favourite."
+      },
+      {
+        "start": 3002.3,
+        "duration": 3.0,
+        "text": "I love games on grids."
+      },
+      {
+        "start": 3005.3,
+        "duration": 2.0,
+        "text": "You're fifty-four."
+      },
+      {
+        "start": 3007.3,
+        "duration": 1.0,
+        "text": "I'm in a mix."
+      },
+      {
+        "start": 3008.3,
+        "duration": 3.0,
+        "text": "So you're my guest, not fifty-six."
+      },
+      {
+        "start": 3011.3,
+        "duration": 2.0,
+        "text": "Ha-ha! Don't worry."
+      },
+      {
+        "start": 3013.3,
+        "duration": 3.0,
+        "text": "Happens all the time, doesn't it, fifty-six?"
+      },
+      {
+        "start": 3016.3,
+        "duration": 2.0,
+        "text": "Very true, fifty-four."
+      },
+      {
+        "start": 3018.3,
+        "duration": 3.0,
+        "text": "Lots of people mix this up at first sight, after all."
+      },
+      {
+        "start": 3021.3,
+        "duration": 2.0,
+        "text": "We're both."
+      },
+      {
+        "start": 3023.3,
+        "duration": 4.0,
+        "text": "Big, big, rock tangos!"
+      },
+      {
+        "start": 3027.3,
+        "duration": 6.0,
+        "text": "Except I have five blue tens and four green ones."
+      },
+      {
+        "start": 3033.3,
+        "duration": 5.0,
+        "text": "Well, I've got five blue tens and six ones, two more than you."
+      },
+      {
+        "start": 3038.3,
+        "duration": 5.0,
+        "text": "And of course, I have a rainbow superhero mask."
+      },
+      {
+        "start": 3043.3,
+        "duration": 4.0,
+        "text": "Whereas I have this araw a snazzy bow tie."
+      },
+      {
+        "start": 3047.3,
+        "duration": 3.0,
+        "text": "Look, grids and dice!"
+      },
+      {
+        "start": 3050.3,
+        "duration": 5.0,
+        "text": "That bow tie is a handy clue, and now I know just who is who."
+      },
+      {
+        "start": 3055.3,
+        "duration": 1.0,
+        "text": "Fifty-four."
+      },
+      {
+        "start": 3056.3,
+        "duration": 2.0,
+        "text": "That's me, fifty-four."
+      },
+      {
+        "start": 3058.3,
+        "duration": 3.0,
+        "text": "And I've got some great games for board game club."
+      },
+      {
+        "start": 3061.3,
+        "duration": 3.0,
+        "text": "I can't wait to show you."
+      },
+      {
+        "start": 3064.3,
+        "duration": 3.0,
+        "text": "Oh, then you'll need an audience."
+      },
+      {
+        "start": 3067.3,
+        "duration": 3.0,
+        "text": "I'm fifty-six, and I..."
+      },
+      {
+        "start": 3070.3,
+        "duration": 2.0,
+        "text": "Eight, sevens!"
+      },
+      {
+        "start": 3072.3,
+        "duration": 3.0,
+        "text": "Lucky me here!"
+      },
+      {
+        "start": 3075.3,
+        "duration": 3.0,
+        "text": "Oh, lovely!"
+      },
+      {
+        "start": 3078.3,
+        "duration": 2.0,
+        "text": "Welcome, everybody."
+      },
+      {
+        "start": 3080.3,
+        "duration": 2.0,
+        "text": "Let me show you some of my moves."
+      },
+      {
+        "start": 3082.3,
+        "duration": 2.0,
+        "text": "Board game moves, that is."
+      },
+      {
+        "start": 3084.3,
+        "duration": 3.0,
+        "text": "I'm fifty-four, and I'm..."
+      },
+      {
+        "start": 3087.3,
+        "duration": 3.0,
+        "text": "Nine, sixes in a grise."
+      },
+      {
+        "start": 3090.3,
+        "duration": 3.0,
+        "text": "Oh, nice!"
+      },
+      {
+        "start": 3093.3,
+        "duration": 3.0,
+        "text": "Which means I'm also..."
+      },
+      {
+        "start": 3096.3,
+        "duration": 2.0,
+        "text": "Six, nines!"
+      },
+      {
+        "start": 3098.3,
+        "duration": 2.0,
+        "text": "Four grid game school!"
+      },
+      {
+        "start": 3100.3,
+        "duration": 2.0,
+        "text": "Like nots and crosses!"
+      },
+      {
+        "start": 3102.3,
+        "duration": 2.0,
+        "text": "And many more!"
+      },
+      {
+        "start": 3104.3,
+        "duration": 3.0,
+        "text": "These games are played on grids."
+      },
+      {
+        "start": 3107.3,
+        "duration": 4.0,
+        "text": "I see, and every grid is three by three."
+      },
+      {
+        "start": 3111.3,
+        "duration": 3.0,
+        "text": "It's game time."
+      },
+      {
+        "start": 3114.3,
+        "duration": 2.0,
+        "text": "I'll be nots."
+      },
+      {
+        "start": 3116.3,
+        "duration": 2.0,
+        "text": "I'll be crosses."
+      },
+      {
+        "start": 3118.3,
+        "duration": 1.0,
+        "text": "Cross."
+      },
+      {
+        "start": 3119.3,
+        "duration": 1.0,
+        "text": "Not."
+      },
+      {
+        "start": 3120.3,
+        "duration": 2.0,
+        "text": "Crosses will win."
+      },
+      {
+        "start": 3122.3,
+        "duration": 1.0,
+        "text": "I think not."
+      },
+      {
+        "start": 3123.3,
+        "duration": 1.0,
+        "text": "So you say."
+      },
+      {
+        "start": 3124.3,
+        "duration": 2.0,
+        "text": "Yes, I do."
+      },
+      {
+        "start": 3126.3,
+        "duration": 2.0,
+        "text": "A line of free."
+      },
+      {
+        "start": 3128.3,
+        "duration": 2.0,
+        "text": "No!"
+      },
+      {
+        "start": 3133.3,
+        "duration": 2.0,
+        "text": "No, no, no!"
+      },
+      {
+        "start": 3135.3,
+        "duration": 2.0,
+        "text": "The tower of games!"
+      },
+      {
+        "start": 3137.3,
+        "duration": 2.0,
+        "text": "It's all wobbly."
+      },
+      {
+        "start": 3139.3,
+        "duration": 4.0,
+        "text": "Oh, we're really in a fix now!"
+      },
+      {
+        "start": 3143.3,
+        "duration": 2.0,
+        "text": "The fact our collapses,"
+      },
+      {
+        "start": 3145.3,
+        "duration": 4.0,
+        "text": "all the different board game pieces will get muddled up."
+      },
+      {
+        "start": 3149.3,
+        "duration": 2.0,
+        "text": "Then it's lucky we were here!"
+      },
+      {
+        "start": 3151.3,
+        "duration": 2.0,
+        "text": "Eight, sevens, mate!"
+      },
+      {
+        "start": 3153.3,
+        "duration": 2.0,
+        "text": "Fifty-six!"
+      },
+      {
+        "start": 3155.3,
+        "duration": 2.0,
+        "text": "Which means I'm also..."
+      },
+      {
+        "start": 3157.3,
+        "duration": 1.0,
+        "text": "Ten."
+      },
+      {
+        "start": 3158.3,
+        "duration": 2.0,
+        "text": "Seven, eights!"
+      },
+      {
+        "start": 3160.3,
+        "duration": 2.0,
+        "text": "The rainbow-eights!"
+      },
+      {
+        "start": 3162.3,
+        "duration": 6.0,
+        "text": "Fred, Aaron, Yolo, Green, Blue, Indigo, Violet!"
+      },
+      {
+        "start": 3176.3,
+        "duration": 2.0,
+        "text": "Rainbow-eights!"
+      },
+      {
+        "start": 3178.3,
+        "duration": 3.0,
+        "text": "The colorful crusaders!"
+      },
+      {
+        "start": 3181.3,
+        "duration": 2.0,
+        "text": "Woohoo!"
+      },
+      {
+        "start": 3183.3,
+        "duration": 3.0,
+        "text": "Let's all cheer Hip Hip Hooray!"
+      },
+      {
+        "start": 3186.3,
+        "duration": 3.0,
+        "text": "Now, fifty-six has saved the day!"
+      },
+      {
+        "start": 3189.3,
+        "duration": 2.0,
+        "text": "Ugh!"
+      },
+      {
+        "start": 3191.3,
+        "duration": 1.0,
+        "text": "Oh, silly me!"
+      },
+      {
+        "start": 3192.3,
+        "duration": 2.0,
+        "text": "Oh, what a pain!"
+      },
+      {
+        "start": 3194.3,
+        "duration": 2.0,
+        "text": "I've gone and mixed you up again!"
+      },
+      {
+        "start": 3196.3,
+        "duration": 3.0,
+        "text": "Like we said, it happens all the time."
+      },
+      {
+        "start": 3199.3,
+        "duration": 2.0,
+        "text": "Maybe this will help!"
+      },
+      {
+        "start": 3201.3,
+        "duration": 4.0,
+        "text": "For gridgames galore, call fifty-four!"
+      },
+      {
+        "start": 3205.3,
+        "duration": 2.0,
+        "text": "Hooray!"
+      },
+      {
+        "start": 3207.3,
+        "duration": 4.0,
+        "text": "In a colour for fix, call fifty-six!"
+      },
+      {
+        "start": 3211.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3213.3,
+        "duration": 2.0,
+        "text": "I can tell who's who!"
+      },
+      {
+        "start": 3215.3,
+        "duration": 2.0,
+        "text": "Success!"
+      },
+      {
+        "start": 3217.3,
+        "duration": 3.0,
+        "text": "Now, who would like a game of chess?"
+      },
+      {
+        "start": 3220.3,
+        "duration": 1.0,
+        "text": "Ooh!"
+      },
+      {
+        "start": 3221.3,
+        "duration": 2.0,
+        "text": "A..."
+      },
+      {
+        "start": 3223.3,
+        "duration": 2.0,
+        "text": "A baby tiddly wings?"
+      },
+      {
+        "start": 3225.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3227.3,
+        "duration": 3.0,
+        "text": "Woohoo!"
+      },
+      {
+        "start": 3230.3,
+        "duration": 2.0,
+        "text": "This is Super Dover!"
+      },
+      {
+        "start": 3232.3,
+        "duration": 4.0,
+        "text": "We can race all day and all night too!"
+      },
+      {
+        "start": 3236.3,
+        "duration": 3.0,
+        "text": "And together we can keep racing!"
+      },
+      {
+        "start": 3239.3,
+        "duration": 2.0,
+        "text": "Oh, we can..."
+      },
+      {
+        "start": 3241.3,
+        "duration": 2.0,
+        "text": "Forty-eight! Activate!"
+      },
+      {
+        "start": 3243.3,
+        "duration": 2.0,
+        "text": "Woohoo!"
+      },
+      {
+        "start": 3245.3,
+        "duration": 3.0,
+        "text": "Check out the eyebrow action!"
+      },
+      {
+        "start": 3248.3,
+        "duration": 2.0,
+        "text": "I'm forty-eight!"
+      },
+      {
+        "start": 3250.3,
+        "duration": 2.0,
+        "text": "I've got eight chunky sixes!"
+      },
+      {
+        "start": 3252.3,
+        "duration": 1.0,
+        "text": "Hello!"
+      },
+      {
+        "start": 3253.3,
+        "duration": 3.0,
+        "text": "And six chunky eights!"
+      },
+      {
+        "start": 3256.3,
+        "duration": 1.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3257.3,
+        "duration": 1.0,
+        "text": "Yeah!"
+      },
+      {
+        "start": 3258.3,
+        "duration": 5.0,
+        "text": "I'm up for forty-eight hours of fun, fun, fun!"
+      },
+      {
+        "start": 3263.3,
+        "duration": 1.0,
+        "text": "I know!"
+      },
+      {
+        "start": 3264.3,
+        "duration": 3.0,
+        "text": "I'll race all the way to puzzle square!"
+      },
+      {
+        "start": 3267.3,
+        "duration": 2.0,
+        "text": "Woohoo!"
+      },
+      {
+        "start": 3269.3,
+        "duration": 5.0,
+        "text": "Although, it'd be more fun with someone to race against!"
+      },
+      {
+        "start": 3274.3,
+        "duration": 2.0,
+        "text": "What?"
+      },
+      {
+        "start": 3276.3,
+        "duration": 1.0,
+        "text": "What?"
+      },
+      {
+        "start": 3277.3,
+        "duration": 1.0,
+        "text": "That!"
+      },
+      {
+        "start": 3278.3,
+        "duration": 3.0,
+        "text": "Woohoo!"
+      },
+      {
+        "start": 3281.3,
+        "duration": 2.0,
+        "text": "Is raining sixes?"
+      },
+      {
+        "start": 3283.3,
+        "duration": 1.0,
+        "text": "That's new!"
+      },
+      {
+        "start": 3284.3,
+        "duration": 4.0,
+        "text": "One, two, three, four, five, six, seven!"
+      },
+      {
+        "start": 3288.3,
+        "duration": 4.0,
+        "text": "Seven sixes in the sky!"
+      },
+      {
+        "start": 3292.3,
+        "duration": 2.0,
+        "text": "Oh, my!"
+      },
+      {
+        "start": 3294.3,
+        "duration": 2.0,
+        "text": "Look out!"
+      },
+      {
+        "start": 3296.3,
+        "duration": 1.0,
+        "text": "Huh?"
+      },
+      {
+        "start": 3298.3,
+        "duration": 1.0,
+        "text": "Huh?"
+      },
+      {
+        "start": 3299.3,
+        "duration": 1.0,
+        "text": "Hello, there!"
+      },
+      {
+        "start": 3300.3,
+        "duration": 3.0,
+        "text": "I'm forty-eight! Activate!"
+      },
+      {
+        "start": 3303.3,
+        "duration": 3.0,
+        "text": "Eight chunky sixes!"
+      },
+      {
+        "start": 3307.3,
+        "duration": 3.0,
+        "text": "Six chunky eights!"
+      },
+      {
+        "start": 3310.3,
+        "duration": 1.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3311.3,
+        "duration": 1.0,
+        "text": "I'm forty-two!"
+      },
+      {
+        "start": 3312.3,
+        "duration": 2.0,
+        "text": "Sorry to drop in on you like that!"
+      },
+      {
+        "start": 3314.3,
+        "duration": 3.0,
+        "text": "My teleporting belt is playing up today!"
+      },
+      {
+        "start": 3317.3,
+        "duration": 2.0,
+        "text": "Teleporting!"
+      },
+      {
+        "start": 3319.3,
+        "duration": 1.0,
+        "text": "What's that?"
+      },
+      {
+        "start": 3320.3,
+        "duration": 2.0,
+        "text": "It's how I go from place to place!"
+      },
+      {
+        "start": 3322.3,
+        "duration": 3.0,
+        "text": "The buckle on my rainbow belt glows!"
+      },
+      {
+        "start": 3325.3,
+        "duration": 3.0,
+        "text": "And I get rushed away to somewhere else!"
+      },
+      {
+        "start": 3328.3,
+        "duration": 2.0,
+        "text": "Sometimes when I arrive, I'm..."
+      },
+      {
+        "start": 3330.3,
+        "duration": 2.0,
+        "text": "Seven sixes!"
+      },
+      {
+        "start": 3332.3,
+        "duration": 3.0,
+        "text": "And sometimes I'm..."
+      },
+      {
+        "start": 3335.3,
+        "duration": 3.0,
+        "text": "Six sevens!"
+      },
+      {
+        "start": 3338.3,
+        "duration": 4.0,
+        "text": "And so, I'm always at sixes and sevens!"
+      },
+      {
+        "start": 3342.3,
+        "duration": 5.0,
+        "text": "Well, it's extra super-duper to meet your forty-two!"
+      },
+      {
+        "start": 3347.3,
+        "duration": 2.0,
+        "text": "Teleporting sounds fun!"
+      },
+      {
+        "start": 3349.3,
+        "duration": 5.0,
+        "text": "Mostly, although some days I just don't know where I'll go next!"
+      },
+      {
+        "start": 3355.3,
+        "duration": 1.0,
+        "text": "Uh-oh!"
+      },
+      {
+        "start": 3356.3,
+        "duration": 1.0,
+        "text": "Don't panic!"
+      },
+      {
+        "start": 3357.3,
+        "duration": 1.0,
+        "text": "Don't panic!"
+      },
+      {
+        "start": 3358.3,
+        "duration": 2.0,
+        "text": "I'm teleporting again!"
+      },
+      {
+        "start": 3360.3,
+        "duration": 3.0,
+        "text": "To the loop and forty-two!"
+      },
+      {
+        "start": 3366.3,
+        "duration": 1.0,
+        "text": "Um..."
+      },
+      {
+        "start": 3367.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3369.3,
+        "duration": 2.0,
+        "text": "Woo-hoo!"
+      },
+      {
+        "start": 3372.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3374.3,
+        "duration": 7.0,
+        "text": "One, two, three, four, five, six, six, sevens in the sky!"
+      },
+      {
+        "start": 3382.3,
+        "duration": 2.0,
+        "text": "Oh, I'll..."
+      },
+      {
+        "start": 3384.3,
+        "duration": 2.0,
+        "text": "I'm stuck! Oh, dear!"
+      },
+      {
+        "start": 3386.3,
+        "duration": 2.0,
+        "text": "Let's use please!"
+      },
+      {
+        "start": 3388.3,
+        "duration": 3.0,
+        "text": "On my way, forty-eight, activate!"
+      },
+      {
+        "start": 3393.3,
+        "duration": 5.0,
+        "text": "Six chunky eights, saving six snowy sevens!"
+      },
+      {
+        "start": 3399.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3405.3,
+        "duration": 5.0,
+        "text": "One, two, three, four, five, six, six, snowy rescue!"
+      },
+      {
+        "start": 3412.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3413.3,
+        "duration": 2.0,
+        "text": "Excellent rescuing forty-eight!"
+      },
+      {
+        "start": 3415.3,
+        "duration": 2.0,
+        "text": "How can I ever thank you?"
+      },
+      {
+        "start": 3418.3,
+        "duration": 1.0,
+        "text": "Ooh!"
+      },
+      {
+        "start": 3419.3,
+        "duration": 1.0,
+        "text": "Fun idea!"
+      },
+      {
+        "start": 3420.3,
+        "duration": 2.0,
+        "text": "Let's play again!"
+      },
+      {
+        "start": 3423.3,
+        "duration": 2.0,
+        "text": "I'll race you to Puzzle Square!"
+      },
+      {
+        "start": 3425.3,
+        "duration": 1.0,
+        "text": "Ready?"
+      },
+      {
+        "start": 3426.3,
+        "duration": 1.0,
+        "text": "Steady!"
+      },
+      {
+        "start": 3427.3,
+        "duration": 1.0,
+        "text": "Go!"
+      },
+      {
+        "start": 3428.3,
+        "duration": 1.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3429.3,
+        "duration": 1.0,
+        "text": "Wow!"
+      },
+      {
+        "start": 3430.3,
+        "duration": 2.0,
+        "text": "She's a fast rickshaw, right?"
+      },
+      {
+        "start": 3433.3,
+        "duration": 1.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3434.3,
+        "duration": 2.0,
+        "text": "But there's more than one way to get to Puzzle Square!"
+      },
+      {
+        "start": 3436.3,
+        "duration": 2.0,
+        "text": "Ha-ha!"
+      },
+      {
+        "start": 3439.3,
+        "duration": 4.0,
+        "text": "Two blue from forty-two!"
+      },
+      {
+        "start": 3444.3,
+        "duration": 2.0,
+        "text": "Woo-hoo!"
+      },
+      {
+        "start": 3447.3,
+        "duration": 1.0,
+        "text": "Ooh!"
+      },
+      {
+        "start": 3448.3,
+        "duration": 3.0,
+        "text": "Six rays fast, eight rays faster!"
+      },
+      {
+        "start": 3453.3,
+        "duration": 3.0,
+        "text": "I'm winning, I'm winning!"
+      },
+      {
+        "start": 3456.3,
+        "duration": 1.0,
+        "text": "I'm..."
+      },
+      {
+        "start": 3457.3,
+        "duration": 1.0,
+        "text": "Not winning!"
+      },
+      {
+        "start": 3458.3,
+        "duration": 4.0,
+        "text": "One, two, three, four, five, six, sevens!"
+      },
+      {
+        "start": 3462.3,
+        "duration": 3.0,
+        "text": "Seven sixes in the sky!"
+      },
+      {
+        "start": 3469.3,
+        "duration": 1.0,
+        "text": "Did I win?"
+      },
+      {
+        "start": 3470.3,
+        "duration": 2.0,
+        "text": "Yes! Well done forty-two!"
+      },
+      {
+        "start": 3472.3,
+        "duration": 3.0,
+        "text": "And we've got the rest of the weekend for a rematch!"
+      },
+      {
+        "start": 3475.3,
+        "duration": 4.0,
+        "text": "But, before that, I do have one question!"
+      },
+      {
+        "start": 3479.3,
+        "duration": 3.0,
+        "text": "How did I get here so fast?"
+      },
+      {
+        "start": 3482.3,
+        "duration": 1.0,
+        "text": "No!"
+      },
+      {
+        "start": 3483.3,
+        "duration": 2.0,
+        "text": "Where did that rubber duck come from?"
+      },
+      {
+        "start": 3485.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3486.3,
+        "duration": 3.0,
+        "text": "I teleported into my bath on the way here!"
+      },
+      {
+        "start": 3489.3,
+        "duration": 2.0,
+        "text": "Now, how about that rematch?"
+      },
+      {
+        "start": 3491.3,
+        "duration": 1.0,
+        "text": "You're on!"
+      },
+      {
+        "start": 3492.3,
+        "duration": 1.0,
+        "text": "Let's go!"
+      },
+      {
+        "start": 3493.3,
+        "duration": 2.0,
+        "text": "I'm gonna beat you this time!"
+      },
+      {
+        "start": 3495.3,
+        "duration": 4.0,
+        "text": "I'm not ready to make your mark on the Rainbow Sevens"
+      },
+      {
+        "start": 3499.3,
+        "duration": 2.0,
+        "text": "Great Big Rainbow Neural!"
+      },
+      {
+        "start": 3501.3,
+        "duration": 5.0,
+        "text": "I certainly am 63, I'm painting my very own rainbow!"
+      },
+      {
+        "start": 3506.3,
+        "duration": 3.0,
+        "text": "One brush, seven colors!"
+      },
+      {
+        "start": 3511.3,
+        "duration": 1.0,
+        "text": "Ooh!"
+      },
+      {
+        "start": 3512.3,
+        "duration": 3.0,
+        "text": "One seven, one rainbow!"
+      },
+      {
+        "start": 3515.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3516.3,
+        "duration": 5.0,
+        "text": "Gangway, extreme fourteen coming through!"
+      },
+      {
+        "start": 3525.3,
+        "duration": 3.0,
+        "text": "Two sevens, two rainbows!"
+      },
+      {
+        "start": 3528.3,
+        "duration": 1.0,
+        "text": "Awesome!"
+      },
+      {
+        "start": 3529.3,
+        "duration": 2.0,
+        "text": "Eww!"
+      },
+      {
+        "start": 3534.3,
+        "duration": 3.0,
+        "text": "Three sevens, three rainbows!"
+      },
+      {
+        "start": 3537.3,
+        "duration": 2.0,
+        "text": "Hello twenty-one!"
+      },
+      {
+        "start": 3539.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3540.3,
+        "duration": 1.0,
+        "text": "Lovely map!"
+      },
+      {
+        "start": 3541.3,
+        "duration": 2.0,
+        "text": "Oh, thank you!"
+      },
+      {
+        "start": 3543.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3544.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3545.3,
+        "duration": 3.0,
+        "text": "Nice pattern twenty-eight!"
+      },
+      {
+        "start": 3548.3,
+        "duration": 4.0,
+        "text": "I'm stepping up to rate my mark!"
+      },
+      {
+        "start": 3552.3,
+        "duration": 2.0,
+        "text": "Four sevens!"
+      },
+      {
+        "start": 3554.3,
+        "duration": 2.0,
+        "text": "Four rainbows!"
+      },
+      {
+        "start": 3556.3,
+        "duration": 2.0,
+        "text": "What a perfect pattern!"
+      },
+      {
+        "start": 3558.3,
+        "duration": 2.0,
+        "text": "Wow!"
+      },
+      {
+        "start": 3560.3,
+        "duration": 1.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3568.3,
+        "duration": 3.0,
+        "text": "That's amazing thirty-five!"
+      },
+      {
+        "start": 3572.3,
+        "duration": 2.0,
+        "text": "Five sevens!"
+      },
+      {
+        "start": 3574.3,
+        "duration": 2.0,
+        "text": "Five rainbows!"
+      },
+      {
+        "start": 3576.3,
+        "duration": 1.0,
+        "text": "Groovy!"
+      },
+      {
+        "start": 3577.3,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3580.3,
+        "duration": 1.0,
+        "text": "Hmm..."
+      },
+      {
+        "start": 3581.3,
+        "duration": 4.0,
+        "text": "Everybody's got such colorful ideas for making rainbows!"
+      },
+      {
+        "start": 3585.3,
+        "duration": 3.0,
+        "text": "Well what I always say is don't panic!"
+      },
+      {
+        "start": 3588.3,
+        "duration": 2.0,
+        "text": "Just try to..."
+      },
+      {
+        "start": 3590.3,
+        "duration": 1.0,
+        "text": "Word!"
+      },
+      {
+        "start": 3591.3,
+        "duration": 1.0,
+        "text": "42!"
+      },
+      {
+        "start": 3592.3,
+        "duration": 4.0,
+        "text": "Six sevens in the sky!"
+      },
+      {
+        "start": 3600.3,
+        "duration": 2.0,
+        "text": "Six sevens!"
+      },
+      {
+        "start": 3602.3,
+        "duration": 2.0,
+        "text": "Six rainbows!"
+      },
+      {
+        "start": 3604.3,
+        "duration": 2.0,
+        "text": "As I was saying, don't panic!"
+      },
+      {
+        "start": 3606.3,
+        "duration": 1.0,
+        "text": "Just be yourself!"
+      },
+      {
+        "start": 3607.3,
+        "duration": 2.0,
+        "text": "Excellent advice!"
+      },
+      {
+        "start": 3609.3,
+        "duration": 2.0,
+        "text": "I'm forty-nine!"
+      },
+      {
+        "start": 3611.3,
+        "duration": 3.0,
+        "text": "So I make my rainbows using square power!"
+      },
+      {
+        "start": 3614.3,
+        "duration": 4.0,
+        "text": "Seven by seven, all systems go!"
+      },
+      {
+        "start": 3618.3,
+        "duration": 2.0,
+        "text": "Woohoo!"
+      },
+      {
+        "start": 3622.3,
+        "duration": 2.0,
+        "text": "User!"
+      },
+      {
+        "start": 3624.3,
+        "duration": 2.0,
+        "text": "Seven sevens!"
+      },
+      {
+        "start": 3626.3,
+        "duration": 2.0,
+        "text": "Seven square rainbows!"
+      },
+      {
+        "start": 3628.3,
+        "duration": 1.0,
+        "text": "You see?"
+      },
+      {
+        "start": 3629.3,
+        "duration": 3.0,
+        "text": "You just need to find your true colors!"
+      },
+      {
+        "start": 3632.3,
+        "duration": 2.0,
+        "text": "Thanks forty-nine!"
+      },
+      {
+        "start": 3634.3,
+        "duration": 1.0,
+        "text": "Huh..."
+      },
+      {
+        "start": 3636.3,
+        "duration": 1.0,
+        "text": "Red!"
+      },
+      {
+        "start": 3637.3,
+        "duration": 1.0,
+        "text": "Orange!"
+      },
+      {
+        "start": 3638.3,
+        "duration": 1.0,
+        "text": "Yellow!"
+      },
+      {
+        "start": 3639.3,
+        "duration": 1.0,
+        "text": "Green! Blue!"
+      },
+      {
+        "start": 3640.3,
+        "duration": 1.0,
+        "text": "Indigo!"
+      },
+      {
+        "start": 3641.3,
+        "duration": 1.0,
+        "text": "Violent!"
+      },
+      {
+        "start": 3644.3,
+        "duration": 2.0,
+        "text": "The rainbow eights!"
+      },
+      {
+        "start": 3646.3,
+        "duration": 2.0,
+        "text": "Seven eights!"
+      },
+      {
+        "start": 3649.3,
+        "duration": 2.0,
+        "text": "Eight sevens!"
+      },
+      {
+        "start": 3652.3,
+        "duration": 2.0,
+        "text": "Eight super rainbows!"
+      },
+      {
+        "start": 3654.3,
+        "duration": 2.0,
+        "text": "Fifty-six!"
+      },
+      {
+        "start": 3656.3,
+        "duration": 1.0,
+        "text": "Hmm..."
+      },
+      {
+        "start": 3657.3,
+        "duration": 2.0,
+        "text": "You look a bit down sixty-three!"
+      },
+      {
+        "start": 3659.3,
+        "duration": 1.0,
+        "text": "Lucky I'm here!"
+      },
+      {
+        "start": 3660.3,
+        "duration": 2.0,
+        "text": "In a color for fix!"
+      },
+      {
+        "start": 3662.3,
+        "duration": 2.0,
+        "text": "Call fifty-six!"
+      },
+      {
+        "start": 3665.3,
+        "duration": 1.0,
+        "text": "Err..."
+      },
+      {
+        "start": 3666.3,
+        "duration": 2.0,
+        "text": "That's my problem fifty-six!"
+      },
+      {
+        "start": 3668.3,
+        "duration": 3.0,
+        "text": "I'm just not colourful enough!"
+      },
+      {
+        "start": 3671.3,
+        "duration": 3.0,
+        "text": "But you're one of the rainbow sevens!"
+      },
+      {
+        "start": 3674.3,
+        "duration": 6.0,
+        "text": "That means you're full of colourful rainbow surprises just waiting to burst out!"
+      },
+      {
+        "start": 3680.3,
+        "duration": 4.0,
+        "text": "Well, you see the thing is, I'm sixty-three."
+      },
+      {
+        "start": 3684.3,
+        "duration": 1.0,
+        "text": "I'm..."
+      },
+      {
+        "start": 3685.3,
+        "duration": 2.0,
+        "text": "Nine sevens!"
+      },
+      {
+        "start": 3687.3,
+        "duration": 2.0,
+        "text": "Nine grey sevens!"
+      },
+      {
+        "start": 3689.3,
+        "duration": 1.0,
+        "text": "Watch this!"
+      },
+      {
+        "start": 3690.3,
+        "duration": 2.0,
+        "text": "Whoa!"
+      },
+      {
+        "start": 3692.3,
+        "duration": 2.0,
+        "text": "What is that?"
+      },
+      {
+        "start": 3694.3,
+        "duration": 2.0,
+        "text": "It's...it's..."
+      },
+      {
+        "start": 3696.3,
+        "duration": 2.0,
+        "text": "It's a grey rainbow."
+      },
+      {
+        "start": 3698.3,
+        "duration": 1.0,
+        "text": "Oh nice!"
+      },
+      {
+        "start": 3699.3,
+        "duration": 3.0,
+        "text": "I've never seen a rainbow like that!"
+      },
+      {
+        "start": 3702.3,
+        "duration": 2.0,
+        "text": "It's extreme!"
+      },
+      {
+        "start": 3704.3,
+        "duration": 2.0,
+        "text": "Oh, thanks!"
+      },
+      {
+        "start": 3706.3,
+        "duration": 2.0,
+        "text": "But it's not exactly colourful, is it?"
+      },
+      {
+        "start": 3708.3,
+        "duration": 2.0,
+        "text": "If it's colourful, you're after."
+      },
+      {
+        "start": 3710.3,
+        "duration": 3.0,
+        "text": "Maybe try turning yourself around!"
+      },
+      {
+        "start": 3713.3,
+        "duration": 2.0,
+        "text": "Okay, I'll try it."
+      },
+      {
+        "start": 3715.3,
+        "duration": 2.0,
+        "text": "I'm sixty-three!"
+      },
+      {
+        "start": 3717.3,
+        "duration": 2.0,
+        "text": "I'm..."
+      },
+      {
+        "start": 3719.3,
+        "duration": 2.0,
+        "text": "Nine sevens!"
+      },
+      {
+        "start": 3721.3,
+        "duration": 4.0,
+        "text": "So, I can turn myself around and make seven nines!"
+      },
+      {
+        "start": 3725.3,
+        "duration": 2.0,
+        "text": "Err..."
+      },
+      {
+        "start": 3727.3,
+        "duration": 2.0,
+        "text": "Oh!"
+      },
+      {
+        "start": 3729.3,
+        "duration": 2.0,
+        "text": "Wow!"
+      },
+      {
+        "start": 3731.3,
+        "duration": 4.0,
+        "text": "So many colourful rainbow!"
+      },
+      {
+        "start": 3735.3,
+        "duration": 3.0,
+        "text": "But only one grey rainbow!"
+      },
+      {
+        "start": 3738.3,
+        "duration": 1.0,
+        "text": "Seventeen!"
+      },
+      {
+        "start": 3739.3,
+        "duration": 3.0,
+        "text": "That's me ten sevens!"
+      },
+      {
+        "start": 3742.3,
+        "duration": 2.0,
+        "text": "Seventeen!"
+      },
+      {
+        "start": 3744.3,
+        "duration": 2.0,
+        "text": "That's me ten sevens!"
+      },
+      {
+        "start": 3750.3,
+        "duration": 2.0,
+        "text": "Seventeen!"
+      },
+      {
+        "start": 3752.3,
+        "duration": 2.0,
+        "text": "We all have our own rainbow styles!"
+      },
+      {
+        "start": 3754.3,
+        "duration": 4.0,
+        "text": "And beneath one great big colour!"
+      }
+    ],
+    "full_text": "One, two, one, two, one, two, one, two, three. It bigger than two. I can hide behind you. Four is bigger than three. Three can hide behind you. Peekaboo! I'm hiding behind you. Cause I'm bigger than you. No one will find you. Where if they gone? Go and give us a clue. Can you see me? Make a fool. Can you see me? Pick a burn. One is smaller than two. I can hide behind you. Two is smaller than three. You can hide behind me. Peekaboo! You're hiding behind me. Cause I'm smaller than you. No one will find me. Where if they gone? Go and give us a clue. Can you see me? Pick a burn. Can you see me? Pick a burn. One is the same as three. Both of you can hide behind me. Three plus one is the same as four. I can hide you both for sure. Peekaboo! We're hiding behind you. Cause I'm bigger than you. No one will find you. Where if they gone? Go and give us a clue. Can you see me? Pick a burn. Can you see me? Pick a burn. Where is the pick a burn? Two plus one is the same as three. Three is the same as three. One is the same as three. One is the same as three. Can you see me? Pick a burn. Five is bigger than four. I'll never fit through the door. Ow! Ow! Three is smaller than four. I can get through the four doors. Three plus one is the same as four. We can fit through the four doors. Two plus two is the same as four. We can even up the score. Peekaboo! We're hiding behind you. Cause I'm equal to you. No one will find you. Where is they gone? Go and give us a clue. Can you see me? Pick a burn. Can you see me? Pick a burn. If you're bigger than me, you can hide me. As long as you make the right shape. If you're smaller than me, it'll never work. No matter what shape you make. Six plus six is four's little beds. I can lie down in ten's beds. Seven's bed is too small for ten. My feet must be crying at the end. Pick a burn. I'm hiding behind you. If you're bigger than me, you won't find you. Where have they gone? Go and give us a clue. Can you see me? Pick a burn. Can you see me? Pick a burn. Four can't reach up to six himself. I'll let the leave that book on the shelf. Eight can bend down to reach the book. Six can take through and take a look. Pick a move. I'm hiding behind you. If you're bigger than me, you won't find you. Where have they gone? Go and give us a clue. Can you see me? Pick a burn. Can you see me? Pick a burn. One is smaller than? Fewer than? Less than. One is less than? Two is less than? Three is less than? Four. Five is less than? Six is less than? Seven. And eight is less than? Nine is less than? Ten. And ten is bigger than? More than? Greater than? Ten is greater than? Nine is greater than? Seven. Six is greater than? Five is greater than? Four is greater than? Three. And three is greater than? Two is greater than? One. Pick a move. I'm hiding behind you. Because I'm bigger than you. No one will find you. Where have they gone? Go and give us a clue. Can you see me? Pick a burn. Can you see me? Pick a burn. Hello, five. What are you up to? Oh, is this a toy library? That's right, too. You can borrow toys to play with. Then when you're done, bring them back for someone else to borrow. A library for toys. Brilliant. Oh, there are so many to choose from. But it's hard to see them all. Ah, that's where a mind-you-friend sortie the super-sortter can help. Just say what kind of toy you'd like and sortie will sort them for you. Oh, wow. Hello, sortie. I like two types of toy the best. Cuddly toys? And toys with wheels. It's so easy to see them all now. There are two, four, six, six cuddly toys. And five toys with wheels. Oh, and a duck. Ducks don't have wheels, sortie. Hmm, there are still a lot of toys to sort. That's right, sortie. It's because these toys aren't cuddly or wheely. Hmm, ducks, stacking squares, and puzzles. Could we have a shelf for each type of toy, please? Cool. Oh. Perfect. All sorted by type of toy. Yay! Oops. I think I just found the lever that does that, sortie sortie. Ooh, a toy library. Do you have any square toys I could borrow? Yes. Somewhere. Oh, sorry. Can you sort the toys by shape, please? Wow. Triangles, circles, and so many squares. Oh, and a cheeky star. It's okay, sortie. What about these toys, five? Hmm, they're not circles, triangles, or squares. Ooh, but the puzzles all have rectangles. And the ducks are all, well, duck shaped. We'll sort a place for you later. Oh. Welcome to the toy library. What kind of toys are you looking for? Oh, I like small toys. I like really big toys. sortie, could you sort the toys again by... Oh, no. Who put that there? I mean, sorry. sortie, could you sort by size, please? Oh. Oh, they've been sortie. For sortie is slowing down. The batteries run out. sortie just needs to rest and recharge. I should really put a warning sign on this thing. What a mess. We could help you sort the toys. I know. This time let's sort by color. Red? Orange? Yellow? Green? And blue. Hmm, some toys are not where they belong. sortie has recharge. Five different colors and five toys of each color. Thank you, sortie. You truly are a super-sortter. Welcome to the event of the year. The one you've been waiting for. It's only Noverlands Grand Zoom bug race. Sorry, I just can't help myself. Looker are racers. One with Dottie. Two with two, two, three with trio and four with little square bug. What a QD. Now let's send Noverta 20 track sign. This is the practice race. The zoom bugs must run all the way around the perimeter of their square and back to the start. The perimeter is the length all the way around the edge of a shape. Let's measure the perimeter with my 20 block string. Always keep your string right on the line. Don't cut any corners. And always finish where you started. 16 look. No way. The perimeter is 16 blocks. Now back to our racers who are all squared up to start. Remember, stay on the line, run all the way around the edge of the square and finish back where you started. On your marks, get set, go! Run as fast as you can! Don't do it, Dottie. Don't do it, don't do it. Trio's cutting corners. You're not supposed to go inside the line. That's not fair and square. Oh, Dottie's running is a bit wobbly. But it looks like Tuto was about to win. Oh, my. Oops, Tuto thinks she's finished, but it's not party time yet. She hasn't run all the way around. Trio is the first back to the starting point. With little square butt not far behind. And Dottie, well Dottie's very far behind. What an amazing finish. Oh, for those who did finish. Trio finished first, so Trio is the winner. Wait, not all the book stayed on the line. Let's see. Dottie went all the way around, but in a wobbly line. So she ran much too far. Tuto didn't make it the whole way around. And Trio cut corners. Only this is square bug stuck to the perimeter. Now our zoom bugs must show off their skills in the main race. Huh? Wait, wait, wait. This race isn't fair. All the tracks are different. The sheep are different, but how long are their perimeters? Let's check. For for sure. Remember, keep right on the line, don't cut corners and go all the way back to the start. For for for for for for for for our perimeter is five fours. And five fours are 20. The perimeter of this track is 20 blocks. What about the others? 20. 20. 20. The shapes are different, but the perimeters are all the same. 20 blocks. Remember, stay on the line, run all the way around and back to the start. On your marks, get set, go! Look at the zoom bugs go! Oh, running around the edge this time, like proper perimeter proofs! They're all running a perfect perimeter! And the winner, who has run the whole perimeter in the fastest time, is Dottie! Oh, we've got this! How did it feel to be the celebrated winner of Numbra Lands Grand Zoom bug race? Oh, I can tell you that Dottie is thrilled to be Numbra 1! Rade! Wonderful! We've played all four games. No more games! We could play back in the box. We count all the bats, skittles, hoops and balls as we put them back in the box. Oh, I'll keep count to make sure we have everything. Three skittles, back in the box. And four more. Three and four. Two bats. Five hoops, two bats and three more bats. Four round things. Stop! I can't keep up! We need a way to keep count of everything. If only there was something we could use to help us. No. How about suppose to think with all these silly sticks everywhere? That's it! Let's start again. But this time I'll keep count using the sticks. You're in genius three? I am. I mean, I am. One stick means one bat. That's two bats. And three, four, five sticks means five bats. Great, but you might lose count with a long line of sticks. I've got an idea. This gate has five bars. So if we arrange your sticks in the same pattern, one, two, three, four standing straight. And here comes five to make a gate. Yes, that makes it easy to see when we have five things. But we'll need a lot more sticks to count everything. Maybe we only need one stick of chalk. One, two, three, four standing straight. And here comes five to make a gate. Five bats. Perfect, now for the Skittles. One, two, three, four, five. And one, two. Now for the hoops. Five for me. One, two, three, four, five. Four more. One, two, three, four. Last one. All right. Well, don't me. And here comes five to make a gate. Have we collected everything? How many bats? One gate. That means five. Uh-huh. What about the Skittles? Five and two more is seven. Skittles exactly. Now for the hoops. Five and five is ten. Perfect scores. Um, what about those round things? Shouldn't they go back in the box? You're right. Let's go. Race you. One, two, three. One, two, three. Four, five. Four is standing straight, and here comes five to make a gate. Be brave for. Be brave. And one, two, three, four. Watch your backs. Five more. That's five, ten. And four more is fourteen balls. Oh, and this one. Five, ten, fifteen. Two, no more round things. We did it. Everything's back in the box. Hmm. If only there was something else we could... Oh, let's count all the apples in the trees. I think we're going to need a bigger board. There. What should we do next? Build a maze. No, no, no. A pirate ship. How about a rocket? Oh, we could have this lovely picnic. Oh, great ideas. But how are we going to choose between them? We should have a vote. A yes, a vote. I am brilliant at voting. What's a vote? I'll show you. Everyone find a single small block. If you want to build a maze, place your block here. If you'd like to build a ship, put your block here. For a rocket, vote here. For a picnic, your block goes here. Ready, steady, vote. Only one vote each. Oh, sorry. Oh, oh. So we can see that picnic got one vote. A ship and a maze got two votes each. But rocket is the winner with five votes. Number blocks, let's build it. Oh, where are we? Boosters! Nice curve. Go. Stairs. Go. Astronaut. Go. 10, 9, 8. Blast off! Brave astronaut one flies through space and lands on a mysterious alien planet. We want to go to the fair. Blue stampedeys. We want to play football. The fair. Football. Stampleines. Picnic? Oh, picnic. I'm happy to share. We want the fair. Stampleines. Football. And, excuse me, number blobs. Hello, me. If you can't decide, you need to have a vote. Ooh. What's voting you say? Well, it just so happens that I'm an expert. You two, come with me, please. If you want to go to the fair, stack up here. If you'd rather play football, stack up here. If Stampleines sound like more fun, then stack up here. One by one. Oh, a yummy, yummy picnic. On your marks. Get set. Vote. Oh, yeah! The results are in. Three of you want to go to the fair. Two want to play football. Four want to play Stampleines. And only one vote for Mod picnic. The number blobs have decided. Stampleines is the winner. Stampleines! Oh, they seem happy. But what shall we do next? The fair sounded like fun. We could go 10 pin bowling. Oh, or go courting. I don't suppose you... Maybe later. Oh, two votes. Is anyone else thinking what I'm thinking? Vote! Oh! Oh! Oh, bowling has two votes. Go courting has three votes. But fair is the winner with five votes. Oh, yeah! Yay! Is anyone else feeling hungry? No, you mention it. What are we going to do? Maybe it's finally picnic time! I'll vote for that. I'll get it. That's strange. There are four islands here. But only one island on the map. It's a mystery. Who said that? Hello? Who? I'm one. Who are you? I'm one whole. I'm one whole circle. And if you want to solve the mystery of these islands, you'll need to divide all my fraction friends. I know what a friend is, but what's a fraction? Fractions are the parts that make a hole. Who are you? I'm one half. And I'm the other half. We're two equal parts of a hole. I'm two. It's lovely to meet new friends. Yes, but how does that help solve the mystery? Well, I was. Being a half is great. But we love to join together. Two halves make one hole. Two halves one hole. You'll meet more fraction friends on the other islands. And that's how I'll do a wheel solve the mystery. There are two more islands. I'll take this one. You take the other. Oh. I'm looking for fractions. We need to be quiet. Oh, hello. I'm three. I'm one third. Oh, you're smaller than one half. Wait, I'm one third. I'm one third. No, it's me. Me, me, me. We're all one thirds. With three equal parts of a hole. Three thirds. You're my kind of fraction friends. And now, if you could kindly jump onto this podium. What? A? No. Three thirds make one hole. Yes. Three podiums done. One more to go. Huh? Found you. I'm four. Who are you? I'm one quarter. But you can also call me one fourth. Fourth? That sounds a bit like four. I'm one of four equal parts of a hole. So I need to find three more quarters. Huh? Quarters. Fourths. Quarters. Fourths. Uh-huh. Found us. I'm one quarter. One fourth. We're all quarters. All fours. All friends together again. No four new fraction friends. Four quarters make one hole. Whoa. Ready, friends? One hole. Two halves. Three thirds. Four quarters. There we are. Oh, oh again. And you know what that means. Whoa. Whoa. Whoa. Whoa. There were never meant to be four islands. It was always four parts of one whole island. Mystery sold. And we found new friends. Two fraction friends. Ready, go. Ten pins, eight players, four teams, but only one trophy. This is the number blocks bowling championship. Each player gets one ball to knock down as many pins as they can. And who will add the points together for each team? I'm Mac and Rick. I can't. My beads will show the right amount. The team with the highest score will take home the trophy. Are you ready? Then let's bowl. First up, team two wide. No then four. Don't rush this. Four round thing. Whoa. I knocked down two pins. In one push, I can't do. You've knocked down two pins. Good start. No ball for me. I've got this. When I roll dice, I never miss. Ten new pins. Come on, dice. Five knocked down. Very nice. Push five. The total score for team two wide is five. And two. Two more than five is seven. Next to bowl, the rainbow rollers. Whoops. I scored six. There's lucky. What's lucky? Push, next. Am I turn, my turn? Boing. Are we up? Six pins down. A new one being good at this. Push, fix. The total for the rainbow rollers is six plus six. That's all ten red beads and two white. Ten and two is twelve. A new high score. Do the super strikers have what it takes? Octoblock bowl. One, two, three, four, five, six, seven, eight. World ball. Nine pins, so close. Push nine. You scored nine. Amazing. And you still have one more bowl to bowl. One, two, one, two, one, two. Seven pins, nice. Push seven. The total for the super strikers is nine. Plus seven. That's all ten red beads and four and two white beads. That's six. Ten and six is sixteen. Yeah, another high score. Only one team left. The ten pin teddies. That's you. Oh. Oh. He scored seven. How did I do? Push seven. You've scored seven. The score to beat is sixteen. Reckon wreck, please show us what sixteen looks like. Here's sixteen. Now, if we take your score of seven away from the top row. Push seven. We can see that you need three and six. Which is nine. So we need to knock down nine more pins to equal the high score of sixteen. Or, oh, ten to win. No pressure. Oh. Oh. Ten to win. No pressure. Come on, come on. Oh, sorry. Oh, ten. Oh, ten pins. The seven pin you'll first go plus ten. That makes seventeen points. You won. Team ten pin teddies are the winners. One, hold. Hello. Thanks so much for inviting me to the fraction of friends. I'm going to give you a chance to win. Here. I brought you this. One, hold up. For one, hold me. Thank you. Would you like to share? How do we share this? One, hold, pike. All for you. All for me. All for us. When you've only got one cake and your friends are coming round. You know you're going to need a plan. You know you're going to need a plan. You know you're going to need a plan of action. You're going to have to share equal parts to make it fair. Divide it up to everyone's satisfaction. Why not give it a try? It's as easy as pie. What you need. What you need. Is a fraction. Like us. When you divide a cake into your guitar fish. One half and one half make one whole. One half for me and one half for you. One half is what you get. When you divide by two. But what is one half? It's a fraction. It's a fraction. Divide it into pieces and a fraction. You take my face and you'll make no mistake. Which every were your slaves and fractions are a piece of pig. I'm one half. I'm one half. I'm one a couple of equal parts. I am one half. I'm one third of each of my equal parts. I'm one half of each of you. Your one half is so cute. It's twins! But what if more than two of you need to share? That's easy! Look here! Potato pie! When you divide a pie by three, you get one third. It takes two more thirds to make one whole. One third for you, and two thirds for me! One third is what you get. When you divide by three. Oh, three one thirds! And one third, me two! And one third, me three! And one three equal part, and one third, so arrayed! And one part of a whole that's been divided into three. And one third, and one third, that's me and me. And me! I see fractions are what you get when you divide things into equal parts. Yes! It's easy when you know how. Pizza! When you divide a pizza by four, you get one quarter. That's one fourth! And you know that four quarters make one whole. One quarter for you, and we still got three more. One quarter is what you get when you divide by four. What's a quarter? It's a four! I'm one quarter, so am I! I'm one quarter, so arrayed! I'm one of four equal parts, I'm one quarter. I'm one part of a whole that's been divided into four. I'm one quarter, I'm one quarter. For sure! Halls, halves, thirds, quarters, there must be more. Fractions never end! There are fifths, sixths, sevenths, eighths, ninths, and... Tarts? That's right! Ten to ten! No matter how small, if it's a part of a whole... Interaction! Interaction! Flying into pieces is a fraction! Take my advice until make no mistake. Whichever way you slice it, Fractions are a piece of cake. Fractions are a piece of cake. Or pizza! Or pie! Or anything you like. No! Routing! Our ball! It's flat! Hmm, what's all the noise? Oh, I don't think that's a wall at all. I think that's flat! Oh, I think that's flat! I think that's flat! I think that's flat! I think that's flat! Hello, Square! Can we have our ball back, please? Ball! You mean the circle? I always wanted to visit Sticky Ootyland. Here I come! Oh, he's as flat as a pancake. Souls are a ball. You're changing shape. You're a square. No! Red dangle! No! Red dangle! No! All sorts of things! You're seeing different bits of four as you move around. Try looking at each of my surfaces straight on. From the side, I see a square. From the top, another square. And from the front, a square again. A square on every surface. Ooh, let's try something. Hey, squares! Let's have a square at the bottom, a square on the left, and one on the right, sticking straight up. Two more in the gaps there, and one more square on top. Six squares, make one cube! Well, well, flat shapes like squares. And join up to make soul in shapes like cubes. Oh, that looks fun. How about some three-sided shapes? No, you're talking. You lie down here. You can fit on there, and you go there. There's a gap. Lean in so you're touching, which just leaves room for one more triangle, making a pyramid with triangle base, and one, two, three. Three more triangles, meeting at a point. Making four triangles in all. What? What about circles? Circles have one curved edge. Look, this is a solid shape with a circle on the top. And another on the bottom. But how do we make this bit? From here, it looks like a square. Maybe if I try bending. You'd need to be wider, like a long rectangle. But somebody say rectangle? Let's wrap this up. Great. Now two circles, please. To fit in those two gaps. I'm not impressed by some cylinder. You should be. A cylinder is a solid shape with three surfaces. Oh, I love it. This shape here has a circle on the bottom. But what about this soothing surface? Powerful moment. I'm half a circle. A semicircle. Let me give this bending thing a go. Well, well. So a cone is a solid shape with two surfaces. One flat and one curved. Oh, this is so much fun. But we still haven't got our ball back. I heard a story once about a circle whose span really, really fast steps. It just fear, appear. Wow, a solid shape with just one curved surface. Amazing. We didn't get our ball back. We got a bigger ball instead. Hooray! What play for all? Hooray! Hooray! Play for it! Here it is, everybody. Oh, hooray! Cuboid castle construction kit. Oh, what's a cuboid? Let's find out. Oh, boi! They can't all be cuboids. Can they? Um, they're all coy boxy. Ha, why don't they just call it boxy castle? Cuboid indeed. I like cuboid. Sounds a bit like cub. Square, square, square, square, square, square. Square, square. Oh, I do like cubes. This one has square faces too. Here and here. But the other face is erect angles. A square is a rectangle. Remember a special one with all sides the same length. Which means all these shapes have rectangular faces. Then that must be what a cuboid is. A solid shape made of six rectangles. Here are the instructions. We can work it out together. One step at a time. And the first step is some steps. We need three different cubes. One small, one medium, one big. Oh, here's one. And another. I've got this one. But the small cube on the left. The large cube on the right. And the medium cube in between them. Small cube on the left. Large cube on the right. And this goes in the middle. A good, good, good. Now we need a really long thin flat cuboid. Long flat and thin. Oh, like this. Perfect. Now connect one end to the top of the large cube. So it slopes down to the right. Oh, it's a slide. Hold on. We still have lots of cuboids to go. So let's get building. They're finished. Oh, right. There's one cuboid left. We must have missed something. Four, there you are. You forgot this. The pyramids and triangular prisms expansion pack. This must be a triangular prism with a triangular each end joined up by rectangles. Oh, I see. Two, put that prism down there. One, four, put the long cube on top so it balances in the middle. It's a sea saw. Oh, hey! We have finished yet. Wait. Where are the number blobs? Oxy castle! Oh, hey! Welcome to Table Spitters! Yay! Please welcome to Days Contestant, the six times table. I'm a six-town table keeping it real. Let's go, go, go, and spin that wheel. Now let's meet the team that she'll be trying to find. Give it up for the rolling sixes. Six! Six, twelve, eighteen, twenty-four, fourteen, thirty-six, forty-two, forty-eight, fifty-four, sixteen. That's today's team. Now you see them, now you don't. It's up to you to find them again. Let's start with round one. Which of your team are behind these first three doors? That's an easy start. One, six, this is six. Two, six, this is our twelve. And three, sixes are eighteen. Yay! You got that answer at speed. Time for round two. Who's hiding behind door number ten? I know that one, ten times six. That's sixty. Yay! You can count on me, literally. The next question is trickier. Who's behind door number nine? Hmm. Well, if ten sixes are sixty, nine sixes are six less than sixty. Six less than ten is four. So, six less than sixty is fifty-four. That's me! Hi everyone! I love games with Gritzin, as I believe my bowtie shows. We've filled in the start. We've filled in the end. So let's head for the middle. Time for round three. Who's behind this door? Some friendly neighbors might give you a clue. Four sixes are twenty-four. It's me, thirty-six, the puzzle square. Hmm. Well, if you're square, you must be six sixes. So the door before is five sixes. And six less than thirty-six is thirty. That's what five sixes are thirty. You're on a roll now, my friend. You certainly are. You filled in the hole first half. Six, twelve, eighteen, twenty-four, thirty. And thirty-six. So it's time for the final round. Time for round three. How do you work out which of your team is hiding behind this door? Here are your clues. Who is the step-shaped stranger? Heats me again thirty-six. I'm forty-eight. Activate! Eight Jokey Sixes! Ha-ha! So to fill a void, can you find the ultimate answer? I think so. The number I need is six more than thirty-six. And six less than forty-eight. Now, six less than eight is two. So six less than forty-eight is forty-two. Oh dear. I think my friend forty-two is having teleporting trouble again. Seven sixes in the sky. Making forty-two. Ha-ha! Don't panic. Here I am. And with forty-eight, fifty-four and sixty, you found all the rolling sixes. See you next time everybody. My board game club. I just can't wait. I hope my special guest's not late. Ha-ha! Oh, are you early? I approve. Come in and show us your first move. Show you my moves. Of course. Lucky for you, this superhero was passing. What's the problem? A superhero? How bizarre. Are you not too, I think, you are? Hello? Sorry I'm late. I cannot wait to be your guest of honour and play loads of lovely board games. Oh, Dotson Boxes. My favourite. I love games on grids. You're fifty-four. I'm in a mix. So you're my guest, not fifty-six. Ha-ha! Don't worry. Happens all the time, doesn't it, fifty-six? Very true, fifty-four. Lots of people mix this up at first sight, after all. We're both. Big, big, rock tangos! Except I have five blue tens and four green ones. Well, I've got five blue tens and six ones, two more than you. And of course, I have a rainbow superhero mask. Whereas I have this araw a snazzy bow tie. Look, grids and dice! That bow tie is a handy clue, and now I know just who is who. Fifty-four. That's me, fifty-four. And I've got some great games for board game club. I can't wait to show you. Oh, then you'll need an audience. I'm fifty-six, and I... Eight, sevens! Lucky me here! Oh, lovely! Welcome, everybody. Let me show you some of my moves. Board game moves, that is. I'm fifty-four, and I'm... Nine, sixes in a grise. Oh, nice! Which means I'm also... Six, nines! Four grid game school! Like nots and crosses! And many more! These games are played on grids. I see, and every grid is three by three. It's game time. I'll be nots. I'll be crosses. Cross. Not. Crosses will win. I think not. So you say. Yes, I do. A line of free. No! No, no, no! The tower of games! It's all wobbly. Oh, we're really in a fix now! The fact our collapses, all the different board game pieces will get muddled up. Then it's lucky we were here! Eight, sevens, mate! Fifty-six! Which means I'm also... Ten. Seven, eights! The rainbow-eights! Fred, Aaron, Yolo, Green, Blue, Indigo, Violet! Rainbow-eights! The colorful crusaders! Woohoo! Let's all cheer Hip Hip Hooray! Now, fifty-six has saved the day! Ugh! Oh, silly me! Oh, what a pain! I've gone and mixed you up again! Like we said, it happens all the time. Maybe this will help! For gridgames galore, call fifty-four! Hooray! In a colour for fix, call fifty-six! Ha-ha! I can tell who's who! Success! Now, who would like a game of chess? Ooh! A... A baby tiddly wings? Ha-ha! Woohoo! This is Super Dover! We can race all day and all night too! And together we can keep racing! Oh, we can... Forty-eight! Activate! Woohoo! Check out the eyebrow action! I'm forty-eight! I've got eight chunky sixes! Hello! And six chunky eights! Ha-ha! Yeah! I'm up for forty-eight hours of fun, fun, fun! I know! I'll race all the way to puzzle square! Woohoo! Although, it'd be more fun with someone to race against! What? What? That! Woohoo! Is raining sixes? That's new! One, two, three, four, five, six, seven! Seven sixes in the sky! Oh, my! Look out! Huh? Huh? Hello, there! I'm forty-eight! Activate! Eight chunky sixes! Six chunky eights! Ha-ha! I'm forty-two! Sorry to drop in on you like that! My teleporting belt is playing up today! Teleporting! What's that? It's how I go from place to place! The buckle on my rainbow belt glows! And I get rushed away to somewhere else! Sometimes when I arrive, I'm... Seven sixes! And sometimes I'm... Six sevens! And so, I'm always at sixes and sevens! Well, it's extra super-duper to meet your forty-two! Teleporting sounds fun! Mostly, although some days I just don't know where I'll go next! Uh-oh! Don't panic! Don't panic! I'm teleporting again! To the loop and forty-two! Um... Ha-ha! Woo-hoo! Ha-ha! One, two, three, four, five, six, six, sevens in the sky! Oh, I'll... I'm stuck! Oh, dear! Let's use please! On my way, forty-eight, activate! Six chunky eights, saving six snowy sevens! Ha-ha! One, two, three, four, five, six, six, snowy rescue! Oh! Excellent rescuing forty-eight! How can I ever thank you? Ooh! Fun idea! Let's play again! I'll race you to Puzzle Square! Ready? Steady! Go! Ha-ha! Wow! She's a fast rickshaw, right? Ha-ha! But there's more than one way to get to Puzzle Square! Ha-ha! Two blue from forty-two! Woo-hoo! Ooh! Six rays fast, eight rays faster! I'm winning, I'm winning! I'm... Not winning! One, two, three, four, five, six, sevens! Seven sixes in the sky! Did I win? Yes! Well done forty-two! And we've got the rest of the weekend for a rematch! But, before that, I do have one question! How did I get here so fast? No! Where did that rubber duck come from? Oh! I teleported into my bath on the way here! Now, how about that rematch? You're on! Let's go! I'm gonna beat you this time! I'm not ready to make your mark on the Rainbow Sevens Great Big Rainbow Neural! I certainly am 63, I'm painting my very own rainbow! One brush, seven colors! Ooh! One seven, one rainbow! Oh! Gangway, extreme fourteen coming through! Two sevens, two rainbows! Awesome! Eww! Three sevens, three rainbows! Hello twenty-one! Oh! Lovely map! Oh, thank you! Oh! Oh! Nice pattern twenty-eight! I'm stepping up to rate my mark! Four sevens! Four rainbows! What a perfect pattern! Wow! Oh! That's amazing thirty-five! Five sevens! Five rainbows! Groovy! Oh! Hmm... Everybody's got such colorful ideas for making rainbows! Well what I always say is don't panic! Just try to... Word! 42! Six sevens in the sky! Six sevens! Six rainbows! As I was saying, don't panic! Just be yourself! Excellent advice! I'm forty-nine! So I make my rainbows using square power! Seven by seven, all systems go! Woohoo! User! Seven sevens! Seven square rainbows! You see? You just need to find your true colors! Thanks forty-nine! Huh... Red! Orange! Yellow! Green! Blue! Indigo! Violent! The rainbow eights! Seven eights! Eight sevens! Eight super rainbows! Fifty-six! Hmm... You look a bit down sixty-three! Lucky I'm here! In a color for fix! Call fifty-six! Err... That's my problem fifty-six! I'm just not colourful enough! But you're one of the rainbow sevens! That means you're full of colourful rainbow surprises just waiting to burst out! Well, you see the thing is, I'm sixty-three. I'm... Nine sevens! Nine grey sevens! Watch this! Whoa! What is that? It's...it's... It's a grey rainbow. Oh nice! I've never seen a rainbow like that! It's extreme! Oh, thanks! But it's not exactly colourful, is it? If it's colourful, you're after. Maybe try turning yourself around! Okay, I'll try it. I'm sixty-three! I'm... Nine sevens! So, I can turn myself around and make seven nines! Err... Oh! Wow! So many colourful rainbow! But only one grey rainbow! Seventeen! That's me ten sevens! Seventeen! That's me ten sevens! Seventeen! We all have our own rainbow styles! And beneath one great big colour!"
+  }
+}
