@@ -49,6 +49,12 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: /tmp/service-account.json
 
+      - name: Test API keys
+        working-directory: scripts/knowledge-pipeline
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: /tmp/service-account.json
+        run: python test_api_keys.py
+
       - name: Run pipeline
         working-directory: scripts/knowledge-pipeline
         env:
