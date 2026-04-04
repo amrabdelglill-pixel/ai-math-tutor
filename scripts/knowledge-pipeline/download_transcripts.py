@@ -27,6 +27,8 @@ from config import (
     MAX_VIDEOS_PER_CHANNEL,
     MIN_VIDEO_DURATION_SECS,
     MAX_VIDEO_DURATION_SECS,
+    TRANSCRIPT_LANGUAGES,
+    SEED_CHANNELS,
 )
 
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
@@ -119,26 +121,37 @@ def get_channel_videos(channel_id, max_results=20):
 
 
 def download_transcript(video_id):
-    """Download transcript for a video, preferring Arabic then English."""
+    """Download transcript for a video. Accepts Arabic, English, French, or any available language."""
     try:
         transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
 
-        # Priority: manually created Arabic > auto Arabic > manually English > auto English
+        # Priority 1: manually created in preferred languages (ar > en > fr)
         transcript = None
-        for lang in ["ar", "en"]:
+        for lang in TRANSCRIPT_LANGUAGES:
             try:
                 transcript = transcript_list.find_manually_created_transcript([lang])
                 break
             except NoTranscriptFound:
                 pass
 
+        # Priority 2: auto-generated in preferred languages
         if not transcript:
-            for lang in ["ar", "en"]:
+            for lang in TRANSCRIPT_LANGUAGES:
                 try:
                     transcript = transcript_list.find_generated_transcript([lang])
                     break
                 except NoTranscriptFound:
                     pass
+
+        # Priority 3: ANY available transcript (manual first, then auto)
+        if not transcript:
+            try:
+                all_transcripts = list(transcript_list)
+                manual = [t for t in all_transcripts if not t.is_generated]
+                auto = [t for t in all_transcripts if t.is_generated]
+                transcript = (manual or auto or [None])[0]
+            except Exception:
+                pass
 
         if not transcript:
             return None, None
@@ -194,6 +207,25 @@ def run():
 
     with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
         channels = json.load(f)
+
+    # Merge seed channels (skip duplicates)
+    existing_ids = {ch["channel_id"] for ch in channels}
+    seed_added = 0
+    for seed in SEED_CHANNELS:
+        if seed["channel_id"] not in existing_ids:
+            channels.append({
+                "channel_id": seed["channel_id"],
+                "title": seed["title"],
+                "subscribers": 0,
+                "tags": seed.get("tags", []),
+            })
+            existing_ids.add(seed["channel_id"])
+            seed_added += 1
+    if seed_added:
+        print(f"Added {seed_added} seed channels (total: {len(channels)})")
+        # Save updated channels list
+        with open(CHANNELS_FILE, "w", encoding="utf-8") as f:
+            json.dump(channels, f, ensure_ascii=False, indent=2)
 
     progress = load_progress()
     already_done = set(progress["downloaded"] + progress["failed"] + progress["skipped"])

@@ -51,9 +51,9 @@ GRADE_TERMS = {
 
 # YouTube API settings
 MAX_CHANNELS_PER_QUERY = 5       # Top channels per search query
-MAX_VIDEOS_PER_CHANNEL = 20      # Most recent/popular videos per channel
-MIN_VIDEO_DURATION_SECS = 120    # Skip videos shorter than 2 minutes
-MAX_VIDEO_DURATION_SECS = 3600   # Skip videos longer than 1 hour
+MAX_VIDEOS_PER_CHANNEL = 50      # Most recent/popular videos per channel
+MIN_VIDEO_DURATION_SECS = 60     # Skip videos shorter than 1 minute
+MAX_VIDEO_DURATION_SECS = 5400   # Skip videos longer than 1.5 hours
 
 # Transcript processing
 CHUNK_SIZE = 1500                # Characters per chunk for embedding
@@ -69,6 +69,31 @@ DRIVE_FOLDER_TEMPLATE = "{country}/{subject}/{grade}"
 SUPABASE_CHANNELS_TABLE = "knowledge_channels"
 SUPABASE_TRANSCRIPTS_TABLE = "knowledge_transcripts"
 SUPABASE_CHUNKS_TABLE = "knowledge_chunks"
+
+
+# Transcript language priority: accept Arabic, English, and French
+# The pipeline will try ALL languages and accept whatever is available
+TRANSCRIPT_LANGUAGES = ["ar", "en", "fr"]
+
+# Seed channels — high-quality known educational channels to always include
+# These bypass discovery and go straight to transcript download
+SEED_CHANNELS = [
+    # Arabic Math/Science
+    {"channel_id": "UC2OJM3-_FMVBMdm2dHN4bVQ", "title": "Nafham - نفهم", "tags": ["math", "science", "EG", "all_grades"]},
+    {"channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ", "title": "Droos Online - دروس أونلاين", "tags": ["math", "science", "EG", "all_grades"]},
+    {"channel_id": "UCsJwnIaPPlEJvnRS8uy2Ewg", "title": "Khan Academy Arabic", "tags": ["math", "science", "all_countries", "all_grades"]},
+    {"channel_id": "UC7bmnKMxLfFxEi6KHXkEV9w", "title": "Mohamed El Deeb - محمد الديب", "tags": ["math", "EG", "all_grades"]},
+    {"channel_id": "UCaxGPRhFkSJRxpoHi-HBvmg", "title": "Mustafa Mounir - مصطفى منير", "tags": ["math", "EG", "all_grades"]},
+    # English Math/Science
+    {"channel_id": "UC4a-Gbdw7vOaccHmFo40b9g", "title": "Khan Academy", "tags": ["math", "science", "english", "all_countries", "all_grades"]},
+    {"channel_id": "UCYO_jab_esuFRV4b17AJtAw", "title": "3Blue1Brown", "tags": ["math", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCBnZ16ahKA2DZ_T5W0FPUXg", "title": "Organic Chemistry Tutor", "tags": ["math", "science", "all_countries", "all_grades"]},
+    {"channel_id": "UCr0EYcMdFU6_L0nCSGJw8hg", "title": "Math Antics", "tags": ["math", "all_countries", "1", "2", "3", "4", "5", "6"]},
+    {"channel_id": "UC4a0YlN1P7rcjGRjh0DCKIA", "title": "Professor Dave Explains", "tags": ["math", "science", "all_countries", "7", "8", "9"]},
+    # Arabic curriculum-specific
+    {"channel_id": "UCzp10JVJ3AScSDANBTgbvlg", "title": "Madrasati - مدرستي", "tags": ["math", "science", "KW", "all_grades"]},
+    {"channel_id": "UCd2R4lOnXC7aTRGNMbJPK3A", "title": "Abwaab - أبواب", "tags": ["math", "science", "JO", "all_grades"]},
+]
 
 
 def build_search_queries(country_code, subject, grade):
