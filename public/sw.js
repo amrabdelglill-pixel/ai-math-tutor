@@ -1,9 +1,5 @@
-const CACHE_NAME = 'zeluu-v3';
+const CACHE_NAME = 'zeluu-v4';
 const STATIC_ASSETS = [
-  '/',
-  '/login.html',
-  '/dashboard.html',
-  '/app.html',
   '/css/styles.css',
   '/js/supabase-config.js',
   '/manifest.json',
@@ -11,7 +7,7 @@ const STATIC_ASSETS = [
   '/icons/icon-512.png'
 ];
 
-// Install — cache static assets
+// Install — cache static assets, skip waiting to activate immediately
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC_ASSETS))
@@ -19,7 +15,7 @@ self.addEventListener('install', event => {
   self.skipWaiting();
 });
 
-// Activate — clean old caches
+// Activate — clean ALL old caches
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -29,7 +25,10 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-// Fetch — network-first for API, cache-first for static
+// Fetch strategy:
+// - API / Supabase: network only (never cache)
+// - HTML pages: network-first (always get fresh, fallback to cache offline)
+// - Static assets (css, js, icons): stale-while-revalidate
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
 
@@ -38,7 +37,20 @@ self.addEventListener('fetch', event => {
     return event.respondWith(fetch(event.request));
   }
 
-  // Cache-first for static assets
+  // HTML pages — network-first so code updates are immediate
+  if (event.request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname === '/') {
+    return event.respondWith(
+      fetch(event.request).then(response => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        }
+        return response;
+      }).catch(() => caches.match(event.request))
+    );
+  }
+
+  // Static assets — stale-while-revalidate (fast load, background update)
   event.respondWith(
     caches.match(event.request).then(cached => {
       const fetched = fetch(event.request).then(response => {
