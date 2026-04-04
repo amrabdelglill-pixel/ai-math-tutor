@@ -242,6 +242,8 @@
                     return;
                 }
                 localStorage.setItem('child_token', data.token);
+                localStorage.setItem('zeluu_child_token', data.token);
+                if (data.child && data.child.id) localStorage.setItem('zeluu_child_id', data.child.id);
                 localStorage.setItem('parent_email', parent_email);
                 window.location.href = '/app';
             } catch (error) {
@@ -255,7 +257,27 @@
 
         const savedEmail = localStorage.getItem('parent_email');
         if (savedEmail) document.getElementById('parent-email').value = savedEmail;
-        if (localStorage.getItem('child_token')) window.location.href = '/app';
+
+        // Only auto-redirect if token exists AND is not expired
+        const existingToken = localStorage.getItem('child_token');
+        if (existingToken) {
+          try {
+            const parts = existingToken.split('.');
+            if (parts.length === 3) {
+              const payload = JSON.parse(atob(parts[1]));
+              if (payload.exp && payload.exp > Date.now() / 1000) {
+                window.location.href = '/app';
+              } else {
+                // Token expired — clean up
+                localStorage.removeItem('child_token');
+              }
+            } else {
+              localStorage.removeItem('child_token');
+            }
+          } catch (e) {
+            localStorage.removeItem('child_token');
+          }
+        }
     </script>
 </body>
 </html>

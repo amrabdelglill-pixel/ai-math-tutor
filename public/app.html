@@ -1047,6 +1047,8 @@
 
     function logout() {
       localStorage.removeItem('child_token');
+      localStorage.removeItem('zeluu_child_token');
+      localStorage.removeItem('zeluu_child_id');
       window.location.href = '/child-login';
     }
 
