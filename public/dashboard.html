@@ -882,6 +882,50 @@
       } catch (e) {
         console.error('[Dashboard] Failed to load children:', e);
       }
+
+      // --- Section 3: Load notifications (safety alerts, credits, stuck loops) ---
+      await loadNotifications();
+    }
+
+    // ---- NOTIFICATIONS ----
+    async function loadNotifications() {
+      try {
+        const { data: notifications, error } = await window.supabaseClient
+          .from('notifications')
+          .select('*')
+          .order('created_at', { ascending: false })
+          .limit(20);
+
+        if (error || !notifications || notifications.length === 0) return;
+
+        const typeConfig = {
+          child_distress: { icon: '🚨', color: 'var(--color-error)', label: 'Safety Alert' },
+          personal_info_shared: { icon: '🔒', color: 'var(--color-warning)', label: 'Privacy Alert' },
+          stuck_loop: { icon: '💡', color: 'var(--color-warning)', label: 'Learning Help' },
+          credits_low: { icon: '⚡', color: 'var(--color-accent)', label: 'Credits' },
+        };
+
+        document.getElementById('notifications-list').innerHTML = notifications.map(function(n) {
+          const cfg = typeConfig[n.type] || { icon: '📢', color: 'var(--color-text-muted)', label: 'Info' };
+          const time = new Date(n.created_at);
+          const timeStr = time.toLocaleDateString('en-GB', { day:'numeric', month:'short' }) + ' ' + time.toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit' });
+          const isSafety = n.type === 'child_distress' || n.type === 'personal_info_shared';
+
+          return '<div style="padding:12px 14px; background:' + (isSafety ? 'oklch(95% 0.04 25)' : 'var(--color-warm-bg)') + '; border-radius:8px; margin-bottom:8px; border-left:3px solid ' + cfg.color + ';">'
+            + '<div style="display:flex; justify-content:space-between; align-items:start;">'
+            + '<div>'
+            + '<span style="font-size:14px;">' + cfg.icon + ' <strong>' + cfg.label + '</strong></span>'
+            + '<p style="font-size:13px; margin-top:4px; color:var(--color-text-dark);">' + (n.title || '') + '</p>'
+            + '<p style="font-size:12px; margin-top:2px; color:var(--color-text-muted);">' + (n.body || '') + '</p>'
+            + '</div>'
+            + '<span style="font-size:11px; color:var(--color-text-light); white-space:nowrap; margin-left:12px;">' + timeStr + '</span>'
+            + '</div>'
+            + (n.session_id && isSafety ? '<button class="btn btn-secondary" style="font-size:11px; padding:4px 10px; margin-top:8px;" onclick="viewTranscript(\'' + n.session_id + '\', \'Session\')">Review Session</button>' : '')
+            + '</div>';
+        }).join('');
+      } catch (e) {
+        console.error('[Dashboard] Failed to load notifications:', e);
+      }
     }
 
     // ---- ADD CHILD MODAL ----
@@ -1187,6 +1231,7 @@
               <span style="font-size:12px; color:var(--color-text-muted);">${s.messages.length} messages</span>
             </div>
             <div style="font-size:12px; color:var(--color-text-muted); margin-top:4px;">
+              <span style="display:inline-block; background:${s.subject === 'science' ? 'oklch(90% 0.08 142)' : s.subject === 'english' ? 'oklch(90% 0.08 260)' : 'var(--color-accent-light)'}; color:${s.subject === 'science' ? 'oklch(40% 0.12 142)' : s.subject === 'english' ? 'oklch(40% 0.12 260)' : 'var(--color-accent-dark)'}; font-size:11px; font-weight:600; padding:2px 8px; border-radius:10px; margin-right:6px;">${(s.subject || 'math').charAt(0).toUpperCase() + (s.subject || 'math').slice(1)}</span>
               ${s.credits_used || 0} credits &middot; Grade ${s.grade} &middot;
               <span style="color:${s.status === 'completed' ? 'var(--color-success)' : s.status === 'stuck_loop' ? 'var(--color-warning)' : 'var(--color-text-muted)'};">${s.status}</span>
             </div>
