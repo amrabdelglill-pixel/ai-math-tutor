@@ -136,7 +136,33 @@ SEED_CHANNELS = [
     {"channel_id": "UCCFXhSoIW93FZXHV42MQ0Zw", "title": "Mega goal with Molhim", "tags": ["english", "SA", "7", "8", "9"]},
 
     # =========================================================================
-    #  4. PAN-ARAB BACKBONE (fallback for BH, KW, AE, LB where local is thin)
+    #  4a. KUWAIT — Math
+    # =========================================================================
+    {"channel_id": "UCVGH3gPUReCDR8ypvT7qI3g", "title": "أ / أحمد جمال مُعلم رياضيات", "tags": ["math", "KW", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+
+    # =========================================================================
+    #  4b. UAE — Math
+    # =========================================================================
+    {"channel_id": "UCYZLW4SPufnZYsz7t4q-yZA", "title": "إمارات ماث / UAE MATH", "tags": ["math", "AE", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCWXakWOuinjMSNGm_kYevug", "title": "دروس رياضيات ماث اون لاين", "tags": ["math", "AE", "KW", "BH", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCgw7XYhVkpw_4d1fXWdMKxw", "title": "Mr Tarek Ali - معلم الرياضيات", "tags": ["math", "AE", "4", "5", "6", "7", "8", "9"]},
+
+    # =========================================================================
+    #  4c. GCC REGIONAL — Science (covers AE, KW, BH)
+    # =========================================================================
+    {"channel_id": "UCZVh0-57dFf7LpPLc0deeZw", "title": "المهدي أكاديمي المناهج الإماراتية", "tags": ["math", "science", "AE", "SA", "KW", "BH", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCQa22ky3r6YzT4xXyRDoKuQ", "title": "المدرس El-Modares", "tags": ["science", "KW", "BH", "AE", "7", "8", "9"]},
+    {"channel_id": "UCEWapQi3NHBRlmsMADbF03Q", "title": "معمل العلوم", "tags": ["science", "EG", "BH", "KW", "AE", "1", "2", "3", "4", "5", "6"]},
+    {"channel_id": "UCdEDqR6adI7gXhPkS7AzBtg", "title": "مستر احمد هنداوي - علوم", "tags": ["science", "EG", "BH", "KW", "AE", "7", "8", "9"]},
+
+    # =========================================================================
+    #  4d. GCC REGIONAL — English (covers AE, KW, BH, SA)
+    # =========================================================================
+    {"channel_id": "UCSAewF2ML9auuQX3LIg5QoA", "title": "ISLAM TAGEN - English Teacher", "tags": ["english", "EG", "BH", "KW", "AE", "SA", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCPIe00cwzt9yPdZKCKa5GQQ", "title": "Sherif Ramadan English Teacher", "tags": ["english", "EG", "BH", "KW", "AE", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+
+    # =========================================================================
+    #  4e. PAN-ARAB BACKBONE (fallback for BH, KW, AE, LB where local is thin)
     # =========================================================================
     {"channel_id": "UCsJwnIaPPlEJvnRS8uy2Ewg", "title": "Khan Academy Arabic", "tags": ["math", "science", "BH", "KW", "JO", "AE", "EG", "LB", "MA", "SA", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
     {"channel_id": "UCzp10JVJ3AScSDANBTgbvlg", "title": "Madrasati - مدرستي", "tags": ["math", "science", "KW", "BH", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
