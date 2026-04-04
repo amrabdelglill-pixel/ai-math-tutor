@@ -1,0 +1,1329 @@
+{
+  "video_id": "ocWCzDAH5lI",
+  "video_title": "Classes and objects | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 472.0,
+  "view_count": 6215,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.4,
+        "text": "We have a group of related data that models some real-world concept,"
+      },
+      {
+        "start": 4.4,
+        "duration": 4.0,
+        "text": "like a weather forecast, a user account, or a game character."
+      },
+      {
+        "start": 8.4,
+        "duration": 3.2,
+        "text": "Each character is made up of multiple attributes,"
+      },
+      {
+        "start": 11.6,
+        "duration": 4.8,
+        "text": "like its color, its health, and whether or not its shell has spikes."
+      },
+      {
+        "start": 16.4,
+        "duration": 3.2,
+        "text": "We can certainly store all of those as separate variables,"
+      },
+      {
+        "start": 19.6,
+        "duration": 6.0,
+        "text": "or we can use a data structure like a list or dictionary to bundle those values together."
+      },
+      {
+        "start": 25.8,
+        "duration": 5.4,
+        "text": "Great, but what if my program needs to represent tons of shell guys?"
+      },
+      {
+        "start": 32.0,
+        "duration": 3.3,
+        "text": "We can make a separate dictionary record for each shell guy,"
+      },
+      {
+        "start": 36.1,
+        "duration": 6.3,
+        "text": "but nothing in that code enforces that every shell guy has the same structure."
+      },
+      {
+        "start": 43.3,
+        "duration": 4.6,
+        "text": "All it takes is one little typo, somewhere in those hundreds of shell guys,"
+      },
+      {
+        "start": 47.8,
+        "duration": 6.0,
+        "text": "and now our program is broken. To solve this, we can create our own custom data type,"
+      },
+      {
+        "start": 53.9,
+        "duration": 5.1,
+        "text": "using classes. A class is a template for a data type."
+      },
+      {
+        "start": 59.0,
+        "duration": 3.8,
+        "text": "It defines what kind of thing it is and what data it can store."
+      },
+      {
+        "start": 63.8,
+        "duration": 6.1,
+        "text": "The class says the rule that every shell guy must have a color,"
+      },
+      {
+        "start": 69.9,
+        "duration": 5.7,
+        "text": "health, and has spikes attribute. Each shell guy we create must follow that rule,"
+      },
+      {
+        "start": 75.6,
+        "duration": 5.6,
+        "text": "but each shell guy is his own unique thing. So this shell guy might store green,"
+      },
+      {
+        "start": 81.2,
+        "duration": 5.5,
+        "text": "eight, and false, whereas this shell guy over here stores blue for his color attribute,"
+      },
+      {
+        "start": 87.4,
+        "duration": 7.7,
+        "text": "50 for his health, and true for has spikes. We call these actual shell guy things we create,"
+      },
+      {
+        "start": 95.0,
+        "duration": 4.5,
+        "text": "instances of the class shell guy, otherwise known as objects."
+      },
+      {
+        "start": 100.9,
+        "duration": 5.1,
+        "text": "Unfortunately, the syntax for this empython is where it all gets a little weird."
+      },
+      {
+        "start": 106.8,
+        "duration": 6.2,
+        "text": "So let's break it down step by step. To define a new type, we use a class definition."
+      },
+      {
+        "start": 113.4,
+        "duration": 4.2,
+        "text": "We put the keyword class, the name of our type, and then a colon."
+      },
+      {
+        "start": 118.3,
+        "duration": 5.0,
+        "text": "Like everything in Python, the rest of the definition needs to be indented inside this,"
+      },
+      {
+        "start": 123.4,
+        "duration": 5.3,
+        "text": "which will talk more about in a minute. Okay, we defined a new shell guy type,"
+      },
+      {
+        "start": 129.4,
+        "duration": 5.0,
+        "text": "but like a function definition, a class definition doesn't do anything on its own."
+      },
+      {
+        "start": 134.9,
+        "duration": 3.1,
+        "text": "We need to call the class just like we call a function."
+      },
+      {
+        "start": 139.2,
+        "duration": 6.6,
+        "text": "Calling the class creates a new object of type shell guy, which right now is just an empty data"
+      },
+      {
+        "start": 145.8,
+        "duration": 8.4,
+        "text": "container. We can then store data on that object using dots and text. So this attaches a color variable"
+      },
+      {
+        "start": 154.2,
+        "duration": 5.8,
+        "text": "to this specific shell guy. We call these variables stored on an object attributes."
+      },
+      {
+        "start": 160.2,
+        "duration": 3.7,
+        "text": "So now this shell guy is keeping track of his data."
+      },
+      {
+        "start": 164.8,
+        "duration": 3.8,
+        "text": "And I can create other shell guy objects and have them store their data."
+      },
+      {
+        "start": 173.3,
+        "duration": 6.2,
+        "text": "Now I'm seeing some repeated code here. After I create a shell guy object, I'm then immediately"
+      },
+      {
+        "start": 179.4,
+        "duration": 5.8,
+        "text": "assigning these same three attributes. How do we clean up repeated code? We use a function."
+      },
+      {
+        "start": 186.2,
+        "duration": 5.7,
+        "text": "So let's write a function initialize that takes in a shell guy object. We'll name the parameter"
+      },
+      {
+        "start": 191.8,
+        "duration": 7.1,
+        "text": "self and assigns that object's color, health, and has spikes attributes. That means instead of guard"
+      },
+      {
+        "start": 199.0,
+        "duration": 7.0,
+        "text": "dot color, we'll have self dot color. So after we create the first shell guy guard, we'll initialize"
+      },
+      {
+        "start": 206.0,
+        "duration": 7.8,
+        "text": "him and then the same for the shell guy object boss. But right now, we're just hard coding the"
+      },
+      {
+        "start": 213.8,
+        "duration": 5.4,
+        "text": "attributes to the same three values. That means every shell guy gets initialized to the color green."
+      },
+      {
+        "start": 220.0,
+        "duration": 5.2,
+        "text": "Instead, I want to pass in values for those attributes. So I can initialize my shell guys with"
+      },
+      {
+        "start": 225.2,
+        "duration": 5.5,
+        "text": "different data. So we'll add a parameter for each of these and we'll store its value in the"
+      },
+      {
+        "start": 230.7,
+        "duration": 7.6,
+        "text": "corresponding attribute. Then we can easily initialize our guard shell guy to be green,"
+      },
+      {
+        "start": 238.3,
+        "duration": 8.0,
+        "text": "have 8 HP and no spikes. Whereas we can give our boss shell guy the color blue, 50 HP and yes spikes."
+      },
+      {
+        "start": 248.3,
+        "duration": 6.5,
+        "text": "This is all great, but I just wrote my own arbitrary function. Wasn't the whole point of a class"
+      },
+      {
+        "start": 254.8,
+        "duration": 7.3,
+        "text": "supposed to be that it enforces objects of that type have the same attributes? Well, the people"
+      },
+      {
+        "start": 262.1,
+        "duration": 6.0,
+        "text": "who created the Python programming language realized that programmers always want to create the object"
+      },
+      {
+        "start": 268.1,
+        "duration": 6.1,
+        "text": "and then immediately initialize it. So they got a bit fancy with the syntax shortcut here."
+      },
+      {
+        "start": 275.4,
+        "duration": 7.6,
+        "text": "Python classes have a special initializer function or technically we would say initializer method"
+      },
+      {
+        "start": 283.0,
+        "duration": 7.9,
+        "text": "since the function definition goes inside the class definition. This method must be named underscore"
+      },
+      {
+        "start": 291.0,
+        "duration": 9.4,
+        "text": "underscore, a knit underscore underscore. The magic is that Python secretly automatically executes the"
+      },
+      {
+        "start": 300.4,
+        "duration": 7.8,
+        "text": "initializer method when an object of that type gets created. We can see that in action by adding a"
+      },
+      {
+        "start": 308.2,
+        "duration": 8.4,
+        "text": "print statement here. This a knit method is executing twice once when we create this shell guy object"
+      },
+      {
+        "start": 317.1,
+        "duration": 7.1,
+        "text": "and once when we create this shell guy object. The other piece of auto magic is that Python"
+      },
+      {
+        "start": 324.2,
+        "duration": 6.5,
+        "text": "passes in the object as the first argument when it calls a knit. Since we're in the middle of"
+      },
+      {
+        "start": 330.7,
+        "duration": 5.3,
+        "text": "creating the object we don't have a variable that stores it yet. There is no guard that we can pass in."
+      },
+      {
+        "start": 336.6,
+        "duration": 6.0,
+        "text": "So Python handles that plumbing for us and passes in the object it's currently initializing,"
+      },
+      {
+        "start": 342.6,
+        "duration": 6.3,
+        "text": "meaning that empty shell guy it just created. By convention we name this first parameter cell"
+      },
+      {
+        "start": 349.6,
+        "duration": 7.9,
+        "text": "as in me myself the object we're acting on. The name cell has no special power. We could name"
+      },
+      {
+        "start": 357.5,
+        "duration": 8.2,
+        "text": "this potato. What's important is that this is a knit's first parameter. There's nothing truly"
+      },
+      {
+        "start": 365.7,
+        "duration": 7.4,
+        "text": "magic here. We can call a knit manually after the object's created and pass in the object directly."
+      },
+      {
+        "start": 373.1,
+        "duration": 7.0,
+        "text": "There's just no need to since Python already called a knit automatically. With the auto magic out"
+      },
+      {
+        "start": 380.1,
+        "duration": 5.6,
+        "text": "of the way we can just move our earlier initialize function body into our special a knit method"
+      },
+      {
+        "start": 386.2,
+        "duration": 6.6,
+        "text": "adding those parameters to a knit as well. Here's the question since we don't call a knit directly."
+      },
+      {
+        "start": 393.5,
+        "duration": 6.6,
+        "text": "How do we pass in those other arguments? You might have guessed this one but we just pass them in"
+      },
+      {
+        "start": 400.2,
+        "duration": 6.6,
+        "text": "when we instantiate the object. When Python automatically calls a knit it will automatically pass"
+      },
+      {
+        "start": 406.8,
+        "duration": 5.9,
+        "text": "those arguments through in the same order except it adds the object as the first argument."
+      },
+      {
+        "start": 413.8,
+        "duration": 6.6,
+        "text": "That means we as the programmer don't pass in an argument for cell. A knit has four parameters but"
+      },
+      {
+        "start": 420.5,
+        "duration": 7.8,
+        "text": "we only pass an arguments for the last three. And one small cleanup. By convention we name our"
+      },
+      {
+        "start": 428.3,
+        "duration": 5.2,
+        "text": "parameters the same as the attributes that store them just to keep things simple."
+      },
+      {
+        "start": 437.0,
+        "duration": 6.6,
+        "text": "Okay let's sum up what we did here. Our original initialize function and our special a knit method"
+      },
+      {
+        "start": 444.2,
+        "duration": 7.4,
+        "text": "do the exact same thing. They set up or store these three attributes on the object that was passed in."
+      },
+      {
+        "start": 452.6,
+        "duration": 6.6,
+        "text": "The special class magic is that Python automatically executes the a knit method when we create a new"
+      },
+      {
+        "start": 459.2,
+        "duration": 7.4,
+        "text": "shell guy object. Thus carrying out our desired rule that every object of type shell guy has the"
+      },
+      {
+        "start": 466.6,
+        "duration": 3.0,
+        "text": "attributes color health and has spikes."
+      }
+    ],
+    "full_text": "We have a group of related data that models some real-world concept, like a weather forecast, a user account, or a game character. Each character is made up of multiple attributes, like its color, its health, and whether or not its shell has spikes. We can certainly store all of those as separate variables, or we can use a data structure like a list or dictionary to bundle those values together. Great, but what if my program needs to represent tons of shell guys? We can make a separate dictionary record for each shell guy, but nothing in that code enforces that every shell guy has the same structure. All it takes is one little typo, somewhere in those hundreds of shell guys, and now our program is broken. To solve this, we can create our own custom data type, using classes. A class is a template for a data type. It defines what kind of thing it is and what data it can store. The class says the rule that every shell guy must have a color, health, and has spikes attribute. Each shell guy we create must follow that rule, but each shell guy is his own unique thing. So this shell guy might store green, eight, and false, whereas this shell guy over here stores blue for his color attribute, 50 for his health, and true for has spikes. We call these actual shell guy things we create, instances of the class shell guy, otherwise known as objects. Unfortunately, the syntax for this empython is where it all gets a little weird. So let's break it down step by step. To define a new type, we use a class definition. We put the keyword class, the name of our type, and then a colon. Like everything in Python, the rest of the definition needs to be indented inside this, which will talk more about in a minute. Okay, we defined a new shell guy type, but like a function definition, a class definition doesn't do anything on its own. We need to call the class just like we call a function. Calling the class creates a new object of type shell guy, which right now is just an empty data container. We can then store data on that object using dots and text. So this attaches a color variable to this specific shell guy. We call these variables stored on an object attributes. So now this shell guy is keeping track of his data. And I can create other shell guy objects and have them store their data. Now I'm seeing some repeated code here. After I create a shell guy object, I'm then immediately assigning these same three attributes. How do we clean up repeated code? We use a function. So let's write a function initialize that takes in a shell guy object. We'll name the parameter self and assigns that object's color, health, and has spikes attributes. That means instead of guard dot color, we'll have self dot color. So after we create the first shell guy guard, we'll initialize him and then the same for the shell guy object boss. But right now, we're just hard coding the attributes to the same three values. That means every shell guy gets initialized to the color green. Instead, I want to pass in values for those attributes. So I can initialize my shell guys with different data. So we'll add a parameter for each of these and we'll store its value in the corresponding attribute. Then we can easily initialize our guard shell guy to be green, have 8 HP and no spikes. Whereas we can give our boss shell guy the color blue, 50 HP and yes spikes. This is all great, but I just wrote my own arbitrary function. Wasn't the whole point of a class supposed to be that it enforces objects of that type have the same attributes? Well, the people who created the Python programming language realized that programmers always want to create the object and then immediately initialize it. So they got a bit fancy with the syntax shortcut here. Python classes have a special initializer function or technically we would say initializer method since the function definition goes inside the class definition. This method must be named underscore underscore, a knit underscore underscore. The magic is that Python secretly automatically executes the initializer method when an object of that type gets created. We can see that in action by adding a print statement here. This a knit method is executing twice once when we create this shell guy object and once when we create this shell guy object. The other piece of auto magic is that Python passes in the object as the first argument when it calls a knit. Since we're in the middle of creating the object we don't have a variable that stores it yet. There is no guard that we can pass in. So Python handles that plumbing for us and passes in the object it's currently initializing, meaning that empty shell guy it just created. By convention we name this first parameter cell as in me myself the object we're acting on. The name cell has no special power. We could name this potato. What's important is that this is a knit's first parameter. There's nothing truly magic here. We can call a knit manually after the object's created and pass in the object directly. There's just no need to since Python already called a knit automatically. With the auto magic out of the way we can just move our earlier initialize function body into our special a knit method adding those parameters to a knit as well. Here's the question since we don't call a knit directly. How do we pass in those other arguments? You might have guessed this one but we just pass them in when we instantiate the object. When Python automatically calls a knit it will automatically pass those arguments through in the same order except it adds the object as the first argument. That means we as the programmer don't pass in an argument for cell. A knit has four parameters but we only pass an arguments for the last three. And one small cleanup. By convention we name our parameters the same as the attributes that store them just to keep things simple. Okay let's sum up what we did here. Our original initialize function and our special a knit method do the exact same thing. They set up or store these three attributes on the object that was passed in. The special class magic is that Python automatically executes the a knit method when we create a new shell guy object. Thus carrying out our desired rule that every object of type shell guy has the attributes color health and has spikes."
+  }
+}

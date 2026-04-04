@@ -1,0 +1,2079 @@
+{
+  "video_id": "eMlx5fFNoYc",
+  "video_title": "Attention in transformers, step-by-step | Deep Learning Chapter 6",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1570.0,
+  "view_count": 3894900,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.4,
+        "text": "In the last chapter, you and I started to step through the internal workings of a transformer."
+      },
+      {
+        "start": 4.4,
+        "duration": 3.5,
+        "text": "This is one of the key pieces of technology inside large language models"
+      },
+      {
+        "start": 7.9,
+        "duration": 2.9,
+        "text": "and a lot of other tools in the modern wave of AI."
+      },
+      {
+        "start": 10.8,
+        "duration": 4.8,
+        "text": "It first hit the scene in a now famous 2017 paper called Attention is All You Need."
+      },
+      {
+        "start": 15.6,
+        "duration": 4.1,
+        "text": "And in this chapter, you and I will dig into what this attention mechanism is,"
+      },
+      {
+        "start": 19.6,
+        "duration": 2.4,
+        "text": "visualizing how it processes data."
+      },
+      {
+        "start": 22.0,
+        "duration": 8.1,
+        "text": "As a quick recap, here's the important context I want you to have in mind."
+      },
+      {
+        "start": 30.1,
+        "duration": 4.6,
+        "text": "The goal of the model that you and I are studying is to take in a piece of text and predict"
+      },
+      {
+        "start": 34.8,
+        "duration": 2.0,
+        "text": "what word comes next."
+      },
+      {
+        "start": 36.8,
+        "duration": 4.8,
+        "text": "The input text is broken up into little pieces that we call tokens, and these are very often"
+      },
+      {
+        "start": 41.6,
+        "duration": 2.0,
+        "text": "words or pieces of words."
+      },
+      {
+        "start": 43.6,
+        "duration": 3.8,
+        "text": "But just to make the examples in this video easier for you and me to think about, let's"
+      },
+      {
+        "start": 47.4,
+        "duration": 4.1,
+        "text": "simplify by pretending that tokens are always just words."
+      },
+      {
+        "start": 51.4,
+        "duration": 5.1,
+        "text": "The first step in a transformer is to associate each token with a high dimensional vector,"
+      },
+      {
+        "start": 56.5,
+        "duration": 1.7,
+        "text": "what we call its embedding."
+      },
+      {
+        "start": 58.2,
+        "duration": 4.4,
+        "text": "Now the most important idea I want you to have in mind is how directions in this high-dimensional"
+      },
+      {
+        "start": 62.6,
+        "duration": 5.0,
+        "text": "space of all possible embeddings can correspond with semantic meaning."
+      },
+      {
+        "start": 67.6,
+        "duration": 4.0,
+        "text": "In the last chapter, we saw an example for how direction can correspond to gender."
+      },
+      {
+        "start": 71.7,
+        "duration": 4.1,
+        "text": "In the sense that adding a certain step in this space can take you from the embedding"
+      },
+      {
+        "start": 75.8,
+        "duration": 4.4,
+        "text": "of a masculine noun to the embedding of the corresponding feminine noun."
+      },
+      {
+        "start": 80.2,
+        "duration": 3.7,
+        "text": "Just one example you could imagine how many other directions in this high-dimensional"
+      },
+      {
+        "start": 83.9,
+        "duration": 4.9,
+        "text": "space could correspond to numerous other aspects of a word's meaning."
+      },
+      {
+        "start": 88.8,
+        "duration": 4.5,
+        "text": "The aim of a transformer is to progressively adjust these embeddings so that they don't"
+      },
+      {
+        "start": 93.3,
+        "duration": 5.5,
+        "text": "merely encode an individual word, but instead they bake in some much, much richer contextual"
+      },
+      {
+        "start": 98.8,
+        "duration": 1.0,
+        "text": "meaning."
+      },
+      {
+        "start": 99.8,
+        "duration": 4.2,
+        "text": "I should say at front that a lot of people find the attention mechanism, this key piece"
+      },
+      {
+        "start": 104.0,
+        "duration": 4.3,
+        "text": "in a transformer, very confusing, so don't worry if it takes some time for things to"
+      },
+      {
+        "start": 108.2,
+        "duration": 1.2,
+        "text": "sink in."
+      },
+      {
+        "start": 109.5,
+        "duration": 4.6,
+        "text": "I think that before we dive into the computational details and all the matrix multiplications,"
+      },
+      {
+        "start": 114.1,
+        "duration": 4.2,
+        "text": "it's worth thinking about a couple examples for the kind of behavior that we want attention"
+      },
+      {
+        "start": 118.2,
+        "duration": 2.0,
+        "text": "to enable."
+      },
+      {
+        "start": 120.3,
+        "duration": 5.2,
+        "text": "Consider the phrase's American Shrew Moll, one mole of carbon dioxide, and take a biopsy"
+      },
+      {
+        "start": 125.5,
+        "duration": 1.2,
+        "text": "of the mole."
+      },
+      {
+        "start": 126.7,
+        "duration": 3.6,
+        "text": "You and I know that the word mole has different meanings in each one of these, based on the"
+      },
+      {
+        "start": 130.3,
+        "duration": 1.2,
+        "text": "context."
+      },
+      {
+        "start": 131.5,
+        "duration": 3.6,
+        "text": "But after the first step of a transformer, the one that breaks up the text and associates"
+      },
+      {
+        "start": 135.1,
+        "duration": 4.9,
+        "text": "each token with a vector, the vector that's associated with mole would be the same in all"
+      },
+      {
+        "start": 140.0,
+        "duration": 4.6,
+        "text": "three of these cases, because this initial token embedding is effectively a lookup table"
+      },
+      {
+        "start": 144.6,
+        "duration": 2.4,
+        "text": "with no reference to the context."
+      },
+      {
+        "start": 147.0,
+        "duration": 3.9,
+        "text": "It's only in the next step of the transformer that the surrounding embeddings have the"
+      },
+      {
+        "start": 150.9,
+        "duration": 3.0,
+        "text": "chance to pass information into this one."
+      },
+      {
+        "start": 153.9,
+        "duration": 3.4,
+        "text": "The picture you might have in mind is that there are multiple distinct directions in"
+      },
+      {
+        "start": 157.2,
+        "duration": 4.6,
+        "text": "this embedding space, encoding the multiple distinct meanings of the word mole, and that"
+      },
+      {
+        "start": 161.9,
+        "duration": 5.1,
+        "text": "a well-trained attention block calculates what you need to add to the generic embedding"
+      },
+      {
+        "start": 167.0,
+        "duration": 6.3,
+        "text": "to move it to one of these more specific directions as a function of the context."
+      },
+      {
+        "start": 173.3,
+        "duration": 3.8,
+        "text": "To take another example, consider the embedding of the word tower."
+      },
+      {
+        "start": 177.0,
+        "duration": 4.7,
+        "text": "This is presumably some very generic, non-specific direction in the space associated with lots"
+      },
+      {
+        "start": 181.7,
+        "duration": 2.3,
+        "text": "of other large, tall nouns."
+      },
+      {
+        "start": 184.0,
+        "duration": 4.6,
+        "text": "If this word was immediately preceded by Eiffel, you could imagine wanting the mechanism"
+      },
+      {
+        "start": 188.7,
+        "duration": 4.7,
+        "text": "to update this vector so that it points in a direction that more specifically encodes"
+      },
+      {
+        "start": 193.4,
+        "duration": 4.9,
+        "text": "the Eiffel Tower, maybe correlated with vectors associated with Paris and France and things"
+      },
+      {
+        "start": 198.3,
+        "duration": 1.6,
+        "text": "made of steel."
+      },
+      {
+        "start": 199.9,
+        "duration": 4.8,
+        "text": "If it was also preceded by the word miniature, then the vector should be updated even further"
+      },
+      {
+        "start": 204.7,
+        "duration": 4.9,
+        "text": "so that it no longer correlates with large tall things."
+      },
+      {
+        "start": 209.6,
+        "duration": 3.8,
+        "text": "More generally than just refining the meaning of a word, the attention block allows the"
+      },
+      {
+        "start": 213.5,
+        "duration": 5.1,
+        "text": "model to move information encoded in one embedding to that of another, potentially one's"
+      },
+      {
+        "start": 218.6,
+        "duration": 3.6,
+        "text": "that are quite far away, and potentially with information that's much richer than"
+      },
+      {
+        "start": 222.2,
+        "duration": 1.8,
+        "text": "just a single word."
+      },
+      {
+        "start": 224.0,
+        "duration": 4.0,
+        "text": "What we saw in the last chapter was how after all of the vectors flow through the network,"
+      },
+      {
+        "start": 228.0,
+        "duration": 4.2,
+        "text": "including many different attention blocks, the computation that you perform to produce"
+      },
+      {
+        "start": 232.2,
+        "duration": 6.9,
+        "text": "a prediction of the next token is entirely a function of the last vector in the sequence."
+      },
+      {
+        "start": 239.1,
+        "duration": 4.8,
+        "text": "So imagine for example that the text you input is most of an entire mystery novel, all the"
+      },
+      {
+        "start": 243.9,
+        "duration": 5.1,
+        "text": "way up to a point near the end, which reads, therefore the murderer was, if the model's"
+      },
+      {
+        "start": 249.0,
+        "duration": 4.6,
+        "text": "going to accurately predict the next word, that final vector in the sequence, which began"
+      },
+      {
+        "start": 253.6,
+        "duration": 4.4,
+        "text": "its life simply embedding the word was, will have to have been updated by all of the"
+      },
+      {
+        "start": 258.1,
+        "duration": 5.2,
+        "text": "attention blocks to represent much much more than any individual word, somehow encoding"
+      },
+      {
+        "start": 263.3,
+        "duration": 4.1,
+        "text": "all of the information from the full context window that's relevant to predicting the"
+      },
+      {
+        "start": 267.4,
+        "duration": 2.1,
+        "text": "next word."
+      },
+      {
+        "start": 269.5,
+        "duration": 3.7,
+        "text": "To step through the computations though, let's take a much simpler example, imagine"
+      },
+      {
+        "start": 273.2,
+        "duration": 5.4,
+        "text": "that the input includes the phrase, a fluffy blue creature roamed the verdant forest, and"
+      },
+      {
+        "start": 278.6,
+        "duration": 4.2,
+        "text": "for the moment, suppose that the only type of update that we care about is having the"
+      },
+      {
+        "start": 282.8,
+        "duration": 4.1,
+        "text": "adjectives adjust the meanings of their corresponding nouns."
+      },
+      {
+        "start": 287.0,
+        "duration": 4.6,
+        "text": "What I'm about to describe is what we would call a single head of attention, and later"
+      },
+      {
+        "start": 291.6,
+        "duration": 4.3,
+        "text": "we will see how the attention block consists of many different heads run in parallel."
+      },
+      {
+        "start": 295.8,
+        "duration": 4.8,
+        "text": "Again, the initial embedding for each word is some high-dimensional vector that only encodes"
+      },
+      {
+        "start": 300.6,
+        "duration": 3.4,
+        "text": "the meaning of that particular word with no context."
+      },
+      {
+        "start": 304.0,
+        "duration": 1.5,
+        "text": "Actually, that's not quite true."
+      },
+      {
+        "start": 305.5,
+        "duration": 2.3,
+        "text": "They also encode the position of the word."
+      },
+      {
+        "start": 307.8,
+        "duration": 4.6,
+        "text": "There's a lot more to say about the specific way the positions are encoded, but right now,"
+      },
+      {
+        "start": 312.4,
+        "duration": 3.7,
+        "text": "all you need to know is that the entries of this vector are enough to tell you both what"
+      },
+      {
+        "start": 316.0,
+        "duration": 3.4,
+        "text": "the word is and where it exists in the context."
+      },
+      {
+        "start": 319.5,
+        "duration": 2.9,
+        "text": "Let's go ahead and denote these embeddings with the letter E."
+      },
+      {
+        "start": 322.4,
+        "duration": 4.9,
+        "text": "The goal is to have a series of computations produce a new refined set of embeddings, where"
+      },
+      {
+        "start": 327.3,
+        "duration": 5.3,
+        "text": "for example, those corresponding to the nouns have ingested the meaning from their corresponding"
+      },
+      {
+        "start": 332.6,
+        "duration": 1.3,
+        "text": "adjectives."
+      },
+      {
+        "start": 333.9,
+        "duration": 3.8,
+        "text": "And playing the deep learning game, we want most of the computations involved to look"
+      },
+      {
+        "start": 337.7,
+        "duration": 4.7,
+        "text": "like matrix vector products, where the matrices are full of tunable weights, things that the"
+      },
+      {
+        "start": 342.4,
+        "duration": 2.3,
+        "text": "model will learn based on data."
+      },
+      {
+        "start": 344.7,
+        "duration": 4.2,
+        "text": "To be clear, I'm making up this example of adjectives updating nouns just to illustrate"
+      },
+      {
+        "start": 348.9,
+        "duration": 4.0,
+        "text": "the type of behavior that you could imagine an intention head doing."
+      },
+      {
+        "start": 353.0,
+        "duration": 3.9,
+        "text": "As with so much deep learning, the true behavior is much harder to parse, because it's based"
+      },
+      {
+        "start": 356.8,
+        "duration": 5.1,
+        "text": "on tweaking and tuning a huge number of parameters to minimize some cost function."
+      },
+      {
+        "start": 362.0,
+        "duration": 3.5,
+        "text": "It's just that as we step through all of the different matrices filled with parameters"
+      },
+      {
+        "start": 365.5,
+        "duration": 4.7,
+        "text": "that are involved in this process, I think it's really helpful to have an imagined example"
+      },
+      {
+        "start": 370.2,
+        "duration": 4.0,
+        "text": "of something that it could be doing to help keep it all more concrete."
+      },
+      {
+        "start": 374.2,
+        "duration": 4.2,
+        "text": "For the first step of this process, you might imagine each noun, like a creature, asking"
+      },
+      {
+        "start": 378.4,
+        "duration": 3.9,
+        "text": "the question, hey, are there any adjectives sitting in front of me?"
+      },
+      {
+        "start": 382.3,
+        "duration": 4.5,
+        "text": "And for the words fluffy and blue, to each be able to answer, yeah, I'm an adjective"
+      },
+      {
+        "start": 386.8,
+        "duration": 2.6,
+        "text": "and I'm in that position."
+      },
+      {
+        "start": 389.4,
+        "duration": 4.9,
+        "text": "That question is somehow encoded as yet another vector, another list of numbers, which we"
+      },
+      {
+        "start": 394.3,
+        "duration": 2.6,
+        "text": "call the query for this word."
+      },
+      {
+        "start": 397.0,
+        "duration": 6.3,
+        "text": "This query vector though has a much smaller dimension than the embedding vector, say 128."
+      },
+      {
+        "start": 403.2,
+        "duration": 4.8,
+        "text": "Computing this query looks like taking a certain matrix, which I'll label WQ, and multiplying"
+      },
+      {
+        "start": 408.0,
+        "duration": 3.3,
+        "text": "it by the embedding."
+      },
+      {
+        "start": 411.4,
+        "duration": 4.0,
+        "text": "Compressing things a bit, let's write that query vector as Q, and then anytime you see"
+      },
+      {
+        "start": 415.4,
+        "duration": 5.0,
+        "text": "me put a matrix next to an arrow like this one, it's meant to represent that multiplying"
+      },
+      {
+        "start": 420.3,
+        "duration": 5.9,
+        "text": "this matrix by the vector at the arrows start gives you the vector at the arrows end."
+      },
+      {
+        "start": 426.2,
+        "duration": 4.2,
+        "text": "In this case, you multiply this matrix by all of the embeddings in the context, producing"
+      },
+      {
+        "start": 430.5,
+        "duration": 3.2,
+        "text": "one query vector for each token."
+      },
+      {
+        "start": 433.7,
+        "duration": 4.0,
+        "text": "The entries of this matrix are parameters of the model, which means the true behavior"
+      },
+      {
+        "start": 437.7,
+        "duration": 4.0,
+        "text": "is learned from data, and in practice what this matrix does in a particular attention"
+      },
+      {
+        "start": 441.7,
+        "duration": 2.2,
+        "text": "head is challenging to parse."
+      },
+      {
+        "start": 444.0,
+        "duration": 3.6,
+        "text": "But for R-sake, imagining an example that we might hope that it would learn, we'll"
+      },
+      {
+        "start": 447.6,
+        "duration": 5.0,
+        "text": "suppose that this query matrix maps the embeddings of nouns to certain directions in this smaller"
+      },
+      {
+        "start": 452.6,
+        "duration": 6.3,
+        "text": "query space that somehow encodes the notion of looking for adjectives in preceding positions."
+      },
+      {
+        "start": 459.0,
+        "duration": 2.9,
+        "text": "As to what it does to other embeddings, who knows?"
+      },
+      {
+        "start": 461.8,
+        "duration": 3.3,
+        "text": "Maybe it simultaneously tries to accomplish some other goal with those, right now where"
+      },
+      {
+        "start": 465.2,
+        "duration": 2.2,
+        "text": "laser focused on the nouns."
+      },
+      {
+        "start": 467.3,
+        "duration": 4.9,
+        "text": "At the same time associated with this is a second matrix called the key matrix, which"
+      },
+      {
+        "start": 472.2,
+        "duration": 3.1,
+        "text": "you also multiply by every one of the embeddings."
+      },
+      {
+        "start": 475.3,
+        "duration": 4.0,
+        "text": "This produces a second sequence of vectors that we call the keys."
+      },
+      {
+        "start": 479.3,
+        "duration": 4.6,
+        "text": "Conceptually you want to think of the keys as potentially answering the queries."
+      },
+      {
+        "start": 484.0,
+        "duration": 4.4,
+        "text": "This key matrix is also full of tunable parameters, and just like the query matrix, it maps"
+      },
+      {
+        "start": 488.3,
+        "duration": 3.9,
+        "text": "the embedding vectors to that same smaller dimensional space."
+      },
+      {
+        "start": 492.2,
+        "duration": 5.3,
+        "text": "You think of the keys as matching the queries whenever they closely align with each other."
+      },
+      {
+        "start": 497.6,
+        "duration": 4.0,
+        "text": "In our example, you would imagine that the key matrix maps the adjectives, like fluffy"
+      },
+      {
+        "start": 501.5,
+        "duration": 6.1,
+        "text": "and blue, to vectors that are closely aligned with the query produced by the word creature."
+      },
+      {
+        "start": 507.6,
+        "duration": 4.8,
+        "text": "To measure how well each key matches each query, you compute a dot product between each"
+      },
+      {
+        "start": 512.4,
+        "duration": 2.4,
+        "text": "possible key query pair."
+      },
+      {
+        "start": 514.8,
+        "duration": 4.4,
+        "text": "I like to visualize a grid full of a bunch of dots where the bigger dots correspond to"
+      },
+      {
+        "start": 519.2,
+        "duration": 4.2,
+        "text": "the larger dot products, the places where the keys and queries align."
+      },
+      {
+        "start": 523.4,
+        "duration": 4.7,
+        "text": "For our adjective noun example, that would look a little more like this, where if the"
+      },
+      {
+        "start": 528.1,
+        "duration": 4.7,
+        "text": "keys produced by fluffy and blue really do align closely with the query produced by"
+      },
+      {
+        "start": 532.8,
+        "duration": 6.4,
+        "text": "creature, then the dot products in these two spots would be some large positive numbers."
+      },
+      {
+        "start": 539.2,
+        "duration": 3.4,
+        "text": "In the lingo machine learning people would say that this means the embeddings of fluffy"
+      },
+      {
+        "start": 542.6,
+        "duration": 3.4,
+        "text": "and blue attend to the embedding of creature."
+      },
+      {
+        "start": 546.0,
+        "duration": 4.5,
+        "text": "By contrast to the dot product between the key for some other word, like the and the"
+      },
+      {
+        "start": 550.5,
+        "duration": 5.4,
+        "text": "query for creature, would be some small or negative value that reflects that these are unrelated"
+      },
+      {
+        "start": 555.9,
+        "duration": 2.0,
+        "text": "to each other."
+      },
+      {
+        "start": 557.8,
+        "duration": 5.6,
+        "text": "So we have this grid of values that can be any real number from negative infinity to infinity,"
+      },
+      {
+        "start": 563.4,
+        "duration": 4.6,
+        "text": "giving us a score for how relevant each word is to updating the meaning of every other"
+      },
+      {
+        "start": 568.0,
+        "duration": 1.2,
+        "text": "word."
+      },
+      {
+        "start": 569.2,
+        "duration": 4.2,
+        "text": "The way we're about to use these scores is to take a certain weighted sum along each"
+      },
+      {
+        "start": 573.4,
+        "duration": 3.0,
+        "text": "column weighted by the relevance."
+      },
+      {
+        "start": 576.5,
+        "duration": 4.6,
+        "text": "So instead of having values range from negative infinity to infinity, what we want is for the"
+      },
+      {
+        "start": 581.1,
+        "duration": 5.2,
+        "text": "numbers in these columns to be between zero and one, and for each column to add up to one"
+      },
+      {
+        "start": 586.3,
+        "duration": 3.0,
+        "text": "as if they were a probability distribution."
+      },
+      {
+        "start": 589.3,
+        "duration": 3.3,
+        "text": "If you're coming in from the last chapter, you know what we need to do then."
+      },
+      {
+        "start": 592.6,
+        "duration": 7.8,
+        "text": "We compute a softmax along each one of these columns to normalize the values."
+      },
+      {
+        "start": 600.4,
+        "duration": 4.0,
+        "text": "In our picture, after you apply softmax to all of the columns, we'll fill in the grid"
+      },
+      {
+        "start": 604.3,
+        "duration": 2.6,
+        "text": "with these normalized values."
+      },
+      {
+        "start": 607.0,
+        "duration": 3.3,
+        "text": "At this point, you're safe to think about each column as giving weights according to"
+      },
+      {
+        "start": 610.2,
+        "duration": 4.8,
+        "text": "how relevant the word on the left is to the corresponding value at the top."
+      },
+      {
+        "start": 615.0,
+        "duration": 3.0,
+        "text": "We call this grid an attention pattern."
+      },
+      {
+        "start": 618.0,
+        "duration": 3.7,
+        "text": "Now if you look at the original transformer paper, there's a really compact way that"
+      },
+      {
+        "start": 621.7,
+        "duration": 2.2,
+        "text": "they write this all down."
+      },
+      {
+        "start": 623.9,
+        "duration": 7.0,
+        "text": "Here the variables q and k represent the full arrays of query and key vectors respectively,"
+      },
+      {
+        "start": 630.8,
+        "duration": 4.4,
+        "text": "those little vectors you get by multiplying the embeddings by the query and the key matrices."
+      },
+      {
+        "start": 635.3,
+        "duration": 4.4,
+        "text": "This expression up in the numerator is a really compact way to represent the grid of all"
+      },
+      {
+        "start": 639.7,
+        "duration": 4.1,
+        "text": "possible dot products between pairs of keys and queries."
+      },
+      {
+        "start": 643.8,
+        "duration": 4.4,
+        "text": "A small technical detail that I didn't mention is that for numerical stability, it happens"
+      },
+      {
+        "start": 648.3,
+        "duration": 4.6,
+        "text": "to be helpful to divide all of these values by the square root of the dimension in that"
+      },
+      {
+        "start": 652.9,
+        "duration": 2.0,
+        "text": "key query space."
+      },
+      {
+        "start": 654.9,
+        "duration": 4.2,
+        "text": "Then this softmax that's wrapped around the full expression is meant to be understood"
+      },
+      {
+        "start": 659.0,
+        "duration": 2.8,
+        "text": "to apply column by column."
+      },
+      {
+        "start": 661.8,
+        "duration": 3.4,
+        "text": "As to that V term, we'll talk about it in just a second."
+      },
+      {
+        "start": 665.2,
+        "duration": 3.8,
+        "text": "Before that, there's one other technical detail that so far I've skipped."
+      },
+      {
+        "start": 669.0,
+        "duration": 4.1,
+        "text": "During the training process, when you run this model on a given text example, and all"
+      },
+      {
+        "start": 673.1,
+        "duration": 4.4,
+        "text": "of the weights are slightly adjusted and tuned to either reward or punish it based on how"
+      },
+      {
+        "start": 677.5,
+        "duration": 4.2,
+        "text": "high a probability it assigns to the true next word in the passage, it turns out to make"
+      },
+      {
+        "start": 681.6,
+        "duration": 2.3,
+        "text": "the whole training process a lot more efficient."
+      },
+      {
+        "start": 684.0,
+        "duration": 5.1,
+        "text": "If you simultaneously have it predict every possible next token following each initial"
+      },
+      {
+        "start": 689.1,
+        "duration": 2.9,
+        "text": "sub sequence of tokens in this passage."
+      },
+      {
+        "start": 692.0,
+        "duration": 3.7,
+        "text": "For example, with the phrase that we've been focusing on, it might also be predicting"
+      },
+      {
+        "start": 695.7,
+        "duration": 4.6,
+        "text": "what words follow creature and what words follow the."
+      },
+      {
+        "start": 700.3,
+        "duration": 3.6,
+        "text": "This is really nice because it means what would otherwise be a single training example"
+      },
+      {
+        "start": 703.9,
+        "duration": 2.2,
+        "text": "effectively acts as many."
+      },
+      {
+        "start": 706.1,
+        "duration": 4.0,
+        "text": "For the purposes of our attention pattern, it means that you never want to allow later"
+      },
+      {
+        "start": 710.2,
+        "duration": 4.7,
+        "text": "words to influence earlier words, since otherwise they could kind of give away the answer"
+      },
+      {
+        "start": 714.9,
+        "duration": 1.6,
+        "text": "for what comes next."
+      },
+      {
+        "start": 716.5,
+        "duration": 4.8,
+        "text": "What this means is that we want all of these spots here, the ones representing later tokens,"
+      },
+      {
+        "start": 721.3,
+        "duration": 4.6,
+        "text": "influencing earlier ones, to somehow be forced to be zero."
+      },
+      {
+        "start": 725.9,
+        "duration": 3.4,
+        "text": "The simplest thing you might think to do is to set them equal to zero, but if you did"
+      },
+      {
+        "start": 729.2,
+        "duration": 3.8,
+        "text": "that, the columns wouldn't add up to one anymore, they wouldn't be normalized."
+      },
+      {
+        "start": 733.0,
+        "duration": 4.3,
+        "text": "So instead, a common way to do this is that before applying softbacks, you set all of those"
+      },
+      {
+        "start": 737.3,
+        "duration": 2.4,
+        "text": "entries to be negative infinity."
+      },
+      {
+        "start": 739.7,
+        "duration": 4.3,
+        "text": "If you do that, then after applying softbacks, all of those get turned into zero, but the"
+      },
+      {
+        "start": 744.0,
+        "duration": 2.1,
+        "text": "columns stay normalized."
+      },
+      {
+        "start": 746.1,
+        "duration": 1.8,
+        "text": "This process is called masking."
+      },
+      {
+        "start": 747.8,
+        "duration": 4.1,
+        "text": "There are versions of attention where you don't apply it, but in our GPT example, even"
+      },
+      {
+        "start": 751.9,
+        "duration": 3.6,
+        "text": "though this is more relevant during the training phase than it would be, say, running it as"
+      },
+      {
+        "start": 755.5,
+        "duration": 4.2,
+        "text": "a chatbot or something like that, you do always apply this masking to prevent later tokens"
+      },
+      {
+        "start": 759.8,
+        "duration": 2.8,
+        "text": "from influencing earlier ones."
+      },
+      {
+        "start": 762.6,
+        "duration": 4.4,
+        "text": "Another fact that's worth reflecting on about this attention pattern is how its size is"
+      },
+      {
+        "start": 767.0,
+        "duration": 2.8,
+        "text": "equal to the square of the context size."
+      },
+      {
+        "start": 769.8,
+        "duration": 4.2,
+        "text": "So this is why context size can be a really huge bottleneck for large language models,"
+      },
+      {
+        "start": 774.0,
+        "duration": 2.4,
+        "text": "and scaling it up is non-trivial."
+      },
+      {
+        "start": 776.4,
+        "duration": 4.3,
+        "text": "As you might imagine, motivated by a desire for bigger and bigger context windows, recent"
+      },
+      {
+        "start": 780.7,
+        "duration": 5.2,
+        "text": "years have seen some variations to the attention mechanism aimed at making context more scalable,"
+      },
+      {
+        "start": 785.9,
+        "duration": 3.4,
+        "text": "but right here, you and I are staying focused on the basics."
+      },
+      {
+        "start": 789.3,
+        "duration": 2.4,
+        "text": "Okay, great."
+      },
+      {
+        "start": 791.6,
+        "duration": 3.6,
+        "text": "Computing this pattern lets the model deduce which words are relevant to which other"
+      },
+      {
+        "start": 795.2,
+        "duration": 1.0,
+        "text": "words."
+      },
+      {
+        "start": 796.2,
+        "duration": 4.7,
+        "text": "You need to actually update the embeddings, allowing words to pass information to whichever"
+      },
+      {
+        "start": 801.0,
+        "duration": 2.1,
+        "text": "other words they're relevant to."
+      },
+      {
+        "start": 803.1,
+        "duration": 5.1,
+        "text": "For example, you want the embedding of fluffy to somehow cause a change to creature that"
+      },
+      {
+        "start": 808.2,
+        "duration": 4.9,
+        "text": "moves it to a different part of this 12,000 dimensional embedding space that more specifically"
+      },
+      {
+        "start": 813.1,
+        "duration": 2.4,
+        "text": "encodes a fluffy creature."
+      },
+      {
+        "start": 815.4,
+        "duration": 3.3,
+        "text": "What I'm going to do here is first show you the most straightforward way that you could"
+      },
+      {
+        "start": 818.7,
+        "duration": 4.2,
+        "text": "do this, though there's a slight way that this gets modified in the context of multi-headed"
+      },
+      {
+        "start": 822.9,
+        "duration": 1.3,
+        "text": "attention."
+      },
+      {
+        "start": 824.2,
+        "duration": 3.8,
+        "text": "This most straightforward way would be to use a third matrix, what we call the value"
+      },
+      {
+        "start": 828.0,
+        "duration": 5.4,
+        "text": "matrix, which you multiply by the embedding of that first word, for example, fluffy."
+      },
+      {
+        "start": 833.4,
+        "duration": 3.8,
+        "text": "The result of this is what you would call a value vector, and this is something that"
+      },
+      {
+        "start": 837.2,
+        "duration": 4.1,
+        "text": "you add to the embedding of the second word, in this case something you add to the embedding"
+      },
+      {
+        "start": 841.4,
+        "duration": 1.2,
+        "text": "of creature."
+      },
+      {
+        "start": 842.6,
+        "duration": 4.9,
+        "text": "So this value vector lives in the same very high dimensional space as the embeddings."
+      },
+      {
+        "start": 847.5,
+        "duration": 4.8,
+        "text": "When you multiply this value matrix by the embedding of a word, you might think of it as saying,"
+      },
+      {
+        "start": 852.2,
+        "duration": 4.6,
+        "text": "if this word is relevant to adjusting the meaning of something else, what exactly should"
+      },
+      {
+        "start": 856.9,
+        "duration": 5.3,
+        "text": "be added to the embedding of that something else in order to reflect this?"
+      },
+      {
+        "start": 862.2,
+        "duration": 4.8,
+        "text": "Looking back in our diagram, let's set aside all of the keys and the queries since after"
+      },
+      {
+        "start": 867.0,
+        "duration": 3.4,
+        "text": "you compute the attention pattern you're done with those, then you're going to take this"
+      },
+      {
+        "start": 870.3,
+        "duration": 4.8,
+        "text": "value matrix and multiply it by every one of those embeddings to produce a sequence of"
+      },
+      {
+        "start": 875.1,
+        "duration": 2.0,
+        "text": "value vectors."
+      },
+      {
+        "start": 877.1,
+        "duration": 3.4,
+        "text": "You might think of these value vectors as being kind of associated with the corresponding"
+      },
+      {
+        "start": 880.5,
+        "duration": 1.9,
+        "text": "keys."
+      },
+      {
+        "start": 882.4,
+        "duration": 5.4,
+        "text": "For each column in this diagram, you multiply each of the value vectors by the corresponding"
+      },
+      {
+        "start": 887.8,
+        "duration": 2.2,
+        "text": "weight in that column."
+      },
+      {
+        "start": 890.0,
+        "duration": 4.4,
+        "text": "For example, here, under the embedding of creature, you would be adding large proportions of the"
+      },
+      {
+        "start": 894.4,
+        "duration": 5.6,
+        "text": "value vectors for fluffy and blue, while all of the other value vectors get zeroed out,"
+      },
+      {
+        "start": 900.1,
+        "duration": 2.0,
+        "text": "or at least nearly zeroed out."
+      },
+      {
+        "start": 902.1,
+        "duration": 4.4,
+        "text": "And then finally, the way to actually update the embedding associated with this column,"
+      },
+      {
+        "start": 906.5,
+        "duration": 4.1,
+        "text": "obviously encoding some context-free meaning of creature, you add together all of these"
+      },
+      {
+        "start": 910.6,
+        "duration": 5.1,
+        "text": "rescaled values in the column, producing a change that you want to add that I'll label"
+      },
+      {
+        "start": 915.7,
+        "duration": 3.9,
+        "text": "delta E, and then you add that to the original embedding."
+      },
+      {
+        "start": 919.6,
+        "duration": 5.4,
+        "text": "Hopefully, what results is a more refined vector encoding the more contextually rich meaning,"
+      },
+      {
+        "start": 925.0,
+        "duration": 2.4,
+        "text": "like that of a fluffy blue creature."
+      },
+      {
+        "start": 927.4,
+        "duration": 4.1,
+        "text": "And of course, you don't just do this to one embedding, you apply the same weighted sum"
+      },
+      {
+        "start": 931.5,
+        "duration": 5.0,
+        "text": "across all of the columns in this picture, producing a sequence of changes, adding"
+      },
+      {
+        "start": 936.5,
+        "duration": 4.5,
+        "text": "all of those changes to the corresponding embeddings produces a full sequence of more"
+      },
+      {
+        "start": 941.0,
+        "duration": 3.7,
+        "text": "refined embeddings popping out of the attention block."
+      },
+      {
+        "start": 944.7,
+        "duration": 5.0,
+        "text": "Zooming out, this whole process is what you would describe as a single head of attention."
+      },
+      {
+        "start": 949.7,
+        "duration": 5.2,
+        "text": "As I've described things so far, this process is parameterized by three distinct matrices,"
+      },
+      {
+        "start": 954.8,
+        "duration": 4.6,
+        "text": "all filled with tunable parameters, the key, the query, and the value."
+      },
+      {
+        "start": 959.5,
+        "duration": 3.3,
+        "text": "I want to take a moment to continue what we started in the last chapter with the score"
+      },
+      {
+        "start": 962.8,
+        "duration": 4.2,
+        "text": "keeping where we count up the total number of model parameters using the numbers from"
+      },
+      {
+        "start": 967.0,
+        "duration": 2.3,
+        "text": "GPT-3."
+      },
+      {
+        "start": 969.3,
+        "duration": 6.1,
+        "text": "These key and query matrices each have 12,288 columns, matching the embedding dimension,"
+      },
+      {
+        "start": 975.4,
+        "duration": 4.8,
+        "text": "and 128 rows, matching the dimension of that smaller key query space."
+      },
+      {
+        "start": 980.2,
+        "duration": 4.6,
+        "text": "This gives us an additional 1.5 million or so parameters for each one."
+      },
+      {
+        "start": 984.8,
+        "duration": 4.4,
+        "text": "If you look at that value matrix by contrast, the way I've described things so far would"
+      },
+      {
+        "start": 989.2,
+        "duration": 7.4,
+        "text": "suggest that it's a square matrix that has 12,288 columns and 12,288 rows, since both"
+      },
+      {
+        "start": 996.6,
+        "duration": 4.8,
+        "text": "its inputs and its outputs live in this very large embedding space."
+      },
+      {
+        "start": 1001.5,
+        "duration": 4.2,
+        "text": "If true, that would mean about 150 million added parameters."
+      },
+      {
+        "start": 1005.6,
+        "duration": 1.8,
+        "text": "And to be clear, you could do that."
+      },
+      {
+        "start": 1007.4,
+        "duration": 4.7,
+        "text": "You could devote orders of magnitude more parameters to the value map than to the key and query."
+      },
+      {
+        "start": 1012.1,
+        "duration": 3.9,
+        "text": "But in practice, it is much more efficient if instead you make it so that the number of"
+      },
+      {
+        "start": 1016.0,
+        "duration": 4.3,
+        "text": "parameters devoted to this value map is the same as the number devoted to the key and"
+      },
+      {
+        "start": 1020.3,
+        "duration": 1.1,
+        "text": "the query."
+      },
+      {
+        "start": 1021.4,
+        "duration": 4.8,
+        "text": "This is especially relevant in the setting of running multiple attention heads in parallel."
+      },
+      {
+        "start": 1026.1,
+        "duration": 4.8,
+        "text": "The way this looks is that the value map is factored as a product of two smaller matrices."
+      },
+      {
+        "start": 1031.0,
+        "duration": 4.1,
+        "text": "Conceptually, I would still encourage you to think about the overall linear map, one with"
+      },
+      {
+        "start": 1035.1,
+        "duration": 4.8,
+        "text": "inputs and outputs both in this larger embedding space, for example, taking the embedding of"
+      },
+      {
+        "start": 1039.9,
+        "duration": 4.0,
+        "text": "blue to this blueness direction that you would add to nouns."
+      },
+      {
+        "start": 1043.9,
+        "duration": 3.2,
+        "text": "It's just that it's broken up into two separate steps."
+      },
+      {
+        "start": 1047.1,
+        "duration": 4.6,
+        "text": "The first matrix on the right here has a smaller number of rows, typically the same size as"
+      },
+      {
+        "start": 1051.7,
+        "duration": 1.4,
+        "text": "the key query space."
+      },
+      {
+        "start": 1053.1,
+        "duration": 4.0,
+        "text": "What this means, as you can think of it as mapping the large embedding vectors down to"
+      },
+      {
+        "start": 1057.1,
+        "duration": 2.1,
+        "text": "a much smaller space."
+      },
+      {
+        "start": 1059.2,
+        "duration": 4.2,
+        "text": "This is not the conventional naming, but I'm going to call this the value down matrix."
+      },
+      {
+        "start": 1063.4,
+        "duration": 4.8,
+        "text": "The second matrix, maps from this smaller space back up to the embedding space, producing"
+      },
+      {
+        "start": 1068.2,
+        "duration": 2.4,
+        "text": "the vectors that you use to make the actual updates."
+      },
+      {
+        "start": 1070.8,
+        "duration": 4.3,
+        "text": "I'm going to call this one the value up matrix, which again is not conventional."
+      },
+      {
+        "start": 1075.2,
+        "duration": 3.0,
+        "text": "The way that you would see this written in most papers looks a little different."
+      },
+      {
+        "start": 1078.2,
+        "duration": 3.8,
+        "text": "I'll talk about it in a minute in my opinion, it tends to make things a little more conceptually"
+      },
+      {
+        "start": 1081.9,
+        "duration": 1.3,
+        "text": "confusing."
+      },
+      {
+        "start": 1083.2,
+        "duration": 4.3,
+        "text": "To throw in linear algebra jargon here, what we're basically doing is constraining the overall"
+      },
+      {
+        "start": 1087.5,
+        "duration": 4.0,
+        "text": "value map to be a low-rank transformation."
+      },
+      {
+        "start": 1091.5,
+        "duration": 4.4,
+        "text": "Turning back to the parameter count, all four of these matrices have the same size, and"
+      },
+      {
+        "start": 1095.8,
+        "duration": 6.2,
+        "text": "adding them all up, we get about 6.3 million parameters for one attention head."
+      },
+      {
+        "start": 1102.1,
+        "duration": 3.4,
+        "text": "As a quick side note, to be a little more accurate, everything describes so far is what"
+      },
+      {
+        "start": 1105.4,
+        "duration": 3.9,
+        "text": "people would call a self attention head, to distinguish it from a variation that comes"
+      },
+      {
+        "start": 1109.4,
+        "duration": 3.0,
+        "text": "up in other models that's called cross attention."
+      },
+      {
+        "start": 1112.4,
+        "duration": 4.3,
+        "text": "This isn't relevant to our GPT example, but if you're curious, cross attention involves"
+      },
+      {
+        "start": 1116.7,
+        "duration": 5.2,
+        "text": "models that process two distinct types of data, like text in one language and text in"
+      },
+      {
+        "start": 1121.9,
+        "duration": 4.5,
+        "text": "another language that's part of an ongoing generation of a translation, or maybe audio"
+      },
+      {
+        "start": 1126.4,
+        "duration": 4.2,
+        "text": "input of speech and an ongoing transcription."
+      },
+      {
+        "start": 1130.6,
+        "duration": 4.4,
+        "text": "Across attention head looks almost identical, the only difference is that the key and query"
+      },
+      {
+        "start": 1134.9,
+        "duration": 2.9,
+        "text": "maps act on different data sets."
+      },
+      {
+        "start": 1137.8,
+        "duration": 4.4,
+        "text": "In a model-loving translation, for example, the keys might come from one language, while"
+      },
+      {
+        "start": 1142.2,
+        "duration": 4.6,
+        "text": "the queries come from another, and the attention pattern could describe which words from one"
+      },
+      {
+        "start": 1146.8,
+        "duration": 3.6,
+        "text": "language correspond to which words in another."
+      },
+      {
+        "start": 1150.4,
+        "duration": 3.2,
+        "text": "In this setting, there would typically be no masking, since there's not really any"
+      },
+      {
+        "start": 1153.6,
+        "duration": 3.7,
+        "text": "notion of later tokens affecting earlier ones."
+      },
+      {
+        "start": 1157.3,
+        "duration": 3.8,
+        "text": "Staying focused on self attention, though, if you understood everything so far, and if"
+      },
+      {
+        "start": 1161.1,
+        "duration": 3.4,
+        "text": "you were to stop here, you would come away with the essence of what attention really"
+      },
+      {
+        "start": 1164.5,
+        "duration": 1.3,
+        "text": "is."
+      },
+      {
+        "start": 1165.8,
+        "duration": 4.5,
+        "text": "All that's really left to us is to lay out the sense in which you do this many, many"
+      },
+      {
+        "start": 1170.4,
+        "duration": 1.8,
+        "text": "different times."
+      },
+      {
+        "start": 1172.2,
+        "duration": 4.2,
+        "text": "In our central example, we focused on adjectives updating nouns, but of course, there are"
+      },
+      {
+        "start": 1176.3,
+        "duration": 4.1,
+        "text": "lots of different ways that context can influence the meaning of a word."
+      },
+      {
+        "start": 1180.4,
+        "duration": 4.8,
+        "text": "If the words they crashed the, preceded the word car, it has implications for the shape"
+      },
+      {
+        "start": 1185.2,
+        "duration": 2.0,
+        "text": "and the structure of that car."
+      },
+      {
+        "start": 1187.2,
+        "duration": 2.6,
+        "text": "And a lot of associations might be less grammatical."
+      },
+      {
+        "start": 1189.8,
+        "duration": 4.7,
+        "text": "If the word wizard is anywhere in the same passage as Harry, it suggests that this might"
+      },
+      {
+        "start": 1194.5,
+        "duration": 2.0,
+        "text": "be referring to Harry Potter."
+      },
+      {
+        "start": 1196.5,
+        "duration": 4.4,
+        "text": "Whereas if instead the words queen, Sussex, and William were in that passage, then perhaps"
+      },
+      {
+        "start": 1200.9,
+        "duration": 4.2,
+        "text": "the embedding of Harry should instead be updated to refer to the prince."
+      },
+      {
+        "start": 1205.1,
+        "duration": 4.6,
+        "text": "For every different type of contextual updating that you might imagine, the parameters of these"
+      },
+      {
+        "start": 1209.6,
+        "duration": 4.4,
+        "text": "key inquiry matrices would be different to capture the different attention patterns, and"
+      },
+      {
+        "start": 1214.0,
+        "duration": 6.0,
+        "text": "the parameters of our value map would be different based on what should be added to the embeddings."
+      },
+      {
+        "start": 1220.0,
+        "duration": 4.6,
+        "text": "And again, in practice, the true behavior of these maps is much more difficult to interpret,"
+      },
+      {
+        "start": 1224.6,
+        "duration": 3.5,
+        "text": "where the weights are set to do whatever the model needs them to do to best accomplish"
+      },
+      {
+        "start": 1228.1,
+        "duration": 3.3,
+        "text": "its goal of predicting the next token."
+      },
+      {
+        "start": 1231.4,
+        "duration": 4.5,
+        "text": "As I said before, everything we described is a single head of attention, and a full attention"
+      },
+      {
+        "start": 1236.0,
+        "duration": 4.7,
+        "text": "block inside a transformer consists of what's called multi-headed attention, where you run"
+      },
+      {
+        "start": 1240.7,
+        "duration": 5.8,
+        "text": "a lot of these operations in parallel, each with its own distinct key query and value maps."
+      },
+      {
+        "start": 1246.6,
+        "duration": 5.8,
+        "text": "GPT-3, for example, uses 96 attention heads inside each block."
+      },
+      {
+        "start": 1252.3,
+        "duration": 3.5,
+        "text": "Considering that each one is already a bit confusing, it's certainly a lot to hold in"
+      },
+      {
+        "start": 1255.8,
+        "duration": 1.1,
+        "text": "your head."
+      },
+      {
+        "start": 1256.9,
+        "duration": 4.4,
+        "text": "Just to spell it all out very explicitly, this means you have 96 distinct key inquiry"
+      },
+      {
+        "start": 1261.4,
+        "duration": 5.7,
+        "text": "matrices, producing 96 distinct attention patterns, then each head has its own distinct"
+      },
+      {
+        "start": 1267.1,
+        "duration": 5.7,
+        "text": "value matrices used to produce 96 sequences of value vectors."
+      },
+      {
+        "start": 1272.8,
+        "duration": 4.7,
+        "text": "These are all added together using the corresponding attention patterns as weights."
+      },
+      {
+        "start": 1277.4,
+        "duration": 4.9,
+        "text": "What this means is that for each position in the context, each token, every one of these"
+      },
+      {
+        "start": 1282.4,
+        "duration": 5.2,
+        "text": "heads produces a proposed change to be added to the embedding in that position."
+      },
+      {
+        "start": 1287.6,
+        "duration": 5.0,
+        "text": "So what you do is you sum together all of those proposed changes, one for each head, and"
+      },
+      {
+        "start": 1292.5,
+        "duration": 4.2,
+        "text": "you add the result to the original embedding of that position."
+      },
+      {
+        "start": 1296.7,
+        "duration": 6.0,
+        "text": "This entire sum here would be one slice of what's outputted from this multi-headed attention"
+      },
+      {
+        "start": 1302.6,
+        "duration": 5.1,
+        "text": "block, a single one of those refined embeddings that pops out the other end of it."
+      },
+      {
+        "start": 1307.7,
+        "duration": 4.2,
+        "text": "Again, this is a lot to think about, so don't worry at all if it takes some time to sink"
+      },
+      {
+        "start": 1311.9,
+        "duration": 1.0,
+        "text": "in."
+      },
+      {
+        "start": 1312.9,
+        "duration": 3.9,
+        "text": "The overall idea is that by running many distinct heads in parallel, you're giving the"
+      },
+      {
+        "start": 1316.8,
+        "duration": 7.0,
+        "text": "model the capacity to learn many distinct ways that context changes meaning."
+      },
+      {
+        "start": 1323.8,
+        "duration": 4.2,
+        "text": "Pulling up our running tally for parameter count with 96 heads, each including its own"
+      },
+      {
+        "start": 1328.0,
+        "duration": 5.4,
+        "text": "variation of these four matrices, each block of multi-headed attention, ends up with around"
+      },
+      {
+        "start": 1333.4,
+        "duration": 3.1,
+        "text": "600 million parameters."
+      },
+      {
+        "start": 1336.5,
+        "duration": 3.2,
+        "text": "There's one added, slightly annoying thing that I should really mention for any of you"
+      },
+      {
+        "start": 1339.7,
+        "duration": 2.5,
+        "text": "who go on to read more about transformers."
+      },
+      {
+        "start": 1342.2,
+        "duration": 4.4,
+        "text": "You remember how I said that the value map is factored out into these two distinct matrices,"
+      },
+      {
+        "start": 1346.6,
+        "duration": 3.3,
+        "text": "which I labeled as the value down and the value up matrices."
+      },
+      {
+        "start": 1349.9,
+        "duration": 4.9,
+        "text": "The way that I framed things would suggest that you see this pair of matrices inside each"
+      },
+      {
+        "start": 1354.8,
+        "duration": 5.6,
+        "text": "attention head, and you could absolutely implement it this way, that would be a valid design."
+      },
+      {
+        "start": 1360.3,
+        "duration": 3.6,
+        "text": "But the way that you see this written in papers and the way that it's implemented in practice"
+      },
+      {
+        "start": 1363.9,
+        "duration": 1.5,
+        "text": "looks a little different."
+      },
+      {
+        "start": 1365.4,
+        "duration": 6.0,
+        "text": "All of these value up matrices for each head appear stapled together in one giant matrix"
+      },
+      {
+        "start": 1371.4,
+        "duration": 5.4,
+        "text": "that we call the output matrix, associated with the entire multi-headed attention block."
+      },
+      {
+        "start": 1376.8,
+        "duration": 3.7,
+        "text": "And when you see people refer to the value matrix for a given attention head, they're"
+      },
+      {
+        "start": 1380.5,
+        "duration": 4.4,
+        "text": "typically only referring to this first step, the one that I was labeling as the value"
+      },
+      {
+        "start": 1384.9,
+        "duration": 3.4,
+        "text": "down, projection into the smaller space."
+      },
+      {
+        "start": 1388.3,
+        "duration": 3.0,
+        "text": "For the curious among you, I've left a non-screen note about it."
+      },
+      {
+        "start": 1391.3,
+        "duration": 3.1,
+        "text": "It's one of those details that runs the risk of distracting from the main conceptual"
+      },
+      {
+        "start": 1394.4,
+        "duration": 3.6,
+        "text": "points, but I do want to call it out just so that you know if you read about this in other"
+      },
+      {
+        "start": 1398.0,
+        "duration": 1.6,
+        "text": "sources."
+      },
+      {
+        "start": 1399.6,
+        "duration": 3.7,
+        "text": "Starting aside all the technical nuances, in the preview from the last chapter we saw"
+      },
+      {
+        "start": 1403.3,
+        "duration": 5.2,
+        "text": "how data flowing through a transformer doesn't just flow through a single attention block."
+      },
+      {
+        "start": 1408.5,
+        "duration": 4.2,
+        "text": "For one thing, it also goes through these other operations called multi-layer perceptrons,"
+      },
+      {
+        "start": 1412.6,
+        "duration": 4.3,
+        "text": "we'll talk more about those in the next chapter, and then it repeatedly goes through many,"
+      },
+      {
+        "start": 1416.9,
+        "duration": 3.0,
+        "text": "many copies of both of these operations."
+      },
+      {
+        "start": 1419.9,
+        "duration": 5.1,
+        "text": "What this means is that after a given word imbibes some of its context, there are many more"
+      },
+      {
+        "start": 1425.0,
+        "duration": 5.9,
+        "text": "chances for this more nuanced embedding to be influenced by its more nuanced surroundings."
+      },
+      {
+        "start": 1430.8,
+        "duration": 4.2,
+        "text": "The further down the network you go, with each embedding taking in more and more meaning"
+      },
+      {
+        "start": 1435.0,
+        "duration": 4.4,
+        "text": "from all the other embeddings, which themselves are getting more and more nuanced, the hope"
+      },
+      {
+        "start": 1439.4,
+        "duration": 4.6,
+        "text": "is that there's the capacity to encode higher level and more abstract ideas about a given"
+      },
+      {
+        "start": 1444.0,
+        "duration": 5.7,
+        "text": "input beyond just descriptors and grammatical structure, things like sentiment and tone"
+      },
+      {
+        "start": 1449.7,
+        "duration": 4.2,
+        "text": "and whether it's a poem, and what underlying scientific truths are relevant to the piece"
+      },
+      {
+        "start": 1453.9,
+        "duration": 2.8,
+        "text": "and things like that."
+      },
+      {
+        "start": 1456.7,
+        "duration": 6.2,
+        "text": "Turning back one more time to our scorekeeping, GPT-3 includes 96 distinct layers, so the"
+      },
+      {
+        "start": 1462.8,
+        "duration": 5.6,
+        "text": "total number of key query and value parameters is multiplied by another 96, which brings"
+      },
+      {
+        "start": 1468.4,
+        "duration": 5.6,
+        "text": "the total sum to just under 58 billion distinct parameters devoted to all of the attention"
+      },
+      {
+        "start": 1474.0,
+        "duration": 1.0,
+        "text": "heads."
+      },
+      {
+        "start": 1475.0,
+        "duration": 4.9,
+        "text": "That is a lot to be sure, but it's only about a third of the 175 billion that are in"
+      },
+      {
+        "start": 1479.9,
+        "duration": 1.6,
+        "text": "the network in total."
+      },
+      {
+        "start": 1481.5,
+        "duration": 4.4,
+        "text": "So even though attention gets all of the attention, the majority of parameters come from the"
+      },
+      {
+        "start": 1486.0,
+        "duration": 2.5,
+        "text": "blocks sitting in between these steps."
+      },
+      {
+        "start": 1488.5,
+        "duration": 3.5,
+        "text": "In the next chapter, you and I will talk more about those other blocks, and also a lot"
+      },
+      {
+        "start": 1492.0,
+        "duration": 2.0,
+        "text": "more about the training process."
+      },
+      {
+        "start": 1494.0,
+        "duration": 4.3,
+        "text": "A big part of the story for the success of the attention mechanism is not so much any"
+      },
+      {
+        "start": 1498.3,
+        "duration": 5.8,
+        "text": "specific kind of behavior that it enables, but the fact that it's extremely parallelizable,"
+      },
+      {
+        "start": 1504.2,
+        "duration": 5.3,
+        "text": "meaning that you can run a huge number of computations in a short time using GPUs."
+      },
+      {
+        "start": 1509.5,
+        "duration": 3.3,
+        "text": "Even that one of the big lessons about deep learning in the last decade or two has been"
+      },
+      {
+        "start": 1512.8,
+        "duration": 4.7,
+        "text": "that scale alone seems to give huge qualitative improvements in model performance."
+      },
+      {
+        "start": 1517.5,
+        "duration": 4.6,
+        "text": "There's a huge advantage to parallelizable architectures that let you do this."
+      },
+      {
+        "start": 1522.1,
+        "duration": 3.7,
+        "text": "If you want to learn more about this stuff, I've left lots of links in the description."
+      },
+      {
+        "start": 1525.9,
+        "duration": 4.7,
+        "text": "In particular, anything produced by Andre Carpathia or Chris Ola tend to be pure gold."
+      },
+      {
+        "start": 1530.6,
+        "duration": 3.7,
+        "text": "In this video, I wanted to just jump into attention in its current form, but if you're"
+      },
+      {
+        "start": 1534.3,
+        "duration": 3.7,
+        "text": "curious about more of the history for how we got here and how you might reinvent this idea"
+      },
+      {
+        "start": 1538.0,
+        "duration": 3.8,
+        "text": "for yourself, my friend Vivek just put up a couple videos giving a lot more of that"
+      },
+      {
+        "start": 1541.8,
+        "duration": 1.3,
+        "text": "motivation."
+      },
+      {
+        "start": 1543.1,
+        "duration": 3.6,
+        "text": "Also Britt Cruz from the channel The Art of the Problem has a really nice video about"
+      },
+      {
+        "start": 1546.7,
+        "duration": 1.7,
+        "text": "the history of large language models."
+      }
+    ],
+    "full_text": "In the last chapter, you and I started to step through the internal workings of a transformer. This is one of the key pieces of technology inside large language models and a lot of other tools in the modern wave of AI. It first hit the scene in a now famous 2017 paper called Attention is All You Need. And in this chapter, you and I will dig into what this attention mechanism is, visualizing how it processes data. As a quick recap, here's the important context I want you to have in mind. The goal of the model that you and I are studying is to take in a piece of text and predict what word comes next. The input text is broken up into little pieces that we call tokens, and these are very often words or pieces of words. But just to make the examples in this video easier for you and me to think about, let's simplify by pretending that tokens are always just words. The first step in a transformer is to associate each token with a high dimensional vector, what we call its embedding. Now the most important idea I want you to have in mind is how directions in this high-dimensional space of all possible embeddings can correspond with semantic meaning. In the last chapter, we saw an example for how direction can correspond to gender. In the sense that adding a certain step in this space can take you from the embedding of a masculine noun to the embedding of the corresponding feminine noun. Just one example you could imagine how many other directions in this high-dimensional space could correspond to numerous other aspects of a word's meaning. The aim of a transformer is to progressively adjust these embeddings so that they don't merely encode an individual word, but instead they bake in some much, much richer contextual meaning. I should say at front that a lot of people find the attention mechanism, this key piece in a transformer, very confusing, so don't worry if it takes some time for things to sink in. I think that before we dive into the computational details and all the matrix multiplications, it's worth thinking about a couple examples for the kind of behavior that we want attention to enable. Consider the phrase's American Shrew Moll, one mole of carbon dioxide, and take a biopsy of the mole. You and I know that the word mole has different meanings in each one of these, based on the context. But after the first step of a transformer, the one that breaks up the text and associates each token with a vector, the vector that's associated with mole would be the same in all three of these cases, because this initial token embedding is effectively a lookup table with no reference to the context. It's only in the next step of the transformer that the surrounding embeddings have the chance to pass information into this one. The picture you might have in mind is that there are multiple distinct directions in this embedding space, encoding the multiple distinct meanings of the word mole, and that a well-trained attention block calculates what you need to add to the generic embedding to move it to one of these more specific directions as a function of the context. To take another example, consider the embedding of the word tower. This is presumably some very generic, non-specific direction in the space associated with lots of other large, tall nouns. If this word was immediately preceded by Eiffel, you could imagine wanting the mechanism to update this vector so that it points in a direction that more specifically encodes the Eiffel Tower, maybe correlated with vectors associated with Paris and France and things made of steel. If it was also preceded by the word miniature, then the vector should be updated even further so that it no longer correlates with large tall things. More generally than just refining the meaning of a word, the attention block allows the model to move information encoded in one embedding to that of another, potentially one's that are quite far away, and potentially with information that's much richer than just a single word. What we saw in the last chapter was how after all of the vectors flow through the network, including many different attention blocks, the computation that you perform to produce a prediction of the next token is entirely a function of the last vector in the sequence. So imagine for example that the text you input is most of an entire mystery novel, all the way up to a point near the end, which reads, therefore the murderer was, if the model's going to accurately predict the next word, that final vector in the sequence, which began its life simply embedding the word was, will have to have been updated by all of the attention blocks to represent much much more than any individual word, somehow encoding all of the information from the full context window that's relevant to predicting the next word. To step through the computations though, let's take a much simpler example, imagine that the input includes the phrase, a fluffy blue creature roamed the verdant forest, and for the moment, suppose that the only type of update that we care about is having the adjectives adjust the meanings of their corresponding nouns. What I'm about to describe is what we would call a single head of attention, and later we will see how the attention block consists of many different heads run in parallel. Again, the initial embedding for each word is some high-dimensional vector that only encodes the meaning of that particular word with no context. Actually, that's not quite true. They also encode the position of the word. There's a lot more to say about the specific way the positions are encoded, but right now, all you need to know is that the entries of this vector are enough to tell you both what the word is and where it exists in the context. Let's go ahead and denote these embeddings with the letter E. The goal is to have a series of computations produce a new refined set of embeddings, where for example, those corresponding to the nouns have ingested the meaning from their corresponding adjectives. And playing the deep learning game, we want most of the computations involved to look like matrix vector products, where the matrices are full of tunable weights, things that the model will learn based on data. To be clear, I'm making up this example of adjectives updating nouns just to illustrate the type of behavior that you could imagine an intention head doing. As with so much deep learning, the true behavior is much harder to parse, because it's based on tweaking and tuning a huge number of parameters to minimize some cost function. It's just that as we step through all of the different matrices filled with parameters that are involved in this process, I think it's really helpful to have an imagined example of something that it could be doing to help keep it all more concrete. For the first step of this process, you might imagine each noun, like a creature, asking the question, hey, are there any adjectives sitting in front of me? And for the words fluffy and blue, to each be able to answer, yeah, I'm an adjective and I'm in that position. That question is somehow encoded as yet another vector, another list of numbers, which we call the query for this word. This query vector though has a much smaller dimension than the embedding vector, say 128. Computing this query looks like taking a certain matrix, which I'll label WQ, and multiplying it by the embedding. Compressing things a bit, let's write that query vector as Q, and then anytime you see me put a matrix next to an arrow like this one, it's meant to represent that multiplying this matrix by the vector at the arrows start gives you the vector at the arrows end. In this case, you multiply this matrix by all of the embeddings in the context, producing one query vector for each token. The entries of this matrix are parameters of the model, which means the true behavior is learned from data, and in practice what this matrix does in a particular attention head is challenging to parse. But for R-sake, imagining an example that we might hope that it would learn, we'll suppose that this query matrix maps the embeddings of nouns to certain directions in this smaller query space that somehow encodes the notion of looking for adjectives in preceding positions. As to what it does to other embeddings, who knows? Maybe it simultaneously tries to accomplish some other goal with those, right now where laser focused on the nouns. At the same time associated with this is a second matrix called the key matrix, which you also multiply by every one of the embeddings. This produces a second sequence of vectors that we call the keys. Conceptually you want to think of the keys as potentially answering the queries. This key matrix is also full of tunable parameters, and just like the query matrix, it maps the embedding vectors to that same smaller dimensional space. You think of the keys as matching the queries whenever they closely align with each other. In our example, you would imagine that the key matrix maps the adjectives, like fluffy and blue, to vectors that are closely aligned with the query produced by the word creature. To measure how well each key matches each query, you compute a dot product between each possible key query pair. I like to visualize a grid full of a bunch of dots where the bigger dots correspond to the larger dot products, the places where the keys and queries align. For our adjective noun example, that would look a little more like this, where if the keys produced by fluffy and blue really do align closely with the query produced by creature, then the dot products in these two spots would be some large positive numbers. In the lingo machine learning people would say that this means the embeddings of fluffy and blue attend to the embedding of creature. By contrast to the dot product between the key for some other word, like the and the query for creature, would be some small or negative value that reflects that these are unrelated to each other. So we have this grid of values that can be any real number from negative infinity to infinity, giving us a score for how relevant each word is to updating the meaning of every other word. The way we're about to use these scores is to take a certain weighted sum along each column weighted by the relevance. So instead of having values range from negative infinity to infinity, what we want is for the numbers in these columns to be between zero and one, and for each column to add up to one as if they were a probability distribution. If you're coming in from the last chapter, you know what we need to do then. We compute a softmax along each one of these columns to normalize the values. In our picture, after you apply softmax to all of the columns, we'll fill in the grid with these normalized values. At this point, you're safe to think about each column as giving weights according to how relevant the word on the left is to the corresponding value at the top. We call this grid an attention pattern. Now if you look at the original transformer paper, there's a really compact way that they write this all down. Here the variables q and k represent the full arrays of query and key vectors respectively, those little vectors you get by multiplying the embeddings by the query and the key matrices. This expression up in the numerator is a really compact way to represent the grid of all possible dot products between pairs of keys and queries. A small technical detail that I didn't mention is that for numerical stability, it happens to be helpful to divide all of these values by the square root of the dimension in that key query space. Then this softmax that's wrapped around the full expression is meant to be understood to apply column by column. As to that V term, we'll talk about it in just a second. Before that, there's one other technical detail that so far I've skipped. During the training process, when you run this model on a given text example, and all of the weights are slightly adjusted and tuned to either reward or punish it based on how high a probability it assigns to the true next word in the passage, it turns out to make the whole training process a lot more efficient. If you simultaneously have it predict every possible next token following each initial sub sequence of tokens in this passage. For example, with the phrase that we've been focusing on, it might also be predicting what words follow creature and what words follow the. This is really nice because it means what would otherwise be a single training example effectively acts as many. For the purposes of our attention pattern, it means that you never want to allow later words to influence earlier words, since otherwise they could kind of give away the answer for what comes next. What this means is that we want all of these spots here, the ones representing later tokens, influencing earlier ones, to somehow be forced to be zero. The simplest thing you might think to do is to set them equal to zero, but if you did that, the columns wouldn't add up to one anymore, they wouldn't be normalized. So instead, a common way to do this is that before applying softbacks, you set all of those entries to be negative infinity. If you do that, then after applying softbacks, all of those get turned into zero, but the columns stay normalized. This process is called masking. There are versions of attention where you don't apply it, but in our GPT example, even though this is more relevant during the training phase than it would be, say, running it as a chatbot or something like that, you do always apply this masking to prevent later tokens from influencing earlier ones. Another fact that's worth reflecting on about this attention pattern is how its size is equal to the square of the context size. So this is why context size can be a really huge bottleneck for large language models, and scaling it up is non-trivial. As you might imagine, motivated by a desire for bigger and bigger context windows, recent years have seen some variations to the attention mechanism aimed at making context more scalable, but right here, you and I are staying focused on the basics. Okay, great. Computing this pattern lets the model deduce which words are relevant to which other words. You need to actually update the embeddings, allowing words to pass information to whichever other words they're relevant to. For example, you want the embedding of fluffy to somehow cause a change to creature that moves it to a different part of this 12,000 dimensional embedding space that more specifically encodes a fluffy creature. What I'm going to do here is first show you the most straightforward way that you could do this, though there's a slight way that this gets modified in the context of multi-headed attention. This most straightforward way would be to use a third matrix, what we call the value matrix, which you multiply by the embedding of that first word, for example, fluffy. The result of this is what you would call a value vector, and this is something that you add to the embedding of the second word, in this case something you add to the embedding of creature. So this value vector lives in the same very high dimensional space as the embeddings. When you multiply this value matrix by the embedding of a word, you might think of it as saying, if this word is relevant to adjusting the meaning of something else, what exactly should be added to the embedding of that something else in order to reflect this? Looking back in our diagram, let's set aside all of the keys and the queries since after you compute the attention pattern you're done with those, then you're going to take this value matrix and multiply it by every one of those embeddings to produce a sequence of value vectors. You might think of these value vectors as being kind of associated with the corresponding keys. For each column in this diagram, you multiply each of the value vectors by the corresponding weight in that column. For example, here, under the embedding of creature, you would be adding large proportions of the value vectors for fluffy and blue, while all of the other value vectors get zeroed out, or at least nearly zeroed out. And then finally, the way to actually update the embedding associated with this column, obviously encoding some context-free meaning of creature, you add together all of these rescaled values in the column, producing a change that you want to add that I'll label delta E, and then you add that to the original embedding. Hopefully, what results is a more refined vector encoding the more contextually rich meaning, like that of a fluffy blue creature. And of course, you don't just do this to one embedding, you apply the same weighted sum across all of the columns in this picture, producing a sequence of changes, adding all of those changes to the corresponding embeddings produces a full sequence of more refined embeddings popping out of the attention block. Zooming out, this whole process is what you would describe as a single head of attention. As I've described things so far, this process is parameterized by three distinct matrices, all filled with tunable parameters, the key, the query, and the value. I want to take a moment to continue what we started in the last chapter with the score keeping where we count up the total number of model parameters using the numbers from GPT-3. These key and query matrices each have 12,288 columns, matching the embedding dimension, and 128 rows, matching the dimension of that smaller key query space. This gives us an additional 1.5 million or so parameters for each one. If you look at that value matrix by contrast, the way I've described things so far would suggest that it's a square matrix that has 12,288 columns and 12,288 rows, since both its inputs and its outputs live in this very large embedding space. If true, that would mean about 150 million added parameters. And to be clear, you could do that. You could devote orders of magnitude more parameters to the value map than to the key and query. But in practice, it is much more efficient if instead you make it so that the number of parameters devoted to this value map is the same as the number devoted to the key and the query. This is especially relevant in the setting of running multiple attention heads in parallel. The way this looks is that the value map is factored as a product of two smaller matrices. Conceptually, I would still encourage you to think about the overall linear map, one with inputs and outputs both in this larger embedding space, for example, taking the embedding of blue to this blueness direction that you would add to nouns. It's just that it's broken up into two separate steps. The first matrix on the right here has a smaller number of rows, typically the same size as the key query space. What this means, as you can think of it as mapping the large embedding vectors down to a much smaller space. This is not the conventional naming, but I'm going to call this the value down matrix. The second matrix, maps from this smaller space back up to the embedding space, producing the vectors that you use to make the actual updates. I'm going to call this one the value up matrix, which again is not conventional. The way that you would see this written in most papers looks a little different. I'll talk about it in a minute in my opinion, it tends to make things a little more conceptually confusing. To throw in linear algebra jargon here, what we're basically doing is constraining the overall value map to be a low-rank transformation. Turning back to the parameter count, all four of these matrices have the same size, and adding them all up, we get about 6.3 million parameters for one attention head. As a quick side note, to be a little more accurate, everything describes so far is what people would call a self attention head, to distinguish it from a variation that comes up in other models that's called cross attention. This isn't relevant to our GPT example, but if you're curious, cross attention involves models that process two distinct types of data, like text in one language and text in another language that's part of an ongoing generation of a translation, or maybe audio input of speech and an ongoing transcription. Across attention head looks almost identical, the only difference is that the key and query maps act on different data sets. In a model-loving translation, for example, the keys might come from one language, while the queries come from another, and the attention pattern could describe which words from one language correspond to which words in another. In this setting, there would typically be no masking, since there's not really any notion of later tokens affecting earlier ones. Staying focused on self attention, though, if you understood everything so far, and if you were to stop here, you would come away with the essence of what attention really is. All that's really left to us is to lay out the sense in which you do this many, many different times. In our central example, we focused on adjectives updating nouns, but of course, there are lots of different ways that context can influence the meaning of a word. If the words they crashed the, preceded the word car, it has implications for the shape and the structure of that car. And a lot of associations might be less grammatical. If the word wizard is anywhere in the same passage as Harry, it suggests that this might be referring to Harry Potter. Whereas if instead the words queen, Sussex, and William were in that passage, then perhaps the embedding of Harry should instead be updated to refer to the prince. For every different type of contextual updating that you might imagine, the parameters of these key inquiry matrices would be different to capture the different attention patterns, and the parameters of our value map would be different based on what should be added to the embeddings. And again, in practice, the true behavior of these maps is much more difficult to interpret, where the weights are set to do whatever the model needs them to do to best accomplish its goal of predicting the next token. As I said before, everything we described is a single head of attention, and a full attention block inside a transformer consists of what's called multi-headed attention, where you run a lot of these operations in parallel, each with its own distinct key query and value maps. GPT-3, for example, uses 96 attention heads inside each block. Considering that each one is already a bit confusing, it's certainly a lot to hold in your head. Just to spell it all out very explicitly, this means you have 96 distinct key inquiry matrices, producing 96 distinct attention patterns, then each head has its own distinct value matrices used to produce 96 sequences of value vectors. These are all added together using the corresponding attention patterns as weights. What this means is that for each position in the context, each token, every one of these heads produces a proposed change to be added to the embedding in that position. So what you do is you sum together all of those proposed changes, one for each head, and you add the result to the original embedding of that position. This entire sum here would be one slice of what's outputted from this multi-headed attention block, a single one of those refined embeddings that pops out the other end of it. Again, this is a lot to think about, so don't worry at all if it takes some time to sink in. The overall idea is that by running many distinct heads in parallel, you're giving the model the capacity to learn many distinct ways that context changes meaning. Pulling up our running tally for parameter count with 96 heads, each including its own variation of these four matrices, each block of multi-headed attention, ends up with around 600 million parameters. There's one added, slightly annoying thing that I should really mention for any of you who go on to read more about transformers. You remember how I said that the value map is factored out into these two distinct matrices, which I labeled as the value down and the value up matrices. The way that I framed things would suggest that you see this pair of matrices inside each attention head, and you could absolutely implement it this way, that would be a valid design. But the way that you see this written in papers and the way that it's implemented in practice looks a little different. All of these value up matrices for each head appear stapled together in one giant matrix that we call the output matrix, associated with the entire multi-headed attention block. And when you see people refer to the value matrix for a given attention head, they're typically only referring to this first step, the one that I was labeling as the value down, projection into the smaller space. For the curious among you, I've left a non-screen note about it. It's one of those details that runs the risk of distracting from the main conceptual points, but I do want to call it out just so that you know if you read about this in other sources. Starting aside all the technical nuances, in the preview from the last chapter we saw how data flowing through a transformer doesn't just flow through a single attention block. For one thing, it also goes through these other operations called multi-layer perceptrons, we'll talk more about those in the next chapter, and then it repeatedly goes through many, many copies of both of these operations. What this means is that after a given word imbibes some of its context, there are many more chances for this more nuanced embedding to be influenced by its more nuanced surroundings. The further down the network you go, with each embedding taking in more and more meaning from all the other embeddings, which themselves are getting more and more nuanced, the hope is that there's the capacity to encode higher level and more abstract ideas about a given input beyond just descriptors and grammatical structure, things like sentiment and tone and whether it's a poem, and what underlying scientific truths are relevant to the piece and things like that. Turning back one more time to our scorekeeping, GPT-3 includes 96 distinct layers, so the total number of key query and value parameters is multiplied by another 96, which brings the total sum to just under 58 billion distinct parameters devoted to all of the attention heads. That is a lot to be sure, but it's only about a third of the 175 billion that are in the network in total. So even though attention gets all of the attention, the majority of parameters come from the blocks sitting in between these steps. In the next chapter, you and I will talk more about those other blocks, and also a lot more about the training process. A big part of the story for the success of the attention mechanism is not so much any specific kind of behavior that it enables, but the fact that it's extremely parallelizable, meaning that you can run a huge number of computations in a short time using GPUs. Even that one of the big lessons about deep learning in the last decade or two has been that scale alone seems to give huge qualitative improvements in model performance. There's a huge advantage to parallelizable architectures that let you do this. If you want to learn more about this stuff, I've left lots of links in the description. In particular, anything produced by Andre Carpathia or Chris Ola tend to be pure gold. In this video, I wanted to just jump into attention in its current form, but if you're curious about more of the history for how we got here and how you might reinvent this idea for yourself, my friend Vivek just put up a couple videos giving a lot more of that motivation. Also Britt Cruz from the channel The Art of the Problem has a really nice video about the history of large language models."
+  }
+}

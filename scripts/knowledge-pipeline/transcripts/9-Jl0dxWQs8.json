@@ -1,0 +1,1394 @@
+{
+  "video_id": "9-Jl0dxWQs8",
+  "video_title": "How might LLMs store facts | Deep Learning Chapter 7",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1363.0,
+  "view_count": 1982610,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 2.3,
+        "text": "If you feed a large language model the phrase,"
+      },
+      {
+        "start": 2.3,
+        "duration": 2.6,
+        "text": "Michael Jordan plays the sport of blank,"
+      },
+      {
+        "start": 5.0,
+        "duration": 2.0,
+        "text": "and you have it predict what comes next,"
+      },
+      {
+        "start": 7.0,
+        "duration": 2.6,
+        "text": "and it correctly predicts basketball."
+      },
+      {
+        "start": 9.5,
+        "duration": 4.6,
+        "text": "This would suggest that somewhere, inside its hundreds of billions of parameters,"
+      },
+      {
+        "start": 14.2,
+        "duration": 4.5,
+        "text": "it's baked in knowledge about a specific person and his specific sport."
+      },
+      {
+        "start": 18.6,
+        "duration": 3.1,
+        "text": "And I think in general anyone who's played around with one of these models"
+      },
+      {
+        "start": 21.8,
+        "duration": 3.8,
+        "text": "has the clear sense that it's memorized tons and tons of facts."
+      },
+      {
+        "start": 25.5,
+        "duration": 2.2,
+        "text": "So a reasonable question you could ask is,"
+      },
+      {
+        "start": 27.8,
+        "duration": 3.2,
+        "text": "how exactly does that work, and where do those facts live?"
+      },
+      {
+        "start": 35.8,
+        "duration": 2.7,
+        "text": "Last December a few researchers from Google Deep Mind"
+      },
+      {
+        "start": 38.6,
+        "duration": 2.2,
+        "text": "posted about work on this question,"
+      },
+      {
+        "start": 40.8,
+        "duration": 3.9,
+        "text": "and they were using this specific example of matching athletes to their sports."
+      },
+      {
+        "start": 44.7,
+        "duration": 4.7,
+        "text": "And although a full mechanistic understanding of how facts are stored remains unsolved,"
+      },
+      {
+        "start": 49.4,
+        "duration": 1.9,
+        "text": "they had some interesting partial results,"
+      },
+      {
+        "start": 51.4,
+        "duration": 2.6,
+        "text": "including the very general high-level conclusion"
+      },
+      {
+        "start": 54.1,
+        "duration": 3.8,
+        "text": "that the facts seem to live inside a specific part of these networks,"
+      },
+      {
+        "start": 57.8,
+        "duration": 5.1,
+        "text": "known fancifully as the multi-layer perceptrons, or MLPs for short."
+      },
+      {
+        "start": 63.0,
+        "duration": 3.8,
+        "text": "In the last couple of chapters, you and I have been digging into the details behind"
+      },
+      {
+        "start": 66.7,
+        "duration": 3.4,
+        "text": "transformers, the architecture underlying large language models,"
+      },
+      {
+        "start": 70.2,
+        "duration": 2.8,
+        "text": "and also underlying a lot of other modern AI."
+      },
+      {
+        "start": 73.0,
+        "duration": 3.7,
+        "text": "In the most recent chapter we were focusing on a piece called Attention,"
+      },
+      {
+        "start": 76.6,
+        "duration": 5.0,
+        "text": "and the next step for you and me is to digging to the details of what happens inside these"
+      },
+      {
+        "start": 81.6,
+        "duration": 3.4,
+        "text": "multi-layer perceptrons, which make up the other big portion of the network."
+      },
+      {
+        "start": 85.5,
+        "duration": 2.6,
+        "text": "The computation here is actually relatively simple,"
+      },
+      {
+        "start": 88.2,
+        "duration": 2.2,
+        "text": "especially when you compare it to attention."
+      },
+      {
+        "start": 90.3,
+        "duration": 4.6,
+        "text": "It boils down essentially to a pair of matrix multiplications with a simple something in between."
+      },
+      {
+        "start": 95.5,
+        "duration": 5.0,
+        "text": "However, interpreting what these computations are doing is exceedingly challenging."
+      },
+      {
+        "start": 101.4,
+        "duration": 3.8,
+        "text": "Our main goal here is to step through the computations and make them memorable,"
+      },
+      {
+        "start": 105.3,
+        "duration": 4.9,
+        "text": "but I'd like to do it in the context of showing a specific example of how one of these blocks could,"
+      },
+      {
+        "start": 110.2,
+        "duration": 3.2,
+        "text": "at least in principle, store a concrete fact."
+      },
+      {
+        "start": 113.4,
+        "duration": 3.7,
+        "text": "Specifically, it'll be storing the fact that Michael Jordan plays basketball."
+      },
+      {
+        "start": 118.0,
+        "duration": 3.8,
+        "text": "I should mention the layout here is inspired by a conversation I had with one of those deep-mind"
+      },
+      {
+        "start": 121.8,
+        "duration": 5.0,
+        "text": "researchers, Neil Nanda. For the most part, I will assume that you've either watched the last two"
+      },
+      {
+        "start": 126.8,
+        "duration": 5.2,
+        "text": "chapters, or otherwise you have a basic sense for what a transformer is, but refreshers never hurt,"
+      },
+      {
+        "start": 132.0,
+        "duration": 5.2,
+        "text": "so here's the quick reminder of the overall flow. You and I have been studying a model that's"
+      },
+      {
+        "start": 137.2,
+        "duration": 6.2,
+        "text": "trained to take in a piece of text and predict what comes next. That input text is first broken"
+      },
+      {
+        "start": 143.4,
+        "duration": 5.4,
+        "text": "into a bunch of tokens, which means little chunks that are typically words or little pieces of words,"
+      },
+      {
+        "start": 149.1,
+        "duration": 6.6,
+        "text": "and each token is associated with a high-dimensional vector, which is to say a long list of numbers."
+      },
+      {
+        "start": 155.7,
+        "duration": 5.4,
+        "text": "This sequence of vectors then repeatedly passes through two kinds of operation."
+      },
+      {
+        "start": 161.1,
+        "duration": 4.3,
+        "text": "Attention, which allows the vectors to pass information between one another,"
+      },
+      {
+        "start": 165.4,
+        "duration": 4.1,
+        "text": "and then the multi-layer perceptrons, the thing that we're going to dig into today."
+      },
+      {
+        "start": 169.5,
+        "duration": 2.7,
+        "text": "And also there's a certain normalization step in between."
+      },
+      {
+        "start": 173.3,
+        "duration": 5.2,
+        "text": "After the sequence of vectors has flowed through many many different iterations of both of these blocks,"
+      },
+      {
+        "start": 178.5,
+        "duration": 6.6,
+        "text": "by the end, the hope is that each vector has soaked up enough information, both from the context,"
+      },
+      {
+        "start": 185.1,
+        "duration": 5.1,
+        "text": "all of the other words and the input, and also from the general knowledge that was baked into the"
+      },
+      {
+        "start": 190.2,
+        "duration": 5.6,
+        "text": "model weights through training, that it can be used to make a prediction of what token comes next."
+      },
+      {
+        "start": 196.6,
+        "duration": 4.4,
+        "text": "One of the key ideas that I want you to have in your mind is that all of these vectors live in a"
+      },
+      {
+        "start": 201.0,
+        "duration": 5.6,
+        "text": "very, very high-dimensional space, and when you think about that space, different directions"
+      },
+      {
+        "start": 206.6,
+        "duration": 6.2,
+        "text": "can encode different kinds of meaning. So a very classic example that I like to refer back to"
+      },
+      {
+        "start": 212.9,
+        "duration": 4.2,
+        "text": "is how if you look at the embedding of woman and subtract the embedding of man,"
+      },
+      {
+        "start": 217.8,
+        "duration": 4.8,
+        "text": "and you take that little step and you add it to another masculine noun, something like uncle,"
+      },
+      {
+        "start": 222.6,
+        "duration": 3.9,
+        "text": "you land somewhere very, very close to the corresponding feminine noun."
+      },
+      {
+        "start": 226.5,
+        "duration": 4.3,
+        "text": "In this sense, this particular direction encodes gender information."
+      },
+      {
+        "start": 231.4,
+        "duration": 4.8,
+        "text": "The idea is that many other distinct directions in this super-high-dimensional space"
+      },
+      {
+        "start": 236.2,
+        "duration": 3.4,
+        "text": "could correspond to other features that the model might want to represent."
+      },
+      {
+        "start": 241.4,
+        "duration": 4.6,
+        "text": "In a transformer, these vectors don't merely encode the meaning of a single word, though."
+      },
+      {
+        "start": 246.6,
+        "duration": 5.8,
+        "text": "As they flow through the network, they imbibe a much richer meaning based on all the context around"
+      },
+      {
+        "start": 252.4,
+        "duration": 6.2,
+        "text": "them, and also based on the model's knowledge. Ultimately, each one needs to encode something far,"
+      },
+      {
+        "start": 258.6,
+        "duration": 4.6,
+        "text": "far beyond the meaning of a single word, since it needs to be sufficient to predict what will come"
+      },
+      {
+        "start": 263.2,
+        "duration": 5.8,
+        "text": "next. We've already seen how attention blocks let you incorporate context, but a majority of the"
+      },
+      {
+        "start": 269.0,
+        "duration": 5.9,
+        "text": "model parameters actually live inside the MLP blocks, and one thought for what they might be doing"
+      },
+      {
+        "start": 275.0,
+        "duration": 5.1,
+        "text": "is that they offer extra capacity to store facts. Like I said, the lesson here is going to"
+      },
+      {
+        "start": 280.1,
+        "duration": 5.4,
+        "text": "center on the concrete toy example of how exactly it could store the fact that Michael Jordan plays"
+      },
+      {
+        "start": 285.5,
+        "duration": 4.8,
+        "text": "basketball. Now this toy example is going to require that you and I make a couple of assumptions"
+      },
+      {
+        "start": 290.3,
+        "duration": 4.4,
+        "text": "about that high-dimensional space. First, we'll suppose that one of the directions represents"
+      },
+      {
+        "start": 294.7,
+        "duration": 6.1,
+        "text": "the idea of a first name Michael, and then another nearly perpendicular direction represents the"
+      },
+      {
+        "start": 300.8,
+        "duration": 5.6,
+        "text": "idea of the last name Jordan, and then yet a third direction will represent the idea of basketball."
+      },
+      {
+        "start": 307.1,
+        "duration": 3.8,
+        "text": "So specifically what I mean by this is if you look in the network and you pluck out one of the"
+      },
+      {
+        "start": 311.0,
+        "duration": 5.3,
+        "text": "vectors being processed, if its dot product with this first name Michael direction is one,"
+      },
+      {
+        "start": 316.9,
+        "duration": 5.4,
+        "text": "that's what it would mean for the vector to be encoding the idea of a person with that first name."
+      },
+      {
+        "start": 323.4,
+        "duration": 4.4,
+        "text": "Otherwise, that dot product would be zero or negative, meaning the vector doesn't really align"
+      },
+      {
+        "start": 327.8,
+        "duration": 5.0,
+        "text": "with that direction. And for simplicity, let's completely ignore the very reasonable question of"
+      },
+      {
+        "start": 332.8,
+        "duration": 5.4,
+        "text": "what it might mean if that dot product was bigger than one. Similarly, its dot product with these"
+      },
+      {
+        "start": 338.2,
+        "duration": 5.6,
+        "text": "other directions would tell you whether it represents the last name Jordan, or basketball."
+      },
+      {
+        "start": 344.7,
+        "duration": 5.6,
+        "text": "So let's say a vector is meant to represent the full name Michael Jordan, then its dot product with"
+      },
+      {
+        "start": 350.3,
+        "duration": 5.7,
+        "text": "both of these directions would have to be one. Since the text Michael Jordan spans two different"
+      },
+      {
+        "start": 356.0,
+        "duration": 5.1,
+        "text": "tokens, this would also mean we have to assume that an earlier attention block has successfully"
+      },
+      {
+        "start": 361.1,
+        "duration": 5.7,
+        "text": "passed information to the second of these two vectors so as to ensure that it can encode both names."
+      },
+      {
+        "start": 367.7,
+        "duration": 5.1,
+        "text": "With all of those as the assumptions, let's now dive into the meat of the lesson. What happens"
+      },
+      {
+        "start": 372.8,
+        "duration": 7.9,
+        "text": "inside a multi-layer perceptron? You might think of this sequence of vectors flowing into the block,"
+      },
+      {
+        "start": 380.7,
+        "duration": 4.7,
+        "text": "and remember each vector was originally associated with one of the tokens from the input text."
+      },
+      {
+        "start": 386.0,
+        "duration": 4.8,
+        "text": "What's going to happen is that each individual vector from that sequence goes through a short series"
+      },
+      {
+        "start": 390.8,
+        "duration": 4.8,
+        "text": "of operations, we'll unpack them in just a moment, and at the end we'll get another vector with the"
+      },
+      {
+        "start": 395.6,
+        "duration": 5.1,
+        "text": "same dimension. That other vector is going to get added to the original one that flowed in,"
+      },
+      {
+        "start": 400.7,
+        "duration": 5.6,
+        "text": "and that sum is the result flowing out. This sequence of operations is something you apply to"
+      },
+      {
+        "start": 406.3,
+        "duration": 5.6,
+        "text": "every vector in the sequence associated with every token in the input, and it all happens in parallel."
+      },
+      {
+        "start": 411.9,
+        "duration": 3.7,
+        "text": "In particular, the vectors don't talk to each other in this step, they're all kind of doing their"
+      },
+      {
+        "start": 415.6,
+        "duration": 4.8,
+        "text": "own thing. And for you and me, that actually makes it a lot simpler, because it means if we understand"
+      },
+      {
+        "start": 420.4,
+        "duration": 4.9,
+        "text": "what happens to just one of the vectors through this block, we effectively understand what happens to"
+      },
+      {
+        "start": 425.3,
+        "duration": 5.7,
+        "text": "all of them. When I say this block is going to encode the fact that Michael Jordan plays basketball,"
+      },
+      {
+        "start": 431.0,
+        "duration": 5.5,
+        "text": "what I mean is that if a vector flows in that encodes, first name Michael and last name Jordan,"
+      },
+      {
+        "start": 436.5,
+        "duration": 5.0,
+        "text": "then this sequence of computations will produce something that includes that direction basketball,"
+      },
+      {
+        "start": 441.4,
+        "duration": 5.5,
+        "text": "which is what we'll add on to the vector in that position. The first step of this process looks"
+      },
+      {
+        "start": 447.0,
+        "duration": 5.0,
+        "text": "like multiplying that vector by a very big matrix, no surprises there, this is deep learning,"
+      },
+      {
+        "start": 452.5,
+        "duration": 4.6,
+        "text": "and this matrix like all of the other ones we've seen is filled with model parameters that are"
+      },
+      {
+        "start": 457.0,
+        "duration": 3.9,
+        "text": "learned from data, which you might think of as a bunch of knobs and dials that get tweaked and"
+      },
+      {
+        "start": 461.0,
+        "duration": 5.7,
+        "text": "tuned to determine what the model behavior is. Now, one nice way to think about matrix multiplication"
+      },
+      {
+        "start": 466.6,
+        "duration": 5.3,
+        "text": "is to imagine each row of that matrix as being its own vector and taking a bunch of dot products"
+      },
+      {
+        "start": 471.9,
+        "duration": 5.9,
+        "text": "between those rows and the vector being processed, which I'll label as E for embedding. For example,"
+      },
+      {
+        "start": 477.8,
+        "duration": 5.5,
+        "text": "suppose that very first row happened to equal this first name Michael direction that were presuming"
+      },
+      {
+        "start": 483.4,
+        "duration": 6.5,
+        "text": "exists, that would mean that the first component in this output, this dot product right here, would be"
+      },
+      {
+        "start": 489.8,
+        "duration": 6.6,
+        "text": "one if that vector encodes the first name Michael and zero or negative otherwise. Even more fun,"
+      },
+      {
+        "start": 496.6,
+        "duration": 4.5,
+        "text": "take a moment to think about what it would mean if that first row was this first name Michael"
+      },
+      {
+        "start": 501.1,
+        "duration": 6.2,
+        "text": "plus last name Jordan direction. And for simplicity, let me go ahead and write that down as m plus j,"
+      },
+      {
+        "start": 507.9,
+        "duration": 5.7,
+        "text": "then taking a dot product with this embedding E, things distribute really nicely, so it looks like m.e"
+      },
+      {
+        "start": 513.6,
+        "duration": 6.6,
+        "text": "plus j.e and notice how that means the ultimate value would be two if the vector encodes the full name"
+      },
+      {
+        "start": 520.5,
+        "duration": 5.8,
+        "text": "Michael Jordan and otherwise it would be one or something smaller than one. And that's just one"
+      },
+      {
+        "start": 526.2,
+        "duration": 4.9,
+        "text": "row in this matrix. You might think of all of the other rows as in parallel asking some other"
+      },
+      {
+        "start": 531.1,
+        "duration": 4.8,
+        "text": "kinds of questions probing at some other sorts of features of the vector being processed."
+      },
+      {
+        "start": 536.6,
+        "duration": 4.3,
+        "text": "Very often this step also involves adding another vector to the output, which is full of model"
+      },
+      {
+        "start": 540.9,
+        "duration": 5.3,
+        "text": "parameters learned from data. This other vector is known as the bias. For our example, I want you"
+      },
+      {
+        "start": 546.2,
+        "duration": 6.1,
+        "text": "to imagine that the value of this bias in that very first component is negative one, meaning our final"
+      },
+      {
+        "start": 552.2,
+        "duration": 6.1,
+        "text": "output looks like that relevant dot product, but minus one. You might very reasonably ask why I would"
+      },
+      {
+        "start": 558.3,
+        "duration": 4.6,
+        "text": "want you to assume that the model has learned this. And in a moment, you'll see why it's very clean"
+      },
+      {
+        "start": 562.9,
+        "duration": 6.2,
+        "text": "and nice if we have a value here, which is positive, if and only if a vector encodes the full name"
+      },
+      {
+        "start": 569.1,
+        "duration": 5.8,
+        "text": "Michael Jordan and otherwise it's zero or negative. The total number of rows in this matrix,"
+      },
+      {
+        "start": 575.0,
+        "duration": 5.4,
+        "text": "which is something like the number of questions being asked in the case of GPT3, whose numbers we've"
+      },
+      {
+        "start": 580.3,
+        "duration": 5.4,
+        "text": "been following is just under 50,000. In fact, it's exactly four times the number of dimensions in this"
+      },
+      {
+        "start": 585.8,
+        "duration": 4.4,
+        "text": "embedding space. That's a design choice. You could make it more. You could make it less, but having a"
+      },
+      {
+        "start": 590.2,
+        "duration": 5.4,
+        "text": "clean multiple tends to be friendly for hardware. Since this matrix full of weights maps us into a higher"
+      },
+      {
+        "start": 595.6,
+        "duration": 5.2,
+        "text": "dimensional space, I'm going to give it the shorthand W up. I'll continue labeling the vector we're"
+      },
+      {
+        "start": 600.8,
+        "duration": 6.3,
+        "text": "processing as E, and let's label this bias vector as B up and put that all back down in the diagram."
+      },
+      {
+        "start": 609.0,
+        "duration": 5.7,
+        "text": "At this point, a problem is that this operation is purely linear, but language is a very non-linear"
+      },
+      {
+        "start": 614.7,
+        "duration": 6.2,
+        "text": "process. If the entry that we're measuring is high for Michael Plus Jordan, it would also necessarily"
+      },
+      {
+        "start": 621.0,
+        "duration": 5.7,
+        "text": "be somewhat triggered by Michael Plus Phelps and also Alexis Plus Jordan, despite those being"
+      },
+      {
+        "start": 626.6,
+        "duration": 5.3,
+        "text": "unrelated conceptually. What you really want is a simple yes or no for the full name."
+      },
+      {
+        "start": 632.6,
+        "duration": 5.5,
+        "text": "So the next step is to pass this large intermediate vector through a very simple non-linear function."
+      },
+      {
+        "start": 638.2,
+        "duration": 4.4,
+        "text": "A common choice is one that takes all of the negative values and maps them to zero,"
+      },
+      {
+        "start": 642.6,
+        "duration": 5.8,
+        "text": "and leaves all of the positive values unchanged. And continuing with the deep learning tradition"
+      },
+      {
+        "start": 648.3,
+        "duration": 6.6,
+        "text": "of overly fancy names, this very simple function is often called the rectified linear unit, or"
+      },
+      {
+        "start": 655.0,
+        "duration": 5.5,
+        "text": "Rayloo for short. Here's what the graph looks like. So taking our imagined example where this first"
+      },
+      {
+        "start": 660.5,
+        "duration": 6.2,
+        "text": "entry of the intermediate vector is one, if and only if the full name is Michael Jordan, and zero"
+      },
+      {
+        "start": 666.6,
+        "duration": 5.8,
+        "text": "or negative otherwise, after you pass it through the Rayloo, you end up with a very clean value"
+      },
+      {
+        "start": 672.4,
+        "duration": 5.1,
+        "text": "where all of the zero and negative values just get clipped to zero. So this output would be one for"
+      },
+      {
+        "start": 677.5,
+        "duration": 5.6,
+        "text": "the full name Michael Jordan and zero otherwise. In other words, it very directly mimics the behavior"
+      },
+      {
+        "start": 683.1,
+        "duration": 6.3,
+        "text": "of an AND gate. Often models will use a slightly modified function that's called the J-LU,"
+      },
+      {
+        "start": 689.4,
+        "duration": 4.3,
+        "text": "which has the same basic shape, it's just a bit smoother, but for our purposes, it's a little"
+      },
+      {
+        "start": 693.8,
+        "duration": 5.6,
+        "text": "bit cleaner if we only think about the Rayloo. Also, when you hear people refer to the neurons of a"
+      },
+      {
+        "start": 699.4,
+        "duration": 5.0,
+        "text": "transformer, they're talking about these values right here. Whenever you see that common neural"
+      },
+      {
+        "start": 704.3,
+        "duration": 4.3,
+        "text": "network picture with a layer of dots and a bunch of lines connecting to the previous layer,"
+      },
+      {
+        "start": 708.6,
+        "duration": 5.8,
+        "text": "which we had earlier in this series, that's typically meant to convey this combination of a linear"
+      },
+      {
+        "start": 714.5,
+        "duration": 6.7,
+        "text": "step, a matrix multiplication, followed by some simple, termwise non-linear function like a Rayloo."
+      },
+      {
+        "start": 722.3,
+        "duration": 5.2,
+        "text": "You would say that this neuron is active whenever this value is positive, and that it's inactive"
+      },
+      {
+        "start": 727.5,
+        "duration": 6.2,
+        "text": "if that value is zero. The next step looks very similar to the first one. You multiply by a very"
+      },
+      {
+        "start": 733.8,
+        "duration": 5.6,
+        "text": "large matrix and you add on a certain bias term. In this case, the number of dimensions in the output"
+      },
+      {
+        "start": 739.4,
+        "duration": 4.7,
+        "text": "is back down to the size of that embedding space, so I'm going to go ahead and call this the"
+      },
+      {
+        "start": 744.1,
+        "duration": 5.2,
+        "text": "down projection matrix. And this time, instead of thinking of things row by row, it's actually"
+      },
+      {
+        "start": 749.3,
+        "duration": 5.5,
+        "text": "nicer to think of it column by column. You see, another way that you can hold matrix multiplication"
+      },
+      {
+        "start": 754.8,
+        "duration": 5.4,
+        "text": "in your head is to imagine taking each column of the matrix and multiplying it by the corresponding"
+      },
+      {
+        "start": 760.2,
+        "duration": 5.3,
+        "text": "term in the vector that it's processing and adding together all of those rescaled columns."
+      },
+      {
+        "start": 766.7,
+        "duration": 4.4,
+        "text": "The reason it's nicer to think about this way is because here, the columns have the same"
+      },
+      {
+        "start": 771.1,
+        "duration": 5.5,
+        "text": "dimension as the embedding space, so we can think of them as directions in that space. For instance,"
+      },
+      {
+        "start": 776.6,
+        "duration": 5.0,
+        "text": "we will imagine that the model has learned to make that first column into this basket ball direction"
+      },
+      {
+        "start": 781.6,
+        "duration": 5.4,
+        "text": "that we suppose exists. What that would mean is that when the relevant neuron in that first"
+      },
+      {
+        "start": 787.0,
+        "duration": 5.1,
+        "text": "position is active, we'll be adding this column to the final result. But if that neuron was"
+      },
+      {
+        "start": 792.2,
+        "duration": 5.3,
+        "text": "inactive, if that number was zero, then this would have no effect. And it doesn't just have to be"
+      },
+      {
+        "start": 797.4,
+        "duration": 4.9,
+        "text": "basketball. The model could also bake into this column many other features that it wants to"
+      },
+      {
+        "start": 802.3,
+        "duration": 6.5,
+        "text": "associate with something that has the full name Michael Jordan. And at the same time, all of the"
+      },
+      {
+        "start": 808.8,
+        "duration": 6.6,
+        "text": "other columns in this matrix are telling you what will be added to the final result if the corresponding"
+      },
+      {
+        "start": 815.4,
+        "duration": 5.5,
+        "text": "neuron is active. And if you have a bias in this case, it's something that you're just adding"
+      },
+      {
+        "start": 820.9,
+        "duration": 4.6,
+        "text": "every single time, regardless of the neuron values. You might wonder what's that doing,"
+      },
+      {
+        "start": 825.4,
+        "duration": 4.6,
+        "text": "as with all parameter field objects here, it's kind of hard to say exactly, maybe there's some"
+      },
+      {
+        "start": 830.1,
+        "duration": 4.4,
+        "text": "book keeping that the network needs to do, but you can feel free to ignore it for now."
+      },
+      {
+        "start": 834.5,
+        "duration": 4.5,
+        "text": "Making our notation a little more compact again, I'll call this big matrix W down,"
+      },
+      {
+        "start": 839.6,
+        "duration": 4.9,
+        "text": "and similarly call that bias vector B down and put that back into our diagram."
+      },
+      {
+        "start": 844.6,
+        "duration": 5.1,
+        "text": "Like I previewed earlier, what you do with this final result is add it to the vector that flowed"
+      },
+      {
+        "start": 849.7,
+        "duration": 5.8,
+        "text": "into the block at that position, and that gets you this final result. So for example, if the vector"
+      },
+      {
+        "start": 855.5,
+        "duration": 5.8,
+        "text": "flowing in encoded both first name Michael and last name Jordan, then because this sequence of"
+      },
+      {
+        "start": 861.4,
+        "duration": 6.1,
+        "text": "operations will trigger that AND gate, it will add on the basketball direction. So what pops out"
+      },
+      {
+        "start": 867.4,
+        "duration": 5.4,
+        "text": "will encode all of those together. And remember, this is a process happening to every one of those"
+      },
+      {
+        "start": 872.8,
+        "duration": 5.8,
+        "text": "vectors in parallel. In particular, taking the GPT-3 numbers, it means that this block doesn't"
+      },
+      {
+        "start": 878.6,
+        "duration": 6.2,
+        "text": "just have 50,000 neurons in it, it has 50,000 times the number of tokens in the input."
+      },
+      {
+        "start": 888.3,
+        "duration": 5.5,
+        "text": "So that is the entire operation, two matrix products each with a bias added, and a simple"
+      },
+      {
+        "start": 893.8,
+        "duration": 5.4,
+        "text": "clipping function in between. Any of you who watched the earlier videos of the series will recognize"
+      },
+      {
+        "start": 899.2,
+        "duration": 4.6,
+        "text": "this structure as the most basic kind of neural network that we studied there. In that example,"
+      },
+      {
+        "start": 903.8,
+        "duration": 5.4,
+        "text": "it was trained to recognize handwritten digits. Over here, in the context of a transformer for a"
+      },
+      {
+        "start": 909.1,
+        "duration": 6.2,
+        "text": "large language model, this is one piece in a larger architecture, and any attempt to interpret"
+      },
+      {
+        "start": 915.3,
+        "duration": 5.1,
+        "text": "what exactly it's doing is heavily intertwined with the idea of encoding information"
+      },
+      {
+        "start": 920.4,
+        "duration": 6.0,
+        "text": "into vectors of a high dimensional embedding space. That is the core lesson, but I do want to step"
+      },
+      {
+        "start": 926.4,
+        "duration": 4.6,
+        "text": "back and reflect on two different things. The first of which is a kind of bookkeeping,"
+      },
+      {
+        "start": 931.0,
+        "duration": 5.0,
+        "text": "and the second of which involves a very thought-provoking fact about higher dimensions that I actually"
+      },
+      {
+        "start": 935.9,
+        "duration": 7.9,
+        "text": "didn't know until I dug into Transformers. In the last two chapters, you and I started counting up"
+      },
+      {
+        "start": 943.8,
+        "duration": 5.9,
+        "text": "the total number of parameters in GPT-3 and seeing exactly where they live. So let's quickly finish"
+      },
+      {
+        "start": 949.8,
+        "duration": 6.1,
+        "text": "up the game here. I already mentioned how this up projection matrix has just under 50,000 rows,"
+      },
+      {
+        "start": 955.8,
+        "duration": 6.5,
+        "text": "and that each row matches the size of the embedding space, which for GPT-3 is 12,288."
+      },
+      {
+        "start": 963.0,
+        "duration": 5.0,
+        "text": "Multiplying those together, it gives us 604 million parameters just for that matrix,"
+      },
+      {
+        "start": 969.4,
+        "duration": 4.8,
+        "text": "and the down projection has the same number of parameters just with a transpose to shape."
+      },
+      {
+        "start": 974.2,
+        "duration": 5.8,
+        "text": "So together, they give about 1.2 billion parameters. The bias vector also accounts for a couple more"
+      },
+      {
+        "start": 980.0,
+        "duration": 5.5,
+        "text": "parameters, but it's a trivial proportion of the total, so I'm not even going to show it. In GPT-3,"
+      },
+      {
+        "start": 985.5,
+        "duration": 6.0,
+        "text": "this sequence of embedding vectors flows through not one, but 96 distinct MLPs,"
+      },
+      {
+        "start": 991.5,
+        "duration": 6.6,
+        "text": "so the total number of parameters devoted to all of these blocks adds up to about 116 billion."
+      },
+      {
+        "start": 998.8,
+        "duration": 4.4,
+        "text": "This is around two-thirds of the total parameters in the network, and when you add it to everything"
+      },
+      {
+        "start": 1003.2,
+        "duration": 5.0,
+        "text": "that we had before for the attention blocks, the embedding, and the unembedding, you do indeed get"
+      },
+      {
+        "start": 1008.2,
+        "duration": 6.6,
+        "text": "that grand total of 175 billion as advertised. It's probably worth mentioning there's another set of"
+      },
+      {
+        "start": 1014.7,
+        "duration": 4.9,
+        "text": "parameters associated with those normalization steps that this explanation has skipped over,"
+      },
+      {
+        "start": 1019.6,
+        "duration": 4.2,
+        "text": "but like the bias vector, they account for a very trivial proportion of the total."
+      },
+      {
+        "start": 1026.1,
+        "duration": 4.3,
+        "text": "As to that second point of reflection, you might be wondering if this central toy example we've"
+      },
+      {
+        "start": 1030.4,
+        "duration": 5.7,
+        "text": "been spending so much time on reflects how facts are actually stored in real-large language models."
+      },
+      {
+        "start": 1036.1,
+        "duration": 4.7,
+        "text": "It is true that the rows of that first matrix can be thought of as directions in this embedding"
+      },
+      {
+        "start": 1041.4,
+        "duration": 4.8,
+        "text": "space, and that means the activation of each neuron tells you how much a given vector aligns with"
+      },
+      {
+        "start": 1046.2,
+        "duration": 5.2,
+        "text": "some specific direction. It's also true that the columns of that second matrix tell you what"
+      },
+      {
+        "start": 1051.4,
+        "duration": 5.3,
+        "text": "will be added to the result if that neuron is active. Both of those are just mathematical facts."
+      },
+      {
+        "start": 1057.6,
+        "duration": 6.0,
+        "text": "However, the evidence does suggest that individual neurons very rarely represent a single clean"
+      },
+      {
+        "start": 1063.6,
+        "duration": 5.0,
+        "text": "feature like Michael Jordan, and there may actually be a very good reason this is the case,"
+      },
+      {
+        "start": 1068.6,
+        "duration": 5.9,
+        "text": "related to an idea floating around interpretability researchers these days known as superposition."
+      },
+      {
+        "start": 1074.5,
+        "duration": 5.3,
+        "text": "This is a hypothesis that might help to explain both why the models are especially hard to interpret,"
+      },
+      {
+        "start": 1079.8,
+        "duration": 5.9,
+        "text": "and also why they scale surprisingly well. The basic idea is that if you have an"
+      },
+      {
+        "start": 1085.7,
+        "duration": 5.0,
+        "text": "end-dimensional space and you want to represent a bunch of different features using directions that"
+      },
+      {
+        "start": 1090.6,
+        "duration": 5.0,
+        "text": "are all perpendicular to one another in that space, you know, that way if you add a component in"
+      },
+      {
+        "start": 1095.7,
+        "duration": 4.7,
+        "text": "one direction it doesn't influence any of the other directions. Then the maximum number of"
+      },
+      {
+        "start": 1100.4,
+        "duration": 5.7,
+        "text": "vectors you can fit is only n, the number of dimensions. To a mathematician actually this is the"
+      },
+      {
+        "start": 1106.1,
+        "duration": 6.1,
+        "text": "definition of dimension, but where it gets interesting is if you relax that constraint a little bit"
+      },
+      {
+        "start": 1112.2,
+        "duration": 5.3,
+        "text": "and you tolerate some noise, say you allow those features to be represented by vectors that aren't"
+      },
+      {
+        "start": 1117.4,
+        "duration": 6.2,
+        "text": "exactly perpendicular, they're just nearly perpendicular, maybe between 89 and 91 degrees apart."
+      },
+      {
+        "start": 1123.8,
+        "duration": 7.2,
+        "text": "If we were in two or three dimensions this makes no difference, that gives you hardly any extra wiggle room to fit more vectors in,"
+      },
+      {
+        "start": 1131.0,
+        "duration": 5.6,
+        "text": "which makes it all the more counterintuitive that for higher dimensions the answer changes dramatically."
+      },
+      {
+        "start": 1136.6,
+        "duration": 8.0,
+        "text": "I can give you a really quick and dirty illustration of this using some scrappy python that's going to create a list of 100 dimensional vectors,"
+      },
+      {
+        "start": 1144.6,
+        "duration": 6.1,
+        "text": "each one initialized randomly, and this list is going to contain 10,000 distinct vectors,"
+      },
+      {
+        "start": 1151.1,
+        "duration": 8.7,
+        "text": "so 100 times as many vectors as there are dimensions. This plot right here shows the distribution of angles between pairs of these vectors,"
+      },
+      {
+        "start": 1160.5,
+        "duration": 5.9,
+        "text": "so because they started at random those angles could be anything from 0 to 180 degrees, but you'll notice that"
+      },
+      {
+        "start": 1166.4,
+        "duration": 5.4,
+        "text": "already even just for random vectors there's this heavy bias for things to be closer to 90 degrees."
+      },
+      {
+        "start": 1172.3,
+        "duration": 6.0,
+        "text": "Then what I'm going to do is run a certain optimization process that iteratively nudges all of these vectors"
+      },
+      {
+        "start": 1178.4,
+        "duration": 5.8,
+        "text": "so that they try to become more perpendicular to one another. After repeating this many different times,"
+      },
+      {
+        "start": 1184.2,
+        "duration": 8.4,
+        "text": "here's what the distribution of angles looks like. We have to actually zoom in on it here, because all of the possible angles between pairs of vectors"
+      },
+      {
+        "start": 1192.6,
+        "duration": 4.2,
+        "text": "sit inside this narrow range between 89 and 91 degrees."
+      },
+      {
+        "start": 1198.1,
+        "duration": 9.5,
+        "text": "In general, a consequence of something known as the Johnson-Lindon-Strauss lemma is that the number of vectors you can cram into a space that are nearly perpendicular like this,"
+      },
+      {
+        "start": 1207.7,
+        "duration": 6.8,
+        "text": "grows exponentially with the number of dimensions. This is very significant for large language models,"
+      },
+      {
+        "start": 1214.5,
+        "duration": 5.7,
+        "text": "which might benefit from associating independent ideas with nearly perpendicular directions."
+      },
+      {
+        "start": 1220.2,
+        "duration": 6.3,
+        "text": "It means that it's possible for it to store many, many more ideas than there are dimensions in the space that it's allotted."
+      },
+      {
+        "start": 1227.2,
+        "duration": 4.5,
+        "text": "This might partially explain why model performance seems to scale so well with size."
+      },
+      {
+        "start": 1232.3,
+        "duration": 7.0,
+        "text": "A space that has 10 times as many dimensions can store way, way more than 10 times as many independent ideas."
+      },
+      {
+        "start": 1240.2,
+        "duration": 4.7,
+        "text": "And this is relevant not just to that embedding space where the vectors flowing through the model live,"
+      },
+      {
+        "start": 1245.0,
+        "duration": 5.8,
+        "text": "but also to that vector full of neurons in the middle of that multi-layer perceptron that we just studied."
+      },
+      {
+        "start": 1250.7,
+        "duration": 5.8,
+        "text": "That is to say, at the sizes of GPT-3, it might not just be probing at 50,000 features,"
+      },
+      {
+        "start": 1256.6,
+        "duration": 6.7,
+        "text": "but if it instead leveraged this enormous added capacity by using nearly perpendicular directions of the space,"
+      },
+      {
+        "start": 1263.3,
+        "duration": 4.2,
+        "text": "it could be probing at many, many more features of the vector being processed."
+      },
+      {
+        "start": 1267.5,
+        "duration": 7.0,
+        "text": "But if it was doing that, what it means is that individual features aren't going to be visible as a single neuron lighting up."
+      },
+      {
+        "start": 1274.5,
+        "duration": 4.9,
+        "text": "It would have to look like some specific combination of neurons instead, a superposition."
+      },
+      {
+        "start": 1280.2,
+        "duration": 5.3,
+        "text": "For any of you curious to learn more, a key relevant search term here is Sparce Autoencoder,"
+      },
+      {
+        "start": 1285.4,
+        "duration": 5.0,
+        "text": "which is a tool that some of the interpretability people use to try to extract what the true features are,"
+      },
+      {
+        "start": 1290.5,
+        "duration": 2.4,
+        "text": "even if they're superimposed on all these neurons."
+      },
+      {
+        "start": 1293.5,
+        "duration": 3.0,
+        "text": "I'll link to a couple really great anthropic posts all about this."
+      },
+      {
+        "start": 1297.8,
+        "duration": 3.4,
+        "text": "At this point, we haven't touched every detail of a transformer,"
+      },
+      {
+        "start": 1301.1,
+        "duration": 2.5,
+        "text": "but you and I have hit the most important points."
+      },
+      {
+        "start": 1303.6,
+        "duration": 4.0,
+        "text": "The main thing that I want to cover in a next chapter is the training process."
+      },
+      {
+        "start": 1308.2,
+        "duration": 4.4,
+        "text": "On the one hand, the short answer for how training works is that it's all back propagation,"
+      },
+      {
+        "start": 1312.6,
+        "duration": 4.2,
+        "text": "and we covered back propagation in a separate context with earlier chapters in the series."
+      },
+      {
+        "start": 1317.4,
+        "duration": 5.0,
+        "text": "But there is more to discuss, like the specific cost function used for language models,"
+      },
+      {
+        "start": 1322.3,
+        "duration": 3.8,
+        "text": "the idea of fine-tuning, using reinforcement learning with human feedback,"
+      },
+      {
+        "start": 1326.2,
+        "duration": 1.4,
+        "text": "and the notion of scaling laws."
+      },
+      {
+        "start": 1328.8,
+        "duration": 4.3,
+        "text": "Quick note for the active followers among you, there are a number of non-machine learning-related"
+      },
+      {
+        "start": 1333.1,
+        "duration": 4.8,
+        "text": "videos that I'm excited to sync my teeth into before I make that next chapter, so it might be a while,"
+      },
+      {
+        "start": 1337.9,
+        "duration": 1.9,
+        "text": "but I do promise it'll come in due time."
+      }
+    ],
+    "full_text": "If you feed a large language model the phrase, Michael Jordan plays the sport of blank, and you have it predict what comes next, and it correctly predicts basketball. This would suggest that somewhere, inside its hundreds of billions of parameters, it's baked in knowledge about a specific person and his specific sport. And I think in general anyone who's played around with one of these models has the clear sense that it's memorized tons and tons of facts. So a reasonable question you could ask is, how exactly does that work, and where do those facts live? Last December a few researchers from Google Deep Mind posted about work on this question, and they were using this specific example of matching athletes to their sports. And although a full mechanistic understanding of how facts are stored remains unsolved, they had some interesting partial results, including the very general high-level conclusion that the facts seem to live inside a specific part of these networks, known fancifully as the multi-layer perceptrons, or MLPs for short. In the last couple of chapters, you and I have been digging into the details behind transformers, the architecture underlying large language models, and also underlying a lot of other modern AI. In the most recent chapter we were focusing on a piece called Attention, and the next step for you and me is to digging to the details of what happens inside these multi-layer perceptrons, which make up the other big portion of the network. The computation here is actually relatively simple, especially when you compare it to attention. It boils down essentially to a pair of matrix multiplications with a simple something in between. However, interpreting what these computations are doing is exceedingly challenging. Our main goal here is to step through the computations and make them memorable, but I'd like to do it in the context of showing a specific example of how one of these blocks could, at least in principle, store a concrete fact. Specifically, it'll be storing the fact that Michael Jordan plays basketball. I should mention the layout here is inspired by a conversation I had with one of those deep-mind researchers, Neil Nanda. For the most part, I will assume that you've either watched the last two chapters, or otherwise you have a basic sense for what a transformer is, but refreshers never hurt, so here's the quick reminder of the overall flow. You and I have been studying a model that's trained to take in a piece of text and predict what comes next. That input text is first broken into a bunch of tokens, which means little chunks that are typically words or little pieces of words, and each token is associated with a high-dimensional vector, which is to say a long list of numbers. This sequence of vectors then repeatedly passes through two kinds of operation. Attention, which allows the vectors to pass information between one another, and then the multi-layer perceptrons, the thing that we're going to dig into today. And also there's a certain normalization step in between. After the sequence of vectors has flowed through many many different iterations of both of these blocks, by the end, the hope is that each vector has soaked up enough information, both from the context, all of the other words and the input, and also from the general knowledge that was baked into the model weights through training, that it can be used to make a prediction of what token comes next. One of the key ideas that I want you to have in your mind is that all of these vectors live in a very, very high-dimensional space, and when you think about that space, different directions can encode different kinds of meaning. So a very classic example that I like to refer back to is how if you look at the embedding of woman and subtract the embedding of man, and you take that little step and you add it to another masculine noun, something like uncle, you land somewhere very, very close to the corresponding feminine noun. In this sense, this particular direction encodes gender information. The idea is that many other distinct directions in this super-high-dimensional space could correspond to other features that the model might want to represent. In a transformer, these vectors don't merely encode the meaning of a single word, though. As they flow through the network, they imbibe a much richer meaning based on all the context around them, and also based on the model's knowledge. Ultimately, each one needs to encode something far, far beyond the meaning of a single word, since it needs to be sufficient to predict what will come next. We've already seen how attention blocks let you incorporate context, but a majority of the model parameters actually live inside the MLP blocks, and one thought for what they might be doing is that they offer extra capacity to store facts. Like I said, the lesson here is going to center on the concrete toy example of how exactly it could store the fact that Michael Jordan plays basketball. Now this toy example is going to require that you and I make a couple of assumptions about that high-dimensional space. First, we'll suppose that one of the directions represents the idea of a first name Michael, and then another nearly perpendicular direction represents the idea of the last name Jordan, and then yet a third direction will represent the idea of basketball. So specifically what I mean by this is if you look in the network and you pluck out one of the vectors being processed, if its dot product with this first name Michael direction is one, that's what it would mean for the vector to be encoding the idea of a person with that first name. Otherwise, that dot product would be zero or negative, meaning the vector doesn't really align with that direction. And for simplicity, let's completely ignore the very reasonable question of what it might mean if that dot product was bigger than one. Similarly, its dot product with these other directions would tell you whether it represents the last name Jordan, or basketball. So let's say a vector is meant to represent the full name Michael Jordan, then its dot product with both of these directions would have to be one. Since the text Michael Jordan spans two different tokens, this would also mean we have to assume that an earlier attention block has successfully passed information to the second of these two vectors so as to ensure that it can encode both names. With all of those as the assumptions, let's now dive into the meat of the lesson. What happens inside a multi-layer perceptron? You might think of this sequence of vectors flowing into the block, and remember each vector was originally associated with one of the tokens from the input text. What's going to happen is that each individual vector from that sequence goes through a short series of operations, we'll unpack them in just a moment, and at the end we'll get another vector with the same dimension. That other vector is going to get added to the original one that flowed in, and that sum is the result flowing out. This sequence of operations is something you apply to every vector in the sequence associated with every token in the input, and it all happens in parallel. In particular, the vectors don't talk to each other in this step, they're all kind of doing their own thing. And for you and me, that actually makes it a lot simpler, because it means if we understand what happens to just one of the vectors through this block, we effectively understand what happens to all of them. When I say this block is going to encode the fact that Michael Jordan plays basketball, what I mean is that if a vector flows in that encodes, first name Michael and last name Jordan, then this sequence of computations will produce something that includes that direction basketball, which is what we'll add on to the vector in that position. The first step of this process looks like multiplying that vector by a very big matrix, no surprises there, this is deep learning, and this matrix like all of the other ones we've seen is filled with model parameters that are learned from data, which you might think of as a bunch of knobs and dials that get tweaked and tuned to determine what the model behavior is. Now, one nice way to think about matrix multiplication is to imagine each row of that matrix as being its own vector and taking a bunch of dot products between those rows and the vector being processed, which I'll label as E for embedding. For example, suppose that very first row happened to equal this first name Michael direction that were presuming exists, that would mean that the first component in this output, this dot product right here, would be one if that vector encodes the first name Michael and zero or negative otherwise. Even more fun, take a moment to think about what it would mean if that first row was this first name Michael plus last name Jordan direction. And for simplicity, let me go ahead and write that down as m plus j, then taking a dot product with this embedding E, things distribute really nicely, so it looks like m.e plus j.e and notice how that means the ultimate value would be two if the vector encodes the full name Michael Jordan and otherwise it would be one or something smaller than one. And that's just one row in this matrix. You might think of all of the other rows as in parallel asking some other kinds of questions probing at some other sorts of features of the vector being processed. Very often this step also involves adding another vector to the output, which is full of model parameters learned from data. This other vector is known as the bias. For our example, I want you to imagine that the value of this bias in that very first component is negative one, meaning our final output looks like that relevant dot product, but minus one. You might very reasonably ask why I would want you to assume that the model has learned this. And in a moment, you'll see why it's very clean and nice if we have a value here, which is positive, if and only if a vector encodes the full name Michael Jordan and otherwise it's zero or negative. The total number of rows in this matrix, which is something like the number of questions being asked in the case of GPT3, whose numbers we've been following is just under 50,000. In fact, it's exactly four times the number of dimensions in this embedding space. That's a design choice. You could make it more. You could make it less, but having a clean multiple tends to be friendly for hardware. Since this matrix full of weights maps us into a higher dimensional space, I'm going to give it the shorthand W up. I'll continue labeling the vector we're processing as E, and let's label this bias vector as B up and put that all back down in the diagram. At this point, a problem is that this operation is purely linear, but language is a very non-linear process. If the entry that we're measuring is high for Michael Plus Jordan, it would also necessarily be somewhat triggered by Michael Plus Phelps and also Alexis Plus Jordan, despite those being unrelated conceptually. What you really want is a simple yes or no for the full name. So the next step is to pass this large intermediate vector through a very simple non-linear function. A common choice is one that takes all of the negative values and maps them to zero, and leaves all of the positive values unchanged. And continuing with the deep learning tradition of overly fancy names, this very simple function is often called the rectified linear unit, or Rayloo for short. Here's what the graph looks like. So taking our imagined example where this first entry of the intermediate vector is one, if and only if the full name is Michael Jordan, and zero or negative otherwise, after you pass it through the Rayloo, you end up with a very clean value where all of the zero and negative values just get clipped to zero. So this output would be one for the full name Michael Jordan and zero otherwise. In other words, it very directly mimics the behavior of an AND gate. Often models will use a slightly modified function that's called the J-LU, which has the same basic shape, it's just a bit smoother, but for our purposes, it's a little bit cleaner if we only think about the Rayloo. Also, when you hear people refer to the neurons of a transformer, they're talking about these values right here. Whenever you see that common neural network picture with a layer of dots and a bunch of lines connecting to the previous layer, which we had earlier in this series, that's typically meant to convey this combination of a linear step, a matrix multiplication, followed by some simple, termwise non-linear function like a Rayloo. You would say that this neuron is active whenever this value is positive, and that it's inactive if that value is zero. The next step looks very similar to the first one. You multiply by a very large matrix and you add on a certain bias term. In this case, the number of dimensions in the output is back down to the size of that embedding space, so I'm going to go ahead and call this the down projection matrix. And this time, instead of thinking of things row by row, it's actually nicer to think of it column by column. You see, another way that you can hold matrix multiplication in your head is to imagine taking each column of the matrix and multiplying it by the corresponding term in the vector that it's processing and adding together all of those rescaled columns. The reason it's nicer to think about this way is because here, the columns have the same dimension as the embedding space, so we can think of them as directions in that space. For instance, we will imagine that the model has learned to make that first column into this basket ball direction that we suppose exists. What that would mean is that when the relevant neuron in that first position is active, we'll be adding this column to the final result. But if that neuron was inactive, if that number was zero, then this would have no effect. And it doesn't just have to be basketball. The model could also bake into this column many other features that it wants to associate with something that has the full name Michael Jordan. And at the same time, all of the other columns in this matrix are telling you what will be added to the final result if the corresponding neuron is active. And if you have a bias in this case, it's something that you're just adding every single time, regardless of the neuron values. You might wonder what's that doing, as with all parameter field objects here, it's kind of hard to say exactly, maybe there's some book keeping that the network needs to do, but you can feel free to ignore it for now. Making our notation a little more compact again, I'll call this big matrix W down, and similarly call that bias vector B down and put that back into our diagram. Like I previewed earlier, what you do with this final result is add it to the vector that flowed into the block at that position, and that gets you this final result. So for example, if the vector flowing in encoded both first name Michael and last name Jordan, then because this sequence of operations will trigger that AND gate, it will add on the basketball direction. So what pops out will encode all of those together. And remember, this is a process happening to every one of those vectors in parallel. In particular, taking the GPT-3 numbers, it means that this block doesn't just have 50,000 neurons in it, it has 50,000 times the number of tokens in the input. So that is the entire operation, two matrix products each with a bias added, and a simple clipping function in between. Any of you who watched the earlier videos of the series will recognize this structure as the most basic kind of neural network that we studied there. In that example, it was trained to recognize handwritten digits. Over here, in the context of a transformer for a large language model, this is one piece in a larger architecture, and any attempt to interpret what exactly it's doing is heavily intertwined with the idea of encoding information into vectors of a high dimensional embedding space. That is the core lesson, but I do want to step back and reflect on two different things. The first of which is a kind of bookkeeping, and the second of which involves a very thought-provoking fact about higher dimensions that I actually didn't know until I dug into Transformers. In the last two chapters, you and I started counting up the total number of parameters in GPT-3 and seeing exactly where they live. So let's quickly finish up the game here. I already mentioned how this up projection matrix has just under 50,000 rows, and that each row matches the size of the embedding space, which for GPT-3 is 12,288. Multiplying those together, it gives us 604 million parameters just for that matrix, and the down projection has the same number of parameters just with a transpose to shape. So together, they give about 1.2 billion parameters. The bias vector also accounts for a couple more parameters, but it's a trivial proportion of the total, so I'm not even going to show it. In GPT-3, this sequence of embedding vectors flows through not one, but 96 distinct MLPs, so the total number of parameters devoted to all of these blocks adds up to about 116 billion. This is around two-thirds of the total parameters in the network, and when you add it to everything that we had before for the attention blocks, the embedding, and the unembedding, you do indeed get that grand total of 175 billion as advertised. It's probably worth mentioning there's another set of parameters associated with those normalization steps that this explanation has skipped over, but like the bias vector, they account for a very trivial proportion of the total. As to that second point of reflection, you might be wondering if this central toy example we've been spending so much time on reflects how facts are actually stored in real-large language models. It is true that the rows of that first matrix can be thought of as directions in this embedding space, and that means the activation of each neuron tells you how much a given vector aligns with some specific direction. It's also true that the columns of that second matrix tell you what will be added to the result if that neuron is active. Both of those are just mathematical facts. However, the evidence does suggest that individual neurons very rarely represent a single clean feature like Michael Jordan, and there may actually be a very good reason this is the case, related to an idea floating around interpretability researchers these days known as superposition. This is a hypothesis that might help to explain both why the models are especially hard to interpret, and also why they scale surprisingly well. The basic idea is that if you have an end-dimensional space and you want to represent a bunch of different features using directions that are all perpendicular to one another in that space, you know, that way if you add a component in one direction it doesn't influence any of the other directions. Then the maximum number of vectors you can fit is only n, the number of dimensions. To a mathematician actually this is the definition of dimension, but where it gets interesting is if you relax that constraint a little bit and you tolerate some noise, say you allow those features to be represented by vectors that aren't exactly perpendicular, they're just nearly perpendicular, maybe between 89 and 91 degrees apart. If we were in two or three dimensions this makes no difference, that gives you hardly any extra wiggle room to fit more vectors in, which makes it all the more counterintuitive that for higher dimensions the answer changes dramatically. I can give you a really quick and dirty illustration of this using some scrappy python that's going to create a list of 100 dimensional vectors, each one initialized randomly, and this list is going to contain 10,000 distinct vectors, so 100 times as many vectors as there are dimensions. This plot right here shows the distribution of angles between pairs of these vectors, so because they started at random those angles could be anything from 0 to 180 degrees, but you'll notice that already even just for random vectors there's this heavy bias for things to be closer to 90 degrees. Then what I'm going to do is run a certain optimization process that iteratively nudges all of these vectors so that they try to become more perpendicular to one another. After repeating this many different times, here's what the distribution of angles looks like. We have to actually zoom in on it here, because all of the possible angles between pairs of vectors sit inside this narrow range between 89 and 91 degrees. In general, a consequence of something known as the Johnson-Lindon-Strauss lemma is that the number of vectors you can cram into a space that are nearly perpendicular like this, grows exponentially with the number of dimensions. This is very significant for large language models, which might benefit from associating independent ideas with nearly perpendicular directions. It means that it's possible for it to store many, many more ideas than there are dimensions in the space that it's allotted. This might partially explain why model performance seems to scale so well with size. A space that has 10 times as many dimensions can store way, way more than 10 times as many independent ideas. And this is relevant not just to that embedding space where the vectors flowing through the model live, but also to that vector full of neurons in the middle of that multi-layer perceptron that we just studied. That is to say, at the sizes of GPT-3, it might not just be probing at 50,000 features, but if it instead leveraged this enormous added capacity by using nearly perpendicular directions of the space, it could be probing at many, many more features of the vector being processed. But if it was doing that, what it means is that individual features aren't going to be visible as a single neuron lighting up. It would have to look like some specific combination of neurons instead, a superposition. For any of you curious to learn more, a key relevant search term here is Sparce Autoencoder, which is a tool that some of the interpretability people use to try to extract what the true features are, even if they're superimposed on all these neurons. I'll link to a couple really great anthropic posts all about this. At this point, we haven't touched every detail of a transformer, but you and I have hit the most important points. The main thing that I want to cover in a next chapter is the training process. On the one hand, the short answer for how training works is that it's all back propagation, and we covered back propagation in a separate context with earlier chapters in the series. But there is more to discuss, like the specific cost function used for language models, the idea of fine-tuning, using reinforcement learning with human feedback, and the notion of scaling laws. Quick note for the active followers among you, there are a number of non-machine learning-related videos that I'm excited to sync my teeth into before I make that next chapter, so it might be a while, but I do promise it'll come in due time."
+  }
+}

@@ -1,0 +1,1839 @@
+{
+  "video_id": "piJkuavhV50",
+  "video_title": "Five puzzles for thinking outside the box",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1782.0,
+  "view_count": 1652903,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.5,
+        "text": "Today I have a small series of puzzles for you, and if you even remotely like math,"
+      },
+      {
+        "start": 4.5,
+        "duration": 4.1,
+        "text": "I can essentially guarantee that the solution to each one will delight you."
+      },
+      {
+        "start": 8.6,
+        "duration": 4.6,
+        "text": "At the end, you and I will circle them all together into a broader theme about higher dimensions,"
+      },
+      {
+        "start": 13.2,
+        "duration": 4.0,
+        "text": "both in the sense of why we care, and also why it's a little bit sad to think about them."
+      },
+      {
+        "start": 17.2,
+        "duration": 4.6,
+        "text": "But for the first half of this lesson or so, nothing that we do is going to touch for or more"
+      },
+      {
+        "start": 21.8,
+        "duration": 5.5,
+        "text": "dimensions. This will start simply as a set of pure geometry puzzles with delightful and surprising"
+      },
+      {
+        "start": 27.3,
+        "duration": 0.8,
+        "text": "solutions."
+      },
+      {
+        "start": 30.5,
+        "duration": 6.6,
+        "text": "For the first puzzle here, I want you to consider this rhombus shape, where the internal angles are"
+      },
+      {
+        "start": 37.0,
+        "duration": 6.2,
+        "text": "60 degrees and 120 degrees. If you take a lot of copies of this shape, you can tile the plane with"
+      },
+      {
+        "start": 43.2,
+        "duration": 4.2,
+        "text": "it. And that's not unique to this rhombus, it could have different internal angles. But what's"
+      },
+      {
+        "start": 47.4,
+        "duration": 4.6,
+        "text": "nice about this one is that there are a lot of distinct ways with the kind of pseudo hexagonal"
+      },
+      {
+        "start": 52.0,
+        "duration": 4.4,
+        "text": "pattern that you could also tile the plane. I've seen this pattern all the time out in the wild,"
+      },
+      {
+        "start": 56.4,
+        "duration": 4.2,
+        "text": "unflores or on furniture, and each time it reminds me of the puzzle I'm about to show you."
+      },
+      {
+        "start": 61.2,
+        "duration": 4.2,
+        "text": "If you take one of these tiling and you ever notice that three of those rhombus shapes make a"
+      },
+      {
+        "start": 65.4,
+        "duration": 5.6,
+        "text": "little hexagon like this, it gives you a chance to generate a slightly different tiling by rotating"
+      },
+      {
+        "start": 71.0,
+        "duration": 5.0,
+        "text": "those three tiles 60 degrees. The result is almost the same as what you had before, but just a little"
+      },
+      {
+        "start": 75.9,
+        "duration": 4.1,
+        "text": "bit different. And when you do that, you might notice that sometimes that creates a new hexagon"
+      },
+      {
+        "start": 80.0,
+        "duration": 3.9,
+        "text": "that wasn't there before, that you could also rotate, taking a step to yet another one of these"
+      },
+      {
+        "start": 83.9,
+        "duration": 6.3,
+        "text": "tiling. So a natural question you might wonder is is it possible to get from any one of these"
+      },
+      {
+        "start": 90.2,
+        "duration": 4.8,
+        "text": "tiling patterns to another one just by using these little hexagonal rotation steps?"
+      },
+      {
+        "start": 97.2,
+        "duration": 4.3,
+        "text": "With a little thinking, you can see pretty quickly that the answer has to be no, because for"
+      },
+      {
+        "start": 101.5,
+        "duration": 4.4,
+        "text": "example, that very first tiling I showed you, which is like a squished rectangular grid,"
+      },
+      {
+        "start": 105.9,
+        "duration": 4.2,
+        "text": "has no hexagons at all, meaning you can't take one of these steps into or out of this pattern."
+      },
+      {
+        "start": 110.9,
+        "duration": 4.0,
+        "text": "But what if we restrain things a little bit? What if instead of tiling the infinite plane?"
+      },
+      {
+        "start": 114.9,
+        "duration": 4.3,
+        "text": "I present you with a hexagon and all the side lengths of this hexagon are going to be some whole"
+      },
+      {
+        "start": 119.2,
+        "duration": 4.6,
+        "text": "number, like forward in this case. And I have you fill that hexagon with these little tiles,"
+      },
+      {
+        "start": 123.8,
+        "duration": 4.9,
+        "text": "assuming each of those tiles has a side length of one. Now let me ask you, is it possible to get from"
+      },
+      {
+        "start": 128.7,
+        "duration": 5.8,
+        "text": "any tiling of this finite hexagon to any other tiling using these moves, where every time you find"
+      },
+      {
+        "start": 134.5,
+        "duration": 5.6,
+        "text": "a small hexagon with just three of those tiles, you rotate at 60 degrees. If the answer is no"
+      },
+      {
+        "start": 140.1,
+        "duration": 4.1,
+        "text": "you have to show two distinct patterns and explain why you can't get between them. And the"
+      },
+      {
+        "start": 144.2,
+        "duration": 4.6,
+        "text": "natural follow-on question would be, how many fundamentally distinct patterns are there? If the"
+      },
+      {
+        "start": 148.8,
+        "duration": 4.7,
+        "text": "answer is yes, you have to explain how to get from anyone to another, and the natural follow-up question"
+      },
+      {
+        "start": 153.5,
+        "duration": 5.7,
+        "text": "would be, which two states are the farthest apart, in that it requires the maximum number of moves"
+      },
+      {
+        "start": 159.2,
+        "duration": 5.0,
+        "text": "to get from one to the other. And what is that number? As a function of the size of the hexagon,"
+      },
+      {
+        "start": 164.2,
+        "duration": 4.7,
+        "text": "what is the maximum possible number of steps that it could take to get from one state to another?"
+      },
+      {
+        "start": 170.1,
+        "duration": 4.3,
+        "text": "That's puzzle number one, and before just giving away the answer, let me present the second puzzle"
+      },
+      {
+        "start": 174.4,
+        "duration": 4.2,
+        "text": "for you, and maybe you can mull it over in the back of your mind. The second one is called the"
+      },
+      {
+        "start": 178.6,
+        "duration": 5.3,
+        "text": "Tarsky Plank problem, and it has to do with a circle, say just with a radius one, and we're going"
+      },
+      {
+        "start": 183.9,
+        "duration": 5.8,
+        "text": "to consider strips along that circle. And what I mean by a strip here is any region that's bound"
+      },
+      {
+        "start": 189.8,
+        "duration": 6.0,
+        "text": "by two parallel cords. And the quantity that we'll care about is the width of that strip, so the"
+      },
+      {
+        "start": 195.8,
+        "duration": 4.6,
+        "text": "distance between those two cords, which I'm going to denote with a letter D. You might drop down"
+      },
+      {
+        "start": 200.4,
+        "duration": 3.7,
+        "text": "multiple distinct strips on this circle, and they could be at various different angles,"
+      },
+      {
+        "start": 204.1,
+        "duration": 4.3,
+        "text": "kind of criss-crossing with each other. And for the question, suppose that you've dropped down"
+      },
+      {
+        "start": 208.4,
+        "duration": 4.7,
+        "text": "enough of these strips that they completely cover the area of the circle. Every square inch of"
+      },
+      {
+        "start": 213.1,
+        "duration": 5.7,
+        "text": "the circle has some strip covering it. Then imagine adding together the widths of all of those"
+      },
+      {
+        "start": 218.8,
+        "duration": 6.2,
+        "text": "strips, so summing over this value D for every one of those strips. And the question is what is the"
+      },
+      {
+        "start": 225.0,
+        "duration": 5.9,
+        "text": "minimum possible value for this sum? So across all of the distinct ways that you could cover the"
+      },
+      {
+        "start": 231.0,
+        "duration": 5.0,
+        "text": "circle with a bunch of strips, what's the smallest that you can make this sum? For example,"
+      },
+      {
+        "start": 235.9,
+        "duration": 5.4,
+        "text": "a very trivial way that you could cover it is to take one really fat strip whose width is two,"
+      },
+      {
+        "start": 241.4,
+        "duration": 5.3,
+        "text": "the diameter of the circle. That entire strip covers the entire circle, so the sum of all of the"
+      },
+      {
+        "start": 246.6,
+        "duration": 4.4,
+        "text": "widths would be two. Very similarly, if you just subdivided this into a whole bunch of parallel"
+      },
+      {
+        "start": 251.0,
+        "duration": 4.9,
+        "text": "strips, the sum of the widths is going to just be the diameter of the circle, so that is still"
+      },
+      {
+        "start": 255.9,
+        "duration": 5.4,
+        "text": "just two. So really the question here is, can you do better than two and buy how much?"
+      },
+      {
+        "start": 264.2,
+        "duration": 4.0,
+        "text": "Okay, so that is puzzle number two. Before telling you three, four, and five, though,"
+      },
+      {
+        "start": 268.2,
+        "duration": 3.8,
+        "text": "let's circle back to talk about that first one, where we are tiling the hexagon."
+      },
+      {
+        "start": 272.6,
+        "duration": 4.6,
+        "text": "On the face of it, this is very tricky to think about. But there is a trick if you kind of squint"
+      },
+      {
+        "start": 277.3,
+        "duration": 5.3,
+        "text": "your eyes, and if I suggestively color all of these tiles based on their orientation,"
+      },
+      {
+        "start": 282.6,
+        "duration": 4.5,
+        "text": "where instead of thinking of this as a tiling in two dimensions, you can think of it as a kind of"
+      },
+      {
+        "start": 287.0,
+        "duration": 6.2,
+        "text": "projection of a stack of cubes. It's not too hard to see that any stack of cubes inside an end"
+      },
+      {
+        "start": 293.2,
+        "duration": 5.5,
+        "text": "by end by end frame like this necessarily gives you one of these rhombus tiling patterns. But the curious"
+      },
+      {
+        "start": 298.7,
+        "duration": 4.2,
+        "text": "viewers might enjoy taking a moment to pause and ponder and convince themselves that goes the other"
+      },
+      {
+        "start": 302.9,
+        "duration": 5.4,
+        "text": "way around. Any tiling of rhombuses necessarily has a corresponding stack of cubes."
+      },
+      {
+        "start": 309.0,
+        "duration": 5.0,
+        "text": "If you do that, take a moment to think about the significance of this fundamental move in the puzzle,"
+      },
+      {
+        "start": 313.9,
+        "duration": 5.5,
+        "text": "where you identify a hexagon and you rotate that hexagon 60 degrees. If you think of that little"
+      },
+      {
+        "start": 319.4,
+        "duration": 5.4,
+        "text": "hexagon as the projection of a little cube, notice how if I kind of grab that cube and remove it"
+      },
+      {
+        "start": 324.9,
+        "duration": 6.9,
+        "text": "from the diagram, what's left behind this indent of that cube involves those same three rhombuses"
+      },
+      {
+        "start": 331.8,
+        "duration": 5.5,
+        "text": "except rotated 60 degrees. So this move of rotating hexagons when you find them"
+      },
+      {
+        "start": 337.3,
+        "duration": 5.1,
+        "text": "is really the same thing as adding or removing cubes. And that makes this way, way easier to think"
+      },
+      {
+        "start": 342.4,
+        "duration": 4.7,
+        "text": "about. For example, it becomes very clear that you can get from any pattern to any other pattern,"
+      },
+      {
+        "start": 347.1,
+        "duration": 4.5,
+        "text": "because you could start by saying take all of the cubes in this diagram and remove them so that you"
+      },
+      {
+        "start": 351.6,
+        "duration": 5.2,
+        "text": "get to a kind of neutral position that looks empty and then add back whatever cubes you need to"
+      },
+      {
+        "start": 356.8,
+        "duration": 5.3,
+        "text": "get to whatever other pattern you desire. It also makes it easy to think about the more quantitative"
+      },
+      {
+        "start": 362.1,
+        "duration": 4.6,
+        "text": "follow-on question, which is what is the maximum number of steps that it might take to get from"
+      },
+      {
+        "start": 366.6,
+        "duration": 6.4,
+        "text": "one configuration to another. Realizing that each move corresponds to adding or removing a cube,"
+      },
+      {
+        "start": 373.0,
+        "duration": 4.9,
+        "text": "the biggest number of steps is to go from the empty configuration to the full configuration,"
+      },
+      {
+        "start": 377.9,
+        "duration": 6.3,
+        "text": "and that requires and cubed different steps. What I like about this is that we have this purely"
+      },
+      {
+        "start": 384.3,
+        "duration": 5.0,
+        "text": "two-dimensional question, and a very nice insight came from thinking as three-dimensional creatures."
+      },
+      {
+        "start": 389.4,
+        "duration": 3.9,
+        "text": "But the fact that the numerical answer to this question has that little cube in it,"
+      },
+      {
+        "start": 393.3,
+        "duration": 4.9,
+        "text": "is an indication that the three-dimensionality really is baked into the puzzle itself. It's not"
+      },
+      {
+        "start": 398.2,
+        "duration": 5.4,
+        "text": "coming from some bias that we have as three-dimensional creatures. With this idea of stepping into a"
+      },
+      {
+        "start": 403.6,
+        "duration": 4.9,
+        "text": "higher dimension in mind, now take another look at that second puzzle that we have, covering the"
+      },
+      {
+        "start": 408.5,
+        "duration": 6.9,
+        "text": "unit disk with a bunch of strips. If you do pause and you take a moment trying to think about this"
+      },
+      {
+        "start": 415.4,
+        "duration": 5.1,
+        "text": "puzzle, and you explore alternate strategies to the parallel strips, what you might find is that"
+      },
+      {
+        "start": 420.5,
+        "duration": 5.1,
+        "text": "it's very hard to find anything that gets even close to two, much less lower than it. So you might"
+      },
+      {
+        "start": 425.6,
+        "duration": 5.6,
+        "text": "suspect the parallel strips are the best that you can do, that two is the minimum possible value for"
+      },
+      {
+        "start": 431.2,
+        "duration": 6.1,
+        "text": "the sum. But how would you prove something like that? When you're in this vast space of all possible"
+      },
+      {
+        "start": 437.3,
+        "duration": 4.9,
+        "text": "coverings, how could you prove that there's not some extra clever strategy that you're just missing?"
+      },
+      {
+        "start": 442.7,
+        "duration": 5.0,
+        "text": "This main constraint that the strips have to cover the circle means that the area of all of those"
+      },
+      {
+        "start": 447.7,
+        "duration": 4.8,
+        "text": "strips, if you add them together, has to be at least the area of the circle, which is pie."
+      },
+      {
+        "start": 453.1,
+        "duration": 4.4,
+        "text": "So that's something to work with, but it's a little bit awkward, because you can't directly relate"
+      },
+      {
+        "start": 457.5,
+        "duration": 5.5,
+        "text": "the area of the strip to its width without knowing where on the circle it sits. A strip with it"
+      },
+      {
+        "start": 463.0,
+        "duration": 4.8,
+        "text": "given width would have a bigger area near the center than if it was close to the edge. What would"
+      },
+      {
+        "start": 467.8,
+        "duration": 5.4,
+        "text": "be really helpful is if the area of that strip was simply proportional to its width, because in that"
+      },
+      {
+        "start": 473.3,
+        "duration": 5.2,
+        "text": "case you could directly relate the sum of all of the areas to the sum of all of the widths. And while"
+      },
+      {
+        "start": 478.5,
+        "duration": 6.1,
+        "text": "this is not true in two dimensions, the magic is that it becomes true if you project everything up"
+      },
+      {
+        "start": 484.6,
+        "duration": 5.7,
+        "text": "onto a hemisphere sitting above the circle. This is not at all obvious, but if you look at the"
+      },
+      {
+        "start": 490.2,
+        "duration": 5.3,
+        "text": "width of this strip on this three-dimensional hemisphere, which we'll call D, the area of that"
+      },
+      {
+        "start": 495.5,
+        "duration": 6.6,
+        "text": "strip up in three dimensions like this happens to be pie times D. Importantly, it doesn't matter where"
+      },
+      {
+        "start": 502.1,
+        "duration": 5.2,
+        "text": "the strip is. It could be going over the center or closer to the edge, the area only depends on the"
+      },
+      {
+        "start": 507.3,
+        "duration": 5.3,
+        "text": "width. This might feel like a fact drawn completely from out of the blue, but regular channel viewers"
+      },
+      {
+        "start": 512.6,
+        "duration": 5.2,
+        "text": "will have at least some chance to recognize this, because it's related to a really nice proof for"
+      },
+      {
+        "start": 517.8,
+        "duration": 5.4,
+        "text": "the surface area of a sphere. This was approved due to Archimedes, we covered it in a different video."
+      },
+      {
+        "start": 523.3,
+        "duration": 5.2,
+        "text": "And the big idea there is to consider a cylinder with the same radius as that sphere, sort of"
+      },
+      {
+        "start": 528.5,
+        "duration": 4.8,
+        "text": "hugging tightly around the sphere. And then to analyze how if you look at a little patch of area"
+      },
+      {
+        "start": 533.3,
+        "duration": 5.5,
+        "text": "on the sphere and you project it outward onto the cylinder, the area actually won't change."
+      },
+      {
+        "start": 538.8,
+        "duration": 5.1,
+        "text": "The high level idea is that along lines of latitude, that little patch of area gets stretched out,"
+      },
+      {
+        "start": 543.9,
+        "duration": 5.1,
+        "text": "but along lines of longitude, it actually gets squished down because of the angle that it sits at,"
+      },
+      {
+        "start": 549.0,
+        "duration": 4.6,
+        "text": "and those two effects happen to cancel out precisely. And then once you know that projecting out"
+      },
+      {
+        "start": 553.7,
+        "duration": 4.7,
+        "text": "onto the cylinder preserves areas, analyzing those areas becomes a lot simpler."
+      },
+      {
+        "start": 559.0,
+        "duration": 3.4,
+        "text": "So looking back at our little strip, let me go ahead and draw the rest of the sphere,"
+      },
+      {
+        "start": 562.4,
+        "duration": 4.6,
+        "text": "sort of doubling the area of that strip, and then reorienting it to match the animations I was"
+      },
+      {
+        "start": 567.0,
+        "duration": 5.2,
+        "text": "just showing. If you know that projecting this out onto the cylinder preserves the area,"
+      },
+      {
+        "start": 572.2,
+        "duration": 4.1,
+        "text": "then it becomes very clear that it doesn't matter where on the sphere that strip is."
+      },
+      {
+        "start": 576.2,
+        "duration": 4.7,
+        "text": "Whether it's close to the pole or close to the equator, the area of that projection onto the"
+      },
+      {
+        "start": 581.0,
+        "duration": 6.5,
+        "text": "cylinder is the circumference times the thickness, 2 pi r times the width. So wrapping it all up,"
+      },
+      {
+        "start": 587.4,
+        "duration": 4.6,
+        "text": "the way this is relevant to the original puzzle, is you say consider any covering of the circle"
+      },
+      {
+        "start": 592.0,
+        "duration": 5.0,
+        "text": "with a bunch of strips, which you can project upwards to be a covering of the hemisphere with all"
+      },
+      {
+        "start": 597.1,
+        "duration": 5.5,
+        "text": "of these projected strips. The sum of all of those areas looks like adding up pi times d for each"
+      },
+      {
+        "start": 602.6,
+        "duration": 5.4,
+        "text": "one, and you can factor out that pi. But you also know that the sum of those areas has to be at least"
+      },
+      {
+        "start": 608.1,
+        "duration": 5.9,
+        "text": "the area of the hemisphere, which will be 2 times pi. Therefore, the sum of the widths can never be"
+      },
+      {
+        "start": 614.0,
+        "duration": 5.0,
+        "text": "below 2, and once again we've taken this problem which is very tricky to analyze directly,"
+      },
+      {
+        "start": 619.0,
+        "duration": 4.5,
+        "text": "but leveraged intuition's clean from living lives as three dimensional creatures."
+      },
+      {
+        "start": 623.9,
+        "duration": 6.1,
+        "text": "This next example has a little bit of a story behind it, so I was at the International Math Olympiad"
+      },
+      {
+        "start": 630.0,
+        "duration": 4.5,
+        "text": "earlier this year, I was giving some lectures to the students participating in the contest,"
+      },
+      {
+        "start": 634.5,
+        "duration": 4.1,
+        "text": "and one of those lectures was essentially the video I'm giving you now, kind of going through"
+      },
+      {
+        "start": 638.6,
+        "duration": 4.5,
+        "text": "these examples of puzzles where you're in one dimension, but you have to step up. And in the"
+      },
+      {
+        "start": 643.0,
+        "duration": 5.0,
+        "text": "middle I asked the students in the audience for more examples like this, and I was reasonably"
+      },
+      {
+        "start": 648.1,
+        "duration": 4.3,
+        "text": "confident that at least one in them would mention the example I'm about to show you, because there's"
+      },
+      {
+        "start": 652.4,
+        "duration": 5.0,
+        "text": "a really nice number file video about this one, it's by Tadashi Tokeda, who is always great,"
+      },
+      {
+        "start": 657.4,
+        "duration": 4.4,
+        "text": "but as you'll see, there was actually a little bit of a wrinkle that I wasn't anticipating here."
+      },
+      {
+        "start": 662.4,
+        "duration": 5.0,
+        "text": "The setup for this problem is that we have three different circles just in two dimensional space,"
+      },
+      {
+        "start": 667.4,
+        "duration": 6.0,
+        "text": "and what we're going to do is draw the external tangents to each pair of them. So for example, here"
+      },
+      {
+        "start": 673.4,
+        "duration": 4.2,
+        "text": "on the green and the red circle we've got these external tangents, and the thing we care about is where"
+      },
+      {
+        "start": 677.7,
+        "duration": 5.4,
+        "text": "they intersect. Similarly, I'll take the intersections of the external tangents for that blue and the red"
+      },
+      {
+        "start": 683.0,
+        "duration": 5.1,
+        "text": "one, and then external tangents on the green and the blue one. And if I take a moment to just play"
+      },
+      {
+        "start": 688.2,
+        "duration": 5.2,
+        "text": "around with the positions of these circles and invite you to notice those three different points"
+      },
+      {
+        "start": 693.4,
+        "duration": 4.2,
+        "text": "of intersection, anything special about it, you might be able to guess what the relevant theorem"
+      },
+      {
+        "start": 697.5,
+        "duration": 6.0,
+        "text": "or the puzzle here is. Basically, no matter where I position them, all three of those points seem"
+      },
+      {
+        "start": 703.5,
+        "duration": 5.1,
+        "text": "to fit on a given line. The notion of external tangents doesn't really make sense when one circle"
+      },
+      {
+        "start": 708.6,
+        "duration": 4.5,
+        "text": "is inside the other, so let's assume that that doesn't happen, though we can revisit that a"
+      },
+      {
+        "start": 713.1,
+        "duration": 5.0,
+        "text": "little later. And another assumption you might want to make is that no two circles have the same size,"
+      },
+      {
+        "start": 718.1,
+        "duration": 4.2,
+        "text": "because if two of them did have the same size, those external tangents are parallel, they don't"
+      },
+      {
+        "start": 722.3,
+        "duration": 4.3,
+        "text": "intersect. You could make this sensible with the notion of projective geometry, which takes"
+      },
+      {
+        "start": 726.6,
+        "duration": 4.6,
+        "text": "seriously the idea of points at infinity, but for our purposes, think of three circles that don't"
+      },
+      {
+        "start": 731.2,
+        "duration": 4.7,
+        "text": "intersect and don't have the same size. The claim, the theorem, the thing you need to prove,"
+      },
+      {
+        "start": 735.9,
+        "duration": 5.3,
+        "text": "is that those three intersection points of the external tangents always fall on the same line."
+      },
+      {
+        "start": 741.2,
+        "duration": 4.6,
+        "text": "At this point, you know the theme, we're going to take a step up into the third dimension."
+      },
+      {
+        "start": 746.6,
+        "duration": 5.8,
+        "text": "Namely, imagine that each one of these circles is the equator of some sphere. Now, around any given"
+      },
+      {
+        "start": 752.4,
+        "duration": 4.6,
+        "text": "pair of those spheres, like this green one and the blue one, for example, there are a whole bunch"
+      },
+      {
+        "start": 757.0,
+        "duration": 4.0,
+        "text": "of different external tangents that all intersect at the same point. You essentially just"
+      },
+      {
+        "start": 761.0,
+        "duration": 5.3,
+        "text": "rotate the two that we had about the axis between these two. And then similarly for each other"
+      },
+      {
+        "start": 766.2,
+        "duration": 4.4,
+        "text": "pair of spheres, like that blue one and the red one, there's this cone of external tangents,"
+      },
+      {
+        "start": 770.6,
+        "duration": 4.9,
+        "text": "all intersecting at that point, and between the red and the green one, another cone of external"
+      },
+      {
+        "start": 775.5,
+        "duration": 5.8,
+        "text": "tangents. You might ask why on earth would this be helpful? And the key is to think about a plane"
+      },
+      {
+        "start": 781.4,
+        "duration": 5.7,
+        "text": "that's kind of resting on top of all three of those balls. I claim that this plane goes through"
+      },
+      {
+        "start": 787.0,
+        "duration": 4.6,
+        "text": "the three different points that we care about. And the reason, basically, is if you draw this line"
+      },
+      {
+        "start": 791.6,
+        "duration": 4.6,
+        "text": "between the tangency point of the plane on the green sphere, let's say, and the tangency point"
+      },
+      {
+        "start": 796.2,
+        "duration": 5.1,
+        "text": "on the blue sphere, that's one of those external tangents that goes through this little intersection"
+      },
+      {
+        "start": 801.4,
+        "duration": 4.7,
+        "text": "here. And then similarly, if you draw the line on the tangency point of the sphere for the red"
+      },
+      {
+        "start": 806.1,
+        "duration": 5.2,
+        "text": "and the green, it's one of those external tangents that goes to the other one, and likewise over here."
+      },
+      {
+        "start": 811.3,
+        "duration": 3.9,
+        "text": "We have another line on that plane that passes through the point, so in particular, the plane"
+      },
+      {
+        "start": 815.2,
+        "duration": 5.2,
+        "text": "itself has to go through all three of these points. But those three points also live on a different"
+      },
+      {
+        "start": 820.4,
+        "duration": 5.1,
+        "text": "shared plane, namely the plane of the original problem where the three circles lived. So they have"
+      },
+      {
+        "start": 825.5,
+        "duration": 5.7,
+        "text": "to live somewhere on the intersection between these two planes, and any two planes in 3D space that"
+      },
+      {
+        "start": 831.2,
+        "duration": 4.7,
+        "text": "aren't parallel to each other intersect along a line. Therefore, the three points that we care"
+      },
+      {
+        "start": 836.2,
+        "duration": 5.3,
+        "text": "about have to always sit on a line. This is more or less the content of that number file video."
+      },
+      {
+        "start": 841.5,
+        "duration": 5.0,
+        "text": "And leave it to one of those clever IMO students to point out how it's actually not quite a valid"
+      },
+      {
+        "start": 846.6,
+        "duration": 4.3,
+        "text": "argument in the sense that it's not fully general. One of the students raised her hand and pointed"
+      },
+      {
+        "start": 850.9,
+        "duration": 4.4,
+        "text": "out that if you have a setup where one of the spheres is smaller than the other two, and you place"
+      },
+      {
+        "start": 855.3,
+        "duration": 4.5,
+        "text": "it kind of somewhere in the middle here, then if you try to play this game, there is no way for"
+      },
+      {
+        "start": 859.8,
+        "duration": 4.7,
+        "text": "that plane to rest on top of all three of them. You might imagine kind of rotating it around those"
+      },
+      {
+        "start": 864.5,
+        "duration": 6.9,
+        "text": "two big ones. So in other words, the argument does work for certain positions of those three circles,"
+      },
+      {
+        "start": 871.4,
+        "duration": 6.4,
+        "text": "but it doesn't work for all of them. And then after that talk, the deputy leader for the Slovakian"
+      },
+      {
+        "start": 877.8,
+        "duration": 4.6,
+        "text": "team mentioned to me that there is actually a way that you can save this proof and preserve the"
+      },
+      {
+        "start": 882.4,
+        "duration": 5.1,
+        "text": "overall lesson of taking a step into the third dimension. The key is that instead of using spheres,"
+      },
+      {
+        "start": 887.5,
+        "duration": 5.6,
+        "text": "we should really be using cones. So now we have these three different cones, each of which has a"
+      },
+      {
+        "start": 893.1,
+        "duration": 4.4,
+        "text": "base at one of the circles. And the only thing that we need is that the angles at the top of each"
+      },
+      {
+        "start": 897.5,
+        "duration": 5.2,
+        "text": "one of them are the same, so that there are three different similar shapes. Now consider the line"
+      },
+      {
+        "start": 902.7,
+        "duration": 5.6,
+        "text": "passing through the tip of two different ones of those cones. I claim that that line also passes"
+      },
+      {
+        "start": 908.3,
+        "duration": 4.5,
+        "text": "through the intersection point between the external tangents of the circles that we care about."
+      },
+      {
+        "start": 913.4,
+        "duration": 4.9,
+        "text": "The reason is that this point is what's called the center of similarity for those two shapes."
+      },
+      {
+        "start": 918.3,
+        "duration": 4.1,
+        "text": "What I mean by that is that if you scale the big version of this shape about that point,"
+      },
+      {
+        "start": 922.9,
+        "duration": 3.8,
+        "text": "then at some point along the way, it coincides with the smaller version of that shape."
+      },
+      {
+        "start": 926.7,
+        "duration": 3.9,
+        "text": "From this perspective, you can see how the line through the tips of those cones has to pass through"
+      },
+      {
+        "start": 930.6,
+        "duration": 5.0,
+        "text": "that center of similarity. And if we look from above, you can see how the external tangents also"
+      },
+      {
+        "start": 935.6,
+        "duration": 4.7,
+        "text": "pass through that center. Essentially, the diagram that consists of this little circle with those"
+      },
+      {
+        "start": 940.3,
+        "duration": 5.1,
+        "text": "external tangents intersecting at that point is a scaled down version of the diagram consisting"
+      },
+      {
+        "start": 945.4,
+        "duration": 6.0,
+        "text": "of this big circle and those external tangents intersecting at that point. And then similarly,"
+      },
+      {
+        "start": 951.4,
+        "duration": 5.0,
+        "text": "if you look at the lines passing through the tips of any other pair of cones, those lines will"
+      },
+      {
+        "start": 956.4,
+        "duration": 5.5,
+        "text": "correspond to another one of those intersection points. Now we can talk about the plane that passes"
+      },
+      {
+        "start": 961.9,
+        "duration": 4.6,
+        "text": "through the tips of all of these three cones. And there's no more worry about generality,"
+      },
+      {
+        "start": 966.6,
+        "duration": 5.4,
+        "text": "because any three points in space, no matter where they are, have some plane that passes through them."
+      },
+      {
+        "start": 971.9,
+        "duration": 5.0,
+        "text": "For example, if we move that smaller circle into the problem position from earlier, there's no issue."
+      },
+      {
+        "start": 976.9,
+        "duration": 4.5,
+        "text": "The three different tips of the cones uniquely determine a plane that plane intersects with"
+      },
+      {
+        "start": 981.5,
+        "duration": 5.0,
+        "text": "the xy plane, at least assuming the three cones don't all have the same size. And the line of"
+      },
+      {
+        "start": 986.6,
+        "duration": 5.1,
+        "text": "intersection is exactly the line that we're trying to prove exists. If any of you know the origin"
+      },
+      {
+        "start": 991.7,
+        "duration": 4.5,
+        "text": "for this fixed version of the argument, let me know. That leader of the Slovakian team mentioned"
+      },
+      {
+        "start": 996.2,
+        "duration": 3.1,
+        "text": "that he had heard it from someone else, but couldn't quite remember from where."
+      },
+      {
+        "start": 1000.2,
+        "duration": 4.3,
+        "text": "There's another benefit you get by shifting the focus to the center of similarity rather than"
+      },
+      {
+        "start": 1004.5,
+        "duration": 4.7,
+        "text": "describing these points as the intersection of external tangents. In this framing, it's perfectly"
+      },
+      {
+        "start": 1009.2,
+        "duration": 5.1,
+        "text": "sensible for one circle to sit inside the other. Even if you can't draw external tangents,"
+      },
+      {
+        "start": 1014.3,
+        "duration": 5.4,
+        "text": "there's still some point such that if you scale one circle about that point, it will coincide"
+      },
+      {
+        "start": 1019.8,
+        "duration": 4.2,
+        "text": "with the other. This actually made it way easier to program, notice how wherever I put these"
+      },
+      {
+        "start": 1023.9,
+        "duration": 4.6,
+        "text": "circles, we always get these three points that fall on a line. In fact, these don't even need to"
+      },
+      {
+        "start": 1028.5,
+        "duration": 5.4,
+        "text": "be circles. They could be any three similar shapes as long as they're all in the same orientation."
+      },
+      {
+        "start": 1033.8,
+        "duration": 5.2,
+        "text": "And you can say those three centers of similarity always must fall on a line. And you"
+      },
+      {
+        "start": 1039.0,
+        "duration": 4.7,
+        "text": "can use essentially that same argument using cones to show this. Except instead of cones, you would"
+      },
+      {
+        "start": 1043.8,
+        "duration": 5.8,
+        "text": "have some kind of pyramid shape. At this point, having logged three wonderful examples of two"
+      },
+      {
+        "start": 1049.6,
+        "duration": 4.6,
+        "text": "dimensional puzzles that somehow leverage a three-dimensional insight, a natural question you might"
+      },
+      {
+        "start": 1054.2,
+        "duration": 4.5,
+        "text": "ask is whether there's a three-dimensional puzzle that somehow involves stepping up into four"
+      },
+      {
+        "start": 1058.7,
+        "duration": 5.7,
+        "text": "dimensions to answer it. The last two puzzles I want to bring up offer attempts at an answer to that."
+      },
+      {
+        "start": 1064.4,
+        "duration": 4.8,
+        "text": "For this next one, imagine that you have four different points in three-dimensional space,"
+      },
+      {
+        "start": 1069.2,
+        "duration": 5.1,
+        "text": "and they form the vertices of a tetrahedron. Basically, the shape such that those four different"
+      },
+      {
+        "start": 1074.3,
+        "duration": 4.3,
+        "text": "points are its corners. In principle, if you know the coordinates of those points, you know"
+      },
+      {
+        "start": 1078.6,
+        "duration": 4.6,
+        "text": "everything you need to about this shape. But the challenge I present to you is to write an explicit"
+      },
+      {
+        "start": 1083.3,
+        "duration": 5.4,
+        "text": "formula for the volume of this tetrahedron in terms of the coordinates of those four different"
+      },
+      {
+        "start": 1088.7,
+        "duration": 4.2,
+        "text": "points. And this time, I'm actually not going to show you the full answer to this puzzle."
+      },
+      {
+        "start": 1093.5,
+        "duration": 5.2,
+        "text": "I will give you a major spoiler, which is that one elegant way to view it involves thinking about"
+      },
+      {
+        "start": 1098.7,
+        "duration": 5.1,
+        "text": "the determinant of a certain four-by-four matrix. And I'll also suggest that it would be very helpful"
+      },
+      {
+        "start": 1103.8,
+        "duration": 4.5,
+        "text": "to try thinking about the analogous puzzle one dimension lower, where you're finding the area"
+      },
+      {
+        "start": 1108.3,
+        "duration": 4.7,
+        "text": "of a triangle given the coordinates of its corners. The main reason I don't want to give the full"
+      },
+      {
+        "start": 1113.0,
+        "duration": 5.5,
+        "text": "answer right away is that solving this puzzle and its analogs in various different dimensions"
+      },
+      {
+        "start": 1118.6,
+        "duration": 6.2,
+        "text": "actually offers a really nice explanation for why the formula for the determinant is what it is."
+      },
+      {
+        "start": 1124.8,
+        "duration": 4.2,
+        "text": "And as such, I think that distilling that into its own little video should make a really nice"
+      },
+      {
+        "start": 1129.0,
+        "duration": 5.0,
+        "text": "addition to the linear algebra series. So skipping now to the very last example,"
+      },
+      {
+        "start": 1134.1,
+        "duration": 4.4,
+        "text": "rather than beginning with a puzzle and seeking an insight, what we're going to do is start with"
+      },
+      {
+        "start": 1138.5,
+        "duration": 5.0,
+        "text": "the insight and see if we can try to construct the puzzle around it. Looking back at the first"
+      },
+      {
+        "start": 1143.5,
+        "duration": 5.6,
+        "text": "puzzle that we did, you might have the idea that it would be fun to try finding an equivalent of"
+      },
+      {
+        "start": 1149.1,
+        "duration": 5.7,
+        "text": "this but one dimension higher. What is the three-dimensional tiling pattern, where a four-dimensional"
+      },
+      {
+        "start": 1154.8,
+        "duration": 5.4,
+        "text": "creature could stare at it, squint their eyes, and somehow see it as a stack of four-dimensional"
+      },
+      {
+        "start": 1160.2,
+        "duration": 5.8,
+        "text": "hypercubes. And instead of asking about rotating these hexagons whenever we find them, what is the"
+      },
+      {
+        "start": 1166.0,
+        "duration": 6.2,
+        "text": "equivalent move that we could understand as 3D creatures, but which the 4D creature could somehow"
+      },
+      {
+        "start": 1172.2,
+        "duration": 7.0,
+        "text": "think about as adding or removing hypercubes from that stack. This is certainly a very mind-bending"
+      },
+      {
+        "start": 1179.3,
+        "duration": 5.5,
+        "text": "exercise, and the puzzle that will ultimately construct is maybe a little contrived, but I found"
+      },
+      {
+        "start": 1184.8,
+        "duration": 5.1,
+        "text": "it super fun to think through, and it definitely gave me a new intuition for a certain 3D shape"
+      },
+      {
+        "start": 1189.9,
+        "duration": 4.6,
+        "text": "that I had not had before. To start off, it helps to put some numbers to the way that we're thinking"
+      },
+      {
+        "start": 1194.6,
+        "duration": 5.7,
+        "text": "about a cube, where one natural choice is to put it in 3D space such that one vertex sits at the"
+      },
+      {
+        "start": 1200.2,
+        "duration": 5.4,
+        "text": "origin, coordinates 0, 0, 0, and then all of the other vertices are kind of every combination of"
+      },
+      {
+        "start": 1205.7,
+        "duration": 5.0,
+        "text": "zeros and ones that you can come up with. And notice how I'm drawing an edge between two different"
+      },
+      {
+        "start": 1210.7,
+        "duration": 5.4,
+        "text": "vertices whenever they only differ in one coordinate, for example differing only in the x direction,"
+      },
+      {
+        "start": 1216.1,
+        "duration": 5.7,
+        "text": "or only in the y direction. For a four-dimensional cube, you could do the same thing in principle."
+      },
+      {
+        "start": 1221.8,
+        "duration": 4.6,
+        "text": "Your coordinates are lists of four numbers, and all of the vertices of the cube are going to be"
+      },
+      {
+        "start": 1226.5,
+        "duration": 5.3,
+        "text": "every possible combination that involves zeros and ones. What I'm showing right now is just the"
+      },
+      {
+        "start": 1231.8,
+        "duration": 5.8,
+        "text": "three-dimensional base of that hypercube. It's analogous to the base square on our cube, where the"
+      },
+      {
+        "start": 1237.5,
+        "duration": 5.4,
+        "text": "z coordinate is all 0. Notice how here that last coordinate is 0 for all of them. Even if we struggle"
+      },
+      {
+        "start": 1242.9,
+        "duration": 5.4,
+        "text": "to visualize it, in principle, the rest of the hypercube comes from increasing that last coordinate by"
+      },
+      {
+        "start": 1248.2,
+        "duration": 5.5,
+        "text": "one unit, stepping in some direction that we can't quite imagine, which gives us this other 3D"
+      },
+      {
+        "start": 1254.4,
+        "duration": 3.8,
+        "text": "cube, which is the analog of the top face that we might have looked at earlier. And again,"
+      },
+      {
+        "start": 1258.2,
+        "duration": 5.2,
+        "text": "the rule with the edges is to connect any pair of vertices that differ only in one of those coordinates."
+      },
+      {
+        "start": 1264.6,
+        "duration": 4.6,
+        "text": "The tiling puzzle we did involved looking at these cubes from a very specific direction,"
+      },
+      {
+        "start": 1269.2,
+        "duration": 5.1,
+        "text": "where we were kind of staring down this diagonal direction, and the way it projects onto our i looks"
+      },
+      {
+        "start": 1274.3,
+        "duration": 5.0,
+        "text": "like a hexagon. One way to think about this that lends itself to actually coding it up for a"
+      },
+      {
+        "start": 1279.4,
+        "duration": 5.3,
+        "text": "higher dimension is to consider the vector with coordinates 111, kind of sitting in that diagonal"
+      },
+      {
+        "start": 1284.6,
+        "duration": 6.7,
+        "text": "direction, and projecting everything onto the plane perpendicular to that vector. You can write"
+      },
+      {
+        "start": 1291.4,
+        "duration": 5.1,
+        "text": "an explicit formula for this that basically takes any point and kind of subtracts off its component"
+      },
+      {
+        "start": 1296.5,
+        "duration": 6.8,
+        "text": "along that direction. More generally, if you had a whole stack of cubes and you project them all"
+      },
+      {
+        "start": 1303.3,
+        "duration": 7.4,
+        "text": "down on this direction, it creates for you this hexagonal grid. With the 40 cube, even though"
+      },
+      {
+        "start": 1310.6,
+        "duration": 4.0,
+        "text": "again we struggle to really think about what it looks like, we can at least have the computer play"
+      },
+      {
+        "start": 1314.6,
+        "duration": 6.2,
+        "text": "the same game, where I'll consider the 4-dimensional vector 1111 and project everything onto the space"
+      },
+      {
+        "start": 1320.8,
+        "duration": 5.4,
+        "text": "perpendicular to that vector, which will be a 3-dimensional subspace of 4 dimensions. When I do"
+      },
+      {
+        "start": 1326.2,
+        "duration": 5.0,
+        "text": "that for this wire frame of the 4-dimensional cube, here's what it looks like. It's this very"
+      },
+      {
+        "start": 1331.3,
+        "duration": 5.0,
+        "text": "beautiful and symmetric shape, and if instead of the wire frame I make it solid. This has a special"
+      },
+      {
+        "start": 1336.3,
+        "duration": 5.2,
+        "text": "name, it's called a rhombic dodecahedron. And there's a really nice video with Matt Parker and Adam"
+      },
+      {
+        "start": 1341.5,
+        "duration": 5.6,
+        "text": "Savage featuring a rhombic dodecahedron, where they construct this beautiful light box that features"
+      },
+      {
+        "start": 1347.1,
+        "duration": 5.4,
+        "text": "the fact that you can testulate 3-dimensional space using this shape. That's really not obvious,"
+      },
+      {
+        "start": 1352.5,
+        "duration": 4.7,
+        "text": "at least to me when I just look at it, but if you know that this is a natural projection of a"
+      },
+      {
+        "start": 1357.2,
+        "duration": 5.1,
+        "text": "hypercube, that actually tells you that it must testulate 3D space, because you could project down"
+      },
+      {
+        "start": 1362.3,
+        "duration": 5.6,
+        "text": "a stack of those hypercubes. In our puzzle, we weren't just looking at the wire frames for these"
+      },
+      {
+        "start": 1367.9,
+        "duration": 5.4,
+        "text": "cubes, they had actual square faces, and when we stare down one of these corners, we only really see"
+      },
+      {
+        "start": 1373.4,
+        "duration": 5.3,
+        "text": "three of those faces. When there is a cube, it's the three faces pointed out, and when there was no"
+      },
+      {
+        "start": 1378.6,
+        "duration": 5.0,
+        "text": "cube in that position, we had the kind of indent, which is like the three faces of the cube on the"
+      },
+      {
+        "start": 1384.6,
+        "duration": 5.4,
+        "text": "inside. Projecting those three faces down is what gives us those three rhombuses that form a hexagon."
+      },
+      {
+        "start": 1390.0,
+        "duration": 5.0,
+        "text": "To think through the analog of this one dimension up, again, it helps to put some numbers to things."
+      },
+      {
+        "start": 1395.0,
+        "duration": 5.0,
+        "text": "Let me draw these three different basis vectors that span the cube, the unit vectors in the x"
+      },
+      {
+        "start": 1400.0,
+        "duration": 5.4,
+        "text": "direction, the y direction, and the z direction. Notice how each one of these inner faces"
+      },
+      {
+        "start": 1405.4,
+        "duration": 6.3,
+        "text": "corresponds to a pair of those basis vectors. The analogous game that we can play one dimension up"
+      },
+      {
+        "start": 1411.7,
+        "duration": 5.6,
+        "text": "is to take the four different basis vectors up there, and project them down to 3D, again,"
+      },
+      {
+        "start": 1417.3,
+        "duration": 5.9,
+        "text": "along this diagonal direction. This is analogous to projecting those three basis vectors into the"
+      },
+      {
+        "start": 1423.2,
+        "duration": 5.2,
+        "text": "hexagon so that they all sit 120 degrees apart. And now, instead of talking about the square"
+      },
+      {
+        "start": 1428.4,
+        "duration": 6.8,
+        "text": "faces of the cube getting projected as rhombuses, we think about the cubicle cells of that hypercube."
+      },
+      {
+        "start": 1435.2,
+        "duration": 4.4,
+        "text": "Each one in this case corresponds to a way that you could choose three out of those four basis"
+      },
+      {
+        "start": 1439.6,
+        "duration": 6.2,
+        "text": "vectors. Each of them is this kind of squished cube shape, and the four of them together fit"
+      },
+      {
+        "start": 1445.8,
+        "duration": 7.8,
+        "text": "very nicely to create this rhombic dodecahedron. Now, in our original puzzle, the game was whenever"
+      },
+      {
+        "start": 1453.6,
+        "duration": 5.5,
+        "text": "you see this hexagon built out of the three rhombuses, you rotate it 60 degrees. But we're going to"
+      },
+      {
+        "start": 1459.1,
+        "duration": 4.9,
+        "text": "have to change how we think about that move. Notice how when I go from the inner faces of the cube"
+      },
+      {
+        "start": 1464.0,
+        "duration": 4.9,
+        "text": "to the outer faces, I can slide each one of them in a direction perpendicular to that face."
+      },
+      {
+        "start": 1470.2,
+        "duration": 4.4,
+        "text": "Down on the projection, what that looks like is sliding each one of these rhombuses through the"
+      },
+      {
+        "start": 1474.6,
+        "duration": 6.2,
+        "text": "origin. We can play the same game with the projections of those cubes in four dimensions,"
+      },
+      {
+        "start": 1480.8,
+        "duration": 4.0,
+        "text": "where if you take each one of these four and you let it slide through the origin,"
+      },
+      {
+        "start": 1484.8,
+        "duration": 4.1,
+        "text": "it gives you a distinct way to tile that rhombic dodecahedron."
+      },
+      {
+        "start": 1491.8,
+        "duration": 4.7,
+        "text": "So, with all of that is set up, here is the absurd puzzle that you could present to someone,"
+      },
+      {
+        "start": 1496.5,
+        "duration": 4.7,
+        "text": "next time you find yourself at, you know, like a nerdy cocktail party. First, you describe this"
+      },
+      {
+        "start": 1501.2,
+        "duration": 5.5,
+        "text": "squished cube shape here. It's made of six rhombuses whose big angle is 109.5."
+      },
+      {
+        "start": 1507.8,
+        "duration": 6.0,
+        "text": "You say, imagine this has a side length of one, and you're going to use many copies of this shape"
+      },
+      {
+        "start": 1513.8,
+        "duration": 5.2,
+        "text": "to tile a big rhombic dodecahedron, which has some kind of integer side length."
+      },
+      {
+        "start": 1519.7,
+        "duration": 5.0,
+        "text": "The game is that every time inside this big tiling, you find a small one by one by one,"
+      },
+      {
+        "start": 1524.7,
+        "duration": 4.6,
+        "text": "rhombic dodecahedron, you make this move, where each piece can kind of slide through the middle."
+      },
+      {
+        "start": 1529.3,
+        "duration": 4.6,
+        "text": "And then for the puzzle, you ask, what is the maximum number of moves that it might take to get"
+      },
+      {
+        "start": 1533.9,
+        "duration": 6.1,
+        "text": "from one tiling to another? This is absurdly confusing to think about, but if you somehow know"
+      },
+      {
+        "start": 1540.0,
+        "duration": 5.1,
+        "text": "that this is all a projection of a stack of hypercubes, it can lead you to conclude the answer has"
+      },
+      {
+        "start": 1545.1,
+        "duration": 5.3,
+        "text": "to be the size of that big rhombic dodecahedron. Let's call it n to the power 4."
+      },
+      {
+        "start": 1550.9,
+        "duration": 1.7,
+        "text": "2."
+      },
+      {
+        "start": 1552.6,
+        "duration": 4.9,
+        "text": "Zooming out a bit, all of these puzzles are really just for fun. Aside from sharing them with"
+      },
+      {
+        "start": 1557.4,
+        "duration": 4.7,
+        "text": "nerdy friends at parties, there's not really a lot of direct utility. But they illustrate a much"
+      },
+      {
+        "start": 1562.2,
+        "duration": 5.8,
+        "text": "broader phenomenon in math, where constructs in some higher dimension can be bizarrely relevant"
+      },
+      {
+        "start": 1568.0,
+        "duration": 5.0,
+        "text": "to solving problems more easily, either in a lower number of dimensions, or even solving problems"
+      },
+      {
+        "start": 1573.0,
+        "duration": 4.9,
+        "text": "that don't seem geometric at first. For example, there is an extension of the complex numbers"
+      },
+      {
+        "start": 1577.9,
+        "duration": 4.7,
+        "text": "that naturally live up in 4 dimensions, they're called the Quaternions, and they offer a really"
+      },
+      {
+        "start": 1582.6,
+        "duration": 5.5,
+        "text": "elegant way to encode and to work with 3 dimensions. You don't have to understand 4 dimensions to"
+      },
+      {
+        "start": 1588.2,
+        "duration": 3.5,
+        "text": "work with them, in the description I'll give you some links to some really nice videos to show"
+      },
+      {
+        "start": 1591.7,
+        "duration": 6.0,
+        "text": "practically working with Quaternions, but they are doing something very special up in 4 dimensions,"
+      },
+      {
+        "start": 1597.7,
+        "duration": 5.4,
+        "text": "rotating a hypersphere in a way that's not just rigid motion, but a kind of extra rigidity"
+      },
+      {
+        "start": 1603.1,
+        "duration": 4.8,
+        "text": "unlike anything we know in 2 or 3 dimensions. If you're curious, I made a whole video and then"
+      },
+      {
+        "start": 1607.9,
+        "duration": 5.4,
+        "text": "a sequence of interactive videos a while back, trying to understand what exactly that 4D motion is."
+      },
+      {
+        "start": 1614.3,
+        "duration": 5.4,
+        "text": "Another example, if you step up into 24 dimensions, is how there is this unusually elegant way to"
+      },
+      {
+        "start": 1619.7,
+        "duration": 6.2,
+        "text": "pack spheres together, and that weird high-dimensional sphere packing is very closely tied to a type of"
+      },
+      {
+        "start": 1625.9,
+        "duration": 5.0,
+        "text": "error correction code that was actually used on the Voyager spacecrafts. And if you scale up your"
+      },
+      {
+        "start": 1630.9,
+        "duration": 5.2,
+        "text": "dimensions even further, something funny starts to happen with the statistics of random vectors,"
+      },
+      {
+        "start": 1636.1,
+        "duration": 5.0,
+        "text": "where a pair of random vectors will have a very high chance of being nearly perpendicular."
+      },
+      {
+        "start": 1641.1,
+        "duration": 4.6,
+        "text": "In the series on neural networks, I mentioned how this fact could be relevant to explaining why"
+      },
+      {
+        "start": 1645.7,
+        "duration": 5.0,
+        "text": "large language models perform so much better at scale, and this is a fact that's also very relevant"
+      },
+      {
+        "start": 1650.7,
+        "duration": 4.9,
+        "text": "to a number of compression algorithms. But the reason that these puzzles I've laid out make me feel"
+      },
+      {
+        "start": 1655.6,
+        "duration": 4.9,
+        "text": "a little sad, thinking about 4-dimensional geometry, is that there's a difference between analysis"
+      },
+      {
+        "start": 1660.5,
+        "duration": 6.1,
+        "text": "and intuition. You and I can stare at this tiling of rhombuses, squint our eyes, and somehow think"
+      },
+      {
+        "start": 1666.6,
+        "duration": 5.8,
+        "text": "of it as a stack of cubes. If you've ever pondered spheres in their surface area, you have at least a"
+      },
+      {
+        "start": 1672.4,
+        "duration": 5.1,
+        "text": "chance for making this creative leap when you're faced with that puzzle about strips on a circle."
+      },
+      {
+        "start": 1677.5,
+        "duration": 5.1,
+        "text": "And in trying to prove that three points sit on a line, you and I can think about a line as an"
+      },
+      {
+        "start": 1682.6,
+        "duration": 5.7,
+        "text": "intersection of two planes in 3D space. And that's not some opaque consequence of linear algebra,"
+      },
+      {
+        "start": 1688.3,
+        "duration": 5.2,
+        "text": "it's something we can really picture in our minds eye. All of the examples that I know of that"
+      },
+      {
+        "start": 1693.5,
+        "duration": 6.1,
+        "text": "use even higher dimensions to solve problems don't really involve intuition in quite the same way."
+      },
+      {
+        "start": 1699.6,
+        "duration": 4.8,
+        "text": "There might be an analogy with lower dimensions, and analogies can be kind of dangerous,"
+      },
+      {
+        "start": 1704.4,
+        "duration": 5.5,
+        "text": "but the line of reasoning ultimately has to be purely analysis. Now to be clear, that's not a bad"
+      },
+      {
+        "start": 1709.9,
+        "duration": 5.8,
+        "text": "thing. Ultimately, all of the rigor in any argument you make has to come from analysis. But analysis"
+      },
+      {
+        "start": 1715.7,
+        "duration": 6.1,
+        "text": "without intuition is daunting. The space of all possible logical moves you can make in the"
+      },
+      {
+        "start": 1721.8,
+        "duration": 6.3,
+        "text": "pursuit of a proof is often too vast to explore in a reasonable time. Intuition is what offers"
+      },
+      {
+        "start": 1728.1,
+        "duration": 5.8,
+        "text": "the guiding lights telling you which paths are worth trying. What I'm jealous of, and a little"
+      },
+      {
+        "start": 1733.8,
+        "duration": 5.9,
+        "text": "bit sad about, is that there might be problems in three dimensions where somehow squinting your"
+      },
+      {
+        "start": 1739.8,
+        "duration": 5.4,
+        "text": "eyes as a four dimensional creature, or even higher, would offer some guiding light that to you and"
+      },
+      {
+        "start": 1745.2,
+        "duration": 8.1,
+        "text": "me is inaccessible. Quick note for those of you supporting on Patreon, or for those of you who"
+      },
+      {
+        "start": 1753.3,
+        "duration": 4.4,
+        "text": "have thought about maybe joining to support the channel? I made a quick bonus supplement video to"
+      },
+      {
+        "start": 1757.7,
+        "duration": 4.8,
+        "text": "this one showing two more puzzles that have the same vibe where there's a question in two dimensions,"
+      },
+      {
+        "start": 1762.5,
+        "duration": 4.6,
+        "text": "but the answer somehow involves three dimensional thinking. It's quick and casual, but I think you're"
+      },
+      {
+        "start": 1767.0,
+        "duration": 10.0,
+        "text": "like the problems, so see the links below."
+      }
+    ],
+    "full_text": "Today I have a small series of puzzles for you, and if you even remotely like math, I can essentially guarantee that the solution to each one will delight you. At the end, you and I will circle them all together into a broader theme about higher dimensions, both in the sense of why we care, and also why it's a little bit sad to think about them. But for the first half of this lesson or so, nothing that we do is going to touch for or more dimensions. This will start simply as a set of pure geometry puzzles with delightful and surprising solutions. For the first puzzle here, I want you to consider this rhombus shape, where the internal angles are 60 degrees and 120 degrees. If you take a lot of copies of this shape, you can tile the plane with it. And that's not unique to this rhombus, it could have different internal angles. But what's nice about this one is that there are a lot of distinct ways with the kind of pseudo hexagonal pattern that you could also tile the plane. I've seen this pattern all the time out in the wild, unflores or on furniture, and each time it reminds me of the puzzle I'm about to show you. If you take one of these tiling and you ever notice that three of those rhombus shapes make a little hexagon like this, it gives you a chance to generate a slightly different tiling by rotating those three tiles 60 degrees. The result is almost the same as what you had before, but just a little bit different. And when you do that, you might notice that sometimes that creates a new hexagon that wasn't there before, that you could also rotate, taking a step to yet another one of these tiling. So a natural question you might wonder is is it possible to get from any one of these tiling patterns to another one just by using these little hexagonal rotation steps? With a little thinking, you can see pretty quickly that the answer has to be no, because for example, that very first tiling I showed you, which is like a squished rectangular grid, has no hexagons at all, meaning you can't take one of these steps into or out of this pattern. But what if we restrain things a little bit? What if instead of tiling the infinite plane? I present you with a hexagon and all the side lengths of this hexagon are going to be some whole number, like forward in this case. And I have you fill that hexagon with these little tiles, assuming each of those tiles has a side length of one. Now let me ask you, is it possible to get from any tiling of this finite hexagon to any other tiling using these moves, where every time you find a small hexagon with just three of those tiles, you rotate at 60 degrees. If the answer is no you have to show two distinct patterns and explain why you can't get between them. And the natural follow-on question would be, how many fundamentally distinct patterns are there? If the answer is yes, you have to explain how to get from anyone to another, and the natural follow-up question would be, which two states are the farthest apart, in that it requires the maximum number of moves to get from one to the other. And what is that number? As a function of the size of the hexagon, what is the maximum possible number of steps that it could take to get from one state to another? That's puzzle number one, and before just giving away the answer, let me present the second puzzle for you, and maybe you can mull it over in the back of your mind. The second one is called the Tarsky Plank problem, and it has to do with a circle, say just with a radius one, and we're going to consider strips along that circle. And what I mean by a strip here is any region that's bound by two parallel cords. And the quantity that we'll care about is the width of that strip, so the distance between those two cords, which I'm going to denote with a letter D. You might drop down multiple distinct strips on this circle, and they could be at various different angles, kind of criss-crossing with each other. And for the question, suppose that you've dropped down enough of these strips that they completely cover the area of the circle. Every square inch of the circle has some strip covering it. Then imagine adding together the widths of all of those strips, so summing over this value D for every one of those strips. And the question is what is the minimum possible value for this sum? So across all of the distinct ways that you could cover the circle with a bunch of strips, what's the smallest that you can make this sum? For example, a very trivial way that you could cover it is to take one really fat strip whose width is two, the diameter of the circle. That entire strip covers the entire circle, so the sum of all of the widths would be two. Very similarly, if you just subdivided this into a whole bunch of parallel strips, the sum of the widths is going to just be the diameter of the circle, so that is still just two. So really the question here is, can you do better than two and buy how much? Okay, so that is puzzle number two. Before telling you three, four, and five, though, let's circle back to talk about that first one, where we are tiling the hexagon. On the face of it, this is very tricky to think about. But there is a trick if you kind of squint your eyes, and if I suggestively color all of these tiles based on their orientation, where instead of thinking of this as a tiling in two dimensions, you can think of it as a kind of projection of a stack of cubes. It's not too hard to see that any stack of cubes inside an end by end by end frame like this necessarily gives you one of these rhombus tiling patterns. But the curious viewers might enjoy taking a moment to pause and ponder and convince themselves that goes the other way around. Any tiling of rhombuses necessarily has a corresponding stack of cubes. If you do that, take a moment to think about the significance of this fundamental move in the puzzle, where you identify a hexagon and you rotate that hexagon 60 degrees. If you think of that little hexagon as the projection of a little cube, notice how if I kind of grab that cube and remove it from the diagram, what's left behind this indent of that cube involves those same three rhombuses except rotated 60 degrees. So this move of rotating hexagons when you find them is really the same thing as adding or removing cubes. And that makes this way, way easier to think about. For example, it becomes very clear that you can get from any pattern to any other pattern, because you could start by saying take all of the cubes in this diagram and remove them so that you get to a kind of neutral position that looks empty and then add back whatever cubes you need to get to whatever other pattern you desire. It also makes it easy to think about the more quantitative follow-on question, which is what is the maximum number of steps that it might take to get from one configuration to another. Realizing that each move corresponds to adding or removing a cube, the biggest number of steps is to go from the empty configuration to the full configuration, and that requires and cubed different steps. What I like about this is that we have this purely two-dimensional question, and a very nice insight came from thinking as three-dimensional creatures. But the fact that the numerical answer to this question has that little cube in it, is an indication that the three-dimensionality really is baked into the puzzle itself. It's not coming from some bias that we have as three-dimensional creatures. With this idea of stepping into a higher dimension in mind, now take another look at that second puzzle that we have, covering the unit disk with a bunch of strips. If you do pause and you take a moment trying to think about this puzzle, and you explore alternate strategies to the parallel strips, what you might find is that it's very hard to find anything that gets even close to two, much less lower than it. So you might suspect the parallel strips are the best that you can do, that two is the minimum possible value for the sum. But how would you prove something like that? When you're in this vast space of all possible coverings, how could you prove that there's not some extra clever strategy that you're just missing? This main constraint that the strips have to cover the circle means that the area of all of those strips, if you add them together, has to be at least the area of the circle, which is pie. So that's something to work with, but it's a little bit awkward, because you can't directly relate the area of the strip to its width without knowing where on the circle it sits. A strip with it given width would have a bigger area near the center than if it was close to the edge. What would be really helpful is if the area of that strip was simply proportional to its width, because in that case you could directly relate the sum of all of the areas to the sum of all of the widths. And while this is not true in two dimensions, the magic is that it becomes true if you project everything up onto a hemisphere sitting above the circle. This is not at all obvious, but if you look at the width of this strip on this three-dimensional hemisphere, which we'll call D, the area of that strip up in three dimensions like this happens to be pie times D. Importantly, it doesn't matter where the strip is. It could be going over the center or closer to the edge, the area only depends on the width. This might feel like a fact drawn completely from out of the blue, but regular channel viewers will have at least some chance to recognize this, because it's related to a really nice proof for the surface area of a sphere. This was approved due to Archimedes, we covered it in a different video. And the big idea there is to consider a cylinder with the same radius as that sphere, sort of hugging tightly around the sphere. And then to analyze how if you look at a little patch of area on the sphere and you project it outward onto the cylinder, the area actually won't change. The high level idea is that along lines of latitude, that little patch of area gets stretched out, but along lines of longitude, it actually gets squished down because of the angle that it sits at, and those two effects happen to cancel out precisely. And then once you know that projecting out onto the cylinder preserves areas, analyzing those areas becomes a lot simpler. So looking back at our little strip, let me go ahead and draw the rest of the sphere, sort of doubling the area of that strip, and then reorienting it to match the animations I was just showing. If you know that projecting this out onto the cylinder preserves the area, then it becomes very clear that it doesn't matter where on the sphere that strip is. Whether it's close to the pole or close to the equator, the area of that projection onto the cylinder is the circumference times the thickness, 2 pi r times the width. So wrapping it all up, the way this is relevant to the original puzzle, is you say consider any covering of the circle with a bunch of strips, which you can project upwards to be a covering of the hemisphere with all of these projected strips. The sum of all of those areas looks like adding up pi times d for each one, and you can factor out that pi. But you also know that the sum of those areas has to be at least the area of the hemisphere, which will be 2 times pi. Therefore, the sum of the widths can never be below 2, and once again we've taken this problem which is very tricky to analyze directly, but leveraged intuition's clean from living lives as three dimensional creatures. This next example has a little bit of a story behind it, so I was at the International Math Olympiad earlier this year, I was giving some lectures to the students participating in the contest, and one of those lectures was essentially the video I'm giving you now, kind of going through these examples of puzzles where you're in one dimension, but you have to step up. And in the middle I asked the students in the audience for more examples like this, and I was reasonably confident that at least one in them would mention the example I'm about to show you, because there's a really nice number file video about this one, it's by Tadashi Tokeda, who is always great, but as you'll see, there was actually a little bit of a wrinkle that I wasn't anticipating here. The setup for this problem is that we have three different circles just in two dimensional space, and what we're going to do is draw the external tangents to each pair of them. So for example, here on the green and the red circle we've got these external tangents, and the thing we care about is where they intersect. Similarly, I'll take the intersections of the external tangents for that blue and the red one, and then external tangents on the green and the blue one. And if I take a moment to just play around with the positions of these circles and invite you to notice those three different points of intersection, anything special about it, you might be able to guess what the relevant theorem or the puzzle here is. Basically, no matter where I position them, all three of those points seem to fit on a given line. The notion of external tangents doesn't really make sense when one circle is inside the other, so let's assume that that doesn't happen, though we can revisit that a little later. And another assumption you might want to make is that no two circles have the same size, because if two of them did have the same size, those external tangents are parallel, they don't intersect. You could make this sensible with the notion of projective geometry, which takes seriously the idea of points at infinity, but for our purposes, think of three circles that don't intersect and don't have the same size. The claim, the theorem, the thing you need to prove, is that those three intersection points of the external tangents always fall on the same line. At this point, you know the theme, we're going to take a step up into the third dimension. Namely, imagine that each one of these circles is the equator of some sphere. Now, around any given pair of those spheres, like this green one and the blue one, for example, there are a whole bunch of different external tangents that all intersect at the same point. You essentially just rotate the two that we had about the axis between these two. And then similarly for each other pair of spheres, like that blue one and the red one, there's this cone of external tangents, all intersecting at that point, and between the red and the green one, another cone of external tangents. You might ask why on earth would this be helpful? And the key is to think about a plane that's kind of resting on top of all three of those balls. I claim that this plane goes through the three different points that we care about. And the reason, basically, is if you draw this line between the tangency point of the plane on the green sphere, let's say, and the tangency point on the blue sphere, that's one of those external tangents that goes through this little intersection here. And then similarly, if you draw the line on the tangency point of the sphere for the red and the green, it's one of those external tangents that goes to the other one, and likewise over here. We have another line on that plane that passes through the point, so in particular, the plane itself has to go through all three of these points. But those three points also live on a different shared plane, namely the plane of the original problem where the three circles lived. So they have to live somewhere on the intersection between these two planes, and any two planes in 3D space that aren't parallel to each other intersect along a line. Therefore, the three points that we care about have to always sit on a line. This is more or less the content of that number file video. And leave it to one of those clever IMO students to point out how it's actually not quite a valid argument in the sense that it's not fully general. One of the students raised her hand and pointed out that if you have a setup where one of the spheres is smaller than the other two, and you place it kind of somewhere in the middle here, then if you try to play this game, there is no way for that plane to rest on top of all three of them. You might imagine kind of rotating it around those two big ones. So in other words, the argument does work for certain positions of those three circles, but it doesn't work for all of them. And then after that talk, the deputy leader for the Slovakian team mentioned to me that there is actually a way that you can save this proof and preserve the overall lesson of taking a step into the third dimension. The key is that instead of using spheres, we should really be using cones. So now we have these three different cones, each of which has a base at one of the circles. And the only thing that we need is that the angles at the top of each one of them are the same, so that there are three different similar shapes. Now consider the line passing through the tip of two different ones of those cones. I claim that that line also passes through the intersection point between the external tangents of the circles that we care about. The reason is that this point is what's called the center of similarity for those two shapes. What I mean by that is that if you scale the big version of this shape about that point, then at some point along the way, it coincides with the smaller version of that shape. From this perspective, you can see how the line through the tips of those cones has to pass through that center of similarity. And if we look from above, you can see how the external tangents also pass through that center. Essentially, the diagram that consists of this little circle with those external tangents intersecting at that point is a scaled down version of the diagram consisting of this big circle and those external tangents intersecting at that point. And then similarly, if you look at the lines passing through the tips of any other pair of cones, those lines will correspond to another one of those intersection points. Now we can talk about the plane that passes through the tips of all of these three cones. And there's no more worry about generality, because any three points in space, no matter where they are, have some plane that passes through them. For example, if we move that smaller circle into the problem position from earlier, there's no issue. The three different tips of the cones uniquely determine a plane that plane intersects with the xy plane, at least assuming the three cones don't all have the same size. And the line of intersection is exactly the line that we're trying to prove exists. If any of you know the origin for this fixed version of the argument, let me know. That leader of the Slovakian team mentioned that he had heard it from someone else, but couldn't quite remember from where. There's another benefit you get by shifting the focus to the center of similarity rather than describing these points as the intersection of external tangents. In this framing, it's perfectly sensible for one circle to sit inside the other. Even if you can't draw external tangents, there's still some point such that if you scale one circle about that point, it will coincide with the other. This actually made it way easier to program, notice how wherever I put these circles, we always get these three points that fall on a line. In fact, these don't even need to be circles. They could be any three similar shapes as long as they're all in the same orientation. And you can say those three centers of similarity always must fall on a line. And you can use essentially that same argument using cones to show this. Except instead of cones, you would have some kind of pyramid shape. At this point, having logged three wonderful examples of two dimensional puzzles that somehow leverage a three-dimensional insight, a natural question you might ask is whether there's a three-dimensional puzzle that somehow involves stepping up into four dimensions to answer it. The last two puzzles I want to bring up offer attempts at an answer to that. For this next one, imagine that you have four different points in three-dimensional space, and they form the vertices of a tetrahedron. Basically, the shape such that those four different points are its corners. In principle, if you know the coordinates of those points, you know everything you need to about this shape. But the challenge I present to you is to write an explicit formula for the volume of this tetrahedron in terms of the coordinates of those four different points. And this time, I'm actually not going to show you the full answer to this puzzle. I will give you a major spoiler, which is that one elegant way to view it involves thinking about the determinant of a certain four-by-four matrix. And I'll also suggest that it would be very helpful to try thinking about the analogous puzzle one dimension lower, where you're finding the area of a triangle given the coordinates of its corners. The main reason I don't want to give the full answer right away is that solving this puzzle and its analogs in various different dimensions actually offers a really nice explanation for why the formula for the determinant is what it is. And as such, I think that distilling that into its own little video should make a really nice addition to the linear algebra series. So skipping now to the very last example, rather than beginning with a puzzle and seeking an insight, what we're going to do is start with the insight and see if we can try to construct the puzzle around it. Looking back at the first puzzle that we did, you might have the idea that it would be fun to try finding an equivalent of this but one dimension higher. What is the three-dimensional tiling pattern, where a four-dimensional creature could stare at it, squint their eyes, and somehow see it as a stack of four-dimensional hypercubes. And instead of asking about rotating these hexagons whenever we find them, what is the equivalent move that we could understand as 3D creatures, but which the 4D creature could somehow think about as adding or removing hypercubes from that stack. This is certainly a very mind-bending exercise, and the puzzle that will ultimately construct is maybe a little contrived, but I found it super fun to think through, and it definitely gave me a new intuition for a certain 3D shape that I had not had before. To start off, it helps to put some numbers to the way that we're thinking about a cube, where one natural choice is to put it in 3D space such that one vertex sits at the origin, coordinates 0, 0, 0, and then all of the other vertices are kind of every combination of zeros and ones that you can come up with. And notice how I'm drawing an edge between two different vertices whenever they only differ in one coordinate, for example differing only in the x direction, or only in the y direction. For a four-dimensional cube, you could do the same thing in principle. Your coordinates are lists of four numbers, and all of the vertices of the cube are going to be every possible combination that involves zeros and ones. What I'm showing right now is just the three-dimensional base of that hypercube. It's analogous to the base square on our cube, where the z coordinate is all 0. Notice how here that last coordinate is 0 for all of them. Even if we struggle to visualize it, in principle, the rest of the hypercube comes from increasing that last coordinate by one unit, stepping in some direction that we can't quite imagine, which gives us this other 3D cube, which is the analog of the top face that we might have looked at earlier. And again, the rule with the edges is to connect any pair of vertices that differ only in one of those coordinates. The tiling puzzle we did involved looking at these cubes from a very specific direction, where we were kind of staring down this diagonal direction, and the way it projects onto our i looks like a hexagon. One way to think about this that lends itself to actually coding it up for a higher dimension is to consider the vector with coordinates 111, kind of sitting in that diagonal direction, and projecting everything onto the plane perpendicular to that vector. You can write an explicit formula for this that basically takes any point and kind of subtracts off its component along that direction. More generally, if you had a whole stack of cubes and you project them all down on this direction, it creates for you this hexagonal grid. With the 40 cube, even though again we struggle to really think about what it looks like, we can at least have the computer play the same game, where I'll consider the 4-dimensional vector 1111 and project everything onto the space perpendicular to that vector, which will be a 3-dimensional subspace of 4 dimensions. When I do that for this wire frame of the 4-dimensional cube, here's what it looks like. It's this very beautiful and symmetric shape, and if instead of the wire frame I make it solid. This has a special name, it's called a rhombic dodecahedron. And there's a really nice video with Matt Parker and Adam Savage featuring a rhombic dodecahedron, where they construct this beautiful light box that features the fact that you can testulate 3-dimensional space using this shape. That's really not obvious, at least to me when I just look at it, but if you know that this is a natural projection of a hypercube, that actually tells you that it must testulate 3D space, because you could project down a stack of those hypercubes. In our puzzle, we weren't just looking at the wire frames for these cubes, they had actual square faces, and when we stare down one of these corners, we only really see three of those faces. When there is a cube, it's the three faces pointed out, and when there was no cube in that position, we had the kind of indent, which is like the three faces of the cube on the inside. Projecting those three faces down is what gives us those three rhombuses that form a hexagon. To think through the analog of this one dimension up, again, it helps to put some numbers to things. Let me draw these three different basis vectors that span the cube, the unit vectors in the x direction, the y direction, and the z direction. Notice how each one of these inner faces corresponds to a pair of those basis vectors. The analogous game that we can play one dimension up is to take the four different basis vectors up there, and project them down to 3D, again, along this diagonal direction. This is analogous to projecting those three basis vectors into the hexagon so that they all sit 120 degrees apart. And now, instead of talking about the square faces of the cube getting projected as rhombuses, we think about the cubicle cells of that hypercube. Each one in this case corresponds to a way that you could choose three out of those four basis vectors. Each of them is this kind of squished cube shape, and the four of them together fit very nicely to create this rhombic dodecahedron. Now, in our original puzzle, the game was whenever you see this hexagon built out of the three rhombuses, you rotate it 60 degrees. But we're going to have to change how we think about that move. Notice how when I go from the inner faces of the cube to the outer faces, I can slide each one of them in a direction perpendicular to that face. Down on the projection, what that looks like is sliding each one of these rhombuses through the origin. We can play the same game with the projections of those cubes in four dimensions, where if you take each one of these four and you let it slide through the origin, it gives you a distinct way to tile that rhombic dodecahedron. So, with all of that is set up, here is the absurd puzzle that you could present to someone, next time you find yourself at, you know, like a nerdy cocktail party. First, you describe this squished cube shape here. It's made of six rhombuses whose big angle is 109.5. You say, imagine this has a side length of one, and you're going to use many copies of this shape to tile a big rhombic dodecahedron, which has some kind of integer side length. The game is that every time inside this big tiling, you find a small one by one by one, rhombic dodecahedron, you make this move, where each piece can kind of slide through the middle. And then for the puzzle, you ask, what is the maximum number of moves that it might take to get from one tiling to another? This is absurdly confusing to think about, but if you somehow know that this is all a projection of a stack of hypercubes, it can lead you to conclude the answer has to be the size of that big rhombic dodecahedron. Let's call it n to the power 4. 2. Zooming out a bit, all of these puzzles are really just for fun. Aside from sharing them with nerdy friends at parties, there's not really a lot of direct utility. But they illustrate a much broader phenomenon in math, where constructs in some higher dimension can be bizarrely relevant to solving problems more easily, either in a lower number of dimensions, or even solving problems that don't seem geometric at first. For example, there is an extension of the complex numbers that naturally live up in 4 dimensions, they're called the Quaternions, and they offer a really elegant way to encode and to work with 3 dimensions. You don't have to understand 4 dimensions to work with them, in the description I'll give you some links to some really nice videos to show practically working with Quaternions, but they are doing something very special up in 4 dimensions, rotating a hypersphere in a way that's not just rigid motion, but a kind of extra rigidity unlike anything we know in 2 or 3 dimensions. If you're curious, I made a whole video and then a sequence of interactive videos a while back, trying to understand what exactly that 4D motion is. Another example, if you step up into 24 dimensions, is how there is this unusually elegant way to pack spheres together, and that weird high-dimensional sphere packing is very closely tied to a type of error correction code that was actually used on the Voyager spacecrafts. And if you scale up your dimensions even further, something funny starts to happen with the statistics of random vectors, where a pair of random vectors will have a very high chance of being nearly perpendicular. In the series on neural networks, I mentioned how this fact could be relevant to explaining why large language models perform so much better at scale, and this is a fact that's also very relevant to a number of compression algorithms. But the reason that these puzzles I've laid out make me feel a little sad, thinking about 4-dimensional geometry, is that there's a difference between analysis and intuition. You and I can stare at this tiling of rhombuses, squint our eyes, and somehow think of it as a stack of cubes. If you've ever pondered spheres in their surface area, you have at least a chance for making this creative leap when you're faced with that puzzle about strips on a circle. And in trying to prove that three points sit on a line, you and I can think about a line as an intersection of two planes in 3D space. And that's not some opaque consequence of linear algebra, it's something we can really picture in our minds eye. All of the examples that I know of that use even higher dimensions to solve problems don't really involve intuition in quite the same way. There might be an analogy with lower dimensions, and analogies can be kind of dangerous, but the line of reasoning ultimately has to be purely analysis. Now to be clear, that's not a bad thing. Ultimately, all of the rigor in any argument you make has to come from analysis. But analysis without intuition is daunting. The space of all possible logical moves you can make in the pursuit of a proof is often too vast to explore in a reasonable time. Intuition is what offers the guiding lights telling you which paths are worth trying. What I'm jealous of, and a little bit sad about, is that there might be problems in three dimensions where somehow squinting your eyes as a four dimensional creature, or even higher, would offer some guiding light that to you and me is inaccessible. Quick note for those of you supporting on Patreon, or for those of you who have thought about maybe joining to support the channel? I made a quick bonus supplement video to this one showing two more puzzles that have the same vibe where there's a question in two dimensions, but the answer somehow involves three dimensional thinking. It's quick and casual, but I think you're like the problems, so see the links below."
+  }
+}

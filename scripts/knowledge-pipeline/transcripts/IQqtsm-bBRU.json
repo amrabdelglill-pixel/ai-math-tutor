@@ -1,0 +1,3534 @@
+{
+  "video_id": "IQqtsm-bBRU",
+  "video_title": "This open problem taught me what topology is",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1646.0,
+  "view_count": 2172695,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.2,
+        "text": "Here's a question that nobody in the world knows the answer to."
+      },
+      {
+        "start": 3.2,
+        "duration": 2.6,
+        "text": "Suppose you have some closed, continuous curve,"
+      },
+      {
+        "start": 5.8,
+        "duration": 2.4,
+        "text": "which essentially means some squiggle you could draw on paper"
+      },
+      {
+        "start": 8.2,
+        "duration": 3.1,
+        "text": "without lifting the pen, that ends where it starts."
+      },
+      {
+        "start": 11.3,
+        "duration": 2.6,
+        "text": "If you can find four points somewhere on this loop"
+      },
+      {
+        "start": 13.9,
+        "duration": 2.0,
+        "text": "that make the vertices of a square,"
+      },
+      {
+        "start": 15.9,
+        "duration": 3.0,
+        "text": "it's called an inscribed square of the loop."
+      },
+      {
+        "start": 18.9,
+        "duration": 2.9,
+        "text": "And the unsolved question is whether every possible"
+      },
+      {
+        "start": 21.8,
+        "duration": 2.0,
+        "text": "closed, continuous loop like this"
+      },
+      {
+        "start": 23.8,
+        "duration": 2.6,
+        "text": "necessarily has an inscribed square."
+      },
+      {
+        "start": 27.4,
+        "duration": 4.0,
+        "text": "The question was originally posed by auto-topilets in 1911,"
+      },
+      {
+        "start": 31.4,
+        "duration": 2.7,
+        "text": "and it's commonly known as the inscribed square problem."
+      },
+      {
+        "start": 34.1,
+        "duration": 2.6,
+        "text": "One of my all-time favorite pieces of math,"
+      },
+      {
+        "start": 36.6,
+        "duration": 1.7,
+        "text": "easily in the top five,"
+      },
+      {
+        "start": 38.3,
+        "duration": 3.5,
+        "text": "is a very beautiful proof for a simpler version of this question,"
+      },
+      {
+        "start": 41.8,
+        "duration": 4.3,
+        "text": "asking instead whether you can necessarily find an inscribed rectangle."
+      },
+      {
+        "start": 46.2,
+        "duration": 2.9,
+        "text": "The argument is originally due to Herbert von,"
+      },
+      {
+        "start": 49.1,
+        "duration": 2.1,
+        "text": "and as a spoiler, our discussion here"
+      },
+      {
+        "start": 51.2,
+        "duration": 2.8,
+        "text": "is going to lead you to think about this shape right here,"
+      },
+      {
+        "start": 54.0,
+        "duration": 1.5,
+        "text": "what's known as a client bottle,"
+      },
+      {
+        "start": 55.7,
+        "duration": 2.8,
+        "text": "but it won't come up at some curiosity or a trinket."
+      },
+      {
+        "start": 58.6,
+        "duration": 3.5,
+        "text": "It arises as a natural problem-solving tool."
+      },
+      {
+        "start": 62.1,
+        "duration": 2.7,
+        "text": "One of the earliest videos that I made for this channel"
+      },
+      {
+        "start": 64.8,
+        "duration": 1.6,
+        "text": "was actually about this proof."
+      },
+      {
+        "start": 66.4,
+        "duration": 2.3,
+        "text": "And I'm making this video as a kind of second edition"
+      },
+      {
+        "start": 68.6,
+        "duration": 0.8,
+        "text": "to that one."
+      },
+      {
+        "start": 69.5,
+        "duration": 2.0,
+        "text": "I realize second editions are much less of a thing"
+      },
+      {
+        "start": 71.5,
+        "duration": 2.1,
+        "text": "for YouTube videos than they are for books,"
+      },
+      {
+        "start": 73.6,
+        "duration": 2.9,
+        "text": "but part of my motivation here is that there's been more research"
+      },
+      {
+        "start": 76.5,
+        "duration": 3.2,
+        "text": "since that original video that's very much worth discussing."
+      },
+      {
+        "start": 79.8,
+        "duration": 2.6,
+        "text": "Another motivation is that there's numerous caveats"
+      },
+      {
+        "start": 82.4,
+        "duration": 2.4,
+        "text": "and interesting connections that are both beautiful"
+      },
+      {
+        "start": 84.8,
+        "duration": 2.9,
+        "text": "and mind-broadening that are definitely worth including."
+      },
+      {
+        "start": 87.7,
+        "duration": 2.2,
+        "text": "And aside from that, given that it's one of my favorite pieces"
+      },
+      {
+        "start": 89.9,
+        "duration": 1.9,
+        "text": "of math, I kind of just want to take a stab"
+      },
+      {
+        "start": 91.8,
+        "duration": 2.4,
+        "text": "at animating it and motivating each one of the steps"
+      },
+      {
+        "start": 94.2,
+        "duration": 1.4,
+        "text": "as best as I know how."
+      },
+      {
+        "start": 96.5,
+        "duration": 2.5,
+        "text": "Now, some of you might ask why on earth"
+      },
+      {
+        "start": 99.0,
+        "duration": 3.0,
+        "text": "anyone would care about proving that any closed loop"
+      },
+      {
+        "start": 101.9,
+        "duration": 1.6,
+        "text": "has an inscribed rectangle."
+      },
+      {
+        "start": 103.6,
+        "duration": 1.9,
+        "text": "I personally don't know of any application."
+      },
+      {
+        "start": 105.5,
+        "duration": 2.3,
+        "text": "Frankly, I would be surprised if there was one,"
+      },
+      {
+        "start": 107.8,
+        "duration": 1.6,
+        "text": "but I think many of you know that engaging"
+      },
+      {
+        "start": 109.4,
+        "duration": 3.0,
+        "text": "with challenging puzzles, even when they're pure puzzles,"
+      },
+      {
+        "start": 112.4,
+        "duration": 2.5,
+        "text": "has a way of sharpening your problem-solving instincts"
+      },
+      {
+        "start": 114.9,
+        "duration": 1.4,
+        "text": "in a way that can be carried over"
+      },
+      {
+        "start": 116.3,
+        "duration": 2.2,
+        "text": "to other practical applications later."
+      },
+      {
+        "start": 118.4,
+        "duration": 2.0,
+        "text": "But I can also give you a much more specific reason"
+      },
+      {
+        "start": 120.4,
+        "duration": 2.2,
+        "text": "why I love this particular proof."
+      },
+      {
+        "start": 122.6,
+        "duration": 2.3,
+        "text": "It's something I first saw a long time ago,"
+      },
+      {
+        "start": 124.9,
+        "duration": 2.5,
+        "text": "and I remember it being the first time that I felt a sense"
+      },
+      {
+        "start": 127.4,
+        "duration": 3.0,
+        "text": "for what topology is actually all about."
+      },
+      {
+        "start": 130.4,
+        "duration": 2.6,
+        "text": "You see, in a lot of recreational math settings,"
+      },
+      {
+        "start": 133.0,
+        "duration": 2.4,
+        "text": "topology is sometimes presented as something"
+      },
+      {
+        "start": 135.5,
+        "duration": 1.8,
+        "text": "like a study of bizarre shapes."
+      },
+      {
+        "start": 137.3,
+        "duration": 3.2,
+        "text": "A common classroom activity might be to apply a half twist"
+      },
+      {
+        "start": 140.5,
+        "duration": 2.8,
+        "text": "to a thin piece of paper and glue the ends together,"
+      },
+      {
+        "start": 143.4,
+        "duration": 2.3,
+        "text": "forming what's called a mobius strip."
+      },
+      {
+        "start": 145.7,
+        "duration": 1.5,
+        "text": "You might be told this is what's called"
+      },
+      {
+        "start": 147.2,
+        "duration": 1.9,
+        "text": "a non-orientable surface."
+      },
+      {
+        "start": 149.1,
+        "duration": 1.8,
+        "text": "Loosely speaking, this means there's no notion"
+      },
+      {
+        "start": 150.8,
+        "duration": 2.0,
+        "text": "of an inner side or an outer side."
+      },
+      {
+        "start": 152.8,
+        "duration": 2.1,
+        "text": "The whole thing just has one side."
+      },
+      {
+        "start": 154.9,
+        "duration": 2.9,
+        "text": "Topology is also often presented as a sort of rubber sheet"
+      },
+      {
+        "start": 157.8,
+        "duration": 2.4,
+        "text": "geometry, where shapes are considered the same"
+      },
+      {
+        "start": 160.2,
+        "duration": 3.7,
+        "text": "if you can deform one into another without tearing it."
+      },
+      {
+        "start": 163.8,
+        "duration": 1.8,
+        "text": "Neither of these notions, in my opinion,"
+      },
+      {
+        "start": 165.6,
+        "duration": 2.1,
+        "text": "really captures what it's actually about."
+      },
+      {
+        "start": 167.7,
+        "duration": 2.3,
+        "text": "And when I was growing up, I remember these kinds of examples"
+      },
+      {
+        "start": 170.0,
+        "duration": 2.0,
+        "text": "left a frustrating open question."
+      },
+      {
+        "start": 172.0,
+        "duration": 1.1,
+        "text": "How is this math?"
+      },
+      {
+        "start": 173.2,
+        "duration": 2.7,
+        "text": "How does any of this actually help you solve problems?"
+      },
+      {
+        "start": 175.9,
+        "duration": 1.7,
+        "text": "If you stick with me to the end here,"
+      },
+      {
+        "start": 177.6,
+        "duration": 2.7,
+        "text": "you'll see how these shapes and their bizarre properties"
+      },
+      {
+        "start": 180.3,
+        "duration": 2.1,
+        "text": "are not just idle curiosities,"
+      },
+      {
+        "start": 182.4,
+        "duration": 2.6,
+        "text": "but they're actual tools for logic and deduction."
+      },
+      {
+        "start": 187.6,
+        "duration": 2.2,
+        "text": "The first step in proving that any closed loop"
+      },
+      {
+        "start": 189.8,
+        "duration": 3.0,
+        "text": "contains a rectangle is gonna be to reframe the question"
+      },
+      {
+        "start": 192.8,
+        "duration": 1.2,
+        "text": "just a little bit."
+      },
+      {
+        "start": 194.0,
+        "duration": 1.8,
+        "text": "Instead of thinking about four points"
+      },
+      {
+        "start": 195.8,
+        "duration": 2.0,
+        "text": "that are the vertices of a rectangle,"
+      },
+      {
+        "start": 197.8,
+        "duration": 3.6,
+        "text": "think about searching for two distinct pairs of points"
+      },
+      {
+        "start": 201.3,
+        "duration": 2.3,
+        "text": "such that the lines connecting each pair"
+      },
+      {
+        "start": 203.6,
+        "duration": 3.5,
+        "text": "have the same midpoint and they have the same length."
+      },
+      {
+        "start": 207.1,
+        "duration": 1.8,
+        "text": "Hopefully it's not too hard to convince yourself"
+      },
+      {
+        "start": 208.9,
+        "duration": 1.5,
+        "text": "that this really is the same thing"
+      },
+      {
+        "start": 210.4,
+        "duration": 1.8,
+        "text": "as searching for a rectangle."
+      },
+      {
+        "start": 212.2,
+        "duration": 2.6,
+        "text": "If I told you, hey, I found two line segments"
+      },
+      {
+        "start": 214.8,
+        "duration": 2.8,
+        "text": "somewhere out in space, and I further specify"
+      },
+      {
+        "start": 217.6,
+        "duration": 2.0,
+        "text": "that both of them have the same center"
+      },
+      {
+        "start": 219.6,
+        "duration": 2.5,
+        "text": "and also that both segments have the same length"
+      },
+      {
+        "start": 222.1,
+        "duration": 2.7,
+        "text": "than the four end points of those two different lines"
+      },
+      {
+        "start": 224.8,
+        "duration": 1.6,
+        "text": "have to form a rectangle."
+      },
+      {
+        "start": 226.4,
+        "duration": 1.6,
+        "text": "If you want, you could try to pause and ponder"
+      },
+      {
+        "start": 228.0,
+        "duration": 1.4,
+        "text": "to rigorously prove this."
+      },
+      {
+        "start": 229.4,
+        "duration": 3.2,
+        "text": "It's a relatively straightforward geometry exercise."
+      },
+      {
+        "start": 232.6,
+        "duration": 2.4,
+        "text": "Given some arbitrary closed loop,"
+      },
+      {
+        "start": 235.0,
+        "duration": 2.4,
+        "text": "what you and I are going to do is somehow"
+      },
+      {
+        "start": 237.4,
+        "duration": 4.0,
+        "text": "think about all possible pairs of points on that loop."
+      },
+      {
+        "start": 241.4,
+        "duration": 2.6,
+        "text": "For any one of these pairs, we care about two things."
+      },
+      {
+        "start": 244.0,
+        "duration": 2.1,
+        "text": "The first is where it's midpoint sits,"
+      },
+      {
+        "start": 246.2,
+        "duration": 3.0,
+        "text": "which you might think of as two numbers worth of data"
+      },
+      {
+        "start": 249.1,
+        "duration": 3.7,
+        "text": "like the x, y coordinates on the plane where the loop sits."
+      },
+      {
+        "start": 252.8,
+        "duration": 1.8,
+        "text": "The other thing we care about is the distance"
+      },
+      {
+        "start": 254.7,
+        "duration": 2.7,
+        "text": "between those points, which is another data point."
+      },
+      {
+        "start": 257.4,
+        "duration": 1.2,
+        "text": "Now, if you're a mathematician,"
+      },
+      {
+        "start": 258.6,
+        "duration": 2.8,
+        "text": "and you see three numbers worth of information like this,"
+      },
+      {
+        "start": 261.4,
+        "duration": 3.8,
+        "text": "it is a very natural step to try packaging them together"
+      },
+      {
+        "start": 265.2,
+        "duration": 2.7,
+        "text": "and think of that data as being a single point"
+      },
+      {
+        "start": 267.9,
+        "duration": 1.9,
+        "text": "in a three-dimensional space."
+      },
+      {
+        "start": 269.8,
+        "duration": 2.3,
+        "text": "In our example, if you imagine the loop sitting on"
+      },
+      {
+        "start": 272.1,
+        "duration": 2.5,
+        "text": "kind of an x, y plane inside that space,"
+      },
+      {
+        "start": 274.6,
+        "duration": 3.0,
+        "text": "and its midpoint has some coordinates x, y,"
+      },
+      {
+        "start": 277.6,
+        "duration": 2.0,
+        "text": "then this 3D point that we care about,"
+      },
+      {
+        "start": 279.6,
+        "duration": 2.1,
+        "text": "the one packaging x, y, and d,"
+      },
+      {
+        "start": 281.8,
+        "duration": 2.0,
+        "text": "could be thought about as a point directly"
+      },
+      {
+        "start": 283.8,
+        "duration": 4.0,
+        "text": "above that midpoint, such that the distance off the plane"
+      },
+      {
+        "start": 287.8,
+        "duration": 3.1,
+        "text": "matches the distance between the pair of points on the loop."
+      },
+      {
+        "start": 290.9,
+        "duration": 2.0,
+        "text": "Some other pair of points on the loop"
+      },
+      {
+        "start": 292.9,
+        "duration": 1.6,
+        "text": "would correspond to some other point"
+      },
+      {
+        "start": 294.5,
+        "duration": 1.8,
+        "text": "in three-dimensional space."
+      },
+      {
+        "start": 296.4,
+        "duration": 2.6,
+        "text": "And in essence, what we have here is a mapping,"
+      },
+      {
+        "start": 299.0,
+        "duration": 2.3,
+        "text": "a mapping from pairs of points on the loop"
+      },
+      {
+        "start": 301.3,
+        "duration": 1.8,
+        "text": "to three-dimensional space."
+      },
+      {
+        "start": 303.1,
+        "duration": 1.5,
+        "text": "The important feature of this mapping"
+      },
+      {
+        "start": 304.6,
+        "duration": 3.1,
+        "text": "that we're gonna rely on is that it's continuous."
+      },
+      {
+        "start": 307.7,
+        "duration": 2.2,
+        "text": "And essentially what this means is if you just slightly"
+      },
+      {
+        "start": 309.9,
+        "duration": 2.9,
+        "text": "wiggle the input, slightly nudging that pair of points,"
+      },
+      {
+        "start": 312.8,
+        "duration": 2.2,
+        "text": "the output only slightly wiggles as well."
+      },
+      {
+        "start": 315.1,
+        "duration": 1.8,
+        "text": "There are never any sudden jumps."
+      },
+      {
+        "start": 316.9,
+        "duration": 2.0,
+        "text": "In our search for inscribed rectangles,"
+      },
+      {
+        "start": 318.9,
+        "duration": 1.7,
+        "text": "with respect to this mapping,"
+      },
+      {
+        "start": 320.6,
+        "duration": 2.6,
+        "text": "it amounts to searching for a kind of coincidence."
+      },
+      {
+        "start": 323.2,
+        "duration": 2.2,
+        "text": "When two distinct pairs of points"
+      },
+      {
+        "start": 325.4,
+        "duration": 2.5,
+        "text": "map to the same output, since by definition,"
+      },
+      {
+        "start": 328.0,
+        "duration": 2.0,
+        "text": "that would mean they have to have the same midpoint"
+      },
+      {
+        "start": 329.9,
+        "duration": 1.8,
+        "text": "and be the same distance apart,"
+      },
+      {
+        "start": 331.7,
+        "duration": 3.4,
+        "text": "which, like I said, means they have to form a rectangle."
+      },
+      {
+        "start": 335.1,
+        "duration": 2.8,
+        "text": "So if you imagine yourself as a mathematician mulling this over,"
+      },
+      {
+        "start": 337.9,
+        "duration": 1.5,
+        "text": "you wanna know how you can prove"
+      },
+      {
+        "start": 339.4,
+        "duration": 2.0,
+        "text": "that this kind of collision would happen."
+      },
+      {
+        "start": 341.4,
+        "duration": 2.7,
+        "text": "Looking over all possible pairs of points on the loop,"
+      },
+      {
+        "start": 344.2,
+        "duration": 2.6,
+        "text": "and all their corresponding three-dimensional outputs,"
+      },
+      {
+        "start": 346.8,
+        "duration": 2.8,
+        "text": "how could you know for sure that a collision must happen?"
+      },
+      {
+        "start": 350.9,
+        "duration": 1.5,
+        "text": "You might complain that this all feels like"
+      },
+      {
+        "start": 352.4,
+        "duration": 3.2,
+        "text": "stating the same question just in more complicated language,"
+      },
+      {
+        "start": 355.6,
+        "duration": 2.4,
+        "text": "but where it really starts to feel qualitatively different,"
+      },
+      {
+        "start": 358.0,
+        "duration": 2.2,
+        "text": "is if I invite you to think about the set"
+      },
+      {
+        "start": 360.2,
+        "duration": 2.3,
+        "text": "of all possible outputs of this map,"
+      },
+      {
+        "start": 362.5,
+        "duration": 2.0,
+        "text": "every possible point in 3D space,"
+      },
+      {
+        "start": 364.6,
+        "duration": 3.2,
+        "text": "they correspond to some pair of loop points like this."
+      },
+      {
+        "start": 367.7,
+        "duration": 2.7,
+        "text": "Taken together, they form this kind of wild surface,"
+      },
+      {
+        "start": 370.4,
+        "duration": 2.2,
+        "text": "which looks like some incredibly beautiful,"
+      },
+      {
+        "start": 372.6,
+        "duration": 3.0,
+        "text": "but complicated, frank, gary architectural design."
+      },
+      {
+        "start": 375.6,
+        "duration": 1.2,
+        "text": "Even when I render this out,"
+      },
+      {
+        "start": 376.8,
+        "duration": 1.4,
+        "text": "personally, I find it kinda hard"
+      },
+      {
+        "start": 378.1,
+        "duration": 3.0,
+        "text": "to even wrap my mind around what exactly I'm looking at."
+      },
+      {
+        "start": 381.1,
+        "duration": 2.6,
+        "text": "What I found helpful was to look at cross sections."
+      },
+      {
+        "start": 385.3,
+        "duration": 2.2,
+        "text": "Near the bottom, the cross sections of this surface"
+      },
+      {
+        "start": 387.5,
+        "duration": 2.7,
+        "text": "look approximately like the loop itself,"
+      },
+      {
+        "start": 390.2,
+        "duration": 2.9,
+        "text": "which is a surprisingly important fact that we'll get back to,"
+      },
+      {
+        "start": 393.1,
+        "duration": 2.5,
+        "text": "and then let me pull up those two pairs of points again,"
+      },
+      {
+        "start": 395.6,
+        "duration": 3.3,
+        "text": "and position them so that they sit on some rectangle vertices."
+      },
+      {
+        "start": 398.9,
+        "duration": 1.9,
+        "text": "And if I bring up the cross section"
+      },
+      {
+        "start": 400.8,
+        "duration": 2.7,
+        "text": "to the height of that corresponding output,"
+      },
+      {
+        "start": 403.5,
+        "duration": 1.2,
+        "text": "notice what it looks like."
+      },
+      {
+        "start": 406.0,
+        "duration": 3.2,
+        "text": "Around that point, it kinda feels like the surface"
+      },
+      {
+        "start": 409.2,
+        "duration": 2.0,
+        "text": "is crossing through itself."
+      },
+      {
+        "start": 411.2,
+        "duration": 1.8,
+        "text": "And in fact, for the example I'm showing,"
+      },
+      {
+        "start": 413.0,
+        "duration": 1.9,
+        "text": "there's not just one point of intersection,"
+      },
+      {
+        "start": 414.8,
+        "duration": 3.7,
+        "text": "there's this continuous curve of self-intersection points,"
+      },
+      {
+        "start": 418.5,
+        "duration": 2.4,
+        "text": "corresponding to a continuous family"
+      },
+      {
+        "start": 420.9,
+        "duration": 2.6,
+        "text": "of inscribed rectangles in the loop."
+      },
+      {
+        "start": 423.5,
+        "duration": 2.9,
+        "text": "This is a really cool way to think about inscribed rectangles."
+      },
+      {
+        "start": 426.4,
+        "duration": 1.8,
+        "text": "Every point you see in the surface"
+      },
+      {
+        "start": 428.2,
+        "duration": 2.5,
+        "text": "that feels like self-intersection in this way"
+      },
+      {
+        "start": 430.7,
+        "duration": 3.1,
+        "text": "corresponds to some inscribed rectangle in the loop."
+      },
+      {
+        "start": 436.3,
+        "duration": 2.0,
+        "text": "So far, all of this has just been illustrated"
+      },
+      {
+        "start": 438.3,
+        "duration": 1.8,
+        "text": "with a single example loop,"
+      },
+      {
+        "start": 440.2,
+        "duration": 2.4,
+        "text": "but keep in mind every possible loop"
+      },
+      {
+        "start": 442.6,
+        "duration": 1.9,
+        "text": "that you could draw on the plane"
+      },
+      {
+        "start": 444.4,
+        "duration": 3.8,
+        "text": "has its own corresponding unique surface sitting above it."
+      },
+      {
+        "start": 448.2,
+        "duration": 2.6,
+        "text": "Proving that this kind of self-intersection has to happen"
+      },
+      {
+        "start": 450.9,
+        "duration": 1.8,
+        "text": "no matter what loop you start with,"
+      },
+      {
+        "start": 452.7,
+        "duration": 2.8,
+        "text": "really comes down to getting to know this surface"
+      },
+      {
+        "start": 455.5,
+        "duration": 2.2,
+        "text": "and who it really is and what it's all about."
+      },
+      {
+        "start": 458.5,
+        "duration": 1.4,
+        "text": "In the first edition of this lesson,"
+      },
+      {
+        "start": 459.9,
+        "duration": 1.1,
+        "text": "many commenters asked,"
+      },
+      {
+        "start": 461.0,
+        "duration": 2.7,
+        "text": "what would this surface look like for a circle?"
+      },
+      {
+        "start": 463.8,
+        "duration": 2.8,
+        "text": "And in this case, the result is deceptively simple."
+      },
+      {
+        "start": 466.6,
+        "duration": 1.5,
+        "text": "It looks something like a dome."
+      },
+      {
+        "start": 468.0,
+        "duration": 3.4,
+        "text": "And at first, this might seem like it has no self-intersection."
+      },
+      {
+        "start": 471.5,
+        "duration": 3.0,
+        "text": "But the imperfections with how the surface is being rendered"
+      },
+      {
+        "start": 474.5,
+        "duration": 1.5,
+        "text": "do give a little bit of a hint"
+      },
+      {
+        "start": 476.0,
+        "duration": 1.3,
+        "text": "that something funny is happening"
+      },
+      {
+        "start": 477.3,
+        "duration": 1.8,
+        "text": "near the very top of that dome."
+      },
+      {
+        "start": 479.2,
+        "duration": 2.7,
+        "text": "And if you think about it, a circle certainly has"
+      },
+      {
+        "start": 481.8,
+        "duration": 1.2,
+        "text": "inscribed rectangles."
+      },
+      {
+        "start": 483.0,
+        "duration": 2.2,
+        "text": "In fact, it has infinitely many of them"
+      },
+      {
+        "start": 485.3,
+        "duration": 3.6,
+        "text": "and all of them have a midpoint at the center of that circle"
+      },
+      {
+        "start": 488.8,
+        "duration": 2.6,
+        "text": "and the length of the diagonal for those rectangles"
+      },
+      {
+        "start": 491.4,
+        "duration": 2.4,
+        "text": "is always equal to the circles diameter."
+      },
+      {
+        "start": 493.8,
+        "duration": 2.2,
+        "text": "So what this means is that the function we define"
+      },
+      {
+        "start": 496.0,
+        "duration": 2.7,
+        "text": "from pairs of loop points into 3D space"
+      },
+      {
+        "start": 498.7,
+        "duration": 3.0,
+        "text": "maps many, many different points, infinitely many,"
+      },
+      {
+        "start": 501.6,
+        "duration": 3.0,
+        "text": "onto this single point on the top of the dome."
+      },
+      {
+        "start": 504.6,
+        "duration": 1.4,
+        "text": "So we certainly have the collision"
+      },
+      {
+        "start": 506.0,
+        "duration": 2.4,
+        "text": "that we're looking for, infinitely many in fact."
+      },
+      {
+        "start": 508.4,
+        "duration": 2.1,
+        "text": "But for this example, it doesn't have that same look"
+      },
+      {
+        "start": 510.6,
+        "duration": 3.4,
+        "text": "of a ghostly sheet kind of passing through a self in space."
+      },
+      {
+        "start": 514.0,
+        "duration": 2.2,
+        "text": "If I squished the circle to become an ellipse,"
+      },
+      {
+        "start": 516.1,
+        "duration": 2.6,
+        "text": "you can see how that single point of many intersections"
+      },
+      {
+        "start": 518.7,
+        "duration": 3.2,
+        "text": "becomes a vertical line of self-intersections."
+      },
+      {
+        "start": 521.9,
+        "duration": 1.6,
+        "text": "And I'll invite you to pause and ponder"
+      },
+      {
+        "start": 523.4,
+        "duration": 2.4,
+        "text": "to think about why that might be the case."
+      },
+      {
+        "start": 525.8,
+        "duration": 1.6,
+        "text": "The point is, just keep in mind when I"
+      },
+      {
+        "start": 527.4,
+        "duration": 2.0,
+        "text": "use this phrase self-intersection,"
+      },
+      {
+        "start": 529.5,
+        "duration": 1.5,
+        "text": "what I'm really getting at is the idea"
+      },
+      {
+        "start": 531.0,
+        "duration": 3.3,
+        "text": "of two different pairs of points mapping to the same output."
+      },
+      {
+        "start": 534.3,
+        "duration": 2.7,
+        "text": "In almost all cases, that looks like a surface passing"
+      },
+      {
+        "start": 537.0,
+        "duration": 3.3,
+        "text": "through itself, but it's possible for it to look different."
+      },
+      {
+        "start": 540.3,
+        "duration": 2.2,
+        "text": "Another point that's maybe worth emphasizing"
+      },
+      {
+        "start": 542.4,
+        "duration": 3.3,
+        "text": "is that the surface you're looking at is not a function graph."
+      },
+      {
+        "start": 545.8,
+        "duration": 2.0,
+        "text": "A function graph in three dimensions"
+      },
+      {
+        "start": 547.7,
+        "duration": 2.7,
+        "text": "comes from functions that have two numbers as an input"
+      },
+      {
+        "start": 550.4,
+        "duration": 1.8,
+        "text": "and one number as the output."
+      },
+      {
+        "start": 552.2,
+        "duration": 2.6,
+        "text": "Right here we have something notably more complicated."
+      },
+      {
+        "start": 554.8,
+        "duration": 3.1,
+        "text": "The inputs of the function are pairs of points on the loop,"
+      },
+      {
+        "start": 557.9,
+        "duration": 2.3,
+        "text": "and the outputs are triplets of numbers,"
+      },
+      {
+        "start": 560.2,
+        "duration": 1.7,
+        "text": "full points in 3D space."
+      },
+      {
+        "start": 561.8,
+        "duration": 2.6,
+        "text": "What you're looking at is the set of all outputs."
+      },
+      {
+        "start": 564.4,
+        "duration": 1.5,
+        "text": "It's not a graph."
+      },
+      {
+        "start": 565.9,
+        "duration": 2.3,
+        "text": "There's a famous quote from the author Anton Chekov"
+      },
+      {
+        "start": 568.2,
+        "duration": 2.3,
+        "text": "giving advice about writing, where he says,"
+      },
+      {
+        "start": 570.6,
+        "duration": 2.9,
+        "text": "if in the first act you have hung a pistol on the wall,"
+      },
+      {
+        "start": 573.4,
+        "duration": 2.4,
+        "text": "then in the following one, it should be fired."
+      },
+      {
+        "start": 575.9,
+        "duration": 2.0,
+        "text": "His main point is about only including"
+      },
+      {
+        "start": 577.8,
+        "duration": 3.8,
+        "text": "strictly necessary information, but another principle implicit"
+      },
+      {
+        "start": 581.7,
+        "duration": 2.2,
+        "text": "is that the seeds for dramatic action"
+      },
+      {
+        "start": 583.8,
+        "duration": 1.9,
+        "text": "should be planted early."
+      },
+      {
+        "start": 585.8,
+        "duration": 2.7,
+        "text": "In our story here about topology and proving"
+      },
+      {
+        "start": 588.4,
+        "duration": 2.4,
+        "text": "and scribed rectangles, I want to draw your attention"
+      },
+      {
+        "start": 590.8,
+        "duration": 2.2,
+        "text": "to a certain gun hanging on the wall."
+      },
+      {
+        "start": 593.0,
+        "duration": 2.0,
+        "text": "I mentioned how near the plane of the curve,"
+      },
+      {
+        "start": 595.0,
+        "duration": 2.2,
+        "text": "the cross sections of the surface look approximately"
+      },
+      {
+        "start": 597.2,
+        "duration": 1.6,
+        "text": "like the curve itself."
+      },
+      {
+        "start": 598.9,
+        "duration": 1.5,
+        "text": "Why is that?"
+      },
+      {
+        "start": 600.4,
+        "duration": 3.2,
+        "text": "Well, think about a pair of points that are really close together."
+      },
+      {
+        "start": 603.7,
+        "duration": 2.3,
+        "text": "Because the distance between them is small,"
+      },
+      {
+        "start": 606.0,
+        "duration": 2.1,
+        "text": "the output has a very small z-coordinate,"
+      },
+      {
+        "start": 608.0,
+        "duration": 3.0,
+        "text": "and the midpoint is close to both of those points themselves."
+      },
+      {
+        "start": 611.0,
+        "duration": 2.1,
+        "text": "In the extreme, if you have a pair of points"
+      },
+      {
+        "start": 613.2,
+        "duration": 2.9,
+        "text": "that's really just the same spot on the curve listed twice,"
+      },
+      {
+        "start": 616.1,
+        "duration": 1.5,
+        "text": "then the output of this mapping"
+      },
+      {
+        "start": 617.6,
+        "duration": 2.5,
+        "text": "is that same point on the curve."
+      },
+      {
+        "start": 620.1,
+        "duration": 1.0,
+        "text": "Remember that."
+      },
+      {
+        "start": 621.1,
+        "duration": 2.9,
+        "text": "All pairs that look like x, x correspond"
+      },
+      {
+        "start": 624.0,
+        "duration": 2.1,
+        "text": "to points on the curve itself."
+      },
+      {
+        "start": 627.1,
+        "duration": 1.3,
+        "text": "So we have this wild surface"
+      },
+      {
+        "start": 628.4,
+        "duration": 2.0,
+        "text": "we're trying to prove self-intersections."
+      },
+      {
+        "start": 630.4,
+        "duration": 1.9,
+        "text": "And the next step for how we're going to do this"
+      },
+      {
+        "start": 632.2,
+        "duration": 2.5,
+        "text": "is to come up with a second, very natural way"
+      },
+      {
+        "start": 634.8,
+        "duration": 2.2,
+        "text": "to associate pairs of points on a loop"
+      },
+      {
+        "start": 637.0,
+        "duration": 1.9,
+        "text": "with a certain other surface."
+      },
+      {
+        "start": 638.8,
+        "duration": 1.9,
+        "text": "The final argument is then going to come down"
+      },
+      {
+        "start": 640.7,
+        "duration": 3.1,
+        "text": "to understanding how this other mystery surface"
+      },
+      {
+        "start": 643.8,
+        "duration": 3.2,
+        "text": "can or cannot be embedded into three dimensions"
+      },
+      {
+        "start": 647.0,
+        "duration": 1.5,
+        "text": "without self-intersection."
+      },
+      {
+        "start": 649.5,
+        "duration": 1.6,
+        "text": "To set this up, it helps to give the loop"
+      },
+      {
+        "start": 651.1,
+        "duration": 2.2,
+        "text": "a kind of internal coordinate system."
+      },
+      {
+        "start": 653.2,
+        "duration": 2.1,
+        "text": "Let's say associating each point on the loop"
+      },
+      {
+        "start": 655.3,
+        "duration": 2.7,
+        "text": "with a number between zero and one."
+      },
+      {
+        "start": 658.0,
+        "duration": 2.1,
+        "text": "Geometrically, an association like this"
+      },
+      {
+        "start": 660.2,
+        "duration": 2.5,
+        "text": "is a little bit like snipping the loop at some point"
+      },
+      {
+        "start": 662.7,
+        "duration": 1.1,
+        "text": "and then flattening it out"
+      },
+      {
+        "start": 663.8,
+        "duration": 2.4,
+        "text": "onto the unit interval of the number line."
+      },
+      {
+        "start": 666.2,
+        "duration": 2.1,
+        "text": "Every point of the loop is associated"
+      },
+      {
+        "start": 668.4,
+        "duration": 3.8,
+        "text": "with a unique number from zero to one and vice versa"
+      },
+      {
+        "start": 672.2,
+        "duration": 1.9,
+        "text": "with the single exception of the fact"
+      },
+      {
+        "start": 674.1,
+        "duration": 3.3,
+        "text": "that both zero and one map to the same point of the loop."
+      },
+      {
+        "start": 677.4,
+        "duration": 2.2,
+        "text": "So for this to be a continuous association"
+      },
+      {
+        "start": 679.6,
+        "duration": 2.9,
+        "text": "in both directions, something we're gonna care a lot about,"
+      },
+      {
+        "start": 682.6,
+        "duration": 2.9,
+        "text": "you might imagine wanting to glue that number zero"
+      },
+      {
+        "start": 685.4,
+        "duration": 1.3,
+        "text": "to the number one."
+      },
+      {
+        "start": 686.8,
+        "duration": 2.2,
+        "text": "You'll see in a moment why this is important."
+      },
+      {
+        "start": 688.9,
+        "duration": 1.6,
+        "text": "Now of course we don't care about single points"
+      },
+      {
+        "start": 690.5,
+        "duration": 2.3,
+        "text": "on the loop, our whole study here is about pairs"
+      },
+      {
+        "start": 692.8,
+        "duration": 1.4,
+        "text": "of points on the loop."
+      },
+      {
+        "start": 694.2,
+        "duration": 1.7,
+        "text": "And if you have some second point,"
+      },
+      {
+        "start": 695.9,
+        "duration": 2.6,
+        "text": "naturally you might think of a second unit interval"
+      },
+      {
+        "start": 698.4,
+        "duration": 2.0,
+        "text": "may be along a y-axis."
+      },
+      {
+        "start": 700.5,
+        "duration": 3.0,
+        "text": "So here the x-axis gives a coordinate for the first point"
+      },
+      {
+        "start": 703.5,
+        "duration": 3.0,
+        "text": "and the y-axis gives a coordinate for that second point"
+      },
+      {
+        "start": 706.5,
+        "duration": 1.7,
+        "text": "and the pair of points taken together"
+      },
+      {
+        "start": 708.2,
+        "duration": 3.5,
+        "text": "would correspond to a single point in this unit square"
+      },
+      {
+        "start": 711.7,
+        "duration": 2.3,
+        "text": "where the two-dimensional coordinates of that point"
+      },
+      {
+        "start": 714.0,
+        "duration": 2.6,
+        "text": "essentially encode which two points on the loop"
+      },
+      {
+        "start": 716.6,
+        "duration": 1.4,
+        "text": "we're talking about."
+      },
+      {
+        "start": 718.0,
+        "duration": 3.6,
+        "text": "This association between individual points in the square"
+      },
+      {
+        "start": 721.6,
+        "duration": 1.9,
+        "text": "and pairs of points on the loop"
+      },
+      {
+        "start": 723.5,
+        "duration": 3.2,
+        "text": "is almost a continuous one to one map."
+      },
+      {
+        "start": 726.7,
+        "duration": 2.6,
+        "text": "But again, there's some awkwardness around the edges"
+      },
+      {
+        "start": 729.3,
+        "duration": 2.6,
+        "text": "based on the fact that the coordinates zero and one"
+      },
+      {
+        "start": 731.9,
+        "duration": 1.8,
+        "text": "really describe the same thing."
+      },
+      {
+        "start": 733.8,
+        "duration": 2.8,
+        "text": "For example, look at all of the points on the left here"
+      },
+      {
+        "start": 736.6,
+        "duration": 1.7,
+        "text": "where the x-coordinate is zero"
+      },
+      {
+        "start": 738.2,
+        "duration": 2.3,
+        "text": "corresponding to this vertical line."
+      },
+      {
+        "start": 740.6,
+        "duration": 2.7,
+        "text": "All those points really represent the same loop pair"
+      },
+      {
+        "start": 743.3,
+        "duration": 3.2,
+        "text": "as the ones on the right side where the x-coordinate is one,"
+      },
+      {
+        "start": 746.4,
+        "duration": 1.9,
+        "text": "this other vertical line here."
+      },
+      {
+        "start": 748.3,
+        "duration": 1.2,
+        "text": "I'll color both of them blue"
+      },
+      {
+        "start": 749.6,
+        "duration": 1.2,
+        "text": "and I'll put some arrows on there"
+      },
+      {
+        "start": 750.7,
+        "duration": 2.1,
+        "text": "to help remember the orientation."
+      },
+      {
+        "start": 752.8,
+        "duration": 3.0,
+        "text": "Similarly, all of the points whose y-coordinate is zero,"
+      },
+      {
+        "start": 755.8,
+        "duration": 3.4,
+        "text": "this bottom line here, represent the same loop pairs"
+      },
+      {
+        "start": 759.2,
+        "duration": 3.6,
+        "text": "as the point whose y-coordinate is one up at the top."
+      },
+      {
+        "start": 762.8,
+        "duration": 1.7,
+        "text": "If you're thinking topologically,"
+      },
+      {
+        "start": 764.5,
+        "duration": 1.8,
+        "text": "you don't just wanna record this,"
+      },
+      {
+        "start": 766.2,
+        "duration": 2.4,
+        "text": "you wanna somehow represent it geometrically."
+      },
+      {
+        "start": 768.7,
+        "duration": 2.1,
+        "text": "And the way we'll do this is to glue"
+      },
+      {
+        "start": 770.8,
+        "duration": 2.0,
+        "text": "both of those blue lines together,"
+      },
+      {
+        "start": 772.8,
+        "duration": 2.1,
+        "text": "which you might think of as giving this tube."
+      },
+      {
+        "start": 774.9,
+        "duration": 2.1,
+        "text": "The green lines have now turned into these circles"
+      },
+      {
+        "start": 777.0,
+        "duration": 2.6,
+        "text": "at the end of the tube and to glue those together,"
+      },
+      {
+        "start": 779.6,
+        "duration": 3.0,
+        "text": "it requires curling the tube around on itself,"
+      },
+      {
+        "start": 782.6,
+        "duration": 2.6,
+        "text": "giving us this surface of a donut shape,"
+      },
+      {
+        "start": 785.2,
+        "duration": 2.6,
+        "text": "which is commonly called a torus."
+      },
+      {
+        "start": 787.7,
+        "duration": 2.1,
+        "text": "And I wanna point out, it's not like we landed here"
+      },
+      {
+        "start": 789.8,
+        "duration": 3.6,
+        "text": "because of some random pondering about donuts and coffee cups."
+      },
+      {
+        "start": 793.4,
+        "duration": 3.1,
+        "text": "The surface seems to be a really natural representation"
+      },
+      {
+        "start": 796.5,
+        "duration": 2.6,
+        "text": "of all possible pairs of points on the loop."
+      },
+      {
+        "start": 799.1,
+        "duration": 2.0,
+        "text": "And what I mean when I say natural here"
+      },
+      {
+        "start": 801.0,
+        "duration": 1.5,
+        "text": "is essentially two things."
+      },
+      {
+        "start": 802.5,
+        "duration": 2.2,
+        "text": "First of all, the mapping goes both ways."
+      },
+      {
+        "start": 804.7,
+        "duration": 2.5,
+        "text": "Every point of the torus corresponds to a unique pair"
+      },
+      {
+        "start": 807.2,
+        "duration": 2.4,
+        "text": "of points on the loop and each pair of points on the loop"
+      },
+      {
+        "start": 809.6,
+        "duration": 2.6,
+        "text": "gives us a unique point on the torus."
+      },
+      {
+        "start": 812.2,
+        "duration": 2.6,
+        "text": "Secondly, the association is continuous,"
+      },
+      {
+        "start": 814.8,
+        "duration": 2.3,
+        "text": "meaning if I wiggle some point on the torus,"
+      },
+      {
+        "start": 817.1,
+        "duration": 1.6,
+        "text": "it results in only a slight wiggle"
+      },
+      {
+        "start": 818.7,
+        "duration": 2.3,
+        "text": "to the corresponding pair of points on the loop"
+      },
+      {
+        "start": 821.0,
+        "duration": 1.0,
+        "text": "and vice versa."
+      },
+      {
+        "start": 822.0,
+        "duration": 1.9,
+        "text": "There are never any sudden jumps."
+      },
+      {
+        "start": 824.0,
+        "duration": 2.7,
+        "text": "But actually, the torus is not quite the right surface"
+      },
+      {
+        "start": 826.6,
+        "duration": 1.5,
+        "text": "for our purposes."
+      },
+      {
+        "start": 828.2,
+        "duration": 1.6,
+        "text": "Remember why we're doing any of this?"
+      },
+      {
+        "start": 829.7,
+        "duration": 2.3,
+        "text": "We're looking for two distinct pairs of points"
+      },
+      {
+        "start": 832.0,
+        "duration": 2.4,
+        "text": "on an arbitrary loop that have the same midpoint"
+      },
+      {
+        "start": 834.4,
+        "duration": 1.8,
+        "text": "and the same distance apart."
+      },
+      {
+        "start": 836.2,
+        "duration": 2.2,
+        "text": "But it matters whether we care about the order"
+      },
+      {
+        "start": 838.4,
+        "duration": 1.6,
+        "text": "of a pair of points."
+      },
+      {
+        "start": 840.0,
+        "duration": 3.4,
+        "text": "If you consider the pair a comma b to be distinct"
+      },
+      {
+        "start": 843.4,
+        "duration": 2.7,
+        "text": "from the pair b comma a, then that would give you"
+      },
+      {
+        "start": 846.2,
+        "duration": 3.0,
+        "text": "a trivial example of two distinct pairs of points"
+      },
+      {
+        "start": 849.1,
+        "duration": 2.6,
+        "text": "that have the same midpoint and the same distance apart."
+      },
+      {
+        "start": 851.7,
+        "duration": 1.6,
+        "text": "But this is like saying that you can always find"
+      },
+      {
+        "start": 853.3,
+        "duration": 2.2,
+        "text": "an inscribed rectangle as long as you're okay"
+      },
+      {
+        "start": 855.5,
+        "duration": 2.0,
+        "text": "with an infinitely thin rectangle."
+      },
+      {
+        "start": 857.5,
+        "duration": 1.4,
+        "text": "Clearly, what we want is to prove"
+      },
+      {
+        "start": 858.8,
+        "duration": 2.2,
+        "text": "that there are non-trivial rectangles."
+      },
+      {
+        "start": 861.0,
+        "duration": 2.0,
+        "text": "And for that, you need to think of the pair of points"
+      },
+      {
+        "start": 863.0,
+        "duration": 4.4,
+        "text": "as being unordered in the sense that a comma b and b comma a"
+      },
+      {
+        "start": 867.4,
+        "duration": 2.1,
+        "text": "should really refer to the same thing."
+      },
+      {
+        "start": 869.5,
+        "duration": 2.1,
+        "text": "So looking back at our unit square,"
+      },
+      {
+        "start": 871.6,
+        "duration": 2.0,
+        "text": "you now want to somehow record the fact"
+      },
+      {
+        "start": 873.6,
+        "duration": 2.7,
+        "text": "that every point with coordinates x comma y"
+      },
+      {
+        "start": 876.2,
+        "duration": 1.6,
+        "text": "should really be considered the same"
+      },
+      {
+        "start": 877.8,
+        "duration": 3.0,
+        "text": "as the point with coordinates y comma x."
+      },
+      {
+        "start": 880.9,
+        "duration": 1.9,
+        "text": "If you take a moment to think about it,"
+      },
+      {
+        "start": 882.8,
+        "duration": 2.4,
+        "text": "what you essentially want here is that all of the points"
+      },
+      {
+        "start": 885.2,
+        "duration": 1.9,
+        "text": "on the square that are reflected"
+      },
+      {
+        "start": 887.1,
+        "duration": 2.6,
+        "text": "along this diagonal line should be considered"
+      },
+      {
+        "start": 889.7,
+        "duration": 3.1,
+        "text": "as representing the same pair of points on the loop."
+      },
+      {
+        "start": 892.8,
+        "duration": 2.4,
+        "text": "And again, you can think of this with a kind of gluing"
+      },
+      {
+        "start": 895.2,
+        "duration": 3.4,
+        "text": "where we're gonna fold the square along that diagonal line"
+      },
+      {
+        "start": 898.6,
+        "duration": 1.9,
+        "text": "kind of like a grilled cheese sandwich."
+      },
+      {
+        "start": 900.6,
+        "duration": 2.2,
+        "text": "And when you do this, I wanna draw your attention again"
+      },
+      {
+        "start": 902.8,
+        "duration": 2.0,
+        "text": "to that gun hanging on the wall."
+      },
+      {
+        "start": 904.8,
+        "duration": 2.7,
+        "text": "Every pair of points that looks like x comma x"
+      },
+      {
+        "start": 907.5,
+        "duration": 3.4,
+        "text": "corresponds to a point somewhere on the crease of this fold,"
+      },
+      {
+        "start": 910.8,
+        "duration": 2.2,
+        "text": "this diagonal line, which from this point on,"
+      },
+      {
+        "start": 913.0,
+        "duration": 2.2,
+        "text": "I'm gonna be coloring in red."
+      },
+      {
+        "start": 915.2,
+        "duration": 1.9,
+        "text": "You still need to glue the edges together"
+      },
+      {
+        "start": 917.1,
+        "duration": 2.2,
+        "text": "as a way to remember that zero and one"
+      },
+      {
+        "start": 919.3,
+        "duration": 2.0,
+        "text": "really mapped to the same point on the loop."
+      },
+      {
+        "start": 921.3,
+        "duration": 1.7,
+        "text": "But after our diagonal folds,"
+      },
+      {
+        "start": 923.0,
+        "duration": 1.8,
+        "text": "we're faced with a real puzzle here."
+      },
+      {
+        "start": 924.8,
+        "duration": 1.8,
+        "text": "Notice the orientation."
+      },
+      {
+        "start": 926.6,
+        "duration": 2.4,
+        "text": "How exactly to do this is puzzling enough"
+      },
+      {
+        "start": 929.0,
+        "duration": 2.0,
+        "text": "to almost feel contradictory."
+      },
+      {
+        "start": 931.0,
+        "duration": 1.5,
+        "text": "But sometimes with topology,"
+      },
+      {
+        "start": 932.5,
+        "duration": 3.1,
+        "text": "you have to take a step back in order to take a step forward."
+      },
+      {
+        "start": 935.6,
+        "duration": 3.8,
+        "text": "The trick here is to cut this piece along another diagonal"
+      },
+      {
+        "start": 939.4,
+        "duration": 1.6,
+        "text": "and we're gonna add some new arrows"
+      },
+      {
+        "start": 941.0,
+        "duration": 2.8,
+        "text": "to remember to glue that cut back together in a moment."
+      },
+      {
+        "start": 943.7,
+        "duration": 3.2,
+        "text": "Doing this lets you glue together the original two arrows"
+      },
+      {
+        "start": 946.9,
+        "duration": 1.7,
+        "text": "which gives us this square"
+      },
+      {
+        "start": 948.7,
+        "duration": 2.3,
+        "text": "with two edges that still need to be glued,"
+      },
+      {
+        "start": 951.0,
+        "duration": 2.8,
+        "text": "but notice that the orientation of the remaining arrows"
+      },
+      {
+        "start": 953.7,
+        "duration": 1.1,
+        "text": "are reversed."
+      },
+      {
+        "start": 954.8,
+        "duration": 2.0,
+        "text": "So to glue those back together,"
+      },
+      {
+        "start": 956.8,
+        "duration": 3.4,
+        "text": "what you need to do is somehow introduce a single half twist"
+      },
+      {
+        "start": 960.2,
+        "duration": 3.4,
+        "text": "and this is exactly the construction for a mobius strip."
+      },
+      {
+        "start": 963.7,
+        "duration": 1.8,
+        "text": "That is really cool to me."
+      },
+      {
+        "start": 965.5,
+        "duration": 3.3,
+        "text": "And again, I wanna emphasize this is not some arbitrary play"
+      },
+      {
+        "start": 968.8,
+        "duration": 1.8,
+        "text": "task with construction paper."
+      },
+      {
+        "start": 970.6,
+        "duration": 2.4,
+        "text": "This shape arose for us very naturally."
+      },
+      {
+        "start": 973.0,
+        "duration": 2.0,
+        "text": "It's a way to geometrically represent"
+      },
+      {
+        "start": 975.0,
+        "duration": 3.4,
+        "text": "all possible unordered pairs of points on a loop."
+      },
+      {
+        "start": 978.4,
+        "duration": 1.6,
+        "text": "And again, what I mean by natural here"
+      },
+      {
+        "start": 980.0,
+        "duration": 1.4,
+        "text": "is that each point of the strip"
+      },
+      {
+        "start": 981.4,
+        "duration": 3.8,
+        "text": "corresponds to a unique pair on the loop and vice versa"
+      },
+      {
+        "start": 985.2,
+        "duration": 1.8,
+        "text": "and the relationship is continuous."
+      },
+      {
+        "start": 987.0,
+        "duration": 1.3,
+        "text": "Small nudges on one side,"
+      },
+      {
+        "start": 988.4,
+        "duration": 2.3,
+        "text": "correspond to small nudges on the other."
+      },
+      {
+        "start": 990.6,
+        "duration": 1.8,
+        "text": "The other thing I wanna draw your attention to"
+      },
+      {
+        "start": 992.4,
+        "duration": 2.7,
+        "text": "is the red edge of that mobius strip."
+      },
+      {
+        "start": 995.1,
+        "duration": 2.7,
+        "text": "Originally, this is what came from the diagonal"
+      },
+      {
+        "start": 997.8,
+        "duration": 1.2,
+        "text": "in that unit square."
+      },
+      {
+        "start": 999.0,
+        "duration": 3.9,
+        "text": "It represents all pairs of points that look like X, X."
+      },
+      {
+        "start": 1002.9,
+        "duration": 1.9,
+        "text": "That is pairs that are really the same point"
+      },
+      {
+        "start": 1004.8,
+        "duration": 1.5,
+        "text": "which is listed twice."
+      },
+      {
+        "start": 1007.3,
+        "duration": 2.9,
+        "text": "As a final step, connect this with what we were doing earlier"
+      },
+      {
+        "start": 1010.2,
+        "duration": 1.4,
+        "text": "where we constructed that strange,"
+      },
+      {
+        "start": 1011.6,
+        "duration": 1.6,
+        "text": "frank, gary-looking surface"
+      },
+      {
+        "start": 1013.3,
+        "duration": 3.3,
+        "text": "encoding all of the loop pair data that we cared about."
+      },
+      {
+        "start": 1016.6,
+        "duration": 2.8,
+        "text": "Now, you also know that unordered pairs of points"
+      },
+      {
+        "start": 1019.4,
+        "duration": 2.6,
+        "text": "have this natural correspondence with a mobius strip"
+      },
+      {
+        "start": 1022.0,
+        "duration": 3.3,
+        "text": "in the sense that you have a two-way continuous association."
+      },
+      {
+        "start": 1025.4,
+        "duration": 3.4,
+        "text": "What that means is there's necessarily a continuous function"
+      },
+      {
+        "start": 1028.8,
+        "duration": 4.0,
+        "text": "from the mobius strip onto this surface in 3D space."
+      },
+      {
+        "start": 1032.7,
+        "duration": 1.8,
+        "text": "To animate this, let me show you what it looks like"
+      },
+      {
+        "start": 1034.5,
+        "duration": 2.2,
+        "text": "if I move every point of that surface"
+      },
+      {
+        "start": 1036.6,
+        "duration": 3.4,
+        "text": "back to its corresponding point on the mobius strip,"
+      },
+      {
+        "start": 1040.1,
+        "duration": 3.4,
+        "text": "the one associated with the same pair of loop points."
+      },
+      {
+        "start": 1043.5,
+        "duration": 1.5,
+        "text": "And here it is going the other way,"
+      },
+      {
+        "start": 1045.0,
+        "duration": 2.9,
+        "text": "very explicitly showing the map from the mobius strip"
+      },
+      {
+        "start": 1047.9,
+        "duration": 1.2,
+        "text": "onto this surface."
+      },
+      {
+        "start": 1051.8,
+        "duration": 1.6,
+        "text": "But it's not just any map,"
+      },
+      {
+        "start": 1053.4,
+        "duration": 3.2,
+        "text": "focus one last time on the gun hanging on the wall."
+      },
+      {
+        "start": 1056.6,
+        "duration": 1.9,
+        "text": "The edge of this mobius strip,"
+      },
+      {
+        "start": 1058.5,
+        "duration": 2.1,
+        "text": "which remember corresponds to all the pairs"
+      },
+      {
+        "start": 1060.6,
+        "duration": 1.6,
+        "text": "that look like X, X."
+      },
+      {
+        "start": 1062.3,
+        "duration": 2.6,
+        "text": "That has to land on the loop itself,"
+      },
+      {
+        "start": 1064.9,
+        "duration": 3.7,
+        "text": "meaning it has to end up confined to the X, Y plane."
+      },
+      {
+        "start": 1068.6,
+        "duration": 2.7,
+        "text": "And if you take a moment and play around with the idea"
+      },
+      {
+        "start": 1071.3,
+        "duration": 1.7,
+        "text": "in your head of mobius strips"
+      },
+      {
+        "start": 1073.0,
+        "duration": 2.1,
+        "text": "and how they can fit into 3D space,"
+      },
+      {
+        "start": 1075.1,
+        "duration": 2.2,
+        "text": "you might find it entirely believable"
+      },
+      {
+        "start": 1077.3,
+        "duration": 3.6,
+        "text": "that it's impossible to embed a mobius strip into 3D"
+      },
+      {
+        "start": 1080.9,
+        "duration": 2.2,
+        "text": "in such a way that its edge stays confined"
+      },
+      {
+        "start": 1083.1,
+        "duration": 1.3,
+        "text": "to a plane like this,"
+      },
+      {
+        "start": 1084.4,
+        "duration": 3.2,
+        "text": "at least not without somehow crossing through itself."
+      },
+      {
+        "start": 1087.6,
+        "duration": 3.1,
+        "text": "If this claim is true, we have our desired result."
+      },
+      {
+        "start": 1090.7,
+        "duration": 2.2,
+        "text": "Self-intersection in this context"
+      },
+      {
+        "start": 1092.9,
+        "duration": 2.2,
+        "text": "means two distinct points from the strip"
+      },
+      {
+        "start": 1095.0,
+        "duration": 2.8,
+        "text": "have to land on the same point of the surface."
+      },
+      {
+        "start": 1097.8,
+        "duration": 2.1,
+        "text": "And in turn, that means there's two distinct pairs"
+      },
+      {
+        "start": 1099.9,
+        "duration": 1.5,
+        "text": "of points that have the same midpoint"
+      },
+      {
+        "start": 1101.4,
+        "duration": 1.2,
+        "text": "and the same distance,"
+      },
+      {
+        "start": 1102.6,
+        "duration": 1.7,
+        "text": "and hence they form a rectangle."
+      },
+      {
+        "start": 1105.3,
+        "duration": 2.2,
+        "text": "While this claim is very believable,"
+      },
+      {
+        "start": 1107.4,
+        "duration": 2.2,
+        "text": "proving this kind of statement from scratch"
+      },
+      {
+        "start": 1109.6,
+        "duration": 1.9,
+        "text": "can be a little bit tricky."
+      },
+      {
+        "start": 1111.5,
+        "duration": 2.0,
+        "text": "In fact, not only is it tricky,"
+      },
+      {
+        "start": 1113.5,
+        "duration": 2.7,
+        "text": "but stated so far, the claim is not even true."
+      },
+      {
+        "start": 1116.2,
+        "duration": 1.7,
+        "text": "After the first edition of this lesson,"
+      },
+      {
+        "start": 1118.0,
+        "duration": 2.4,
+        "text": "the mathematician Dan Asimov reached out to me"
+      },
+      {
+        "start": 1120.4,
+        "duration": 2.1,
+        "text": "to point out a construction that he made"
+      },
+      {
+        "start": 1122.4,
+        "duration": 3.6,
+        "text": "for embedding a mobius strip into 3D in such a way"
+      },
+      {
+        "start": 1126.0,
+        "duration": 2.5,
+        "text": "that its boundary not only ends up on a plane,"
+      },
+      {
+        "start": 1128.5,
+        "duration": 2.2,
+        "text": "but it ends up equaling a circle."
+      },
+      {
+        "start": 1130.7,
+        "duration": 1.8,
+        "text": "Here, that's a little bit of a mind warp."
+      },
+      {
+        "start": 1132.4,
+        "duration": 1.8,
+        "text": "Let me play it for you one more time."
+      },
+      {
+        "start": 1136.4,
+        "duration": 3.1,
+        "text": "For me at least, I find this very trippy to think about,"
+      },
+      {
+        "start": 1139.5,
+        "duration": 1.9,
+        "text": "and even after seeing the transition,"
+      },
+      {
+        "start": 1141.4,
+        "duration": 1.7,
+        "text": "I have trouble getting my brain to parse"
+      },
+      {
+        "start": 1143.1,
+        "duration": 2.4,
+        "text": "that what I'm looking at is a mobius strip,"
+      },
+      {
+        "start": 1145.5,
+        "duration": 1.5,
+        "text": "but that's what it is."
+      },
+      {
+        "start": 1147.0,
+        "duration": 2.2,
+        "text": "The more familiar strip with a twist shape"
+      },
+      {
+        "start": 1149.2,
+        "duration": 3.3,
+        "text": "that we often see is just one out of infinitely many ways"
+      },
+      {
+        "start": 1152.4,
+        "duration": 3.6,
+        "text": "that you could represent what this mathematical object really is."
+      },
+      {
+        "start": 1156.1,
+        "duration": 3.6,
+        "text": "This bizarre snail shell looking thing is no less valid."
+      },
+      {
+        "start": 1160.6,
+        "duration": 1.9,
+        "text": "The existence of an embedding like this"
+      },
+      {
+        "start": 1162.4,
+        "duration": 3.6,
+        "text": "would provide a fatal counter example to our desired result."
+      },
+      {
+        "start": 1166.0,
+        "duration": 1.4,
+        "text": "But notice how in this example,"
+      },
+      {
+        "start": 1167.5,
+        "duration": 2.5,
+        "text": "the interior of the surface goes both above"
+      },
+      {
+        "start": 1170.0,
+        "duration": 2.8,
+        "text": "and below the circle, but in the surface be constructed"
+      },
+      {
+        "start": 1172.8,
+        "duration": 2.0,
+        "text": "with the loop pairs, all of the points"
+      },
+      {
+        "start": 1174.7,
+        "duration": 3.2,
+        "text": "are necessarily above the xy plane by definition."
+      },
+      {
+        "start": 1177.9,
+        "duration": 2.2,
+        "text": "So what we really wanna prove is that it's impossible"
+      },
+      {
+        "start": 1180.1,
+        "duration": 3.2,
+        "text": "to map a mobius strip into 3D in such a way"
+      },
+      {
+        "start": 1183.3,
+        "duration": 2.8,
+        "text": "that its edge is confined to the xy plane"
+      },
+      {
+        "start": 1186.2,
+        "duration": 3.8,
+        "text": "and the interior of the strip is strictly above the plane."
+      },
+      {
+        "start": 1190.0,
+        "duration": 1.0,
+        "text": "If that's impossible,"
+      },
+      {
+        "start": 1191.0,
+        "duration": 3.3,
+        "text": "at least not without self-intersection, we have our result."
+      },
+      {
+        "start": 1194.3,
+        "duration": 2.8,
+        "text": "Again, proving this rigorously from scratch can be tricky,"
+      },
+      {
+        "start": 1197.2,
+        "duration": 2.1,
+        "text": "but what I can do is offer a connection to something"
+      },
+      {
+        "start": 1199.3,
+        "duration": 2.2,
+        "text": "that many of you might have seen before."
+      },
+      {
+        "start": 1201.5,
+        "duration": 2.5,
+        "text": "So far, what we know is that this strange surface"
+      },
+      {
+        "start": 1204.0,
+        "duration": 1.4,
+        "text": "is really a mobius strip,"
+      },
+      {
+        "start": 1205.4,
+        "duration": 3.1,
+        "text": "and I want you to consider the reflection of the surface"
+      },
+      {
+        "start": 1208.5,
+        "duration": 1.4,
+        "text": "underneath the plane."
+      },
+      {
+        "start": 1209.9,
+        "duration": 3.3,
+        "text": "Taken together, this surface and its reflection underneath"
+      },
+      {
+        "start": 1213.2,
+        "duration": 2.4,
+        "text": "form some new closed surface."
+      },
+      {
+        "start": 1215.6,
+        "duration": 1.4,
+        "text": "Essentially, it's whatever you get"
+      },
+      {
+        "start": 1217.0,
+        "duration": 2.3,
+        "text": "if you glue the edge of one mobius strip"
+      },
+      {
+        "start": 1219.2,
+        "duration": 1.4,
+        "text": "to the edge of another."
+      },
+      {
+        "start": 1220.6,
+        "duration": 1.4,
+        "text": "So this raises the question,"
+      },
+      {
+        "start": 1222.0,
+        "duration": 1.6,
+        "text": "what do you get when you glue together"
+      },
+      {
+        "start": 1223.6,
+        "duration": 1.8,
+        "text": "the edges of two mobius strips?"
+      },
+      {
+        "start": 1227.6,
+        "duration": 1.6,
+        "text": "Well, one really nice way to think about this"
+      },
+      {
+        "start": 1229.2,
+        "duration": 2.3,
+        "text": "is to look back at the diagram that we had earlier,"
+      },
+      {
+        "start": 1231.5,
+        "duration": 1.8,
+        "text": "the one that we eventually cut and glued"
+      },
+      {
+        "start": 1233.2,
+        "duration": 1.4,
+        "text": "to be the strip itself."
+      },
+      {
+        "start": 1234.6,
+        "duration": 1.8,
+        "text": "If you take a reflection of that,"
+      },
+      {
+        "start": 1236.4,
+        "duration": 3.2,
+        "text": "giving us another thing that will become a mobius strip,"
+      },
+      {
+        "start": 1239.6,
+        "duration": 3.1,
+        "text": "you can nicely glue these together along that red edge."
+      },
+      {
+        "start": 1242.7,
+        "duration": 2.1,
+        "text": "To figure out what surface this represents,"
+      },
+      {
+        "start": 1244.8,
+        "duration": 2.3,
+        "text": "you basically do the same trick that we did earlier."
+      },
+      {
+        "start": 1247.2,
+        "duration": 2.7,
+        "text": "You first cut along this other diagonal,"
+      },
+      {
+        "start": 1249.8,
+        "duration": 2.6,
+        "text": "recording the new cut with some new colored arrows,"
+      },
+      {
+        "start": 1252.4,
+        "duration": 2.3,
+        "text": "reminding us how we're gonna need to glue later."
+      },
+      {
+        "start": 1254.7,
+        "duration": 2.0,
+        "text": "This lets you flip one of the pieces"
+      },
+      {
+        "start": 1256.7,
+        "duration": 1.6,
+        "text": "so that we could glue, for example,"
+      },
+      {
+        "start": 1258.3,
+        "duration": 1.9,
+        "text": "the teal edges together."
+      },
+      {
+        "start": 1260.2,
+        "duration": 2.4,
+        "text": "And what you're left with is something very similar"
+      },
+      {
+        "start": 1262.6,
+        "duration": 1.7,
+        "text": "to the tourist diagram."
+      },
+      {
+        "start": 1264.3,
+        "duration": 2.1,
+        "text": "You can start the same way where you curl it around"
+      },
+      {
+        "start": 1266.4,
+        "duration": 2.4,
+        "text": "to glue, for example, those pink edges together,"
+      },
+      {
+        "start": 1268.9,
+        "duration": 1.4,
+        "text": "making a tube."
+      },
+      {
+        "start": 1270.3,
+        "duration": 2.1,
+        "text": "But the difference between this and a tourist"
+      },
+      {
+        "start": 1272.4,
+        "duration": 3.4,
+        "text": "is that those circular ends have opposite orientations,"
+      },
+      {
+        "start": 1275.8,
+        "duration": 2.3,
+        "text": "which makes it kind of awkward to glue them together"
+      },
+      {
+        "start": 1278.1,
+        "duration": 1.8,
+        "text": "maintaining that orientation."
+      },
+      {
+        "start": 1279.9,
+        "duration": 3.7,
+        "text": "One way that you could do this is to pass one side of that tube"
+      },
+      {
+        "start": 1283.6,
+        "duration": 2.4,
+        "text": "through the tube itself so that it can meet up"
+      },
+      {
+        "start": 1286.0,
+        "duration": 3.0,
+        "text": "with the other end kind of coming from the other direction."
+      },
+      {
+        "start": 1289.0,
+        "duration": 2.6,
+        "text": "What you get as a result is known as a Klein bottle."
+      },
+      {
+        "start": 1291.6,
+        "duration": 1.5,
+        "text": "This is kind of a celebrity shape"
+      },
+      {
+        "start": 1293.0,
+        "duration": 2.5,
+        "text": "in math, very famous because of the bizarre way"
+      },
+      {
+        "start": 1295.6,
+        "duration": 2.8,
+        "text": "that it has no clear interior or exterior."
+      },
+      {
+        "start": 1298.3,
+        "duration": 1.9,
+        "text": "Any point that seems to be on the inside"
+      },
+      {
+        "start": 1300.2,
+        "duration": 2.9,
+        "text": "could be moved around in some way to end up on the outside."
+      },
+      {
+        "start": 1303.2,
+        "duration": 1.5,
+        "text": "If you know about Klein bottles,"
+      },
+      {
+        "start": 1304.6,
+        "duration": 1.8,
+        "text": "one of the main things you might know is that"
+      },
+      {
+        "start": 1306.4,
+        "duration": 2.1,
+        "text": "it's impossible to properly represent them"
+      },
+      {
+        "start": 1308.5,
+        "duration": 2.0,
+        "text": "in three dimensions, without somehow having"
+      },
+      {
+        "start": 1310.5,
+        "duration": 1.8,
+        "text": "the surface intersect itself."
+      },
+      {
+        "start": 1312.3,
+        "duration": 2.2,
+        "text": "And higher dimensions, it can live much more comfortably,"
+      },
+      {
+        "start": 1314.5,
+        "duration": 2.6,
+        "text": "but down here, there's just no way to make it work."
+      },
+      {
+        "start": 1317.1,
+        "duration": 2.3,
+        "text": "This is a more general fact about any closed,"
+      },
+      {
+        "start": 1319.4,
+        "duration": 1.8,
+        "text": "non-orientable surface."
+      },
+      {
+        "start": 1321.2,
+        "duration": 2.3,
+        "text": "And what's very satisfying in my opinion"
+      },
+      {
+        "start": 1323.6,
+        "duration": 3.0,
+        "text": "is how for us right here, this fact is relevant"
+      },
+      {
+        "start": 1326.6,
+        "duration": 1.3,
+        "text": "for an actual proof."
+      },
+      {
+        "start": 1327.9,
+        "duration": 2.8,
+        "text": "If you believe that Klein bottles can't be represented"
+      },
+      {
+        "start": 1330.6,
+        "duration": 2.3,
+        "text": "in 3D without self-intersection,"
+      },
+      {
+        "start": 1332.9,
+        "duration": 3.2,
+        "text": "it means that the surface we constructed over our loop"
+      },
+      {
+        "start": 1336.1,
+        "duration": 1.9,
+        "text": "viewed together with its reflection"
+      },
+      {
+        "start": 1338.0,
+        "duration": 2.4,
+        "text": "must have some kind of self-intersection."
+      },
+      {
+        "start": 1340.4,
+        "duration": 1.6,
+        "text": "And based on the construction of the surface,"
+      },
+      {
+        "start": 1342.0,
+        "duration": 2.1,
+        "text": "that means we have two distinct pairs of points"
+      },
+      {
+        "start": 1344.0,
+        "duration": 2.2,
+        "text": "with the same midpoint and the same distance apart"
+      },
+      {
+        "start": 1346.2,
+        "duration": 1.4,
+        "text": "and hence a rectangle."
+      },
+      {
+        "start": 1348.8,
+        "duration": 1.7,
+        "text": "For the extra curious among you,"
+      },
+      {
+        "start": 1350.5,
+        "duration": 3.1,
+        "text": "I'll leave up on screen an argument for why exactly"
+      },
+      {
+        "start": 1353.6,
+        "duration": 2.0,
+        "text": "any closed, non-orientable surface"
+      },
+      {
+        "start": 1355.6,
+        "duration": 3.4,
+        "text": "cannot exist in 3D without intersecting itself."
+      },
+      {
+        "start": 1359.1,
+        "duration": 2.1,
+        "text": "Stepping back though, I want to talk a little bit more"
+      },
+      {
+        "start": 1361.2,
+        "duration": 3.2,
+        "text": "about the unsolved problem, proving that any loop"
+      },
+      {
+        "start": 1364.3,
+        "duration": 2.6,
+        "text": "necessarily has not only an inscribed rectangle,"
+      },
+      {
+        "start": 1367.0,
+        "duration": 2.4,
+        "text": "but specifically an inscribed square."
+      },
+      {
+        "start": 1369.4,
+        "duration": 2.5,
+        "text": "Given the entire proof that we just went through,"
+      },
+      {
+        "start": 1371.9,
+        "duration": 2.4,
+        "text": "a natural thought that you might have is to focus"
+      },
+      {
+        "start": 1374.2,
+        "duration": 2.0,
+        "text": "not only on the midpoint and the distance"
+      },
+      {
+        "start": 1376.3,
+        "duration": 1.7,
+        "text": "between a given pair of points,"
+      },
+      {
+        "start": 1378.0,
+        "duration": 3.3,
+        "text": "but to also record the angle of that line segment."
+      },
+      {
+        "start": 1381.3,
+        "duration": 2.1,
+        "text": "Because if you had two such line segments"
+      },
+      {
+        "start": 1383.4,
+        "duration": 2.4,
+        "text": "that not only share a midpoint and a length,"
+      },
+      {
+        "start": 1385.8,
+        "duration": 1.9,
+        "text": "but also differ by 90 degrees,"
+      },
+      {
+        "start": 1387.7,
+        "duration": 2.7,
+        "text": "that would necessarily mean that they form a square."
+      },
+      {
+        "start": 1390.4,
+        "duration": 1.8,
+        "text": "If sitting there watching this right now,"
+      },
+      {
+        "start": 1392.2,
+        "duration": 2.1,
+        "text": "that gives you an instinct to somehow think about"
+      },
+      {
+        "start": 1394.4,
+        "duration": 2.8,
+        "text": "embedding mobius strips into four dimensions,"
+      },
+      {
+        "start": 1397.2,
+        "duration": 3.0,
+        "text": "since this now has four numbers worth of information,"
+      },
+      {
+        "start": 1400.2,
+        "duration": 2.4,
+        "text": "well then you would have very good instincts indeed."
+      },
+      {
+        "start": 1402.6,
+        "duration": 3.3,
+        "text": "In 2020, the mathematicians Joshua Green and Andrew Lobb"
+      },
+      {
+        "start": 1405.9,
+        "duration": 2.4,
+        "text": "proved a really nice extension of this result"
+      },
+      {
+        "start": 1408.4,
+        "duration": 2.8,
+        "text": "in the specific case of smooth curves,"
+      },
+      {
+        "start": 1411.2,
+        "duration": 2.9,
+        "text": "which is contrasted with rough ones like fractals."
+      },
+      {
+        "start": 1414.0,
+        "duration": 2.3,
+        "text": "I'll talk a little bit more about smoothness in a moment,"
+      },
+      {
+        "start": 1416.4,
+        "duration": 3.6,
+        "text": "but what Green and Lobb showed was how in the special case,"
+      },
+      {
+        "start": 1420.0,
+        "duration": 2.0,
+        "text": "not only can you always find a square"
+      },
+      {
+        "start": 1422.0,
+        "duration": 1.9,
+        "text": "that had actually been known for a while,"
+      },
+      {
+        "start": 1423.9,
+        "duration": 3.8,
+        "text": "but you can find rectangles of every possible aspect ratio."
+      },
+      {
+        "start": 1427.7,
+        "duration": 1.4,
+        "text": "And if you look into their paper,"
+      },
+      {
+        "start": 1429.2,
+        "duration": 1.8,
+        "text": "which I'll link to in the description,"
+      },
+      {
+        "start": 1430.9,
+        "duration": 2.6,
+        "text": "it involves discussion of embedding mobius strips"
+      },
+      {
+        "start": 1433.6,
+        "duration": 3.7,
+        "text": "and climb bottles into a certain four-dimensional space."
+      },
+      {
+        "start": 1437.3,
+        "duration": 1.9,
+        "text": "And while that would sound just weird"
+      },
+      {
+        "start": 1439.2,
+        "duration": 2.0,
+        "text": "and kind of wild without any background,"
+      },
+      {
+        "start": 1441.2,
+        "duration": 1.4,
+        "text": "hopefully now you have an instinct"
+      },
+      {
+        "start": 1442.6,
+        "duration": 2.6,
+        "text": "for why that kind of approach is not only sensible,"
+      },
+      {
+        "start": 1445.1,
+        "duration": 2.0,
+        "text": "but utterly reasonable."
+      },
+      {
+        "start": 1447.2,
+        "duration": 2.0,
+        "text": "If you understand the rectangle proof"
+      },
+      {
+        "start": 1449.2,
+        "duration": 1.9,
+        "text": "the one that we walked through in this video,"
+      },
+      {
+        "start": 1451.0,
+        "duration": 2.5,
+        "text": "you can also have some instinct for why smoothness"
+      },
+      {
+        "start": 1453.6,
+        "duration": 1.6,
+        "text": "would make the question easier."
+      },
+      {
+        "start": 1455.2,
+        "duration": 2.1,
+        "text": "What smoothness means in a technical sense"
+      },
+      {
+        "start": 1457.3,
+        "duration": 2.4,
+        "text": "is that you can take as many derivatives of your curve"
+      },
+      {
+        "start": 1459.6,
+        "duration": 2.4,
+        "text": "as you want, but geometrically one of the bits"
+      },
+      {
+        "start": 1462.1,
+        "duration": 2.5,
+        "text": "of significance here is that for smooth curves,"
+      },
+      {
+        "start": 1464.6,
+        "duration": 2.7,
+        "text": "every point has a well-defined tangent line."
+      },
+      {
+        "start": 1467.3,
+        "duration": 2.2,
+        "text": "Now in our proof, think about how much it mattered"
+      },
+      {
+        "start": 1469.6,
+        "duration": 2.3,
+        "text": "that we had clean limiting behavior"
+      },
+      {
+        "start": 1471.9,
+        "duration": 2.7,
+        "text": "as the pair of points got closer and closer together."
+      },
+      {
+        "start": 1474.6,
+        "duration": 1.8,
+        "text": "This was the gun hanging on the wall."
+      },
+      {
+        "start": 1476.4,
+        "duration": 2.6,
+        "text": "It was the constraint for where the edge of the mobius strip"
+      },
+      {
+        "start": 1479.0,
+        "duration": 3.0,
+        "text": "had to land, which was critical for the final result."
+      },
+      {
+        "start": 1482.0,
+        "duration": 2.4,
+        "text": "Now if in addition to tracking the midpoint in distance,"
+      },
+      {
+        "start": 1484.4,
+        "duration": 2.4,
+        "text": "you're also tracking the angle of that line"
+      },
+      {
+        "start": 1486.8,
+        "duration": 2.3,
+        "text": "connecting the pair, then for smooth curves,"
+      },
+      {
+        "start": 1489.1,
+        "duration": 2.4,
+        "text": "the angle also has some clean limiting behavior"
+      },
+      {
+        "start": 1491.5,
+        "duration": 1.6,
+        "text": "as the pair gets close together."
+      },
+      {
+        "start": 1493.2,
+        "duration": 2.7,
+        "text": "Namely, it approaches whatever the angle of the tangent line"
+      },
+      {
+        "start": 1495.8,
+        "duration": 1.6,
+        "text": "at that point is."
+      },
+      {
+        "start": 1497.4,
+        "duration": 2.7,
+        "text": "But for a rough curve, something like a fractal,"
+      },
+      {
+        "start": 1500.1,
+        "duration": 2.8,
+        "text": "there might not be limiting behavior for that angle."
+      },
+      {
+        "start": 1502.9,
+        "duration": 2.3,
+        "text": "What really makes the inscribed square problem hard,"
+      },
+      {
+        "start": 1505.2,
+        "duration": 1.8,
+        "text": "the reason it remains unsolved,"
+      },
+      {
+        "start": 1507.0,
+        "duration": 3.3,
+        "text": "is the case of all of the rough curves like this."
+      },
+      {
+        "start": 1510.3,
+        "duration": 2.4,
+        "text": "The main thing I want you to take away from this lesson"
+      },
+      {
+        "start": 1512.7,
+        "duration": 2.2,
+        "text": "is a sense that when mathematicians talk about shapes"
+      },
+      {
+        "start": 1514.9,
+        "duration": 2.5,
+        "text": "like mobius strips or Klein bottles,"
+      },
+      {
+        "start": 1517.4,
+        "duration": 2.4,
+        "text": "or even stranger higher-dimensional objects,"
+      },
+      {
+        "start": 1519.7,
+        "duration": 2.9,
+        "text": "they aren't just studying bizarreness for its own sake."
+      },
+      {
+        "start": 1522.6,
+        "duration": 2.1,
+        "text": "Sometimes when you're solving a problem"
+      },
+      {
+        "start": 1524.7,
+        "duration": 1.3,
+        "text": "and you're coming up with structures"
+      },
+      {
+        "start": 1526.0,
+        "duration": 1.6,
+        "text": "to help you in that process,"
+      },
+      {
+        "start": 1527.6,
+        "duration": 3.0,
+        "text": "some of those structures are very mind-bending to ponder."
+      },
+      {
+        "start": 1530.5,
+        "duration": 2.2,
+        "text": "And sometimes they're so fun to think about"
+      },
+      {
+        "start": 1532.7,
+        "duration": 2.4,
+        "text": "that those objects trickle their way out of research"
+      },
+      {
+        "start": 1535.0,
+        "duration": 2.2,
+        "text": "and into recreational math outlets."
+      },
+      {
+        "start": 1537.2,
+        "duration": 1.5,
+        "text": "And sometimes in the process,"
+      },
+      {
+        "start": 1538.7,
+        "duration": 3.6,
+        "text": "the original problem solving relevance gets a little bit lost."
+      },
+      {
+        "start": 1542.3,
+        "duration": 2.9,
+        "text": "Another takeaway I hope you have is that a mobius strip"
+      },
+      {
+        "start": 1545.2,
+        "duration": 2.6,
+        "text": "is not really any one particular surface."
+      },
+      {
+        "start": 1547.8,
+        "duration": 2.7,
+        "text": "This, this, and this are also mobius strips,"
+      },
+      {
+        "start": 1550.6,
+        "duration": 3.1,
+        "text": "as is the more abstract idea of unordered pairs"
+      },
+      {
+        "start": 1553.7,
+        "duration": 1.6,
+        "text": "of points on a loop."
+      },
+      {
+        "start": 1555.2,
+        "duration": 1.4,
+        "text": "Another case where that one might come up"
+      },
+      {
+        "start": 1556.7,
+        "duration": 3.4,
+        "text": "is in describing every possible musical interval."
+      },
+      {
+        "start": 1560.0,
+        "duration": 3.6,
+        "text": "This is getting at the idea of a topological space,"
+      },
+      {
+        "start": 1563.6,
+        "duration": 2.1,
+        "text": "which is not so much a particular shape"
+      },
+      {
+        "start": 1565.7,
+        "duration": 2.3,
+        "text": "as it is an infinite family of shapes"
+      },
+      {
+        "start": 1568.0,
+        "duration": 3.3,
+        "text": "all connected by a certain notion of equivalence."
+      },
+      {
+        "start": 1571.3,
+        "duration": 2.7,
+        "text": "Defining what exactly a topological space is"
+      },
+      {
+        "start": 1574.0,
+        "duration": 1.9,
+        "text": "and what topology is for that matter"
+      },
+      {
+        "start": 1576.0,
+        "duration": 1.0,
+        "text": "is a little bit subtle"
+      },
+      {
+        "start": 1577.0,
+        "duration": 0.9,
+        "text": "and it's one of those things"
+      },
+      {
+        "start": 1577.9,
+        "duration": 1.9,
+        "text": "where the formal definitions don't really"
+      },
+      {
+        "start": 1579.8,
+        "duration": 2.7,
+        "text": "shed a lot of light on it, at least not immediately."
+      },
+      {
+        "start": 1582.5,
+        "duration": 3.0,
+        "text": "But one way to describe what topology is about"
+      },
+      {
+        "start": 1585.5,
+        "duration": 1.6,
+        "text": "is that it's a game of understanding"
+      },
+      {
+        "start": 1587.1,
+        "duration": 2.6,
+        "text": "continuous associations between things"
+      },
+      {
+        "start": 1589.7,
+        "duration": 2.5,
+        "text": "and understanding what is or is not possible"
+      },
+      {
+        "start": 1592.2,
+        "duration": 1.8,
+        "text": "under those associations."
+      },
+      {
+        "start": 1594.0,
+        "duration": 2.4,
+        "text": "All of the famous shapes from this field of study"
+      },
+      {
+        "start": 1596.4,
+        "duration": 2.2,
+        "text": "are better thought of as representatives"
+      },
+      {
+        "start": 1598.6,
+        "duration": 1.7,
+        "text": "of huge families of shapes"
+      },
+      {
+        "start": 1600.2,
+        "duration": 2.4,
+        "text": "that all have essentially the same kind of behavior"
+      },
+      {
+        "start": 1602.6,
+        "duration": 1.9,
+        "text": "under continuous maps."
+      },
+      {
+        "start": 1604.5,
+        "duration": 2.0,
+        "text": "And the reason that mathematicians get really excited"
+      },
+      {
+        "start": 1606.5,
+        "duration": 2.7,
+        "text": "about bizarre properties and impossibilities"
+      },
+      {
+        "start": 1609.2,
+        "duration": 1.7,
+        "text": "is not just aesthetic."
+      },
+      {
+        "start": 1610.8,
+        "duration": 2.5,
+        "text": "It's because when you're looking for logical proofs,"
+      },
+      {
+        "start": 1613.3,
+        "duration": 3.8,
+        "text": "constraints and impossibilities are your fuel for progress."
+      },
+      {
+        "start": 1618.8,
+        "duration": 1.6,
+        "text": "If you enjoy this kind of video,"
+      },
+      {
+        "start": 1620.3,
+        "duration": 1.7,
+        "text": "there's a playlist I put together on this channel"
+      },
+      {
+        "start": 1622.0,
+        "duration": 1.6,
+        "text": "full of a lot of other neat proofs"
+      },
+      {
+        "start": 1623.6,
+        "duration": 2.7,
+        "text": "and puzzle solutions that come out of left field."
+      }
+    ],
+    "full_text": "Here's a question that nobody in the world knows the answer to. Suppose you have some closed, continuous curve, which essentially means some squiggle you could draw on paper without lifting the pen, that ends where it starts. If you can find four points somewhere on this loop that make the vertices of a square, it's called an inscribed square of the loop. And the unsolved question is whether every possible closed, continuous loop like this necessarily has an inscribed square. The question was originally posed by auto-topilets in 1911, and it's commonly known as the inscribed square problem. One of my all-time favorite pieces of math, easily in the top five, is a very beautiful proof for a simpler version of this question, asking instead whether you can necessarily find an inscribed rectangle. The argument is originally due to Herbert von, and as a spoiler, our discussion here is going to lead you to think about this shape right here, what's known as a client bottle, but it won't come up at some curiosity or a trinket. It arises as a natural problem-solving tool. One of the earliest videos that I made for this channel was actually about this proof. And I'm making this video as a kind of second edition to that one. I realize second editions are much less of a thing for YouTube videos than they are for books, but part of my motivation here is that there's been more research since that original video that's very much worth discussing. Another motivation is that there's numerous caveats and interesting connections that are both beautiful and mind-broadening that are definitely worth including. And aside from that, given that it's one of my favorite pieces of math, I kind of just want to take a stab at animating it and motivating each one of the steps as best as I know how. Now, some of you might ask why on earth anyone would care about proving that any closed loop has an inscribed rectangle. I personally don't know of any application. Frankly, I would be surprised if there was one, but I think many of you know that engaging with challenging puzzles, even when they're pure puzzles, has a way of sharpening your problem-solving instincts in a way that can be carried over to other practical applications later. But I can also give you a much more specific reason why I love this particular proof. It's something I first saw a long time ago, and I remember it being the first time that I felt a sense for what topology is actually all about. You see, in a lot of recreational math settings, topology is sometimes presented as something like a study of bizarre shapes. A common classroom activity might be to apply a half twist to a thin piece of paper and glue the ends together, forming what's called a mobius strip. You might be told this is what's called a non-orientable surface. Loosely speaking, this means there's no notion of an inner side or an outer side. The whole thing just has one side. Topology is also often presented as a sort of rubber sheet geometry, where shapes are considered the same if you can deform one into another without tearing it. Neither of these notions, in my opinion, really captures what it's actually about. And when I was growing up, I remember these kinds of examples left a frustrating open question. How is this math? How does any of this actually help you solve problems? If you stick with me to the end here, you'll see how these shapes and their bizarre properties are not just idle curiosities, but they're actual tools for logic and deduction. The first step in proving that any closed loop contains a rectangle is gonna be to reframe the question just a little bit. Instead of thinking about four points that are the vertices of a rectangle, think about searching for two distinct pairs of points such that the lines connecting each pair have the same midpoint and they have the same length. Hopefully it's not too hard to convince yourself that this really is the same thing as searching for a rectangle. If I told you, hey, I found two line segments somewhere out in space, and I further specify that both of them have the same center and also that both segments have the same length than the four end points of those two different lines have to form a rectangle. If you want, you could try to pause and ponder to rigorously prove this. It's a relatively straightforward geometry exercise. Given some arbitrary closed loop, what you and I are going to do is somehow think about all possible pairs of points on that loop. For any one of these pairs, we care about two things. The first is where it's midpoint sits, which you might think of as two numbers worth of data like the x, y coordinates on the plane where the loop sits. The other thing we care about is the distance between those points, which is another data point. Now, if you're a mathematician, and you see three numbers worth of information like this, it is a very natural step to try packaging them together and think of that data as being a single point in a three-dimensional space. In our example, if you imagine the loop sitting on kind of an x, y plane inside that space, and its midpoint has some coordinates x, y, then this 3D point that we care about, the one packaging x, y, and d, could be thought about as a point directly above that midpoint, such that the distance off the plane matches the distance between the pair of points on the loop. Some other pair of points on the loop would correspond to some other point in three-dimensional space. And in essence, what we have here is a mapping, a mapping from pairs of points on the loop to three-dimensional space. The important feature of this mapping that we're gonna rely on is that it's continuous. And essentially what this means is if you just slightly wiggle the input, slightly nudging that pair of points, the output only slightly wiggles as well. There are never any sudden jumps. In our search for inscribed rectangles, with respect to this mapping, it amounts to searching for a kind of coincidence. When two distinct pairs of points map to the same output, since by definition, that would mean they have to have the same midpoint and be the same distance apart, which, like I said, means they have to form a rectangle. So if you imagine yourself as a mathematician mulling this over, you wanna know how you can prove that this kind of collision would happen. Looking over all possible pairs of points on the loop, and all their corresponding three-dimensional outputs, how could you know for sure that a collision must happen? You might complain that this all feels like stating the same question just in more complicated language, but where it really starts to feel qualitatively different, is if I invite you to think about the set of all possible outputs of this map, every possible point in 3D space, they correspond to some pair of loop points like this. Taken together, they form this kind of wild surface, which looks like some incredibly beautiful, but complicated, frank, gary architectural design. Even when I render this out, personally, I find it kinda hard to even wrap my mind around what exactly I'm looking at. What I found helpful was to look at cross sections. Near the bottom, the cross sections of this surface look approximately like the loop itself, which is a surprisingly important fact that we'll get back to, and then let me pull up those two pairs of points again, and position them so that they sit on some rectangle vertices. And if I bring up the cross section to the height of that corresponding output, notice what it looks like. Around that point, it kinda feels like the surface is crossing through itself. And in fact, for the example I'm showing, there's not just one point of intersection, there's this continuous curve of self-intersection points, corresponding to a continuous family of inscribed rectangles in the loop. This is a really cool way to think about inscribed rectangles. Every point you see in the surface that feels like self-intersection in this way corresponds to some inscribed rectangle in the loop. So far, all of this has just been illustrated with a single example loop, but keep in mind every possible loop that you could draw on the plane has its own corresponding unique surface sitting above it. Proving that this kind of self-intersection has to happen no matter what loop you start with, really comes down to getting to know this surface and who it really is and what it's all about. In the first edition of this lesson, many commenters asked, what would this surface look like for a circle? And in this case, the result is deceptively simple. It looks something like a dome. And at first, this might seem like it has no self-intersection. But the imperfections with how the surface is being rendered do give a little bit of a hint that something funny is happening near the very top of that dome. And if you think about it, a circle certainly has inscribed rectangles. In fact, it has infinitely many of them and all of them have a midpoint at the center of that circle and the length of the diagonal for those rectangles is always equal to the circles diameter. So what this means is that the function we define from pairs of loop points into 3D space maps many, many different points, infinitely many, onto this single point on the top of the dome. So we certainly have the collision that we're looking for, infinitely many in fact. But for this example, it doesn't have that same look of a ghostly sheet kind of passing through a self in space. If I squished the circle to become an ellipse, you can see how that single point of many intersections becomes a vertical line of self-intersections. And I'll invite you to pause and ponder to think about why that might be the case. The point is, just keep in mind when I use this phrase self-intersection, what I'm really getting at is the idea of two different pairs of points mapping to the same output. In almost all cases, that looks like a surface passing through itself, but it's possible for it to look different. Another point that's maybe worth emphasizing is that the surface you're looking at is not a function graph. A function graph in three dimensions comes from functions that have two numbers as an input and one number as the output. Right here we have something notably more complicated. The inputs of the function are pairs of points on the loop, and the outputs are triplets of numbers, full points in 3D space. What you're looking at is the set of all outputs. It's not a graph. There's a famous quote from the author Anton Chekov giving advice about writing, where he says, if in the first act you have hung a pistol on the wall, then in the following one, it should be fired. His main point is about only including strictly necessary information, but another principle implicit is that the seeds for dramatic action should be planted early. In our story here about topology and proving and scribed rectangles, I want to draw your attention to a certain gun hanging on the wall. I mentioned how near the plane of the curve, the cross sections of the surface look approximately like the curve itself. Why is that? Well, think about a pair of points that are really close together. Because the distance between them is small, the output has a very small z-coordinate, and the midpoint is close to both of those points themselves. In the extreme, if you have a pair of points that's really just the same spot on the curve listed twice, then the output of this mapping is that same point on the curve. Remember that. All pairs that look like x, x correspond to points on the curve itself. So we have this wild surface we're trying to prove self-intersections. And the next step for how we're going to do this is to come up with a second, very natural way to associate pairs of points on a loop with a certain other surface. The final argument is then going to come down to understanding how this other mystery surface can or cannot be embedded into three dimensions without self-intersection. To set this up, it helps to give the loop a kind of internal coordinate system. Let's say associating each point on the loop with a number between zero and one. Geometrically, an association like this is a little bit like snipping the loop at some point and then flattening it out onto the unit interval of the number line. Every point of the loop is associated with a unique number from zero to one and vice versa with the single exception of the fact that both zero and one map to the same point of the loop. So for this to be a continuous association in both directions, something we're gonna care a lot about, you might imagine wanting to glue that number zero to the number one. You'll see in a moment why this is important. Now of course we don't care about single points on the loop, our whole study here is about pairs of points on the loop. And if you have some second point, naturally you might think of a second unit interval may be along a y-axis. So here the x-axis gives a coordinate for the first point and the y-axis gives a coordinate for that second point and the pair of points taken together would correspond to a single point in this unit square where the two-dimensional coordinates of that point essentially encode which two points on the loop we're talking about. This association between individual points in the square and pairs of points on the loop is almost a continuous one to one map. But again, there's some awkwardness around the edges based on the fact that the coordinates zero and one really describe the same thing. For example, look at all of the points on the left here where the x-coordinate is zero corresponding to this vertical line. All those points really represent the same loop pair as the ones on the right side where the x-coordinate is one, this other vertical line here. I'll color both of them blue and I'll put some arrows on there to help remember the orientation. Similarly, all of the points whose y-coordinate is zero, this bottom line here, represent the same loop pairs as the point whose y-coordinate is one up at the top. If you're thinking topologically, you don't just wanna record this, you wanna somehow represent it geometrically. And the way we'll do this is to glue both of those blue lines together, which you might think of as giving this tube. The green lines have now turned into these circles at the end of the tube and to glue those together, it requires curling the tube around on itself, giving us this surface of a donut shape, which is commonly called a torus. And I wanna point out, it's not like we landed here because of some random pondering about donuts and coffee cups. The surface seems to be a really natural representation of all possible pairs of points on the loop. And what I mean when I say natural here is essentially two things. First of all, the mapping goes both ways. Every point of the torus corresponds to a unique pair of points on the loop and each pair of points on the loop gives us a unique point on the torus. Secondly, the association is continuous, meaning if I wiggle some point on the torus, it results in only a slight wiggle to the corresponding pair of points on the loop and vice versa. There are never any sudden jumps. But actually, the torus is not quite the right surface for our purposes. Remember why we're doing any of this? We're looking for two distinct pairs of points on an arbitrary loop that have the same midpoint and the same distance apart. But it matters whether we care about the order of a pair of points. If you consider the pair a comma b to be distinct from the pair b comma a, then that would give you a trivial example of two distinct pairs of points that have the same midpoint and the same distance apart. But this is like saying that you can always find an inscribed rectangle as long as you're okay with an infinitely thin rectangle. Clearly, what we want is to prove that there are non-trivial rectangles. And for that, you need to think of the pair of points as being unordered in the sense that a comma b and b comma a should really refer to the same thing. So looking back at our unit square, you now want to somehow record the fact that every point with coordinates x comma y should really be considered the same as the point with coordinates y comma x. If you take a moment to think about it, what you essentially want here is that all of the points on the square that are reflected along this diagonal line should be considered as representing the same pair of points on the loop. And again, you can think of this with a kind of gluing where we're gonna fold the square along that diagonal line kind of like a grilled cheese sandwich. And when you do this, I wanna draw your attention again to that gun hanging on the wall. Every pair of points that looks like x comma x corresponds to a point somewhere on the crease of this fold, this diagonal line, which from this point on, I'm gonna be coloring in red. You still need to glue the edges together as a way to remember that zero and one really mapped to the same point on the loop. But after our diagonal folds, we're faced with a real puzzle here. Notice the orientation. How exactly to do this is puzzling enough to almost feel contradictory. But sometimes with topology, you have to take a step back in order to take a step forward. The trick here is to cut this piece along another diagonal and we're gonna add some new arrows to remember to glue that cut back together in a moment. Doing this lets you glue together the original two arrows which gives us this square with two edges that still need to be glued, but notice that the orientation of the remaining arrows are reversed. So to glue those back together, what you need to do is somehow introduce a single half twist and this is exactly the construction for a mobius strip. That is really cool to me. And again, I wanna emphasize this is not some arbitrary play task with construction paper. This shape arose for us very naturally. It's a way to geometrically represent all possible unordered pairs of points on a loop. And again, what I mean by natural here is that each point of the strip corresponds to a unique pair on the loop and vice versa and the relationship is continuous. Small nudges on one side, correspond to small nudges on the other. The other thing I wanna draw your attention to is the red edge of that mobius strip. Originally, this is what came from the diagonal in that unit square. It represents all pairs of points that look like X, X. That is pairs that are really the same point which is listed twice. As a final step, connect this with what we were doing earlier where we constructed that strange, frank, gary-looking surface encoding all of the loop pair data that we cared about. Now, you also know that unordered pairs of points have this natural correspondence with a mobius strip in the sense that you have a two-way continuous association. What that means is there's necessarily a continuous function from the mobius strip onto this surface in 3D space. To animate this, let me show you what it looks like if I move every point of that surface back to its corresponding point on the mobius strip, the one associated with the same pair of loop points. And here it is going the other way, very explicitly showing the map from the mobius strip onto this surface. But it's not just any map, focus one last time on the gun hanging on the wall. The edge of this mobius strip, which remember corresponds to all the pairs that look like X, X. That has to land on the loop itself, meaning it has to end up confined to the X, Y plane. And if you take a moment and play around with the idea in your head of mobius strips and how they can fit into 3D space, you might find it entirely believable that it's impossible to embed a mobius strip into 3D in such a way that its edge stays confined to a plane like this, at least not without somehow crossing through itself. If this claim is true, we have our desired result. Self-intersection in this context means two distinct points from the strip have to land on the same point of the surface. And in turn, that means there's two distinct pairs of points that have the same midpoint and the same distance, and hence they form a rectangle. While this claim is very believable, proving this kind of statement from scratch can be a little bit tricky. In fact, not only is it tricky, but stated so far, the claim is not even true. After the first edition of this lesson, the mathematician Dan Asimov reached out to me to point out a construction that he made for embedding a mobius strip into 3D in such a way that its boundary not only ends up on a plane, but it ends up equaling a circle. Here, that's a little bit of a mind warp. Let me play it for you one more time. For me at least, I find this very trippy to think about, and even after seeing the transition, I have trouble getting my brain to parse that what I'm looking at is a mobius strip, but that's what it is. The more familiar strip with a twist shape that we often see is just one out of infinitely many ways that you could represent what this mathematical object really is. This bizarre snail shell looking thing is no less valid. The existence of an embedding like this would provide a fatal counter example to our desired result. But notice how in this example, the interior of the surface goes both above and below the circle, but in the surface be constructed with the loop pairs, all of the points are necessarily above the xy plane by definition. So what we really wanna prove is that it's impossible to map a mobius strip into 3D in such a way that its edge is confined to the xy plane and the interior of the strip is strictly above the plane. If that's impossible, at least not without self-intersection, we have our result. Again, proving this rigorously from scratch can be tricky, but what I can do is offer a connection to something that many of you might have seen before. So far, what we know is that this strange surface is really a mobius strip, and I want you to consider the reflection of the surface underneath the plane. Taken together, this surface and its reflection underneath form some new closed surface. Essentially, it's whatever you get if you glue the edge of one mobius strip to the edge of another. So this raises the question, what do you get when you glue together the edges of two mobius strips? Well, one really nice way to think about this is to look back at the diagram that we had earlier, the one that we eventually cut and glued to be the strip itself. If you take a reflection of that, giving us another thing that will become a mobius strip, you can nicely glue these together along that red edge. To figure out what surface this represents, you basically do the same trick that we did earlier. You first cut along this other diagonal, recording the new cut with some new colored arrows, reminding us how we're gonna need to glue later. This lets you flip one of the pieces so that we could glue, for example, the teal edges together. And what you're left with is something very similar to the tourist diagram. You can start the same way where you curl it around to glue, for example, those pink edges together, making a tube. But the difference between this and a tourist is that those circular ends have opposite orientations, which makes it kind of awkward to glue them together maintaining that orientation. One way that you could do this is to pass one side of that tube through the tube itself so that it can meet up with the other end kind of coming from the other direction. What you get as a result is known as a Klein bottle. This is kind of a celebrity shape in math, very famous because of the bizarre way that it has no clear interior or exterior. Any point that seems to be on the inside could be moved around in some way to end up on the outside. If you know about Klein bottles, one of the main things you might know is that it's impossible to properly represent them in three dimensions, without somehow having the surface intersect itself. And higher dimensions, it can live much more comfortably, but down here, there's just no way to make it work. This is a more general fact about any closed, non-orientable surface. And what's very satisfying in my opinion is how for us right here, this fact is relevant for an actual proof. If you believe that Klein bottles can't be represented in 3D without self-intersection, it means that the surface we constructed over our loop viewed together with its reflection must have some kind of self-intersection. And based on the construction of the surface, that means we have two distinct pairs of points with the same midpoint and the same distance apart and hence a rectangle. For the extra curious among you, I'll leave up on screen an argument for why exactly any closed, non-orientable surface cannot exist in 3D without intersecting itself. Stepping back though, I want to talk a little bit more about the unsolved problem, proving that any loop necessarily has not only an inscribed rectangle, but specifically an inscribed square. Given the entire proof that we just went through, a natural thought that you might have is to focus not only on the midpoint and the distance between a given pair of points, but to also record the angle of that line segment. Because if you had two such line segments that not only share a midpoint and a length, but also differ by 90 degrees, that would necessarily mean that they form a square. If sitting there watching this right now, that gives you an instinct to somehow think about embedding mobius strips into four dimensions, since this now has four numbers worth of information, well then you would have very good instincts indeed. In 2020, the mathematicians Joshua Green and Andrew Lobb proved a really nice extension of this result in the specific case of smooth curves, which is contrasted with rough ones like fractals. I'll talk a little bit more about smoothness in a moment, but what Green and Lobb showed was how in the special case, not only can you always find a square that had actually been known for a while, but you can find rectangles of every possible aspect ratio. And if you look into their paper, which I'll link to in the description, it involves discussion of embedding mobius strips and climb bottles into a certain four-dimensional space. And while that would sound just weird and kind of wild without any background, hopefully now you have an instinct for why that kind of approach is not only sensible, but utterly reasonable. If you understand the rectangle proof the one that we walked through in this video, you can also have some instinct for why smoothness would make the question easier. What smoothness means in a technical sense is that you can take as many derivatives of your curve as you want, but geometrically one of the bits of significance here is that for smooth curves, every point has a well-defined tangent line. Now in our proof, think about how much it mattered that we had clean limiting behavior as the pair of points got closer and closer together. This was the gun hanging on the wall. It was the constraint for where the edge of the mobius strip had to land, which was critical for the final result. Now if in addition to tracking the midpoint in distance, you're also tracking the angle of that line connecting the pair, then for smooth curves, the angle also has some clean limiting behavior as the pair gets close together. Namely, it approaches whatever the angle of the tangent line at that point is. But for a rough curve, something like a fractal, there might not be limiting behavior for that angle. What really makes the inscribed square problem hard, the reason it remains unsolved, is the case of all of the rough curves like this. The main thing I want you to take away from this lesson is a sense that when mathematicians talk about shapes like mobius strips or Klein bottles, or even stranger higher-dimensional objects, they aren't just studying bizarreness for its own sake. Sometimes when you're solving a problem and you're coming up with structures to help you in that process, some of those structures are very mind-bending to ponder. And sometimes they're so fun to think about that those objects trickle their way out of research and into recreational math outlets. And sometimes in the process, the original problem solving relevance gets a little bit lost. Another takeaway I hope you have is that a mobius strip is not really any one particular surface. This, this, and this are also mobius strips, as is the more abstract idea of unordered pairs of points on a loop. Another case where that one might come up is in describing every possible musical interval. This is getting at the idea of a topological space, which is not so much a particular shape as it is an infinite family of shapes all connected by a certain notion of equivalence. Defining what exactly a topological space is and what topology is for that matter is a little bit subtle and it's one of those things where the formal definitions don't really shed a lot of light on it, at least not immediately. But one way to describe what topology is about is that it's a game of understanding continuous associations between things and understanding what is or is not possible under those associations. All of the famous shapes from this field of study are better thought of as representatives of huge families of shapes that all have essentially the same kind of behavior under continuous maps. And the reason that mathematicians get really excited about bizarre properties and impossibilities is not just aesthetic. It's because when you're looking for logical proofs, constraints and impossibilities are your fuel for progress. If you enjoy this kind of video, there's a playlist I put together on this channel full of a lot of other neat proofs and puzzle solutions that come out of left field."
+  }
+}

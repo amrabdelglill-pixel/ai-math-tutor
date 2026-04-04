@@ -1,0 +1,3499 @@
+{
+  "video_id": "ldxFjLJ3rVY",
+  "video_title": "How (and why) to take a logarithm of an image",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 2692.0,
+  "view_count": 1388467,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.8,
+        "text": "Whenever I'm making one of these videos, there's sometimes a special moment where the"
+      },
+      {
+        "start": 3.8,
+        "duration": 4.7,
+        "text": "act of animating involves solving a whole bunch of little technical puzzlers, and then"
+      },
+      {
+        "start": 8.5,
+        "duration": 3.9,
+        "text": "the underlying math I'm trying to explain, clicks for me in a way that it hadn't before"
+      },
+      {
+        "start": 12.4,
+        "duration": 2.0,
+        "text": "once I see it alive on screen."
+      },
+      {
+        "start": 14.5,
+        "duration": 4.4,
+        "text": "The best versions of those moments often tell me when a video is gonna be one of my favorites."
+      },
+      {
+        "start": 18.8,
+        "duration": 8.8,
+        "text": "And putting together the end of this piece right here was one such time when I got that feeling."
+      },
+      {
+        "start": 27.6,
+        "duration": 5.1,
+        "text": "Our story doesn't actually start in the math classroom today, we begin in the art room."
+      },
+      {
+        "start": 32.8,
+        "duration": 4.3,
+        "text": "Imagine standing in a gallery, looking at a picture of a boat in a harbor, and the"
+      },
+      {
+        "start": 37.0,
+        "duration": 4.8,
+        "text": "whole world kind of warps as your gaze shifts upwards and to the right, where you see a"
+      },
+      {
+        "start": 41.8,
+        "duration": 2.0,
+        "text": "village on this waterfront."
+      },
+      {
+        "start": 43.8,
+        "duration": 4.8,
+        "text": "Among the tightly clustered buildings, the world warps even more as your gaze shifts downwards"
+      },
+      {
+        "start": 48.6,
+        "duration": 4.6,
+        "text": "to the entrance of one building, leading to a hallway full of artwork."
+      },
+      {
+        "start": 53.3,
+        "duration": 5.5,
+        "text": "And at the end of this hall, here you are again, staring at a picture of a boat."
+      },
+      {
+        "start": 58.8,
+        "duration": 7.3,
+        "text": "This is MC Escher's 1956 lithograph The Print Gallery, or in Dutch, Print Tententunstilling."
+      },
+      {
+        "start": 66.1,
+        "duration": 5.0,
+        "text": "In a letter that he wrote to his son, describing his creation of a young man looking with interest"
+      },
+      {
+        "start": 71.0,
+        "duration": 4.9,
+        "text": "at a print that features himself, Escher called this the most peculiar thing I have ever"
+      },
+      {
+        "start": 76.0,
+        "duration": 1.0,
+        "text": "done."
+      },
+      {
+        "start": 77.0,
+        "duration": 2.2,
+        "text": "Which for him is saying a lot."
+      },
+      {
+        "start": 79.1,
+        "duration": 4.6,
+        "text": "Escher's art is widely loved around the world, frequently featuring paradoxical themes,"
+      },
+      {
+        "start": 83.7,
+        "duration": 4.0,
+        "text": "or uniquely satisfying geometric patterns with some kind of character."
+      },
+      {
+        "start": 87.8,
+        "duration": 5.6,
+        "text": "This love is especially pronounced among mathematicians, since his art often touches on surprisingly"
+      },
+      {
+        "start": 93.3,
+        "duration": 4.9,
+        "text": "deep concepts within math, despite the fact that Escher himself had no formal training"
+      },
+      {
+        "start": 98.2,
+        "duration": 1.4,
+        "text": "in the field."
+      },
+      {
+        "start": 99.6,
+        "duration": 4.2,
+        "text": "The Print Gallery offers a perfect example of this unexpected depth."
+      },
+      {
+        "start": 103.8,
+        "duration": 5.4,
+        "text": "In 2003, the mathematicians, Dismitt and Lentstra, offered a delightful analysis of what's"
+      },
+      {
+        "start": 109.2,
+        "duration": 5.6,
+        "text": "really going on in this piece, and the mind-bending self-contained loop that Escher managed to achieve."
+      },
+      {
+        "start": 114.8,
+        "duration": 5.5,
+        "text": "One of my main goals with this video is to offer a visual unpacking of their analysis,"
+      },
+      {
+        "start": 120.3,
+        "duration": 5.1,
+        "text": "aiming as always to give you a feeling that you could have rediscovered this yourself."
+      },
+      {
+        "start": 125.4,
+        "duration": 4.3,
+        "text": "Something that unexpectedly pops out of this analysis is an answer to the question of what"
+      },
+      {
+        "start": 129.6,
+        "duration": 3.3,
+        "text": "exactly should go in the middle of this picture."
+      },
+      {
+        "start": 133.0,
+        "duration": 2.8,
+        "text": "At first, that might sound like an incoherent question."
+      },
+      {
+        "start": 135.8,
+        "duration": 3.2,
+        "text": "If you come at it from the upper right, it feels like it should be featuring buildings"
+      },
+      {
+        "start": 139.0,
+        "duration": 4.0,
+        "text": "in the village, but coming at it from the left, it looks more like part of the picture"
+      },
+      {
+        "start": 143.0,
+        "duration": 1.0,
+        "text": "frame."
+      },
+      {
+        "start": 144.0,
+        "duration": 4.3,
+        "text": "Come at it from below, though, and it feels more fitting to be part of the gallery itself."
+      },
+      {
+        "start": 148.3,
+        "duration": 5.8,
+        "text": "Somehow all of the ambiguity about where exactly you are in this whole scene is compressed"
+      },
+      {
+        "start": 154.0,
+        "duration": 2.4,
+        "text": "into that blank circle in the middle."
+      },
+      {
+        "start": 156.4,
+        "duration": 4.1,
+        "text": "And just for fun, since we're in the 2020s, I let a diffusion model take a stab at filling"
+      },
+      {
+        "start": 160.5,
+        "duration": 1.0,
+        "text": "this in."
+      },
+      {
+        "start": 161.5,
+        "duration": 4.3,
+        "text": "And surprisingly, it struggles immensely, it just doesn't get it at all."
+      },
+      {
+        "start": 165.8,
+        "duration": 2.8,
+        "text": "And giving the poor machine some credit, of course it struggles."
+      },
+      {
+        "start": 168.6,
+        "duration": 4.3,
+        "text": "This feels like an intrinsically ambiguous and ill-defined part of the scene."
+      },
+      {
+        "start": 172.9,
+        "duration": 4.6,
+        "text": "But nevertheless, by the end, I hope that you'll agree there is one, and really only"
+      },
+      {
+        "start": 177.5,
+        "duration": 4.9,
+        "text": "one, completion, that feels like the right puzzle piece that you can slot in."
+      },
+      {
+        "start": 182.4,
+        "duration": 4.1,
+        "text": "Before diving into the math, I want to give you a purely intuitive description for how Escher"
+      },
+      {
+        "start": 186.6,
+        "duration": 3.9,
+        "text": "actually made this piece, which breaks up into three different steps."
+      },
+      {
+        "start": 190.5,
+        "duration": 4.9,
+        "text": "Step 1 is to start out with a straightened out version of the same general concept where"
+      },
+      {
+        "start": 195.4,
+        "duration": 6.1,
+        "text": "a man is looking at a picture that picture contains a harbor, which contains a town, that"
+      },
+      {
+        "start": 201.5,
+        "duration": 4.1,
+        "text": "contains a print gallery, that contains that same man."
+      },
+      {
+        "start": 205.6,
+        "duration": 5.2,
+        "text": "And so on and so forth, you could zoom in forever to your heart's content."
+      },
+      {
+        "start": 210.7,
+        "duration": 4.5,
+        "text": "This idea of a self-similar image, where the picture is contained inside itself, has"
+      },
+      {
+        "start": 215.2,
+        "duration": 4.7,
+        "text": "a special name to graphic designers, it's known as the Drasta effect, named after a"
+      },
+      {
+        "start": 220.0,
+        "duration": 2.7,
+        "text": "cocoa company that featured it in its branding."
+      },
+      {
+        "start": 222.6,
+        "duration": 4.0,
+        "text": "In fact, this seems to have been a somewhat common marketing gimmick for all kinds of early"
+      },
+      {
+        "start": 226.7,
+        "duration": 2.0,
+        "text": "20th century products."
+      },
+      {
+        "start": 228.7,
+        "duration": 4.9,
+        "text": "The self-similar Drasta image that Escher was using, though, involves a much, much deeper"
+      },
+      {
+        "start": 233.6,
+        "duration": 6.6,
+        "text": "zoom than any of these, where the self-similar copy is 256 times smaller than the original."
+      },
+      {
+        "start": 240.2,
+        "duration": 3.2,
+        "text": "You'll see where that number comes from in just a minute."
+      },
+      {
+        "start": 243.4,
+        "duration": 5.3,
+        "text": "The genius of Escher is that he somehow intuitively realized there must be a way to take this"
+      },
+      {
+        "start": 248.7,
+        "duration": 6.3,
+        "text": "concept of a picture nested inside itself, and turn it into this warped loop where the"
+      },
+      {
+        "start": 255.0,
+        "duration": 6.2,
+        "text": "zooming in happens implicitly, as a viewer's gaze wanders around the circle."
+      },
+      {
+        "start": 261.2,
+        "duration": 3.9,
+        "text": "By the way, you might be wondering where I got this straightened out version, and the"
+      },
+      {
+        "start": 265.1,
+        "duration": 4.1,
+        "text": "answer is that those two mathematicians I referenced generously let us use it."
+      },
+      {
+        "start": 269.2,
+        "duration": 4.0,
+        "text": "And this is something they actually reverse engineered from the original Escher piece, using"
+      },
+      {
+        "start": 273.3,
+        "duration": 3.9,
+        "text": "the help of two Dutch artists Hans Richter and Jacqueline Hofstra."
+      },
+      {
+        "start": 277.2,
+        "duration": 3.2,
+        "text": "The way they reverse engineered it is actually super interesting."
+      },
+      {
+        "start": 280.4,
+        "duration": 4.5,
+        "text": "In a certain manner of speaking, it involves taking the logarithm of the original piece."
+      },
+      {
+        "start": 284.9,
+        "duration": 4.0,
+        "text": "I recognize that sentence probably sounds like nonsense right now, but later on in this"
+      },
+      {
+        "start": 288.9,
+        "duration": 2.6,
+        "text": "video, I promise that will make a abundant sense."
+      },
+      {
+        "start": 291.5,
+        "duration": 5.3,
+        "text": "Now to outline the basic idea for how Escher made this loop, I want to use an example that's"
+      },
+      {
+        "start": 296.8,
+        "duration": 4.0,
+        "text": "simpler than the one that he was working with, so we'll pull up this custom self-similar"
+      },
+      {
+        "start": 300.8,
+        "duration": 5.4,
+        "text": "Drasta image, which has a pie creature looking at a framed picture of a house where that"
+      },
+      {
+        "start": 306.3,
+        "duration": 1.9,
+        "text": "same pie creature lives."
+      },
+      {
+        "start": 308.2,
+        "duration": 4.6,
+        "text": "In this example, the self-similar copy is only 16 times smaller than the original, and"
+      },
+      {
+        "start": 312.8,
+        "duration": 3.2,
+        "text": "this just makes everything much easier to see all at once."
+      },
+      {
+        "start": 316.0,
+        "duration": 4.0,
+        "text": "What I'll do is keep a separate workspace on the right here to sketch out the general"
+      },
+      {
+        "start": 320.0,
+        "duration": 1.6,
+        "text": "goal we have in mind."
+      },
+      {
+        "start": 321.6,
+        "duration": 4.8,
+        "text": "Where the way you might think about it is that you want to distribute that 16 fold zoom"
+      },
+      {
+        "start": 326.4,
+        "duration": 4.2,
+        "text": "in factor across the four corners of the square."
+      },
+      {
+        "start": 330.6,
+        "duration": 4.7,
+        "text": "For example, let's say you want the pie creature itself to appear about at the same size in"
+      },
+      {
+        "start": 335.4,
+        "duration": 1.6,
+        "text": "the lower left corner."
+      },
+      {
+        "start": 337.0,
+        "duration": 4.9,
+        "text": "Then if you zoom in by a factor of two in the original, we'll take what would be in the"
+      },
+      {
+        "start": 341.9,
+        "duration": 5.6,
+        "text": "upper left of that zoomed version and then place it in the upper left of our workspace."
+      },
+      {
+        "start": 347.5,
+        "duration": 5.0,
+        "text": "Similarly, zoom in by another factor of two and then take the upper right of that zoomed"
+      },
+      {
+        "start": 352.5,
+        "duration": 6.1,
+        "text": "in version and now place an expanded version of that in the upper right of our workspace."
+      },
+      {
+        "start": 358.6,
+        "duration": 3.5,
+        "text": "Finally, one more step zoom in by another factor of two."
+      },
+      {
+        "start": 362.1,
+        "duration": 3.7,
+        "text": "Take what's in the lower right of that zoomed in version, blow it up and place it in"
+      },
+      {
+        "start": 365.8,
+        "duration": 2.7,
+        "text": "the lower right of our workspace."
+      },
+      {
+        "start": 368.4,
+        "duration": 4.8,
+        "text": "These four cut out corners give a rough idea of what we want to create here."
+      },
+      {
+        "start": 373.3,
+        "duration": 4.6,
+        "text": "As long as you can find a smooth way to fill in the gaps between them, then as the onlookers"
+      },
+      {
+        "start": 377.8,
+        "duration": 5.8,
+        "text": "gaze wanders around a circle on this image, what they're seeing will zoom in and in and"
+      },
+      {
+        "start": 383.7,
+        "duration": 6.0,
+        "text": "in until it elegantly joins up with the self-similar part of the image 16 times smaller."
+      },
+      {
+        "start": 389.7,
+        "duration": 5.3,
+        "text": "We could just try joining it all up naively, something like this, but frankly that doesn't"
+      },
+      {
+        "start": 395.0,
+        "duration": 3.7,
+        "text": "really look very good and it's certainly not as smooth and as elegant as what Escher"
+      },
+      {
+        "start": 398.6,
+        "duration": 1.5,
+        "text": "managed to achieve."
+      },
+      {
+        "start": 400.1,
+        "duration": 3.0,
+        "text": "So we still have some work ahead of us."
+      },
+      {
+        "start": 403.1,
+        "duration": 3.9,
+        "text": "This book that I've been powing through by the way, the Magic of MC Escher, is something"
+      },
+      {
+        "start": 407.0,
+        "duration": 4.2,
+        "text": "that I got on a delightful visit to the Escher Museum in the Hague, which if you're ever"
+      },
+      {
+        "start": 411.2,
+        "duration": 2.2,
+        "text": "in the Netherlands I would highly recommend."
+      },
+      {
+        "start": 413.4,
+        "duration": 3.8,
+        "text": "And when we turn to the section about the print gallery, it offers us a little peak"
+      },
+      {
+        "start": 417.2,
+        "duration": 2.6,
+        "text": "into what Escher's process actually was."
+      },
+      {
+        "start": 419.8,
+        "duration": 4.2,
+        "text": "For him, Step 2 was to create this warped grid."
+      },
+      {
+        "start": 424.0,
+        "duration": 3.5,
+        "text": "For the animations here I'm going to pull up a slight modification of that grid that is"
+      },
+      {
+        "start": 427.5,
+        "duration": 3.6,
+        "text": "basically just a little nicer mathematically to generate, but it illustrates the same key"
+      },
+      {
+        "start": 431.2,
+        "duration": 1.0,
+        "text": "point."
+      },
+      {
+        "start": 432.2,
+        "duration": 3.9,
+        "text": "In his case, the self-similar drawstice image he was working with has a scaling factor"
+      },
+      {
+        "start": 436.1,
+        "duration": 1.9,
+        "text": "of 256."
+      },
+      {
+        "start": 438.0,
+        "duration": 4.9,
+        "text": "So to distribute that across the four corners, for him it would involve scaling by a factor"
+      },
+      {
+        "start": 442.9,
+        "duration": 3.8,
+        "text": "of 4 as you walk from one corner to the next."
+      },
+      {
+        "start": 446.7,
+        "duration": 4.0,
+        "text": "And if you look closely at his grid, say at one of the squares on the lower right, notice"
+      },
+      {
+        "start": 450.6,
+        "duration": 5.0,
+        "text": "how if you follow the top and bottom lines bounding that square over to the lower left of"
+      },
+      {
+        "start": 455.6,
+        "duration": 4.9,
+        "text": "the image, those same lines end up in closing a square that is now 4 times as big."
+      },
+      {
+        "start": 460.5,
+        "duration": 3.8,
+        "text": "And then similarly, if you look at the lines bounding the left and right of a small square"
+      },
+      {
+        "start": 464.4,
+        "duration": 4.4,
+        "text": "from that region, and you follow them upward, they end up nestled around a square that's"
+      },
+      {
+        "start": 468.8,
+        "duration": 2.1,
+        "text": "nicely 4 times as big."
+      },
+      {
+        "start": 470.8,
+        "duration": 4.6,
+        "text": "So the grid kind of encodes the scaling from one corner to the next that we want."
+      },
+      {
+        "start": 475.5,
+        "duration": 4.2,
+        "text": "Now for our pet project where we only need to scale up by a factor of 2 from each corner"
+      },
+      {
+        "start": 479.7,
+        "duration": 4.2,
+        "text": "to the next, we're going to use a modified version of this, but it'll be the same general"
+      },
+      {
+        "start": 483.9,
+        "duration": 2.0,
+        "text": "idea."
+      },
+      {
+        "start": 485.9,
+        "duration": 3.5,
+        "text": "You might naturally wonder where on earth does this grid come from, but I actually want"
+      },
+      {
+        "start": 489.4,
+        "duration": 4.2,
+        "text": "to postpone that question and skip ahead to step 3, which is how you can actually use"
+      },
+      {
+        "start": 493.6,
+        "duration": 5.6,
+        "text": "this grid together with the self-similar drawstice image to create Escher's final effect."
+      },
+      {
+        "start": 499.2,
+        "duration": 4.7,
+        "text": "The way this works is to first lay down an ordinary square grid on the original image,"
+      },
+      {
+        "start": 503.9,
+        "duration": 4.6,
+        "text": "and then let's say you want this portion here to end up in this corner of our final"
+      },
+      {
+        "start": 508.5,
+        "duration": 1.0,
+        "text": "version."
+      },
+      {
+        "start": 509.5,
+        "duration": 4.5,
+        "text": "What you would do is take each tiny square inside it and then copy over its contents"
+      },
+      {
+        "start": 514.0,
+        "duration": 4.1,
+        "text": "to the corresponding tiny square in the warped version of the grid."
+      },
+      {
+        "start": 518.2,
+        "duration": 5.2,
+        "text": "From there, each neighboring square in our original grid is forced to go to the corresponding"
+      },
+      {
+        "start": 523.4,
+        "duration": 3.1,
+        "text": "neighboring square in the warped version."
+      },
+      {
+        "start": 526.5,
+        "duration": 5.6,
+        "text": "So you can kind of just keep following where the image must go by following the grid."
+      },
+      {
+        "start": 532.2,
+        "duration": 4.9,
+        "text": "And the fact that the grid lines on the warped version space out by a factor of 2 as you"
+      },
+      {
+        "start": 537.0,
+        "duration": 4.6,
+        "text": "go from the lower left to the upper left means that the scale of our scene automatically"
+      },
+      {
+        "start": 541.6,
+        "duration": 5.1,
+        "text": "gets scaled up by that factor of 2 as you walk up that line."
+      },
+      {
+        "start": 546.7,
+        "duration": 4.6,
+        "text": "The idea of this process is that as an artist, it's relatively straightforward to go piece"
+      },
+      {
+        "start": 551.3,
+        "duration": 5.2,
+        "text": "by piece, copying over what's inside one tiny square to another tiny square, because"
+      },
+      {
+        "start": 556.6,
+        "duration": 2.7,
+        "text": "at this small scale things are undistorted."
+      },
+      {
+        "start": 559.2,
+        "duration": 5.0,
+        "text": "It's certainly way, way easier than trying to dream up and draw the appropriate warped"
+      },
+      {
+        "start": 564.3,
+        "duration": 4.7,
+        "text": "final image starting with nothing but a blank page in front of you."
+      },
+      {
+        "start": 569.0,
+        "duration": 5.4,
+        "text": "So basically with this warped grid in hand, the process of copying over each little square"
+      },
+      {
+        "start": 574.4,
+        "duration": 2.2,
+        "text": "is pleasantly automatic."
+      },
+      {
+        "start": 576.5,
+        "duration": 4.5,
+        "text": "And if we let this automatic process run all the way around, it nicely closes up with"
+      },
+      {
+        "start": 581.0,
+        "duration": 1.5,
+        "text": "the initial position."
+      },
+      {
+        "start": 582.5,
+        "duration": 4.4,
+        "text": "And for that to happen, it requires that our original image had this self-similarity"
+      },
+      {
+        "start": 586.9,
+        "duration": 2.5,
+        "text": "when you zoom in by a factor of 16."
+      },
+      {
+        "start": 589.4,
+        "duration": 4.0,
+        "text": "I hope you'll agree the final result we have is pretty nice, it recreates the same general"
+      },
+      {
+        "start": 593.4,
+        "duration": 1.0,
+        "text": "effect."
+      },
+      {
+        "start": 594.4,
+        "duration": 3.6,
+        "text": "But more than anything, I think it gives cause to more deeply appreciate Escher's own"
+      },
+      {
+        "start": 598.0,
+        "duration": 1.2,
+        "text": "composition."
+      },
+      {
+        "start": 599.2,
+        "duration": 4.7,
+        "text": "He was actually very deliberate about the choice of imagery at all of the distinct scales."
+      },
+      {
+        "start": 603.9,
+        "duration": 6.0,
+        "text": "To quote, I quite intentionally chose serial types of objects, such for instance as a row"
+      },
+      {
+        "start": 610.0,
+        "duration": 4.0,
+        "text": "of prints along the wall or blocks of houses in a town."
+      },
+      {
+        "start": 614.0,
+        "duration": 3.9,
+        "text": "But the cyclic elements, it would be all the more difficult to get my meaning over to"
+      },
+      {
+        "start": 617.8,
+        "duration": 2.3,
+        "text": "the random viewer."
+      },
+      {
+        "start": 620.2,
+        "duration": 4.2,
+        "text": "This idea where you have a straight reference image and then a warped grid and you use"
+      },
+      {
+        "start": 624.4,
+        "duration": 4.8,
+        "text": "the two together to create a warped scene is a common process in graphic design, it's"
+      },
+      {
+        "start": 629.2,
+        "duration": 1.7,
+        "text": "known as a mesh warp."
+      },
+      {
+        "start": 630.8,
+        "duration": 3.5,
+        "text": "And Escher didn't invent it for this case, it's something that he had used multiple times"
+      },
+      {
+        "start": 634.3,
+        "duration": 1.9,
+        "text": "before for other pieces."
+      },
+      {
+        "start": 636.2,
+        "duration": 5.6,
+        "text": "For our story, the point is that all of the logic for turning a drosta zoom into a loop"
+      },
+      {
+        "start": 641.9,
+        "duration": 5.6,
+        "text": "is abstracted and purified into this grid, raising the natural question, where does it"
+      },
+      {
+        "start": 647.5,
+        "duration": 1.0,
+        "text": "come from?"
+      },
+      {
+        "start": 648.5,
+        "duration": 1.7,
+        "text": "How do you make this?"
+      },
+      {
+        "start": 650.2,
+        "duration": 4.4,
+        "text": "You can kind of imagine as an initial naive approach, you might try linearly scaling"
+      },
+      {
+        "start": 654.6,
+        "duration": 3.8,
+        "text": "everything from one corner to the next."
+      },
+      {
+        "start": 658.4,
+        "duration": 3.0,
+        "text": "But if you did that right away, you would see a conflict."
+      },
+      {
+        "start": 661.4,
+        "duration": 4.8,
+        "text": "These two scaling processes are placing distinct pressures on the individual squares."
+      },
+      {
+        "start": 666.2,
+        "duration": 4.0,
+        "text": "Where for example, this square wants to get flared out in this direction, based on"
+      },
+      {
+        "start": 670.2,
+        "duration": 4.2,
+        "text": "the zooming in from the right, but it also wants to get flared in this direction based"
+      },
+      {
+        "start": 674.4,
+        "duration": 2.5,
+        "text": "on the zooming out as you go up."
+      },
+      {
+        "start": 676.8,
+        "duration": 5.4,
+        "text": "Escher was evidently pulled to resolve this by curving all of the lines to relieve this"
+      },
+      {
+        "start": 682.2,
+        "duration": 1.0,
+        "text": "tension."
+      },
+      {
+        "start": 683.2,
+        "duration": 4.4,
+        "text": "But there's one other crucial constraint that it seems he was guided by, one that presumably"
+      },
+      {
+        "start": 687.6,
+        "duration": 4.9,
+        "text": "made the image transfer process easier, which made the final result look more natural,"
+      },
+      {
+        "start": 692.6,
+        "duration": 4.8,
+        "text": "and which will make the ears of any mathematician immersed in complex analysis immediately perk"
+      },
+      {
+        "start": 697.3,
+        "duration": 1.0,
+        "text": "up."
+      },
+      {
+        "start": 698.3,
+        "duration": 5.4,
+        "text": "The final warped grid, the tiny squares, are, well, squares."
+      },
+      {
+        "start": 703.8,
+        "duration": 3.2,
+        "text": "To be clear, this is not at all true for most mesh warps."
+      },
+      {
+        "start": 706.9,
+        "duration": 4.6,
+        "text": "In most cases, the warped grid lines that you draw don't necessarily intersect at right"
+      },
+      {
+        "start": 711.5,
+        "duration": 5.2,
+        "text": "angles, and the little regions that they bound will, in general, be little parallelograms."
+      },
+      {
+        "start": 716.7,
+        "duration": 5.0,
+        "text": "This can still be workable for an artist, you can still kind of do the transfer, but presumably"
+      },
+      {
+        "start": 721.7,
+        "duration": 4.5,
+        "text": "the act of copying over from the original to the warped version is more awkward when"
+      },
+      {
+        "start": 726.2,
+        "duration": 5.0,
+        "text": "you have that distortion, so it would be much nicer if in the warped grid little squares"
+      },
+      {
+        "start": 731.2,
+        "duration": 2.7,
+        "text": "remained at least approximately square."
+      },
+      {
+        "start": 733.9,
+        "duration": 3.9,
+        "text": "And when you look closely at the grid that Escher used for his print gallery, it has this"
+      },
+      {
+        "start": 737.8,
+        "duration": 1.0,
+        "text": "property."
+      },
+      {
+        "start": 738.8,
+        "duration": 4.1,
+        "text": "All the lines are intersecting at right angles, and at a small enough scale, the regions"
+      },
+      {
+        "start": 742.9,
+        "duration": 2.8,
+        "text": "they bound really are approximately squares."
+      },
+      {
+        "start": 745.6,
+        "duration": 4.2,
+        "text": "Artistically, this has the nice effect that even though the whole scene is dramatically"
+      },
+      {
+        "start": 749.9,
+        "duration": 5.8,
+        "text": "warped and distorted at a global scale, zoomed in at a local scale, everything is relatively"
+      },
+      {
+        "start": 755.7,
+        "duration": 1.1,
+        "text": "undistorted."
+      },
+      {
+        "start": 756.8,
+        "duration": 4.9,
+        "text": "This is what makes each local part of Escher's image easily recognizable."
+      },
+      {
+        "start": 761.8,
+        "duration": 3.6,
+        "text": "And mathematically, this is where the story really gets interesting."
+      },
+      {
+        "start": 765.3,
+        "duration": 5.6,
+        "text": "You see, this idea of a function from two-dimensional space to two-dimensional space where tiny squares"
+      },
+      {
+        "start": 771.0,
+        "duration": 4.6,
+        "text": "remain approximately square, plays a special role, and has a special name in math."
+      },
+      {
+        "start": 775.5,
+        "duration": 1.8,
+        "text": "It's called a conformal map."
+      },
+      {
+        "start": 777.3,
+        "duration": 4.3,
+        "text": "And one area where it comes up all the time is in the study of functions with complex"
+      },
+      {
+        "start": 781.6,
+        "duration": 3.4,
+        "text": "number inputs and complex number outputs."
+      },
+      {
+        "start": 785.0,
+        "duration": 3.9,
+        "text": "At this point, we're going to step back and walk out of the art classroom and wander"
+      },
+      {
+        "start": 788.9,
+        "duration": 4.7,
+        "text": "over into the math department, where I want to offer you a mini lesson on some of the core"
+      },
+      {
+        "start": 793.6,
+        "duration": 3.0,
+        "text": "ideas from this field."
+      },
+      {
+        "start": 796.6,
+        "duration": 3.8,
+        "text": "The basic game plan from here is that I want to first do a little refresher, go over some"
+      },
+      {
+        "start": 800.4,
+        "duration": 3.2,
+        "text": "of the basics of complex numbers and complex functions."
+      },
+      {
+        "start": 803.6,
+        "duration": 4.0,
+        "text": "And then I want to spend some meaningful time building up an intuition for what logarithms"
+      },
+      {
+        "start": 807.6,
+        "duration": 2.9,
+        "text": "look like in this context of complex numbers."
+      },
+      {
+        "start": 810.5,
+        "duration": 3.5,
+        "text": "And then once you have that in hand, we're going to step through a completely different way"
+      },
+      {
+        "start": 814.0,
+        "duration": 5.3,
+        "text": "that you can think about recreating this effect that Escher had in his print gallery."
+      },
+      {
+        "start": 819.3,
+        "duration": 2.0,
+        "text": "Let's warm up with a review of the basics."
+      },
+      {
+        "start": 821.4,
+        "duration": 4.2,
+        "text": "We typically think about real numbers as living on a one-dimensional line, the real number"
+      },
+      {
+        "start": 825.6,
+        "duration": 1.0,
+        "text": "line."
+      },
+      {
+        "start": 826.6,
+        "duration": 2.0,
+        "text": "And complex numbers are two-dimensional."
+      },
+      {
+        "start": 828.6,
+        "duration": 4.2,
+        "text": "Specifically, we think of the imaginary constant i defined to be the square root of negative"
+      },
+      {
+        "start": 832.8,
+        "duration": 3.7,
+        "text": "one as being one unit above zero."
+      },
+      {
+        "start": 836.5,
+        "duration": 4.9,
+        "text": "And every other point on this plane represents some combination of a real number with some"
+      },
+      {
+        "start": 841.4,
+        "duration": 2.3,
+        "text": "real multiple of i."
+      },
+      {
+        "start": 843.7,
+        "duration": 3.9,
+        "text": "It's typical to use the variable z in referring to a general complex number."
+      },
+      {
+        "start": 847.6,
+        "duration": 4.2,
+        "text": "And the game we want to play is to understand various functions of z."
+      },
+      {
+        "start": 851.9,
+        "duration": 4.4,
+        "text": "A very simple but important example is to multiply z by some constant."
+      },
+      {
+        "start": 856.3,
+        "duration": 5.7,
+        "text": "The function f of z equals two times z has the effect of scaling everything up by a factor"
+      },
+      {
+        "start": 862.0,
+        "duration": 1.5,
+        "text": "of two."
+      },
+      {
+        "start": 863.5,
+        "duration": 4.4,
+        "text": "But what about multiplying by something imaginary, like i, the square root of negative one?"
+      },
+      {
+        "start": 867.9,
+        "duration": 3.5,
+        "text": "Well you know that multiplying one by i gives you i."
+      },
+      {
+        "start": 871.4,
+        "duration": 4.8,
+        "text": "And by definition, i times i is negative one, both of these you'll notice are in 90"
+      },
+      {
+        "start": 876.2,
+        "duration": 5.4,
+        "text": "degree rotation, and more generally multiplying any value z by i has the effect of a 90 degree"
+      },
+      {
+        "start": 881.6,
+        "duration": 1.5,
+        "text": "rotation."
+      },
+      {
+        "start": 883.0,
+        "duration": 4.4,
+        "text": "And more general than that, when you multiply by any complex constant, the effect is"
+      },
+      {
+        "start": 887.4,
+        "duration": 2.9,
+        "text": "some combination of scaling and rotating."
+      },
+      {
+        "start": 890.3,
+        "duration": 3.7,
+        "text": "And there's a nice way to think about exactly how much it should scale and rotate."
+      },
+      {
+        "start": 894.0,
+        "duration": 4.3,
+        "text": "Zero times anything is zero, so the origin has to say fixed in place."
+      },
+      {
+        "start": 898.3,
+        "duration": 4.4,
+        "text": "And then one times any constant c is that same constant c."
+      },
+      {
+        "start": 902.7,
+        "duration": 4.7,
+        "text": "So that means this point at one has to be dragged over to land on whatever that constant"
+      },
+      {
+        "start": 907.4,
+        "duration": 1.9,
+        "text": "c is that we're talking about."
+      },
+      {
+        "start": 909.4,
+        "duration": 4.1,
+        "text": "And that fully determines the amount of scaling and rotating from there the rest of the grid"
+      },
+      {
+        "start": 913.4,
+        "duration": 2.0,
+        "text": "stays as rigid as it can."
+      },
+      {
+        "start": 915.4,
+        "duration": 4.1,
+        "text": "A key point to emphasize for our story is that if all you're doing is multiplying by"
+      },
+      {
+        "start": 919.6,
+        "duration": 3.2,
+        "text": "some constant, shapes are always preserved."
+      },
+      {
+        "start": 922.8,
+        "duration": 3.9,
+        "text": "Anything you might want to draw, like a square, can get scaled or rotated."
+      },
+      {
+        "start": 926.7,
+        "duration": 2.4,
+        "text": "But beyond that, there are no distortions."
+      },
+      {
+        "start": 929.1,
+        "duration": 3.0,
+        "text": "Now things get more interesting for more complicated functions."
+      },
+      {
+        "start": 932.1,
+        "duration": 5.5,
+        "text": "A simple but non-trivial example would be mapping each number z to z squared."
+      },
+      {
+        "start": 937.6,
+        "duration": 3.6,
+        "text": "So the input 2 is going to have to move to 2 squared, which is 4."
+      },
+      {
+        "start": 941.2,
+        "duration": 4.1,
+        "text": "The input i is going to have to move to i squared, which is negative 1."
+      },
+      {
+        "start": 945.3,
+        "duration": 3.4,
+        "text": "Negative 1 itself would have to get mapped to positive 1."
+      },
+      {
+        "start": 948.7,
+        "duration": 4.1,
+        "text": "And in its fullness, here's what it looks like if I let every point among the grid lines"
+      },
+      {
+        "start": 952.8,
+        "duration": 4.4,
+        "text": "of this input space move over to their corresponding outputs."
+      },
+      {
+        "start": 957.2,
+        "duration": 1.4,
+        "text": "It's a pretty nice effect."
+      },
+      {
+        "start": 958.6,
+        "duration": 4.4,
+        "text": "And unlike multiplying by a constant, shape is absolutely no longer preserved."
+      },
+      {
+        "start": 963.0,
+        "duration": 2.2,
+        "text": "The grid lines get curved and warped."
+      },
+      {
+        "start": 965.2,
+        "duration": 4.8,
+        "text": "However, and this is a key point, pay attention to what happens at a small scale, for example"
+      },
+      {
+        "start": 969.9,
+        "duration": 3.2,
+        "text": "just focusing on this little square from the input space."
+      },
+      {
+        "start": 973.1,
+        "duration": 4.5,
+        "text": "As you watch the transformation happen again, you can see that shape is approximately"
+      },
+      {
+        "start": 977.6,
+        "duration": 2.7,
+        "text": "preserved at least at a small enough scale."
+      },
+      {
+        "start": 980.3,
+        "duration": 4.5,
+        "text": "Small squares from our original grid remain approximately square, even after getting"
+      },
+      {
+        "start": 984.8,
+        "duration": 1.8,
+        "text": "processed by the function."
+      },
+      {
+        "start": 986.6,
+        "duration": 4.4,
+        "text": "To use the lingo, the function z squared gives a conformal map."
+      },
+      {
+        "start": 991.0,
+        "duration": 2.6,
+        "text": "And the choice of z squared is really not special here."
+      },
+      {
+        "start": 993.6,
+        "duration": 4.2,
+        "text": "Here's what it looks like if you transform each point z over to z cubed."
+      },
+      {
+        "start": 997.9,
+        "duration": 1.8,
+        "text": "Squares remain approximately square."
+      },
+      {
+        "start": 999.7,
+        "duration": 3.9,
+        "text": "Okay, maybe this example square that I'm highlighting doesn't exactly look square in"
+      },
+      {
+        "start": 1003.6,
+        "duration": 3.2,
+        "text": "the output, but really it's just because it started off too big."
+      },
+      {
+        "start": 1006.8,
+        "duration": 3.8,
+        "text": "To be clear, this conformal property that I'm talking about is a limiting one."
+      },
+      {
+        "start": 1010.6,
+        "duration": 4.3,
+        "text": "A particular square might not exactly become square, but the idea is that as you zoom"
+      },
+      {
+        "start": 1014.9,
+        "duration": 4.6,
+        "text": "in more and more, choosing square regions from the input space that are smaller and smaller,"
+      },
+      {
+        "start": 1019.6,
+        "duration": 4.6,
+        "text": "the resulting output will indeed be better and better approximated by a square."
+      },
+      {
+        "start": 1024.1,
+        "duration": 3.3,
+        "text": "And there's also nothing all that special about the choice of polynomials, like z squared"
+      },
+      {
+        "start": 1027.4,
+        "duration": 1.1,
+        "text": "or z cubed."
+      },
+      {
+        "start": 1028.6,
+        "duration": 4.2,
+        "text": "For just about any function of complex numbers you could think to write down, this property"
+      },
+      {
+        "start": 1032.8,
+        "duration": 1.0,
+        "text": "holds."
+      },
+      {
+        "start": 1033.8,
+        "duration": 2.3,
+        "text": "Shape is preserved at a small enough scale."
+      },
+      {
+        "start": 1036.1,
+        "duration": 1.6,
+        "text": "It's almost like magic."
+      },
+      {
+        "start": 1037.7,
+        "duration": 3.0,
+        "text": "The use of complex numbers is very relevant here."
+      },
+      {
+        "start": 1040.7,
+        "duration": 4.0,
+        "text": "If instead you were thinking of points in 2D space, simply as a pair of real numbers with"
+      },
+      {
+        "start": 1044.6,
+        "duration": 4.8,
+        "text": "some x, y coordinates, and you write down some arbitrary function of x and y to get a new"
+      },
+      {
+        "start": 1049.4,
+        "duration": 6.2,
+        "text": "pair of numbers, what is way, way more typical, as you let points in that input space get transformed,"
+      },
+      {
+        "start": 1055.6,
+        "duration": 4.0,
+        "text": "is that the outputs of those tiny squares get squished and distorted."
+      },
+      {
+        "start": 1059.6,
+        "duration": 4.5,
+        "text": "Even as you zoom in more and more, the resulting limiting shape typically looks like a parallel"
+      },
+      {
+        "start": 1064.1,
+        "duration": 2.5,
+        "text": "ogram, not necessarily a square."
+      },
+      {
+        "start": 1066.6,
+        "duration": 3.6,
+        "text": "So complex functions really are special in this way."
+      },
+      {
+        "start": 1070.2,
+        "duration": 4.4,
+        "text": "And the basic reason that tiny squares remain square comes down to calculus."
+      },
+      {
+        "start": 1074.7,
+        "duration": 4.2,
+        "text": "What you're looking at is what it means for these functions to have derivatives."
+      },
+      {
+        "start": 1078.8,
+        "duration": 4.2,
+        "text": "That might sound a little strange, but the analogy you can think of is that for most"
+      },
+      {
+        "start": 1083.0,
+        "duration": 4.8,
+        "text": "functions of real numbers, if you visualize them the ordinary way, just with a graph of"
+      },
+      {
+        "start": 1087.9,
+        "duration": 5.3,
+        "text": "inputs on the x-axis, outputs on the y-axis, as you zoom in more and more to any particular"
+      },
+      {
+        "start": 1093.2,
+        "duration": 4.3,
+        "text": "point on that graph, it looks more and more like a straight line."
+      },
+      {
+        "start": 1097.5,
+        "duration": 5.4,
+        "text": "That is, the rate of change, how much delta f you get for a given delta x, approaches"
+      },
+      {
+        "start": 1102.9,
+        "duration": 1.3,
+        "text": "a constant."
+      },
+      {
+        "start": 1104.2,
+        "duration": 4.0,
+        "text": "This is literally what it means for a function to have a derivative, but it's not the only"
+      },
+      {
+        "start": 1108.1,
+        "duration": 1.7,
+        "text": "way to visualize it."
+      },
+      {
+        "start": 1109.8,
+        "duration": 2.6,
+        "text": "Here's a different way to see the same concept."
+      },
+      {
+        "start": 1112.5,
+        "duration": 5.1,
+        "text": "Instead of looking at the graph of a function, let's think of the same function but as a transformation."
+      },
+      {
+        "start": 1117.6,
+        "duration": 3.9,
+        "text": "That is, you're going to let each of these points on the real number line move over to"
+      },
+      {
+        "start": 1121.5,
+        "duration": 3.7,
+        "text": "their corresponding outputs on this other number line."
+      },
+      {
+        "start": 1125.2,
+        "duration": 4.8,
+        "text": "What you'll notice is that evenly spaced dots from the input space can get warped in"
+      },
+      {
+        "start": 1130.0,
+        "duration": 5.0,
+        "text": "the output space, meaning the rate of change of the function in general is not constant."
+      },
+      {
+        "start": 1135.0,
+        "duration": 4.4,
+        "text": "This spacing between our dots can change from one part of the image to the next."
+      },
+      {
+        "start": 1139.4,
+        "duration": 5.2,
+        "text": "But we know that as you zoom in more and more to a particular output, the rate of change"
+      },
+      {
+        "start": 1144.6,
+        "duration": 1.5,
+        "text": "approaches a constant."
+      },
+      {
+        "start": 1146.1,
+        "duration": 2.9,
+        "text": "The dots look more and more evenly spaced."
+      },
+      {
+        "start": 1149.0,
+        "duration": 4.8,
+        "text": "Specifically, if you take a tiny patch of dots around a particular input and you copy"
+      },
+      {
+        "start": 1153.9,
+        "duration": 5.5,
+        "text": "them over to the output space around the corresponding output, you can approximately line up all"
+      },
+      {
+        "start": 1159.4,
+        "duration": 4.7,
+        "text": "the dots just by scaling everything by a certain constant factor."
+      },
+      {
+        "start": 1164.1,
+        "duration": 4.2,
+        "text": "This is the same analytical fact as what the slope of a graph is telling you."
+      },
+      {
+        "start": 1168.3,
+        "duration": 2.4,
+        "text": "It's just in a different visual context."
+      },
+      {
+        "start": 1170.7,
+        "duration": 5.0,
+        "text": "But this context carries over much more easily to thinking about complex valued functions"
+      },
+      {
+        "start": 1175.7,
+        "duration": 3.0,
+        "text": "as transformations in the complex plane."
+      },
+      {
+        "start": 1178.8,
+        "duration": 4.0,
+        "text": "Here we're going to think of the neighborhood around a given input as a tiny little grid"
+      },
+      {
+        "start": 1182.7,
+        "duration": 5.7,
+        "text": "of points, like we were before, and we let each point on that grid move over to its corresponding"
+      },
+      {
+        "start": 1188.4,
+        "duration": 1.5,
+        "text": "output."
+      },
+      {
+        "start": 1189.9,
+        "duration": 4.6,
+        "text": "In this case, what it means for the rate of change to approach a constant is basically"
+      },
+      {
+        "start": 1194.5,
+        "duration": 1.9,
+        "text": "the exact same equation."
+      },
+      {
+        "start": 1196.4,
+        "duration": 3.6,
+        "text": "The visual to have in your head is that if you take that tiny patch of squares around"
+      },
+      {
+        "start": 1200.0,
+        "duration": 5.4,
+        "text": "the input and copy it over to the corresponding output, you can approximately match this"
+      },
+      {
+        "start": 1205.4,
+        "duration": 5.6,
+        "text": "up with the output grid lines by multiplying by a certain constant, which remember in the"
+      },
+      {
+        "start": 1211.1,
+        "duration": 4.5,
+        "text": "setting of complex numbers means rotating and scaling it in some way, depending on the"
+      },
+      {
+        "start": 1215.6,
+        "duration": 2.4,
+        "text": "value of that complex constant."
+      },
+      {
+        "start": 1218.0,
+        "duration": 3.7,
+        "text": "Since rotation and scaling preserve shape, it means that all the tiny squares from the"
+      },
+      {
+        "start": 1221.7,
+        "duration": 4.6,
+        "text": "input space remain at least approximately square under this transformation."
+      },
+      {
+        "start": 1226.3,
+        "duration": 4.7,
+        "text": "So, stepping back, here's the key point, the reason for talking about any of this at"
+      },
+      {
+        "start": 1231.0,
+        "duration": 1.0,
+        "text": "all."
+      },
+      {
+        "start": 1232.0,
+        "duration": 4.3,
+        "text": "Even though conformal maps like the one that Escher was using for his print gallery are"
+      },
+      {
+        "start": 1236.3,
+        "duration": 4.5,
+        "text": "incredibly constrained and highly unusual among the general ways that you could continuously"
+      },
+      {
+        "start": 1240.8,
+        "duration": 5.4,
+        "text": "squish about to a dimensional space, nevertheless, as if by magic, simply by speaking a language"
+      },
+      {
+        "start": 1246.2,
+        "duration": 5.2,
+        "text": "of complex numbers, you can somehow create entire families of these conformal maps without"
+      },
+      {
+        "start": 1251.5,
+        "duration": 1.4,
+        "text": "even really trying."
+      },
+      {
+        "start": 1252.9,
+        "duration": 3.8,
+        "text": "All you do is mix and match standard functions of complex numbers."
+      },
+      {
+        "start": 1256.7,
+        "duration": 3.4,
+        "text": "The one constraint is that these functions have to have derivatives, but this will be"
+      },
+      {
+        "start": 1260.1,
+        "duration": 3.6,
+        "text": "true for most of the functions you think to write down."
+      },
+      {
+        "start": 1263.7,
+        "duration": 3.9,
+        "text": "For our story, decoding what's happening with the print gallery, this means that we"
+      },
+      {
+        "start": 1267.6,
+        "duration": 3.2,
+        "text": "have an entirely new way to reframe the key question."
+      },
+      {
+        "start": 1270.8,
+        "duration": 5.0,
+        "text": "Can you construct some deliberately tailored complex function so that the act of zooming"
+      },
+      {
+        "start": 1275.8,
+        "duration": 5.1,
+        "text": "in around the inputs looks like walking around a loop among the outputs?"
+      },
+      {
+        "start": 1281.0,
+        "duration": 5.3,
+        "text": "Now, at this point with only the bare minimum crash course of complex analysis under our"
+      },
+      {
+        "start": 1286.2,
+        "duration": 4.6,
+        "text": "belts, it's hard to know where to start without first building up a larger palette of functions"
+      },
+      {
+        "start": 1290.9,
+        "duration": 5.0,
+        "text": "to work with and gaining some familiarity with how they actually behave for complex numbers."
+      },
+      {
+        "start": 1295.9,
+        "duration": 4.0,
+        "text": "In this case, there are really only two more functions that you need to understand, e"
+      },
+      {
+        "start": 1299.9,
+        "duration": 3.0,
+        "text": "to the z and the natural log."
+      },
+      {
+        "start": 1303.0,
+        "duration": 3.8,
+        "text": "I want to settle in and spend some meaningful time understanding both of these, and I think"
+      },
+      {
+        "start": 1306.7,
+        "duration": 2.2,
+        "text": "you'll agree that it's time well spent."
+      },
+      {
+        "start": 1308.9,
+        "duration": 3.6,
+        "text": "Everybody deserves, in my opinion, at least one time in their life to experience the"
+      },
+      {
+        "start": 1312.6,
+        "duration": 3.0,
+        "text": "joy of understanding a complex logarithm."
+      },
+      {
+        "start": 1315.5,
+        "duration": 5.3,
+        "text": "First though, a necessary prerequisite is to understand the complex exponential."
+      },
+      {
+        "start": 1320.8,
+        "duration": 4.3,
+        "text": "Regular viewers will be familiar with what it looks like to raise e to the power of a complex"
+      },
+      {
+        "start": 1325.1,
+        "duration": 2.8,
+        "text": "number, but a little review just never hurts."
+      },
+      {
+        "start": 1327.9,
+        "duration": 4.4,
+        "text": "We can start scaffolding the transformation just by focusing on the more familiar examples"
+      },
+      {
+        "start": 1332.4,
+        "duration": 4.2,
+        "text": "of real number inputs and the real number outputs they correspond to."
+      },
+      {
+        "start": 1336.6,
+        "duration": 5.7,
+        "text": "For example, e to the zero is one, so this point at zero maps over to this point at one,"
+      },
+      {
+        "start": 1342.3,
+        "duration": 5.4,
+        "text": "and then every time you let that input increase by one, the output grows by a factor of"
+      },
+      {
+        "start": 1347.7,
+        "duration": 3.7,
+        "text": "e, meaning it runs away from us actually quite quickly."
+      },
+      {
+        "start": 1351.4,
+        "duration": 3.6,
+        "text": "And then on the flip side, as you decrease that input, letting it get into the negative"
+      },
+      {
+        "start": 1355.0,
+        "duration": 5.2,
+        "text": "numbers, every step to the left corresponds to shrinking the output again by a factor of"
+      },
+      {
+        "start": 1360.1,
+        "duration": 4.8,
+        "text": "e. In particular, you'll notice in this case that output is always a positive number."
+      },
+      {
+        "start": 1365.0,
+        "duration": 3.4,
+        "text": "This of course gets much more interesting when we let the inputs and the outputs both"
+      },
+      {
+        "start": 1368.4,
+        "duration": 1.8,
+        "text": "be complex numbers."
+      },
+      {
+        "start": 1370.2,
+        "duration": 4.0,
+        "text": "And here, everything you need to know comes down to what happens as you let the imaginary"
+      },
+      {
+        "start": 1374.2,
+        "duration": 2.3,
+        "text": "part of that input increase."
+      },
+      {
+        "start": 1376.5,
+        "duration": 5.9,
+        "text": "And what happens there is that the corresponding output walks around a circle."
+      },
+      {
+        "start": 1382.4,
+        "duration": 4.5,
+        "text": "If you're wondering why imaginary inputs to an exponential walk you around a circle like"
+      },
+      {
+        "start": 1386.9,
+        "duration": 4.3,
+        "text": "this, we have discussed it many, many other times on this channel, see some of the links"
+      },
+      {
+        "start": 1391.2,
+        "duration": 1.8,
+        "text": "on screen and in the description."
+      },
+      {
+        "start": 1393.1,
+        "duration": 4.4,
+        "text": "A key point that I'll reiterate here is that what makes the function e to the z very"
+      },
+      {
+        "start": 1397.5,
+        "duration": 5.5,
+        "text": "nice, as opposed to exponentials with other bases, is that as your input walks up at a"
+      },
+      {
+        "start": 1403.0,
+        "duration": 6.2,
+        "text": "rate of 1 unit per second, the output walks around its circle at a rate of exactly 1 radian"
+      },
+      {
+        "start": 1409.2,
+        "duration": 1.3,
+        "text": "per second."
+      },
+      {
+        "start": 1410.5,
+        "duration": 5.6,
+        "text": "So in particular, increasing the imaginary part by exactly 2 pi causes one full rotation"
+      },
+      {
+        "start": 1416.1,
+        "duration": 1.6,
+        "text": "in the output."
+      },
+      {
+        "start": 1417.7,
+        "duration": 4.6,
+        "text": "Fraised another way, these vertical line segments that I've been drawing with heights of exactly"
+      },
+      {
+        "start": 1422.4,
+        "duration": 6.3,
+        "text": "2 pi, each get mapped neatly onto one complete circle when you apply the function."
+      },
+      {
+        "start": 1428.6,
+        "duration": 3.9,
+        "text": "You'll notice how I've drawn these particular vertical line segments to be spaced out evenly"
+      },
+      {
+        "start": 1432.6,
+        "duration": 4.5,
+        "text": "in the real direction, where the real part from one to the next increases by one."
+      },
+      {
+        "start": 1437.1,
+        "duration": 5.0,
+        "text": "The corresponding circles on the right each differ by a constant scaling factor, specifically"
+      },
+      {
+        "start": 1442.1,
+        "duration": 2.2,
+        "text": "the scaling factor e."
+      },
+      {
+        "start": 1444.4,
+        "duration": 4.6,
+        "text": "Earlier for the simpler function z squared, I showed it as a transformation, moving all"
+      },
+      {
+        "start": 1449.0,
+        "duration": 2.0,
+        "text": "of the inputs to the outputs."
+      },
+      {
+        "start": 1451.0,
+        "duration": 4.3,
+        "text": "And in this case for e to the z, if you're curious how that same idea looks, it's easiest"
+      },
+      {
+        "start": 1455.4,
+        "duration": 4.3,
+        "text": "to take a subset of the grid, like this one here, from the input space, and here's what"
+      },
+      {
+        "start": 1459.7,
+        "duration": 4.5,
+        "text": "it looks like to move each square over to the corresponding output."
+      },
+      {
+        "start": 1464.2,
+        "duration": 4.9,
+        "text": "As we actually use this function for our print gallery goals, it'll be very helpful to anchor"
+      },
+      {
+        "start": 1469.1,
+        "duration": 4.3,
+        "text": "your mind by thinking of these vertical lines and the circles they turn into."
+      },
+      {
+        "start": 1473.4,
+        "duration": 3.5,
+        "text": "In fact, there's a very playful way that I like to think about how these vertical lines"
+      },
+      {
+        "start": 1476.9,
+        "duration": 5.0,
+        "text": "turn into concentric circles and how they can carry the full input space along with them."
+      },
+      {
+        "start": 1481.8,
+        "duration": 6.0,
+        "text": "What I like to imagine is sort of rolling up that entire z-plane into a tube, such that"
+      },
+      {
+        "start": 1487.8,
+        "duration": 2.8,
+        "text": "all of those vertical lines end up as circles."
+      },
+      {
+        "start": 1490.6,
+        "duration": 3.4,
+        "text": "Specifically, each circle would have a circumference of 2 pi."
+      },
+      {
+        "start": 1494.0,
+        "duration": 5.4,
+        "text": "Next, imagine taking this tube, lining it up above the origin of the output space, and"
+      },
+      {
+        "start": 1499.4,
+        "duration": 4.6,
+        "text": "then kind of squishing it down onto that output space, turning all the circles from that"
+      },
+      {
+        "start": 1504.0,
+        "duration": 4.8,
+        "text": "tube into these concentric rings of exponentially growing size."
+      },
+      {
+        "start": 1508.8,
+        "duration": 3.7,
+        "text": "That's just what I like, but however you choose to think about it, what I want to be etched"
+      },
+      {
+        "start": 1512.6,
+        "duration": 3.9,
+        "text": "into your brain is the idea of vertical lines turning into circles."
+      },
+      {
+        "start": 1516.4,
+        "duration": 5.4,
+        "text": "The very important point to emphasize here is that multiple different inputs can land"
+      },
+      {
+        "start": 1521.8,
+        "duration": 2.2,
+        "text": "on the same output."
+      },
+      {
+        "start": 1524.0,
+        "duration": 6.7,
+        "text": "For example, e to the zero is one, but e to the 2 pi i is also one, so is e to the negative"
+      },
+      {
+        "start": 1530.8,
+        "duration": 3.8,
+        "text": "2 pi i, and e to the 4 pi i, and so on."
+      },
+      {
+        "start": 1534.6,
+        "duration": 5.5,
+        "text": "In fact, the infinite sequence along any given vertical line spaced out by 2 pi will"
+      },
+      {
+        "start": 1540.1,
+        "duration": 5.2,
+        "text": "all get collapsed together as that vertical line gets kind of rolled up into a circle."
+      },
+      {
+        "start": 1545.3,
+        "duration": 3.2,
+        "text": "We say that the exponential map is many to one."
+      },
+      {
+        "start": 1548.5,
+        "duration": 4.1,
+        "text": "Although it might not be obvious how this repetition in the vertical direction is going"
+      },
+      {
+        "start": 1552.6,
+        "duration": 4.1,
+        "text": "to be key to our final recreation of the print gallery effect."
+      },
+      {
+        "start": 1556.7,
+        "duration": 5.2,
+        "text": "Okay, so exponentials give us the first ingredient characterized by turning lines into circles,"
+      },
+      {
+        "start": 1561.9,
+        "duration": 4.8,
+        "text": "and the second ingredient we need is the inverse of such an exponential known as the natural"
+      },
+      {
+        "start": 1566.7,
+        "duration": 4.9,
+        "text": "log, where basically the idea is that it unravels those circles back into lines."
+      },
+      {
+        "start": 1571.6,
+        "duration": 4.5,
+        "text": "Now this will be especially fun to visualize and especially relevant to our story if we"
+      },
+      {
+        "start": 1576.0,
+        "duration": 5.1,
+        "text": "imagine painting this complex plane on the right with a drosta image."
+      },
+      {
+        "start": 1581.1,
+        "duration": 4.3,
+        "text": "Say the example we were working with earlier, with the pi creature looking at a picture"
+      },
+      {
+        "start": 1585.4,
+        "duration": 2.9,
+        "text": "of a house where that same pi creature lives."
+      },
+      {
+        "start": 1588.4,
+        "duration": 3.9,
+        "text": "In other words, it is finally time for you and me to answer that question of what it"
+      },
+      {
+        "start": 1592.3,
+        "duration": 3.3,
+        "text": "means to take the natural log of a picture."
+      },
+      {
+        "start": 1595.6,
+        "duration": 3.0,
+        "text": "Okay, so think about this for a second."
+      },
+      {
+        "start": 1598.6,
+        "duration": 4.0,
+        "text": "You already know that a vertical line segment, like this one on the left with a height of"
+      },
+      {
+        "start": 1602.6,
+        "duration": 5.8,
+        "text": "2 pi, gets turned into a circle when you apply the map e to the z, so the natural log"
+      },
+      {
+        "start": 1608.4,
+        "duration": 5.3,
+        "text": "is going to take a circle of points on this image and then straighten them out into one"
+      },
+      {
+        "start": 1613.7,
+        "duration": 1.4,
+        "text": "of those lines."
+      },
+      {
+        "start": 1615.1,
+        "duration": 5.0,
+        "text": "Similarly, if you look at a circle which was exactly e times smaller, that would also"
+      },
+      {
+        "start": 1620.2,
+        "duration": 5.7,
+        "text": "get straightened out into a line with the same height positioned one unit to the left."
+      },
+      {
+        "start": 1625.8,
+        "duration": 4.5,
+        "text": "And then similarly, every circle in between these two is going to get unwrapped into one"
+      },
+      {
+        "start": 1630.4,
+        "duration": 2.9,
+        "text": "of these vertical lines between those last two."
+      },
+      {
+        "start": 1633.3,
+        "duration": 4.3,
+        "text": "And more generally, smaller and smaller rings from the picture will all get unwrapped into"
+      },
+      {
+        "start": 1637.6,
+        "duration": 4.9,
+        "text": "these vertical line segments, each one with a height of 2 pi farther and farther to the"
+      },
+      {
+        "start": 1642.5,
+        "duration": 1.6,
+        "text": "left in the image."
+      },
+      {
+        "start": 1644.1,
+        "duration": 3.5,
+        "text": "The result we get is a bit trippy, but it's pretty cool when you think about it, and"
+      },
+      {
+        "start": 1647.6,
+        "duration": 2.7,
+        "text": "there's a number of important things that I want you to notice."
+      },
+      {
+        "start": 1650.4,
+        "duration": 3.8,
+        "text": "You've probably noticed that it repeats as you move to the left, and I'll invite you"
+      },
+      {
+        "start": 1654.2,
+        "duration": 4.0,
+        "text": "to ponder why that might be the case in the back of your mind for a minute, but before"
+      },
+      {
+        "start": 1658.2,
+        "duration": 4.7,
+        "text": "that repetition, I want to talk about a different direction in which it repeats."
+      },
+      {
+        "start": 1662.9,
+        "duration": 3.9,
+        "text": "The way I've drawn it so far, the imaginary part for the values on the left are ranging"
+      },
+      {
+        "start": 1666.8,
+        "duration": 2.1,
+        "text": "from zero up to 2 pi."
+      },
+      {
+        "start": 1668.9,
+        "duration": 2.5,
+        "text": "But that's actually kind of an arbitrary choice."
+      },
+      {
+        "start": 1671.4,
+        "duration": 5.8,
+        "text": "Remember, if you keep letting that value z on the left walk up by another 2 pi units,"
+      },
+      {
+        "start": 1677.2,
+        "duration": 4.5,
+        "text": "the corresponding value e to the z on the right would just keep walking around that same"
+      },
+      {
+        "start": 1681.7,
+        "duration": 1.0,
+        "text": "circle again."
+      },
+      {
+        "start": 1682.7,
+        "duration": 5.2,
+        "text": "So I hope you'll agree, it feels at least enticing to let our image repeat in this vertical"
+      },
+      {
+        "start": 1687.9,
+        "duration": 5.0,
+        "text": "direction along every one of those vertical lines."
+      },
+      {
+        "start": 1692.9,
+        "duration": 1.2,
+        "text": "And it goes the other way too."
+      },
+      {
+        "start": 1694.1,
+        "duration": 4.6,
+        "text": "As you let the imaginary part on the left get smaller, going down, the corresponding value"
+      },
+      {
+        "start": 1698.7,
+        "duration": 4.9,
+        "text": "on that right just keeps walking around that same circle, so the pattern that you see"
+      },
+      {
+        "start": 1703.6,
+        "duration": 3.0,
+        "text": "should perhaps repeat in that way too."
+      },
+      {
+        "start": 1706.6,
+        "duration": 4.6,
+        "text": "To be more explicit, the rule that I'm using to draw this image on the left is that for"
+      },
+      {
+        "start": 1711.2,
+        "duration": 5.2,
+        "text": "every point z in that plane on the left, you look at the corresponding value e to the"
+      },
+      {
+        "start": 1716.4,
+        "duration": 3.6,
+        "text": "z on the right, and then you assign it a matching color."
+      },
+      {
+        "start": 1720.0,
+        "duration": 6.8,
+        "text": "So for example, this warped pi creature, and this one, and this one, all really correspond"
+      },
+      {
+        "start": 1726.9,
+        "duration": 4.4,
+        "text": "to the same part of the image on the right, the big pi creature in the lower left."
+      },
+      {
+        "start": 1731.2,
+        "duration": 4.8,
+        "text": "Another way to think about this is that because the function e to the z is many to one, the"
+      },
+      {
+        "start": 1736.1,
+        "duration": 5.6,
+        "text": "feeling we get is that the natural logarithm, it's inverse, wants to be a multi-valued"
+      },
+      {
+        "start": 1741.7,
+        "duration": 4.4,
+        "text": "function, something where one input maps to multiple different outputs."
+      },
+      {
+        "start": 1746.1,
+        "duration": 4.5,
+        "text": "Now, in practice, many times you don't want a function to have multiple outputs, sometimes"
+      },
+      {
+        "start": 1750.6,
+        "duration": 4.6,
+        "text": "that even defies the definition of a function in your context, so people will often just"
+      },
+      {
+        "start": 1755.2,
+        "duration": 4.9,
+        "text": "choose a band of this plane on the left to be the outputs of the natural log."
+      },
+      {
+        "start": 1760.1,
+        "duration": 4.5,
+        "text": "In complex analysis, this is called choosing a branch cut for the function."
+      },
+      {
+        "start": 1764.6,
+        "duration": 4.1,
+        "text": "For our purposes, though, where we want to recreate and understand Etcher's piece, it's"
+      },
+      {
+        "start": 1768.7,
+        "duration": 5.4,
+        "text": "actually nice to think of the log as a multi-valued function, where each point on the right corresponds"
+      },
+      {
+        "start": 1774.1,
+        "duration": 5.8,
+        "text": "to a repeating sequence of points on the left, spaced out two pi vertically, going infinitely"
+      },
+      {
+        "start": 1779.8,
+        "duration": 1.8,
+        "text": "in both directions."
+      },
+      {
+        "start": 1781.6,
+        "duration": 5.0,
+        "text": "Now in our special case, you also see this repeating pattern as you move to the left, but"
+      },
+      {
+        "start": 1786.7,
+        "duration": 2.2,
+        "text": "that is something different entirely."
+      },
+      {
+        "start": 1788.9,
+        "duration": 2.2,
+        "text": "You would not see this for most images."
+      },
+      {
+        "start": 1791.0,
+        "duration": 6.0,
+        "text": "It arises specifically because we're working with a self-similar drosta image, one that looks"
+      },
+      {
+        "start": 1797.0,
+        "duration": 3.3,
+        "text": "identical as you zoom in by a certain factor."
+      },
+      {
+        "start": 1800.3,
+        "duration": 5.1,
+        "text": "This falls straight out of a core property of logarithms and exponentials."
+      },
+      {
+        "start": 1805.4,
+        "duration": 6.0,
+        "text": "Examples turn addition into multiplication, and logarithms turn multiplication back into"
+      },
+      {
+        "start": 1811.5,
+        "duration": 1.5,
+        "text": "addition."
+      },
+      {
+        "start": 1813.0,
+        "duration": 5.6,
+        "text": "For example, imagine taking some small value w on this plane on the right, and also considering"
+      },
+      {
+        "start": 1818.6,
+        "duration": 5.7,
+        "text": "16 times that value, which is scaled up 16 times farther away from the origin."
+      },
+      {
+        "start": 1824.3,
+        "duration": 5.6,
+        "text": "Now if we look at the corresponding value, log of w on the left, that act of multiplying"
+      },
+      {
+        "start": 1829.8,
+        "duration": 6.0,
+        "text": "by 16 now looks like addition, specifically shifting to the right by the natural log"
+      },
+      {
+        "start": 1835.8,
+        "duration": 3.6,
+        "text": "of 16, which is just some real number."
+      },
+      {
+        "start": 1839.4,
+        "duration": 6.2,
+        "text": "In fact, this rectangle here in our bizarre warped log image that has a width of log 16"
+      },
+      {
+        "start": 1845.7,
+        "duration": 5.2,
+        "text": "and a height of two pi, contains all the information about the image on the right."
+      },
+      {
+        "start": 1850.9,
+        "duration": 5.9,
+        "text": "It corresponds to this annulus of the drosta image, and if you were to shift that rectangle"
+      },
+      {
+        "start": 1856.8,
+        "duration": 6.0,
+        "text": "exactly log of 16 units to the left, you would get a scaled down version of that annulus,"
+      },
+      {
+        "start": 1862.9,
+        "duration": 4.7,
+        "text": "exactly 16 times smaller, that nestles in perfectly like a puzzle piece."
+      },
+      {
+        "start": 1867.6,
+        "duration": 4.5,
+        "text": "And if you repeat that infinitely many times, it gives you this infinite nesting that"
+      },
+      {
+        "start": 1872.1,
+        "duration": 2.7,
+        "text": "characterizes the drosta zoom."
+      },
+      {
+        "start": 1874.8,
+        "duration": 4.6,
+        "text": "The way I've drawn things so far, we have this cut off to the log image on the right side,"
+      },
+      {
+        "start": 1879.4,
+        "duration": 4.5,
+        "text": "and at this point, you know well that vertical lines on the left correspond to circles on"
+      },
+      {
+        "start": 1883.9,
+        "duration": 4.4,
+        "text": "the right, so you can probably guess that this corresponds to the fact that I gave a maximum"
+      },
+      {
+        "start": 1888.3,
+        "duration": 3.5,
+        "text": "radius to that drosta image, but of course you don't need to do that."
+      },
+      {
+        "start": 1891.8,
+        "duration": 4.3,
+        "text": "In principle, it can extend out infinitely far in all directions, following the same"
+      },
+      {
+        "start": 1896.1,
+        "duration": 2.4,
+        "text": "self-similar pattern as you scale up."
+      },
+      {
+        "start": 1898.5,
+        "duration": 5.2,
+        "text": "And the result for the log image on the left would be to extend as far rightward as you"
+      },
+      {
+        "start": 1903.7,
+        "duration": 3.8,
+        "text": "want, again with a repeated tiling pattern."
+      },
+      {
+        "start": 1907.4,
+        "duration": 5.3,
+        "text": "So to conclude, the logarithm image on the left is periodic vertically, basically because"
+      },
+      {
+        "start": 1912.7,
+        "duration": 2.4,
+        "text": "rotation on the right is periodic."
+      },
+      {
+        "start": 1915.1,
+        "duration": 1.6,
+        "text": "This would happen for any image."
+      },
+      {
+        "start": 1916.7,
+        "duration": 5.0,
+        "text": "And then in this special case of a drosta image, it's also periodic horizontally because"
+      },
+      {
+        "start": 1921.7,
+        "duration": 3.3,
+        "text": "the drosta image repeats as you zoom in."
+      },
+      {
+        "start": 1925.0,
+        "duration": 6.0,
+        "text": "This doubly periodic property is what will ultimately take advantage of for the final result."
+      },
+      {
+        "start": 1931.0,
+        "duration": 2.0,
+        "text": "And we now have all the foundation we need."
+      },
+      {
+        "start": 1933.0,
+        "duration": 5.2,
+        "text": "I can now finally describe for you the function that turns the drosta zoom into this escher"
+      },
+      {
+        "start": 1938.2,
+        "duration": 2.4,
+        "text": "style self-contained loop."
+      },
+      {
+        "start": 1940.6,
+        "duration": 3.6,
+        "text": "Or just jumping right into it, we have been kind of covering a lot, so it might be worth"
+      },
+      {
+        "start": 1944.2,
+        "duration": 1.8,
+        "text": "giving some space to let this digest."
+      },
+      {
+        "start": 1946.0,
+        "duration": 3.5,
+        "text": "And I was meaning to take 30 quick seconds at some point in this video to talk about"
+      },
+      {
+        "start": 1949.4,
+        "duration": 3.7,
+        "text": "3B1B talent, so now might be as good a time as any."
+      },
+      {
+        "start": 1953.1,
+        "duration": 3.2,
+        "text": "This is the virtual career fair that I'm experimenting with this year."
+      },
+      {
+        "start": 1956.3,
+        "duration": 4.3,
+        "text": "And the basic idea is that you, a person who spends their free time learning about things"
+      },
+      {
+        "start": 1960.6,
+        "duration": 5.4,
+        "text": "like complex logarithms, are probably interested in working with like-minded, curious, and technical"
+      },
+      {
+        "start": 1966.1,
+        "duration": 1.0,
+        "text": "teams."
+      },
+      {
+        "start": 1967.1,
+        "duration": 6.0,
+        "text": "If you're seeking or open to a new job, check out the organizations at 3B1B.co slash talent."
+      },
+      {
+        "start": 1973.0,
+        "duration": 4.2,
+        "text": "When you explore that page, you'll find interviews between me and the relevant teams, technical"
+      },
+      {
+        "start": 1977.3,
+        "duration": 3.9,
+        "text": "puzzles and challenges that they've chosen to feature for you, and various other things"
+      },
+      {
+        "start": 1981.2,
+        "duration": 3.1,
+        "text": "aimed at giving you a feel for the technical team culture."
+      },
+      {
+        "start": 1984.3,
+        "duration": 4.5,
+        "text": "And I just kind of like the idea of exposing this audience to aligned career opportunities,"
+      },
+      {
+        "start": 1988.8,
+        "duration": 5.2,
+        "text": "so whenever you are looking for a job, whether that's now or later, be sure to check it out."
+      },
+      {
+        "start": 1993.9,
+        "duration": 1.0,
+        "text": "Okay."
+      },
+      {
+        "start": 1994.9,
+        "duration": 1.3,
+        "text": "So back to our main goal."
+      },
+      {
+        "start": 1996.2,
+        "duration": 5.1,
+        "text": "How is it that we can use everything that we've built up about complex functions and transformations"
+      },
+      {
+        "start": 2001.4,
+        "duration": 4.4,
+        "text": "that give conformal maps and everything like that to construct some kind of function that"
+      },
+      {
+        "start": 2005.8,
+        "duration": 3.1,
+        "text": "recreates Escher's print gallery effect?"
+      },
+      {
+        "start": 2008.8,
+        "duration": 3.3,
+        "text": "Maybe it's easiest if I just throw down the whole outline of the function, and then we"
+      },
+      {
+        "start": 2012.1,
+        "duration": 2.2,
+        "text": "can go through each step in more detail."
+      },
+      {
+        "start": 2014.3,
+        "duration": 5.2,
+        "text": "First, take a logarithm, giving this bizarre doubly periodic tiling pattern."
+      },
+      {
+        "start": 2019.5,
+        "duration": 4.7,
+        "text": "And then you rotate and scale that tiling pattern in just the right way, and then from"
+      },
+      {
+        "start": 2024.2,
+        "duration": 6.0,
+        "text": "there, you take an exponential, which unwarps it, but this time with a certain twist."
+      },
+      {
+        "start": 2030.2,
+        "duration": 3.8,
+        "text": "This might seem a little bizarre, but there's actually a really nice way to motivate and"
+      },
+      {
+        "start": 2034.0,
+        "duration": 2.4,
+        "text": "to understand what's really going on here."
+      },
+      {
+        "start": 2036.4,
+        "duration": 2.4,
+        "text": "Take a look back at that original drawstre image."
+      },
+      {
+        "start": 2038.8,
+        "duration": 5.4,
+        "text": "And remember how we want to take this big pie creature and somehow identify it with the"
+      },
+      {
+        "start": 2044.2,
+        "duration": 3.3,
+        "text": "smaller, self-similar copy, 16 times zoomed in."
+      },
+      {
+        "start": 2047.5,
+        "duration": 3.8,
+        "text": "I want you to think about a line connecting both of those."
+      },
+      {
+        "start": 2051.3,
+        "duration": 4.4,
+        "text": "One way to frame the goal that we have is that we want the final function to transform"
+      },
+      {
+        "start": 2055.8,
+        "duration": 3.7,
+        "text": "such a line into a closed loop in the final space."
+      },
+      {
+        "start": 2059.5,
+        "duration": 4.8,
+        "text": "The endpoints of the line on the top represent the big and the small pie creatures, so whatever"
+      },
+      {
+        "start": 2064.2,
+        "duration": 5.4,
+        "text": "function identifies those creatures should, at the very least, close up this line."
+      },
+      {
+        "start": 2069.6,
+        "duration": 4.5,
+        "text": "Now think about what this line looks like in the logarithm of the image."
+      },
+      {
+        "start": 2074.1,
+        "duration": 4.5,
+        "text": "The big pie creature corresponds to all these multiple copies here next to the imaginary"
+      },
+      {
+        "start": 2078.6,
+        "duration": 1.0,
+        "text": "line."
+      },
+      {
+        "start": 2079.6,
+        "duration": 4.9,
+        "text": "As we talked about, when you scale down the image, it corresponds to shifting to the left"
+      },
+      {
+        "start": 2084.5,
+        "duration": 5.8,
+        "text": "in the log, so these copies in the log image represent that small pie creature."
+      },
+      {
+        "start": 2090.4,
+        "duration": 3.8,
+        "text": "And actually, instead of using this horizontal line, we're going to want to take advantage"
+      },
+      {
+        "start": 2094.1,
+        "duration": 4.3,
+        "text": "of the fact that this log image is periodic in two separate directions."
+      },
+      {
+        "start": 2098.4,
+        "duration": 6.2,
+        "text": "So instead what we'll work with is a diagonal line that connects this copy of the big character"
+      },
+      {
+        "start": 2104.7,
+        "duration": 3.3,
+        "text": "to this lower left copy of the small one."
+      },
+      {
+        "start": 2108.0,
+        "duration": 4.0,
+        "text": "It might seem unmotivated at the moment, and it is, but the best way to explain why is"
+      },
+      {
+        "start": 2112.0,
+        "duration": 4.4,
+        "text": "just to show you how this plays out, and afterwards if you want we can contrast with what would"
+      },
+      {
+        "start": 2116.4,
+        "duration": 2.8,
+        "text": "have happened if you tried using the horizontal line."
+      },
+      {
+        "start": 2119.2,
+        "duration": 5.0,
+        "text": "Now this new downward component in the log image corresponds to adding some clockwise rotation"
+      },
+      {
+        "start": 2124.2,
+        "duration": 2.3,
+        "text": "to the path in the original image."
+      },
+      {
+        "start": 2126.6,
+        "duration": 4.6,
+        "text": "Remember, our goal is to turn this into a loop in the final image."
+      },
+      {
+        "start": 2131.2,
+        "duration": 4.4,
+        "text": "But you and I just spent like 10 minutes talking extensively about a function that turns"
+      },
+      {
+        "start": 2135.6,
+        "duration": 3.8,
+        "text": "line segments into circles, namely E to the Z."
+      },
+      {
+        "start": 2139.4,
+        "duration": 5.4,
+        "text": "What you need to do is get that line segment to end up perfectly vertical with a height"
+      },
+      {
+        "start": 2144.7,
+        "duration": 5.2,
+        "text": "of 2 pi, and doing this basically comes down to rotating and scaling it in just the right"
+      },
+      {
+        "start": 2149.9,
+        "duration": 2.6,
+        "text": "way to give it that length and direction."
+      },
+      {
+        "start": 2152.5,
+        "duration": 4.2,
+        "text": "Now, if you remember, as we were warming up with complex numbers, we talked about how"
+      },
+      {
+        "start": 2156.6,
+        "duration": 5.0,
+        "text": "multiplication by a constant gives you some combination of rotation and scaling."
+      },
+      {
+        "start": 2161.6,
+        "duration": 4.2,
+        "text": "And in this case, one artistic feature we might like is for our big pi creature on the lower"
+      },
+      {
+        "start": 2165.8,
+        "duration": 2.6,
+        "text": "left to stay fixed in that position."
+      },
+      {
+        "start": 2168.5,
+        "duration": 4.7,
+        "text": "Then that would mean that this point in our log image needs to stay fixed in place."
+      },
+      {
+        "start": 2173.2,
+        "duration": 4.2,
+        "text": "So instead of pivoting around the origin, we really want everything to pivot about that"
+      },
+      {
+        "start": 2177.4,
+        "duration": 1.0,
+        "text": "point."
+      },
+      {
+        "start": 2178.4,
+        "duration": 4.6,
+        "text": "Let's say we label that point something like Z0, then here's how the updated formula would"
+      },
+      {
+        "start": 2183.0,
+        "duration": 2.5,
+        "text": "look for that rotation and scaling."
+      },
+      {
+        "start": 2185.5,
+        "duration": 4.0,
+        "text": "But really, most of the content comes down to choosing this constant C that you're going"
+      },
+      {
+        "start": 2189.5,
+        "duration": 1.0,
+        "text": "to multiply by."
+      },
+      {
+        "start": 2190.8,
+        "duration": 4.7,
+        "text": "And if you like exercises, you might enjoy actually taking a moment to work out what specific"
+      },
+      {
+        "start": 2195.5,
+        "duration": 2.7,
+        "text": "value that constant should take on."
+      },
+      {
+        "start": 2198.2,
+        "duration": 4.0,
+        "text": "But right here, since we're being very visual and I want to have a little fun, let me show"
+      },
+      {
+        "start": 2202.2,
+        "duration": 4.6,
+        "text": "you that constant in its own little complex plane, and then also show what happens if I kind"
+      },
+      {
+        "start": 2206.8,
+        "duration": 3.4,
+        "text": "of grab it and move it around a little bit."
+      },
+      {
+        "start": 2210.2,
+        "duration": 4.5,
+        "text": "Different choices give you different scaling and rotation, which, after expanentiating,"
+      },
+      {
+        "start": 2214.8,
+        "duration": 3.8,
+        "text": "gives you all these completely bizarre kaleidoscopic images."
+      },
+      {
+        "start": 2218.6,
+        "duration": 4.6,
+        "text": "And what you could think about the whole operation is as a game where you're trying to find just"
+      },
+      {
+        "start": 2223.2,
+        "duration": 4.5,
+        "text": "the right value that corresponds everything to line up as you need them to in that image"
+      },
+      {
+        "start": 2227.7,
+        "duration": 1.5,
+        "text": "of the lower right."
+      },
+      {
+        "start": 2229.2,
+        "duration": 4.2,
+        "text": "When it is set to that appropriate value and we get this recreated Escher effect, in that"
+      },
+      {
+        "start": 2233.4,
+        "duration": 4.1,
+        "text": "final image on the lower right, I've been showing this whole in the middle analogous"
+      },
+      {
+        "start": 2237.5,
+        "duration": 3.2,
+        "text": "to the whole that Escher had in his original piece."
+      },
+      {
+        "start": 2240.7,
+        "duration": 2.1,
+        "text": "But that's actually entirely artificial."
+      },
+      {
+        "start": 2242.8,
+        "duration": 4.9,
+        "text": "The output image of the function naturally fills that in with its own repeating spiral"
+      },
+      {
+        "start": 2247.7,
+        "duration": 1.0,
+        "text": "inward."
+      },
+      {
+        "start": 2248.7,
+        "duration": 4.4,
+        "text": "After all, the rotated tiling pattern on the left extends infinitely through the whole"
+      },
+      {
+        "start": 2253.1,
+        "duration": 4.8,
+        "text": "plane, so when you take its exponential, it also fills in everything, except for the"
+      },
+      {
+        "start": 2257.9,
+        "duration": 2.1,
+        "text": "point at zero."
+      },
+      {
+        "start": 2260.0,
+        "duration": 2.9,
+        "text": "And that's it, that is the basic operation."
+      },
+      {
+        "start": 2262.9,
+        "duration": 5.1,
+        "text": "Translate to this bizarre looking log space, rotate in scale to realign things, and then"
+      },
+      {
+        "start": 2268.0,
+        "duration": 3.6,
+        "text": "translate back with an exponential."
+      },
+      {
+        "start": 2271.6,
+        "duration": 4.6,
+        "text": "At this point, having recreated our own variation on Escher, it might be nice to step through"
+      },
+      {
+        "start": 2276.2,
+        "duration": 5.6,
+        "text": "what that same process looks like for Escher's specific example, that seaside multistound,"
+      },
+      {
+        "start": 2281.8,
+        "duration": 4.6,
+        "text": "containing a print gallery with a person looking at a picture of the town."
+      },
+      {
+        "start": 2286.4,
+        "duration": 4.6,
+        "text": "As before, step number one is to place this scene on its own little complex plane where"
+      },
+      {
+        "start": 2291.0,
+        "duration": 5.4,
+        "text": "the infinite limiting point about which everything scales is positioned at zero."
+      },
+      {
+        "start": 2296.4,
+        "duration": 5.2,
+        "text": "Step two, take a logarithm of this, which in this case gives us a similarly bizarre transformation"
+      },
+      {
+        "start": 2301.6,
+        "duration": 1.5,
+        "text": "of the whole scene."
+      },
+      {
+        "start": 2303.2,
+        "duration": 2.1,
+        "text": "But there is a little difference this time."
+      },
+      {
+        "start": 2305.3,
+        "duration": 4.9,
+        "text": "As Escher was working with a much deeper zoom, with a scale factor of 256, the repeating"
+      },
+      {
+        "start": 2310.2,
+        "duration": 6.2,
+        "text": "tiles in this new example actually span a wider part of the complex plane."
+      },
+      {
+        "start": 2316.4,
+        "duration": 5.4,
+        "text": "Step three, again, is to rotate and scale this, which depends on multiplying by the appropriate"
+      },
+      {
+        "start": 2321.8,
+        "duration": 2.0,
+        "text": "choice of a complex constant."
+      },
+      {
+        "start": 2323.8,
+        "duration": 5.7,
+        "text": "The constraint is to ensure that this rotated image still repeats every two pi units vertically,"
+      },
+      {
+        "start": 2329.4,
+        "duration": 3.9,
+        "text": "but along a part of the image that was previously diagonal."
+      },
+      {
+        "start": 2333.4,
+        "duration": 3.6,
+        "text": "And then step four, plug this all through E to the Z."
+      },
+      {
+        "start": 2337.0,
+        "duration": 3.8,
+        "text": "And what you get is something very similar to Escher's final picture."
+      },
+      {
+        "start": 2340.7,
+        "duration": 7.1,
+        "text": "An image, where walking around a loop, corresponds to zooming in by a factor of 256."
+      },
+      {
+        "start": 2347.8,
+        "duration": 4.4,
+        "text": "And again, when we frame it this way with complex functions, there is no hole in the middle."
+      },
+      {
+        "start": 2352.2,
+        "duration": 5.1,
+        "text": "That final result is itself a drawstre image, albeit this time with a twist, where there"
+      },
+      {
+        "start": 2357.3,
+        "duration": 5.0,
+        "text": "is a kind of self-similarity spiraling down infinitely far as much as you want to zoom"
+      },
+      {
+        "start": 2362.4,
+        "duration": 2.0,
+        "text": "in."
+      },
+      {
+        "start": 2364.4,
+        "duration": 3.0,
+        "text": "There are a couple things worth noticing about this whole process."
+      },
+      {
+        "start": 2367.4,
+        "duration": 4.1,
+        "text": "First off, if you write this idea down as a formula, where you take a log, multiply it"
+      },
+      {
+        "start": 2371.4,
+        "duration": 4.7,
+        "text": "by a constant, and then exponentiate, that can actually be simplified to simply look like"
+      },
+      {
+        "start": 2376.1,
+        "duration": 3.6,
+        "text": "raising your input to the power of some complex constant."
+      },
+      {
+        "start": 2379.7,
+        "duration": 4.4,
+        "text": "And if you reintroduce that offset factor, it just introduces another constant."
+      },
+      {
+        "start": 2384.0,
+        "duration": 3.7,
+        "text": "On the one hand, it's very pleasing that this entire complicated process can be boiled"
+      },
+      {
+        "start": 2387.7,
+        "duration": 4.1,
+        "text": "down to so few symbols on the page, but I do think this risk's kind of obscuring what's"
+      },
+      {
+        "start": 2391.8,
+        "duration": 2.0,
+        "text": "actually going on."
+      },
+      {
+        "start": 2393.8,
+        "duration": 3.7,
+        "text": "And then I had mentioned things would not work if you only tried using those horizontal"
+      },
+      {
+        "start": 2397.4,
+        "duration": 1.0,
+        "text": "lines."
+      },
+      {
+        "start": 2398.4,
+        "duration": 3.3,
+        "text": "If you're curious, here's what it looks like if you try that, which would mean rotating"
+      },
+      {
+        "start": 2401.7,
+        "duration": 3.6,
+        "text": "everything by 90 degrees and scaling at the appropriate amount."
+      },
+      {
+        "start": 2405.4,
+        "duration": 3.9,
+        "text": "You do get something kind of interesting, but it's just not what we're going for."
+      },
+      {
+        "start": 2409.2,
+        "duration": 3.6,
+        "text": "And if you think about it, what's basically going on is that you are swapping the roles"
+      },
+      {
+        "start": 2412.8,
+        "duration": 4.0,
+        "text": "of rotation and of scaling."
+      },
+      {
+        "start": 2416.8,
+        "duration": 4.4,
+        "text": "Stepping back from all this, this second perspective where the piece is all about rotating"
+      },
+      {
+        "start": 2421.2,
+        "duration": 5.2,
+        "text": "in a log space feels completely different from Esher's more intuitive approach using"
+      },
+      {
+        "start": 2426.3,
+        "duration": 2.4,
+        "text": "his distorted grid and the mesh warp."
+      },
+      {
+        "start": 2428.8,
+        "duration": 3.2,
+        "text": "But there is a through line connecting both perspectives."
+      },
+      {
+        "start": 2431.9,
+        "duration": 4.2,
+        "text": "For one thing, you can now understand how exactly we've been recreating and modifying"
+      },
+      {
+        "start": 2436.1,
+        "duration": 1.8,
+        "text": "the grid that Esher had."
+      },
+      {
+        "start": 2438.0,
+        "duration": 3.6,
+        "text": "You basically take that same function that we've built up, but instead of applying it"
+      },
+      {
+        "start": 2441.6,
+        "duration": 4.0,
+        "text": "to an image, you apply it to an ordinary square grid."
+      },
+      {
+        "start": 2445.6,
+        "duration": 4.0,
+        "text": "Well, actually not quite an ordinary square grid, it's nice as to work with one that gets"
+      },
+      {
+        "start": 2449.6,
+        "duration": 4.6,
+        "text": "more dense as you zoom in so that it looks the same at all scales."
+      },
+      {
+        "start": 2454.2,
+        "duration": 4.2,
+        "text": "When you do this, the logarithm gives you this very beautiful curved, tiling pattern."
+      },
+      {
+        "start": 2458.4,
+        "duration": 4.4,
+        "text": "And then from there, you do the same trick of rotating things in just the right way and"
+      },
+      {
+        "start": 2462.9,
+        "duration": 4.6,
+        "text": "then taking an exponential, with the result of something quite close to what Esher spent"
+      },
+      {
+        "start": 2467.4,
+        "duration": 2.4,
+        "text": "many arduous hours constructing."
+      },
+      {
+        "start": 2469.8,
+        "duration": 4.2,
+        "text": "And remember, the entire reason that we're using the language of complex numbers, the"
+      },
+      {
+        "start": 2474.0,
+        "duration": 4.2,
+        "text": "motivation for me having you jump through those hoops is that this conformal property"
+      },
+      {
+        "start": 2478.2,
+        "duration": 2.1,
+        "text": "falls out as a byproduct."
+      },
+      {
+        "start": 2480.3,
+        "duration": 4.6,
+        "text": "Tiny squares from the original grid remain, at least approximately, square in the final"
+      },
+      {
+        "start": 2484.8,
+        "duration": 1.2,
+        "text": "result."
+      },
+      {
+        "start": 2486.0,
+        "duration": 4.6,
+        "text": "Esher said that making this piece gave him some almighty headaches, and though maybe you"
+      },
+      {
+        "start": 2490.7,
+        "duration": 4.3,
+        "text": "and I had to under a few headaches ourselves for very different reasons, the payoff is"
+      },
+      {
+        "start": 2495.0,
+        "duration": 4.1,
+        "text": "that this property is one that we get with no added effort."
+      },
+      {
+        "start": 2499.0,
+        "duration": 4.3,
+        "text": "Now to be clear, you certainly don't need to understand complex derivatives or logarithms"
+      },
+      {
+        "start": 2503.3,
+        "duration": 3.5,
+        "text": "to enjoy Esher's work, and I wouldn't want to imply that you do."
+      },
+      {
+        "start": 2506.8,
+        "duration": 5.5,
+        "text": "However, when you understand that more mathematical side, it gives you the capacity for a very different"
+      },
+      {
+        "start": 2512.3,
+        "duration": 3.0,
+        "text": "kind of appreciation for what Esher was really doing."
+      },
+      {
+        "start": 2515.4,
+        "duration": 4.2,
+        "text": "And this is what I find fascinating about all of this, the real connection I want to give"
+      },
+      {
+        "start": 2519.5,
+        "duration": 1.7,
+        "text": "between the two storylines."
+      },
+      {
+        "start": 2521.2,
+        "duration": 4.2,
+        "text": "If you look at Esher's career, throughout it, he was drawn to certain concepts, things"
+      },
+      {
+        "start": 2525.4,
+        "duration": 3.0,
+        "text": "like representing infinity in a finite space."
+      },
+      {
+        "start": 2528.4,
+        "duration": 4.6,
+        "text": "And at the same time, he seemed to be guided by a certain aesthetic, often some implicit"
+      },
+      {
+        "start": 2533.0,
+        "duration": 5.0,
+        "text": "rigid rule, like the idea of little squares remaining little squares for this mesh."
+      },
+      {
+        "start": 2537.9,
+        "duration": 4.3,
+        "text": "The end result, when concept and aesthetic are combined like this, is that a given piece"
+      },
+      {
+        "start": 2542.2,
+        "duration": 4.7,
+        "text": "from Esher often feels like a solution to a puzzle, but one where it's not even obvious"
+      },
+      {
+        "start": 2547.0,
+        "duration": 2.1,
+        "text": "that a solution should exist."
+      },
+      {
+        "start": 2549.0,
+        "duration": 5.0,
+        "text": "Now what I find so thought provoking is that these visual puzzles that he landed on"
+      },
+      {
+        "start": 2554.1,
+        "duration": 3.1,
+        "text": "are not merely analogous to the act of doing math."
+      },
+      {
+        "start": 2557.2,
+        "duration": 5.1,
+        "text": "The specific structures that he was intuitively drawn to, often hide within them, very real"
+      },
+      {
+        "start": 2562.2,
+        "duration": 2.2,
+        "text": "and very deep mathematics."
+      },
+      {
+        "start": 2564.4,
+        "duration": 4.2,
+        "text": "In our example, the deeper structure is not just that the piece can be described with"
+      },
+      {
+        "start": 2568.6,
+        "duration": 1.5,
+        "text": "complex functions."
+      },
+      {
+        "start": 2570.1,
+        "duration": 4.2,
+        "text": "The ideas that we've touched on in this storyline are actually a lot closer than you might"
+      },
+      {
+        "start": 2574.4,
+        "duration": 2.6,
+        "text": "expect to the research frontiers."
+      },
+      {
+        "start": 2576.9,
+        "duration": 4.2,
+        "text": "If you look back at our approach in the second half, remember how it relied on using this"
+      },
+      {
+        "start": 2581.1,
+        "duration": 6.9,
+        "text": "doubly periodic pattern in the complex plane, something that repeats in two separate directions."
+      },
+      {
+        "start": 2588.0,
+        "duration": 3.8,
+        "text": "There's actually a special name for functions of complex numbers that are doubly periodic"
+      },
+      {
+        "start": 2591.9,
+        "duration": 3.1,
+        "text": "like this, they're known as elliptic functions."
+      },
+      {
+        "start": 2595.0,
+        "duration": 4.7,
+        "text": "It would be way too much to explain right here exactly why these functions are so useful,"
+      },
+      {
+        "start": 2599.7,
+        "duration": 3.9,
+        "text": "but one thing I want to highlight is that those two mathematicians I referenced at the"
+      },
+      {
+        "start": 2603.6,
+        "duration": 4.4,
+        "text": "start, the ones who provided the analysis of this piece, Dismitt and Lentstra, are both"
+      },
+      {
+        "start": 2608.0,
+        "duration": 5.5,
+        "text": "number theorists, and elliptic functions play a very prominent role in modern number theory,"
+      },
+      {
+        "start": 2613.6,
+        "duration": 3.0,
+        "text": "providing a kind of bridge to other parts of mathematics."
+      },
+      {
+        "start": 2616.5,
+        "duration": 4.2,
+        "text": "This may at least partially explain how it is that they could look at this piece, and"
+      },
+      {
+        "start": 2620.7,
+        "duration": 4.3,
+        "text": "think to construct that function that we laid out here."
+      },
+      {
+        "start": 2625.0,
+        "duration": 4.0,
+        "text": "When I look at Escher's work, whether it's the print gallery or many other favorites,"
+      },
+      {
+        "start": 2629.0,
+        "duration": 4.6,
+        "text": "the reason I love these pieces so much is that they awaken within me a very specific feeling"
+      },
+      {
+        "start": 2633.6,
+        "duration": 1.8,
+        "text": "that's hard to find elsewhere."
+      },
+      {
+        "start": 2635.4,
+        "duration": 4.4,
+        "text": "It's a feeling of things perfectly fitting into place, but that's not exactly it, it's"
+      },
+      {
+        "start": 2639.8,
+        "duration": 3.0,
+        "text": "something more than just the pleasure of seeing a puzzle solved."
+      },
+      {
+        "start": 2642.8,
+        "duration": 4.4,
+        "text": "It's an appreciation for the creative genius required to even dream up the puzzle in the"
+      },
+      {
+        "start": 2647.2,
+        "duration": 1.2,
+        "text": "first place."
+      },
+      {
+        "start": 2648.4,
+        "duration": 3.8,
+        "text": "The only other place where I get that feeling is in doing math."
+      },
+      {
+        "start": 2652.2,
+        "duration": 4.6,
+        "text": "So the fact that an artist and a mathematician can be drawn to the same structures, but for"
+      },
+      {
+        "start": 2656.7,
+        "duration": 4.6,
+        "text": "completely different reasons, suggests to me that there's something universal in what"
+      },
+      {
+        "start": 2661.3,
+        "duration": 2.8,
+        "text": "exactly it is that both of them seem to be drawn to."
+      }
+    ],
+    "full_text": "Whenever I'm making one of these videos, there's sometimes a special moment where the act of animating involves solving a whole bunch of little technical puzzlers, and then the underlying math I'm trying to explain, clicks for me in a way that it hadn't before once I see it alive on screen. The best versions of those moments often tell me when a video is gonna be one of my favorites. And putting together the end of this piece right here was one such time when I got that feeling. Our story doesn't actually start in the math classroom today, we begin in the art room. Imagine standing in a gallery, looking at a picture of a boat in a harbor, and the whole world kind of warps as your gaze shifts upwards and to the right, where you see a village on this waterfront. Among the tightly clustered buildings, the world warps even more as your gaze shifts downwards to the entrance of one building, leading to a hallway full of artwork. And at the end of this hall, here you are again, staring at a picture of a boat. This is MC Escher's 1956 lithograph The Print Gallery, or in Dutch, Print Tententunstilling. In a letter that he wrote to his son, describing his creation of a young man looking with interest at a print that features himself, Escher called this the most peculiar thing I have ever done. Which for him is saying a lot. Escher's art is widely loved around the world, frequently featuring paradoxical themes, or uniquely satisfying geometric patterns with some kind of character. This love is especially pronounced among mathematicians, since his art often touches on surprisingly deep concepts within math, despite the fact that Escher himself had no formal training in the field. The Print Gallery offers a perfect example of this unexpected depth. In 2003, the mathematicians, Dismitt and Lentstra, offered a delightful analysis of what's really going on in this piece, and the mind-bending self-contained loop that Escher managed to achieve. One of my main goals with this video is to offer a visual unpacking of their analysis, aiming as always to give you a feeling that you could have rediscovered this yourself. Something that unexpectedly pops out of this analysis is an answer to the question of what exactly should go in the middle of this picture. At first, that might sound like an incoherent question. If you come at it from the upper right, it feels like it should be featuring buildings in the village, but coming at it from the left, it looks more like part of the picture frame. Come at it from below, though, and it feels more fitting to be part of the gallery itself. Somehow all of the ambiguity about where exactly you are in this whole scene is compressed into that blank circle in the middle. And just for fun, since we're in the 2020s, I let a diffusion model take a stab at filling this in. And surprisingly, it struggles immensely, it just doesn't get it at all. And giving the poor machine some credit, of course it struggles. This feels like an intrinsically ambiguous and ill-defined part of the scene. But nevertheless, by the end, I hope that you'll agree there is one, and really only one, completion, that feels like the right puzzle piece that you can slot in. Before diving into the math, I want to give you a purely intuitive description for how Escher actually made this piece, which breaks up into three different steps. Step 1 is to start out with a straightened out version of the same general concept where a man is looking at a picture that picture contains a harbor, which contains a town, that contains a print gallery, that contains that same man. And so on and so forth, you could zoom in forever to your heart's content. This idea of a self-similar image, where the picture is contained inside itself, has a special name to graphic designers, it's known as the Drasta effect, named after a cocoa company that featured it in its branding. In fact, this seems to have been a somewhat common marketing gimmick for all kinds of early 20th century products. The self-similar Drasta image that Escher was using, though, involves a much, much deeper zoom than any of these, where the self-similar copy is 256 times smaller than the original. You'll see where that number comes from in just a minute. The genius of Escher is that he somehow intuitively realized there must be a way to take this concept of a picture nested inside itself, and turn it into this warped loop where the zooming in happens implicitly, as a viewer's gaze wanders around the circle. By the way, you might be wondering where I got this straightened out version, and the answer is that those two mathematicians I referenced generously let us use it. And this is something they actually reverse engineered from the original Escher piece, using the help of two Dutch artists Hans Richter and Jacqueline Hofstra. The way they reverse engineered it is actually super interesting. In a certain manner of speaking, it involves taking the logarithm of the original piece. I recognize that sentence probably sounds like nonsense right now, but later on in this video, I promise that will make a abundant sense. Now to outline the basic idea for how Escher made this loop, I want to use an example that's simpler than the one that he was working with, so we'll pull up this custom self-similar Drasta image, which has a pie creature looking at a framed picture of a house where that same pie creature lives. In this example, the self-similar copy is only 16 times smaller than the original, and this just makes everything much easier to see all at once. What I'll do is keep a separate workspace on the right here to sketch out the general goal we have in mind. Where the way you might think about it is that you want to distribute that 16 fold zoom in factor across the four corners of the square. For example, let's say you want the pie creature itself to appear about at the same size in the lower left corner. Then if you zoom in by a factor of two in the original, we'll take what would be in the upper left of that zoomed version and then place it in the upper left of our workspace. Similarly, zoom in by another factor of two and then take the upper right of that zoomed in version and now place an expanded version of that in the upper right of our workspace. Finally, one more step zoom in by another factor of two. Take what's in the lower right of that zoomed in version, blow it up and place it in the lower right of our workspace. These four cut out corners give a rough idea of what we want to create here. As long as you can find a smooth way to fill in the gaps between them, then as the onlookers gaze wanders around a circle on this image, what they're seeing will zoom in and in and in until it elegantly joins up with the self-similar part of the image 16 times smaller. We could just try joining it all up naively, something like this, but frankly that doesn't really look very good and it's certainly not as smooth and as elegant as what Escher managed to achieve. So we still have some work ahead of us. This book that I've been powing through by the way, the Magic of MC Escher, is something that I got on a delightful visit to the Escher Museum in the Hague, which if you're ever in the Netherlands I would highly recommend. And when we turn to the section about the print gallery, it offers us a little peak into what Escher's process actually was. For him, Step 2 was to create this warped grid. For the animations here I'm going to pull up a slight modification of that grid that is basically just a little nicer mathematically to generate, but it illustrates the same key point. In his case, the self-similar drawstice image he was working with has a scaling factor of 256. So to distribute that across the four corners, for him it would involve scaling by a factor of 4 as you walk from one corner to the next. And if you look closely at his grid, say at one of the squares on the lower right, notice how if you follow the top and bottom lines bounding that square over to the lower left of the image, those same lines end up in closing a square that is now 4 times as big. And then similarly, if you look at the lines bounding the left and right of a small square from that region, and you follow them upward, they end up nestled around a square that's nicely 4 times as big. So the grid kind of encodes the scaling from one corner to the next that we want. Now for our pet project where we only need to scale up by a factor of 2 from each corner to the next, we're going to use a modified version of this, but it'll be the same general idea. You might naturally wonder where on earth does this grid come from, but I actually want to postpone that question and skip ahead to step 3, which is how you can actually use this grid together with the self-similar drawstice image to create Escher's final effect. The way this works is to first lay down an ordinary square grid on the original image, and then let's say you want this portion here to end up in this corner of our final version. What you would do is take each tiny square inside it and then copy over its contents to the corresponding tiny square in the warped version of the grid. From there, each neighboring square in our original grid is forced to go to the corresponding neighboring square in the warped version. So you can kind of just keep following where the image must go by following the grid. And the fact that the grid lines on the warped version space out by a factor of 2 as you go from the lower left to the upper left means that the scale of our scene automatically gets scaled up by that factor of 2 as you walk up that line. The idea of this process is that as an artist, it's relatively straightforward to go piece by piece, copying over what's inside one tiny square to another tiny square, because at this small scale things are undistorted. It's certainly way, way easier than trying to dream up and draw the appropriate warped final image starting with nothing but a blank page in front of you. So basically with this warped grid in hand, the process of copying over each little square is pleasantly automatic. And if we let this automatic process run all the way around, it nicely closes up with the initial position. And for that to happen, it requires that our original image had this self-similarity when you zoom in by a factor of 16. I hope you'll agree the final result we have is pretty nice, it recreates the same general effect. But more than anything, I think it gives cause to more deeply appreciate Escher's own composition. He was actually very deliberate about the choice of imagery at all of the distinct scales. To quote, I quite intentionally chose serial types of objects, such for instance as a row of prints along the wall or blocks of houses in a town. But the cyclic elements, it would be all the more difficult to get my meaning over to the random viewer. This idea where you have a straight reference image and then a warped grid and you use the two together to create a warped scene is a common process in graphic design, it's known as a mesh warp. And Escher didn't invent it for this case, it's something that he had used multiple times before for other pieces. For our story, the point is that all of the logic for turning a drosta zoom into a loop is abstracted and purified into this grid, raising the natural question, where does it come from? How do you make this? You can kind of imagine as an initial naive approach, you might try linearly scaling everything from one corner to the next. But if you did that right away, you would see a conflict. These two scaling processes are placing distinct pressures on the individual squares. Where for example, this square wants to get flared out in this direction, based on the zooming in from the right, but it also wants to get flared in this direction based on the zooming out as you go up. Escher was evidently pulled to resolve this by curving all of the lines to relieve this tension. But there's one other crucial constraint that it seems he was guided by, one that presumably made the image transfer process easier, which made the final result look more natural, and which will make the ears of any mathematician immersed in complex analysis immediately perk up. The final warped grid, the tiny squares, are, well, squares. To be clear, this is not at all true for most mesh warps. In most cases, the warped grid lines that you draw don't necessarily intersect at right angles, and the little regions that they bound will, in general, be little parallelograms. This can still be workable for an artist, you can still kind of do the transfer, but presumably the act of copying over from the original to the warped version is more awkward when you have that distortion, so it would be much nicer if in the warped grid little squares remained at least approximately square. And when you look closely at the grid that Escher used for his print gallery, it has this property. All the lines are intersecting at right angles, and at a small enough scale, the regions they bound really are approximately squares. Artistically, this has the nice effect that even though the whole scene is dramatically warped and distorted at a global scale, zoomed in at a local scale, everything is relatively undistorted. This is what makes each local part of Escher's image easily recognizable. And mathematically, this is where the story really gets interesting. You see, this idea of a function from two-dimensional space to two-dimensional space where tiny squares remain approximately square, plays a special role, and has a special name in math. It's called a conformal map. And one area where it comes up all the time is in the study of functions with complex number inputs and complex number outputs. At this point, we're going to step back and walk out of the art classroom and wander over into the math department, where I want to offer you a mini lesson on some of the core ideas from this field. The basic game plan from here is that I want to first do a little refresher, go over some of the basics of complex numbers and complex functions. And then I want to spend some meaningful time building up an intuition for what logarithms look like in this context of complex numbers. And then once you have that in hand, we're going to step through a completely different way that you can think about recreating this effect that Escher had in his print gallery. Let's warm up with a review of the basics. We typically think about real numbers as living on a one-dimensional line, the real number line. And complex numbers are two-dimensional. Specifically, we think of the imaginary constant i defined to be the square root of negative one as being one unit above zero. And every other point on this plane represents some combination of a real number with some real multiple of i. It's typical to use the variable z in referring to a general complex number. And the game we want to play is to understand various functions of z. A very simple but important example is to multiply z by some constant. The function f of z equals two times z has the effect of scaling everything up by a factor of two. But what about multiplying by something imaginary, like i, the square root of negative one? Well you know that multiplying one by i gives you i. And by definition, i times i is negative one, both of these you'll notice are in 90 degree rotation, and more generally multiplying any value z by i has the effect of a 90 degree rotation. And more general than that, when you multiply by any complex constant, the effect is some combination of scaling and rotating. And there's a nice way to think about exactly how much it should scale and rotate. Zero times anything is zero, so the origin has to say fixed in place. And then one times any constant c is that same constant c. So that means this point at one has to be dragged over to land on whatever that constant c is that we're talking about. And that fully determines the amount of scaling and rotating from there the rest of the grid stays as rigid as it can. A key point to emphasize for our story is that if all you're doing is multiplying by some constant, shapes are always preserved. Anything you might want to draw, like a square, can get scaled or rotated. But beyond that, there are no distortions. Now things get more interesting for more complicated functions. A simple but non-trivial example would be mapping each number z to z squared. So the input 2 is going to have to move to 2 squared, which is 4. The input i is going to have to move to i squared, which is negative 1. Negative 1 itself would have to get mapped to positive 1. And in its fullness, here's what it looks like if I let every point among the grid lines of this input space move over to their corresponding outputs. It's a pretty nice effect. And unlike multiplying by a constant, shape is absolutely no longer preserved. The grid lines get curved and warped. However, and this is a key point, pay attention to what happens at a small scale, for example just focusing on this little square from the input space. As you watch the transformation happen again, you can see that shape is approximately preserved at least at a small enough scale. Small squares from our original grid remain approximately square, even after getting processed by the function. To use the lingo, the function z squared gives a conformal map. And the choice of z squared is really not special here. Here's what it looks like if you transform each point z over to z cubed. Squares remain approximately square. Okay, maybe this example square that I'm highlighting doesn't exactly look square in the output, but really it's just because it started off too big. To be clear, this conformal property that I'm talking about is a limiting one. A particular square might not exactly become square, but the idea is that as you zoom in more and more, choosing square regions from the input space that are smaller and smaller, the resulting output will indeed be better and better approximated by a square. And there's also nothing all that special about the choice of polynomials, like z squared or z cubed. For just about any function of complex numbers you could think to write down, this property holds. Shape is preserved at a small enough scale. It's almost like magic. The use of complex numbers is very relevant here. If instead you were thinking of points in 2D space, simply as a pair of real numbers with some x, y coordinates, and you write down some arbitrary function of x and y to get a new pair of numbers, what is way, way more typical, as you let points in that input space get transformed, is that the outputs of those tiny squares get squished and distorted. Even as you zoom in more and more, the resulting limiting shape typically looks like a parallel ogram, not necessarily a square. So complex functions really are special in this way. And the basic reason that tiny squares remain square comes down to calculus. What you're looking at is what it means for these functions to have derivatives. That might sound a little strange, but the analogy you can think of is that for most functions of real numbers, if you visualize them the ordinary way, just with a graph of inputs on the x-axis, outputs on the y-axis, as you zoom in more and more to any particular point on that graph, it looks more and more like a straight line. That is, the rate of change, how much delta f you get for a given delta x, approaches a constant. This is literally what it means for a function to have a derivative, but it's not the only way to visualize it. Here's a different way to see the same concept. Instead of looking at the graph of a function, let's think of the same function but as a transformation. That is, you're going to let each of these points on the real number line move over to their corresponding outputs on this other number line. What you'll notice is that evenly spaced dots from the input space can get warped in the output space, meaning the rate of change of the function in general is not constant. This spacing between our dots can change from one part of the image to the next. But we know that as you zoom in more and more to a particular output, the rate of change approaches a constant. The dots look more and more evenly spaced. Specifically, if you take a tiny patch of dots around a particular input and you copy them over to the output space around the corresponding output, you can approximately line up all the dots just by scaling everything by a certain constant factor. This is the same analytical fact as what the slope of a graph is telling you. It's just in a different visual context. But this context carries over much more easily to thinking about complex valued functions as transformations in the complex plane. Here we're going to think of the neighborhood around a given input as a tiny little grid of points, like we were before, and we let each point on that grid move over to its corresponding output. In this case, what it means for the rate of change to approach a constant is basically the exact same equation. The visual to have in your head is that if you take that tiny patch of squares around the input and copy it over to the corresponding output, you can approximately match this up with the output grid lines by multiplying by a certain constant, which remember in the setting of complex numbers means rotating and scaling it in some way, depending on the value of that complex constant. Since rotation and scaling preserve shape, it means that all the tiny squares from the input space remain at least approximately square under this transformation. So, stepping back, here's the key point, the reason for talking about any of this at all. Even though conformal maps like the one that Escher was using for his print gallery are incredibly constrained and highly unusual among the general ways that you could continuously squish about to a dimensional space, nevertheless, as if by magic, simply by speaking a language of complex numbers, you can somehow create entire families of these conformal maps without even really trying. All you do is mix and match standard functions of complex numbers. The one constraint is that these functions have to have derivatives, but this will be true for most of the functions you think to write down. For our story, decoding what's happening with the print gallery, this means that we have an entirely new way to reframe the key question. Can you construct some deliberately tailored complex function so that the act of zooming in around the inputs looks like walking around a loop among the outputs? Now, at this point with only the bare minimum crash course of complex analysis under our belts, it's hard to know where to start without first building up a larger palette of functions to work with and gaining some familiarity with how they actually behave for complex numbers. In this case, there are really only two more functions that you need to understand, e to the z and the natural log. I want to settle in and spend some meaningful time understanding both of these, and I think you'll agree that it's time well spent. Everybody deserves, in my opinion, at least one time in their life to experience the joy of understanding a complex logarithm. First though, a necessary prerequisite is to understand the complex exponential. Regular viewers will be familiar with what it looks like to raise e to the power of a complex number, but a little review just never hurts. We can start scaffolding the transformation just by focusing on the more familiar examples of real number inputs and the real number outputs they correspond to. For example, e to the zero is one, so this point at zero maps over to this point at one, and then every time you let that input increase by one, the output grows by a factor of e, meaning it runs away from us actually quite quickly. And then on the flip side, as you decrease that input, letting it get into the negative numbers, every step to the left corresponds to shrinking the output again by a factor of e. In particular, you'll notice in this case that output is always a positive number. This of course gets much more interesting when we let the inputs and the outputs both be complex numbers. And here, everything you need to know comes down to what happens as you let the imaginary part of that input increase. And what happens there is that the corresponding output walks around a circle. If you're wondering why imaginary inputs to an exponential walk you around a circle like this, we have discussed it many, many other times on this channel, see some of the links on screen and in the description. A key point that I'll reiterate here is that what makes the function e to the z very nice, as opposed to exponentials with other bases, is that as your input walks up at a rate of 1 unit per second, the output walks around its circle at a rate of exactly 1 radian per second. So in particular, increasing the imaginary part by exactly 2 pi causes one full rotation in the output. Fraised another way, these vertical line segments that I've been drawing with heights of exactly 2 pi, each get mapped neatly onto one complete circle when you apply the function. You'll notice how I've drawn these particular vertical line segments to be spaced out evenly in the real direction, where the real part from one to the next increases by one. The corresponding circles on the right each differ by a constant scaling factor, specifically the scaling factor e. Earlier for the simpler function z squared, I showed it as a transformation, moving all of the inputs to the outputs. And in this case for e to the z, if you're curious how that same idea looks, it's easiest to take a subset of the grid, like this one here, from the input space, and here's what it looks like to move each square over to the corresponding output. As we actually use this function for our print gallery goals, it'll be very helpful to anchor your mind by thinking of these vertical lines and the circles they turn into. In fact, there's a very playful way that I like to think about how these vertical lines turn into concentric circles and how they can carry the full input space along with them. What I like to imagine is sort of rolling up that entire z-plane into a tube, such that all of those vertical lines end up as circles. Specifically, each circle would have a circumference of 2 pi. Next, imagine taking this tube, lining it up above the origin of the output space, and then kind of squishing it down onto that output space, turning all the circles from that tube into these concentric rings of exponentially growing size. That's just what I like, but however you choose to think about it, what I want to be etched into your brain is the idea of vertical lines turning into circles. The very important point to emphasize here is that multiple different inputs can land on the same output. For example, e to the zero is one, but e to the 2 pi i is also one, so is e to the negative 2 pi i, and e to the 4 pi i, and so on. In fact, the infinite sequence along any given vertical line spaced out by 2 pi will all get collapsed together as that vertical line gets kind of rolled up into a circle. We say that the exponential map is many to one. Although it might not be obvious how this repetition in the vertical direction is going to be key to our final recreation of the print gallery effect. Okay, so exponentials give us the first ingredient characterized by turning lines into circles, and the second ingredient we need is the inverse of such an exponential known as the natural log, where basically the idea is that it unravels those circles back into lines. Now this will be especially fun to visualize and especially relevant to our story if we imagine painting this complex plane on the right with a drosta image. Say the example we were working with earlier, with the pi creature looking at a picture of a house where that same pi creature lives. In other words, it is finally time for you and me to answer that question of what it means to take the natural log of a picture. Okay, so think about this for a second. You already know that a vertical line segment, like this one on the left with a height of 2 pi, gets turned into a circle when you apply the map e to the z, so the natural log is going to take a circle of points on this image and then straighten them out into one of those lines. Similarly, if you look at a circle which was exactly e times smaller, that would also get straightened out into a line with the same height positioned one unit to the left. And then similarly, every circle in between these two is going to get unwrapped into one of these vertical lines between those last two. And more generally, smaller and smaller rings from the picture will all get unwrapped into these vertical line segments, each one with a height of 2 pi farther and farther to the left in the image. The result we get is a bit trippy, but it's pretty cool when you think about it, and there's a number of important things that I want you to notice. You've probably noticed that it repeats as you move to the left, and I'll invite you to ponder why that might be the case in the back of your mind for a minute, but before that repetition, I want to talk about a different direction in which it repeats. The way I've drawn it so far, the imaginary part for the values on the left are ranging from zero up to 2 pi. But that's actually kind of an arbitrary choice. Remember, if you keep letting that value z on the left walk up by another 2 pi units, the corresponding value e to the z on the right would just keep walking around that same circle again. So I hope you'll agree, it feels at least enticing to let our image repeat in this vertical direction along every one of those vertical lines. And it goes the other way too. As you let the imaginary part on the left get smaller, going down, the corresponding value on that right just keeps walking around that same circle, so the pattern that you see should perhaps repeat in that way too. To be more explicit, the rule that I'm using to draw this image on the left is that for every point z in that plane on the left, you look at the corresponding value e to the z on the right, and then you assign it a matching color. So for example, this warped pi creature, and this one, and this one, all really correspond to the same part of the image on the right, the big pi creature in the lower left. Another way to think about this is that because the function e to the z is many to one, the feeling we get is that the natural logarithm, it's inverse, wants to be a multi-valued function, something where one input maps to multiple different outputs. Now, in practice, many times you don't want a function to have multiple outputs, sometimes that even defies the definition of a function in your context, so people will often just choose a band of this plane on the left to be the outputs of the natural log. In complex analysis, this is called choosing a branch cut for the function. For our purposes, though, where we want to recreate and understand Etcher's piece, it's actually nice to think of the log as a multi-valued function, where each point on the right corresponds to a repeating sequence of points on the left, spaced out two pi vertically, going infinitely in both directions. Now in our special case, you also see this repeating pattern as you move to the left, but that is something different entirely. You would not see this for most images. It arises specifically because we're working with a self-similar drosta image, one that looks identical as you zoom in by a certain factor. This falls straight out of a core property of logarithms and exponentials. Examples turn addition into multiplication, and logarithms turn multiplication back into addition. For example, imagine taking some small value w on this plane on the right, and also considering 16 times that value, which is scaled up 16 times farther away from the origin. Now if we look at the corresponding value, log of w on the left, that act of multiplying by 16 now looks like addition, specifically shifting to the right by the natural log of 16, which is just some real number. In fact, this rectangle here in our bizarre warped log image that has a width of log 16 and a height of two pi, contains all the information about the image on the right. It corresponds to this annulus of the drosta image, and if you were to shift that rectangle exactly log of 16 units to the left, you would get a scaled down version of that annulus, exactly 16 times smaller, that nestles in perfectly like a puzzle piece. And if you repeat that infinitely many times, it gives you this infinite nesting that characterizes the drosta zoom. The way I've drawn things so far, we have this cut off to the log image on the right side, and at this point, you know well that vertical lines on the left correspond to circles on the right, so you can probably guess that this corresponds to the fact that I gave a maximum radius to that drosta image, but of course you don't need to do that. In principle, it can extend out infinitely far in all directions, following the same self-similar pattern as you scale up. And the result for the log image on the left would be to extend as far rightward as you want, again with a repeated tiling pattern. So to conclude, the logarithm image on the left is periodic vertically, basically because rotation on the right is periodic. This would happen for any image. And then in this special case of a drosta image, it's also periodic horizontally because the drosta image repeats as you zoom in. This doubly periodic property is what will ultimately take advantage of for the final result. And we now have all the foundation we need. I can now finally describe for you the function that turns the drosta zoom into this escher style self-contained loop. Or just jumping right into it, we have been kind of covering a lot, so it might be worth giving some space to let this digest. And I was meaning to take 30 quick seconds at some point in this video to talk about 3B1B talent, so now might be as good a time as any. This is the virtual career fair that I'm experimenting with this year. And the basic idea is that you, a person who spends their free time learning about things like complex logarithms, are probably interested in working with like-minded, curious, and technical teams. If you're seeking or open to a new job, check out the organizations at 3B1B.co slash talent. When you explore that page, you'll find interviews between me and the relevant teams, technical puzzles and challenges that they've chosen to feature for you, and various other things aimed at giving you a feel for the technical team culture. And I just kind of like the idea of exposing this audience to aligned career opportunities, so whenever you are looking for a job, whether that's now or later, be sure to check it out. Okay. So back to our main goal. How is it that we can use everything that we've built up about complex functions and transformations that give conformal maps and everything like that to construct some kind of function that recreates Escher's print gallery effect? Maybe it's easiest if I just throw down the whole outline of the function, and then we can go through each step in more detail. First, take a logarithm, giving this bizarre doubly periodic tiling pattern. And then you rotate and scale that tiling pattern in just the right way, and then from there, you take an exponential, which unwarps it, but this time with a certain twist. This might seem a little bizarre, but there's actually a really nice way to motivate and to understand what's really going on here. Take a look back at that original drawstre image. And remember how we want to take this big pie creature and somehow identify it with the smaller, self-similar copy, 16 times zoomed in. I want you to think about a line connecting both of those. One way to frame the goal that we have is that we want the final function to transform such a line into a closed loop in the final space. The endpoints of the line on the top represent the big and the small pie creatures, so whatever function identifies those creatures should, at the very least, close up this line. Now think about what this line looks like in the logarithm of the image. The big pie creature corresponds to all these multiple copies here next to the imaginary line. As we talked about, when you scale down the image, it corresponds to shifting to the left in the log, so these copies in the log image represent that small pie creature. And actually, instead of using this horizontal line, we're going to want to take advantage of the fact that this log image is periodic in two separate directions. So instead what we'll work with is a diagonal line that connects this copy of the big character to this lower left copy of the small one. It might seem unmotivated at the moment, and it is, but the best way to explain why is just to show you how this plays out, and afterwards if you want we can contrast with what would have happened if you tried using the horizontal line. Now this new downward component in the log image corresponds to adding some clockwise rotation to the path in the original image. Remember, our goal is to turn this into a loop in the final image. But you and I just spent like 10 minutes talking extensively about a function that turns line segments into circles, namely E to the Z. What you need to do is get that line segment to end up perfectly vertical with a height of 2 pi, and doing this basically comes down to rotating and scaling it in just the right way to give it that length and direction. Now, if you remember, as we were warming up with complex numbers, we talked about how multiplication by a constant gives you some combination of rotation and scaling. And in this case, one artistic feature we might like is for our big pi creature on the lower left to stay fixed in that position. Then that would mean that this point in our log image needs to stay fixed in place. So instead of pivoting around the origin, we really want everything to pivot about that point. Let's say we label that point something like Z0, then here's how the updated formula would look for that rotation and scaling. But really, most of the content comes down to choosing this constant C that you're going to multiply by. And if you like exercises, you might enjoy actually taking a moment to work out what specific value that constant should take on. But right here, since we're being very visual and I want to have a little fun, let me show you that constant in its own little complex plane, and then also show what happens if I kind of grab it and move it around a little bit. Different choices give you different scaling and rotation, which, after expanentiating, gives you all these completely bizarre kaleidoscopic images. And what you could think about the whole operation is as a game where you're trying to find just the right value that corresponds everything to line up as you need them to in that image of the lower right. When it is set to that appropriate value and we get this recreated Escher effect, in that final image on the lower right, I've been showing this whole in the middle analogous to the whole that Escher had in his original piece. But that's actually entirely artificial. The output image of the function naturally fills that in with its own repeating spiral inward. After all, the rotated tiling pattern on the left extends infinitely through the whole plane, so when you take its exponential, it also fills in everything, except for the point at zero. And that's it, that is the basic operation. Translate to this bizarre looking log space, rotate in scale to realign things, and then translate back with an exponential. At this point, having recreated our own variation on Escher, it might be nice to step through what that same process looks like for Escher's specific example, that seaside multistound, containing a print gallery with a person looking at a picture of the town. As before, step number one is to place this scene on its own little complex plane where the infinite limiting point about which everything scales is positioned at zero. Step two, take a logarithm of this, which in this case gives us a similarly bizarre transformation of the whole scene. But there is a little difference this time. As Escher was working with a much deeper zoom, with a scale factor of 256, the repeating tiles in this new example actually span a wider part of the complex plane. Step three, again, is to rotate and scale this, which depends on multiplying by the appropriate choice of a complex constant. The constraint is to ensure that this rotated image still repeats every two pi units vertically, but along a part of the image that was previously diagonal. And then step four, plug this all through E to the Z. And what you get is something very similar to Escher's final picture. An image, where walking around a loop, corresponds to zooming in by a factor of 256. And again, when we frame it this way with complex functions, there is no hole in the middle. That final result is itself a drawstre image, albeit this time with a twist, where there is a kind of self-similarity spiraling down infinitely far as much as you want to zoom in. There are a couple things worth noticing about this whole process. First off, if you write this idea down as a formula, where you take a log, multiply it by a constant, and then exponentiate, that can actually be simplified to simply look like raising your input to the power of some complex constant. And if you reintroduce that offset factor, it just introduces another constant. On the one hand, it's very pleasing that this entire complicated process can be boiled down to so few symbols on the page, but I do think this risk's kind of obscuring what's actually going on. And then I had mentioned things would not work if you only tried using those horizontal lines. If you're curious, here's what it looks like if you try that, which would mean rotating everything by 90 degrees and scaling at the appropriate amount. You do get something kind of interesting, but it's just not what we're going for. And if you think about it, what's basically going on is that you are swapping the roles of rotation and of scaling. Stepping back from all this, this second perspective where the piece is all about rotating in a log space feels completely different from Esher's more intuitive approach using his distorted grid and the mesh warp. But there is a through line connecting both perspectives. For one thing, you can now understand how exactly we've been recreating and modifying the grid that Esher had. You basically take that same function that we've built up, but instead of applying it to an image, you apply it to an ordinary square grid. Well, actually not quite an ordinary square grid, it's nice as to work with one that gets more dense as you zoom in so that it looks the same at all scales. When you do this, the logarithm gives you this very beautiful curved, tiling pattern. And then from there, you do the same trick of rotating things in just the right way and then taking an exponential, with the result of something quite close to what Esher spent many arduous hours constructing. And remember, the entire reason that we're using the language of complex numbers, the motivation for me having you jump through those hoops is that this conformal property falls out as a byproduct. Tiny squares from the original grid remain, at least approximately, square in the final result. Esher said that making this piece gave him some almighty headaches, and though maybe you and I had to under a few headaches ourselves for very different reasons, the payoff is that this property is one that we get with no added effort. Now to be clear, you certainly don't need to understand complex derivatives or logarithms to enjoy Esher's work, and I wouldn't want to imply that you do. However, when you understand that more mathematical side, it gives you the capacity for a very different kind of appreciation for what Esher was really doing. And this is what I find fascinating about all of this, the real connection I want to give between the two storylines. If you look at Esher's career, throughout it, he was drawn to certain concepts, things like representing infinity in a finite space. And at the same time, he seemed to be guided by a certain aesthetic, often some implicit rigid rule, like the idea of little squares remaining little squares for this mesh. The end result, when concept and aesthetic are combined like this, is that a given piece from Esher often feels like a solution to a puzzle, but one where it's not even obvious that a solution should exist. Now what I find so thought provoking is that these visual puzzles that he landed on are not merely analogous to the act of doing math. The specific structures that he was intuitively drawn to, often hide within them, very real and very deep mathematics. In our example, the deeper structure is not just that the piece can be described with complex functions. The ideas that we've touched on in this storyline are actually a lot closer than you might expect to the research frontiers. If you look back at our approach in the second half, remember how it relied on using this doubly periodic pattern in the complex plane, something that repeats in two separate directions. There's actually a special name for functions of complex numbers that are doubly periodic like this, they're known as elliptic functions. It would be way too much to explain right here exactly why these functions are so useful, but one thing I want to highlight is that those two mathematicians I referenced at the start, the ones who provided the analysis of this piece, Dismitt and Lentstra, are both number theorists, and elliptic functions play a very prominent role in modern number theory, providing a kind of bridge to other parts of mathematics. This may at least partially explain how it is that they could look at this piece, and think to construct that function that we laid out here. When I look at Escher's work, whether it's the print gallery or many other favorites, the reason I love these pieces so much is that they awaken within me a very specific feeling that's hard to find elsewhere. It's a feeling of things perfectly fitting into place, but that's not exactly it, it's something more than just the pleasure of seeing a puzzle solved. It's an appreciation for the creative genius required to even dream up the puzzle in the first place. The only other place where I get that feeling is in doing math. So the fact that an artist and a mathematician can be drawn to the same structures, but for completely different reasons, suggests to me that there's something universal in what exactly it is that both of them seem to be drawn to."
+  }
+}

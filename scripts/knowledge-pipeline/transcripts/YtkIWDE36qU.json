@@ -1,0 +1,1099 @@
+{
+  "video_id": "YtkIWDE36qU",
+  "video_title": "This pattern breaks, but for a good reason | Moser's circle problem",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 973.0,
+  "view_count": 2809415,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.6,
+        "text": "This is a very famous cautionary tale in math, known as Moser's Circle problem."
+      },
+      {
+        "start": 4.6,
+        "duration": 5.0,
+        "text": "Some of you may have seen this before, but what I want to do here is really explain what's going on."
+      },
+      {
+        "start": 9.6,
+        "duration": 3.8,
+        "text": "The way this starts is we take a circle and put two points on that circle,"
+      },
+      {
+        "start": 13.4,
+        "duration": 3.8,
+        "text": "and connect them with a line, that is, a chord of the circle,"
+      },
+      {
+        "start": 17.1,
+        "duration": 3.5,
+        "text": "and note that it divides the circle into two different regions."
+      },
+      {
+        "start": 20.6,
+        "duration": 5.0,
+        "text": "If I add a third point, and then connect that to the previous two points with two more chords,"
+      },
+      {
+        "start": 25.7,
+        "duration": 4.0,
+        "text": "then these lines all divide the circle into four separate regions."
+      },
+      {
+        "start": 29.7,
+        "duration": 3.8,
+        "text": "Then if you add a fourth point, and connect that to the previous three,"
+      },
+      {
+        "start": 33.4,
+        "duration": 4.2,
+        "text": "and you play the same game, you count up how many regions has this cut the circle into,"
+      },
+      {
+        "start": 37.6,
+        "duration": 1.8,
+        "text": "you end up with eight."
+      },
+      {
+        "start": 39.4,
+        "duration": 3.7,
+        "text": "Add a fifth point to the circle, connect it to the previous four,"
+      },
+      {
+        "start": 43.1,
+        "duration": 3.4,
+        "text": "count up the total number of regions, and if you're careful with your counting,"
+      },
+      {
+        "start": 46.6,
+        "duration": 2.2,
+        "text": "you'll get a total of sixteen."
+      },
+      {
+        "start": 48.7,
+        "duration": 3.7,
+        "text": "Naturally, you can guess what might come next, but would you bet your life on it?"
+      },
+      {
+        "start": 52.4,
+        "duration": 2.8,
+        "text": "Add a sixth point, connect it to all the previous ones,"
+      },
+      {
+        "start": 55.2,
+        "duration": 2.6,
+        "text": "and if you carefully count up all the different regions,"
+      },
+      {
+        "start": 57.9,
+        "duration": 2.7,
+        "text": "you end up not with the power of two you might have expected,"
+      },
+      {
+        "start": 60.6,
+        "duration": 1.5,
+        "text": "but just one shy of it."
+      },
+      {
+        "start": 63.9,
+        "duration": 1.8,
+        "text": "Some of you might be raising your hand, saying,"
+      },
+      {
+        "start": 65.8,
+        "duration": 2.1,
+        "text": "doesn't it depend on where we put the points?"
+      },
+      {
+        "start": 68.6,
+        "duration": 4.0,
+        "text": "For example, watch how this middle region disappears if I place everything nice and"
+      },
+      {
+        "start": 72.6,
+        "duration": 1.8,
+        "text": "symmetrically around the circle."
+      },
+      {
+        "start": 74.4,
+        "duration": 4.6,
+        "text": "So yes, it does depend, but we're going to consider the cases where you never have any three lines"
+      },
+      {
+        "start": 79.0,
+        "duration": 1.4,
+        "text": "intersecting with each other."
+      },
+      {
+        "start": 80.4,
+        "duration": 3.4,
+        "text": "This would be the generic case if you just choose and random points,"
+      },
+      {
+        "start": 83.8,
+        "duration": 2.6,
+        "text": "almost certainly you'll never have three lines coincide,"
+      },
+      {
+        "start": 86.5,
+        "duration": 2.1,
+        "text": "but setting aside the technical nuances,"
+      },
+      {
+        "start": 88.6,
+        "duration": 1.4,
+        "text": "the problem is such a tease."
+      },
+      {
+        "start": 90.0,
+        "duration": 3.8,
+        "text": "It looks so convincingly like powers of two until it just barely breaks."
+      },
+      {
+        "start": 93.8,
+        "duration": 3.4,
+        "text": "And I have such a strange soft spot for this particular question,"
+      },
+      {
+        "start": 97.1,
+        "duration": 3.4,
+        "text": "when I was younger I wrote a poem about it, and also a song."
+      },
+      {
+        "start": 100.6,
+        "duration": 3.7,
+        "text": "And on the one hand, it's kind of silly, because this is just one example of what the"
+      },
+      {
+        "start": 104.2,
+        "duration": 3.4,
+        "text": "mathematician Richard Guy called the strong law of small numbers."
+      },
+      {
+        "start": 107.7,
+        "duration": 1.0,
+        "text": "Summed up in the phrase,"
+      },
+      {
+        "start": 108.7,
+        "duration": 3.1,
+        "text": "there aren't enough small numbers to meet the many demands made of them."
+      },
+      {
+        "start": 112.6,
+        "duration": 3.7,
+        "text": "But I think what I really like about this problem is that if you sit down to try to"
+      },
+      {
+        "start": 116.3,
+        "duration": 3.4,
+        "text": "work out what is the real pattern, what's actually going on here,"
+      },
+      {
+        "start": 119.8,
+        "duration": 4.9,
+        "text": "one, it's just a really good exercise and problem solving, so it makes for a nice lesson right here."
+      },
+      {
+        "start": 124.6,
+        "duration": 4.2,
+        "text": "But also, it's not just a coincidence that it starts off being powers of two."
+      },
+      {
+        "start": 128.8,
+        "duration": 2.1,
+        "text": "There's a very good reason this happens."
+      },
+      {
+        "start": 130.9,
+        "duration": 4.9,
+        "text": "And it's also not a coincidence that you seemingly randomly hit another power of two a little bit later"
+      },
+      {
+        "start": 135.8,
+        "duration": 1.0,
+        "text": "on the 10th iteration."
+      },
+      {
+        "start": 142.2,
+        "duration": 4.0,
+        "text": "So we've got this pattern, and what you want to find is what function describes it."
+      },
+      {
+        "start": 146.4,
+        "duration": 4.3,
+        "text": "If you put n points on the boundary of a circle, and you connect them with all the possible"
+      },
+      {
+        "start": 150.7,
+        "duration": 3.6,
+        "text": "chords, and you count how many regions the circle has been cut into,"
+      },
+      {
+        "start": 154.3,
+        "duration": 2.5,
+        "text": "if the answer isn't a power of two, what is it?"
+      },
+      {
+        "start": 156.8,
+        "duration": 1.6,
+        "text": "What function of n should we plug in?"
+      },
+      {
+        "start": 159.2,
+        "duration": 4.8,
+        "text": "As always with math, problem solving rule number one, if you're stuck, is to try solving"
+      },
+      {
+        "start": 164.0,
+        "duration": 3.3,
+        "text": "easier questions somehow related to the problem at hand."
+      },
+      {
+        "start": 167.3,
+        "duration": 4.3,
+        "text": "It helps you get a foothold, and sometimes those answers are helpful in the final question."
+      },
+      {
+        "start": 171.6,
+        "duration": 2.7,
+        "text": "In this case, two warm-up questions that come to mind are,"
+      },
+      {
+        "start": 174.3,
+        "duration": 2.9,
+        "text": "how many total chords are there in this diagram?"
+      },
+      {
+        "start": 177.2,
+        "duration": 4.2,
+        "text": "And at how many points within the circle do those chords intersect each other?"
+      },
+      {
+        "start": 181.9,
+        "duration": 2.3,
+        "text": "The first question is relatively friendly."
+      },
+      {
+        "start": 184.2,
+        "duration": 4.4,
+        "text": "Every one of those chords corresponds uniquely with a pair of points on the circle."
+      },
+      {
+        "start": 189.4,
+        "duration": 4.2,
+        "text": "So effectively, what you want to do is count how many distinct pairs of points are there."
+      },
+      {
+        "start": 194.2,
+        "duration": 2.5,
+        "text": "There's a function that does this. It's called n choose 2."
+      },
+      {
+        "start": 197.3,
+        "duration": 5.6,
+        "text": "By definition, this counts the number of distinct pairs that you can choose from a set of n items,"
+      },
+      {
+        "start": 202.9,
+        "duration": 4.6,
+        "text": "where order doesn't matter. To calculate it, the way you often think about it is that you have"
+      },
+      {
+        "start": 207.4,
+        "duration": 5.8,
+        "text": "n choices for what your first item should be, and then you have n minus 1 options for what that second"
+      },
+      {
+        "start": 213.2,
+        "duration": 6.1,
+        "text": "item should be. But simply multiplying those would over count. Since for a given pair,"
+      },
+      {
+        "start": 219.3,
+        "duration": 5.3,
+        "text": "you would have two distinct ways to arrive at that pair. And remember, we don't care about order."
+      },
+      {
+        "start": 224.6,
+        "duration": 7.3,
+        "text": "To account for this, you divide by 2. So for example, 7 choose 2 would look like 7 times 6 divided by 2,"
+      },
+      {
+        "start": 231.8,
+        "duration": 5.8,
+        "text": "which is 7 times 3 or 21. And if you count up the number of distinct pairs of 7 items,"
+      },
+      {
+        "start": 237.7,
+        "duration": 6.5,
+        "text": "there are indeed 21 of them. Counting the number of intersection points in the diagram is a little"
+      },
+      {
+        "start": 244.2,
+        "duration": 4.8,
+        "text": "bit trickier. One idea might be that it should be the number of pairs of chords,"
+      },
+      {
+        "start": 249.0,
+        "duration": 5.2,
+        "text": "since every intersection point comes from two different chords. However, that would not quite"
+      },
+      {
+        "start": 254.2,
+        "duration": 5.2,
+        "text": "be right, because the association is not unique. You can find a pair of chords that don't intersect"
+      },
+      {
+        "start": 259.4,
+        "duration": 4.5,
+        "text": "within the circle. As I said, it's a little bit tricky. I'd encourage you to try to pause and"
+      },
+      {
+        "start": 263.8,
+        "duration": 4.9,
+        "text": "think about it for yourself. And if you do that, you give yourself a moment. Maybe if you're a"
+      },
+      {
+        "start": 268.7,
+        "duration": 5.7,
+        "text": "little bit lucky, here's one thing you might notice. Every intersection point is uniquely associated"
+      },
+      {
+        "start": 274.4,
+        "duration": 5.4,
+        "text": "with a quadruplet of points on the exterior. For a given quadruplet, you look at the two kind of"
+      },
+      {
+        "start": 279.8,
+        "duration": 4.8,
+        "text": "diagonal chords between them, and those will intersect within the circle. And it goes the other way"
+      },
+      {
+        "start": 285.1,
+        "duration": 3.4,
+        "text": "around. Every intersection point corresponds with some quadruplet of points."
+      },
+      {
+        "start": 290.7,
+        "duration": 6.2,
+        "text": "So, what you want now is to count how many distinct ways can you choose four items given n total"
+      },
+      {
+        "start": 297.0,
+        "duration": 5.4,
+        "text": "choices. This is very similar to the previous question. The function that answers it is called"
+      },
+      {
+        "start": 302.4,
+        "duration": 6.3,
+        "text": "n choose 4, which by definition counts the number of quadruplets from a set of size n. And the way"
+      },
+      {
+        "start": 308.7,
+        "duration": 4.5,
+        "text": "to calculate it is similar to what we saw before. You would think of having n choices for your first"
+      },
+      {
+        "start": 313.2,
+        "duration": 5.8,
+        "text": "item, leaving you with n minus 1 choices for the next item, leaving you with n minus 2 choices for"
+      },
+      {
+        "start": 319.0,
+        "duration": 6.5,
+        "text": "the third item, and n minus 3 choices for the last item. That, however, would grossly overcount"
+      },
+      {
+        "start": 325.5,
+        "duration": 5.1,
+        "text": "the total number, since all the different ways you can permute these four items would be counted"
+      },
+      {
+        "start": 330.6,
+        "duration": 5.0,
+        "text": "separately. To account for that, you divide out by the extent to which you've overcounted the number"
+      },
+      {
+        "start": 335.6,
+        "duration": 6.7,
+        "text": "of permutations of four items, which looks like four factorial. For example, if you calculate four"
+      },
+      {
+        "start": 342.3,
+        "duration": 5.8,
+        "text": "choose four, everything cancels and you just get one, and indeed there's a single intersection point"
+      },
+      {
+        "start": 348.2,
+        "duration": 7.4,
+        "text": "in this diagram. If you calculate six choose four, it works out to be 15, and if you look at this"
+      },
+      {
+        "start": 355.5,
+        "duration": 4.9,
+        "text": "diagram and you count them all up, you would notice there are indeed 15 different intersection points."
+      },
+      {
+        "start": 361.1,
+        "duration": 5.2,
+        "text": "And even if you would never want to count it up by hand, if we had a diagram that has 100 distinct"
+      },
+      {
+        "start": 366.3,
+        "duration": 4.9,
+        "text": "points on the exterior, and we drew all of the connecting lines, you can conclude that there have"
+      },
+      {
+        "start": 371.2,
+        "duration": 5.6,
+        "text": "to be 100 choose four, or just about 4 million intersection points somewhere in the middle."
+      },
+      {
+        "start": 377.7,
+        "duration": 4.1,
+        "text": "You've probably guessed this, but these are more than just warm-up questions. They give us the"
+      },
+      {
+        "start": 381.8,
+        "duration": 4.8,
+        "text": "necessary information to answer the question we care about. How many regions has the circle been cut"
+      },
+      {
+        "start": 386.6,
+        "duration": 5.2,
+        "text": "into? The trick is to use a very nice little fact about planar graphs. Here I'm using the word"
+      },
+      {
+        "start": 391.8,
+        "duration": 5.0,
+        "text": "graph in the sense of a diagram that has nodes and lines connecting them, and what it means to be"
+      },
+      {
+        "start": 396.8,
+        "duration": 5.0,
+        "text": "planar is that you can draw this diagram without any of the lines intersecting with each other."
+      },
+      {
+        "start": 402.1,
+        "duration": 4.3,
+        "text": "In graph theory lingo, you typically call those nodes vertices and the lines connecting them"
+      },
+      {
+        "start": 406.4,
+        "duration": 5.4,
+        "text": "edges, and the wonderful fact that we can leverage is that if you count up the number of vertices,"
+      },
+      {
+        "start": 411.8,
+        "duration": 5.1,
+        "text": "and then you subtract the total number of edges, and then you consider the number of regions that"
+      },
+      {
+        "start": 416.9,
+        "duration": 5.8,
+        "text": "this graph has cut the plane into, including that infinite outer region, then always, no matter what"
+      },
+      {
+        "start": 422.7,
+        "duration": 5.1,
+        "text": "planar graph you started with, you get two. It's actually very fun. Try this for yourself."
+      },
+      {
+        "start": 427.8,
+        "duration": 4.9,
+        "text": "Draw any graph, make sure the lines don't intersect, and then count the number of vertices,"
+      },
+      {
+        "start": 432.7,
+        "duration": 5.3,
+        "text": "subtract the number of edges, and count the number of regions that it's cut the plane into,"
+      },
+      {
+        "start": 438.0,
+        "duration": 5.6,
+        "text": "and no matter what diagram you chose, the answer always works out to be two. More commonly,"
+      },
+      {
+        "start": 443.6,
+        "duration": 5.9,
+        "text": "you would see this written as v minus e plus f is equal to two. Since originally, the equation"
+      },
+      {
+        "start": 449.5,
+        "duration": 5.5,
+        "text": "described the vertices, edges, and faces of three-dimensional polyhedra, and if you want to know"
+      },
+      {
+        "start": 455.0,
+        "duration": 5.1,
+        "text": "why this magical fact is true, you can think about building up your graph from a trivial case,"
+      },
+      {
+        "start": 460.2,
+        "duration": 6.8,
+        "text": "where you have a single node and no edges, so v would be equal to one, f would also be equal to one"
+      },
+      {
+        "start": 467.0,
+        "duration": 6.0,
+        "text": "because of that infinite outer region, and e is zero, so the equation is obviously true. Then if you"
+      },
+      {
+        "start": 473.0,
+        "duration": 4.6,
+        "text": "build up your graph one edge at a time, one thing that could happen is that for each new edge,"
+      },
+      {
+        "start": 477.5,
+        "duration": 6.6,
+        "text": "you introduce a new vertex, so e goes up by one, but v also goes up by one, leaving the equation"
+      },
+      {
+        "start": 484.2,
+        "duration": 5.0,
+        "text": "balanced. But if a new edge doesn't correspond to a new vertex, meaning it's connecting to a"
+      },
+      {
+        "start": 489.2,
+        "duration": 6.2,
+        "text": "pre-existing vertex, that means that it's enclosed a new region of space, so e goes up by one,"
+      },
+      {
+        "start": 495.4,
+        "duration": 4.2,
+        "text": "but f also goes up by one, which again leaves the equation balanced."
+      },
+      {
+        "start": 500.7,
+        "duration": 6.2,
+        "text": "So as you build up some potentially complicated graph, v minus e plus f always stays fixed at two,"
+      },
+      {
+        "start": 507.5,
+        "duration": 4.4,
+        "text": "this equation has a name, it's called Euler's Characteristic Formula, and I remember what I"
+      },
+      {
+        "start": 511.9,
+        "duration": 4.3,
+        "text": "made a video about this a while ago, I had some dumb joke in there about Euler's being German"
+      },
+      {
+        "start": 516.2,
+        "duration": 4.7,
+        "text": "for beautiful, and there were a decent number of comments that were like, you know, Euler is actually"
+      },
+      {
+        "start": 521.0,
+        "duration": 5.7,
+        "text": "a person, I speak German, and it doesn't mean beautiful. Anyway, for our purposes, it gives us a"
+      },
+      {
+        "start": 526.6,
+        "duration": 6.0,
+        "text": "tool for counting the number of regions that a planar graph has cut space into. Rearranging a little,"
+      },
+      {
+        "start": 532.6,
+        "duration": 5.6,
+        "text": "you would take the number of edges minus the number of vertices plus two. This is exactly the"
+      },
+      {
+        "start": 538.2,
+        "duration": 4.3,
+        "text": "tool that we want to understand our circle question, although in that case we don't care about the"
+      },
+      {
+        "start": 542.6,
+        "duration": 6.0,
+        "text": "infinite outer region, so instead I'll write this as e minus v plus one, and at first you might"
+      },
+      {
+        "start": 548.6,
+        "duration": 4.6,
+        "text": "complain, but we can't use Euler's formula in this case, because it only applies to plain"
+      },
+      {
+        "start": 553.2,
+        "duration": 4.6,
+        "text": "our graphs, and in our case the lines absolutely intersect with each other. We even counted how"
+      },
+      {
+        "start": 558.1,
+        "duration": 4.6,
+        "text": "many times they intersect with each other, but the key is to treat this as a new graph where those"
+      },
+      {
+        "start": 562.6,
+        "duration": 5.8,
+        "text": "intersection points are themselves vertices, so the total number of vertices here would not be N,"
+      },
+      {
+        "start": 568.4,
+        "duration": 5.4,
+        "text": "but N plus the N choose for total intersection points. That in turn chops up all of our"
+      },
+      {
+        "start": 573.8,
+        "duration": 5.4,
+        "text": "chords into a larger number of edges, it's much more than just N choose two, and initially it might"
+      },
+      {
+        "start": 579.3,
+        "duration": 4.8,
+        "text": "seem really annoying and tricky to think about exactly how much it's chopped them up, but one way"
+      },
+      {
+        "start": 584.1,
+        "duration": 5.1,
+        "text": "you can think about it is that every intersection point takes what started as two separate lines,"
+      },
+      {
+        "start": 589.2,
+        "duration": 6.2,
+        "text": "and then turns it into four lines, so in effect each intersection point adds two more edges."
+      },
+      {
+        "start": 596.4,
+        "duration": 4.8,
+        "text": "For example, look at this simple diagram where we have three lines and two intersection points."
+      },
+      {
+        "start": 601.8,
+        "duration": 6.2,
+        "text": "The total number of edges after the chopping would look like three plus two times two, or seven."
+      },
+      {
+        "start": 607.9,
+        "duration": 4.6,
+        "text": "If you had four lines that intersected at three separate points, then the total number of"
+      },
+      {
+        "start": 612.5,
+        "duration": 6.2,
+        "text": "little lines after chopping would be four plus two times three, or ten. And for the diagram we"
+      },
+      {
+        "start": 618.7,
+        "duration": 5.0,
+        "text": "care about where we started off with N choose two separate lines, and they're getting chopped up"
+      },
+      {
+        "start": 623.8,
+        "duration": 5.6,
+        "text": "at N choose four points in the middle, you would end up with N choose two plus two times N choose"
+      },
+      {
+        "start": 629.4,
+        "duration": 4.5,
+        "text": "four edges. And actually there are a few more than that, because we're including the circle,"
+      },
+      {
+        "start": 633.8,
+        "duration": 4.6,
+        "text": "we also need to count the N different arcs that sit on the outside of this diagram."
+      },
+      {
+        "start": 639.1,
+        "duration": 4.6,
+        "text": "So with all of that you have the information you need to answer the original question."
+      },
+      {
+        "start": 643.7,
+        "duration": 3.6,
+        "text": "Pulling up our variant of Euler's formula that counts the number of regions,"
+      },
+      {
+        "start": 647.3,
+        "duration": 4.8,
+        "text": "we'll plug in the expression for the number of vertices, which is N plus the N choose four intersection"
+      },
+      {
+        "start": 652.1,
+        "duration": 4.7,
+        "text": "points, and you also plug in the slightly larger expression for the new number of edges,"
+      },
+      {
+        "start": 656.8,
+        "duration": 5.1,
+        "text": "N choose two plus two times N choose four plus N, and the expression has a lot of nice cancelation,"
+      },
+      {
+        "start": 661.9,
+        "duration": 5.0,
+        "text": "for example you're adding an N but also subtracting an N, and you're adding two copies of N choose"
+      },
+      {
+        "start": 667.0,
+        "duration": 4.6,
+        "text": "four but subtracting another copy of N choose four, and when all the dust settles the answer to"
+      },
+      {
+        "start": 671.6,
+        "duration": 7.2,
+        "text": "the question is one plus N choose two plus N choose four. On the one hand you're done, you answered"
+      },
+      {
+        "start": 678.8,
+        "duration": 5.0,
+        "text": "the question. I give you one of these circle diagrams with N points on the boundary, and using"
+      },
+      {
+        "start": 683.8,
+        "duration": 5.1,
+        "text": "this formula you can figure out how many regions the circle has been cut into. But of course we're"
+      },
+      {
+        "start": 689.0,
+        "duration": 4.3,
+        "text": "not really done because that doesn't scratch the itch, why is it the case that this looks like"
+      },
+      {
+        "start": 693.4,
+        "duration": 5.7,
+        "text": "powers of two and then falls short by just one. It's not just a coincidence, and the key to answering"
+      },
+      {
+        "start": 699.0,
+        "duration": 4.9,
+        "text": "it is to consider Pascal's triangle. You know this triangle, it's the one where each term looks"
+      },
+      {
+        "start": 703.9,
+        "duration": 5.0,
+        "text": "like a sum of the two different terms above it, and there are basically two facts we need to bring in"
+      },
+      {
+        "start": 708.9,
+        "duration": 6.5,
+        "text": "about this triangle. The first is that every term inside this triangle looks like N choose K for"
+      },
+      {
+        "start": 715.4,
+        "duration": 5.8,
+        "text": "some value of N and K. That is the answer to the question of how many ways can you select a"
+      },
+      {
+        "start": 721.1,
+        "duration": 6.2,
+        "text": "subset of size K from a set of size N? It's visible within this triangle. The way to think about it"
+      },
+      {
+        "start": 727.3,
+        "duration": 6.6,
+        "text": "is by indexing the rows and columns starting from zero. For example, if you count up to the 012345th"
+      },
+      {
+        "start": 733.8,
+        "duration": 9.1,
+        "text": "row and you count in to the 0123rd element you see 10, and indeed 523 is equal to 10. If you've"
+      },
+      {
+        "start": 743.0,
+        "duration": 4.1,
+        "text": "never seen this before and you want to know why it's true, there's a really lovely argument,"
+      },
+      {
+        "start": 747.1,
+        "duration": 4.7,
+        "text": "I'll leave it up as an exercise. But moving on to the second thing that we need to know,"
+      },
+      {
+        "start": 751.8,
+        "duration": 6.1,
+        "text": "notice what happens when you add up the rows of this triangle. You get 1 and then 1 plus 1 is 2,"
+      },
+      {
+        "start": 757.9,
+        "duration": 7.4,
+        "text": "1 plus 2 plus 1 is 4, 1 plus 3 plus 3 plus 1 is 8, and as you continue on you always get powers of 2."
+      },
+      {
+        "start": 766.0,
+        "duration": 4.2,
+        "text": "Maybe at this point you're a little gun shy about jumping to conclusions about powers of 2 too"
+      },
+      {
+        "start": 770.2,
+        "duration": 4.9,
+        "text": "quickly, but in this case it's a genuine pattern, there's no trickery being pulled, and there are"
+      },
+      {
+        "start": 775.0,
+        "duration": 4.7,
+        "text": "a few ways that you can think about why there should be powers of 2 here. But one that I like"
+      },
+      {
+        "start": 779.8,
+        "duration": 4.6,
+        "text": "is to think about how as you go from that first row to the next one, it's like the number 1 is"
+      },
+      {
+        "start": 784.4,
+        "duration": 5.5,
+        "text": "sort of donating two copies of itself into the next row. Likewise, as you go from the second row"
+      },
+      {
+        "start": 789.9,
+        "duration": 6.1,
+        "text": "to the third, each of those ones is donating two copies of itself to the next row, and in general,"
+      },
+      {
+        "start": 796.0,
+        "duration": 6.1,
+        "text": "as you go from one row to the next, each number donates two copies of itself to the one below. So,"
+      },
+      {
+        "start": 802.2,
+        "duration": 4.6,
+        "text": "as you add up the totals for each of these rows, it stands to reason that those totals double"
+      },
+      {
+        "start": 806.7,
+        "duration": 6.2,
+        "text": "on each iteration. Circling back to our original question, think about what this means. The answer"
+      },
+      {
+        "start": 812.9,
+        "duration": 7.0,
+        "text": "to our question looked like 1 plus n choose 2 plus n choose 4. In the context of Pascal's triangle,"
+      },
+      {
+        "start": 819.8,
+        "duration": 6.1,
+        "text": "you could think about that as adding up the 0th, 2nd, and 4th terms inside some row of that triangle."
+      },
+      {
+        "start": 826.6,
+        "duration": 6.2,
+        "text": "For instance, when n is equal to 5, it looks like adding up 1 plus 10 plus 5. Now, because each of"
+      },
+      {
+        "start": 832.7,
+        "duration": 6.2,
+        "text": "those numbers is the sum of the 2 above it, this is the same thing as adding up the first 5 elements"
+      },
+      {
+        "start": 838.9,
+        "duration": 5.4,
+        "text": "in the previous row, which in this case is adding up the entire previous row, hence why it's a"
+      },
+      {
+        "start": 844.2,
+        "duration": 5.7,
+        "text": "power of 2. Same deal for all the numbers that are 5 or less. When you situate this formula inside"
+      },
+      {
+        "start": 849.9,
+        "duration": 4.8,
+        "text": "Pascal's triangle, and you relate it to the previous row, what you're doing is adding up the"
+      },
+      {
+        "start": 854.7,
+        "duration": 6.2,
+        "text": "entirety of that previous row. The point at which this breaks is for n equals 6, because in that"
+      },
+      {
+        "start": 860.9,
+        "duration": 5.0,
+        "text": "case, when you relate this to the previous row, adding up the first 5 elements of that row,"
+      },
+      {
+        "start": 865.8,
+        "duration": 5.0,
+        "text": "it doesn't cover the whole thing, it falls short, specifically by just 1, which is why we"
+      },
+      {
+        "start": 870.9,
+        "duration": 5.8,
+        "text": "miss the power of 2, and why it falls short specifically by just 1. Also, notice what happens"
+      },
+      {
+        "start": 876.7,
+        "duration": 5.0,
+        "text": "when we plug in n equals 10, looking down at the 10th row, and relating those terms to the previous"
+      },
+      {
+        "start": 882.3,
+        "duration": 6.0,
+        "text": "one, adding the first 5 elements of the 9th row is exactly half of that row, and because the triangle"
+      },
+      {
+        "start": 888.3,
+        "duration": 5.2,
+        "text": "is symmetric, this means that when you add them up, you get exactly half of a power of 2, which"
+      },
+      {
+        "start": 893.5,
+        "duration": 5.4,
+        "text": "itself of course is another power of 2. And as a challenge problem for you, I don't actually know"
+      },
+      {
+        "start": 898.9,
+        "duration": 4.5,
+        "text": "if this is the last time that you'll ever see a power of 2, maybe one of you out there who's"
+      },
+      {
+        "start": 903.4,
+        "duration": 3.5,
+        "text": "clever with diaphantine equations that I am can come up with some clever proof."
+      },
+      {
+        "start": 907.2,
+        "duration": 6.6,
+        "text": "Stepping back to summarize, we started by counting the total number of chords and the total"
+      },
+      {
+        "start": 913.8,
+        "duration": 5.3,
+        "text": "number of intersection points, which by thinking about the right associations, is the same as computing"
+      },
+      {
+        "start": 919.1,
+        "duration": 6.6,
+        "text": "n choose 2 and n choose 4. Bringing in Euler's formula, this let us get an exact closed form expression"
+      },
+      {
+        "start": 925.7,
+        "duration": 5.4,
+        "text": "for the number of regions inside the circle. Then connecting that with Pascal's triangle gives us"
+      },
+      {
+        "start": 931.1,
+        "duration": 4.4,
+        "text": "a very visceral connection with the powers of 2 and why they break when they do."
+      },
+      {
+        "start": 937.0,
+        "duration": 6.0,
+        "text": "So, yes, Moser's circle problem is a cautionary tale about being wary of patterns without proof,"
+      },
+      {
+        "start": 943.0,
+        "duration": 5.0,
+        "text": "but at a deeper level, it also tells us that what sometimes chalked up to be coincidence"
+      },
+      {
+        "start": 948.1,
+        "duration": 10.0,
+        "text": "still leaves room for satisfying understandings."
+      }
+    ],
+    "full_text": "This is a very famous cautionary tale in math, known as Moser's Circle problem. Some of you may have seen this before, but what I want to do here is really explain what's going on. The way this starts is we take a circle and put two points on that circle, and connect them with a line, that is, a chord of the circle, and note that it divides the circle into two different regions. If I add a third point, and then connect that to the previous two points with two more chords, then these lines all divide the circle into four separate regions. Then if you add a fourth point, and connect that to the previous three, and you play the same game, you count up how many regions has this cut the circle into, you end up with eight. Add a fifth point to the circle, connect it to the previous four, count up the total number of regions, and if you're careful with your counting, you'll get a total of sixteen. Naturally, you can guess what might come next, but would you bet your life on it? Add a sixth point, connect it to all the previous ones, and if you carefully count up all the different regions, you end up not with the power of two you might have expected, but just one shy of it. Some of you might be raising your hand, saying, doesn't it depend on where we put the points? For example, watch how this middle region disappears if I place everything nice and symmetrically around the circle. So yes, it does depend, but we're going to consider the cases where you never have any three lines intersecting with each other. This would be the generic case if you just choose and random points, almost certainly you'll never have three lines coincide, but setting aside the technical nuances, the problem is such a tease. It looks so convincingly like powers of two until it just barely breaks. And I have such a strange soft spot for this particular question, when I was younger I wrote a poem about it, and also a song. And on the one hand, it's kind of silly, because this is just one example of what the mathematician Richard Guy called the strong law of small numbers. Summed up in the phrase, there aren't enough small numbers to meet the many demands made of them. But I think what I really like about this problem is that if you sit down to try to work out what is the real pattern, what's actually going on here, one, it's just a really good exercise and problem solving, so it makes for a nice lesson right here. But also, it's not just a coincidence that it starts off being powers of two. There's a very good reason this happens. And it's also not a coincidence that you seemingly randomly hit another power of two a little bit later on the 10th iteration. So we've got this pattern, and what you want to find is what function describes it. If you put n points on the boundary of a circle, and you connect them with all the possible chords, and you count how many regions the circle has been cut into, if the answer isn't a power of two, what is it? What function of n should we plug in? As always with math, problem solving rule number one, if you're stuck, is to try solving easier questions somehow related to the problem at hand. It helps you get a foothold, and sometimes those answers are helpful in the final question. In this case, two warm-up questions that come to mind are, how many total chords are there in this diagram? And at how many points within the circle do those chords intersect each other? The first question is relatively friendly. Every one of those chords corresponds uniquely with a pair of points on the circle. So effectively, what you want to do is count how many distinct pairs of points are there. There's a function that does this. It's called n choose 2. By definition, this counts the number of distinct pairs that you can choose from a set of n items, where order doesn't matter. To calculate it, the way you often think about it is that you have n choices for what your first item should be, and then you have n minus 1 options for what that second item should be. But simply multiplying those would over count. Since for a given pair, you would have two distinct ways to arrive at that pair. And remember, we don't care about order. To account for this, you divide by 2. So for example, 7 choose 2 would look like 7 times 6 divided by 2, which is 7 times 3 or 21. And if you count up the number of distinct pairs of 7 items, there are indeed 21 of them. Counting the number of intersection points in the diagram is a little bit trickier. One idea might be that it should be the number of pairs of chords, since every intersection point comes from two different chords. However, that would not quite be right, because the association is not unique. You can find a pair of chords that don't intersect within the circle. As I said, it's a little bit tricky. I'd encourage you to try to pause and think about it for yourself. And if you do that, you give yourself a moment. Maybe if you're a little bit lucky, here's one thing you might notice. Every intersection point is uniquely associated with a quadruplet of points on the exterior. For a given quadruplet, you look at the two kind of diagonal chords between them, and those will intersect within the circle. And it goes the other way around. Every intersection point corresponds with some quadruplet of points. So, what you want now is to count how many distinct ways can you choose four items given n total choices. This is very similar to the previous question. The function that answers it is called n choose 4, which by definition counts the number of quadruplets from a set of size n. And the way to calculate it is similar to what we saw before. You would think of having n choices for your first item, leaving you with n minus 1 choices for the next item, leaving you with n minus 2 choices for the third item, and n minus 3 choices for the last item. That, however, would grossly overcount the total number, since all the different ways you can permute these four items would be counted separately. To account for that, you divide out by the extent to which you've overcounted the number of permutations of four items, which looks like four factorial. For example, if you calculate four choose four, everything cancels and you just get one, and indeed there's a single intersection point in this diagram. If you calculate six choose four, it works out to be 15, and if you look at this diagram and you count them all up, you would notice there are indeed 15 different intersection points. And even if you would never want to count it up by hand, if we had a diagram that has 100 distinct points on the exterior, and we drew all of the connecting lines, you can conclude that there have to be 100 choose four, or just about 4 million intersection points somewhere in the middle. You've probably guessed this, but these are more than just warm-up questions. They give us the necessary information to answer the question we care about. How many regions has the circle been cut into? The trick is to use a very nice little fact about planar graphs. Here I'm using the word graph in the sense of a diagram that has nodes and lines connecting them, and what it means to be planar is that you can draw this diagram without any of the lines intersecting with each other. In graph theory lingo, you typically call those nodes vertices and the lines connecting them edges, and the wonderful fact that we can leverage is that if you count up the number of vertices, and then you subtract the total number of edges, and then you consider the number of regions that this graph has cut the plane into, including that infinite outer region, then always, no matter what planar graph you started with, you get two. It's actually very fun. Try this for yourself. Draw any graph, make sure the lines don't intersect, and then count the number of vertices, subtract the number of edges, and count the number of regions that it's cut the plane into, and no matter what diagram you chose, the answer always works out to be two. More commonly, you would see this written as v minus e plus f is equal to two. Since originally, the equation described the vertices, edges, and faces of three-dimensional polyhedra, and if you want to know why this magical fact is true, you can think about building up your graph from a trivial case, where you have a single node and no edges, so v would be equal to one, f would also be equal to one because of that infinite outer region, and e is zero, so the equation is obviously true. Then if you build up your graph one edge at a time, one thing that could happen is that for each new edge, you introduce a new vertex, so e goes up by one, but v also goes up by one, leaving the equation balanced. But if a new edge doesn't correspond to a new vertex, meaning it's connecting to a pre-existing vertex, that means that it's enclosed a new region of space, so e goes up by one, but f also goes up by one, which again leaves the equation balanced. So as you build up some potentially complicated graph, v minus e plus f always stays fixed at two, this equation has a name, it's called Euler's Characteristic Formula, and I remember what I made a video about this a while ago, I had some dumb joke in there about Euler's being German for beautiful, and there were a decent number of comments that were like, you know, Euler is actually a person, I speak German, and it doesn't mean beautiful. Anyway, for our purposes, it gives us a tool for counting the number of regions that a planar graph has cut space into. Rearranging a little, you would take the number of edges minus the number of vertices plus two. This is exactly the tool that we want to understand our circle question, although in that case we don't care about the infinite outer region, so instead I'll write this as e minus v plus one, and at first you might complain, but we can't use Euler's formula in this case, because it only applies to plain our graphs, and in our case the lines absolutely intersect with each other. We even counted how many times they intersect with each other, but the key is to treat this as a new graph where those intersection points are themselves vertices, so the total number of vertices here would not be N, but N plus the N choose for total intersection points. That in turn chops up all of our chords into a larger number of edges, it's much more than just N choose two, and initially it might seem really annoying and tricky to think about exactly how much it's chopped them up, but one way you can think about it is that every intersection point takes what started as two separate lines, and then turns it into four lines, so in effect each intersection point adds two more edges. For example, look at this simple diagram where we have three lines and two intersection points. The total number of edges after the chopping would look like three plus two times two, or seven. If you had four lines that intersected at three separate points, then the total number of little lines after chopping would be four plus two times three, or ten. And for the diagram we care about where we started off with N choose two separate lines, and they're getting chopped up at N choose four points in the middle, you would end up with N choose two plus two times N choose four edges. And actually there are a few more than that, because we're including the circle, we also need to count the N different arcs that sit on the outside of this diagram. So with all of that you have the information you need to answer the original question. Pulling up our variant of Euler's formula that counts the number of regions, we'll plug in the expression for the number of vertices, which is N plus the N choose four intersection points, and you also plug in the slightly larger expression for the new number of edges, N choose two plus two times N choose four plus N, and the expression has a lot of nice cancelation, for example you're adding an N but also subtracting an N, and you're adding two copies of N choose four but subtracting another copy of N choose four, and when all the dust settles the answer to the question is one plus N choose two plus N choose four. On the one hand you're done, you answered the question. I give you one of these circle diagrams with N points on the boundary, and using this formula you can figure out how many regions the circle has been cut into. But of course we're not really done because that doesn't scratch the itch, why is it the case that this looks like powers of two and then falls short by just one. It's not just a coincidence, and the key to answering it is to consider Pascal's triangle. You know this triangle, it's the one where each term looks like a sum of the two different terms above it, and there are basically two facts we need to bring in about this triangle. The first is that every term inside this triangle looks like N choose K for some value of N and K. That is the answer to the question of how many ways can you select a subset of size K from a set of size N? It's visible within this triangle. The way to think about it is by indexing the rows and columns starting from zero. For example, if you count up to the 012345th row and you count in to the 0123rd element you see 10, and indeed 523 is equal to 10. If you've never seen this before and you want to know why it's true, there's a really lovely argument, I'll leave it up as an exercise. But moving on to the second thing that we need to know, notice what happens when you add up the rows of this triangle. You get 1 and then 1 plus 1 is 2, 1 plus 2 plus 1 is 4, 1 plus 3 plus 3 plus 1 is 8, and as you continue on you always get powers of 2. Maybe at this point you're a little gun shy about jumping to conclusions about powers of 2 too quickly, but in this case it's a genuine pattern, there's no trickery being pulled, and there are a few ways that you can think about why there should be powers of 2 here. But one that I like is to think about how as you go from that first row to the next one, it's like the number 1 is sort of donating two copies of itself into the next row. Likewise, as you go from the second row to the third, each of those ones is donating two copies of itself to the next row, and in general, as you go from one row to the next, each number donates two copies of itself to the one below. So, as you add up the totals for each of these rows, it stands to reason that those totals double on each iteration. Circling back to our original question, think about what this means. The answer to our question looked like 1 plus n choose 2 plus n choose 4. In the context of Pascal's triangle, you could think about that as adding up the 0th, 2nd, and 4th terms inside some row of that triangle. For instance, when n is equal to 5, it looks like adding up 1 plus 10 plus 5. Now, because each of those numbers is the sum of the 2 above it, this is the same thing as adding up the first 5 elements in the previous row, which in this case is adding up the entire previous row, hence why it's a power of 2. Same deal for all the numbers that are 5 or less. When you situate this formula inside Pascal's triangle, and you relate it to the previous row, what you're doing is adding up the entirety of that previous row. The point at which this breaks is for n equals 6, because in that case, when you relate this to the previous row, adding up the first 5 elements of that row, it doesn't cover the whole thing, it falls short, specifically by just 1, which is why we miss the power of 2, and why it falls short specifically by just 1. Also, notice what happens when we plug in n equals 10, looking down at the 10th row, and relating those terms to the previous one, adding the first 5 elements of the 9th row is exactly half of that row, and because the triangle is symmetric, this means that when you add them up, you get exactly half of a power of 2, which itself of course is another power of 2. And as a challenge problem for you, I don't actually know if this is the last time that you'll ever see a power of 2, maybe one of you out there who's clever with diaphantine equations that I am can come up with some clever proof. Stepping back to summarize, we started by counting the total number of chords and the total number of intersection points, which by thinking about the right associations, is the same as computing n choose 2 and n choose 4. Bringing in Euler's formula, this let us get an exact closed form expression for the number of regions inside the circle. Then connecting that with Pascal's triangle gives us a very visceral connection with the powers of 2 and why they break when they do. So, yes, Moser's circle problem is a cautionary tale about being wary of patterns without proof, but at a deeper level, it also tells us that what sometimes chalked up to be coincidence still leaves room for satisfying understandings."
+  }
+}

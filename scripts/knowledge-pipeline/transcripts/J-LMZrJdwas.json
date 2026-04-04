@@ -1,0 +1,1589 @@
+{
+  "video_id": "J-LMZrJdwas",
+  "video_title": "Program design: search bar | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 407.0,
+  "view_count": 5098,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.1,
+        "text": "Let's design a program with objects and attributes."
+      },
+      {
+        "start": 4.1,
+        "duration": 2.4,
+        "text": "We're building a site for our shoe store,"
+      },
+      {
+        "start": 6.5,
+        "duration": 3.5,
+        "text": "where customers can browse through our product catalog."
+      },
+      {
+        "start": 10.0,
+        "duration": 2.4,
+        "text": "Customers want to filter their search results"
+      },
+      {
+        "start": 12.4,
+        "duration": 2.7,
+        "text": "based on the kind of shoes they're looking for."
+      },
+      {
+        "start": 15.1,
+        "duration": 2.9,
+        "text": "So we need a program that can model the shoes"
+      },
+      {
+        "start": 18.0,
+        "duration": 4.4,
+        "text": "in our catalog, and we need to search through those shoes"
+      },
+      {
+        "start": 22.4,
+        "duration": 3.2,
+        "text": "to find the shoe that matches what the customer asked for."
+      },
+      {
+        "start": 26.6,
+        "duration": 3.4,
+        "text": "Our catalog has hundreds of pairs of shoes,"
+      },
+      {
+        "start": 30.0,
+        "duration": 3.6,
+        "text": "but every pair has some things in common."
+      },
+      {
+        "start": 33.6,
+        "duration": 5.4,
+        "text": "They all have a name, a color, a brand, and a size."
+      },
+      {
+        "start": 41.4,
+        "duration": 2.3,
+        "text": "To represent a pair of shoes,"
+      },
+      {
+        "start": 43.7,
+        "duration": 2.3,
+        "text": "the first thing we'll need is a class definition."
+      },
+      {
+        "start": 47.0,
+        "duration": 3.0,
+        "text": "I'll let the IDE autocomplete this,"
+      },
+      {
+        "start": 50.0,
+        "duration": 2.8,
+        "text": "and I'll name my data type, shoe."
+      },
+      {
+        "start": 53.6,
+        "duration": 3.4,
+        "text": "Now, we need to initialize our shoe attributes,"
+      },
+      {
+        "start": 57.0,
+        "duration": 2.5,
+        "text": "which we do in the init method."
+      },
+      {
+        "start": 59.5,
+        "duration": 2.9,
+        "text": "So we'll pass in as parameters initial values"
+      },
+      {
+        "start": 62.4,
+        "duration": 3.1,
+        "text": "for name, color, brand, and size."
+      },
+      {
+        "start": 65.6,
+        "duration": 3.6,
+        "text": "And then we store those values on the object,"
+      },
+      {
+        "start": 69.2,
+        "duration": 4.1,
+        "text": "setting up our attributes so we can access those values later."
+      },
+      {
+        "start": 73.2,
+        "duration": 2.4,
+        "text": "We know Python passes in the object"
+      },
+      {
+        "start": 75.7,
+        "duration": 2.5,
+        "text": "through that first parameter, self."
+      },
+      {
+        "start": 78.2,
+        "duration": 5.0,
+        "text": "So our init assignments always look like cell.attribute name."
+      },
+      {
+        "start": 85.2,
+        "duration": 2.8,
+        "text": "Let's test that by creating a shoe object."
+      },
+      {
+        "start": 88.0,
+        "duration": 2.9,
+        "text": "We know from our init method that we need to pass"
+      },
+      {
+        "start": 90.9,
+        "duration": 2.6,
+        "text": "in four arguments when we create a shoe,"
+      },
+      {
+        "start": 93.6,
+        "duration": 3.1,
+        "text": "since we skip that first self parameter."
+      },
+      {
+        "start": 96.7,
+        "duration": 4.4,
+        "text": "So let's say we have some air Jordans in black and red,"
+      },
+      {
+        "start": 101.0,
+        "duration": 2.7,
+        "text": "made by Nike in a size eight."
+      },
+      {
+        "start": 104.6,
+        "duration": 3.0,
+        "text": "And let's just check that data is getting stored."
+      },
+      {
+        "start": 107.6,
+        "duration": 3.1,
+        "text": "By accessing our attributes after the object's created."
+      },
+      {
+        "start": 111.8,
+        "duration": 2.2,
+        "text": "Next, no bugs in our class definition."
+      },
+      {
+        "start": 114.0,
+        "duration": 2.8,
+        "text": "So let's fill out the rest of our catalog."
+      },
+      {
+        "start": 116.9,
+        "duration": 3.4,
+        "text": "To do the search, we're going to need to iterate"
+      },
+      {
+        "start": 120.2,
+        "duration": 3.5,
+        "text": "over every shoe to check if it matches."
+      },
+      {
+        "start": 123.7,
+        "duration": 3.0,
+        "text": "So let's store our shoe objects in a list."
+      },
+      {
+        "start": 127.6,
+        "duration": 2.8,
+        "text": "I'm not gonna input all of my product data just yet,"
+      },
+      {
+        "start": 130.5,
+        "duration": 2.6,
+        "text": "but let's at least add a few more shoes."
+      },
+      {
+        "start": 134.3,
+        "duration": 1.5,
+        "text": "Now that I have this set up,"
+      },
+      {
+        "start": 135.8,
+        "duration": 3.2,
+        "text": "one convenient code organization convention"
+      },
+      {
+        "start": 139.0,
+        "duration": 4.0,
+        "text": "is to put each class definition in its own file."
+      },
+      {
+        "start": 144.0,
+        "duration": 1.2,
+        "text": "Two reasons."
+      },
+      {
+        "start": 145.2,
+        "duration": 2.0,
+        "text": "One, like a function definition,"
+      },
+      {
+        "start": 147.2,
+        "duration": 3.4,
+        "text": "a class definition must appear in the program"
+      },
+      {
+        "start": 150.6,
+        "duration": 2.4,
+        "text": "before that class is called."
+      },
+      {
+        "start": 153.0,
+        "duration": 2.2,
+        "text": "And the easiest way to guarantee that"
+      },
+      {
+        "start": 155.2,
+        "duration": 3.5,
+        "text": "is to import the class definition at the top."
+      },
+      {
+        "start": 158.8,
+        "duration": 3.2,
+        "text": "Two, it helps make our data type reusable."
+      },
+      {
+        "start": 162.0,
+        "duration": 2.7,
+        "text": "Any other code that needs to deal with shoe types"
+      },
+      {
+        "start": 164.7,
+        "duration": 3.2,
+        "text": "can just import the file with the shoe class."
+      },
+      {
+        "start": 167.8,
+        "duration": 3.6,
+        "text": "And not have to worry about other logic getting pulled in too."
+      },
+      {
+        "start": 172.8,
+        "duration": 3.4,
+        "text": "Since the shoe type is now defined in the shoe module,"
+      },
+      {
+        "start": 176.2,
+        "duration": 4.8,
+        "text": "we need to change these to module shoe dot class shoe."
+      },
+      {
+        "start": 180.9,
+        "duration": 3.3,
+        "text": "Remember that dot syntax lets us access something"
+      },
+      {
+        "start": 184.2,
+        "duration": 1.7,
+        "text": "inside something else."
+      },
+      {
+        "start": 185.9,
+        "duration": 2.9,
+        "text": "But this is a class inside a module."
+      },
+      {
+        "start": 188.8,
+        "duration": 2.2,
+        "text": "Not an attribute inside an object."
+      },
+      {
+        "start": 192.0,
+        "duration": 2.1,
+        "text": "We have our data."
+      },
+      {
+        "start": 194.2,
+        "duration": 2.2,
+        "text": "Now it's time for our search logic."
+      },
+      {
+        "start": 196.4,
+        "duration": 1.3,
+        "text": "To break this down a bit,"
+      },
+      {
+        "start": 197.6,
+        "duration": 3.1,
+        "text": "let's start by letting customers search by brand."
+      },
+      {
+        "start": 200.8,
+        "duration": 2.0,
+        "text": "They'll enter their search keyword"
+      },
+      {
+        "start": 202.8,
+        "duration": 3.0,
+        "text": "and then we'll look through our shoes for a match."
+      },
+      {
+        "start": 205.8,
+        "duration": 3.0,
+        "text": "So we'll add a for loop where on each iteration,"
+      },
+      {
+        "start": 208.8,
+        "duration": 4.4,
+        "text": "our loop variable holds the next shoe object."
+      },
+      {
+        "start": 213.2,
+        "duration": 2.4,
+        "text": "So let's say they search for Nike."
+      },
+      {
+        "start": 215.6,
+        "duration": 2.3,
+        "text": "We wanna check if that keyword equals"
+      },
+      {
+        "start": 217.9,
+        "duration": 2.1,
+        "text": "not the entire shoe object,"
+      },
+      {
+        "start": 220.0,
+        "duration": 2.8,
+        "text": "but the brand attribute of that shoe."
+      },
+      {
+        "start": 224.0,
+        "duration": 4.2,
+        "text": "So quick test, if I enter Nike, I should get two matches."
+      },
+      {
+        "start": 229.1,
+        "duration": 2.4,
+        "text": "And if I enter Reebok, I should get zero."
+      },
+      {
+        "start": 234.4,
+        "duration": 3.3,
+        "text": "Cool, what's the Linter complaining about over here?"
+      },
+      {
+        "start": 238.7,
+        "duration": 5.0,
+        "text": "It says, import shoe from line one, shadowed by loop variable."
+      },
+      {
+        "start": 244.6,
+        "duration": 1.2,
+        "text": "What do you think that means?"
+      },
+      {
+        "start": 246.8,
+        "duration": 3.0,
+        "text": "Well, we created a variable named shoe,"
+      },
+      {
+        "start": 249.8,
+        "duration": 3.9,
+        "text": "but we also have a module named shoe that we imported."
+      },
+      {
+        "start": 255.0,
+        "duration": 2.0,
+        "text": "Python technically allows this,"
+      },
+      {
+        "start": 257.0,
+        "duration": 4.4,
+        "text": "but it can only understand one concept shoe at a time."
+      },
+      {
+        "start": 262.5,
+        "duration": 1.5,
+        "text": "That means from here on out,"
+      },
+      {
+        "start": 264.0,
+        "duration": 3.2,
+        "text": "Python no longer knows about the module shoe."
+      },
+      {
+        "start": 267.2,
+        "duration": 3.3,
+        "text": "If I try to create a shoe object after this line,"
+      },
+      {
+        "start": 270.6,
+        "duration": 3.2,
+        "text": "I get an error because shoe now to Python"
+      },
+      {
+        "start": 273.8,
+        "duration": 2.4,
+        "text": "means that loop variable, not the module."
+      },
+      {
+        "start": 277.4,
+        "duration": 3.9,
+        "text": "So we wanna avoid shadowing the name shoe"
+      },
+      {
+        "start": 281.3,
+        "duration": 2.4,
+        "text": "and name or loop variable something else."
+      },
+      {
+        "start": 286.5,
+        "duration": 1.9,
+        "text": "Now, when we do find a match,"
+      },
+      {
+        "start": 288.4,
+        "duration": 4.2,
+        "text": "we wanna display information about that shoe to the customer,"
+      },
+      {
+        "start": 292.7,
+        "duration": 3.2,
+        "text": "but when I print an object, it looks like this."
+      },
+      {
+        "start": 297.6,
+        "duration": 2.0,
+        "text": "When we define a custom data type,"
+      },
+      {
+        "start": 299.7,
+        "duration": 3.4,
+        "text": "Python doesn't really know how to display it."
+      },
+      {
+        "start": 303.2,
+        "duration": 3.1,
+        "text": "So it just defaults to showing the type,"
+      },
+      {
+        "start": 306.3,
+        "duration": 2.7,
+        "text": "and then this is a memory address."
+      },
+      {
+        "start": 309.0,
+        "duration": 2.7,
+        "text": "It's the actual location where the object is stored"
+      },
+      {
+        "start": 311.7,
+        "duration": 1.7,
+        "text": "in the computer's memory."
+      },
+      {
+        "start": 313.4,
+        "duration": 2.8,
+        "text": "Not so useful to our customers."
+      },
+      {
+        "start": 316.2,
+        "duration": 4.2,
+        "text": "What we actually wanna show them is data about that shoe."
+      },
+      {
+        "start": 320.4,
+        "duration": 4.4,
+        "text": "So we need to access the object's individual attributes,"
+      },
+      {
+        "start": 324.7,
+        "duration": 2.6,
+        "text": "which we can combine together in a nice way,"
+      },
+      {
+        "start": 327.3,
+        "duration": 1.5,
+        "text": "using a format string."
+      },
+      {
+        "start": 329.6,
+        "duration": 5.0,
+        "text": "So now we have our search and our search results,"
+      },
+      {
+        "start": 334.6,
+        "duration": 4.5,
+        "text": "but we want our search feature to be a bit more powerful."
+      },
+      {
+        "start": 339.1,
+        "duration": 2.1,
+        "text": "We should be able to match that keyword"
+      },
+      {
+        "start": 341.2,
+        "duration": 2.9,
+        "text": "against the name, the color, or the brand."
+      },
+      {
+        "start": 344.1,
+        "duration": 3.2,
+        "text": "So let's compare our keyword against all three attributes"
+      },
+      {
+        "start": 347.4,
+        "duration": 1.6,
+        "text": "of each shoe."
+      },
+      {
+        "start": 348.9,
+        "duration": 2.0,
+        "text": "But instead of an exact match,"
+      },
+      {
+        "start": 351.0,
+        "duration": 3.4,
+        "text": "let's use the inoperator to do a partial match"
+      },
+      {
+        "start": 354.4,
+        "duration": 1.4,
+        "text": "on name and color."
+      },
+      {
+        "start": 356.8,
+        "duration": 3.4,
+        "text": "That way if the customer enters red,"
+      },
+      {
+        "start": 360.2,
+        "duration": 2.7,
+        "text": "we would still match against this black red color."
+      },
+      {
+        "start": 364.9,
+        "duration": 2.4,
+        "text": "And just to make this a bit smarter,"
+      },
+      {
+        "start": 367.3,
+        "duration": 2.8,
+        "text": "let's do a case insensitive match,"
+      },
+      {
+        "start": 370.2,
+        "duration": 2.1,
+        "text": "meaning we use the lower method"
+      },
+      {
+        "start": 372.3,
+        "duration": 2.3,
+        "text": "to convert all of our strings to lower case"
+      },
+      {
+        "start": 374.6,
+        "duration": 1.4,
+        "text": "before we compare them."
+      },
+      {
+        "start": 377.0,
+        "duration": 2.7,
+        "text": "So that the keyword lowercase Nike"
+      },
+      {
+        "start": 379.7,
+        "duration": 2.7,
+        "text": "still matches the brand capitalized Nike."
+      },
+      {
+        "start": 386.8,
+        "duration": 2.5,
+        "text": "With that basic search logic working"
+      },
+      {
+        "start": 389.3,
+        "duration": 3.1,
+        "text": "and our data modeled nicely in a class,"
+      },
+      {
+        "start": 392.4,
+        "duration": 2.6,
+        "text": "we can easily build out more advanced features"
+      },
+      {
+        "start": 394.9,
+        "duration": 2.0,
+        "text": "for our customers, letting them search"
+      },
+      {
+        "start": 397.0,
+        "duration": 2.9,
+        "text": "by multiple keywords or filter by shoe size."
+      },
+      {
+        "start": 400.9,
+        "duration": 2.8,
+        "text": "That is once we finish the data entry process"
+      },
+      {
+        "start": 403.7,
+        "duration": 2.4,
+        "text": "of adding the rest of our shoe catalog."
+      }
+    ],
+    "full_text": "Let's design a program with objects and attributes. We're building a site for our shoe store, where customers can browse through our product catalog. Customers want to filter their search results based on the kind of shoes they're looking for. So we need a program that can model the shoes in our catalog, and we need to search through those shoes to find the shoe that matches what the customer asked for. Our catalog has hundreds of pairs of shoes, but every pair has some things in common. They all have a name, a color, a brand, and a size. To represent a pair of shoes, the first thing we'll need is a class definition. I'll let the IDE autocomplete this, and I'll name my data type, shoe. Now, we need to initialize our shoe attributes, which we do in the init method. So we'll pass in as parameters initial values for name, color, brand, and size. And then we store those values on the object, setting up our attributes so we can access those values later. We know Python passes in the object through that first parameter, self. So our init assignments always look like cell.attribute name. Let's test that by creating a shoe object. We know from our init method that we need to pass in four arguments when we create a shoe, since we skip that first self parameter. So let's say we have some air Jordans in black and red, made by Nike in a size eight. And let's just check that data is getting stored. By accessing our attributes after the object's created. Next, no bugs in our class definition. So let's fill out the rest of our catalog. To do the search, we're going to need to iterate over every shoe to check if it matches. So let's store our shoe objects in a list. I'm not gonna input all of my product data just yet, but let's at least add a few more shoes. Now that I have this set up, one convenient code organization convention is to put each class definition in its own file. Two reasons. One, like a function definition, a class definition must appear in the program before that class is called. And the easiest way to guarantee that is to import the class definition at the top. Two, it helps make our data type reusable. Any other code that needs to deal with shoe types can just import the file with the shoe class. And not have to worry about other logic getting pulled in too. Since the shoe type is now defined in the shoe module, we need to change these to module shoe dot class shoe. Remember that dot syntax lets us access something inside something else. But this is a class inside a module. Not an attribute inside an object. We have our data. Now it's time for our search logic. To break this down a bit, let's start by letting customers search by brand. They'll enter their search keyword and then we'll look through our shoes for a match. So we'll add a for loop where on each iteration, our loop variable holds the next shoe object. So let's say they search for Nike. We wanna check if that keyword equals not the entire shoe object, but the brand attribute of that shoe. So quick test, if I enter Nike, I should get two matches. And if I enter Reebok, I should get zero. Cool, what's the Linter complaining about over here? It says, import shoe from line one, shadowed by loop variable. What do you think that means? Well, we created a variable named shoe, but we also have a module named shoe that we imported. Python technically allows this, but it can only understand one concept shoe at a time. That means from here on out, Python no longer knows about the module shoe. If I try to create a shoe object after this line, I get an error because shoe now to Python means that loop variable, not the module. So we wanna avoid shadowing the name shoe and name or loop variable something else. Now, when we do find a match, we wanna display information about that shoe to the customer, but when I print an object, it looks like this. When we define a custom data type, Python doesn't really know how to display it. So it just defaults to showing the type, and then this is a memory address. It's the actual location where the object is stored in the computer's memory. Not so useful to our customers. What we actually wanna show them is data about that shoe. So we need to access the object's individual attributes, which we can combine together in a nice way, using a format string. So now we have our search and our search results, but we want our search feature to be a bit more powerful. We should be able to match that keyword against the name, the color, or the brand. So let's compare our keyword against all three attributes of each shoe. But instead of an exact match, let's use the inoperator to do a partial match on name and color. That way if the customer enters red, we would still match against this black red color. And just to make this a bit smarter, let's do a case insensitive match, meaning we use the lower method to convert all of our strings to lower case before we compare them. So that the keyword lowercase Nike still matches the brand capitalized Nike. With that basic search logic working and our data modeled nicely in a class, we can easily build out more advanced features for our customers, letting them search by multiple keywords or filter by shoe size. That is once we finish the data entry process of adding the rest of our shoe catalog."
+  }
+}

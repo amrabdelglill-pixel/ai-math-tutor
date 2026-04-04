@@ -1,0 +1,1199 @@
+{
+  "video_id": "yGVBaM8o02E",
+  "video_title": "Methods and encapsulation | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 325.0,
+  "view_count": 6192,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 8.0,
+        "text": "We can use objects to store data, but their true power comes from bundling data and behavior together."
+      },
+      {
+        "start": 8.0,
+        "duration": 7.0,
+        "text": "By behavior, I mean that an object can do things. It can act on the data it stores."
+      },
+      {
+        "start": 15.0,
+        "duration": 4.0,
+        "text": "To define an object's behavior, we just need methods."
+      },
+      {
+        "start": 19.0,
+        "duration": 9.0,
+        "text": "A method is a function that belongs to an object, meaning it's a function that's defined on a specific data type."
+      },
+      {
+        "start": 28.0,
+        "duration": 5.0,
+        "text": "Typically, we use methods to access or update an object's attributes."
+      },
+      {
+        "start": 33.0,
+        "duration": 8.0,
+        "text": "But instead of passing the object as an argument to the method, we call the method on the object."
+      },
+      {
+        "start": 41.0,
+        "duration": 9.0,
+        "text": "Just like we use dot syntax to access an object's attributes, we also use dot syntax to call an object's methods."
+      },
+      {
+        "start": 50.0,
+        "duration": 7.0,
+        "text": "Let's consider a bank account type. A bank account might have the attributes owner and balance."
+      },
+      {
+        "start": 57.0,
+        "duration": 9.0,
+        "text": "What actions can we take on a bank account? Well, we can get the current balance, deposit money, or withdraw money."
+      },
+      {
+        "start": 66.0,
+        "duration": 6.0,
+        "text": "We can achieve all those behaviors by directly working with each account's balance."
+      },
+      {
+        "start": 72.0,
+        "duration": 11.0,
+        "text": "But it's easy for a programmer to make a mistake here. They might forget to round the balance to two decimal places, or withdraw more money than there is."
+      },
+      {
+        "start": 83.0,
+        "duration": 8.0,
+        "text": "To solve for this, we think through those requirements upfront, and then wrap that common logic inside a function."
+      },
+      {
+        "start": 91.0,
+        "duration": 7.0,
+        "text": "We call this concept encapsulation, where an object manages its own data."
+      },
+      {
+        "start": 98.0,
+        "duration": 13.0,
+        "text": "Outside code doesn't modify an object's attributes directly. It only interacts with the object through those well-defined methods, thus protecting the object's attributes from invalid changes."
+      },
+      {
+        "start": 112.0,
+        "duration": 5.0,
+        "text": "That's the theory of methods. Now let's take a look at the actual syntax."
+      },
+      {
+        "start": 117.0,
+        "duration": 6.0,
+        "text": "We have a class definition for a bank account type, with an owner and a balance attribute."
+      },
+      {
+        "start": 123.0,
+        "duration": 6.0,
+        "text": "We want to guarantee that whenever we access an account's balance, it's always rounded correctly."
+      },
+      {
+        "start": 129.0,
+        "duration": 10.0,
+        "text": "So we can write a function that takes in a bank account object. Let's call that parameter self, and returns its rounded balance."
+      },
+      {
+        "start": 139.0,
+        "duration": 9.0,
+        "text": "Now, here's the method magic. Notice that we indented this function definition inside of our bank account class definition."
+      },
+      {
+        "start": 148.0,
+        "duration": 7.0,
+        "text": "That attaches this function to the bank account type, thus making it a method."
+      },
+      {
+        "start": 155.0,
+        "duration": 10.0,
+        "text": "When we call a method on an object, Python automatically passes in that object as the first argument."
+      },
+      {
+        "start": 165.0,
+        "duration": 6.0,
+        "text": "Just like with our init method, the first parameter is always the object we're acting on."
+      },
+      {
+        "start": 171.0,
+        "duration": 5.0,
+        "text": "And by convention, we always name that parameter self."
+      },
+      {
+        "start": 176.0,
+        "duration": 6.0,
+        "text": "This, once again, is just a convenient syntax shortcut."
+      },
+      {
+        "start": 182.0,
+        "duration": 4.0,
+        "text": "Python knows that checking is a bank account type."
+      },
+      {
+        "start": 186.0,
+        "duration": 9.0,
+        "text": "So when we call get balance on checking, Python knows to look for that get balance definition inside the bank account class."
+      },
+      {
+        "start": 195.0,
+        "duration": 9.0,
+        "text": "We can tell Python that information explicitly. We can say go to the bank account class and find the get balance definition."
+      },
+      {
+        "start": 204.0,
+        "duration": 5.0,
+        "text": "And then we manually pass in that checking object."
+      },
+      {
+        "start": 209.0,
+        "duration": 8.0,
+        "text": "These expressions are equivalent. They do the exact same thing. They get the balance of the checking object."
+      },
+      {
+        "start": 217.0,
+        "duration": 7.0,
+        "text": "This first one is just a bit easier, and it doesn't require that we know where the bank account class lives."
+      },
+      {
+        "start": 224.0,
+        "duration": 7.0,
+        "text": "So programmers prefer this syntax of calling the method on the object."
+      },
+      {
+        "start": 231.0,
+        "duration": 5.0,
+        "text": "Methods can access and return data, but they can also mutate it."
+      },
+      {
+        "start": 236.0,
+        "duration": 8.0,
+        "text": "I can write a method deposit that as always first takes in the object and then an amount."
+      },
+      {
+        "start": 244.0,
+        "duration": 5.0,
+        "text": "Inside the method, I'll just add that amount to the object's balance attribute."
+      },
+      {
+        "start": 249.0,
+        "duration": 8.0,
+        "text": "And then I'll add another method with draw that subtracts an amount from an object's balance."
+      },
+      {
+        "start": 257.0,
+        "duration": 7.0,
+        "text": "When we call those methods on the checking object, it automatically gets passed in as that first argument."
+      },
+      {
+        "start": 264.0,
+        "duration": 5.0,
+        "text": "So we only need to pass in a value for amount."
+      },
+      {
+        "start": 269.0,
+        "duration": 6.0,
+        "text": "The real value of these methods is that we can add more logic around these updates."
+      },
+      {
+        "start": 275.0,
+        "duration": 4.0,
+        "text": "So let's make sure no one deposits a negative amount."
+      },
+      {
+        "start": 279.0,
+        "duration": 5.0,
+        "text": "And no one withdraws an amount greater than their current balance."
+      },
+      {
+        "start": 284.0,
+        "duration": 6.0,
+        "text": "If other programmers play by the rules and only access balance through these methods,"
+      },
+      {
+        "start": 290.0,
+        "duration": 6.0,
+        "text": "we can guarantee that this validation always runs before balance gets updated."
+      },
+      {
+        "start": 296.0,
+        "duration": 3.0,
+        "text": "That's the power of encapsulation."
+      },
+      {
+        "start": 299.0,
+        "duration": 5.0,
+        "text": "We define all of the rules for a type inside the class definition."
+      },
+      {
+        "start": 304.0,
+        "duration": 7.0,
+        "text": "What data it stores in the attributes, and how that data can be accessed and updated in the methods."
+      },
+      {
+        "start": 312.0,
+        "duration": 5.0,
+        "text": "Then we can use those methods to safely interact with objects of that type,"
+      },
+      {
+        "start": 317.0,
+        "duration": 7.0,
+        "text": "thinking in terms of the behaviors deposit and withdraw, instead of the details of how the code and attributes work."
+      }
+    ],
+    "full_text": "We can use objects to store data, but their true power comes from bundling data and behavior together. By behavior, I mean that an object can do things. It can act on the data it stores. To define an object's behavior, we just need methods. A method is a function that belongs to an object, meaning it's a function that's defined on a specific data type. Typically, we use methods to access or update an object's attributes. But instead of passing the object as an argument to the method, we call the method on the object. Just like we use dot syntax to access an object's attributes, we also use dot syntax to call an object's methods. Let's consider a bank account type. A bank account might have the attributes owner and balance. What actions can we take on a bank account? Well, we can get the current balance, deposit money, or withdraw money. We can achieve all those behaviors by directly working with each account's balance. But it's easy for a programmer to make a mistake here. They might forget to round the balance to two decimal places, or withdraw more money than there is. To solve for this, we think through those requirements upfront, and then wrap that common logic inside a function. We call this concept encapsulation, where an object manages its own data. Outside code doesn't modify an object's attributes directly. It only interacts with the object through those well-defined methods, thus protecting the object's attributes from invalid changes. That's the theory of methods. Now let's take a look at the actual syntax. We have a class definition for a bank account type, with an owner and a balance attribute. We want to guarantee that whenever we access an account's balance, it's always rounded correctly. So we can write a function that takes in a bank account object. Let's call that parameter self, and returns its rounded balance. Now, here's the method magic. Notice that we indented this function definition inside of our bank account class definition. That attaches this function to the bank account type, thus making it a method. When we call a method on an object, Python automatically passes in that object as the first argument. Just like with our init method, the first parameter is always the object we're acting on. And by convention, we always name that parameter self. This, once again, is just a convenient syntax shortcut. Python knows that checking is a bank account type. So when we call get balance on checking, Python knows to look for that get balance definition inside the bank account class. We can tell Python that information explicitly. We can say go to the bank account class and find the get balance definition. And then we manually pass in that checking object. These expressions are equivalent. They do the exact same thing. They get the balance of the checking object. This first one is just a bit easier, and it doesn't require that we know where the bank account class lives. So programmers prefer this syntax of calling the method on the object. Methods can access and return data, but they can also mutate it. I can write a method deposit that as always first takes in the object and then an amount. Inside the method, I'll just add that amount to the object's balance attribute. And then I'll add another method with draw that subtracts an amount from an object's balance. When we call those methods on the checking object, it automatically gets passed in as that first argument. So we only need to pass in a value for amount. The real value of these methods is that we can add more logic around these updates. So let's make sure no one deposits a negative amount. And no one withdraws an amount greater than their current balance. If other programmers play by the rules and only access balance through these methods, we can guarantee that this validation always runs before balance gets updated. That's the power of encapsulation. We define all of the rules for a type inside the class definition. What data it stores in the attributes, and how that data can be accessed and updated in the methods. Then we can use those methods to safely interact with objects of that type, thinking in terms of the behaviors deposit and withdraw, instead of the details of how the code and attributes work."
+  }
+}

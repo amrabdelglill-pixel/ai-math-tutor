@@ -1,0 +1,1519 @@
+{
+  "video_id": "O85OWBJ2ayo",
+  "video_title": "How (and why) to raise e to the power of a matrix | DE6",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1627.0,
+  "view_count": 3421999,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.8,
+        "text": "Let me pull out an all differential equations textbook that I learned from in college."
+      },
+      {
+        "start": 3.8,
+        "duration": 4.6,
+        "text": "And let's turn to this funny little exercise in here that asks the reader to compute"
+      },
+      {
+        "start": 8.4,
+        "duration": 5.0,
+        "text": "e to the power a t, where a, we're told, is going to be a matrix."
+      },
+      {
+        "start": 13.4,
+        "duration": 3.8,
+        "text": "And the insinuation seems to be that the results will also be a matrix."
+      },
+      {
+        "start": 18.2,
+        "duration": 3.0,
+        "text": "It then offers several examples for what you might plug in for a."
+      },
+      {
+        "start": 22.0,
+        "duration": 4.5,
+        "text": "Now, taking out a context, putting a matrix into an exponent like this probably seems like total"
+      },
+      {
+        "start": 26.5,
+        "duration": 5.3,
+        "text": "nonsense. But what it refers to is an extremely beautiful operation. And the reason it shows up in"
+      },
+      {
+        "start": 31.8,
+        "duration": 5.2,
+        "text": "this book is that it's useful. It's used to solve a very important class of differential equations."
+      },
+      {
+        "start": 37.6,
+        "duration": 4.7,
+        "text": "In turn, given that the universe is often written in the language of differential equations,"
+      },
+      {
+        "start": 42.3,
+        "duration": 4.7,
+        "text": "you see this pop up in physics all the time too, especially in quantum mechanics where matrix"
+      },
+      {
+        "start": 47.0,
+        "duration": 4.1,
+        "text": "exponents are later throughout the place. They play a particularly prominent role."
+      },
+      {
+        "start": 51.1,
+        "duration": 3.5,
+        "text": "This has a lot to do with throwdinger's equations, which we'll touch on a bit later."
+      },
+      {
+        "start": 54.6,
+        "duration": 4.8,
+        "text": "And it may also help in understanding your romantic relationships. But again, all in due time."
+      },
+      {
+        "start": 65.5,
+        "duration": 3.9,
+        "text": "A big part of the reason I want to cover this topic is that there is an extremely nice way"
+      },
+      {
+        "start": 69.4,
+        "duration": 5.0,
+        "text": "to visualize what matrix exponents are actually doing using flow that not a lot of people seem to"
+      },
+      {
+        "start": 74.5,
+        "duration": 5.0,
+        "text": "talk about. But for the bulk of this chapter, let's start by laying out what exactly the operation"
+      },
+      {
+        "start": 79.5,
+        "duration": 3.9,
+        "text": "is and see if we can get a feel for what kinds of problems it helps us to solve."
+      },
+      {
+        "start": 84.2,
+        "duration": 4.1,
+        "text": "The first thing you should know is that this is not some bizarre way to multiply the constant"
+      },
+      {
+        "start": 88.2,
+        "duration": 5.8,
+        "text": "e by itself multiple times. You would be right to call that nonsense. The actual definition is"
+      },
+      {
+        "start": 94.1,
+        "duration": 4.8,
+        "text": "related to a certain infinite polynomial for describing real number powers at e, what we call"
+      },
+      {
+        "start": 98.9,
+        "duration": 5.4,
+        "text": "its Taylor series. For example, if I took the number two and plugged it into this polynomial,"
+      },
+      {
+        "start": 104.2,
+        "duration": 5.6,
+        "text": "then as you add more and more terms, each of which looks like some power of two divided by some"
+      },
+      {
+        "start": 109.8,
+        "duration": 11.3,
+        "text": "factorial. The sum approaches a number near 7.389, and this number is precisely e times e."
+      },
+      {
+        "start": 121.9,
+        "duration": 5.1,
+        "text": "If you increment this input by one, then somewhat miraculously, no matter where you started from,"
+      },
+      {
+        "start": 127.0,
+        "duration": 4.0,
+        "text": "the effect on the output is always to multiply it by another factor of e."
+      },
+      {
+        "start": 132.2,
+        "duration": 3.8,
+        "text": "For reasons that you're going to see in a bit, mathematicians became interested in plugging"
+      },
+      {
+        "start": 136.1,
+        "duration": 5.0,
+        "text": "all kinds of things into this polynomial, things like complex numbers, and for our purposes today,"
+      },
+      {
+        "start": 141.0,
+        "duration": 4.6,
+        "text": "matrices. Even when those objects do not immediately make sense as exponents."
+      },
+      {
+        "start": 146.5,
+        "duration": 5.8,
+        "text": "What some authors do is give this infinite polynomial the name X when you plug in more exotic inputs."
+      },
+      {
+        "start": 152.3,
+        "duration": 4.6,
+        "text": "It's a gentle nod to the connection that this has to exponential functions in the case of real"
+      },
+      {
+        "start": 157.0,
+        "duration": 5.3,
+        "text": "numbers, even though obviously these inputs don't make sense as exponents. However, an equally"
+      },
+      {
+        "start": 162.2,
+        "duration": 4.7,
+        "text": "common convention is to give a much less gentle nod to the connection and just abbreviate the whole"
+      },
+      {
+        "start": 167.0,
+        "duration": 4.9,
+        "text": "thing as e to the power of whatever object you're plugging in, whether that's a complex number or"
+      },
+      {
+        "start": 171.8,
+        "duration": 6.0,
+        "text": "a matrix, or all sorts of more exotic objects. So while this equation is a theorem for real numbers,"
+      },
+      {
+        "start": 177.8,
+        "duration": 6.0,
+        "text": "it's a definition for more exotic inputs. Seneca, you could call this a blatant abuse of notation."
+      },
+      {
+        "start": 184.5,
+        "duration": 4.6,
+        "text": "More charitably, you might view it as an example of the beautiful cycle between discovery and invention"
+      },
+      {
+        "start": 189.5,
+        "duration": 5.1,
+        "text": "in math. In either case, plugging in a matrix even to a polynomial might seem a little strange,"
+      },
+      {
+        "start": 194.6,
+        "duration": 5.7,
+        "text": "so let's be clearer on what we mean here. The matrix has to have the same number of rows and columns,"
+      },
+      {
+        "start": 200.3,
+        "duration": 4.3,
+        "text": "that way you can multiply it by itself according to the usual rules of matrix multiplication."
+      },
+      {
+        "start": 205.2,
+        "duration": 5.3,
+        "text": "This is what we mean by squaring it. Similarly, if you were to take that result and then"
+      },
+      {
+        "start": 210.5,
+        "duration": 5.1,
+        "text": "multiply it by the original matrix again, this is what we mean by cubing the matrix."
+      },
+      {
+        "start": 215.8,
+        "duration": 7.4,
+        "text": "If you carry on like this, you can take any whole number power of a matrix, it's perfectly sensible."
+      },
+      {
+        "start": 223.1,
+        "duration": 4.3,
+        "text": "In this context, powers still mean exactly what you would expect, repeated multiplication."
+      },
+      {
+        "start": 234.0,
+        "duration": 5.1,
+        "text": "Each term in this polynomial is scaled by one divided by some factorial, and with matrices,"
+      },
+      {
+        "start": 239.1,
+        "duration": 5.3,
+        "text": "all that means is that you multiply each component by that number. Likewise, it always makes sense"
+      },
+      {
+        "start": 244.4,
+        "duration": 4.0,
+        "text": "to add together two matrices. This is something that you again do term by term."
+      },
+      {
+        "start": 249.4,
+        "duration": 3.9,
+        "text": "The astute among you might ask how sensible it is to take this out to infinity,"
+      },
+      {
+        "start": 253.3,
+        "duration": 3.9,
+        "text": "which would be a great question, one that I'm largely going to postpone the answer to,"
+      },
+      {
+        "start": 257.2,
+        "duration": 5.4,
+        "text": "but I can show you one pretty fun example here now. Take this two by two matrix that has negative"
+      },
+      {
+        "start": 262.6,
+        "duration": 6.0,
+        "text": "pi and pi sitting off its diagonal entries. Let's see what the sum gives. The first term is the"
+      },
+      {
+        "start": 268.6,
+        "duration": 4.3,
+        "text": "identity matrix. This is actually what we mean by definition when we raise a matrix to the zero"
+      },
+      {
+        "start": 273.0,
+        "duration": 6.4,
+        "text": "of power. Then we add the matrix itself, which gives us the pi off the diagonal terms, and then add"
+      },
+      {
+        "start": 279.4,
+        "duration": 5.6,
+        "text": "half of the matrix squared, and continuing on, I'll have the computer keep adding more and more terms,"
+      },
+      {
+        "start": 285.0,
+        "duration": 4.6,
+        "text": "each of which requires taking one more matrix product to get the new power, and then adding it to a"
+      },
+      {
+        "start": 289.6,
+        "duration": 6.2,
+        "text": "running tally. And as it keeps going, it seems to be approaching a stable value, which is around"
+      },
+      {
+        "start": 295.8,
+        "duration": 5.8,
+        "text": "negative one times the identity matrix. In this sense, we say the infinite sum equals that negative"
+      },
+      {
+        "start": 301.8,
+        "duration": 5.5,
+        "text": "identity. By the end of this video, my hope is that this particular fact comes to make total sense to"
+      },
+      {
+        "start": 307.3,
+        "duration": 4.8,
+        "text": "you. For any of you familiar with Euler's famous identity, this is essentially the matrix version of"
+      },
+      {
+        "start": 312.1,
+        "duration": 5.8,
+        "text": "that. It turns out that in general, no matter what matrix you start with, as you add more and more"
+      },
+      {
+        "start": 317.8,
+        "duration": 5.4,
+        "text": "terms, you eventually approach some stable value, though sometimes it can take quite a while before you"
+      },
+      {
+        "start": 323.3,
+        "duration": 7.9,
+        "text": "get there. Just seeing the definition like this in isolation raises all kinds of questions."
+      },
+      {
+        "start": 331.7,
+        "duration": 4.5,
+        "text": "Most notably, why would mathematicians and physicists be interested in torturing their"
+      },
+      {
+        "start": 336.2,
+        "duration": 5.1,
+        "text": "poor matrices this way? What problems are they trying to solve? And if you're anything like me,"
+      },
+      {
+        "start": 341.3,
+        "duration": 4.8,
+        "text": "a new operation is only satisfying when you have a clear view of what it's trying to do,"
+      },
+      {
+        "start": 346.1,
+        "duration": 5.1,
+        "text": "some sense of how to predict the output based on the input before you actually crunch the numbers."
+      },
+      {
+        "start": 351.2,
+        "duration": 5.1,
+        "text": "How on earth could you have predicted that the matrix with pi off the diagonals results in a negative"
+      },
+      {
+        "start": 356.3,
+        "duration": 5.9,
+        "text": "identity matrix like this? Often in math, you should view the definition not as a starting point,"
+      },
+      {
+        "start": 362.2,
+        "duration": 5.1,
+        "text": "but as a target. Contrary to the structure of textbooks, mathematicians do not start by making"
+      },
+      {
+        "start": 367.4,
+        "duration": 4.7,
+        "text": "definitions and then listing a lot of theorems and proving them and then showing some examples."
+      },
+      {
+        "start": 372.1,
+        "duration": 4.6,
+        "text": "The process of discovering math typically goes the other way around. They start by chewing on"
+      },
+      {
+        "start": 376.7,
+        "duration": 5.0,
+        "text": "specific problems, and then generalizing those problems, then coming up with constructs that"
+      },
+      {
+        "start": 381.7,
+        "duration": 5.0,
+        "text": "might be helpful in those general cases. And only then do you write down a new definition,"
+      },
+      {
+        "start": 386.6,
+        "duration": 6.2,
+        "text": "or extend an old one. As to what sorts of specific examples might motivate matrix exponents,"
+      },
+      {
+        "start": 392.9,
+        "duration": 5.7,
+        "text": "two come to mind, one involving relationships and the other quantum mechanics. Let's start with"
+      },
+      {
+        "start": 398.6,
+        "duration": 8.9,
+        "text": "relationships. Suppose we have two lovers, let's call them Romeo and Juliet, and let's let X"
+      },
+      {
+        "start": 407.5,
+        "duration": 6.7,
+        "text": "represent Juliet's love for Romeo. And Y represent his love for her, both of which are going to be"
+      },
+      {
+        "start": 414.2,
+        "duration": 5.1,
+        "text": "values that change with time. This is an example that we actually touched on in chapter 1,"
+      },
+      {
+        "start": 419.4,
+        "duration": 3.5,
+        "text": "it's based on a Stephen Strogatz article, but it's okay if you didn't see that."
+      },
+      {
+        "start": 423.5,
+        "duration": 4.9,
+        "text": "The way their relationship works is that the rate at which Juliet's love for Romeo changes,"
+      },
+      {
+        "start": 428.4,
+        "duration": 5.2,
+        "text": "the derivative of this value, is equal to negative 1 times Romeo's love for her."
+      },
+      {
+        "start": 434.3,
+        "duration": 5.1,
+        "text": "So in other words, when Romeo is expressing cool, disinterest, that's when Juliet's feelings"
+      },
+      {
+        "start": 439.4,
+        "duration": 5.1,
+        "text": "actually increase, whereas if he becomes too infatuated, her interest will start to fade."
+      },
+      {
+        "start": 446.9,
+        "duration": 4.8,
+        "text": "Romeo, on the other hand, is the opposite. The rate of change of his love is equal to the size"
+      },
+      {
+        "start": 451.7,
+        "duration": 4.6,
+        "text": "of Juliet's love. So while Juliet has mad at him, his affections tend to decrease."
+      },
+      {
+        "start": 457.0,
+        "duration": 7.0,
+        "text": "Where as if she loves him, that's when his feelings grow. Of course, neither one of these"
+      },
+      {
+        "start": 463.9,
+        "duration": 5.6,
+        "text": "numbers is holding still. As Romeo's love increases in response to Juliet, her equation"
+      },
+      {
+        "start": 469.5,
+        "duration": 6.4,
+        "text": "continues to apply and drives her love down. Both of these equations always apply, from each"
+      },
+      {
+        "start": 475.9,
+        "duration": 5.7,
+        "text": "infinitesimal point in time to the next, so every slight change to one value immediately influences"
+      },
+      {
+        "start": 481.6,
+        "duration": 6.2,
+        "text": "the rate of change of the other. This is a system of differential equations. It's a puzzle,"
+      },
+      {
+        "start": 487.8,
+        "duration": 5.7,
+        "text": "where your challenge is to find explicit functions for x of t and y of t that make both of these"
+      },
+      {
+        "start": 493.4,
+        "duration": 6.5,
+        "text": "expressions true. Now, as systems of differential equations go, this one is on the simpler side,"
+      },
+      {
+        "start": 499.9,
+        "duration": 5.2,
+        "text": "enough so that many calculus students could probably just guess at an answer. But keep in mind,"
+      },
+      {
+        "start": 505.1,
+        "duration": 5.4,
+        "text": "it's not enough to find some pair of functions that makes this true. If you want to actually predict"
+      },
+      {
+        "start": 510.5,
+        "duration": 4.8,
+        "text": "where Romeo and Juliet end up after some starting point, you have to make sure that your functions"
+      },
+      {
+        "start": 515.3,
+        "duration": 6.4,
+        "text": "match the initial set of conditions at time t equal zero. More to the point, our actual goal today"
+      },
+      {
+        "start": 521.7,
+        "duration": 5.1,
+        "text": "is to systematically solve more general versions of this equation, without guessing and checking."
+      },
+      {
+        "start": 526.8,
+        "duration": 5.4,
+        "text": "And it's that question that leads us to matrix exponents. Very often, when you have multiple"
+      },
+      {
+        "start": 532.2,
+        "duration": 4.6,
+        "text": "changing values like this, it's helpful to package them together as coordinates of a single point"
+      },
+      {
+        "start": 536.7,
+        "duration": 4.9,
+        "text": "in a higher dimensional space. So for Romeo and Juliet, think of their relationship as a point"
+      },
+      {
+        "start": 541.6,
+        "duration": 8.1,
+        "text": "in a 2D space, the x-coordinate capturing Juliet's feelings, and the y-coordinate capturing"
+      },
+      {
+        "start": 549.7,
+        "duration": 7.1,
+        "text": "Romeo's. Sometimes it's helpful to picture this state as an arrow from the origin,"
+      },
+      {
+        "start": 556.8,
+        "duration": 4.8,
+        "text": "other times just as a point. All that really matters is that it encodes two numbers,"
+      },
+      {
+        "start": 561.6,
+        "duration": 4.9,
+        "text": "and moving forward, we'll be writing that as a column vector. And of course, this is all a"
+      },
+      {
+        "start": 566.5,
+        "duration": 5.3,
+        "text": "function of time. You might picture the rate of change of this state, the thing that packages"
+      },
+      {
+        "start": 571.8,
+        "duration": 6.2,
+        "text": "together the derivative of x and the derivative of y as a kind of velocity vector in this state space,"
+      },
+      {
+        "start": 577.9,
+        "duration": 4.7,
+        "text": "something that tugs at our point in some direction, and with some magnitude that indicates how quickly"
+      },
+      {
+        "start": 582.6,
+        "duration": 7.4,
+        "text": "it's changing. Remember, the rule here is that the rate of change of x is negative y,"
+      },
+      {
+        "start": 590.1,
+        "duration": 6.0,
+        "text": "and the rate of change of y is x. Set up as vectors like this, we could rewrite the right hand"
+      },
+      {
+        "start": 596.1,
+        "duration": 7.4,
+        "text": "side of this equation as a product of this matrix with the original vector, xy, the top row encodes"
+      },
+      {
+        "start": 603.4,
+        "duration": 6.2,
+        "text": "Juliet's rule, and the bottom row encodes Romeo's rule. So what we have here is a differential"
+      },
+      {
+        "start": 609.6,
+        "duration": 5.6,
+        "text": "equation telling us that the rate of change of some vector is equal to a certain matrix times"
+      },
+      {
+        "start": 615.2,
+        "duration": 5.4,
+        "text": "itself. In a moment, we'll talk about how matrix"
+      },
+      {
+        "start": 620.6,
+        "duration": 4.9,
+        "text": "exponentiation solves this kind of equation. But before that, let me show you a simpler way that we"
+      },
+      {
+        "start": 625.4,
+        "duration": 5.0,
+        "text": "can solve this particular system, one that uses pure geometry, and it helps set the stage for"
+      },
+      {
+        "start": 630.5,
+        "duration": 6.8,
+        "text": "visualizing matrix exponents a bit later. This matrix from our system is a 90 degree rotation matrix."
+      },
+      {
+        "start": 638.8,
+        "duration": 4.8,
+        "text": "For any of you rusty on how to think about matrices as transformations, there's a video all about"
+      },
+      {
+        "start": 643.6,
+        "duration": 5.3,
+        "text": "it on this channel, a series really. The basic idea is that when you multiply a matrix by the"
+      },
+      {
+        "start": 648.9,
+        "duration": 8.5,
+        "text": "vector 1 0, it pulls out the first column. And similarly, if you multiply it by 0 1, that pulls"
+      },
+      {
+        "start": 657.4,
+        "duration": 6.4,
+        "text": "out the second column. What this means is that when you look at a matrix, you can read its columns"
+      },
+      {
+        "start": 663.8,
+        "duration": 6.3,
+        "text": "as telling you what it does to these two vectors, known as the basis vectors. The way it acts on"
+      },
+      {
+        "start": 670.2,
+        "duration": 5.8,
+        "text": "any other vector is the result of scaling and adding these two basis results by that vector's"
+      },
+      {
+        "start": 675.9,
+        "duration": 4.9,
+        "text": "coordinates. So looking back at the matrix from our system, notice how from its columns,"
+      },
+      {
+        "start": 680.8,
+        "duration": 5.9,
+        "text": "we can tell it takes the first basis vector to 0 1, and the second to negative 1 0. Hence,"
+      },
+      {
+        "start": 686.7,
+        "duration": 6.8,
+        "text": "why I'm calling it the 90 degree rotation matrix. What it means for our equation is that it's saying"
+      },
+      {
+        "start": 693.5,
+        "duration": 6.0,
+        "text": "wherever Romeo and Juliet are in this state space, the rate of change has to look like a 90 degree"
+      },
+      {
+        "start": 699.5,
+        "duration": 5.9,
+        "text": "rotation of this position vector. The only way velocity can permanently be perpendicular to"
+      },
+      {
+        "start": 705.4,
+        "duration": 5.1,
+        "text": "position like this is when you rotate around the origin in circular motion, never growing or"
+      },
+      {
+        "start": 710.6,
+        "duration": 3.7,
+        "text": "shrinking because the rate of change has no component in the direction of the position."
+      },
+      {
+        "start": 717.0,
+        "duration": 5.5,
+        "text": "More specifically, since the length of this velocity vector equals the length of the position"
+      },
+      {
+        "start": 722.6,
+        "duration": 6.4,
+        "text": "vector, then for each unit of time, the distance that this covers is equal to 1 radius's worth of"
+      },
+      {
+        "start": 729.0,
+        "duration": 6.4,
+        "text": "arc length along that circle. In other words, it rotates at one radian per unit time,"
+      },
+      {
+        "start": 735.9,
+        "duration": 4.6,
+        "text": "so in particular, it would take two pi units of time to make a full revolution."
+      },
+      {
+        "start": 742.8,
+        "duration": 5.0,
+        "text": "If you want to describe this kind of rotation with a formula, we can use a more general rotation"
+      },
+      {
+        "start": 747.8,
+        "duration": 5.3,
+        "text": "matrix, which looks like this. Again, we can read it in terms of the columns. Notice how the"
+      },
+      {
+        "start": 753.1,
+        "duration": 4.9,
+        "text": "first column tells us that it takes that first basis vector to cosine of t sine of t."
+      },
+      {
+        "start": 759.8,
+        "duration": 4.9,
+        "text": "And the second column tells us that it takes the second basis vector to negative sine of t cosine"
+      },
+      {
+        "start": 764.7,
+        "duration": 6.3,
+        "text": "of t, both of which are consistent with rotating by t radians. So, to solve the system,"
+      },
+      {
+        "start": 771.0,
+        "duration": 5.5,
+        "text": "if you want to predict where Romeo and Juliet end up after t units of time, you can multiply"
+      },
+      {
+        "start": 776.6,
+        "duration": 6.2,
+        "text": "this matrix by their initial state. The active viewers among you might also enjoy taking a moment"
+      },
+      {
+        "start": 782.8,
+        "duration": 5.5,
+        "text": "to pause and confirm that the explicit formulas you get out of this for x of t and y of t really do"
+      },
+      {
+        "start": 788.3,
+        "duration": 2.9,
+        "text": "satisfy the system of differential equations that we started with."
+      },
+      {
+        "start": 797.8,
+        "duration": 4.7,
+        "text": "The mathematician and you might wonder if it's possible to solve not just this specific system,"
+      },
+      {
+        "start": 802.6,
+        "duration": 3.4,
+        "text": "but equations like it for any other matrix, no matter what it's coefficients."
+      },
+      {
+        "start": 807.0,
+        "duration": 4.6,
+        "text": "To ask this question, is to set yourself up to rediscover matrix exponents?"
+      },
+      {
+        "start": 811.5,
+        "duration": 5.0,
+        "text": "The main goal for today is for you to understand how this equation lets you intuitively picture"
+      },
+      {
+        "start": 816.6,
+        "duration": 5.6,
+        "text": "the operation which we write as e raised to a matrix. And on the flip side, how being able to compute"
+      },
+      {
+        "start": 822.2,
+        "duration": 6.0,
+        "text": "matrix exponents lets you explicitly solve this equation. A much less whimsical example is"
+      },
+      {
+        "start": 828.2,
+        "duration": 5.0,
+        "text": "Schrodinger's famous equation, which is the fundamental equation describing how systems in quantum"
+      },
+      {
+        "start": 833.1,
+        "duration": 5.4,
+        "text": "mechanics change over time. It looks pretty intimidating, and I mean it's quantum mechanics,"
+      },
+      {
+        "start": 838.5,
+        "duration": 3.8,
+        "text": "so of course it will, but it's actually not that different from the Romeo Giulia setup."
+      },
+      {
+        "start": 842.9,
+        "duration": 5.0,
+        "text": "This symbol here refers to a certain vector. It's a vector that packages together all the information"
+      },
+      {
+        "start": 847.8,
+        "duration": 4.9,
+        "text": "you might care about in a system, like the various particles positions and momenta. It's analogous"
+      },
+      {
+        "start": 852.7,
+        "duration": 5.8,
+        "text": "to our simpler 2D vector that encoded all the information about Romeo and Juliet. The equation"
+      },
+      {
+        "start": 858.5,
+        "duration": 5.0,
+        "text": "says that the rate at which this state vector changes looks like a certain matrix times itself."
+      },
+      {
+        "start": 864.4,
+        "duration": 3.9,
+        "text": "There are a number of things that makes Schrodinger's equation notably more complicated,"
+      },
+      {
+        "start": 868.3,
+        "duration": 4.5,
+        "text": "but in the back of your mind you might think of it as a target point that you and I can build up to,"
+      },
+      {
+        "start": 872.8,
+        "duration": 5.1,
+        "text": "with simpler examples like Romeo and Juliet offering more friendly stepping stones along the way."
+      },
+      {
+        "start": 879.4,
+        "duration": 4.7,
+        "text": "Actually, the simplest example which is tied to ordinary real number powers of e is the one"
+      },
+      {
+        "start": 884.1,
+        "duration": 4.6,
+        "text": "dimensional case. This is when you have a single changing value, and its rate of change"
+      },
+      {
+        "start": 888.7,
+        "duration": 4.6,
+        "text": "equals some constant times itself, so the bigger the value, the faster it grows."
+      },
+      {
+        "start": 895.0,
+        "duration": 4.5,
+        "text": "Most people are more comfortable visualizing this with a graph, where the higher the value of the"
+      },
+      {
+        "start": 899.4,
+        "duration": 4.9,
+        "text": "graph, the steeper its slope, resulting in this ever-steepening upward curve. Just keep in"
+      },
+      {
+        "start": 904.3,
+        "duration": 3.7,
+        "text": "mind that when we get to higher dimensional variants, graphs are a lot less helpful."
+      },
+      {
+        "start": 909.0,
+        "duration": 4.2,
+        "text": "This is a highly important equation in its own right. It's a very powerful concept when the"
+      },
+      {
+        "start": 913.2,
+        "duration": 4.8,
+        "text": "rate of change of a value is proportional to the value itself. This is the equation governing"
+      },
+      {
+        "start": 918.0,
+        "duration": 5.1,
+        "text": "things like compound interest, or the early stages of population growth before the effects of"
+      },
+      {
+        "start": 923.1,
+        "duration": 5.8,
+        "text": "limited resources kick in, or the early stages of an epidemic while most of the population is susceptible."
+      },
+      {
+        "start": 931.7,
+        "duration": 5.5,
+        "text": "Calculus students all learn about how the derivative of e to the rt is r times itself."
+      },
+      {
+        "start": 938.3,
+        "duration": 4.8,
+        "text": "In other words, this self-reinforcing growth phenomenon is the same thing as exponential growth,"
+      },
+      {
+        "start": 943.7,
+        "duration": 2.5,
+        "text": "and e to the rt solves this equation."
+      },
+      {
+        "start": 948.8,
+        "duration": 4.5,
+        "text": "Actually, a better way to think about it is that there are many different solutions to this equation,"
+      },
+      {
+        "start": 953.3,
+        "duration": 4.4,
+        "text": "one for each initial condition, something like an initial investment size or an initial"
+      },
+      {
+        "start": 957.7,
+        "duration": 6.5,
+        "text": "population, which we'll just call x0. Notice, by the way, how the higher the value for x0,"
+      },
+      {
+        "start": 964.2,
+        "duration": 5.0,
+        "text": "the higher the initial slope of the resulting solution, which should make a complete sense given"
+      },
+      {
+        "start": 969.6,
+        "duration": 6.4,
+        "text": "in the equation. The function e to the rt is just a solution when the initial condition is 1,"
+      },
+      {
+        "start": 976.6,
+        "duration": 5.4,
+        "text": "but if you multiply by any other initial condition, you get a new function which still satisfies"
+      },
+      {
+        "start": 982.1,
+        "duration": 6.1,
+        "text": "this property, it still has a derivative which is r times itself. But this time it starts at x0,"
+      },
+      {
+        "start": 988.2,
+        "duration": 5.4,
+        "text": "since e to the 0 is 1. This is worth highlighting before we generalize to more dimensions."
+      },
+      {
+        "start": 993.6,
+        "duration": 4.9,
+        "text": "Do not think of the exponential part as being a solution in and of itself. Think of it as something"
+      },
+      {
+        "start": 998.5,
+        "duration": 3.8,
+        "text": "that acts on an initial condition in order to give a solution."
+      },
+      {
+        "start": 1006.3,
+        "duration": 4.6,
+        "text": "You see, up in the two-dimensional case, when we have a changing vector whose rate of change"
+      },
+      {
+        "start": 1011.0,
+        "duration": 6.1,
+        "text": "is constrained to be some matrix times itself, what the solution looks like is also an exponential"
+      },
+      {
+        "start": 1017.0,
+        "duration": 5.4,
+        "text": "term acting on a given initial condition, but the exponential part in that case will produce a"
+      },
+      {
+        "start": 1022.5,
+        "duration": 5.5,
+        "text": "matrix that changes with time, and the initial condition is a vector. In fact, you should think of"
+      },
+      {
+        "start": 1028.0,
+        "duration": 5.4,
+        "text": "the definition of matrix exponentiation as being heavily motivated by making sure that this fact"
+      },
+      {
+        "start": 1033.4,
+        "duration": 5.8,
+        "text": "is true. For example, if we look back at the system that popped up with Romeo and Juliet,"
+      },
+      {
+        "start": 1039.1,
+        "duration": 7.4,
+        "text": "the claim now is that solutions look like e raised to this 0-1-1-0 matrix all times time,"
+      },
+      {
+        "start": 1046.6,
+        "duration": 5.4,
+        "text": "multiplied by some initial condition. But we've already seen the solution in this case, we know it"
+      },
+      {
+        "start": 1051.9,
+        "duration": 4.6,
+        "text": "looks like a rotation matrix times the initial condition. So let's take a moment to roll up our"
+      },
+      {
+        "start": 1057.0,
+        "duration": 4.2,
+        "text": "sleeves and compute the exponential term using the definition that I mentioned at the start"
+      },
+      {
+        "start": 1061.2,
+        "duration": 6.2,
+        "text": "and see if it lines up. Remember, writing e to the power of a matrix is a shorthand, a shorthand"
+      },
+      {
+        "start": 1067.4,
+        "duration": 4.6,
+        "text": "for plugging it in to this long infinite polynomial, the Taylor series for e to the x."
+      },
+      {
+        "start": 1073.4,
+        "duration": 4.7,
+        "text": "I know it might seem pretty complicated to do this, but trust me, it's very satisfying how this"
+      },
+      {
+        "start": 1078.1,
+        "duration": 6.1,
+        "text": "particular one turns out. If you actually sit down and you compute successive powers of this matrix,"
+      },
+      {
+        "start": 1084.2,
+        "duration": 18.4,
+        "text": "what you'd notice is that they fall into a cycling pattern every four iterations."
+      },
+      {
+        "start": 1107.4,
+        "duration": 3.4,
+        "text": "This should make sense given that we know it's a 90-degree rotation matrix."
+      },
+      {
+        "start": 1111.3,
+        "duration": 3.5,
+        "text": "So when you add together all infinitely many matrices, term by term,"
+      },
+      {
+        "start": 1115.4,
+        "duration": 5.4,
+        "text": "each term in the result looks like a polynomial in T with some nice cycling pattern in its"
+      },
+      {
+        "start": 1120.7,
+        "duration": 6.2,
+        "text": "coefficients, all of them scaled by the relevant factorial term. Those of you who are savvy with"
+      },
+      {
+        "start": 1126.9,
+        "duration": 5.0,
+        "text": "Taylor series might be able to recognize that each one of these components is the Taylor series"
+      },
+      {
+        "start": 1131.9,
+        "duration": 4.9,
+        "text": "for either sine or cosine, though in that top right corner's case it's actually negative sine."
+      },
+      {
+        "start": 1137.3,
+        "duration": 5.8,
+        "text": "So what we get from the computation is exactly the rotation matrix we had from before."
+      },
+      {
+        "start": 1147.3,
+        "duration": 4.9,
+        "text": "To me, this is extremely beautiful. We have two completely different ways of reasoning about"
+      },
+      {
+        "start": 1152.2,
+        "duration": 4.8,
+        "text": "the same system and they give us the same answer. I mean, it's reassuring that they do,"
+      },
+      {
+        "start": 1157.0,
+        "duration": 3.7,
+        "text": "but it is wild just how different the mode of thought is when you're chugging through this"
+      },
+      {
+        "start": 1160.6,
+        "duration": 4.7,
+        "text": "polynomial versus when you're geometrically reasoning about what a velocity perpendicular to"
+      },
+      {
+        "start": 1165.4,
+        "duration": 5.3,
+        "text": "a position must imply. Hopefully, the fact that these line up inspires a little confidence in"
+      },
+      {
+        "start": 1170.6,
+        "duration": 5.8,
+        "text": "the claim that matrix exponents really do solve systems like this. This explains the computation"
+      },
+      {
+        "start": 1176.5,
+        "duration": 4.9,
+        "text": "we saw at the start, by the way, with the matrix that had negative pi and pi off the diagonals,"
+      },
+      {
+        "start": 1181.4,
+        "duration": 5.8,
+        "text": "producing the negative identity. This expression is expointiating a 90-degree rotation matrix"
+      },
+      {
+        "start": 1187.2,
+        "duration": 6.6,
+        "text": "times pi, which is another way to describe what the Romeo Juliet setup does after pi units of time."
+      },
+      {
+        "start": 1193.8,
+        "duration": 5.4,
+        "text": "As we now know, that has the effect of rotating everything 180 degrees in this state space,"
+      },
+      {
+        "start": 1199.2,
+        "duration": 5.8,
+        "text": "which is the same as multiplying by negative 1. Also, for any of you familiar with imaginary"
+      },
+      {
+        "start": 1205.0,
+        "duration": 5.5,
+        "text": "number exponents, this particular example is probably ringing a ton of bells. It is 100%"
+      },
+      {
+        "start": 1210.6,
+        "duration": 4.8,
+        "text": "analogous. In fact, we could have framed the entire example where Romeo and Juliet's feelings"
+      },
+      {
+        "start": 1215.4,
+        "duration": 4.5,
+        "text": "were packaged into a complex number, and the rate of change of that complex number would have"
+      },
+      {
+        "start": 1220.2,
+        "duration": 4.9,
+        "text": "been i times itself, since multiplication by i also acts like a 90-degree rotation."
+      },
+      {
+        "start": 1225.7,
+        "duration": 5.0,
+        "text": "The same exact line of reasoning, both analytic and geometric, would have led to this whole idea"
+      },
+      {
+        "start": 1230.7,
+        "duration": 5.9,
+        "text": "that e to the power it describes rotation. These are actually two of many different examples"
+      },
+      {
+        "start": 1236.6,
+        "duration": 5.0,
+        "text": "throughout math and physics, when you find yourself expointiating some object which acts as a 90-degree"
+      },
+      {
+        "start": 1241.6,
+        "duration": 5.8,
+        "text": "rotation times time. It shows up with quaternions or many of the matrices that pop up in quantum"
+      },
+      {
+        "start": 1247.4,
+        "duration": 5.3,
+        "text": "mechanics. In all of these cases, we have this really neat general idea that if you take some"
+      },
+      {
+        "start": 1252.7,
+        "duration": 5.3,
+        "text": "operation that rotates 90 degrees in some plane, often it's a plane in some high-dimensional space"
+      },
+      {
+        "start": 1258.0,
+        "duration": 5.8,
+        "text": "that we can't visualize, then what we get by expointiating that operation times time, is something"
+      },
+      {
+        "start": 1263.8,
+        "duration": 7.4,
+        "text": "that generates all other rotations in that same plane. One of the more complicated variations on"
+      },
+      {
+        "start": 1271.3,
+        "duration": 5.2,
+        "text": "this same theme is trottingers equation. It's not just that this has the derivative of a state"
+      },
+      {
+        "start": 1276.5,
+        "duration": 5.8,
+        "text": "equal some matrix times that state form. The nature of the relevant matrix here is such that the"
+      },
+      {
+        "start": 1282.3,
+        "duration": 5.0,
+        "text": "equation also describes a kind of rotation. Though in many applications of trottingers equation,"
+      },
+      {
+        "start": 1287.3,
+        "duration": 4.7,
+        "text": "it'll be a rotation in a kind of function space. It's a little more involved though because"
+      },
+      {
+        "start": 1292.0,
+        "duration": 4.6,
+        "text": "typically there's a combination of many different rotations. It takes time to really dig into"
+      },
+      {
+        "start": 1296.6,
+        "duration": 4.9,
+        "text": "this equation and I would love to do that in a later chapter. But right now, I cannot help but at"
+      },
+      {
+        "start": 1301.5,
+        "duration": 5.8,
+        "text": "least allude to the fact that this imaginary unit i that sits so impishly in such a fundamental"
+      },
+      {
+        "start": 1307.3,
+        "duration": 5.3,
+        "text": "equation for all of the universe is playing basically the same role as the matrix from Arromio"
+      },
+      {
+        "start": 1312.6,
+        "duration": 6.6,
+        "text": "Julia example. What this i communicates is that the rate of change of a certain state is, in a"
+      },
+      {
+        "start": 1319.1,
+        "duration": 6.0,
+        "text": "sense, perpendicular to that state, and hence that the way things have to evolve over time will"
+      },
+      {
+        "start": 1325.1,
+        "duration": 9.5,
+        "text": "involve a kind of oscillation. But matrix exponentiation can do so much more than just rotation."
+      },
+      {
+        "start": 1334.6,
+        "duration": 4.2,
+        "text": "You can always visualize these sorts of differential equations using a vector field."
+      },
+      {
+        "start": 1340.4,
+        "duration": 4.8,
+        "text": "The idea is that this equation tells us the velocity of a state is entirely determined by its"
+      },
+      {
+        "start": 1345.2,
+        "duration": 5.2,
+        "text": "position. So what we do is go to every point in the space and draw a little vector indicating"
+      },
+      {
+        "start": 1350.5,
+        "duration": 6.2,
+        "text": "what the velocity of a state must be if it passes through that point. For our type of equation,"
+      },
+      {
+        "start": 1356.7,
+        "duration": 11.0,
+        "text": "this means that we go to each point v in space and we attach the vector m times v."
+      },
+      {
+        "start": 1374.0,
+        "duration": 5.0,
+        "text": "To intuitively understand how any given initial condition will evolve, you let it flow along"
+      },
+      {
+        "start": 1379.0,
+        "duration": 4.9,
+        "text": "this field with a velocity always matching whatever vector it's sitting on at any given point in"
+      },
+      {
+        "start": 1383.8,
+        "duration": 7.2,
+        "text": "time. So if the claim is that solutions to this equation look like e to the mt time some initial"
+      },
+      {
+        "start": 1391.0,
+        "duration": 5.8,
+        "text": "condition, it means you can visualize what the matrix e to the mt does by letting every possible"
+      },
+      {
+        "start": 1396.9,
+        "duration": 10.5,
+        "text": "initial condition flow along this field for t units of time. The transition from start to finish"
+      },
+      {
+        "start": 1407.4,
+        "duration": 4.6,
+        "text": "is described by whatever matrix pops out from the computation for e to the mt."
+      },
+      {
+        "start": 1413.4,
+        "duration": 5.0,
+        "text": "In our main example with the 90 degree rotation matrix, the vector field looks like this."
+      },
+      {
+        "start": 1418.4,
+        "duration": 5.8,
+        "text": "And as we saw, e to the mt describes rotation in that case, which lines up with flow along this field."
+      },
+      {
+        "start": 1425.6,
+        "duration": 4.6,
+        "text": "As another example, the more Shakespearean Romeo and Juliet might have equations that"
+      },
+      {
+        "start": 1430.2,
+        "duration": 4.9,
+        "text": "look a little more like this, where Juliet's rule is symmetric with Romeo's and both of them"
+      },
+      {
+        "start": 1435.1,
+        "duration": 5.2,
+        "text": "are inclined to get carried away in response to one another's feelings. Again, the way the vector"
+      },
+      {
+        "start": 1440.3,
+        "duration": 5.3,
+        "text": "field you're looking at has been defined is to go to each point v in space and attach the vector"
+      },
+      {
+        "start": 1445.6,
+        "duration": 6.2,
+        "text": "m times v. This is the pictorial way of saying that the rate of change of a state must always equal"
+      },
+      {
+        "start": 1451.8,
+        "duration": 6.6,
+        "text": "m times itself. But for this example, flow along the field looks a lot different from how it did before."
+      },
+      {
+        "start": 1459.0,
+        "duration": 5.1,
+        "text": "If Romeo and Juliet start off anywhere in this upper right half of the plane, their feelings will"
+      },
+      {
+        "start": 1464.2,
+        "duration": 7.8,
+        "text": "feed off of each other and they both tend towards infinity. If they're in the other half of the"
+      },
+      {
+        "start": 1471.9,
+        "duration": 4.9,
+        "text": "plane, well let's just say that they stay more true to their capulet and Montague family traditions."
+      },
+      {
+        "start": 1477.8,
+        "duration": 4.9,
+        "text": "So even before you try calculating the exponential of this particular matrix, you can already"
+      },
+      {
+        "start": 1482.6,
+        "duration": 5.0,
+        "text": "have an intuitive sense for what the answer should look like. The resulting matrix should describe"
+      },
+      {
+        "start": 1487.7,
+        "duration": 5.5,
+        "text": "the transition from time zero to time t, which if you look at the field seems to indicate that it"
+      },
+      {
+        "start": 1493.2,
+        "duration": 6.2,
+        "text": "will squish along one diagonal while stretching along another, getting more extreme as t gets larger."
+      },
+      {
+        "start": 1500.6,
+        "duration": 5.3,
+        "text": "Of course, all of this is presuming that e to the mt times an initial condition actually solves"
+      },
+      {
+        "start": 1505.9,
+        "duration": 5.1,
+        "text": "these systems. This is one of those facts that's easiest to believe when you just work it out yourself."
+      },
+      {
+        "start": 1512.3,
+        "duration": 6.0,
+        "text": "But I'll run through a quick rough sketch. Right out the full polynomial, the defines e to the"
+      },
+      {
+        "start": 1518.3,
+        "duration": 3.7,
+        "text": "mt and multiply by some initial condition vector on the right."
+      },
+      {
+        "start": 1526.7,
+        "duration": 5.2,
+        "text": "And then take the derivative of this with respect to t. Because the matrix m is a constant,"
+      },
+      {
+        "start": 1531.9,
+        "duration": 2.6,
+        "text": "this just means applying the power rule to each one of the terms."
+      },
+      {
+        "start": 1543.5,
+        "duration": 3.4,
+        "text": "And that power rule really nicely cancels out with the factorial terms."
+      },
+      {
+        "start": 1548.5,
+        "duration": 9.5,
+        "text": "So what we're left with is an expression that looks almost identical to what we had before,"
+      },
+      {
+        "start": 1558.0,
+        "duration": 4.8,
+        "text": "except that each term has an extra m hanging onto it. But this can be factored out to the left."
+      },
+      {
+        "start": 1563.5,
+        "duration": 6.2,
+        "text": "So the derivative of the expression is m times the original expression, and hence it solves the"
+      },
+      {
+        "start": 1569.8,
+        "duration": 5.5,
+        "text": "equation. This actually sweeps under the rug some details required for bigger, mostly centered"
+      },
+      {
+        "start": 1575.4,
+        "duration": 4.4,
+        "text": "around the question of whether or not this thing actually converges, but it does give the main idea."
+      },
+      {
+        "start": 1580.9,
+        "duration": 4.2,
+        "text": "In the next chapter, I would like to talk more about the properties that this operation has,"
+      },
+      {
+        "start": 1585.1,
+        "duration": 4.6,
+        "text": "most notably its relationship with eigenvectors and eigenvalues, which leads us to more"
+      },
+      {
+        "start": 1589.7,
+        "duration": 4.6,
+        "text": "concrete ways of thinking about how you actually carry out this computation, which otherwise seems"
+      },
+      {
+        "start": 1594.2,
+        "duration": 5.2,
+        "text": "insane. Also, time permitting, it might be fun to talk about what it means to raise e to the"
+      },
+      {
+        "start": 1599.4,
+        "duration": 1.6,
+        "text": "power of the derivative operator."
+      }
+    ],
+    "full_text": "Let me pull out an all differential equations textbook that I learned from in college. And let's turn to this funny little exercise in here that asks the reader to compute e to the power a t, where a, we're told, is going to be a matrix. And the insinuation seems to be that the results will also be a matrix. It then offers several examples for what you might plug in for a. Now, taking out a context, putting a matrix into an exponent like this probably seems like total nonsense. But what it refers to is an extremely beautiful operation. And the reason it shows up in this book is that it's useful. It's used to solve a very important class of differential equations. In turn, given that the universe is often written in the language of differential equations, you see this pop up in physics all the time too, especially in quantum mechanics where matrix exponents are later throughout the place. They play a particularly prominent role. This has a lot to do with throwdinger's equations, which we'll touch on a bit later. And it may also help in understanding your romantic relationships. But again, all in due time. A big part of the reason I want to cover this topic is that there is an extremely nice way to visualize what matrix exponents are actually doing using flow that not a lot of people seem to talk about. But for the bulk of this chapter, let's start by laying out what exactly the operation is and see if we can get a feel for what kinds of problems it helps us to solve. The first thing you should know is that this is not some bizarre way to multiply the constant e by itself multiple times. You would be right to call that nonsense. The actual definition is related to a certain infinite polynomial for describing real number powers at e, what we call its Taylor series. For example, if I took the number two and plugged it into this polynomial, then as you add more and more terms, each of which looks like some power of two divided by some factorial. The sum approaches a number near 7.389, and this number is precisely e times e. If you increment this input by one, then somewhat miraculously, no matter where you started from, the effect on the output is always to multiply it by another factor of e. For reasons that you're going to see in a bit, mathematicians became interested in plugging all kinds of things into this polynomial, things like complex numbers, and for our purposes today, matrices. Even when those objects do not immediately make sense as exponents. What some authors do is give this infinite polynomial the name X when you plug in more exotic inputs. It's a gentle nod to the connection that this has to exponential functions in the case of real numbers, even though obviously these inputs don't make sense as exponents. However, an equally common convention is to give a much less gentle nod to the connection and just abbreviate the whole thing as e to the power of whatever object you're plugging in, whether that's a complex number or a matrix, or all sorts of more exotic objects. So while this equation is a theorem for real numbers, it's a definition for more exotic inputs. Seneca, you could call this a blatant abuse of notation. More charitably, you might view it as an example of the beautiful cycle between discovery and invention in math. In either case, plugging in a matrix even to a polynomial might seem a little strange, so let's be clearer on what we mean here. The matrix has to have the same number of rows and columns, that way you can multiply it by itself according to the usual rules of matrix multiplication. This is what we mean by squaring it. Similarly, if you were to take that result and then multiply it by the original matrix again, this is what we mean by cubing the matrix. If you carry on like this, you can take any whole number power of a matrix, it's perfectly sensible. In this context, powers still mean exactly what you would expect, repeated multiplication. Each term in this polynomial is scaled by one divided by some factorial, and with matrices, all that means is that you multiply each component by that number. Likewise, it always makes sense to add together two matrices. This is something that you again do term by term. The astute among you might ask how sensible it is to take this out to infinity, which would be a great question, one that I'm largely going to postpone the answer to, but I can show you one pretty fun example here now. Take this two by two matrix that has negative pi and pi sitting off its diagonal entries. Let's see what the sum gives. The first term is the identity matrix. This is actually what we mean by definition when we raise a matrix to the zero of power. Then we add the matrix itself, which gives us the pi off the diagonal terms, and then add half of the matrix squared, and continuing on, I'll have the computer keep adding more and more terms, each of which requires taking one more matrix product to get the new power, and then adding it to a running tally. And as it keeps going, it seems to be approaching a stable value, which is around negative one times the identity matrix. In this sense, we say the infinite sum equals that negative identity. By the end of this video, my hope is that this particular fact comes to make total sense to you. For any of you familiar with Euler's famous identity, this is essentially the matrix version of that. It turns out that in general, no matter what matrix you start with, as you add more and more terms, you eventually approach some stable value, though sometimes it can take quite a while before you get there. Just seeing the definition like this in isolation raises all kinds of questions. Most notably, why would mathematicians and physicists be interested in torturing their poor matrices this way? What problems are they trying to solve? And if you're anything like me, a new operation is only satisfying when you have a clear view of what it's trying to do, some sense of how to predict the output based on the input before you actually crunch the numbers. How on earth could you have predicted that the matrix with pi off the diagonals results in a negative identity matrix like this? Often in math, you should view the definition not as a starting point, but as a target. Contrary to the structure of textbooks, mathematicians do not start by making definitions and then listing a lot of theorems and proving them and then showing some examples. The process of discovering math typically goes the other way around. They start by chewing on specific problems, and then generalizing those problems, then coming up with constructs that might be helpful in those general cases. And only then do you write down a new definition, or extend an old one. As to what sorts of specific examples might motivate matrix exponents, two come to mind, one involving relationships and the other quantum mechanics. Let's start with relationships. Suppose we have two lovers, let's call them Romeo and Juliet, and let's let X represent Juliet's love for Romeo. And Y represent his love for her, both of which are going to be values that change with time. This is an example that we actually touched on in chapter 1, it's based on a Stephen Strogatz article, but it's okay if you didn't see that. The way their relationship works is that the rate at which Juliet's love for Romeo changes, the derivative of this value, is equal to negative 1 times Romeo's love for her. So in other words, when Romeo is expressing cool, disinterest, that's when Juliet's feelings actually increase, whereas if he becomes too infatuated, her interest will start to fade. Romeo, on the other hand, is the opposite. The rate of change of his love is equal to the size of Juliet's love. So while Juliet has mad at him, his affections tend to decrease. Where as if she loves him, that's when his feelings grow. Of course, neither one of these numbers is holding still. As Romeo's love increases in response to Juliet, her equation continues to apply and drives her love down. Both of these equations always apply, from each infinitesimal point in time to the next, so every slight change to one value immediately influences the rate of change of the other. This is a system of differential equations. It's a puzzle, where your challenge is to find explicit functions for x of t and y of t that make both of these expressions true. Now, as systems of differential equations go, this one is on the simpler side, enough so that many calculus students could probably just guess at an answer. But keep in mind, it's not enough to find some pair of functions that makes this true. If you want to actually predict where Romeo and Juliet end up after some starting point, you have to make sure that your functions match the initial set of conditions at time t equal zero. More to the point, our actual goal today is to systematically solve more general versions of this equation, without guessing and checking. And it's that question that leads us to matrix exponents. Very often, when you have multiple changing values like this, it's helpful to package them together as coordinates of a single point in a higher dimensional space. So for Romeo and Juliet, think of their relationship as a point in a 2D space, the x-coordinate capturing Juliet's feelings, and the y-coordinate capturing Romeo's. Sometimes it's helpful to picture this state as an arrow from the origin, other times just as a point. All that really matters is that it encodes two numbers, and moving forward, we'll be writing that as a column vector. And of course, this is all a function of time. You might picture the rate of change of this state, the thing that packages together the derivative of x and the derivative of y as a kind of velocity vector in this state space, something that tugs at our point in some direction, and with some magnitude that indicates how quickly it's changing. Remember, the rule here is that the rate of change of x is negative y, and the rate of change of y is x. Set up as vectors like this, we could rewrite the right hand side of this equation as a product of this matrix with the original vector, xy, the top row encodes Juliet's rule, and the bottom row encodes Romeo's rule. So what we have here is a differential equation telling us that the rate of change of some vector is equal to a certain matrix times itself. In a moment, we'll talk about how matrix exponentiation solves this kind of equation. But before that, let me show you a simpler way that we can solve this particular system, one that uses pure geometry, and it helps set the stage for visualizing matrix exponents a bit later. This matrix from our system is a 90 degree rotation matrix. For any of you rusty on how to think about matrices as transformations, there's a video all about it on this channel, a series really. The basic idea is that when you multiply a matrix by the vector 1 0, it pulls out the first column. And similarly, if you multiply it by 0 1, that pulls out the second column. What this means is that when you look at a matrix, you can read its columns as telling you what it does to these two vectors, known as the basis vectors. The way it acts on any other vector is the result of scaling and adding these two basis results by that vector's coordinates. So looking back at the matrix from our system, notice how from its columns, we can tell it takes the first basis vector to 0 1, and the second to negative 1 0. Hence, why I'm calling it the 90 degree rotation matrix. What it means for our equation is that it's saying wherever Romeo and Juliet are in this state space, the rate of change has to look like a 90 degree rotation of this position vector. The only way velocity can permanently be perpendicular to position like this is when you rotate around the origin in circular motion, never growing or shrinking because the rate of change has no component in the direction of the position. More specifically, since the length of this velocity vector equals the length of the position vector, then for each unit of time, the distance that this covers is equal to 1 radius's worth of arc length along that circle. In other words, it rotates at one radian per unit time, so in particular, it would take two pi units of time to make a full revolution. If you want to describe this kind of rotation with a formula, we can use a more general rotation matrix, which looks like this. Again, we can read it in terms of the columns. Notice how the first column tells us that it takes that first basis vector to cosine of t sine of t. And the second column tells us that it takes the second basis vector to negative sine of t cosine of t, both of which are consistent with rotating by t radians. So, to solve the system, if you want to predict where Romeo and Juliet end up after t units of time, you can multiply this matrix by their initial state. The active viewers among you might also enjoy taking a moment to pause and confirm that the explicit formulas you get out of this for x of t and y of t really do satisfy the system of differential equations that we started with. The mathematician and you might wonder if it's possible to solve not just this specific system, but equations like it for any other matrix, no matter what it's coefficients. To ask this question, is to set yourself up to rediscover matrix exponents? The main goal for today is for you to understand how this equation lets you intuitively picture the operation which we write as e raised to a matrix. And on the flip side, how being able to compute matrix exponents lets you explicitly solve this equation. A much less whimsical example is Schrodinger's famous equation, which is the fundamental equation describing how systems in quantum mechanics change over time. It looks pretty intimidating, and I mean it's quantum mechanics, so of course it will, but it's actually not that different from the Romeo Giulia setup. This symbol here refers to a certain vector. It's a vector that packages together all the information you might care about in a system, like the various particles positions and momenta. It's analogous to our simpler 2D vector that encoded all the information about Romeo and Juliet. The equation says that the rate at which this state vector changes looks like a certain matrix times itself. There are a number of things that makes Schrodinger's equation notably more complicated, but in the back of your mind you might think of it as a target point that you and I can build up to, with simpler examples like Romeo and Juliet offering more friendly stepping stones along the way. Actually, the simplest example which is tied to ordinary real number powers of e is the one dimensional case. This is when you have a single changing value, and its rate of change equals some constant times itself, so the bigger the value, the faster it grows. Most people are more comfortable visualizing this with a graph, where the higher the value of the graph, the steeper its slope, resulting in this ever-steepening upward curve. Just keep in mind that when we get to higher dimensional variants, graphs are a lot less helpful. This is a highly important equation in its own right. It's a very powerful concept when the rate of change of a value is proportional to the value itself. This is the equation governing things like compound interest, or the early stages of population growth before the effects of limited resources kick in, or the early stages of an epidemic while most of the population is susceptible. Calculus students all learn about how the derivative of e to the rt is r times itself. In other words, this self-reinforcing growth phenomenon is the same thing as exponential growth, and e to the rt solves this equation. Actually, a better way to think about it is that there are many different solutions to this equation, one for each initial condition, something like an initial investment size or an initial population, which we'll just call x0. Notice, by the way, how the higher the value for x0, the higher the initial slope of the resulting solution, which should make a complete sense given in the equation. The function e to the rt is just a solution when the initial condition is 1, but if you multiply by any other initial condition, you get a new function which still satisfies this property, it still has a derivative which is r times itself. But this time it starts at x0, since e to the 0 is 1. This is worth highlighting before we generalize to more dimensions. Do not think of the exponential part as being a solution in and of itself. Think of it as something that acts on an initial condition in order to give a solution. You see, up in the two-dimensional case, when we have a changing vector whose rate of change is constrained to be some matrix times itself, what the solution looks like is also an exponential term acting on a given initial condition, but the exponential part in that case will produce a matrix that changes with time, and the initial condition is a vector. In fact, you should think of the definition of matrix exponentiation as being heavily motivated by making sure that this fact is true. For example, if we look back at the system that popped up with Romeo and Juliet, the claim now is that solutions look like e raised to this 0-1-1-0 matrix all times time, multiplied by some initial condition. But we've already seen the solution in this case, we know it looks like a rotation matrix times the initial condition. So let's take a moment to roll up our sleeves and compute the exponential term using the definition that I mentioned at the start and see if it lines up. Remember, writing e to the power of a matrix is a shorthand, a shorthand for plugging it in to this long infinite polynomial, the Taylor series for e to the x. I know it might seem pretty complicated to do this, but trust me, it's very satisfying how this particular one turns out. If you actually sit down and you compute successive powers of this matrix, what you'd notice is that they fall into a cycling pattern every four iterations. This should make sense given that we know it's a 90-degree rotation matrix. So when you add together all infinitely many matrices, term by term, each term in the result looks like a polynomial in T with some nice cycling pattern in its coefficients, all of them scaled by the relevant factorial term. Those of you who are savvy with Taylor series might be able to recognize that each one of these components is the Taylor series for either sine or cosine, though in that top right corner's case it's actually negative sine. So what we get from the computation is exactly the rotation matrix we had from before. To me, this is extremely beautiful. We have two completely different ways of reasoning about the same system and they give us the same answer. I mean, it's reassuring that they do, but it is wild just how different the mode of thought is when you're chugging through this polynomial versus when you're geometrically reasoning about what a velocity perpendicular to a position must imply. Hopefully, the fact that these line up inspires a little confidence in the claim that matrix exponents really do solve systems like this. This explains the computation we saw at the start, by the way, with the matrix that had negative pi and pi off the diagonals, producing the negative identity. This expression is expointiating a 90-degree rotation matrix times pi, which is another way to describe what the Romeo Juliet setup does after pi units of time. As we now know, that has the effect of rotating everything 180 degrees in this state space, which is the same as multiplying by negative 1. Also, for any of you familiar with imaginary number exponents, this particular example is probably ringing a ton of bells. It is 100% analogous. In fact, we could have framed the entire example where Romeo and Juliet's feelings were packaged into a complex number, and the rate of change of that complex number would have been i times itself, since multiplication by i also acts like a 90-degree rotation. The same exact line of reasoning, both analytic and geometric, would have led to this whole idea that e to the power it describes rotation. These are actually two of many different examples throughout math and physics, when you find yourself expointiating some object which acts as a 90-degree rotation times time. It shows up with quaternions or many of the matrices that pop up in quantum mechanics. In all of these cases, we have this really neat general idea that if you take some operation that rotates 90 degrees in some plane, often it's a plane in some high-dimensional space that we can't visualize, then what we get by expointiating that operation times time, is something that generates all other rotations in that same plane. One of the more complicated variations on this same theme is trottingers equation. It's not just that this has the derivative of a state equal some matrix times that state form. The nature of the relevant matrix here is such that the equation also describes a kind of rotation. Though in many applications of trottingers equation, it'll be a rotation in a kind of function space. It's a little more involved though because typically there's a combination of many different rotations. It takes time to really dig into this equation and I would love to do that in a later chapter. But right now, I cannot help but at least allude to the fact that this imaginary unit i that sits so impishly in such a fundamental equation for all of the universe is playing basically the same role as the matrix from Arromio Julia example. What this i communicates is that the rate of change of a certain state is, in a sense, perpendicular to that state, and hence that the way things have to evolve over time will involve a kind of oscillation. But matrix exponentiation can do so much more than just rotation. You can always visualize these sorts of differential equations using a vector field. The idea is that this equation tells us the velocity of a state is entirely determined by its position. So what we do is go to every point in the space and draw a little vector indicating what the velocity of a state must be if it passes through that point. For our type of equation, this means that we go to each point v in space and we attach the vector m times v. To intuitively understand how any given initial condition will evolve, you let it flow along this field with a velocity always matching whatever vector it's sitting on at any given point in time. So if the claim is that solutions to this equation look like e to the mt time some initial condition, it means you can visualize what the matrix e to the mt does by letting every possible initial condition flow along this field for t units of time. The transition from start to finish is described by whatever matrix pops out from the computation for e to the mt. In our main example with the 90 degree rotation matrix, the vector field looks like this. And as we saw, e to the mt describes rotation in that case, which lines up with flow along this field. As another example, the more Shakespearean Romeo and Juliet might have equations that look a little more like this, where Juliet's rule is symmetric with Romeo's and both of them are inclined to get carried away in response to one another's feelings. Again, the way the vector field you're looking at has been defined is to go to each point v in space and attach the vector m times v. This is the pictorial way of saying that the rate of change of a state must always equal m times itself. But for this example, flow along the field looks a lot different from how it did before. If Romeo and Juliet start off anywhere in this upper right half of the plane, their feelings will feed off of each other and they both tend towards infinity. If they're in the other half of the plane, well let's just say that they stay more true to their capulet and Montague family traditions. So even before you try calculating the exponential of this particular matrix, you can already have an intuitive sense for what the answer should look like. The resulting matrix should describe the transition from time zero to time t, which if you look at the field seems to indicate that it will squish along one diagonal while stretching along another, getting more extreme as t gets larger. Of course, all of this is presuming that e to the mt times an initial condition actually solves these systems. This is one of those facts that's easiest to believe when you just work it out yourself. But I'll run through a quick rough sketch. Right out the full polynomial, the defines e to the mt and multiply by some initial condition vector on the right. And then take the derivative of this with respect to t. Because the matrix m is a constant, this just means applying the power rule to each one of the terms. And that power rule really nicely cancels out with the factorial terms. So what we're left with is an expression that looks almost identical to what we had before, except that each term has an extra m hanging onto it. But this can be factored out to the left. So the derivative of the expression is m times the original expression, and hence it solves the equation. This actually sweeps under the rug some details required for bigger, mostly centered around the question of whether or not this thing actually converges, but it does give the main idea. In the next chapter, I would like to talk more about the properties that this operation has, most notably its relationship with eigenvectors and eigenvalues, which leads us to more concrete ways of thinking about how you actually carry out this computation, which otherwise seems insane. Also, time permitting, it might be fun to talk about what it means to raise e to the power of the derivative operator."
+  }
+}

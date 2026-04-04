@@ -1,0 +1,2279 @@
+{
+  "video_id": "KTzGBJPuJwM",
+  "video_title": "But why would light \"slow down\"? | Visualizing Feynman's lecture on the refractive index",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1714.0,
+  "view_count": 2734722,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.7,
+        "text": "I realized recently that I didn't really understand how a prism works."
+      },
+      {
+        "start": 3.7,
+        "duration": 4.6,
+        "text": "The standard explanation, what you might hear in a high school physics class, for example,"
+      },
+      {
+        "start": 8.3,
+        "duration": 2.1,
+        "text": "goes something like this."
+      },
+      {
+        "start": 10.4,
+        "duration": 3.9,
+        "text": "When light enters a medium, like glass, it slows down."
+      },
+      {
+        "start": 14.3,
+        "duration": 4.0,
+        "text": "In the sense that if you look at the crests of the wave, in a vacuum, those crests are"
+      },
+      {
+        "start": 18.3,
+        "duration": 2.5,
+        "text": "traveling at C, the speed of light."
+      },
+      {
+        "start": 20.8,
+        "duration": 4.0,
+        "text": "But inside the glass, those crests will be traveling a little bit slower."
+      },
+      {
+        "start": 24.8,
+        "duration": 4.4,
+        "text": "And the specific ratio between the speed of light and a vacuum and the speed inside a"
+      },
+      {
+        "start": 29.1,
+        "duration": 5.0,
+        "text": "medium like this is called the index of refraction for that medium."
+      },
+      {
+        "start": 34.2,
+        "duration": 4.5,
+        "text": "The reason we use the word refraction, instead of, say, the index of slowing, is that if"
+      },
+      {
+        "start": 38.7,
+        "duration": 5.4,
+        "text": "a beam of light enters this glass at an angle, then a consequence of this slowdown is that"
+      },
+      {
+        "start": 44.0,
+        "duration": 4.7,
+        "text": "it bends a little bit, or using the lingo it refracts."
+      },
+      {
+        "start": 48.7,
+        "duration": 4.0,
+        "text": "And the way my high school physics teacher always explained this was to imagine a tank"
+      },
+      {
+        "start": 52.7,
+        "duration": 4.0,
+        "text": "going from some region where it can travel relatively quickly, like concrete, into something"
+      },
+      {
+        "start": 56.7,
+        "duration": 1.8,
+        "text": "slower, like mud."
+      },
+      {
+        "start": 58.5,
+        "duration": 4.4,
+        "text": "Where if it's coming in at an angle, then as one of its treads hits the slow region"
+      },
+      {
+        "start": 63.0,
+        "duration": 4.2,
+        "text": "first, that tread will be going slower while the other one is faster, causing the whole"
+      },
+      {
+        "start": 67.2,
+        "duration": 5.1,
+        "text": "tank to steer a little bit, until that second tread also enters the mud, then it continues"
+      },
+      {
+        "start": 72.3,
+        "duration": 2.6,
+        "text": "straight just traveling a little slower."
+      },
+      {
+        "start": 74.9,
+        "duration": 3.8,
+        "text": "We'll get back to the actual reason for bending in a bit, but at this point, the high school"
+      },
+      {
+        "start": 78.7,
+        "duration": 5.0,
+        "text": "physics students typically learn a law, known as SNELS LA, which specifies exactly how"
+      },
+      {
+        "start": 83.7,
+        "duration": 1.7,
+        "text": "much things bend."
+      },
+      {
+        "start": 85.4,
+        "duration": 4.2,
+        "text": "If you draw a line perpendicular to the boundary between the glass and water, and consider"
+      },
+      {
+        "start": 89.6,
+        "duration": 4.9,
+        "text": "the angle between that perpendicular line and the beam of light, then SNELS LA tells us"
+      },
+      {
+        "start": 94.5,
+        "duration": 5.4,
+        "text": "that the sine of this angle, divided by the speed of the light, is always a constant."
+      },
+      {
+        "start": 99.9,
+        "duration": 4.3,
+        "text": "So the slower the light, the lower that angle will be, and that lets you actually calculate"
+      },
+      {
+        "start": 104.2,
+        "duration": 2.1,
+        "text": "how much things refract."
+      },
+      {
+        "start": 106.3,
+        "duration": 4.9,
+        "text": "What's going on with the prism, then, is that the specific amount that light slows down"
+      },
+      {
+        "start": 111.2,
+        "duration": 2.8,
+        "text": "depends a little bit on its frequency."
+      },
+      {
+        "start": 114.0,
+        "duration": 4.6,
+        "text": "For example, blue light, which has a relatively high frequency, would get slowed down more"
+      },
+      {
+        "start": 118.6,
+        "duration": 4.4,
+        "text": "aggressively than red light, which has a relatively low frequency."
+      },
+      {
+        "start": 123.0,
+        "duration": 3.9,
+        "text": "Now most of the light that you see is not a clean pure sine wave, in particular the"
+      },
+      {
+        "start": 126.9,
+        "duration": 4.7,
+        "text": "white light coming from the sun is not a clean sine wave, it's something much messier,"
+      },
+      {
+        "start": 131.6,
+        "duration": 4.4,
+        "text": "but it can be expressed as a sum of a bunch of clean sine waves, each one corresponding"
+      },
+      {
+        "start": 136.0,
+        "duration": 2.4,
+        "text": "to a pure spectral color."
+      },
+      {
+        "start": 138.4,
+        "duration": 3.7,
+        "text": "So when you shine white light into a prism like this, all those different components"
+      },
+      {
+        "start": 142.1,
+        "duration": 4.8,
+        "text": "get refracted by slightly different amounts, causing this iconic separation of the pure"
+      },
+      {
+        "start": 146.9,
+        "duration": 1.7,
+        "text": "rainbow colors."
+      },
+      {
+        "start": 148.6,
+        "duration": 4.6,
+        "text": "So that is the standard explanation, and it's not wrong, per se, it's just that all"
+      },
+      {
+        "start": 153.2,
+        "duration": 5.0,
+        "text": "of the key components are handed down from on high, like why would light slow down like"
+      },
+      {
+        "start": 158.2,
+        "duration": 1.0,
+        "text": "this?"
+      },
+      {
+        "start": 159.2,
+        "duration": 2.5,
+        "text": "And what exactly do we mean by slowing down?"
+      },
+      {
+        "start": 161.7,
+        "duration": 4.0,
+        "text": "And even if you understand that, why would the amount that it slows down have anything"
+      },
+      {
+        "start": 165.7,
+        "duration": 1.5,
+        "text": "to do with the color of the light?"
+      },
+      {
+        "start": 167.2,
+        "duration": 2.6,
+        "text": "Is that just a coincidence or is it necessary?"
+      },
+      {
+        "start": 169.8,
+        "duration": 3.8,
+        "text": "If you have a sufficiently high standard for explanations, you want both of these facts"
+      },
+      {
+        "start": 173.7,
+        "duration": 4.2,
+        "text": "to feel discovered, rather than feeling like they were handed down."
+      },
+      {
+        "start": 177.9,
+        "duration": 3.8,
+        "text": "The first explanation I saw that started to give this feeling came from the Feynman lectures"
+      },
+      {
+        "start": 181.7,
+        "duration": 4.2,
+        "text": "on the matter, and a lot of what I'd like to do with this video is simply animate a lot"
+      },
+      {
+        "start": 186.0,
+        "duration": 2.2,
+        "text": "of the key points that he makes there."
+      },
+      {
+        "start": 188.2,
+        "duration": 4.9,
+        "text": "It involves really digging in to think about each individual wiggling charge in the material,"
+      },
+      {
+        "start": 193.1,
+        "duration": 4.1,
+        "text": "and the propagating light waves caused by each one of those charges, and how all of them"
+      },
+      {
+        "start": 197.2,
+        "duration": 2.2,
+        "text": "superimpose on top of each other."
+      },
+      {
+        "start": 199.4,
+        "duration": 3.8,
+        "text": "Which feels like it should be a complete mess, but it actually works out to be not only"
+      },
+      {
+        "start": 203.2,
+        "duration": 3.7,
+        "text": "understandable, but satisfyingly explanatory."
+      },
+      {
+        "start": 207.0,
+        "duration": 4.3,
+        "text": "For example, it explains why it has to depend on color, and the key intuition there really"
+      },
+      {
+        "start": 211.3,
+        "duration": 4.3,
+        "text": "comes down to what happens if you're bad at pushing a child on a swing."
+      },
+      {
+        "start": 215.6,
+        "duration": 2.4,
+        "text": "Bear with me, I promise that'll make sense later."
+      },
+      {
+        "start": 218.0,
+        "duration": 4.6,
+        "text": "Also, when I mentioned on Patreon the intention to cover this topic, a lot of people had a"
+      },
+      {
+        "start": 222.6,
+        "duration": 2.8,
+        "text": "lot of questions about the index of refraction."
+      },
+      {
+        "start": 225.4,
+        "duration": 3.8,
+        "text": "For example, numerous people asked about how it's possible for this number to be lower"
+      },
+      {
+        "start": 229.2,
+        "duration": 5.4,
+        "text": "than one, which really does happen, despite that seeming to imply the impossibility of"
+      },
+      {
+        "start": 234.6,
+        "duration": 2.8,
+        "text": "something traveling faster than the speed of light."
+      },
+      {
+        "start": 237.4,
+        "duration": 4.1,
+        "text": "There was also a question about bi-referringence, which is where a material can have two different"
+      },
+      {
+        "start": 241.5,
+        "duration": 3.9,
+        "text": "indices of refraction, causing you to see double when you look through it."
+      },
+      {
+        "start": 245.4,
+        "duration": 3.4,
+        "text": "And that actually ties in really nicely to putting in the final puzzle piece from the"
+      },
+      {
+        "start": 248.8,
+        "duration": 3.8,
+        "text": "last two videos about the barber pole phenomenon."
+      },
+      {
+        "start": 252.6,
+        "duration": 4.9,
+        "text": "But a couple people also asked about why light slowing down would imply a bending like"
+      },
+      {
+        "start": 257.5,
+        "duration": 4.2,
+        "text": "this, and I agree that deserves a better explanation than the Tink analogy."
+      },
+      {
+        "start": 261.8,
+        "duration": 4.0,
+        "text": "I promise we will get to all of these questions later, but it makes sense to first lay down"
+      },
+      {
+        "start": 265.8,
+        "duration": 5.1,
+        "text": "some groundwork by spending the bulk of our time on the key question of why passing through"
+      },
+      {
+        "start": 270.9,
+        "duration": 3.7,
+        "text": "a medium would change the speed of a light wave at all."
+      },
+      {
+        "start": 274.6,
+        "duration": 4.3,
+        "text": "And for this, I want you to think of your material, like glass, as being broken up into"
+      },
+      {
+        "start": 278.9,
+        "duration": 5.2,
+        "text": "a bunch of distinct layers, all perpendicular to the direction the light is traveling."
+      },
+      {
+        "start": 284.1,
+        "duration": 4.0,
+        "text": "And we'll start by focusing our attention on the effect of just one of those layers on"
+      },
+      {
+        "start": 288.1,
+        "duration": 1.3,
+        "text": "the light wave."
+      },
+      {
+        "start": 289.4,
+        "duration": 3.8,
+        "text": "The true effect would be minuscule, but if you'll let me exaggerate it for a moment,"
+      },
+      {
+        "start": 293.2,
+        "duration": 4.2,
+        "text": "what it does is kick back the phase of the wave."
+      },
+      {
+        "start": 297.4,
+        "duration": 3.1,
+        "text": "And maybe it's worth a brief aside to make sure we're all on the same page when it comes"
+      },
+      {
+        "start": 300.6,
+        "duration": 1.5,
+        "text": "to wave terminology."
+      },
+      {
+        "start": 302.0,
+        "duration": 4.3,
+        "text": "If you go and graph the function sine of x, when you put some term in front of it, affecting"
+      },
+      {
+        "start": 306.3,
+        "duration": 3.9,
+        "text": "how high that wave oscillates up and down, that's what we call the amplitude."
+      },
+      {
+        "start": 310.2,
+        "duration": 4.7,
+        "text": "When you put a term in front of x, this will affect how rapidly it oscillates."
+      },
+      {
+        "start": 315.0,
+        "duration": 4.9,
+        "text": "If this is meant to describe a wave over time, that term would be called the angular frequency,"
+      },
+      {
+        "start": 319.8,
+        "duration": 4.0,
+        "text": "whereas if it's meant to describe a wave over space, that constant would be called the"
+      },
+      {
+        "start": 323.8,
+        "duration": 1.1,
+        "text": "wave number."
+      },
+      {
+        "start": 325.0,
+        "duration": 4.2,
+        "text": "Then if you were to add some other constant inside that sine function, and notice how as"
+      },
+      {
+        "start": 329.2,
+        "duration": 4.6,
+        "text": "you change what that constant is, it sort of slides the wave left and right, that term"
+      },
+      {
+        "start": 333.8,
+        "duration": 2.8,
+        "text": "describes the phase of the wave."
+      },
+      {
+        "start": 336.6,
+        "duration": 4.1,
+        "text": "So when I say that our light wave hitting a layer of glass causes its phase to get kicked"
+      },
+      {
+        "start": 340.7,
+        "duration": 4.2,
+        "text": "back, I mean if you take whatever function describes it before it hits the glass, then"
+      },
+      {
+        "start": 344.9,
+        "duration": 4.2,
+        "text": "the function describing it after that looks almost the same, just with a little extra"
+      },
+      {
+        "start": 349.1,
+        "duration": 3.2,
+        "text": "something added to the input of that sine function."
+      },
+      {
+        "start": 352.3,
+        "duration": 4.6,
+        "text": "Like I said, in reality that'll be a very small number, something proportional to the infinitesimal"
+      },
+      {
+        "start": 356.9,
+        "duration": 4.1,
+        "text": "thickness of that layer, but I'll keep drawing it as something exaggerated and keep track"
+      },
+      {
+        "start": 361.0,
+        "duration": 3.8,
+        "text": "of the value of that phase kick over here on the left."
+      },
+      {
+        "start": 364.8,
+        "duration": 4.0,
+        "text": "Let's say you go and add a bunch of other layers of the glass, each one also applying their"
+      },
+      {
+        "start": 368.8,
+        "duration": 4.4,
+        "text": "own kick back to the phase of the wave, the question for you is what does that new wave"
+      },
+      {
+        "start": 373.2,
+        "duration": 1.3,
+        "text": "look like?"
+      },
+      {
+        "start": 374.5,
+        "duration": 4.0,
+        "text": "If the value of that phase kick applied by each layer is something really close to zero,"
+      },
+      {
+        "start": 378.5,
+        "duration": 2.2,
+        "text": "then the wave is hardly affected at all."
+      },
+      {
+        "start": 380.7,
+        "duration": 4.1,
+        "text": "But the larger that phase kick, the more the wave kind of gets squished together among"
+      },
+      {
+        "start": 384.8,
+        "duration": 2.0,
+        "text": "all those layers."
+      },
+      {
+        "start": 386.8,
+        "duration": 4.5,
+        "text": "Admittedly right here it looks all kaleidoscopic and weird, but that's really just because"
+      },
+      {
+        "start": 391.3,
+        "duration": 4.7,
+        "text": "I have a discrete set of layers each applying an unrealistically large kick."
+      },
+      {
+        "start": 396.0,
+        "duration": 4.6,
+        "text": "Notice what happens if I smooth it out by doubling the density of layers, but having each"
+      },
+      {
+        "start": 400.6,
+        "duration": 2.6,
+        "text": "one only apply half the phase kick."
+      },
+      {
+        "start": 403.3,
+        "duration": 4.2,
+        "text": "And then I do that again, I double the density of the layers, but have each one only apply"
+      },
+      {
+        "start": 407.4,
+        "duration": 2.3,
+        "text": "half the phase kick."
+      },
+      {
+        "start": 409.7,
+        "duration": 4.6,
+        "text": "As I continue this over and over, approaching a situation where you have a continuum of"
+      },
+      {
+        "start": 414.4,
+        "duration": 4.7,
+        "text": "glass, each layer applying just a tiny infinitesimal phase kick."
+      },
+      {
+        "start": 419.1,
+        "duration": 6.6,
+        "text": "What you end up with is identical to indistinguishable from a wave that's simply traveling slower,"
+      },
+      {
+        "start": 425.7,
+        "duration": 4.3,
+        "text": "oscillating up and down with the same frequency, but with a wavelength that's been kind of scrunched"
+      },
+      {
+        "start": 430.0,
+        "duration": 1.1,
+        "text": "up."
+      },
+      {
+        "start": 431.0,
+        "duration": 3.6,
+        "text": "This right here is the first key idea with the index of refraction."
+      },
+      {
+        "start": 434.7,
+        "duration": 4.8,
+        "text": "Instead of asking why does light slow down in glass, what we really need to ask is why"
+      },
+      {
+        "start": 439.6,
+        "duration": 5.3,
+        "text": "does its interaction with a single layer of that glass cause a kickback to the phase of"
+      },
+      {
+        "start": 444.8,
+        "duration": 1.4,
+        "text": "the wave?"
+      },
+      {
+        "start": 446.2,
+        "duration": 4.2,
+        "text": "And then when we want to get quantitative and understand exactly how much the light slows"
+      },
+      {
+        "start": 450.4,
+        "duration": 4.6,
+        "text": "down, which is critical for understanding why it depends on color, instead the real question"
+      },
+      {
+        "start": 455.0,
+        "duration": 4.2,
+        "text": "is how strong is that phase kick?"
+      },
+      {
+        "start": 459.2,
+        "duration": 4.0,
+        "text": "From here, it's helpful to turn back to the fundamentals of what light even is."
+      },
+      {
+        "start": 463.3,
+        "duration": 3.7,
+        "text": "This is something we talked a lot about in the last video, but a little review never hurts,"
+      },
+      {
+        "start": 467.0,
+        "duration": 2.0,
+        "text": "so let me go over the essentials."
+      },
+      {
+        "start": 469.0,
+        "duration": 4.1,
+        "text": "As many of you know, light is a wave in the electromagnetic field, but here we'll just"
+      },
+      {
+        "start": 473.1,
+        "duration": 2.2,
+        "text": "be drawing the electric field."
+      },
+      {
+        "start": 475.3,
+        "duration": 4.3,
+        "text": "The electric field associates each point in 3D space, with a little three-dimensional"
+      },
+      {
+        "start": 479.6,
+        "duration": 5.8,
+        "text": "vector telling you what force would be applied to a hypothetical unit charge sitting at"
+      },
+      {
+        "start": 485.4,
+        "duration": 2.8,
+        "text": "that point in space."
+      },
+      {
+        "start": 488.1,
+        "duration": 3.8,
+        "text": "The key thing going on with light is that if you have a charged particle and something"
+      },
+      {
+        "start": 491.9,
+        "duration": 4.9,
+        "text": "causes it to wiggle up and down, that results in these propagating ripples in the electric"
+      },
+      {
+        "start": 496.8,
+        "duration": 5.9,
+        "text": "field away from the charge, and that propagation is traveling at the speed c, the speed of"
+      },
+      {
+        "start": 502.7,
+        "duration": 1.2,
+        "text": "light."
+      },
+      {
+        "start": 503.9,
+        "duration": 3.6,
+        "text": "Whenever those ripples happen to reach another charged particle, they cause it to wiggle"
+      },
+      {
+        "start": 507.5,
+        "duration": 4.8,
+        "text": "up and down, albeit a little more weekly than the initial wiggle, and that in turn causes"
+      },
+      {
+        "start": 512.3,
+        "duration": 2.2,
+        "text": "its own propagations."
+      },
+      {
+        "start": 514.5,
+        "duration": 3.9,
+        "text": "The way we described this in the last video was that if at some point in time a charge"
+      },
+      {
+        "start": 518.4,
+        "duration": 5.5,
+        "text": "is accelerating, then after a little delay, which depends on the speed c, the existence"
+      },
+      {
+        "start": 523.9,
+        "duration": 4.7,
+        "text": "of that acceleration induces a force on another charge."
+      },
+      {
+        "start": 528.6,
+        "duration": 3.8,
+        "text": "We went over the specific force law describing this, it's something that can be derived"
+      },
+      {
+        "start": 532.4,
+        "duration": 3.8,
+        "text": "downstream of Maxwell's equations, but for r-pursus here, the main thing to tuck"
+      },
+      {
+        "start": 536.2,
+        "duration": 4.6,
+        "text": "away in your mind is that the amount of time it takes that initial acceleration to cause"
+      },
+      {
+        "start": 540.8,
+        "duration": 5.2,
+        "text": "any kind of influence elsewhere travels at exactly the speed c, and really you should"
+      },
+      {
+        "start": 546.0,
+        "duration": 5.2,
+        "text": "think of c not so much as the speed of light per se, but as the speed of causality."
+      },
+      {
+        "start": 551.2,
+        "duration": 4.4,
+        "text": "It determines how fast any kind of influence travels, it's just that one of multiple"
+      },
+      {
+        "start": 555.6,
+        "duration": 3.1,
+        "text": "consequences of that is that it's the speed of light."
+      },
+      {
+        "start": 558.6,
+        "duration": 5.2,
+        "text": "In particular, when you get a charge oscillating up and down in a nice clean sinusoidal motion,"
+      },
+      {
+        "start": 563.8,
+        "duration": 4.0,
+        "text": "you can think of these rippling effects in the electric field as describing the force"
+      },
+      {
+        "start": 567.8,
+        "duration": 6.6,
+        "text": "that would be applied to another charge sitting there as a result of that past acceleration."
+      },
+      {
+        "start": 574.4,
+        "duration": 3.6,
+        "text": "I will freely admit that I had a bit too much fun in that video just simulating how"
+      },
+      {
+        "start": 578.0,
+        "duration": 3.8,
+        "text": "the electric field responds to accelerating charges, and that I'm kind of doing the"
+      },
+      {
+        "start": 581.8,
+        "duration": 5.2,
+        "text": "same thing here, but there are two important facts for our pursuit of the index of refraction."
+      },
+      {
+        "start": 586.9,
+        "duration": 4.4,
+        "text": "The first is that when you have multiple different charges oscillating up and down, the net"
+      },
+      {
+        "start": 591.3,
+        "duration": 5.5,
+        "text": "effect on the electric field is just the sum of what it would be for each individual charge,"
+      },
+      {
+        "start": 596.8,
+        "duration": 1.8,
+        "text": "which is kind of what you would expect."
+      },
+      {
+        "start": 598.6,
+        "duration": 3.7,
+        "text": "And then the way that it shakes out is that if you have a row of charges oscillating"
+      },
+      {
+        "start": 602.4,
+        "duration": 5.4,
+        "text": "in sync with each other, or for our purposes today, a plane of charges all wiggling up"
+      },
+      {
+        "start": 607.7,
+        "duration": 5.5,
+        "text": "and down in sync within that plane, then the effects of each individual charge tend to"
+      },
+      {
+        "start": 613.2,
+        "duration": 5.2,
+        "text": "cancel each other out in most directions, except perpendicular to that plane, they actually"
+      },
+      {
+        "start": 618.4,
+        "duration": 1.8,
+        "text": "constructively interfere."
+      },
+      {
+        "start": 620.2,
+        "duration": 2.8,
+        "text": "This is how you can get a concentrated beam of light."
+      },
+      {
+        "start": 623.0,
+        "duration": 1.1,
+        "text": "That's the important thing."
+      },
+      {
+        "start": 624.2,
+        "duration": 4.4,
+        "text": "If you have a layer of charges wiggling up and down in sync with each other, then even"
+      },
+      {
+        "start": 628.6,
+        "duration": 4.8,
+        "text": "far away from that layer, it produces this nice sinusoidal wave in the electric field"
+      },
+      {
+        "start": 633.4,
+        "duration": 4.5,
+        "text": "that we're so fond of drawing to represent light."
+      },
+      {
+        "start": 637.8,
+        "duration": 4.0,
+        "text": "When I draw a light wave like this, it's really only depicting the electric field on a single"
+      },
+      {
+        "start": 641.8,
+        "duration": 5.0,
+        "text": "one-dimensional line, a more full picture of light in three dimensions would look something"
+      },
+      {
+        "start": 646.8,
+        "duration": 6.1,
+        "text": "more like this, that tends to be a little bit busier, so usually we just draw the sine wave."
+      },
+      {
+        "start": 652.9,
+        "duration": 5.5,
+        "text": "So thinking back to the question of why interactions with a layer of material would cause"
+      },
+      {
+        "start": 658.4,
+        "duration": 3.8,
+        "text": "a kickback to the phase of the wave, let's start thinking it through."
+      },
+      {
+        "start": 662.2,
+        "duration": 5.2,
+        "text": "When a light beam enters a material like glass, then it causes all of the charges inside"
+      },
+      {
+        "start": 667.4,
+        "duration": 5.2,
+        "text": "that material, you know, electrons or maybe the occasional ion to wiggle up and down in"
+      },
+      {
+        "start": 672.6,
+        "duration": 2.0,
+        "text": "response to that light wave."
+      },
+      {
+        "start": 674.5,
+        "duration": 3.9,
+        "text": "You might think that adding together all the propagations from all those charges is a complete"
+      },
+      {
+        "start": 678.4,
+        "duration": 4.6,
+        "text": "nightmare, but we can think about it one layer at a time."
+      },
+      {
+        "start": 683.0,
+        "duration": 4.6,
+        "text": "As the light wave causes this layer to wiggle up and down, that wiggling produces its own"
+      },
+      {
+        "start": 687.6,
+        "duration": 3.6,
+        "text": "second order light wave at the same frequency."
+      },
+      {
+        "start": 691.2,
+        "duration": 3.6,
+        "text": "And it propagates in both directions perpendicular to that layer."
+      },
+      {
+        "start": 694.8,
+        "duration": 4.9,
+        "text": "The overall electric field, then, looks like the initial incoming light wave added together"
+      },
+      {
+        "start": 699.7,
+        "duration": 2.9,
+        "text": "with the second order wave."
+      },
+      {
+        "start": 702.6,
+        "duration": 4.3,
+        "text": "By far the most distracting part of what's going on here is everything on the left, and"
+      },
+      {
+        "start": 707.0,
+        "duration": 3.2,
+        "text": "this actually corresponds to the light being reflected back."
+      },
+      {
+        "start": 710.2,
+        "duration": 3.8,
+        "text": "And from experience, you all know that when you look at water or you look at glass, light"
+      },
+      {
+        "start": 714.0,
+        "duration": 3.3,
+        "text": "not only goes through it, but some of it gets reflected back."
+      },
+      {
+        "start": 717.3,
+        "duration": 4.6,
+        "text": "And we could have a whole interesting discussion on quantifying exactly how much, but in the"
+      },
+      {
+        "start": 721.9,
+        "duration": 4.2,
+        "text": "spirit of staying focused, we will completely ignore that for today, and only focus on what's"
+      },
+      {
+        "start": 726.1,
+        "duration": 2.3,
+        "text": "happening to the right of that layer."
+      },
+      {
+        "start": 728.4,
+        "duration": 2.5,
+        "text": "You can probably predict what I'm going to say."
+      },
+      {
+        "start": 730.9,
+        "duration": 4.5,
+        "text": "It turns out that when you add that second order oscillation, the overall effect is almost"
+      },
+      {
+        "start": 735.4,
+        "duration": 4.8,
+        "text": "identical to the incoming light, but just shifted back in phase by a little bit."
+      },
+      {
+        "start": 740.3,
+        "duration": 4.5,
+        "text": "And then because many successive shifts to the phase like this are the same thing as"
+      },
+      {
+        "start": 744.8,
+        "duration": 4.8,
+        "text": "light slowing down, this will ultimately explain the index of refraction."
+      },
+      {
+        "start": 749.5,
+        "duration": 4.0,
+        "text": "But of course, the sufficiently curious viewers will now be raising their hands and asking,"
+      },
+      {
+        "start": 753.6,
+        "duration": 2.7,
+        "text": "why is that the effect when you add them together?"
+      },
+      {
+        "start": 756.3,
+        "duration": 4.8,
+        "text": "And so here it might be worth a little sidebar on how to think about adding two waves together."
+      },
+      {
+        "start": 761.1,
+        "duration": 4.5,
+        "text": "If you draw some sine wave with some particular amplitude, some specific frequency, and some"
+      },
+      {
+        "start": 765.6,
+        "duration": 5.0,
+        "text": "specific phase, and then you draw another sine wave, also with its own amplitude frequency"
+      },
+      {
+        "start": 770.6,
+        "duration": 4.6,
+        "text": "and phase, in general, it's very hard to think about what the sum of those two waves should"
+      },
+      {
+        "start": 775.2,
+        "duration": 7.4,
+        "text": "look like as you tweak those initial parameters."
+      },
+      {
+        "start": 782.6,
+        "duration": 4.4,
+        "text": "In the specific case where the frequencies are the same, which is true for our example,"
+      },
+      {
+        "start": 787.0,
+        "duration": 4.4,
+        "text": "the result will also look like a sine wave with that same frequency."
+      },
+      {
+        "start": 791.4,
+        "duration": 4.0,
+        "text": "But even then, it's a little tricky to think about exactly how to describe that wave."
+      },
+      {
+        "start": 795.4,
+        "duration": 5.1,
+        "text": "It has some amplitude and some phase, and if I ask you to concretely compute both of"
+      },
+      {
+        "start": 800.5,
+        "duration": 5.0,
+        "text": "those numbers based on the amplitudes and phases of the initial waves, it's not immediately"
+      },
+      {
+        "start": 805.5,
+        "duration": 4.8,
+        "text": "clear how you would do that without maybe throwing a bunch of trig identities at the problem."
+      },
+      {
+        "start": 810.3,
+        "duration": 2.2,
+        "text": "But here's a really nice way to think about it."
+      },
+      {
+        "start": 812.5,
+        "duration": 6.1,
+        "text": "Imagine that first wave describes the Y component of some rotating vector."
+      },
+      {
+        "start": 818.6,
+        "duration": 4.7,
+        "text": "The length of that vector corresponds with the amplitude of our wave, and then the initial"
+      },
+      {
+        "start": 823.3,
+        "duration": 4.4,
+        "text": "rotation of that vector corresponds with the phase of our wave."
+      },
+      {
+        "start": 827.7,
+        "duration": 4.3,
+        "text": "And then similarly think of that second wave as describing the Y component of another"
+      },
+      {
+        "start": 832.0,
+        "duration": 4.9,
+        "text": "rotating vector, where again the amplitude corresponds with the length of that vector,"
+      },
+      {
+        "start": 836.9,
+        "duration": 6.0,
+        "text": "and the phase of the wave tells us the initial angle of that vector."
+      },
+      {
+        "start": 842.8,
+        "duration": 4.1,
+        "text": "Now to think about the sum of the two waves, just think about adding those two vectors"
+      },
+      {
+        "start": 847.0,
+        "duration": 1.4,
+        "text": "tip to tail."
+      },
+      {
+        "start": 848.4,
+        "duration": 4.4,
+        "text": "And because they both have the same frequency, as both of them rotate, their sum kind of"
+      },
+      {
+        "start": 852.8,
+        "duration": 4.6,
+        "text": "rotates in lock step with them."
+      },
+      {
+        "start": 857.4,
+        "duration": 4.0,
+        "text": "So if you want to think about the amplitude of our resulting wave, it comes down to the"
+      },
+      {
+        "start": 861.4,
+        "duration": 4.7,
+        "text": "length of this vector sum, and similarly the phase corresponds to the angle of that vector"
+      },
+      {
+        "start": 866.1,
+        "duration": 1.1,
+        "text": "sum."
+      },
+      {
+        "start": 867.2,
+        "duration": 4.3,
+        "text": "In some cases, this tells you things that you probably already knew, like if the two phases"
+      },
+      {
+        "start": 871.4,
+        "duration": 4.0,
+        "text": "happen to be the same, then you get constructive interference and you have a bigger wave that"
+      },
+      {
+        "start": 875.5,
+        "duration": 1.1,
+        "text": "results."
+      },
+      {
+        "start": 876.6,
+        "duration": 5.1,
+        "text": "And if the phases were 180 degrees out of sync, then you get deconstructive interference"
+      },
+      {
+        "start": 881.7,
+        "duration": 2.7,
+        "text": "with a relatively small resulting wave."
+      },
+      {
+        "start": 884.4,
+        "duration": 4.2,
+        "text": "What's a little bit less obvious, but what's crucial for our discussion here, is that if"
+      },
+      {
+        "start": 888.6,
+        "duration": 5.0,
+        "text": "the phase of that second wave happens to be exactly 90 degrees behind the phase of the"
+      },
+      {
+        "start": 893.7,
+        "duration": 5.0,
+        "text": "first, so kind of a quarter cycle out of sync, and if that second wave is also very small"
+      },
+      {
+        "start": 898.7,
+        "duration": 4.4,
+        "text": "compared to the first, then if you look at the little vector sum on the lower left, you'll"
+      },
+      {
+        "start": 903.1,
+        "duration": 5.0,
+        "text": "notice how this means that the resulting wave is almost identical to the initial wave,"
+      },
+      {
+        "start": 908.1,
+        "duration": 3.5,
+        "text": "but just shifted back in its phase by a tiny bit."
+      },
+      {
+        "start": 911.6,
+        "duration": 6.9,
+        "text": "Moreover, the size of that phase shift depends on the specific amplitude of that second wave."
+      },
+      {
+        "start": 918.5,
+        "duration": 4.5,
+        "text": "So looking back at our previous animation, where we have some wiggling charges in a layer"
+      },
+      {
+        "start": 923.0,
+        "duration": 4.8,
+        "text": "of glass, causing these second order propagations that need to be added together with the incoming"
+      },
+      {
+        "start": 927.8,
+        "duration": 1.0,
+        "text": "light."
+      },
+      {
+        "start": 928.8,
+        "duration": 5.1,
+        "text": "The way it works out is that the phase of that second wave is exactly a quarter of a cycle"
+      },
+      {
+        "start": 934.0,
+        "duration": 2.2,
+        "text": "behind the phase of the first."
+      },
+      {
+        "start": 936.2,
+        "duration": 3.1,
+        "text": "So when you add them together, you get this little phase shift."
+      },
+      {
+        "start": 939.3,
+        "duration": 4.8,
+        "text": "And then, critically, the size of that phase shift is bigger when that second order"
+      },
+      {
+        "start": 944.1,
+        "duration": 4.8,
+        "text": "wave is larger, and then smaller when that second order wave is smaller."
+      },
+      {
+        "start": 948.9,
+        "duration": 4.1,
+        "text": "Again, the very curious viewers will be raising their hands and saying, why does it work"
+      },
+      {
+        "start": 953.0,
+        "duration": 3.1,
+        "text": "out to be exactly a quarter of a cycle behind?"
+      },
+      {
+        "start": 956.2,
+        "duration": 4.0,
+        "text": "There is a very nice reason, but it's just a little too much detail for us today."
+      },
+      {
+        "start": 960.2,
+        "duration": 3.1,
+        "text": "If you're curious, I highly encourage you to take a look at the Feynman lectures on"
+      },
+      {
+        "start": 963.3,
+        "duration": 1.3,
+        "text": "the matter."
+      },
+      {
+        "start": 964.6,
+        "duration": 4.4,
+        "text": "For our purposes, step back for a second and think about what you need to explain the"
+      },
+      {
+        "start": 969.1,
+        "duration": 4.8,
+        "text": "key question of prisms, which is why the index of refraction would depend on color at"
+      },
+      {
+        "start": 974.0,
+        "duration": 1.0,
+        "text": "all."
+      },
+      {
+        "start": 975.0,
+        "duration": 4.5,
+        "text": "As you now know, that index depends on how much each layer of glass kicks back the phase"
+      },
+      {
+        "start": 979.4,
+        "duration": 5.4,
+        "text": "of the wave, and that phase kick depends on the strength of the second order wave, resulting"
+      },
+      {
+        "start": 984.8,
+        "duration": 3.3,
+        "text": "from charge oscillations in a layer of that glass."
+      },
+      {
+        "start": 988.1,
+        "duration": 5.5,
+        "text": "So you need to drill in and understand exactly how much those charges wiggle in response"
+      },
+      {
+        "start": 993.6,
+        "duration": 2.0,
+        "text": "to an incoming light wave."
+      },
+      {
+        "start": 995.6,
+        "duration": 4.4,
+        "text": "So let's zoom in on that layer and think of each one of those charged particles, and"
+      },
+      {
+        "start": 1000.0,
+        "duration": 3.8,
+        "text": "even though the specific molecular structure is going to be something very complicated,"
+      },
+      {
+        "start": 1003.8,
+        "duration": 4.0,
+        "text": "we're going to model each one of those charges as if it was bound to some equilibrium"
+      },
+      {
+        "start": 1007.9,
+        "duration": 3.8,
+        "text": "position by a spring, or maybe a set of springs."
+      },
+      {
+        "start": 1011.6,
+        "duration": 4.3,
+        "text": "I don't mean this literally, of course, I just mean if we describe the displacement of"
+      },
+      {
+        "start": 1016.0,
+        "duration": 5.5,
+        "text": "this charge from its equilibrium with a little vector x that's going to depend on time,"
+      },
+      {
+        "start": 1021.5,
+        "duration": 5.4,
+        "text": "and in our model, the force applied to the charge, pulling it back to that equilibrium,"
+      },
+      {
+        "start": 1026.9,
+        "duration": 4.2,
+        "text": "is going to be something proportional to the size of that displacement, with a little"
+      },
+      {
+        "start": 1031.1,
+        "duration": 2.3,
+        "text": "proportionality constant k."
+      },
+      {
+        "start": 1033.4,
+        "duration": 2.5,
+        "text": "This is the same law that governs how springs work."
+      },
+      {
+        "start": 1035.9,
+        "duration": 4.2,
+        "text": "You might ask if that's accurate, and the idea is that for very small displacements,"
+      },
+      {
+        "start": 1040.1,
+        "duration": 2.1,
+        "text": "it's actually a really good approximation."
+      },
+      {
+        "start": 1042.2,
+        "duration": 3.5,
+        "text": "This is a very common thing to do throughout physics, we would call it a linear restoring"
+      },
+      {
+        "start": 1045.7,
+        "duration": 1.0,
+        "text": "force."
+      },
+      {
+        "start": 1046.7,
+        "duration": 4.1,
+        "text": "The idea is that maybe the actual force law depends on the position in a much more complicated"
+      },
+      {
+        "start": 1050.8,
+        "duration": 5.0,
+        "text": "way, but we're basically taking a low order approximation near the equilibrium."
+      },
+      {
+        "start": 1055.8,
+        "duration": 4.5,
+        "text": "If I just run this as a simulation, plugging in this force law, here's what that displacement"
+      },
+      {
+        "start": 1060.3,
+        "duration": 2.3,
+        "text": "looks like as a function of time."
+      },
+      {
+        "start": 1062.6,
+        "duration": 4.0,
+        "text": "What you get looks like a sine wave, this is called simple harmonic motion, and the"
+      },
+      {
+        "start": 1066.6,
+        "duration": 3.9,
+        "text": "frequency of this wave is going to matter a lot for you and me, and finding that comes"
+      },
+      {
+        "start": 1070.5,
+        "duration": 2.8,
+        "text": "down to solving a certain differential equation."
+      },
+      {
+        "start": 1073.3,
+        "duration": 5.2,
+        "text": "Because the force is really the same thing as mass times acceleration, and the acceleration"
+      },
+      {
+        "start": 1078.5,
+        "duration": 3.8,
+        "text": "is the same thing as the second derivative of that displacement."
+      },
+      {
+        "start": 1082.3,
+        "duration": 4.2,
+        "text": "So what we're saying is we want some function whose second derivative looks like a certain"
+      },
+      {
+        "start": 1086.6,
+        "duration": 2.8,
+        "text": "constant times that function itself."
+      },
+      {
+        "start": 1089.4,
+        "duration": 3.2,
+        "text": "Any differential equations students among you might enjoy thinking about how you solve"
+      },
+      {
+        "start": 1092.6,
+        "duration": 1.0,
+        "text": "this."
+      },
+      {
+        "start": 1093.6,
+        "duration": 3.9,
+        "text": "I won't go over the full details, but the answer is reasonably intuitive, and anyone who"
+      },
+      {
+        "start": 1097.5,
+        "duration": 2.8,
+        "text": "knows a little calculus can just check it for themselves."
+      },
+      {
+        "start": 1100.4,
+        "duration": 3.9,
+        "text": "The way it shakes out is that if the initial condition is that our little charge has a"
+      },
+      {
+        "start": 1104.3,
+        "duration": 6.0,
+        "text": "velocity of 0, but it's offset from the equilibrium by a little vector x0, then the way it evolves"
+      },
+      {
+        "start": 1110.2,
+        "duration": 5.1,
+        "text": "over time looks like x0 multiplied by a cosine expression."
+      },
+      {
+        "start": 1115.4,
+        "duration": 3.8,
+        "text": "So the amplitude of this wave is kind of uninteresting, it just depends on how far we"
+      },
+      {
+        "start": 1119.1,
+        "duration": 1.7,
+        "text": "pulled things back originally."
+      },
+      {
+        "start": 1120.8,
+        "duration": 4.6,
+        "text": "But the meat is this frequency term, square root of k divided by m."
+      },
+      {
+        "start": 1125.4,
+        "duration": 3.7,
+        "text": "And if you think about it, this should hopefully be at least a little intuitive."
+      },
+      {
+        "start": 1129.2,
+        "duration": 5.2,
+        "text": "For example, if you increase k, which is kind of like increasing the strength of that spring,"
+      },
+      {
+        "start": 1134.4,
+        "duration": 2.8,
+        "text": "then it results in a faster oscillation."
+      },
+      {
+        "start": 1137.1,
+        "duration": 4.4,
+        "text": "Whereas if you increase m, the mass of the particle, there's a lot more inertia, and"
+      },
+      {
+        "start": 1141.6,
+        "duration": 2.7,
+        "text": "it results in a slower oscillation."
+      },
+      {
+        "start": 1144.2,
+        "duration": 3.2,
+        "text": "This term, square root of k divided by m, has a special name."
+      },
+      {
+        "start": 1147.4,
+        "duration": 3.8,
+        "text": "It's called the resonant frequency for our simple harmonic oscillator."
+      },
+      {
+        "start": 1151.2,
+        "duration": 4.1,
+        "text": "And being a little more precise, I should call this the resonant angular frequency."
+      },
+      {
+        "start": 1155.3,
+        "duration": 3.2,
+        "text": "This is always a little bit of an awkwardness with physics, where whenever you have some"
+      },
+      {
+        "start": 1158.5,
+        "duration": 4.4,
+        "text": "kind of cyclic process, when you give an intuitive description, it's natural to phrase things"
+      },
+      {
+        "start": 1163.0,
+        "duration": 1.5,
+        "text": "in terms of the frequency."
+      },
+      {
+        "start": 1164.5,
+        "duration": 3.3,
+        "text": "The number of cycles that this process makes per unit time."
+      },
+      {
+        "start": 1167.8,
+        "duration": 3.8,
+        "text": "But when doing math, it's often more natural to talk about the angular frequency, which"
+      },
+      {
+        "start": 1171.6,
+        "duration": 4.0,
+        "text": "you could think of as describing how much angle this process covers in radians per unit"
+      },
+      {
+        "start": 1175.6,
+        "duration": 1.0,
+        "text": "time."
+      },
+      {
+        "start": 1176.6,
+        "duration": 2.8,
+        "text": "It's just the same as the frequency, but multiplied by 2 pi."
+      },
+      {
+        "start": 1179.4,
+        "duration": 3.6,
+        "text": "So for example, if you have something like a cosine expression, which you might think"
+      },
+      {
+        "start": 1183.0,
+        "duration": 4.5,
+        "text": "of as describing the x component of a cycling vector like this, then the term sitting right"
+      },
+      {
+        "start": 1187.5,
+        "duration": 4.0,
+        "text": "in front of the T in that cosine is the angular frequency."
+      },
+      {
+        "start": 1191.5,
+        "duration": 2.7,
+        "text": "This is why angular frequency makes the math a little cleaner."
+      },
+      {
+        "start": 1194.2,
+        "duration": 3.6,
+        "text": "For example, in our simple harmonic motion, the term sitting in front of T looks like"
+      },
+      {
+        "start": 1197.8,
+        "duration": 4.8,
+        "text": "the square root of k divided by m, which I'm writing as omega sub r."
+      },
+      {
+        "start": 1202.6,
+        "duration": 3.8,
+        "text": "Let's package all of that up and call that our solution in the simple case, where there's"
+      },
+      {
+        "start": 1206.4,
+        "duration": 3.6,
+        "text": "no external force acting on our charged particle."
+      },
+      {
+        "start": 1210.0,
+        "duration": 4.1,
+        "text": "But of course, what we're interested in is what happens when you shine a beam of light"
+      },
+      {
+        "start": 1214.1,
+        "duration": 4.9,
+        "text": "on this material, which intuitively causes this charge to jiggle, but the question is"
+      },
+      {
+        "start": 1219.0,
+        "duration": 1.5,
+        "text": "how much?"
+      },
+      {
+        "start": 1220.6,
+        "duration": 4.9,
+        "text": "In our equation, this looks like adding a new force term corresponding to the light wave."
+      },
+      {
+        "start": 1225.5,
+        "duration": 4.7,
+        "text": "That force oscillates up and down, also according to some kind of cosine function."
+      },
+      {
+        "start": 1230.2,
+        "duration": 5.5,
+        "text": "But this time with a distinct angular frequency that I'm going to call omega sub l, e not"
+      },
+      {
+        "start": 1235.7,
+        "duration": 4.4,
+        "text": "here describes the strength of the wave, and then q describes the charge of whatever"
+      },
+      {
+        "start": 1240.1,
+        "duration": 1.9,
+        "text": "particle we're modeling."
+      },
+      {
+        "start": 1242.0,
+        "duration": 4.3,
+        "text": "As usual, it's a lot easier to think about when we only draw a subset of that light wave,"
+      },
+      {
+        "start": 1246.4,
+        "duration": 3.7,
+        "text": "and in this case, we're going to draw it on the plane of the layer of material that we"
+      },
+      {
+        "start": 1250.1,
+        "duration": 1.0,
+        "text": "care about."
+      },
+      {
+        "start": 1251.1,
+        "duration": 4.5,
+        "text": "You might think of gusts of wind blowing our little ball on the spring up and down in"
+      },
+      {
+        "start": 1255.6,
+        "duration": 2.3,
+        "text": "a clean sinusoidal pattern."
+      },
+      {
+        "start": 1257.9,
+        "duration": 3.7,
+        "text": "Or as another analogy, it's similar to pushing a child on a swing."
+      },
+      {
+        "start": 1261.6,
+        "duration": 4.8,
+        "text": "The swing would oscillate on its own due to the force of gravity, but you as the pusher"
+      },
+      {
+        "start": 1266.3,
+        "duration": 4.9,
+        "text": "are applying an external force, which itself is oscillating over time."
+      },
+      {
+        "start": 1271.2,
+        "duration": 5.5,
+        "text": "So a key difference here is that the frequency of that external force, in general, has nothing"
+      },
+      {
+        "start": 1276.7,
+        "duration": 4.3,
+        "text": "to do with the resonant frequency of that little oscillator."
+      },
+      {
+        "start": 1281.0,
+        "duration": 4.3,
+        "text": "The better analogy would be if you're pushing the child on the swing with a cyclic force"
+      },
+      {
+        "start": 1285.2,
+        "duration": 4.1,
+        "text": "that has nothing to do with what the swing naturally wants to do."
+      },
+      {
+        "start": 1289.4,
+        "duration": 4.0,
+        "text": "And my favorite part in literally trying to do this with my niece is that at some point"
+      },
+      {
+        "start": 1293.4,
+        "duration": 4.0,
+        "text": "she gently murmurs to herself, this isn't how mom does it."
+      },
+      {
+        "start": 1297.4,
+        "duration": 4.7,
+        "text": "Now, in trying to understand how much our charge is oscillating in response to the incoming"
+      },
+      {
+        "start": 1302.2,
+        "duration": 4.9,
+        "text": "light, let me start by just simulating it and plotting the result."
+      },
+      {
+        "start": 1307.0,
+        "duration": 3.9,
+        "text": "You'll notice that there's a little startup period where it kind of has to get going,"
+      },
+      {
+        "start": 1310.9,
+        "duration": 5.3,
+        "text": "but then after that, mercifully, it looks nice and clean, just like another sine wave."
+      },
+      {
+        "start": 1316.2,
+        "duration": 4.5,
+        "text": "Now, you might be thinking, yeah, yeah, everything is sine waves, but it's important to understand"
+      },
+      {
+        "start": 1320.7,
+        "duration": 4.4,
+        "text": "that this one has a very different character from the sine wave we saw earlier."
+      },
+      {
+        "start": 1325.3,
+        "duration": 5.7,
+        "text": "Without any external forces, the frequency of that wave came down to the spring constant"
+      },
+      {
+        "start": 1331.0,
+        "duration": 6.1,
+        "text": "and the mass, which is to say, it depends exclusively on material properties of the glass."
+      },
+      {
+        "start": 1337.2,
+        "duration": 5.2,
+        "text": "By contrast, with this external cycling driving force, the frequency in that steady state"
+      },
+      {
+        "start": 1342.4,
+        "duration": 3.0,
+        "text": "is the same as the frequency of the light."
+      },
+      {
+        "start": 1345.4,
+        "duration": 3.8,
+        "text": "And then in our first case, the amplitude of the wave was kind of uninteresting."
+      },
+      {
+        "start": 1349.2,
+        "duration": 3.4,
+        "text": "It just depends on how far you pulled the spring out to begin with."
+      },
+      {
+        "start": 1352.7,
+        "duration": 4.1,
+        "text": "But in the second case, the amplitude of this wave is actually where all the interesting"
+      },
+      {
+        "start": 1356.8,
+        "duration": 1.8,
+        "text": "stuff happens."
+      },
+      {
+        "start": 1358.5,
+        "duration": 4.6,
+        "text": "Exactly how much will this charge be oscillating in response to the light wave?"
+      },
+      {
+        "start": 1363.1,
+        "duration": 4.9,
+        "text": "Again, I won't go over the full details of solving this, but any eager calculus students"
+      },
+      {
+        "start": 1368.0,
+        "duration": 5.0,
+        "text": "among you might enjoy going through the exercise where if you just guess that a solution looks"
+      },
+      {
+        "start": 1373.0,
+        "duration": 4.9,
+        "text": "like a cosine wave with the same frequency as the light and you solve for the amplitude,"
+      },
+      {
+        "start": 1377.9,
+        "duration": 4.8,
+        "text": "you can get a concrete solution to this equation that looks like this."
+      },
+      {
+        "start": 1382.6,
+        "duration": 4.5,
+        "text": "This is worth unpacking for a bit, and just to be clear, this is only describing things"
+      },
+      {
+        "start": 1387.1,
+        "duration": 3.6,
+        "text": "in the steady state, after things have kind of gotten up and going."
+      },
+      {
+        "start": 1390.8,
+        "duration": 3.8,
+        "text": "A fully descriptive solution would be notably more complicated."
+      },
+      {
+        "start": 1394.5,
+        "duration": 4.4,
+        "text": "As I said, everything interesting here comes down to the amplitude, which here looks like"
+      },
+      {
+        "start": 1399.0,
+        "duration": 4.0,
+        "text": "a large collection of constants, most of which should be pretty intuitive if you take"
+      },
+      {
+        "start": 1402.9,
+        "duration": 1.4,
+        "text": "a moment to think about it."
+      },
+      {
+        "start": 1404.3,
+        "duration": 4.2,
+        "text": "For example, it is proportional to the strength of that incoming light wave, so the stronger"
+      },
+      {
+        "start": 1408.5,
+        "duration": 4.4,
+        "text": "the light, the more the oscillations, it's also proportional to the charge, which again"
+      },
+      {
+        "start": 1412.9,
+        "duration": 4.3,
+        "text": "makes sense, and the real heart of the matter comes down to what's sitting in the denominator"
+      },
+      {
+        "start": 1417.2,
+        "duration": 5.0,
+        "text": "here, the difference between the square of the resonant frequency and the square of the"
+      },
+      {
+        "start": 1422.2,
+        "duration": 1.6,
+        "text": "light frequency."
+      },
+      {
+        "start": 1423.7,
+        "duration": 3.7,
+        "text": "And to build a little intuition, take a moment to think about what would happen if the"
+      },
+      {
+        "start": 1427.4,
+        "duration": 4.8,
+        "text": "frequency of the incoming light was something very close to the resonant frequency of this"
+      },
+      {
+        "start": 1432.3,
+        "duration": 2.0,
+        "text": "oscillator."
+      },
+      {
+        "start": 1434.2,
+        "duration": 4.2,
+        "text": "This is analogous to the normal situation pushing a child on a swing where the frequency"
+      },
+      {
+        "start": 1438.6,
+        "duration": 5.0,
+        "text": "of your force lines up quite closely with what the swing wants to do."
+      },
+      {
+        "start": 1443.6,
+        "duration": 4.8,
+        "text": "In this case, running the simulation, notice how the oscillations of that particle will"
+      },
+      {
+        "start": 1448.5,
+        "duration": 5.3,
+        "text": "grow and grow and grow, becoming quite large over time."
+      },
+      {
+        "start": 1453.8,
+        "duration": 3.8,
+        "text": "Some of you may know the famous example of the Millennium Bridge in London, where on"
+      },
+      {
+        "start": 1457.6,
+        "duration": 4.8,
+        "text": "its opening day, it started oscillating way more than the engineers expected it to,"
+      },
+      {
+        "start": 1462.4,
+        "duration": 5.2,
+        "text": "and what was going on is that the frequency of the steps of the crowd lined up very closely"
+      },
+      {
+        "start": 1467.7,
+        "duration": 5.6,
+        "text": "with a resonant frequency causing this warriingly high amplitude."
+      },
+      {
+        "start": 1473.3,
+        "duration": 4.9,
+        "text": "By contrast, notice what happens in the simulation if the frequency of the light, omega sub"
+      },
+      {
+        "start": 1478.2,
+        "duration": 5.5,
+        "text": "L, is something much smaller than the resonant frequency."
+      },
+      {
+        "start": 1483.6,
+        "duration": 3.2,
+        "text": "For this particular simulation, it takes a little bit of a moment before things get into"
+      },
+      {
+        "start": 1486.8,
+        "duration": 1.2,
+        "text": "their full swing."
+      },
+      {
+        "start": 1488.0,
+        "duration": 4.7,
+        "text": "Eventually, it finds a nice sinusoidal motion, but the amplitude of that motion is much"
+      },
+      {
+        "start": 1492.8,
+        "duration": 2.1,
+        "text": "more modest in comparison."
+      },
+      {
+        "start": 1494.8,
+        "duration": 5.0,
+        "text": "So what our equation is telling us is that the larger the difference between those frequencies,"
+      },
+      {
+        "start": 1499.8,
+        "duration": 4.9,
+        "text": "then the bigger the denominator, so the smaller the overall wiggle to that charge."
+      },
+      {
+        "start": 1504.7,
+        "duration": 3.4,
+        "text": "And again, this is something you can see in the footage with my niece."
+      },
+      {
+        "start": 1508.1,
+        "duration": 3.8,
+        "text": "As I'm applying a force with a frequency that's very different from what the swing wants"
+      },
+      {
+        "start": 1511.9,
+        "duration": 5.7,
+        "text": "to do, she ends up oscillating at the same frequency as my force, but she's going at"
+      },
+      {
+        "start": 1517.6,
+        "duration": 3.0,
+        "text": "a relatively low amplitude."
+      },
+      {
+        "start": 1520.7,
+        "duration": 5.0,
+        "text": "Stepping back, what this means is that as you shine light into a material, like glass,"
+      },
+      {
+        "start": 1525.7,
+        "duration": 4.3,
+        "text": "it's not just that it induces wiggles in the charges of that material, but the specific"
+      },
+      {
+        "start": 1530.0,
+        "duration": 6.2,
+        "text": "size of those wiggles depends on the frequency of the light as a consequence of this denominator"
+      },
+      {
+        "start": 1536.2,
+        "duration": 1.0,
+        "text": "term."
+      },
+      {
+        "start": 1537.2,
+        "duration": 4.0,
+        "text": "And the more those wiggle, the bigger the size of this second order wave caused by that"
+      },
+      {
+        "start": 1541.2,
+        "duration": 5.4,
+        "text": "layer, which in turn causes a bigger shift to the phase of the overall wave."
+      },
+      {
+        "start": 1546.6,
+        "duration": 4.0,
+        "text": "Because a lot of different shifts to the phase are what causes this apparent slow down"
+      },
+      {
+        "start": 1550.6,
+        "duration": 4.9,
+        "text": "to the light, it means that the amount that it will slow down ultimately depends on the"
+      },
+      {
+        "start": 1555.5,
+        "duration": 2.0,
+        "text": "frequency of the light."
+      },
+      {
+        "start": 1557.5,
+        "duration": 2.7,
+        "text": "So that is the real reason why prisms work."
+      },
+      {
+        "start": 1560.2,
+        "duration": 7.2,
+        "text": "You cannot truly explain the light separation until you get down to the driven harmonic oscillator."
+      },
+      {
+        "start": 1567.4,
+        "duration": 4.3,
+        "text": "Now I have left out a number of details, and again I encourage the curious viewers to"
+      },
+      {
+        "start": 1571.7,
+        "duration": 3.4,
+        "text": "take a look at the Feynman lectures that a lot of this is based on."
+      },
+      {
+        "start": 1575.1,
+        "duration": 3.7,
+        "text": "One quite important detail that would be a little criminal not to mention is that when"
+      },
+      {
+        "start": 1578.8,
+        "duration": 4.5,
+        "text": "we're modeling our charge as a little harmonic oscillator with this linear restoring force,"
+      },
+      {
+        "start": 1583.3,
+        "duration": 4.2,
+        "text": "this should really also be a term that depends on the velocity of that charge."
+      },
+      {
+        "start": 1587.5,
+        "duration": 2.6,
+        "text": "You might think of this as a kind of drag force."
+      },
+      {
+        "start": 1590.1,
+        "duration": 4.0,
+        "text": "This term accounts for the fact that energy from the incoming light wave is absorbed by"
+      },
+      {
+        "start": 1594.1,
+        "duration": 1.6,
+        "text": "the material."
+      },
+      {
+        "start": 1595.7,
+        "duration": 3.9,
+        "text": "Without it, this whole explanation would seem to imply that light always passes through"
+      },
+      {
+        "start": 1599.6,
+        "duration": 2.6,
+        "text": "every material, not just glass and water."
+      },
+      {
+        "start": 1602.2,
+        "duration": 3.6,
+        "text": "And as you can tell just by looking around, there's all sorts of materials for which"
+      },
+      {
+        "start": 1605.8,
+        "duration": 3.2,
+        "text": "light is mostly reflected and absorbed."
+      },
+      {
+        "start": 1609.0,
+        "duration": 3.9,
+        "text": "As I mentioned at the start, folks on Patreon had numerous questions about the index of"
+      },
+      {
+        "start": 1612.9,
+        "duration": 5.0,
+        "text": "refraction, like how it can be less than one and why slowing implies bending, so I made"
+      },
+      {
+        "start": 1617.8,
+        "duration": 3.9,
+        "text": "a supplemental video answering a handful of those questions, which should be published"
+      },
+      {
+        "start": 1621.7,
+        "duration": 1.9,
+        "text": "in just a few days."
+      },
+      {
+        "start": 1623.6,
+        "duration": 4.2,
+        "text": "In the meantime, my friend Mithena from the channel Looking Glass Universe just put out"
+      },
+      {
+        "start": 1627.8,
+        "duration": 5.4,
+        "text": "a pair of videos on the related but definitely distinct question of whether light slows down"
+      },
+      {
+        "start": 1633.2,
+        "duration": 4.4,
+        "text": "in a medium, not in the sense of following the crests of a clean pure sine wave in a steady"
+      },
+      {
+        "start": 1637.6,
+        "duration": 4.0,
+        "text": "state, but in the sense of trying to send information through that medium, like with"
+      },
+      {
+        "start": 1641.7,
+        "duration": 1.2,
+        "text": "a little wave packet."
+      },
+      {
+        "start": 1642.9,
+        "duration": 4.1,
+        "text": "I definitely owe the existence of this video to many conversations with her about this"
+      },
+      {
+        "start": 1647.0,
+        "duration": 4.6,
+        "text": "topic, and viewers here will definitely enjoy taking a look, especially at the second"
+      },
+      {
+        "start": 1651.6,
+        "duration": 2.1,
+        "text": "one."
+      },
+      {
+        "start": 1653.6,
+        "duration": 3.7,
+        "text": "By the way, some collaborators and I made this notebook that I think a lot of viewers"
+      },
+      {
+        "start": 1657.4,
+        "duration": 4.1,
+        "text": "might enjoy, and given that it's the holiday season it seems worth a quick mention,"
+      },
+      {
+        "start": 1661.5,
+        "duration": 4.3,
+        "text": "the premise is that every one of the pages has a quote that's related to math, and I"
+      },
+      {
+        "start": 1665.8,
+        "duration": 3.9,
+        "text": "had a lot of fun curating them all, trying to constrain myself to quotes conveying some"
+      },
+      {
+        "start": 1669.7,
+        "duration": 2.4,
+        "text": "genuinely thought-provoking idea."
+      },
+      {
+        "start": 1672.1,
+        "duration": 3.8,
+        "text": "And then aside from the content, I basically made the kind of notebook that I most enjoy"
+      },
+      {
+        "start": 1675.9,
+        "duration": 4.7,
+        "text": "taking notes in, something that's readily portable with very faint grid lines helpful"
+      },
+      {
+        "start": 1680.6,
+        "duration": 5.2,
+        "text": "for diagrams but otherwise unobtrusive, all bound in this nice soft faux leather."
+      },
+      {
+        "start": 1685.8,
+        "duration": 3.4,
+        "text": "If that seems up your alley, you can find them in the 3 blue one brown store next to a"
+      },
+      {
+        "start": 1689.2,
+        "duration": 1.8,
+        "text": "lot of other mathematical merchandise."
+      }
+    ],
+    "full_text": "I realized recently that I didn't really understand how a prism works. The standard explanation, what you might hear in a high school physics class, for example, goes something like this. When light enters a medium, like glass, it slows down. In the sense that if you look at the crests of the wave, in a vacuum, those crests are traveling at C, the speed of light. But inside the glass, those crests will be traveling a little bit slower. And the specific ratio between the speed of light and a vacuum and the speed inside a medium like this is called the index of refraction for that medium. The reason we use the word refraction, instead of, say, the index of slowing, is that if a beam of light enters this glass at an angle, then a consequence of this slowdown is that it bends a little bit, or using the lingo it refracts. And the way my high school physics teacher always explained this was to imagine a tank going from some region where it can travel relatively quickly, like concrete, into something slower, like mud. Where if it's coming in at an angle, then as one of its treads hits the slow region first, that tread will be going slower while the other one is faster, causing the whole tank to steer a little bit, until that second tread also enters the mud, then it continues straight just traveling a little slower. We'll get back to the actual reason for bending in a bit, but at this point, the high school physics students typically learn a law, known as SNELS LA, which specifies exactly how much things bend. If you draw a line perpendicular to the boundary between the glass and water, and consider the angle between that perpendicular line and the beam of light, then SNELS LA tells us that the sine of this angle, divided by the speed of the light, is always a constant. So the slower the light, the lower that angle will be, and that lets you actually calculate how much things refract. What's going on with the prism, then, is that the specific amount that light slows down depends a little bit on its frequency. For example, blue light, which has a relatively high frequency, would get slowed down more aggressively than red light, which has a relatively low frequency. Now most of the light that you see is not a clean pure sine wave, in particular the white light coming from the sun is not a clean sine wave, it's something much messier, but it can be expressed as a sum of a bunch of clean sine waves, each one corresponding to a pure spectral color. So when you shine white light into a prism like this, all those different components get refracted by slightly different amounts, causing this iconic separation of the pure rainbow colors. So that is the standard explanation, and it's not wrong, per se, it's just that all of the key components are handed down from on high, like why would light slow down like this? And what exactly do we mean by slowing down? And even if you understand that, why would the amount that it slows down have anything to do with the color of the light? Is that just a coincidence or is it necessary? If you have a sufficiently high standard for explanations, you want both of these facts to feel discovered, rather than feeling like they were handed down. The first explanation I saw that started to give this feeling came from the Feynman lectures on the matter, and a lot of what I'd like to do with this video is simply animate a lot of the key points that he makes there. It involves really digging in to think about each individual wiggling charge in the material, and the propagating light waves caused by each one of those charges, and how all of them superimpose on top of each other. Which feels like it should be a complete mess, but it actually works out to be not only understandable, but satisfyingly explanatory. For example, it explains why it has to depend on color, and the key intuition there really comes down to what happens if you're bad at pushing a child on a swing. Bear with me, I promise that'll make sense later. Also, when I mentioned on Patreon the intention to cover this topic, a lot of people had a lot of questions about the index of refraction. For example, numerous people asked about how it's possible for this number to be lower than one, which really does happen, despite that seeming to imply the impossibility of something traveling faster than the speed of light. There was also a question about bi-referringence, which is where a material can have two different indices of refraction, causing you to see double when you look through it. And that actually ties in really nicely to putting in the final puzzle piece from the last two videos about the barber pole phenomenon. But a couple people also asked about why light slowing down would imply a bending like this, and I agree that deserves a better explanation than the Tink analogy. I promise we will get to all of these questions later, but it makes sense to first lay down some groundwork by spending the bulk of our time on the key question of why passing through a medium would change the speed of a light wave at all. And for this, I want you to think of your material, like glass, as being broken up into a bunch of distinct layers, all perpendicular to the direction the light is traveling. And we'll start by focusing our attention on the effect of just one of those layers on the light wave. The true effect would be minuscule, but if you'll let me exaggerate it for a moment, what it does is kick back the phase of the wave. And maybe it's worth a brief aside to make sure we're all on the same page when it comes to wave terminology. If you go and graph the function sine of x, when you put some term in front of it, affecting how high that wave oscillates up and down, that's what we call the amplitude. When you put a term in front of x, this will affect how rapidly it oscillates. If this is meant to describe a wave over time, that term would be called the angular frequency, whereas if it's meant to describe a wave over space, that constant would be called the wave number. Then if you were to add some other constant inside that sine function, and notice how as you change what that constant is, it sort of slides the wave left and right, that term describes the phase of the wave. So when I say that our light wave hitting a layer of glass causes its phase to get kicked back, I mean if you take whatever function describes it before it hits the glass, then the function describing it after that looks almost the same, just with a little extra something added to the input of that sine function. Like I said, in reality that'll be a very small number, something proportional to the infinitesimal thickness of that layer, but I'll keep drawing it as something exaggerated and keep track of the value of that phase kick over here on the left. Let's say you go and add a bunch of other layers of the glass, each one also applying their own kick back to the phase of the wave, the question for you is what does that new wave look like? If the value of that phase kick applied by each layer is something really close to zero, then the wave is hardly affected at all. But the larger that phase kick, the more the wave kind of gets squished together among all those layers. Admittedly right here it looks all kaleidoscopic and weird, but that's really just because I have a discrete set of layers each applying an unrealistically large kick. Notice what happens if I smooth it out by doubling the density of layers, but having each one only apply half the phase kick. And then I do that again, I double the density of the layers, but have each one only apply half the phase kick. As I continue this over and over, approaching a situation where you have a continuum of glass, each layer applying just a tiny infinitesimal phase kick. What you end up with is identical to indistinguishable from a wave that's simply traveling slower, oscillating up and down with the same frequency, but with a wavelength that's been kind of scrunched up. This right here is the first key idea with the index of refraction. Instead of asking why does light slow down in glass, what we really need to ask is why does its interaction with a single layer of that glass cause a kickback to the phase of the wave? And then when we want to get quantitative and understand exactly how much the light slows down, which is critical for understanding why it depends on color, instead the real question is how strong is that phase kick? From here, it's helpful to turn back to the fundamentals of what light even is. This is something we talked a lot about in the last video, but a little review never hurts, so let me go over the essentials. As many of you know, light is a wave in the electromagnetic field, but here we'll just be drawing the electric field. The electric field associates each point in 3D space, with a little three-dimensional vector telling you what force would be applied to a hypothetical unit charge sitting at that point in space. The key thing going on with light is that if you have a charged particle and something causes it to wiggle up and down, that results in these propagating ripples in the electric field away from the charge, and that propagation is traveling at the speed c, the speed of light. Whenever those ripples happen to reach another charged particle, they cause it to wiggle up and down, albeit a little more weekly than the initial wiggle, and that in turn causes its own propagations. The way we described this in the last video was that if at some point in time a charge is accelerating, then after a little delay, which depends on the speed c, the existence of that acceleration induces a force on another charge. We went over the specific force law describing this, it's something that can be derived downstream of Maxwell's equations, but for r-pursus here, the main thing to tuck away in your mind is that the amount of time it takes that initial acceleration to cause any kind of influence elsewhere travels at exactly the speed c, and really you should think of c not so much as the speed of light per se, but as the speed of causality. It determines how fast any kind of influence travels, it's just that one of multiple consequences of that is that it's the speed of light. In particular, when you get a charge oscillating up and down in a nice clean sinusoidal motion, you can think of these rippling effects in the electric field as describing the force that would be applied to another charge sitting there as a result of that past acceleration. I will freely admit that I had a bit too much fun in that video just simulating how the electric field responds to accelerating charges, and that I'm kind of doing the same thing here, but there are two important facts for our pursuit of the index of refraction. The first is that when you have multiple different charges oscillating up and down, the net effect on the electric field is just the sum of what it would be for each individual charge, which is kind of what you would expect. And then the way that it shakes out is that if you have a row of charges oscillating in sync with each other, or for our purposes today, a plane of charges all wiggling up and down in sync within that plane, then the effects of each individual charge tend to cancel each other out in most directions, except perpendicular to that plane, they actually constructively interfere. This is how you can get a concentrated beam of light. That's the important thing. If you have a layer of charges wiggling up and down in sync with each other, then even far away from that layer, it produces this nice sinusoidal wave in the electric field that we're so fond of drawing to represent light. When I draw a light wave like this, it's really only depicting the electric field on a single one-dimensional line, a more full picture of light in three dimensions would look something more like this, that tends to be a little bit busier, so usually we just draw the sine wave. So thinking back to the question of why interactions with a layer of material would cause a kickback to the phase of the wave, let's start thinking it through. When a light beam enters a material like glass, then it causes all of the charges inside that material, you know, electrons or maybe the occasional ion to wiggle up and down in response to that light wave. You might think that adding together all the propagations from all those charges is a complete nightmare, but we can think about it one layer at a time. As the light wave causes this layer to wiggle up and down, that wiggling produces its own second order light wave at the same frequency. And it propagates in both directions perpendicular to that layer. The overall electric field, then, looks like the initial incoming light wave added together with the second order wave. By far the most distracting part of what's going on here is everything on the left, and this actually corresponds to the light being reflected back. And from experience, you all know that when you look at water or you look at glass, light not only goes through it, but some of it gets reflected back. And we could have a whole interesting discussion on quantifying exactly how much, but in the spirit of staying focused, we will completely ignore that for today, and only focus on what's happening to the right of that layer. You can probably predict what I'm going to say. It turns out that when you add that second order oscillation, the overall effect is almost identical to the incoming light, but just shifted back in phase by a little bit. And then because many successive shifts to the phase like this are the same thing as light slowing down, this will ultimately explain the index of refraction. But of course, the sufficiently curious viewers will now be raising their hands and asking, why is that the effect when you add them together? And so here it might be worth a little sidebar on how to think about adding two waves together. If you draw some sine wave with some particular amplitude, some specific frequency, and some specific phase, and then you draw another sine wave, also with its own amplitude frequency and phase, in general, it's very hard to think about what the sum of those two waves should look like as you tweak those initial parameters. In the specific case where the frequencies are the same, which is true for our example, the result will also look like a sine wave with that same frequency. But even then, it's a little tricky to think about exactly how to describe that wave. It has some amplitude and some phase, and if I ask you to concretely compute both of those numbers based on the amplitudes and phases of the initial waves, it's not immediately clear how you would do that without maybe throwing a bunch of trig identities at the problem. But here's a really nice way to think about it. Imagine that first wave describes the Y component of some rotating vector. The length of that vector corresponds with the amplitude of our wave, and then the initial rotation of that vector corresponds with the phase of our wave. And then similarly think of that second wave as describing the Y component of another rotating vector, where again the amplitude corresponds with the length of that vector, and the phase of the wave tells us the initial angle of that vector. Now to think about the sum of the two waves, just think about adding those two vectors tip to tail. And because they both have the same frequency, as both of them rotate, their sum kind of rotates in lock step with them. So if you want to think about the amplitude of our resulting wave, it comes down to the length of this vector sum, and similarly the phase corresponds to the angle of that vector sum. In some cases, this tells you things that you probably already knew, like if the two phases happen to be the same, then you get constructive interference and you have a bigger wave that results. And if the phases were 180 degrees out of sync, then you get deconstructive interference with a relatively small resulting wave. What's a little bit less obvious, but what's crucial for our discussion here, is that if the phase of that second wave happens to be exactly 90 degrees behind the phase of the first, so kind of a quarter cycle out of sync, and if that second wave is also very small compared to the first, then if you look at the little vector sum on the lower left, you'll notice how this means that the resulting wave is almost identical to the initial wave, but just shifted back in its phase by a tiny bit. Moreover, the size of that phase shift depends on the specific amplitude of that second wave. So looking back at our previous animation, where we have some wiggling charges in a layer of glass, causing these second order propagations that need to be added together with the incoming light. The way it works out is that the phase of that second wave is exactly a quarter of a cycle behind the phase of the first. So when you add them together, you get this little phase shift. And then, critically, the size of that phase shift is bigger when that second order wave is larger, and then smaller when that second order wave is smaller. Again, the very curious viewers will be raising their hands and saying, why does it work out to be exactly a quarter of a cycle behind? There is a very nice reason, but it's just a little too much detail for us today. If you're curious, I highly encourage you to take a look at the Feynman lectures on the matter. For our purposes, step back for a second and think about what you need to explain the key question of prisms, which is why the index of refraction would depend on color at all. As you now know, that index depends on how much each layer of glass kicks back the phase of the wave, and that phase kick depends on the strength of the second order wave, resulting from charge oscillations in a layer of that glass. So you need to drill in and understand exactly how much those charges wiggle in response to an incoming light wave. So let's zoom in on that layer and think of each one of those charged particles, and even though the specific molecular structure is going to be something very complicated, we're going to model each one of those charges as if it was bound to some equilibrium position by a spring, or maybe a set of springs. I don't mean this literally, of course, I just mean if we describe the displacement of this charge from its equilibrium with a little vector x that's going to depend on time, and in our model, the force applied to the charge, pulling it back to that equilibrium, is going to be something proportional to the size of that displacement, with a little proportionality constant k. This is the same law that governs how springs work. You might ask if that's accurate, and the idea is that for very small displacements, it's actually a really good approximation. This is a very common thing to do throughout physics, we would call it a linear restoring force. The idea is that maybe the actual force law depends on the position in a much more complicated way, but we're basically taking a low order approximation near the equilibrium. If I just run this as a simulation, plugging in this force law, here's what that displacement looks like as a function of time. What you get looks like a sine wave, this is called simple harmonic motion, and the frequency of this wave is going to matter a lot for you and me, and finding that comes down to solving a certain differential equation. Because the force is really the same thing as mass times acceleration, and the acceleration is the same thing as the second derivative of that displacement. So what we're saying is we want some function whose second derivative looks like a certain constant times that function itself. Any differential equations students among you might enjoy thinking about how you solve this. I won't go over the full details, but the answer is reasonably intuitive, and anyone who knows a little calculus can just check it for themselves. The way it shakes out is that if the initial condition is that our little charge has a velocity of 0, but it's offset from the equilibrium by a little vector x0, then the way it evolves over time looks like x0 multiplied by a cosine expression. So the amplitude of this wave is kind of uninteresting, it just depends on how far we pulled things back originally. But the meat is this frequency term, square root of k divided by m. And if you think about it, this should hopefully be at least a little intuitive. For example, if you increase k, which is kind of like increasing the strength of that spring, then it results in a faster oscillation. Whereas if you increase m, the mass of the particle, there's a lot more inertia, and it results in a slower oscillation. This term, square root of k divided by m, has a special name. It's called the resonant frequency for our simple harmonic oscillator. And being a little more precise, I should call this the resonant angular frequency. This is always a little bit of an awkwardness with physics, where whenever you have some kind of cyclic process, when you give an intuitive description, it's natural to phrase things in terms of the frequency. The number of cycles that this process makes per unit time. But when doing math, it's often more natural to talk about the angular frequency, which you could think of as describing how much angle this process covers in radians per unit time. It's just the same as the frequency, but multiplied by 2 pi. So for example, if you have something like a cosine expression, which you might think of as describing the x component of a cycling vector like this, then the term sitting right in front of the T in that cosine is the angular frequency. This is why angular frequency makes the math a little cleaner. For example, in our simple harmonic motion, the term sitting in front of T looks like the square root of k divided by m, which I'm writing as omega sub r. Let's package all of that up and call that our solution in the simple case, where there's no external force acting on our charged particle. But of course, what we're interested in is what happens when you shine a beam of light on this material, which intuitively causes this charge to jiggle, but the question is how much? In our equation, this looks like adding a new force term corresponding to the light wave. That force oscillates up and down, also according to some kind of cosine function. But this time with a distinct angular frequency that I'm going to call omega sub l, e not here describes the strength of the wave, and then q describes the charge of whatever particle we're modeling. As usual, it's a lot easier to think about when we only draw a subset of that light wave, and in this case, we're going to draw it on the plane of the layer of material that we care about. You might think of gusts of wind blowing our little ball on the spring up and down in a clean sinusoidal pattern. Or as another analogy, it's similar to pushing a child on a swing. The swing would oscillate on its own due to the force of gravity, but you as the pusher are applying an external force, which itself is oscillating over time. So a key difference here is that the frequency of that external force, in general, has nothing to do with the resonant frequency of that little oscillator. The better analogy would be if you're pushing the child on the swing with a cyclic force that has nothing to do with what the swing naturally wants to do. And my favorite part in literally trying to do this with my niece is that at some point she gently murmurs to herself, this isn't how mom does it. Now, in trying to understand how much our charge is oscillating in response to the incoming light, let me start by just simulating it and plotting the result. You'll notice that there's a little startup period where it kind of has to get going, but then after that, mercifully, it looks nice and clean, just like another sine wave. Now, you might be thinking, yeah, yeah, everything is sine waves, but it's important to understand that this one has a very different character from the sine wave we saw earlier. Without any external forces, the frequency of that wave came down to the spring constant and the mass, which is to say, it depends exclusively on material properties of the glass. By contrast, with this external cycling driving force, the frequency in that steady state is the same as the frequency of the light. And then in our first case, the amplitude of the wave was kind of uninteresting. It just depends on how far you pulled the spring out to begin with. But in the second case, the amplitude of this wave is actually where all the interesting stuff happens. Exactly how much will this charge be oscillating in response to the light wave? Again, I won't go over the full details of solving this, but any eager calculus students among you might enjoy going through the exercise where if you just guess that a solution looks like a cosine wave with the same frequency as the light and you solve for the amplitude, you can get a concrete solution to this equation that looks like this. This is worth unpacking for a bit, and just to be clear, this is only describing things in the steady state, after things have kind of gotten up and going. A fully descriptive solution would be notably more complicated. As I said, everything interesting here comes down to the amplitude, which here looks like a large collection of constants, most of which should be pretty intuitive if you take a moment to think about it. For example, it is proportional to the strength of that incoming light wave, so the stronger the light, the more the oscillations, it's also proportional to the charge, which again makes sense, and the real heart of the matter comes down to what's sitting in the denominator here, the difference between the square of the resonant frequency and the square of the light frequency. And to build a little intuition, take a moment to think about what would happen if the frequency of the incoming light was something very close to the resonant frequency of this oscillator. This is analogous to the normal situation pushing a child on a swing where the frequency of your force lines up quite closely with what the swing wants to do. In this case, running the simulation, notice how the oscillations of that particle will grow and grow and grow, becoming quite large over time. Some of you may know the famous example of the Millennium Bridge in London, where on its opening day, it started oscillating way more than the engineers expected it to, and what was going on is that the frequency of the steps of the crowd lined up very closely with a resonant frequency causing this warriingly high amplitude. By contrast, notice what happens in the simulation if the frequency of the light, omega sub L, is something much smaller than the resonant frequency. For this particular simulation, it takes a little bit of a moment before things get into their full swing. Eventually, it finds a nice sinusoidal motion, but the amplitude of that motion is much more modest in comparison. So what our equation is telling us is that the larger the difference between those frequencies, then the bigger the denominator, so the smaller the overall wiggle to that charge. And again, this is something you can see in the footage with my niece. As I'm applying a force with a frequency that's very different from what the swing wants to do, she ends up oscillating at the same frequency as my force, but she's going at a relatively low amplitude. Stepping back, what this means is that as you shine light into a material, like glass, it's not just that it induces wiggles in the charges of that material, but the specific size of those wiggles depends on the frequency of the light as a consequence of this denominator term. And the more those wiggle, the bigger the size of this second order wave caused by that layer, which in turn causes a bigger shift to the phase of the overall wave. Because a lot of different shifts to the phase are what causes this apparent slow down to the light, it means that the amount that it will slow down ultimately depends on the frequency of the light. So that is the real reason why prisms work. You cannot truly explain the light separation until you get down to the driven harmonic oscillator. Now I have left out a number of details, and again I encourage the curious viewers to take a look at the Feynman lectures that a lot of this is based on. One quite important detail that would be a little criminal not to mention is that when we're modeling our charge as a little harmonic oscillator with this linear restoring force, this should really also be a term that depends on the velocity of that charge. You might think of this as a kind of drag force. This term accounts for the fact that energy from the incoming light wave is absorbed by the material. Without it, this whole explanation would seem to imply that light always passes through every material, not just glass and water. And as you can tell just by looking around, there's all sorts of materials for which light is mostly reflected and absorbed. As I mentioned at the start, folks on Patreon had numerous questions about the index of refraction, like how it can be less than one and why slowing implies bending, so I made a supplemental video answering a handful of those questions, which should be published in just a few days. In the meantime, my friend Mithena from the channel Looking Glass Universe just put out a pair of videos on the related but definitely distinct question of whether light slows down in a medium, not in the sense of following the crests of a clean pure sine wave in a steady state, but in the sense of trying to send information through that medium, like with a little wave packet. I definitely owe the existence of this video to many conversations with her about this topic, and viewers here will definitely enjoy taking a look, especially at the second one. By the way, some collaborators and I made this notebook that I think a lot of viewers might enjoy, and given that it's the holiday season it seems worth a quick mention, the premise is that every one of the pages has a quote that's related to math, and I had a lot of fun curating them all, trying to constrain myself to quotes conveying some genuinely thought-provoking idea. And then aside from the content, I basically made the kind of notebook that I most enjoy taking notes in, something that's readily portable with very faint grid lines helpful for diagrams but otherwise unobtrusive, all bound in this nice soft faux leather. If that seems up your alley, you can find them in the 3 blue one brown store next to a lot of other mathematical merchandise."
+  }
+}

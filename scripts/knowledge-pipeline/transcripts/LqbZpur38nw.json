@@ -1,0 +1,1659 @@
+{
+  "video_id": "LqbZpur38nw",
+  "video_title": "Beyond the Mandelbrot set, an intro to holomorphic dynamics",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1656.0,
+  "view_count": 1725692,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.2,
+        "text": "Today, I'd like to tell you about a piece of math known as holomorphic dynamics."
+      },
+      {
+        "start": 4.2,
+        "duration": 2.9,
+        "text": "This is the field which studies things like the mandalbrut set,"
+      },
+      {
+        "start": 7.1,
+        "duration": 3.8,
+        "text": "and in fact, one of my main goals today is to show you how this iconic shape,"
+      },
+      {
+        "start": 11.0,
+        "duration": 1.8,
+        "text": "the poster child of math,"
+      },
+      {
+        "start": 12.7,
+        "duration": 3.8,
+        "text": "pops up in a more general way than the initial definition might suggest."
+      },
+      {
+        "start": 17.2,
+        "duration": 4.0,
+        "text": "Now this field is also intimately tied to what we talked about in the last video,"
+      },
+      {
+        "start": 21.2,
+        "duration": 4.0,
+        "text": "with Newton's Rackdoll, and another goal of ours towards the end of this video"
+      },
+      {
+        "start": 25.2,
+        "duration": 2.6,
+        "text": "will be to help tie up some of the loose ends that we had there."
+      },
+      {
+        "start": 30.0,
+        "duration": 7.7,
+        "text": "So first of all, this word holomorphic might seem a little weird."
+      },
+      {
+        "start": 37.7,
+        "duration": 4.6,
+        "text": "It refers to functions that have complex number inputs and complex number outputs,"
+      },
+      {
+        "start": 42.3,
+        "duration": 2.1,
+        "text": "and which you can also take a derivative of."
+      },
+      {
+        "start": 45.0,
+        "duration": 4.2,
+        "text": "Basically, what it means to have a derivative in this context is that when you zoom in to how"
+      },
+      {
+        "start": 49.1,
+        "duration": 4.0,
+        "text": "the function behaves near a given point to the point and its neighbors,"
+      },
+      {
+        "start": 53.1,
+        "duration": 5.0,
+        "text": "it looks roughly like scaling and rotating, like multiplying by some complex constant."
+      },
+      {
+        "start": 58.1,
+        "duration": 4.2,
+        "text": "We'll talk more about that in just a bit, but for now, know that it includes most of the ordinary"
+      },
+      {
+        "start": 62.2,
+        "duration": 3.8,
+        "text": "functions that you could write down, things like polynomials, exponentials, trig functions,"
+      },
+      {
+        "start": 66.0,
+        "duration": 5.7,
+        "text": "all of that. The relevant dynamics in the title here comes from asking what happens when you"
+      },
+      {
+        "start": 71.7,
+        "duration": 5.7,
+        "text": "repeatedly apply one of these functions over and over, in the sense of evaluating on some input,"
+      },
+      {
+        "start": 77.4,
+        "duration": 3.0,
+        "text": "then evaluating the same function on whatever you just got out,"
+      },
+      {
+        "start": 81.4,
+        "duration": 3.8,
+        "text": "and then doing that again, and again and again."
+      },
+      {
+        "start": 85.3,
+        "duration": 4.8,
+        "text": "Sometimes the pattern of points emerging from this gets trapped in a cycle."
+      },
+      {
+        "start": 90.1,
+        "duration": 4.4,
+        "text": "Other times, the sequence will just approach some kind of limiting point."
+      },
+      {
+        "start": 94.5,
+        "duration": 4.6,
+        "text": "Or maybe the sequence gets bigger and bigger and it flies off to infinity,"
+      },
+      {
+        "start": 99.1,
+        "duration": 4.6,
+        "text": "which mathematicians also kind of think of as approaching a limit point to the point at infinity."
+      },
+      {
+        "start": 103.8,
+        "duration": 5.0,
+        "text": "And other times still, they have no pattern at all, and they behave chaotically."
+      },
+      {
+        "start": 108.7,
+        "duration": 5.1,
+        "text": "What's surprising is that for all sorts of functions that you might write down,"
+      },
+      {
+        "start": 114.2,
+        "duration": 4.8,
+        "text": "when you try to do something to visualize when these different possible behaviors arise,"
+      },
+      {
+        "start": 119.0,
+        "duration": 3.2,
+        "text": "it often results in some insanely intricate fractal pattern."
+      },
+      {
+        "start": 123.3,
+        "duration": 3.8,
+        "text": "Those of you who watched the last video have already seen one neat example of this."
+      },
+      {
+        "start": 127.1,
+        "duration": 4.6,
+        "text": "There's this algorithm called Newton's method, which finds the root of some polynomial P,"
+      },
+      {
+        "start": 131.8,
+        "duration": 4.9,
+        "text": "and the way it works is to basically repeatedly iterate the expression x minus p of x divided"
+      },
+      {
+        "start": 136.6,
+        "duration": 5.2,
+        "text": "by P prime of x, P prime being the derivative. When your initial seed value is in the loose"
+      },
+      {
+        "start": 141.8,
+        "duration": 5.6,
+        "text": "vicinity of a root to that polynomial, a value where P of x equals 0, this procedure produces a"
+      },
+      {
+        "start": 147.4,
+        "duration": 4.5,
+        "text": "sequence of values that really quickly converges to that root. This is what makes it a useful algorithm"
+      },
+      {
+        "start": 151.9,
+        "duration": 5.7,
+        "text": "in practice. But then we tried to do this in the complex plane, looking at the many possible seed"
+      },
+      {
+        "start": 157.6,
+        "duration": 4.8,
+        "text": "values and asking which root in the complex plane each one of these seed values might end up on."
+      },
+      {
+        "start": 163.1,
+        "duration": 4.8,
+        "text": "Then we associated a color with each one of the roots and then colored each pixel of the plane"
+      },
+      {
+        "start": 167.9,
+        "duration": 4.6,
+        "text": "based on which root a seed value starting at that pixel would ultimately land on."
+      },
+      {
+        "start": 173.5,
+        "duration": 4.3,
+        "text": "The results we got were some of these insanely intricate pictures with these rough fractal"
+      },
+      {
+        "start": 177.8,
+        "duration": 6.7,
+        "text": "boundaries between the colors. Now in this example, if you look at the function that we're"
+      },
+      {
+        "start": 184.6,
+        "duration": 5.3,
+        "text": "actually iterating, say for some specific choice of a polynomial, like z cubed minus 1,"
+      },
+      {
+        "start": 189.8,
+        "duration": 4.2,
+        "text": "you can rewrite the whole expression to look like one polynomial divided by another."
+      },
+      {
+        "start": 194.7,
+        "duration": 4.9,
+        "text": "Mathematicians call these kinds of functions Rational functions. And if you forget the fact that"
+      },
+      {
+        "start": 199.6,
+        "duration": 4.9,
+        "text": "this arose from Newton's method, you could reasonably ask what happens when you iterate any other"
+      },
+      {
+        "start": 204.5,
+        "duration": 5.1,
+        "text": "rational function. And in fact, this is exactly what the mathematicians P.R. Fatou and Gaston"
+      },
+      {
+        "start": 209.6,
+        "duration": 5.0,
+        "text": "Julia did in the years immediately following World War I. And they built up a surprisingly rich"
+      },
+      {
+        "start": 214.6,
+        "duration": 5.2,
+        "text": "theory of what happens when you iterate these rational functions, which is particularly impressive"
+      },
+      {
+        "start": 219.8,
+        "duration": 4.7,
+        "text": "given that they had no computers to visualize any of this the way that you and I can. Now remember"
+      },
+      {
+        "start": 224.6,
+        "duration": 5.6,
+        "text": "those two names, they'll come up a bit later. By far, the most popularized example of a rational"
+      },
+      {
+        "start": 230.2,
+        "duration": 4.4,
+        "text": "function that you might study like this, and the fractals that can ensue, is one of the simplest"
+      },
+      {
+        "start": 234.6,
+        "duration": 6.8,
+        "text": "functions, z squared plus c, where c is some constant. I'm going to guess that this is at least"
+      },
+      {
+        "start": 241.4,
+        "duration": 4.7,
+        "text": "somewhat familiar to many of you, but it certainly doesn't hurt to quickly summarize the store here"
+      },
+      {
+        "start": 246.1,
+        "duration": 4.6,
+        "text": "since it can help set the stage for what comes later. For this game, we're going to think of"
+      },
+      {
+        "start": 250.7,
+        "duration": 6.1,
+        "text": "c as a value that can be changed, and it'll be visible as this movable yellow dot. For the actual"
+      },
+      {
+        "start": 256.8,
+        "duration": 6.6,
+        "text": "iterative process, we will always start with an initial value of z equals zero. So after iterating"
+      },
+      {
+        "start": 263.4,
+        "duration": 6.4,
+        "text": "this function once, doing z squared plus c, you get c. If you iterate a second time, plugging in"
+      },
+      {
+        "start": 269.8,
+        "duration": 5.6,
+        "text": "that value to the function, you get c squared plus c. And as I change around the value c here,"
+      },
+      {
+        "start": 275.4,
+        "duration": 6.0,
+        "text": "you can kind of see how the second value moves in lock step. Then we can plug in that second value"
+      },
+      {
+        "start": 281.4,
+        "duration": 5.7,
+        "text": "to get z3, and that third value to get z4, and continue on like this, visualizing our chain of values."
+      },
+      {
+        "start": 290.0,
+        "duration": 5.1,
+        "text": "So if I keep doing this many different times for the first many values, for some choices of c,"
+      },
+      {
+        "start": 295.1,
+        "duration": 4.9,
+        "text": "this process remains bounded. You can still see it all on the screen. Another times it looks like"
+      },
+      {
+        "start": 300.0,
+        "duration": 4.3,
+        "text": "it blows up, and you can actually show that if it gets as big as two, it'll blow up to infinity."
+      },
+      {
+        "start": 305.9,
+        "duration": 6.8,
+        "text": "If you color the points of the plane where it stays bounded, black, and you assign some other"
+      },
+      {
+        "start": 312.7,
+        "duration": 5.8,
+        "text": "gradient of colors to the divergent values, based on how quickly the process rushes off to infinity,"
+      },
+      {
+        "start": 319.1,
+        "duration": 3.9,
+        "text": "you get one of the most iconic images in all of math, the Mandelbrot set."
+      },
+      {
+        "start": 324.2,
+        "duration": 4.4,
+        "text": "Now this interactive dots and stick visualization of the trajectory, by the way, is heavily"
+      },
+      {
+        "start": 328.6,
+        "duration": 4.4,
+        "text": "inspired by Ben Sparks illustration in the number file video he did about the Mandelbrot set,"
+      },
+      {
+        "start": 333.0,
+        "duration": 4.5,
+        "text": "which is great, you should watch it. I honestly thought it was just too fun not to re-implement here."
+      },
+      {
+        "start": 337.5,
+        "duration": 4.3,
+        "text": "I would also highly recommend the interactive article on echo.net about all of this stuff,"
+      },
+      {
+        "start": 341.8,
+        "duration": 4.4,
+        "text": "or any of you who haven't had the pleasure of reading that yet. What's nice about the Ben Sparks"
+      },
+      {
+        "start": 346.2,
+        "duration": 4.3,
+        "text": "illustration is how it illuminates what each different part of the Mandelbrot set actually"
+      },
+      {
+        "start": 350.6,
+        "duration": 6.3,
+        "text": "represents. This largest cardioid section includes the values of c so that the process eventually"
+      },
+      {
+        "start": 356.9,
+        "duration": 5.4,
+        "text": "converges to some limit. The big circle on the left represents the values where the process gets"
+      },
+      {
+        "start": 362.3,
+        "duration": 5.0,
+        "text": "trapped in a cycle between two values. And then the top and bottom circles show values where the"
+      },
+      {
+        "start": 367.3,
+        "duration": 4.7,
+        "text": "process gets trapped in a cycle of three values, and so on like this, each one of these little"
+      },
+      {
+        "start": 372.0,
+        "duration": 7.0,
+        "text": "islands kind of has its own meaning. Also notice, there's an important difference between how this"
+      },
+      {
+        "start": 379.0,
+        "duration": 4.2,
+        "text": "Mandelbrot set and the Newton fractals we were looking at before are each constructed,"
+      },
+      {
+        "start": 383.2,
+        "duration": 5.5,
+        "text": "beyond just a different underlying function. For the Mandelbrot set, we have a consistent seed value,"
+      },
+      {
+        "start": 388.8,
+        "duration": 5.8,
+        "text": "z equals zero, but the thing we're tweaking is the parameter, c, changing the function itself."
+      },
+      {
+        "start": 394.6,
+        "duration": 5.0,
+        "text": "So what you're looking at is what we might call a parameter space. But with Newton's fractal,"
+      },
+      {
+        "start": 399.6,
+        "duration": 5.2,
+        "text": "we have a single unchanging function, but what we associate with each pixel is a different seed"
+      },
+      {
+        "start": 404.8,
+        "duration": 6.0,
+        "text": "value for the process. Of course, we could play the same game with the map z squared plus c,"
+      },
+      {
+        "start": 410.8,
+        "duration": 4.7,
+        "text": "we could fix c at some constant, and then let the pixels represent the different possible initial"
+      },
+      {
+        "start": 415.5,
+        "duration": 5.6,
+        "text": "values z not. So whereas each pixel of the Mandelbrot set corresponds to a unique function,"
+      },
+      {
+        "start": 421.1,
+        "duration": 5.8,
+        "text": "the image is on the right, each just corresponds to a single function. As we change the parameter c,"
+      },
+      {
+        "start": 426.9,
+        "duration": 5.5,
+        "text": "it changes the entire image on the right. And again, just to be clear, the rule being applied"
+      },
+      {
+        "start": 432.4,
+        "duration": 5.4,
+        "text": "is that we color pixels black if the process remains bounded, and then apply some kind of gradient"
+      },
+      {
+        "start": 437.8,
+        "duration": 4.5,
+        "text": "to the ones that diverge away to infinity based on how quickly they diverge to infinity."
+      },
+      {
+        "start": 443.2,
+        "duration": 4.1,
+        "text": "In principle, and it's kind of mind-wurping to think about, there is some four-dimensional"
+      },
+      {
+        "start": 447.3,
+        "duration": 5.4,
+        "text": "space of all combinations of c and z not. And what we're doing here is kind of looking through"
+      },
+      {
+        "start": 452.7,
+        "duration": 6.4,
+        "text": "individual two-dimensional slices of that unimaginable pattern. You'll often hear or read the"
+      },
+      {
+        "start": 459.1,
+        "duration": 5.4,
+        "text": "images on the right being referred to as Julia sets or Julia fractals. And when I first learned"
+      },
+      {
+        "start": 464.6,
+        "duration": 4.0,
+        "text": "about all this stuff, I'll admit that I kind of was left with the misconception that this is what"
+      },
+      {
+        "start": 468.6,
+        "duration": 5.2,
+        "text": "the term Julia set refers to, specifically the z squared plus c case, and moreover that it's"
+      },
+      {
+        "start": 473.8,
+        "duration": 4.8,
+        "text": "referring to the black region on the inside. However, the term Julia set has a much more general"
+      },
+      {
+        "start": 478.6,
+        "duration": 4.4,
+        "text": "definition, and it would refer just to the boundaries of these regions, not the interior."
+      },
+      {
+        "start": 483.7,
+        "duration": 4.5,
+        "text": "To set the state for a more specific definition, and to also make some headway towards the first"
+      },
+      {
+        "start": 488.2,
+        "duration": 4.3,
+        "text": "goal that I mentioned at the start, it's worth stepping back and really just picturing yourself"
+      },
+      {
+        "start": 492.5,
+        "duration": 5.1,
+        "text": "as a mathematician right now, discovering all of this. What would you actually do to construct a"
+      },
+      {
+        "start": 497.6,
+        "duration": 4.7,
+        "text": "theory around this? It's one thing to look at some pretty pictures, but what sorts of questions"
+      },
+      {
+        "start": 502.3,
+        "duration": 5.0,
+        "text": "would you ask if you actually want to understand it all? In general, if you want to understand"
+      },
+      {
+        "start": 507.3,
+        "duration": 4.3,
+        "text": "something complicated, a good place to start is to ask if there are any parts of the system that"
+      },
+      {
+        "start": 511.6,
+        "duration": 5.7,
+        "text": "have some simple behavior, preferably the simplest possible behavior. And in our example, that might"
+      },
+      {
+        "start": 517.3,
+        "duration": 6.4,
+        "text": "mean asking when does the process just stay fixed in place, meaning f of z is equal to z. That's"
+      },
+      {
+        "start": 523.7,
+        "duration": 5.2,
+        "text": "a pretty boring set of dynamics, I think you'd agree. We call a value with this property a fixed point"
+      },
+      {
+        "start": 528.9,
+        "duration": 5.8,
+        "text": "of the function. In the case of the functions arising from Newton's method, by design, they have a"
+      },
+      {
+        "start": 534.7,
+        "duration": 5.8,
+        "text": "fixed point at the roots of the relevant polynomial. You can verify for yourself, if p of z is equal to"
+      },
+      {
+        "start": 540.5,
+        "duration": 5.0,
+        "text": "zero, then the entire expression is simply equal to z. That's what it means to be a fixed point."
+      },
+      {
+        "start": 546.3,
+        "duration": 5.0,
+        "text": "If you're into exercises, you may enjoy pausing for a moment and computing the fixed points of this"
+      },
+      {
+        "start": 551.4,
+        "duration": 8.3,
+        "text": "Mandelbrot set function, z squared plus c. More generally, any rational function will always have fixed"
+      },
+      {
+        "start": 559.7,
+        "duration": 5.3,
+        "text": "points, since asking when this expression equals z can always be rearranged as finding the roots of"
+      },
+      {
+        "start": 565.0,
+        "duration": 5.5,
+        "text": "some polynomial expression. And from the fundamental theorem of algebra, this must have solutions,"
+      },
+      {
+        "start": 570.5,
+        "duration": 5.8,
+        "text": "typically as many solutions as the highest degree in this expression. Incidentally, this means that"
+      },
+      {
+        "start": 576.3,
+        "duration": 4.6,
+        "text": "you could also find those fixed points using Newton's method, but maybe that's a little bit too"
+      },
+      {
+        "start": 580.9,
+        "duration": 5.2,
+        "text": "meta for us right now. Now just asking about fixed points is maybe easy, but a key idea for"
+      },
+      {
+        "start": 586.1,
+        "duration": 5.0,
+        "text": "understanding the full dynamics, and hence the diagrams that we're looking at, is to understand"
+      },
+      {
+        "start": 591.0,
+        "duration": 6.7,
+        "text": "stability. We say that a fixed point is attracting, if nearby points tend to get drawn in towards it,"
+      },
+      {
+        "start": 597.8,
+        "duration": 4.3,
+        "text": "and repelling if they're pushed away. And this is something that you can actually compute,"
+      },
+      {
+        "start": 602.1,
+        "duration": 5.5,
+        "text": "explicitly, using the derivative of the function. Symbolically, when you take derivatives of"
+      },
+      {
+        "start": 607.6,
+        "duration": 4.8,
+        "text": "complex functions, it looks exactly the same as it would for real functions, though something"
+      },
+      {
+        "start": 612.4,
+        "duration": 5.4,
+        "text": "like z squared has a derivative of 2 times z. But geometrically, there's a really lovely way to"
+      },
+      {
+        "start": 617.8,
+        "duration": 5.7,
+        "text": "interpret what this means. For example, at the input 1, the derivative of this particular function"
+      },
+      {
+        "start": 623.4,
+        "duration": 5.1,
+        "text": "evaluates to be 2. And what that's telling us is that if you look at a very small neighborhood"
+      },
+      {
+        "start": 628.6,
+        "duration": 4.8,
+        "text": "around that input, and you follow what happens to all the points in that little neighborhood as"
+      },
+      {
+        "start": 633.4,
+        "duration": 5.9,
+        "text": "you apply the function, in this case z squared, then it looks just like you're multiplying by 2."
+      },
+      {
+        "start": 639.3,
+        "duration": 6.5,
+        "text": "This is what a derivative of 2 means. To take another example, let's look at the input i."
+      },
+      {
+        "start": 646.4,
+        "duration": 4.4,
+        "text": "We know that this function moves that input to the value negative 1, that's i squared."
+      },
+      {
+        "start": 651.4,
+        "duration": 5.5,
+        "text": "But the added information that it's derivative at this value is 2 times i gives us the added"
+      },
+      {
+        "start": 656.9,
+        "duration": 4.3,
+        "text": "picture that when you zoom in around that point, and you look at the action of the function on"
+      },
+      {
+        "start": 661.2,
+        "duration": 6.2,
+        "text": "this tiny neighborhood, it looks like multiplication by 2i, which in this case is saying it looks like a"
+      },
+      {
+        "start": 667.4,
+        "duration": 9.6,
+        "text": "90 degree rotation combined with a expansion by a factor of 2. For the purposes of analyzing stability,"
+      },
+      {
+        "start": 677.0,
+        "duration": 4.6,
+        "text": "the only thing we care about here is the growing and shrinking factor. The rotational part doesn't"
+      },
+      {
+        "start": 682.2,
+        "duration": 4.9,
+        "text": "matter. So if you compute the derivative of a function at its fixed point, and the absolute value"
+      },
+      {
+        "start": 687.1,
+        "duration": 5.4,
+        "text": "of this result is less than 1, it tells you that the fixed point is attracting, that nearby points"
+      },
+      {
+        "start": 692.5,
+        "duration": 5.1,
+        "text": "tend to come in towards it. If that derivative has an absolute value bigger than 1, it tells you"
+      },
+      {
+        "start": 697.6,
+        "duration": 5.8,
+        "text": "the fixed point is repelling, it pushes away its neighbors. For example, if you work out the derivative"
+      },
+      {
+        "start": 703.4,
+        "duration": 5.2,
+        "text": "of our Newton's map expression, and you simplify a couple things a little bit, here's what you would"
+      },
+      {
+        "start": 708.6,
+        "duration": 6.2,
+        "text": "get out. So if z is a fixed point, which in this context means that it's one of the roots of"
+      },
+      {
+        "start": 714.7,
+        "duration": 6.6,
+        "text": "the polynomial p, this derivative is not only smaller than 1, it's equal to 0. These are sometimes"
+      },
+      {
+        "start": 721.4,
+        "duration": 4.2,
+        "text": "called super attracting fixed points, since it means that a neighborhood around these points"
+      },
+      {
+        "start": 725.5,
+        "duration": 6.2,
+        "text": "doesn't merely shrink, it shrinks a lot. And again, this is kind of by design, since the intent"
+      },
+      {
+        "start": 731.7,
+        "duration": 5.0,
+        "text": "of Newton's method is to produce iterations that fall towards a root as quickly as they can."
+      },
+      {
+        "start": 737.7,
+        "duration": 4.7,
+        "text": "Pulling up our z squared plus c example, if you did the first exercise to find its fixed points,"
+      },
+      {
+        "start": 742.4,
+        "duration": 5.1,
+        "text": "the next step would be to ask, when is at least one of those fixed points attracting?"
+      },
+      {
+        "start": 747.5,
+        "duration": 5.7,
+        "text": "For what values of c is this going to be true? And then, if that's not enough of a challenge,"
+      },
+      {
+        "start": 753.2,
+        "duration": 4.9,
+        "text": "try using the result that you find to show that this condition corresponds to the main"
+      },
+      {
+        "start": 758.1,
+        "duration": 4.8,
+        "text": "cardioid shape of the mandal broad set. This is something you can compute explicitly, it's pretty cool."
+      },
+      {
+        "start": 763.1,
+        "duration": 6.2,
+        "text": "A natural next step would be to ask about cycles, and this is where things really start to get"
+      },
+      {
+        "start": 769.4,
+        "duration": 6.9,
+        "text": "interesting. If f of z is not z, but some other value, and then that value comes back to z,"
+      },
+      {
+        "start": 776.2,
+        "duration": 5.8,
+        "text": "it means that you fall into a two cycle. You could explicitly find these kinds of two cycles by"
+      },
+      {
+        "start": 782.1,
+        "duration": 7.1,
+        "text": "evaluating f of f of z, and then setting it equal to z. For example, with the z squared plus c map,"
+      },
+      {
+        "start": 789.3,
+        "duration": 6.1,
+        "text": "f of f of z expands out to look like this. A little messy, but it's not too terrible."
+      },
+      {
+        "start": 795.4,
+        "duration": 3.9,
+        "text": "The main thing to highlight is that it boils down to solving some degree for equation."
+      },
+      {
+        "start": 799.9,
+        "duration": 3.9,
+        "text": "You should note though that the fixed points will also be solutions to this equation,"
+      },
+      {
+        "start": 803.8,
+        "duration": 5.0,
+        "text": "so technically the two cycles are the solutions to this minus the solutions to the original fixed"
+      },
+      {
+        "start": 808.9,
+        "duration": 6.2,
+        "text": "point equation. And likewise, you can use the same idea to look for n cycles by composing f"
+      },
+      {
+        "start": 815.0,
+        "duration": 5.4,
+        "text": "with itself n different times. The explicit expressions that you would get quickly become"
+      },
+      {
+        "start": 820.5,
+        "duration": 5.5,
+        "text": "insanely messy, but it's still elucidating to ask how many cycles would you expect based on"
+      },
+      {
+        "start": 826.0,
+        "duration": 5.6,
+        "text": "this hypothetical process. If we stick with our simple z squared plus c example, as you compose"
+      },
+      {
+        "start": 831.6,
+        "duration": 4.7,
+        "text": "it with itself, you get a polynomial with degree four, and then one with degree eight, and then"
+      },
+      {
+        "start": 836.3,
+        "duration": 5.0,
+        "text": "degree sixteen, and so on and so on, exponentially growing the order of the polynomial."
+      },
+      {
+        "start": 842.0,
+        "duration": 4.8,
+        "text": "So in principle, if I asked you how many cycles are there with a period of one million,"
+      },
+      {
+        "start": 847.4,
+        "duration": 4.6,
+        "text": "you can know that it's equivalent to solving some just absolutely insane polynomial expression"
+      },
+      {
+        "start": 852.0,
+        "duration": 5.1,
+        "text": "with a degree of two to the one million. So, again, fundamental theorem of algebra,"
+      },
+      {
+        "start": 857.1,
+        "duration": 5.4,
+        "text": "you would expect to find something on the order of two to the one million points in the complex plane,"
+      },
+      {
+        "start": 862.5,
+        "duration": 5.0,
+        "text": "which cycle in exactly this way. And more generally, for any rational map,"
+      },
+      {
+        "start": 867.5,
+        "duration": 4.4,
+        "text": "you'll always be able to find values whose behavior falls into a cycle with period n,"
+      },
+      {
+        "start": 871.9,
+        "duration": 4.5,
+        "text": "and ultimately boils down to solving some probably insane polynomial expression."
+      },
+      {
+        "start": 877.0,
+        "duration": 5.1,
+        "text": "And just like with this example, the number of such periodic points will grow exponentially"
+      },
+      {
+        "start": 882.1,
+        "duration": 5.2,
+        "text": "within. I didn't really talk about this in the last video about Newton's fractal, but it's"
+      },
+      {
+        "start": 887.3,
+        "duration": 4.5,
+        "text": "sort of strange to think that there are infinitely many points that fall into some kind of cycle"
+      },
+      {
+        "start": 891.8,
+        "duration": 5.7,
+        "text": "even for a process like this. In almost all cases though, these points are somewhere on the boundary"
+      },
+      {
+        "start": 897.4,
+        "duration": 4.2,
+        "text": "between those colored regions, and they don't really come up in practice because the probability of"
+      },
+      {
+        "start": 901.7,
+        "duration": 5.6,
+        "text": "landing on one of them is zero. What matters for actually falling into one of these is if one of"
+      },
+      {
+        "start": 907.3,
+        "duration": 5.4,
+        "text": "the cycles is attracting, in the sense that a neighborhood of points around a value from that cycle"
+      },
+      {
+        "start": 912.6,
+        "duration": 6.0,
+        "text": "would tend to get pulled in towards that cycle. A highly relevant question for someone interested"
+      },
+      {
+        "start": 918.6,
+        "duration": 5.6,
+        "text": "in numerical methods is whether or not this Newton's map process ever has an attracting cycle,"
+      },
+      {
+        "start": 924.2,
+        "duration": 4.1,
+        "text": "because if there is, it means there's a non-zero chance that your initial guess gets trapped"
+      },
+      {
+        "start": 928.3,
+        "duration": 6.0,
+        "text": "in that cycle and it never finds a root. The answer here is actually yes. More explicitly,"
+      },
+      {
+        "start": 934.3,
+        "duration": 5.9,
+        "text": "if you try to find the roots of z cubed minus 2z plus 2, and you're using Newton's method,"
+      },
+      {
+        "start": 940.2,
+        "duration": 5.4,
+        "text": "watch what happens to a small cluster that starts around the value zero. It sort of bounces back"
+      },
+      {
+        "start": 945.6,
+        "duration": 4.6,
+        "text": "and forth. And, well, okay, in this case the cluster we started with was a little bit too big,"
+      },
+      {
+        "start": 950.2,
+        "duration": 4.4,
+        "text": "so some of the outer points get sprayed away, but here's what it looks like if we start with a"
+      },
+      {
+        "start": 954.6,
+        "duration": 5.8,
+        "text": "smaller cluster. Notice how all of the points genuinely do shrink in towards the cycle between zero"
+      },
+      {
+        "start": 960.4,
+        "duration": 4.5,
+        "text": "and one. It's not likely that you hit this with a random seed, but it definitely is possible."
+      },
+      {
+        "start": 965.8,
+        "duration": 4.4,
+        "text": "The exercise that you could do to verify that a cycle like this is attracting, by the way,"
+      },
+      {
+        "start": 970.2,
+        "duration": 6.0,
+        "text": "would be to compute the derivative of f of f of z, and you check that at the input zero,"
+      },
+      {
+        "start": 976.3,
+        "duration": 5.1,
+        "text": "this derivative has a magnitude less than one. The thing that blew my mind a little is what happens"
+      },
+      {
+        "start": 981.4,
+        "duration": 6.0,
+        "text": "when you try to visualize which cubic polynomials have attracting cycles at all. Hopefully,"
+      },
+      {
+        "start": 987.4,
+        "duration": 5.0,
+        "text": "if Newton's method is going to be at all decent at finding roots, those attracting cycles should be"
+      },
+      {
+        "start": 992.4,
+        "duration": 5.6,
+        "text": "rare. First of all, to better visualize the one example we're looking at, we could draw the same"
+      },
+      {
+        "start": 998.0,
+        "duration": 4.7,
+        "text": "fractal that we had before, coloring each point based on what root the seed value starting at that"
+      },
+      {
+        "start": 1002.7,
+        "duration": 5.1,
+        "text": "point will tend to. But this time, we'll have an added condition of coloring points that says that"
+      },
+      {
+        "start": 1007.8,
+        "duration": 6.2,
+        "text": "if the seed value never gets close enough to a root at all, we will color the pixel black. Notice,"
+      },
+      {
+        "start": 1014.0,
+        "duration": 5.4,
+        "text": "if I tweak the roots, meaning that we're trying out different cubic polynomials, it's actually"
+      },
+      {
+        "start": 1019.4,
+        "duration": 5.4,
+        "text": "really hard to find any place to put them so that we see any black pixels at all. I can find this"
+      },
+      {
+        "start": 1024.7,
+        "duration": 6.3,
+        "text": "one little sweet spot here, but it's definitely rare. Now what I want is some kind of way to visualize"
+      },
+      {
+        "start": 1031.0,
+        "duration": 5.5,
+        "text": "every possible cubic polynomial at once with a single image in a way that shows which ones have"
+      },
+      {
+        "start": 1036.6,
+        "duration": 5.6,
+        "text": "attracting cycles. Luckily, it turns out that there is a really simple way to test whether or not"
+      },
+      {
+        "start": 1042.2,
+        "duration": 5.4,
+        "text": "one of these polynomials has an attracting cycle. All you have to do is look at the seed value which"
+      },
+      {
+        "start": 1047.5,
+        "duration": 6.4,
+        "text": "sits at the average of the three roots, this center of mass here. Turns out this is not at all obvious,"
+      },
+      {
+        "start": 1053.9,
+        "duration": 5.3,
+        "text": "if there's an attracting cycle, you can guarantee that this seed value will fall into that attracting"
+      },
+      {
+        "start": 1059.2,
+        "duration": 6.9,
+        "text": "cycle. In other words, if there are any black points, this will be one of them. If you want to know"
+      },
+      {
+        "start": 1066.1,
+        "duration": 5.6,
+        "text": "where this magical fact comes from, it stems from a theorem of our good friend Fatou. He showed that"
+      },
+      {
+        "start": 1071.7,
+        "duration": 5.4,
+        "text": "if one of these rational maps has an attracting cycle, you can look at the values where the derivative"
+      },
+      {
+        "start": 1077.0,
+        "duration": 5.2,
+        "text": "of your iterated function equals zero, and at least one of those values has to fall into the cycle."
+      },
+      {
+        "start": 1083.2,
+        "duration": 4.9,
+        "text": "That might seem like a little bit of a weird fact, but the loose intuition is that if a cycle is"
+      },
+      {
+        "start": 1088.1,
+        "duration": 5.0,
+        "text": "going to be attracting, at least one of its values should have a very small derivative. That's where"
+      },
+      {
+        "start": 1093.1,
+        "duration": 5.8,
+        "text": "the shrinking will come from. And this in turn means that that value in the cycle sits near some point"
+      },
+      {
+        "start": 1098.9,
+        "duration": 5.0,
+        "text": "where the derivative is not merely small but equal to zero, and that point ends up being close enough"
+      },
+      {
+        "start": 1103.8,
+        "duration": 5.8,
+        "text": "to get sucked into the cycle. This fact also justifies why with the Mandelbrot set, where we were"
+      },
+      {
+        "start": 1109.7,
+        "duration": 5.8,
+        "text": "only using one seed value z equals zero, it's still enough to get us a very full and interesting picture."
+      },
+      {
+        "start": 1115.5,
+        "duration": 4.7,
+        "text": "If there's a stable cycle to be found, that one seed value is definitely going to find it."
+      },
+      {
+        "start": 1121.3,
+        "duration": 3.8,
+        "text": "I feel like maybe I'm assigning a little too much homework and exercises today,"
+      },
+      {
+        "start": 1125.1,
+        "duration": 4.7,
+        "text": "but if you're into that, yet another pleasing one would be to look back at the derivative"
+      },
+      {
+        "start": 1129.8,
+        "duration": 5.0,
+        "text": "expression that we found with our function that arises from Newton's method, and use this wonderful"
+      },
+      {
+        "start": 1134.8,
+        "duration": 5.9,
+        "text": "theorem of Fatou's to show our magical fact about cubic polynomials, that it suffices to just"
+      },
+      {
+        "start": 1140.7,
+        "duration": 4.7,
+        "text": "check this midpoint over the roots. Honestly though, all of those are details that you don't really"
+      },
+      {
+        "start": 1145.4,
+        "duration": 4.3,
+        "text": "have to worry about. The upshot is that we can perform a test for whether or not one of these"
+      },
+      {
+        "start": 1149.8,
+        "duration": 5.9,
+        "text": "polynomials has an attracting cycle by looking at just a single point, not all of them. And because"
+      },
+      {
+        "start": 1155.7,
+        "duration": 5.2,
+        "text": "of this, we can actually generate a really cool diagram. The way this will work is to fix two roots"
+      },
+      {
+        "start": 1160.9,
+        "duration": 5.3,
+        "text": "in place, let's say putting them at z equals negative one and z equals positive one, and then we'll"
+      },
+      {
+        "start": 1166.2,
+        "duration": 6.6,
+        "text": "move around that third root, which I'll call lambda. Remember, the key feature that we're looking for"
+      },
+      {
+        "start": 1172.7,
+        "duration": 5.4,
+        "text": "is when the point at the center of mass is black. So what we'll do is draw a second diagram"
+      },
+      {
+        "start": 1178.1,
+        "duration": 6.3,
+        "text": "on the right where each pixel corresponds to one possible choice of lambda. What we're going to do"
+      },
+      {
+        "start": 1184.4,
+        "duration": 5.9,
+        "text": "is color that pixel based on the color of this midpoint of the three roots. If this feels a little"
+      },
+      {
+        "start": 1190.3,
+        "duration": 5.2,
+        "text": "bit confusing, that's totally okay. There are kind of a lot of layers at play here. Just remember,"
+      },
+      {
+        "start": 1195.5,
+        "duration": 5.3,
+        "text": "each pixel on the right corresponds to a unique polynomial as determined by this parameter,"
+      },
+      {
+        "start": 1200.8,
+        "duration": 4.8,
+        "text": "lambda. In fact, you might call this a parameter space. Sound familiar?"
+      },
+      {
+        "start": 1213.8,
+        "duration": 6.1,
+        "text": "Points in this parameter space are colored black if and only if the Newton's method process for"
+      },
+      {
+        "start": 1220.0,
+        "duration": 5.5,
+        "text": "the corresponding polynomial produces an attracting cycle. Again, don't know if that takes a little"
+      },
+      {
+        "start": 1225.5,
+        "duration": 6.0,
+        "text": "moment to digest. Now, at first glance, it might not look like there are any black points at all"
+      },
+      {
+        "start": 1231.5,
+        "duration": 5.3,
+        "text": "on this diagram, and this is good news. It means that in most cases, Newton's method will not get"
+      },
+      {
+        "start": 1236.8,
+        "duration": 5.1,
+        "text": "sucked into cycles like this. But, and I think I've previewed this enough that you know exactly where"
+      },
+      {
+        "start": 1241.9,
+        "duration": 5.9,
+        "text": "this is going, if we zoom in, we can find a black region, and that black region looks exactly"
+      },
+      {
+        "start": 1247.9,
+        "duration": 5.4,
+        "text": "like a Mandelbrot set. Yet again, asking a question where we tweak a parameter for one of these"
+      },
+      {
+        "start": 1253.4,
+        "duration": 7.1,
+        "text": "functions yields this iconic cardioid and bubbles shape. The upshot is that this shape is not as specific"
+      },
+      {
+        "start": 1260.5,
+        "duration": 4.9,
+        "text": "to the z squared plus c example, as you might think. It seems to relate to something more general and"
+      },
+      {
+        "start": 1265.4,
+        "duration": 9.0,
+        "text": "universal about parameter spaces with processes like this. Still, one pressing question is why we get"
+      },
+      {
+        "start": 1274.3,
+        "duration": 5.2,
+        "text": "fractals at all. In the last video, I talked about how the diagrams for Newton's method have this"
+      },
+      {
+        "start": 1279.5,
+        "duration": 5.9,
+        "text": "very peculiar property where if you draw a small circle around the boundary of a colored region,"
+      },
+      {
+        "start": 1285.4,
+        "duration": 5.4,
+        "text": "that circle must actually include all available colors from the picture. And this is true more"
+      },
+      {
+        "start": 1290.9,
+        "duration": 5.1,
+        "text": "generally for any rational map. If you were to sign colors to regions based on which limiting"
+      },
+      {
+        "start": 1296.0,
+        "duration": 5.0,
+        "text": "behavior points fall into, like which limit point or which limit cycle or does it tend to infinity,"
+      },
+      {
+        "start": 1301.7,
+        "duration": 5.6,
+        "text": "then tiny circles that you draw either contain points with just one of those limiting behaviors,"
+      },
+      {
+        "start": 1307.3,
+        "duration": 6.0,
+        "text": "or they contain points with all of them. It's never anything in between. So in the case where there's"
+      },
+      {
+        "start": 1313.3,
+        "duration": 5.1,
+        "text": "at least three colors, this property implies that our boundary could never be smooth. Since along a"
+      },
+      {
+        "start": 1318.4,
+        "duration": 5.2,
+        "text": "smooth segment, you can draw a small enough circle that touches just two colors, not all of them."
+      },
+      {
+        "start": 1323.6,
+        "duration": 4.3,
+        "text": "And empirically, this is what we see. No matter how far you zoom in, these boundaries are always"
+      },
+      {
+        "start": 1327.9,
+        "duration": 5.4,
+        "text": "rough. And furthermore, you might notice that as we zoom in, you can always see all available"
+      },
+      {
+        "start": 1333.3,
+        "duration": 5.7,
+        "text": "colors within the frame. This doesn't explain rough boundaries in the context where there's only"
+      },
+      {
+        "start": 1339.0,
+        "duration": 4.6,
+        "text": "two limiting behaviors, but still, it's a loose end that I left in that video worth tying up,"
+      },
+      {
+        "start": 1343.6,
+        "duration": 5.4,
+        "text": "and it's a nice excuse to bring in two important bits of terminology, Julia sets and Fatou sets."
+      },
+      {
+        "start": 1350.1,
+        "duration": 4.6,
+        "text": "If a point eventually falls into some stable predictable pattern, we say that it's part of the"
+      },
+      {
+        "start": 1354.6,
+        "duration": 5.8,
+        "text": "Fatou set of our iterated function. And for all the maps that we've seen, this includes almost"
+      },
+      {
+        "start": 1360.4,
+        "duration": 6.2,
+        "text": "everything. The Julia set is everything else, which in the pictures we've seen would be the rough"
+      },
+      {
+        "start": 1366.6,
+        "duration": 5.4,
+        "text": "boundaries between the colored regions. What happens as you transition from one stable attractor to"
+      },
+      {
+        "start": 1371.9,
+        "duration": 5.8,
+        "text": "another? For example, the Julia set will include all of the repelling cycles and the repelling fixed"
+      },
+      {
+        "start": 1377.8,
+        "duration": 5.4,
+        "text": "points. A typical point from the Julia set, though, will not be a cycle. It'll bounce around forever"
+      },
+      {
+        "start": 1383.2,
+        "duration": 5.0,
+        "text": "with no clear pattern. Now, if you look at a point in the Fatou set and you draw a small enough"
+      },
+      {
+        "start": 1388.2,
+        "duration": 5.1,
+        "text": "disk around it, as you follow the process, that small disk will eventually shrink, as you fall into"
+      },
+      {
+        "start": 1393.4,
+        "duration": 4.9,
+        "text": "whatever the relevant stable behavior is. Unless you're going to infinity, but you could kind of think"
+      },
+      {
+        "start": 1398.2,
+        "duration": 3.7,
+        "text": "of that as the disk shrinking around infinity, but maybe that just confuses matters."
+      },
+      {
+        "start": 1404.6,
+        "duration": 5.5,
+        "text": "By contrast, if you draw a small disk around a point on the Julia set, it tends to expand over time,"
+      },
+      {
+        "start": 1410.1,
+        "duration": 3.8,
+        "text": "as the points from within that circle go off and kind of do their own things."
+      },
+      {
+        "start": 1415.8,
+        "duration": 5.2,
+        "text": "In other words, points of the Julia set tend to behave chaoticly. Their nearby neighbors,"
+      },
+      {
+        "start": 1421.0,
+        "duration": 4.2,
+        "text": "even very nearby, will eventually fall into qualitatively different behaviors."
+      },
+      {
+        "start": 1426.2,
+        "duration": 5.0,
+        "text": "But it's not merely that this disk expands. A pretty surprising result, key to the"
+      },
+      {
+        "start": 1431.2,
+        "duration": 5.0,
+        "text": "multi-color property mentioned before, is that if you let this process play out, that little disk"
+      },
+      {
+        "start": 1436.2,
+        "duration": 5.6,
+        "text": "eventually expands so much that it hits every single point on the complex plane with it most two"
+      },
+      {
+        "start": 1441.8,
+        "duration": 5.0,
+        "text": "exceptions. This is known as the stuff goes everywhere principle of Julia sets."
+      },
+      {
+        "start": 1447.7,
+        "duration": 3.7,
+        "text": "Okay, it's not actually called that, and the source I was reading from it's mentioned as a"
+      },
+      {
+        "start": 1451.4,
+        "duration": 5.1,
+        "text": "corollary to something known as Montel's theorem, but it should be called that. In some sense,"
+      },
+      {
+        "start": 1456.5,
+        "duration": 5.1,
+        "text": "what this is telling us is that the points of the Julia set are not merely chaotic. They're kind of"
+      },
+      {
+        "start": 1461.7,
+        "duration": 6.6,
+        "text": "as chaotic as they possibly can be. Here, let me show you a little simulation using the Newton's"
+      },
+      {
+        "start": 1468.2,
+        "duration": 5.0,
+        "text": "map, with a cluster of a few thousand points all starting from within a tiny, tiny distance,"
+      },
+      {
+        "start": 1473.2,
+        "duration": 2.7,
+        "text": "one one millionth, from a point on the Julia set."
+      },
+      {
+        "start": 1483.0,
+        "duration": 4.7,
+        "text": "Of course, the stuff goes everywhere principle is about the uncountably infinitely many points"
+      },
+      {
+        "start": 1487.7,
+        "duration": 3.9,
+        "text": "that would lie within that distance, and that they eventually expand out to hit everything on the"
+      },
+      {
+        "start": 1491.6,
+        "duration": 5.4,
+        "text": "plane, except possibly two points. But this little cluster should still give the general idea."
+      },
+      {
+        "start": 1497.0,
+        "duration": 5.1,
+        "text": "A small finite sample from that tiny disk gets sprayed all over the place in seemingly all"
+      },
+      {
+        "start": 1502.1,
+        "duration": 6.6,
+        "text": "directions. What this means for our purposes is that if there's some attractive behavior of our map,"
+      },
+      {
+        "start": 1508.6,
+        "duration": 4.4,
+        "text": "something like an attracting fixed point or an attracting cycle, you can be guaranteed that the"
+      },
+      {
+        "start": 1513.0,
+        "duration": 4.7,
+        "text": "values from that tiny disk around the point on the Julia set, no matter how tiny it was,"
+      },
+      {
+        "start": 1517.8,
+        "duration": 4.9,
+        "text": "will eventually fall into that attracting behavior. If we have a case with three or more attracting"
+      },
+      {
+        "start": 1522.6,
+        "duration": 5.4,
+        "text": "behaviors, this gives us some explanation for why the Julia set is not smooth, but it has to be"
+      },
+      {
+        "start": 1528.0,
+        "duration": 5.3,
+        "text": "complicated. Even still, this might not be entirely satisfying because it kicks the can one more"
+      },
+      {
+        "start": 1533.3,
+        "duration": 4.3,
+        "text": "step down the road, raising the question of why this stuff goes everywhere principle is true in"
+      },
+      {
+        "start": 1537.6,
+        "duration": 5.0,
+        "text": "the first place. Like I mentioned, it comes from something called Montel's theorem, and I'm"
+      },
+      {
+        "start": 1542.6,
+        "duration": 4.6,
+        "text": "choosing not to go into the details there, because honestly, it's a lot to cover. The proof I"
+      },
+      {
+        "start": 1547.2,
+        "duration": 4.6,
+        "text": "could find ends up leaning on something known as the J function, which is a whole intricate story"
+      },
+      {
+        "start": 1551.8,
+        "duration": 3.8,
+        "text": "in its own right, I will of course leave links and resources in the description for any of you who"
+      },
+      {
+        "start": 1555.6,
+        "duration": 4.7,
+        "text": "are hungry to learn more. And if you know of a simpler way to see why this principle is true,"
+      },
+      {
+        "start": 1560.3,
+        "duration": 4.6,
+        "text": "I'm definitely all ears. I should also say, as a brief side note, that even though the pictures"
+      },
+      {
+        "start": 1564.9,
+        "duration": 4.6,
+        "text": "we've seen so far have a Julia set, which has an area of zero, it's kind of the boundary between"
+      },
+      {
+        "start": 1569.5,
+        "duration": 5.2,
+        "text": "these regions, there are examples where the Julia set is the entire plane, everything behaves"
+      },
+      {
+        "start": 1574.7,
+        "duration": 7.0,
+        "text": "chaotically, which is kind of wild. The main takeaway for this particular section is the link between"
+      },
+      {
+        "start": 1581.7,
+        "duration": 5.0,
+        "text": "the chaos and the fractal. At first it seems like these are merely analogous to each other,"
+      },
+      {
+        "start": 1586.6,
+        "duration": 4.1,
+        "text": "you know, Newton's method turns out to be a kind of messy process for some seed values,"
+      },
+      {
+        "start": 1590.7,
+        "duration": 4.8,
+        "text": "and this messiness is visible one way by following the trajectory of a particular point,"
+      },
+      {
+        "start": 1595.6,
+        "duration": 5.6,
+        "text": "and another way by the complexity of our diagrams, but those feel like qualitatively different kinds"
+      },
+      {
+        "start": 1601.2,
+        "duration": 5.4,
+        "text": "of messiness. Maybe it makes for a nice metaphor, but nothing more. However, what's neat here is that"
+      },
+      {
+        "start": 1606.6,
+        "duration": 5.8,
+        "text": "when you quantify just how chaotic some of the points are, well, that quantification leads us to"
+      },
+      {
+        "start": 1612.3,
+        "duration": 6.0,
+        "text": "an actual explanation for the rough fractal shape via this boundary property. Quite often, you see"
+      },
+      {
+        "start": 1618.3,
+        "duration": 5.1,
+        "text": "chaos and fractals sort of married together in math, and to me at least it's satisfying whenever"
+      },
+      {
+        "start": 1623.4,
+        "duration": 5.1,
+        "text": "that marriage comes with a logical link to it, rather than as two phenomena that just happened to go"
+      },
+      {
+        "start": 1628.6,
+        "duration": 8.0,
+        "text": "inside."
+      }
+    ],
+    "full_text": "Today, I'd like to tell you about a piece of math known as holomorphic dynamics. This is the field which studies things like the mandalbrut set, and in fact, one of my main goals today is to show you how this iconic shape, the poster child of math, pops up in a more general way than the initial definition might suggest. Now this field is also intimately tied to what we talked about in the last video, with Newton's Rackdoll, and another goal of ours towards the end of this video will be to help tie up some of the loose ends that we had there. So first of all, this word holomorphic might seem a little weird. It refers to functions that have complex number inputs and complex number outputs, and which you can also take a derivative of. Basically, what it means to have a derivative in this context is that when you zoom in to how the function behaves near a given point to the point and its neighbors, it looks roughly like scaling and rotating, like multiplying by some complex constant. We'll talk more about that in just a bit, but for now, know that it includes most of the ordinary functions that you could write down, things like polynomials, exponentials, trig functions, all of that. The relevant dynamics in the title here comes from asking what happens when you repeatedly apply one of these functions over and over, in the sense of evaluating on some input, then evaluating the same function on whatever you just got out, and then doing that again, and again and again. Sometimes the pattern of points emerging from this gets trapped in a cycle. Other times, the sequence will just approach some kind of limiting point. Or maybe the sequence gets bigger and bigger and it flies off to infinity, which mathematicians also kind of think of as approaching a limit point to the point at infinity. And other times still, they have no pattern at all, and they behave chaotically. What's surprising is that for all sorts of functions that you might write down, when you try to do something to visualize when these different possible behaviors arise, it often results in some insanely intricate fractal pattern. Those of you who watched the last video have already seen one neat example of this. There's this algorithm called Newton's method, which finds the root of some polynomial P, and the way it works is to basically repeatedly iterate the expression x minus p of x divided by P prime of x, P prime being the derivative. When your initial seed value is in the loose vicinity of a root to that polynomial, a value where P of x equals 0, this procedure produces a sequence of values that really quickly converges to that root. This is what makes it a useful algorithm in practice. But then we tried to do this in the complex plane, looking at the many possible seed values and asking which root in the complex plane each one of these seed values might end up on. Then we associated a color with each one of the roots and then colored each pixel of the plane based on which root a seed value starting at that pixel would ultimately land on. The results we got were some of these insanely intricate pictures with these rough fractal boundaries between the colors. Now in this example, if you look at the function that we're actually iterating, say for some specific choice of a polynomial, like z cubed minus 1, you can rewrite the whole expression to look like one polynomial divided by another. Mathematicians call these kinds of functions Rational functions. And if you forget the fact that this arose from Newton's method, you could reasonably ask what happens when you iterate any other rational function. And in fact, this is exactly what the mathematicians P.R. Fatou and Gaston Julia did in the years immediately following World War I. And they built up a surprisingly rich theory of what happens when you iterate these rational functions, which is particularly impressive given that they had no computers to visualize any of this the way that you and I can. Now remember those two names, they'll come up a bit later. By far, the most popularized example of a rational function that you might study like this, and the fractals that can ensue, is one of the simplest functions, z squared plus c, where c is some constant. I'm going to guess that this is at least somewhat familiar to many of you, but it certainly doesn't hurt to quickly summarize the store here since it can help set the stage for what comes later. For this game, we're going to think of c as a value that can be changed, and it'll be visible as this movable yellow dot. For the actual iterative process, we will always start with an initial value of z equals zero. So after iterating this function once, doing z squared plus c, you get c. If you iterate a second time, plugging in that value to the function, you get c squared plus c. And as I change around the value c here, you can kind of see how the second value moves in lock step. Then we can plug in that second value to get z3, and that third value to get z4, and continue on like this, visualizing our chain of values. So if I keep doing this many different times for the first many values, for some choices of c, this process remains bounded. You can still see it all on the screen. Another times it looks like it blows up, and you can actually show that if it gets as big as two, it'll blow up to infinity. If you color the points of the plane where it stays bounded, black, and you assign some other gradient of colors to the divergent values, based on how quickly the process rushes off to infinity, you get one of the most iconic images in all of math, the Mandelbrot set. Now this interactive dots and stick visualization of the trajectory, by the way, is heavily inspired by Ben Sparks illustration in the number file video he did about the Mandelbrot set, which is great, you should watch it. I honestly thought it was just too fun not to re-implement here. I would also highly recommend the interactive article on echo.net about all of this stuff, or any of you who haven't had the pleasure of reading that yet. What's nice about the Ben Sparks illustration is how it illuminates what each different part of the Mandelbrot set actually represents. This largest cardioid section includes the values of c so that the process eventually converges to some limit. The big circle on the left represents the values where the process gets trapped in a cycle between two values. And then the top and bottom circles show values where the process gets trapped in a cycle of three values, and so on like this, each one of these little islands kind of has its own meaning. Also notice, there's an important difference between how this Mandelbrot set and the Newton fractals we were looking at before are each constructed, beyond just a different underlying function. For the Mandelbrot set, we have a consistent seed value, z equals zero, but the thing we're tweaking is the parameter, c, changing the function itself. So what you're looking at is what we might call a parameter space. But with Newton's fractal, we have a single unchanging function, but what we associate with each pixel is a different seed value for the process. Of course, we could play the same game with the map z squared plus c, we could fix c at some constant, and then let the pixels represent the different possible initial values z not. So whereas each pixel of the Mandelbrot set corresponds to a unique function, the image is on the right, each just corresponds to a single function. As we change the parameter c, it changes the entire image on the right. And again, just to be clear, the rule being applied is that we color pixels black if the process remains bounded, and then apply some kind of gradient to the ones that diverge away to infinity based on how quickly they diverge to infinity. In principle, and it's kind of mind-wurping to think about, there is some four-dimensional space of all combinations of c and z not. And what we're doing here is kind of looking through individual two-dimensional slices of that unimaginable pattern. You'll often hear or read the images on the right being referred to as Julia sets or Julia fractals. And when I first learned about all this stuff, I'll admit that I kind of was left with the misconception that this is what the term Julia set refers to, specifically the z squared plus c case, and moreover that it's referring to the black region on the inside. However, the term Julia set has a much more general definition, and it would refer just to the boundaries of these regions, not the interior. To set the state for a more specific definition, and to also make some headway towards the first goal that I mentioned at the start, it's worth stepping back and really just picturing yourself as a mathematician right now, discovering all of this. What would you actually do to construct a theory around this? It's one thing to look at some pretty pictures, but what sorts of questions would you ask if you actually want to understand it all? In general, if you want to understand something complicated, a good place to start is to ask if there are any parts of the system that have some simple behavior, preferably the simplest possible behavior. And in our example, that might mean asking when does the process just stay fixed in place, meaning f of z is equal to z. That's a pretty boring set of dynamics, I think you'd agree. We call a value with this property a fixed point of the function. In the case of the functions arising from Newton's method, by design, they have a fixed point at the roots of the relevant polynomial. You can verify for yourself, if p of z is equal to zero, then the entire expression is simply equal to z. That's what it means to be a fixed point. If you're into exercises, you may enjoy pausing for a moment and computing the fixed points of this Mandelbrot set function, z squared plus c. More generally, any rational function will always have fixed points, since asking when this expression equals z can always be rearranged as finding the roots of some polynomial expression. And from the fundamental theorem of algebra, this must have solutions, typically as many solutions as the highest degree in this expression. Incidentally, this means that you could also find those fixed points using Newton's method, but maybe that's a little bit too meta for us right now. Now just asking about fixed points is maybe easy, but a key idea for understanding the full dynamics, and hence the diagrams that we're looking at, is to understand stability. We say that a fixed point is attracting, if nearby points tend to get drawn in towards it, and repelling if they're pushed away. And this is something that you can actually compute, explicitly, using the derivative of the function. Symbolically, when you take derivatives of complex functions, it looks exactly the same as it would for real functions, though something like z squared has a derivative of 2 times z. But geometrically, there's a really lovely way to interpret what this means. For example, at the input 1, the derivative of this particular function evaluates to be 2. And what that's telling us is that if you look at a very small neighborhood around that input, and you follow what happens to all the points in that little neighborhood as you apply the function, in this case z squared, then it looks just like you're multiplying by 2. This is what a derivative of 2 means. To take another example, let's look at the input i. We know that this function moves that input to the value negative 1, that's i squared. But the added information that it's derivative at this value is 2 times i gives us the added picture that when you zoom in around that point, and you look at the action of the function on this tiny neighborhood, it looks like multiplication by 2i, which in this case is saying it looks like a 90 degree rotation combined with a expansion by a factor of 2. For the purposes of analyzing stability, the only thing we care about here is the growing and shrinking factor. The rotational part doesn't matter. So if you compute the derivative of a function at its fixed point, and the absolute value of this result is less than 1, it tells you that the fixed point is attracting, that nearby points tend to come in towards it. If that derivative has an absolute value bigger than 1, it tells you the fixed point is repelling, it pushes away its neighbors. For example, if you work out the derivative of our Newton's map expression, and you simplify a couple things a little bit, here's what you would get out. So if z is a fixed point, which in this context means that it's one of the roots of the polynomial p, this derivative is not only smaller than 1, it's equal to 0. These are sometimes called super attracting fixed points, since it means that a neighborhood around these points doesn't merely shrink, it shrinks a lot. And again, this is kind of by design, since the intent of Newton's method is to produce iterations that fall towards a root as quickly as they can. Pulling up our z squared plus c example, if you did the first exercise to find its fixed points, the next step would be to ask, when is at least one of those fixed points attracting? For what values of c is this going to be true? And then, if that's not enough of a challenge, try using the result that you find to show that this condition corresponds to the main cardioid shape of the mandal broad set. This is something you can compute explicitly, it's pretty cool. A natural next step would be to ask about cycles, and this is where things really start to get interesting. If f of z is not z, but some other value, and then that value comes back to z, it means that you fall into a two cycle. You could explicitly find these kinds of two cycles by evaluating f of f of z, and then setting it equal to z. For example, with the z squared plus c map, f of f of z expands out to look like this. A little messy, but it's not too terrible. The main thing to highlight is that it boils down to solving some degree for equation. You should note though that the fixed points will also be solutions to this equation, so technically the two cycles are the solutions to this minus the solutions to the original fixed point equation. And likewise, you can use the same idea to look for n cycles by composing f with itself n different times. The explicit expressions that you would get quickly become insanely messy, but it's still elucidating to ask how many cycles would you expect based on this hypothetical process. If we stick with our simple z squared plus c example, as you compose it with itself, you get a polynomial with degree four, and then one with degree eight, and then degree sixteen, and so on and so on, exponentially growing the order of the polynomial. So in principle, if I asked you how many cycles are there with a period of one million, you can know that it's equivalent to solving some just absolutely insane polynomial expression with a degree of two to the one million. So, again, fundamental theorem of algebra, you would expect to find something on the order of two to the one million points in the complex plane, which cycle in exactly this way. And more generally, for any rational map, you'll always be able to find values whose behavior falls into a cycle with period n, and ultimately boils down to solving some probably insane polynomial expression. And just like with this example, the number of such periodic points will grow exponentially within. I didn't really talk about this in the last video about Newton's fractal, but it's sort of strange to think that there are infinitely many points that fall into some kind of cycle even for a process like this. In almost all cases though, these points are somewhere on the boundary between those colored regions, and they don't really come up in practice because the probability of landing on one of them is zero. What matters for actually falling into one of these is if one of the cycles is attracting, in the sense that a neighborhood of points around a value from that cycle would tend to get pulled in towards that cycle. A highly relevant question for someone interested in numerical methods is whether or not this Newton's map process ever has an attracting cycle, because if there is, it means there's a non-zero chance that your initial guess gets trapped in that cycle and it never finds a root. The answer here is actually yes. More explicitly, if you try to find the roots of z cubed minus 2z plus 2, and you're using Newton's method, watch what happens to a small cluster that starts around the value zero. It sort of bounces back and forth. And, well, okay, in this case the cluster we started with was a little bit too big, so some of the outer points get sprayed away, but here's what it looks like if we start with a smaller cluster. Notice how all of the points genuinely do shrink in towards the cycle between zero and one. It's not likely that you hit this with a random seed, but it definitely is possible. The exercise that you could do to verify that a cycle like this is attracting, by the way, would be to compute the derivative of f of f of z, and you check that at the input zero, this derivative has a magnitude less than one. The thing that blew my mind a little is what happens when you try to visualize which cubic polynomials have attracting cycles at all. Hopefully, if Newton's method is going to be at all decent at finding roots, those attracting cycles should be rare. First of all, to better visualize the one example we're looking at, we could draw the same fractal that we had before, coloring each point based on what root the seed value starting at that point will tend to. But this time, we'll have an added condition of coloring points that says that if the seed value never gets close enough to a root at all, we will color the pixel black. Notice, if I tweak the roots, meaning that we're trying out different cubic polynomials, it's actually really hard to find any place to put them so that we see any black pixels at all. I can find this one little sweet spot here, but it's definitely rare. Now what I want is some kind of way to visualize every possible cubic polynomial at once with a single image in a way that shows which ones have attracting cycles. Luckily, it turns out that there is a really simple way to test whether or not one of these polynomials has an attracting cycle. All you have to do is look at the seed value which sits at the average of the three roots, this center of mass here. Turns out this is not at all obvious, if there's an attracting cycle, you can guarantee that this seed value will fall into that attracting cycle. In other words, if there are any black points, this will be one of them. If you want to know where this magical fact comes from, it stems from a theorem of our good friend Fatou. He showed that if one of these rational maps has an attracting cycle, you can look at the values where the derivative of your iterated function equals zero, and at least one of those values has to fall into the cycle. That might seem like a little bit of a weird fact, but the loose intuition is that if a cycle is going to be attracting, at least one of its values should have a very small derivative. That's where the shrinking will come from. And this in turn means that that value in the cycle sits near some point where the derivative is not merely small but equal to zero, and that point ends up being close enough to get sucked into the cycle. This fact also justifies why with the Mandelbrot set, where we were only using one seed value z equals zero, it's still enough to get us a very full and interesting picture. If there's a stable cycle to be found, that one seed value is definitely going to find it. I feel like maybe I'm assigning a little too much homework and exercises today, but if you're into that, yet another pleasing one would be to look back at the derivative expression that we found with our function that arises from Newton's method, and use this wonderful theorem of Fatou's to show our magical fact about cubic polynomials, that it suffices to just check this midpoint over the roots. Honestly though, all of those are details that you don't really have to worry about. The upshot is that we can perform a test for whether or not one of these polynomials has an attracting cycle by looking at just a single point, not all of them. And because of this, we can actually generate a really cool diagram. The way this will work is to fix two roots in place, let's say putting them at z equals negative one and z equals positive one, and then we'll move around that third root, which I'll call lambda. Remember, the key feature that we're looking for is when the point at the center of mass is black. So what we'll do is draw a second diagram on the right where each pixel corresponds to one possible choice of lambda. What we're going to do is color that pixel based on the color of this midpoint of the three roots. If this feels a little bit confusing, that's totally okay. There are kind of a lot of layers at play here. Just remember, each pixel on the right corresponds to a unique polynomial as determined by this parameter, lambda. In fact, you might call this a parameter space. Sound familiar? Points in this parameter space are colored black if and only if the Newton's method process for the corresponding polynomial produces an attracting cycle. Again, don't know if that takes a little moment to digest. Now, at first glance, it might not look like there are any black points at all on this diagram, and this is good news. It means that in most cases, Newton's method will not get sucked into cycles like this. But, and I think I've previewed this enough that you know exactly where this is going, if we zoom in, we can find a black region, and that black region looks exactly like a Mandelbrot set. Yet again, asking a question where we tweak a parameter for one of these functions yields this iconic cardioid and bubbles shape. The upshot is that this shape is not as specific to the z squared plus c example, as you might think. It seems to relate to something more general and universal about parameter spaces with processes like this. Still, one pressing question is why we get fractals at all. In the last video, I talked about how the diagrams for Newton's method have this very peculiar property where if you draw a small circle around the boundary of a colored region, that circle must actually include all available colors from the picture. And this is true more generally for any rational map. If you were to sign colors to regions based on which limiting behavior points fall into, like which limit point or which limit cycle or does it tend to infinity, then tiny circles that you draw either contain points with just one of those limiting behaviors, or they contain points with all of them. It's never anything in between. So in the case where there's at least three colors, this property implies that our boundary could never be smooth. Since along a smooth segment, you can draw a small enough circle that touches just two colors, not all of them. And empirically, this is what we see. No matter how far you zoom in, these boundaries are always rough. And furthermore, you might notice that as we zoom in, you can always see all available colors within the frame. This doesn't explain rough boundaries in the context where there's only two limiting behaviors, but still, it's a loose end that I left in that video worth tying up, and it's a nice excuse to bring in two important bits of terminology, Julia sets and Fatou sets. If a point eventually falls into some stable predictable pattern, we say that it's part of the Fatou set of our iterated function. And for all the maps that we've seen, this includes almost everything. The Julia set is everything else, which in the pictures we've seen would be the rough boundaries between the colored regions. What happens as you transition from one stable attractor to another? For example, the Julia set will include all of the repelling cycles and the repelling fixed points. A typical point from the Julia set, though, will not be a cycle. It'll bounce around forever with no clear pattern. Now, if you look at a point in the Fatou set and you draw a small enough disk around it, as you follow the process, that small disk will eventually shrink, as you fall into whatever the relevant stable behavior is. Unless you're going to infinity, but you could kind of think of that as the disk shrinking around infinity, but maybe that just confuses matters. By contrast, if you draw a small disk around a point on the Julia set, it tends to expand over time, as the points from within that circle go off and kind of do their own things. In other words, points of the Julia set tend to behave chaoticly. Their nearby neighbors, even very nearby, will eventually fall into qualitatively different behaviors. But it's not merely that this disk expands. A pretty surprising result, key to the multi-color property mentioned before, is that if you let this process play out, that little disk eventually expands so much that it hits every single point on the complex plane with it most two exceptions. This is known as the stuff goes everywhere principle of Julia sets. Okay, it's not actually called that, and the source I was reading from it's mentioned as a corollary to something known as Montel's theorem, but it should be called that. In some sense, what this is telling us is that the points of the Julia set are not merely chaotic. They're kind of as chaotic as they possibly can be. Here, let me show you a little simulation using the Newton's map, with a cluster of a few thousand points all starting from within a tiny, tiny distance, one one millionth, from a point on the Julia set. Of course, the stuff goes everywhere principle is about the uncountably infinitely many points that would lie within that distance, and that they eventually expand out to hit everything on the plane, except possibly two points. But this little cluster should still give the general idea. A small finite sample from that tiny disk gets sprayed all over the place in seemingly all directions. What this means for our purposes is that if there's some attractive behavior of our map, something like an attracting fixed point or an attracting cycle, you can be guaranteed that the values from that tiny disk around the point on the Julia set, no matter how tiny it was, will eventually fall into that attracting behavior. If we have a case with three or more attracting behaviors, this gives us some explanation for why the Julia set is not smooth, but it has to be complicated. Even still, this might not be entirely satisfying because it kicks the can one more step down the road, raising the question of why this stuff goes everywhere principle is true in the first place. Like I mentioned, it comes from something called Montel's theorem, and I'm choosing not to go into the details there, because honestly, it's a lot to cover. The proof I could find ends up leaning on something known as the J function, which is a whole intricate story in its own right, I will of course leave links and resources in the description for any of you who are hungry to learn more. And if you know of a simpler way to see why this principle is true, I'm definitely all ears. I should also say, as a brief side note, that even though the pictures we've seen so far have a Julia set, which has an area of zero, it's kind of the boundary between these regions, there are examples where the Julia set is the entire plane, everything behaves chaotically, which is kind of wild. The main takeaway for this particular section is the link between the chaos and the fractal. At first it seems like these are merely analogous to each other, you know, Newton's method turns out to be a kind of messy process for some seed values, and this messiness is visible one way by following the trajectory of a particular point, and another way by the complexity of our diagrams, but those feel like qualitatively different kinds of messiness. Maybe it makes for a nice metaphor, but nothing more. However, what's neat here is that when you quantify just how chaotic some of the points are, well, that quantification leads us to an actual explanation for the rough fractal shape via this boundary property. Quite often, you see chaos and fractals sort of married together in math, and to me at least it's satisfying whenever that marriage comes with a logical link to it, rather than as two phenomena that just happened to go inside."
+  }
+}

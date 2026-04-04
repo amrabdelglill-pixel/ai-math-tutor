@@ -1,0 +1,3404 @@
+{
+  "video_id": "hFMaT9oRbs4",
+  "video_title": "Terence Tao continuing history’s cleverest cosmological measurements",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1535.0,
+  "view_count": 1453915,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.0,
+        "text": "This animation is zooming out by a factor of 10 every 2 seconds."
+      },
+      {
+        "start": 4.0,
+        "duration": 1.6,
+        "text": "Maybe you've seen things like this before,"
+      },
+      {
+        "start": 5.7,
+        "duration": 3.0,
+        "text": "conveying the mind-boggling scale of our universe."
+      },
+      {
+        "start": 8.6,
+        "duration": 3.4,
+        "text": "But here, in this video, you and I are gonna continue the saga"
+      },
+      {
+        "start": 12.0,
+        "duration": 2.2,
+        "text": "through the many moments of delightful ingenuity"
+      },
+      {
+        "start": 14.3,
+        "duration": 3.0,
+        "text": "throughout human history that led us to first discover"
+      },
+      {
+        "start": 17.3,
+        "duration": 2.9,
+        "text": "how far away objects in the cosmos really are."
+      },
+      {
+        "start": 20.2,
+        "duration": 2.4,
+        "text": "Appreciating how we know these distances"
+      },
+      {
+        "start": 22.6,
+        "duration": 3.0,
+        "text": "is to me more amazing than the distances themselves."
+      },
+      {
+        "start": 25.6,
+        "duration": 2.9,
+        "text": "This is part 2 of a collaboration with Terrence Tao,"
+      },
+      {
+        "start": 28.5,
+        "duration": 2.3,
+        "text": "and it's okay if you haven't yet seen part 1."
+      },
+      {
+        "start": 30.8,
+        "duration": 2.3,
+        "text": "Each video should be relatively self-contained,"
+      },
+      {
+        "start": 33.1,
+        "duration": 2.9,
+        "text": "but for context, we left off with Kepler's ingenious method"
+      },
+      {
+        "start": 36.0,
+        "duration": 2.4,
+        "text": "for deducing the shapes of all of the orbits"
+      },
+      {
+        "start": 38.4,
+        "duration": 1.7,
+        "text": "of the planets around the Sun."
+      },
+      {
+        "start": 40.1,
+        "duration": 2.0,
+        "text": "So people knew what the solar system looked like,"
+      },
+      {
+        "start": 42.1,
+        "duration": 2.8,
+        "text": "but they still didn't have an exact sense of scale."
+      },
+      {
+        "start": 44.9,
+        "duration": 3.0,
+        "text": "And this left astronomers hungry to measure any distance"
+      },
+      {
+        "start": 47.8,
+        "duration": 1.8,
+        "text": "that they could in this system,"
+      },
+      {
+        "start": 49.6,
+        "duration": 2.6,
+        "text": "like maybe how far away a given planet is from Earth"
+      },
+      {
+        "start": 52.3,
+        "duration": 1.2,
+        "text": "at a given moment."
+      },
+      {
+        "start": 53.5,
+        "duration": 3.6,
+        "text": "Since that would be enough to lock everything else into place."
+      },
+      {
+        "start": 57.1,
+        "duration": 2.1,
+        "text": "Now, I'll admit, while I had vaguely learned"
+      },
+      {
+        "start": 59.2,
+        "duration": 1.5,
+        "text": "about how this was done before,"
+      },
+      {
+        "start": 60.7,
+        "duration": 2.3,
+        "text": "I definitely had not appreciated the cleverness"
+      },
+      {
+        "start": 63.0,
+        "duration": 2.0,
+        "text": "of the details."
+      },
+      {
+        "start": 65.0,
+        "duration": 2.1,
+        "text": "You could measure distances to the planets,"
+      },
+      {
+        "start": 67.1,
+        "duration": 2.2,
+        "text": "like Venus, take two measurements on different sides"
+      },
+      {
+        "start": 69.4,
+        "duration": 2.2,
+        "text": "of the Earth, around the time a captain cook"
+      },
+      {
+        "start": 71.5,
+        "duration": 3.3,
+        "text": "when they were traveling to discover Australia and so forth."
+      },
+      {
+        "start": 74.9,
+        "duration": 1.6,
+        "text": "Part of the reason for this was the scientific mission."
+      },
+      {
+        "start": 76.5,
+        "duration": 2.1,
+        "text": "I mean, they wanted to know the distance to Venus"
+      },
+      {
+        "start": 78.5,
+        "duration": 1.1,
+        "text": "and Mars and so forth."
+      },
+      {
+        "start": 79.7,
+        "duration": 1.5,
+        "text": "They wanted people to take precise measurements,"
+      },
+      {
+        "start": 81.1,
+        "duration": 1.5,
+        "text": "they wanted to one in Greenwich in the UK"
+      },
+      {
+        "start": 82.7,
+        "duration": 2.0,
+        "text": "and one somewhere in Southern Hemisphere,"
+      },
+      {
+        "start": 84.7,
+        "duration": 1.9,
+        "text": "at exactly the same time, or the same object."
+      },
+      {
+        "start": 87.3,
+        "duration": 2.3,
+        "text": "The key idea here is that as you sail down"
+      },
+      {
+        "start": 89.6,
+        "duration": 1.9,
+        "text": "to the Southern Hemisphere and you observe"
+      },
+      {
+        "start": 91.5,
+        "duration": 1.6,
+        "text": "a given object up in the sky,"
+      },
+      {
+        "start": 93.1,
+        "duration": 2.0,
+        "text": "its position in the sky, say relative"
+      },
+      {
+        "start": 95.1,
+        "duration": 3.1,
+        "text": "to the background constellations, will appear to shift up"
+      },
+      {
+        "start": 98.2,
+        "duration": 2.6,
+        "text": "as the angle of your line of sight slowly changes"
+      },
+      {
+        "start": 100.9,
+        "duration": 1.1,
+        "text": "with your position."
+      },
+      {
+        "start": 101.9,
+        "duration": 1.4,
+        "text": "We call this parallax."
+      },
+      {
+        "start": 103.3,
+        "duration": 2.4,
+        "text": "It is the same parallax that we use with binocular vision."
+      },
+      {
+        "start": 105.7,
+        "duration": 1.2,
+        "text": "Our eyes are a certain distance apart"
+      },
+      {
+        "start": 106.9,
+        "duration": 1.7,
+        "text": "and so we can determine death for any distance"
+      },
+      {
+        "start": 108.6,
+        "duration": 2.6,
+        "text": "that's not too much larger than the distance your eyes."
+      },
+      {
+        "start": 111.2,
+        "duration": 1.8,
+        "text": "Since that now we figured out how to make two eyeballs"
+      },
+      {
+        "start": 113.0,
+        "duration": 1.7,
+        "text": "on different sides of the Earth."
+      },
+      {
+        "start": 114.7,
+        "duration": 1.9,
+        "text": "Now, if you want to turn this into a measurement,"
+      },
+      {
+        "start": 116.6,
+        "duration": 2.7,
+        "text": "you first need to understand this line right here,"
+      },
+      {
+        "start": 119.3,
+        "duration": 2.4,
+        "text": "connecting the two different observation points,"
+      },
+      {
+        "start": 121.7,
+        "duration": 2.3,
+        "text": "both its distance and its direction,"
+      },
+      {
+        "start": 124.0,
+        "duration": 1.7,
+        "text": "because people knew the size of the Earth"
+      },
+      {
+        "start": 125.7,
+        "duration": 1.7,
+        "text": "and they could tell where they were on the Earth,"
+      },
+      {
+        "start": 127.4,
+        "duration": 1.5,
+        "text": "that would be taken care of."
+      },
+      {
+        "start": 128.9,
+        "duration": 1.8,
+        "text": "Then the hard part is for the first observer"
+      },
+      {
+        "start": 130.8,
+        "duration": 1.8,
+        "text": "to take a precise enough measurement"
+      },
+      {
+        "start": 132.6,
+        "duration": 2.0,
+        "text": "of the viewing angle to this object."
+      },
+      {
+        "start": 134.6,
+        "duration": 2.0,
+        "text": "They need to deduce this angle here"
+      },
+      {
+        "start": 136.7,
+        "duration": 2.3,
+        "text": "and for the second observer to do likewise."
+      },
+      {
+        "start": 138.9,
+        "duration": 1.8,
+        "text": "If you can do that, you have a triangle"
+      },
+      {
+        "start": 140.8,
+        "duration": 1.9,
+        "text": "where you know all three of the angles"
+      },
+      {
+        "start": 142.7,
+        "duration": 2.1,
+        "text": "and you also know one of the side lengths."
+      },
+      {
+        "start": 144.8,
+        "duration": 2.2,
+        "text": "This means with just a little bit of trigonometry,"
+      },
+      {
+        "start": 147.0,
+        "duration": 2.0,
+        "text": "you can figure out any other side length,"
+      },
+      {
+        "start": 148.9,
+        "duration": 2.2,
+        "text": "which for example tells you how far away this object"
+      },
+      {
+        "start": 151.1,
+        "duration": 2.1,
+        "text": "is from one of the observers."
+      },
+      {
+        "start": 153.2,
+        "duration": 1.2,
+        "text": "Now the way I'm drawing it here,"
+      },
+      {
+        "start": 154.4,
+        "duration": 1.6,
+        "text": "it makes it look almost easy."
+      },
+      {
+        "start": 156.0,
+        "duration": 1.3,
+        "text": "But for the real world measurement,"
+      },
+      {
+        "start": 157.3,
+        "duration": 2.9,
+        "text": "you have to keep in mind just how far away everything is."
+      },
+      {
+        "start": 160.3,
+        "duration": 1.5,
+        "text": "If we zoom out so that they're both looking"
+      },
+      {
+        "start": 161.8,
+        "duration": 1.8,
+        "text": "at something as far away as the moon,"
+      },
+      {
+        "start": 163.6,
+        "duration": 1.5,
+        "text": "it would look something like this."
+      },
+      {
+        "start": 165.1,
+        "duration": 3.0,
+        "text": "But the moon cosmologically speaking is really quite close."
+      },
+      {
+        "start": 168.1,
+        "duration": 3.0,
+        "text": "So even if both of them are looking at the nearest planet,"
+      },
+      {
+        "start": 171.1,
+        "duration": 3.3,
+        "text": "Venus, when it is that it's absolute closest to Earth,"
+      },
+      {
+        "start": 174.4,
+        "duration": 3.0,
+        "text": "it's around 39 million kilometers away,"
+      },
+      {
+        "start": 177.4,
+        "duration": 3.2,
+        "text": "which is over 6,000 times the radius of the Earth."
+      },
+      {
+        "start": 181.5,
+        "duration": 2.5,
+        "text": "So zooming back into those two observers,"
+      },
+      {
+        "start": 184.0,
+        "duration": 2.4,
+        "text": "even if they were as far away as you could get them,"
+      },
+      {
+        "start": 186.3,
+        "duration": 1.0,
+        "text": "one at the top of the Earth"
+      },
+      {
+        "start": 187.4,
+        "duration": 1.8,
+        "text": "and another at the bottom of the Earth,"
+      },
+      {
+        "start": 189.2,
+        "duration": 3.2,
+        "text": "these two lines of sight would be almost parallel."
+      },
+      {
+        "start": 192.4,
+        "duration": 1.8,
+        "text": "If you work out the little bit of trigonometry,"
+      },
+      {
+        "start": 194.2,
+        "duration": 1.5,
+        "text": "if they're both looking at Venus"
+      },
+      {
+        "start": 195.7,
+        "duration": 1.9,
+        "text": "at its absolute closest point,"
+      },
+      {
+        "start": 197.6,
+        "duration": 2.6,
+        "text": "the difference in angle between these two lines"
+      },
+      {
+        "start": 200.2,
+        "duration": 4.6,
+        "text": "is about one arc minute, which is one-sixtieth of a degree."
+      },
+      {
+        "start": 204.7,
+        "duration": 2.1,
+        "text": "So if this is gonna work,"
+      },
+      {
+        "start": 206.8,
+        "duration": 2.7,
+        "text": "your measurements have to be extremely precise"
+      },
+      {
+        "start": 209.5,
+        "duration": 1.7,
+        "text": "and you have to be absolutely sure"
+      },
+      {
+        "start": 211.2,
+        "duration": 2.5,
+        "text": "that both observers are really looking at the same thing"
+      },
+      {
+        "start": 213.7,
+        "duration": 1.4,
+        "text": "at the same moment."
+      },
+      {
+        "start": 215.1,
+        "duration": 1.7,
+        "text": "Now at the time clocks won't not good enough"
+      },
+      {
+        "start": 216.8,
+        "duration": 1.3,
+        "text": "that they could actually just say"
+      },
+      {
+        "start": 218.1,
+        "duration": 1.9,
+        "text": "at this specific time, like its measurement."
+      },
+      {
+        "start": 220.0,
+        "duration": 2.6,
+        "text": "Also you're not guaranteed that you can even find"
+      },
+      {
+        "start": 222.6,
+        "duration": 0.8,
+        "text": "the planet and so forth."
+      },
+      {
+        "start": 223.4,
+        "duration": 1.3,
+        "text": "But at least transits,"
+      },
+      {
+        "start": 224.7,
+        "duration": 1.5,
+        "text": "this is the transit of Venus."
+      },
+      {
+        "start": 226.2,
+        "duration": 3.0,
+        "text": "Sometimes Venus travels along the Sun."
+      },
+      {
+        "start": 229.1,
+        "duration": 5.0,
+        "text": "So you can just time exactly when Venus hits the angel of Sun."
+      },
+      {
+        "start": 234.5,
+        "duration": 1.6,
+        "text": "This is the part I had not appreciated"
+      },
+      {
+        "start": 236.1,
+        "duration": 2.8,
+        "text": "in particular how sensitive everything really is."
+      },
+      {
+        "start": 238.9,
+        "duration": 1.6,
+        "text": "So up in the Northern Hemisphere,"
+      },
+      {
+        "start": 240.5,
+        "duration": 1.5,
+        "text": "if you're watching the transit of Venus,"
+      },
+      {
+        "start": 242.0,
+        "duration": 1.9,
+        "text": "maybe it looks something like this."
+      },
+      {
+        "start": 243.9,
+        "duration": 3.0,
+        "text": "And far away at some point down in the Southern Hemisphere,"
+      },
+      {
+        "start": 246.9,
+        "duration": 2.8,
+        "text": "due to parallax, Venus would appear higher up"
+      },
+      {
+        "start": 249.6,
+        "duration": 3.2,
+        "text": "and you essentially wanna know exactly how much higher up."
+      },
+      {
+        "start": 252.8,
+        "duration": 3.5,
+        "text": "Now this animation is greatly exaggerating the difference"
+      },
+      {
+        "start": 256.3,
+        "duration": 3.1,
+        "text": "in reality, the two would look much, much more similar,"
+      },
+      {
+        "start": 259.4,
+        "duration": 1.1,
+        "text": "more like this."
+      },
+      {
+        "start": 260.5,
+        "duration": 1.9,
+        "text": "And remember, there was no photography,"
+      },
+      {
+        "start": 262.3,
+        "duration": 1.6,
+        "text": "so it's not like they could take pictures"
+      },
+      {
+        "start": 263.9,
+        "duration": 1.9,
+        "text": "and closely compare them."
+      },
+      {
+        "start": 265.8,
+        "duration": 1.9,
+        "text": "When you look at the Sun up in the sky,"
+      },
+      {
+        "start": 267.7,
+        "duration": 3.2,
+        "text": "it spans around 32 arc minutes of viewing angle"
+      },
+      {
+        "start": 270.9,
+        "duration": 2.5,
+        "text": "and this is something they would have been able to measure."
+      },
+      {
+        "start": 273.4,
+        "duration": 2.2,
+        "text": "The deviation in viewing angle to Venus"
+      },
+      {
+        "start": 275.6,
+        "duration": 3.7,
+        "text": "for these two observations would be a fraction of an arc minute."
+      },
+      {
+        "start": 279.3,
+        "duration": 2.9,
+        "text": "So to measure exactly what that fraction was,"
+      },
+      {
+        "start": 282.2,
+        "duration": 2.9,
+        "text": "each observer would not try to directly describe where it was."
+      },
+      {
+        "start": 285.1,
+        "duration": 2.8,
+        "text": "Instead they would measure the duration of the transit."
+      },
+      {
+        "start": 288.0,
+        "duration": 1.4,
+        "text": "How long it takes from the moment"
+      },
+      {
+        "start": 289.3,
+        "duration": 2.2,
+        "text": "that Venus's silhouette first appears on the disc"
+      },
+      {
+        "start": 291.6,
+        "duration": 2.0,
+        "text": "to the moment that it leaves."
+      },
+      {
+        "start": 293.6,
+        "duration": 1.6,
+        "text": "Critically, they also would have known"
+      },
+      {
+        "start": 295.2,
+        "duration": 2.8,
+        "text": "how fast Venus and the Sun are moving through the sky"
+      },
+      {
+        "start": 298.0,
+        "duration": 1.0,
+        "text": "at this time."
+      },
+      {
+        "start": 299.0,
+        "duration": 1.2,
+        "text": "And this would let them calculate"
+      },
+      {
+        "start": 300.2,
+        "duration": 2.8,
+        "text": "how long it should take Venus's apparent position"
+      },
+      {
+        "start": 303.0,
+        "duration": 3.4,
+        "text": "to traverse the distance of, say, one sun diameter"
+      },
+      {
+        "start": 306.4,
+        "duration": 2.0,
+        "text": "and turns out to be around seven hours."
+      },
+      {
+        "start": 308.4,
+        "duration": 1.4,
+        "text": "I won't dwell too much on the details"
+      },
+      {
+        "start": 309.7,
+        "duration": 2.4,
+        "text": "for how to calculate this, but at a high level,"
+      },
+      {
+        "start": 312.1,
+        "duration": 2.8,
+        "text": "if you think about Earth and Venus both orbiting the Sun,"
+      },
+      {
+        "start": 314.9,
+        "duration": 2.4,
+        "text": "the angle of this line of sight right here"
+      },
+      {
+        "start": 317.3,
+        "duration": 3.3,
+        "text": "from Earth through Venus is something they would have understood well."
+      },
+      {
+        "start": 320.6,
+        "duration": 3.4,
+        "text": "Since thanks to Kepler, they knew the relative shapes of the orbits"
+      },
+      {
+        "start": 323.9,
+        "duration": 2.8,
+        "text": "and how long it takes each planet to go around the Sun."
+      },
+      {
+        "start": 326.7,
+        "duration": 2.7,
+        "text": "So in principle, they could calculate how long it should take"
+      },
+      {
+        "start": 329.4,
+        "duration": 3.9,
+        "text": "for this line to scan over those 32 arc minutes in the sky"
+      },
+      {
+        "start": 333.3,
+        "duration": 2.0,
+        "text": "that the Sun occupied."
+      },
+      {
+        "start": 335.3,
+        "duration": 3.1,
+        "text": "The point is that by measuring the durations of the transit"
+      },
+      {
+        "start": 338.3,
+        "duration": 2.0,
+        "text": "from these two different locations,"
+      },
+      {
+        "start": 340.3,
+        "duration": 3.0,
+        "text": "that could tell you the lengths of these two lines"
+      },
+      {
+        "start": 343.3,
+        "duration": 2.2,
+        "text": "drawn across the Sun's disc."
+      },
+      {
+        "start": 345.5,
+        "duration": 3.0,
+        "text": "These are very similar, but measurably different."
+      },
+      {
+        "start": 348.5,
+        "duration": 2.0,
+        "text": "And with a little bit of circle geometry,"
+      },
+      {
+        "start": 350.5,
+        "duration": 3.4,
+        "text": "the lengths of those lines will tell you how far apart they are,"
+      },
+      {
+        "start": 353.9,
+        "duration": 3.7,
+        "text": "that fraction of an arc minute separating the two observations."
+      },
+      {
+        "start": 357.6,
+        "duration": 3.1,
+        "text": "And then this, in turn, from everything that we discussed before,"
+      },
+      {
+        "start": 360.7,
+        "duration": 2.4,
+        "text": "lets you deduce how far away Venus is"
+      },
+      {
+        "start": 363.0,
+        "duration": 3.0,
+        "text": "in terms of the distance between those observers."
+      },
+      {
+        "start": 366.0,
+        "duration": 2.8,
+        "text": "That is just so clever to me."
+      },
+      {
+        "start": 368.8,
+        "duration": 2.6,
+        "text": "It was Edmund Halley who originally came up with this idea,"
+      },
+      {
+        "start": 371.4,
+        "duration": 2.9,
+        "text": "but sadly he didn't live long enough to see it come to fruition."
+      },
+      {
+        "start": 374.3,
+        "duration": 4.0,
+        "text": "Before moving on, I simply have to tell you the story of Guillaume Lijanteel."
+      },
+      {
+        "start": 378.3,
+        "duration": 3.4,
+        "text": "He was another explorer, also tasked with making one of these measurements"
+      },
+      {
+        "start": 381.7,
+        "duration": 4.4,
+        "text": "for the transit of Venus, specifically he was going for the one in 1761."
+      },
+      {
+        "start": 386.1,
+        "duration": 2.4,
+        "text": "But he was delayed by the Seven Years War,"
+      },
+      {
+        "start": 388.4,
+        "duration": 1.9,
+        "text": "and still at sea when the transit happened,"
+      },
+      {
+        "start": 390.3,
+        "duration": 1.9,
+        "text": "so he was unable to make the measurement."
+      },
+      {
+        "start": 392.3,
+        "duration": 2.7,
+        "text": "Now the next transit of Venus was going to be eight years later,"
+      },
+      {
+        "start": 395.0,
+        "duration": 3.3,
+        "text": "but after that, it wouldn't be for another 105 years."
+      },
+      {
+        "start": 398.3,
+        "duration": 2.0,
+        "text": "So he decided to extend his journey,"
+      },
+      {
+        "start": 400.3,
+        "duration": 2.8,
+        "text": "do a bunch of other explorer things, and catch the next one."
+      },
+      {
+        "start": 403.1,
+        "duration": 3.7,
+        "text": "And by 1769, he was all set up in the Philippines ready to go,"
+      },
+      {
+        "start": 406.8,
+        "duration": 3.7,
+        "text": "but on that day, it was cloudy, so he couldn't see anything."
+      },
+      {
+        "start": 410.5,
+        "duration": 1.6,
+        "text": "Once he finally got back to France,"
+      },
+      {
+        "start": 412.1,
+        "duration": 2.9,
+        "text": "he found that he had been declared dead, his wife had remarried,"
+      },
+      {
+        "start": 415.0,
+        "duration": 2.6,
+        "text": "and his relatives had all plundered his estate."
+      },
+      {
+        "start": 417.6,
+        "duration": 2.5,
+        "text": "Now remember, the reason people cared so much"
+      },
+      {
+        "start": 420.1,
+        "duration": 3.7,
+        "text": "was that having this one measurement was enough to lock in place the scale"
+      },
+      {
+        "start": 423.8,
+        "duration": 1.4,
+        "text": "of the whole solar system."
+      },
+      {
+        "start": 425.2,
+        "duration": 3.1,
+        "text": "So once they had it, they would automatically know every other distance"
+      },
+      {
+        "start": 428.3,
+        "duration": 0.8,
+        "text": "involved."
+      },
+      {
+        "start": 429.1,
+        "duration": 2.6,
+        "text": "This was important, actually, because you need to do this"
+      },
+      {
+        "start": 431.7,
+        "duration": 1.5,
+        "text": "in order to lock out the distance to the sun."
+      },
+      {
+        "start": 433.2,
+        "duration": 3.3,
+        "text": "The distance to the sun is the most important round of the ladder."
+      },
+      {
+        "start": 436.5,
+        "duration": 1.7,
+        "text": "It's called the Astronomical Unit."
+      },
+      {
+        "start": 438.2,
+        "duration": 1.9,
+        "text": "Almost everything beyond the solar system is measured"
+      },
+      {
+        "start": 440.1,
+        "duration": 1.7,
+        "text": "in terms of the Astronomical Unit."
+      },
+      {
+        "start": 441.8,
+        "duration": 2.9,
+        "text": "And so they really needed really accurate estimates."
+      },
+      {
+        "start": 444.7,
+        "duration": 2.5,
+        "text": "Given what we just saw, you might be able to guess"
+      },
+      {
+        "start": 447.2,
+        "duration": 1.8,
+        "text": "how you can use this astronomical unit"
+      },
+      {
+        "start": 448.9,
+        "duration": 2.2,
+        "text": "to measure the distance to near my stars."
+      },
+      {
+        "start": 451.1,
+        "duration": 2.9,
+        "text": "But before we get to that, there's actually one more clever deduction"
+      },
+      {
+        "start": 454.1,
+        "duration": 2.1,
+        "text": "that you can make once you know this distance,"
+      },
+      {
+        "start": 456.1,
+        "duration": 3.6,
+        "text": "a little closer to home and incredibly important for physics."
+      },
+      {
+        "start": 459.7,
+        "duration": 4.0,
+        "text": "Roma was measuring Jupiter, and Jupiter has a small moon called Io."
+      },
+      {
+        "start": 463.8,
+        "duration": 2.2,
+        "text": "Io orbits Jupiter really, really fast,"
+      },
+      {
+        "start": 466.0,
+        "duration": 1.4,
+        "text": "because it's really close to Jupiter."
+      },
+      {
+        "start": 467.4,
+        "duration": 3.1,
+        "text": "Our moon takes 28 days to go around the Earth."
+      },
+      {
+        "start": 470.5,
+        "duration": 1.7,
+        "text": "Io takes 42 hours."
+      },
+      {
+        "start": 472.1,
+        "duration": 0.8,
+        "text": "Let's whip it."
+      },
+      {
+        "start": 472.9,
+        "duration": 1.5,
+        "text": "Yeah, it's extremely fast."
+      },
+      {
+        "start": 474.5,
+        "duration": 3.0,
+        "text": "If you observe Jupiter on a telescope, you see Io,"
+      },
+      {
+        "start": 477.5,
+        "duration": 1.8,
+        "text": "which is this white dot go in,"
+      },
+      {
+        "start": 479.3,
+        "duration": 2.7,
+        "text": "behind Jupiter's shadow on the out, in, out, in, out."
+      },
+      {
+        "start": 482.0,
+        "duration": 2.5,
+        "text": "Roma was marking down one precise moment"
+      },
+      {
+        "start": 484.5,
+        "duration": 1.6,
+        "text": "for each one of these cycles."
+      },
+      {
+        "start": 486.1,
+        "duration": 3.2,
+        "text": "You see, Io goes dark when it falls into Jupiter's shadow,"
+      },
+      {
+        "start": 489.4,
+        "duration": 2.9,
+        "text": "which it does every cycle because Jupiter is just so big."
+      },
+      {
+        "start": 492.3,
+        "duration": 2.5,
+        "text": "As it emerges, it becomes bright again."
+      },
+      {
+        "start": 494.7,
+        "duration": 2.2,
+        "text": "Watching it through a telescope, night after night,"
+      },
+      {
+        "start": 496.9,
+        "duration": 3.4,
+        "text": "you can mark the exact time that it pops back into view."
+      },
+      {
+        "start": 500.3,
+        "duration": 2.5,
+        "text": "And if you go out with a telescope and you do this a whole bunch,"
+      },
+      {
+        "start": 502.8,
+        "duration": 3.3,
+        "text": "what you'll notice is that these happen in 42-hour increments,"
+      },
+      {
+        "start": 506.1,
+        "duration": 0.8,
+        "text": "like clockwork."
+      },
+      {
+        "start": 506.9,
+        "duration": 1.3,
+        "text": "Except that it wasn't clockwork."
+      },
+      {
+        "start": 508.2,
+        "duration": 2.3,
+        "text": "So Roma was observing, I hope,"
+      },
+      {
+        "start": 510.5,
+        "duration": 1.6,
+        "text": "go back and forth, back and forth for months,"
+      },
+      {
+        "start": 512.1,
+        "duration": 3.3,
+        "text": "and here observed that, in different times of the year,"
+      },
+      {
+        "start": 515.5,
+        "duration": 1.2,
+        "text": "Io was a heteroschedule."
+      },
+      {
+        "start": 516.6,
+        "duration": 1.4,
+        "text": "Io was behind schedule."
+      },
+      {
+        "start": 518.1,
+        "duration": 1.6,
+        "text": "So, came to your picture."
+      },
+      {
+        "start": 519.6,
+        "duration": 1.4,
+        "text": "Earth goes on a sun."
+      },
+      {
+        "start": 521.0,
+        "duration": 1.3,
+        "text": "Jupiter also goes on a sun."
+      },
+      {
+        "start": 524.7,
+        "duration": 2.1,
+        "text": "So, when you imagine the orbit of Io,"
+      },
+      {
+        "start": 528.4,
+        "duration": 4.1,
+        "text": "it was 20 minutes, 20 minutes earlier."
+      },
+      {
+        "start": 532.5,
+        "duration": 2.5,
+        "text": "When the Earth was on the same side as Jupiter,"
+      },
+      {
+        "start": 535.0,
+        "duration": 2.4,
+        "text": "then when the Earth was on the opposite side of Jupiter,"
+      },
+      {
+        "start": 537.4,
+        "duration": 2.0,
+        "text": "it took 20 minutes longer."
+      },
+      {
+        "start": 539.4,
+        "duration": 1.8,
+        "text": "It was a delay in the orbit."
+      },
+      {
+        "start": 541.2,
+        "duration": 3.1,
+        "text": "So, he measured this up to some very precise calculations."
+      },
+      {
+        "start": 544.3,
+        "duration": 3.6,
+        "text": "And Hoigans realized that the reason for this is because light"
+      },
+      {
+        "start": 547.9,
+        "duration": 4.8,
+        "text": "was taking 20 minutes to reverse this extra distance."
+      },
+      {
+        "start": 552.7,
+        "duration": 1.7,
+        "text": "So, two astronomical units."
+      },
+      {
+        "start": 555.9,
+        "duration": 1.4,
+        "text": "It's traversed in about 20 minutes."
+      },
+      {
+        "start": 557.3,
+        "duration": 0.8,
+        "text": "It's so clever."
+      },
+      {
+        "start": 558.1,
+        "duration": 1.2,
+        "text": "Yeah, yeah, yeah, yeah."
+      },
+      {
+        "start": 559.3,
+        "duration": 2.6,
+        "text": "Historically, this was all before the measurement to Venus."
+      },
+      {
+        "start": 562.0,
+        "duration": 2.1,
+        "text": "So, at that time, they didn't actually"
+      },
+      {
+        "start": 564.1,
+        "duration": 2.0,
+        "text": "know the true astronomical unit."
+      },
+      {
+        "start": 566.1,
+        "duration": 1.8,
+        "text": "So, there are estimates for the speed of light."
+      },
+      {
+        "start": 567.9,
+        "duration": 2.4,
+        "text": "Frankly, don't look that impressive if you see them."
+      },
+      {
+        "start": 570.3,
+        "duration": 2.7,
+        "text": "But, at that time, it was not even obvious"
+      },
+      {
+        "start": 573.0,
+        "duration": 1.3,
+        "text": "that light had a speed."
+      },
+      {
+        "start": 574.3,
+        "duration": 2.5,
+        "text": "For most experiments you could do down on Earth at that time,"
+      },
+      {
+        "start": 576.8,
+        "duration": 1.8,
+        "text": "it just looks instantaneous."
+      },
+      {
+        "start": 578.6,
+        "duration": 2.9,
+        "text": "But at astronomical scales, it's actually really slow."
+      },
+      {
+        "start": 581.5,
+        "duration": 2.2,
+        "text": "And this very clever way to measure its speed"
+      },
+      {
+        "start": 583.6,
+        "duration": 2.8,
+        "text": "by observing Io, in precise though it was,"
+      },
+      {
+        "start": 586.4,
+        "duration": 3.2,
+        "text": "laid the groundwork for more precise experiments down on Earth."
+      },
+      {
+        "start": 589.6,
+        "duration": 1.8,
+        "text": "Once people had at least a rough sense"
+      },
+      {
+        "start": 591.3,
+        "duration": 1.8,
+        "text": "of how fast it really was."
+      },
+      {
+        "start": 593.1,
+        "duration": 1.9,
+        "text": "I also really like this because it comes back"
+      },
+      {
+        "start": 595.1,
+        "duration": 1.7,
+        "text": "around to the distance ladder."
+      },
+      {
+        "start": 596.7,
+        "duration": 2.1,
+        "text": "These days, with technology, the more accurate way"
+      },
+      {
+        "start": 598.9,
+        "duration": 2.5,
+        "text": "that we measure the distances to planets like Venus"
+      },
+      {
+        "start": 601.3,
+        "duration": 2.4,
+        "text": "is not with parallax, but using radar."
+      },
+      {
+        "start": 603.8,
+        "duration": 3.6,
+        "text": "But this, of course, relies on knowing the speed of light."
+      },
+      {
+        "start": 607.4,
+        "duration": 2.4,
+        "text": "And now, let's finally leave our solar system"
+      },
+      {
+        "start": 609.7,
+        "duration": 2.7,
+        "text": "and measure the nearby stars."
+      },
+      {
+        "start": 612.4,
+        "duration": 1.8,
+        "text": "Again, you can use parallax."
+      },
+      {
+        "start": 614.2,
+        "duration": 1.8,
+        "text": "It's essentially identical reasoning"
+      },
+      {
+        "start": 616.0,
+        "duration": 2.0,
+        "text": "for how we got the distance to Venus."
+      },
+      {
+        "start": 618.0,
+        "duration": 2.1,
+        "text": "Only this time, the two observation points"
+      },
+      {
+        "start": 620.1,
+        "duration": 2.0,
+        "text": "are not opposite sides of the Earth."
+      },
+      {
+        "start": 622.1,
+        "duration": 4.4,
+        "text": "They're opposite sides of Earth's orbit."
+      },
+      {
+        "start": 626.4,
+        "duration": 2.3,
+        "text": "That is, you measure the star at one time of the year"
+      },
+      {
+        "start": 628.7,
+        "duration": 1.7,
+        "text": "and then you wait six more months for the Earth"
+      },
+      {
+        "start": 630.4,
+        "duration": 2.6,
+        "text": "to be on the other side of the Sun, make another measurement,"
+      },
+      {
+        "start": 633.0,
+        "duration": 2.0,
+        "text": "and compare the two angles."
+      },
+      {
+        "start": 635.0,
+        "duration": 1.8,
+        "text": "Again, for demonstration purposes,"
+      },
+      {
+        "start": 636.7,
+        "duration": 2.7,
+        "text": "I'll be drawing this star unrealistically close."
+      },
+      {
+        "start": 639.5,
+        "duration": 2.4,
+        "text": "In principle, over the course of six months,"
+      },
+      {
+        "start": 641.9,
+        "duration": 2.3,
+        "text": "the line of sight from the Earth to a star"
+      },
+      {
+        "start": 644.2,
+        "duration": 1.5,
+        "text": "slowly changes angle."
+      },
+      {
+        "start": 645.7,
+        "duration": 1.7,
+        "text": "So the position of that star in the sky"
+      },
+      {
+        "start": 647.4,
+        "duration": 2.2,
+        "text": "should slowly drift over those months."
+      },
+      {
+        "start": 649.6,
+        "duration": 3.6,
+        "text": "And it's very subtle, but you can actually see this in practice."
+      },
+      {
+        "start": 653.2,
+        "duration": 3.0,
+        "text": "This right here is a time lapse of a very zoomed-in view"
+      },
+      {
+        "start": 656.1,
+        "duration": 2.8,
+        "text": "for our nearest neighbor, Proxima Centauri,"
+      },
+      {
+        "start": 659.0,
+        "duration": 1.5,
+        "text": "taken over six months."
+      },
+      {
+        "start": 660.5,
+        "duration": 1.6,
+        "text": "And you can see that over that time,"
+      },
+      {
+        "start": 662.1,
+        "duration": 3.9,
+        "text": "it does gently drift with respect to the background stars."
+      },
+      {
+        "start": 665.9,
+        "duration": 1.9,
+        "text": "But as before, the mind-blowing part"
+      },
+      {
+        "start": 667.9,
+        "duration": 2.8,
+        "text": "is to appreciate just how subtle the effect is"
+      },
+      {
+        "start": 670.7,
+        "duration": 1.5,
+        "text": "and therefore how impressive it is"
+      },
+      {
+        "start": 672.2,
+        "duration": 2.3,
+        "text": "that people were able to use this for calculation"
+      },
+      {
+        "start": 674.5,
+        "duration": 1.6,
+        "text": "back in the 19th century."
+      },
+      {
+        "start": 676.1,
+        "duration": 1.7,
+        "text": "Let's actually work out the math here."
+      },
+      {
+        "start": 677.8,
+        "duration": 3.0,
+        "text": "Suppose a star is a given distance d away"
+      },
+      {
+        "start": 680.9,
+        "duration": 1.1,
+        "text": "and to make everything easy,"
+      },
+      {
+        "start": 682.0,
+        "duration": 2.4,
+        "text": "let's assume it's perpendicular to this connecting line"
+      },
+      {
+        "start": 684.4,
+        "duration": 2.4,
+        "text": "between our two observation points."
+      },
+      {
+        "start": 686.8,
+        "duration": 3.4,
+        "text": "This angle right here represents half of the change"
+      },
+      {
+        "start": 690.1,
+        "duration": 3.2,
+        "text": "in viewing angle between those two observations."
+      },
+      {
+        "start": 693.3,
+        "duration": 3.4,
+        "text": "The tangent of that angle, opposite over adjacent,"
+      },
+      {
+        "start": 696.7,
+        "duration": 3.2,
+        "text": "gives you the ratio between one astronomical unit"
+      },
+      {
+        "start": 699.9,
+        "duration": 3.0,
+        "text": "and the distance between that star and our sun."
+      },
+      {
+        "start": 702.9,
+        "duration": 2.2,
+        "text": "Rearranging a little bit, this change in angle"
+      },
+      {
+        "start": 705.1,
+        "duration": 3.7,
+        "text": "looks like two times the inverse tangent of that ratio."
+      },
+      {
+        "start": 708.9,
+        "duration": 2.0,
+        "text": "So what is that ratio?"
+      },
+      {
+        "start": 710.8,
+        "duration": 2.1,
+        "text": "Well, for that closest star that I mentioned,"
+      },
+      {
+        "start": 712.9,
+        "duration": 1.3,
+        "text": "Proxima Centauri,"
+      },
+      {
+        "start": 714.2,
+        "duration": 3.0,
+        "text": "it's over 40 trillion kilometers away,"
+      },
+      {
+        "start": 717.1,
+        "duration": 1.7,
+        "text": "which is over four light years"
+      },
+      {
+        "start": 718.8,
+        "duration": 4.6,
+        "text": "and around 260,000 times an astronomical unit."
+      },
+      {
+        "start": 723.4,
+        "duration": 1.2,
+        "text": "Now, if you plug that in,"
+      },
+      {
+        "start": 724.5,
+        "duration": 1.7,
+        "text": "it means that this change in angle"
+      },
+      {
+        "start": 726.2,
+        "duration": 1.7,
+        "text": "from the two observation points"
+      },
+      {
+        "start": 727.9,
+        "duration": 2.6,
+        "text": "is a tiny, tiny portion of a degree."
+      },
+      {
+        "start": 730.5,
+        "duration": 2.2,
+        "text": "Let me see if I can show you how small this is."
+      },
+      {
+        "start": 732.7,
+        "duration": 3.2,
+        "text": "This right here is a circle representing 360 degrees"
+      },
+      {
+        "start": 735.8,
+        "duration": 1.4,
+        "text": "of full viewing angle."
+      },
+      {
+        "start": 737.2,
+        "duration": 2.2,
+        "text": "And if we zoom in real close to one degree,"
+      },
+      {
+        "start": 739.3,
+        "duration": 2.0,
+        "text": "you'll remember I mentioned earlier that the sun"
+      },
+      {
+        "start": 741.3,
+        "duration": 1.3,
+        "text": "and also the moon for that matter,"
+      },
+      {
+        "start": 742.6,
+        "duration": 2.6,
+        "text": "take up about half a degree of viewing angle,"
+      },
+      {
+        "start": 745.2,
+        "duration": 1.8,
+        "text": "and we often think of this as being divided"
+      },
+      {
+        "start": 746.9,
+        "duration": 2.0,
+        "text": "into 60 arc minutes."
+      },
+      {
+        "start": 748.9,
+        "duration": 2.9,
+        "text": "Well, if you zoom in even further to one arc minute,"
+      },
+      {
+        "start": 751.8,
+        "duration": 3.4,
+        "text": "this is commonly divided into 60 arc seconds."
+      },
+      {
+        "start": 755.3,
+        "duration": 1.7,
+        "text": "At its largest, Jupiter will span"
+      },
+      {
+        "start": 756.9,
+        "duration": 2.9,
+        "text": "about 50 arc seconds of viewing angle."
+      },
+      {
+        "start": 759.8,
+        "duration": 2.4,
+        "text": "So this parallax for Proxima Centauri,"
+      },
+      {
+        "start": 762.3,
+        "duration": 4.8,
+        "text": "the nearest star is only about 1.5 arc seconds."
+      },
+      {
+        "start": 767.1,
+        "duration": 1.8,
+        "text": "As another way to put that in perspective,"
+      },
+      {
+        "start": 768.9,
+        "duration": 1.8,
+        "text": "this is about the same angular size"
+      },
+      {
+        "start": 770.7,
+        "duration": 2.5,
+        "text": "as if you held out a dime in front of you,"
+      },
+      {
+        "start": 773.2,
+        "duration": 2.0,
+        "text": "but two and a half kilometers away,"
+      },
+      {
+        "start": 775.2,
+        "duration": 2.6,
+        "text": "a mile and a half down from where your eye is."
+      },
+      {
+        "start": 777.8,
+        "duration": 1.5,
+        "text": "And that's the closest star."
+      },
+      {
+        "start": 779.3,
+        "duration": 1.8,
+        "text": "It only gets worse from there."
+      },
+      {
+        "start": 781.1,
+        "duration": 1.6,
+        "text": "The first measurement of this kind"
+      },
+      {
+        "start": 782.7,
+        "duration": 3.2,
+        "text": "was successfully done in 1838 by Friedrich Beessel."
+      },
+      {
+        "start": 785.9,
+        "duration": 1.4,
+        "text": "It wasn't Proxima Centauri."
+      },
+      {
+        "start": 787.3,
+        "duration": 1.2,
+        "text": "They wouldn't have been able to know"
+      },
+      {
+        "start": 788.5,
+        "duration": 1.4,
+        "text": "which star was closest."
+      },
+      {
+        "start": 789.8,
+        "duration": 1.6,
+        "text": "But over the course of the next century,"
+      },
+      {
+        "start": 791.5,
+        "duration": 2.6,
+        "text": "there was a monumental effort for many more measurements"
+      },
+      {
+        "start": 794.1,
+        "duration": 2.5,
+        "text": "to try to catalog as many stars as we could."
+      },
+      {
+        "start": 796.6,
+        "duration": 2.1,
+        "text": "But this parallax idea only really works"
+      },
+      {
+        "start": 798.7,
+        "duration": 2.3,
+        "text": "for a tiny portion of our galaxy."
+      },
+      {
+        "start": 801.0,
+        "duration": 2.8,
+        "text": "So to figure out the full size of the Milky Way,"
+      },
+      {
+        "start": 803.8,
+        "duration": 2.3,
+        "text": "that requires a new idea."
+      },
+      {
+        "start": 806.1,
+        "duration": 4.9,
+        "text": "Probably speaking, the Milky Way is this..."
+      },
+      {
+        "start": 811.0,
+        "duration": 1.9,
+        "text": "I can't draw a spiral."
+      },
+      {
+        "start": 812.9,
+        "duration": 2.1,
+        "text": "OK, this is, again, maybe a place where"
+      },
+      {
+        "start": 815.0,
+        "duration": 2.8,
+        "text": "your graphics can be much better than what I draw here."
+      },
+      {
+        "start": 817.8,
+        "duration": 1.0,
+        "text": "OK."
+      },
+      {
+        "start": 818.8,
+        "duration": 1.9,
+        "text": "I like this."
+      },
+      {
+        "start": 820.7,
+        "duration": 3.2,
+        "text": "So our time is on one of the arms."
+      },
+      {
+        "start": 823.9,
+        "duration": 1.1,
+        "text": "Yeah."
+      },
+      {
+        "start": 825.0,
+        "duration": 3.0,
+        "text": "So by using parallax by about the 19th century,"
+      },
+      {
+        "start": 828.0,
+        "duration": 4.9,
+        "text": "there was about maybe 1,000 stars close enough to the sun"
+      },
+      {
+        "start": 832.9,
+        "duration": 2.1,
+        "text": "that they knew how far away these stars were."
+      },
+      {
+        "start": 835.0,
+        "duration": 2.2,
+        "text": "Maybe about 100 light years away."
+      },
+      {
+        "start": 837.2,
+        "duration": 1.4,
+        "text": "So they knew how far away these stars are."
+      },
+      {
+        "start": 838.6,
+        "duration": 2.2,
+        "text": "And they knew how bright they looked."
+      },
+      {
+        "start": 840.8,
+        "duration": 3.3,
+        "text": "And so they knew how bright they were by the inverse"
+      },
+      {
+        "start": 844.1,
+        "duration": 1.9,
+        "text": "square law of light propagation."
+      },
+      {
+        "start": 846.0,
+        "duration": 2.1,
+        "text": "Just to spell this out a little more explicitly,"
+      },
+      {
+        "start": 848.1,
+        "duration": 2.1,
+        "text": "if you imagine you have some star in space"
+      },
+      {
+        "start": 850.2,
+        "duration": 2.2,
+        "text": "emitting a bunch of light in all directions,"
+      },
+      {
+        "start": 852.4,
+        "duration": 2.2,
+        "text": "then at a given distance away, all of that light"
+      },
+      {
+        "start": 854.6,
+        "duration": 2.4,
+        "text": "is evenly spread along a sphere."
+      },
+      {
+        "start": 857.0,
+        "duration": 1.6,
+        "text": "So if you're that distance away"
+      },
+      {
+        "start": 858.6,
+        "duration": 2.6,
+        "text": "and you're measuring the brightness with some little patch"
+      },
+      {
+        "start": 861.2,
+        "duration": 2.2,
+        "text": "of area, maybe that represents your camera"
+      },
+      {
+        "start": 863.5,
+        "duration": 2.7,
+        "text": "or a photosensor or your pupil, something like that,"
+      },
+      {
+        "start": 866.2,
+        "duration": 1.4,
+        "text": "the amount of light you're receiving"
+      },
+      {
+        "start": 867.5,
+        "duration": 2.8,
+        "text": "depends on the proportion of this total sphere"
+      },
+      {
+        "start": 870.4,
+        "duration": 1.9,
+        "text": "that your little area represents."
+      },
+      {
+        "start": 872.3,
+        "duration": 2.3,
+        "text": "So for example, if you were twice as far away,"
+      },
+      {
+        "start": 874.6,
+        "duration": 2.6,
+        "text": "that same beam of light that you had been measuring up"
+      },
+      {
+        "start": 877.1,
+        "duration": 3.6,
+        "text": "close is now spread along four times the area."
+      },
+      {
+        "start": 880.7,
+        "duration": 2.9,
+        "text": "So out of this distance, if you used the same photosensor"
+      },
+      {
+        "start": 883.6,
+        "duration": 2.4,
+        "text": "with the same area as before, it would only"
+      },
+      {
+        "start": 886.0,
+        "duration": 2.8,
+        "text": "be measuring a quarter as much light."
+      },
+      {
+        "start": 888.8,
+        "duration": 2.1,
+        "text": "In general, the amount of light that you see,"
+      },
+      {
+        "start": 890.9,
+        "duration": 2.0,
+        "text": "the apparent brightness of the star,"
+      },
+      {
+        "start": 892.8,
+        "duration": 2.3,
+        "text": "is proportional to its absolute brightness,"
+      },
+      {
+        "start": 895.1,
+        "duration": 1.8,
+        "text": "the total amount of light it's giving away,"
+      },
+      {
+        "start": 896.9,
+        "duration": 2.8,
+        "text": "divided by the square of the distance between you"
+      },
+      {
+        "start": 899.7,
+        "duration": 1.6,
+        "text": "and that star."
+      },
+      {
+        "start": 901.3,
+        "duration": 2.0,
+        "text": "So for all of those stars whose distance"
+      },
+      {
+        "start": 903.2,
+        "duration": 2.6,
+        "text": "we could measure using parallax, by also measuring"
+      },
+      {
+        "start": 905.9,
+        "duration": 2.2,
+        "text": "the apparent brightness, astronomers could know"
+      },
+      {
+        "start": 908.1,
+        "duration": 1.8,
+        "text": "their absolute brightness."
+      },
+      {
+        "start": 909.9,
+        "duration": 1.4,
+        "text": "The other thing they could observe"
+      },
+      {
+        "start": 911.2,
+        "duration": 2.1,
+        "text": "is the color of all of these stars,"
+      },
+      {
+        "start": 913.3,
+        "duration": 2.2,
+        "text": "the frequency of light that they're emitting,"
+      },
+      {
+        "start": 915.5,
+        "duration": 2.1,
+        "text": "which is actually incredibly helpful."
+      },
+      {
+        "start": 917.6,
+        "duration": 2.9,
+        "text": "For example, you can start looking for patterns in this data."
+      },
+      {
+        "start": 920.5,
+        "duration": 2.8,
+        "text": "Imagine you organize all of your stars onto a plot,"
+      },
+      {
+        "start": 923.3,
+        "duration": 3.1,
+        "text": "where in the X direction, we're gonna sort them by the color."
+      },
+      {
+        "start": 926.4,
+        "duration": 1.9,
+        "text": "The common kind of backward-seaming convention"
+      },
+      {
+        "start": 928.3,
+        "duration": 2.6,
+        "text": "is for higher frequency light, like blue to go on the left"
+      },
+      {
+        "start": 931.0,
+        "duration": 2.8,
+        "text": "and lower frequency, like red to be on the right."
+      },
+      {
+        "start": 933.8,
+        "duration": 2.2,
+        "text": "Then in the Y direction, you can sort according"
+      },
+      {
+        "start": 935.9,
+        "duration": 2.1,
+        "text": "to the absolute brightness of these stars,"
+      },
+      {
+        "start": 938.1,
+        "duration": 2.2,
+        "text": "which again, you can deduce by knowing their distance"
+      },
+      {
+        "start": 940.3,
+        "duration": 1.6,
+        "text": "and using the inverse square law."
+      },
+      {
+        "start": 941.9,
+        "duration": 3.5,
+        "text": "A thousand points of data, all intensity and color."
+      },
+      {
+        "start": 945.9,
+        "duration": 2.0,
+        "text": "Okay, and this is main sequence."
+      },
+      {
+        "start": 947.9,
+        "duration": 2.7,
+        "text": "Most stars live on the sequence."
+      },
+      {
+        "start": 950.5,
+        "duration": 2.6,
+        "text": "This is known as the Hertzbrung Russell diagram,"
+      },
+      {
+        "start": 953.1,
+        "duration": 2.3,
+        "text": "initially created around 1911."
+      },
+      {
+        "start": 955.5,
+        "duration": 1.4,
+        "text": "The data that went into it, though,"
+      },
+      {
+        "start": 956.8,
+        "duration": 1.7,
+        "text": "represents decades of effort."
+      },
+      {
+        "start": 958.5,
+        "duration": 1.7,
+        "text": "A lot of it coming from this group of women"
+      },
+      {
+        "start": 960.2,
+        "duration": 1.8,
+        "text": "at the Harvard College Observatory,"
+      },
+      {
+        "start": 962.0,
+        "duration": 2.8,
+        "text": "commonly known as the Harvard Computers."
+      },
+      {
+        "start": 964.8,
+        "duration": 2.5,
+        "text": "The diagram exposes how the color of a star"
+      },
+      {
+        "start": 967.3,
+        "duration": 2.7,
+        "text": "can tell you something about its absolute brightness."
+      },
+      {
+        "start": 970.0,
+        "duration": 3.6,
+        "text": "This main sequence represents one very common type of star,"
+      },
+      {
+        "start": 973.5,
+        "duration": 2.8,
+        "text": "which includes our sun, during a phase of its evolution"
+      },
+      {
+        "start": 976.3,
+        "duration": 2.3,
+        "text": "when it's burning hydrogen in its core."
+      },
+      {
+        "start": 978.7,
+        "duration": 2.8,
+        "text": "Stars in this category that are bigger and brighter"
+      },
+      {
+        "start": 981.4,
+        "duration": 1.5,
+        "text": "also tend to burn hotter,"
+      },
+      {
+        "start": 982.9,
+        "duration": 3.3,
+        "text": "and they have blackbody radiation more in the blue direction,"
+      },
+      {
+        "start": 986.2,
+        "duration": 2.8,
+        "text": "while those that are smaller burn cooler,"
+      },
+      {
+        "start": 988.9,
+        "duration": 2.4,
+        "text": "and they radiate more in the red direction."
+      },
+      {
+        "start": 991.3,
+        "duration": 2.8,
+        "text": "So if you see some star very far off,"
+      },
+      {
+        "start": 994.1,
+        "duration": 2.3,
+        "text": "way too far for parallax measurements,"
+      },
+      {
+        "start": 996.4,
+        "duration": 2.7,
+        "text": "and if you also know that it should fall into this main sequence,"
+      },
+      {
+        "start": 999.1,
+        "duration": 1.2,
+        "text": "more on that in a moment,"
+      },
+      {
+        "start": 1000.4,
+        "duration": 2.6,
+        "text": "its color can tell you its absolute brightness."
+      },
+      {
+        "start": 1002.9,
+        "duration": 1.6,
+        "text": "You fit it to this curve,"
+      },
+      {
+        "start": 1004.5,
+        "duration": 1.8,
+        "text": "and then by using its apparent brightness"
+      },
+      {
+        "start": 1006.4,
+        "duration": 1.5,
+        "text": "with the inverse square law,"
+      },
+      {
+        "start": 1007.9,
+        "duration": 2.3,
+        "text": "you can deduce how far away it is."
+      },
+      {
+        "start": 1010.2,
+        "duration": 1.3,
+        "text": "Now you might ask, how would you know"
+      },
+      {
+        "start": 1011.5,
+        "duration": 1.8,
+        "text": "that a star should fall in this main sequence?"
+      },
+      {
+        "start": 1013.3,
+        "duration": 2.8,
+        "text": "The full diagram is much more splotchy than a clean line."
+      },
+      {
+        "start": 1016.1,
+        "duration": 1.8,
+        "text": "It's got a lot of different components,"
+      },
+      {
+        "start": 1017.9,
+        "duration": 2.3,
+        "text": "representing different types of stars."
+      },
+      {
+        "start": 1020.2,
+        "duration": 2.2,
+        "text": "The thing to keep in mind is that the color information"
+      },
+      {
+        "start": 1022.5,
+        "duration": 2.0,
+        "text": "you get from a star is much richer"
+      },
+      {
+        "start": 1024.5,
+        "duration": 3.4,
+        "text": "than what a single number on this x-axis could convey."
+      },
+      {
+        "start": 1027.9,
+        "duration": 2.1,
+        "text": "For example, this right here represents"
+      },
+      {
+        "start": 1030.0,
+        "duration": 2.2,
+        "text": "all of the relative intensities for light"
+      },
+      {
+        "start": 1032.2,
+        "duration": 1.4,
+        "text": "that we get from our sun,"
+      },
+      {
+        "start": 1033.6,
+        "duration": 2.0,
+        "text": "across many different wavelengths."
+      },
+      {
+        "start": 1035.6,
+        "duration": 1.8,
+        "text": "It's what we call its spectrum."
+      },
+      {
+        "start": 1037.3,
+        "duration": 1.5,
+        "text": "This is the usual pattern you see."
+      },
+      {
+        "start": 1038.8,
+        "duration": 3.1,
+        "text": "You have a general lump representing the black body radiation"
+      },
+      {
+        "start": 1041.9,
+        "duration": 2.3,
+        "text": "with certain wavelengths greatly reduced."
+      },
+      {
+        "start": 1044.2,
+        "duration": 1.9,
+        "text": "Those correspond to the wavelengths of light"
+      },
+      {
+        "start": 1046.1,
+        "duration": 3.0,
+        "text": "absorbed by the atoms in the sun."
+      },
+      {
+        "start": 1049.1,
+        "duration": 2.5,
+        "text": "And where specifically those absorption lines fall,"
+      },
+      {
+        "start": 1051.5,
+        "duration": 3.0,
+        "text": "we'll tell you what the atoms are in the star."
+      },
+      {
+        "start": 1054.5,
+        "duration": 1.7,
+        "text": "And from that, it helps classify"
+      },
+      {
+        "start": 1056.2,
+        "duration": 1.8,
+        "text": "what kind of star it even is."
+      },
+      {
+        "start": 1058.0,
+        "duration": 2.1,
+        "text": "So for example, while those Harvard computers"
+      },
+      {
+        "start": 1060.1,
+        "duration": 1.8,
+        "text": "are doing a bunch of detailed analysis"
+      },
+      {
+        "start": 1061.9,
+        "duration": 1.8,
+        "text": "of spectra from all these stars,"
+      },
+      {
+        "start": 1063.7,
+        "duration": 3.2,
+        "text": "some of them, including Antonia Mowry and Annie Cannon,"
+      },
+      {
+        "start": 1066.9,
+        "duration": 2.4,
+        "text": "came up with very useful classification systems"
+      },
+      {
+        "start": 1069.3,
+        "duration": 2.5,
+        "text": "for these stars based on the spectra."
+      },
+      {
+        "start": 1071.8,
+        "duration": 2.2,
+        "text": "You can then use that classification scheme"
+      },
+      {
+        "start": 1074.1,
+        "duration": 2.3,
+        "text": "to tell you which cluster you would expect"
+      },
+      {
+        "start": 1076.3,
+        "duration": 2.2,
+        "text": "to give and start to fall in in this Hertzbrung"
+      },
+      {
+        "start": 1078.5,
+        "duration": 1.3,
+        "text": "Russell diagram."
+      },
+      {
+        "start": 1079.8,
+        "duration": 2.8,
+        "text": "For example, whether it should be in this main sequence,"
+      },
+      {
+        "start": 1082.6,
+        "duration": 2.9,
+        "text": "or if it's something else entirely, like a red giant."
+      },
+      {
+        "start": 1085.5,
+        "duration": 1.5,
+        "text": "And then once you have this law,"
+      },
+      {
+        "start": 1087.1,
+        "duration": 2.0,
+        "text": "you can then go all throughout the galaxy"
+      },
+      {
+        "start": 1089.1,
+        "duration": 1.2,
+        "text": "where you cannot measure."
+      },
+      {
+        "start": 1090.3,
+        "duration": 2.2,
+        "text": "But it stops working past the galaxy"
+      },
+      {
+        "start": 1092.4,
+        "duration": 3.2,
+        "text": "because each individual star becomes too faint."
+      },
+      {
+        "start": 1095.6,
+        "duration": 1.8,
+        "text": "The galaxy is only a really tiny portion"
+      },
+      {
+        "start": 1097.4,
+        "duration": 2.0,
+        "text": "of the full universe."
+      },
+      {
+        "start": 1102.1,
+        "duration": 1.8,
+        "text": "Okay, so yeah, you have one tiny little galaxy here."
+      },
+      {
+        "start": 1103.9,
+        "duration": 2.0,
+        "text": "So there's all the other galaxies all over."
+      },
+      {
+        "start": 1108.0,
+        "duration": 2.2,
+        "text": "Yeah, and so in a galaxy, most stars,"
+      },
+      {
+        "start": 1110.1,
+        "duration": 2.5,
+        "text": "you cannot measure the brightness of a single star"
+      },
+      {
+        "start": 1112.6,
+        "duration": 1.0,
+        "text": "because there's just billions"
+      },
+      {
+        "start": 1113.6,
+        "duration": 1.1,
+        "text": "of them all crammed in place."
+      },
+      {
+        "start": 1114.7,
+        "duration": 2.2,
+        "text": "But there are some amazingly bright stars,"
+      },
+      {
+        "start": 1116.9,
+        "duration": 0.8,
+        "text": "they're called suffix."
+      },
+      {
+        "start": 1117.7,
+        "duration": 1.5,
+        "text": "They're super giant stars that are thousands"
+      },
+      {
+        "start": 1119.2,
+        "duration": 1.1,
+        "text": "and sometimes brighter than the sun."
+      },
+      {
+        "start": 1120.3,
+        "duration": 1.8,
+        "text": "Some of them live in our own galaxy"
+      },
+      {
+        "start": 1122.1,
+        "duration": 2.0,
+        "text": "and some of them live in other galaxies."
+      },
+      {
+        "start": 1124.1,
+        "duration": 2.6,
+        "text": "They still blend in, but you can still kind of measure"
+      },
+      {
+        "start": 1126.7,
+        "duration": 0.8,
+        "text": "their brightness."
+      },
+      {
+        "start": 1127.5,
+        "duration": 2.0,
+        "text": "These stars are what are called variable stars."
+      },
+      {
+        "start": 1129.5,
+        "duration": 2.9,
+        "text": "So most stars, they stay the same intensity for all time."
+      },
+      {
+        "start": 1132.4,
+        "duration": 2.5,
+        "text": "But these suffix stars, they're brightness oscillates."
+      },
+      {
+        "start": 1134.9,
+        "duration": 2.2,
+        "text": "So they have a period of intensity."
+      },
+      {
+        "start": 1137.1,
+        "duration": 2.9,
+        "text": "Like every 20 to 8 is every 10 days, they oscillate."
+      },
+      {
+        "start": 1140.0,
+        "duration": 1.7,
+        "text": "And it turns out that the bigger the suffix,"
+      },
+      {
+        "start": 1141.7,
+        "duration": 1.6,
+        "text": "the brighter it is, the longer the period."
+      },
+      {
+        "start": 1143.2,
+        "duration": 2.7,
+        "text": "Henry Desswyn Levin, who was a 20th century astronomer,"
+      },
+      {
+        "start": 1145.9,
+        "duration": 5.0,
+        "text": "she measured all the suffix that she could in our own galaxy"
+      },
+      {
+        "start": 1150.9,
+        "duration": 6.0,
+        "text": "and she plotted the period against the intensity."
+      },
+      {
+        "start": 1156.9,
+        "duration": 2.1,
+        "text": "And she found basically a linear law"
+      },
+      {
+        "start": 1158.9,
+        "duration": 3.0,
+        "text": "that the brighter the suffix, the longer it took."
+      },
+      {
+        "start": 1161.9,
+        "duration": 1.3,
+        "text": "Like the Hussmann-Russet-Dargonne before,"
+      },
+      {
+        "start": 1163.2,
+        "duration": 3.6,
+        "text": "it gave a standard candle that if a galaxy happened"
+      },
+      {
+        "start": 1166.8,
+        "duration": 2.6,
+        "text": "to have a suffix in it, you could observe it,"
+      },
+      {
+        "start": 1169.4,
+        "duration": 1.8,
+        "text": "work out its period."
+      },
+      {
+        "start": 1171.2,
+        "duration": 1.4,
+        "text": "It gave you this intensity."
+      },
+      {
+        "start": 1172.5,
+        "duration": 2.3,
+        "text": "That's a now you know how bright it should be"
+      },
+      {
+        "start": 1174.9,
+        "duration": 2.5,
+        "text": "and you know how bright it looks, you can measure its distance."
+      },
+      {
+        "start": 1177.3,
+        "duration": 2.0,
+        "text": "That gave the next run of the ladder."
+      },
+      {
+        "start": 1179.3,
+        "duration": 4.6,
+        "text": "So a couple thousand galaxies where you can measure the distance."
+      },
+      {
+        "start": 1183.9,
+        "duration": 2.7,
+        "text": "But that again, it's only a tiny portion of the universe."
+      },
+      {
+        "start": 1186.6,
+        "duration": 1.6,
+        "text": "You're using these powers of 10."
+      },
+      {
+        "start": 1188.1,
+        "duration": 1.0,
+        "text": "Oh, yeah, yeah."
+      },
+      {
+        "start": 1189.1,
+        "duration": 0.9,
+        "text": "Yeah, kind of zoom, zoom."
+      },
+      {
+        "start": 1190.0,
+        "duration": 0.8,
+        "text": "Yeah."
+      },
+      {
+        "start": 1194.6,
+        "duration": 3.6,
+        "text": "So now this is a local cluster where thanks to Levit,"
+      },
+      {
+        "start": 1198.2,
+        "duration": 2.1,
+        "text": "you could work out the distances."
+      },
+      {
+        "start": 1200.3,
+        "duration": 2.8,
+        "text": "And then there's the rest of the universe."
+      },
+      {
+        "start": 1203.1,
+        "duration": 1.6,
+        "text": "But it's enough to get data of some kind."
+      },
+      {
+        "start": 1204.7,
+        "duration": 1.2,
+        "text": "Yes, yes."
+      },
+      {
+        "start": 1205.9,
+        "duration": 4.0,
+        "text": "And so Hubble, Edwin Hubble was measuring all these galaxies."
+      },
+      {
+        "start": 1209.9,
+        "duration": 1.4,
+        "text": "And they have certain spectral lines."
+      },
+      {
+        "start": 1211.4,
+        "duration": 4.6,
+        "text": "For example, there's a lot of hydrogen around each of these galaxies."
+      },
+      {
+        "start": 1215.9,
+        "duration": 2.8,
+        "text": "And so there's certain spectral lines of hydrogen that get absorbed."
+      },
+      {
+        "start": 1218.7,
+        "duration": 2.0,
+        "text": "And so there's certain lines that are missing,"
+      },
+      {
+        "start": 1220.7,
+        "duration": 1.7,
+        "text": "or almost missing in a spectrum."
+      },
+      {
+        "start": 1222.5,
+        "duration": 2.3,
+        "text": "But he noticed that for some of the galaxies,"
+      },
+      {
+        "start": 1224.7,
+        "duration": 3.6,
+        "text": "the spectrum was shifted to the red from where it should be."
+      },
+      {
+        "start": 1228.3,
+        "duration": 1.3,
+        "text": "But not all of them."
+      },
+      {
+        "start": 1229.7,
+        "duration": 1.1,
+        "text": "And so he measured it."
+      },
+      {
+        "start": 1230.7,
+        "duration": 1.9,
+        "text": "So he measured this red shift."
+      },
+      {
+        "start": 1232.6,
+        "duration": 1.4,
+        "text": "Again, it's distance."
+      },
+      {
+        "start": 1234.1,
+        "duration": 3.1,
+        "text": "And again, he got a linear relationship."
+      },
+      {
+        "start": 1237.2,
+        "duration": 2.4,
+        "text": "It's like a famous plot in his paper, which"
+      },
+      {
+        "start": 1239.6,
+        "duration": 1.6,
+        "text": "is now called Hubble's law."
+      },
+      {
+        "start": 1241.1,
+        "duration": 2.3,
+        "text": "But the red shift is proportional to the distance."
+      },
+      {
+        "start": 1243.4,
+        "duration": 1.3,
+        "text": "Nowadays, we know why this is true,"
+      },
+      {
+        "start": 1244.7,
+        "duration": 1.8,
+        "text": "is because general relativity predicts"
+      },
+      {
+        "start": 1246.5,
+        "duration": 2.6,
+        "text": "that the universe is expanding at a uniform rate."
+      },
+      {
+        "start": 1249.2,
+        "duration": 2.5,
+        "text": "And the further away things are, the more they recede."
+      },
+      {
+        "start": 1251.7,
+        "duration": 3.0,
+        "text": "And the faster they recede, the more red shift they have."
+      },
+      {
+        "start": 1254.7,
+        "duration": 2.2,
+        "text": "But again, this is a predictable law."
+      },
+      {
+        "start": 1256.9,
+        "duration": 2.7,
+        "text": "So if you have a galaxy far far away,"
+      },
+      {
+        "start": 1259.6,
+        "duration": 2.8,
+        "text": "if you know what his red shift is,"
+      },
+      {
+        "start": 1262.4,
+        "duration": 2.6,
+        "text": "in his measure's spectrum, you apply this law."
+      },
+      {
+        "start": 1265.0,
+        "duration": 1.9,
+        "text": "You can work out his distance."
+      },
+      {
+        "start": 1266.9,
+        "duration": 3.9,
+        "text": "So this is the largest run of the data that we know to date."
+      },
+      {
+        "start": 1270.8,
+        "duration": 3.4,
+        "text": "The entire bubble of the observable universe,"
+      },
+      {
+        "start": 1274.3,
+        "duration": 4.5,
+        "text": "which we think is about 20% of the whole universe."
+      },
+      {
+        "start": 1278.8,
+        "duration": 2.1,
+        "text": "We don't know."
+      },
+      {
+        "start": 1280.9,
+        "duration": 1.2,
+        "text": "Pretty much every object in the universe"
+      },
+      {
+        "start": 1282.1,
+        "duration": 2.8,
+        "text": "that image liked or some sort of radiation,"
+      },
+      {
+        "start": 1284.9,
+        "duration": 2.0,
+        "text": "we can now measure the distance to usually"
+      },
+      {
+        "start": 1286.9,
+        "duration": 2.1,
+        "text": "by seeing how spectral lines shift."
+      },
+      {
+        "start": 1289.0,
+        "duration": 1.2,
+        "text": "And so you can start mapping things."
+      },
+      {
+        "start": 1290.3,
+        "duration": 1.7,
+        "text": "You can do 3D pictures of the universe."
+      },
+      {
+        "start": 1291.9,
+        "duration": 3.4,
+        "text": "And some go the Sloan's galactic survey, which is how you do this."
+      },
+      {
+        "start": 1295.3,
+        "duration": 1.6,
+        "text": "For this visualization, what I did"
+      },
+      {
+        "start": 1296.9,
+        "duration": 3.2,
+        "text": "is read in some data from the Sloan Digital Sky Survey,"
+      },
+      {
+        "start": 1300.1,
+        "duration": 3.1,
+        "text": "which aggregates data about a huge number of galaxies,"
+      },
+      {
+        "start": 1303.1,
+        "duration": 2.7,
+        "text": "including their angle in the sky, and then critically"
+      },
+      {
+        "start": 1305.8,
+        "duration": 2.6,
+        "text": "their distance away, as measured by red shift."
+      },
+      {
+        "start": 1308.4,
+        "duration": 2.2,
+        "text": "This set doesn't include all of the angles in the sky."
+      },
+      {
+        "start": 1310.5,
+        "duration": 2.1,
+        "text": "That's why it has this kind of wonky shape."
+      },
+      {
+        "start": 1312.7,
+        "duration": 2.5,
+        "text": "This represents about half a million different galaxies"
+      },
+      {
+        "start": 1315.1,
+        "duration": 2.1,
+        "text": "visualized as a simple point cloud."
+      },
+      {
+        "start": 1317.3,
+        "duration": 2.6,
+        "text": "And in a sense, what you're looking at is a snapshot"
+      },
+      {
+        "start": 1319.8,
+        "duration": 2.0,
+        "text": "of our little corner of the universe,"
+      },
+      {
+        "start": 1321.8,
+        "duration": 4.4,
+        "text": "measured out to a radius of about 1.6 billion light years."
+      },
+      {
+        "start": 1326.3,
+        "duration": 1.7,
+        "text": "And one thing that has been discovered"
+      },
+      {
+        "start": 1327.9,
+        "duration": 1.6,
+        "text": "is that galaxies are not just randomly"
+      },
+      {
+        "start": 1329.6,
+        "duration": 1.1,
+        "text": "strewn out in space."
+      },
+      {
+        "start": 1330.7,
+        "duration": 2.4,
+        "text": "They form these filaments."
+      },
+      {
+        "start": 1333.1,
+        "duration": 1.1,
+        "text": "They form these massive structures."
+      },
+      {
+        "start": 1334.2,
+        "duration": 3.4,
+        "text": "So a galaxy is itself part of these much larger structures."
+      },
+      {
+        "start": 1337.6,
+        "duration": 2.2,
+        "text": "The thing is, that's actually predicted by a theory,"
+      },
+      {
+        "start": 1339.8,
+        "duration": 1.3,
+        "text": "or at least by experiment."
+      },
+      {
+        "start": 1341.1,
+        "duration": 3.8,
+        "text": "So we can run in a computer billions of virtual galaxies,"
+      },
+      {
+        "start": 1344.9,
+        "duration": 2.4,
+        "text": "orbiting by gravity for billions of years."
+      },
+      {
+        "start": 1347.3,
+        "duration": 2.1,
+        "text": "And what we have found with simulations"
+      },
+      {
+        "start": 1349.4,
+        "duration": 3.4,
+        "text": "is that the galaxies, as they evolve,"
+      },
+      {
+        "start": 1352.8,
+        "duration": 3.4,
+        "text": "do organize into strands that do resemble the strands"
+      },
+      {
+        "start": 1356.2,
+        "duration": 0.9,
+        "text": "that we're beginning to see."
+      },
+      {
+        "start": 1357.1,
+        "duration": 2.6,
+        "text": "So that is, in some sense, some confirmation"
+      },
+      {
+        "start": 1359.7,
+        "duration": 2.8,
+        "text": "that all our theory is basically correct."
+      },
+      {
+        "start": 1362.6,
+        "duration": 2.3,
+        "text": "If you're using red shift, what's the error"
+      },
+      {
+        "start": 1364.9,
+        "duration": 1.4,
+        "text": "that'll give you on the distance?"
+      },
+      {
+        "start": 1366.3,
+        "duration": 1.3,
+        "text": "That's a good question."
+      },
+      {
+        "start": 1367.6,
+        "duration": 3.1,
+        "text": "It's hard to calibrate at very large scales"
+      },
+      {
+        "start": 1370.7,
+        "duration": 4.4,
+        "text": "because we have very few other ways to measure the distance."
+      },
+      {
+        "start": 1375.1,
+        "duration": 1.6,
+        "text": "The gravitational black hole things,"
+      },
+      {
+        "start": 1376.7,
+        "duration": 2.0,
+        "text": "those are the most exciting."
+      },
+      {
+        "start": 1378.6,
+        "duration": 2.0,
+        "text": "Normally, to measure distance at this distance,"
+      },
+      {
+        "start": 1380.7,
+        "duration": 3.5,
+        "text": "you need to stack together a huge amount of rungs of the ladder,"
+      },
+      {
+        "start": 1384.1,
+        "duration": 1.3,
+        "text": "first of all, the distance of the sun,"
+      },
+      {
+        "start": 1385.5,
+        "duration": 1.5,
+        "text": "and then from that parallax to work out distance"
+      },
+      {
+        "start": 1387.0,
+        "duration": 1.2,
+        "text": "to nearby stars."
+      },
+      {
+        "start": 1388.2,
+        "duration": 1.5,
+        "text": "And then from that, you can work out"
+      },
+      {
+        "start": 1389.7,
+        "duration": 1.2,
+        "text": "using main sequence-fitting distance"
+      },
+      {
+        "start": 1390.9,
+        "duration": 3.0,
+        "text": "to other stars in the galaxy, and then Hubble's law."
+      },
+      {
+        "start": 1393.9,
+        "duration": 2.9,
+        "text": "There's a suffice between there, and then Hubble's law."
+      },
+      {
+        "start": 1396.8,
+        "duration": 2.0,
+        "text": "You can use the gravitational measurements"
+      },
+      {
+        "start": 1398.7,
+        "duration": 1.7,
+        "text": "to directly measure the distance."
+      },
+      {
+        "start": 1400.4,
+        "duration": 1.8,
+        "text": "Unfortunately, I don't quite remember."
+      },
+      {
+        "start": 1402.2,
+        "duration": 2.3,
+        "text": "They kind of like standard sirens, as what they call it."
+      },
+      {
+        "start": 1404.5,
+        "duration": 0.9,
+        "text": "There's a certain amount of energy"
+      },
+      {
+        "start": 1405.4,
+        "duration": 2.1,
+        "text": "that's released by a black hole collision."
+      },
+      {
+        "start": 1407.5,
+        "duration": 3.6,
+        "text": "And so you kind of know how loud they are in absolute terms."
+      },
+      {
+        "start": 1411.1,
+        "duration": 3.9,
+        "text": "And you can also measure how loud they are from your observatory."
+      },
+      {
+        "start": 1415.1,
+        "duration": 1.6,
+        "text": "And billions and billions of times"
+      },
+      {
+        "start": 1416.6,
+        "duration": 1.8,
+        "text": "fade to at that point because of the vast distance drop,"
+      },
+      {
+        "start": 1418.5,
+        "duration": 1.7,
+        "text": "but they can use that to infer the distance."
+      },
+      {
+        "start": 1420.1,
+        "duration": 1.7,
+        "text": "They cross-checked against the Hubble"
+      },
+      {
+        "start": 1421.8,
+        "duration": 1.4,
+        "text": "to their edge-check calculations."
+      },
+      {
+        "start": 1423.2,
+        "duration": 2.0,
+        "text": "It matched within like 10%."
+      },
+      {
+        "start": 1425.2,
+        "duration": 0.8,
+        "text": "That's a good question."
+      },
+      {
+        "start": 1426.0,
+        "duration": 1.6,
+        "text": "Yeah, yeah, no, it is very reassuring."
+      },
+      {
+        "start": 1427.7,
+        "duration": 1.5,
+        "text": "Although that 10% is controversial,"
+      },
+      {
+        "start": 1429.2,
+        "duration": 0.9,
+        "text": "it seems like there's something a bit"
+      },
+      {
+        "start": 1430.1,
+        "duration": 2.9,
+        "text": "wonky with Hubble's law at very large scales."
+      },
+      {
+        "start": 1433.0,
+        "duration": 2.1,
+        "text": "The same 10% is showing up elsewhere, too."
+      },
+      {
+        "start": 1435.1,
+        "duration": 1.8,
+        "text": "It's an ongoing mystery, exactly what"
+      },
+      {
+        "start": 1436.9,
+        "duration": 1.8,
+        "text": "is the cause of this 10% number."
+      },
+      {
+        "start": 1438.7,
+        "duration": 1.7,
+        "text": "And it's one of all those of physics wrong."
+      },
+      {
+        "start": 1440.5,
+        "duration": 1.9,
+        "text": "There's something very basic called the Copernican principle"
+      },
+      {
+        "start": 1442.4,
+        "duration": 1.8,
+        "text": "that is an article faith now"
+      },
+      {
+        "start": 1444.2,
+        "duration": 1.3,
+        "text": "since the Copernican Revolution"
+      },
+      {
+        "start": 1445.5,
+        "duration": 1.8,
+        "text": "that we believe the laws of the universe"
+      },
+      {
+        "start": 1447.3,
+        "duration": 3.5,
+        "text": "are pretty much the same everywhere in the universe."
+      },
+      {
+        "start": 1450.8,
+        "duration": 1.3,
+        "text": "And this is a fundamental assumption"
+      },
+      {
+        "start": 1452.1,
+        "duration": 2.1,
+        "text": "that allows us to extend the ladder."
+      },
+      {
+        "start": 1454.2,
+        "duration": 2.2,
+        "text": "And it's always rewarded us in the past."
+      },
+      {
+        "start": 1456.5,
+        "duration": 2.2,
+        "text": "It always fits at least in the laws of physics."
+      },
+      {
+        "start": 1458.7,
+        "duration": 1.6,
+        "text": "It's having self-consistent."
+      },
+      {
+        "start": 1460.3,
+        "duration": 2.6,
+        "text": "But there's this slight 9% and normally 10%"
+      },
+      {
+        "start": 1462.9,
+        "duration": 2.2,
+        "text": "and it's an ongoing area."
+      },
+      {
+        "start": 1465.1,
+        "duration": 2.1,
+        "text": "The subject is a living subject, just want to make."
+      },
+      {
+        "start": 1467.2,
+        "duration": 0.9,
+        "text": "But we've gotten a long way"
+      },
+      {
+        "start": 1468.1,
+        "duration": 2.2,
+        "text": "from that poor graduate student walking down there."
+      },
+      {
+        "start": 1470.4,
+        "duration": 0.8,
+        "text": "Yeah."
+      },
+      {
+        "start": 1471.2,
+        "duration": 1.0,
+        "text": "Yeah."
+      },
+      {
+        "start": 1472.2,
+        "duration": 2.0,
+        "text": "A long walk, that's all you should."
+      },
+      {
+        "start": 1474.3,
+        "duration": 0.8,
+        "text": "Yes."
+      },
+      {
+        "start": 1477.2,
+        "duration": 1.4,
+        "text": "Maybe this goes without saying,"
+      },
+      {
+        "start": 1478.6,
+        "duration": 2.7,
+        "text": "but the cosmic distance ladder is too broad a topic"
+      },
+      {
+        "start": 1481.3,
+        "duration": 2.1,
+        "text": "for two videos to fully convey."
+      },
+      {
+        "start": 1483.4,
+        "duration": 2.8,
+        "text": "After showing an early view of this on Patreon, for example,"
+      },
+      {
+        "start": 1486.1,
+        "duration": 1.6,
+        "text": "a number of people expressed sadness"
+      },
+      {
+        "start": 1487.7,
+        "duration": 3.0,
+        "text": "that there was no discussion of type 1 A supernovas"
+      },
+      {
+        "start": 1490.7,
+        "duration": 1.9,
+        "text": "and fitting a story like this into an hour,"
+      },
+      {
+        "start": 1492.7,
+        "duration": 2.4,
+        "text": "necessarily involves at least a little simplification"
+      },
+      {
+        "start": 1495.0,
+        "duration": 1.0,
+        "text": "along the way."
+      },
+      {
+        "start": 1496.0,
+        "duration": 2.4,
+        "text": "Luckily for the extra curious among you,"
+      },
+      {
+        "start": 1498.4,
+        "duration": 2.0,
+        "text": "Terry has kindly put together an FAQ"
+      },
+      {
+        "start": 1500.5,
+        "duration": 2.1,
+        "text": "with a lot of added details and corrections"
+      },
+      {
+        "start": 1502.6,
+        "duration": 1.1,
+        "text": "from the discussion."
+      },
+      {
+        "start": 1503.7,
+        "duration": 2.0,
+        "text": "And he's also working on a book about the topic"
+      },
+      {
+        "start": 1505.6,
+        "duration": 1.8,
+        "text": "with a collaborator, Tanya Cloudin."
+      },
+      {
+        "start": 1507.4,
+        "duration": 2.0,
+        "text": "So you can keep an eye out for that."
+      }
+    ],
+    "full_text": "This animation is zooming out by a factor of 10 every 2 seconds. Maybe you've seen things like this before, conveying the mind-boggling scale of our universe. But here, in this video, you and I are gonna continue the saga through the many moments of delightful ingenuity throughout human history that led us to first discover how far away objects in the cosmos really are. Appreciating how we know these distances is to me more amazing than the distances themselves. This is part 2 of a collaboration with Terrence Tao, and it's okay if you haven't yet seen part 1. Each video should be relatively self-contained, but for context, we left off with Kepler's ingenious method for deducing the shapes of all of the orbits of the planets around the Sun. So people knew what the solar system looked like, but they still didn't have an exact sense of scale. And this left astronomers hungry to measure any distance that they could in this system, like maybe how far away a given planet is from Earth at a given moment. Since that would be enough to lock everything else into place. Now, I'll admit, while I had vaguely learned about how this was done before, I definitely had not appreciated the cleverness of the details. You could measure distances to the planets, like Venus, take two measurements on different sides of the Earth, around the time a captain cook when they were traveling to discover Australia and so forth. Part of the reason for this was the scientific mission. I mean, they wanted to know the distance to Venus and Mars and so forth. They wanted people to take precise measurements, they wanted to one in Greenwich in the UK and one somewhere in Southern Hemisphere, at exactly the same time, or the same object. The key idea here is that as you sail down to the Southern Hemisphere and you observe a given object up in the sky, its position in the sky, say relative to the background constellations, will appear to shift up as the angle of your line of sight slowly changes with your position. We call this parallax. It is the same parallax that we use with binocular vision. Our eyes are a certain distance apart and so we can determine death for any distance that's not too much larger than the distance your eyes. Since that now we figured out how to make two eyeballs on different sides of the Earth. Now, if you want to turn this into a measurement, you first need to understand this line right here, connecting the two different observation points, both its distance and its direction, because people knew the size of the Earth and they could tell where they were on the Earth, that would be taken care of. Then the hard part is for the first observer to take a precise enough measurement of the viewing angle to this object. They need to deduce this angle here and for the second observer to do likewise. If you can do that, you have a triangle where you know all three of the angles and you also know one of the side lengths. This means with just a little bit of trigonometry, you can figure out any other side length, which for example tells you how far away this object is from one of the observers. Now the way I'm drawing it here, it makes it look almost easy. But for the real world measurement, you have to keep in mind just how far away everything is. If we zoom out so that they're both looking at something as far away as the moon, it would look something like this. But the moon cosmologically speaking is really quite close. So even if both of them are looking at the nearest planet, Venus, when it is that it's absolute closest to Earth, it's around 39 million kilometers away, which is over 6,000 times the radius of the Earth. So zooming back into those two observers, even if they were as far away as you could get them, one at the top of the Earth and another at the bottom of the Earth, these two lines of sight would be almost parallel. If you work out the little bit of trigonometry, if they're both looking at Venus at its absolute closest point, the difference in angle between these two lines is about one arc minute, which is one-sixtieth of a degree. So if this is gonna work, your measurements have to be extremely precise and you have to be absolutely sure that both observers are really looking at the same thing at the same moment. Now at the time clocks won't not good enough that they could actually just say at this specific time, like its measurement. Also you're not guaranteed that you can even find the planet and so forth. But at least transits, this is the transit of Venus. Sometimes Venus travels along the Sun. So you can just time exactly when Venus hits the angel of Sun. This is the part I had not appreciated in particular how sensitive everything really is. So up in the Northern Hemisphere, if you're watching the transit of Venus, maybe it looks something like this. And far away at some point down in the Southern Hemisphere, due to parallax, Venus would appear higher up and you essentially wanna know exactly how much higher up. Now this animation is greatly exaggerating the difference in reality, the two would look much, much more similar, more like this. And remember, there was no photography, so it's not like they could take pictures and closely compare them. When you look at the Sun up in the sky, it spans around 32 arc minutes of viewing angle and this is something they would have been able to measure. The deviation in viewing angle to Venus for these two observations would be a fraction of an arc minute. So to measure exactly what that fraction was, each observer would not try to directly describe where it was. Instead they would measure the duration of the transit. How long it takes from the moment that Venus's silhouette first appears on the disc to the moment that it leaves. Critically, they also would have known how fast Venus and the Sun are moving through the sky at this time. And this would let them calculate how long it should take Venus's apparent position to traverse the distance of, say, one sun diameter and turns out to be around seven hours. I won't dwell too much on the details for how to calculate this, but at a high level, if you think about Earth and Venus both orbiting the Sun, the angle of this line of sight right here from Earth through Venus is something they would have understood well. Since thanks to Kepler, they knew the relative shapes of the orbits and how long it takes each planet to go around the Sun. So in principle, they could calculate how long it should take for this line to scan over those 32 arc minutes in the sky that the Sun occupied. The point is that by measuring the durations of the transit from these two different locations, that could tell you the lengths of these two lines drawn across the Sun's disc. These are very similar, but measurably different. And with a little bit of circle geometry, the lengths of those lines will tell you how far apart they are, that fraction of an arc minute separating the two observations. And then this, in turn, from everything that we discussed before, lets you deduce how far away Venus is in terms of the distance between those observers. That is just so clever to me. It was Edmund Halley who originally came up with this idea, but sadly he didn't live long enough to see it come to fruition. Before moving on, I simply have to tell you the story of Guillaume Lijanteel. He was another explorer, also tasked with making one of these measurements for the transit of Venus, specifically he was going for the one in 1761. But he was delayed by the Seven Years War, and still at sea when the transit happened, so he was unable to make the measurement. Now the next transit of Venus was going to be eight years later, but after that, it wouldn't be for another 105 years. So he decided to extend his journey, do a bunch of other explorer things, and catch the next one. And by 1769, he was all set up in the Philippines ready to go, but on that day, it was cloudy, so he couldn't see anything. Once he finally got back to France, he found that he had been declared dead, his wife had remarried, and his relatives had all plundered his estate. Now remember, the reason people cared so much was that having this one measurement was enough to lock in place the scale of the whole solar system. So once they had it, they would automatically know every other distance involved. This was important, actually, because you need to do this in order to lock out the distance to the sun. The distance to the sun is the most important round of the ladder. It's called the Astronomical Unit. Almost everything beyond the solar system is measured in terms of the Astronomical Unit. And so they really needed really accurate estimates. Given what we just saw, you might be able to guess how you can use this astronomical unit to measure the distance to near my stars. But before we get to that, there's actually one more clever deduction that you can make once you know this distance, a little closer to home and incredibly important for physics. Roma was measuring Jupiter, and Jupiter has a small moon called Io. Io orbits Jupiter really, really fast, because it's really close to Jupiter. Our moon takes 28 days to go around the Earth. Io takes 42 hours. Let's whip it. Yeah, it's extremely fast. If you observe Jupiter on a telescope, you see Io, which is this white dot go in, behind Jupiter's shadow on the out, in, out, in, out. Roma was marking down one precise moment for each one of these cycles. You see, Io goes dark when it falls into Jupiter's shadow, which it does every cycle because Jupiter is just so big. As it emerges, it becomes bright again. Watching it through a telescope, night after night, you can mark the exact time that it pops back into view. And if you go out with a telescope and you do this a whole bunch, what you'll notice is that these happen in 42-hour increments, like clockwork. Except that it wasn't clockwork. So Roma was observing, I hope, go back and forth, back and forth for months, and here observed that, in different times of the year, Io was a heteroschedule. Io was behind schedule. So, came to your picture. Earth goes on a sun. Jupiter also goes on a sun. So, when you imagine the orbit of Io, it was 20 minutes, 20 minutes earlier. When the Earth was on the same side as Jupiter, then when the Earth was on the opposite side of Jupiter, it took 20 minutes longer. It was a delay in the orbit. So, he measured this up to some very precise calculations. And Hoigans realized that the reason for this is because light was taking 20 minutes to reverse this extra distance. So, two astronomical units. It's traversed in about 20 minutes. It's so clever. Yeah, yeah, yeah, yeah. Historically, this was all before the measurement to Venus. So, at that time, they didn't actually know the true astronomical unit. So, there are estimates for the speed of light. Frankly, don't look that impressive if you see them. But, at that time, it was not even obvious that light had a speed. For most experiments you could do down on Earth at that time, it just looks instantaneous. But at astronomical scales, it's actually really slow. And this very clever way to measure its speed by observing Io, in precise though it was, laid the groundwork for more precise experiments down on Earth. Once people had at least a rough sense of how fast it really was. I also really like this because it comes back around to the distance ladder. These days, with technology, the more accurate way that we measure the distances to planets like Venus is not with parallax, but using radar. But this, of course, relies on knowing the speed of light. And now, let's finally leave our solar system and measure the nearby stars. Again, you can use parallax. It's essentially identical reasoning for how we got the distance to Venus. Only this time, the two observation points are not opposite sides of the Earth. They're opposite sides of Earth's orbit. That is, you measure the star at one time of the year and then you wait six more months for the Earth to be on the other side of the Sun, make another measurement, and compare the two angles. Again, for demonstration purposes, I'll be drawing this star unrealistically close. In principle, over the course of six months, the line of sight from the Earth to a star slowly changes angle. So the position of that star in the sky should slowly drift over those months. And it's very subtle, but you can actually see this in practice. This right here is a time lapse of a very zoomed-in view for our nearest neighbor, Proxima Centauri, taken over six months. And you can see that over that time, it does gently drift with respect to the background stars. But as before, the mind-blowing part is to appreciate just how subtle the effect is and therefore how impressive it is that people were able to use this for calculation back in the 19th century. Let's actually work out the math here. Suppose a star is a given distance d away and to make everything easy, let's assume it's perpendicular to this connecting line between our two observation points. This angle right here represents half of the change in viewing angle between those two observations. The tangent of that angle, opposite over adjacent, gives you the ratio between one astronomical unit and the distance between that star and our sun. Rearranging a little bit, this change in angle looks like two times the inverse tangent of that ratio. So what is that ratio? Well, for that closest star that I mentioned, Proxima Centauri, it's over 40 trillion kilometers away, which is over four light years and around 260,000 times an astronomical unit. Now, if you plug that in, it means that this change in angle from the two observation points is a tiny, tiny portion of a degree. Let me see if I can show you how small this is. This right here is a circle representing 360 degrees of full viewing angle. And if we zoom in real close to one degree, you'll remember I mentioned earlier that the sun and also the moon for that matter, take up about half a degree of viewing angle, and we often think of this as being divided into 60 arc minutes. Well, if you zoom in even further to one arc minute, this is commonly divided into 60 arc seconds. At its largest, Jupiter will span about 50 arc seconds of viewing angle. So this parallax for Proxima Centauri, the nearest star is only about 1.5 arc seconds. As another way to put that in perspective, this is about the same angular size as if you held out a dime in front of you, but two and a half kilometers away, a mile and a half down from where your eye is. And that's the closest star. It only gets worse from there. The first measurement of this kind was successfully done in 1838 by Friedrich Beessel. It wasn't Proxima Centauri. They wouldn't have been able to know which star was closest. But over the course of the next century, there was a monumental effort for many more measurements to try to catalog as many stars as we could. But this parallax idea only really works for a tiny portion of our galaxy. So to figure out the full size of the Milky Way, that requires a new idea. Probably speaking, the Milky Way is this... I can't draw a spiral. OK, this is, again, maybe a place where your graphics can be much better than what I draw here. OK. I like this. So our time is on one of the arms. Yeah. So by using parallax by about the 19th century, there was about maybe 1,000 stars close enough to the sun that they knew how far away these stars were. Maybe about 100 light years away. So they knew how far away these stars are. And they knew how bright they looked. And so they knew how bright they were by the inverse square law of light propagation. Just to spell this out a little more explicitly, if you imagine you have some star in space emitting a bunch of light in all directions, then at a given distance away, all of that light is evenly spread along a sphere. So if you're that distance away and you're measuring the brightness with some little patch of area, maybe that represents your camera or a photosensor or your pupil, something like that, the amount of light you're receiving depends on the proportion of this total sphere that your little area represents. So for example, if you were twice as far away, that same beam of light that you had been measuring up close is now spread along four times the area. So out of this distance, if you used the same photosensor with the same area as before, it would only be measuring a quarter as much light. In general, the amount of light that you see, the apparent brightness of the star, is proportional to its absolute brightness, the total amount of light it's giving away, divided by the square of the distance between you and that star. So for all of those stars whose distance we could measure using parallax, by also measuring the apparent brightness, astronomers could know their absolute brightness. The other thing they could observe is the color of all of these stars, the frequency of light that they're emitting, which is actually incredibly helpful. For example, you can start looking for patterns in this data. Imagine you organize all of your stars onto a plot, where in the X direction, we're gonna sort them by the color. The common kind of backward-seaming convention is for higher frequency light, like blue to go on the left and lower frequency, like red to be on the right. Then in the Y direction, you can sort according to the absolute brightness of these stars, which again, you can deduce by knowing their distance and using the inverse square law. A thousand points of data, all intensity and color. Okay, and this is main sequence. Most stars live on the sequence. This is known as the Hertzbrung Russell diagram, initially created around 1911. The data that went into it, though, represents decades of effort. A lot of it coming from this group of women at the Harvard College Observatory, commonly known as the Harvard Computers. The diagram exposes how the color of a star can tell you something about its absolute brightness. This main sequence represents one very common type of star, which includes our sun, during a phase of its evolution when it's burning hydrogen in its core. Stars in this category that are bigger and brighter also tend to burn hotter, and they have blackbody radiation more in the blue direction, while those that are smaller burn cooler, and they radiate more in the red direction. So if you see some star very far off, way too far for parallax measurements, and if you also know that it should fall into this main sequence, more on that in a moment, its color can tell you its absolute brightness. You fit it to this curve, and then by using its apparent brightness with the inverse square law, you can deduce how far away it is. Now you might ask, how would you know that a star should fall in this main sequence? The full diagram is much more splotchy than a clean line. It's got a lot of different components, representing different types of stars. The thing to keep in mind is that the color information you get from a star is much richer than what a single number on this x-axis could convey. For example, this right here represents all of the relative intensities for light that we get from our sun, across many different wavelengths. It's what we call its spectrum. This is the usual pattern you see. You have a general lump representing the black body radiation with certain wavelengths greatly reduced. Those correspond to the wavelengths of light absorbed by the atoms in the sun. And where specifically those absorption lines fall, we'll tell you what the atoms are in the star. And from that, it helps classify what kind of star it even is. So for example, while those Harvard computers are doing a bunch of detailed analysis of spectra from all these stars, some of them, including Antonia Mowry and Annie Cannon, came up with very useful classification systems for these stars based on the spectra. You can then use that classification scheme to tell you which cluster you would expect to give and start to fall in in this Hertzbrung Russell diagram. For example, whether it should be in this main sequence, or if it's something else entirely, like a red giant. And then once you have this law, you can then go all throughout the galaxy where you cannot measure. But it stops working past the galaxy because each individual star becomes too faint. The galaxy is only a really tiny portion of the full universe. Okay, so yeah, you have one tiny little galaxy here. So there's all the other galaxies all over. Yeah, and so in a galaxy, most stars, you cannot measure the brightness of a single star because there's just billions of them all crammed in place. But there are some amazingly bright stars, they're called suffix. They're super giant stars that are thousands and sometimes brighter than the sun. Some of them live in our own galaxy and some of them live in other galaxies. They still blend in, but you can still kind of measure their brightness. These stars are what are called variable stars. So most stars, they stay the same intensity for all time. But these suffix stars, they're brightness oscillates. So they have a period of intensity. Like every 20 to 8 is every 10 days, they oscillate. And it turns out that the bigger the suffix, the brighter it is, the longer the period. Henry Desswyn Levin, who was a 20th century astronomer, she measured all the suffix that she could in our own galaxy and she plotted the period against the intensity. And she found basically a linear law that the brighter the suffix, the longer it took. Like the Hussmann-Russet-Dargonne before, it gave a standard candle that if a galaxy happened to have a suffix in it, you could observe it, work out its period. It gave you this intensity. That's a now you know how bright it should be and you know how bright it looks, you can measure its distance. That gave the next run of the ladder. So a couple thousand galaxies where you can measure the distance. But that again, it's only a tiny portion of the universe. You're using these powers of 10. Oh, yeah, yeah. Yeah, kind of zoom, zoom. Yeah. So now this is a local cluster where thanks to Levit, you could work out the distances. And then there's the rest of the universe. But it's enough to get data of some kind. Yes, yes. And so Hubble, Edwin Hubble was measuring all these galaxies. And they have certain spectral lines. For example, there's a lot of hydrogen around each of these galaxies. And so there's certain spectral lines of hydrogen that get absorbed. And so there's certain lines that are missing, or almost missing in a spectrum. But he noticed that for some of the galaxies, the spectrum was shifted to the red from where it should be. But not all of them. And so he measured it. So he measured this red shift. Again, it's distance. And again, he got a linear relationship. It's like a famous plot in his paper, which is now called Hubble's law. But the red shift is proportional to the distance. Nowadays, we know why this is true, is because general relativity predicts that the universe is expanding at a uniform rate. And the further away things are, the more they recede. And the faster they recede, the more red shift they have. But again, this is a predictable law. So if you have a galaxy far far away, if you know what his red shift is, in his measure's spectrum, you apply this law. You can work out his distance. So this is the largest run of the data that we know to date. The entire bubble of the observable universe, which we think is about 20% of the whole universe. We don't know. Pretty much every object in the universe that image liked or some sort of radiation, we can now measure the distance to usually by seeing how spectral lines shift. And so you can start mapping things. You can do 3D pictures of the universe. And some go the Sloan's galactic survey, which is how you do this. For this visualization, what I did is read in some data from the Sloan Digital Sky Survey, which aggregates data about a huge number of galaxies, including their angle in the sky, and then critically their distance away, as measured by red shift. This set doesn't include all of the angles in the sky. That's why it has this kind of wonky shape. This represents about half a million different galaxies visualized as a simple point cloud. And in a sense, what you're looking at is a snapshot of our little corner of the universe, measured out to a radius of about 1.6 billion light years. And one thing that has been discovered is that galaxies are not just randomly strewn out in space. They form these filaments. They form these massive structures. So a galaxy is itself part of these much larger structures. The thing is, that's actually predicted by a theory, or at least by experiment. So we can run in a computer billions of virtual galaxies, orbiting by gravity for billions of years. And what we have found with simulations is that the galaxies, as they evolve, do organize into strands that do resemble the strands that we're beginning to see. So that is, in some sense, some confirmation that all our theory is basically correct. If you're using red shift, what's the error that'll give you on the distance? That's a good question. It's hard to calibrate at very large scales because we have very few other ways to measure the distance. The gravitational black hole things, those are the most exciting. Normally, to measure distance at this distance, you need to stack together a huge amount of rungs of the ladder, first of all, the distance of the sun, and then from that parallax to work out distance to nearby stars. And then from that, you can work out using main sequence-fitting distance to other stars in the galaxy, and then Hubble's law. There's a suffice between there, and then Hubble's law. You can use the gravitational measurements to directly measure the distance. Unfortunately, I don't quite remember. They kind of like standard sirens, as what they call it. There's a certain amount of energy that's released by a black hole collision. And so you kind of know how loud they are in absolute terms. And you can also measure how loud they are from your observatory. And billions and billions of times fade to at that point because of the vast distance drop, but they can use that to infer the distance. They cross-checked against the Hubble to their edge-check calculations. It matched within like 10%. That's a good question. Yeah, yeah, no, it is very reassuring. Although that 10% is controversial, it seems like there's something a bit wonky with Hubble's law at very large scales. The same 10% is showing up elsewhere, too. It's an ongoing mystery, exactly what is the cause of this 10% number. And it's one of all those of physics wrong. There's something very basic called the Copernican principle that is an article faith now since the Copernican Revolution that we believe the laws of the universe are pretty much the same everywhere in the universe. And this is a fundamental assumption that allows us to extend the ladder. And it's always rewarded us in the past. It always fits at least in the laws of physics. It's having self-consistent. But there's this slight 9% and normally 10% and it's an ongoing area. The subject is a living subject, just want to make. But we've gotten a long way from that poor graduate student walking down there. Yeah. Yeah. A long walk, that's all you should. Yes. Maybe this goes without saying, but the cosmic distance ladder is too broad a topic for two videos to fully convey. After showing an early view of this on Patreon, for example, a number of people expressed sadness that there was no discussion of type 1 A supernovas and fitting a story like this into an hour, necessarily involves at least a little simplification along the way. Luckily for the extra curious among you, Terry has kindly put together an FAQ with a lot of added details and corrections from the discussion. And he's also working on a book about the topic with a collaborator, Tanya Cloudin. So you can keep an eye out for that."
+  }
+}

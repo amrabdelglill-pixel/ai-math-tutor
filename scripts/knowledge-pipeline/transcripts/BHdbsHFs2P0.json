@@ -1,0 +1,2374 @@
+{
+  "video_id": "BHdbsHFs2P0",
+  "video_title": "The Hairy Ball Theorem",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1780.0,
+  "view_count": 2575506,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.4,
+        "text": "These days, whenever I look at the back of my beloved 7 month old baby's head, this little"
+      },
+      {
+        "start": 4.4,
+        "duration": 5.4,
+        "text": "swirl of tiny hairs reminds me of one of the most ridiculously named facts in math,"
+      },
+      {
+        "start": 9.8,
+        "duration": 1.0,
+        "text": "the Harry Ball Theorem."
+      },
+      {
+        "start": 10.8,
+        "duration": 5.7,
+        "text": "I promise this is a genuinely serious bit of math, where informally the statement is that"
+      },
+      {
+        "start": 16.5,
+        "duration": 4.7,
+        "text": "if you have a ball that's covered in hair, and you try to comb it down, there is no way"
+      },
+      {
+        "start": 21.2,
+        "duration": 3.9,
+        "text": "to do it without having the hair stick up at least one point."
+      },
+      {
+        "start": 25.1,
+        "duration": 4.8,
+        "text": "For example, let's say you try to comb it all counterclockwise around some axis."
+      },
+      {
+        "start": 30.0,
+        "duration": 3.8,
+        "text": "Then at the top and the bottom, you end up with these little swirls, and the hair at"
+      },
+      {
+        "start": 33.8,
+        "duration": 3.8,
+        "text": "the centermost point of those swirls would have nowhere to go."
+      },
+      {
+        "start": 37.6,
+        "duration": 1.2,
+        "text": "It's forced to stick up."
+      },
+      {
+        "start": 38.8,
+        "duration": 4.2,
+        "text": "It's actually very fun to play around with this in your mind, where no matter how you"
+      },
+      {
+        "start": 43.1,
+        "duration": 4.8,
+        "text": "try to flatten out the hair, it is a mathematical guarantee that you will be left with at least"
+      },
+      {
+        "start": 47.9,
+        "duration": 2.1,
+        "text": "one tough like this."
+      },
+      {
+        "start": 50.0,
+        "duration": 4.6,
+        "text": "In fact, even getting it down to just a single problem point, as opposed to two, is a bit"
+      },
+      {
+        "start": 54.6,
+        "duration": 1.0,
+        "text": "of a challenge."
+      },
+      {
+        "start": 55.6,
+        "duration": 4.0,
+        "text": "It is possible, and if you like puzzles, I encourage you to try thinking of how it could"
+      },
+      {
+        "start": 59.6,
+        "duration": 4.1,
+        "text": "work, later on in this video, I'm going to show you at least one way you can think about"
+      },
+      {
+        "start": 63.7,
+        "duration": 1.2,
+        "text": "doing it."
+      },
+      {
+        "start": 64.9,
+        "duration": 3.3,
+        "text": "For the moment though, I imagine there's a more burning question, which is that you"
+      },
+      {
+        "start": 68.2,
+        "duration": 5.4,
+        "text": "might be wondering why a mathematician would care about combing fluffy spheres like this."
+      },
+      {
+        "start": 73.6,
+        "duration": 3.8,
+        "text": "And of course the answer is they don't, the name and the informal statement are a bit"
+      },
+      {
+        "start": 77.3,
+        "duration": 1.0,
+        "text": "tongue in cheek."
+      },
+      {
+        "start": 78.3,
+        "duration": 3.8,
+        "text": "I will of course share the more formal statement, and in fact my real reason for making this"
+      },
+      {
+        "start": 82.2,
+        "duration": 4.4,
+        "text": "video is to share an unusually elegant way to prove it, one that I think will delight"
+      },
+      {
+        "start": 86.6,
+        "duration": 1.4,
+        "text": "any math lovers."
+      },
+      {
+        "start": 87.9,
+        "duration": 4.6,
+        "text": "But before any of that, let's motivate things with an example of the kind of situation"
+      },
+      {
+        "start": 92.5,
+        "duration": 5.2,
+        "text": "where these fluffy spheres naturally arise in practice, in a context that initially seems"
+      },
+      {
+        "start": 97.6,
+        "duration": 3.5,
+        "text": "completely unrelated."
+      },
+      {
+        "start": 101.1,
+        "duration": 7.2,
+        "text": "Okay, so imagine that you are a game developer, and you're programming some game where you"
+      },
+      {
+        "start": 108.3,
+        "duration": 4.6,
+        "text": "have a 3D model of an airplane, and what you want is to be able to take an arbitrary"
+      },
+      {
+        "start": 112.8,
+        "duration": 5.4,
+        "text": "trajectory for this plane to fly along, presumably something user defined, and your job is"
+      },
+      {
+        "start": 118.3,
+        "duration": 5.8,
+        "text": "to write a function that orients the plane correctly as it moves along that trajectory."
+      },
+      {
+        "start": 124.1,
+        "duration": 4.4,
+        "text": "So for example, let's say you're at a given point on some given trajectory, you obviously"
+      },
+      {
+        "start": 128.5,
+        "duration": 4.3,
+        "text": "want to move the center of the model to be on that point, but you're left with ambiguity"
+      },
+      {
+        "start": 132.8,
+        "duration": 3.3,
+        "text": "on how it should be rotated in 3D space."
+      },
+      {
+        "start": 136.1,
+        "duration": 4.1,
+        "text": "The obvious constraint here is that you know the nose of that plane should point along"
+      },
+      {
+        "start": 140.2,
+        "duration": 4.6,
+        "text": "the tangent vector of the path, but even that leaves some ambiguity."
+      },
+      {
+        "start": 144.8,
+        "duration": 4.3,
+        "text": "How is the plane rotated about this nose to tail axis?"
+      },
+      {
+        "start": 149.1,
+        "duration": 3.5,
+        "text": "One way you could think about defining that last degree of freedom is in terms of where"
+      },
+      {
+        "start": 152.6,
+        "duration": 4.4,
+        "text": "this perpendicular vector along the left wing direction points."
+      },
+      {
+        "start": 157.0,
+        "duration": 5.3,
+        "text": "The task for you, as the programmer of this video game, is to figure out what that perpendicular"
+      },
+      {
+        "start": 162.2,
+        "duration": 5.8,
+        "text": "wing direction should be at every single point along a given trajectory."
+      },
+      {
+        "start": 168.1,
+        "duration": 4.4,
+        "text": "Now there is a correct way to do this, which would involve calculating the second derivative"
+      },
+      {
+        "start": 172.5,
+        "duration": 4.1,
+        "text": "of the trajectory, working out how to get this to match the lift force from the wings"
+      },
+      {
+        "start": 176.6,
+        "duration": 4.4,
+        "text": "together with gravity, but maybe that seems a little complicated right now, resourceful"
+      },
+      {
+        "start": 181.1,
+        "duration": 4.4,
+        "text": "and lazy programmer that you are, you might think, hey, is there just some reasonable thing"
+      },
+      {
+        "start": 185.5,
+        "duration": 5.8,
+        "text": "I can do to choose some wing direction that's perpendicular to a given velocity vector,"
+      },
+      {
+        "start": 191.3,
+        "duration": 3.0,
+        "text": "the heading direction of the plane."
+      },
+      {
+        "start": 194.3,
+        "duration": 1.6,
+        "text": "Here's one way you might think about it."
+      },
+      {
+        "start": 196.0,
+        "duration": 4.4,
+        "text": "All of the possible ways this plane could point in space, the various heading directions"
+      },
+      {
+        "start": 200.4,
+        "duration": 3.8,
+        "text": "that I'm coloring and red, make up the points of a unit sphere."
+      },
+      {
+        "start": 204.2,
+        "duration": 5.1,
+        "text": "What you want is to write a function that takes in a given vector on this sphere and returns"
+      },
+      {
+        "start": 209.3,
+        "duration": 4.7,
+        "text": "some choice for a vector perpendicular to it, the ones that I'm coloring in pink."
+      },
+      {
+        "start": 214.0,
+        "duration": 4.3,
+        "text": "The only real constraint is that you want this association to be continuous, otherwise"
+      },
+      {
+        "start": 218.3,
+        "duration": 3.6,
+        "text": "it would mean the plane's orientation could sharply jump, which would be a very clear"
+      },
+      {
+        "start": 221.9,
+        "duration": 1.8,
+        "text": "glitch in the game."
+      },
+      {
+        "start": 223.7,
+        "duration": 4.7,
+        "text": "And if you know nothing else, it really feels like this should be a possible task."
+      },
+      {
+        "start": 228.4,
+        "duration": 4.6,
+        "text": "After all, for a given heading direction, you are not starved for choices, you have infinitely"
+      },
+      {
+        "start": 233.0,
+        "duration": 4.6,
+        "text": "many wing directions to choose from, an entire circle's worth of options."
+      },
+      {
+        "start": 237.6,
+        "duration": 4.9,
+        "text": "So how hard could it be to make some reasonable choice for every point on the sphere that"
+      },
+      {
+        "start": 242.5,
+        "duration": 1.9,
+        "text": "varies continuously?"
+      },
+      {
+        "start": 244.4,
+        "duration": 2.1,
+        "text": "You might see where I'm going with this."
+      },
+      {
+        "start": 246.5,
+        "duration": 5.4,
+        "text": "Choosing a perpendicular direction like this is equivalent to choosing a unit tangent vector"
+      },
+      {
+        "start": 251.9,
+        "duration": 2.0,
+        "text": "to that point of the sphere."
+      },
+      {
+        "start": 254.0,
+        "duration": 4.6,
+        "text": "So if you're assigning a specific perpendicular to every possible direction that plane could"
+      },
+      {
+        "start": 258.6,
+        "duration": 5.2,
+        "text": "be pointed, that's basically the same thing as defining a tangent vector at every point"
+      },
+      {
+        "start": 263.8,
+        "duration": 1.4,
+        "text": "on a sphere."
+      },
+      {
+        "start": 265.2,
+        "duration": 3.9,
+        "text": "Now this is starting to look a little bit more like a hairy ball."
+      },
+      {
+        "start": 269.1,
+        "duration": 3.9,
+        "text": "And in fact, now as good a time as any to step back and describe what the hairy ball theorem"
+      },
+      {
+        "start": 273.0,
+        "duration": 2.4,
+        "text": "actually says more formally."
+      },
+      {
+        "start": 275.4,
+        "duration": 4.6,
+        "text": "If you have a sphere, and you choose some point on that sphere, and a plane tangent to"
+      },
+      {
+        "start": 280.0,
+        "duration": 4.6,
+        "text": "the sphere at that point, then any vector that you choose within that plane, which is"
+      },
+      {
+        "start": 284.6,
+        "duration": 4.2,
+        "text": "rooted at that point, is called a tangent vector of the sphere."
+      },
+      {
+        "start": 288.8,
+        "duration": 4.9,
+        "text": "If you assign a tangent vector to every single point on the sphere, one for each possible"
+      },
+      {
+        "start": 293.6,
+        "duration": 3.7,
+        "text": "tangent plane, we call it a vector field on the sphere."
+      },
+      {
+        "start": 297.3,
+        "duration": 3.8,
+        "text": "And whenever you're drawing vector fields like this, it's always standard to scale the"
+      },
+      {
+        "start": 301.1,
+        "duration": 2.3,
+        "text": "vectors down so that you can avoid clutter."
+      },
+      {
+        "start": 303.3,
+        "duration": 4.1,
+        "text": "And the other thing to keep in mind is that even though an illustration like this necessarily"
+      },
+      {
+        "start": 307.4,
+        "duration": 4.8,
+        "text": "only shows a finite set of vectors rooted at a finite set of points on the sphere, of"
+      },
+      {
+        "start": 312.2,
+        "duration": 4.5,
+        "text": "course a vector field consists of infinitely many vectors, one for every single point on"
+      },
+      {
+        "start": 316.8,
+        "duration": 2.2,
+        "text": "the continuous surface."
+      },
+      {
+        "start": 318.9,
+        "duration": 5.5,
+        "text": "So the theorem, our main character for today, states that if your vector field is continuous,"
+      },
+      {
+        "start": 324.4,
+        "duration": 4.4,
+        "text": "meaning there are no sudden jumps in its direction, then it must have at least one point"
+      },
+      {
+        "start": 328.8,
+        "duration": 4.5,
+        "text": "with a null vector, meaning a vector whose length is zero."
+      },
+      {
+        "start": 333.3,
+        "duration": 2.7,
+        "text": "For example, look back at our 3D model case."
+      },
+      {
+        "start": 336.1,
+        "duration": 3.8,
+        "text": "The function that I was using for many of the animations there was essentially trying"
+      },
+      {
+        "start": 339.9,
+        "duration": 4.4,
+        "text": "to keep the roof of the plane pointed as upward as possible."
+      },
+      {
+        "start": 344.3,
+        "duration": 4.6,
+        "text": "And when you express this function as a vector field, where again, each possible direction"
+      },
+      {
+        "start": 348.9,
+        "duration": 4.5,
+        "text": "for the nose of the plane is thought of as a point on the sphere, and each corresponding"
+      },
+      {
+        "start": 353.3,
+        "duration": 4.8,
+        "text": "wing direction is thought of as a tangent vector at that point of the sphere, then it turns"
+      },
+      {
+        "start": 358.1,
+        "duration": 5.8,
+        "text": "out that function I was using gives a vector field that spirals around the vertical axis."
+      },
+      {
+        "start": 363.9,
+        "duration": 4.4,
+        "text": "This actually does give reasonable enough animations in most cases, but the problem is that"
+      },
+      {
+        "start": 368.3,
+        "duration": 2.7,
+        "text": "it has a discontinuity at the poles."
+      },
+      {
+        "start": 371.0,
+        "duration": 4.6,
+        "text": "So if ever I let the plane point straight up or straight down using this function, you"
+      },
+      {
+        "start": 375.6,
+        "duration": 3.5,
+        "text": "would get this glitching behavior as it passes through that direction."
+      },
+      {
+        "start": 379.1,
+        "duration": 3.2,
+        "text": "Now, if you're just a programmer messing around with this, you might think you can tweak"
+      },
+      {
+        "start": 382.3,
+        "duration": 4.7,
+        "text": "things to avoid glitches like that, but actually the Harry Ball theorem guarantees no matter"
+      },
+      {
+        "start": 387.0,
+        "duration": 5.4,
+        "text": "how clever you are, you are doomed to have some direction producing this kind of glitch."
+      },
+      {
+        "start": 392.4,
+        "duration": 5.0,
+        "text": "So for robust animations, you cannot simply use the direction of the nose of the plane"
+      },
+      {
+        "start": 397.4,
+        "duration": 2.4,
+        "text": "to determine its full orientation."
+      },
+      {
+        "start": 399.8,
+        "duration": 4.8,
+        "text": "You have no choice but to step back and incorporate more information from the trajectory than"
+      },
+      {
+        "start": 404.6,
+        "duration": 2.4,
+        "text": "the velocity vector alone."
+      },
+      {
+        "start": 407.1,
+        "duration": 4.9,
+        "text": "As another example, think about the wind velocity at every point on the earth, say at some"
+      },
+      {
+        "start": 412.0,
+        "duration": 1.7,
+        "text": "constant altitude."
+      },
+      {
+        "start": 413.7,
+        "duration": 4.0,
+        "text": "A pretty reasonable assumption is that wind velocity varies continuously, so the Harry"
+      },
+      {
+        "start": 417.7,
+        "duration": 1.6,
+        "text": "Ball theorem should apply."
+      },
+      {
+        "start": 419.3,
+        "duration": 5.2,
+        "text": "The wind pattern I'm animating here is completely unrealistic from a meteorological standpoint,"
+      },
+      {
+        "start": 424.4,
+        "duration": 4.6,
+        "text": "but the point is that whatever wind pattern you dream up, realistic or not, the Harry"
+      },
+      {
+        "start": 429.0,
+        "duration": 4.2,
+        "text": "Ball theorem is going to guarantee that there is always one place on the earth for a given"
+      },
+      {
+        "start": 433.2,
+        "duration": 4.0,
+        "text": "altitude where the wind velocity is exactly zero."
+      },
+      {
+        "start": 437.2,
+        "duration": 4.4,
+        "text": "Now, before being pedantic, you could say atmosphere is three-dimensional, so the more"
+      },
+      {
+        "start": 441.6,
+        "duration": 4.1,
+        "text": "accurate statement would be that the component of wind velocity parallel to the ground is"
+      },
+      {
+        "start": 445.7,
+        "duration": 4.1,
+        "text": "zero, you know, it could be going straight up or straight down, but still it is kind of"
+      },
+      {
+        "start": 449.8,
+        "duration": 1.0,
+        "text": "counterintuitive."
+      },
+      {
+        "start": 450.8,
+        "duration": 6.1,
+        "text": "A slightly more pragmatic example is if you want a radio signal that is completely identical"
+      },
+      {
+        "start": 456.9,
+        "duration": 4.6,
+        "text": "in every direction of 3D space, in the sense that everyone a given distance away from"
+      },
+      {
+        "start": 461.5,
+        "duration": 4.7,
+        "text": "the source receives an identical radio wave, same phase and amplitude at all points of"
+      },
+      {
+        "start": 466.3,
+        "duration": 1.0,
+        "text": "time."
+      },
+      {
+        "start": 467.3,
+        "duration": 3.9,
+        "text": "That might seem like a reasonable objective, but if you know a little bit about electromagnetic"
+      },
+      {
+        "start": 471.2,
+        "duration": 5.4,
+        "text": "waves, you'll know that they are oscillations in two distinct vector fields, the electric"
+      },
+      {
+        "start": 476.5,
+        "duration": 2.3,
+        "text": "and the magnetic fields, specifically."
+      },
+      {
+        "start": 478.9,
+        "duration": 5.5,
+        "text": "Importantly, the direction of oscillation for each one of these fields is always perpendicular"
+      },
+      {
+        "start": 484.4,
+        "duration": 4.3,
+        "text": "to the direction of propagation, at least far away from the source."
+      },
+      {
+        "start": 488.7,
+        "duration": 2.0,
+        "text": "So think about what that means."
+      },
+      {
+        "start": 490.7,
+        "duration": 4.4,
+        "text": "At a given distance away from the source, either one of these fields looks like a tangent"
+      },
+      {
+        "start": 495.1,
+        "duration": 5.0,
+        "text": "vector field on the sphere, and the Harry Ball theorem states at least one point of that"
+      },
+      {
+        "start": 500.1,
+        "duration": 4.9,
+        "text": "vector field has to be zero, so the only way to have a completely identical signal in"
+      },
+      {
+        "start": 505.0,
+        "duration": 5.4,
+        "text": "every direction of 3D space is for the signal itself to be zero, which presumably defeats"
+      },
+      {
+        "start": 510.4,
+        "duration": 1.0,
+        "text": "the point."
+      },
+      {
+        "start": 511.4,
+        "duration": 5.3,
+        "text": "I bring up these examples just to say that this seemingly playful fact about fluffy spheres"
+      },
+      {
+        "start": 516.7,
+        "duration": 4.4,
+        "text": "really does pop up in unusual places, but what I really want to do with this video, the"
+      },
+      {
+        "start": 521.1,
+        "duration": 4.9,
+        "text": "fun that I want to have, is to let you explore this idea the way that a pure mathematician"
+      },
+      {
+        "start": 526.0,
+        "duration": 1.0,
+        "text": "might."
+      },
+      {
+        "start": 527.0,
+        "duration": 3.9,
+        "text": "First, that puzzle that I mentioned at the start actually gives a really great way to flex"
+      },
+      {
+        "start": 530.9,
+        "duration": 5.3,
+        "text": "your mind and see how what feels obvious is not always true, and then after that I want"
+      },
+      {
+        "start": 536.2,
+        "duration": 5.7,
+        "text": "to share a completely beautiful proof that explains why this theorem is true."
+      },
+      {
+        "start": 541.9,
+        "duration": 3.6,
+        "text": "So to the puzzle, I don't know about you, but when I was first playing around with this"
+      },
+      {
+        "start": 545.5,
+        "duration": 5.0,
+        "text": "idea in my mind to build some intuition, it was really not at all obvious that reducing"
+      },
+      {
+        "start": 550.6,
+        "duration": 3.1,
+        "text": "to a single null point is even possible."
+      },
+      {
+        "start": 553.7,
+        "duration": 3.7,
+        "text": "For most of the vector fields I could dream up, you get at least one swirl going one"
+      },
+      {
+        "start": 557.4,
+        "duration": 5.9,
+        "text": "way, and another swirl going the other way, or maybe a source at one point and a sink"
+      },
+      {
+        "start": 563.3,
+        "duration": 1.3,
+        "text": "at another."
+      },
+      {
+        "start": 564.6,
+        "duration": 3.8,
+        "text": "This makes it really tempting to suggest that there should be some universal law about"
+      },
+      {
+        "start": 568.4,
+        "duration": 5.5,
+        "text": "needing at least two different null points with something opposite about them that has"
+      },
+      {
+        "start": 573.9,
+        "duration": 4.8,
+        "text": "to cancel out, something like the north and south poles of a magnet."
+      },
+      {
+        "start": 578.8,
+        "duration": 5.4,
+        "text": "Everything as that is, with a little cleverness, it is possible to get just one null point."
+      },
+      {
+        "start": 584.1,
+        "duration": 4.9,
+        "text": "And a nice way to define this is by using something known as a stereographic projection,"
+      },
+      {
+        "start": 589.1,
+        "duration": 4.4,
+        "text": "where every point on the sphere, except for the north pole, gets mapped to a unique"
+      },
+      {
+        "start": 593.5,
+        "duration": 2.8,
+        "text": "point on the xy plane."
+      },
+      {
+        "start": 596.3,
+        "duration": 1.5,
+        "text": "The way this works is very pretty."
+      },
+      {
+        "start": 597.7,
+        "duration": 5.0,
+        "text": "You imagine a light shining from that north pole, and every ray of light that passes some"
+      },
+      {
+        "start": 602.8,
+        "duration": 5.8,
+        "text": "point on the sphere, also hits one and only one point of the xy plane."
+      },
+      {
+        "start": 608.6,
+        "duration": 1.8,
+        "text": "And it goes the other way around too."
+      },
+      {
+        "start": 610.4,
+        "duration": 4.7,
+        "text": "Every point of the xy plane corresponds to a unique point on that sphere, meaning that"
+      },
+      {
+        "start": 615.1,
+        "duration": 4.9,
+        "text": "plane can get mapped onto every point of the sphere, except for the north pole."
+      },
+      {
+        "start": 620.0,
+        "duration": 4.6,
+        "text": "This is a favorite mapping among mathematicians, and the way we can use it here is to imagine"
+      },
+      {
+        "start": 624.6,
+        "duration": 4.6,
+        "text": "having some vector field on the xy plane that's never zero."
+      },
+      {
+        "start": 629.2,
+        "duration": 3.8,
+        "text": "That's simple enough to define, you could just take a constant vector field, always pointing"
+      },
+      {
+        "start": 633.0,
+        "duration": 1.6,
+        "text": "one unit to the right."
+      },
+      {
+        "start": 634.6,
+        "duration": 5.2,
+        "text": "If you project that vector field back onto the sphere, this gives you something that's"
+      },
+      {
+        "start": 639.7,
+        "duration": 3.6,
+        "text": "non-zero everywhere, except for the north pole."
+      },
+      {
+        "start": 643.3,
+        "duration": 3.6,
+        "text": "Admittedly, the way I'm showing it right now makes it kind of hard to parse what exactly"
+      },
+      {
+        "start": 646.9,
+        "duration": 2.3,
+        "text": "is going on around that north pole."
+      },
+      {
+        "start": 649.2,
+        "duration": 4.9,
+        "text": "The basic reason is that if you take a uniform sample of points on the plane, they get infinitely"
+      },
+      {
+        "start": 654.1,
+        "duration": 3.2,
+        "text": "dense around that north pole under this projection."
+      },
+      {
+        "start": 657.3,
+        "duration": 4.1,
+        "text": "So let me show you a second way I could illustrate things, which also, by the way, lends itself"
+      },
+      {
+        "start": 661.4,
+        "duration": 4.5,
+        "text": "to a more rigorous definition for what I even mean by projecting a vector field onto"
+      },
+      {
+        "start": 665.9,
+        "duration": 1.8,
+        "text": "a sphere like this."
+      },
+      {
+        "start": 667.7,
+        "duration": 4.9,
+        "text": "Imagine a fluid flowing on the plane with a uniform velocity one unit per second to the"
+      },
+      {
+        "start": 672.6,
+        "duration": 4.6,
+        "text": "right, and then consider what the projection of each particle of that fluid would look"
+      },
+      {
+        "start": 677.1,
+        "duration": 2.9,
+        "text": "like on the sphere during its motion."
+      },
+      {
+        "start": 680.0,
+        "duration": 5.4,
+        "text": "If you take the velocity vectors for those projected particles on the sphere, that defines"
+      },
+      {
+        "start": 685.5,
+        "duration": 3.4,
+        "text": "the vector field that I'm talking about."
+      },
+      {
+        "start": 688.8,
+        "duration": 4.9,
+        "text": "When illustrated this way, you can really nicely see how the flow lines all form perfect"
+      },
+      {
+        "start": 693.7,
+        "duration": 5.6,
+        "text": "circles on the sphere, all of which are mutually tangent with the velocity of zero at that north"
+      },
+      {
+        "start": 699.3,
+        "duration": 1.0,
+        "text": "pole."
+      },
+      {
+        "start": 700.3,
+        "duration": 2.4,
+        "text": "It really is a lovely projection."
+      },
+      {
+        "start": 702.7,
+        "duration": 5.1,
+        "text": "The point is, even if initial mental play and intuition might suggest that vector fields"
+      },
+      {
+        "start": 707.8,
+        "duration": 4.8,
+        "text": "on a sphere have to have at least two null points, a little creativity, can give you a"
+      },
+      {
+        "start": 712.6,
+        "duration": 2.4,
+        "text": "field that just has one."
+      },
+      {
+        "start": 715.1,
+        "duration": 3.0,
+        "text": "So how do you know that it stops there?"
+      },
+      {
+        "start": 718.0,
+        "duration": 4.7,
+        "text": "How can you rigorously prove that no matter how clever or in creative you are, it is simply"
+      },
+      {
+        "start": 722.7,
+        "duration": 5.3,
+        "text": "not possible to define a continuous vector field without forcing at least one point to"
+      },
+      {
+        "start": 728.1,
+        "duration": 2.2,
+        "text": "have a zero vector."
+      },
+      {
+        "start": 730.3,
+        "duration": 2.6,
+        "text": "This is where the real cleverness kicks in."
+      },
+      {
+        "start": 732.9,
+        "duration": 3.7,
+        "text": "The way that we're going to approach this is with a proof by contradiction, meaning"
+      },
+      {
+        "start": 736.5,
+        "duration": 4.9,
+        "text": "you will assume that such a non-zero vector field on the sphere is possible, and then"
+      },
+      {
+        "start": 741.5,
+        "duration": 3.4,
+        "text": "deduce that something impossible would have to follow."
+      },
+      {
+        "start": 744.8,
+        "duration": 3.8,
+        "text": "Like I said, the argument I want to show is just really beautiful, and I think it's made"
+      },
+      {
+        "start": 748.6,
+        "duration": 4.5,
+        "text": "all the more so if you feel like it's something you could have discovered for yourself."
+      },
+      {
+        "start": 753.1,
+        "duration": 4.5,
+        "text": "So as always, please do pause and ponder whenever you feel like you see the key idea."
+      },
+      {
+        "start": 757.7,
+        "duration": 4.1,
+        "text": "This argument is not my own, it came my way via the mathematician Saini Ashe Vassar, who"
+      },
+      {
+        "start": 761.8,
+        "duration": 5.2,
+        "text": "also very kindly put together the following animation to illustrate the core idea."
+      },
+      {
+        "start": 767.0,
+        "duration": 5.4,
+        "text": "The basic outline is that if such a non-zero continuous vector field really did exist,"
+      },
+      {
+        "start": 772.4,
+        "duration": 5.8,
+        "text": "you could use it to create a continuous deformation of the sphere that turns that sphere inside"
+      },
+      {
+        "start": 778.2,
+        "duration": 1.0,
+        "text": "out."
+      },
+      {
+        "start": 779.2,
+        "duration": 4.2,
+        "text": "And then, we're going to prove why it's actually impossible to turn a sphere inside out,"
+      },
+      {
+        "start": 783.3,
+        "duration": 1.7,
+        "text": "at least in a certain manner of speaking."
+      },
+      {
+        "start": 785.0,
+        "duration": 4.5,
+        "text": "It's at this point that viewers of Classic Math YouTube will be yelling at their screens,"
+      },
+      {
+        "start": 789.5,
+        "duration": 3.4,
+        "text": "but bear with me, I promise, I will get to that."
+      },
+      {
+        "start": 793.0,
+        "duration": 6.8,
+        "text": "Okay, so this continuous deformation is a little weird to define, but here's how it works."
+      },
+      {
+        "start": 799.8,
+        "duration": 4.5,
+        "text": "The plan that your sphere is centered at the origin for some coordinate system in 3D"
+      },
+      {
+        "start": 804.3,
+        "duration": 1.0,
+        "text": "space."
+      },
+      {
+        "start": 805.3,
+        "duration": 4.4,
+        "text": "For a given point on that sphere, consider the vector attached to that point, the one"
+      },
+      {
+        "start": 809.7,
+        "duration": 1.4,
+        "text": "from our vector field."
+      },
+      {
+        "start": 811.1,
+        "duration": 6.1,
+        "text": "If you slice the sphere along a plane, which is defined by that vector and the radial line"
+      },
+      {
+        "start": 817.2,
+        "duration": 4.9,
+        "text": "to the origin, the plane intersects the sphere at a certain great circle, meaning a circle"
+      },
+      {
+        "start": 822.1,
+        "duration": 2.3,
+        "text": "that's also centered at the origin."
+      },
+      {
+        "start": 824.5,
+        "duration": 5.1,
+        "text": "What you're going to do is let that point of the sphere move along this circle in the"
+      },
+      {
+        "start": 829.6,
+        "duration": 5.0,
+        "text": "direction of that initial vector until it gets precisely halfway around."
+      },
+      {
+        "start": 834.6,
+        "duration": 3.5,
+        "text": "So just to be clear, I'm not saying that it flows along the general vector field of"
+      },
+      {
+        "start": 838.1,
+        "duration": 4.9,
+        "text": "the sphere, its motion is entirely determined just by the one vector that it started out"
+      },
+      {
+        "start": 843.0,
+        "duration": 1.4,
+        "text": "on."
+      },
+      {
+        "start": 844.4,
+        "duration": 5.1,
+        "text": "The two important facts to highlight are that it ends up on the negative of where it started,"
+      },
+      {
+        "start": 849.5,
+        "duration": 5.2,
+        "text": "and then also because its motion is entirely defined by what vector it started on, and"
+      },
+      {
+        "start": 854.7,
+        "duration": 4.0,
+        "text": "because we're assuming the whole vector field is continuous, nearby points are going to"
+      },
+      {
+        "start": 858.7,
+        "duration": 1.9,
+        "text": "have nearby trajectories."
+      },
+      {
+        "start": 860.6,
+        "duration": 4.8,
+        "text": "Right now, I'm just showing you one point moving along its prescribed half circle path,"
+      },
+      {
+        "start": 865.4,
+        "duration": 4.3,
+        "text": "but we could just as well highlight a handful of other points on the sphere, each of which"
+      },
+      {
+        "start": 869.7,
+        "duration": 5.1,
+        "text": "has its own vector associated with it, each of which defines a great circle to walk along,"
+      },
+      {
+        "start": 874.8,
+        "duration": 4.0,
+        "text": "and you could watch all of those points wander along the assigned paths."
+      },
+      {
+        "start": 878.8,
+        "duration": 3.6,
+        "text": "Now remember, we're assuming that the vector field is non-zero everywhere."
+      },
+      {
+        "start": 882.4,
+        "duration": 2.4,
+        "text": "We hope to contradict that, but that's the assumption."
+      },
+      {
+        "start": 884.9,
+        "duration": 4.6,
+        "text": "And what that means is that every single point on the infinite continuous sphere has a"
+      },
+      {
+        "start": 889.4,
+        "duration": 2.7,
+        "text": "similarly well-defined trajectory."
+      },
+      {
+        "start": 892.1,
+        "duration": 3.5,
+        "text": "So naturally you want to see what it looks like for the entire sphere to undergo that"
+      },
+      {
+        "start": 895.6,
+        "duration": 4.4,
+        "text": "motion, but it's at this point that animations become a little tricky, because of something"
+      },
+      {
+        "start": 900.0,
+        "duration": 4.2,
+        "text": "intrinsically paradoxical about illustrating a proof by contradiction."
+      },
+      {
+        "start": 904.1,
+        "duration": 4.2,
+        "text": "Think about it, we want to show what this motion looks like as defined by some hypothetical"
+      },
+      {
+        "start": 908.3,
+        "duration": 4.5,
+        "text": "vector field that is non-zero everywhere, but of course the whole point is that no such"
+      },
+      {
+        "start": 912.8,
+        "duration": 1.8,
+        "text": "vector field exists."
+      },
+      {
+        "start": 914.6,
+        "duration": 3.8,
+        "text": "As the next best thing, we're going to use that special vector field that we just defined"
+      },
+      {
+        "start": 918.4,
+        "duration": 3.2,
+        "text": "that has only a single null point at the North Pole."
+      },
+      {
+        "start": 921.5,
+        "duration": 4.5,
+        "text": "That way, if we chop away the North Pole, we can at least see the kind of thing that"
+      },
+      {
+        "start": 926.0,
+        "duration": 4.1,
+        "text": "this motion would do to most of the sphere, even if there's something impossible about"
+      },
+      {
+        "start": 930.1,
+        "duration": 2.1,
+        "text": "this being applied to all of the sphere."
+      },
+      {
+        "start": 932.2,
+        "duration": 5.4,
+        "text": "I'll go ahead and remove the vectors themselves to avoid clutter, and this right here is what"
+      },
+      {
+        "start": 937.7,
+        "duration": 5.1,
+        "text": "it looks like for every point on the surface to undergo that bizarre, specially defined"
+      },
+      {
+        "start": 942.8,
+        "duration": 5.7,
+        "text": "motion, each one marching along its own half-circle path defined by whatever vector it started"
+      },
+      {
+        "start": 948.5,
+        "duration": 2.4,
+        "text": "on."
+      },
+      {
+        "start": 950.8,
+        "duration": 4.8,
+        "text": "And actually that's kind of confusing to follow, so let me roll back the clock a bit here,"
+      },
+      {
+        "start": 955.6,
+        "duration": 3.8,
+        "text": "where you see that the whole sphere ends up awkwardly crossing through itself, to clarify"
+      },
+      {
+        "start": 959.4,
+        "duration": 5.0,
+        "text": "things we might perturb the motion a little by letting the radius of the point vary during"
+      },
+      {
+        "start": 964.3,
+        "duration": 1.2,
+        "text": "the motion."
+      },
+      {
+        "start": 965.6,
+        "duration": 3.8,
+        "text": "And it also makes things clear if we widen out that hole on the top."
+      },
+      {
+        "start": 969.4,
+        "duration": 2.5,
+        "text": "This makes it much, much easier to follow."
+      },
+      {
+        "start": 971.9,
+        "duration": 5.0,
+        "text": "At least for this subset of the sphere, you can clearly see two important features of"
+      },
+      {
+        "start": 976.9,
+        "duration": 1.8,
+        "text": "the motion."
+      },
+      {
+        "start": 978.7,
+        "duration": 3.2,
+        "text": "Number one, the sphere gets turned inside out."
+      },
+      {
+        "start": 981.9,
+        "duration": 5.1,
+        "text": "Number two, at no point in time does any part of the sphere cross the origin."
+      },
+      {
+        "start": 987.0,
+        "duration": 3.7,
+        "text": "And that should make sense, each individual point is just following a half-circle centered"
+      },
+      {
+        "start": 990.7,
+        "duration": 3.9,
+        "text": "at the origin, so of course it never passes through the origin."
+      },
+      {
+        "start": 994.6,
+        "duration": 2.0,
+        "text": "Those are the two key ingredients."
+      },
+      {
+        "start": 996.6,
+        "duration": 5.8,
+        "text": "For our proof, what we want to say is that these two facts are somehow incompatible."
+      },
+      {
+        "start": 1002.4,
+        "duration": 3.1,
+        "text": "Before we can do that though, we need to linger on this first point."
+      },
+      {
+        "start": 1005.5,
+        "duration": 3.5,
+        "text": "Why exactly does this motion turn the sphere inside out?"
+      },
+      {
+        "start": 1008.9,
+        "duration": 3.4,
+        "text": "And actually, what do we even mean by the phrase inside out here?"
+      },
+      {
+        "start": 1012.3,
+        "duration": 2.8,
+        "text": "And in fact, let me start with an even more basic question."
+      },
+      {
+        "start": 1015.1,
+        "duration": 4.4,
+        "text": "If you're standing at some point on the sphere, how do you know which way is outside and"
+      },
+      {
+        "start": 1019.5,
+        "duration": 2.3,
+        "text": "which way is inside?"
+      },
+      {
+        "start": 1021.8,
+        "duration": 3.1,
+        "text": "I realize that might sound like a very dumb question."
+      },
+      {
+        "start": 1024.9,
+        "duration": 3.6,
+        "text": "You might say, just look at whichever way is pointed away from the origin."
+      },
+      {
+        "start": 1028.5,
+        "duration": 1.3,
+        "text": "What's wrong with you?"
+      },
+      {
+        "start": 1029.7,
+        "duration": 3.7,
+        "text": "The real conundrum here though, comes from the fact that we intend to let the surface"
+      },
+      {
+        "start": 1033.5,
+        "duration": 4.3,
+        "text": "warp and deform and get all manipulated in some crazy way."
+      },
+      {
+        "start": 1037.8,
+        "duration": 4.9,
+        "text": "So really what you want is a clear notion of what we mean by inside and outside that"
+      },
+      {
+        "start": 1042.7,
+        "duration": 5.6,
+        "text": "remains clear even after you manipulate and massage and contort the whole surface, however"
+      },
+      {
+        "start": 1048.3,
+        "duration": 1.6,
+        "text": "you dream up."
+      },
+      {
+        "start": 1049.8,
+        "duration": 4.9,
+        "text": "The easiest way to do this, I think, is going to be something familiar to any graphics programmers,"
+      },
+      {
+        "start": 1054.7,
+        "duration": 4.5,
+        "text": "which is that you start by assigning a coordinate system to the sphere, something like our"
+      },
+      {
+        "start": 1059.2,
+        "duration": 3.0,
+        "text": "usual notion of latitude and longitude."
+      },
+      {
+        "start": 1062.2,
+        "duration": 3.7,
+        "text": "The image you should have in your mind is that every point of the sphere has a little"
+      },
+      {
+        "start": 1065.9,
+        "duration": 3.4,
+        "text": "label attached to it with a pair of numbers."
+      },
+      {
+        "start": 1069.3,
+        "duration": 5.0,
+        "text": "And importantly, these labels could follow along during any motion or manipulation you apply"
+      },
+      {
+        "start": 1074.3,
+        "duration": 2.2,
+        "text": "to the sphere."
+      },
+      {
+        "start": 1076.5,
+        "duration": 5.4,
+        "text": "To give a point, consider the direction of increasing longitude and constant latitude"
+      },
+      {
+        "start": 1081.9,
+        "duration": 5.3,
+        "text": "and draw a tangent vector in that direction and then draw a line of increasing latitude"
+      },
+      {
+        "start": 1087.1,
+        "duration": 4.6,
+        "text": "with constant longitude and draw a tangent vector in that direction."
+      },
+      {
+        "start": 1091.7,
+        "duration": 5.2,
+        "text": "From here, the way we define orientation is using what's known as the right hand rule."
+      },
+      {
+        "start": 1096.9,
+        "duration": 4.0,
+        "text": "You can point your index finger along that first vector and your middle finger along that"
+      },
+      {
+        "start": 1100.9,
+        "duration": 5.0,
+        "text": "second vector and then when you stick out your thumb, it'll be perpendicular to both."
+      },
+      {
+        "start": 1105.9,
+        "duration": 3.9,
+        "text": "Notice, using our right hand, the thumb is pointed outside."
+      },
+      {
+        "start": 1109.7,
+        "duration": 5.0,
+        "text": "And in fact, this is how we are going to define what we even mean by outside, at least"
+      },
+      {
+        "start": 1114.7,
+        "duration": 2.7,
+        "text": "with respect to the given coordinate system."
+      },
+      {
+        "start": 1117.5,
+        "duration": 4.8,
+        "text": "Doing this at every point, you get what are known in the business as unit normal vectors."
+      },
+      {
+        "start": 1122.2,
+        "duration": 3.5,
+        "text": "As a reference, these are very important in computer graphics where, for example, they"
+      },
+      {
+        "start": 1125.7,
+        "duration": 3.7,
+        "text": "let you compute how light should reflect off of a given surface."
+      },
+      {
+        "start": 1129.5,
+        "duration": 4.3,
+        "text": "And for our story, the thing we care about is how, no matter how you manipulate or warp"
+      },
+      {
+        "start": 1133.7,
+        "duration": 3.9,
+        "text": "the surface, because that coordinate system you give to it can kind of come along for"
+      },
+      {
+        "start": 1137.7,
+        "duration": 4.9,
+        "text": "the ride, you can always play this game of pointing your index finger along the direction"
+      },
+      {
+        "start": 1142.6,
+        "duration": 3.8,
+        "text": "where the first coordinate increases and your middle finger along the direction where"
+      },
+      {
+        "start": 1146.4,
+        "duration": 4.2,
+        "text": "that second coordinate increases and sticking out your thumb."
+      },
+      {
+        "start": 1150.6,
+        "duration": 4.2,
+        "text": "It's otherwise surprisingly tricky to define what you mean by inside and outside in a way"
+      },
+      {
+        "start": 1154.8,
+        "duration": 2.6,
+        "text": "that naturally follows along for any function."
+      },
+      {
+        "start": 1157.4,
+        "duration": 2.8,
+        "text": "So, why are we doing this?"
+      },
+      {
+        "start": 1160.1,
+        "duration": 5.1,
+        "text": "We're now about that strange deformation induced by a vector field on the sphere."
+      },
+      {
+        "start": 1165.3,
+        "duration": 4.5,
+        "text": "How can we conclude, beyond any doubt, that this must turn the sphere inside out?"
+      },
+      {
+        "start": 1169.8,
+        "duration": 6.2,
+        "text": "Well, remember how each individual point starting at p ends up at negative p."
+      },
+      {
+        "start": 1176.0,
+        "duration": 3.8,
+        "text": "The much more straightforward way to get there, literally, would be to reflect through"
+      },
+      {
+        "start": 1179.8,
+        "duration": 2.5,
+        "text": "the origin like this."
+      },
+      {
+        "start": 1182.3,
+        "duration": 4.3,
+        "text": "So consider that picture that we just had of an example point, together with the oriented"
+      },
+      {
+        "start": 1186.6,
+        "duration": 3.2,
+        "text": "lines of latitude and longitude passing through it."
+      },
+      {
+        "start": 1189.8,
+        "duration": 5.7,
+        "text": "Notice what it looks like if we let every point in that diagram move over to its negative."
+      },
+      {
+        "start": 1195.5,
+        "duration": 4.0,
+        "text": "Again, you might imagine all the coordinate labels of the surface kind of riding along"
+      },
+      {
+        "start": 1199.5,
+        "duration": 4.5,
+        "text": "with it, so when you play the same game of pointing your index finger in the direction"
+      },
+      {
+        "start": 1204.0,
+        "duration": 4.4,
+        "text": "where that first coordinate increases and your middle finger in the direction where that"
+      },
+      {
+        "start": 1208.3,
+        "duration": 2.0,
+        "text": "second coordinate increases."
+      },
+      {
+        "start": 1210.3,
+        "duration": 4.8,
+        "text": "Now, after everything has been negated, notice that your thumb is pointing towards the"
+      },
+      {
+        "start": 1215.1,
+        "duration": 2.2,
+        "text": "origin instead of a way."
+      },
+      {
+        "start": 1217.3,
+        "duration": 6.3,
+        "text": "This is all to say, the function that maps every point p of a sphere to its negative necessarily"
+      },
+      {
+        "start": 1223.6,
+        "duration": 5.0,
+        "text": "turns the sphere inside out, in the sense of reversing orientation the way we just defined"
+      },
+      {
+        "start": 1228.7,
+        "duration": 1.0,
+        "text": "it."
+      },
+      {
+        "start": 1229.7,
+        "duration": 4.4,
+        "text": "In particular, that very weird deformation that we described in terms of a hypothetical"
+      },
+      {
+        "start": 1234.1,
+        "duration": 6.5,
+        "text": "vector field must reverse orientation because it's mapping each point p to negative p."
+      },
+      {
+        "start": 1240.6,
+        "duration": 4.8,
+        "text": "You can also see this effect with a much simpler motion that gets us to the same final place."
+      },
+      {
+        "start": 1245.4,
+        "duration": 5.3,
+        "text": "Then rotating the sphere 180 degrees around the z-axis and then reflecting through the"
+      },
+      {
+        "start": 1250.7,
+        "duration": 1.5,
+        "text": "xy plane."
+      },
+      {
+        "start": 1252.2,
+        "duration": 4.8,
+        "text": "That results in every point p landing on its negative, and notice how all the unit normal"
+      },
+      {
+        "start": 1257.0,
+        "duration": 4.2,
+        "text": "vectors that started pointing outward end up pointing inward."
+      },
+      {
+        "start": 1261.2,
+        "duration": 4.8,
+        "text": "And as it's rendered here with a blue exterior and a brown interior, those two colors end"
+      },
+      {
+        "start": 1266.0,
+        "duration": 1.9,
+        "text": "up getting swapped."
+      },
+      {
+        "start": 1267.9,
+        "duration": 4.1,
+        "text": "And it's at this point that viewers of classic math videos all might be bringing to mind"
+      },
+      {
+        "start": 1272.0,
+        "duration": 6.0,
+        "text": "an absolute banger of a video that was produced in 1994 by the geometry center at the University"
+      },
+      {
+        "start": 1277.9,
+        "duration": 1.3,
+        "text": "of Minnesota."
+      },
+      {
+        "start": 1279.3,
+        "duration": 3.2,
+        "text": "This is really one of the true classics in all of math exposition."
+      },
+      {
+        "start": 1282.5,
+        "duration": 5.1,
+        "text": "It walks through this mind-blowing way to turn a sphere inside out using a certain continuous"
+      },
+      {
+        "start": 1287.6,
+        "duration": 1.1,
+        "text": "deformation."
+      },
+      {
+        "start": 1288.7,
+        "duration": 3.6,
+        "text": "The reason I bring this up for any of you who watched that is to say that the context"
+      },
+      {
+        "start": 1292.3,
+        "duration": 1.8,
+        "text": "there was a little bit different."
+      },
+      {
+        "start": 1294.0,
+        "duration": 5.2,
+        "text": "The phenomenon that they were trying to avoid was creating cusps and creases on the sphere"
+      },
+      {
+        "start": 1299.2,
+        "duration": 1.7,
+        "text": "during the process."
+      },
+      {
+        "start": 1300.9,
+        "duration": 3.3,
+        "text": "But over here for our purposes, we don't really care about that."
+      },
+      {
+        "start": 1304.2,
+        "duration": 6.2,
+        "text": "However, there is one feature of our bizarre vector field induced deformation that really"
+      },
+      {
+        "start": 1310.4,
+        "duration": 1.8,
+        "text": "would be impossible."
+      },
+      {
+        "start": 1312.2,
+        "duration": 3.8,
+        "text": "No point of the sphere ever passes through the origin."
+      },
+      {
+        "start": 1316.0,
+        "duration": 4.4,
+        "text": "And there is a very beautiful way to see why turning a sphere inside out without crossing"
+      },
+      {
+        "start": 1320.4,
+        "duration": 2.9,
+        "text": "the origin just could never happen."
+      },
+      {
+        "start": 1323.3,
+        "duration": 3.8,
+        "text": "Maybe the most fun way to illustrate this is with a physical model."
+      },
+      {
+        "start": 1327.1,
+        "duration": 5.8,
+        "text": "In a fountain at the origin, spewing out water uniformly in all directions, say, at a rate"
+      },
+      {
+        "start": 1333.0,
+        "duration": 1.9,
+        "text": "of one liter every second."
+      },
+      {
+        "start": 1334.9,
+        "duration": 4.6,
+        "text": "The way I'm animating it here is with a bunch of droplets spewing away, but in principle,"
+      },
+      {
+        "start": 1339.5,
+        "duration": 4.8,
+        "text": "I want you to think of this as a continuous flow of an incompressible fluid, something"
+      },
+      {
+        "start": 1344.4,
+        "duration": 4.9,
+        "text": "uniform in all directions, and with that incompressibility, we'll imagine that the density"
+      },
+      {
+        "start": 1349.3,
+        "duration": 2.9,
+        "text": "of water through all of space stays constant."
+      },
+      {
+        "start": 1352.1,
+        "duration": 1.1,
+        "text": "That's important."
+      },
+      {
+        "start": 1353.3,
+        "duration": 4.7,
+        "text": "If you have some oriented surface, something like our sphere with its unit normal vectors,"
+      },
+      {
+        "start": 1357.9,
+        "duration": 5.0,
+        "text": "you can measure how much water is flowing through that surface per unit time."
+      },
+      {
+        "start": 1362.9,
+        "duration": 4.1,
+        "text": "Physicists have a special name for this, they call it the flux, where on a given patch"
+      },
+      {
+        "start": 1367.0,
+        "duration": 4.8,
+        "text": "of area, the flux measures how much water passes through it per second, and you count it"
+      },
+      {
+        "start": 1371.8,
+        "duration": 5.6,
+        "text": "as positive when the water flows from inside to outside, aligned with the unit normal"
+      },
+      {
+        "start": 1377.4,
+        "duration": 4.1,
+        "text": "vectors of the surface, whereas flux would be negative if it's going the other way,"
+      },
+      {
+        "start": 1381.5,
+        "duration": 2.4,
+        "text": "flowing against those normal vectors."
+      },
+      {
+        "start": 1383.9,
+        "duration": 4.2,
+        "text": "When you add all of this up over the whole surface, this gives you the total flux."
+      },
+      {
+        "start": 1388.2,
+        "duration": 4.5,
+        "text": "And the key observation is that this total flux has to match the amount of water being"
+      },
+      {
+        "start": 1392.7,
+        "duration": 4.1,
+        "text": "produced inside the surface, that one liter per second."
+      },
+      {
+        "start": 1396.7,
+        "duration": 4.5,
+        "text": "And the cool part is that this will remain true even if you warp or deform the sphere"
+      },
+      {
+        "start": 1401.2,
+        "duration": 5.1,
+        "text": "just a little bit, that total flux stays at one liter per second, even if the flux through"
+      },
+      {
+        "start": 1406.3,
+        "duration": 3.8,
+        "text": "a particular patch of area changes during the process."
+      },
+      {
+        "start": 1410.2,
+        "duration": 4.2,
+        "text": "And the basic reason is that we're treating the water as an incompressible fluid, with"
+      },
+      {
+        "start": 1414.4,
+        "duration": 4.5,
+        "text": "a constant uniform density through space, so every little bit of water produced at the"
+      },
+      {
+        "start": 1418.9,
+        "duration": 5.0,
+        "text": "origin has to be cancelled out by one that is exiting the surface."
+      },
+      {
+        "start": 1423.9,
+        "duration": 5.2,
+        "text": "Importantly, for what I just said to be true, we have to be counting flux with a sign."
+      },
+      {
+        "start": 1429.1,
+        "duration": 3.9,
+        "text": "For example, let's say you warp the sphere so that it kind of folds over itself like"
+      },
+      {
+        "start": 1433.0,
+        "duration": 5.0,
+        "text": "this, then you'll notice, along a certain line, the water goes out of the surface, and"
+      },
+      {
+        "start": 1438.0,
+        "duration": 3.2,
+        "text": "then back into it, and then back out again."
+      },
+      {
+        "start": 1441.1,
+        "duration": 5.3,
+        "text": "So you would want to count this flux as positive whenever it goes from inside to outside, but"
+      },
+      {
+        "start": 1446.5,
+        "duration": 4.3,
+        "text": "negative when it goes from outside to inside, so that you're not counting those particles"
+      },
+      {
+        "start": 1450.7,
+        "duration": 1.6,
+        "text": "three different times."
+      },
+      {
+        "start": 1452.3,
+        "duration": 4.1,
+        "text": "And from here, you can maybe see the key point I'm getting at towards our contradiction."
+      },
+      {
+        "start": 1456.5,
+        "duration": 4.3,
+        "text": "The only way that you could ever change the net flux through a surface like this, is"
+      },
+      {
+        "start": 1460.7,
+        "duration": 3.4,
+        "text": "if part of that surface crosses through the origin."
+      },
+      {
+        "start": 1464.1,
+        "duration": 3.4,
+        "text": "For example, if you pull it over to the side so that it doesn't include the source at"
+      },
+      {
+        "start": 1467.5,
+        "duration": 2.4,
+        "text": "all, the net flux would be zero."
+      },
+      {
+        "start": 1469.9,
+        "duration": 4.6,
+        "text": "There are as many water molecules flowing in as there are flowing out."
+      },
+      {
+        "start": 1474.5,
+        "duration": 3.6,
+        "text": "So with that in mind, think about everything we've been talking about."
+      },
+      {
+        "start": 1478.1,
+        "duration": 5.2,
+        "text": "If you could define this non-zero vector field on a sphere that lets you create this bizarre"
+      },
+      {
+        "start": 1483.3,
+        "duration": 4.8,
+        "text": "deformation that turns the sphere inside out, what happens to the flux?"
+      },
+      {
+        "start": 1488.1,
+        "duration": 5.2,
+        "text": "Well, what we mean by turning the sphere inside out is that all the unit normal vectors end"
+      },
+      {
+        "start": 1493.3,
+        "duration": 3.1,
+        "text": "up pointing inside instead of outside."
+      },
+      {
+        "start": 1496.4,
+        "duration": 4.2,
+        "text": "So for any particular patch of area, at some point, the flux through it transitions"
+      },
+      {
+        "start": 1500.6,
+        "duration": 4.8,
+        "text": "from being positive to negative, and overall, at the end, that total flux would have to"
+      },
+      {
+        "start": 1505.4,
+        "duration": 2.5,
+        "text": "end at negative one liters per second."
+      },
+      {
+        "start": 1507.9,
+        "duration": 4.7,
+        "text": "But at the same time, if it never crosses the origin, the net flux can never change."
+      },
+      {
+        "start": 1512.6,
+        "duration": 3.8,
+        "text": "It starts at positive one, so it has to end at positive one."
+      },
+      {
+        "start": 1516.4,
+        "duration": 1.8,
+        "text": "This is the contradiction."
+      },
+      {
+        "start": 1518.2,
+        "duration": 3.4,
+        "text": "No deformation with these two properties can possibly exist."
+      },
+      {
+        "start": 1521.6,
+        "duration": 1.0,
+        "text": "And there you have it."
+      },
+      {
+        "start": 1522.6,
+        "duration": 4.2,
+        "text": "A non-zero, continuous vector field on the sphere would be impossible."
+      },
+      {
+        "start": 1526.8,
+        "duration": 2.8,
+        "text": "You truly cannot comb a hairy ball."
+      },
+      {
+        "start": 1529.5,
+        "duration": 3.0,
+        "text": "I don't know about you, but I think that is so beautiful."
+      },
+      {
+        "start": 1532.5,
+        "duration": 4.9,
+        "text": "Very often topology is this game where seemingly intuitive facts have these surprising but"
+      },
+      {
+        "start": 1537.5,
+        "duration": 2.0,
+        "text": "kind of frustrating counter examples."
+      },
+      {
+        "start": 1539.5,
+        "duration": 4.4,
+        "text": "But the real insights and the creativity often comes from the other side of the coin, where"
+      },
+      {
+        "start": 1543.9,
+        "duration": 4.6,
+        "text": "you take something that seems intuitive, but you find the construction that really justifies"
+      },
+      {
+        "start": 1548.5,
+        "duration": 2.2,
+        "text": "why it's fundamentally true."
+      },
+      {
+        "start": 1550.7,
+        "duration": 4.0,
+        "text": "Now there is more to say about making the argument I just showed you fully rigorous,"
+      },
+      {
+        "start": 1554.7,
+        "duration": 5.2,
+        "text": "and also more to say about how this whole thing does and does not generalize to other dimensions."
+      },
+      {
+        "start": 1559.9,
+        "duration": 3.6,
+        "text": "But before that, if you'll indulge me in shifting gears entirely for a minute here,"
+      },
+      {
+        "start": 1563.5,
+        "duration": 4.1,
+        "text": "I want to tell you about an experimental new thing that I'm starting up this year, which"
+      },
+      {
+        "start": 1567.5,
+        "duration": 2.8,
+        "text": "I'm thinking of as a kind of virtual career fair."
+      },
+      {
+        "start": 1570.4,
+        "duration": 5.5,
+        "text": "If you go to 3B1B.co slash talent, what you'll find is a set of companies that have two"
+      },
+      {
+        "start": 1575.9,
+        "duration": 1.3,
+        "text": "things in common."
+      },
+      {
+        "start": 1577.1,
+        "duration": 4.3,
+        "text": "The first one, essentially by definition, is that they are interested in recruiting from"
+      },
+      {
+        "start": 1581.5,
+        "duration": 1.0,
+        "text": "this audience."
+      },
+      {
+        "start": 1582.5,
+        "duration": 5.0,
+        "text": "They value the kind of mathematical and technical curiosity clearly to be found in someone like"
+      },
+      {
+        "start": 1587.5,
+        "duration": 2.9,
+        "text": "you who's watching a video like this for fun."
+      },
+      {
+        "start": 1590.4,
+        "duration": 3.7,
+        "text": "If you go and you explore the page and you see the kind of puzzles and challenges and"
+      },
+      {
+        "start": 1594.1,
+        "duration": 3.2,
+        "text": "technical work that each one has chosen to share with you, you'll pretty quickly get"
+      },
+      {
+        "start": 1597.3,
+        "duration": 2.2,
+        "text": "a sense of the shared values here."
+      },
+      {
+        "start": 1599.5,
+        "duration": 3.6,
+        "text": "The second thing they have in common is that the people working there really love what"
+      },
+      {
+        "start": 1603.1,
+        "duration": 1.0,
+        "text": "they do."
+      },
+      {
+        "start": 1604.1,
+        "duration": 1.0,
+        "text": "And this one's important to me."
+      },
+      {
+        "start": 1605.1,
+        "duration": 3.4,
+        "text": "I was pretty careful about it while setting this whole thing up because all of this only"
+      },
+      {
+        "start": 1608.6,
+        "duration": 3.4,
+        "text": "makes sense to do if it's actually valuable to the audience."
+      },
+      {
+        "start": 1612.0,
+        "duration": 4.6,
+        "text": "So I took some time to sit down and chat with the technical teams at each group and inclusion"
+      },
+      {
+        "start": 1616.6,
+        "duration": 2.7,
+        "text": "only really made sense if they clearly like what they do."
+      },
+      {
+        "start": 1619.3,
+        "duration": 4.1,
+        "text": "Pretty universally, a core reason that the people enjoyed their work was out of a very"
+      },
+      {
+        "start": 1623.3,
+        "duration": 2.6,
+        "text": "sincere respect for all of their teammates."
+      },
+      {
+        "start": 1625.9,
+        "duration": 3.9,
+        "text": "In the hopes of making this relevant to you, whoever you might be, there is a range of"
+      },
+      {
+        "start": 1629.8,
+        "duration": 5.5,
+        "text": "job types available across a range of industries, including senior roles, new careers, internships,"
+      },
+      {
+        "start": 1635.3,
+        "duration": 2.3,
+        "text": "or even part-time tutoring gigs."
+      },
+      {
+        "start": 1637.6,
+        "duration": 3.9,
+        "text": "For broader context, if you are curious, I recorded a whole video on the second channel"
+      },
+      {
+        "start": 1641.5,
+        "duration": 3.2,
+        "text": "explaining why I started this, what the deal is."
+      },
+      {
+        "start": 1644.6,
+        "duration": 4.0,
+        "text": "One thing that I mention over there is how I'm looking to make a few hires myself, and"
+      },
+      {
+        "start": 1648.6,
+        "duration": 4.5,
+        "text": "whenever this is the case, I will include my own page up on this virtual career fair,"
+      },
+      {
+        "start": 1653.1,
+        "duration": 4.2,
+        "text": "where you can go and find the description of what I'm looking for and the applications."
+      },
+      {
+        "start": 1657.3,
+        "duration": 3.3,
+        "text": "The whole page will stay updated as time goes on, so even if you're not looking for"
+      },
+      {
+        "start": 1660.6,
+        "duration": 3.8,
+        "text": "a job now, but you are some time in the future, be sure to check it out."
+      },
+      {
+        "start": 1664.4,
+        "duration": 2.6,
+        "text": "Alright, so back to the Harry Ball theorem."
+      },
+      {
+        "start": 1667.0,
+        "duration": 3.8,
+        "text": "The argument at the end rested on this whole idea of flux, which admittedly is a little"
+      },
+      {
+        "start": 1670.8,
+        "duration": 2.3,
+        "text": "hand wavy without further details."
+      },
+      {
+        "start": 1673.1,
+        "duration": 4.2,
+        "text": "So I'll leave up on screen a set of exercises outlining one way that you could make this more"
+      },
+      {
+        "start": 1677.3,
+        "duration": 4.9,
+        "text": "rigorous if you have a background with multivariable calculus and the divergence theorem."
+      },
+      {
+        "start": 1682.2,
+        "duration": 4.2,
+        "text": "There is another deeper way to get at the same basic idea, using something called a homology"
+      },
+      {
+        "start": 1686.4,
+        "duration": 3.9,
+        "text": "group, but that one is certainly beyond the scope for today."
+      },
+      {
+        "start": 1690.3,
+        "duration": 4.2,
+        "text": "The last point I want to leave you pondering on is the nature of other dimensions."
+      },
+      {
+        "start": 1694.5,
+        "duration": 3.8,
+        "text": "It's not hard to see that you can comb down the hairs on a fluffy circle, even though"
+      },
+      {
+        "start": 1698.3,
+        "duration": 5.2,
+        "text": "you can't do it for a sphere, and in general the rule is that spheres in all of the even"
+      },
+      {
+        "start": 1703.5,
+        "duration": 5.7,
+        "text": "dimensions can be combed down, but those in all of the odd numbered dimensions cannot."
+      },
+      {
+        "start": 1709.2,
+        "duration": 3.9,
+        "text": "Now what I like about the argument that we just talked about for this whole video is that"
+      },
+      {
+        "start": 1713.1,
+        "duration": 4.6,
+        "text": "it offers a pretty direct clue for why that's the rule, at least if you're comfortable"
+      },
+      {
+        "start": 1717.7,
+        "duration": 2.1,
+        "text": "with the notion of orientation."
+      },
+      {
+        "start": 1719.8,
+        "duration": 5.5,
+        "text": "In all of the even dimensions, the function that maps a point to its negative is an orientation"
+      },
+      {
+        "start": 1725.3,
+        "duration": 5.3,
+        "text": "preserving function, whereas in all of the odd dimensions, that's an orientation reversing"
+      },
+      {
+        "start": 1730.6,
+        "duration": 1.0,
+        "text": "function."
+      },
+      {
+        "start": 1731.6,
+        "duration": 4.4,
+        "text": "You might enjoy taking a moment to pause and ponder on why that means the proof we just"
+      },
+      {
+        "start": 1736.1,
+        "duration": 4.2,
+        "text": "outlined works in all of the odd dimensions, and even though it doesn't explicitly tell"
+      },
+      {
+        "start": 1740.3,
+        "duration": 4.4,
+        "text": "you that nothing could work in the even dimensions, it's a fun puzzle to see if you can construct"
+      },
+      {
+        "start": 1744.7,
+        "duration": 5.2,
+        "text": "an explicit example of a non-zero vector field in all of those even dimensions."
+      },
+      {
+        "start": 1749.9,
+        "duration": 4.5,
+        "text": "For example, how do you comb down the hairs on a hypersphere in four dimensions?"
+      }
+    ],
+    "full_text": "These days, whenever I look at the back of my beloved 7 month old baby's head, this little swirl of tiny hairs reminds me of one of the most ridiculously named facts in math, the Harry Ball Theorem. I promise this is a genuinely serious bit of math, where informally the statement is that if you have a ball that's covered in hair, and you try to comb it down, there is no way to do it without having the hair stick up at least one point. For example, let's say you try to comb it all counterclockwise around some axis. Then at the top and the bottom, you end up with these little swirls, and the hair at the centermost point of those swirls would have nowhere to go. It's forced to stick up. It's actually very fun to play around with this in your mind, where no matter how you try to flatten out the hair, it is a mathematical guarantee that you will be left with at least one tough like this. In fact, even getting it down to just a single problem point, as opposed to two, is a bit of a challenge. It is possible, and if you like puzzles, I encourage you to try thinking of how it could work, later on in this video, I'm going to show you at least one way you can think about doing it. For the moment though, I imagine there's a more burning question, which is that you might be wondering why a mathematician would care about combing fluffy spheres like this. And of course the answer is they don't, the name and the informal statement are a bit tongue in cheek. I will of course share the more formal statement, and in fact my real reason for making this video is to share an unusually elegant way to prove it, one that I think will delight any math lovers. But before any of that, let's motivate things with an example of the kind of situation where these fluffy spheres naturally arise in practice, in a context that initially seems completely unrelated. Okay, so imagine that you are a game developer, and you're programming some game where you have a 3D model of an airplane, and what you want is to be able to take an arbitrary trajectory for this plane to fly along, presumably something user defined, and your job is to write a function that orients the plane correctly as it moves along that trajectory. So for example, let's say you're at a given point on some given trajectory, you obviously want to move the center of the model to be on that point, but you're left with ambiguity on how it should be rotated in 3D space. The obvious constraint here is that you know the nose of that plane should point along the tangent vector of the path, but even that leaves some ambiguity. How is the plane rotated about this nose to tail axis? One way you could think about defining that last degree of freedom is in terms of where this perpendicular vector along the left wing direction points. The task for you, as the programmer of this video game, is to figure out what that perpendicular wing direction should be at every single point along a given trajectory. Now there is a correct way to do this, which would involve calculating the second derivative of the trajectory, working out how to get this to match the lift force from the wings together with gravity, but maybe that seems a little complicated right now, resourceful and lazy programmer that you are, you might think, hey, is there just some reasonable thing I can do to choose some wing direction that's perpendicular to a given velocity vector, the heading direction of the plane. Here's one way you might think about it. All of the possible ways this plane could point in space, the various heading directions that I'm coloring and red, make up the points of a unit sphere. What you want is to write a function that takes in a given vector on this sphere and returns some choice for a vector perpendicular to it, the ones that I'm coloring in pink. The only real constraint is that you want this association to be continuous, otherwise it would mean the plane's orientation could sharply jump, which would be a very clear glitch in the game. And if you know nothing else, it really feels like this should be a possible task. After all, for a given heading direction, you are not starved for choices, you have infinitely many wing directions to choose from, an entire circle's worth of options. So how hard could it be to make some reasonable choice for every point on the sphere that varies continuously? You might see where I'm going with this. Choosing a perpendicular direction like this is equivalent to choosing a unit tangent vector to that point of the sphere. So if you're assigning a specific perpendicular to every possible direction that plane could be pointed, that's basically the same thing as defining a tangent vector at every point on a sphere. Now this is starting to look a little bit more like a hairy ball. And in fact, now as good a time as any to step back and describe what the hairy ball theorem actually says more formally. If you have a sphere, and you choose some point on that sphere, and a plane tangent to the sphere at that point, then any vector that you choose within that plane, which is rooted at that point, is called a tangent vector of the sphere. If you assign a tangent vector to every single point on the sphere, one for each possible tangent plane, we call it a vector field on the sphere. And whenever you're drawing vector fields like this, it's always standard to scale the vectors down so that you can avoid clutter. And the other thing to keep in mind is that even though an illustration like this necessarily only shows a finite set of vectors rooted at a finite set of points on the sphere, of course a vector field consists of infinitely many vectors, one for every single point on the continuous surface. So the theorem, our main character for today, states that if your vector field is continuous, meaning there are no sudden jumps in its direction, then it must have at least one point with a null vector, meaning a vector whose length is zero. For example, look back at our 3D model case. The function that I was using for many of the animations there was essentially trying to keep the roof of the plane pointed as upward as possible. And when you express this function as a vector field, where again, each possible direction for the nose of the plane is thought of as a point on the sphere, and each corresponding wing direction is thought of as a tangent vector at that point of the sphere, then it turns out that function I was using gives a vector field that spirals around the vertical axis. This actually does give reasonable enough animations in most cases, but the problem is that it has a discontinuity at the poles. So if ever I let the plane point straight up or straight down using this function, you would get this glitching behavior as it passes through that direction. Now, if you're just a programmer messing around with this, you might think you can tweak things to avoid glitches like that, but actually the Harry Ball theorem guarantees no matter how clever you are, you are doomed to have some direction producing this kind of glitch. So for robust animations, you cannot simply use the direction of the nose of the plane to determine its full orientation. You have no choice but to step back and incorporate more information from the trajectory than the velocity vector alone. As another example, think about the wind velocity at every point on the earth, say at some constant altitude. A pretty reasonable assumption is that wind velocity varies continuously, so the Harry Ball theorem should apply. The wind pattern I'm animating here is completely unrealistic from a meteorological standpoint, but the point is that whatever wind pattern you dream up, realistic or not, the Harry Ball theorem is going to guarantee that there is always one place on the earth for a given altitude where the wind velocity is exactly zero. Now, before being pedantic, you could say atmosphere is three-dimensional, so the more accurate statement would be that the component of wind velocity parallel to the ground is zero, you know, it could be going straight up or straight down, but still it is kind of counterintuitive. A slightly more pragmatic example is if you want a radio signal that is completely identical in every direction of 3D space, in the sense that everyone a given distance away from the source receives an identical radio wave, same phase and amplitude at all points of time. That might seem like a reasonable objective, but if you know a little bit about electromagnetic waves, you'll know that they are oscillations in two distinct vector fields, the electric and the magnetic fields, specifically. Importantly, the direction of oscillation for each one of these fields is always perpendicular to the direction of propagation, at least far away from the source. So think about what that means. At a given distance away from the source, either one of these fields looks like a tangent vector field on the sphere, and the Harry Ball theorem states at least one point of that vector field has to be zero, so the only way to have a completely identical signal in every direction of 3D space is for the signal itself to be zero, which presumably defeats the point. I bring up these examples just to say that this seemingly playful fact about fluffy spheres really does pop up in unusual places, but what I really want to do with this video, the fun that I want to have, is to let you explore this idea the way that a pure mathematician might. First, that puzzle that I mentioned at the start actually gives a really great way to flex your mind and see how what feels obvious is not always true, and then after that I want to share a completely beautiful proof that explains why this theorem is true. So to the puzzle, I don't know about you, but when I was first playing around with this idea in my mind to build some intuition, it was really not at all obvious that reducing to a single null point is even possible. For most of the vector fields I could dream up, you get at least one swirl going one way, and another swirl going the other way, or maybe a source at one point and a sink at another. This makes it really tempting to suggest that there should be some universal law about needing at least two different null points with something opposite about them that has to cancel out, something like the north and south poles of a magnet. Everything as that is, with a little cleverness, it is possible to get just one null point. And a nice way to define this is by using something known as a stereographic projection, where every point on the sphere, except for the north pole, gets mapped to a unique point on the xy plane. The way this works is very pretty. You imagine a light shining from that north pole, and every ray of light that passes some point on the sphere, also hits one and only one point of the xy plane. And it goes the other way around too. Every point of the xy plane corresponds to a unique point on that sphere, meaning that plane can get mapped onto every point of the sphere, except for the north pole. This is a favorite mapping among mathematicians, and the way we can use it here is to imagine having some vector field on the xy plane that's never zero. That's simple enough to define, you could just take a constant vector field, always pointing one unit to the right. If you project that vector field back onto the sphere, this gives you something that's non-zero everywhere, except for the north pole. Admittedly, the way I'm showing it right now makes it kind of hard to parse what exactly is going on around that north pole. The basic reason is that if you take a uniform sample of points on the plane, they get infinitely dense around that north pole under this projection. So let me show you a second way I could illustrate things, which also, by the way, lends itself to a more rigorous definition for what I even mean by projecting a vector field onto a sphere like this. Imagine a fluid flowing on the plane with a uniform velocity one unit per second to the right, and then consider what the projection of each particle of that fluid would look like on the sphere during its motion. If you take the velocity vectors for those projected particles on the sphere, that defines the vector field that I'm talking about. When illustrated this way, you can really nicely see how the flow lines all form perfect circles on the sphere, all of which are mutually tangent with the velocity of zero at that north pole. It really is a lovely projection. The point is, even if initial mental play and intuition might suggest that vector fields on a sphere have to have at least two null points, a little creativity, can give you a field that just has one. So how do you know that it stops there? How can you rigorously prove that no matter how clever or in creative you are, it is simply not possible to define a continuous vector field without forcing at least one point to have a zero vector. This is where the real cleverness kicks in. The way that we're going to approach this is with a proof by contradiction, meaning you will assume that such a non-zero vector field on the sphere is possible, and then deduce that something impossible would have to follow. Like I said, the argument I want to show is just really beautiful, and I think it's made all the more so if you feel like it's something you could have discovered for yourself. So as always, please do pause and ponder whenever you feel like you see the key idea. This argument is not my own, it came my way via the mathematician Saini Ashe Vassar, who also very kindly put together the following animation to illustrate the core idea. The basic outline is that if such a non-zero continuous vector field really did exist, you could use it to create a continuous deformation of the sphere that turns that sphere inside out. And then, we're going to prove why it's actually impossible to turn a sphere inside out, at least in a certain manner of speaking. It's at this point that viewers of Classic Math YouTube will be yelling at their screens, but bear with me, I promise, I will get to that. Okay, so this continuous deformation is a little weird to define, but here's how it works. The plan that your sphere is centered at the origin for some coordinate system in 3D space. For a given point on that sphere, consider the vector attached to that point, the one from our vector field. If you slice the sphere along a plane, which is defined by that vector and the radial line to the origin, the plane intersects the sphere at a certain great circle, meaning a circle that's also centered at the origin. What you're going to do is let that point of the sphere move along this circle in the direction of that initial vector until it gets precisely halfway around. So just to be clear, I'm not saying that it flows along the general vector field of the sphere, its motion is entirely determined just by the one vector that it started out on. The two important facts to highlight are that it ends up on the negative of where it started, and then also because its motion is entirely defined by what vector it started on, and because we're assuming the whole vector field is continuous, nearby points are going to have nearby trajectories. Right now, I'm just showing you one point moving along its prescribed half circle path, but we could just as well highlight a handful of other points on the sphere, each of which has its own vector associated with it, each of which defines a great circle to walk along, and you could watch all of those points wander along the assigned paths. Now remember, we're assuming that the vector field is non-zero everywhere. We hope to contradict that, but that's the assumption. And what that means is that every single point on the infinite continuous sphere has a similarly well-defined trajectory. So naturally you want to see what it looks like for the entire sphere to undergo that motion, but it's at this point that animations become a little tricky, because of something intrinsically paradoxical about illustrating a proof by contradiction. Think about it, we want to show what this motion looks like as defined by some hypothetical vector field that is non-zero everywhere, but of course the whole point is that no such vector field exists. As the next best thing, we're going to use that special vector field that we just defined that has only a single null point at the North Pole. That way, if we chop away the North Pole, we can at least see the kind of thing that this motion would do to most of the sphere, even if there's something impossible about this being applied to all of the sphere. I'll go ahead and remove the vectors themselves to avoid clutter, and this right here is what it looks like for every point on the surface to undergo that bizarre, specially defined motion, each one marching along its own half-circle path defined by whatever vector it started on. And actually that's kind of confusing to follow, so let me roll back the clock a bit here, where you see that the whole sphere ends up awkwardly crossing through itself, to clarify things we might perturb the motion a little by letting the radius of the point vary during the motion. And it also makes things clear if we widen out that hole on the top. This makes it much, much easier to follow. At least for this subset of the sphere, you can clearly see two important features of the motion. Number one, the sphere gets turned inside out. Number two, at no point in time does any part of the sphere cross the origin. And that should make sense, each individual point is just following a half-circle centered at the origin, so of course it never passes through the origin. Those are the two key ingredients. For our proof, what we want to say is that these two facts are somehow incompatible. Before we can do that though, we need to linger on this first point. Why exactly does this motion turn the sphere inside out? And actually, what do we even mean by the phrase inside out here? And in fact, let me start with an even more basic question. If you're standing at some point on the sphere, how do you know which way is outside and which way is inside? I realize that might sound like a very dumb question. You might say, just look at whichever way is pointed away from the origin. What's wrong with you? The real conundrum here though, comes from the fact that we intend to let the surface warp and deform and get all manipulated in some crazy way. So really what you want is a clear notion of what we mean by inside and outside that remains clear even after you manipulate and massage and contort the whole surface, however you dream up. The easiest way to do this, I think, is going to be something familiar to any graphics programmers, which is that you start by assigning a coordinate system to the sphere, something like our usual notion of latitude and longitude. The image you should have in your mind is that every point of the sphere has a little label attached to it with a pair of numbers. And importantly, these labels could follow along during any motion or manipulation you apply to the sphere. To give a point, consider the direction of increasing longitude and constant latitude and draw a tangent vector in that direction and then draw a line of increasing latitude with constant longitude and draw a tangent vector in that direction. From here, the way we define orientation is using what's known as the right hand rule. You can point your index finger along that first vector and your middle finger along that second vector and then when you stick out your thumb, it'll be perpendicular to both. Notice, using our right hand, the thumb is pointed outside. And in fact, this is how we are going to define what we even mean by outside, at least with respect to the given coordinate system. Doing this at every point, you get what are known in the business as unit normal vectors. As a reference, these are very important in computer graphics where, for example, they let you compute how light should reflect off of a given surface. And for our story, the thing we care about is how, no matter how you manipulate or warp the surface, because that coordinate system you give to it can kind of come along for the ride, you can always play this game of pointing your index finger along the direction where the first coordinate increases and your middle finger along the direction where that second coordinate increases and sticking out your thumb. It's otherwise surprisingly tricky to define what you mean by inside and outside in a way that naturally follows along for any function. So, why are we doing this? We're now about that strange deformation induced by a vector field on the sphere. How can we conclude, beyond any doubt, that this must turn the sphere inside out? Well, remember how each individual point starting at p ends up at negative p. The much more straightforward way to get there, literally, would be to reflect through the origin like this. So consider that picture that we just had of an example point, together with the oriented lines of latitude and longitude passing through it. Notice what it looks like if we let every point in that diagram move over to its negative. Again, you might imagine all the coordinate labels of the surface kind of riding along with it, so when you play the same game of pointing your index finger in the direction where that first coordinate increases and your middle finger in the direction where that second coordinate increases. Now, after everything has been negated, notice that your thumb is pointing towards the origin instead of a way. This is all to say, the function that maps every point p of a sphere to its negative necessarily turns the sphere inside out, in the sense of reversing orientation the way we just defined it. In particular, that very weird deformation that we described in terms of a hypothetical vector field must reverse orientation because it's mapping each point p to negative p. You can also see this effect with a much simpler motion that gets us to the same final place. Then rotating the sphere 180 degrees around the z-axis and then reflecting through the xy plane. That results in every point p landing on its negative, and notice how all the unit normal vectors that started pointing outward end up pointing inward. And as it's rendered here with a blue exterior and a brown interior, those two colors end up getting swapped. And it's at this point that viewers of classic math videos all might be bringing to mind an absolute banger of a video that was produced in 1994 by the geometry center at the University of Minnesota. This is really one of the true classics in all of math exposition. It walks through this mind-blowing way to turn a sphere inside out using a certain continuous deformation. The reason I bring this up for any of you who watched that is to say that the context there was a little bit different. The phenomenon that they were trying to avoid was creating cusps and creases on the sphere during the process. But over here for our purposes, we don't really care about that. However, there is one feature of our bizarre vector field induced deformation that really would be impossible. No point of the sphere ever passes through the origin. And there is a very beautiful way to see why turning a sphere inside out without crossing the origin just could never happen. Maybe the most fun way to illustrate this is with a physical model. In a fountain at the origin, spewing out water uniformly in all directions, say, at a rate of one liter every second. The way I'm animating it here is with a bunch of droplets spewing away, but in principle, I want you to think of this as a continuous flow of an incompressible fluid, something uniform in all directions, and with that incompressibility, we'll imagine that the density of water through all of space stays constant. That's important. If you have some oriented surface, something like our sphere with its unit normal vectors, you can measure how much water is flowing through that surface per unit time. Physicists have a special name for this, they call it the flux, where on a given patch of area, the flux measures how much water passes through it per second, and you count it as positive when the water flows from inside to outside, aligned with the unit normal vectors of the surface, whereas flux would be negative if it's going the other way, flowing against those normal vectors. When you add all of this up over the whole surface, this gives you the total flux. And the key observation is that this total flux has to match the amount of water being produced inside the surface, that one liter per second. And the cool part is that this will remain true even if you warp or deform the sphere just a little bit, that total flux stays at one liter per second, even if the flux through a particular patch of area changes during the process. And the basic reason is that we're treating the water as an incompressible fluid, with a constant uniform density through space, so every little bit of water produced at the origin has to be cancelled out by one that is exiting the surface. Importantly, for what I just said to be true, we have to be counting flux with a sign. For example, let's say you warp the sphere so that it kind of folds over itself like this, then you'll notice, along a certain line, the water goes out of the surface, and then back into it, and then back out again. So you would want to count this flux as positive whenever it goes from inside to outside, but negative when it goes from outside to inside, so that you're not counting those particles three different times. And from here, you can maybe see the key point I'm getting at towards our contradiction. The only way that you could ever change the net flux through a surface like this, is if part of that surface crosses through the origin. For example, if you pull it over to the side so that it doesn't include the source at all, the net flux would be zero. There are as many water molecules flowing in as there are flowing out. So with that in mind, think about everything we've been talking about. If you could define this non-zero vector field on a sphere that lets you create this bizarre deformation that turns the sphere inside out, what happens to the flux? Well, what we mean by turning the sphere inside out is that all the unit normal vectors end up pointing inside instead of outside. So for any particular patch of area, at some point, the flux through it transitions from being positive to negative, and overall, at the end, that total flux would have to end at negative one liters per second. But at the same time, if it never crosses the origin, the net flux can never change. It starts at positive one, so it has to end at positive one. This is the contradiction. No deformation with these two properties can possibly exist. And there you have it. A non-zero, continuous vector field on the sphere would be impossible. You truly cannot comb a hairy ball. I don't know about you, but I think that is so beautiful. Very often topology is this game where seemingly intuitive facts have these surprising but kind of frustrating counter examples. But the real insights and the creativity often comes from the other side of the coin, where you take something that seems intuitive, but you find the construction that really justifies why it's fundamentally true. Now there is more to say about making the argument I just showed you fully rigorous, and also more to say about how this whole thing does and does not generalize to other dimensions. But before that, if you'll indulge me in shifting gears entirely for a minute here, I want to tell you about an experimental new thing that I'm starting up this year, which I'm thinking of as a kind of virtual career fair. If you go to 3B1B.co slash talent, what you'll find is a set of companies that have two things in common. The first one, essentially by definition, is that they are interested in recruiting from this audience. They value the kind of mathematical and technical curiosity clearly to be found in someone like you who's watching a video like this for fun. If you go and you explore the page and you see the kind of puzzles and challenges and technical work that each one has chosen to share with you, you'll pretty quickly get a sense of the shared values here. The second thing they have in common is that the people working there really love what they do. And this one's important to me. I was pretty careful about it while setting this whole thing up because all of this only makes sense to do if it's actually valuable to the audience. So I took some time to sit down and chat with the technical teams at each group and inclusion only really made sense if they clearly like what they do. Pretty universally, a core reason that the people enjoyed their work was out of a very sincere respect for all of their teammates. In the hopes of making this relevant to you, whoever you might be, there is a range of job types available across a range of industries, including senior roles, new careers, internships, or even part-time tutoring gigs. For broader context, if you are curious, I recorded a whole video on the second channel explaining why I started this, what the deal is. One thing that I mention over there is how I'm looking to make a few hires myself, and whenever this is the case, I will include my own page up on this virtual career fair, where you can go and find the description of what I'm looking for and the applications. The whole page will stay updated as time goes on, so even if you're not looking for a job now, but you are some time in the future, be sure to check it out. Alright, so back to the Harry Ball theorem. The argument at the end rested on this whole idea of flux, which admittedly is a little hand wavy without further details. So I'll leave up on screen a set of exercises outlining one way that you could make this more rigorous if you have a background with multivariable calculus and the divergence theorem. There is another deeper way to get at the same basic idea, using something called a homology group, but that one is certainly beyond the scope for today. The last point I want to leave you pondering on is the nature of other dimensions. It's not hard to see that you can comb down the hairs on a fluffy circle, even though you can't do it for a sphere, and in general the rule is that spheres in all of the even dimensions can be combed down, but those in all of the odd numbered dimensions cannot. Now what I like about the argument that we just talked about for this whole video is that it offers a pretty direct clue for why that's the rule, at least if you're comfortable with the notion of orientation. In all of the even dimensions, the function that maps a point to its negative is an orientation preserving function, whereas in all of the odd dimensions, that's an orientation reversing function. You might enjoy taking a moment to pause and ponder on why that means the proof we just outlined works in all of the odd dimensions, and even though it doesn't explicitly tell you that nothing could work in the even dimensions, it's a fun puzzle to see if you can construct an explicit example of a non-zero vector field in all of those even dimensions. For example, how do you comb down the hairs on a hypersphere in four dimensions?"
+  }
+}

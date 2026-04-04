@@ -1,0 +1,1169 @@
+{
+  "video_id": "9oDAsFhSR5k",
+  "video_title": "Software and abstraction | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 228.0,
+  "view_count": 5399,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 8.0,
+        "text": "Most of the code we've written comes in the form of programs and scripts, meaning there are sets of instructions that perform a specific job."
+      },
+      {
+        "start": 8.9,
+        "duration": 4.9,
+        "text": "But most of the technology we interact with comes in the form of software."
+      },
+      {
+        "start": 14.7,
+        "duration": 6.8,
+        "text": "Instead of a single program, software is a system of programs and data that work together over time."
+      },
+      {
+        "start": 22.6,
+        "duration": 5.8,
+        "text": "For example, video editing software doesn't perform just one job. It performs many."
+      },
+      {
+        "start": 29.3,
+        "duration": 5.5,
+        "text": "Like smoothing the audio, overlaying text, or adding transitions in between clips."
+      },
+      {
+        "start": 36.1,
+        "duration": 5.2,
+        "text": "The code that makes up a piece of software doesn't all execute at the same time."
+      },
+      {
+        "start": 42.2,
+        "duration": 11.4,
+        "text": "Instead, software reacts to events. For example, when you open up a game, it doesn't just run through every possible thing that could happen in the game from start to finish."
+      },
+      {
+        "start": 54.2,
+        "duration": 5.6,
+        "text": "But rather, it executes specific pieces of code in response to specific events."
+      },
+      {
+        "start": 60.9,
+        "duration": 4.3,
+        "text": "Like when the user presses a button, the game may change the character's direction."
+      },
+      {
+        "start": 66.6,
+        "duration": 4.2,
+        "text": "Or when the character runs into an item, the game may enable a power up."
+      },
+      {
+        "start": 72.2,
+        "duration": 3.8,
+        "text": "Or when a timer runs out, the game may toggle the current mode."
+      },
+      {
+        "start": 76.7,
+        "duration": 8.8,
+        "text": "Ultimately, this means a piece of software has thousands of lines of code that manage tons of data and tons of functionality together."
+      },
+      {
+        "start": 86.7,
+        "duration": 4.8,
+        "text": "As a programmer then, how do we keep track of all that complexity in our hits?"
+      },
+      {
+        "start": 92.7,
+        "duration": 3.4,
+        "text": "The answer is, we don't. We use abstraction."
+      },
+      {
+        "start": 97.3,
+        "duration": 6.6,
+        "text": "In programming, abstraction is the process of hiding unnecessary details so we can focus on what matters."
+      },
+      {
+        "start": 104.9,
+        "duration": 3.1,
+        "text": "A function, for example, is a form of abstraction."
+      },
+      {
+        "start": 109.0,
+        "duration": 3.4,
+        "text": "If I want to perform this task, I can just call this function."
+      },
+      {
+        "start": 113.2,
+        "duration": 6.0,
+        "text": "As soon as I trust the people I work with, I don't need to understand how this code works in order to use it."
+      },
+      {
+        "start": 120.1,
+        "duration": 3.1,
+        "text": "Functions, however, just let us abstract behavior."
+      },
+      {
+        "start": 123.8,
+        "duration": 3.6,
+        "text": "But in software, we also need to abstract data."
+      },
+      {
+        "start": 128.2,
+        "duration": 8.8,
+        "text": "To make our code more intuitive to work with, we want our software to think about things the same way that humans do."
+      },
+      {
+        "start": 137.7,
+        "duration": 2.7,
+        "text": "So, same building the school management software."
+      },
+      {
+        "start": 141.0,
+        "duration": 3.0,
+        "text": "That software needs to represent real things."
+      },
+      {
+        "start": 144.6,
+        "duration": 2.9,
+        "text": "Like students, teachers, classrooms, assignments."
+      },
+      {
+        "start": 148.4,
+        "duration": 4.2,
+        "text": "I can create a bunch of different data structures that group different bits of data."
+      },
+      {
+        "start": 153.6,
+        "duration": 5.0,
+        "text": "And I can create a bunch of modules that group a bunch of functions that perform a bunch of tasks."
+      },
+      {
+        "start": 159.9,
+        "duration": 0.8,
+        "text": "Does this work?"
+      },
+      {
+        "start": 161.5,
+        "duration": 0.3,
+        "text": "Yes."
+      },
+      {
+        "start": 162.6,
+        "duration": 4.6,
+        "text": "But it's pretty challenging to work with as the size of our software grows."
+      },
+      {
+        "start": 169.0,
+        "duration": 4.6,
+        "text": "Why not organize our code in a way that better mirrors the real world?"
+      },
+      {
+        "start": 174.9,
+        "duration": 3.3,
+        "text": "Like a student has their own data."
+      },
+      {
+        "start": 178.2,
+        "duration": 3.6,
+        "text": "Like their name, their email address, their core schedule, their grades."
+      },
+      {
+        "start": 182.8,
+        "duration": 5.2,
+        "text": "And each student can take actions like enrolling a class or submit an assignment."
+      },
+      {
+        "start": 189.4,
+        "duration": 5.9,
+        "text": "As we build out the rest of our school software then, we can work with these higher level concepts."
+      },
+      {
+        "start": 195.8,
+        "duration": 3.8,
+        "text": "We can think in terms of students, teachers, assignments, and classrooms,"
+      },
+      {
+        "start": 200.5,
+        "duration": 2.9,
+        "text": "instead of arbitrary functions and variables."
+      },
+      {
+        "start": 205.1,
+        "duration": 5.4,
+        "text": "To achieve that abstraction in our code, we bundled data and behavior together,"
+      },
+      {
+        "start": 210.6,
+        "duration": 2.4,
+        "text": "using something called classes and objects."
+      },
+      {
+        "start": 213.9,
+        "duration": 6.0,
+        "text": "This lets us define our own custom data types that come with their own data or attributes"
+      },
+      {
+        "start": 220.5,
+        "duration": 1.9,
+        "text": "and behaviors or methods."
+      },
+      {
+        "start": 223.3,
+        "duration": 3.9,
+        "text": "To get started, we just need to learn how to write a class definition."
+      }
+    ],
+    "full_text": "Most of the code we've written comes in the form of programs and scripts, meaning there are sets of instructions that perform a specific job. But most of the technology we interact with comes in the form of software. Instead of a single program, software is a system of programs and data that work together over time. For example, video editing software doesn't perform just one job. It performs many. Like smoothing the audio, overlaying text, or adding transitions in between clips. The code that makes up a piece of software doesn't all execute at the same time. Instead, software reacts to events. For example, when you open up a game, it doesn't just run through every possible thing that could happen in the game from start to finish. But rather, it executes specific pieces of code in response to specific events. Like when the user presses a button, the game may change the character's direction. Or when the character runs into an item, the game may enable a power up. Or when a timer runs out, the game may toggle the current mode. Ultimately, this means a piece of software has thousands of lines of code that manage tons of data and tons of functionality together. As a programmer then, how do we keep track of all that complexity in our hits? The answer is, we don't. We use abstraction. In programming, abstraction is the process of hiding unnecessary details so we can focus on what matters. A function, for example, is a form of abstraction. If I want to perform this task, I can just call this function. As soon as I trust the people I work with, I don't need to understand how this code works in order to use it. Functions, however, just let us abstract behavior. But in software, we also need to abstract data. To make our code more intuitive to work with, we want our software to think about things the same way that humans do. So, same building the school management software. That software needs to represent real things. Like students, teachers, classrooms, assignments. I can create a bunch of different data structures that group different bits of data. And I can create a bunch of modules that group a bunch of functions that perform a bunch of tasks. Does this work? Yes. But it's pretty challenging to work with as the size of our software grows. Why not organize our code in a way that better mirrors the real world? Like a student has their own data. Like their name, their email address, their core schedule, their grades. And each student can take actions like enrolling a class or submit an assignment. As we build out the rest of our school software then, we can work with these higher level concepts. We can think in terms of students, teachers, assignments, and classrooms, instead of arbitrary functions and variables. To achieve that abstraction in our code, we bundled data and behavior together, using something called classes and objects. This lets us define our own custom data types that come with their own data or attributes and behaviors or methods. To get started, we just need to learn how to write a class definition."
+  }
+}

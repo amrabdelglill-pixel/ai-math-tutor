@@ -1,0 +1,804 @@
+{
+  "video_id": "fRed0Xmc2Wg",
+  "video_title": "Oh, wait, actually the best Wordle opener is not “crane”…",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 653.0,
+  "view_count": 6614616,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.3,
+        "text": "Last week I put up this video about solving the game Wordal,"
+      },
+      {
+        "start": 3.3,
+        "duration": 3.0,
+        "text": "or at least trying to solve it, using information theory."
+      },
+      {
+        "start": 6.3,
+        "duration": 2.8,
+        "text": "And I wanted to add a quick, uh, what should we call this?"
+      },
+      {
+        "start": 9.1,
+        "duration": 2.0,
+        "text": "An addendum, a confession."
+      },
+      {
+        "start": 11.1,
+        "duration": 3.0,
+        "text": "Basically, I just want to explain a place where it might make a mistake."
+      },
+      {
+        "start": 14.2,
+        "duration": 4.6,
+        "text": "It turns out there was a very slight bug in the code that I was running to recreate Wordal"
+      },
+      {
+        "start": 18.7,
+        "duration": 3.6,
+        "text": "and then run all of the algorithms to solve it and test their performance."
+      },
+      {
+        "start": 22.3,
+        "duration": 3.6,
+        "text": "And it's one of those bugs that affects a very small percentage of cases, so"
+      },
+      {
+        "start": 25.9,
+        "duration": 3.7,
+        "text": "it was easy to miss, and it has only a very slight effect that for the most part"
+      },
+      {
+        "start": 29.6,
+        "duration": 1.5,
+        "text": "doesn't really matter."
+      },
+      {
+        "start": 31.1,
+        "duration": 4.2,
+        "text": "Basically, it had to do with how you assign a color to a guess that has multiple different"
+      },
+      {
+        "start": 35.4,
+        "duration": 1.1,
+        "text": "letters in it."
+      },
+      {
+        "start": 36.5,
+        "duration": 3.4,
+        "text": "For example, if you guess speed and the true answer is abide,"
+      },
+      {
+        "start": 39.9,
+        "duration": 2.1,
+        "text": "how should you color those two E's from the guess?"
+      },
+      {
+        "start": 42.8,
+        "duration": 3.4,
+        "text": "Well, the way that it works with the Wordal conventions is that the first E would be"
+      },
+      {
+        "start": 46.2,
+        "duration": 3.1,
+        "text": "colored yellow, and the second one would be colored gray."
+      },
+      {
+        "start": 49.4,
+        "duration": 3.4,
+        "text": "You might think of that first one as matching up with something from the true answer,"
+      },
+      {
+        "start": 52.7,
+        "duration": 3.3,
+        "text": "and the grayness is telling you there is no second E."
+      },
+      {
+        "start": 56.0,
+        "duration": 3.0,
+        "text": "By contrast, if the answer was something like a race,"
+      },
+      {
+        "start": 59.0,
+        "duration": 2.2,
+        "text": "both of those E's would be colored yellow,"
+      },
+      {
+        "start": 61.2,
+        "duration": 2.9,
+        "text": "telling you that there is a first E in a different location,"
+      },
+      {
+        "start": 64.1,
+        "duration": 3.0,
+        "text": "and there's a second E, also in a different location."
+      },
+      {
+        "start": 67.0,
+        "duration": 2.7,
+        "text": "Similarly, if one of the E's hits and it's green,"
+      },
+      {
+        "start": 69.8,
+        "duration": 5.4,
+        "text": "then that second one would be gray in the case where the true answer has no second E,"
+      },
+      {
+        "start": 75.1,
+        "duration": 5.3,
+        "text": "but it would be yellow in the case where there is a second E and it's just in a different location."
+      },
+      {
+        "start": 80.4,
+        "duration": 4.5,
+        "text": "Long story short, somewhere along the way, I accidentally introduced behavior that differs"
+      },
+      {
+        "start": 84.9,
+        "duration": 1.7,
+        "text": "from these conventions slightly."
+      },
+      {
+        "start": 86.8,
+        "duration": 1.8,
+        "text": "And honestly, it was really dumb."
+      },
+      {
+        "start": 88.6,
+        "duration": 3.8,
+        "text": "Basically, at some point in the middle of the project, I wanted to speed up some of the"
+      },
+      {
+        "start": 92.5,
+        "duration": 4.4,
+        "text": "computations, and I was trying a little trick for how it computed the value for this pattern"
+      },
+      {
+        "start": 96.9,
+        "duration": 4.1,
+        "text": "between any given pair of words, and you know, I just didn't really think it through,"
+      },
+      {
+        "start": 101.0,
+        "duration": 2.1,
+        "text": "and it introduced this slight change."
+      },
+      {
+        "start": 103.0,
+        "duration": 3.6,
+        "text": "The ironic part is that in the end, the actual way to make things fastest"
+      },
+      {
+        "start": 106.6,
+        "duration": 3.4,
+        "text": "is to pre-compute all those patterns so that everything is just a lookup,"
+      },
+      {
+        "start": 110.1,
+        "duration": 2.5,
+        "text": "and so it wouldn't matter how long it takes to do each one,"
+      },
+      {
+        "start": 112.6,
+        "duration": 3.5,
+        "text": "especially if you're writing hard to read buggy code to make it happen."
+      },
+      {
+        "start": 116.1,
+        "duration": 1.0,
+        "text": "You know, you live and you learn."
+      },
+      {
+        "start": 117.8,
+        "duration": 4.6,
+        "text": "As far as how this affects the actual video, I mean very little of substance really changes."
+      },
+      {
+        "start": 122.4,
+        "duration": 4.2,
+        "text": "Of course, the main lesson about what is information, what is entropy, all that stays the same."
+      },
+      {
+        "start": 126.6,
+        "duration": 4.9,
+        "text": "Every now and then, if I'm showing on screen some distribution associated with a given word,"
+      },
+      {
+        "start": 131.5,
+        "duration": 4.6,
+        "text": "that distribution might actually be a little bit off because some of the buckets associated"
+      },
+      {
+        "start": 136.1,
+        "duration": 4.1,
+        "text": "with various patterns should include either more or fewer true answers."
+      },
+      {
+        "start": 140.7,
+        "duration": 3.4,
+        "text": "Even then, it doesn't really come up because it was very rare that I would be showing a word"
+      },
+      {
+        "start": 144.1,
+        "duration": 2.6,
+        "text": "that had multiple letters that also hit this edge case."
+      },
+      {
+        "start": 147.4,
+        "duration": 5.9,
+        "text": "But one of the very few things of substance that does change and that arguably does matter a fair bit"
+      },
+      {
+        "start": 153.4,
+        "duration": 5.2,
+        "text": "was the final conclusion, around how if we want to find the optimal possible score"
+      },
+      {
+        "start": 158.6,
+        "duration": 3.8,
+        "text": "for the word-al-answer list, what opening guess to such an algorithm use?"
+      },
+      {
+        "start": 163.0,
+        "duration": 4.4,
+        "text": "In the video, I said the best performance that I could find came from opening with the word"
+      },
+      {
+        "start": 167.4,
+        "duration": 4.8,
+        "text": "crane, which was true only in the sense that the algorithms were playing a very slightly different"
+      },
+      {
+        "start": 172.2,
+        "duration": 5.3,
+        "text": "game. After fixing it and re-running it all, there is a different answer for what the theoretically"
+      },
+      {
+        "start": 177.4,
+        "duration": 6.9,
+        "text": "optimal first guess is for this particular list. And look, I know that you know that the point"
+      },
+      {
+        "start": 184.3,
+        "duration": 4.9,
+        "text": "of the video is not to find some technically optimal answer to some random online game."
+      },
+      {
+        "start": 189.5,
+        "duration": 4.2,
+        "text": "The point of the video is to shamelessly hop on the bandwagon of an internet trend to sneak"
+      },
+      {
+        "start": 193.7,
+        "duration": 4.4,
+        "text": "attack people with an information theory lesson. And that's all good, I stand by that part."
+      },
+      {
+        "start": 198.1,
+        "duration": 4.5,
+        "text": "But I know how the internet works, and for a lot of people, the one main takeaway was"
+      },
+      {
+        "start": 202.6,
+        "duration": 4.6,
+        "text": "what is the best opener for the game word-al. And I get it, I walked into that because I put it"
+      },
+      {
+        "start": 207.2,
+        "duration": 4.6,
+        "text": "in the thumbnail, but presumably you can forgive me if I want to add a little correction here."
+      },
+      {
+        "start": 211.8,
+        "duration": 4.3,
+        "text": "And a more meaningful reason to circle back to all this actually is that I never really talked"
+      },
+      {
+        "start": 216.2,
+        "duration": 4.6,
+        "text": "about what went into that final analysis. And it's interesting as a sub-lesson in its own right,"
+      },
+      {
+        "start": 220.7,
+        "duration": 5.5,
+        "text": "so that's worth doing here. Now if you'll recall, most of our time last video was spent on the"
+      },
+      {
+        "start": 226.3,
+        "duration": 5.0,
+        "text": "challenge of trying to write an algorithm to solve word-al that did not use the official list of"
+      },
+      {
+        "start": 231.3,
+        "duration": 5.1,
+        "text": "all possible answers. It might taste that feels a bit like overfitting to a test set, and what's"
+      },
+      {
+        "start": 236.4,
+        "duration": 4.3,
+        "text": "more fun is building something that's resilient. This is why we went through the whole process of"
+      },
+      {
+        "start": 240.7,
+        "duration": 4.6,
+        "text": "looking at relative word frequencies in the English language to come up with some notion of how"
+      },
+      {
+        "start": 245.4,
+        "duration": 5.8,
+        "text": "likely each one would be to be included as a final answer. However, for what we're doing here,"
+      },
+      {
+        "start": 251.1,
+        "duration": 4.6,
+        "text": "where we're just trying to find an absolute best performance period, I am incorporating that"
+      },
+      {
+        "start": 255.8,
+        "duration": 5.0,
+        "text": "official list and just shamelessly overfitting to the test set, which is to say we know with certainty"
+      },
+      {
+        "start": 260.8,
+        "duration": 4.4,
+        "text": "whether a word is included or not, and we can assign a uniform probability to each one."
+      },
+      {
+        "start": 266.2,
+        "duration": 4.4,
+        "text": "If you'll remember the first step in all of this was to say for a particular opening guess,"
+      },
+      {
+        "start": 270.6,
+        "duration": 4.6,
+        "text": "maybe something like my old favorite, Crane, how likely is it that you would see each of the"
+      },
+      {
+        "start": 275.1,
+        "duration": 4.6,
+        "text": "possible patterns? And in this context, where we are shamelessly overfitting to the word-al"
+      },
+      {
+        "start": 279.7,
+        "duration": 5.0,
+        "text": "answer list, all that involves is counting how many of the possible answers give each one of"
+      },
+      {
+        "start": 284.8,
+        "duration": 4.5,
+        "text": "these patterns. And then of course, most of our time was spent on this kind of funny looking formula"
+      },
+      {
+        "start": 289.3,
+        "duration": 4.7,
+        "text": "to quantify the amount of information that you would get from this guess. That basically involves"
+      },
+      {
+        "start": 294.0,
+        "duration": 4.6,
+        "text": "going through each one of those buckets and saying how much information would you gain?"
+      },
+      {
+        "start": 298.6,
+        "duration": 4.6,
+        "text": "It has this log expression that is a fanciful way of saying how many times would you cut your"
+      },
+      {
+        "start": 303.1,
+        "duration": 5.7,
+        "text": "space of possibilities in half if you observed a given pattern? We take a weighted average of all of"
+      },
+      {
+        "start": 308.8,
+        "duration": 5.0,
+        "text": "those, and it gives us a measure of how much we expect to learn from this first guess. In a moment,"
+      },
+      {
+        "start": 313.8,
+        "duration": 4.6,
+        "text": "we'll go deeper than this, but if you simply search through all 13,000 different words that you"
+      },
+      {
+        "start": 318.5,
+        "duration": 5.5,
+        "text": "could start with, and you ask which one has the highest expected information, it turns out the best"
+      },
+      {
+        "start": 324.0,
+        "duration": 7.7,
+        "text": "possible answer is soar, which doesn't really look like a real word. But I guess it's an obsolete"
+      },
+      {
+        "start": 331.7,
+        "duration": 7.0,
+        "text": "term for a baby hawk. The top 15 openers by this metric happened to look like this, but these are not"
+      },
+      {
+        "start": 338.6,
+        "duration": 5.0,
+        "text": "necessarily the best opening guesses, because they're only looking one step in with a heuristic"
+      },
+      {
+        "start": 343.7,
+        "duration": 5.0,
+        "text": "of expected information to try to estimate what the true score will be. But there's few enough"
+      },
+      {
+        "start": 348.6,
+        "duration": 5.0,
+        "text": "patterns that we can do an exhaustive search two steps in. For example, let's say you opened with"
+      },
+      {
+        "start": 353.7,
+        "duration": 5.2,
+        "text": "soar, and the pattern you happen to see was the most likely one, all grays. Then you can run"
+      },
+      {
+        "start": 358.9,
+        "duration": 5.5,
+        "text": "identical analysis from that point. For a given proposed second guess, something like kitty,"
+      },
+      {
+        "start": 364.5,
+        "duration": 4.2,
+        "text": "what's the distribution across all patterns in that restricted case, where we're restricted only"
+      },
+      {
+        "start": 368.7,
+        "duration": 4.6,
+        "text": "to the words that would produce all grays for soar, and then we measure the flatness of that"
+      },
+      {
+        "start": 373.4,
+        "duration": 6.0,
+        "text": "distribution using this expected information formula, and we do that for all 13,000 possible words"
+      },
+      {
+        "start": 379.4,
+        "duration": 5.9,
+        "text": "that we could use as a second guess. Doing this, we can find the optimal second guess in that scenario,"
+      },
+      {
+        "start": 385.3,
+        "duration": 5.1,
+        "text": "and the amount of information we were expected to get from it. And if we wash rinse and repeat and do"
+      },
+      {
+        "start": 390.5,
+        "duration": 4.8,
+        "text": "this for all of the different possible patterns that you might see, we get a full map of all the"
+      },
+      {
+        "start": 395.3,
+        "duration": 3.7,
+        "text": "best possible second guesses together with the expected information of each."
+      },
+      {
+        "start": 403.2,
+        "duration": 4.2,
+        "text": "From there, if you take a weighted average of all those second step values,"
+      },
+      {
+        "start": 407.4,
+        "duration": 4.6,
+        "text": "weighted according to how likely you are to fall into that bucket, it gives you a measure of how"
+      },
+      {
+        "start": 412.0,
+        "duration": 5.8,
+        "text": "much information you're likely to gain from the guess soar after the second step. When we use"
+      },
+      {
+        "start": 417.8,
+        "duration": 5.1,
+        "text": "this two-step metric as our new means of ranking, the list gets shaken up a bit, soar is no longer"
+      },
+      {
+        "start": 422.9,
+        "duration": 6.7,
+        "text": "first place, it falls back to 14th, and instead what rises to the top is slain. Again, it doesn't feel"
+      },
+      {
+        "start": 429.6,
+        "duration": 6.6,
+        "text": "very real, and it looks like it is a British term for a spade that's used for cutting turf."
+      },
+      {
+        "start": 436.9,
+        "duration": 5.4,
+        "text": "All right, but as you can see, it is a really tight race among all of these top contenders for"
+      },
+      {
+        "start": 442.3,
+        "duration": 5.2,
+        "text": "who gains the most information after those two steps. And even still, these are not necessarily"
+      },
+      {
+        "start": 447.6,
+        "duration": 4.7,
+        "text": "the best opening guesses, because information is just the heuristic, it's not telling us the actual"
+      },
+      {
+        "start": 452.3,
+        "duration": 6.5,
+        "text": "score if you actually play the game. What I did is I ran the simulation of playing all 2,315"
+      },
+      {
+        "start": 458.8,
+        "duration": 5.6,
+        "text": "possible wordl games with all possible answers on the top 250 from this list."
+      },
+      {
+        "start": 466.2,
+        "duration": 5.1,
+        "text": "And by doing this, seeing how they actually perform, the one that ends up very marginally with"
+      },
+      {
+        "start": 471.3,
+        "duration": 11.0,
+        "text": "the best possible score turns out to be salay, which is, let's see, salay, an alternate spelling"
+      },
+      {
+        "start": 482.2,
+        "duration": 7.8,
+        "text": "for salay, which is a light medieval helmet. All right, if that feels a little bit too fake for you,"
+      },
+      {
+        "start": 490.0,
+        "duration": 5.1,
+        "text": "which it does for me, you'll be happy to know that trace and crate give almost identical"
+      },
+      {
+        "start": 495.1,
+        "duration": 5.4,
+        "text": "performance. And each of them has the benefit of obviously being a real word, so there is one day"
+      },
+      {
+        "start": 500.5,
+        "duration": 3.5,
+        "text": "when you get it right on the first guess, since both are actual wordl answers."
+      },
+      {
+        "start": 504.9,
+        "duration": 4.3,
+        "text": "This move from sorting based on the best two step entries to sorting based on the lowest"
+      },
+      {
+        "start": 509.2,
+        "duration": 5.4,
+        "text": "average score also shakes up the list, but not nearly as much. For example, salay was previously"
+      },
+      {
+        "start": 514.6,
+        "duration": 4.9,
+        "text": "third place before it bubbles to the top, and crate and trace were both fourth and fifth."
+      },
+      {
+        "start": 519.4,
+        "duration": 4.4,
+        "text": "If you're curious, you can get slightly better performance from here by doing a little brute forcing."
+      },
+      {
+        "start": 523.8,
+        "duration": 4.2,
+        "text": "There's a very nice blog post by Jonathan Olson, if you're curious about this, where he also"
+      },
+      {
+        "start": 528.0,
+        "duration": 4.3,
+        "text": "lets you explore what the optimal following guesses are for a few of the starting words based on"
+      },
+      {
+        "start": 532.3,
+        "duration": 6.2,
+        "text": "these optimal algorithms. Stepping back from all this, though, I'm told by some people that it"
+      },
+      {
+        "start": 538.6,
+        "duration": 5.4,
+        "text": "quote, ruins the game to overanalyze it like this and try to find an optimal opening guess."
+      },
+      {
+        "start": 543.9,
+        "duration": 3.7,
+        "text": "You know, it feels kind of dirty if you use that opening guess after learning it,"
+      },
+      {
+        "start": 547.6,
+        "duration": 4.7,
+        "text": "and it feels inefficient if you don't. But the thing is, I don't actually think this is the best"
+      },
+      {
+        "start": 552.3,
+        "duration": 4.9,
+        "text": "opener for a human playing the game. For one thing, you would need to know what the optimal second"
+      },
+      {
+        "start": 557.2,
+        "duration": 4.9,
+        "text": "guess is for each one of the patterns that you see. And more importantly, all of this isn't a"
+      },
+      {
+        "start": 562.1,
+        "duration": 5.4,
+        "text": "setting where we are absurdly overfit to the official word-al-answer list. The moment that,"
+      },
+      {
+        "start": 567.4,
+        "duration": 4.7,
+        "text": "say, the New York Times chooses to change what that list is under the hood, all of this would go"
+      },
+      {
+        "start": 572.2,
+        "duration": 4.6,
+        "text": "out the window. The way that we humans play the game is just very different from what any of these"
+      },
+      {
+        "start": 576.7,
+        "duration": 4.6,
+        "text": "algorithms are doing. We don't have the word list memorized. We're not doing exhaustive searches."
+      },
+      {
+        "start": 581.4,
+        "duration": 4.7,
+        "text": "We get intuition from things like, what are the vowels, and how are they placed? I would actually"
+      },
+      {
+        "start": 586.1,
+        "duration": 4.5,
+        "text": "be most happy if those of you watching this video promptly forgot what happens to be the"
+      },
+      {
+        "start": 590.6,
+        "duration": 5.0,
+        "text": "technically best opening guess. And instead came out remembering things like, how do you quantify"
+      },
+      {
+        "start": 595.6,
+        "duration": 4.7,
+        "text": "information? Or the fact that you should look out for when a greedy algorithm falls short of the"
+      },
+      {
+        "start": 600.3,
+        "duration": 4.2,
+        "text": "globally best performance that you would get from a deeper search? For my taste at least,"
+      },
+      {
+        "start": 604.6,
+        "duration": 4.6,
+        "text": "the joy of writing algorithms to try to play games actually has very little bearing on how I like"
+      },
+      {
+        "start": 609.1,
+        "duration": 5.0,
+        "text": "to play those games as a human. The point of writing algorithms for all this is not to affect the"
+      },
+      {
+        "start": 614.2,
+        "duration": 4.3,
+        "text": "way that we play the game. It's still just a fun word game. It's to hone in our muscles for"
+      },
+      {
+        "start": 618.5,
+        "duration": 9.0,
+        "text": "writing algorithms and more meaningful contexts elsewhere."
+      }
+    ],
+    "full_text": "Last week I put up this video about solving the game Wordal, or at least trying to solve it, using information theory. And I wanted to add a quick, uh, what should we call this? An addendum, a confession. Basically, I just want to explain a place where it might make a mistake. It turns out there was a very slight bug in the code that I was running to recreate Wordal and then run all of the algorithms to solve it and test their performance. And it's one of those bugs that affects a very small percentage of cases, so it was easy to miss, and it has only a very slight effect that for the most part doesn't really matter. Basically, it had to do with how you assign a color to a guess that has multiple different letters in it. For example, if you guess speed and the true answer is abide, how should you color those two E's from the guess? Well, the way that it works with the Wordal conventions is that the first E would be colored yellow, and the second one would be colored gray. You might think of that first one as matching up with something from the true answer, and the grayness is telling you there is no second E. By contrast, if the answer was something like a race, both of those E's would be colored yellow, telling you that there is a first E in a different location, and there's a second E, also in a different location. Similarly, if one of the E's hits and it's green, then that second one would be gray in the case where the true answer has no second E, but it would be yellow in the case where there is a second E and it's just in a different location. Long story short, somewhere along the way, I accidentally introduced behavior that differs from these conventions slightly. And honestly, it was really dumb. Basically, at some point in the middle of the project, I wanted to speed up some of the computations, and I was trying a little trick for how it computed the value for this pattern between any given pair of words, and you know, I just didn't really think it through, and it introduced this slight change. The ironic part is that in the end, the actual way to make things fastest is to pre-compute all those patterns so that everything is just a lookup, and so it wouldn't matter how long it takes to do each one, especially if you're writing hard to read buggy code to make it happen. You know, you live and you learn. As far as how this affects the actual video, I mean very little of substance really changes. Of course, the main lesson about what is information, what is entropy, all that stays the same. Every now and then, if I'm showing on screen some distribution associated with a given word, that distribution might actually be a little bit off because some of the buckets associated with various patterns should include either more or fewer true answers. Even then, it doesn't really come up because it was very rare that I would be showing a word that had multiple letters that also hit this edge case. But one of the very few things of substance that does change and that arguably does matter a fair bit was the final conclusion, around how if we want to find the optimal possible score for the word-al-answer list, what opening guess to such an algorithm use? In the video, I said the best performance that I could find came from opening with the word crane, which was true only in the sense that the algorithms were playing a very slightly different game. After fixing it and re-running it all, there is a different answer for what the theoretically optimal first guess is for this particular list. And look, I know that you know that the point of the video is not to find some technically optimal answer to some random online game. The point of the video is to shamelessly hop on the bandwagon of an internet trend to sneak attack people with an information theory lesson. And that's all good, I stand by that part. But I know how the internet works, and for a lot of people, the one main takeaway was what is the best opener for the game word-al. And I get it, I walked into that because I put it in the thumbnail, but presumably you can forgive me if I want to add a little correction here. And a more meaningful reason to circle back to all this actually is that I never really talked about what went into that final analysis. And it's interesting as a sub-lesson in its own right, so that's worth doing here. Now if you'll recall, most of our time last video was spent on the challenge of trying to write an algorithm to solve word-al that did not use the official list of all possible answers. It might taste that feels a bit like overfitting to a test set, and what's more fun is building something that's resilient. This is why we went through the whole process of looking at relative word frequencies in the English language to come up with some notion of how likely each one would be to be included as a final answer. However, for what we're doing here, where we're just trying to find an absolute best performance period, I am incorporating that official list and just shamelessly overfitting to the test set, which is to say we know with certainty whether a word is included or not, and we can assign a uniform probability to each one. If you'll remember the first step in all of this was to say for a particular opening guess, maybe something like my old favorite, Crane, how likely is it that you would see each of the possible patterns? And in this context, where we are shamelessly overfitting to the word-al answer list, all that involves is counting how many of the possible answers give each one of these patterns. And then of course, most of our time was spent on this kind of funny looking formula to quantify the amount of information that you would get from this guess. That basically involves going through each one of those buckets and saying how much information would you gain? It has this log expression that is a fanciful way of saying how many times would you cut your space of possibilities in half if you observed a given pattern? We take a weighted average of all of those, and it gives us a measure of how much we expect to learn from this first guess. In a moment, we'll go deeper than this, but if you simply search through all 13,000 different words that you could start with, and you ask which one has the highest expected information, it turns out the best possible answer is soar, which doesn't really look like a real word. But I guess it's an obsolete term for a baby hawk. The top 15 openers by this metric happened to look like this, but these are not necessarily the best opening guesses, because they're only looking one step in with a heuristic of expected information to try to estimate what the true score will be. But there's few enough patterns that we can do an exhaustive search two steps in. For example, let's say you opened with soar, and the pattern you happen to see was the most likely one, all grays. Then you can run identical analysis from that point. For a given proposed second guess, something like kitty, what's the distribution across all patterns in that restricted case, where we're restricted only to the words that would produce all grays for soar, and then we measure the flatness of that distribution using this expected information formula, and we do that for all 13,000 possible words that we could use as a second guess. Doing this, we can find the optimal second guess in that scenario, and the amount of information we were expected to get from it. And if we wash rinse and repeat and do this for all of the different possible patterns that you might see, we get a full map of all the best possible second guesses together with the expected information of each. From there, if you take a weighted average of all those second step values, weighted according to how likely you are to fall into that bucket, it gives you a measure of how much information you're likely to gain from the guess soar after the second step. When we use this two-step metric as our new means of ranking, the list gets shaken up a bit, soar is no longer first place, it falls back to 14th, and instead what rises to the top is slain. Again, it doesn't feel very real, and it looks like it is a British term for a spade that's used for cutting turf. All right, but as you can see, it is a really tight race among all of these top contenders for who gains the most information after those two steps. And even still, these are not necessarily the best opening guesses, because information is just the heuristic, it's not telling us the actual score if you actually play the game. What I did is I ran the simulation of playing all 2,315 possible wordl games with all possible answers on the top 250 from this list. And by doing this, seeing how they actually perform, the one that ends up very marginally with the best possible score turns out to be salay, which is, let's see, salay, an alternate spelling for salay, which is a light medieval helmet. All right, if that feels a little bit too fake for you, which it does for me, you'll be happy to know that trace and crate give almost identical performance. And each of them has the benefit of obviously being a real word, so there is one day when you get it right on the first guess, since both are actual wordl answers. This move from sorting based on the best two step entries to sorting based on the lowest average score also shakes up the list, but not nearly as much. For example, salay was previously third place before it bubbles to the top, and crate and trace were both fourth and fifth. If you're curious, you can get slightly better performance from here by doing a little brute forcing. There's a very nice blog post by Jonathan Olson, if you're curious about this, where he also lets you explore what the optimal following guesses are for a few of the starting words based on these optimal algorithms. Stepping back from all this, though, I'm told by some people that it quote, ruins the game to overanalyze it like this and try to find an optimal opening guess. You know, it feels kind of dirty if you use that opening guess after learning it, and it feels inefficient if you don't. But the thing is, I don't actually think this is the best opener for a human playing the game. For one thing, you would need to know what the optimal second guess is for each one of the patterns that you see. And more importantly, all of this isn't a setting where we are absurdly overfit to the official word-al-answer list. The moment that, say, the New York Times chooses to change what that list is under the hood, all of this would go out the window. The way that we humans play the game is just very different from what any of these algorithms are doing. We don't have the word list memorized. We're not doing exhaustive searches. We get intuition from things like, what are the vowels, and how are they placed? I would actually be most happy if those of you watching this video promptly forgot what happens to be the technically best opening guess. And instead came out remembering things like, how do you quantify information? Or the fact that you should look out for when a greedy algorithm falls short of the globally best performance that you would get from a deeper search? For my taste at least, the joy of writing algorithms to try to play games actually has very little bearing on how I like to play those games as a human. The point of writing algorithms for all this is not to affect the way that we play the game. It's still just a fun word game. It's to hone in our muscles for writing algorithms and more meaningful contexts elsewhere."
+  }
+}

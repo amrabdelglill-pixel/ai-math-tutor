@@ -1,0 +1,1329 @@
+{
+  "video_id": "eQT08EvLW1k",
+  "video_title": "Solving rational inequalities by testing intervals rational expression on both sides | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 479.0,
+  "view_count": 9513,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 8.3,
+        "text": "Alright, the goal of this video is try to find the solution set to this inequality right"
+      },
+      {
+        "start": 8.3,
+        "duration": 4.6,
+        "text": "over here, and like always pause this video, have a go at it before we do this together."
+      },
+      {
+        "start": 12.8,
+        "duration": 5.5,
+        "text": "Alright, what I want to do is rewrite this algebraically, so I just have a zero on the other"
+      },
+      {
+        "start": 18.4,
+        "duration": 4.0,
+        "text": "side, and then I'm going to be able to test the expression that I have on the other side,"
+      },
+      {
+        "start": 22.3,
+        "duration": 4.8,
+        "text": "that's not the zero side, to think about what intervals is it greater than zero?"
+      },
+      {
+        "start": 27.2,
+        "duration": 5.2,
+        "text": "And to figure that out, I'll think about where do we have non-removable discontinuities,"
+      },
+      {
+        "start": 32.4,
+        "duration": 4.8,
+        "text": "and where is that numerator going to be equal to zero, and those might be places of sign"
+      },
+      {
+        "start": 37.2,
+        "duration": 1.0,
+        "text": "changes."
+      },
+      {
+        "start": 38.2,
+        "duration": 3.0,
+        "text": "So let's get to it, there's going to be a little bit of algebra here, so let me bring"
+      },
+      {
+        "start": 41.3,
+        "duration": 7.6,
+        "text": "all of this business over to the left hand side, so I could rewrite it as x squared plus"
+      },
+      {
+        "start": 48.8,
+        "duration": 13.6,
+        "text": "3x minus 10 over x plus 3, and then minus x squared minus 4 over x plus 2."
+      },
+      {
+        "start": 62.5,
+        "duration": 6.0,
+        "text": "Now let me actually, before, and this is all going to be of course greater than or equal"
+      },
+      {
+        "start": 68.5,
+        "duration": 4.5,
+        "text": "to zero, and I'll always see if I can actually simplify this a little bit before I do a lot"
+      },
+      {
+        "start": 73.0,
+        "duration": 1.8,
+        "text": "of the hairy algebra."
+      },
+      {
+        "start": 74.8,
+        "duration": 8.9,
+        "text": "This expression right over here is x plus 2 times x minus 2, and so we might say we have"
+      },
+      {
+        "start": 83.8,
+        "duration": 4.8,
+        "text": "an x plus 2 in the numerator, we have an x plus 2 in the denominator, I can cancel those"
+      },
+      {
+        "start": 88.6,
+        "duration": 6.5,
+        "text": "things out, but we have to be careful, because this implies that we have a removable discontinuity"
+      },
+      {
+        "start": 95.1,
+        "duration": 5.4,
+        "text": "at x equals negative 2, so that's a restriction on our domain, so now we have to add that,"
+      },
+      {
+        "start": 100.5,
+        "duration": 6.7,
+        "text": "so x cannot equal negative 2, and so let me rewrite what we have going on here, we have"
+      },
+      {
+        "start": 107.2,
+        "duration": 9.9,
+        "text": "x squared plus 3x minus 10 over x plus 3, and I'm going to, so I could just write minus"
+      },
+      {
+        "start": 117.1,
+        "duration": 6.0,
+        "text": "x minus 2, I could just write it that way, is greater than or equal to zero and have our"
+      },
+      {
+        "start": 123.2,
+        "duration": 5.5,
+        "text": "restriction to our domain, but I'm just for the sake of not using up all my screen real"
+      },
+      {
+        "start": 128.6,
+        "duration": 4.8,
+        "text": "estate, I'm going to go forward one more step, and have a common denominator, I could rewrite"
+      },
+      {
+        "start": 133.4,
+        "duration": 10.9,
+        "text": "x minus 2 as x minus 2 times x plus 3 over x plus 3, all of that is greater than or equal"
+      },
+      {
+        "start": 144.4,
+        "duration": 5.5,
+        "text": "to zero with the restriction that x cannot be equal to negative 2, why did I do that"
+      },
+      {
+        "start": 149.9,
+        "duration": 4.7,
+        "text": "just now, well I want to add all of this together and turn it into just one big rational"
+      },
+      {
+        "start": 154.6,
+        "duration": 6.8,
+        "text": "expression, and so I can rewrite all of this as, let me make a big line here, so my"
+      },
+      {
+        "start": 161.4,
+        "duration": 8.4,
+        "text": "denominator is now x plus 3, my numerator is x squared plus 3x minus 10, and let me actually"
+      },
+      {
+        "start": 169.9,
+        "duration": 4.4,
+        "text": "rewrite all of this in a new color right over here, and I could write, this is going to"
+      },
+      {
+        "start": 174.3,
+        "duration": 9.8,
+        "text": "be, I'll just do this over here, x times x is x squared, x times 3 is plus 3x minus 2x,"
+      },
+      {
+        "start": 184.0,
+        "duration": 8.3,
+        "text": "and then negative 2 times 3 is minus 6, and then, so this is going to be 3x minus 2x is"
+      },
+      {
+        "start": 192.3,
+        "duration": 7.2,
+        "text": "1x, so that is all x, and then we are subtracting that, so this is going to be negative x squared,"
+      },
+      {
+        "start": 199.5,
+        "duration": 5.4,
+        "text": "and then we have plus x, but we're subtracting it, so minus x, and then we're subtracting"
+      },
+      {
+        "start": 204.9,
+        "duration": 8.0,
+        "text": "a negative 6, and so then we have plus 6 there, and so that gets us to, if we were to simplify"
+      },
+      {
+        "start": 213.0,
+        "duration": 4.9,
+        "text": "this whole numerator, we are making progress, oh let's not forget, this needs to be greater"
+      },
+      {
+        "start": 217.9,
+        "duration": 7.9,
+        "text": "than or equal to 0, and x cannot be, come here, and x cannot be equal to negative 2, so"
+      },
+      {
+        "start": 225.7,
+        "duration": 5.0,
+        "text": "we have an x squared minus x squared, those cancel out, and so I'm left with 3x minus"
+      },
+      {
+        "start": 230.7,
+        "duration": 8.1,
+        "text": "x, which is 2x, and then negative 10 plus 6, which is minus 4, all of that over x plus"
+      },
+      {
+        "start": 238.8,
+        "duration": 9.0,
+        "text": "3x plus 3, this is simplifying nicely, is greater than or equal to 0, for x does not"
+      },
+      {
+        "start": 248.2,
+        "duration": 5.8,
+        "text": "equal negative 2, and I'm actually going to factor this top even a little bit more, because"
+      },
+      {
+        "start": 254.0,
+        "duration": 5.7,
+        "text": "I want to figure out when the numerator is equal to 0, so let me just do that over here,"
+      },
+      {
+        "start": 259.6,
+        "duration": 7.0,
+        "text": "so we get 2 times x minus 2 over x plus 3 is greater than or equal to 0, for all x's"
+      },
+      {
+        "start": 273.3,
+        "duration": 6.4,
+        "text": "except 4x does not equal negative 2, and of course it also has a discontinuity here at"
+      },
+      {
+        "start": 279.8,
+        "duration": 4.1,
+        "text": "x equals negative 3, and that's going to be an interesting point. What we want to think"
+      },
+      {
+        "start": 283.9,
+        "duration": 4.0,
+        "text": "about is what are all the points where we might have a sign change, and those are going"
+      },
+      {
+        "start": 287.9,
+        "duration": 7.0,
+        "text": "to be where the numerator is equal to 0, or where are we have a non-removable discontinuity,"
+      },
+      {
+        "start": 295.1,
+        "duration": 7.5,
+        "text": "which x equals negative 3 is, so the points of interest are x equals 2, x equals 2, and"
+      },
+      {
+        "start": 302.6,
+        "duration": 6.6,
+        "text": "x equals negative 3, x equals 2 makes the numerator 0, x equals negative 3 makes the denominator"
+      },
+      {
+        "start": 309.2,
+        "duration": 5.8,
+        "text": "equal to 0. Now, what we want to do is test the intervals to the left in between and to"
+      },
+      {
+        "start": 315.1,
+        "duration": 5.5,
+        "text": "the right of these numbers, or let me start with x is less than negative 3, so let's"
+      },
+      {
+        "start": 320.6,
+        "duration": 6.5,
+        "text": "imagine x equals negative 4, let's plug that in into this expression right over here,"
+      },
+      {
+        "start": 327.1,
+        "duration": 7.0,
+        "text": "we would get 2 times negative 4 times negative 4 minus 2 is negative 6, all of that over"
+      },
+      {
+        "start": 335.7,
+        "duration": 6.0,
+        "text": "negative 4 plus 3, which is negative 1, so this is going to be negative 12 divided by negative"
+      },
+      {
+        "start": 341.7,
+        "duration": 5.7,
+        "text": "1 equals positive 12. What we really care about is the sign, this is positive, this is"
+      },
+      {
+        "start": 347.4,
+        "duration": 7.0,
+        "text": "positive, so it is greater than 0, so this interval x is less than negative 3 does satisfy"
+      },
+      {
+        "start": 355.7,
+        "duration": 5.4,
+        "text": "our conditions. Now, we can't get 2 x equals negative 3, even though this is greater than"
+      },
+      {
+        "start": 361.1,
+        "duration": 6.5,
+        "text": "or equals, because at x equals negative 3, our denominator becomes 0, this becomes undefined,"
+      },
+      {
+        "start": 367.6,
+        "duration": 7.0,
+        "text": "x equals negative 3 is not part of our domain. Now, let's try the interval in between these"
+      },
+      {
+        "start": 374.6,
+        "duration": 7.0,
+        "text": "2 numbers, maybe I'll do that in a salmon color, so let's think about between negative 3"
+      },
+      {
+        "start": 381.6,
+        "duration": 7.0,
+        "text": "and positive 2, an easy number to try is 0, if we did that we would have 2 times negative"
+      },
+      {
+        "start": 389.6,
+        "duration": 7.0,
+        "text": "2, 0 minus 2, over 0 plus 3, so this is going to be a negative, this is negative 4 over"
+      },
+      {
+        "start": 397.5,
+        "duration": 5.5,
+        "text": "3, which is negative, really all we care about is the sign, so that interval does not satisfy"
+      },
+      {
+        "start": 403.0,
+        "duration": 7.0,
+        "text": "our conditions, so now let's think about x being greater than 2, we could try say x"
+      },
+      {
+        "start": 410.0,
+        "duration": 7.5,
+        "text": "equals 3, and over here let me be clear, we tried, this was x equals 0 that I tried here,"
+      },
+      {
+        "start": 417.4,
+        "duration": 7.5,
+        "text": "but when we try x equals 3, we get 2 times 3 minus 2, which is 1, over 3 plus 3, over"
+      },
+      {
+        "start": 424.9,
+        "duration": 6.0,
+        "text": "6, which is indeed positive, so that satisfies it, so what's our solution set? x can be less"
+      },
+      {
+        "start": 430.9,
+        "duration": 7.0,
+        "text": "than negative 3, and then x can also be greater than or equal to 2, because at 2 the numerator"
+      },
+      {
+        "start": 438.9,
+        "duration": 5.0,
+        "text": "is equal to 0, it's in our domain, and we're saying greater than or equal to 0, so we can"
+      },
+      {
+        "start": 443.9,
+        "duration": 7.0,
+        "text": "also say x is greater than or equal to 2, now we can write this in, sometimes people"
+      },
+      {
+        "start": 450.9,
+        "duration": 7.0,
+        "text": "would call it set notation, we could go from negative infinity to negative 3, we're not"
+      },
+      {
+        "start": 457.9,
+        "duration": 6.0,
+        "text": "including the negative 3, because it's not in our domain, and union, so we're combining"
+      },
+      {
+        "start": 463.9,
+        "duration": 5.0,
+        "text": "these sets, this is all the solution set, we can start, or we can start it to include"
+      },
+      {
+        "start": 468.9,
+        "duration": 7.0,
+        "text": "to, so we put our brackets here, all the way to positive infinity, and we are done."
+      }
+    ],
+    "full_text": "Alright, the goal of this video is try to find the solution set to this inequality right over here, and like always pause this video, have a go at it before we do this together. Alright, what I want to do is rewrite this algebraically, so I just have a zero on the other side, and then I'm going to be able to test the expression that I have on the other side, that's not the zero side, to think about what intervals is it greater than zero? And to figure that out, I'll think about where do we have non-removable discontinuities, and where is that numerator going to be equal to zero, and those might be places of sign changes. So let's get to it, there's going to be a little bit of algebra here, so let me bring all of this business over to the left hand side, so I could rewrite it as x squared plus 3x minus 10 over x plus 3, and then minus x squared minus 4 over x plus 2. Now let me actually, before, and this is all going to be of course greater than or equal to zero, and I'll always see if I can actually simplify this a little bit before I do a lot of the hairy algebra. This expression right over here is x plus 2 times x minus 2, and so we might say we have an x plus 2 in the numerator, we have an x plus 2 in the denominator, I can cancel those things out, but we have to be careful, because this implies that we have a removable discontinuity at x equals negative 2, so that's a restriction on our domain, so now we have to add that, so x cannot equal negative 2, and so let me rewrite what we have going on here, we have x squared plus 3x minus 10 over x plus 3, and I'm going to, so I could just write minus x minus 2, I could just write it that way, is greater than or equal to zero and have our restriction to our domain, but I'm just for the sake of not using up all my screen real estate, I'm going to go forward one more step, and have a common denominator, I could rewrite x minus 2 as x minus 2 times x plus 3 over x plus 3, all of that is greater than or equal to zero with the restriction that x cannot be equal to negative 2, why did I do that just now, well I want to add all of this together and turn it into just one big rational expression, and so I can rewrite all of this as, let me make a big line here, so my denominator is now x plus 3, my numerator is x squared plus 3x minus 10, and let me actually rewrite all of this in a new color right over here, and I could write, this is going to be, I'll just do this over here, x times x is x squared, x times 3 is plus 3x minus 2x, and then negative 2 times 3 is minus 6, and then, so this is going to be 3x minus 2x is 1x, so that is all x, and then we are subtracting that, so this is going to be negative x squared, and then we have plus x, but we're subtracting it, so minus x, and then we're subtracting a negative 6, and so then we have plus 6 there, and so that gets us to, if we were to simplify this whole numerator, we are making progress, oh let's not forget, this needs to be greater than or equal to 0, and x cannot be, come here, and x cannot be equal to negative 2, so we have an x squared minus x squared, those cancel out, and so I'm left with 3x minus x, which is 2x, and then negative 10 plus 6, which is minus 4, all of that over x plus 3x plus 3, this is simplifying nicely, is greater than or equal to 0, for x does not equal negative 2, and I'm actually going to factor this top even a little bit more, because I want to figure out when the numerator is equal to 0, so let me just do that over here, so we get 2 times x minus 2 over x plus 3 is greater than or equal to 0, for all x's except 4x does not equal negative 2, and of course it also has a discontinuity here at x equals negative 3, and that's going to be an interesting point. What we want to think about is what are all the points where we might have a sign change, and those are going to be where the numerator is equal to 0, or where are we have a non-removable discontinuity, which x equals negative 3 is, so the points of interest are x equals 2, x equals 2, and x equals negative 3, x equals 2 makes the numerator 0, x equals negative 3 makes the denominator equal to 0. Now, what we want to do is test the intervals to the left in between and to the right of these numbers, or let me start with x is less than negative 3, so let's imagine x equals negative 4, let's plug that in into this expression right over here, we would get 2 times negative 4 times negative 4 minus 2 is negative 6, all of that over negative 4 plus 3, which is negative 1, so this is going to be negative 12 divided by negative 1 equals positive 12. What we really care about is the sign, this is positive, this is positive, so it is greater than 0, so this interval x is less than negative 3 does satisfy our conditions. Now, we can't get 2 x equals negative 3, even though this is greater than or equals, because at x equals negative 3, our denominator becomes 0, this becomes undefined, x equals negative 3 is not part of our domain. Now, let's try the interval in between these 2 numbers, maybe I'll do that in a salmon color, so let's think about between negative 3 and positive 2, an easy number to try is 0, if we did that we would have 2 times negative 2, 0 minus 2, over 0 plus 3, so this is going to be a negative, this is negative 4 over 3, which is negative, really all we care about is the sign, so that interval does not satisfy our conditions, so now let's think about x being greater than 2, we could try say x equals 3, and over here let me be clear, we tried, this was x equals 0 that I tried here, but when we try x equals 3, we get 2 times 3 minus 2, which is 1, over 3 plus 3, over 6, which is indeed positive, so that satisfies it, so what's our solution set? x can be less than negative 3, and then x can also be greater than or equal to 2, because at 2 the numerator is equal to 0, it's in our domain, and we're saying greater than or equal to 0, so we can also say x is greater than or equal to 2, now we can write this in, sometimes people would call it set notation, we could go from negative infinity to negative 3, we're not including the negative 3, because it's not in our domain, and union, so we're combining these sets, this is all the solution set, we can start, or we can start it to include to, so we put our brackets here, all the way to positive infinity, and we are done."
+  }
+}

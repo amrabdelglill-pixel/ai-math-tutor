@@ -1,0 +1,2584 @@
+{
+  "video_id": "GdDrYgXzBew",
+  "video_title": "Conservation of energy (part 1) | AP Physics | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 1043.0,
+  "view_count": 7043,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.6,
+        "text": "We have a system of two blocks connected via a string that goes over a pulley and one"
+      },
+      {
+        "start": 4.6,
+        "duration": 1.6,
+        "text": "of the blocks is connected to a spring."
+      },
+      {
+        "start": 6.2,
+        "duration": 2.0,
+        "text": "Imagine the spring is relaxed right now."
+      },
+      {
+        "start": 8.2,
+        "duration": 4.4,
+        "text": "What would happen if we were to release the block or gravity pulls on it and as a result,"
+      },
+      {
+        "start": 12.6,
+        "duration": 4.6,
+        "text": "the spring will now get stretched to some extent and then the blocks will again come to a"
+      },
+      {
+        "start": 17.2,
+        "duration": 3.4,
+        "text": "rest and then the spring might pull it back."
+      },
+      {
+        "start": 20.6,
+        "duration": 1.0,
+        "text": "But let's not worry about that."
+      },
+      {
+        "start": 21.6,
+        "duration": 3.6,
+        "text": "Let's consider this to be our final state and this is our initial state."
+      },
+      {
+        "start": 25.1,
+        "duration": 4.8,
+        "text": "So the question now is what happens or how does the mechanical energy of the system change"
+      },
+      {
+        "start": 30.0,
+        "duration": 3.3,
+        "text": "when we go from this initial to final state."
+      },
+      {
+        "start": 33.2,
+        "duration": 2.5,
+        "text": "But which system are we dealing with?"
+      },
+      {
+        "start": 35.7,
+        "duration": 2.1,
+        "text": "We're going to consider two scenarios."
+      },
+      {
+        "start": 37.8,
+        "duration": 4.4,
+        "text": "In the first scenario, we're going to consider the two block spring system."
+      },
+      {
+        "start": 42.2,
+        "duration": 1.8,
+        "text": "So how does its mechanical energy change?"
+      },
+      {
+        "start": 44.0,
+        "duration": 4.8,
+        "text": "And in the second scenario, we're going to consider the two blocks spring and the earth"
+      },
+      {
+        "start": 48.8,
+        "duration": 1.0,
+        "text": "as our system."
+      },
+      {
+        "start": 49.8,
+        "duration": 2.6,
+        "text": "So how does the mechanical energy of this system change?"
+      },
+      {
+        "start": 52.4,
+        "duration": 2.2,
+        "text": "That's what we're trying to figure out in this video."
+      },
+      {
+        "start": 54.7,
+        "duration": 1.2,
+        "text": "So let's begin."
+      },
+      {
+        "start": 55.9,
+        "duration": 1.2,
+        "text": "How do we do this?"
+      },
+      {
+        "start": 57.3,
+        "duration": 3.4,
+        "text": "Well, since we are interested in mechanical energy, let's recall that mechanical energy"
+      },
+      {
+        "start": 60.8,
+        "duration": 3.8,
+        "text": "is the sum of the kinetic energy of all the particles of the system,"
+      },
+      {
+        "start": 64.6,
+        "duration": 3.0,
+        "text": "plus the potential energy of the system."
+      },
+      {
+        "start": 68.5,
+        "duration": 3.1,
+        "text": "Okay, but how do you predict how the mechanical energy changes?"
+      },
+      {
+        "start": 72.3,
+        "duration": 3.8,
+        "text": "Well, that depends upon the work done on the system."
+      },
+      {
+        "start": 76.1,
+        "duration": 5.3,
+        "text": "If a positive work is done on the system, then it increases the mechanical energy of the system."
+      },
+      {
+        "start": 81.4,
+        "duration": 2.3,
+        "text": "But if there's a negative work done on the system,"
+      },
+      {
+        "start": 83.7,
+        "duration": 3.4,
+        "text": "it reduces the mechanical energy of the system."
+      },
+      {
+        "start": 87.2,
+        "duration": 4.6,
+        "text": "So all we now have to think about is what is the work done on these two systems."
+      },
+      {
+        "start": 92.4,
+        "duration": 4.0,
+        "text": "But the problem is there are a ton of forces over here."
+      },
+      {
+        "start": 96.4,
+        "duration": 5.0,
+        "text": "We have spring force, we have frictional force, we have the tension forces,"
+      },
+      {
+        "start": 101.4,
+        "duration": 4.6,
+        "text": "we have the force of gravity, and then some of these forces are part of our system."
+      },
+      {
+        "start": 106.0,
+        "duration": 3.0,
+        "text": "Others are not, and some are conservative forces."
+      },
+      {
+        "start": 108.9,
+        "duration": 2.1,
+        "text": "Others are non-conservative forces."
+      },
+      {
+        "start": 111.1,
+        "duration": 3.1,
+        "text": "So the question is, how do we tackle all of this?"
+      },
+      {
+        "start": 114.2,
+        "duration": 3.9,
+        "text": "So what we're going to do is let's look at a much simpler case,"
+      },
+      {
+        "start": 118.1,
+        "duration": 3.0,
+        "text": "so we can build a solid intuition, and then we'll come back."
+      },
+      {
+        "start": 121.2,
+        "duration": 4.7,
+        "text": "So the simplest case we'll start with is, we're just going to drop a block from some height,"
+      },
+      {
+        "start": 125.9,
+        "duration": 2.5,
+        "text": "and we know what's going to happen, it's just going to fall down."
+      },
+      {
+        "start": 128.4,
+        "duration": 4.7,
+        "text": "So let's consider this as our initial state and the final state to be just before the block"
+      },
+      {
+        "start": 133.1,
+        "duration": 5.2,
+        "text": "hitting the ground. What if we consider just the block as our system?"
+      },
+      {
+        "start": 138.4,
+        "duration": 5.6,
+        "text": "The question now is, what happens to the mechanical energy of this system as it goes from here to here?"
+      },
+      {
+        "start": 144.8,
+        "duration": 3.3,
+        "text": "Well, whenever a system consists of just one particle,"
+      },
+      {
+        "start": 148.0,
+        "duration": 3.9,
+        "text": "mechanical energy is just the kinetic energy, because for potential energy,"
+      },
+      {
+        "start": 152.0,
+        "duration": 1.6,
+        "text": "you need at least two particles interacting."
+      },
+      {
+        "start": 153.6,
+        "duration": 3.3,
+        "text": "You have only one particle, we're going to model this block as a single particle."
+      },
+      {
+        "start": 156.8,
+        "duration": 2.5,
+        "text": "If you have only one particle, this is only kinetic energy."
+      },
+      {
+        "start": 159.3,
+        "duration": 3.5,
+        "text": "Okay, so the question is, what happens to the kinetic energy as the block goes from here to here?"
+      },
+      {
+        "start": 163.5,
+        "duration": 2.7,
+        "text": "Well, we know the answer to that, it's going to increase, right?"
+      },
+      {
+        "start": 166.2,
+        "duration": 3.7,
+        "text": "But we want to be able to answer this by using the idea of work done,"
+      },
+      {
+        "start": 169.9,
+        "duration": 3.4,
+        "text": "because that is something that can be applied to even the most complicated systems."
+      },
+      {
+        "start": 173.3,
+        "duration": 4.2,
+        "text": "So let's ask ourselves, what is the work done on this system?"
+      },
+      {
+        "start": 178.0,
+        "duration": 2.6,
+        "text": "Well, which are the forces acting on our system?"
+      },
+      {
+        "start": 180.6,
+        "duration": 2.6,
+        "text": "There's only a force of gravity acting on the system."
+      },
+      {
+        "start": 183.7,
+        "duration": 4.6,
+        "text": "So gravitational force will change the mechanical energy of our system."
+      },
+      {
+        "start": 189.0,
+        "duration": 1.7,
+        "text": "Is it a positive or a negative work?"
+      },
+      {
+        "start": 191.2,
+        "duration": 2.3,
+        "text": "Well, the force of gravity is downwards,"
+      },
+      {
+        "start": 193.6,
+        "duration": 1.8,
+        "text": "this displacement is also downwards."
+      },
+      {
+        "start": 195.3,
+        "duration": 6.9,
+        "text": "So the work done by gravity is positive, and therefore it increases the mechanical energy of the system."
+      },
+      {
+        "start": 202.2,
+        "duration": 4.2,
+        "text": "And that's how we'll conclude the mechanical energy increases."
+      },
+      {
+        "start": 206.4,
+        "duration": 2.8,
+        "text": "And of course, this makes sense, because we already know,"
+      },
+      {
+        "start": 209.2,
+        "duration": 2.3,
+        "text": "we already expect the kinetic energy to increase."
+      },
+      {
+        "start": 211.6,
+        "duration": 1.1,
+        "text": "So it makes sense, right?"
+      },
+      {
+        "start": 213.3,
+        "duration": 2.9,
+        "text": "But what if the block was thrown upwards?"
+      },
+      {
+        "start": 216.2,
+        "duration": 4.0,
+        "text": "Well, now the force of gravity is still downwards, but the displacement is upwards."
+      },
+      {
+        "start": 220.2,
+        "duration": 1.8,
+        "text": "Now, gravity does negative work."
+      },
+      {
+        "start": 222.0,
+        "duration": 5.8,
+        "text": "This negative work done on our system, and therefore the mechanical energy reduces."
+      },
+      {
+        "start": 227.8,
+        "duration": 1.7,
+        "text": "And again, that's what we would expect, right?"
+      },
+      {
+        "start": 229.5,
+        "duration": 2.0,
+        "text": "As it goes up, the kinetic energy drops."
+      },
+      {
+        "start": 232.1,
+        "duration": 2.6,
+        "text": "So that's how we, by knowing the work done on the system,"
+      },
+      {
+        "start": 234.8,
+        "duration": 2.8,
+        "text": "we can predict what happens to the mechanical energy."
+      },
+      {
+        "start": 237.6,
+        "duration": 3.0,
+        "text": "Okay, now let's consider the exact same case, but this time,"
+      },
+      {
+        "start": 240.5,
+        "duration": 1.9,
+        "text": "let's consider the earth block system."
+      },
+      {
+        "start": 243.1,
+        "duration": 3.1,
+        "text": "What happens to its mechanical energy as we go from here to here?"
+      },
+      {
+        "start": 247.1,
+        "duration": 3.0,
+        "text": "Okay, this time, let me talk about mechanical energy,"
+      },
+      {
+        "start": 250.1,
+        "duration": 2.0,
+        "text": "we have to consider the kinetic energy of the block."
+      },
+      {
+        "start": 252.9,
+        "duration": 1.4,
+        "text": "And the kinetic energy of the earth,"
+      },
+      {
+        "start": 254.8,
+        "duration": 2.2,
+        "text": "well, but we're going to assume the earth is not moving."
+      },
+      {
+        "start": 257.0,
+        "duration": 1.4,
+        "text": "So it's just the kinetic energy of the block."
+      },
+      {
+        "start": 259.0,
+        "duration": 4.4,
+        "text": "And we also now have to consider the potential energy of the earth block system,"
+      },
+      {
+        "start": 263.4,
+        "duration": 3.6,
+        "text": "because they are interacting using a gravitational force,"
+      },
+      {
+        "start": 267.0,
+        "duration": 1.4,
+        "text": "which is a conservative force."
+      },
+      {
+        "start": 268.4,
+        "duration": 2.5,
+        "text": "Whenever particles are interacting with the conservative force,"
+      },
+      {
+        "start": 270.8,
+        "duration": 2.1,
+        "text": "we have a potential energy assigned to it."
+      },
+      {
+        "start": 273.6,
+        "duration": 6.4,
+        "text": "So now, the mechanical energy is the sum of kinetic energy plus gravitational potential energy."
+      },
+      {
+        "start": 280.9,
+        "duration": 2.9,
+        "text": "And so when gravity does work on this block,"
+      },
+      {
+        "start": 284.8,
+        "duration": 2.6,
+        "text": "when it increases the kinetic energy of the block,"
+      },
+      {
+        "start": 288.1,
+        "duration": 4.1,
+        "text": "the gravitational potential energy reduces by the exact same amount,"
+      },
+      {
+        "start": 292.2,
+        "duration": 3.5,
+        "text": "in such a way that the mechanical energy stays the same."
+      },
+      {
+        "start": 295.7,
+        "duration": 3.6,
+        "text": "Similarly, if the gravity was to reduce the kinetic energy,"
+      },
+      {
+        "start": 299.3,
+        "duration": 3.4,
+        "text": "the gravitational potential energy would increase by the same amount."
+      },
+      {
+        "start": 302.8,
+        "duration": 2.5,
+        "text": "In other words, since gravity is a conservative force,"
+      },
+      {
+        "start": 305.3,
+        "duration": 4.6,
+        "text": "it does not affect the mechanical energy of this system."
+      },
+      {
+        "start": 310.7,
+        "duration": 4.2,
+        "text": "And therefore, we don't have to worry about the for work done by gravity anymore,"
+      },
+      {
+        "start": 314.9,
+        "duration": 2.6,
+        "text": "because it doesn't affect the mechanical energy."
+      },
+      {
+        "start": 318.2,
+        "duration": 2.3,
+        "text": "Is there any other force acting on our system?"
+      },
+      {
+        "start": 320.5,
+        "duration": 1.5,
+        "text": "No, gravity is the only force."
+      },
+      {
+        "start": 322.0,
+        "duration": 1.5,
+        "text": "We're ignoring add-in, everything else, okay?"
+      },
+      {
+        "start": 324.2,
+        "duration": 3.2,
+        "text": "Since there are no other forces, there's no work done on our system."
+      },
+      {
+        "start": 327.4,
+        "duration": 5.5,
+        "text": "And so the mechanical energy of this system, the earth block system, stays unchanged."
+      },
+      {
+        "start": 333.5,
+        "duration": 4.1,
+        "text": "And so what we see right in front of our eyes, even for this straightforward looking situation,"
+      },
+      {
+        "start": 337.6,
+        "duration": 3.0,
+        "text": "is that depending on which system we choose,"
+      },
+      {
+        "start": 341.4,
+        "duration": 2.9,
+        "text": "the mechanical energy can change differently."
+      },
+      {
+        "start": 344.3,
+        "duration": 4.6,
+        "text": "It can increase, in some case, it can decrease, or it can stay unchanged in some other cases."
+      },
+      {
+        "start": 348.8,
+        "duration": 4.0,
+        "text": "So we have to be super careful about the system that we are dealing with."
+      },
+      {
+        "start": 353.4,
+        "duration": 3.5,
+        "text": "All right, let's make things a little bit more interesting."
+      },
+      {
+        "start": 356.9,
+        "duration": 2.2,
+        "text": "What if this time we have a spring here?"
+      },
+      {
+        "start": 359.8,
+        "duration": 4.9,
+        "text": "Then when we drop the block, well, it's going to hit the spring, and it's going to get compressed."
+      },
+      {
+        "start": 364.7,
+        "duration": 1.5,
+        "text": "The block will come to a stop."
+      },
+      {
+        "start": 366.2,
+        "duration": 3.5,
+        "text": "And then after that, the spring might uncompress, and the block might fly away,"
+      },
+      {
+        "start": 369.7,
+        "duration": 1.6,
+        "text": "but we're not going to consider that."
+      },
+      {
+        "start": 371.3,
+        "duration": 2.0,
+        "text": "We only consider this as a initial state,"
+      },
+      {
+        "start": 373.3,
+        "duration": 3.1,
+        "text": "and when the block comes over here to arrest, compressing the spring,"
+      },
+      {
+        "start": 376.4,
+        "duration": 1.8,
+        "text": "that will be our final state, okay?"
+      },
+      {
+        "start": 378.9,
+        "duration": 2.1,
+        "text": "So again, let's analyze the mechanical energy."
+      },
+      {
+        "start": 381.5,
+        "duration": 3.1,
+        "text": "In the first case, let's consider the earth block system."
+      },
+      {
+        "start": 384.6,
+        "duration": 3.8,
+        "text": "What happens to the mechanical energy of the earth block system?"
+      },
+      {
+        "start": 389.2,
+        "duration": 5.1,
+        "text": "Well, we already know this time, mechanical energy will consist of kinetic energy of the block,"
+      },
+      {
+        "start": 394.4,
+        "duration": 4.7,
+        "text": "and the gravitational potential energy of the earth block system."
+      },
+      {
+        "start": 399.1,
+        "duration": 5.8,
+        "text": "Okay. So, are there any forces that are doing work to change the mechanical energy?"
+      },
+      {
+        "start": 404.8,
+        "duration": 2.1,
+        "text": "Well, we don't have to worry about gravity anymore,"
+      },
+      {
+        "start": 406.9,
+        "duration": 2.3,
+        "text": "because gravity does not affect the mechanical energy."
+      },
+      {
+        "start": 409.2,
+        "duration": 5.0,
+        "text": "Another way to think about it is the effect of gravity is already accounted for"
+      },
+      {
+        "start": 414.2,
+        "duration": 1.7,
+        "text": "when we use potential energy."
+      },
+      {
+        "start": 415.9,
+        "duration": 1.6,
+        "text": "So we don't have to worry about gravity."
+      },
+      {
+        "start": 417.6,
+        "duration": 2.6,
+        "text": "Is there any other force that we're dealing with?"
+      },
+      {
+        "start": 420.1,
+        "duration": 3.7,
+        "text": "Yes, there is a spring force that's acting over here."
+      },
+      {
+        "start": 424.4,
+        "duration": 4.2,
+        "text": "But wait, spring force is also a conservative force, right?"
+      },
+      {
+        "start": 429.6,
+        "duration": 3.4,
+        "text": "So does it affect the mechanical energy of our system?"
+      },
+      {
+        "start": 433.6,
+        "duration": 2.3,
+        "text": "This is a great idea to pause the video and think about this."
+      },
+      {
+        "start": 438.0,
+        "duration": 0.4,
+        "text": "All right."
+      },
+      {
+        "start": 439.1,
+        "duration": 5.7,
+        "text": "So although spring force is a conservative force, what's important is that it's not part of my system."
+      },
+      {
+        "start": 445.6,
+        "duration": 3.2,
+        "text": "If the force is not part of my system, it's an external force."
+      },
+      {
+        "start": 449.5,
+        "duration": 3.9,
+        "text": "I don't care whether an external force is a conservative force or not."
+      },
+      {
+        "start": 453.4,
+        "duration": 4.6,
+        "text": "If it's doing work on my system, it's going to change the mechanical energy of the system."
+      },
+      {
+        "start": 458.0,
+        "duration": 1.1,
+        "text": "That's important."
+      },
+      {
+        "start": 459.1,
+        "duration": 1.8,
+        "text": "So spring force is an external force."
+      },
+      {
+        "start": 460.9,
+        "duration": 4.3,
+        "text": "It's doing work, and therefore it will change the mechanical energy of our system."
+      },
+      {
+        "start": 465.7,
+        "duration": 3.5,
+        "text": "So the question is whether the work in the spring force is positive or negative?"
+      },
+      {
+        "start": 469.9,
+        "duration": 4.0,
+        "text": "Well, the spring is getting compressed down, so it will try to uncompressed for the spring"
+      },
+      {
+        "start": 473.9,
+        "duration": 4.5,
+        "text": "force is upwards, but of course the displacement is downwards because the block was moving downwards."
+      },
+      {
+        "start": 478.4,
+        "duration": 2.2,
+        "text": "So the work done by the spring force is negative."
+      },
+      {
+        "start": 481.2,
+        "duration": 7.0,
+        "text": "Therefore, it will reduce the mechanical energy of our system because the work done was negative."
+      },
+      {
+        "start": 488.8,
+        "duration": 1.0,
+        "text": "And we can do a sense check."
+      },
+      {
+        "start": 489.9,
+        "duration": 2.9,
+        "text": "Let's peek into the system and see if this makes sense."
+      },
+      {
+        "start": 492.8,
+        "duration": 3.3,
+        "text": "If we peek into the system, what happens to the kinetic energy of the block as it goes from"
+      },
+      {
+        "start": 496.0,
+        "duration": 0.7,
+        "text": "here to here?"
+      },
+      {
+        "start": 496.8,
+        "duration": 1.5,
+        "text": "Well, it was zero here."
+      },
+      {
+        "start": 498.3,
+        "duration": 2.1,
+        "text": "It comes to the rest again, so it's zero here as well."
+      },
+      {
+        "start": 501.1,
+        "duration": 1.1,
+        "text": "So that this doesn't change."
+      },
+      {
+        "start": 503.0,
+        "duration": 3.8,
+        "text": "But what happens to the gravitational potential energy as you go from here to here?"
+      },
+      {
+        "start": 506.8,
+        "duration": 1.9,
+        "text": "Ooh, that reduces, right?"
+      },
+      {
+        "start": 508.7,
+        "duration": 1.6,
+        "text": "Because the height has reduced."
+      },
+      {
+        "start": 510.3,
+        "duration": 2.0,
+        "text": "So look, kinetic energy remains the same."
+      },
+      {
+        "start": 512.3,
+        "duration": 4.2,
+        "text": "Gravitational potential energy reduced, which means the mechanical energy must have reduced."
+      },
+      {
+        "start": 516.5,
+        "duration": 1.7,
+        "text": "It's exactly what we got over here."
+      },
+      {
+        "start": 518.2,
+        "duration": 1.7,
+        "text": "And where did that energy go?"
+      },
+      {
+        "start": 519.9,
+        "duration": 4.2,
+        "text": "Well, it got stored in the spring, which is not a part of our system."
+      },
+      {
+        "start": 524.1,
+        "duration": 4.9,
+        "text": "So the energy has gone out of our system, and so the mechanical energy has reduced."
+      },
+      {
+        "start": 529.7,
+        "duration": 5.7,
+        "text": "OK, same scenario, but this time, let's consider the Earth block spring system."
+      },
+      {
+        "start": 535.4,
+        "duration": 3.4,
+        "text": "What happens to its mechanical energy as the block goes from here to here?"
+      },
+      {
+        "start": 538.8,
+        "duration": 2.1,
+        "text": "I need to pause and think about this yourself."
+      },
+      {
+        "start": 542.0,
+        "duration": 3.8,
+        "text": "OK, this time, what will our mechanical energy consist of?"
+      },
+      {
+        "start": 545.8,
+        "duration": 1.8,
+        "text": "You'll consider the kinetic energies."
+      },
+      {
+        "start": 548.5,
+        "duration": 3.4,
+        "text": "Then it will have the gravitational potential energy."
+      },
+      {
+        "start": 552.5,
+        "duration": 4.5,
+        "text": "And it'll also consist of the spring potential energy because now spring is part of our system."
+      },
+      {
+        "start": 557.1,
+        "duration": 3.1,
+        "text": "So our mechanical energy will have three parts over here."
+      },
+      {
+        "start": 560.8,
+        "duration": 2.6,
+        "text": "Spring forces also now a part of our system."
+      },
+      {
+        "start": 563.5,
+        "duration": 4.2,
+        "text": "And it's also a conservative force, so it is not going to affect the mechanical energy of our"
+      },
+      {
+        "start": 567.7,
+        "duration": 4.0,
+        "text": "system. It's being taken care of over here."
+      },
+      {
+        "start": 571.7,
+        "duration": 2.6,
+        "text": "So we don't have to worry about the work done by spring anymore."
+      },
+      {
+        "start": 574.3,
+        "duration": 3.4,
+        "text": "Is there any other force that's acting on it and doing work on it?"
+      },
+      {
+        "start": 577.6,
+        "duration": 2.6,
+        "text": "No, no, there are forces that are acting and doing work on it."
+      },
+      {
+        "start": 580.3,
+        "duration": 5.2,
+        "text": "So therefore, there is nothing that can change the mechanical energy as it goes from here to here."
+      },
+      {
+        "start": 585.5,
+        "duration": 3.9,
+        "text": "So the mechanical energy of this system stays unchanged."
+      },
+      {
+        "start": 590.0,
+        "duration": 3.8,
+        "text": "And again, if we peek into the system, we can get insights of what's happening."
+      },
+      {
+        "start": 593.7,
+        "duration": 2.5,
+        "text": "The kinetic energy is zero here and zero here as well."
+      },
+      {
+        "start": 596.2,
+        "duration": 3.8,
+        "text": "But it's the gravitational potential energy that was high over here."
+      },
+      {
+        "start": 600.0,
+        "duration": 4.9,
+        "text": "And as the block fell down, that got transformed into spring potential energy."
+      },
+      {
+        "start": 604.8,
+        "duration": 2.8,
+        "text": "But the total mechanical energy stayed the same."
+      },
+      {
+        "start": 607.6,
+        "duration": 2.0,
+        "text": "But of course, we didn't have to peek inside."
+      },
+      {
+        "start": 609.6,
+        "duration": 4.4,
+        "text": "We can just look from the outside and say that, hey, no work is being done on the system."
+      },
+      {
+        "start": 614.1,
+        "duration": 3.1,
+        "text": "Therefore, the mechanical energy stays unchanged."
+      },
+      {
+        "start": 617.2,
+        "duration": 2.6,
+        "text": "Okay, last question for the same scenario."
+      },
+      {
+        "start": 619.8,
+        "duration": 1.9,
+        "text": "Consider the spring block system."
+      },
+      {
+        "start": 622.4,
+        "duration": 2.7,
+        "text": "Pause and think about what happens to the mechanical energy of this system."
+      },
+      {
+        "start": 626.0,
+        "duration": 7.1,
+        "text": "All right, so this time, the mechanical energy consists of the kinetic energy and the spring potential energy."
+      },
+      {
+        "start": 633.8,
+        "duration": 2.5,
+        "text": "So the spring force is part of our system."
+      },
+      {
+        "start": 636.3,
+        "duration": 3.5,
+        "text": "And so since it's conservative, it's going to conserve our mechanical energy."
+      },
+      {
+        "start": 639.8,
+        "duration": 1.9,
+        "text": "So I don't have to worry about the spring force."
+      },
+      {
+        "start": 641.7,
+        "duration": 3.2,
+        "text": "But this time, gravity is no longer a part of our system."
+      },
+      {
+        "start": 644.9,
+        "duration": 4.1,
+        "text": "Yes, it's a conservative force, but I don't care whether it's a conservative force or not."
+      },
+      {
+        "start": 649.0,
+        "duration": 1.4,
+        "text": "It's an external force now."
+      },
+      {
+        "start": 650.4,
+        "duration": 1.6,
+        "text": "It's not a part of our system."
+      },
+      {
+        "start": 652.0,
+        "duration": 1.6,
+        "text": "Therefore, it is doing work."
+      },
+      {
+        "start": 653.6,
+        "duration": 3.0,
+        "text": "If it does work on my system, it is doing work on my system."
+      },
+      {
+        "start": 656.5,
+        "duration": 3.1,
+        "text": "It will change the mechanical energy of our system, this system."
+      },
+      {
+        "start": 660.2,
+        "duration": 2.1,
+        "text": "So is it doing positive and negative work?"
+      },
+      {
+        "start": 662.3,
+        "duration": 1.6,
+        "text": "Well, the force of gravity is downwards."
+      },
+      {
+        "start": 663.9,
+        "duration": 1.4,
+        "text": "The block is falling down."
+      },
+      {
+        "start": 665.2,
+        "duration": 1.5,
+        "text": "So it's doing positive work."
+      },
+      {
+        "start": 666.8,
+        "duration": 3.7,
+        "text": "So the mechanical energy of this system increases."
+      },
+      {
+        "start": 671.1,
+        "duration": 2.6,
+        "text": "Okay, final challenge."
+      },
+      {
+        "start": 673.6,
+        "duration": 0.6,
+        "text": "Are you ready?"
+      },
+      {
+        "start": 674.8,
+        "duration": 3.2,
+        "text": "Let's consider the exact same situation as before."
+      },
+      {
+        "start": 678.0,
+        "duration": 2.8,
+        "text": "But this time, let's consider the air as well."
+      },
+      {
+        "start": 680.8,
+        "duration": 1.8,
+        "text": "We're not going to neglect it anymore."
+      },
+      {
+        "start": 682.6,
+        "duration": 2.4,
+        "text": "So we're going to consider the drag force as well."
+      },
+      {
+        "start": 685.9,
+        "duration": 1.9,
+        "text": "So the question for you would be,"
+      },
+      {
+        "start": 688.8,
+        "duration": 4.6,
+        "text": "what will happen to the mechanical energy now of the block Earth spring system?"
+      },
+      {
+        "start": 694.0,
+        "duration": 5.8,
+        "text": "Okay, so our mechanical energy now consists of the kinetic energy plus the gravitational"
+      },
+      {
+        "start": 699.7,
+        "duration": 2.6,
+        "text": "potential energy plus the spring potential energy."
+      },
+      {
+        "start": 702.3,
+        "duration": 2.8,
+        "text": "The force of gravity and the force of spring are part of our system."
+      },
+      {
+        "start": 705.1,
+        "duration": 3.0,
+        "text": "Their conservative forces, we don't have to worry about them."
+      },
+      {
+        "start": 708.0,
+        "duration": 2.1,
+        "text": "They won't change the mechanical energy."
+      },
+      {
+        "start": 710.1,
+        "duration": 1.8,
+        "text": "Is there any other force acting?"
+      },
+      {
+        "start": 711.9,
+        "duration": 2.3,
+        "text": "Yes, there is a drag force acting."
+      },
+      {
+        "start": 714.2,
+        "duration": 3.8,
+        "text": "Since the block is falling down, the drag force is upwards."
+      },
+      {
+        "start": 718.0,
+        "duration": 4.1,
+        "text": "This is an external force acting on our system."
+      },
+      {
+        "start": 722.1,
+        "duration": 4.6,
+        "text": "It's going to change the mechanical energy of our system."
+      },
+      {
+        "start": 726.8,
+        "duration": 2.6,
+        "text": "So is it doing a positive and negative work?"
+      },
+      {
+        "start": 729.4,
+        "duration": 1.8,
+        "text": "Well, drag force is upwards."
+      },
+      {
+        "start": 731.2,
+        "duration": 1.1,
+        "text": "The block is falling down."
+      },
+      {
+        "start": 732.3,
+        "duration": 1.4,
+        "text": "It's doing negative work."
+      },
+      {
+        "start": 733.7,
+        "duration": 3.4,
+        "text": "So the mechanical energy of our system decreases."
+      },
+      {
+        "start": 738.5,
+        "duration": 1.9,
+        "text": "All right, your turn."
+      },
+      {
+        "start": 741.0,
+        "duration": 6.1,
+        "text": "What if we now consider the Earth blocks spring and air as our system?"
+      },
+      {
+        "start": 748.4,
+        "duration": 4.5,
+        "text": "What will happen to the mechanical energy of this system as we go from here to here?"
+      },
+      {
+        "start": 752.8,
+        "duration": 0.9,
+        "text": "Pause the video."
+      },
+      {
+        "start": 753.7,
+        "duration": 0.6,
+        "text": "Think about it."
+      },
+      {
+        "start": 755.1,
+        "duration": 4.8,
+        "text": "All right, just like before, our mechanical energy will consist of kinetic energy,"
+      },
+      {
+        "start": 759.9,
+        "duration": 2.6,
+        "text": "gravitational potential energy and spring potential energy."
+      },
+      {
+        "start": 762.4,
+        "duration": 2.6,
+        "text": "But what about drag force?"
+      },
+      {
+        "start": 765.1,
+        "duration": 2.4,
+        "text": "That's now a part of our system as well."
+      },
+      {
+        "start": 767.5,
+        "duration": 2.6,
+        "text": "So is there potential energy for that?"
+      },
+      {
+        "start": 770.0,
+        "duration": 4.3,
+        "text": "No, because drag force is a non-conservative force."
+      },
+      {
+        "start": 774.4,
+        "duration": 3.6,
+        "text": "So it does not conserve mechanical energy."
+      },
+      {
+        "start": 778.0,
+        "duration": 3.4,
+        "text": "There is no potential energy associated with it."
+      },
+      {
+        "start": 781.4,
+        "duration": 3.9,
+        "text": "So even now, the mechanical energy is just the same as before."
+      },
+      {
+        "start": 786.1,
+        "duration": 4.1,
+        "text": "And so even though drag force is a part of our system,"
+      },
+      {
+        "start": 790.2,
+        "duration": 3.2,
+        "text": "because it's a non-conservative force,"
+      },
+      {
+        "start": 793.4,
+        "duration": 2.9,
+        "text": "it will not conserve mechanical energy."
+      },
+      {
+        "start": 796.9,
+        "duration": 3.7,
+        "text": "So just like before, since it does negative work on our system,"
+      },
+      {
+        "start": 801.8,
+        "duration": 2.5,
+        "text": "the mechanical energy decreases."
+      },
+      {
+        "start": 805.3,
+        "duration": 4.9,
+        "text": "So when it comes to non-conservative forces, I don't care whether it's a part of my system or not,"
+      },
+      {
+        "start": 811.0,
+        "duration": 4.2,
+        "text": "they will do work and they will change the mechanical energy of the system."
+      },
+      {
+        "start": 815.8,
+        "duration": 1.6,
+        "text": "Okay, last question."
+      },
+      {
+        "start": 818.4,
+        "duration": 3.0,
+        "text": "What if you consider the system of just the block and the spring this time?"
+      },
+      {
+        "start": 821.9,
+        "duration": 2.1,
+        "text": "What will happen to the mechanical energy?"
+      },
+      {
+        "start": 825.5,
+        "duration": 4.5,
+        "text": "All right, this time our mechanical energy consists of the kinetic energy"
+      },
+      {
+        "start": 830.0,
+        "duration": 2.3,
+        "text": "and the spring potential energy."
+      },
+      {
+        "start": 832.3,
+        "duration": 2.1,
+        "text": "So spring force, we don't have to worry about it."
+      },
+      {
+        "start": 834.4,
+        "duration": 1.4,
+        "text": "It will conserve the mechanical energy."
+      },
+      {
+        "start": 836.4,
+        "duration": 2.3,
+        "text": "But gravity is no longer a part of our system."
+      },
+      {
+        "start": 838.7,
+        "duration": 2.2,
+        "text": "It's an external force, so we have to worry about it."
+      },
+      {
+        "start": 841.4,
+        "duration": 1.9,
+        "text": "And so now there are two forces doing work."
+      },
+      {
+        "start": 843.3,
+        "duration": 2.2,
+        "text": "Gravity is doing positive work on our system."
+      },
+      {
+        "start": 846.0,
+        "duration": 4.8,
+        "text": "And we have the drag force doing negative work on the system, which one wins?"
+      },
+      {
+        "start": 851.4,
+        "duration": 3.9,
+        "text": "Well, the drag force is going to be smaller than the force of gravity."
+      },
+      {
+        "start": 855.3,
+        "duration": 3.8,
+        "text": "I mean, if that was not the case, the block wouldn't fall in the first place,"
+      },
+      {
+        "start": 859.1,
+        "duration": 2.1,
+        "text": "right? It wouldn't accelerate down in the first place."
+      },
+      {
+        "start": 861.2,
+        "duration": 4.3,
+        "text": "So the total work done on the system will still be positive."
+      },
+      {
+        "start": 865.5,
+        "duration": 3.7,
+        "text": "And so the mechanical energy of the system increases."
+      },
+      {
+        "start": 870.2,
+        "duration": 4.0,
+        "text": "Long story short, if you have conservative forces that are part of the system,"
+      },
+      {
+        "start": 874.8,
+        "duration": 3.2,
+        "text": "only they will conserve the mechanical energy."
+      },
+      {
+        "start": 878.0,
+        "duration": 6.3,
+        "text": "All other forces will change the mechanical energy, depending on whether to do positive or negative work."
+      },
+      {
+        "start": 884.8,
+        "duration": 4.1,
+        "text": "Okay, now that we have this clarity, let's go back to the original question."
+      },
+      {
+        "start": 888.9,
+        "duration": 3.7,
+        "text": "One last time pause the video and see if you can answer this question yourself now."
+      },
+      {
+        "start": 893.6,
+        "duration": 3.2,
+        "text": "All right, if you look at system one, what is the mechanical energy consist of?"
+      },
+      {
+        "start": 897.2,
+        "duration": 3.0,
+        "text": "Well, it will consist of the kinetic energies of the block A and B"
+      },
+      {
+        "start": 900.3,
+        "duration": 2.3,
+        "text": "and the spring potential energy."
+      },
+      {
+        "start": 902.6,
+        "duration": 2.1,
+        "text": "So the spring force is now part of our system."
+      },
+      {
+        "start": 904.7,
+        "duration": 1.1,
+        "text": "It's a conservative force."
+      },
+      {
+        "start": 905.8,
+        "duration": 1.5,
+        "text": "It's going to conserve the mechanical energy."
+      },
+      {
+        "start": 907.3,
+        "duration": 1.5,
+        "text": "I don't have to worry about that."
+      },
+      {
+        "start": 908.8,
+        "duration": 2.1,
+        "text": "Okay, what other forces are acting on this?"
+      },
+      {
+        "start": 910.9,
+        "duration": 2.3,
+        "text": "Well, there's a force of gravity that's going to do work."
+      },
+      {
+        "start": 913.2,
+        "duration": 1.1,
+        "text": "It's an external force."
+      },
+      {
+        "start": 914.4,
+        "duration": 2.8,
+        "text": "Even though it's a conservative force, it's an external force."
+      },
+      {
+        "start": 917.2,
+        "duration": 1.4,
+        "text": "It's not part of our system."
+      },
+      {
+        "start": 918.6,
+        "duration": 1.7,
+        "text": "So it's going to do work on our system."
+      },
+      {
+        "start": 920.4,
+        "duration": 2.7,
+        "text": "And because the surface is rough, there is going to be a frictional force."
+      },
+      {
+        "start": 923.1,
+        "duration": 4.4,
+        "text": "It's going to oppose the relative motion, the sliding motion over here."
+      },
+      {
+        "start": 927.5,
+        "duration": 1.7,
+        "text": "Are there any other forces acting?"
+      },
+      {
+        "start": 929.2,
+        "duration": 1.5,
+        "text": "Yes, there's force of tension."
+      },
+      {
+        "start": 931.5,
+        "duration": 1.2,
+        "text": "Are they doing work?"
+      },
+      {
+        "start": 932.7,
+        "duration": 0.7,
+        "text": "Yes, they are."
+      },
+      {
+        "start": 934.0,
+        "duration": 1.4,
+        "text": "So are they what?"
+      },
+      {
+        "start": 935.4,
+        "duration": 2.1,
+        "text": "Conservative or non-conservative forces?"
+      },
+      {
+        "start": 937.5,
+        "duration": 4.4,
+        "text": "Well, technically they are non-conservative because we don't have potential energy associated with them."
+      },
+      {
+        "start": 941.9,
+        "duration": 5.1,
+        "text": "But we don't have to worry about them because look, over here, the block B is moving down in the"
+      },
+      {
+        "start": 947.0,
+        "duration": 1.3,
+        "text": "opposite direction of tension force."
+      },
+      {
+        "start": 948.3,
+        "duration": 2.6,
+        "text": "So here, tension force is doing negative work."
+      },
+      {
+        "start": 950.8,
+        "duration": 3.6,
+        "text": "But here, the block is moving to the right in the same direction as the tension force."
+      },
+      {
+        "start": 954.4,
+        "duration": 1.6,
+        "text": "So it's doing positive work."
+      },
+      {
+        "start": 956.0,
+        "duration": 4.3,
+        "text": "But the displacement is exactly the same, assuming the string does not stretch."
+      },
+      {
+        "start": 960.4,
+        "duration": 4.4,
+        "text": "So the positive work done over here cancels out the negative work done over here."
+      },
+      {
+        "start": 964.8,
+        "duration": 2.3,
+        "text": "So the network done by the tension force is zero."
+      },
+      {
+        "start": 967.1,
+        "duration": 2.0,
+        "text": "So we don't have to worry about those forces at all."
+      },
+      {
+        "start": 969.7,
+        "duration": 3.7,
+        "text": "Which means we have gravity that's doing positive work on the system"
+      },
+      {
+        "start": 973.4,
+        "duration": 2.4,
+        "text": "and friction doing negative work on the system."
+      },
+      {
+        "start": 975.8,
+        "duration": 1.4,
+        "text": "So what ends up happening?"
+      },
+      {
+        "start": 977.2,
+        "duration": 4.6,
+        "text": "Well, we know eventually the spring gets stretched."
+      },
+      {
+        "start": 981.9,
+        "duration": 2.2,
+        "text": "So the spring potential energy increases."
+      },
+      {
+        "start": 984.7,
+        "duration": 1.9,
+        "text": "And what about the kinetic energy of the blocks?"
+      },
+      {
+        "start": 986.6,
+        "duration": 1.4,
+        "text": "Well, they remain the same."
+      },
+      {
+        "start": 988.7,
+        "duration": 7.1,
+        "text": "Which means the total energy, the mechanical energy of the system eventually must increase."
+      },
+      {
+        "start": 996.8,
+        "duration": 3.4,
+        "text": "The network done on the system would be positive."
+      },
+      {
+        "start": 1001.1,
+        "duration": 5.2,
+        "text": "Now, of course, if friction wasn't there, the mechanical energy would have increased even more."
+      },
+      {
+        "start": 1006.8,
+        "duration": 2.1,
+        "text": "Okay, now let's consider the second system."
+      },
+      {
+        "start": 1009.7,
+        "duration": 2.9,
+        "text": "This time, what does our mechanical energy consist of?"
+      },
+      {
+        "start": 1012.6,
+        "duration": 3.0,
+        "text": "Now it really consists of the kinetic energies of the two blocks,"
+      },
+      {
+        "start": 1015.6,
+        "duration": 3.6,
+        "text": "the gravitational potential energy and the spring potential energy."
+      },
+      {
+        "start": 1019.2,
+        "duration": 1.8,
+        "text": "All of that will be part of our system."
+      },
+      {
+        "start": 1020.9,
+        "duration": 3.0,
+        "text": "So now we no longer have to worry about the force of gravity because,"
+      },
+      {
+        "start": 1023.9,
+        "duration": 1.6,
+        "text": "hey, it's a conservative force."
+      },
+      {
+        "start": 1025.5,
+        "duration": 0.8,
+        "text": "It's part of our system."
+      },
+      {
+        "start": 1026.3,
+        "duration": 1.7,
+        "text": "It conserves our mechanical energy."
+      },
+      {
+        "start": 1028.0,
+        "duration": 0.8,
+        "text": "That's the key point."
+      },
+      {
+        "start": 1028.8,
+        "duration": 1.1,
+        "text": "It's a part of our system now."
+      },
+      {
+        "start": 1029.9,
+        "duration": 1.8,
+        "text": "So it conserves mechanical energy."
+      },
+      {
+        "start": 1031.7,
+        "duration": 2.8,
+        "text": "So the only force that's doing work is the force of friction."
+      },
+      {
+        "start": 1034.5,
+        "duration": 1.7,
+        "text": "We know it's doing negative work."
+      },
+      {
+        "start": 1036.2,
+        "duration": 4.1,
+        "text": "So it's going to reduce the mechanical energy of our system."
+      }
+    ],
+    "full_text": "We have a system of two blocks connected via a string that goes over a pulley and one of the blocks is connected to a spring. Imagine the spring is relaxed right now. What would happen if we were to release the block or gravity pulls on it and as a result, the spring will now get stretched to some extent and then the blocks will again come to a rest and then the spring might pull it back. But let's not worry about that. Let's consider this to be our final state and this is our initial state. So the question now is what happens or how does the mechanical energy of the system change when we go from this initial to final state. But which system are we dealing with? We're going to consider two scenarios. In the first scenario, we're going to consider the two block spring system. So how does its mechanical energy change? And in the second scenario, we're going to consider the two blocks spring and the earth as our system. So how does the mechanical energy of this system change? That's what we're trying to figure out in this video. So let's begin. How do we do this? Well, since we are interested in mechanical energy, let's recall that mechanical energy is the sum of the kinetic energy of all the particles of the system, plus the potential energy of the system. Okay, but how do you predict how the mechanical energy changes? Well, that depends upon the work done on the system. If a positive work is done on the system, then it increases the mechanical energy of the system. But if there's a negative work done on the system, it reduces the mechanical energy of the system. So all we now have to think about is what is the work done on these two systems. But the problem is there are a ton of forces over here. We have spring force, we have frictional force, we have the tension forces, we have the force of gravity, and then some of these forces are part of our system. Others are not, and some are conservative forces. Others are non-conservative forces. So the question is, how do we tackle all of this? So what we're going to do is let's look at a much simpler case, so we can build a solid intuition, and then we'll come back. So the simplest case we'll start with is, we're just going to drop a block from some height, and we know what's going to happen, it's just going to fall down. So let's consider this as our initial state and the final state to be just before the block hitting the ground. What if we consider just the block as our system? The question now is, what happens to the mechanical energy of this system as it goes from here to here? Well, whenever a system consists of just one particle, mechanical energy is just the kinetic energy, because for potential energy, you need at least two particles interacting. You have only one particle, we're going to model this block as a single particle. If you have only one particle, this is only kinetic energy. Okay, so the question is, what happens to the kinetic energy as the block goes from here to here? Well, we know the answer to that, it's going to increase, right? But we want to be able to answer this by using the idea of work done, because that is something that can be applied to even the most complicated systems. So let's ask ourselves, what is the work done on this system? Well, which are the forces acting on our system? There's only a force of gravity acting on the system. So gravitational force will change the mechanical energy of our system. Is it a positive or a negative work? Well, the force of gravity is downwards, this displacement is also downwards. So the work done by gravity is positive, and therefore it increases the mechanical energy of the system. And that's how we'll conclude the mechanical energy increases. And of course, this makes sense, because we already know, we already expect the kinetic energy to increase. So it makes sense, right? But what if the block was thrown upwards? Well, now the force of gravity is still downwards, but the displacement is upwards. Now, gravity does negative work. This negative work done on our system, and therefore the mechanical energy reduces. And again, that's what we would expect, right? As it goes up, the kinetic energy drops. So that's how we, by knowing the work done on the system, we can predict what happens to the mechanical energy. Okay, now let's consider the exact same case, but this time, let's consider the earth block system. What happens to its mechanical energy as we go from here to here? Okay, this time, let me talk about mechanical energy, we have to consider the kinetic energy of the block. And the kinetic energy of the earth, well, but we're going to assume the earth is not moving. So it's just the kinetic energy of the block. And we also now have to consider the potential energy of the earth block system, because they are interacting using a gravitational force, which is a conservative force. Whenever particles are interacting with the conservative force, we have a potential energy assigned to it. So now, the mechanical energy is the sum of kinetic energy plus gravitational potential energy. And so when gravity does work on this block, when it increases the kinetic energy of the block, the gravitational potential energy reduces by the exact same amount, in such a way that the mechanical energy stays the same. Similarly, if the gravity was to reduce the kinetic energy, the gravitational potential energy would increase by the same amount. In other words, since gravity is a conservative force, it does not affect the mechanical energy of this system. And therefore, we don't have to worry about the for work done by gravity anymore, because it doesn't affect the mechanical energy. Is there any other force acting on our system? No, gravity is the only force. We're ignoring add-in, everything else, okay? Since there are no other forces, there's no work done on our system. And so the mechanical energy of this system, the earth block system, stays unchanged. And so what we see right in front of our eyes, even for this straightforward looking situation, is that depending on which system we choose, the mechanical energy can change differently. It can increase, in some case, it can decrease, or it can stay unchanged in some other cases. So we have to be super careful about the system that we are dealing with. All right, let's make things a little bit more interesting. What if this time we have a spring here? Then when we drop the block, well, it's going to hit the spring, and it's going to get compressed. The block will come to a stop. And then after that, the spring might uncompress, and the block might fly away, but we're not going to consider that. We only consider this as a initial state, and when the block comes over here to arrest, compressing the spring, that will be our final state, okay? So again, let's analyze the mechanical energy. In the first case, let's consider the earth block system. What happens to the mechanical energy of the earth block system? Well, we already know this time, mechanical energy will consist of kinetic energy of the block, and the gravitational potential energy of the earth block system. Okay. So, are there any forces that are doing work to change the mechanical energy? Well, we don't have to worry about gravity anymore, because gravity does not affect the mechanical energy. Another way to think about it is the effect of gravity is already accounted for when we use potential energy. So we don't have to worry about gravity. Is there any other force that we're dealing with? Yes, there is a spring force that's acting over here. But wait, spring force is also a conservative force, right? So does it affect the mechanical energy of our system? This is a great idea to pause the video and think about this. All right. So although spring force is a conservative force, what's important is that it's not part of my system. If the force is not part of my system, it's an external force. I don't care whether an external force is a conservative force or not. If it's doing work on my system, it's going to change the mechanical energy of the system. That's important. So spring force is an external force. It's doing work, and therefore it will change the mechanical energy of our system. So the question is whether the work in the spring force is positive or negative? Well, the spring is getting compressed down, so it will try to uncompressed for the spring force is upwards, but of course the displacement is downwards because the block was moving downwards. So the work done by the spring force is negative. Therefore, it will reduce the mechanical energy of our system because the work done was negative. And we can do a sense check. Let's peek into the system and see if this makes sense. If we peek into the system, what happens to the kinetic energy of the block as it goes from here to here? Well, it was zero here. It comes to the rest again, so it's zero here as well. So that this doesn't change. But what happens to the gravitational potential energy as you go from here to here? Ooh, that reduces, right? Because the height has reduced. So look, kinetic energy remains the same. Gravitational potential energy reduced, which means the mechanical energy must have reduced. It's exactly what we got over here. And where did that energy go? Well, it got stored in the spring, which is not a part of our system. So the energy has gone out of our system, and so the mechanical energy has reduced. OK, same scenario, but this time, let's consider the Earth block spring system. What happens to its mechanical energy as the block goes from here to here? I need to pause and think about this yourself. OK, this time, what will our mechanical energy consist of? You'll consider the kinetic energies. Then it will have the gravitational potential energy. And it'll also consist of the spring potential energy because now spring is part of our system. So our mechanical energy will have three parts over here. Spring forces also now a part of our system. And it's also a conservative force, so it is not going to affect the mechanical energy of our system. It's being taken care of over here. So we don't have to worry about the work done by spring anymore. Is there any other force that's acting on it and doing work on it? No, no, there are forces that are acting and doing work on it. So therefore, there is nothing that can change the mechanical energy as it goes from here to here. So the mechanical energy of this system stays unchanged. And again, if we peek into the system, we can get insights of what's happening. The kinetic energy is zero here and zero here as well. But it's the gravitational potential energy that was high over here. And as the block fell down, that got transformed into spring potential energy. But the total mechanical energy stayed the same. But of course, we didn't have to peek inside. We can just look from the outside and say that, hey, no work is being done on the system. Therefore, the mechanical energy stays unchanged. Okay, last question for the same scenario. Consider the spring block system. Pause and think about what happens to the mechanical energy of this system. All right, so this time, the mechanical energy consists of the kinetic energy and the spring potential energy. So the spring force is part of our system. And so since it's conservative, it's going to conserve our mechanical energy. So I don't have to worry about the spring force. But this time, gravity is no longer a part of our system. Yes, it's a conservative force, but I don't care whether it's a conservative force or not. It's an external force now. It's not a part of our system. Therefore, it is doing work. If it does work on my system, it is doing work on my system. It will change the mechanical energy of our system, this system. So is it doing positive and negative work? Well, the force of gravity is downwards. The block is falling down. So it's doing positive work. So the mechanical energy of this system increases. Okay, final challenge. Are you ready? Let's consider the exact same situation as before. But this time, let's consider the air as well. We're not going to neglect it anymore. So we're going to consider the drag force as well. So the question for you would be, what will happen to the mechanical energy now of the block Earth spring system? Okay, so our mechanical energy now consists of the kinetic energy plus the gravitational potential energy plus the spring potential energy. The force of gravity and the force of spring are part of our system. Their conservative forces, we don't have to worry about them. They won't change the mechanical energy. Is there any other force acting? Yes, there is a drag force acting. Since the block is falling down, the drag force is upwards. This is an external force acting on our system. It's going to change the mechanical energy of our system. So is it doing a positive and negative work? Well, drag force is upwards. The block is falling down. It's doing negative work. So the mechanical energy of our system decreases. All right, your turn. What if we now consider the Earth blocks spring and air as our system? What will happen to the mechanical energy of this system as we go from here to here? Pause the video. Think about it. All right, just like before, our mechanical energy will consist of kinetic energy, gravitational potential energy and spring potential energy. But what about drag force? That's now a part of our system as well. So is there potential energy for that? No, because drag force is a non-conservative force. So it does not conserve mechanical energy. There is no potential energy associated with it. So even now, the mechanical energy is just the same as before. And so even though drag force is a part of our system, because it's a non-conservative force, it will not conserve mechanical energy. So just like before, since it does negative work on our system, the mechanical energy decreases. So when it comes to non-conservative forces, I don't care whether it's a part of my system or not, they will do work and they will change the mechanical energy of the system. Okay, last question. What if you consider the system of just the block and the spring this time? What will happen to the mechanical energy? All right, this time our mechanical energy consists of the kinetic energy and the spring potential energy. So spring force, we don't have to worry about it. It will conserve the mechanical energy. But gravity is no longer a part of our system. It's an external force, so we have to worry about it. And so now there are two forces doing work. Gravity is doing positive work on our system. And we have the drag force doing negative work on the system, which one wins? Well, the drag force is going to be smaller than the force of gravity. I mean, if that was not the case, the block wouldn't fall in the first place, right? It wouldn't accelerate down in the first place. So the total work done on the system will still be positive. And so the mechanical energy of the system increases. Long story short, if you have conservative forces that are part of the system, only they will conserve the mechanical energy. All other forces will change the mechanical energy, depending on whether to do positive or negative work. Okay, now that we have this clarity, let's go back to the original question. One last time pause the video and see if you can answer this question yourself now. All right, if you look at system one, what is the mechanical energy consist of? Well, it will consist of the kinetic energies of the block A and B and the spring potential energy. So the spring force is now part of our system. It's a conservative force. It's going to conserve the mechanical energy. I don't have to worry about that. Okay, what other forces are acting on this? Well, there's a force of gravity that's going to do work. It's an external force. Even though it's a conservative force, it's an external force. It's not part of our system. So it's going to do work on our system. And because the surface is rough, there is going to be a frictional force. It's going to oppose the relative motion, the sliding motion over here. Are there any other forces acting? Yes, there's force of tension. Are they doing work? Yes, they are. So are they what? Conservative or non-conservative forces? Well, technically they are non-conservative because we don't have potential energy associated with them. But we don't have to worry about them because look, over here, the block B is moving down in the opposite direction of tension force. So here, tension force is doing negative work. But here, the block is moving to the right in the same direction as the tension force. So it's doing positive work. But the displacement is exactly the same, assuming the string does not stretch. So the positive work done over here cancels out the negative work done over here. So the network done by the tension force is zero. So we don't have to worry about those forces at all. Which means we have gravity that's doing positive work on the system and friction doing negative work on the system. So what ends up happening? Well, we know eventually the spring gets stretched. So the spring potential energy increases. And what about the kinetic energy of the blocks? Well, they remain the same. Which means the total energy, the mechanical energy of the system eventually must increase. The network done on the system would be positive. Now, of course, if friction wasn't there, the mechanical energy would have increased even more. Okay, now let's consider the second system. This time, what does our mechanical energy consist of? Now it really consists of the kinetic energies of the two blocks, the gravitational potential energy and the spring potential energy. All of that will be part of our system. So now we no longer have to worry about the force of gravity because, hey, it's a conservative force. It's part of our system. It conserves our mechanical energy. That's the key point. It's a part of our system now. So it conserves mechanical energy. So the only force that's doing work is the force of friction. We know it's doing negative work. So it's going to reduce the mechanical energy of our system."
+  }
+}

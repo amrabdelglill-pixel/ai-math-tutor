@@ -1,0 +1,2259 @@
+{
+  "video_id": "JrVd-czHl_g",
+  "video_title": "Conservation of energy (part 2) | AP Physics | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 640.0,
+  "view_count": 5208,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.7,
+        "text": "Suppose we drop a block of mass M from some height hedge."
+      },
+      {
+        "start": 3.7,
+        "duration": 1.2,
+        "text": "What's going to happen?"
+      },
+      {
+        "start": 4.9,
+        "duration": 3.3,
+        "text": "Well, let's say that the ramp is frictionless."
+      },
+      {
+        "start": 8.2,
+        "duration": 1.8,
+        "text": "There's no force of friction over here."
+      },
+      {
+        "start": 10.0,
+        "duration": 3.2,
+        "text": "But once you come to this horizontal surface,"
+      },
+      {
+        "start": 13.2,
+        "duration": 1.4,
+        "text": "that is a rough surface."
+      },
+      {
+        "start": 14.6,
+        "duration": 1.9,
+        "text": "There is friction and the coefficient of sliding friction"
+      },
+      {
+        "start": 16.5,
+        "duration": 2.4,
+        "text": "is mu K. So what do you think is going to happen?"
+      },
+      {
+        "start": 18.9,
+        "duration": 2.5,
+        "text": "Well, you can imagine the block will speed up over here"
+      },
+      {
+        "start": 21.4,
+        "duration": 2.2,
+        "text": "and because of friction, then it will slow down"
+      },
+      {
+        "start": 23.6,
+        "duration": 1.2,
+        "text": "and eventually come to a stop."
+      },
+      {
+        "start": 24.8,
+        "duration": 2.3,
+        "text": "So it's going to look somewhat like this."
+      },
+      {
+        "start": 27.2,
+        "duration": 1.6,
+        "text": "So the question we want to try and answer is,"
+      },
+      {
+        "start": 28.9,
+        "duration": 4.6,
+        "text": "how far does it get displaced before coming to a stop?"
+      },
+      {
+        "start": 33.4,
+        "duration": 1.6,
+        "text": "Whenever you have problems like this,"
+      },
+      {
+        "start": 35.1,
+        "duration": 2.2,
+        "text": "which does not involve time,"
+      },
+      {
+        "start": 37.3,
+        "duration": 2.6,
+        "text": "you can see we don't have to worry about time over here."
+      },
+      {
+        "start": 39.9,
+        "duration": 2.0,
+        "text": "We can accrue way to solve such problems"
+      },
+      {
+        "start": 41.9,
+        "duration": 2.3,
+        "text": "is by using the idea of energy."
+      },
+      {
+        "start": 44.2,
+        "duration": 3.2,
+        "text": "To be very specific by thinking about mechanical energy,"
+      },
+      {
+        "start": 47.4,
+        "duration": 4.5,
+        "text": "work done on a system changes its mechanical energy."
+      },
+      {
+        "start": 51.9,
+        "duration": 3.1,
+        "text": "And that would be a starting point to solve this problem."
+      },
+      {
+        "start": 55.0,
+        "duration": 1.5,
+        "text": "So let's do this."
+      },
+      {
+        "start": 56.5,
+        "duration": 2.4,
+        "text": "So the first step is to choose a system."
+      },
+      {
+        "start": 58.8,
+        "duration": 2.7,
+        "text": "Well, we are free to choose whatever system you want,"
+      },
+      {
+        "start": 61.6,
+        "duration": 2.4,
+        "text": "but let's make sure that our system involves a block."
+      },
+      {
+        "start": 64.0,
+        "duration": 3.9,
+        "text": "So let's choose our system to be the block earth surface."
+      },
+      {
+        "start": 67.9,
+        "duration": 3.2,
+        "text": "This way, what we're doing is all the forces involved"
+      },
+      {
+        "start": 71.1,
+        "duration": 3.8,
+        "text": "like the force of gravity or the force of friction"
+      },
+      {
+        "start": 74.8,
+        "duration": 4.2,
+        "text": "over here, they're all going to be the part of our system."
+      },
+      {
+        "start": 79.1,
+        "duration": 1.6,
+        "text": "Whenever forces are part of your system,"
+      },
+      {
+        "start": 80.7,
+        "duration": 3.2,
+        "text": "it tends to make things slightly easier."
+      },
+      {
+        "start": 83.9,
+        "duration": 1.6,
+        "text": "All right, now that we have our system,"
+      },
+      {
+        "start": 85.5,
+        "duration": 2.2,
+        "text": "next we need to think about its mechanical energy."
+      },
+      {
+        "start": 87.7,
+        "duration": 3.0,
+        "text": "What is the mechanical energy of this system comprise of?"
+      },
+      {
+        "start": 90.7,
+        "duration": 2.0,
+        "text": "Well, mechanical energy is the kinetic energy"
+      },
+      {
+        "start": 92.8,
+        "duration": 1.3,
+        "text": "plus potential energy."
+      },
+      {
+        "start": 94.0,
+        "duration": 2.5,
+        "text": "So it involves the kinetic energy of all the particles."
+      },
+      {
+        "start": 96.5,
+        "duration": 1.8,
+        "text": "So we have kinetic energy of the block"
+      },
+      {
+        "start": 98.3,
+        "duration": 2.0,
+        "text": "plus kinetic energy of the earth."
+      },
+      {
+        "start": 100.3,
+        "duration": 3.3,
+        "text": "Well, since earth is not moving, we can ignore that."
+      },
+      {
+        "start": 103.6,
+        "duration": 1.8,
+        "text": "And kinetic energy of the earth's surface, again,"
+      },
+      {
+        "start": 105.4,
+        "duration": 0.8,
+        "text": "we can ignore that."
+      },
+      {
+        "start": 106.2,
+        "duration": 2.6,
+        "text": "So it will involve the kinetic energy of the block."
+      },
+      {
+        "start": 108.9,
+        "duration": 2.6,
+        "text": "And then we have to think about the various potential energies."
+      },
+      {
+        "start": 111.5,
+        "duration": 2.0,
+        "text": "Well, which is the conservative force acting over here?"
+      },
+      {
+        "start": 113.6,
+        "duration": 1.8,
+        "text": "Gravity is the conservative force."
+      },
+      {
+        "start": 115.3,
+        "duration": 2.8,
+        "text": "So we have gravitational potential energy."
+      },
+      {
+        "start": 118.1,
+        "duration": 2.2,
+        "text": "Any other conservative force part of our system?"
+      },
+      {
+        "start": 120.2,
+        "duration": 0.7,
+        "text": "No."
+      },
+      {
+        "start": 120.9,
+        "duration": 3.7,
+        "text": "So our mechanical energy is going to be kinetic energy"
+      },
+      {
+        "start": 124.6,
+        "duration": 4.4,
+        "text": "plus the gravitational potential energy."
+      },
+      {
+        "start": 129.0,
+        "duration": 2.9,
+        "text": "OK, now if there are any non-conservative forces"
+      },
+      {
+        "start": 131.9,
+        "duration": 2.8,
+        "text": "or external forces doing work on my system,"
+      },
+      {
+        "start": 134.8,
+        "duration": 3.0,
+        "text": "it will change its mechanical energy."
+      },
+      {
+        "start": 137.7,
+        "duration": 3.1,
+        "text": "This means the next step is to figure out which forces"
+      },
+      {
+        "start": 140.8,
+        "duration": 3.2,
+        "text": "are doing work on my system."
+      },
+      {
+        "start": 144.0,
+        "duration": 1.7,
+        "text": "Well, the forces that are involved over here,"
+      },
+      {
+        "start": 145.7,
+        "duration": 1.9,
+        "text": "well, there's the force of gravity."
+      },
+      {
+        "start": 147.6,
+        "duration": 1.6,
+        "text": "But I don't have to worry about gravity"
+      },
+      {
+        "start": 149.2,
+        "duration": 1.9,
+        "text": "because gravity is a conservative force"
+      },
+      {
+        "start": 151.1,
+        "duration": 1.6,
+        "text": "and it's a part of my system."
+      },
+      {
+        "start": 152.6,
+        "duration": 1.9,
+        "text": "It conserves mechanical energy."
+      },
+      {
+        "start": 154.6,
+        "duration": 0.9,
+        "text": "So it doesn't change it."
+      },
+      {
+        "start": 155.4,
+        "duration": 1.7,
+        "text": "I've already accounted for the work done"
+      },
+      {
+        "start": 157.1,
+        "duration": 2.9,
+        "text": "by gravity by including potential energy over here."
+      },
+      {
+        "start": 160.0,
+        "duration": 2.0,
+        "text": "So I don't have to worry about gravity."
+      },
+      {
+        "start": 162.0,
+        "duration": 2.8,
+        "text": "It's a conservative force, which is part of my system."
+      },
+      {
+        "start": 164.8,
+        "duration": 1.4,
+        "text": "Are there any other forces?"
+      },
+      {
+        "start": 166.2,
+        "duration": 2.0,
+        "text": "Yes, there is a normal force."
+      },
+      {
+        "start": 168.2,
+        "duration": 1.8,
+        "text": "But normal force does not do any work."
+      },
+      {
+        "start": 170.0,
+        "duration": 1.6,
+        "text": "Because normal force is always perpendicular"
+      },
+      {
+        "start": 171.6,
+        "duration": 1.4,
+        "text": "to the direction of the motion."
+      },
+      {
+        "start": 173.0,
+        "duration": 1.5,
+        "text": "So the work done by normal force is zero."
+      },
+      {
+        "start": 174.5,
+        "duration": 1.9,
+        "text": "So I don't have to worry about normal force."
+      },
+      {
+        "start": 176.4,
+        "duration": 2.6,
+        "text": "Oh, then there is a force of friction over here."
+      },
+      {
+        "start": 179.0,
+        "duration": 2.7,
+        "text": "The force of friction will always oppose lighting over here."
+      },
+      {
+        "start": 181.7,
+        "duration": 3.1,
+        "text": "So the sliding friction will be to the left."
+      },
+      {
+        "start": 184.8,
+        "duration": 4.0,
+        "text": "But wait, friction is also a part of our system, right?"
+      },
+      {
+        "start": 188.8,
+        "duration": 3.4,
+        "text": "Yeah, but friction is a non-conservative force."
+      },
+      {
+        "start": 192.2,
+        "duration": 3.1,
+        "text": "It does not conserve mechanical energy."
+      },
+      {
+        "start": 195.3,
+        "duration": 2.7,
+        "text": "So whenever you have non-conservative forces acting,"
+      },
+      {
+        "start": 198.0,
+        "duration": 2.3,
+        "text": "whether it's a part of your system or not,"
+      },
+      {
+        "start": 200.3,
+        "duration": 3.0,
+        "text": "it does not conserve mechanical energy."
+      },
+      {
+        "start": 203.3,
+        "duration": 1.4,
+        "text": "In fact, some of the mechanical energy"
+      },
+      {
+        "start": 204.8,
+        "duration": 2.8,
+        "text": "actually gets dissipated as thermal energy."
+      },
+      {
+        "start": 207.6,
+        "duration": 4.0,
+        "text": "So friction is definitely doing work on my system,"
+      },
+      {
+        "start": 211.6,
+        "duration": 1.9,
+        "text": "changing its mechanical energy."
+      },
+      {
+        "start": 213.5,
+        "duration": 3.5,
+        "text": "Is there any other force that's doing work on my system?"
+      },
+      {
+        "start": 217.0,
+        "duration": 1.7,
+        "text": "No, that's it."
+      },
+      {
+        "start": 218.7,
+        "duration": 2.6,
+        "text": "So the only force that's doing work on my system,"
+      },
+      {
+        "start": 221.2,
+        "duration": 2.8,
+        "text": "changing its mechanical energy is the frictional force."
+      },
+      {
+        "start": 224.0,
+        "duration": 3.0,
+        "text": "So we can now write that change in mechanical energy"
+      },
+      {
+        "start": 227.0,
+        "duration": 5.1,
+        "text": "delta E equals the work done by friction."
+      },
+      {
+        "start": 232.1,
+        "duration": 0.7,
+        "text": "All right."
+      },
+      {
+        "start": 232.8,
+        "duration": 2.8,
+        "text": "So what is changing mechanical energy?"
+      },
+      {
+        "start": 235.6,
+        "duration": 2.3,
+        "text": "Well, it's going to be final mechanical energy minus initial"
+      },
+      {
+        "start": 237.9,
+        "duration": 2.8,
+        "text": "mechanical energy, and that equals the work done by friction."
+      },
+      {
+        "start": 240.7,
+        "duration": 2.3,
+        "text": "What's final mechanical energy?"
+      },
+      {
+        "start": 243.0,
+        "duration": 2.4,
+        "text": "Well, it's the final kinetic energy plus the final gravitational"
+      },
+      {
+        "start": 245.4,
+        "duration": 4.6,
+        "text": "potential energy minus initial kinetic energy plus the initial"
+      },
+      {
+        "start": 250.0,
+        "duration": 1.5,
+        "text": "gravitational potential energy."
+      },
+      {
+        "start": 251.5,
+        "duration": 1.8,
+        "text": "That equals the work done by the friction."
+      },
+      {
+        "start": 253.3,
+        "duration": 2.9,
+        "text": "OK, but what is final and what's initial over here?"
+      },
+      {
+        "start": 256.2,
+        "duration": 1.7,
+        "text": "Again, that's completely up to us."
+      },
+      {
+        "start": 257.9,
+        "duration": 3.8,
+        "text": "Since the block starts from here and then ends over here,"
+      },
+      {
+        "start": 261.8,
+        "duration": 3.2,
+        "text": "well, let's just call this as our initial configuration"
+      },
+      {
+        "start": 265.0,
+        "duration": 1.8,
+        "text": "and or initial state."
+      },
+      {
+        "start": 266.8,
+        "duration": 2.4,
+        "text": "And we can call this as our final state."
+      },
+      {
+        "start": 269.2,
+        "duration": 2.2,
+        "text": "OK, so now the picture is very clear."
+      },
+      {
+        "start": 271.4,
+        "duration": 2.1,
+        "text": "If you have a great idea to pause the video"
+      },
+      {
+        "start": 273.5,
+        "duration": 6.2,
+        "text": "and see if you can substitute and simplify."
+      },
+      {
+        "start": 279.8,
+        "duration": 1.1,
+        "text": "All right, let's do this."
+      },
+      {
+        "start": 280.9,
+        "duration": 2.4,
+        "text": "So what's the final kinetic energy?"
+      },
+      {
+        "start": 283.2,
+        "duration": 1.9,
+        "text": "Well, that's the kinetic energy at this point."
+      },
+      {
+        "start": 285.2,
+        "duration": 2.6,
+        "text": "At this point, the block has come to a stop."
+      },
+      {
+        "start": 287.8,
+        "duration": 2.8,
+        "text": "So the final kinetic energy of the block is 0."
+      },
+      {
+        "start": 290.6,
+        "duration": 2.6,
+        "text": "So our system's final kinetic energy is 0."
+      },
+      {
+        "start": 293.2,
+        "duration": 2.8,
+        "text": "What's the final gravitational potential energy"
+      },
+      {
+        "start": 296.0,
+        "duration": 1.1,
+        "text": "of the system?"
+      },
+      {
+        "start": 297.1,
+        "duration": 2.4,
+        "text": "Well, when the block is on the ground,"
+      },
+      {
+        "start": 299.4,
+        "duration": 2.2,
+        "text": "we can choose that as our reference"
+      },
+      {
+        "start": 301.6,
+        "duration": 2.0,
+        "text": "for 0 potential energy."
+      },
+      {
+        "start": 303.6,
+        "duration": 1.4,
+        "text": "Whenever we are very close to Earth,"
+      },
+      {
+        "start": 305.0,
+        "duration": 2.4,
+        "text": "that's a great reference for your 0"
+      },
+      {
+        "start": 307.4,
+        "duration": 1.2,
+        "text": "of gravitational potential energy."
+      },
+      {
+        "start": 308.6,
+        "duration": 2.5,
+        "text": "So our block is on the ground over here."
+      },
+      {
+        "start": 311.2,
+        "duration": 4.0,
+        "text": "So we can say gravitational potential energy is also 0."
+      },
+      {
+        "start": 315.2,
+        "duration": 2.4,
+        "text": "So the final mechanical energy became 0."
+      },
+      {
+        "start": 317.7,
+        "duration": 2.8,
+        "text": "What's the initial kinetic energy?"
+      },
+      {
+        "start": 320.5,
+        "duration": 3.4,
+        "text": "We are dropping the block from rest."
+      },
+      {
+        "start": 323.8,
+        "duration": 3.6,
+        "text": "So the initial kinetic energy is also 0."
+      },
+      {
+        "start": 327.5,
+        "duration": 2.0,
+        "text": "What is the final?"
+      },
+      {
+        "start": 329.5,
+        "duration": 1.6,
+        "text": "Sorry, what is the initial potential?"
+      },
+      {
+        "start": 331.2,
+        "duration": 2.4,
+        "text": "The gravitational potential energy over here."
+      },
+      {
+        "start": 333.6,
+        "duration": 2.4,
+        "text": "Ah, when the block is at some height"
+      },
+      {
+        "start": 336.0,
+        "duration": 2.7,
+        "text": "hedge from the ground and we are very close to the Earth,"
+      },
+      {
+        "start": 338.7,
+        "duration": 3.1,
+        "text": "the gravitational potential energy is just mg hedge,"
+      },
+      {
+        "start": 341.8,
+        "duration": 3.1,
+        "text": "where m is the mass of the block."
+      },
+      {
+        "start": 344.9,
+        "duration": 3.9,
+        "text": "And g is the acceleration due to gravity."
+      },
+      {
+        "start": 348.8,
+        "duration": 1.8,
+        "text": "And so that's my left hand side."
+      },
+      {
+        "start": 350.6,
+        "duration": 3.1,
+        "text": "That should equal the work done by the force of friction."
+      },
+      {
+        "start": 353.7,
+        "duration": 1.9,
+        "text": "Well, that's just going to be the force of friction"
+      },
+      {
+        "start": 355.6,
+        "duration": 1.5,
+        "text": "times the displacement."
+      },
+      {
+        "start": 357.1,
+        "duration": 1.4,
+        "text": "And there's going to be a negative sign"
+      },
+      {
+        "start": 358.5,
+        "duration": 1.6,
+        "text": "because they're in the opposite direction."
+      },
+      {
+        "start": 360.2,
+        "duration": 3.2,
+        "text": "So it's going to be minus force of friction times"
+      },
+      {
+        "start": 363.4,
+        "duration": 1.4,
+        "text": "the displacement d."
+      },
+      {
+        "start": 364.7,
+        "duration": 3.4,
+        "text": "And look, we have d in our equation."
+      },
+      {
+        "start": 368.1,
+        "duration": 2.0,
+        "text": "So we have to solve for d."
+      },
+      {
+        "start": 370.1,
+        "duration": 1.0,
+        "text": "So let's simplify."
+      },
+      {
+        "start": 371.0,
+        "duration": 4.3,
+        "text": "The left hand side just simplifies to negative mg hedge."
+      },
+      {
+        "start": 375.4,
+        "duration": 1.4,
+        "text": "And what happens to the right hand side?"
+      },
+      {
+        "start": 376.8,
+        "duration": 1.6,
+        "text": "Well, we have this force of friction."
+      },
+      {
+        "start": 378.4,
+        "duration": 2.5,
+        "text": "Do we know the expression for force of friction?"
+      },
+      {
+        "start": 380.9,
+        "duration": 3.8,
+        "text": "Yeah, it's mu k times the normal force."
+      },
+      {
+        "start": 384.7,
+        "duration": 4.2,
+        "text": "So it's going to be mu k times what's the normal force"
+      },
+      {
+        "start": 389.0,
+        "duration": 1.1,
+        "text": "over here?"
+      },
+      {
+        "start": 390.1,
+        "duration": 1.8,
+        "text": "Well, we have to consider the normal force over here"
+      },
+      {
+        "start": 391.9,
+        "duration": 1.8,
+        "text": "because this is where the friction acts."
+      },
+      {
+        "start": 393.7,
+        "duration": 2.6,
+        "text": "So over here, normal force is just going"
+      },
+      {
+        "start": 396.3,
+        "duration": 1.2,
+        "text": "to be equal to the gravitational force"
+      },
+      {
+        "start": 397.5,
+        "duration": 1.9,
+        "text": "because there's no acceleration in the vertical."
+      },
+      {
+        "start": 399.4,
+        "duration": 2.0,
+        "text": "The forces are balanced in the vertical."
+      },
+      {
+        "start": 401.4,
+        "duration": 1.4,
+        "text": "So gravitational force is mg."
+      },
+      {
+        "start": 402.9,
+        "duration": 3.1,
+        "text": "Normal force is also going to be equal to mg."
+      },
+      {
+        "start": 406.0,
+        "duration": 3.5,
+        "text": "So it's going to be mu k times normal force, which is mg."
+      },
+      {
+        "start": 409.4,
+        "duration": 5.1,
+        "text": "So this is the force of friction times d."
+      },
+      {
+        "start": 414.5,
+        "duration": 1.9,
+        "text": "And mg cancels out."
+      },
+      {
+        "start": 416.4,
+        "duration": 0.9,
+        "text": "And there you have it."
+      },
+      {
+        "start": 417.3,
+        "duration": 1.2,
+        "text": "The negative sign cancels out."
+      },
+      {
+        "start": 418.6,
+        "duration": 3.8,
+        "text": "And so d equals hedge divided by mu k."
+      },
+      {
+        "start": 422.4,
+        "duration": 5.1,
+        "text": "And we have found the expression for this distance."
+      },
+      {
+        "start": 427.4,
+        "duration": 1.3,
+        "text": "OK, let's do a sense check."
+      },
+      {
+        "start": 428.7,
+        "duration": 2.9,
+        "text": "It's always a great idea to do a sense check over here."
+      },
+      {
+        "start": 431.6,
+        "duration": 4.1,
+        "text": "We find that d is directly related to height."
+      },
+      {
+        "start": 435.7,
+        "duration": 1.9,
+        "text": "More height, more the distance."
+      },
+      {
+        "start": 437.6,
+        "duration": 1.4,
+        "text": "Does that make sense?"
+      },
+      {
+        "start": 439.0,
+        "duration": 0.8,
+        "text": "Yeah."
+      },
+      {
+        "start": 439.8,
+        "duration": 1.4,
+        "text": "I mean, if the block started higher,"
+      },
+      {
+        "start": 441.2,
+        "duration": 3.2,
+        "text": "by the time it comes here, it would have much higher speed."
+      },
+      {
+        "start": 444.4,
+        "duration": 2.6,
+        "text": "And so we expect it to travel much farther"
+      },
+      {
+        "start": 447.0,
+        "duration": 1.5,
+        "text": "before coming to a stop."
+      },
+      {
+        "start": 448.5,
+        "duration": 3.7,
+        "text": "If the block started lower, it would have much lower speed."
+      },
+      {
+        "start": 452.2,
+        "duration": 3.1,
+        "text": "And so you're expected to come to a stop much closer."
+      },
+      {
+        "start": 455.2,
+        "duration": 4.9,
+        "text": "So it makes sense that d is directly related to height."
+      },
+      {
+        "start": 460.1,
+        "duration": 3.2,
+        "text": "OK, we find that d is inversely related"
+      },
+      {
+        "start": 463.3,
+        "duration": 2.2,
+        "text": "to the coefficient of kinetic friction."
+      },
+      {
+        "start": 465.4,
+        "duration": 1.1,
+        "text": "Does that make sense?"
+      },
+      {
+        "start": 466.6,
+        "duration": 0.6,
+        "text": "Yeah."
+      },
+      {
+        "start": 467.2,
+        "duration": 3.2,
+        "text": "If this number is higher, the friction force is higher,"
+      },
+      {
+        "start": 470.4,
+        "duration": 1.7,
+        "text": "and it'll stop sooner."
+      },
+      {
+        "start": 472.2,
+        "duration": 3.4,
+        "text": "So more the value of mu k, smaller the value of d,"
+      },
+      {
+        "start": 475.5,
+        "duration": 2.7,
+        "text": "smaller the value of mu k, smaller the friction."
+      },
+      {
+        "start": 478.2,
+        "duration": 3.7,
+        "text": "And it will travel much farther before coming to a stop."
+      },
+      {
+        "start": 481.9,
+        "duration": 1.5,
+        "text": "So it makes sense."
+      },
+      {
+        "start": 483.4,
+        "duration": 2.1,
+        "text": "Also, we can take a look at some edge cases."
+      },
+      {
+        "start": 485.5,
+        "duration": 2.1,
+        "text": "What if H equals 0?"
+      },
+      {
+        "start": 487.6,
+        "duration": 1.8,
+        "text": "Then d goes to 0."
+      },
+      {
+        "start": 489.4,
+        "duration": 1.8,
+        "text": "Does that make sense?"
+      },
+      {
+        "start": 491.2,
+        "duration": 3.0,
+        "text": "Yeah, if the H is 0, that basically means we are just"
+      },
+      {
+        "start": 494.2,
+        "duration": 1.8,
+        "text": "keeping the block over here."
+      },
+      {
+        "start": 496.0,
+        "duration": 2.8,
+        "text": "And so it wouldn't travel at all, obviously."
+      },
+      {
+        "start": 498.8,
+        "duration": 1.3,
+        "text": "So the d goes to 0."
+      },
+      {
+        "start": 500.1,
+        "duration": 2.0,
+        "text": "Does that make sense?"
+      },
+      {
+        "start": 502.2,
+        "duration": 3.4,
+        "text": "If mu k is 0, we get a 0 in the denominator,"
+      },
+      {
+        "start": 505.5,
+        "duration": 2.0,
+        "text": "and d kind of becomes what?"
+      },
+      {
+        "start": 507.5,
+        "duration": 2.0,
+        "text": "Infinity, what does that even mean?"
+      },
+      {
+        "start": 509.6,
+        "duration": 2.9,
+        "text": "Well, if mu k is 0, then there is no frictional force."
+      },
+      {
+        "start": 512.4,
+        "duration": 3.4,
+        "text": "And so the block would then continue to move forever."
+      },
+      {
+        "start": 515.8,
+        "duration": 1.6,
+        "text": "That's what it's saying."
+      },
+      {
+        "start": 517.4,
+        "duration": 2.6,
+        "text": "That makes perfect sense."
+      },
+      {
+        "start": 520.0,
+        "duration": 3.3,
+        "text": "Finally, what if mu k was infinitely large?"
+      },
+      {
+        "start": 523.2,
+        "duration": 1.5,
+        "text": "Well, then d would be almost 0."
+      },
+      {
+        "start": 524.8,
+        "duration": 1.2,
+        "text": "Does that make sense?"
+      },
+      {
+        "start": 526.0,
+        "duration": 2.0,
+        "text": "Yeah, if mu k was infinitely large,"
+      },
+      {
+        "start": 528.0,
+        "duration": 3.3,
+        "text": "then you would have super, super strong force of friction."
+      },
+      {
+        "start": 531.3,
+        "duration": 1.9,
+        "text": "And the block would almost instantly"
+      },
+      {
+        "start": 533.2,
+        "duration": 2.7,
+        "text": "deserate come to a stop, making d 0."
+      },
+      {
+        "start": 535.9,
+        "duration": 1.1,
+        "text": "So it all makes sense."
+      },
+      {
+        "start": 537.0,
+        "duration": 1.4,
+        "text": "You'll look at it from multiple angles."
+      },
+      {
+        "start": 538.5,
+        "duration": 2.6,
+        "text": "This makes a lot of sense."
+      },
+      {
+        "start": 541.0,
+        "duration": 2.5,
+        "text": "OK, the final thing we can do is we"
+      },
+      {
+        "start": 543.6,
+        "duration": 2.0,
+        "text": "can choose a different system altogether"
+      },
+      {
+        "start": 545.6,
+        "duration": 1.6,
+        "text": "and then see if we get the same answer."
+      },
+      {
+        "start": 547.2,
+        "duration": 1.6,
+        "text": "I mean, we should get the same answer, right?"
+      },
+      {
+        "start": 548.8,
+        "duration": 2.4,
+        "text": "That's a good way to check our understanding."
+      },
+      {
+        "start": 551.2,
+        "duration": 4.0,
+        "text": "So what if we just consider the block as our system?"
+      },
+      {
+        "start": 555.1,
+        "duration": 2.4,
+        "text": "Then how would things change?"
+      },
+      {
+        "start": 557.5,
+        "duration": 2.7,
+        "text": "Well, we can try to do this in our heads."
+      },
+      {
+        "start": 560.2,
+        "duration": 3.6,
+        "text": "First of all, if we only consider the block as our system,"
+      },
+      {
+        "start": 563.8,
+        "duration": 1.8,
+        "text": "then there's only one particle in our system,"
+      },
+      {
+        "start": 565.7,
+        "duration": 4.0,
+        "text": "then the mechanical energy would just be the kinetic energy."
+      },
+      {
+        "start": 569.6,
+        "duration": 2.6,
+        "text": "So there will be no concept of gravitational potential energy"
+      },
+      {
+        "start": 572.3,
+        "duration": 2.5,
+        "text": "because gravity is no longer part of our system."
+      },
+      {
+        "start": 574.8,
+        "duration": 2.2,
+        "text": "So let's look at what happens to the left hand side"
+      },
+      {
+        "start": 577.0,
+        "duration": 0.8,
+        "text": "of the equation."
+      },
+      {
+        "start": 577.8,
+        "duration": 1.2,
+        "text": "The change in mechanical energy"
+      },
+      {
+        "start": 579.0,
+        "duration": 2.2,
+        "text": "would just be the final kinetic energy"
+      },
+      {
+        "start": 581.2,
+        "duration": 1.9,
+        "text": "minus the initial kinetic energy."
+      },
+      {
+        "start": 583.1,
+        "duration": 1.3,
+        "text": "And they're both 0."
+      },
+      {
+        "start": 584.4,
+        "duration": 2.9,
+        "text": "So left hand side would just be 0."
+      },
+      {
+        "start": 587.2,
+        "duration": 2.2,
+        "text": "But what would the right hand side be?"
+      },
+      {
+        "start": 589.4,
+        "duration": 3.1,
+        "text": "Well, the right hand side is the work done on the system."
+      },
+      {
+        "start": 592.5,
+        "duration": 2.2,
+        "text": "Friction is, of course, doing work done just like before"
+      },
+      {
+        "start": 594.7,
+        "duration": 0.9,
+        "text": "on our system."
+      },
+      {
+        "start": 595.6,
+        "duration": 2.7,
+        "text": "But this time, gravity will also do work on our system"
+      },
+      {
+        "start": 598.4,
+        "duration": 3.4,
+        "text": "because gravity is no longer a part of our system."
+      },
+      {
+        "start": 601.7,
+        "duration": 2.0,
+        "text": "But what is the work done by gravity?"
+      },
+      {
+        "start": 603.8,
+        "duration": 2.0,
+        "text": "Well, work done by gravity is the force of gravity"
+      },
+      {
+        "start": 605.8,
+        "duration": 4.0,
+        "text": "times the vertical displacement, which is mg h."
+      },
+      {
+        "start": 609.8,
+        "duration": 3.8,
+        "text": "So notice this time, on the right hand side,"
+      },
+      {
+        "start": 613.6,
+        "duration": 5.4,
+        "text": "I will not only have this term, but I also have a plus mg h,"
+      },
+      {
+        "start": 619.0,
+        "duration": 4.8,
+        "text": "which will eventually give me the same equation, right?"
+      },
+      {
+        "start": 623.7,
+        "duration": 3.0,
+        "text": "And so I would eventually get the same result."
+      },
+      {
+        "start": 626.8,
+        "duration": 2.4,
+        "text": "So it's always a great idea when you're"
+      },
+      {
+        "start": 629.2,
+        "duration": 2.6,
+        "text": "practicing to choose multiple systems,"
+      },
+      {
+        "start": 631.8,
+        "duration": 1.4,
+        "text": "and then just work it out."
+      },
+      {
+        "start": 633.2,
+        "duration": 2.4,
+        "text": "And just to see that you get the same answer."
+      }
+    ],
+    "full_text": "Suppose we drop a block of mass M from some height hedge. What's going to happen? Well, let's say that the ramp is frictionless. There's no force of friction over here. But once you come to this horizontal surface, that is a rough surface. There is friction and the coefficient of sliding friction is mu K. So what do you think is going to happen? Well, you can imagine the block will speed up over here and because of friction, then it will slow down and eventually come to a stop. So it's going to look somewhat like this. So the question we want to try and answer is, how far does it get displaced before coming to a stop? Whenever you have problems like this, which does not involve time, you can see we don't have to worry about time over here. We can accrue way to solve such problems is by using the idea of energy. To be very specific by thinking about mechanical energy, work done on a system changes its mechanical energy. And that would be a starting point to solve this problem. So let's do this. So the first step is to choose a system. Well, we are free to choose whatever system you want, but let's make sure that our system involves a block. So let's choose our system to be the block earth surface. This way, what we're doing is all the forces involved like the force of gravity or the force of friction over here, they're all going to be the part of our system. Whenever forces are part of your system, it tends to make things slightly easier. All right, now that we have our system, next we need to think about its mechanical energy. What is the mechanical energy of this system comprise of? Well, mechanical energy is the kinetic energy plus potential energy. So it involves the kinetic energy of all the particles. So we have kinetic energy of the block plus kinetic energy of the earth. Well, since earth is not moving, we can ignore that. And kinetic energy of the earth's surface, again, we can ignore that. So it will involve the kinetic energy of the block. And then we have to think about the various potential energies. Well, which is the conservative force acting over here? Gravity is the conservative force. So we have gravitational potential energy. Any other conservative force part of our system? No. So our mechanical energy is going to be kinetic energy plus the gravitational potential energy. OK, now if there are any non-conservative forces or external forces doing work on my system, it will change its mechanical energy. This means the next step is to figure out which forces are doing work on my system. Well, the forces that are involved over here, well, there's the force of gravity. But I don't have to worry about gravity because gravity is a conservative force and it's a part of my system. It conserves mechanical energy. So it doesn't change it. I've already accounted for the work done by gravity by including potential energy over here. So I don't have to worry about gravity. It's a conservative force, which is part of my system. Are there any other forces? Yes, there is a normal force. But normal force does not do any work. Because normal force is always perpendicular to the direction of the motion. So the work done by normal force is zero. So I don't have to worry about normal force. Oh, then there is a force of friction over here. The force of friction will always oppose lighting over here. So the sliding friction will be to the left. But wait, friction is also a part of our system, right? Yeah, but friction is a non-conservative force. It does not conserve mechanical energy. So whenever you have non-conservative forces acting, whether it's a part of your system or not, it does not conserve mechanical energy. In fact, some of the mechanical energy actually gets dissipated as thermal energy. So friction is definitely doing work on my system, changing its mechanical energy. Is there any other force that's doing work on my system? No, that's it. So the only force that's doing work on my system, changing its mechanical energy is the frictional force. So we can now write that change in mechanical energy delta E equals the work done by friction. All right. So what is changing mechanical energy? Well, it's going to be final mechanical energy minus initial mechanical energy, and that equals the work done by friction. What's final mechanical energy? Well, it's the final kinetic energy plus the final gravitational potential energy minus initial kinetic energy plus the initial gravitational potential energy. That equals the work done by the friction. OK, but what is final and what's initial over here? Again, that's completely up to us. Since the block starts from here and then ends over here, well, let's just call this as our initial configuration and or initial state. And we can call this as our final state. OK, so now the picture is very clear. If you have a great idea to pause the video and see if you can substitute and simplify. All right, let's do this. So what's the final kinetic energy? Well, that's the kinetic energy at this point. At this point, the block has come to a stop. So the final kinetic energy of the block is 0. So our system's final kinetic energy is 0. What's the final gravitational potential energy of the system? Well, when the block is on the ground, we can choose that as our reference for 0 potential energy. Whenever we are very close to Earth, that's a great reference for your 0 of gravitational potential energy. So our block is on the ground over here. So we can say gravitational potential energy is also 0. So the final mechanical energy became 0. What's the initial kinetic energy? We are dropping the block from rest. So the initial kinetic energy is also 0. What is the final? Sorry, what is the initial potential? The gravitational potential energy over here. Ah, when the block is at some height hedge from the ground and we are very close to the Earth, the gravitational potential energy is just mg hedge, where m is the mass of the block. And g is the acceleration due to gravity. And so that's my left hand side. That should equal the work done by the force of friction. Well, that's just going to be the force of friction times the displacement. And there's going to be a negative sign because they're in the opposite direction. So it's going to be minus force of friction times the displacement d. And look, we have d in our equation. So we have to solve for d. So let's simplify. The left hand side just simplifies to negative mg hedge. And what happens to the right hand side? Well, we have this force of friction. Do we know the expression for force of friction? Yeah, it's mu k times the normal force. So it's going to be mu k times what's the normal force over here? Well, we have to consider the normal force over here because this is where the friction acts. So over here, normal force is just going to be equal to the gravitational force because there's no acceleration in the vertical. The forces are balanced in the vertical. So gravitational force is mg. Normal force is also going to be equal to mg. So it's going to be mu k times normal force, which is mg. So this is the force of friction times d. And mg cancels out. And there you have it. The negative sign cancels out. And so d equals hedge divided by mu k. And we have found the expression for this distance. OK, let's do a sense check. It's always a great idea to do a sense check over here. We find that d is directly related to height. More height, more the distance. Does that make sense? Yeah. I mean, if the block started higher, by the time it comes here, it would have much higher speed. And so we expect it to travel much farther before coming to a stop. If the block started lower, it would have much lower speed. And so you're expected to come to a stop much closer. So it makes sense that d is directly related to height. OK, we find that d is inversely related to the coefficient of kinetic friction. Does that make sense? Yeah. If this number is higher, the friction force is higher, and it'll stop sooner. So more the value of mu k, smaller the value of d, smaller the value of mu k, smaller the friction. And it will travel much farther before coming to a stop. So it makes sense. Also, we can take a look at some edge cases. What if H equals 0? Then d goes to 0. Does that make sense? Yeah, if the H is 0, that basically means we are just keeping the block over here. And so it wouldn't travel at all, obviously. So the d goes to 0. Does that make sense? If mu k is 0, we get a 0 in the denominator, and d kind of becomes what? Infinity, what does that even mean? Well, if mu k is 0, then there is no frictional force. And so the block would then continue to move forever. That's what it's saying. That makes perfect sense. Finally, what if mu k was infinitely large? Well, then d would be almost 0. Does that make sense? Yeah, if mu k was infinitely large, then you would have super, super strong force of friction. And the block would almost instantly deserate come to a stop, making d 0. So it all makes sense. You'll look at it from multiple angles. This makes a lot of sense. OK, the final thing we can do is we can choose a different system altogether and then see if we get the same answer. I mean, we should get the same answer, right? That's a good way to check our understanding. So what if we just consider the block as our system? Then how would things change? Well, we can try to do this in our heads. First of all, if we only consider the block as our system, then there's only one particle in our system, then the mechanical energy would just be the kinetic energy. So there will be no concept of gravitational potential energy because gravity is no longer part of our system. So let's look at what happens to the left hand side of the equation. The change in mechanical energy would just be the final kinetic energy minus the initial kinetic energy. And they're both 0. So left hand side would just be 0. But what would the right hand side be? Well, the right hand side is the work done on the system. Friction is, of course, doing work done just like before on our system. But this time, gravity will also do work on our system because gravity is no longer a part of our system. But what is the work done by gravity? Well, work done by gravity is the force of gravity times the vertical displacement, which is mg h. So notice this time, on the right hand side, I will not only have this term, but I also have a plus mg h, which will eventually give me the same equation, right? And so I would eventually get the same result. So it's always a great idea when you're practicing to choose multiple systems, and then just work it out. And just to see that you get the same answer."
+  }
+}

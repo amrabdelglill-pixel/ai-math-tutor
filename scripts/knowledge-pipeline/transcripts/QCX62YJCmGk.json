@@ -1,0 +1,734 @@
+{
+  "video_id": "QCX62YJCmGk",
+  "video_title": "This tests your understanding of light | The barber pole effect",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 597.0,
+  "view_count": 1358319,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.7,
+        "text": "The setup here starts with a cylinder full of sugar water, basically,"
+      },
+      {
+        "start": 3.7,
+        "duration": 2.8,
+        "text": "and we're about to shine some white light into it,"
+      },
+      {
+        "start": 6.5,
+        "duration": 4.2,
+        "text": "but before it gets there, it passes through a linearly polarizing filter."
+      },
+      {
+        "start": 10.6,
+        "duration": 3.7,
+        "text": "And what that means, basically, is that if you look at all of the light waves"
+      },
+      {
+        "start": 14.3,
+        "duration": 4.8,
+        "text": "beyond the point of that filter, those waves are only going to be wiggling in one direction,"
+      },
+      {
+        "start": 19.1,
+        "duration": 1.5,
+        "text": "say, up and down."
+      },
+      {
+        "start": 20.6,
+        "duration": 5.1,
+        "text": "And don't worry, in a few minutes, we're going to go into much more detail about what specifically is wiggling"
+      },
+      {
+        "start": 25.8,
+        "duration": 3.0,
+        "text": "and what the significance of that wiggling direction is."
+      },
+      {
+        "start": 28.7,
+        "duration": 3.7,
+        "text": "But skipping to the punchline first, the demo also includes a second"
+      },
+      {
+        "start": 32.4,
+        "duration": 2.7,
+        "text": "linearly polarizing filter coming out the other end."
+      },
+      {
+        "start": 35.1,
+        "duration": 3.1,
+        "text": "And I want you to predict what we're going to see once we turn the light on."
+      },
+      {
+        "start": 38.8,
+        "duration": 4.2,
+        "text": "Now I suspect some viewers might already have a little bit of a sense for what's going on,"
+      },
+      {
+        "start": 43.0,
+        "duration": 4.6,
+        "text": "because a few years ago, Steve Mold made a really excellent video about this phenomenon"
+      },
+      {
+        "start": 47.6,
+        "duration": 2.6,
+        "text": "of shining polarized light through sugar water."
+      },
+      {
+        "start": 50.2,
+        "duration": 4.0,
+        "text": "It was really well done, which is no surprise because everything Steve makes is."
+      },
+      {
+        "start": 54.3,
+        "duration": 4.7,
+        "text": "But even if you watched that, this is a rich enough phenomenon that there's still more to be explained."
+      },
+      {
+        "start": 59.0,
+        "duration": 5.6,
+        "text": "In fact, even if you made that video, this is a rich enough phenomenon that there's more to be explained."
+      },
+      {
+        "start": 64.6,
+        "duration": 5.3,
+        "text": "I'm curious, Steve, when you made that video, did you happen to get a good view of the side of the glass,"
+      },
+      {
+        "start": 69.9,
+        "duration": 3.0,
+        "text": "probably when the rest of the lights in the room were off or something like that?"
+      },
+      {
+        "start": 73.9,
+        "duration": 2.9,
+        "text": "No. No, I didn't think about the sign view."
+      },
+      {
+        "start": 77.6,
+        "duration": 5.8,
+        "text": "Great. So given the setup that we're looking at now, once we turn off the room lights and turn on the lamp,"
+      },
+      {
+        "start": 83.4,
+        "duration": 2.5,
+        "text": "I'm curious if you have a prediction for what you might see."
+      },
+      {
+        "start": 86.5,
+        "duration": 3.4,
+        "text": "Well, there will be some scattering, I suppose."
+      },
+      {
+        "start": 90.6,
+        "duration": 6.0,
+        "text": "But then if we're just looking at the tube, we're not applying any kind of filter to just looking"
+      },
+      {
+        "start": 96.6,
+        "duration": 4.6,
+        "text": "directly at the tube. So I mean, my instinct is nothing. Nothing will happen."
+      },
+      {
+        "start": 101.7,
+        "duration": 3.9,
+        "text": "That would have been my guess too. But let me just show you what it looks like when we turn off"
+      },
+      {
+        "start": 105.6,
+        "duration": 6.0,
+        "text": "the room lights and we turn on the lamp. Oh. And then if you turn the initial polarizer,"
+      },
+      {
+        "start": 111.6,
+        "duration": 4.4,
+        "text": "you can kind of see those stripes. Those diagonal stripes seem to walk up the tube."
+      },
+      {
+        "start": 116.0,
+        "duration": 5.3,
+        "text": "Oh, wow. But why diagonal? Exactly. Why diagonal?"
+      },
+      {
+        "start": 121.3,
+        "duration": 2.5,
+        "text": "But why anything? I mean, why anything? Yeah."
+      },
+      {
+        "start": 125.0,
+        "duration": 4.6,
+        "text": "Something about the interaction with sugar water separates the light out into these different"
+      },
+      {
+        "start": 129.6,
+        "duration": 5.6,
+        "text": "bands of color. But it does so in this really intriguing way, with the colors appear to form"
+      },
+      {
+        "start": 135.3,
+        "duration": 6.4,
+        "text": "these spiral helixes down the tube. And the other thing I want to draw your attention to"
+      },
+      {
+        "start": 141.7,
+        "duration": 4.2,
+        "text": "is the color that's coming out of the tube after it passes through that second filter."
+      },
+      {
+        "start": 146.8,
+        "duration": 4.3,
+        "text": "As we rotate the first filter, you rotate through a family of distinct hues."
+      },
+      {
+        "start": 151.9,
+        "duration": 3.4,
+        "text": "And it doesn't have to be the first filter. If you rotate that second filter,"
+      },
+      {
+        "start": 155.3,
+        "duration": 2.2,
+        "text": "you also rotate through these various different colors."
+      },
+      {
+        "start": 158.6,
+        "duration": 2.8,
+        "text": "That's Quinn, by the way, who kindly set up this whole demo."
+      },
+      {
+        "start": 162.1,
+        "duration": 4.6,
+        "text": "And what I love about this setup is that if you want to really understand what you're looking at,"
+      },
+      {
+        "start": 166.7,
+        "duration": 3.8,
+        "text": "with that deep to your bones satisfying sense of what's going on,"
+      },
+      {
+        "start": 170.6,
+        "duration": 4.8,
+        "text": "it requires having very solid intuitions for a number of different fundamental concepts about"
+      },
+      {
+        "start": 175.4,
+        "duration": 5.3,
+        "text": "light, like polarization, how scattering works, and how an index of refraction works."
+      },
+      {
+        "start": 181.5,
+        "duration": 5.0,
+        "text": "To kick things off, let me show you the overall structure for the explanation of what's going on here,"
+      },
+      {
+        "start": 186.5,
+        "duration": 3.3,
+        "text": "and along the way, record various questions that we still need to answer."
+      },
+      {
+        "start": 190.7,
+        "duration": 5.0,
+        "text": "A basic premise to the whole thing is to think about polarized light as a propagating wave,"
+      },
+      {
+        "start": 195.8,
+        "duration": 4.1,
+        "text": "which is wiggling in just one direction. And I suppose question number zero,"
+      },
+      {
+        "start": 199.8,
+        "duration": 4.6,
+        "text": "it's for us to be clear about what exactly is wiggling. Postponing that for the moment,"
+      },
+      {
+        "start": 204.4,
+        "duration": 5.1,
+        "text": "we'll just say if we think about it as propagating in one direction, say along an x-axis,"
+      },
+      {
+        "start": 209.5,
+        "duration": 3.4,
+        "text": "the wiggling happens perpendicular to that, say in the z direction."
+      },
+      {
+        "start": 213.7,
+        "duration": 4.4,
+        "text": "What's going on when it passes through this tube of sugar water, is that that wiggling direction"
+      },
+      {
+        "start": 218.2,
+        "duration": 5.8,
+        "text": "gets twisted. And so the first key question is why? What is it about interaction with sugar that"
+      },
+      {
+        "start": 224.0,
+        "duration": 5.1,
+        "text": "causes this twist? And just so that it's crystal clear what I mean by twisting, if you focus your"
+      },
+      {
+        "start": 229.1,
+        "duration": 5.5,
+        "text": "attention on a single slice perpendicular to the axis of the cylinder, and draw a line indicating"
+      },
+      {
+        "start": 234.6,
+        "duration": 5.4,
+        "text": "how the light is wiggling on that slice, then if you were to move that slice down the cylinder,"
+      },
+      {
+        "start": 240.0,
+        "duration": 5.0,
+        "text": "the relevant wiggling direction slowly turns about the axis of the cylinder."
+      },
+      {
+        "start": 245.6,
+        "duration": 5.0,
+        "text": "Critically, the rate at which it's getting twisted depends on the frequency of the light."
+      },
+      {
+        "start": 251.1,
+        "duration": 5.4,
+        "text": "Higher frequency light, say violet, actually gets twisted more quickly than low frequency light,"
+      },
+      {
+        "start": 256.6,
+        "duration": 5.8,
+        "text": "like red. So the second key question we need to answer is why would that twisting rate"
+      },
+      {
+        "start": 262.3,
+        "duration": 5.0,
+        "text": "depend on the frequency? Whatever explanation we come to for why the twisting happens in the first"
+      },
+      {
+        "start": 267.4,
+        "duration": 4.8,
+        "text": "place, it should offer some intuition for where the dependence on frequency would come from."
+      },
+      {
+        "start": 272.6,
+        "duration": 4.9,
+        "text": "Let's take a moment to think about what it means that different colors of light are getting"
+      },
+      {
+        "start": 277.4,
+        "duration": 5.3,
+        "text": "twisted at different rates. In the demo, we're shining in white light, and white light is not a"
+      },
+      {
+        "start": 282.7,
+        "duration": 5.2,
+        "text": "clean pure sine wave, it's something more complicated, and you typically think about it as a combination"
+      },
+      {
+        "start": 287.9,
+        "duration": 4.6,
+        "text": "of many different pure sine waves, each one corresponding to one of the colors in the rainbow."
+      },
+      {
+        "start": 293.2,
+        "duration": 4.1,
+        "text": "For this animation, I will schematically represent the wiggling direction for each pure"
+      },
+      {
+        "start": 297.3,
+        "duration": 6.4,
+        "text": "frequency, just with a line. So the key idea is that as all of those different waves propagate"
+      },
+      {
+        "start": 303.7,
+        "duration": 5.4,
+        "text": "down the tube with different pure frequencies twisting at different rates, purple light twisting"
+      },
+      {
+        "start": 309.0,
+        "duration": 5.2,
+        "text": "the fastest and red light twisting the slowest, then the polarization directions for each one of"
+      },
+      {
+        "start": 314.2,
+        "duration": 5.2,
+        "text": "those pure colors get separated out. For example, by the time you reach the end of the tube,"
+      },
+      {
+        "start": 319.4,
+        "duration": 5.0,
+        "text": "they all have their own distinct wiggling directions. But one thing that's important to understand"
+      },
+      {
+        "start": 324.4,
+        "duration": 4.5,
+        "text": "is that this is still white light. If you were to put your eye at the end of the tube and look"
+      },
+      {
+        "start": 328.9,
+        "duration": 5.0,
+        "text": "towards the lamp, it wouldn't look colored in any way, because even if the wiggling directions are"
+      },
+      {
+        "start": 333.8,
+        "duration": 4.5,
+        "text": "all different, there's still the same amount of each color as there was at the start."
+      },
+      {
+        "start": 338.3,
+        "duration": 5.7,
+        "text": "In order to see any evidence of the separation, one thing you could do is pass it all through a second"
+      },
+      {
+        "start": 344.0,
+        "duration": 6.3,
+        "text": "linear polarizing filter, say in the vertical direction. The effect that has is that the amount of"
+      },
+      {
+        "start": 350.3,
+        "duration": 6.1,
+        "text": "light of a given frequency passing through is equal to the component of its polarization direction"
+      },
+      {
+        "start": 356.4,
+        "duration": 5.3,
+        "text": "that lines up with the filter. So colors which happen to align very closely with that filter"
+      },
+      {
+        "start": 361.7,
+        "duration": 5.0,
+        "text": "pass through almost completely, whereas colors which end up more perpendicular to the filter"
+      },
+      {
+        "start": 366.7,
+        "duration": 6.6,
+        "text": "pass through only very weekly. So the light coming out the other end of this filter is some"
+      },
+      {
+        "start": 373.4,
+        "duration": 4.6,
+        "text": "imbalanced combination of all of the pure frequencies, which is why what we see coming out the"
+      },
+      {
+        "start": 378.0,
+        "duration": 5.9,
+        "text": "other end is no longer white, but some other color. And notice if we rotate the whole setup,"
+      },
+      {
+        "start": 383.9,
+        "duration": 4.8,
+        "text": "say by twisting the initial polarizing filter, then that changes the components of each"
+      },
+      {
+        "start": 388.7,
+        "duration": 5.7,
+        "text": "pre-refrequency that happen to be vertical, resulting in a different balance of all those colors,"
+      },
+      {
+        "start": 394.4,
+        "duration": 4.8,
+        "text": "which is why rotating the initial filter changes the color you see coming out the other end."
+      },
+      {
+        "start": 399.7,
+        "duration": 3.4,
+        "text": "And this is something you can do at home by the way, you don't need a very fancy setup,"
+      },
+      {
+        "start": 403.1,
+        "duration": 4.1,
+        "text": "start by creating a pretty dense mixture of sugar water, and then you'll need to get your hands"
+      },
+      {
+        "start": 407.2,
+        "duration": 4.5,
+        "text": "on some polarizing filters so that you can pass light first through one of those filters,"
+      },
+      {
+        "start": 411.7,
+        "duration": 4.6,
+        "text": "then through the sugar water, and then through a second filter. And if you look at this whole setup"
+      },
+      {
+        "start": 416.2,
+        "duration": 4.1,
+        "text": "from the top, as you rotate one of those filters, you'll see different colors."
+      },
+      {
+        "start": 421.6,
+        "duration": 4.2,
+        "text": "But even if you understand this, the thing that really had me scratching my head when"
+      },
+      {
+        "start": 425.8,
+        "duration": 5.1,
+        "text": "Quinn showed me this demo was why you would see diagonal stripes when you view the cylinder from"
+      },
+      {
+        "start": 430.9,
+        "duration": 5.0,
+        "text": "the side. I mean, take a moment to think about this. At any point down the tube, even though all"
+      },
+      {
+        "start": 435.9,
+        "duration": 5.3,
+        "text": "the colors have been rotated differently, again, the light at that point is still white, it's still"
+      },
+      {
+        "start": 441.2,
+        "duration": 4.4,
+        "text": "an equal balance of all the different colors. If you were to stick your eye inside the tube and"
+      },
+      {
+        "start": 445.6,
+        "duration": 5.4,
+        "text": "look towards the lamp, you would see white. So why would viewing it from the side change what you see?"
+      },
+      {
+        "start": 451.8,
+        "duration": 4.1,
+        "text": "The way I've made this animation, I've just left a faint shadow representing the wiggling"
+      },
+      {
+        "start": 455.9,
+        "duration": 5.2,
+        "text": "direction for each color along the way down the tube. But that's just a cartoon, it's a schematic"
+      },
+      {
+        "start": 461.1,
+        "duration": 4.7,
+        "text": "representation. Why is it that the actual way that light interacts with the molecules within"
+      },
+      {
+        "start": 465.8,
+        "duration": 5.3,
+        "text": "the tube would discriminate between the colors in any way? And why would the stripes be diagonal?"
+      },
+      {
+        "start": 471.1,
+        "duration": 3.2,
+        "text": "Wouldn't you think the setup should be completely symmetric from top to bottom?"
+      },
+      {
+        "start": 477.4,
+        "duration": 5.0,
+        "text": "So these are the main questions we need to answer. Why would sugar cause the light to twist?"
+      },
+      {
+        "start": 482.3,
+        "duration": 5.0,
+        "text": "Why would the rate at which it twists depend on the frequency of the light? And why even if you"
+      },
+      {
+        "start": 487.3,
+        "duration": 5.0,
+        "text": "understand both those facts, would you be seeing different colors appear in these diagonal stripes?"
+      },
+      {
+        "start": 493.6,
+        "duration": 4.7,
+        "text": "You can answer these questions if you have a handful of key intuitions about optics."
+      },
+      {
+        "start": 498.3,
+        "duration": 5.8,
+        "text": "The first question requires understanding circularly polarized light. Since the key is that sucrose"
+      },
+      {
+        "start": 504.2,
+        "duration": 4.9,
+        "text": "is a chiral molecule, which is to say there's a handedness to it, it's different from its mirror"
+      },
+      {
+        "start": 509.0,
+        "duration": 5.4,
+        "text": "image, and the slightly different effects that it has on right-handed versus left-handed circularly"
+      },
+      {
+        "start": 514.5,
+        "duration": 6.2,
+        "text": "polarized light ends up explaining the twist. The second question requires understanding why"
+      },
+      {
+        "start": 520.7,
+        "duration": 5.4,
+        "text": "light appears to slow down when it passes through a material. A sufficiently mathematical"
+      },
+      {
+        "start": 526.2,
+        "duration": 5.2,
+        "text": "understanding for where that slow down comes from ultimately explains the color separation here."
+      },
+      {
+        "start": 531.4,
+        "duration": 4.3,
+        "text": "And the third question comes down to the fact that when light scatters off of a material,"
+      },
+      {
+        "start": 535.7,
+        "duration": 4.9,
+        "text": "it's not like some projectile bouncing in any old direction. The direction of scattering"
+      },
+      {
+        "start": 540.6,
+        "duration": 3.8,
+        "text": "depends on the direction of polarization, and there's a very good reason for it."
+      },
+      {
+        "start": 546.5,
+        "duration": 5.4,
+        "text": "My aim is for all of these answers to feel less like facts that I'm handing down from on high,"
+      },
+      {
+        "start": 551.8,
+        "duration": 4.9,
+        "text": "and more like inevitable discoveries emerging from a fundamental understanding for what light"
+      },
+      {
+        "start": 556.7,
+        "duration": 5.8,
+        "text": "actually is. For that, we'll begin by returning to that question number zero. What exactly"
+      },
+      {
+        "start": 562.5,
+        "duration": 5.7,
+        "text": "is wiggling? Which is to say, what is light? If you're curious about how the full explanation"
+      },
+      {
+        "start": 568.2,
+        "duration": 6.6,
+        "text": "unfolds, come join me in the next video. It's really surprising. I'm really surprised."
+      },
+      {
+        "start": 574.7,
+        "duration": 4.4,
+        "text": "Do you notice it in person as well, presumably? It's not just that it appears in the camera."
+      },
+      {
+        "start": 579.1,
+        "duration": 4.5,
+        "text": "It's actually more striking in person, I think just because of how the color of the camera works,"
+      },
+      {
+        "start": 583.6,
+        "duration": 5.3,
+        "text": "it's more intense. I mean, it's for the same reason you can't take a good picture of a rainbow."
+      },
+      {
+        "start": 588.9,
+        "duration": 4.6,
+        "text": "It's that our brains do something to make rainbows more vibrant than they really are."
+      }
+    ],
+    "full_text": "The setup here starts with a cylinder full of sugar water, basically, and we're about to shine some white light into it, but before it gets there, it passes through a linearly polarizing filter. And what that means, basically, is that if you look at all of the light waves beyond the point of that filter, those waves are only going to be wiggling in one direction, say, up and down. And don't worry, in a few minutes, we're going to go into much more detail about what specifically is wiggling and what the significance of that wiggling direction is. But skipping to the punchline first, the demo also includes a second linearly polarizing filter coming out the other end. And I want you to predict what we're going to see once we turn the light on. Now I suspect some viewers might already have a little bit of a sense for what's going on, because a few years ago, Steve Mold made a really excellent video about this phenomenon of shining polarized light through sugar water. It was really well done, which is no surprise because everything Steve makes is. But even if you watched that, this is a rich enough phenomenon that there's still more to be explained. In fact, even if you made that video, this is a rich enough phenomenon that there's more to be explained. I'm curious, Steve, when you made that video, did you happen to get a good view of the side of the glass, probably when the rest of the lights in the room were off or something like that? No. No, I didn't think about the sign view. Great. So given the setup that we're looking at now, once we turn off the room lights and turn on the lamp, I'm curious if you have a prediction for what you might see. Well, there will be some scattering, I suppose. But then if we're just looking at the tube, we're not applying any kind of filter to just looking directly at the tube. So I mean, my instinct is nothing. Nothing will happen. That would have been my guess too. But let me just show you what it looks like when we turn off the room lights and we turn on the lamp. Oh. And then if you turn the initial polarizer, you can kind of see those stripes. Those diagonal stripes seem to walk up the tube. Oh, wow. But why diagonal? Exactly. Why diagonal? But why anything? I mean, why anything? Yeah. Something about the interaction with sugar water separates the light out into these different bands of color. But it does so in this really intriguing way, with the colors appear to form these spiral helixes down the tube. And the other thing I want to draw your attention to is the color that's coming out of the tube after it passes through that second filter. As we rotate the first filter, you rotate through a family of distinct hues. And it doesn't have to be the first filter. If you rotate that second filter, you also rotate through these various different colors. That's Quinn, by the way, who kindly set up this whole demo. And what I love about this setup is that if you want to really understand what you're looking at, with that deep to your bones satisfying sense of what's going on, it requires having very solid intuitions for a number of different fundamental concepts about light, like polarization, how scattering works, and how an index of refraction works. To kick things off, let me show you the overall structure for the explanation of what's going on here, and along the way, record various questions that we still need to answer. A basic premise to the whole thing is to think about polarized light as a propagating wave, which is wiggling in just one direction. And I suppose question number zero, it's for us to be clear about what exactly is wiggling. Postponing that for the moment, we'll just say if we think about it as propagating in one direction, say along an x-axis, the wiggling happens perpendicular to that, say in the z direction. What's going on when it passes through this tube of sugar water, is that that wiggling direction gets twisted. And so the first key question is why? What is it about interaction with sugar that causes this twist? And just so that it's crystal clear what I mean by twisting, if you focus your attention on a single slice perpendicular to the axis of the cylinder, and draw a line indicating how the light is wiggling on that slice, then if you were to move that slice down the cylinder, the relevant wiggling direction slowly turns about the axis of the cylinder. Critically, the rate at which it's getting twisted depends on the frequency of the light. Higher frequency light, say violet, actually gets twisted more quickly than low frequency light, like red. So the second key question we need to answer is why would that twisting rate depend on the frequency? Whatever explanation we come to for why the twisting happens in the first place, it should offer some intuition for where the dependence on frequency would come from. Let's take a moment to think about what it means that different colors of light are getting twisted at different rates. In the demo, we're shining in white light, and white light is not a clean pure sine wave, it's something more complicated, and you typically think about it as a combination of many different pure sine waves, each one corresponding to one of the colors in the rainbow. For this animation, I will schematically represent the wiggling direction for each pure frequency, just with a line. So the key idea is that as all of those different waves propagate down the tube with different pure frequencies twisting at different rates, purple light twisting the fastest and red light twisting the slowest, then the polarization directions for each one of those pure colors get separated out. For example, by the time you reach the end of the tube, they all have their own distinct wiggling directions. But one thing that's important to understand is that this is still white light. If you were to put your eye at the end of the tube and look towards the lamp, it wouldn't look colored in any way, because even if the wiggling directions are all different, there's still the same amount of each color as there was at the start. In order to see any evidence of the separation, one thing you could do is pass it all through a second linear polarizing filter, say in the vertical direction. The effect that has is that the amount of light of a given frequency passing through is equal to the component of its polarization direction that lines up with the filter. So colors which happen to align very closely with that filter pass through almost completely, whereas colors which end up more perpendicular to the filter pass through only very weekly. So the light coming out the other end of this filter is some imbalanced combination of all of the pure frequencies, which is why what we see coming out the other end is no longer white, but some other color. And notice if we rotate the whole setup, say by twisting the initial polarizing filter, then that changes the components of each pre-refrequency that happen to be vertical, resulting in a different balance of all those colors, which is why rotating the initial filter changes the color you see coming out the other end. And this is something you can do at home by the way, you don't need a very fancy setup, start by creating a pretty dense mixture of sugar water, and then you'll need to get your hands on some polarizing filters so that you can pass light first through one of those filters, then through the sugar water, and then through a second filter. And if you look at this whole setup from the top, as you rotate one of those filters, you'll see different colors. But even if you understand this, the thing that really had me scratching my head when Quinn showed me this demo was why you would see diagonal stripes when you view the cylinder from the side. I mean, take a moment to think about this. At any point down the tube, even though all the colors have been rotated differently, again, the light at that point is still white, it's still an equal balance of all the different colors. If you were to stick your eye inside the tube and look towards the lamp, you would see white. So why would viewing it from the side change what you see? The way I've made this animation, I've just left a faint shadow representing the wiggling direction for each color along the way down the tube. But that's just a cartoon, it's a schematic representation. Why is it that the actual way that light interacts with the molecules within the tube would discriminate between the colors in any way? And why would the stripes be diagonal? Wouldn't you think the setup should be completely symmetric from top to bottom? So these are the main questions we need to answer. Why would sugar cause the light to twist? Why would the rate at which it twists depend on the frequency of the light? And why even if you understand both those facts, would you be seeing different colors appear in these diagonal stripes? You can answer these questions if you have a handful of key intuitions about optics. The first question requires understanding circularly polarized light. Since the key is that sucrose is a chiral molecule, which is to say there's a handedness to it, it's different from its mirror image, and the slightly different effects that it has on right-handed versus left-handed circularly polarized light ends up explaining the twist. The second question requires understanding why light appears to slow down when it passes through a material. A sufficiently mathematical understanding for where that slow down comes from ultimately explains the color separation here. And the third question comes down to the fact that when light scatters off of a material, it's not like some projectile bouncing in any old direction. The direction of scattering depends on the direction of polarization, and there's a very good reason for it. My aim is for all of these answers to feel less like facts that I'm handing down from on high, and more like inevitable discoveries emerging from a fundamental understanding for what light actually is. For that, we'll begin by returning to that question number zero. What exactly is wiggling? Which is to say, what is light? If you're curious about how the full explanation unfolds, come join me in the next video. It's really surprising. I'm really surprised. Do you notice it in person as well, presumably? It's not just that it appears in the camera. It's actually more striking in person, I think just because of how the color of the camera works, it's more intense. I mean, it's for the same reason you can't take a good picture of a rainbow. It's that our brains do something to make rainbows more vibrant than they really are."
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "video_id": "LPZh9BOjkQs",
+  "video_title": "Large Language Models explained briefly",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 478.0,
+  "view_count": 5778321,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 5.9,
+        "text": "Imagine you happen across a short movie script that describes a scene between a person"
+      },
+      {
+        "start": 5.9,
+        "duration": 1.7,
+        "text": "and their AI assistant."
+      },
+      {
+        "start": 7.6,
+        "duration": 6.1,
+        "text": "The script has what the person asks the AI, but the AI's response has been torn off."
+      },
+      {
+        "start": 13.7,
+        "duration": 4.6,
+        "text": "Suppose you also have this powerful magical machine that can take any text and provide"
+      },
+      {
+        "start": 18.3,
+        "duration": 3.2,
+        "text": "a sensible prediction of what word comes next."
+      },
+      {
+        "start": 21.5,
+        "duration": 3.9,
+        "text": "You can then finish the script by feeding in what you have to the machine, seeing what"
+      },
+      {
+        "start": 25.4,
+        "duration": 5.3,
+        "text": "it would predict to start the AI's answer, and then repeating this over and over with"
+      },
+      {
+        "start": 30.6,
+        "duration": 2.8,
+        "text": "a growing script completing the dialogue."
+      },
+      {
+        "start": 33.5,
+        "duration": 3.6,
+        "text": "When you interact with a chatbot, this is exactly what's happening."
+      },
+      {
+        "start": 37.0,
+        "duration": 4.6,
+        "text": "A large language model is a sophisticated mathematical function that predicts what word"
+      },
+      {
+        "start": 41.6,
+        "duration": 3.0,
+        "text": "comes next for any piece of text."
+      },
+      {
+        "start": 44.6,
+        "duration": 4.6,
+        "text": "Instead of predicting one word with certainty, though, what it does is assign a probability"
+      },
+      {
+        "start": 49.2,
+        "duration": 2.4,
+        "text": "to all possible next words."
+      },
+      {
+        "start": 51.6,
+        "duration": 4.5,
+        "text": "To build a chatbot, what you do is lay out some text that describes an interaction between"
+      },
+      {
+        "start": 56.2,
+        "duration": 3.1,
+        "text": "a user and a hypothetical AI assistant."
+      },
+      {
+        "start": 59.3,
+        "duration": 4.6,
+        "text": "You add on whatever the user types in as the first part of that interaction."
+      },
+      {
+        "start": 63.9,
+        "duration": 4.4,
+        "text": "And then you have the model repeatedly predict the next word that such a hypothetical AI"
+      },
+      {
+        "start": 68.3,
+        "duration": 4.8,
+        "text": "assistant would say in response, and that's what's presented to the user."
+      },
+      {
+        "start": 73.1,
+        "duration": 3.8,
+        "text": "In doing this, the output tends to look a lot more natural if you allow it to select"
+      },
+      {
+        "start": 76.9,
+        "duration": 3.2,
+        "text": "less likely words along the way at random."
+      },
+      {
+        "start": 80.1,
+        "duration": 4.8,
+        "text": "So what this means is even though the model itself is deterministic, a given prompt typically"
+      },
+      {
+        "start": 84.9,
+        "duration": 3.3,
+        "text": "gives a different answer each time it's run."
+      },
+      {
+        "start": 88.2,
+        "duration": 4.6,
+        "text": "Models learn how to make these predictions by processing an enormous amount of text,"
+      },
+      {
+        "start": 92.8,
+        "duration": 1.7,
+        "text": "typically pulled from the internet."
+      },
+      {
+        "start": 94.6,
+        "duration": 5.1,
+        "text": "For a standard human to read the amount of text that was used to train GPT-3, for example,"
+      },
+      {
+        "start": 99.7,
+        "duration": 6.4,
+        "text": "if they read non-stop 24-7, it would take over 2600 years, larger models since then,"
+      },
+      {
+        "start": 106.1,
+        "duration": 2.1,
+        "text": "train on much, much more."
+      },
+      {
+        "start": 108.2,
+        "duration": 4.0,
+        "text": "You can think of training a little bit like tuning the dials on a big machine."
+      },
+      {
+        "start": 112.3,
+        "duration": 4.9,
+        "text": "The way that a language model behaves is entirely determined by these many different continuous"
+      },
+      {
+        "start": 117.2,
+        "duration": 4.3,
+        "text": "values, usually called parameters or weights."
+      },
+      {
+        "start": 121.5,
+        "duration": 4.3,
+        "text": "Changing those parameters will change the probabilities that the model gives for the next"
+      },
+      {
+        "start": 125.8,
+        "duration": 2.1,
+        "text": "word on a given input."
+      },
+      {
+        "start": 127.9,
+        "duration": 5.1,
+        "text": "What puts the large in large language model is how they can have hundreds of billions of"
+      },
+      {
+        "start": 133.0,
+        "duration": 2.4,
+        "text": "these parameters."
+      },
+      {
+        "start": 135.3,
+        "duration": 3.2,
+        "text": "No human ever deliberately sets those parameters."
+      },
+      {
+        "start": 138.5,
+        "duration": 5.0,
+        "text": "Instead they begin at random, meaning the model just outputs gibberish, but they're repeatedly"
+      },
+      {
+        "start": 143.5,
+        "duration": 3.8,
+        "text": "refined based on many example pieces of text."
+      },
+      {
+        "start": 147.4,
+        "duration": 4.5,
+        "text": "One of these training examples could be just a handful of words, or it could be thousands,"
+      },
+      {
+        "start": 151.9,
+        "duration": 5.0,
+        "text": "but in either case the way this works is to pass in all but the last word from that example"
+      },
+      {
+        "start": 156.9,
+        "duration": 4.8,
+        "text": "into the model and compare the prediction that it makes with the true last word from"
+      },
+      {
+        "start": 161.7,
+        "duration": 1.6,
+        "text": "the example."
+      },
+      {
+        "start": 163.3,
+        "duration": 5.3,
+        "text": "An algorithm called back propagation is used to tweak all of the parameters in such a way"
+      },
+      {
+        "start": 168.6,
+        "duration": 4.9,
+        "text": "that it makes the model a little more likely to choose the true last word and a little less"
+      },
+      {
+        "start": 173.5,
+        "duration": 2.8,
+        "text": "likely to choose all the others."
+      },
+      {
+        "start": 176.2,
+        "duration": 4.8,
+        "text": "When you do this for many, many trillions of examples, not only does the model start to"
+      },
+      {
+        "start": 181.1,
+        "duration": 4.6,
+        "text": "give more accurate predictions on the training data, but it also starts to make more reasonable"
+      },
+      {
+        "start": 185.6,
+        "duration": 3.9,
+        "text": "predictions on text that it's never seen before."
+      },
+      {
+        "start": 189.6,
+        "duration": 4.8,
+        "text": "Given the huge number of parameters and the enormous amount of training data, the scale"
+      },
+      {
+        "start": 194.4,
+        "duration": 5.3,
+        "text": "of computation involved in training a large language model is mind-boggling."
+      },
+      {
+        "start": 199.6,
+        "duration": 4.7,
+        "text": "To illustrate, imagine that you could perform one billion additions and multiplications"
+      },
+      {
+        "start": 204.3,
+        "duration": 1.7,
+        "text": "every single second."
+      },
+      {
+        "start": 206.0,
+        "duration": 4.6,
+        "text": "How long do you think that it would take for you to do all of the operations involved"
+      },
+      {
+        "start": 210.6,
+        "duration": 2.8,
+        "text": "in training the largest language models?"
+      },
+      {
+        "start": 213.5,
+        "duration": 2.7,
+        "text": "Do you think it would take a year?"
+      },
+      {
+        "start": 216.2,
+        "duration": 2.9,
+        "text": "Maybe something like 10,000 years?"
+      },
+      {
+        "start": 219.1,
+        "duration": 2.2,
+        "text": "The answer is actually much more than that."
+      },
+      {
+        "start": 221.2,
+        "duration": 4.5,
+        "text": "It's well over 100 million years."
+      },
+      {
+        "start": 225.7,
+        "duration": 1.9,
+        "text": "This is only part of the story though."
+      },
+      {
+        "start": 227.6,
+        "duration": 2.1,
+        "text": "This whole process is called pre-training."
+      },
+      {
+        "start": 229.8,
+        "duration": 4.3,
+        "text": "The goal of auto-completing a random passage of text from the internet is very different"
+      },
+      {
+        "start": 234.1,
+        "duration": 2.8,
+        "text": "from the goal of being a good AI assistant."
+      },
+      {
+        "start": 236.8,
+        "duration": 5.4,
+        "text": "To address this, chatbots undergo another type of training, just as important, called reinforcement"
+      },
+      {
+        "start": 242.3,
+        "duration": 2.5,
+        "text": "learning with human feedback."
+      },
+      {
+        "start": 244.8,
+        "duration": 4.9,
+        "text": "Use flag-unhelpful or problematic predictions and their corrections further change the"
+      },
+      {
+        "start": 249.7,
+        "duration": 6.0,
+        "text": "model's parameters, making them more likely to give predictions that users prefer."
+      },
+      {
+        "start": 255.6,
+        "duration": 4.4,
+        "text": "Looking back at the pre-training though, this staggering amount of computation is only"
+      },
+      {
+        "start": 260.0,
+        "duration": 4.6,
+        "text": "made possible by using special computer chips that are optimized for running many, many"
+      },
+      {
+        "start": 264.6,
+        "duration": 3.2,
+        "text": "operations in parallel, known as GPUs."
+      },
+      {
+        "start": 267.8,
+        "duration": 4.4,
+        "text": "However, not all language models can be easily parallelized."
+      },
+      {
+        "start": 272.3,
+        "duration": 5.1,
+        "text": "Prior to 2017, most language models would process text one word at a time."
+      },
+      {
+        "start": 277.4,
+        "duration": 6.5,
+        "text": "But then, a team of researchers at Google introduced a new model known as the transformer."
+      },
+      {
+        "start": 283.9,
+        "duration": 2.8,
+        "text": "Transformers don't read text from the start to the finish."
+      },
+      {
+        "start": 286.6,
+        "duration": 3.2,
+        "text": "They soak it all in at once in parallel."
+      },
+      {
+        "start": 289.9,
+        "duration": 4.6,
+        "text": "The very first step inside a transformer and most other language models for that matter"
+      },
+      {
+        "start": 294.4,
+        "duration": 3.4,
+        "text": "is to associate each word with a long list of numbers."
+      },
+      {
+        "start": 297.8,
+        "duration": 4.8,
+        "text": "The reason for this is that the training process only works with continuous values, so"
+      },
+      {
+        "start": 302.6,
+        "duration": 4.7,
+        "text": "you have to somehow encode language using numbers, and each of these list of numbers may"
+      },
+      {
+        "start": 307.3,
+        "duration": 3.7,
+        "text": "somehow encode the meaning of the corresponding word."
+      },
+      {
+        "start": 311.0,
+        "duration": 6.0,
+        "text": "What makes Transformers unique is their reliance on a special operation known as attention."
+      },
+      {
+        "start": 317.0,
+        "duration": 4.4,
+        "text": "This operation gives all of these lists of numbers a chance to talk to one another, and"
+      },
+      {
+        "start": 321.4,
+        "duration": 6.0,
+        "text": "refine the meanings that they encode based on the context around, all done in parallel."
+      },
+      {
+        "start": 327.4,
+        "duration": 4.6,
+        "text": "For example, the numbers encoding the word bank might be changed based on the context"
+      },
+      {
+        "start": 332.0,
+        "duration": 5.9,
+        "text": "surrounding it to somehow encode the more specific notion of a river bank."
+      },
+      {
+        "start": 337.9,
+        "duration": 4.5,
+        "text": "Transformers typically also include a second type of operation known as a feed-forward"
+      },
+      {
+        "start": 342.4,
+        "duration": 5.0,
+        "text": "neural network, and this gives the model extra capacity to store more patterns about language"
+      },
+      {
+        "start": 347.4,
+        "duration": 2.0,
+        "text": "learned during training."
+      },
+      {
+        "start": 349.4,
+        "duration": 4.5,
+        "text": "All of this data repeatedly flows through many different iterations of these two fundamental"
+      },
+      {
+        "start": 353.9,
+        "duration": 1.3,
+        "text": "operations."
+      },
+      {
+        "start": 355.2,
+        "duration": 5.1,
+        "text": "And as it does so, the hope is that each list of numbers is enriched to encode whatever"
+      },
+      {
+        "start": 360.2,
+        "duration": 6.7,
+        "text": "information might be needed to make an accurate prediction of what word follows in the passage."
+      },
+      {
+        "start": 367.0,
+        "duration": 5.0,
+        "text": "At the end, one final function is performed on the last vector in this sequence, which"
+      },
+      {
+        "start": 372.0,
+        "duration": 4.8,
+        "text": "now has had a chance to be influenced by all the other context from the input text, as"
+      },
+      {
+        "start": 376.8,
+        "duration": 4.8,
+        "text": "well as everything the model learned during training, to produce a prediction of the next"
+      },
+      {
+        "start": 381.6,
+        "duration": 1.0,
+        "text": "word."
+      },
+      {
+        "start": 382.6,
+        "duration": 6.0,
+        "text": "Then the model's prediction looks like a probability for every possible next word."
+      },
+      {
+        "start": 388.7,
+        "duration": 4.4,
+        "text": "Although researchers design the framework for how each of these steps work, it's important"
+      },
+      {
+        "start": 393.1,
+        "duration": 5.0,
+        "text": "to understand that the specific behavior is an emergent phenomenon based on how those"
+      },
+      {
+        "start": 398.1,
+        "duration": 4.4,
+        "text": "hundreds of billions of parameters are tuned during training."
+      },
+      {
+        "start": 402.6,
+        "duration": 4.6,
+        "text": "This makes it incredibly challenging to determine why the model makes the exact predictions"
+      },
+      {
+        "start": 407.2,
+        "duration": 1.3,
+        "text": "that it does."
+      },
+      {
+        "start": 408.5,
+        "duration": 4.4,
+        "text": "What you can see is that when you use large language model predictions to autocomplete"
+      },
+      {
+        "start": 412.9,
+        "duration": 12.9,
+        "text": "a prompt, the words that it generates are uncannily fluent, fascinating, and even useful."
+      },
+      {
+        "start": 425.8,
+        "duration": 3.5,
+        "text": "If you're a new viewer and you're curious about more details on how transformers and"
+      },
+      {
+        "start": 429.2,
+        "duration": 3.3,
+        "text": "attention work, boy do I have some material for you."
+      },
+      {
+        "start": 432.5,
+        "duration": 4.7,
+        "text": "One option is to jump into a series I made about deep learning, where we visualize and"
+      },
+      {
+        "start": 437.2,
+        "duration": 5.0,
+        "text": "motivate the details of attention and all the other steps in a transformer."
+      },
+      {
+        "start": 442.2,
+        "duration": 3.8,
+        "text": "But also, on my second channel I just posted a talk that I gave a couple months ago about"
+      },
+      {
+        "start": 446.0,
+        "duration": 3.1,
+        "text": "this topic for the company TNG in Munich."
+      },
+      {
+        "start": 449.1,
+        "duration": 3.9,
+        "text": "Sometimes I actually prefer the content that I make as a casual talk rather than a produced"
+      },
+      {
+        "start": 453.0,
+        "duration": 3.8,
+        "text": "video, but I leave it up to you which one of these feels like the better follow on."
+      }
+    ],
+    "full_text": "Imagine you happen across a short movie script that describes a scene between a person and their AI assistant. The script has what the person asks the AI, but the AI's response has been torn off. Suppose you also have this powerful magical machine that can take any text and provide a sensible prediction of what word comes next. You can then finish the script by feeding in what you have to the machine, seeing what it would predict to start the AI's answer, and then repeating this over and over with a growing script completing the dialogue. When you interact with a chatbot, this is exactly what's happening. A large language model is a sophisticated mathematical function that predicts what word comes next for any piece of text. Instead of predicting one word with certainty, though, what it does is assign a probability to all possible next words. To build a chatbot, what you do is lay out some text that describes an interaction between a user and a hypothetical AI assistant. You add on whatever the user types in as the first part of that interaction. And then you have the model repeatedly predict the next word that such a hypothetical AI assistant would say in response, and that's what's presented to the user. In doing this, the output tends to look a lot more natural if you allow it to select less likely words along the way at random. So what this means is even though the model itself is deterministic, a given prompt typically gives a different answer each time it's run. Models learn how to make these predictions by processing an enormous amount of text, typically pulled from the internet. For a standard human to read the amount of text that was used to train GPT-3, for example, if they read non-stop 24-7, it would take over 2600 years, larger models since then, train on much, much more. You can think of training a little bit like tuning the dials on a big machine. The way that a language model behaves is entirely determined by these many different continuous values, usually called parameters or weights. Changing those parameters will change the probabilities that the model gives for the next word on a given input. What puts the large in large language model is how they can have hundreds of billions of these parameters. No human ever deliberately sets those parameters. Instead they begin at random, meaning the model just outputs gibberish, but they're repeatedly refined based on many example pieces of text. One of these training examples could be just a handful of words, or it could be thousands, but in either case the way this works is to pass in all but the last word from that example into the model and compare the prediction that it makes with the true last word from the example. An algorithm called back propagation is used to tweak all of the parameters in such a way that it makes the model a little more likely to choose the true last word and a little less likely to choose all the others. When you do this for many, many trillions of examples, not only does the model start to give more accurate predictions on the training data, but it also starts to make more reasonable predictions on text that it's never seen before. Given the huge number of parameters and the enormous amount of training data, the scale of computation involved in training a large language model is mind-boggling. To illustrate, imagine that you could perform one billion additions and multiplications every single second. How long do you think that it would take for you to do all of the operations involved in training the largest language models? Do you think it would take a year? Maybe something like 10,000 years? The answer is actually much more than that. It's well over 100 million years. This is only part of the story though. This whole process is called pre-training. The goal of auto-completing a random passage of text from the internet is very different from the goal of being a good AI assistant. To address this, chatbots undergo another type of training, just as important, called reinforcement learning with human feedback. Use flag-unhelpful or problematic predictions and their corrections further change the model's parameters, making them more likely to give predictions that users prefer. Looking back at the pre-training though, this staggering amount of computation is only made possible by using special computer chips that are optimized for running many, many operations in parallel, known as GPUs. However, not all language models can be easily parallelized. Prior to 2017, most language models would process text one word at a time. But then, a team of researchers at Google introduced a new model known as the transformer. Transformers don't read text from the start to the finish. They soak it all in at once in parallel. The very first step inside a transformer and most other language models for that matter is to associate each word with a long list of numbers. The reason for this is that the training process only works with continuous values, so you have to somehow encode language using numbers, and each of these list of numbers may somehow encode the meaning of the corresponding word. What makes Transformers unique is their reliance on a special operation known as attention. This operation gives all of these lists of numbers a chance to talk to one another, and refine the meanings that they encode based on the context around, all done in parallel. For example, the numbers encoding the word bank might be changed based on the context surrounding it to somehow encode the more specific notion of a river bank. Transformers typically also include a second type of operation known as a feed-forward neural network, and this gives the model extra capacity to store more patterns about language learned during training. All of this data repeatedly flows through many different iterations of these two fundamental operations. And as it does so, the hope is that each list of numbers is enriched to encode whatever information might be needed to make an accurate prediction of what word follows in the passage. At the end, one final function is performed on the last vector in this sequence, which now has had a chance to be influenced by all the other context from the input text, as well as everything the model learned during training, to produce a prediction of the next word. Then the model's prediction looks like a probability for every possible next word. Although researchers design the framework for how each of these steps work, it's important to understand that the specific behavior is an emergent phenomenon based on how those hundreds of billions of parameters are tuned during training. This makes it incredibly challenging to determine why the model makes the exact predictions that it does. What you can see is that when you use large language model predictions to autocomplete a prompt, the words that it generates are uncannily fluent, fascinating, and even useful. If you're a new viewer and you're curious about more details on how transformers and attention work, boy do I have some material for you. One option is to jump into a series I made about deep learning, where we visualize and motivate the details of attention and all the other steps in a transformer. But also, on my second channel I just posted a talk that I gave a couple months ago about this topic for the company TNG in Munich. Sometimes I actually prefer the content that I make as a casual talk rather than a produced video, but I leave it up to you which one of these feels like the better follow on."
+  }
+}

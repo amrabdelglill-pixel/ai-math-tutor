@@ -1,0 +1,1344 @@
+{
+  "video_id": "h1buswZOrmI",
+  "video_title": "Object equality | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 333.0,
+  "view_count": 5157,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 2.9,
+        "text": "Are these objects equal?"
+      },
+      {
+        "start": 2.9,
+        "duration": 4.7,
+        "text": "By default, Python compares objects based on identity."
+      },
+      {
+        "start": 7.6,
+        "duration": 5.2,
+        "text": "That means two objects are equal, only if they're literally the same object."
+      },
+      {
+        "start": 12.8,
+        "duration": 4.7,
+        "text": "So this card object is only ever equal to itself."
+      },
+      {
+        "start": 17.5,
+        "duration": 5.3,
+        "text": "It has to be the exact same object in memory."
+      },
+      {
+        "start": 22.8,
+        "duration": 4.8,
+        "text": "Now, the question is, is it even useful to compare objects this way?"
+      },
+      {
+        "start": 27.6,
+        "duration": 4.1,
+        "text": "Well, my useful answer is that it depends."
+      },
+      {
+        "start": 31.7,
+        "duration": 2.0,
+        "text": "Let's rewind for a second."
+      },
+      {
+        "start": 33.7,
+        "duration": 3.3,
+        "text": "A card object represents a standard playing card."
+      },
+      {
+        "start": 37.0,
+        "duration": 3.2,
+        "text": "It has two attributes, a rank and a suit."
+      },
+      {
+        "start": 40.2,
+        "duration": 4.8,
+        "text": "For example, this card has a rank queen and a suit, hearts."
+      },
+      {
+        "start": 45.0,
+        "duration": 8.1,
+        "text": "Now, with your human brain, you'd probably say a queen of hearts is equal to any other queen of hearts."
+      },
+      {
+        "start": 53.1,
+        "duration": 4.6,
+        "text": "But it kind of depends what you're using those cards for."
+      },
+      {
+        "start": 57.7,
+        "duration": 5.0,
+        "text": "If I'm playing a matching game, then it only matters if the ranks and suits are the same."
+      },
+      {
+        "start": 62.7,
+        "duration": 3.5,
+        "text": "Even if those cards came from different decks."
+      },
+      {
+        "start": 66.2,
+        "duration": 5.2,
+        "text": "But if I'm doing a magic trick, were you signed this particular card?"
+      },
+      {
+        "start": 71.4,
+        "duration": 5.2,
+        "text": "You probably wouldn't be too impressed if I just produced a different queen of hearts."
+      },
+      {
+        "start": 76.6,
+        "duration": 4.6,
+        "text": "It's only equal if it's the same exact card."
+      },
+      {
+        "start": 81.2,
+        "duration": 6.1,
+        "text": "When we define a class, Python can't safely assume things about the type's attributes."
+      },
+      {
+        "start": 87.3,
+        "duration": 5.2,
+        "text": "Since we can technically add or delete attributes after an object's created,"
+      },
+      {
+        "start": 92.5,
+        "duration": 4.2,
+        "text": "that's why it defaults to comparing objects based on identity."
+      },
+      {
+        "start": 96.6,
+        "duration": 8.3,
+        "text": "But Python gives us, as the programmer, the option to override that behavior, using the equals method."
+      },
+      {
+        "start": 104.9,
+        "duration": 4.6,
+        "text": "The equals method is a special method that we can add to our class definitions."
+      },
+      {
+        "start": 109.5,
+        "duration": 4.7,
+        "text": "It tells Python how to compare two objects of that type."
+      },
+      {
+        "start": 114.2,
+        "duration": 6.0,
+        "text": "Python will automatically execute this equals method anytime we compare a card object,"
+      },
+      {
+        "start": 120.3,
+        "duration": 4.0,
+        "text": "meaning when we use the equals equals operator."
+      },
+      {
+        "start": 124.3,
+        "duration": 3.5,
+        "text": "Passing in that first object for the first parameter."
+      },
+      {
+        "start": 127.8,
+        "duration": 5.2,
+        "text": "And the second object we're comparing for the second parameter."
+      },
+      {
+        "start": 133.0,
+        "duration": 1.6,
+        "text": "Let's break this down."
+      },
+      {
+        "start": 134.6,
+        "duration": 5.0,
+        "text": "Right now, when I compare these two cards, Python says they're not equal."
+      },
+      {
+        "start": 139.6,
+        "duration": 4.9,
+        "text": "But the behavior I actually want is for Python to consider two cards equal"
+      },
+      {
+        "start": 144.5,
+        "duration": 3.2,
+        "text": "if they have the same rank and the same suit."
+      },
+      {
+        "start": 147.6,
+        "duration": 4.2,
+        "text": "So I can go to my card class definition and add the special method,"
+      },
+      {
+        "start": 151.8,
+        "duration": 4.8,
+        "text": "underscore underscore EQ underscore underscore."
+      },
+      {
+        "start": 156.6,
+        "duration": 2.6,
+        "text": "This is the name for the equals method."
+      },
+      {
+        "start": 159.2,
+        "duration": 3.4,
+        "text": "And for Python to find it, it needs to match exactly."
+      },
+      {
+        "start": 163.6,
+        "duration": 3.1,
+        "text": "It also always needs to take two parameters,"
+      },
+      {
+        "start": 166.7,
+        "duration": 3.2,
+        "text": "which represent the two objects being compared."
+      },
+      {
+        "start": 169.9,
+        "duration": 5.0,
+        "text": "By convention, we name the first parameter self and the second parameter other."
+      },
+      {
+        "start": 174.9,
+        "duration": 3.7,
+        "text": "The equals method should always return a Boolean value,"
+      },
+      {
+        "start": 178.6,
+        "duration": 4.0,
+        "text": "true if the objects are equal and false if they're not."
+      },
+      {
+        "start": 182.6,
+        "duration": 4.3,
+        "text": "For now, let's hard code it to always return true."
+      },
+      {
+        "start": 187.0,
+        "duration": 4.9,
+        "text": "And for visibility, I'll add a temporary print statement."
+      },
+      {
+        "start": 191.9,
+        "duration": 5.4,
+        "text": "If I run the program again, we can see that our equals method is getting executed."
+      },
+      {
+        "start": 197.3,
+        "duration": 3.9,
+        "text": "And now it says that these objects are equal."
+      },
+      {
+        "start": 201.2,
+        "duration": 6.1,
+        "text": "When Python sees an equals equals operator with a card object on the left hand side,"
+      },
+      {
+        "start": 207.3,
+        "duration": 5.8,
+        "text": "it automatically executes the card objects equals method if it has one."
+      },
+      {
+        "start": 213.1,
+        "duration": 6.7,
+        "text": "The comparison expression evaluates to whatever value that equals method returns."
+      },
+      {
+        "start": 219.8,
+        "duration": 4.9,
+        "text": "So since it always returns true right now, no matter which two card objects I compare,"
+      },
+      {
+        "start": 224.8,
+        "duration": 3.4,
+        "text": "Python will always say they're equal."
+      },
+      {
+        "start": 228.2,
+        "duration": 1.9,
+        "text": "That's not the behavior I wanted."
+      },
+      {
+        "start": 230.1,
+        "duration": 3.1,
+        "text": "So let's go back and change our equals method."
+      },
+      {
+        "start": 233.2,
+        "duration": 6.2,
+        "text": "Let's check if the rank attribute of the first object is equal to the rank attribute of the other object"
+      },
+      {
+        "start": 239.4,
+        "duration": 3.6,
+        "text": "and return that Boolean result."
+      },
+      {
+        "start": 243.1,
+        "duration": 6.1,
+        "text": "Now when I run this program, it says that my eight of spades and queen of hearts are not equal."
+      },
+      {
+        "start": 249.2,
+        "duration": 4.9,
+        "text": "Because Python's comparing based on that rank attribute."
+      },
+      {
+        "start": 254.1,
+        "duration": 4.0,
+        "text": "But if I compare a queen of spades and a queen of hearts,"
+      },
+      {
+        "start": 258.1,
+        "duration": 3.0,
+        "text": "Python says that the objects are equal."
+      },
+      {
+        "start": 261.1,
+        "duration": 4.8,
+        "text": "Because they both have the same rank queen."
+      },
+      {
+        "start": 266.0,
+        "duration": 2.8,
+        "text": "For some programs, the suit might be irrelevant."
+      },
+      {
+        "start": 268.7,
+        "duration": 3.4,
+        "text": "So this will be the exact behavior that we want."
+      },
+      {
+        "start": 272.1,
+        "duration": 5.0,
+        "text": "But for my use case, I wanted both the rank and the suit to match."
+      },
+      {
+        "start": 277.1,
+        "duration": 2.5,
+        "text": "So one last change to our equals method."
+      },
+      {
+        "start": 279.6,
+        "duration": 2.6,
+        "text": "Let's also compare the suit attribute."
+      },
+      {
+        "start": 285.4,
+        "duration": 5.7,
+        "text": "And now Python says my queen of spades and queen of hearts are not equal."
+      },
+      {
+        "start": 291.1,
+        "duration": 4.4,
+        "text": "But these two different queen of hearts cards are."
+      },
+      {
+        "start": 296.5,
+        "duration": 5.8,
+        "text": "And just to drive that home, if I go back into my class definition and delete that equals method,"
+      },
+      {
+        "start": 302.3,
+        "duration": 4.7,
+        "text": "Python will default back to comparing objects by identity."
+      },
+      {
+        "start": 307.0,
+        "duration": 3.1,
+        "text": "So since these are two different queen of hearts cards,"
+      },
+      {
+        "start": 310.2,
+        "duration": 3.1,
+        "text": "Python says they're not equal."
+      },
+      {
+        "start": 313.2,
+        "duration": 2.8,
+        "text": "But if I add that equals method back in,"
+      },
+      {
+        "start": 316.0,
+        "duration": 4.4,
+        "text": "Python uses that logic to decide if two cards are equal."
+      },
+      {
+        "start": 320.4,
+        "duration": 3.4,
+        "text": "So while these aren't the same exact object in memory,"
+      },
+      {
+        "start": 323.8,
+        "duration": 2.5,
+        "text": "according to our special equals method,"
+      },
+      {
+        "start": 326.2,
+        "duration": 2.8,
+        "text": "since the ranks are the same and their suits are the same,"
+      },
+      {
+        "start": 329.1,
+        "duration": 3.2,
+        "text": "these two card objects should be considered equal."
+      }
+    ],
+    "full_text": "Are these objects equal? By default, Python compares objects based on identity. That means two objects are equal, only if they're literally the same object. So this card object is only ever equal to itself. It has to be the exact same object in memory. Now, the question is, is it even useful to compare objects this way? Well, my useful answer is that it depends. Let's rewind for a second. A card object represents a standard playing card. It has two attributes, a rank and a suit. For example, this card has a rank queen and a suit, hearts. Now, with your human brain, you'd probably say a queen of hearts is equal to any other queen of hearts. But it kind of depends what you're using those cards for. If I'm playing a matching game, then it only matters if the ranks and suits are the same. Even if those cards came from different decks. But if I'm doing a magic trick, were you signed this particular card? You probably wouldn't be too impressed if I just produced a different queen of hearts. It's only equal if it's the same exact card. When we define a class, Python can't safely assume things about the type's attributes. Since we can technically add or delete attributes after an object's created, that's why it defaults to comparing objects based on identity. But Python gives us, as the programmer, the option to override that behavior, using the equals method. The equals method is a special method that we can add to our class definitions. It tells Python how to compare two objects of that type. Python will automatically execute this equals method anytime we compare a card object, meaning when we use the equals equals operator. Passing in that first object for the first parameter. And the second object we're comparing for the second parameter. Let's break this down. Right now, when I compare these two cards, Python says they're not equal. But the behavior I actually want is for Python to consider two cards equal if they have the same rank and the same suit. So I can go to my card class definition and add the special method, underscore underscore EQ underscore underscore. This is the name for the equals method. And for Python to find it, it needs to match exactly. It also always needs to take two parameters, which represent the two objects being compared. By convention, we name the first parameter self and the second parameter other. The equals method should always return a Boolean value, true if the objects are equal and false if they're not. For now, let's hard code it to always return true. And for visibility, I'll add a temporary print statement. If I run the program again, we can see that our equals method is getting executed. And now it says that these objects are equal. When Python sees an equals equals operator with a card object on the left hand side, it automatically executes the card objects equals method if it has one. The comparison expression evaluates to whatever value that equals method returns. So since it always returns true right now, no matter which two card objects I compare, Python will always say they're equal. That's not the behavior I wanted. So let's go back and change our equals method. Let's check if the rank attribute of the first object is equal to the rank attribute of the other object and return that Boolean result. Now when I run this program, it says that my eight of spades and queen of hearts are not equal. Because Python's comparing based on that rank attribute. But if I compare a queen of spades and a queen of hearts, Python says that the objects are equal. Because they both have the same rank queen. For some programs, the suit might be irrelevant. So this will be the exact behavior that we want. But for my use case, I wanted both the rank and the suit to match. So one last change to our equals method. Let's also compare the suit attribute. And now Python says my queen of spades and queen of hearts are not equal. But these two different queen of hearts cards are. And just to drive that home, if I go back into my class definition and delete that equals method, Python will default back to comparing objects by identity. So since these are two different queen of hearts cards, Python says they're not equal. But if I add that equals method back in, Python uses that logic to decide if two cards are equal. So while these aren't the same exact object in memory, according to our special equals method, since the ranks are the same and their suits are the same, these two card objects should be considered equal."
+  }
+}

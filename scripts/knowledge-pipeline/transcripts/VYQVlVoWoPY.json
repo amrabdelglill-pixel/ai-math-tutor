@@ -1,0 +1,1424 @@
+{
+  "video_id": "VYQVlVoWoPY",
+  "video_title": "How to lie using visual proofs",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1129.0,
+  "view_count": 4129305,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.4,
+        "text": "Today I'd like to share with you three fake proofs in increasing order of subtlety,"
+      },
+      {
+        "start": 4.4,
+        "duration": 2.6,
+        "text": "and then discuss what each one of them has to tell us about math."
+      },
+      {
+        "start": 11.5,
+        "duration": 3.6,
+        "text": "The first proof is for a formula for the surface area of a sphere,"
+      },
+      {
+        "start": 15.1,
+        "duration": 4.3,
+        "text": "and the way that it starts is to subdivide that sphere into vertical slices,"
+      },
+      {
+        "start": 19.4,
+        "duration": 5.0,
+        "text": "the way you might chop up an orange or paint a beach ball. We then unravel all of those wedge"
+      },
+      {
+        "start": 24.4,
+        "duration": 3.1,
+        "text": "slices from the northern hemisphere so that they poke up like this,"
+      },
+      {
+        "start": 28.1,
+        "duration": 3.8,
+        "text": "and then symmetrically unravel all of those from the southern hemisphere below,"
+      },
+      {
+        "start": 31.9,
+        "duration": 4.6,
+        "text": "and now interlace those pieces to get a shape whose area we want to figure out."
+      },
+      {
+        "start": 36.5,
+        "duration": 3.7,
+        "text": "The base of this shape came from the circumference of the sphere."
+      },
+      {
+        "start": 40.2,
+        "duration": 5.0,
+        "text": "It's an unravelled equator, though its length is 2 pi times the radius of the sphere,"
+      },
+      {
+        "start": 45.8,
+        "duration": 4.2,
+        "text": "and then the other side of this shape came from the height of one of these wedges,"
+      },
+      {
+        "start": 50.0,
+        "duration": 5.2,
+        "text": "which is a quarter of a walk around the sphere, and so it has a length of pi halves times r."
+      },
+      {
+        "start": 55.3,
+        "duration": 4.0,
+        "text": "The idea is that this is only an approximation, the edges might not be perfectly straight,"
+      },
+      {
+        "start": 59.3,
+        "duration": 3.8,
+        "text": "but if we think of the limit as we do finer and finer slices of the sphere,"
+      },
+      {
+        "start": 63.0,
+        "duration": 4.3,
+        "text": "this shape whose area we want to know gets closer to being a perfect rectangle,"
+      },
+      {
+        "start": 67.4,
+        "duration": 6.6,
+        "text": "one whose area will be pi halves r times 2 pi r, or in other words pi squared times r squared."
+      },
+      {
+        "start": 74.9,
+        "duration": 5.0,
+        "text": "The proof is elegant, it translates a hard problem into a situation that's easier to understand."
+      },
+      {
+        "start": 79.8,
+        "duration": 3.4,
+        "text": "It has that element of surprise while still being intuitive."
+      },
+      {
+        "start": 83.3,
+        "duration": 3.0,
+        "text": "Its only fault, really, is that it's completely wrong."
+      },
+      {
+        "start": 86.3,
+        "duration": 3.1,
+        "text": "The true surface area of a sphere is 4 pi r squared."
+      },
+      {
+        "start": 90.0,
+        "duration": 3.6,
+        "text": "I originally saw this example thanks to Henry Reich, and to be fair,"
+      },
+      {
+        "start": 93.6,
+        "duration": 3.8,
+        "text": "it's not necessarily inconsistent with the 4 pi r squared formula,"
+      },
+      {
+        "start": 97.4,
+        "duration": 1.9,
+        "text": "just so long as pi is equal to 4."
+      },
+      {
+        "start": 100.1,
+        "duration": 2.5,
+        "text": "For the next proof, I'd like to show you a simple argument,"
+      },
+      {
+        "start": 102.6,
+        "duration": 1.9,
+        "text": "for the fact that pi is equal to 4."
+      },
+      {
+        "start": 105.8,
+        "duration": 5.0,
+        "text": "We start off with a circle, say with radius 1, and we ask how can we figure out its circumference?"
+      },
+      {
+        "start": 110.8,
+        "duration": 5.0,
+        "text": "After all, pi is by definition the ratio of this circumference to the diameter of the circle."
+      },
+      {
+        "start": 115.8,
+        "duration": 4.2,
+        "text": "We start off by drawing the square whose sidelines are all tangent to that circle."
+      },
+      {
+        "start": 120.2,
+        "duration": 3.0,
+        "text": "It's not too hard to see that the perimeter of this square is 8,"
+      },
+      {
+        "start": 123.9,
+        "duration": 3.4,
+        "text": "then, and some of you may have seen this before, it's a kind of classic argument,"
+      },
+      {
+        "start": 127.4,
+        "duration": 5.4,
+        "text": "the argument proceeds by producing a sequence of curves all of whom also have this perimeter of 8,"
+      },
+      {
+        "start": 132.7,
+        "duration": 3.0,
+        "text": "but which more and more closely approximate the circle."
+      },
+      {
+        "start": 135.8,
+        "duration": 3.6,
+        "text": "But the full nuance of this example is not always emphasized."
+      },
+      {
+        "start": 139.4,
+        "duration": 3.4,
+        "text": "First of all, just to make things crystal clear, the way each of these iterations works"
+      },
+      {
+        "start": 142.9,
+        "duration": 3.1,
+        "text": "is to fold in each of the corners of the previous shape,"
+      },
+      {
+        "start": 146.0,
+        "duration": 2.0,
+        "text": "so that they just barely kiss the circle."
+      },
+      {
+        "start": 148.2,
+        "duration": 3.8,
+        "text": "And you can take a moment to convince yourself that in each region where a fold happened,"
+      },
+      {
+        "start": 152.0,
+        "duration": 1.4,
+        "text": "the perimeter doesn't change."
+      },
+      {
+        "start": 153.4,
+        "duration": 3.1,
+        "text": "For example, in the upper right here, instead of walking up and then left,"
+      },
+      {
+        "start": 156.6,
+        "duration": 1.8,
+        "text": "the new curve goes left and then up."
+      },
+      {
+        "start": 158.8,
+        "duration": 3.9,
+        "text": "And something similar is true at all of the folds of all of the different iterations."
+      },
+      {
+        "start": 162.7,
+        "duration": 3.4,
+        "text": "Wherever the previous iteration went direction A, then direction B,"
+      },
+      {
+        "start": 166.2,
+        "duration": 2.7,
+        "text": "the new iteration goes direction B, then direction A,"
+      },
+      {
+        "start": 169.0,
+        "duration": 1.8,
+        "text": "but no length is lost or gained."
+      },
+      {
+        "start": 171.3,
+        "duration": 4.3,
+        "text": "Some of you might say, well, obviously this isn't going to give the true perimeter of the circle,"
+      },
+      {
+        "start": 175.6,
+        "duration": 2.6,
+        "text": "because no matter how many iterations you do when you zoom in,"
+      },
+      {
+        "start": 178.2,
+        "duration": 2.4,
+        "text": "it remains jagged, it's not a smooth curve."
+      },
+      {
+        "start": 180.6,
+        "duration": 2.8,
+        "text": "You're taking these very inefficient steps along the circle."
+      },
+      {
+        "start": 183.4,
+        "duration": 3.1,
+        "text": "While that is true, and ultimately the reason things are wrong,"
+      },
+      {
+        "start": 186.6,
+        "duration": 2.9,
+        "text": "if you want to appreciate the lesson this example is teaching us,"
+      },
+      {
+        "start": 189.4,
+        "duration": 4.5,
+        "text": "the claim of the example is not that any one of these approximations equals the curve,"
+      },
+      {
+        "start": 193.9,
+        "duration": 3.4,
+        "text": "it's that the limit of all of the approximations equals our circle."
+      },
+      {
+        "start": 197.4,
+        "duration": 2.8,
+        "text": "And to appreciate the lesson that this example teaches us,"
+      },
+      {
+        "start": 200.2,
+        "duration": 3.0,
+        "text": "it's worth thinking a moment to be a little more mathematically precise"
+      },
+      {
+        "start": 203.3,
+        "duration": 2.7,
+        "text": "about what I mean by the limit of a sequence of curves."
+      },
+      {
+        "start": 207.1,
+        "duration": 3.0,
+        "text": "Let's say we describe the very first shape this square"
+      },
+      {
+        "start": 210.1,
+        "duration": 3.4,
+        "text": "as a parametric function, something that has an input T,"
+      },
+      {
+        "start": 213.5,
+        "duration": 2.2,
+        "text": "and it outputs a point in 2D space,"
+      },
+      {
+        "start": 215.7,
+        "duration": 3.6,
+        "text": "though that as T ranges from 0 to 1, it traces that square."
+      },
+      {
+        "start": 219.3,
+        "duration": 2.1,
+        "text": "I'll call that function C0,"
+      },
+      {
+        "start": 221.4,
+        "duration": 4.6,
+        "text": "and likewise we can parameterize the next iteration with a function I'll call C1,"
+      },
+      {
+        "start": 226.0,
+        "duration": 2.8,
+        "text": "as the parameter T ranges from 0 up to 1,"
+      },
+      {
+        "start": 228.8,
+        "duration": 3.3,
+        "text": "the output of this function traces along that curve."
+      },
+      {
+        "start": 232.1,
+        "duration": 3.1,
+        "text": "This is just so that we can think of these shapes as instead being functions."
+      },
+      {
+        "start": 236.1,
+        "duration": 4.2,
+        "text": "Now I want you to consider our particular value of T, maybe 0.2,"
+      },
+      {
+        "start": 240.2,
+        "duration": 3.0,
+        "text": "and then consider the sequence of points that you get"
+      },
+      {
+        "start": 243.3,
+        "duration": 4.6,
+        "text": "by evaluating the sequence of functions we have at this particular point."
+      },
+      {
+        "start": 247.9,
+        "duration": 6.1,
+        "text": "Now I want you to consider the limit as n approaches infinity of C sub n of 0.2."
+      },
+      {
+        "start": 254.9,
+        "duration": 2.9,
+        "text": "This limit is a well-defined point in 2D space."
+      },
+      {
+        "start": 257.8,
+        "duration": 2.6,
+        "text": "In fact, that point sits on the circle,"
+      },
+      {
+        "start": 260.3,
+        "duration": 2.2,
+        "text": "and there's nothing specific about 0.2."
+      },
+      {
+        "start": 262.6,
+        "duration": 3.3,
+        "text": "We could do this limiting process for any input T,"
+      },
+      {
+        "start": 265.8,
+        "duration": 3.5,
+        "text": "and so I can define a new function that I'll call C infinity,"
+      },
+      {
+        "start": 269.4,
+        "duration": 5.1,
+        "text": "which by definition at any input T is whatever this limiting value for all the curves is."
+      },
+      {
+        "start": 275.1,
+        "duration": 1.8,
+        "text": "So here's the point."
+      },
+      {
+        "start": 277.0,
+        "duration": 3.7,
+        "text": "That limiting function C infinity is the circle."
+      },
+      {
+        "start": 280.6,
+        "duration": 1.7,
+        "text": "It's not an approximation of the circle,"
+      },
+      {
+        "start": 282.3,
+        "duration": 2.2,
+        "text": "it's not some jagged version of the circle."
+      },
+      {
+        "start": 284.5,
+        "duration": 4.1,
+        "text": "It is the genuine smooth circular curve whose perimeter we want to know."
+      },
+      {
+        "start": 289.4,
+        "duration": 4.6,
+        "text": "And what's also true is that the limit of the lengths of all of our curves"
+      },
+      {
+        "start": 294.1,
+        "duration": 4.6,
+        "text": "really is 8, because each individual curve really does have a perimeter of 8."
+      },
+      {
+        "start": 299.2,
+        "duration": 2.9,
+        "text": "And there are all sorts of examples throughout calculus"
+      },
+      {
+        "start": 302.1,
+        "duration": 3.0,
+        "text": "when we talk about approximating one thing we want to know"
+      },
+      {
+        "start": 305.0,
+        "duration": 3.0,
+        "text": "as a limit of a bunch of other things that are easier to understand."
+      },
+      {
+        "start": 308.6,
+        "duration": 5.4,
+        "text": "So the question at the heart here is why exactly is it not okay to do that in this example?"
+      },
+      {
+        "start": 316.8,
+        "duration": 1.8,
+        "text": "And maybe at this point you step back and say,"
+      },
+      {
+        "start": 318.6,
+        "duration": 2.6,
+        "text": "you know, it's just not enough for things to look the same."
+      },
+      {
+        "start": 321.3,
+        "duration": 2.6,
+        "text": "This is why we need rigor, it's why we need proofs."
+      },
+      {
+        "start": 323.9,
+        "duration": 1.8,
+        "text": "It's why since the days of Euclid,"
+      },
+      {
+        "start": 325.8,
+        "duration": 3.4,
+        "text": "mathematicians have followed in his footsteps and deduced truths"
+      },
+      {
+        "start": 329.2,
+        "duration": 2.5,
+        "text": "step-by-step from axioms forward."
+      },
+      {
+        "start": 331.7,
+        "duration": 3.8,
+        "text": "But for this last example, I would like to do something that doesn't lean as hard"
+      },
+      {
+        "start": 335.5,
+        "duration": 4.0,
+        "text": "on visual intuition, and instead give a Euclid-style proof"
+      },
+      {
+        "start": 339.5,
+        "duration": 3.1,
+        "text": "for the claim that all triangles are isosceles."
+      },
+      {
+        "start": 342.6,
+        "duration": 4.3,
+        "text": "The way this will work is we'll take any particular triangle and make no assumptions about it,"
+      },
+      {
+        "start": 347.0,
+        "duration": 2.9,
+        "text": "I'll label its vertices A, B, and C."
+      },
+      {
+        "start": 349.8,
+        "duration": 3.8,
+        "text": "And what I would like to prove for you is that the side length A, B,"
+      },
+      {
+        "start": 353.6,
+        "duration": 2.6,
+        "text": "is necessarily equal to the side length A, C."
+      },
+      {
+        "start": 357.1,
+        "duration": 2.9,
+        "text": "Now to be clear, the result is obviously false."
+      },
+      {
+        "start": 360.0,
+        "duration": 4.6,
+        "text": "Just in the diagram I've drawn, you can visually see that these lengths are not equal to each other."
+      },
+      {
+        "start": 365.0,
+        "duration": 3.4,
+        "text": "But I challenge you to see if you can identify what's wrong"
+      },
+      {
+        "start": 368.3,
+        "duration": 1.9,
+        "text": "about the proof I'm about to show you."
+      },
+      {
+        "start": 370.2,
+        "duration": 3.8,
+        "text": "Honestly, it's very subtle and three gold stars for anyone who can identify it."
+      },
+      {
+        "start": 375.0,
+        "duration": 4.6,
+        "text": "The first thing I'll do is draw the perpendicular bisector, the line B, C."
+      },
+      {
+        "start": 379.5,
+        "duration": 5.8,
+        "text": "So that means this angle here is 90 degrees, and this length is by definition the same as this length."
+      },
+      {
+        "start": 385.3,
+        "duration": 2.1,
+        "text": "And we'll label that intersection point D."
+      },
+      {
+        "start": 388.4,
+        "duration": 3.2,
+        "text": "And then next I will draw the angle bisector at A,"
+      },
+      {
+        "start": 391.6,
+        "duration": 4.6,
+        "text": "which means by definition this little angle here is the same as this little angle here,"
+      },
+      {
+        "start": 396.2,
+        "duration": 1.7,
+        "text": "I'll label both of them alpha."
+      },
+      {
+        "start": 397.9,
+        "duration": 3.4,
+        "text": "And we'll say that the point where these two intersect is P."
+      },
+      {
+        "start": 401.4,
+        "duration": 3.9,
+        "text": "And now like a lot of Euclid style proofs, we're just going to draw some new lines,"
+      },
+      {
+        "start": 405.3,
+        "duration": 2.7,
+        "text": "figure out what things must be equal and get some conclusions."
+      },
+      {
+        "start": 408.6,
+        "duration": 5.3,
+        "text": "For instance, let's draw the line from P, which is perpendicular to the side length A, C."
+      },
+      {
+        "start": 413.8,
+        "duration": 2.2,
+        "text": "And we'll label that intersection point E."
+      },
+      {
+        "start": 416.2,
+        "duration": 5.3,
+        "text": "And likewise, we'll draw the line from P down to the other side length A, C."
+      },
+      {
+        "start": 421.5,
+        "duration": 4.1,
+        "text": "Again, it's perpendicular and we'll label that intersection point F."
+      },
+      {
+        "start": 425.6,
+        "duration": 7.0,
+        "text": "My first claim is that this triangle here, which is AFP, is the same, or at least congruent,"
+      },
+      {
+        "start": 432.6,
+        "duration": 3.1,
+        "text": "who this triangle over here, AEP."
+      },
+      {
+        "start": 435.8,
+        "duration": 3.7,
+        "text": "Essentially, this follows from symmetry across that angle bisector."
+      },
+      {
+        "start": 439.4,
+        "duration": 4.6,
+        "text": "More specifically, we can say they share a side length and then they both have an angle alpha"
+      },
+      {
+        "start": 444.2,
+        "duration": 1.7,
+        "text": "and both have an angle 90 degrees."
+      },
+      {
+        "start": 445.8,
+        "duration": 3.2,
+        "text": "So it follows by the side angle angle congruence relation."
+      },
+      {
+        "start": 449.0,
+        "duration": 4.9,
+        "text": "Maybe my drawing is a little bit sloppy, but the logic helps us see that they do have to be the same."
+      },
+      {
+        "start": 453.9,
+        "duration": 4.1,
+        "text": "Next, I'll draw a line from P down to B, and then from P down to C."
+      },
+      {
+        "start": 458.8,
+        "duration": 7.8,
+        "text": "And I claim that this triangle here is congruent to its reflection across that perpendicular bisector."
+      },
+      {
+        "start": 466.6,
+        "duration": 4.5,
+        "text": "Again, the symmetry maybe helps make this clear, but more rigorously, they both have the same base,"
+      },
+      {
+        "start": 471.1,
+        "duration": 3.4,
+        "text": "they both have a 90 degree angle and they both have the same height."
+      },
+      {
+        "start": 474.5,
+        "duration": 2.8,
+        "text": "So it follows by the side angle side relation."
+      },
+      {
+        "start": 477.3,
+        "duration": 3.5,
+        "text": "So based on that first pair of triangles, I'm going to mark this side length here"
+      },
+      {
+        "start": 480.8,
+        "duration": 3.3,
+        "text": "as being the same as this side length here, marking them with double tick marks."
+      },
+      {
+        "start": 484.8,
+        "duration": 4.3,
+        "text": "And based on the second triangle relation, I'll mark this side length here"
+      },
+      {
+        "start": 489.1,
+        "duration": 4.1,
+        "text": "as the same as this line over here, marking them with triple tick marks."
+      },
+      {
+        "start": 493.2,
+        "duration": 3.2,
+        "text": "And so from that, we have two more triangles that need to be the same."
+      },
+      {
+        "start": 496.4,
+        "duration": 5.4,
+        "text": "Namely, this one over here, and the one with corresponding two side lengths over here,"
+      },
+      {
+        "start": 501.8,
+        "duration": 4.3,
+        "text": "and the reasoning here is they both have that triple ticked side, a double ticked side,"
+      },
+      {
+        "start": 506.1,
+        "duration": 2.2,
+        "text": "and they're both 90 degree triangles."
+      },
+      {
+        "start": 508.2,
+        "duration": 3.0,
+        "text": "So this follows by the side side angle congruence relation."
+      },
+      {
+        "start": 512.0,
+        "duration": 4.6,
+        "text": "And all of those are valid congruence relation, so I'm not pulling the wall over your eyes with one of those."
+      },
+      {
+        "start": 516.9,
+        "duration": 4.6,
+        "text": "And all of this will basically be enough to show us why AB has to be the same as BC."
+      },
+      {
+        "start": 522.2,
+        "duration": 5.0,
+        "text": "That first pair of triangles implies that the length AF is the same as the length AE."
+      },
+      {
+        "start": 527.2,
+        "duration": 1.8,
+        "text": "Those are corresponding sides to each other."
+      },
+      {
+        "start": 529.0,
+        "duration": 1.6,
+        "text": "I'll just color them in red here."
+      },
+      {
+        "start": 531.1,
+        "duration": 5.0,
+        "text": "And then that last triangle relation guarantees for us that the side FB"
+      },
+      {
+        "start": 536.1,
+        "duration": 2.3,
+        "text": "is going to be the same as the side EC."
+      },
+      {
+        "start": 539.1,
+        "duration": 2.0,
+        "text": "I'll kind of color both of those in blue."
+      },
+      {
+        "start": 541.1,
+        "duration": 5.0,
+        "text": "And finally, the result we want basically comes from adding up these two equations."
+      },
+      {
+        "start": 546.2,
+        "duration": 5.0,
+        "text": "The length AF plus FB is clearly the same as the total length AB."
+      },
+      {
+        "start": 551.8,
+        "duration": 5.1,
+        "text": "And likewise the length AE plus EC is the same as the total length AC."
+      },
+      {
+        "start": 557.6,
+        "duration": 4.5,
+        "text": "Though all in all the side length AB has to be the same as the side length AC."
+      },
+      {
+        "start": 562.1,
+        "duration": 2.2,
+        "text": "And because we made no assumptions about the triangle,"
+      },
+      {
+        "start": 564.3,
+        "duration": 2.6,
+        "text": "this implies that any triangle is isosceles."
+      },
+      {
+        "start": 567.5,
+        "duration": 4.1,
+        "text": "Actually, for that matter, since we made no assumptions about the specific two sides we chose,"
+      },
+      {
+        "start": 571.6,
+        "duration": 2.3,
+        "text": "it implies that any triangle is equilateral."
+      },
+      {
+        "start": 574.4,
+        "duration": 4.4,
+        "text": "So this leaves us somewhat disturbingly with three different possibilities."
+      },
+      {
+        "start": 578.8,
+        "duration": 3.6,
+        "text": "All triangles really are equilateral, that's just the truth of the universe."
+      },
+      {
+        "start": 582.4,
+        "duration": 4.3,
+        "text": "Or you can use Euclid-style reasoning to derive false results."
+      },
+      {
+        "start": 586.7,
+        "duration": 2.2,
+        "text": "Or there's something wrong in the proof."
+      },
+      {
+        "start": 589.0,
+        "duration": 2.6,
+        "text": "But if there is, where exactly is it?"
+      },
+      {
+        "start": 591.6,
+        "duration": 6.0,
+        "text": "So what exactly is going on with these three examples?"
+      },
+      {
+        "start": 597.6,
+        "duration": 4.0,
+        "text": "Now the thing that's a little bit troubling about that first example with the sphere"
+      },
+      {
+        "start": 602.0,
+        "duration": 4.9,
+        "text": "is that it is very similar in spirit to a lot of other famous and supposedly true visual"
+      },
+      {
+        "start": 606.9,
+        "duration": 5.1,
+        "text": "proofs from geometry. For example, there's a very famous proof about the area of a circle"
+      },
+      {
+        "start": 612.0,
+        "duration": 3.3,
+        "text": "that starts off by dividing it into a bunch of little pizza wedges,"
+      },
+      {
+        "start": 615.3,
+        "duration": 2.6,
+        "text": "and you take all those wedges and you straighten them out,"
+      },
+      {
+        "start": 617.8,
+        "duration": 2.2,
+        "text": "essentially lining up the crust of that pizza."
+      },
+      {
+        "start": 620.6,
+        "duration": 3.5,
+        "text": "And then we take half of the wedges and interslice them with the other half."
+      },
+      {
+        "start": 624.1,
+        "duration": 2.7,
+        "text": "And the idea is that this might not be a perfect rectangle,"
+      },
+      {
+        "start": 626.8,
+        "duration": 1.6,
+        "text": "it's got some bumps and curves."
+      },
+      {
+        "start": 628.4,
+        "duration": 4.8,
+        "text": "But as you take thinner and thinner slices, you get something that's closer and closer to a"
+      },
+      {
+        "start": 633.2,
+        "duration": 5.0,
+        "text": "true rectangle, and the width of that rectangle comes from half the circumference of the circle,"
+      },
+      {
+        "start": 638.2,
+        "duration": 5.4,
+        "text": "which is by definition pi times r, and then the height of that rectangle comes from the radius"
+      },
+      {
+        "start": 643.6,
+        "duration": 4.3,
+        "text": "of the circle, r, meaning that the whole area is pi r squared."
+      },
+      {
+        "start": 648.7,
+        "duration": 5.0,
+        "text": "This time, the result is valid, but why is it not okay to do what we did with the spheres,"
+      },
+      {
+        "start": 653.7,
+        "duration": 3.0,
+        "text": "but somehow it is okay to do this with the pizza slices?"
+      },
+      {
+        "start": 657.5,
+        "duration": 4.9,
+        "text": "The main problem with the sphere argument is that when we flatten out all of those orange wedges,"
+      },
+      {
+        "start": 662.4,
+        "duration": 3.5,
+        "text": "if we were to do it accurately in a way that preserves their area,"
+      },
+      {
+        "start": 665.9,
+        "duration": 2.9,
+        "text": "they don't look like triangles, they should bulge outward."
+      },
+      {
+        "start": 668.8,
+        "duration": 4.2,
+        "text": "And if you want to see this, let's think really critically about just one particular one of"
+      },
+      {
+        "start": 673.0,
+        "duration": 4.4,
+        "text": "those wedges on the sphere, and ask yourself, how does the width across that wedge,"
+      },
+      {
+        "start": 677.4,
+        "duration": 5.4,
+        "text": "this little portion of a line of latitude vary as you go up and down the wedge?"
+      },
+      {
+        "start": 682.8,
+        "duration": 5.9,
+        "text": "In particular, if you consider the angle phi from the z-axis down to a point on this wedge,"
+      },
+      {
+        "start": 688.7,
+        "duration": 3.9,
+        "text": "as we walk down it, what's the length of that width as a function of phi?"
+      },
+      {
+        "start": 692.6,
+        "duration": 4.6,
+        "text": "For those of you curious about the details of these sorts of things, you'd start off by drawing"
+      },
+      {
+        "start": 697.2,
+        "duration": 3.1,
+        "text": "this line up here from the z-axis to a point on the wedge."
+      },
+      {
+        "start": 700.3,
+        "duration": 4.2,
+        "text": "Its length will be the radius of the sphere r times the sine of this angle."
+      },
+      {
+        "start": 704.6,
+        "duration": 4.5,
+        "text": "That lets us deduce how long the total line of latitude is where we're sitting."
+      },
+      {
+        "start": 709.0,
+        "duration": 5.3,
+        "text": "It'll basically be 2 pi times that radial line, 2 pi r sine of phi,"
+      },
+      {
+        "start": 714.3,
+        "duration": 4.7,
+        "text": "and then the width of the wedge that we care about is just some constant proportion of that"
+      },
+      {
+        "start": 719.0,
+        "duration": 4.6,
+        "text": "full line of latitude. Now the details don't matter too much, the one thing I want you to notice"
+      },
+      {
+        "start": 723.7,
+        "duration": 4.9,
+        "text": "is that this is not a linear relationship. As you walk from the top of that wedge down to the"
+      },
+      {
+        "start": 728.6,
+        "duration": 6.6,
+        "text": "bottom, letting phi range from zero up to pi halves, the width of the wedge doesn't grow linearly,"
+      },
+      {
+        "start": 735.2,
+        "duration": 5.2,
+        "text": "instead it grows according to a sine curve. And so, when we're unwrapping all of these"
+      },
+      {
+        "start": 740.4,
+        "duration": 4.6,
+        "text": "wedges, if we want those widths to be preserved, they should end up a little bit chubbier"
+      },
+      {
+        "start": 745.0,
+        "duration": 5.1,
+        "text": "around the base, their side lengths are not linear. What this means is when we try to interlace"
+      },
+      {
+        "start": 750.1,
+        "duration": 3.8,
+        "text": "all of the wedges from northern hemisphere with those from the southern, there's a meaningful"
+      },
+      {
+        "start": 753.8,
+        "duration": 4.9,
+        "text": "amount of overlap between those non-linear edges, and we can't wave our hands about a limiting"
+      },
+      {
+        "start": 758.7,
+        "duration": 4.3,
+        "text": "argument. This is an overlap that persists as you take finer and finer subdivisions."
+      },
+      {
+        "start": 763.6,
+        "duration": 4.1,
+        "text": "And ultimately, it's that overlap that accounts for the difference between our false answer"
+      },
+      {
+        "start": 767.7,
+        "duration": 6.0,
+        "text": "with a pi squared from the true answer that has four pi. It reminds me of one of those rearrangement"
+      },
+      {
+        "start": 773.7,
+        "duration": 4.3,
+        "text": "puzzles, where you have a number of pieces and just by moving them around, you can seemingly create"
+      },
+      {
+        "start": 778.0,
+        "duration": 5.0,
+        "text": "area out of nowhere. For example, right now I've arranged all these pieces to form a triangle,"
+      },
+      {
+        "start": 783.0,
+        "duration": 4.5,
+        "text": "except it's missing two units of area in the middle. And now I want you to focus on the vertices"
+      },
+      {
+        "start": 787.4,
+        "duration": 4.6,
+        "text": "of that triangle, these white dots. Those don't move, I'm not pulling any trickery with that,"
+      },
+      {
+        "start": 792.0,
+        "duration": 4.4,
+        "text": "but I can rearrange all of the pieces back to how they originally were, so that those two units"
+      },
+      {
+        "start": 796.4,
+        "duration": 4.5,
+        "text": "of area in the middle seem to disappear. All the constituent parts remain the same,"
+      },
+      {
+        "start": 800.9,
+        "duration": 5.4,
+        "text": "the triangle that they form remains the same, and yet two units of area seem to appear out of nowhere."
+      },
+      {
+        "start": 807.0,
+        "duration": 3.7,
+        "text": "If you've never seen this one before, by the way, I highly encourage you to pause and try to"
+      },
+      {
+        "start": 810.7,
+        "duration": 5.2,
+        "text": "think it through. It's a very fun little puzzle. The answer starts to reveal itself,"
+      },
+      {
+        "start": 815.9,
+        "duration": 4.7,
+        "text": "if we carefully draw the edges of this triangle, and zoom in close enough to see that"
+      },
+      {
+        "start": 820.7,
+        "duration": 4.8,
+        "text": "our pieces don't actually fit inside the triangle, they bulge out ever so slightly."
+      },
+      {
+        "start": 826.2,
+        "duration": 4.6,
+        "text": "Or at least arranged like this, they bulge out ever so slightly. When we rearrange them,"
+      },
+      {
+        "start": 830.8,
+        "duration": 5.7,
+        "text": "and we zoom back in, we can see that they dent inward ever so slightly. And that very subtle"
+      },
+      {
+        "start": 836.5,
+        "duration": 5.0,
+        "text": "difference between the bulge out and the dent inward accounts for all of the difference in area."
+      },
+      {
+        "start": 841.5,
+        "duration": 4.4,
+        "text": "The slope of the edge of this blue triangle works out to be 5 divided by 2,"
+      },
+      {
+        "start": 845.9,
+        "duration": 4.2,
+        "text": "whereas the slope of the edge of this red triangle works out to be 7 divided by 3."
+      },
+      {
+        "start": 850.6,
+        "duration": 4.6,
+        "text": "Those numbers are close enough to look similar as slope, but they allow for this dinting inward"
+      },
+      {
+        "start": 855.2,
+        "duration": 4.2,
+        "text": "and the bulging outward. You have to be wary of lines that are made to look straight,"
+      },
+      {
+        "start": 859.4,
+        "duration": 3.3,
+        "text": "when you haven't had explicit confirmation that they actually are straight."
+      },
+      {
+        "start": 864.4,
+        "duration": 5.0,
+        "text": "One quick added comment on the sphere, the fundamental issue here is that the geometry of a curved"
+      },
+      {
+        "start": 869.4,
+        "duration": 5.2,
+        "text": "surface is fundamentally different from the geometry of flat space. The relevant search term here"
+      },
+      {
+        "start": 874.6,
+        "duration": 5.2,
+        "text": "would be Gaussian curvature. You can't flatten things out from a sphere without losing geometric"
+      },
+      {
+        "start": 879.8,
+        "duration": 5.8,
+        "text": "information. Now, when you do see limiting arguments that relate to little pieces on a sphere,"
+      },
+      {
+        "start": 885.5,
+        "duration": 5.0,
+        "text": "that somehow get flattened out and are reasoned through there, those only can work if the limiting"
+      },
+      {
+        "start": 890.6,
+        "duration": 4.8,
+        "text": "pieces that you're talking about get smaller in both directions. It's only when you zoom in close"
+      },
+      {
+        "start": 895.4,
+        "duration": 5.8,
+        "text": "to a curved surface that it appears locally flat. The issue with our orange wedge argument"
+      },
+      {
+        "start": 901.2,
+        "duration": 4.6,
+        "text": "is that our pieces never got exposed to that local flatness because they only got thin in one"
+      },
+      {
+        "start": 905.8,
+        "duration": 5.3,
+        "text": "direction. They maintain the curvature in that other direction. Now, on the topic of the subtlety"
+      },
+      {
+        "start": 911.0,
+        "duration": 4.9,
+        "text": "of limiting arguments, let's turn back to our limit of jagged curves that approaches the smooth"
+      },
+      {
+        "start": 915.9,
+        "duration": 5.5,
+        "text": "circular curve. As I said, the limiting curve really is a circle, and the limiting value for the"
+      },
+      {
+        "start": 921.4,
+        "duration": 6.9,
+        "text": "length of your approximations really is 8. Here, the basic issue is that there is no reason to"
+      },
+      {
+        "start": 928.3,
+        "duration": 5.3,
+        "text": "expect that the limit of the length of the curves is the same as the length of the limits of the curves."
+      },
+      {
+        "start": 933.6,
+        "duration": 3.6,
+        "text": "And in fact, this is a nice counter example to show why that's not the case."
+      },
+      {
+        "start": 938.2,
+        "duration": 4.6,
+        "text": "The real point of this example is not the fear that anyone is ever going to believe that it shows"
+      },
+      {
+        "start": 942.8,
+        "duration": 6.2,
+        "text": "that pi is equal to 4. Instead, it shows why care is required in other cases where people apply"
+      },
+      {
+        "start": 949.0,
+        "duration": 5.7,
+        "text": "limiting arguments. For example, this happens all throughout calculus. It is the heart of calculus,"
+      },
+      {
+        "start": 954.7,
+        "duration": 5.0,
+        "text": "where say you want to know the area under a given curve, the way we typically think about it,"
+      },
+      {
+        "start": 959.7,
+        "duration": 5.2,
+        "text": "is to approximate that with a set of rectangles, because those are the things we know how to compute"
+      },
+      {
+        "start": 964.9,
+        "duration": 5.5,
+        "text": "the areas of. You just take the base times height in each case. Now, this is a very jagged approximation,"
+      },
+      {
+        "start": 970.4,
+        "duration": 5.0,
+        "text": "but the thought, or I guess the hope, is that as you take a finer and finer subdivision into thinner"
+      },
+      {
+        "start": 975.4,
+        "duration": 4.6,
+        "text": "and thinner rectangles, the sums of those areas approaches the thing we actually care about."
+      },
+      {
+        "start": 981.0,
+        "duration": 4.2,
+        "text": "If you want to make it rigorous, you have to be explicit about the error between these"
+      },
+      {
+        "start": 985.1,
+        "duration": 5.0,
+        "text": "approximations and the true thing we care about, the area under this curve. For example,"
+      },
+      {
+        "start": 990.1,
+        "duration": 4.7,
+        "text": "you might start your argument by saying that that error has to be strictly less than the area of"
+      },
+      {
+        "start": 994.8,
+        "duration": 5.8,
+        "text": "these red rectangles. Essentially, the deviation between the curve and our approximating rectangles"
+      },
+      {
+        "start": 1000.6,
+        "duration": 5.3,
+        "text": "sits strictly inside that red region. And then, what you would want to argue is that in this limiting"
+      },
+      {
+        "start": 1005.8,
+        "duration": 5.0,
+        "text": "process, the cumulative area of all of those red rectangles has to approach zero."
+      },
+      {
+        "start": 1015.4,
+        "duration": 6.5,
+        "text": "Now as to the final example, our proofs that all triangles are isosceles, let me show you what it"
+      },
+      {
+        "start": 1021.9,
+        "duration": 4.6,
+        "text": "looks like if I'm a little bit more careful about actually constructing the angle bisector rather"
+      },
+      {
+        "start": 1026.5,
+        "duration": 5.4,
+        "text": "than just eyeballing it. When I do that, the relevant intersection point actually sits outside of"
+      },
+      {
+        "start": 1031.9,
+        "duration": 4.4,
+        "text": "the triangle. And then from there, if I go through everything that we did in the original argument,"
+      },
+      {
+        "start": 1036.3,
+        "duration": 5.0,
+        "text": "drawing the relevant perpendicular lines, all of that, every triangle that I claimed was congruent,"
+      },
+      {
+        "start": 1041.3,
+        "duration": 4.2,
+        "text": "really is congruent. All of those were genuinely true. And the corresponding lengths of those"
+      },
+      {
+        "start": 1045.4,
+        "duration": 4.6,
+        "text": "triangles that I claimed were the same really are the same. The one place where the proof breaks"
+      },
+      {
+        "start": 1050.1,
+        "duration": 7.0,
+        "text": "down is at the very end when I said that the full side length AC was equal to AE plus EC."
+      },
+      {
+        "start": 1057.8,
+        "duration": 6.2,
+        "text": "That was only true under the hidden assumption that that point E sat in between them. But in"
+      },
+      {
+        "start": 1064.0,
+        "duration": 5.4,
+        "text": "reality, for many triangles, that point would sit outside of those two. It's pretty subtle, isn't it?"
+      },
+      {
+        "start": 1071.6,
+        "duration": 5.1,
+        "text": "The point in all of this is that while visual intuition is great, and visual proofs often give you"
+      },
+      {
+        "start": 1076.7,
+        "duration": 5.6,
+        "text": "a nice way of elucidating what's going on with otherwise opaque rigor, visual arguments and"
+      },
+      {
+        "start": 1082.3,
+        "duration": 5.5,
+        "text": "snazzy diagrams will never obviate the need for critical thinking. In math, you cannot escape the"
+      },
+      {
+        "start": 1087.8,
+        "duration": 18.6,
+        "text": "need to look out for hidden assumptions and edge cases."
+      }
+    ],
+    "full_text": "Today I'd like to share with you three fake proofs in increasing order of subtlety, and then discuss what each one of them has to tell us about math. The first proof is for a formula for the surface area of a sphere, and the way that it starts is to subdivide that sphere into vertical slices, the way you might chop up an orange or paint a beach ball. We then unravel all of those wedge slices from the northern hemisphere so that they poke up like this, and then symmetrically unravel all of those from the southern hemisphere below, and now interlace those pieces to get a shape whose area we want to figure out. The base of this shape came from the circumference of the sphere. It's an unravelled equator, though its length is 2 pi times the radius of the sphere, and then the other side of this shape came from the height of one of these wedges, which is a quarter of a walk around the sphere, and so it has a length of pi halves times r. The idea is that this is only an approximation, the edges might not be perfectly straight, but if we think of the limit as we do finer and finer slices of the sphere, this shape whose area we want to know gets closer to being a perfect rectangle, one whose area will be pi halves r times 2 pi r, or in other words pi squared times r squared. The proof is elegant, it translates a hard problem into a situation that's easier to understand. It has that element of surprise while still being intuitive. Its only fault, really, is that it's completely wrong. The true surface area of a sphere is 4 pi r squared. I originally saw this example thanks to Henry Reich, and to be fair, it's not necessarily inconsistent with the 4 pi r squared formula, just so long as pi is equal to 4. For the next proof, I'd like to show you a simple argument, for the fact that pi is equal to 4. We start off with a circle, say with radius 1, and we ask how can we figure out its circumference? After all, pi is by definition the ratio of this circumference to the diameter of the circle. We start off by drawing the square whose sidelines are all tangent to that circle. It's not too hard to see that the perimeter of this square is 8, then, and some of you may have seen this before, it's a kind of classic argument, the argument proceeds by producing a sequence of curves all of whom also have this perimeter of 8, but which more and more closely approximate the circle. But the full nuance of this example is not always emphasized. First of all, just to make things crystal clear, the way each of these iterations works is to fold in each of the corners of the previous shape, so that they just barely kiss the circle. And you can take a moment to convince yourself that in each region where a fold happened, the perimeter doesn't change. For example, in the upper right here, instead of walking up and then left, the new curve goes left and then up. And something similar is true at all of the folds of all of the different iterations. Wherever the previous iteration went direction A, then direction B, the new iteration goes direction B, then direction A, but no length is lost or gained. Some of you might say, well, obviously this isn't going to give the true perimeter of the circle, because no matter how many iterations you do when you zoom in, it remains jagged, it's not a smooth curve. You're taking these very inefficient steps along the circle. While that is true, and ultimately the reason things are wrong, if you want to appreciate the lesson this example is teaching us, the claim of the example is not that any one of these approximations equals the curve, it's that the limit of all of the approximations equals our circle. And to appreciate the lesson that this example teaches us, it's worth thinking a moment to be a little more mathematically precise about what I mean by the limit of a sequence of curves. Let's say we describe the very first shape this square as a parametric function, something that has an input T, and it outputs a point in 2D space, though that as T ranges from 0 to 1, it traces that square. I'll call that function C0, and likewise we can parameterize the next iteration with a function I'll call C1, as the parameter T ranges from 0 up to 1, the output of this function traces along that curve. This is just so that we can think of these shapes as instead being functions. Now I want you to consider our particular value of T, maybe 0.2, and then consider the sequence of points that you get by evaluating the sequence of functions we have at this particular point. Now I want you to consider the limit as n approaches infinity of C sub n of 0.2. This limit is a well-defined point in 2D space. In fact, that point sits on the circle, and there's nothing specific about 0.2. We could do this limiting process for any input T, and so I can define a new function that I'll call C infinity, which by definition at any input T is whatever this limiting value for all the curves is. So here's the point. That limiting function C infinity is the circle. It's not an approximation of the circle, it's not some jagged version of the circle. It is the genuine smooth circular curve whose perimeter we want to know. And what's also true is that the limit of the lengths of all of our curves really is 8, because each individual curve really does have a perimeter of 8. And there are all sorts of examples throughout calculus when we talk about approximating one thing we want to know as a limit of a bunch of other things that are easier to understand. So the question at the heart here is why exactly is it not okay to do that in this example? And maybe at this point you step back and say, you know, it's just not enough for things to look the same. This is why we need rigor, it's why we need proofs. It's why since the days of Euclid, mathematicians have followed in his footsteps and deduced truths step-by-step from axioms forward. But for this last example, I would like to do something that doesn't lean as hard on visual intuition, and instead give a Euclid-style proof for the claim that all triangles are isosceles. The way this will work is we'll take any particular triangle and make no assumptions about it, I'll label its vertices A, B, and C. And what I would like to prove for you is that the side length A, B, is necessarily equal to the side length A, C. Now to be clear, the result is obviously false. Just in the diagram I've drawn, you can visually see that these lengths are not equal to each other. But I challenge you to see if you can identify what's wrong about the proof I'm about to show you. Honestly, it's very subtle and three gold stars for anyone who can identify it. The first thing I'll do is draw the perpendicular bisector, the line B, C. So that means this angle here is 90 degrees, and this length is by definition the same as this length. And we'll label that intersection point D. And then next I will draw the angle bisector at A, which means by definition this little angle here is the same as this little angle here, I'll label both of them alpha. And we'll say that the point where these two intersect is P. And now like a lot of Euclid style proofs, we're just going to draw some new lines, figure out what things must be equal and get some conclusions. For instance, let's draw the line from P, which is perpendicular to the side length A, C. And we'll label that intersection point E. And likewise, we'll draw the line from P down to the other side length A, C. Again, it's perpendicular and we'll label that intersection point F. My first claim is that this triangle here, which is AFP, is the same, or at least congruent, who this triangle over here, AEP. Essentially, this follows from symmetry across that angle bisector. More specifically, we can say they share a side length and then they both have an angle alpha and both have an angle 90 degrees. So it follows by the side angle angle congruence relation. Maybe my drawing is a little bit sloppy, but the logic helps us see that they do have to be the same. Next, I'll draw a line from P down to B, and then from P down to C. And I claim that this triangle here is congruent to its reflection across that perpendicular bisector. Again, the symmetry maybe helps make this clear, but more rigorously, they both have the same base, they both have a 90 degree angle and they both have the same height. So it follows by the side angle side relation. So based on that first pair of triangles, I'm going to mark this side length here as being the same as this side length here, marking them with double tick marks. And based on the second triangle relation, I'll mark this side length here as the same as this line over here, marking them with triple tick marks. And so from that, we have two more triangles that need to be the same. Namely, this one over here, and the one with corresponding two side lengths over here, and the reasoning here is they both have that triple ticked side, a double ticked side, and they're both 90 degree triangles. So this follows by the side side angle congruence relation. And all of those are valid congruence relation, so I'm not pulling the wall over your eyes with one of those. And all of this will basically be enough to show us why AB has to be the same as BC. That first pair of triangles implies that the length AF is the same as the length AE. Those are corresponding sides to each other. I'll just color them in red here. And then that last triangle relation guarantees for us that the side FB is going to be the same as the side EC. I'll kind of color both of those in blue. And finally, the result we want basically comes from adding up these two equations. The length AF plus FB is clearly the same as the total length AB. And likewise the length AE plus EC is the same as the total length AC. Though all in all the side length AB has to be the same as the side length AC. And because we made no assumptions about the triangle, this implies that any triangle is isosceles. Actually, for that matter, since we made no assumptions about the specific two sides we chose, it implies that any triangle is equilateral. So this leaves us somewhat disturbingly with three different possibilities. All triangles really are equilateral, that's just the truth of the universe. Or you can use Euclid-style reasoning to derive false results. Or there's something wrong in the proof. But if there is, where exactly is it? So what exactly is going on with these three examples? Now the thing that's a little bit troubling about that first example with the sphere is that it is very similar in spirit to a lot of other famous and supposedly true visual proofs from geometry. For example, there's a very famous proof about the area of a circle that starts off by dividing it into a bunch of little pizza wedges, and you take all those wedges and you straighten them out, essentially lining up the crust of that pizza. And then we take half of the wedges and interslice them with the other half. And the idea is that this might not be a perfect rectangle, it's got some bumps and curves. But as you take thinner and thinner slices, you get something that's closer and closer to a true rectangle, and the width of that rectangle comes from half the circumference of the circle, which is by definition pi times r, and then the height of that rectangle comes from the radius of the circle, r, meaning that the whole area is pi r squared. This time, the result is valid, but why is it not okay to do what we did with the spheres, but somehow it is okay to do this with the pizza slices? The main problem with the sphere argument is that when we flatten out all of those orange wedges, if we were to do it accurately in a way that preserves their area, they don't look like triangles, they should bulge outward. And if you want to see this, let's think really critically about just one particular one of those wedges on the sphere, and ask yourself, how does the width across that wedge, this little portion of a line of latitude vary as you go up and down the wedge? In particular, if you consider the angle phi from the z-axis down to a point on this wedge, as we walk down it, what's the length of that width as a function of phi? For those of you curious about the details of these sorts of things, you'd start off by drawing this line up here from the z-axis to a point on the wedge. Its length will be the radius of the sphere r times the sine of this angle. That lets us deduce how long the total line of latitude is where we're sitting. It'll basically be 2 pi times that radial line, 2 pi r sine of phi, and then the width of the wedge that we care about is just some constant proportion of that full line of latitude. Now the details don't matter too much, the one thing I want you to notice is that this is not a linear relationship. As you walk from the top of that wedge down to the bottom, letting phi range from zero up to pi halves, the width of the wedge doesn't grow linearly, instead it grows according to a sine curve. And so, when we're unwrapping all of these wedges, if we want those widths to be preserved, they should end up a little bit chubbier around the base, their side lengths are not linear. What this means is when we try to interlace all of the wedges from northern hemisphere with those from the southern, there's a meaningful amount of overlap between those non-linear edges, and we can't wave our hands about a limiting argument. This is an overlap that persists as you take finer and finer subdivisions. And ultimately, it's that overlap that accounts for the difference between our false answer with a pi squared from the true answer that has four pi. It reminds me of one of those rearrangement puzzles, where you have a number of pieces and just by moving them around, you can seemingly create area out of nowhere. For example, right now I've arranged all these pieces to form a triangle, except it's missing two units of area in the middle. And now I want you to focus on the vertices of that triangle, these white dots. Those don't move, I'm not pulling any trickery with that, but I can rearrange all of the pieces back to how they originally were, so that those two units of area in the middle seem to disappear. All the constituent parts remain the same, the triangle that they form remains the same, and yet two units of area seem to appear out of nowhere. If you've never seen this one before, by the way, I highly encourage you to pause and try to think it through. It's a very fun little puzzle. The answer starts to reveal itself, if we carefully draw the edges of this triangle, and zoom in close enough to see that our pieces don't actually fit inside the triangle, they bulge out ever so slightly. Or at least arranged like this, they bulge out ever so slightly. When we rearrange them, and we zoom back in, we can see that they dent inward ever so slightly. And that very subtle difference between the bulge out and the dent inward accounts for all of the difference in area. The slope of the edge of this blue triangle works out to be 5 divided by 2, whereas the slope of the edge of this red triangle works out to be 7 divided by 3. Those numbers are close enough to look similar as slope, but they allow for this dinting inward and the bulging outward. You have to be wary of lines that are made to look straight, when you haven't had explicit confirmation that they actually are straight. One quick added comment on the sphere, the fundamental issue here is that the geometry of a curved surface is fundamentally different from the geometry of flat space. The relevant search term here would be Gaussian curvature. You can't flatten things out from a sphere without losing geometric information. Now, when you do see limiting arguments that relate to little pieces on a sphere, that somehow get flattened out and are reasoned through there, those only can work if the limiting pieces that you're talking about get smaller in both directions. It's only when you zoom in close to a curved surface that it appears locally flat. The issue with our orange wedge argument is that our pieces never got exposed to that local flatness because they only got thin in one direction. They maintain the curvature in that other direction. Now, on the topic of the subtlety of limiting arguments, let's turn back to our limit of jagged curves that approaches the smooth circular curve. As I said, the limiting curve really is a circle, and the limiting value for the length of your approximations really is 8. Here, the basic issue is that there is no reason to expect that the limit of the length of the curves is the same as the length of the limits of the curves. And in fact, this is a nice counter example to show why that's not the case. The real point of this example is not the fear that anyone is ever going to believe that it shows that pi is equal to 4. Instead, it shows why care is required in other cases where people apply limiting arguments. For example, this happens all throughout calculus. It is the heart of calculus, where say you want to know the area under a given curve, the way we typically think about it, is to approximate that with a set of rectangles, because those are the things we know how to compute the areas of. You just take the base times height in each case. Now, this is a very jagged approximation, but the thought, or I guess the hope, is that as you take a finer and finer subdivision into thinner and thinner rectangles, the sums of those areas approaches the thing we actually care about. If you want to make it rigorous, you have to be explicit about the error between these approximations and the true thing we care about, the area under this curve. For example, you might start your argument by saying that that error has to be strictly less than the area of these red rectangles. Essentially, the deviation between the curve and our approximating rectangles sits strictly inside that red region. And then, what you would want to argue is that in this limiting process, the cumulative area of all of those red rectangles has to approach zero. Now as to the final example, our proofs that all triangles are isosceles, let me show you what it looks like if I'm a little bit more careful about actually constructing the angle bisector rather than just eyeballing it. When I do that, the relevant intersection point actually sits outside of the triangle. And then from there, if I go through everything that we did in the original argument, drawing the relevant perpendicular lines, all of that, every triangle that I claimed was congruent, really is congruent. All of those were genuinely true. And the corresponding lengths of those triangles that I claimed were the same really are the same. The one place where the proof breaks down is at the very end when I said that the full side length AC was equal to AE plus EC. That was only true under the hidden assumption that that point E sat in between them. But in reality, for many triangles, that point would sit outside of those two. It's pretty subtle, isn't it? The point in all of this is that while visual intuition is great, and visual proofs often give you a nice way of elucidating what's going on with otherwise opaque rigor, visual arguments and snazzy diagrams will never obviate the need for critical thinking. In math, you cannot escape the need to look out for hidden assumptions and edge cases."
+  }
+}

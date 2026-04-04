@@ -1,0 +1,1679 @@
+{
+  "video_id": "QCB-FSFSnQ0",
+  "video_title": "Tracing objects | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 473.0,
+  "view_count": 7487,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 3.4,
+        "text": "How does the computer represent an object in memory?"
+      },
+      {
+        "start": 3.4,
+        "duration": 3.2,
+        "text": "And what happens when we call a method?"
+      },
+      {
+        "start": 6.6,
+        "duration": 2.2,
+        "text": "Our program starts with a class definition"
+      },
+      {
+        "start": 8.9,
+        "duration": 2.5,
+        "text": "that defines a triangle type."
+      },
+      {
+        "start": 11.4,
+        "duration": 2.3,
+        "text": "Similar to a function definition,"
+      },
+      {
+        "start": 13.7,
+        "duration": 2.9,
+        "text": "when the computer encounters a class definition,"
+      },
+      {
+        "start": 16.6,
+        "duration": 3.3,
+        "text": "it doesn't directly execute all of this code."
+      },
+      {
+        "start": 19.8,
+        "duration": 3.4,
+        "text": "Instead, this class definition teaches Python"
+      },
+      {
+        "start": 23.2,
+        "duration": 2.9,
+        "text": "about this new type triangle."
+      },
+      {
+        "start": 26.1,
+        "duration": 3.2,
+        "text": "Python learns that a triangle has the methods"
+      },
+      {
+        "start": 29.3,
+        "duration": 3.2,
+        "text": "and it get area and scale."
+      },
+      {
+        "start": 32.5,
+        "duration": 4.1,
+        "text": "There are some nuances to exactly how this gets stored."
+      },
+      {
+        "start": 36.6,
+        "duration": 3.2,
+        "text": "But let's think of it as Python memorizing all of this code"
+      },
+      {
+        "start": 39.8,
+        "duration": 4.5,
+        "text": "here and storing it under the name triangle."
+      },
+      {
+        "start": 44.3,
+        "duration": 2.8,
+        "text": "OK, let's scroll down to our next line of code"
+      },
+      {
+        "start": 47.1,
+        "duration": 3.4,
+        "text": "indented outside of the class definition."
+      },
+      {
+        "start": 50.5,
+        "duration": 2.5,
+        "text": "Here, we have an assignment statement."
+      },
+      {
+        "start": 53.0,
+        "duration": 3.9,
+        "text": "So like always, we evaluate the right-hand side first."
+      },
+      {
+        "start": 56.9,
+        "duration": 3.4,
+        "text": "This calls something named triangle."
+      },
+      {
+        "start": 60.3,
+        "duration": 4.0,
+        "text": "So Python checks its memory to see if it knows that name."
+      },
+      {
+        "start": 64.2,
+        "duration": 4.4,
+        "text": "And under the name triangle, Python finds a class."
+      },
+      {
+        "start": 68.7,
+        "duration": 3.4,
+        "text": "So Python goes into object creation mode."
+      },
+      {
+        "start": 72.1,
+        "duration": 2.9,
+        "text": "Its first step is to allocate space in memory"
+      },
+      {
+        "start": 75.0,
+        "duration": 2.2,
+        "text": "for that new object."
+      },
+      {
+        "start": 77.2,
+        "duration": 2.4,
+        "text": "It doesn't store anything here yet."
+      },
+      {
+        "start": 79.6,
+        "duration": 3.3,
+        "text": "It just makes an empty container that it declares"
+      },
+      {
+        "start": 83.0,
+        "duration": 2.4,
+        "text": "is-of-type triangle."
+      },
+      {
+        "start": 85.4,
+        "duration": 2.4,
+        "text": "So this object remembers that."
+      },
+      {
+        "start": 87.8,
+        "duration": 2.5,
+        "text": "Python stores a reference or pointer"
+      },
+      {
+        "start": 90.3,
+        "duration": 4.6,
+        "text": "to where that triangle class is stored in memory."
+      },
+      {
+        "start": 94.9,
+        "duration": 3.3,
+        "text": "Now that the object is created, Python automatically"
+      },
+      {
+        "start": 98.2,
+        "duration": 2.0,
+        "text": "goes to initialize it."
+      },
+      {
+        "start": 100.2,
+        "duration": 4.8,
+        "text": "So it calls the init method on that empty triangle object."
+      },
+      {
+        "start": 105.0,
+        "duration": 3.2,
+        "text": "A method is just a special kind of function."
+      },
+      {
+        "start": 108.2,
+        "duration": 3.2,
+        "text": "So like a function call, when we call a method,"
+      },
+      {
+        "start": 111.4,
+        "duration": 2.6,
+        "text": "Python creates a new temporary stack frame"
+      },
+      {
+        "start": 114.0,
+        "duration": 2.5,
+        "text": "to store any local variables."
+      },
+      {
+        "start": 116.6,
+        "duration": 4.8,
+        "text": "That includes our parameters, self, base, and height."
+      },
+      {
+        "start": 121.4,
+        "duration": 3.0,
+        "text": "Now, if we've learned anything about methods,"
+      },
+      {
+        "start": 124.3,
+        "duration": 3.1,
+        "text": "it's that Python automatically passes in the object"
+      },
+      {
+        "start": 127.4,
+        "duration": 2.6,
+        "text": "for that first parameter, self."
+      },
+      {
+        "start": 130.0,
+        "duration": 4.6,
+        "text": "But if you recall, Python passes arguments by assignment,"
+      },
+      {
+        "start": 134.6,
+        "duration": 2.7,
+        "text": "which means it doesn't make a copy of this object,"
+      },
+      {
+        "start": 137.3,
+        "duration": 4.7,
+        "text": "it just has self pointed that original object in memory."
+      },
+      {
+        "start": 142.0,
+        "duration": 5.5,
+        "text": "And then we pass in 10 for base and 8.2 for height."
+      },
+      {
+        "start": 147.5,
+        "duration": 3.3,
+        "text": "Our first line is a simple assignment statement."
+      },
+      {
+        "start": 150.8,
+        "duration": 3.1,
+        "text": "The right hand side just grabs the value out of our parameter"
+      },
+      {
+        "start": 153.9,
+        "duration": 3.4,
+        "text": "base, which is 10."
+      },
+      {
+        "start": 157.2,
+        "duration": 3.4,
+        "text": "The left hand side says to go to our parameter self, which"
+      },
+      {
+        "start": 160.7,
+        "duration": 4.4,
+        "text": "is an object, and assign its base attribute."
+      },
+      {
+        "start": 165.1,
+        "duration": 3.0,
+        "text": "Like a list or dictionary, a user-defined object"
+      },
+      {
+        "start": 168.1,
+        "duration": 3.1,
+        "text": "is mutable by default, which means"
+      },
+      {
+        "start": 171.2,
+        "duration": 2.8,
+        "text": "any mutations we make inside a function directly"
+      },
+      {
+        "start": 174.0,
+        "duration": 3.2,
+        "text": "modify the object that was passed in."
+      },
+      {
+        "start": 177.2,
+        "duration": 3.4,
+        "text": "So we follow self to our empty triangle object."
+      },
+      {
+        "start": 180.6,
+        "duration": 4.0,
+        "text": "And then we store the attribute base on that object,"
+      },
+      {
+        "start": 184.6,
+        "duration": 3.6,
+        "text": "setting it to the value 10."
+      },
+      {
+        "start": 188.2,
+        "duration": 3.0,
+        "text": "The next line does essentially the same thing."
+      },
+      {
+        "start": 191.2,
+        "duration": 2.2,
+        "text": "It stores the value of our high parameter"
+      },
+      {
+        "start": 193.3,
+        "duration": 4.2,
+        "text": "in a new attribute named height."
+      },
+      {
+        "start": 197.5,
+        "duration": 2.2,
+        "text": "Then we're at the end of the method."
+      },
+      {
+        "start": 199.8,
+        "duration": 3.3,
+        "text": "So the method call exits, popping off"
+      },
+      {
+        "start": 203.0,
+        "duration": 3.8,
+        "text": "that temporary stack frame, and returning execution"
+      },
+      {
+        "start": 206.8,
+        "duration": 2.6,
+        "text": "to where we left off in the program."
+      },
+      {
+        "start": 209.4,
+        "duration": 2.4,
+        "text": "Then to finish off our assignment statement,"
+      },
+      {
+        "start": 211.9,
+        "duration": 4.7,
+        "text": "we attach the name big to that object in memory."
+      },
+      {
+        "start": 216.6,
+        "duration": 3.6,
+        "text": "For this next line of code, we just run the whole thing back."
+      },
+      {
+        "start": 220.1,
+        "duration": 3.0,
+        "text": "We're creating a new triangle object again."
+      },
+      {
+        "start": 223.2,
+        "duration": 2.7,
+        "text": "So Python allocates an empty object in memory"
+      },
+      {
+        "start": 225.9,
+        "duration": 3.2,
+        "text": "and then calls the init method, passing in that object"
+      },
+      {
+        "start": 229.1,
+        "duration": 1.8,
+        "text": "for self this time."
+      },
+      {
+        "start": 230.8,
+        "duration": 2.5,
+        "text": "And now when it executes these assignments,"
+      },
+      {
+        "start": 233.3,
+        "duration": 3.6,
+        "text": "it's creating those attributes on that new object,"
+      },
+      {
+        "start": 236.9,
+        "duration": 3.2,
+        "text": "which when it exits the method, it labels small."
+      },
+      {
+        "start": 242.6,
+        "duration": 2.2,
+        "text": "All right, we're at this print statement."
+      },
+      {
+        "start": 244.8,
+        "duration": 2.9,
+        "text": "We evaluate parentheses from the inside out."
+      },
+      {
+        "start": 247.7,
+        "duration": 3.8,
+        "text": "So Python starts by looking for the name big in memory."
+      },
+      {
+        "start": 251.5,
+        "duration": 3.0,
+        "text": "And of course, it finds our object."
+      },
+      {
+        "start": 254.5,
+        "duration": 3.7,
+        "text": "The dot syntax then tells Python to look for the name height"
+      },
+      {
+        "start": 258.2,
+        "duration": 2.1,
+        "text": "inside of big."
+      },
+      {
+        "start": 260.3,
+        "duration": 3.6,
+        "text": "And inside big, it finds the attribute height."
+      },
+      {
+        "start": 263.9,
+        "duration": 4.9,
+        "text": "So we grab that value 8.2 and substitute it back in."
+      },
+      {
+        "start": 268.8,
+        "duration": 2.2,
+        "text": "And then print it to the console."
+      },
+      {
+        "start": 273.5,
+        "duration": 3.7,
+        "text": "Next line, once again, we go to the name big."
+      },
+      {
+        "start": 277.2,
+        "duration": 4.2,
+        "text": "But this time inside, we're looking for the name get area."
+      },
+      {
+        "start": 281.4,
+        "duration": 3.0,
+        "text": "Like before, Python starts by checking the attributes"
+      },
+      {
+        "start": 284.4,
+        "duration": 1.2,
+        "text": "for a match."
+      },
+      {
+        "start": 285.6,
+        "duration": 1.8,
+        "text": "That's why we can't use the same name"
+      },
+      {
+        "start": 287.4,
+        "duration": 2.6,
+        "text": "for an attribute and a method."
+      },
+      {
+        "start": 290.0,
+        "duration": 1.7,
+        "text": "It doesn't find a match."
+      },
+      {
+        "start": 291.7,
+        "duration": 4.2,
+        "text": "But Python knows that this object is a triangle type."
+      },
+      {
+        "start": 295.8,
+        "duration": 3.6,
+        "text": "So it follows that reference to the triangle class"
+      },
+      {
+        "start": 299.4,
+        "duration": 3.3,
+        "text": "and looks for the name get area there."
+      },
+      {
+        "start": 302.7,
+        "duration": 2.8,
+        "text": "And lo and behold, it finds this method definition"
+      },
+      {
+        "start": 305.5,
+        "duration": 1.8,
+        "text": "and executes it."
+      },
+      {
+        "start": 307.2,
+        "duration": 4.5,
+        "text": "And as always, passes in the object the method was called on"
+      },
+      {
+        "start": 311.7,
+        "duration": 3.2,
+        "text": "for that first parameter self."
+      },
+      {
+        "start": 314.9,
+        "duration": 2.2,
+        "text": "So assignment statement time."
+      },
+      {
+        "start": 317.2,
+        "duration": 4.0,
+        "text": "We go to the object self and then look for the attribute base"
+      },
+      {
+        "start": 321.1,
+        "duration": 2.2,
+        "text": "stored on that object."
+      },
+      {
+        "start": 323.3,
+        "duration": 3.1,
+        "text": "Grab its value and substitute it in."
+      },
+      {
+        "start": 326.4,
+        "duration": 4.6,
+        "text": "And then we do the same for height and simplify."
+      },
+      {
+        "start": 331.1,
+        "duration": 3.7,
+        "text": "We store that result in a new local variable area"
+      },
+      {
+        "start": 334.8,
+        "duration": 3.5,
+        "text": "in our temporary stack frame."
+      },
+      {
+        "start": 338.3,
+        "duration": 5.0,
+        "text": "And our last line of this method, we divide that area by 2"
+      },
+      {
+        "start": 343.2,
+        "duration": 3.8,
+        "text": "and return that value back to the caller."
+      },
+      {
+        "start": 347.0,
+        "duration": 2.2,
+        "text": "And finally, we print it to the console."
+      },
+      {
+        "start": 352.0,
+        "duration": 3.2,
+        "text": "Now we've got our mutator method scale."
+      },
+      {
+        "start": 355.2,
+        "duration": 2.7,
+        "text": "Python looks in its memory for the name small"
+      },
+      {
+        "start": 357.9,
+        "duration": 3.0,
+        "text": "and then looks for the name scale."
+      },
+      {
+        "start": 360.9,
+        "duration": 2.0,
+        "text": "Doesn't find it in any of the attributes."
+      },
+      {
+        "start": 362.8,
+        "duration": 2.7,
+        "text": "So it follows this reference to the triangle class"
+      },
+      {
+        "start": 365.5,
+        "duration": 2.7,
+        "text": "and it finds the method scale."
+      },
+      {
+        "start": 368.2,
+        "duration": 2.1,
+        "text": "So let's execute it."
+      },
+      {
+        "start": 370.3,
+        "duration": 3.6,
+        "text": "This time, we called scale on the object small."
+      },
+      {
+        "start": 374.0,
+        "duration": 3.2,
+        "text": "So that's what gets passed in for self."
+      },
+      {
+        "start": 377.2,
+        "duration": 4.7,
+        "text": "And for factor, we have the value 2."
+      },
+      {
+        "start": 381.8,
+        "duration": 3.2,
+        "text": "We follow self to our small object over here"
+      },
+      {
+        "start": 385.0,
+        "duration": 2.6,
+        "text": "and grab its attribute base."
+      },
+      {
+        "start": 387.6,
+        "duration": 4.8,
+        "text": "Substitute that in and multiply by a factor 2."
+      },
+      {
+        "start": 392.4,
+        "duration": 1.7,
+        "text": "We've simplified our right-hand side,"
+      },
+      {
+        "start": 394.1,
+        "duration": 2.2,
+        "text": "so we're ready to store."
+      },
+      {
+        "start": 396.3,
+        "duration": 3.9,
+        "text": "Since our object is mutable, we'll follow self over"
+      },
+      {
+        "start": 400.2,
+        "duration": 4.4,
+        "text": "to the object small and then update its base attribute"
+      },
+      {
+        "start": 404.6,
+        "duration": 2.5,
+        "text": "to store the value 6."
+      },
+      {
+        "start": 407.1,
+        "duration": 4.5,
+        "text": "And then we do the same process for the height attribute."
+      },
+      {
+        "start": 412.9,
+        "duration": 3.2,
+        "text": "When we exit the method call, our stack frame goes away."
+      },
+      {
+        "start": 417.1,
+        "duration": 4.9,
+        "text": "But we directly mutated that original object small."
+      },
+      {
+        "start": 422.0,
+        "duration": 2.2,
+        "text": "So all of our changes remain."
+      },
+      {
+        "start": 424.9,
+        "duration": 5.0,
+        "text": "Our next line, once again, scales that same object small."
+      },
+      {
+        "start": 429.9,
+        "duration": 3.6,
+        "text": "But this time, our base and height attributes are different"
+      },
+      {
+        "start": 433.5,
+        "duration": 4.4,
+        "text": "because we already mutated them in the previous scaling."
+      },
+      {
+        "start": 437.9,
+        "duration": 5.2,
+        "text": "So we end this method call with an even bigger base and height."
+      },
+      {
+        "start": 443.2,
+        "duration": 3.0,
+        "text": "Alas, we're at our last line."
+      },
+      {
+        "start": 446.2,
+        "duration": 2.2,
+        "text": "So the program terminates."
+      },
+      {
+        "start": 448.4,
+        "duration": 3.9,
+        "text": "And our lovely triangle objects get cleared."
+      },
+      {
+        "start": 453.3,
+        "duration": 2.0,
+        "text": "So when you're tracing method calls,"
+      },
+      {
+        "start": 455.3,
+        "duration": 2.0,
+        "text": "remember that that first parameter self"
+      },
+      {
+        "start": 457.3,
+        "duration": 2.0,
+        "text": "is always the object you're acting on,"
+      },
+      {
+        "start": 459.3,
+        "duration": 4.0,
+        "text": "which you can use to access the object's internal state."
+      },
+      {
+        "start": 463.3,
+        "duration": 2.0,
+        "text": "And that object is mutable."
+      },
+      {
+        "start": 465.3,
+        "duration": 3.0,
+        "text": "So any changes you make inside of the method"
+      },
+      {
+        "start": 468.3,
+        "duration": 3.0,
+        "text": "affect the original object you passed in."
+      }
+    ],
+    "full_text": "How does the computer represent an object in memory? And what happens when we call a method? Our program starts with a class definition that defines a triangle type. Similar to a function definition, when the computer encounters a class definition, it doesn't directly execute all of this code. Instead, this class definition teaches Python about this new type triangle. Python learns that a triangle has the methods and it get area and scale. There are some nuances to exactly how this gets stored. But let's think of it as Python memorizing all of this code here and storing it under the name triangle. OK, let's scroll down to our next line of code indented outside of the class definition. Here, we have an assignment statement. So like always, we evaluate the right-hand side first. This calls something named triangle. So Python checks its memory to see if it knows that name. And under the name triangle, Python finds a class. So Python goes into object creation mode. Its first step is to allocate space in memory for that new object. It doesn't store anything here yet. It just makes an empty container that it declares is-of-type triangle. So this object remembers that. Python stores a reference or pointer to where that triangle class is stored in memory. Now that the object is created, Python automatically goes to initialize it. So it calls the init method on that empty triangle object. A method is just a special kind of function. So like a function call, when we call a method, Python creates a new temporary stack frame to store any local variables. That includes our parameters, self, base, and height. Now, if we've learned anything about methods, it's that Python automatically passes in the object for that first parameter, self. But if you recall, Python passes arguments by assignment, which means it doesn't make a copy of this object, it just has self pointed that original object in memory. And then we pass in 10 for base and 8.2 for height. Our first line is a simple assignment statement. The right hand side just grabs the value out of our parameter base, which is 10. The left hand side says to go to our parameter self, which is an object, and assign its base attribute. Like a list or dictionary, a user-defined object is mutable by default, which means any mutations we make inside a function directly modify the object that was passed in. So we follow self to our empty triangle object. And then we store the attribute base on that object, setting it to the value 10. The next line does essentially the same thing. It stores the value of our high parameter in a new attribute named height. Then we're at the end of the method. So the method call exits, popping off that temporary stack frame, and returning execution to where we left off in the program. Then to finish off our assignment statement, we attach the name big to that object in memory. For this next line of code, we just run the whole thing back. We're creating a new triangle object again. So Python allocates an empty object in memory and then calls the init method, passing in that object for self this time. And now when it executes these assignments, it's creating those attributes on that new object, which when it exits the method, it labels small. All right, we're at this print statement. We evaluate parentheses from the inside out. So Python starts by looking for the name big in memory. And of course, it finds our object. The dot syntax then tells Python to look for the name height inside of big. And inside big, it finds the attribute height. So we grab that value 8.2 and substitute it back in. And then print it to the console. Next line, once again, we go to the name big. But this time inside, we're looking for the name get area. Like before, Python starts by checking the attributes for a match. That's why we can't use the same name for an attribute and a method. It doesn't find a match. But Python knows that this object is a triangle type. So it follows that reference to the triangle class and looks for the name get area there. And lo and behold, it finds this method definition and executes it. And as always, passes in the object the method was called on for that first parameter self. So assignment statement time. We go to the object self and then look for the attribute base stored on that object. Grab its value and substitute it in. And then we do the same for height and simplify. We store that result in a new local variable area in our temporary stack frame. And our last line of this method, we divide that area by 2 and return that value back to the caller. And finally, we print it to the console. Now we've got our mutator method scale. Python looks in its memory for the name small and then looks for the name scale. Doesn't find it in any of the attributes. So it follows this reference to the triangle class and it finds the method scale. So let's execute it. This time, we called scale on the object small. So that's what gets passed in for self. And for factor, we have the value 2. We follow self to our small object over here and grab its attribute base. Substitute that in and multiply by a factor 2. We've simplified our right-hand side, so we're ready to store. Since our object is mutable, we'll follow self over to the object small and then update its base attribute to store the value 6. And then we do the same process for the height attribute. When we exit the method call, our stack frame goes away. But we directly mutated that original object small. So all of our changes remain. Our next line, once again, scales that same object small. But this time, our base and height attributes are different because we already mutated them in the previous scaling. So we end this method call with an even bigger base and height. Alas, we're at our last line. So the program terminates. And our lovely triangle objects get cleared. So when you're tracing method calls, remember that that first parameter self is always the object you're acting on, which you can use to access the object's internal state. And that object is mutable. So any changes you make inside of the method affect the original object you passed in."
+  }
+}

@@ -1,0 +1,1679 @@
+{
+  "video_id": "aXRTczANuIs",
+  "video_title": "How wiggling charges give rise to light",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1293.0,
+  "view_count": 1752904,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 4.8,
+        "text": "In the last video, you and I looked at this demo here where we shine linearly polarized"
+      },
+      {
+        "start": 4.8,
+        "duration": 4.9,
+        "text": "light through a tube full of sugar water, and we saw how it rather mysteriously results"
+      },
+      {
+        "start": 9.7,
+        "duration": 2.9,
+        "text": "in these colored diagonal stripes."
+      },
+      {
+        "start": 12.6,
+        "duration": 3.8,
+        "text": "There I walked through the general outline for an explanation, keeping track of what"
+      },
+      {
+        "start": 16.4,
+        "duration": 2.2,
+        "text": "questions still need to be answered."
+      },
+      {
+        "start": 18.7,
+        "duration": 4.5,
+        "text": "Namely, why does sugar water twist the polarization direction of light?"
+      },
+      {
+        "start": 23.2,
+        "duration": 3.2,
+        "text": "Why does that twisting rate depend on the color of the light?"
+      },
+      {
+        "start": 26.4,
+        "duration": 4.2,
+        "text": "And why even if you understand that this twist is happening, would you see any evidence"
+      },
+      {
+        "start": 30.6,
+        "duration": 4.8,
+        "text": "of it when viewing the tube from the side with no additional polarizing filters?"
+      },
+      {
+        "start": 35.4,
+        "duration": 4.5,
+        "text": "Here I'd like to begin with the very fundamental idea of what light is and show how the answer"
+      },
+      {
+        "start": 39.9,
+        "duration": 8.6,
+        "text": "to these questions can emerge from an extremely minimal set of assumptions."
+      },
+      {
+        "start": 48.4,
+        "duration": 4.6,
+        "text": "In some sense, the fundamental question of electricity and magnetism is how the position"
+      },
+      {
+        "start": 53.0,
+        "duration": 4.6,
+        "text": "and motion of one charged particle influences that of another."
+      },
+      {
+        "start": 57.6,
+        "duration": 3.8,
+        "text": "For example, one of the first things you learn, say in a high school physics class, is"
+      },
+      {
+        "start": 61.4,
+        "duration": 3.4,
+        "text": "that charges with the same sign tend to repel each other."
+      },
+      {
+        "start": 64.8,
+        "duration": 3.8,
+        "text": "And the strength of this force depends a lot on the distance between them."
+      },
+      {
+        "start": 68.6,
+        "duration": 5.2,
+        "text": "If your charges are close, that repulsive force is very strong, but it decays very rapidly"
+      },
+      {
+        "start": 73.8,
+        "duration": 3.0,
+        "text": "as these particles go away from each other."
+      },
+      {
+        "start": 76.8,
+        "duration": 4.0,
+        "text": "Specifically, here's how you might see this written down as an equation, known as Ku-Lom's"
+      },
+      {
+        "start": 80.8,
+        "duration": 1.0,
+        "text": "law."
+      },
+      {
+        "start": 81.8,
+        "duration": 3.7,
+        "text": "The force is proportional to the charge of both of the particles, where it's common to"
+      },
+      {
+        "start": 85.4,
+        "duration": 4.2,
+        "text": "use the letter Q. There are some constants in there, which, for our purposes, we can just"
+      },
+      {
+        "start": 89.6,
+        "duration": 2.6,
+        "text": "think of as one big proportionality constant."
+      },
+      {
+        "start": 92.3,
+        "duration": 4.6,
+        "text": "And the important fact is that you've got this one divided by R squared term, where R"
+      },
+      {
+        "start": 96.8,
+        "duration": 1.9,
+        "text": "is the distance between them."
+      },
+      {
+        "start": 98.8,
+        "duration": 5.2,
+        "text": "So for example, if the distance between them increases by a factor of 3, the force that"
+      },
+      {
+        "start": 104.0,
+        "duration": 4.0,
+        "text": "they're applying to each other goes down by a factor of 9."
+      },
+      {
+        "start": 108.0,
+        "duration": 4.7,
+        "text": "The way you might see a law like this written down is to focus on just one charged particle,"
+      },
+      {
+        "start": 112.7,
+        "duration": 5.2,
+        "text": "and then say, for every point in space, if there was a second charge there, what force"
+      },
+      {
+        "start": 117.9,
+        "duration": 5.2,
+        "text": "would this first charge be applying to that second one?"
+      },
+      {
+        "start": 123.1,
+        "duration": 3.6,
+        "text": "And instead of describing a force per se, you might see this written describing what's"
+      },
+      {
+        "start": 126.8,
+        "duration": 4.8,
+        "text": "known as the electric field, which is just a way of saying what force would be applied"
+      },
+      {
+        "start": 131.5,
+        "duration": 1.8,
+        "text": "to a unit charge."
+      },
+      {
+        "start": 133.4,
+        "duration": 4.2,
+        "text": "And in this context, the word field means there's a value associated with every single point"
+      },
+      {
+        "start": 137.6,
+        "duration": 1.4,
+        "text": "in space."
+      },
+      {
+        "start": 139.0,
+        "duration": 4.1,
+        "text": "So the way I have it written here, it depends on a little vector R, which would be the"
+      },
+      {
+        "start": 143.0,
+        "duration": 5.0,
+        "text": "vector from our charge to a given point in space, and the direction of this field at all"
+      },
+      {
+        "start": 148.0,
+        "duration": 4.3,
+        "text": "points is in the same direction as R."
+      },
+      {
+        "start": 152.3,
+        "duration": 3.8,
+        "text": "I bring up coulomb's law to emphasize that it's not the full story."
+      },
+      {
+        "start": 156.1,
+        "duration": 2.7,
+        "text": "There are other ways that charges influence each other."
+      },
+      {
+        "start": 158.8,
+        "duration": 4.2,
+        "text": "For example, here's a phenomenon that this law alone could not explain."
+      },
+      {
+        "start": 163.0,
+        "duration": 4.5,
+        "text": "If you wiggle one charge up and down, then after a little bit of a delay, a second charge"
+      },
+      {
+        "start": 167.5,
+        "duration": 4.8,
+        "text": "some distance to its right will be induced to wiggle up and down as well."
+      },
+      {
+        "start": 172.3,
+        "duration": 3.9,
+        "text": "We can write down a second law, which you might think of as a correction term to be added"
+      },
+      {
+        "start": 176.2,
+        "duration": 3.7,
+        "text": "to coulomb's law, that describes what's going on here."
+      },
+      {
+        "start": 179.9,
+        "duration": 4.3,
+        "text": "Suppose at some point in time t0, that first charge is accelerating."
+      },
+      {
+        "start": 184.2,
+        "duration": 4.2,
+        "text": "Then I'll let time play forward, but leave on the screen a kind of ghost of that particle"
+      },
+      {
+        "start": 188.4,
+        "duration": 5.7,
+        "text": "indicating where it was and how it was accelerating at this time t0."
+      },
+      {
+        "start": 194.1,
+        "duration": 5.4,
+        "text": "After a certain delay, this causes a force on the second charge, and the equation describing"
+      },
+      {
+        "start": 199.6,
+        "duration": 2.6,
+        "text": "this force looks something like this."
+      },
+      {
+        "start": 202.2,
+        "duration": 4.8,
+        "text": "So again, it's proportional to the charge of both of the particles, and once more the"
+      },
+      {
+        "start": 207.0,
+        "duration": 3.5,
+        "text": "common way to write it involves this pile of constants that you don't really need to"
+      },
+      {
+        "start": 210.4,
+        "duration": 1.2,
+        "text": "worry about."
+      },
+      {
+        "start": 211.6,
+        "duration": 4.1,
+        "text": "The important factor I want you to notice is how the force also depends on the distance"
+      },
+      {
+        "start": 215.7,
+        "duration": 5.0,
+        "text": "between the particles, but instead of decaying in proportion to r squared, it only decays"
+      },
+      {
+        "start": 220.8,
+        "duration": 1.6,
+        "text": "in proportion to r."
+      },
+      {
+        "start": 222.4,
+        "duration": 6.0,
+        "text": "So over long distances, this is the force that dominates, and coulomb's law is negligible."
+      },
+      {
+        "start": 228.4,
+        "duration": 5.2,
+        "text": "And then finally, it depends on the acceleration of that first particle, but it's not the acceleration"
+      },
+      {
+        "start": 233.6,
+        "duration": 5.2,
+        "text": "of that particle at the current time, it's whatever that acceleration was at some time"
+      },
+      {
+        "start": 238.8,
+        "duration": 1.6,
+        "text": "in the past."
+      },
+      {
+        "start": 240.4,
+        "duration": 4.0,
+        "text": "How far in the past depends on the distance between the particles and the speed of light"
+      },
+      {
+        "start": 244.4,
+        "duration": 1.7,
+        "text": "denoted with C?"
+      },
+      {
+        "start": 246.1,
+        "duration": 4.1,
+        "text": "The way to think about it is that any form of influence can't propagate any faster than"
+      },
+      {
+        "start": 250.2,
+        "duration": 5.4,
+        "text": "this speed, C. In fact, a more accurate description of coulomb's law would also involve a delay"
+      },
+      {
+        "start": 255.6,
+        "duration": 1.5,
+        "text": "term like this."
+      },
+      {
+        "start": 257.1,
+        "duration": 4.5,
+        "text": "Again, the intuitive way to read this equation is that wiggling a charge in one location"
+      },
+      {
+        "start": 261.6,
+        "duration": 5.2,
+        "text": "after some delay causes a wiggle to a second charge in another location."
+      },
+      {
+        "start": 266.7,
+        "duration": 3.7,
+        "text": "And actually the way I have it written right now is a little bit wrong, instead of the"
+      },
+      {
+        "start": 270.4,
+        "duration": 5.0,
+        "text": "acceleration vector here, I should really be writing something like a perp, indicating"
+      },
+      {
+        "start": 275.4,
+        "duration": 5.5,
+        "text": "the component of that acceleration vector, which is perpendicular to the line drawn between"
+      },
+      {
+        "start": 280.9,
+        "duration": 1.6,
+        "text": "the two charges."
+      },
+      {
+        "start": 282.5,
+        "duration": 3.4,
+        "text": "In other words, when you wiggle that first charge, the direction that the second charge"
+      },
+      {
+        "start": 286.0,
+        "duration": 4.8,
+        "text": "wiggles is always perpendicular to the line between them, and the amount that it wiggles"
+      },
+      {
+        "start": 290.8,
+        "duration": 6.6,
+        "text": "gets weaker and weaker when that line between them is more lined up with the initial acceleration."
+      },
+      {
+        "start": 297.3,
+        "duration": 4.2,
+        "text": "As before, this is something you might see written down in a way that describes a component"
+      },
+      {
+        "start": 301.6,
+        "duration": 3.2,
+        "text": "of the electric field caused by just one charge."
+      },
+      {
+        "start": 304.8,
+        "duration": 5.4,
+        "text": "Again, that means what force would be applied to a second charge at all possible different"
+      },
+      {
+        "start": 310.2,
+        "duration": 2.5,
+        "text": "points in space?"
+      },
+      {
+        "start": 312.6,
+        "duration": 4.7,
+        "text": "This component of the field is only ever non-zero when our first charge is moving somehow,"
+      },
+      {
+        "start": 317.4,
+        "duration": 2.2,
+        "text": "when it has an acceleration vector on it."
+      },
+      {
+        "start": 319.6,
+        "duration": 4.6,
+        "text": "And because of this delay term, the effects on this field tend to radiate away from the"
+      },
+      {
+        "start": 324.2,
+        "duration": 1.0,
+        "text": "charge."
+      },
+      {
+        "start": 325.2,
+        "duration": 2.7,
+        "text": "This is why I'm writing it down with the subscript rad."
+      },
+      {
+        "start": 327.9,
+        "duration": 5.2,
+        "text": "This is the component of the electric field that will radiate away from a given charge."
+      },
+      {
+        "start": 333.2,
+        "duration": 4.4,
+        "text": "For instance, when the charge is oscillating up and down, you get these propagating waves,"
+      },
+      {
+        "start": 337.6,
+        "duration": 3.8,
+        "text": "and for many of the vector fields I'll be showing the intensity of the field is illustrated"
+      },
+      {
+        "start": 341.4,
+        "duration": 2.9,
+        "text": "with the opacity of each little vector."
+      },
+      {
+        "start": 344.4,
+        "duration": 6.0,
+        "text": "This radiating influence is light, or more generally electromagnetic radiation, including"
+      },
+      {
+        "start": 350.4,
+        "duration": 4.5,
+        "text": "things like radio waves and x-rays and all that good stuff."
+      },
+      {
+        "start": 354.9,
+        "duration": 3.8,
+        "text": "As a side note, you sometimes see this propagation described a very different way that puts"
+      },
+      {
+        "start": 358.7,
+        "duration": 4.6,
+        "text": "the fields front and center, using what are known as Maxwell's equations."
+      },
+      {
+        "start": 363.3,
+        "duration": 4.7,
+        "text": "For our purposes, I want to focus just on this one law and show just how far it can take"
+      },
+      {
+        "start": 368.0,
+        "duration": 3.6,
+        "text": "us when it comes to intuitions for light."
+      },
+      {
+        "start": 371.6,
+        "duration": 4.9,
+        "text": "For the animations I'm about to show, all I've really done is encoded in this one law,"
+      },
+      {
+        "start": 376.5,
+        "duration": 3.9,
+        "text": "which tells us what should this component of the electric field be at every point in"
+      },
+      {
+        "start": 380.4,
+        "duration": 6.0,
+        "text": "space, as determined by the history of accelerations of a particular charge."
+      },
+      {
+        "start": 386.4,
+        "duration": 4.8,
+        "text": "For example, if I set that charge oscillating up and down in the Z direction, and illustrate"
+      },
+      {
+        "start": 391.2,
+        "duration": 5.4,
+        "text": "this component of the electric field everywhere on the xy plane, you see these circular propagations"
+      },
+      {
+        "start": 396.6,
+        "duration": 2.5,
+        "text": "of equal strength in all directions."
+      },
+      {
+        "start": 399.1,
+        "duration": 7.0,
+        "text": "It's a little easier to think about if we focus on just one axis, like the x-axis,"
+      },
+      {
+        "start": 406.1,
+        "duration": 3.8,
+        "text": "and at first when I made this animation, I assumed that there was some kind of bug,"
+      },
+      {
+        "start": 409.9,
+        "duration": 3.1,
+        "text": "because near the charge it just looks crooked and wrong."
+      },
+      {
+        "start": 413.0,
+        "duration": 4.0,
+        "text": "But when you think about it, this is actually what you should expect, because remember,"
+      },
+      {
+        "start": 417.0,
+        "duration": 4.5,
+        "text": "each one of these vectors is supposed to be perpendicular to the line drawn between that"
+      },
+      {
+        "start": 421.5,
+        "duration": 5.0,
+        "text": "point and where the charge was at some point in the past."
+      },
+      {
+        "start": 426.5,
+        "duration": 3.6,
+        "text": "At points that are far enough away from the charge, which is where this component of the"
+      },
+      {
+        "start": 430.1,
+        "duration": 4.4,
+        "text": "field is what dominates anyway, the wiggling in the field is essentially parallel to the"
+      },
+      {
+        "start": 434.6,
+        "duration": 3.9,
+        "text": "wiggling in the charge, which is why when we think about light waves, we're safe to"
+      },
+      {
+        "start": 438.5,
+        "duration": 4.6,
+        "text": "think about the wiggling direction as being perpendicular to the propagation direction."
+      },
+      {
+        "start": 443.2,
+        "duration": 4.6,
+        "text": "Like I said, this propagation for just one charge is equally strong in all of the directions"
+      },
+      {
+        "start": 447.8,
+        "duration": 4.2,
+        "text": "perpendicular to its wiggling, and really I should emphasize that the propagation does"
+      },
+      {
+        "start": 452.0,
+        "duration": 5.4,
+        "text": "happen in all directions of three-dimensional space."
+      },
+      {
+        "start": 457.3,
+        "duration": 3.7,
+        "text": "It's maybe a little busy to try to illustrate the full three-dimensional vector field on"
+      },
+      {
+        "start": 461.0,
+        "duration": 3.4,
+        "text": "screen like this, so it's clarifying if we just focus on, say, the"
+      },
+      {
+        "start": 464.4,
+        "duration": 2.0,
+        "text": "XZ plane."
+      },
+      {
+        "start": 466.4,
+        "duration": 4.5,
+        "text": "Notice how the waves here are strongest in the X direction, but it still does propagate"
+      },
+      {
+        "start": 470.9,
+        "duration": 1.5,
+        "text": "in all other directions."
+      },
+      {
+        "start": 472.4,
+        "duration": 4.1,
+        "text": "It's just that that propagation gets weaker in directions that are more aligned with"
+      },
+      {
+        "start": 476.5,
+        "duration": 1.7,
+        "text": "the original wiggling."
+      },
+      {
+        "start": 478.2,
+        "duration": 6.5,
+        "text": "At the extreme, the only place where there's no propagation is in the Z axis."
+      },
+      {
+        "start": 484.7,
+        "duration": 4.0,
+        "text": "Because our law has this one divided by R in it, the strength of the wave caused by"
+      },
+      {
+        "start": 488.6,
+        "duration": 5.8,
+        "text": "just one particle does decay as you go farther away, in proportion to 1 over R."
+      },
+      {
+        "start": 494.4,
+        "duration": 5.3,
+        "text": "Notice what happens if I take a whole row of charges, say oriented along the y axis,"
+      },
+      {
+        "start": 499.7,
+        "duration": 4.2,
+        "text": "and I have them all start wiggling up and down in the Z direction, and I illustrate the"
+      },
+      {
+        "start": 503.9,
+        "duration": 6.1,
+        "text": "combined effects that all of them have on this component of the electric field."
+      },
+      {
+        "start": 510.0,
+        "duration": 5.6,
+        "text": "The effects of all these charges interfere deconstructively along the y direction, but"
+      },
+      {
+        "start": 515.6,
+        "duration": 3.6,
+        "text": "they interfere constructively along the X direction."
+      },
+      {
+        "start": 519.2,
+        "duration": 5.3,
+        "text": "This is what it looks like for a beam of light to be concentrated along just one dimension."
+      },
+      {
+        "start": 524.5,
+        "duration": 5.6,
+        "text": "So if you were to focus on the field just along the X axis, instead of decaying in proportion"
+      },
+      {
+        "start": 530.1,
+        "duration": 5.6,
+        "text": "to 1 over R, this combined effect decays much more gently."
+      },
+      {
+        "start": 535.7,
+        "duration": 4.3,
+        "text": "In the extreme, you can get something arbitrarily close to those pure sine wave propagations"
+      },
+      {
+        "start": 540.0,
+        "duration": 2.1,
+        "text": "we were illustrating earlier."
+      },
+      {
+        "start": 542.1,
+        "duration": 3.8,
+        "text": "If at some distance of way you have a large number of charges oscillating in sync with"
+      },
+      {
+        "start": 545.9,
+        "duration": 1.6,
+        "text": "each other like this."
+      },
+      {
+        "start": 547.5,
+        "duration": 3.4,
+        "text": "One thing that's worth emphasizing when you see light illustrated with a sine wave like"
+      },
+      {
+        "start": 550.8,
+        "duration": 5.0,
+        "text": "this is that even though that wave is being drawn in two or three dimensions, it's only"
+      },
+      {
+        "start": 555.9,
+        "duration": 6.9,
+        "text": "describing the electric field along a one-dimensional line, namely the base of all those vectors."
+      },
+      {
+        "start": 562.8,
+        "duration": 3.7,
+        "text": "It's just that to draw the vectors you have to venture off of that line."
+      },
+      {
+        "start": 566.5,
+        "duration": 4.2,
+        "text": "Great, so one of the last important things to highlight before we get back to the sugar"
+      },
+      {
+        "start": 570.8,
+        "duration": 2.6,
+        "text": "water is polarization."
+      },
+      {
+        "start": 573.3,
+        "duration": 4.4,
+        "text": "And everything I've been showing, the driving charge is just oscillating along a single direction"
+      },
+      {
+        "start": 577.7,
+        "duration": 4.2,
+        "text": "like the Z axis, and this causes linearly polarized light."
+      },
+      {
+        "start": 581.9,
+        "duration": 1.6,
+        "text": "But it doesn't have to happen like that."
+      },
+      {
+        "start": 583.5,
+        "duration": 5.4,
+        "text": "For example, if I set the charge rotating in a little circle along the YZ plane, meaning"
+      },
+      {
+        "start": 588.9,
+        "duration": 4.6,
+        "text": "its acceleration vector is also rotating in a little circle, notice what the field looks"
+      },
+      {
+        "start": 593.5,
+        "duration": 1.4,
+        "text": "like."
+      },
+      {
+        "start": 594.8,
+        "duration": 4.0,
+        "text": "This is known aptly enough as circularly polarized light."
+      },
+      {
+        "start": 598.8,
+        "duration": 4.3,
+        "text": "Honestly, it's easiest to think about for just one point of the electric field."
+      },
+      {
+        "start": 603.1,
+        "duration": 4.9,
+        "text": "What it means for light to be circularly polarized is that at that point, the electric field"
+      },
+      {
+        "start": 608.0,
+        "duration": 3.1,
+        "text": "vector is just rotating in a circle."
+      },
+      {
+        "start": 611.1,
+        "duration": 4.4,
+        "text": "People often find circular polarization a little confusing, and I suspect part of the reason"
+      },
+      {
+        "start": 615.5,
+        "duration": 4.4,
+        "text": "for that is that it's hard to illustrate with a static diagram, but also it's a little"
+      },
+      {
+        "start": 620.0,
+        "duration": 3.5,
+        "text": "confusing when you try to think about the full electric field."
+      },
+      {
+        "start": 623.4,
+        "duration": 3.8,
+        "text": "For example, here's what the field looks like on the XY plane when I set that little"
+      },
+      {
+        "start": 627.3,
+        "duration": 4.0,
+        "text": "charge rotating in a circle."
+      },
+      {
+        "start": 631.2,
+        "duration": 3.8,
+        "text": "That's certainly very beautiful I could look at this all day, but you can understand"
+      },
+      {
+        "start": 635.0,
+        "duration": 2.5,
+        "text": "why it might feel a little confusing."
+      },
+      {
+        "start": 637.6,
+        "duration": 3.7,
+        "text": "The very last thing I'll mention is that while everything here is a classical description"
+      },
+      {
+        "start": 641.3,
+        "duration": 3.8,
+        "text": "of light, the important points still hold up in quantum mechanics."
+      },
+      {
+        "start": 645.0,
+        "duration": 3.8,
+        "text": "You still have propagating waves, there's still polarization that can be either linear"
+      },
+      {
+        "start": 648.9,
+        "duration": 1.3,
+        "text": "or circular."
+      },
+      {
+        "start": 650.2,
+        "duration": 4.1,
+        "text": "The main difference with quantum mechanics is that the energy in this wave doesn't scale"
+      },
+      {
+        "start": 654.3,
+        "duration": 4.8,
+        "text": "up and down continuously, like you might expect, it comes in discrete little steps."
+      },
+      {
+        "start": 659.3,
+        "duration": 3.9,
+        "text": "I have another video that goes into more detail, but for our purposes, thinking about it"
+      },
+      {
+        "start": 663.2,
+        "duration": 2.4,
+        "text": "classically is fine."
+      },
+      {
+        "start": 665.7,
+        "duration": 3.2,
+        "text": "Part of the reason I wanted to go through that is because, frankly, it's just very fun"
+      },
+      {
+        "start": 668.9,
+        "duration": 3.5,
+        "text": "to animate, and I like an excuse for a fundamental lesson."
+      },
+      {
+        "start": 672.4,
+        "duration": 3.8,
+        "text": "But now let's turn back to our demo and see how we can build up an intuition for some"
+      },
+      {
+        "start": 676.2,
+        "duration": 4.3,
+        "text": "of our key questions, starting from this very basic premise that shaking a charge in"
+      },
+      {
+        "start": 680.5,
+        "duration": 3.7,
+        "text": "one location causes a shake to another charge a little bit later."
+      },
+      {
+        "start": 684.2,
+        "duration": 3.0,
+        "text": "And let's start by actually skipping ahead to question number three."
+      },
+      {
+        "start": 687.2,
+        "duration": 7.3,
+        "text": "Why do we see the diagonal stripes?"
+      },
+      {
+        "start": 694.4,
+        "duration": 3.9,
+        "text": "To think about this, you need to imagine an observer to the side of the tube, and then"
+      },
+      {
+        "start": 698.4,
+        "duration": 5.1,
+        "text": "for a particular pure color, say red, if the observer looks in the tube and sees that"
+      },
+      {
+        "start": 703.4,
+        "duration": 4.4,
+        "text": "color, it's because light of that color has bounced off something at that point in"
+      },
+      {
+        "start": 707.8,
+        "duration": 4.0,
+        "text": "the tube, and then propagated towards the eye of the observer."
+      },
+      {
+        "start": 711.8,
+        "duration": 4.5,
+        "text": "Sometimes when people talk about light bouncing off of things, the implied mental image is"
+      },
+      {
+        "start": 716.3,
+        "duration": 4.6,
+        "text": "something like a projectile, ricocheting off of some object, heading off in some random"
+      },
+      {
+        "start": 721.0,
+        "duration": 1.4,
+        "text": "direction."
+      },
+      {
+        "start": 722.4,
+        "duration": 3.9,
+        "text": "But the better mental image to hold in your mind is that when the propagating lightwaves"
+      },
+      {
+        "start": 726.2,
+        "duration": 5.0,
+        "text": "caused by some wiggling charge, reach some second charge causing it to wiggle, that secondary"
+      },
+      {
+        "start": 731.2,
+        "duration": 3.1,
+        "text": "wiggle results in its own propagation."
+      },
+      {
+        "start": 734.4,
+        "duration": 4.2,
+        "text": "And for the animation on screen, that propagation goes back to the first charge, which itself"
+      },
+      {
+        "start": 738.5,
+        "duration": 2.3,
+        "text": "causes a propagation towards the second."
+      },
+      {
+        "start": 740.8,
+        "duration": 4.1,
+        "text": "And this is what it looks like in a very simplified situation for light to bounce back and"
+      },
+      {
+        "start": 745.0,
+        "duration": 2.3,
+        "text": "forth between two charges."
+      },
+      {
+        "start": 747.3,
+        "duration": 4.8,
+        "text": "If you have some concentrated beam of polarized light interacting with some charge, causing"
+      },
+      {
+        "start": 752.0,
+        "duration": 5.2,
+        "text": "it to wiggle up and down, then these resulting second order propagations are most strong"
+      },
+      {
+        "start": 757.2,
+        "duration": 4.4,
+        "text": "in the direction's perpendicular to the direction of polarization."
+      },
+      {
+        "start": 761.6,
+        "duration": 3.4,
+        "text": "And some sense you could think of light as bouncing off of that charge, but the important"
+      },
+      {
+        "start": 765.0,
+        "duration": 3.2,
+        "text": "point is that it doesn't bounce in all directions equally."
+      },
+      {
+        "start": 768.3,
+        "duration": 4.4,
+        "text": "It's strongest perpendicular to the wiggle direction, but gets weaker in all of the other"
+      },
+      {
+        "start": 772.7,
+        "duration": 2.2,
+        "text": "directions."
+      },
+      {
+        "start": 774.8,
+        "duration": 4.6,
+        "text": "So think about our setup, and for a particular frequency of light, how likely it is that"
+      },
+      {
+        "start": 779.5,
+        "duration": 4.5,
+        "text": "an observer looking at a particular point in the tube will see that light."
+      },
+      {
+        "start": 784.0,
+        "duration": 5.0,
+        "text": "Again, the key phenomenon with sugar water, which we have yet to explain, is that the polarization"
+      },
+      {
+        "start": 789.0,
+        "duration": 4.4,
+        "text": "direction is slowly getting twisted as it goes down the tube."
+      },
+      {
+        "start": 793.4,
+        "duration": 4.3,
+        "text": "So suppose the observer was looking at a point like this one, where the polarization direction"
+      },
+      {
+        "start": 797.7,
+        "duration": 2.1,
+        "text": "happens to be straight up and down."
+      },
+      {
+        "start": 799.8,
+        "duration": 4.3,
+        "text": "Then the second order propagations, resulting from wiggling charges at that point, are most"
+      },
+      {
+        "start": 804.1,
+        "duration": 4.7,
+        "text": "strong along the plane where the observer is, so the amount of red that they see at that"
+      },
+      {
+        "start": 808.8,
+        "duration": 2.3,
+        "text": "point would look stronger."
+      },
+      {
+        "start": 811.1,
+        "duration": 4.0,
+        "text": "By contrast, if they were looking at a different point in the tube, like this one, where the"
+      },
+      {
+        "start": 815.1,
+        "duration": 4.3,
+        "text": "wiggling direction is closer to being parallel to the line of sight, then the direction where"
+      },
+      {
+        "start": 819.4,
+        "duration": 3.8,
+        "text": "the scattering is strongest is not at all aligned with the observer, and the amount of"
+      },
+      {
+        "start": 823.2,
+        "duration": 3.7,
+        "text": "red they see is only going to be very weak."
+      },
+      {
+        "start": 826.9,
+        "duration": 3.9,
+        "text": "And looking at our actual physical setup, if we first pass the light through a filter"
+      },
+      {
+        "start": 830.9,
+        "duration": 4.2,
+        "text": "showing only the red, we see exactly this effect in action."
+      },
+      {
+        "start": 835.2,
+        "duration": 5.4,
+        "text": "As you scan your eyes along the tube, the intensity of red that you see goes from being high"
+      },
+      {
+        "start": 840.6,
+        "duration": 5.9,
+        "text": "to being low, where it's almost black, back to being high again."
+      },
+      {
+        "start": 846.5,
+        "duration": 4.7,
+        "text": "As an analogy, imagine there was a ribbon going down the tube, always aligned with the polarization"
+      },
+      {
+        "start": 851.2,
+        "duration": 2.3,
+        "text": "direction for this color."
+      },
+      {
+        "start": 853.4,
+        "duration": 3.5,
+        "text": "Then putting yourself in the shoes of the observer, when you look at points where the ribbon"
+      },
+      {
+        "start": 856.9,
+        "duration": 4.0,
+        "text": "appears very thin, you're going to see very little red light, whereas if you scan your"
+      },
+      {
+        "start": 861.0,
+        "duration": 5.0,
+        "text": "eyes over the points where the ribbon appears thicker, you're going to see more red light."
+      },
+      {
+        "start": 866.0,
+        "duration": 3.6,
+        "text": "One thing that's nice about this is that if we try it for various different colors,"
+      },
+      {
+        "start": 869.6,
+        "duration": 4.8,
+        "text": "you can actually see how the twisting rates are different for each one of the colors."
+      },
+      {
+        "start": 874.5,
+        "duration": 3.4,
+        "text": "Notice with red light, the distance between where it appears brightest and where it appears"
+      },
+      {
+        "start": 877.9,
+        "duration": 5.6,
+        "text": "darkest is relatively long, whereas if you look down the colors of the rainbow, that distance"
+      },
+      {
+        "start": 883.6,
+        "duration": 5.4,
+        "text": "between the brightest point and the darkest point gets lower and lower."
+      },
+      {
+        "start": 889.0,
+        "duration": 5.2,
+        "text": "So what you're seeing in effect is how red light twists slowly, whereas light waves with"
+      },
+      {
+        "start": 894.2,
+        "duration": 7.5,
+        "text": "higher frequencies get twisted more aggressively."
+      },
+      {
+        "start": 901.7,
+        "duration": 4.7,
+        "text": "But still you might wonder why the boundaries between light and dark points appear diagonal."
+      },
+      {
+        "start": 906.4,
+        "duration": 4.7,
+        "text": "Why is it that in addition to having variation as you scan your eyes from left to right, there's"
+      },
+      {
+        "start": 911.1,
+        "duration": 4.9,
+        "text": "also variation as you scan your eyes from the top of the tube to the bottom."
+      },
+      {
+        "start": 916.0,
+        "duration": 4.0,
+        "text": "This has less to do with what's going on in the tube and more to do with a matter of"
+      },
+      {
+        "start": 920.0,
+        "duration": 1.6,
+        "text": "perspective."
+      },
+      {
+        "start": 921.6,
+        "duration": 3.9,
+        "text": "Take a moment to think about many different parallel beams of light ranging from the top"
+      },
+      {
+        "start": 925.4,
+        "duration": 1.8,
+        "text": "of the tube to the bottom."
+      },
+      {
+        "start": 927.3,
+        "duration": 3.8,
+        "text": "At the beginning, all of these light waves are wiggling up and down and as you pass through"
+      },
+      {
+        "start": 931.0,
+        "duration": 4.5,
+        "text": "the tube and the effects of the sugar water somehow twists these directions, because they're"
+      },
+      {
+        "start": 935.5,
+        "duration": 4.4,
+        "text": "all passing through the same amount of sugar, they're getting twisted by the same amounts."
+      },
+      {
+        "start": 939.9,
+        "duration": 4.8,
+        "text": "So at all points, the polarization of these waves are parallel to each other."
+      },
+      {
+        "start": 944.7,
+        "duration": 4.6,
+        "text": "If you're the observer and you look at the topmost point here, its wiggling direction is essentially"
+      },
+      {
+        "start": 949.3,
+        "duration": 4.6,
+        "text": "parallel to the line of sight, so the light scattering from that point is basically not"
+      },
+      {
+        "start": 953.9,
+        "duration": 3.0,
+        "text": "going to reach your eyes at all, it should appear black."
+      },
+      {
+        "start": 956.8,
+        "duration": 4.0,
+        "text": "But if you scan your eyes down the tube, the angle between the line of sight and the wiggling"
+      },
+      {
+        "start": 960.8,
+        "duration": 4.4,
+        "text": "direction changes and so there will be at least some component of red light scattering"
+      },
+      {
+        "start": 965.2,
+        "duration": 1.4,
+        "text": "towards the eye."
+      },
+      {
+        "start": 966.6,
+        "duration": 4.6,
+        "text": "So as you scan your eyes from top to bottom, the amount of a particular color you see"
+      },
+      {
+        "start": 971.1,
+        "duration": 3.8,
+        "text": "might vary, say from dark to light."
+      },
+      {
+        "start": 975.0,
+        "duration": 4.9,
+        "text": "The full demo that has white light is basically a combination of all these pure color patterns"
+      },
+      {
+        "start": 979.9,
+        "duration": 4.0,
+        "text": "that go from light to dark to light with diagonal boundaries between the intense points"
+      },
+      {
+        "start": 983.9,
+        "duration": 5.0,
+        "text": "and the weak points, hence why you see diagonal boundaries between the colors inside the"
+      },
+      {
+        "start": 988.8,
+        "duration": 2.6,
+        "text": "tube."
+      },
+      {
+        "start": 991.4,
+        "duration": 4.6,
+        "text": "And now at last let's turn to the heart of the matter and try to explain why interactions"
+      },
+      {
+        "start": 996.0,
+        "duration": 4.1,
+        "text": "with sugar would make light twist like this in the first place."
+      },
+      {
+        "start": 1000.0,
+        "duration": 3.9,
+        "text": "It's related to the idea that light seems to slow down as it passes through a given"
+      },
+      {
+        "start": 1004.0,
+        "duration": 1.0,
+        "text": "medium."
+      },
+      {
+        "start": 1005.0,
+        "duration": 4.2,
+        "text": "For example if you look at the crests of a light wave as it goes into water, the crests"
+      },
+      {
+        "start": 1009.1,
+        "duration": 5.2,
+        "text": "through the water are traveling about 1.33 times slower than the crests of that wave"
+      },
+      {
+        "start": 1014.4,
+        "duration": 2.1,
+        "text": "would travel in a vacuum."
+      },
+      {
+        "start": 1016.4,
+        "duration": 3.3,
+        "text": "This number is what's called the index of refraction for water."
+      },
+      {
+        "start": 1019.8,
+        "duration": 4.7,
+        "text": "In a bit what I'd like to show is how this index of refraction can be explained by analyzing"
+      },
+      {
+        "start": 1024.6,
+        "duration": 4.6,
+        "text": "how the initial light wave shakes all the charges in the material and how the resulting"
+      },
+      {
+        "start": 1029.2,
+        "duration": 5.0,
+        "text": "second order propagations superimpose with that original light wave."
+      },
+      {
+        "start": 1034.2,
+        "duration": 4.7,
+        "text": "For right now I'll just say that the interactions with each layer of the material ends up having"
+      },
+      {
+        "start": 1038.9,
+        "duration": 4.0,
+        "text": "the effect of slightly shifting back the phase of the wave."
+      },
+      {
+        "start": 1042.9,
+        "duration": 4.7,
+        "text": "And on the whole this gives the overall appearance that that wave moves slower as it passes"
+      },
+      {
+        "start": 1047.6,
+        "duration": 3.4,
+        "text": "through the material."
+      },
+      {
+        "start": 1051.0,
+        "duration": 4.3,
+        "text": "Just skipping ahead to what's going on with sugar, the relevant property of sucrose here"
+      },
+      {
+        "start": 1055.3,
+        "duration": 4.6,
+        "text": "is that it's what's called a chiral molecule, meaning it's fundamentally different from"
+      },
+      {
+        "start": 1059.9,
+        "duration": 1.2,
+        "text": "its mirror image."
+      },
+      {
+        "start": 1061.1,
+        "duration": 4.0,
+        "text": "You could never reorient it in space to become identical to its mirror image."
+      },
+      {
+        "start": 1065.1,
+        "duration": 2.4,
+        "text": "It's like a left hand or a right hand."
+      },
+      {
+        "start": 1067.5,
+        "duration": 3.9,
+        "text": "Or another much simpler example of a chiral shape is a spiral."
+      },
+      {
+        "start": 1071.4,
+        "duration": 4.9,
+        "text": "If I take this right handed spiral, then its mirror image is a left handed spiral."
+      },
+      {
+        "start": 1076.3,
+        "duration": 4.2,
+        "text": "And no matter how you try to rotate and reorient that first one, it'll never become identical"
+      },
+      {
+        "start": 1080.5,
+        "duration": 3.6,
+        "text": "to the second."
+      },
+      {
+        "start": 1084.0,
+        "duration": 4.3,
+        "text": "What's going on then is that the presence of a chiral molecule in the water like this"
+      },
+      {
+        "start": 1088.3,
+        "duration": 5.6,
+        "text": "introduces an asymmetry when it comes to interactions with light, specifically circularly polarized"
+      },
+      {
+        "start": 1093.9,
+        "duration": 1.2,
+        "text": "light."
+      },
+      {
+        "start": 1095.1,
+        "duration": 4.9,
+        "text": "It turns out that the amount this chiral molecule slows down, say, left handed circularly"
+      },
+      {
+        "start": 1100.1,
+        "duration": 4.7,
+        "text": "polarized light is different from the amount that it slows down right handed circularly"
+      },
+      {
+        "start": 1104.7,
+        "duration": 1.5,
+        "text": "polarized light."
+      },
+      {
+        "start": 1106.2,
+        "duration": 3.5,
+        "text": "Effectively, there's not one index of refraction, but two."
+      },
+      {
+        "start": 1109.8,
+        "duration": 4.6,
+        "text": "Now, you might say that seems irrelevant to our setup, since we are very deliberately"
+      },
+      {
+        "start": 1114.4,
+        "duration": 5.1,
+        "text": "shining in linearly polarized light, there is no circularly polarized light."
+      },
+      {
+        "start": 1119.5,
+        "duration": 4.2,
+        "text": "But actually there's a sense in which linearly polarized light is equal parts, left handed"
+      },
+      {
+        "start": 1123.7,
+        "duration": 3.0,
+        "text": "and right handed circularly polarized light."
+      },
+      {
+        "start": 1126.7,
+        "duration": 5.8,
+        "text": "Here, focus your attention on just one vector in this wave, wiggling straight up and down,"
+      },
+      {
+        "start": 1132.4,
+        "duration": 3.8,
+        "text": "which is to say polarized in the Z direction."
+      },
+      {
+        "start": 1136.2,
+        "duration": 5.3,
+        "text": "Notice how it's possible to express this vector as a sum of two rotating vectors, one of"
+      },
+      {
+        "start": 1141.5,
+        "duration": 6.7,
+        "text": "them rotating at a constant rate counterclockwise and the other one rotating clockwise."
+      },
+      {
+        "start": 1148.2,
+        "duration": 5.9,
+        "text": "Adding them together, tip to tail, results in a vector oscillating on a line."
+      },
+      {
+        "start": 1154.1,
+        "duration": 4.0,
+        "text": "In this case, it's a vertical line, but that direction can change based on the phase"
+      },
+      {
+        "start": 1158.0,
+        "duration": 2.2,
+        "text": "of the two vectors we're adding together."
+      },
+      {
+        "start": 1160.2,
+        "duration": 3.7,
+        "text": "Here, let me throw up a couple labels to keep track of how much each one of those two"
+      },
+      {
+        "start": 1164.0,
+        "duration": 4.5,
+        "text": "vectors has rotated in total, and then every now and then I'm going to slow down that"
+      },
+      {
+        "start": 1168.5,
+        "duration": 5.0,
+        "text": "first vector a little bit, and I want you to notice what happens to their sum."
+      },
+      {
+        "start": 1173.5,
+        "duration": 7.8,
+        "text": "Well, every time I slow it down, effectively knocking back its phase a little bit, it"
+      },
+      {
+        "start": 1181.3,
+        "duration": 5.2,
+        "text": "causes the linearly wiggling sum to wiggle in a slightly different direction."
+      },
+      {
+        "start": 1186.5,
+        "duration": 5.4,
+        "text": "So if the circularly polarized light wave, represented by that left vector, gets slowed"
+      },
+      {
+        "start": 1191.9,
+        "duration": 4.4,
+        "text": "down a little bit every time it runs across a sugar molecule, or at least slowed down"
+      },
+      {
+        "start": 1196.3,
+        "duration": 4.8,
+        "text": "more than its oppositely rotating counterpart would, the effect on the sum is to slowly"
+      },
+      {
+        "start": 1201.2,
+        "duration": 3.1,
+        "text": "rotate the direction of linear polarization."
+      },
+      {
+        "start": 1204.2,
+        "duration": 3.8,
+        "text": "And hence, as you look at slices further and further down the tube, the polarization"
+      },
+      {
+        "start": 1208.0,
+        "duration": 4.3,
+        "text": "direction does indeed get twisted the way we were describing earlier, representing how"
+      },
+      {
+        "start": 1212.4,
+        "duration": 4.3,
+        "text": "the composite effects with many, many, many different sugar molecules are slightly different"
+      },
+      {
+        "start": 1216.6,
+        "duration": 3.8,
+        "text": "for left-handed light than they are for right-handed light."
+      },
+      {
+        "start": 1220.4,
+        "duration": 3.3,
+        "text": "Is a nice way to test whether you understood everything up to this point?"
+      },
+      {
+        "start": 1223.8,
+        "duration": 4.4,
+        "text": "See if just by looking at the direction of the diagonal slices on our tube, you can"
+      },
+      {
+        "start": 1228.2,
+        "duration": 4.5,
+        "text": "deduce which kind of light the sugar is slowing down more, left-handed light or right-handed"
+      },
+      {
+        "start": 1232.7,
+        "duration": 1.0,
+        "text": "light."
+      },
+      {
+        "start": 1233.7,
+        "duration": 6.5,
+        "text": "I'll call this a partial answer to our question number one, because it still leaves us"
+      },
+      {
+        "start": 1240.2,
+        "duration": 4.4,
+        "text": "wondering why there's an index of refraction in the first place, and how exactly it might"
+      },
+      {
+        "start": 1244.7,
+        "duration": 4.6,
+        "text": "depend on the polarization of the light, not just the material it's passing through."
+      },
+      {
+        "start": 1249.2,
+        "duration": 5.2,
+        "text": "Also, like I said at the start, a robust enough intuition here should also answer for us"
+      },
+      {
+        "start": 1254.5,
+        "duration": 4.3,
+        "text": "why the strength of this effect would depend on the frequency of the light."
+      },
+      {
+        "start": 1258.8,
+        "duration": 4.1,
+        "text": "At this point, I think we've covered quite enough for one video, so I'll pull out a discussion"
+      },
+      {
+        "start": 1262.9,
+        "duration": 3.5,
+        "text": "covering the origins of the index of refraction to a separate video."
+      }
+    ],
+    "full_text": "In the last video, you and I looked at this demo here where we shine linearly polarized light through a tube full of sugar water, and we saw how it rather mysteriously results in these colored diagonal stripes. There I walked through the general outline for an explanation, keeping track of what questions still need to be answered. Namely, why does sugar water twist the polarization direction of light? Why does that twisting rate depend on the color of the light? And why even if you understand that this twist is happening, would you see any evidence of it when viewing the tube from the side with no additional polarizing filters? Here I'd like to begin with the very fundamental idea of what light is and show how the answer to these questions can emerge from an extremely minimal set of assumptions. In some sense, the fundamental question of electricity and magnetism is how the position and motion of one charged particle influences that of another. For example, one of the first things you learn, say in a high school physics class, is that charges with the same sign tend to repel each other. And the strength of this force depends a lot on the distance between them. If your charges are close, that repulsive force is very strong, but it decays very rapidly as these particles go away from each other. Specifically, here's how you might see this written down as an equation, known as Ku-Lom's law. The force is proportional to the charge of both of the particles, where it's common to use the letter Q. There are some constants in there, which, for our purposes, we can just think of as one big proportionality constant. And the important fact is that you've got this one divided by R squared term, where R is the distance between them. So for example, if the distance between them increases by a factor of 3, the force that they're applying to each other goes down by a factor of 9. The way you might see a law like this written down is to focus on just one charged particle, and then say, for every point in space, if there was a second charge there, what force would this first charge be applying to that second one? And instead of describing a force per se, you might see this written describing what's known as the electric field, which is just a way of saying what force would be applied to a unit charge. And in this context, the word field means there's a value associated with every single point in space. So the way I have it written here, it depends on a little vector R, which would be the vector from our charge to a given point in space, and the direction of this field at all points is in the same direction as R. I bring up coulomb's law to emphasize that it's not the full story. There are other ways that charges influence each other. For example, here's a phenomenon that this law alone could not explain. If you wiggle one charge up and down, then after a little bit of a delay, a second charge some distance to its right will be induced to wiggle up and down as well. We can write down a second law, which you might think of as a correction term to be added to coulomb's law, that describes what's going on here. Suppose at some point in time t0, that first charge is accelerating. Then I'll let time play forward, but leave on the screen a kind of ghost of that particle indicating where it was and how it was accelerating at this time t0. After a certain delay, this causes a force on the second charge, and the equation describing this force looks something like this. So again, it's proportional to the charge of both of the particles, and once more the common way to write it involves this pile of constants that you don't really need to worry about. The important factor I want you to notice is how the force also depends on the distance between the particles, but instead of decaying in proportion to r squared, it only decays in proportion to r. So over long distances, this is the force that dominates, and coulomb's law is negligible. And then finally, it depends on the acceleration of that first particle, but it's not the acceleration of that particle at the current time, it's whatever that acceleration was at some time in the past. How far in the past depends on the distance between the particles and the speed of light denoted with C? The way to think about it is that any form of influence can't propagate any faster than this speed, C. In fact, a more accurate description of coulomb's law would also involve a delay term like this. Again, the intuitive way to read this equation is that wiggling a charge in one location after some delay causes a wiggle to a second charge in another location. And actually the way I have it written right now is a little bit wrong, instead of the acceleration vector here, I should really be writing something like a perp, indicating the component of that acceleration vector, which is perpendicular to the line drawn between the two charges. In other words, when you wiggle that first charge, the direction that the second charge wiggles is always perpendicular to the line between them, and the amount that it wiggles gets weaker and weaker when that line between them is more lined up with the initial acceleration. As before, this is something you might see written down in a way that describes a component of the electric field caused by just one charge. Again, that means what force would be applied to a second charge at all possible different points in space? This component of the field is only ever non-zero when our first charge is moving somehow, when it has an acceleration vector on it. And because of this delay term, the effects on this field tend to radiate away from the charge. This is why I'm writing it down with the subscript rad. This is the component of the electric field that will radiate away from a given charge. For instance, when the charge is oscillating up and down, you get these propagating waves, and for many of the vector fields I'll be showing the intensity of the field is illustrated with the opacity of each little vector. This radiating influence is light, or more generally electromagnetic radiation, including things like radio waves and x-rays and all that good stuff. As a side note, you sometimes see this propagation described a very different way that puts the fields front and center, using what are known as Maxwell's equations. For our purposes, I want to focus just on this one law and show just how far it can take us when it comes to intuitions for light. For the animations I'm about to show, all I've really done is encoded in this one law, which tells us what should this component of the electric field be at every point in space, as determined by the history of accelerations of a particular charge. For example, if I set that charge oscillating up and down in the Z direction, and illustrate this component of the electric field everywhere on the xy plane, you see these circular propagations of equal strength in all directions. It's a little easier to think about if we focus on just one axis, like the x-axis, and at first when I made this animation, I assumed that there was some kind of bug, because near the charge it just looks crooked and wrong. But when you think about it, this is actually what you should expect, because remember, each one of these vectors is supposed to be perpendicular to the line drawn between that point and where the charge was at some point in the past. At points that are far enough away from the charge, which is where this component of the field is what dominates anyway, the wiggling in the field is essentially parallel to the wiggling in the charge, which is why when we think about light waves, we're safe to think about the wiggling direction as being perpendicular to the propagation direction. Like I said, this propagation for just one charge is equally strong in all of the directions perpendicular to its wiggling, and really I should emphasize that the propagation does happen in all directions of three-dimensional space. It's maybe a little busy to try to illustrate the full three-dimensional vector field on screen like this, so it's clarifying if we just focus on, say, the XZ plane. Notice how the waves here are strongest in the X direction, but it still does propagate in all other directions. It's just that that propagation gets weaker in directions that are more aligned with the original wiggling. At the extreme, the only place where there's no propagation is in the Z axis. Because our law has this one divided by R in it, the strength of the wave caused by just one particle does decay as you go farther away, in proportion to 1 over R. Notice what happens if I take a whole row of charges, say oriented along the y axis, and I have them all start wiggling up and down in the Z direction, and I illustrate the combined effects that all of them have on this component of the electric field. The effects of all these charges interfere deconstructively along the y direction, but they interfere constructively along the X direction. This is what it looks like for a beam of light to be concentrated along just one dimension. So if you were to focus on the field just along the X axis, instead of decaying in proportion to 1 over R, this combined effect decays much more gently. In the extreme, you can get something arbitrarily close to those pure sine wave propagations we were illustrating earlier. If at some distance of way you have a large number of charges oscillating in sync with each other like this. One thing that's worth emphasizing when you see light illustrated with a sine wave like this is that even though that wave is being drawn in two or three dimensions, it's only describing the electric field along a one-dimensional line, namely the base of all those vectors. It's just that to draw the vectors you have to venture off of that line. Great, so one of the last important things to highlight before we get back to the sugar water is polarization. And everything I've been showing, the driving charge is just oscillating along a single direction like the Z axis, and this causes linearly polarized light. But it doesn't have to happen like that. For example, if I set the charge rotating in a little circle along the YZ plane, meaning its acceleration vector is also rotating in a little circle, notice what the field looks like. This is known aptly enough as circularly polarized light. Honestly, it's easiest to think about for just one point of the electric field. What it means for light to be circularly polarized is that at that point, the electric field vector is just rotating in a circle. People often find circular polarization a little confusing, and I suspect part of the reason for that is that it's hard to illustrate with a static diagram, but also it's a little confusing when you try to think about the full electric field. For example, here's what the field looks like on the XY plane when I set that little charge rotating in a circle. That's certainly very beautiful I could look at this all day, but you can understand why it might feel a little confusing. The very last thing I'll mention is that while everything here is a classical description of light, the important points still hold up in quantum mechanics. You still have propagating waves, there's still polarization that can be either linear or circular. The main difference with quantum mechanics is that the energy in this wave doesn't scale up and down continuously, like you might expect, it comes in discrete little steps. I have another video that goes into more detail, but for our purposes, thinking about it classically is fine. Part of the reason I wanted to go through that is because, frankly, it's just very fun to animate, and I like an excuse for a fundamental lesson. But now let's turn back to our demo and see how we can build up an intuition for some of our key questions, starting from this very basic premise that shaking a charge in one location causes a shake to another charge a little bit later. And let's start by actually skipping ahead to question number three. Why do we see the diagonal stripes? To think about this, you need to imagine an observer to the side of the tube, and then for a particular pure color, say red, if the observer looks in the tube and sees that color, it's because light of that color has bounced off something at that point in the tube, and then propagated towards the eye of the observer. Sometimes when people talk about light bouncing off of things, the implied mental image is something like a projectile, ricocheting off of some object, heading off in some random direction. But the better mental image to hold in your mind is that when the propagating lightwaves caused by some wiggling charge, reach some second charge causing it to wiggle, that secondary wiggle results in its own propagation. And for the animation on screen, that propagation goes back to the first charge, which itself causes a propagation towards the second. And this is what it looks like in a very simplified situation for light to bounce back and forth between two charges. If you have some concentrated beam of polarized light interacting with some charge, causing it to wiggle up and down, then these resulting second order propagations are most strong in the direction's perpendicular to the direction of polarization. And some sense you could think of light as bouncing off of that charge, but the important point is that it doesn't bounce in all directions equally. It's strongest perpendicular to the wiggle direction, but gets weaker in all of the other directions. So think about our setup, and for a particular frequency of light, how likely it is that an observer looking at a particular point in the tube will see that light. Again, the key phenomenon with sugar water, which we have yet to explain, is that the polarization direction is slowly getting twisted as it goes down the tube. So suppose the observer was looking at a point like this one, where the polarization direction happens to be straight up and down. Then the second order propagations, resulting from wiggling charges at that point, are most strong along the plane where the observer is, so the amount of red that they see at that point would look stronger. By contrast, if they were looking at a different point in the tube, like this one, where the wiggling direction is closer to being parallel to the line of sight, then the direction where the scattering is strongest is not at all aligned with the observer, and the amount of red they see is only going to be very weak. And looking at our actual physical setup, if we first pass the light through a filter showing only the red, we see exactly this effect in action. As you scan your eyes along the tube, the intensity of red that you see goes from being high to being low, where it's almost black, back to being high again. As an analogy, imagine there was a ribbon going down the tube, always aligned with the polarization direction for this color. Then putting yourself in the shoes of the observer, when you look at points where the ribbon appears very thin, you're going to see very little red light, whereas if you scan your eyes over the points where the ribbon appears thicker, you're going to see more red light. One thing that's nice about this is that if we try it for various different colors, you can actually see how the twisting rates are different for each one of the colors. Notice with red light, the distance between where it appears brightest and where it appears darkest is relatively long, whereas if you look down the colors of the rainbow, that distance between the brightest point and the darkest point gets lower and lower. So what you're seeing in effect is how red light twists slowly, whereas light waves with higher frequencies get twisted more aggressively. But still you might wonder why the boundaries between light and dark points appear diagonal. Why is it that in addition to having variation as you scan your eyes from left to right, there's also variation as you scan your eyes from the top of the tube to the bottom. This has less to do with what's going on in the tube and more to do with a matter of perspective. Take a moment to think about many different parallel beams of light ranging from the top of the tube to the bottom. At the beginning, all of these light waves are wiggling up and down and as you pass through the tube and the effects of the sugar water somehow twists these directions, because they're all passing through the same amount of sugar, they're getting twisted by the same amounts. So at all points, the polarization of these waves are parallel to each other. If you're the observer and you look at the topmost point here, its wiggling direction is essentially parallel to the line of sight, so the light scattering from that point is basically not going to reach your eyes at all, it should appear black. But if you scan your eyes down the tube, the angle between the line of sight and the wiggling direction changes and so there will be at least some component of red light scattering towards the eye. So as you scan your eyes from top to bottom, the amount of a particular color you see might vary, say from dark to light. The full demo that has white light is basically a combination of all these pure color patterns that go from light to dark to light with diagonal boundaries between the intense points and the weak points, hence why you see diagonal boundaries between the colors inside the tube. And now at last let's turn to the heart of the matter and try to explain why interactions with sugar would make light twist like this in the first place. It's related to the idea that light seems to slow down as it passes through a given medium. For example if you look at the crests of a light wave as it goes into water, the crests through the water are traveling about 1.33 times slower than the crests of that wave would travel in a vacuum. This number is what's called the index of refraction for water. In a bit what I'd like to show is how this index of refraction can be explained by analyzing how the initial light wave shakes all the charges in the material and how the resulting second order propagations superimpose with that original light wave. For right now I'll just say that the interactions with each layer of the material ends up having the effect of slightly shifting back the phase of the wave. And on the whole this gives the overall appearance that that wave moves slower as it passes through the material. Just skipping ahead to what's going on with sugar, the relevant property of sucrose here is that it's what's called a chiral molecule, meaning it's fundamentally different from its mirror image. You could never reorient it in space to become identical to its mirror image. It's like a left hand or a right hand. Or another much simpler example of a chiral shape is a spiral. If I take this right handed spiral, then its mirror image is a left handed spiral. And no matter how you try to rotate and reorient that first one, it'll never become identical to the second. What's going on then is that the presence of a chiral molecule in the water like this introduces an asymmetry when it comes to interactions with light, specifically circularly polarized light. It turns out that the amount this chiral molecule slows down, say, left handed circularly polarized light is different from the amount that it slows down right handed circularly polarized light. Effectively, there's not one index of refraction, but two. Now, you might say that seems irrelevant to our setup, since we are very deliberately shining in linearly polarized light, there is no circularly polarized light. But actually there's a sense in which linearly polarized light is equal parts, left handed and right handed circularly polarized light. Here, focus your attention on just one vector in this wave, wiggling straight up and down, which is to say polarized in the Z direction. Notice how it's possible to express this vector as a sum of two rotating vectors, one of them rotating at a constant rate counterclockwise and the other one rotating clockwise. Adding them together, tip to tail, results in a vector oscillating on a line. In this case, it's a vertical line, but that direction can change based on the phase of the two vectors we're adding together. Here, let me throw up a couple labels to keep track of how much each one of those two vectors has rotated in total, and then every now and then I'm going to slow down that first vector a little bit, and I want you to notice what happens to their sum. Well, every time I slow it down, effectively knocking back its phase a little bit, it causes the linearly wiggling sum to wiggle in a slightly different direction. So if the circularly polarized light wave, represented by that left vector, gets slowed down a little bit every time it runs across a sugar molecule, or at least slowed down more than its oppositely rotating counterpart would, the effect on the sum is to slowly rotate the direction of linear polarization. And hence, as you look at slices further and further down the tube, the polarization direction does indeed get twisted the way we were describing earlier, representing how the composite effects with many, many, many different sugar molecules are slightly different for left-handed light than they are for right-handed light. Is a nice way to test whether you understood everything up to this point? See if just by looking at the direction of the diagonal slices on our tube, you can deduce which kind of light the sugar is slowing down more, left-handed light or right-handed light. I'll call this a partial answer to our question number one, because it still leaves us wondering why there's an index of refraction in the first place, and how exactly it might depend on the polarization of the light, not just the material it's passing through. Also, like I said at the start, a robust enough intuition here should also answer for us why the strength of this effect would depend on the frequency of the light. At this point, I think we've covered quite enough for one video, so I'll pull out a discussion covering the origins of the index of refraction to a separate video."
+  }
+}

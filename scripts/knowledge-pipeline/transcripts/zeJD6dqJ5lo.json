@@ -1,0 +1,1914 @@
+{
+  "video_id": "zeJD6dqJ5lo",
+  "video_title": "But what is the Central Limit Theorem?",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 1875.0,
+  "view_count": 4346740,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 5.5,
+        "text": "This is a Galton board. Maybe you've seen one before, it's a popular demonstration of how even"
+      },
+      {
+        "start": 5.5,
+        "duration": 5.7,
+        "text": "when a single event is chaotic and random with an effectively unknowable outcome, it's still possible"
+      },
+      {
+        "start": 11.2,
+        "duration": 5.1,
+        "text": "to make precise statements about a large number of events, namely how the relative proportions for"
+      },
+      {
+        "start": 16.3,
+        "duration": 6.6,
+        "text": "many different outcomes are distributed. More specifically, the Galton board illustrates one of the"
+      },
+      {
+        "start": 22.9,
+        "duration": 5.7,
+        "text": "most prominent distributions in all of probability, known as the normal distribution, more colloquially"
+      },
+      {
+        "start": 28.6,
+        "duration": 5.1,
+        "text": "known as a bell curve, and also called a Gaussian distribution. There's a very specific function"
+      },
+      {
+        "start": 33.7,
+        "duration": 4.3,
+        "text": "to describe this distribution, it's very pretty, we'll get into it later. But right now, I just"
+      },
+      {
+        "start": 38.0,
+        "duration": 4.8,
+        "text": "want to emphasize how the normal distribution is, as the name suggests, very common, it shows up"
+      },
+      {
+        "start": 42.8,
+        "duration": 5.3,
+        "text": "in a lot of seemingly unrelated contexts. If you were to take a large number of people who sit in a"
+      },
+      {
+        "start": 48.1,
+        "duration": 4.9,
+        "text": "similar demographic and plot their heights, those heights tend to follow a normal distribution."
+      },
+      {
+        "start": 53.8,
+        "duration": 5.0,
+        "text": "If you look at a large swath of very big natural numbers, and you ask how many distinct prime"
+      },
+      {
+        "start": 58.7,
+        "duration": 5.3,
+        "text": "factors does each one of those numbers have, the answers will very closely track with a certain"
+      },
+      {
+        "start": 64.0,
+        "duration": 5.4,
+        "text": "normal distribution. Now our topic for today is one of the crown jewels in all of probability theory,"
+      },
+      {
+        "start": 69.4,
+        "duration": 5.4,
+        "text": "it's one of the key facts that explains why this distribution is as common as it is, known as"
+      },
+      {
+        "start": 74.9,
+        "duration": 4.8,
+        "text": "the central limit theorem. This lesson is meant to go back to the basics, giving you the fundamentals"
+      },
+      {
+        "start": 79.7,
+        "duration": 4.2,
+        "text": "on what the central limit theorem is saying, what normal distributions are, and I want to assume"
+      },
+      {
+        "start": 83.8,
+        "duration": 4.9,
+        "text": "minimal background. We're going to go decently deep into it, but after this, I'd still like to go"
+      },
+      {
+        "start": 88.7,
+        "duration": 5.4,
+        "text": "deeper and explain why the theorem is true, why the function underlying the normal distribution"
+      },
+      {
+        "start": 94.2,
+        "duration": 7.0,
+        "text": "has the very specific form that it does, why that formula has a pi in it, and most fun, why those"
+      },
+      {
+        "start": 101.1,
+        "duration": 4.3,
+        "text": "last two facts are actually more related than a lot of traditional explanations would suggest."
+      },
+      {
+        "start": 106.2,
+        "duration": 4.9,
+        "text": "That second lesson is also meant to be the follow on to the convolutions video that I promised,"
+      },
+      {
+        "start": 111.1,
+        "duration": 3.9,
+        "text": "so there's a lot of interrelated topics here. But right now, back to the fundamentals,"
+      },
+      {
+        "start": 115.0,
+        "duration": 4.0,
+        "text": "I'd like to kick things off with a overly simplified model of the Galton board."
+      },
+      {
+        "start": 121.0,
+        "duration": 4.6,
+        "text": "In this model, we will assume that each ball falls directly onto a certain central peg,"
+      },
+      {
+        "start": 125.7,
+        "duration": 4.7,
+        "text": "and that it has a 50-50 probability of bouncing to the left or to the right, and we'll think of"
+      },
+      {
+        "start": 130.4,
+        "duration": 4.8,
+        "text": "each of those outcomes as either adding one or subtracting one from its position. Once one of those"
+      },
+      {
+        "start": 135.4,
+        "duration": 5.5,
+        "text": "is chosen, we make the highly unrealistic assumption that it happens to land dead on in the middle of the"
+      },
+      {
+        "start": 140.9,
+        "duration": 5.0,
+        "text": "peg adjacent below it, where again, it'll be faced with the same 50-50 choice of bouncing to the"
+      },
+      {
+        "start": 145.9,
+        "duration": 4.8,
+        "text": "left or to the right. For the one I'm showing on screen, there are five different rows of pegs,"
+      },
+      {
+        "start": 150.7,
+        "duration": 4.9,
+        "text": "so our little hopping ball makes five different random choices between plus one and minus one,"
+      },
+      {
+        "start": 155.6,
+        "duration": 5.0,
+        "text": "and we can think of its final position as basically being the sum of all of those different numbers,"
+      },
+      {
+        "start": 160.6,
+        "duration": 4.6,
+        "text": "which in this case happens to be one, and we might label all of the different buckets with the"
+      },
+      {
+        "start": 165.2,
+        "duration": 4.8,
+        "text": "sum that they represent. As we repeat this, we're looking at different possible sums for those"
+      },
+      {
+        "start": 170.0,
+        "duration": 5.7,
+        "text": "five random numbers. And for those of you who are inclined to complain that this is a highly"
+      },
+      {
+        "start": 175.7,
+        "duration": 4.8,
+        "text": "unrealistic model for the true Galton board, let me emphasize the goal right now is not to"
+      },
+      {
+        "start": 180.5,
+        "duration": 4.6,
+        "text": "accurately model physics. The goal is to give a simple example to illustrate the central limit"
+      },
+      {
+        "start": 185.8,
+        "duration": 4.1,
+        "text": "and for that, idealized though this might be, it actually gives us a really good example."
+      },
+      {
+        "start": 190.5,
+        "duration": 4.5,
+        "text": "If we let many different balls fall, making yet another unrealistic assumption that they don't"
+      },
+      {
+        "start": 195.0,
+        "duration": 4.2,
+        "text": "influence each other as if they're all ghosts, then the number of balls that fall into each"
+      },
+      {
+        "start": 199.1,
+        "duration": 4.6,
+        "text": "different bucket gives us some loose sense for how likely each one of those buckets is."
+      },
+      {
+        "start": 203.7,
+        "duration": 4.2,
+        "text": "In this example, the numbers are simple enough that it's not too hard to explicitly calculate"
+      },
+      {
+        "start": 207.8,
+        "duration": 3.4,
+        "text": "what the probability is for falling into each bucket. If you do want to think that through,"
+      },
+      {
+        "start": 211.3,
+        "duration": 4.6,
+        "text": "you'll find it very reminiscent of Pascal's triangle. But the neat thing about our theorem is"
+      },
+      {
+        "start": 215.9,
+        "duration": 4.9,
+        "text": "how far it goes beyond the simple examples. So to start off at least, rather than making explicit"
+      },
+      {
+        "start": 220.8,
+        "duration": 4.2,
+        "text": "calculations, let's just simulate things by running a large number of samples and letting the"
+      },
+      {
+        "start": 225.0,
+        "duration": 4.6,
+        "text": "total number of results in each different outcome give us some sense for what that distribution looks"
+      },
+      {
+        "start": 229.5,
+        "duration": 5.9,
+        "text": "like. As I said, the one on screen has five rows, so each sum that we're considering includes only"
+      },
+      {
+        "start": 235.4,
+        "duration": 5.6,
+        "text": "five numbers. The basic idea of the central limit theorem is that if you increase the size of that"
+      },
+      {
+        "start": 241.0,
+        "duration": 5.4,
+        "text": "sum, for example, here that would mean increasing the number of rows of pegs for each ball to bounce"
+      },
+      {
+        "start": 246.4,
+        "duration": 6.3,
+        "text": "off, then the distribution that describes where that sum is going to fall looks more and more like a"
+      },
+      {
+        "start": 252.7,
+        "duration": 5.5,
+        "text": "bell curve. Here, it's actually worth thinking the moment to write down that general idea."
+      },
+      {
+        "start": 259.2,
+        "duration": 5.7,
+        "text": "The setup is that we have a random variable, and that's basically shorthand for a random process,"
+      },
+      {
+        "start": 264.9,
+        "duration": 5.2,
+        "text": "where each outcome of that process is associated with some number. We'll call that random number x."
+      },
+      {
+        "start": 270.1,
+        "duration": 5.0,
+        "text": "For example, each bounce off the peg is a random process modeled with two outcomes. Those outcomes"
+      },
+      {
+        "start": 275.1,
+        "duration": 4.7,
+        "text": "are associated with the numbers negative one and positive one. Another example of a random variable"
+      },
+      {
+        "start": 279.8,
+        "duration": 5.4,
+        "text": "would be rolling a die, where you have six different outcomes each one associated with the number."
+      },
+      {
+        "start": 285.2,
+        "duration": 5.4,
+        "text": "What we're doing is taking multiple different samples of that variable and adding them all together."
+      },
+      {
+        "start": 290.6,
+        "duration": 4.3,
+        "text": "On our goutten board, that looks like letting the ball bounce off multiple different pegs on its"
+      },
+      {
+        "start": 294.9,
+        "duration": 4.9,
+        "text": "way down to the bottom, and in the case of a die, you might imagine rolling many different dice"
+      },
+      {
+        "start": 299.8,
+        "duration": 4.8,
+        "text": "and adding up the results. The claim of the central limit theorem is that as you let the size of"
+      },
+      {
+        "start": 304.6,
+        "duration": 5.8,
+        "text": "that sum get bigger and bigger, then the distribution of that sum, how likely it is to fall into"
+      },
+      {
+        "start": 310.3,
+        "duration": 6.3,
+        "text": "different possible values, will look more and more like a bell curve. That's it, that is the general"
+      },
+      {
+        "start": 316.6,
+        "duration": 5.4,
+        "text": "idea. Over the course of this lesson, our job is to make that statement more quantitative. We're"
+      },
+      {
+        "start": 322.0,
+        "duration": 4.3,
+        "text": "going to put some numbers to it, put some formulas to it, show how you can use it to make predictions."
+      },
+      {
+        "start": 327.3,
+        "duration": 4.1,
+        "text": "For example, here's the kind of question I want you to be able to answer by the end of this video."
+      },
+      {
+        "start": 332.1,
+        "duration": 5.6,
+        "text": "Suppose you rolled the die 100 times and you added together the results. Could you find a range"
+      },
+      {
+        "start": 337.7,
+        "duration": 5.9,
+        "text": "of values such that you're 95% sure that the sum will fall within that range? Or maybe I should say"
+      },
+      {
+        "start": 343.6,
+        "duration": 4.9,
+        "text": "find the smallest possible range of values such that this is true. The neat thing is, you'll be able"
+      },
+      {
+        "start": 348.5,
+        "duration": 6.0,
+        "text": "to answer this question whether it's a fair die or if it's a weighted die. Now let me say at the top"
+      },
+      {
+        "start": 354.5,
+        "duration": 4.4,
+        "text": "that this theorem has three different assumptions that go into it, three things that have to be true"
+      },
+      {
+        "start": 358.9,
+        "duration": 4.2,
+        "text": "before the theorem follows. And I'm actually not going to tell you what they are until the very end"
+      },
+      {
+        "start": 363.1,
+        "duration": 4.6,
+        "text": "of the video. Instead, I want you to keep your eye out and see if you can notice and maybe predict"
+      },
+      {
+        "start": 367.7,
+        "duration": 5.2,
+        "text": "what those three assumptions are going to be. As an next step to better illustrate just how general"
+      },
+      {
+        "start": 372.9,
+        "duration": 4.4,
+        "text": "this theorem is, I want to run a couple more simulations for you focused on the dice example."
+      },
+      {
+        "start": 378.9,
+        "duration": 6.7,
+        "text": "Usually if you think of rolling a die, you think of the six outcomes as being equally probable."
+      },
+      {
+        "start": 385.6,
+        "duration": 4.3,
+        "text": "But the theorem actually doesn't care about that. We could start with a weighted die, something"
+      },
+      {
+        "start": 389.9,
+        "duration": 5.1,
+        "text": "with a non-trivial distribution across the outcomes, and the core idea still holds. For the"
+      },
+      {
+        "start": 395.0,
+        "duration": 4.7,
+        "text": "simulation, what I'll do is take some distribution, like this one that is skewed towards lower values."
+      },
+      {
+        "start": 400.3,
+        "duration": 5.1,
+        "text": "I'm going to take 10 distinct samples from that distribution, and then I'll record the sum of"
+      },
+      {
+        "start": 405.4,
+        "duration": 5.5,
+        "text": "that sample on the plot on the bottom. Then I'm going to do this many, many different times,"
+      },
+      {
+        "start": 411.0,
+        "duration": 4.9,
+        "text": "always with the sum of size 10, but keep track of where those sums ended up to give us a sense of"
+      },
+      {
+        "start": 415.8,
+        "duration": 8.0,
+        "text": "the distribution. And in fact, let me rescale the Y direction to give us room to run an even larger"
+      },
+      {
+        "start": 423.8,
+        "duration": 4.7,
+        "text": "number of samples. And I'll let it go all the way up to a couple thousand, and as it does,"
+      },
+      {
+        "start": 428.6,
+        "duration": 5.1,
+        "text": "you'll notice that the shape that starts to emerge looks like a bell curve. Maybe if you squint"
+      },
+      {
+        "start": 433.7,
+        "duration": 4.8,
+        "text": "your eyes, you can see it skews a tiny bit to the left, but it's neat that something so symmetric"
+      },
+      {
+        "start": 438.5,
+        "duration": 4.2,
+        "text": "emerged from a starting point that was so asymmetric. To better illustrate what the central"
+      },
+      {
+        "start": 442.7,
+        "duration": 5.1,
+        "text": "limit theorem is all about, let me run four of these simulations in parallel, where on the upper"
+      },
+      {
+        "start": 447.8,
+        "duration": 4.6,
+        "text": "left I'm doing it where we're only adding two dice at a time. On the upper right we're doing it"
+      },
+      {
+        "start": 452.5,
+        "duration": 4.3,
+        "text": "where we're adding five dice at a time. The lower left is the one that we just saw, adding 10"
+      },
+      {
+        "start": 456.8,
+        "duration": 6.1,
+        "text": "dice at a time. And then we'll do another one with a bigger sum, 15 at a time. Notice how on the"
+      },
+      {
+        "start": 462.9,
+        "duration": 4.7,
+        "text": "upper left when we're just adding two dice? The resulting distribution doesn't really look like a"
+      },
+      {
+        "start": 467.6,
+        "duration": 4.2,
+        "text": "bell curve. It looks a lot more reminiscent of the one we started with, viewed towards the left."
+      },
+      {
+        "start": 472.6,
+        "duration": 5.0,
+        "text": "But as we allow for more and more dice in each sum, the resulting shape that comes up in these"
+      },
+      {
+        "start": 477.6,
+        "duration": 4.5,
+        "text": "distributions looks more and more symmetric. It has the lump in the middle and fade towards the"
+      },
+      {
+        "start": 482.1,
+        "duration": 8.6,
+        "text": "tail's shape of a bell curve. And let me emphasize again, you can start with any different distribution."
+      },
+      {
+        "start": 490.6,
+        "duration": 4.6,
+        "text": "Here I'll run it again, but where most of the probability is tied up in the numbers one and six"
+      },
+      {
+        "start": 495.2,
+        "duration": 5.3,
+        "text": "with very low probability for the mid values. Despite completely changing the distribution for an"
+      },
+      {
+        "start": 500.5,
+        "duration": 5.0,
+        "text": "individual role of the die, it's still the case that a bell curve shape will emerge as we consider"
+      },
+      {
+        "start": 505.5,
+        "duration": 5.0,
+        "text": "the different sums. Illustrating things with a simulation like this is very fun, and it's kind of"
+      },
+      {
+        "start": 510.6,
+        "duration": 5.5,
+        "text": "neat to see order emerge from chaos. But it also feels a little imprecise, like in this case,"
+      },
+      {
+        "start": 516.1,
+        "duration": 4.8,
+        "text": "when I cut off the simulation at 3000 samples, even though it kind of looks like a bell curve,"
+      },
+      {
+        "start": 520.9,
+        "duration": 4.8,
+        "text": "the different buckets seem pretty spiky, and you might wonder, is it supposed to look that way,"
+      },
+      {
+        "start": 525.7,
+        "duration": 5.0,
+        "text": "or is that just an artifact of the randomness in the simulation? And if it is, how many samples do"
+      },
+      {
+        "start": 530.6,
+        "duration": 4.4,
+        "text": "we need before we can be sure that what we're looking at is representative of the true distribution?"
+      },
+      {
+        "start": 539.1,
+        "duration": 4.0,
+        "text": "Instead moving forward, let's get a little more theoretical and show the precise shape that"
+      },
+      {
+        "start": 543.1,
+        "duration": 5.0,
+        "text": "these distributions will take on in the long run. The easiest case to make this calculation"
+      },
+      {
+        "start": 548.1,
+        "duration": 4.7,
+        "text": "is if we have a uniform distribution, where each possible face of the die has an equal probability,"
+      },
+      {
+        "start": 552.8,
+        "duration": 5.0,
+        "text": "one-sixth. For example, if you then want to know how likely different sums are for a pair of dice,"
+      },
+      {
+        "start": 557.8,
+        "duration": 4.2,
+        "text": "it's essentially a counting game, where you count up how many distinct pairs"
+      },
+      {
+        "start": 562.1,
+        "duration": 4.8,
+        "text": "take on the same sum, which in the diagram I've drawn, you can conveniently think about by going"
+      },
+      {
+        "start": 566.9,
+        "duration": 7.2,
+        "text": "through all of the different diagonals. Since each such pair has an equal chance of showing up,"
+      },
+      {
+        "start": 574.1,
+        "duration": 5.5,
+        "text": "one in 36, all you have to do is count the sizes of these buckets. That gives us a definitive shape"
+      },
+      {
+        "start": 579.6,
+        "duration": 5.0,
+        "text": "for the distribution describing a sum of two dice, and if we were to play the same game with all"
+      },
+      {
+        "start": 584.6,
+        "duration": 5.0,
+        "text": "possible triplets, the resulting distribution would look like this. Now what's more challenging,"
+      },
+      {
+        "start": 589.7,
+        "duration": 4.6,
+        "text": "but a lot more interesting is to ask what happens if we have a non-uniform distribution for that"
+      },
+      {
+        "start": 594.3,
+        "duration": 5.6,
+        "text": "single die. We actually talked all about this in the last video. You do essentially the same thing,"
+      },
+      {
+        "start": 599.9,
+        "duration": 5.0,
+        "text": "you go through all the distinct pairs of dice which add up to the same value, it's just that instead"
+      },
+      {
+        "start": 605.0,
+        "duration": 5.5,
+        "text": "of counting those pairs, for each pair you multiply the two probabilities of each particular face"
+      },
+      {
+        "start": 610.5,
+        "duration": 5.3,
+        "text": "coming up, and then you add all those together. The computation that does this for all possible sums"
+      },
+      {
+        "start": 615.8,
+        "duration": 4.6,
+        "text": "has a fancy name, it's called a convolution, but it's essentially just the weighted version of"
+      },
+      {
+        "start": 620.4,
+        "duration": 4.8,
+        "text": "the counting game that anyone who's played with a pair of dice already finds familiar. For"
+      },
+      {
+        "start": 625.2,
+        "duration": 4.8,
+        "text": "our purposes in this lesson, I'll have the computer calculate all that, simply display the results"
+      },
+      {
+        "start": 630.0,
+        "duration": 4.7,
+        "text": "for you, and invite you to observe certain patterns, but under the hood, this is what's going on."
+      },
+      {
+        "start": 636.7,
+        "duration": 4.6,
+        "text": "So just to be crystal clear on what's being represented here, if you imagine sampling two"
+      },
+      {
+        "start": 641.4,
+        "duration": 5.4,
+        "text": "different values from that top distribution, the one describing a single die, and adding them together,"
+      },
+      {
+        "start": 646.7,
+        "duration": 5.0,
+        "text": "then the second distribution I'm drawing represents how likely you are to see various different"
+      },
+      {
+        "start": 651.8,
+        "duration": 5.5,
+        "text": "sums. Likewise, if you imagine sampling three distinct values from that top distribution and adding"
+      },
+      {
+        "start": 657.3,
+        "duration": 5.0,
+        "text": "them together, the next plot represents the probabilities for various different sums in that case."
+      },
+      {
+        "start": 663.4,
+        "duration": 5.4,
+        "text": "So if I compute what the distributions for these sums look like, for larger and larger sums,"
+      },
+      {
+        "start": 669.4,
+        "duration": 2.9,
+        "text": "well, you know what I'm going to say, it looks more and more like a bell curve."
+      },
+      {
+        "start": 673.1,
+        "duration": 3.3,
+        "text": "But before we get to that, I want you to make a couple more simple observations."
+      },
+      {
+        "start": 677.4,
+        "duration": 5.2,
+        "text": "For example, these distributions seem to be wandering to the right, and also they seem to be getting"
+      },
+      {
+        "start": 682.6,
+        "duration": 4.5,
+        "text": "more spread out and a little bit more flat. You cannot describe the central limit theorem"
+      },
+      {
+        "start": 687.0,
+        "duration": 4.4,
+        "text": "quantitatively without taking into account both of those effects, which in turn requires describing"
+      },
+      {
+        "start": 691.4,
+        "duration": 4.6,
+        "text": "the mean and the standard deviation. Maybe you're already familiar with those, but I want to make"
+      },
+      {
+        "start": 696.1,
+        "duration": 4.3,
+        "text": "minimal assumptions here, and it never hurts to review, so let's quickly go over both of those."
+      },
+      {
+        "start": 700.7,
+        "duration": 8.2,
+        "text": "The mean of a distribution, often denoted with a Greek letter mu, is a way of capturing the center"
+      },
+      {
+        "start": 709.0,
+        "duration": 5.8,
+        "text": "of mass for that distribution. It's calculated as the expected value of a random variable,"
+      },
+      {
+        "start": 714.8,
+        "duration": 4.4,
+        "text": "which is a way of saying you go through all of the different possible outcomes, and you multiply"
+      },
+      {
+        "start": 719.2,
+        "duration": 5.7,
+        "text": "the probability of that outcome times the value of the variable. If higher values are more probable,"
+      },
+      {
+        "start": 724.9,
+        "duration": 4.2,
+        "text": "that weighted sum is going to be bigger. If lower values are more probable, that weighted sum"
+      },
+      {
+        "start": 729.0,
+        "duration": 4.5,
+        "text": "is going to be smaller. A little more interesting is if you want to measure how spread out this"
+      },
+      {
+        "start": 733.5,
+        "duration": 6.2,
+        "text": "distribution is, because there's multiple different ways you might do it. One of them is called"
+      },
+      {
+        "start": 739.7,
+        "duration": 5.4,
+        "text": "the variance. The idea there is to look at the difference between each possible value and the mean,"
+      },
+      {
+        "start": 745.0,
+        "duration": 5.8,
+        "text": "square that difference, and ask for its expected value. The idea is that whether your value is below"
+      },
+      {
+        "start": 750.9,
+        "duration": 4.3,
+        "text": "or above the mean, when you square that difference, you get a positive number, and the larger the"
+      },
+      {
+        "start": 755.2,
+        "duration": 4.5,
+        "text": "difference, the bigger that number. Squaring it like this turns out to make the math much, much"
+      },
+      {
+        "start": 759.7,
+        "duration": 4.2,
+        "text": "nicer than if we did something like an absolute value. But the downside is that it's hard to think"
+      },
+      {
+        "start": 763.8,
+        "duration": 5.7,
+        "text": "about this as a distance in our diagram, because the units are off. And of like the units here are"
+      },
+      {
+        "start": 769.5,
+        "duration": 4.9,
+        "text": "square units, whereas a distance in our diagram would be a kind of linear unit. So another way to"
+      },
+      {
+        "start": 774.4,
+        "duration": 5.0,
+        "text": "measure spread is what's called the standard deviation, which is the square root of this value."
+      },
+      {
+        "start": 779.4,
+        "duration": 4.6,
+        "text": "That can be interpreted much more reasonably as a distance on our diagram, and it's commonly"
+      },
+      {
+        "start": 784.1,
+        "duration": 4.8,
+        "text": "denoted with the Greek letter sigma, though, you know, m for mean as for standard deviation, but"
+      },
+      {
+        "start": 788.9,
+        "duration": 6.4,
+        "text": "both in Greek. Looking back at our sequence of distributions, let's talk about the mean and"
+      },
+      {
+        "start": 795.3,
+        "duration": 5.2,
+        "text": "standard deviation. If we call the mean of the initial distribution mu, which for the one illustrated"
+      },
+      {
+        "start": 800.5,
+        "duration": 4.7,
+        "text": "happens to be 2.24, hopefully it won't be too surprising if I tell you that the mean of the next"
+      },
+      {
+        "start": 805.2,
+        "duration": 5.1,
+        "text": "one is 2 times mu. That is, you roll a pair of dice, you want to know the expected value of the sum,"
+      },
+      {
+        "start": 810.3,
+        "duration": 5.3,
+        "text": "it's 2 times the expected value for a single die. Similarly, the expected value for a sum of"
+      },
+      {
+        "start": 815.6,
+        "duration": 5.9,
+        "text": "size 3 is 3 times mu, and so on and so forth. The mean just marches steadily onto the right,"
+      },
+      {
+        "start": 821.5,
+        "duration": 4.7,
+        "text": "which is why our distributions seem to be drifting off in that direction. A little more challenging,"
+      },
+      {
+        "start": 826.2,
+        "duration": 5.4,
+        "text": "but very important is to describe how the standard deviation changes. The key fact here is that if you"
+      },
+      {
+        "start": 831.6,
+        "duration": 5.2,
+        "text": "have two different random variables, then the variance for the sum of those variables is the same"
+      },
+      {
+        "start": 836.9,
+        "duration": 4.6,
+        "text": "as just adding together the original two variances. This is one of those facts that you can just"
+      },
+      {
+        "start": 841.5,
+        "duration": 4.9,
+        "text": "compute when you unpack all the definitions. There are a couple nice intuitions for why it's true."
+      },
+      {
+        "start": 846.4,
+        "duration": 4.5,
+        "text": "My tentative plan is to just actually make a series about probability and talk about things like"
+      },
+      {
+        "start": 850.9,
+        "duration": 4.5,
+        "text": "intuitions underlying variance and its cousins there. But right now, the main thing I want you to"
+      },
+      {
+        "start": 855.4,
+        "duration": 5.2,
+        "text": "highlight is how it's the variance that adds, it's not the standard deviation that adds. So"
+      },
+      {
+        "start": 860.6,
+        "duration": 5.1,
+        "text": "critically, if you were to take end different realizations of the same random variable, and ask what"
+      },
+      {
+        "start": 865.7,
+        "duration": 5.6,
+        "text": "the sum looks like, the variance of that sum is n times the variance of your original variable."
+      },
+      {
+        "start": 872.2,
+        "duration": 4.7,
+        "text": "Meaning the standard deviation, the square root of all this, is the square root of n times the"
+      },
+      {
+        "start": 877.0,
+        "duration": 5.1,
+        "text": "original standard deviation. For example, back in our sequence of distributions, if we label the"
+      },
+      {
+        "start": 882.1,
+        "duration": 5.0,
+        "text": "standard deviation of our initial one with sigma, then the next standard deviation is going to be"
+      },
+      {
+        "start": 887.0,
+        "duration": 5.4,
+        "text": "the square root of 2 times sigma. And after that, it looks like the square root of 3 times sigma,"
+      },
+      {
+        "start": 892.4,
+        "duration": 4.7,
+        "text": "and so on and so forth. This, like I said, is very important. It means that even though our"
+      },
+      {
+        "start": 897.1,
+        "duration": 4.6,
+        "text": "distributions are getting spread out, they're not spreading out all that quickly. They only do so in"
+      },
+      {
+        "start": 901.7,
+        "duration": 4.7,
+        "text": "proportion to the square root of the size of the sum. As we prepare to make a more quantitative"
+      },
+      {
+        "start": 906.4,
+        "duration": 4.6,
+        "text": "description of the central limit theorem, the core intuition I want you to keep in your head"
+      },
+      {
+        "start": 911.0,
+        "duration": 4.9,
+        "text": "is that we'll basically realign all of these distributions so that their means line up together,"
+      },
+      {
+        "start": 915.8,
+        "duration": 4.6,
+        "text": "and then rescale them so that all of the standard deviations are just going to be equal to 1."
+      },
+      {
+        "start": 921.1,
+        "duration": 4.1,
+        "text": "And when we do that, the shape of the result gets closer and closer to a certain"
+      },
+      {
+        "start": 925.2,
+        "duration": 5.0,
+        "text": "universal shape, described with an elegant little function that will unpack in just a moment."
+      },
+      {
+        "start": 930.2,
+        "duration": 4.6,
+        "text": "And let me say one more time, the real magic here is how we could have started with any"
+      },
+      {
+        "start": 934.8,
+        "duration": 4.3,
+        "text": "distribution, describing a single role of the die, and if we play the same game,"
+      },
+      {
+        "start": 939.1,
+        "duration": 4.4,
+        "text": "considering what the distributions for the many different sums look like, and we realign them"
+      },
+      {
+        "start": 943.5,
+        "duration": 4.3,
+        "text": "so that the means line up, and we rescale them so that the standard deviations are all 1."
+      },
+      {
+        "start": 948.5,
+        "duration": 4.2,
+        "text": "We still approach that same universal shape, which is kind of mind-boggling."
+      },
+      {
+        "start": 955.0,
+        "duration": 4.6,
+        "text": "And now, my friends, is probably as good a time as any to finally get into the formula for"
+      },
+      {
+        "start": 959.7,
+        "duration": 4.6,
+        "text": "a normal distribution. And the way I'd like to do this is to basically peel back all the layers"
+      },
+      {
+        "start": 964.2,
+        "duration": 5.0,
+        "text": "and build it up one piece at a time. The function e to the x, or anything to the x,"
+      },
+      {
+        "start": 969.2,
+        "duration": 5.3,
+        "text": "describes exponential growth. And if you make that exponent negative, which flips around the graph"
+      },
+      {
+        "start": 974.6,
+        "duration": 5.0,
+        "text": "horizontally, you might think of it as describing exponential decay. To make this decay in both"
+      },
+      {
+        "start": 979.5,
+        "duration": 3.9,
+        "text": "directions, you could do something to make sure the exponent is always negative and growing,"
+      },
+      {
+        "start": 983.4,
+        "duration": 4.6,
+        "text": "like taking the negative absolute value. That would give us this kind of awkward sharp point"
+      },
+      {
+        "start": 988.1,
+        "duration": 5.0,
+        "text": "in the middle, but if instead you make that exponent the negative square of x, you get a smoother"
+      },
+      {
+        "start": 993.0,
+        "duration": 5.4,
+        "text": "version of the same thing, which decays in both directions. This gives us the basic bell curve shape."
+      },
+      {
+        "start": 998.5,
+        "duration": 4.2,
+        "text": "Now, if you throw a constant in front of that x, and you scale that constant up and down,"
+      },
+      {
+        "start": 1002.6,
+        "duration": 5.0,
+        "text": "it lets you stretch and squish the graph horizontally, allowing you to describe narrow and wider"
+      },
+      {
+        "start": 1007.7,
+        "duration": 4.1,
+        "text": "bell curves. And a quick thing I'd like to point out here is that based on the rules of"
+      },
+      {
+        "start": 1011.8,
+        "duration": 5.5,
+        "text": "exponentiation, as we tweak around that constant c, you could also think about it as simply"
+      },
+      {
+        "start": 1017.3,
+        "duration": 5.1,
+        "text": "changing the base of the exponentiation. And in that sense, the number e is not really all that"
+      },
+      {
+        "start": 1022.4,
+        "duration": 5.0,
+        "text": "special for our formula. We could replace it with any other positive constant, and you'll get"
+      },
+      {
+        "start": 1027.4,
+        "duration": 5.7,
+        "text": "the same family of curves as we tweak that constant. Make it a two, same family of curves,"
+      },
+      {
+        "start": 1033.1,
+        "duration": 5.4,
+        "text": "make it a three, same family of curves. The reason we use e is that it gives that constant a very"
+      },
+      {
+        "start": 1038.6,
+        "duration": 5.6,
+        "text": "readable meaning, or rather if we reconfigure things a little bit so that the exponent looks like"
+      },
+      {
+        "start": 1044.2,
+        "duration": 5.2,
+        "text": "negative one half times x divided by a certain constant, which we'll suggestively call sigma,"
+      },
+      {
+        "start": 1049.4,
+        "duration": 5.6,
+        "text": "squared, then once we turn this into a probability distribution, that constant sigma will be the"
+      },
+      {
+        "start": 1055.0,
+        "duration": 5.2,
+        "text": "standard deviation of that distribution. And that's very nice. But before we can interpret this"
+      },
+      {
+        "start": 1060.2,
+        "duration": 5.4,
+        "text": "as a probability distribution, we need the area under the curve to be one. And the reason for that"
+      },
+      {
+        "start": 1065.5,
+        "duration": 5.2,
+        "text": "is how the curve is interpreted. Unlike discrete distributions, when it comes to something continuous,"
+      },
+      {
+        "start": 1070.7,
+        "duration": 4.7,
+        "text": "you don't ask about the probability of a particular point. Instead, you ask for the probability"
+      },
+      {
+        "start": 1075.4,
+        "duration": 5.4,
+        "text": "that a value falls between two different values. And what the curve is telling you is that that"
+      },
+      {
+        "start": 1080.9,
+        "duration": 5.8,
+        "text": "probability equals the area under the curve between those two values. There's a whole other"
+      },
+      {
+        "start": 1086.6,
+        "duration": 4.6,
+        "text": "video about this. They're called probability density functions. The main point right now is that"
+      },
+      {
+        "start": 1091.2,
+        "duration": 5.4,
+        "text": "the area under the entire curve represents the probability that something happens, that some number"
+      },
+      {
+        "start": 1096.6,
+        "duration": 5.2,
+        "text": "comes up. That should be one, which is why we want the area under this to be one. As it stands with"
+      },
+      {
+        "start": 1101.8,
+        "duration": 5.0,
+        "text": "the basic value of shape of e to the negative x squared, the area is not one. It's actually the"
+      },
+      {
+        "start": 1106.7,
+        "duration": 5.2,
+        "text": "square root of pi. I know, right? What is pi doing here? What does this have to do with circles?"
+      },
+      {
+        "start": 1111.9,
+        "duration": 4.0,
+        "text": "Like I said at the start, I'd love to talk all about that in the next video. But if you can spare"
+      },
+      {
+        "start": 1115.9,
+        "duration": 4.4,
+        "text": "your excitement for our purposes right now, all it means is that we should divide this function by"
+      },
+      {
+        "start": 1120.3,
+        "duration": 5.0,
+        "text": "the square root of pi, and it gives us the area we want. Throwing back in the constants we had earlier,"
+      },
+      {
+        "start": 1125.3,
+        "duration": 5.5,
+        "text": "the one half and the sigma, the effect there is to stretch out the graph by a factor of sigma times"
+      },
+      {
+        "start": 1130.8,
+        "duration": 5.1,
+        "text": "the square root of two. So we also need to divide out by that in order to make sure it has an area"
+      },
+      {
+        "start": 1135.9,
+        "duration": 5.0,
+        "text": "of one, and combining those fractions, the factor out front looks like one divided by sigma times"
+      },
+      {
+        "start": 1140.9,
+        "duration": 6.2,
+        "text": "the square root of two pi. This, finally, is a valid probability distribution. As we tweak that"
+      },
+      {
+        "start": 1147.1,
+        "duration": 5.8,
+        "text": "value sigma, resulting in narrower and wider curves, that constant in the front always guarantees"
+      },
+      {
+        "start": 1152.9,
+        "duration": 6.5,
+        "text": "that the area equals one. The special case where sigma equals one has a specific name we call it the"
+      },
+      {
+        "start": 1159.4,
+        "duration": 4.6,
+        "text": "standard normal distribution, which plays an especially important role for you and me in this"
+      },
+      {
+        "start": 1163.9,
+        "duration": 6.1,
+        "text": "lesson. And all possible normal distributions are not only parameterized with this value sigma,"
+      },
+      {
+        "start": 1170.0,
+        "duration": 5.2,
+        "text": "but we also subtract off another constant mu from the variable x. And this essentially just"
+      },
+      {
+        "start": 1175.2,
+        "duration": 5.0,
+        "text": "lets you slide the graph left and right so that you can prescribe the mean of this distribution."
+      },
+      {
+        "start": 1180.7,
+        "duration": 4.8,
+        "text": "So in short, we have two parameters, one describing the mean, one describing the standard deviation,"
+      },
+      {
+        "start": 1185.5,
+        "duration": 3.6,
+        "text": "and they're all tied together in this big formula involving an e and a pi."
+      },
+      {
+        "start": 1190.1,
+        "duration": 4.7,
+        "text": "Now that all of that is on the table, let's look back again at the idea of starting with some"
+      },
+      {
+        "start": 1194.8,
+        "duration": 5.6,
+        "text": "random variable and asking what the distributions for sums of that variable look like. As we've already"
+      },
+      {
+        "start": 1200.4,
+        "duration": 5.0,
+        "text": "gone over, when you increase the size of that sum, the resulting distribution will shift according to"
+      },
+      {
+        "start": 1205.4,
+        "duration": 5.2,
+        "text": "a growing mean, and it slowly spreads out, according to a growing standard deviation. And putting"
+      },
+      {
+        "start": 1210.6,
+        "duration": 5.1,
+        "text": "some actual formulas to it, if we know the mean of our underlying random variable, and we call it mu,"
+      },
+      {
+        "start": 1215.7,
+        "duration": 4.6,
+        "text": "and we also know it's standard deviation, and we call it sigma, then the mean for the sum on"
+      },
+      {
+        "start": 1220.2,
+        "duration": 5.9,
+        "text": "the bottom will be mu times the size of the sum, and the standard deviation will be sigma times the"
+      },
+      {
+        "start": 1226.2,
+        "duration": 5.6,
+        "text": "square root of that size. So now, if we want to claim that this looks more and more like a bell curve,"
+      },
+      {
+        "start": 1231.8,
+        "duration": 5.0,
+        "text": "and a bell curve is only described by two different parameters, the mean and the standard deviation,"
+      },
+      {
+        "start": 1236.7,
+        "duration": 4.6,
+        "text": "you know what to do. You could plug those two values into the formula, and it gives you a highly"
+      },
+      {
+        "start": 1241.4,
+        "duration": 5.6,
+        "text": "explicit, albeit kind of complicated, formula for a curve that should closely fit our distribution."
+      },
+      {
+        "start": 1248.4,
+        "duration": 4.6,
+        "text": "But there's another way we can describe it that's a little more elegant and lends itself to a very"
+      },
+      {
+        "start": 1253.0,
+        "duration": 5.8,
+        "text": "fun visual that we can build up to. Instead of focusing on the sum of all of these random variables,"
+      },
+      {
+        "start": 1258.7,
+        "duration": 4.2,
+        "text": "let's modify this expression a little bit, where what we'll do is we'll look at the mean that we"
+      },
+      {
+        "start": 1262.9,
+        "duration": 4.7,
+        "text": "expect that sum to take, and we subtract it off, so that our new expression has a mean of zero,"
+      },
+      {
+        "start": 1268.2,
+        "duration": 4.6,
+        "text": "and then we're going to look at the standard deviation we expect of our sum, and divide out by"
+      },
+      {
+        "start": 1272.7,
+        "duration": 5.4,
+        "text": "that, which basically just rescales the units so that the standard deviation of our expression will"
+      },
+      {
+        "start": 1278.1,
+        "duration": 5.1,
+        "text": "equal one. This might seem like a more complicated expression, but it actually has a highly"
+      },
+      {
+        "start": 1283.2,
+        "duration": 6.1,
+        "text": "readable meaning. It's essentially saying how many standard deviations away from the mean is this"
+      },
+      {
+        "start": 1289.3,
+        "duration": 5.7,
+        "text": "sum. For example, this bar here corresponds to a certain value that you might find when you roll"
+      },
+      {
+        "start": 1295.0,
+        "duration": 4.8,
+        "text": "10 dice and you add them all up, and its position a little above negative 1 is telling you that"
+      },
+      {
+        "start": 1299.8,
+        "duration": 6.0,
+        "text": "that value is a little bit less than one standard deviation lower than the mean. Also, by the way,"
+      },
+      {
+        "start": 1305.8,
+        "duration": 4.1,
+        "text": "an anticipation for the animation I'm trying to build through here, the way I'm representing things"
+      },
+      {
+        "start": 1309.8,
+        "duration": 5.1,
+        "text": "on that lower plot is that the area of each one of these bars is telling us the probability of the"
+      },
+      {
+        "start": 1315.0,
+        "duration": 4.5,
+        "text": "corresponding value, rather than the height. You might think of the y-axis as representing not"
+      },
+      {
+        "start": 1319.4,
+        "duration": 5.3,
+        "text": "probability, but a kind of probability density. The reason for this is to set the stage so that it aligns"
+      },
+      {
+        "start": 1324.7,
+        "duration": 5.2,
+        "text": "with the way we interpret continuous distributions, where the probability of falling between a range of"
+      },
+      {
+        "start": 1329.9,
+        "duration": 5.4,
+        "text": "values is equal to an area under a curve between those values, in particular the area of all the"
+      },
+      {
+        "start": 1335.3,
+        "duration": 5.8,
+        "text": "bars together is going to be one. Now, with all of that in place, let's have a little fun."
+      },
+      {
+        "start": 1341.0,
+        "duration": 4.4,
+        "text": "Let me start by rolling things back so that the distribution on the bottom represents a relatively"
+      },
+      {
+        "start": 1345.4,
+        "duration": 5.4,
+        "text": "small sum, like adding together only three such random variables. Notice what happens as I change"
+      },
+      {
+        "start": 1350.9,
+        "duration": 4.8,
+        "text": "the distribution we start with. As it changes, the distribution on the bottom completely changes"
+      },
+      {
+        "start": 1355.7,
+        "duration": 6.7,
+        "text": "its shape. It's very dependent on what we started with. If we let the size of our sum get a little"
+      },
+      {
+        "start": 1362.4,
+        "duration": 5.8,
+        "text": "bit bigger, say going up to 10, and as I change the distribution for x, it largely stays looking like a"
+      },
+      {
+        "start": 1368.2,
+        "duration": 5.0,
+        "text": "bell curve, but I can find some distributions that get it to change shape. For example, the really"
+      },
+      {
+        "start": 1373.3,
+        "duration": 5.0,
+        "text": "lopsided one where almost all the probability is in the numbers 1 or 6 results in this kind of"
+      },
+      {
+        "start": 1378.3,
+        "duration": 5.5,
+        "text": "spiky bell curve. And if you'll recall earlier on, I actually showed this in the form of a simulation."
+      },
+      {
+        "start": 1383.8,
+        "duration": 4.1,
+        "text": "Though, if you were wondering whether that spikiness was an artifact of the randomness or"
+      },
+      {
+        "start": 1387.9,
+        "duration": 6.0,
+        "text": "reflected the true distribution, it reflects the true distribution. In this case, 10 is not a large"
+      },
+      {
+        "start": 1393.9,
+        "duration": 4.2,
+        "text": "enough sum for the central limit theorem to kick in, but if instead I let that sum grow,"
+      },
+      {
+        "start": 1398.2,
+        "duration": 5.9,
+        "text": "and I consider adding 50 different values, which is actually not that big, then no matter how I"
+      },
+      {
+        "start": 1404.1,
+        "duration": 5.2,
+        "text": "change the distribution for our underlying random variable, it has essentially no effect on the"
+      },
+      {
+        "start": 1409.3,
+        "duration": 4.6,
+        "text": "shape of the plot on the bottom. No matter where we start, all of the information and nuance for"
+      },
+      {
+        "start": 1413.8,
+        "duration": 5.6,
+        "text": "the distribution of x gets washed away, and we tend towards this single universal shape described"
+      },
+      {
+        "start": 1419.4,
+        "duration": 5.5,
+        "text": "by a very elegant function for the standard normal distribution. 1 over square root of 2 pi"
+      },
+      {
+        "start": 1425.0,
+        "duration": 5.1,
+        "text": "times e to the negative x squared over 2. This, this right here is what the central limit theorem"
+      },
+      {
+        "start": 1430.2,
+        "duration": 5.0,
+        "text": "is all about. Almost nothing you can do to this initial distribution changes the shape we tend towards."
+      },
+      {
+        "start": 1439.1,
+        "duration": 5.5,
+        "text": "Now, the more theoretically minded among you, might still be wondering what is the actual theorem,"
+      },
+      {
+        "start": 1444.6,
+        "duration": 4.3,
+        "text": "like what's the mathematical statement that could be proved or disproved that we're claiming here."
+      },
+      {
+        "start": 1449.0,
+        "duration": 4.6,
+        "text": "If you want a nice formal statement, here's how it might go. Consider this value where we're"
+      },
+      {
+        "start": 1453.6,
+        "duration": 4.6,
+        "text": "summing up end different instantiations of our random variable, but tweaked in tune so that it's"
+      },
+      {
+        "start": 1458.2,
+        "duration": 5.1,
+        "text": "mean in standard deviation R1. Again, meaning you can read it as asking how many standard deviations"
+      },
+      {
+        "start": 1463.4,
+        "duration": 5.5,
+        "text": "away from the mean is the sum. Then the actual rigorous no jokes this time statement of the central"
+      },
+      {
+        "start": 1468.9,
+        "duration": 5.5,
+        "text": "limit theorem is that if you consider the probability that this value falls between two given real"
+      },
+      {
+        "start": 1474.4,
+        "duration": 6.0,
+        "text": "numbers A and B, and you consider the limit of that probability as the size of your sum goes to"
+      },
+      {
+        "start": 1480.4,
+        "duration": 6.1,
+        "text": "infinity, then that limit is equal to a certain integral, which basically describes the area"
+      },
+      {
+        "start": 1486.5,
+        "duration": 6.6,
+        "text": "under a standard normal distribution between those two values. Again, there are three underlying"
+      },
+      {
+        "start": 1493.0,
+        "duration": 4.6,
+        "text": "assumptions that I have yet to tell you, but other than those in all of its gory detail,"
+      },
+      {
+        "start": 1497.7,
+        "duration": 2.0,
+        "text": "this right here is the central limit theorem."
+      },
+      {
+        "start": 1504.7,
+        "duration": 3.7,
+        "text": "All of that is a bit theoretical, so it might be helpful to bring things back down to Earth"
+      },
+      {
+        "start": 1508.4,
+        "duration": 4.6,
+        "text": "and turn back to the concrete example that I mentioned at the start, where you imagine rolling a"
+      },
+      {
+        "start": 1513.0,
+        "duration": 5.0,
+        "text": "die 100 times, and let's assume it's a fair die for this example, and you add together the results."
+      },
+      {
+        "start": 1518.6,
+        "duration": 5.8,
+        "text": "The challenge for you is to find a range of values such that you're 95% sure that the sum will"
+      },
+      {
+        "start": 1524.5,
+        "duration": 5.4,
+        "text": "fall within this range. For questions like this, there's a handy rule of thumb about normal"
+      },
+      {
+        "start": 1529.8,
+        "duration": 5.3,
+        "text": "distributions, which is that about 68% of your values are going to fall within one standard deviation"
+      },
+      {
+        "start": 1535.1,
+        "duration": 5.4,
+        "text": "of the mean, 95% of your values, the thing we care about, fall within two standard deviations of"
+      },
+      {
+        "start": 1540.5,
+        "duration": 6.1,
+        "text": "the mean, and a whopping 99.7% of your values will fall within three standard deviations of the"
+      },
+      {
+        "start": 1546.6,
+        "duration": 4.7,
+        "text": "mean. It's a rule of thumb that's commonly memorized by people who do a lot of probability and stats."
+      },
+      {
+        "start": 1552.2,
+        "duration": 4.6,
+        "text": "Naturally, this gives us what we need for our example, and let me go ahead and draw out what this"
+      },
+      {
+        "start": 1556.9,
+        "duration": 5.0,
+        "text": "would look like, where I'll show the distribution for a fair die up at the top, and the distribution for"
+      },
+      {
+        "start": 1561.8,
+        "duration": 4.7,
+        "text": "a sum of 100 such dice on the bottom, which by now, as you know, looks like a certain normal"
+      },
+      {
+        "start": 1566.6,
+        "duration": 5.8,
+        "text": "distribution. Step one with a problem like this is to find the mean of your initial distribution,"
+      },
+      {
+        "start": 1572.3,
+        "duration": 5.4,
+        "text": "which in this case will look like 1 6th times 1 plus 1 6th times 2 on and on and on, and works out"
+      },
+      {
+        "start": 1577.7,
+        "duration": 6.1,
+        "text": "to be 3.5. We also need the standard deviation, which requires calculating the variance, which, as you"
+      },
+      {
+        "start": 1583.8,
+        "duration": 4.4,
+        "text": "know, involves adding all the squares of the differences between the values and the means, and it"
+      },
+      {
+        "start": 1588.2,
+        "duration": 6.6,
+        "text": "works out to be 2.92. Square root of that comes out to be 1.71. Those are the only two numbers we need,"
+      },
+      {
+        "start": 1594.7,
+        "duration": 4.0,
+        "text": "and I will invite you again to reflect on how magical it is that those are the only two numbers"
+      },
+      {
+        "start": 1598.7,
+        "duration": 5.6,
+        "text": "that you need to completely understand the bottom distribution. Its mean will be 100 times mu,"
+      },
+      {
+        "start": 1604.3,
+        "duration": 6.6,
+        "text": "which is 350, and its standard deviation will be the square root of 100 times sigma, so 10 times"
+      },
+      {
+        "start": 1611.0,
+        "duration": 6.1,
+        "text": "sigma 17.1. Remembering our handy rule of thumb, we're looking for values 2 standard deviations"
+      },
+      {
+        "start": 1617.0,
+        "duration": 6.5,
+        "text": "away from the mean, and when you subtract 2 sigma from the mean, you end up with about 316,"
+      },
+      {
+        "start": 1623.5,
+        "duration": 5.3,
+        "text": "and when you add 2 sigma, you end up with roughly 384. And there you go, that gives us the answer."
+      },
+      {
+        "start": 1631.5,
+        "duration": 4.2,
+        "text": "Okay, I promised to wrap things up shortly, but while we're on this example, there's one more"
+      },
+      {
+        "start": 1635.8,
+        "duration": 5.6,
+        "text": "question that's worth your time to ponder. Instead of just asking about the sum of 100 diorals,"
+      },
+      {
+        "start": 1641.4,
+        "duration": 4.4,
+        "text": "let's say I had you divide that number by 100, which basically means all the numbers in our"
+      },
+      {
+        "start": 1645.8,
+        "duration": 5.3,
+        "text": "diagram in the bottom get divided by 100. Take a moment to interpret what this all would be saying,"
+      },
+      {
+        "start": 1651.8,
+        "duration": 4.7,
+        "text": "the expression essentially tells you the empirical average for 100 different diorals,"
+      },
+      {
+        "start": 1657.1,
+        "duration": 5.2,
+        "text": "and that interval we found is now telling you what range you were expecting to see for that"
+      },
+      {
+        "start": 1662.3,
+        "duration": 5.7,
+        "text": "empirical average. In other words, you might expect it to be around 3.5, that's the expected value"
+      },
+      {
+        "start": 1668.0,
+        "duration": 4.8,
+        "text": "for a dioral, but what's much less obvious and what the central limit theorem lets you compute"
+      },
+      {
+        "start": 1672.8,
+        "duration": 5.3,
+        "text": "is how close to that expected value you'll reasonably find yourself. In particular,"
+      },
+      {
+        "start": 1678.1,
+        "duration": 4.5,
+        "text": "it's worth your time to take a moment mulling over what the standard deviation for this empirical"
+      },
+      {
+        "start": 1682.6,
+        "duration": 4.4,
+        "text": "average is, and what happens to it as you look at a bigger and bigger sample of diorals."
+      },
+      {
+        "start": 1692.9,
+        "duration": 5.0,
+        "text": "Lastly, but probably most importantly, let's talk about the assumptions that go into this theorem."
+      },
+      {
+        "start": 1697.8,
+        "duration": 4.8,
+        "text": "The first one is that all of these variables that we're adding up are independent from each other."
+      },
+      {
+        "start": 1702.6,
+        "duration": 3.6,
+        "text": "The outcome of one process doesn't influence the outcome of any other process."
+      },
+      {
+        "start": 1707.0,
+        "duration": 5.0,
+        "text": "The second is that all of these variables are drawn from the same distribution. Both of these"
+      },
+      {
+        "start": 1712.0,
+        "duration": 4.5,
+        "text": "have been implicitly assumed with our dice example. We've been treating the outcome of each di"
+      },
+      {
+        "start": 1716.5,
+        "duration": 4.2,
+        "text": "role as independent from the outcome of all the others, and we're assuming that each di"
+      },
+      {
+        "start": 1720.6,
+        "duration": 4.3,
+        "text": "follows the same distribution. Sometimes in the literature you'll see these two assumptions"
+      },
+      {
+        "start": 1725.0,
+        "duration": 6.2,
+        "text": "lumped together under the initials i-i-d for independent and identically distributed. One situation"
+      },
+      {
+        "start": 1731.2,
+        "duration": 5.7,
+        "text": "where these assumptions are decidedly not true would be the galtan board. I mean, think about it."
+      },
+      {
+        "start": 1736.9,
+        "duration": 5.0,
+        "text": "Is it the case that the way a ball bounces off of one of the pegs is independent from how it's"
+      },
+      {
+        "start": 1741.8,
+        "duration": 4.5,
+        "text": "going to bounce off the next peg? Absolutely not, depending on the last bounce it's coming in with"
+      },
+      {
+        "start": 1746.3,
+        "duration": 5.0,
+        "text": "a completely different trajectory. And is it the case that the distribution of possible outcomes"
+      },
+      {
+        "start": 1751.3,
+        "duration": 5.9,
+        "text": "off of each peg are the same for each peg that it hits? Again, almost certainly not. Maybe it"
+      },
+      {
+        "start": 1757.2,
+        "duration": 4.5,
+        "text": "hits one peg glancing to the left, meaning the outcomes are hugely skewed in that direction,"
+      },
+      {
+        "start": 1761.7,
+        "duration": 5.9,
+        "text": "and then hits the next one glancing to the right. When I made all those simplifying assumptions"
+      },
+      {
+        "start": 1767.6,
+        "duration": 5.0,
+        "text": "in the opening example, it wasn't just to make this easier to think about. It's also that those"
+      },
+      {
+        "start": 1772.6,
+        "duration": 4.4,
+        "text": "assumptions were necessary for this to actually be an example of the central limit theorem."
+      },
+      {
+        "start": 1777.8,
+        "duration": 5.0,
+        "text": "Nevertheless, it seems to be true that for the real galtan board, despite violating both of these,"
+      },
+      {
+        "start": 1782.9,
+        "duration": 4.9,
+        "text": "a normal distribution does kind of come about? Part of the reason might be that there are"
+      },
+      {
+        "start": 1787.8,
+        "duration": 4.7,
+        "text": "generalizations of the theorem, beyond the scope of this video, that relax these assumptions,"
+      },
+      {
+        "start": 1792.5,
+        "duration": 4.9,
+        "text": "especially the second one. But I do want to caution you against the fact that many times people"
+      },
+      {
+        "start": 1797.4,
+        "duration": 5.4,
+        "text": "seem to assume that a variable is normally distributed, even when there's no actual justification to do so."
+      },
+      {
+        "start": 1804.1,
+        "duration": 4.2,
+        "text": "The third assumption is actually fairly subtle. It's that the variance we've been computing for"
+      },
+      {
+        "start": 1808.3,
+        "duration": 5.3,
+        "text": "these variables is finite. This was never an issue for the dice example because there were only"
+      },
+      {
+        "start": 1813.6,
+        "duration": 4.8,
+        "text": "six possible outcomes, but in certain situations where you have an infinite set of outcomes,"
+      },
+      {
+        "start": 1818.4,
+        "duration": 5.8,
+        "text": "when you go to compute the variance, the sum ends up diverging off to infinity. These can be perfectly"
+      },
+      {
+        "start": 1824.2,
+        "duration": 4.8,
+        "text": "valid probability distributions, and they do come up in practice, but in those situations as you"
+      },
+      {
+        "start": 1829.0,
+        "duration": 5.1,
+        "text": "consider adding many different instantiations of that variable and letting that sum approach infinity,"
+      },
+      {
+        "start": 1834.2,
+        "duration": 4.6,
+        "text": "even if the first two assumptions hold, it is very much a possibility that the thing you tend to"
+      },
+      {
+        "start": 1838.8,
+        "duration": 5.1,
+        "text": "towards is not actually a normal distribution. If you've understood everything up to this point,"
+      },
+      {
+        "start": 1843.9,
+        "duration": 4.1,
+        "text": "you now have a very strong foundation in what the central limit theorem is all about."
+      },
+      {
+        "start": 1848.0,
+        "duration": 4.3,
+        "text": "And next up, I'd like to explain why it is that this particular function is the thing that we"
+      },
+      {
+        "start": 1852.3,
+        "duration": 10.0,
+        "text": "tend towards and why it has a pion at what it has to do with circles."
+      }
+    ],
+    "full_text": "This is a Galton board. Maybe you've seen one before, it's a popular demonstration of how even when a single event is chaotic and random with an effectively unknowable outcome, it's still possible to make precise statements about a large number of events, namely how the relative proportions for many different outcomes are distributed. More specifically, the Galton board illustrates one of the most prominent distributions in all of probability, known as the normal distribution, more colloquially known as a bell curve, and also called a Gaussian distribution. There's a very specific function to describe this distribution, it's very pretty, we'll get into it later. But right now, I just want to emphasize how the normal distribution is, as the name suggests, very common, it shows up in a lot of seemingly unrelated contexts. If you were to take a large number of people who sit in a similar demographic and plot their heights, those heights tend to follow a normal distribution. If you look at a large swath of very big natural numbers, and you ask how many distinct prime factors does each one of those numbers have, the answers will very closely track with a certain normal distribution. Now our topic for today is one of the crown jewels in all of probability theory, it's one of the key facts that explains why this distribution is as common as it is, known as the central limit theorem. This lesson is meant to go back to the basics, giving you the fundamentals on what the central limit theorem is saying, what normal distributions are, and I want to assume minimal background. We're going to go decently deep into it, but after this, I'd still like to go deeper and explain why the theorem is true, why the function underlying the normal distribution has the very specific form that it does, why that formula has a pi in it, and most fun, why those last two facts are actually more related than a lot of traditional explanations would suggest. That second lesson is also meant to be the follow on to the convolutions video that I promised, so there's a lot of interrelated topics here. But right now, back to the fundamentals, I'd like to kick things off with a overly simplified model of the Galton board. In this model, we will assume that each ball falls directly onto a certain central peg, and that it has a 50-50 probability of bouncing to the left or to the right, and we'll think of each of those outcomes as either adding one or subtracting one from its position. Once one of those is chosen, we make the highly unrealistic assumption that it happens to land dead on in the middle of the peg adjacent below it, where again, it'll be faced with the same 50-50 choice of bouncing to the left or to the right. For the one I'm showing on screen, there are five different rows of pegs, so our little hopping ball makes five different random choices between plus one and minus one, and we can think of its final position as basically being the sum of all of those different numbers, which in this case happens to be one, and we might label all of the different buckets with the sum that they represent. As we repeat this, we're looking at different possible sums for those five random numbers. And for those of you who are inclined to complain that this is a highly unrealistic model for the true Galton board, let me emphasize the goal right now is not to accurately model physics. The goal is to give a simple example to illustrate the central limit and for that, idealized though this might be, it actually gives us a really good example. If we let many different balls fall, making yet another unrealistic assumption that they don't influence each other as if they're all ghosts, then the number of balls that fall into each different bucket gives us some loose sense for how likely each one of those buckets is. In this example, the numbers are simple enough that it's not too hard to explicitly calculate what the probability is for falling into each bucket. If you do want to think that through, you'll find it very reminiscent of Pascal's triangle. But the neat thing about our theorem is how far it goes beyond the simple examples. So to start off at least, rather than making explicit calculations, let's just simulate things by running a large number of samples and letting the total number of results in each different outcome give us some sense for what that distribution looks like. As I said, the one on screen has five rows, so each sum that we're considering includes only five numbers. The basic idea of the central limit theorem is that if you increase the size of that sum, for example, here that would mean increasing the number of rows of pegs for each ball to bounce off, then the distribution that describes where that sum is going to fall looks more and more like a bell curve. Here, it's actually worth thinking the moment to write down that general idea. The setup is that we have a random variable, and that's basically shorthand for a random process, where each outcome of that process is associated with some number. We'll call that random number x. For example, each bounce off the peg is a random process modeled with two outcomes. Those outcomes are associated with the numbers negative one and positive one. Another example of a random variable would be rolling a die, where you have six different outcomes each one associated with the number. What we're doing is taking multiple different samples of that variable and adding them all together. On our goutten board, that looks like letting the ball bounce off multiple different pegs on its way down to the bottom, and in the case of a die, you might imagine rolling many different dice and adding up the results. The claim of the central limit theorem is that as you let the size of that sum get bigger and bigger, then the distribution of that sum, how likely it is to fall into different possible values, will look more and more like a bell curve. That's it, that is the general idea. Over the course of this lesson, our job is to make that statement more quantitative. We're going to put some numbers to it, put some formulas to it, show how you can use it to make predictions. For example, here's the kind of question I want you to be able to answer by the end of this video. Suppose you rolled the die 100 times and you added together the results. Could you find a range of values such that you're 95% sure that the sum will fall within that range? Or maybe I should say find the smallest possible range of values such that this is true. The neat thing is, you'll be able to answer this question whether it's a fair die or if it's a weighted die. Now let me say at the top that this theorem has three different assumptions that go into it, three things that have to be true before the theorem follows. And I'm actually not going to tell you what they are until the very end of the video. Instead, I want you to keep your eye out and see if you can notice and maybe predict what those three assumptions are going to be. As an next step to better illustrate just how general this theorem is, I want to run a couple more simulations for you focused on the dice example. Usually if you think of rolling a die, you think of the six outcomes as being equally probable. But the theorem actually doesn't care about that. We could start with a weighted die, something with a non-trivial distribution across the outcomes, and the core idea still holds. For the simulation, what I'll do is take some distribution, like this one that is skewed towards lower values. I'm going to take 10 distinct samples from that distribution, and then I'll record the sum of that sample on the plot on the bottom. Then I'm going to do this many, many different times, always with the sum of size 10, but keep track of where those sums ended up to give us a sense of the distribution. And in fact, let me rescale the Y direction to give us room to run an even larger number of samples. And I'll let it go all the way up to a couple thousand, and as it does, you'll notice that the shape that starts to emerge looks like a bell curve. Maybe if you squint your eyes, you can see it skews a tiny bit to the left, but it's neat that something so symmetric emerged from a starting point that was so asymmetric. To better illustrate what the central limit theorem is all about, let me run four of these simulations in parallel, where on the upper left I'm doing it where we're only adding two dice at a time. On the upper right we're doing it where we're adding five dice at a time. The lower left is the one that we just saw, adding 10 dice at a time. And then we'll do another one with a bigger sum, 15 at a time. Notice how on the upper left when we're just adding two dice? The resulting distribution doesn't really look like a bell curve. It looks a lot more reminiscent of the one we started with, viewed towards the left. But as we allow for more and more dice in each sum, the resulting shape that comes up in these distributions looks more and more symmetric. It has the lump in the middle and fade towards the tail's shape of a bell curve. And let me emphasize again, you can start with any different distribution. Here I'll run it again, but where most of the probability is tied up in the numbers one and six with very low probability for the mid values. Despite completely changing the distribution for an individual role of the die, it's still the case that a bell curve shape will emerge as we consider the different sums. Illustrating things with a simulation like this is very fun, and it's kind of neat to see order emerge from chaos. But it also feels a little imprecise, like in this case, when I cut off the simulation at 3000 samples, even though it kind of looks like a bell curve, the different buckets seem pretty spiky, and you might wonder, is it supposed to look that way, or is that just an artifact of the randomness in the simulation? And if it is, how many samples do we need before we can be sure that what we're looking at is representative of the true distribution? Instead moving forward, let's get a little more theoretical and show the precise shape that these distributions will take on in the long run. The easiest case to make this calculation is if we have a uniform distribution, where each possible face of the die has an equal probability, one-sixth. For example, if you then want to know how likely different sums are for a pair of dice, it's essentially a counting game, where you count up how many distinct pairs take on the same sum, which in the diagram I've drawn, you can conveniently think about by going through all of the different diagonals. Since each such pair has an equal chance of showing up, one in 36, all you have to do is count the sizes of these buckets. That gives us a definitive shape for the distribution describing a sum of two dice, and if we were to play the same game with all possible triplets, the resulting distribution would look like this. Now what's more challenging, but a lot more interesting is to ask what happens if we have a non-uniform distribution for that single die. We actually talked all about this in the last video. You do essentially the same thing, you go through all the distinct pairs of dice which add up to the same value, it's just that instead of counting those pairs, for each pair you multiply the two probabilities of each particular face coming up, and then you add all those together. The computation that does this for all possible sums has a fancy name, it's called a convolution, but it's essentially just the weighted version of the counting game that anyone who's played with a pair of dice already finds familiar. For our purposes in this lesson, I'll have the computer calculate all that, simply display the results for you, and invite you to observe certain patterns, but under the hood, this is what's going on. So just to be crystal clear on what's being represented here, if you imagine sampling two different values from that top distribution, the one describing a single die, and adding them together, then the second distribution I'm drawing represents how likely you are to see various different sums. Likewise, if you imagine sampling three distinct values from that top distribution and adding them together, the next plot represents the probabilities for various different sums in that case. So if I compute what the distributions for these sums look like, for larger and larger sums, well, you know what I'm going to say, it looks more and more like a bell curve. But before we get to that, I want you to make a couple more simple observations. For example, these distributions seem to be wandering to the right, and also they seem to be getting more spread out and a little bit more flat. You cannot describe the central limit theorem quantitatively without taking into account both of those effects, which in turn requires describing the mean and the standard deviation. Maybe you're already familiar with those, but I want to make minimal assumptions here, and it never hurts to review, so let's quickly go over both of those. The mean of a distribution, often denoted with a Greek letter mu, is a way of capturing the center of mass for that distribution. It's calculated as the expected value of a random variable, which is a way of saying you go through all of the different possible outcomes, and you multiply the probability of that outcome times the value of the variable. If higher values are more probable, that weighted sum is going to be bigger. If lower values are more probable, that weighted sum is going to be smaller. A little more interesting is if you want to measure how spread out this distribution is, because there's multiple different ways you might do it. One of them is called the variance. The idea there is to look at the difference between each possible value and the mean, square that difference, and ask for its expected value. The idea is that whether your value is below or above the mean, when you square that difference, you get a positive number, and the larger the difference, the bigger that number. Squaring it like this turns out to make the math much, much nicer than if we did something like an absolute value. But the downside is that it's hard to think about this as a distance in our diagram, because the units are off. And of like the units here are square units, whereas a distance in our diagram would be a kind of linear unit. So another way to measure spread is what's called the standard deviation, which is the square root of this value. That can be interpreted much more reasonably as a distance on our diagram, and it's commonly denoted with the Greek letter sigma, though, you know, m for mean as for standard deviation, but both in Greek. Looking back at our sequence of distributions, let's talk about the mean and standard deviation. If we call the mean of the initial distribution mu, which for the one illustrated happens to be 2.24, hopefully it won't be too surprising if I tell you that the mean of the next one is 2 times mu. That is, you roll a pair of dice, you want to know the expected value of the sum, it's 2 times the expected value for a single die. Similarly, the expected value for a sum of size 3 is 3 times mu, and so on and so forth. The mean just marches steadily onto the right, which is why our distributions seem to be drifting off in that direction. A little more challenging, but very important is to describe how the standard deviation changes. The key fact here is that if you have two different random variables, then the variance for the sum of those variables is the same as just adding together the original two variances. This is one of those facts that you can just compute when you unpack all the definitions. There are a couple nice intuitions for why it's true. My tentative plan is to just actually make a series about probability and talk about things like intuitions underlying variance and its cousins there. But right now, the main thing I want you to highlight is how it's the variance that adds, it's not the standard deviation that adds. So critically, if you were to take end different realizations of the same random variable, and ask what the sum looks like, the variance of that sum is n times the variance of your original variable. Meaning the standard deviation, the square root of all this, is the square root of n times the original standard deviation. For example, back in our sequence of distributions, if we label the standard deviation of our initial one with sigma, then the next standard deviation is going to be the square root of 2 times sigma. And after that, it looks like the square root of 3 times sigma, and so on and so forth. This, like I said, is very important. It means that even though our distributions are getting spread out, they're not spreading out all that quickly. They only do so in proportion to the square root of the size of the sum. As we prepare to make a more quantitative description of the central limit theorem, the core intuition I want you to keep in your head is that we'll basically realign all of these distributions so that their means line up together, and then rescale them so that all of the standard deviations are just going to be equal to 1. And when we do that, the shape of the result gets closer and closer to a certain universal shape, described with an elegant little function that will unpack in just a moment. And let me say one more time, the real magic here is how we could have started with any distribution, describing a single role of the die, and if we play the same game, considering what the distributions for the many different sums look like, and we realign them so that the means line up, and we rescale them so that the standard deviations are all 1. We still approach that same universal shape, which is kind of mind-boggling. And now, my friends, is probably as good a time as any to finally get into the formula for a normal distribution. And the way I'd like to do this is to basically peel back all the layers and build it up one piece at a time. The function e to the x, or anything to the x, describes exponential growth. And if you make that exponent negative, which flips around the graph horizontally, you might think of it as describing exponential decay. To make this decay in both directions, you could do something to make sure the exponent is always negative and growing, like taking the negative absolute value. That would give us this kind of awkward sharp point in the middle, but if instead you make that exponent the negative square of x, you get a smoother version of the same thing, which decays in both directions. This gives us the basic bell curve shape. Now, if you throw a constant in front of that x, and you scale that constant up and down, it lets you stretch and squish the graph horizontally, allowing you to describe narrow and wider bell curves. And a quick thing I'd like to point out here is that based on the rules of exponentiation, as we tweak around that constant c, you could also think about it as simply changing the base of the exponentiation. And in that sense, the number e is not really all that special for our formula. We could replace it with any other positive constant, and you'll get the same family of curves as we tweak that constant. Make it a two, same family of curves, make it a three, same family of curves. The reason we use e is that it gives that constant a very readable meaning, or rather if we reconfigure things a little bit so that the exponent looks like negative one half times x divided by a certain constant, which we'll suggestively call sigma, squared, then once we turn this into a probability distribution, that constant sigma will be the standard deviation of that distribution. And that's very nice. But before we can interpret this as a probability distribution, we need the area under the curve to be one. And the reason for that is how the curve is interpreted. Unlike discrete distributions, when it comes to something continuous, you don't ask about the probability of a particular point. Instead, you ask for the probability that a value falls between two different values. And what the curve is telling you is that that probability equals the area under the curve between those two values. There's a whole other video about this. They're called probability density functions. The main point right now is that the area under the entire curve represents the probability that something happens, that some number comes up. That should be one, which is why we want the area under this to be one. As it stands with the basic value of shape of e to the negative x squared, the area is not one. It's actually the square root of pi. I know, right? What is pi doing here? What does this have to do with circles? Like I said at the start, I'd love to talk all about that in the next video. But if you can spare your excitement for our purposes right now, all it means is that we should divide this function by the square root of pi, and it gives us the area we want. Throwing back in the constants we had earlier, the one half and the sigma, the effect there is to stretch out the graph by a factor of sigma times the square root of two. So we also need to divide out by that in order to make sure it has an area of one, and combining those fractions, the factor out front looks like one divided by sigma times the square root of two pi. This, finally, is a valid probability distribution. As we tweak that value sigma, resulting in narrower and wider curves, that constant in the front always guarantees that the area equals one. The special case where sigma equals one has a specific name we call it the standard normal distribution, which plays an especially important role for you and me in this lesson. And all possible normal distributions are not only parameterized with this value sigma, but we also subtract off another constant mu from the variable x. And this essentially just lets you slide the graph left and right so that you can prescribe the mean of this distribution. So in short, we have two parameters, one describing the mean, one describing the standard deviation, and they're all tied together in this big formula involving an e and a pi. Now that all of that is on the table, let's look back again at the idea of starting with some random variable and asking what the distributions for sums of that variable look like. As we've already gone over, when you increase the size of that sum, the resulting distribution will shift according to a growing mean, and it slowly spreads out, according to a growing standard deviation. And putting some actual formulas to it, if we know the mean of our underlying random variable, and we call it mu, and we also know it's standard deviation, and we call it sigma, then the mean for the sum on the bottom will be mu times the size of the sum, and the standard deviation will be sigma times the square root of that size. So now, if we want to claim that this looks more and more like a bell curve, and a bell curve is only described by two different parameters, the mean and the standard deviation, you know what to do. You could plug those two values into the formula, and it gives you a highly explicit, albeit kind of complicated, formula for a curve that should closely fit our distribution. But there's another way we can describe it that's a little more elegant and lends itself to a very fun visual that we can build up to. Instead of focusing on the sum of all of these random variables, let's modify this expression a little bit, where what we'll do is we'll look at the mean that we expect that sum to take, and we subtract it off, so that our new expression has a mean of zero, and then we're going to look at the standard deviation we expect of our sum, and divide out by that, which basically just rescales the units so that the standard deviation of our expression will equal one. This might seem like a more complicated expression, but it actually has a highly readable meaning. It's essentially saying how many standard deviations away from the mean is this sum. For example, this bar here corresponds to a certain value that you might find when you roll 10 dice and you add them all up, and its position a little above negative 1 is telling you that that value is a little bit less than one standard deviation lower than the mean. Also, by the way, an anticipation for the animation I'm trying to build through here, the way I'm representing things on that lower plot is that the area of each one of these bars is telling us the probability of the corresponding value, rather than the height. You might think of the y-axis as representing not probability, but a kind of probability density. The reason for this is to set the stage so that it aligns with the way we interpret continuous distributions, where the probability of falling between a range of values is equal to an area under a curve between those values, in particular the area of all the bars together is going to be one. Now, with all of that in place, let's have a little fun. Let me start by rolling things back so that the distribution on the bottom represents a relatively small sum, like adding together only three such random variables. Notice what happens as I change the distribution we start with. As it changes, the distribution on the bottom completely changes its shape. It's very dependent on what we started with. If we let the size of our sum get a little bit bigger, say going up to 10, and as I change the distribution for x, it largely stays looking like a bell curve, but I can find some distributions that get it to change shape. For example, the really lopsided one where almost all the probability is in the numbers 1 or 6 results in this kind of spiky bell curve. And if you'll recall earlier on, I actually showed this in the form of a simulation. Though, if you were wondering whether that spikiness was an artifact of the randomness or reflected the true distribution, it reflects the true distribution. In this case, 10 is not a large enough sum for the central limit theorem to kick in, but if instead I let that sum grow, and I consider adding 50 different values, which is actually not that big, then no matter how I change the distribution for our underlying random variable, it has essentially no effect on the shape of the plot on the bottom. No matter where we start, all of the information and nuance for the distribution of x gets washed away, and we tend towards this single universal shape described by a very elegant function for the standard normal distribution. 1 over square root of 2 pi times e to the negative x squared over 2. This, this right here is what the central limit theorem is all about. Almost nothing you can do to this initial distribution changes the shape we tend towards. Now, the more theoretically minded among you, might still be wondering what is the actual theorem, like what's the mathematical statement that could be proved or disproved that we're claiming here. If you want a nice formal statement, here's how it might go. Consider this value where we're summing up end different instantiations of our random variable, but tweaked in tune so that it's mean in standard deviation R1. Again, meaning you can read it as asking how many standard deviations away from the mean is the sum. Then the actual rigorous no jokes this time statement of the central limit theorem is that if you consider the probability that this value falls between two given real numbers A and B, and you consider the limit of that probability as the size of your sum goes to infinity, then that limit is equal to a certain integral, which basically describes the area under a standard normal distribution between those two values. Again, there are three underlying assumptions that I have yet to tell you, but other than those in all of its gory detail, this right here is the central limit theorem. All of that is a bit theoretical, so it might be helpful to bring things back down to Earth and turn back to the concrete example that I mentioned at the start, where you imagine rolling a die 100 times, and let's assume it's a fair die for this example, and you add together the results. The challenge for you is to find a range of values such that you're 95% sure that the sum will fall within this range. For questions like this, there's a handy rule of thumb about normal distributions, which is that about 68% of your values are going to fall within one standard deviation of the mean, 95% of your values, the thing we care about, fall within two standard deviations of the mean, and a whopping 99.7% of your values will fall within three standard deviations of the mean. It's a rule of thumb that's commonly memorized by people who do a lot of probability and stats. Naturally, this gives us what we need for our example, and let me go ahead and draw out what this would look like, where I'll show the distribution for a fair die up at the top, and the distribution for a sum of 100 such dice on the bottom, which by now, as you know, looks like a certain normal distribution. Step one with a problem like this is to find the mean of your initial distribution, which in this case will look like 1 6th times 1 plus 1 6th times 2 on and on and on, and works out to be 3.5. We also need the standard deviation, which requires calculating the variance, which, as you know, involves adding all the squares of the differences between the values and the means, and it works out to be 2.92. Square root of that comes out to be 1.71. Those are the only two numbers we need, and I will invite you again to reflect on how magical it is that those are the only two numbers that you need to completely understand the bottom distribution. Its mean will be 100 times mu, which is 350, and its standard deviation will be the square root of 100 times sigma, so 10 times sigma 17.1. Remembering our handy rule of thumb, we're looking for values 2 standard deviations away from the mean, and when you subtract 2 sigma from the mean, you end up with about 316, and when you add 2 sigma, you end up with roughly 384. And there you go, that gives us the answer. Okay, I promised to wrap things up shortly, but while we're on this example, there's one more question that's worth your time to ponder. Instead of just asking about the sum of 100 diorals, let's say I had you divide that number by 100, which basically means all the numbers in our diagram in the bottom get divided by 100. Take a moment to interpret what this all would be saying, the expression essentially tells you the empirical average for 100 different diorals, and that interval we found is now telling you what range you were expecting to see for that empirical average. In other words, you might expect it to be around 3.5, that's the expected value for a dioral, but what's much less obvious and what the central limit theorem lets you compute is how close to that expected value you'll reasonably find yourself. In particular, it's worth your time to take a moment mulling over what the standard deviation for this empirical average is, and what happens to it as you look at a bigger and bigger sample of diorals. Lastly, but probably most importantly, let's talk about the assumptions that go into this theorem. The first one is that all of these variables that we're adding up are independent from each other. The outcome of one process doesn't influence the outcome of any other process. The second is that all of these variables are drawn from the same distribution. Both of these have been implicitly assumed with our dice example. We've been treating the outcome of each di role as independent from the outcome of all the others, and we're assuming that each di follows the same distribution. Sometimes in the literature you'll see these two assumptions lumped together under the initials i-i-d for independent and identically distributed. One situation where these assumptions are decidedly not true would be the galtan board. I mean, think about it. Is it the case that the way a ball bounces off of one of the pegs is independent from how it's going to bounce off the next peg? Absolutely not, depending on the last bounce it's coming in with a completely different trajectory. And is it the case that the distribution of possible outcomes off of each peg are the same for each peg that it hits? Again, almost certainly not. Maybe it hits one peg glancing to the left, meaning the outcomes are hugely skewed in that direction, and then hits the next one glancing to the right. When I made all those simplifying assumptions in the opening example, it wasn't just to make this easier to think about. It's also that those assumptions were necessary for this to actually be an example of the central limit theorem. Nevertheless, it seems to be true that for the real galtan board, despite violating both of these, a normal distribution does kind of come about? Part of the reason might be that there are generalizations of the theorem, beyond the scope of this video, that relax these assumptions, especially the second one. But I do want to caution you against the fact that many times people seem to assume that a variable is normally distributed, even when there's no actual justification to do so. The third assumption is actually fairly subtle. It's that the variance we've been computing for these variables is finite. This was never an issue for the dice example because there were only six possible outcomes, but in certain situations where you have an infinite set of outcomes, when you go to compute the variance, the sum ends up diverging off to infinity. These can be perfectly valid probability distributions, and they do come up in practice, but in those situations as you consider adding many different instantiations of that variable and letting that sum approach infinity, even if the first two assumptions hold, it is very much a possibility that the thing you tend to towards is not actually a normal distribution. If you've understood everything up to this point, you now have a very strong foundation in what the central limit theorem is all about. And next up, I'd like to explain why it is that this particular function is the thing that we tend towards and why it has a pion at what it has to do with circles."
+  }
+}

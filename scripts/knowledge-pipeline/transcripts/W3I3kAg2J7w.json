@@ -1,0 +1,629 @@
+{
+  "video_id": "W3I3kAg2J7w",
+  "video_title": "What \"Follow Your Dreams\" Misses | Harvey Mudd Commencement Speech 2024",
+  "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+  "channel_title": "3Blue1Brown",
+  "published_at": "",
+  "duration_secs": 930.0,
+  "view_count": 1472641,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "source": "whisper_local",
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 7.0,
+        "text": "Last year Grant gave the math department's Michael E. Moody lecture on where math and physics collide."
+      },
+      {
+        "start": 7.0,
+        "duration": 6.0,
+        "text": "He explored unexpected connections between kinematics, optics, and quantum computing."
+      },
+      {
+        "start": 13.0,
+        "duration": 7.0,
+        "text": "Our students loved his talk in the senior class voted overwhelmingly to ask him back as commencement speaker."
+      },
+      {
+        "start": 20.0,
+        "duration": 7.0,
+        "text": "Grant has said that he seeks to educate and inspire the world with beauty and the power of mathematics."
+      },
+      {
+        "start": 27.0,
+        "duration": 7.0,
+        "text": "He certainly has inspired many of us here at Harvey Mudd. Please join me in welcoming Grant Sanderson."
+      },
+      {
+        "start": 46.0,
+        "duration": 4.0,
+        "text": "Thank you President Nimpert for that very warm introduction and for inviting me."
+      },
+      {
+        "start": 50.0,
+        "duration": 3.0,
+        "text": "And thank you to the class of 2024 for including me in such a special day."
+      },
+      {
+        "start": 54.0,
+        "duration": 9.0,
+        "text": "I had the joy of getting to know many of you last year on this visit and I distinctly remember coming away with the feeling that a future in your hands is a bright future indeed."
+      },
+      {
+        "start": 63.0,
+        "duration": 7.0,
+        "text": "For those in the audience who don't know who I am, I focus on making videos about mathematics with an emphasis on visualizations."
+      },
+      {
+        "start": 70.0,
+        "duration": 6.0,
+        "text": "It's a weird job. I do love it though and it's no exaggeration to describe it as a dream job."
+      },
+      {
+        "start": 76.0,
+        "duration": 12.0,
+        "text": "A common cliche is for someone who is lucky enough to land in a dream job, to stand confidently in front of a group of fledgling graduates, and to compel them to follow their dreams."
+      },
+      {
+        "start": 88.0,
+        "duration": 6.0,
+        "text": "Frankly, on its own, I don't think this is very good advice."
+      },
+      {
+        "start": 94.0,
+        "duration": 7.0,
+        "text": "To be clear, there is truth behind the cliche. It is true that those who make the biggest ripples are the ones who are fueled by passion."
+      },
+      {
+        "start": 101.0,
+        "duration": 5.0,
+        "text": "It is true that the life that you live is much more enjoyable if you can find something doing what you love."
+      },
+      {
+        "start": 106.0,
+        "duration": 4.0,
+        "text": "And it's also true that you shouldn't feel shackled by societal constraints."
+      },
+      {
+        "start": 110.0,
+        "duration": 6.0,
+        "text": "But for one thing, not everyone has a pre-baked dream sitting there waiting to be followed. That's completely okay."
+      },
+      {
+        "start": 116.0,
+        "duration": 13.0,
+        "text": "And even if you are one of the lucky ones who has a passion that you want to roll into a career, I think there are a few pragmatic concerns that don't always fit very neatly into an inspirational speech that are required to make this actually work."
+      },
+      {
+        "start": 129.0,
+        "duration": 17.0,
+        "text": "Now, I know I'm talking to a very nerdy audience, so I'm tempted to describe my aims here a little bit more mathematically precisely, where in the vector space of all possible advice, if you consider the follow your dreams vector, I want to explore its orthogonal subspace."
+      },
+      {
+        "start": 146.0,
+        "duration": 4.0,
+        "text": "Maybe though, it's better if I just start with a story."
+      },
+      {
+        "start": 150.0,
+        "duration": 5.0,
+        "text": "Before I entered college, I was one of those who knew what I wanted to major in. There's no surprises here. It was math."
+      },
+      {
+        "start": 155.0,
+        "duration": 9.0,
+        "text": "This was a topic that I had loved for a long time, as long as I can remember. When I was in college, I was planning to seduced by the adjacent field of computer science and programming."
+      },
+      {
+        "start": 164.0,
+        "duration": 11.0,
+        "text": "And I would spend my summers interning at software startups. But I distinctly remember coming back at the end of each of those summers and thinking, and you know what I really want to do with my life, is spend more time doing math."
+      },
+      {
+        "start": 175.0,
+        "duration": 9.0,
+        "text": "So I had a passion. I had something I would want to follow. But in hindsight, that passion was a lot more arbitrary and maybe a little more self-centered than I would have liked to admit at the time."
+      },
+      {
+        "start": 184.0,
+        "duration": 10.0,
+        "text": "Why did I love math? If I'm honest, I think it had its roots in the fact that when I was young, the adults emphasized this is an important topic to learn, and they told me I was good at it."
+      },
+      {
+        "start": 194.0,
+        "duration": 9.0,
+        "text": "This makes me spend more time with it. Spending time with something is how you get better at something, and that kicks off a positive feedback loop, in both senses of the word positive feedback."
+      },
+      {
+        "start": 203.0,
+        "duration": 9.0,
+        "text": "Now, as time went on, I do believe it became less about perceptions, but when I was in college, I remember genuinely enjoying the aesthetic delights. The beautiful math problem solving has to have."
+      },
+      {
+        "start": 212.0,
+        "duration": 13.0,
+        "text": "But, thinking of it as a career ambition, not just a hobby, this had the fatal flaw that I was viewing the world through a lens of what I personally enjoyed, not giving enough weight to a plan for how exactly it would add value to others."
+      },
+      {
+        "start": 225.0,
+        "duration": 11.0,
+        "text": "I don't know if you felt it yet, but today marks a day in your life when a fundamental goal changes. When you're a student, the fundamental goal is to grow, to learn, to become better."
+      },
+      {
+        "start": 236.0,
+        "duration": 7.0,
+        "text": "So many institutions and structures around you are there to support you in growing and learning and getting better, and to reward you for doing so."
+      },
+      {
+        "start": 243.0,
+        "duration": 8.0,
+        "text": "In life after college, the goal changes a little, and success hinges on how effectively you're able to add value to others."
+      },
+      {
+        "start": 251.0,
+        "duration": 9.0,
+        "text": "Now, these aren't adults with each other, in fact they go hand in hand. You're much better positioned to make a difference if you're armed with an expertise, and if you spend your life honing that expertise."
+      },
+      {
+        "start": 260.0,
+        "duration": 7.0,
+        "text": "But there is a big difference between personal growth being the end in and of itself versus being a means to an end."
+      },
+      {
+        "start": 267.0,
+        "duration": 8.0,
+        "text": "By way of comparison, I also love to the violin when I was growing up, and let's take a moment to imagine two distinct music students."
+      },
+      {
+        "start": 275.0,
+        "duration": 8.0,
+        "text": "I'm going to name them Paganini and Taylor. Both of them are talented, very talented, but Paganini pushes for technical excellence."
+      },
+      {
+        "start": 283.0,
+        "duration": 9.0,
+        "text": "He tries to perfect virtuosically challenging pieces. Taylor strives to write music that speaks to people, that resonates with them emotionally."
+      },
+      {
+        "start": 292.0,
+        "duration": 10.0,
+        "text": "Now, in a music school, Paganini is going to get the better grades every time. He's always going to get the better position, but pursuing music careers, Taylor is at the clear advantage."
+      },
+      {
+        "start": 302.0,
+        "duration": 21.0,
+        "text": "My first piece of advice, something I would have told myself I could go back in time and be in the seat where you are now, is that if you have a passion that you want to incorporate into a career, take a step back and recognize the fact that this is a passion that grew in a time of your life when the goal was to learn and to grow, but you're transitioning to a period when the primary aim shifts to adding value to others."
+      },
+      {
+        "start": 323.0,
+        "duration": 8.0,
+        "text": "The cliche to follow your dreams overlooks how critical it is that the dreams you have are about something more than just yourself."
+      },
+      {
+        "start": 331.0,
+        "duration": 7.0,
+        "text": "Those who excel in their first jobs are the ones who make life easier for everyone around them, even when it involves doing things they don't love."
+      },
+      {
+        "start": 338.0,
+        "duration": 9.0,
+        "text": "Those who excel in PhD programs are the ones who recognize how their work fits into a broader research community, not just the ones who view it as the next chapter in school."
+      },
+      {
+        "start": 347.0,
+        "duration": 10.0,
+        "text": "The successful entrepreneurs are the ones who have a relentless focus on making sure that what they have to sell is what people want to buy, not just those who are looking to make something impressive."
+      },
+      {
+        "start": 357.0,
+        "duration": 8.0,
+        "text": "Now, for some people when you hear the words follow your dreams, it falls flat because you don't have a defining passion. Like I said earlier, that's completely okay."
+      },
+      {
+        "start": 365.0,
+        "duration": 11.0,
+        "text": "If anything, it might put you in a disadvantage. I think you'll do just as well if you start by seeking out opportunities where the skills that you've developed here intersect with adding values to others,"
+      },
+      {
+        "start": 376.0,
+        "duration": 10.0,
+        "text": "and from there I promise the passion will follow. One of the best pieces of advice I remember receiving from a friend many years ago is that action precedes motivation."
+      },
+      {
+        "start": 386.0,
+        "duration": 10.0,
+        "text": "This is often useful in a much smaller scale. We feel most awake after getting out of bed, not before, a drive to exercise comes from the habit of exercising, it doesn't go the other way around."
+      },
+      {
+        "start": 396.0,
+        "duration": 7.0,
+        "text": "But I think the idea that action precedes motivation applies to this bigger question of finding a career doing what you love."
+      },
+      {
+        "start": 403.0,
+        "duration": 14.0,
+        "text": "These days I do love making videos and I really do love teaching, but when I was finishing college I had no pension to experience with videos at all, and my interest in teaching was honestly only in so far as it scratched this itch to do more math."
+      },
+      {
+        "start": 417.0,
+        "duration": 6.0,
+        "text": "It was only by stumbling into a wacky career where I was doing both of them that I came to love them."
+      },
+      {
+        "start": 423.0,
+        "duration": 6.0,
+        "text": "Now in my own story what happened after college involves a fair bit of luck, but luck can come in a lot of different forms."
+      },
+      {
+        "start": 429.0,
+        "duration": 6.0,
+        "text": "And I think with a little bit of foresight you can actually avoid having to rely on chance in quite the same way."
+      },
+      {
+        "start": 435.0,
+        "duration": 7.0,
+        "text": "There's a post I like on the webcomic xkcd that shows a man standing on a stage and he has bags of cash surrounding him."
+      },
+      {
+        "start": 442.0,
+        "duration": 10.0,
+        "text": "Never stop buying lottery tickets, he says. No matter what people tell you, I failed again and again, but I never gave up, and here I am as proof that if you put in the time it pays off."
+      },
+      {
+        "start": 453.0,
+        "duration": 6.0,
+        "text": "The caption notes that every inspirational speech should come with a disclaimer about survivorship bias."
+      },
+      {
+        "start": 459.0,
+        "duration": 16.0,
+        "text": "The obvious way that follow your dreams is susceptible to survivorship bias is that for all of the high-risk, high-reward paths, things like professional athletics, starting a social media company, making a career in the arts, it's only the few who rise to the top who are in a position to give advice at all."
+      },
+      {
+        "start": 476.0,
+        "duration": 4.0,
+        "text": "But there's also a more subtle way that survivorship bias applies here."
+      },
+      {
+        "start": 480.0,
+        "duration": 10.0,
+        "text": "It's not just about the odds of winning a particular game, it has to do with whether the game you choose to play meshes well with the way that the future unfolds."
+      },
+      {
+        "start": 490.0,
+        "duration": 7.0,
+        "text": "If you were a software enthusiast in the late 1980s, you would be well poised to ride the dotcom boom in the decade that followed."
+      },
+      {
+        "start": 497.0,
+        "duration": 10.0,
+        "text": "If you were someone with a niche interest in an act for film production, you would find yourself with an unexpected opportunity when YouTube and other film-sharing platforms started to rise in prominence."
+      },
+      {
+        "start": 507.0,
+        "duration": 15.0,
+        "text": "When I was finishing my undergrad, one of these ways that I scratched that edge to do more math was to hack together a very rudimentary Python library for making math visualizations, and I used it to make a couple videos about neat proofs and problems that I enjoyed and posting them online."
+      },
+      {
+        "start": 522.0,
+        "duration": 7.0,
+        "text": "I was not planning for this to be a career. I had an appreciation for how valuable personal projects are, but it didn't go much beyond that."
+      },
+      {
+        "start": 529.0,
+        "duration": 7.0,
+        "text": "This led to conversations with Khan Academy, a group I had great respect for, and it turned into a job there, making more lessons online."
+      },
+      {
+        "start": 536.0,
+        "duration": 13.0,
+        "text": "In the meantime, I continued my own channel as a side-hoppy, and it didn't blow up, but there was a very modest growth of others who enjoyed the same kind of visualizations that I did, and I saw it in just a steady take-up in the audience size."
+      },
+      {
+        "start": 550.0,
+        "duration": 8.0,
+        "text": "Now, my original plan, I think, was to spend a year or two doing this online education stuff working at Khan Academy and maybe returning to do a PhD."
+      },
+      {
+        "start": 558.0,
+        "duration": 14.0,
+        "text": "But as time went on, something between the gratitude that I saw for many students around the planet for the lessons I put out, and this low- and steady growth on my own channel led me to doubling down and forming an unorthodox career in online lessons and math visualizations."
+      },
+      {
+        "start": 572.0,
+        "duration": 10.0,
+        "text": "Now, looking back, it would feel very incomplete if I were to somehow ascribe the success that I found to the extent there was any, to the fact that I was following a dream, pursuing a passion."
+      },
+      {
+        "start": 582.0,
+        "duration": 6.0,
+        "text": "Passion plays into it, you can't have good lessons without a teacher who cares, but we can't ignore the other factors at play."
+      },
+      {
+        "start": 588.0,
+        "duration": 11.0,
+        "text": "I already brought up the biggest one, success as a function of the value you bring to others, so I pursued equally fueled by love, but which did nothing to help or to entertain people just wouldn't have had a chance to work."
+      },
+      {
+        "start": 600.0,
+        "duration": 16.0,
+        "text": "But another factor I want to focus on is how I was very lucky with the timing. If I had been born 10 years earlier, I don't think I could have reached the same number of people posting lessons on a much more infant version of the internet, where there was less infrastructure that could have existed to help form a career doing so."
+      },
+      {
+        "start": 616.0,
+        "duration": 4.0,
+        "text": "If I had started 10 years later, the space would have been a lot more saturated."
+      },
+      {
+        "start": 621.0,
+        "duration": 13.0,
+        "text": "So another piece of advice that I'd like to offer, another little ingredient that makes following your dreams a little more likely to work out, is to ask yourself, what's possible now that wasn't possible 10 years ago, and which might get harder 10 years from now?"
+      },
+      {
+        "start": 634.0,
+        "duration": 6.0,
+        "text": "There are more opportunities and a less crowded landscape, there are more chances to grow if you're part of a rising tide."
+      },
+      {
+        "start": 640.0,
+        "duration": 7.0,
+        "text": "But this requires pushing past the inevitable discomfort that comes from following a path that has little to no precedent."
+      },
+      {
+        "start": 648.0,
+        "duration": 6.0,
+        "text": "Now next, I want to take a moment to talk about whose dreams you should be thinking about, because it's not just your own."
+      },
+      {
+        "start": 654.0,
+        "duration": 10.0,
+        "text": "When I was visiting Harvey Mudd last year, I had the pleasure of talking to one of the gems in your math department, to Lithia Williams, and I asked her, hey, what made you pursue math in the first place?"
+      },
+      {
+        "start": 664.0,
+        "duration": 11.0,
+        "text": "She had a very clear story, she told me she hadn't thought about it very much, until one distinct day in her high school calculus class, her teacher, Mr. Dorman, pulled her aside and said, to Lithia, you're really good at this."
+      },
+      {
+        "start": 675.0,
+        "duration": 11.0,
+        "text": "You should consider majoring in math. Evidently, she had never thought about it before, but that one comment was enough to knock over the first in a series of dominoes that led to a very flourishing career in the topic."
+      },
+      {
+        "start": 686.0,
+        "duration": 6.0,
+        "text": "Over the years, I've asked a lot of mathematicians the same question, and you would be shocked how often I hear a very similar answer."
+      },
+      {
+        "start": 692.0,
+        "duration": 8.0,
+        "text": "There was this one particular teacher, and one seemingly simple thing that they did, that was the beginning and the long series of encouragement."
+      },
+      {
+        "start": 700.0,
+        "duration": 7.0,
+        "text": "Never underestimate just how much influence you can have on others, especially the ones who are younger than you are."
+      },
+      {
+        "start": 707.0,
+        "duration": 11.0,
+        "text": "Growing older is a process of slowly seeing the proportion of people around you who are younger than you are, rise inexorably closer to 100%."
+      },
+      {
+        "start": 718.0,
+        "duration": 8.0,
+        "text": "As this happens, you stand to have as much influence by shaping the dreams of those behind you as you do by following those of your own."
+      },
+      {
+        "start": 726.0,
+        "duration": 9.0,
+        "text": "And as a very last point, the biggest risk in the follow your dreams, cliche, is the implication that there's one static target point at all."
+      },
+      {
+        "start": 735.0,
+        "duration": 9.0,
+        "text": "In the next 10, 20, 30 years, the world around you is going to change a lot, and those changes are going to be unpredictable."
+      },
+      {
+        "start": 744.0,
+        "duration": 8.0,
+        "text": "I hardly need to emphasize this point. You are the class who spent your formative transition from high school to college under a pandemic."
+      },
+      {
+        "start": 752.0,
+        "duration": 7.0,
+        "text": "But it's not just the world around you. Tonight, when you're celebrating your graduation, and hopefully remembering to celebrate Mother's Day as well,"
+      },
+      {
+        "start": 759.0,
+        "duration": 9.0,
+        "text": "take a few moments to ask the people who are older than you how they've changed, how their personalities, how their value systems have changed since they were a student."
+      },
+      {
+        "start": 768.0,
+        "duration": 11.0,
+        "text": "You'll notice that essentially all of them has an answer, which suggests you have every reason to expect that there's going to be something fundamental about you that changes as well in the coming decades, probably unpredictably."
+      },
+      {
+        "start": 779.0,
+        "duration": 9.0,
+        "text": "Almost everyone I know has undergone some kind of shift since college. Some came to place more value on having a family than they used to."
+      },
+      {
+        "start": 788.0,
+        "duration": 9.0,
+        "text": "Some shifted from a trajectory that was oriented towards an academic career to going into industry. So I went the other way around, and after spending some time in industry returned to grad school."
+      },
+      {
+        "start": 797.0,
+        "duration": 6.0,
+        "text": "And so, so many of them have jobs that simply didn't exist at the time of their graduation."
+      },
+      {
+        "start": 804.0,
+        "duration": 15.0,
+        "text": "So rather than having any one particular goal that defines who you are, you'll take better advantage of whatever the future has to offer you if you remain nimble, and if you're responsive to the changes in the world, and if you anticipate change within yourself."
+      },
+      {
+        "start": 819.0,
+        "duration": 7.0,
+        "text": "My final piece of advice is to not treat passion as something to follow. Think of it as an initial velocity vector."
+      },
+      {
+        "start": 826.0,
+        "duration": 13.0,
+        "text": "It gives a clear direction to point yourself, and loving what you do can have you move quickly. But you should expect, and you should even hope that the specific direction that you're moving changes based on the four spectres around you."
+      },
+      {
+        "start": 839.0,
+        "duration": 14.0,
+        "text": "Now in these unpredictable decades to come, your generation is the one that holds more sway than any other over how it unfolds. And you, the graduating class of Harvey Mudd, represent some of the most talented and thoughtful minds in that generation."
+      },
+      {
+        "start": 853.0,
+        "duration": 10.0,
+        "text": "Violence is not distributed uniformly in the population, and I for one would feel a lot more comfortable if it was you who were at the helm guiding this crazy ship that we're all writing."
+      },
+      {
+        "start": 863.0,
+        "duration": 8.0,
+        "text": "If you step into the next chapter of life with an implacable focus on adding values to others, you're more likely to be the ones at the helm."
+      },
+      {
+        "start": 871.0,
+        "duration": 5.0,
+        "text": "If you recognize that action precedes motivation, you're more likely to be at the helm."
+      },
+      {
+        "start": 876.0,
+        "duration": 13.0,
+        "text": "If you ask what's possible now that wasn't 10 years ago, you're more likely to be at the helm. If you appreciate just how much power you have to shape the lives of the generation that follows you, you're more likely to be at the helm."
+      },
+      {
+        "start": 889.0,
+        "duration": 11.0,
+        "text": "And if you remain adaptable to a changing world, treating passion not as a destination, but as a fuel, following not dreams, but opportunities, you're more likely to be at the helm."
+      },
+      {
+        "start": 900.0,
+        "duration": 9.0,
+        "text": "In the final time, would everyone please join me in congratulating the class of 2024 on what they've done to get here and make some noise to let them know how excited we are to see where they go from here?"
+      },
+      {
+        "start": 909.0,
+        "duration": 3.0,
+        "text": "Thank you."
+      }
+    ],
+    "full_text": "Last year Grant gave the math department's Michael E. Moody lecture on where math and physics collide. He explored unexpected connections between kinematics, optics, and quantum computing. Our students loved his talk in the senior class voted overwhelmingly to ask him back as commencement speaker. Grant has said that he seeks to educate and inspire the world with beauty and the power of mathematics. He certainly has inspired many of us here at Harvey Mudd. Please join me in welcoming Grant Sanderson. Thank you President Nimpert for that very warm introduction and for inviting me. And thank you to the class of 2024 for including me in such a special day. I had the joy of getting to know many of you last year on this visit and I distinctly remember coming away with the feeling that a future in your hands is a bright future indeed. For those in the audience who don't know who I am, I focus on making videos about mathematics with an emphasis on visualizations. It's a weird job. I do love it though and it's no exaggeration to describe it as a dream job. A common cliche is for someone who is lucky enough to land in a dream job, to stand confidently in front of a group of fledgling graduates, and to compel them to follow their dreams. Frankly, on its own, I don't think this is very good advice. To be clear, there is truth behind the cliche. It is true that those who make the biggest ripples are the ones who are fueled by passion. It is true that the life that you live is much more enjoyable if you can find something doing what you love. And it's also true that you shouldn't feel shackled by societal constraints. But for one thing, not everyone has a pre-baked dream sitting there waiting to be followed. That's completely okay. And even if you are one of the lucky ones who has a passion that you want to roll into a career, I think there are a few pragmatic concerns that don't always fit very neatly into an inspirational speech that are required to make this actually work. Now, I know I'm talking to a very nerdy audience, so I'm tempted to describe my aims here a little bit more mathematically precisely, where in the vector space of all possible advice, if you consider the follow your dreams vector, I want to explore its orthogonal subspace. Maybe though, it's better if I just start with a story. Before I entered college, I was one of those who knew what I wanted to major in. There's no surprises here. It was math. This was a topic that I had loved for a long time, as long as I can remember. When I was in college, I was planning to seduced by the adjacent field of computer science and programming. And I would spend my summers interning at software startups. But I distinctly remember coming back at the end of each of those summers and thinking, and you know what I really want to do with my life, is spend more time doing math. So I had a passion. I had something I would want to follow. But in hindsight, that passion was a lot more arbitrary and maybe a little more self-centered than I would have liked to admit at the time. Why did I love math? If I'm honest, I think it had its roots in the fact that when I was young, the adults emphasized this is an important topic to learn, and they told me I was good at it. This makes me spend more time with it. Spending time with something is how you get better at something, and that kicks off a positive feedback loop, in both senses of the word positive feedback. Now, as time went on, I do believe it became less about perceptions, but when I was in college, I remember genuinely enjoying the aesthetic delights. The beautiful math problem solving has to have. But, thinking of it as a career ambition, not just a hobby, this had the fatal flaw that I was viewing the world through a lens of what I personally enjoyed, not giving enough weight to a plan for how exactly it would add value to others. I don't know if you felt it yet, but today marks a day in your life when a fundamental goal changes. When you're a student, the fundamental goal is to grow, to learn, to become better. So many institutions and structures around you are there to support you in growing and learning and getting better, and to reward you for doing so. In life after college, the goal changes a little, and success hinges on how effectively you're able to add value to others. Now, these aren't adults with each other, in fact they go hand in hand. You're much better positioned to make a difference if you're armed with an expertise, and if you spend your life honing that expertise. But there is a big difference between personal growth being the end in and of itself versus being a means to an end. By way of comparison, I also love to the violin when I was growing up, and let's take a moment to imagine two distinct music students. I'm going to name them Paganini and Taylor. Both of them are talented, very talented, but Paganini pushes for technical excellence. He tries to perfect virtuosically challenging pieces. Taylor strives to write music that speaks to people, that resonates with them emotionally. Now, in a music school, Paganini is going to get the better grades every time. He's always going to get the better position, but pursuing music careers, Taylor is at the clear advantage. My first piece of advice, something I would have told myself I could go back in time and be in the seat where you are now, is that if you have a passion that you want to incorporate into a career, take a step back and recognize the fact that this is a passion that grew in a time of your life when the goal was to learn and to grow, but you're transitioning to a period when the primary aim shifts to adding value to others. The cliche to follow your dreams overlooks how critical it is that the dreams you have are about something more than just yourself. Those who excel in their first jobs are the ones who make life easier for everyone around them, even when it involves doing things they don't love. Those who excel in PhD programs are the ones who recognize how their work fits into a broader research community, not just the ones who view it as the next chapter in school. The successful entrepreneurs are the ones who have a relentless focus on making sure that what they have to sell is what people want to buy, not just those who are looking to make something impressive. Now, for some people when you hear the words follow your dreams, it falls flat because you don't have a defining passion. Like I said earlier, that's completely okay. If anything, it might put you in a disadvantage. I think you'll do just as well if you start by seeking out opportunities where the skills that you've developed here intersect with adding values to others, and from there I promise the passion will follow. One of the best pieces of advice I remember receiving from a friend many years ago is that action precedes motivation. This is often useful in a much smaller scale. We feel most awake after getting out of bed, not before, a drive to exercise comes from the habit of exercising, it doesn't go the other way around. But I think the idea that action precedes motivation applies to this bigger question of finding a career doing what you love. These days I do love making videos and I really do love teaching, but when I was finishing college I had no pension to experience with videos at all, and my interest in teaching was honestly only in so far as it scratched this itch to do more math. It was only by stumbling into a wacky career where I was doing both of them that I came to love them. Now in my own story what happened after college involves a fair bit of luck, but luck can come in a lot of different forms. And I think with a little bit of foresight you can actually avoid having to rely on chance in quite the same way. There's a post I like on the webcomic xkcd that shows a man standing on a stage and he has bags of cash surrounding him. Never stop buying lottery tickets, he says. No matter what people tell you, I failed again and again, but I never gave up, and here I am as proof that if you put in the time it pays off. The caption notes that every inspirational speech should come with a disclaimer about survivorship bias. The obvious way that follow your dreams is susceptible to survivorship bias is that for all of the high-risk, high-reward paths, things like professional athletics, starting a social media company, making a career in the arts, it's only the few who rise to the top who are in a position to give advice at all. But there's also a more subtle way that survivorship bias applies here. It's not just about the odds of winning a particular game, it has to do with whether the game you choose to play meshes well with the way that the future unfolds. If you were a software enthusiast in the late 1980s, you would be well poised to ride the dotcom boom in the decade that followed. If you were someone with a niche interest in an act for film production, you would find yourself with an unexpected opportunity when YouTube and other film-sharing platforms started to rise in prominence. When I was finishing my undergrad, one of these ways that I scratched that edge to do more math was to hack together a very rudimentary Python library for making math visualizations, and I used it to make a couple videos about neat proofs and problems that I enjoyed and posting them online. I was not planning for this to be a career. I had an appreciation for how valuable personal projects are, but it didn't go much beyond that. This led to conversations with Khan Academy, a group I had great respect for, and it turned into a job there, making more lessons online. In the meantime, I continued my own channel as a side-hoppy, and it didn't blow up, but there was a very modest growth of others who enjoyed the same kind of visualizations that I did, and I saw it in just a steady take-up in the audience size. Now, my original plan, I think, was to spend a year or two doing this online education stuff working at Khan Academy and maybe returning to do a PhD. But as time went on, something between the gratitude that I saw for many students around the planet for the lessons I put out, and this low- and steady growth on my own channel led me to doubling down and forming an unorthodox career in online lessons and math visualizations. Now, looking back, it would feel very incomplete if I were to somehow ascribe the success that I found to the extent there was any, to the fact that I was following a dream, pursuing a passion. Passion plays into it, you can't have good lessons without a teacher who cares, but we can't ignore the other factors at play. I already brought up the biggest one, success as a function of the value you bring to others, so I pursued equally fueled by love, but which did nothing to help or to entertain people just wouldn't have had a chance to work. But another factor I want to focus on is how I was very lucky with the timing. If I had been born 10 years earlier, I don't think I could have reached the same number of people posting lessons on a much more infant version of the internet, where there was less infrastructure that could have existed to help form a career doing so. If I had started 10 years later, the space would have been a lot more saturated. So another piece of advice that I'd like to offer, another little ingredient that makes following your dreams a little more likely to work out, is to ask yourself, what's possible now that wasn't possible 10 years ago, and which might get harder 10 years from now? There are more opportunities and a less crowded landscape, there are more chances to grow if you're part of a rising tide. But this requires pushing past the inevitable discomfort that comes from following a path that has little to no precedent. Now next, I want to take a moment to talk about whose dreams you should be thinking about, because it's not just your own. When I was visiting Harvey Mudd last year, I had the pleasure of talking to one of the gems in your math department, to Lithia Williams, and I asked her, hey, what made you pursue math in the first place? She had a very clear story, she told me she hadn't thought about it very much, until one distinct day in her high school calculus class, her teacher, Mr. Dorman, pulled her aside and said, to Lithia, you're really good at this. You should consider majoring in math. Evidently, she had never thought about it before, but that one comment was enough to knock over the first in a series of dominoes that led to a very flourishing career in the topic. Over the years, I've asked a lot of mathematicians the same question, and you would be shocked how often I hear a very similar answer. There was this one particular teacher, and one seemingly simple thing that they did, that was the beginning and the long series of encouragement. Never underestimate just how much influence you can have on others, especially the ones who are younger than you are. Growing older is a process of slowly seeing the proportion of people around you who are younger than you are, rise inexorably closer to 100%. As this happens, you stand to have as much influence by shaping the dreams of those behind you as you do by following those of your own. And as a very last point, the biggest risk in the follow your dreams, cliche, is the implication that there's one static target point at all. In the next 10, 20, 30 years, the world around you is going to change a lot, and those changes are going to be unpredictable. I hardly need to emphasize this point. You are the class who spent your formative transition from high school to college under a pandemic. But it's not just the world around you. Tonight, when you're celebrating your graduation, and hopefully remembering to celebrate Mother's Day as well, take a few moments to ask the people who are older than you how they've changed, how their personalities, how their value systems have changed since they were a student. You'll notice that essentially all of them has an answer, which suggests you have every reason to expect that there's going to be something fundamental about you that changes as well in the coming decades, probably unpredictably. Almost everyone I know has undergone some kind of shift since college. Some came to place more value on having a family than they used to. Some shifted from a trajectory that was oriented towards an academic career to going into industry. So I went the other way around, and after spending some time in industry returned to grad school. And so, so many of them have jobs that simply didn't exist at the time of their graduation. So rather than having any one particular goal that defines who you are, you'll take better advantage of whatever the future has to offer you if you remain nimble, and if you're responsive to the changes in the world, and if you anticipate change within yourself. My final piece of advice is to not treat passion as something to follow. Think of it as an initial velocity vector. It gives a clear direction to point yourself, and loving what you do can have you move quickly. But you should expect, and you should even hope that the specific direction that you're moving changes based on the four spectres around you. Now in these unpredictable decades to come, your generation is the one that holds more sway than any other over how it unfolds. And you, the graduating class of Harvey Mudd, represent some of the most talented and thoughtful minds in that generation. Violence is not distributed uniformly in the population, and I for one would feel a lot more comfortable if it was you who were at the helm guiding this crazy ship that we're all writing. If you step into the next chapter of life with an implacable focus on adding values to others, you're more likely to be the ones at the helm. If you recognize that action precedes motivation, you're more likely to be at the helm. If you ask what's possible now that wasn't 10 years ago, you're more likely to be at the helm. If you appreciate just how much power you have to shape the lives of the generation that follows you, you're more likely to be at the helm. And if you remain adaptable to a changing world, treating passion not as a destination, but as a fuel, following not dreams, but opportunities, you're more likely to be at the helm. In the final time, would everyone please join me in congratulating the class of 2024 on what they've done to get here and make some noise to let them know how excited we are to see where they go from here? Thank you."
+  }
+}
