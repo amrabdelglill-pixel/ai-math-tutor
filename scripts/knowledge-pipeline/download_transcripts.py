@@ -60,6 +60,7 @@ def get_channel_videos(channel_id, max_results=20):
         "--flat-playlist",
         "--no-download",
         "--playlist-items", f"1:{max_results}",
+        "--remote-components", "ejs:github",
     ]
     # Use cookies if available
     if os.path.exists(COOKIES_FILE):
@@ -129,6 +130,7 @@ def _lane_a_ytdlp_subs(video_id):
         "--sub-lang", langs,
         "--sub-format", "json3",
         "--convert-subs", "json3",
+        "--remote-components", "ejs:github",
         "-o", os.path.join(sub_dir, "%(id)s.%(ext)s"),
     ]
     if os.path.exists(COOKIES_FILE):
@@ -308,6 +310,7 @@ def _lane_c_whisper(video_id):
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "5",  # lower quality = smaller file
+        "--remote-components", "ejs:github",
         "-o", audio_path,
         "--no-playlist",
     ]
