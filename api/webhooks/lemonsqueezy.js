@@ -288,14 +288,19 @@ export default async function handler(req, res) {
           .eq('stripe_subscription_id', subId)
           .single();
 
-        if (sub && sub.status === 'active') {
-          // Update period end
+        if (sub) {
+          // Update period end and ensure status is active
           const newPeriodEnd = attrs.renews_at
             ? new Date(attrs.renews_at).toISOString()
             : new Date(Date.now() + (sub.billing_cycle === 'annual' ? 365 : 30) * 24 * 60 * 60 * 1000).toISOString();
 
           await supabase.from('subscriptions')
-            .update({ current_period_end: newPeriodEnd, updated_at: new Date().toISOString() })
+            .update({
+              status: 'active',
+              current_period_start: new Date().toISOString(),
+              current_period_end: newPeriodEnd,
+              updated_at: new Date().toISOString()
+            })
             .eq('stripe_subscription_id', subId);
 
           // Grant renewal credits
@@ -308,7 +313,73 @@ export default async function handler(req, res) {
             description: `${sub.plan_name} renewal (${sub.credits_per_month} credits)`,
             stripe_payment_id: `ls_payment_${event.data.id}`,
           });
+          console.log(`Renewal: granted ${sub.credits_per_month} credits, period extended to ${newPeriodEnd}`);
         }
+        break;
+      }
+
+      // ---- Subscription payment failed ----
+      case 'subscription_payment_failed': {
+        const subId = `ls_sub_${attrs.subscription_id}`;
+        const { data: sub } = await supabase
+          .from('subscriptions')
+          .select('*')
+          .eq('stripe_subscription_id', subId)
+          .single();
+
+        if (sub) {
+          await supabase.from('subscriptions')
+            .update({ status: 'past_due', updated_at: new Date().toISOString() })
+            .eq('stripe_subscription_id', subId);
+
+          // Notify parent
+          await supabase.from('notifications').insert({
+            parent_id: sub.parent_id,
+            type: 'payment_failed',
+            title: 'Payment failed',
+            message: `Your ${sub.plan_name} subscription payment failed. Please update your payment method to avoid losing access.`,
+          }).catch(() => {});
+
+          console.log(`Payment failed for subscription ${subId}, status set to past_due`);
+        }
+        break;
+      }
+
+      // ---- Subscription expired (end of billing period after cancellation) ----
+      case 'subscription_expired': {
+        const subId = `ls_sub_${event.data.id}`;
+        const { data: sub } = await supabase
+          .from('subscriptions')
+          .select('*')
+          .eq('stripe_subscription_id', subId)
+          .single();
+
+        if (sub) {
+          await supabase.from('subscriptions')
+            .update({ status: 'expired', updated_at: new Date().toISOString() })
+            .eq('stripe_subscription_id', subId);
+
+          console.log(`Subscription ${subId} expired for user ${sub.parent_id}`);
+        }
+        break;
+      }
+
+      // ---- Subscription resumed (reactivated after pause/cancel) ----
+      case 'subscription_resumed': {
+        const subId = `ls_sub_${event.data.id}`;
+        const periodEnd = attrs.renews_at ? new Date(attrs.renews_at).toISOString() : null;
+
+        const updateData = {
+          status: 'active',
+          updated_at: new Date().toISOString(),
+        };
+        if (periodEnd) updateData.current_period_end = periodEnd;
+
+        await supabase.from('subscriptions')
+          .update(updateData)
+          .eq('stripe_subscription_id', subId);
+
+        console.log(`Subscription ${subId} resumed`);
         break;
       }
 
