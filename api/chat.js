@@ -219,7 +219,7 @@ export default async function handler(req, res) {
       userContent = message;
     }
 
-    const systemPrompt = getSystemPrompt(grade, language, country) + ragContext;
+    const systemPrompt = getSystemPrompt(grade, language, country, subject) + ragContext;
 
     const messages = [
       { role: 'system', content: systemPrompt },

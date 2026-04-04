@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Zeluu">
 
-  <title>Zeluu - AI Math Tutor</title>
+  <title>Zeluu - AI Tutor</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -613,6 +613,43 @@
       background: var(--color-text-muted);
     }
 
+    /* Subject Tabs */
+    .subject-tabs {
+      display: flex;
+      gap: 4px;
+      padding: 8px 0 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .subject-tab {
+      padding: 8px 20px;
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text-muted);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .subject-tab:hover {
+      color: var(--color-text-dark);
+    }
+
+    .subject-tab.active {
+      color: var(--color-accent-dark);
+      border-bottom-color: var(--color-accent);
+    }
+
+    .subject-tab .tab-icon {
+      font-size: 16px;
+    }
+
     /* Print Styles */
     @media print {
       .nav,
@@ -654,6 +691,21 @@
     </div>
   </nav>
 
+  <!-- Subject Tabs -->
+  <div class="container">
+    <div class="subject-tabs" id="subject-tabs">
+      <button class="subject-tab active" data-subject="math" onclick="switchSubject('math')">
+        <span class="tab-icon">📐</span> Math
+      </button>
+      <button class="subject-tab" data-subject="science" onclick="switchSubject('science')">
+        <span class="tab-icon">🔬</span> Science
+      </button>
+      <button class="subject-tab" data-subject="english" onclick="switchSubject('english')">
+        <span class="tab-icon">📝</span> English
+      </button>
+    </div>
+  </div>
+
   <!-- Learning Info Bar -->
   <div class="container" style="padding-top:10px;">
     <div class="learning-info-bar">
@@ -675,7 +727,7 @@
       <div id="limit-blocked">You have reached your usage limit. Please ask your parent to adjust your limits.</div>
       <div class="chat-messages" id="chat-messages">
         <div class="chat-bubble assistant">
-          Hi! I'm Zeluu, your math tutor. What are we working on today? Type your question or paste a math problem!
+          Hi! I'm Zeluu, your learning companion. Pick a subject above and ask me anything — let's learn together!
         </div>
       </div>
       <div id="image-preview" style="display:none; padding:8px 12px; background:var(--color-accent-light); border-radius:8px; margin:0 12px 8px; align-items:center; gap:8px; border: 1px solid var(--color-border);">
@@ -686,7 +738,7 @@
       <div class="chat-input-area">
         <input type="file" id="file-input" accept="image/*,.pdf" style="display:none;" onchange="handleFileSelect(event)" />
         <button class="btn btn-secondary" onclick="document.getElementById('file-input').click()" style="padding:8px 10px; font-size:16px;" title="Attach image or file">📎</button>
-        <textarea id="chat-input" placeholder="Type your math question..." rows="1"
+        <textarea id="chat-input" placeholder="Type your question..." rows="1"
           onkeydown="if(event.key==='Enter' && !event.shiftKey){event.preventDefault();sendMessage();}"></textarea>
         <button class="btn btn-primary" onclick="sendMessage()" id="send-btn">Send</button>
       </div>
@@ -709,6 +761,25 @@
     let childToken = null;
     let currentLang = 'en';
     let attachedFile = null;
+    let currentSubject = 'math';
+
+    function switchSubject(subject) {
+      currentSubject = subject;
+      // Update tab styles
+      document.querySelectorAll('.subject-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.subject === subject);
+      });
+      // Update placeholder
+      const subjectLabels = { math: { en: 'Type your math question...', ar: 'اكتب سؤالك في الرياضيات...' }, science: { en: 'Ask a science question...', ar: 'اكتب سؤالك في العلوم...' }, english: { en: 'Ask an English question...', ar: 'اكتب سؤالك في الانجليزي...' } };
+      document.getElementById('chat-input').placeholder = (subjectLabels[subject] || subjectLabels.math)[currentLang === 'ar' ? 'ar' : 'en'];
+      // Start new session for new subject
+      currentSession = null;
+      const msgs = document.getElementById('chat-messages');
+      const subjectNames = { math: 'Math', science: 'Science', english: 'English' };
+      const icons = { math: '📐', science: '🔬', english: '📝' };
+      const name = currentChild ? currentChild.name : '';
+      msgs.innerHTML = `<div class="chat-bubble assistant">${icons[subject]} Hi${name ? ' ' + name : ''}! Let's work on <strong>${subjectNames[subject]}</strong> together. What would you like to learn?</div>`;
+    }
 
     // Decode JWT payload (base64 only, no signature verification on client)
     function decodeToken(token) {
@@ -795,7 +866,7 @@
                 addBubble(m.role === 'user' ? m.content : m.content, m.role === 'user' ? 'user' : 'assistant');
               });
             } else {
-              msgs.innerHTML = `<div class="chat-bubble assistant">Hi ${currentChild.name}! I'm Zeluu, your math tutor. What are we working on today? Type your question or paste a math problem!</div>`;
+              msgs.innerHTML = `<div class="chat-bubble assistant">Hi ${currentChild.name}! I'm Zeluu, your learning companion. Pick a subject above and ask me anything!</div>`;
             }
             return;
           }
@@ -810,7 +881,7 @@
     async function createAndStartSession() {
       const data = await apiCall('/api/sessions/create', {
         method: 'POST',
-        body: JSON.stringify({ child_id: currentChild.id, topic: 'Math practice' })
+        body: JSON.stringify({ child_id: currentChild.id, topic: currentSubject + ' practice', subject: currentSubject })
       });
 
       if (data && data.session) {
@@ -818,7 +889,7 @@
         // Clear initial bubble and show welcome message
         document.getElementById('chat-messages').innerHTML = `
           <div class="chat-bubble assistant">
-            Hi ${currentChild.name}! I'm Zeluu, your math tutor. What are we working on today? Type your question or paste a math problem!
+            Hi ${currentChild.name}! I'm Zeluu, your learning companion. Pick a subject above and ask me anything!
           </div>
         `;
       }
@@ -849,7 +920,8 @@
         message: message || (attachedFile ? 'I uploaded a file: ' + attachedFile.name : ''),
         session_id: currentSession.id,
         child_id: currentChild.id,
-        language: currentLang
+        language: currentLang,
+        subject: currentSubject
       };
 
       // If file attached, convert to base64
@@ -939,7 +1011,8 @@
       const btn = document.getElementById('lang-toggle');
       btn.textContent = currentLang === 'en' ? '🌐 EN' : '🌐 AR';
       document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
-      document.getElementById('chat-input').placeholder = currentLang === 'ar' ? 'اكتب سؤالك في الرياضيات...' : 'Type your math question...';
+      const subjectLabels = { math: { en: 'Type your math question...', ar: 'اكتب سؤالك في الرياضيات...' }, science: { en: 'Ask a science question...', ar: 'اكتب سؤالك في العلوم...' }, english: { en: 'Ask an English question...', ar: 'اكتب سؤالك في الانجليزي...' } };
+      document.getElementById('chat-input').placeholder = (subjectLabels[currentSubject] || subjectLabels.math)[currentLang === 'ar' ? 'ar' : 'en'];
     }
 
     function handleFileSelect(event) {

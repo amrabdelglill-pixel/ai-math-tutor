@@ -1,7 +1,7 @@
 {
   "name": "Zeluu - AI Learning for Kids",
   "short_name": "Zeluu",
-  "description": "AI math tutor that teaches your child step by step. No shortcuts, no final answers — just real understanding.",
+  "description": "AI tutor for Math, Science & English that teaches your child step by step. No shortcuts, no final answers — just real understanding.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F9FAFB",

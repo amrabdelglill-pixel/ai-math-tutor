@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
   const parentId = getParentId(authContext);
   const supabase = createServerClient();
-  const { child_id, topic } = req.body;
+  const { child_id, topic, subject } = req.body;
 
   if (!child_id) return res.status(400).json({ error: 'child_id is required' });
 
@@ -33,7 +33,8 @@ export default async function handler(req, res) {
       parent_id: parentId,
       child_id,
       grade: child.grade,
-      topic: topic || 'Math practice'
+      topic: topic || (subject ? subject.charAt(0).toUpperCase() + subject.slice(1) + ' practice' : 'Math practice'),
+      subject: subject || 'math'
     })
     .select()
     .single();
