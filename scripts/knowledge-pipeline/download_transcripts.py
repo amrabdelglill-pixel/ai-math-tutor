@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Zeluu Knowledge Pipeline — Step 2: Download Transcripts
-========================================================
+Zeluu Knowledge Pipeline — Step 2: Download Transcripts (Multi-Lane)
+=====================================================================
 For each discovered channel, fetches videos using yt-dlp (no API key)
-and downloads their transcripts using youtube-transcript-api.
+and downloads their transcripts using a 3-lane fallback strategy:
+
+  Lane A: yt-dlp subtitle extraction (with cookies if available)
+  Lane B: youtube-transcript-api (with proxy if configured)
+  Lane C: Whisper local transcription (download audio → transcribe)
 
 MUST RUN LOCALLY — YouTube blocks subtitle access from cloud IPs.
 Steps 3-5 (process, upload, embed) run on GitHub Actions.
@@ -19,6 +23,7 @@ import json
 import sys
 import time
 import subprocess
+import random
 from config import (
     MAX_VIDEOS_PER_CHANNEL,
     MIN_VIDEO_DURATION_SECS,
@@ -31,23 +36,39 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(SCRIPT_DIR, "channels.json")
 TRANSCRIPTS_DIR = os.path.join(SCRIPT_DIR, "transcripts")
 PROGRESS_FILE = os.path.join(SCRIPT_DIR, "download_progress.json")
+COOKIES_FILE = os.path.join(SCRIPT_DIR, "cookies.txt")
+AUDIO_TMP_DIR = os.path.join(SCRIPT_DIR, ".audio_tmp")
 
+# Delays between requests (seconds)
+DELAY_BETWEEN_REQUESTS = 5  # 5s base delay
+DELAY_JITTER = 3            # +0-3s random jitter
+BATCH_PAUSE_EVERY = 15      # Extra pause every N videos
+BATCH_PAUSE_SECS = 30       # Extra pause duration
+
+
+# ---------------------------------------------------------------------------
+#  Video discovery (yt-dlp)
+# ---------------------------------------------------------------------------
 
 def get_channel_videos(channel_id, max_results=20):
     """Get videos from a channel using yt-dlp (no API key needed)."""
     url = f"https://www.youtube.com/channel/{channel_id}/videos"
     videos = []
+    cmd = [
+        "yt-dlp",
+        "--dump-json",
+        "--flat-playlist",
+        "--no-download",
+        "--playlist-items", f"1:{max_results}",
+    ]
+    # Use cookies if available
+    if os.path.exists(COOKIES_FILE):
+        cmd.extend(["--cookies", COOKIES_FILE])
+    cmd.append(url)
+
     try:
         result = subprocess.run(
-            [
-                "yt-dlp",
-                "--dump-json",
-                "--flat-playlist",
-                "--no-download",
-                "--playlist-items", f"1:{max_results}",
-                url,
-            ],
-            capture_output=True, text=True, timeout=120,
+            cmd, capture_output=True, text=True, timeout=120,
         )
         if result.returncode != 0:
             print(f"  WARNING: yt-dlp failed for channel {channel_id}: {result.stderr[:200]}")
@@ -84,19 +105,118 @@ def get_channel_videos(channel_id, max_results=20):
     return videos[:max_results]
 
 
-def download_transcript(video_id, _debug_count=[0]):
-    """Download transcript using youtube-transcript-api.
+# ---------------------------------------------------------------------------
+#  Lane A: yt-dlp subtitle extraction
+# ---------------------------------------------------------------------------
 
-    This runs LOCALLY on a residential IP where YouTube does not block
-    subtitle requests.  The youtube-transcript-api library is the most
-    reliable way to fetch transcripts.
-    """
+def _lane_a_ytdlp_subs(video_id):
+    """Extract subtitles via yt-dlp --write-sub / --write-auto-sub."""
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    sub_dir = os.path.join(SCRIPT_DIR, ".sub_tmp")
+    os.makedirs(sub_dir, exist_ok=True)
+
+    # Clean up any previous files for this video
+    for f in os.listdir(sub_dir):
+        if f.startswith(video_id):
+            os.remove(os.path.join(sub_dir, f))
+
+    langs = ",".join(TRANSCRIPT_LANGUAGES)
+    cmd = [
+        "yt-dlp",
+        "--skip-download",
+        "--write-sub",
+        "--write-auto-sub",
+        "--sub-lang", langs,
+        "--sub-format", "json3",
+        "--convert-subs", "json3",
+        "-o", os.path.join(sub_dir, "%(id)s.%(ext)s"),
+    ]
+    if os.path.exists(COOKIES_FILE):
+        cmd.extend(["--cookies", COOKIES_FILE])
+    cmd.append(url)
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+    except subprocess.TimeoutExpired:
+        return None, None
+    except Exception:
+        return None, None
+
+    # Look for the downloaded subtitle file
+    for lang in TRANSCRIPT_LANGUAGES:
+        for suffix in [f".{lang}.json3", f".{lang}.json"]:
+            sub_path = os.path.join(sub_dir, f"{video_id}{suffix}")
+            if os.path.exists(sub_path):
+                return _parse_json3_file(sub_path, lang)
+
+    # Check for any subtitle file that was downloaded
+    for f in sorted(os.listdir(sub_dir)):
+        if f.startswith(video_id) and (f.endswith(".json3") or f.endswith(".json")):
+            # Extract language from filename
+            parts = f.replace(".json3", "").replace(".json", "").split(".")
+            lang = parts[-1] if len(parts) > 1 else "en"
+            return _parse_json3_file(os.path.join(sub_dir, f), lang)
+
+    return None, None
+
+
+def _parse_json3_file(filepath, lang):
+    """Parse a json3 subtitle file into our transcript format."""
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        events = data.get("events", [])
+        segments = []
+        full_text_parts = []
+
+        for event in events:
+            segs = event.get("segs", [])
+            text = "".join(s.get("utf8", "") for s in segs).strip()
+            if not text or text in ("[Music]", "\n"):
+                continue
+
+            start_ms = event.get("tStartMs", 0)
+            duration_ms = event.get("dDurationMs", 0)
+
+            segments.append({
+                "start": round(start_ms / 1000, 1),
+                "duration": round(duration_ms / 1000, 1),
+                "text": text,
+            })
+            full_text_parts.append(text)
+
+        if not segments:
+            return None, None
+
+        return {
+            "language": lang,
+            "is_generated": True,  # yt-dlp auto-sub
+            "source": "ytdlp_subtitle",
+            "segments": segments,
+            "full_text": " ".join(full_text_parts),
+        }, lang
+
+    except Exception:
+        return None, None
+    finally:
+        try:
+            os.remove(filepath)
+        except OSError:
+            pass
+
+
+# ---------------------------------------------------------------------------
+#  Lane B: youtube-transcript-api
+# ---------------------------------------------------------------------------
+
+def _lane_b_transcript_api(video_id):
+    """Download transcript via youtube-transcript-api."""
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
 
         ytt = YouTubeTranscriptApi()
 
-        # Try preferred languages first, then fall back to any available
         transcript_obj = None
         detected_lang = None
         is_generated = False
@@ -127,7 +247,7 @@ def download_transcript(video_id, _debug_count=[0]):
                     if transcript_obj:
                         break
 
-            # Priority 3: any available transcript
+            # Priority 3: any available
             if not transcript_obj:
                 for t in transcript_list:
                     transcript_obj = t
@@ -135,18 +255,13 @@ def download_transcript(video_id, _debug_count=[0]):
                     is_generated = t.is_generated
                     break
 
-        except Exception as e:
-            _debug_count[0] += 1
-            if _debug_count[0] <= 3:
-                print(f"\n  DEBUG: list() failed for {video_id}: {e}")
+        except Exception:
             return None, None
 
         if not transcript_obj:
             return None, None
 
-        # Fetch the actual transcript snippets
         snippets = transcript_obj.fetch()
-
         segments = []
         full_text_parts = []
         for snippet in snippets:
@@ -166,19 +281,155 @@ def download_transcript(video_id, _debug_count=[0]):
         return {
             "language": detected_lang,
             "is_generated": is_generated,
+            "source": "youtube_transcript_api",
             "segments": segments,
             "full_text": " ".join(full_text_parts),
         }, detected_lang
 
     except ImportError:
-        print("ERROR: youtube-transcript-api not installed. Run: pip install youtube-transcript-api")
         return None, None
-    except Exception as e:
-        _debug_count[0] += 1
-        if _debug_count[0] <= 5:
-            print(f"  WARNING: Transcript failed for {video_id}: {type(e).__name__}: {e}")
+    except Exception:
         return None, None
 
+
+# ---------------------------------------------------------------------------
+#  Lane C: Whisper local transcription (fallback)
+# ---------------------------------------------------------------------------
+
+def _lane_c_whisper(video_id):
+    """Download audio and transcribe with Whisper locally."""
+    os.makedirs(AUDIO_TMP_DIR, exist_ok=True)
+    audio_path = os.path.join(AUDIO_TMP_DIR, f"{video_id}.mp3")
+
+    # Step 1: Download audio via yt-dlp
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    cmd = [
+        "yt-dlp",
+        "-x",
+        "--audio-format", "mp3",
+        "--audio-quality", "5",  # lower quality = smaller file
+        "-o", audio_path,
+        "--no-playlist",
+    ]
+    if os.path.exists(COOKIES_FILE):
+        cmd.extend(["--cookies", COOKIES_FILE])
+    cmd.append(url)
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        if result.returncode != 0:
+            return None, None
+    except (subprocess.TimeoutExpired, Exception):
+        return None, None
+
+    # yt-dlp may add extra extension
+    if not os.path.exists(audio_path):
+        # Look for the actual file
+        for f in os.listdir(AUDIO_TMP_DIR):
+            if f.startswith(video_id):
+                audio_path = os.path.join(AUDIO_TMP_DIR, f)
+                break
+        else:
+            return None, None
+
+    # Step 2: Transcribe with Whisper
+    try:
+        import whisper
+        model = whisper.load_model("base")  # "base" is fast + decent quality
+        result = model.transcribe(audio_path, verbose=False)
+
+        detected_lang = result.get("language", "en")
+        whisper_segments = result.get("segments", [])
+
+        segments = []
+        full_text_parts = []
+        for seg in whisper_segments:
+            text = seg.get("text", "").strip()
+            if not text:
+                continue
+            segments.append({
+                "start": round(seg.get("start", 0), 1),
+                "duration": round(seg.get("end", 0) - seg.get("start", 0), 1),
+                "text": text,
+            })
+            full_text_parts.append(text)
+
+        if not segments:
+            return None, None
+
+        return {
+            "language": detected_lang,
+            "is_generated": True,
+            "source": "whisper_local",
+            "segments": segments,
+            "full_text": " ".join(full_text_parts),
+        }, detected_lang
+
+    except ImportError:
+        print("  WARNING: Whisper not installed. Run: pip3 install openai-whisper")
+        return None, None
+    except Exception as e:
+        print(f"  WARNING: Whisper failed for {video_id}: {e}")
+        return None, None
+    finally:
+        # Clean up audio file
+        try:
+            os.remove(audio_path)
+        except OSError:
+            pass
+
+
+# ---------------------------------------------------------------------------
+#  Multi-lane download orchestrator
+# ---------------------------------------------------------------------------
+
+_ip_blocked = False  # Global flag to skip Lane B after first block
+
+
+def download_transcript(video_id, _stats={"a": 0, "b": 0, "c": 0, "fail": 0}):
+    """Download transcript using multi-lane fallback strategy.
+
+    Lane A: yt-dlp subtitle extraction (cookies if available)
+    Lane B: youtube-transcript-api (skip if IP blocked)
+    Lane C: Whisper local transcription (audio download + transcribe)
+    """
+    global _ip_blocked
+
+    # Lane A: yt-dlp subtitles
+    transcript, lang = _lane_a_ytdlp_subs(video_id)
+    if transcript:
+        _stats["a"] += 1
+        return transcript, lang
+
+    # Lane B: youtube-transcript-api (skip if already IP blocked)
+    if not _ip_blocked:
+        transcript, lang = _lane_b_transcript_api(video_id)
+        if transcript:
+            _stats["b"] += 1
+            return transcript, lang
+        # Check if we got IP blocked
+        try:
+            from youtube_transcript_api import YouTubeTranscriptApi
+            ytt = YouTubeTranscriptApi()
+            ytt.list(video_id)
+        except Exception as e:
+            if "IpBlocked" in type(e).__name__ or "IpBlocked" in str(e):
+                _ip_blocked = True
+                print("\n  ⚠ IP blocked — disabling Lane B, using Whisper fallback")
+
+    # Lane C: Whisper
+    transcript, lang = _lane_c_whisper(video_id)
+    if transcript:
+        _stats["c"] += 1
+        return transcript, lang
+
+    _stats["fail"] += 1
+    return None, None
+
+
+# ---------------------------------------------------------------------------
+#  Progress tracking
+# ---------------------------------------------------------------------------
 
 def load_progress():
     """Load download progress to support resuming."""
@@ -192,6 +443,10 @@ def save_progress(progress):
     with open(PROGRESS_FILE, "w") as f:
         json.dump(progress, f)
 
+
+# ---------------------------------------------------------------------------
+#  Main orchestrator
+# ---------------------------------------------------------------------------
 
 def run():
     """Main: iterate channels, get videos, download transcripts."""
@@ -223,14 +478,30 @@ def run():
             json.dump(channels, f, ensure_ascii=False, indent=2)
 
     progress = load_progress()
-    already_done = set(progress["downloaded"] + progress["failed"] + progress["skipped"])
+    already_done = set(progress["downloaded"] + progress.get("failed", []) + progress.get("skipped", []))
+
+    # Check for cookies
+    if os.path.exists(COOKIES_FILE):
+        print("Using cookies.txt for authenticated requests")
+    else:
+        print("No cookies.txt found — running without authentication")
+        print("  (For better results: export cookies from Chrome incognito YouTube session)")
+
+    # Check for Whisper
+    whisper_available = False
+    try:
+        import whisper
+        whisper_available = True
+        print("Whisper available — Lane C fallback enabled")
+    except ImportError:
+        print("Whisper not installed — Lane C disabled (pip3 install openai-whisper)")
 
     total_channels = len(channels)
-    total_downloaded = 0
-    total_failed = 0
-    total_skipped = 0
+    video_count = 0
+    stats = {"a": 0, "b": 0, "c": 0, "fail": 0}
 
-    print(f"Processing {total_channels} channels, {len(already_done)} videos already processed")
+    print(f"\nProcessing {total_channels} channels, {len(already_done)} videos already done")
+    print(f"Strategy: Lane A (yt-dlp subs) → Lane B (transcript API) → Lane C (Whisper)")
     print("=" * 60)
 
     for ci, channel in enumerate(channels, 1):
@@ -250,14 +521,13 @@ def run():
                 continue
 
             title_preview = video["title"][:50]
-            print(f"  [{vi}/{len(videos)}] {title_preview}...", end=" ")
+            print(f"  [{vi}/{len(videos)}] {title_preview}...", end=" ", flush=True)
 
-            transcript_data, lang = download_transcript(vid)
+            transcript_data, lang = download_transcript(vid, stats)
 
             if transcript_data is None:
-                print("SKIP (no transcript)")
+                print("SKIP (all lanes failed)")
                 progress["skipped"].append(vid)
-                total_skipped += 1
             else:
                 # Save transcript
                 output = {
@@ -277,16 +547,33 @@ def run():
                     json.dump(output, f, ensure_ascii=False, indent=2)
 
                 progress["downloaded"].append(vid)
-                total_downloaded += 1
-                print(f"OK ({lang}, {len(transcript_data['segments'])} segments)")
+                source = transcript_data.get("source", "unknown")
+                print(f"OK [{source}] ({lang}, {len(transcript_data['segments'])} segs)")
 
             save_progress(progress)
             already_done.add(vid)
-            time.sleep(1.5)  # Rate limiting — avoid YouTube IP bans
+            video_count += 1
 
+            # Throttle: base delay + jitter
+            delay = DELAY_BETWEEN_REQUESTS + random.uniform(0, DELAY_JITTER)
+            time.sleep(delay)
+
+            # Extra batch pause every N videos
+            if video_count % BATCH_PAUSE_EVERY == 0:
+                print(f"\n  --- Batch pause ({BATCH_PAUSE_SECS}s to avoid rate limits) ---")
+                time.sleep(BATCH_PAUSE_SECS)
+
+    # Final summary
     print(f"\n{'=' * 60}")
-    print(f"Done! Downloaded: {total_downloaded}, Skipped: {total_skipped}, Failed: {total_failed}")
-    print(f"Transcripts saved to: {TRANSCRIPTS_DIR}")
+    print(f"  DOWNLOAD COMPLETE")
+    print(f"  Lane A (yt-dlp subs): {stats['a']}")
+    print(f"  Lane B (transcript API): {stats['b']}")
+    print(f"  Lane C (Whisper): {stats['c']}")
+    print(f"  Failed (all lanes): {stats['fail']}")
+    total_new = stats['a'] + stats['b'] + stats['c']
+    total_all = len([f for f in os.listdir(TRANSCRIPTS_DIR) if f.endswith('.json')])
+    print(f"  New this run: {total_new}, Total transcripts: {total_all}")
+    print(f"  Transcripts saved to: {TRANSCRIPTS_DIR}")
 
 
 if __name__ == "__main__":
