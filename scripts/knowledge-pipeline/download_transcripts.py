@@ -281,7 +281,8 @@ def run():
                 print(f"OK ({lang}, {len(transcript_data['segments'])} segments)")
 
             save_progress(progress)
-            time.sleep(0.3)  # Rate limiting
+            already_done.add(vid)
+            time.sleep(1.5)  # Rate limiting — avoid YouTube IP bans
 
     print(f"\n{'=' * 60}")
     print(f"Done! Downloaded: {total_downloaded}, Skipped: {total_skipped}, Failed: {total_failed}")

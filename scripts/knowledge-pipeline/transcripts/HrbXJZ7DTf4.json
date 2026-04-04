@@ -1,0 +1,1643 @@
+{
+  "video_id": "HrbXJZ7DTf4",
+  "video_title": "Program design: course enrollment | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 362.0,
+  "view_count": 3404,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "segments": [
+      {
+        "start": 0.1,
+        "duration": 5.0,
+        "text": "Let's design a program with objects and"
+      },
+      {
+        "start": 2.5,
+        "duration": 4.8,
+        "text": "methods. We're working on the enrollment"
+      },
+      {
+        "start": 5.1,
+        "duration": 5.2,
+        "text": "software for a school that students use"
+      },
+      {
+        "start": 7.3,
+        "duration": 5.9,
+        "text": "to sign up for courses. Each available"
+      },
+      {
+        "start": 10.3,
+        "duration": 5.1,
+        "text": "course has a title, an instructor, a"
+      },
+      {
+        "start": 13.2,
+        "duration": 5.0,
+        "text": "capacity, and a list of the students"
+      },
+      {
+        "start": 15.4,
+        "duration": 4.3,
+        "text": "enrolled. The capacity tells us the"
+      },
+      {
+        "start": 18.2,
+        "duration": 4.9,
+        "text": "maximum number of students the course"
+      },
+      {
+        "start": 19.8,
+        "duration": 5.9,
+        "text": "can hold. We want each course to keep"
+      },
+      {
+        "start": 23.0,
+        "duration": 6.5,
+        "text": "track of its own information. So, we'll"
+      },
+      {
+        "start": 25.7,
+        "duration": 6.6,
+        "text": "want a course type. In terms of methods,"
+      },
+      {
+        "start": 29.5,
+        "duration": 7.0,
+        "text": "a course supports two key actions. A"
+      },
+      {
+        "start": 32.2,
+        "duration": 5.8,
+        "text": "student can enroll or unenroll."
+      },
+      {
+        "start": 36.5,
+        "duration": 4.0,
+        "text": "So, let's write out our class"
+      },
+      {
+        "start": 38.0,
+        "duration": 4.6,
+        "text": "definition. As always, we'll start with"
+      },
+      {
+        "start": 40.5,
+        "duration": 4.6,
+        "text": "our init method. So, we can set up the"
+      },
+      {
+        "start": 42.6,
+        "duration": 4.8,
+        "text": "attributes for a course object. The"
+      },
+      {
+        "start": 45.0,
+        "duration": 4.6,
+        "text": "syntax always looks the same. We take"
+      },
+      {
+        "start": 47.4,
+        "duration": 5.4,
+        "text": "our parameters and we store them on the"
+      },
+      {
+        "start": 49.7,
+        "duration": 6.2,
+        "text": "object except our roster attribute,"
+      },
+      {
+        "start": 52.9,
+        "duration": 7.0,
+        "text": "which we want to start out empty. So, we"
+      },
+      {
+        "start": 55.8,
+        "duration": 6.7,
+        "text": "set it to an empty list."
+      },
+      {
+        "start": 59.9,
+        "duration": 5.3,
+        "text": "Before we get too deep, let's test this."
+      },
+      {
+        "start": 62.6,
+        "duration": 7.5,
+        "text": "We go back to main.py, import the course"
+      },
+      {
+        "start": 65.2,
+        "duration": 4.8,
+        "text": "module, and then create a course object."
+      },
+      {
+        "start": 70.5,
+        "duration": 5.1,
+        "text": "But when I print my course, we get this"
+      },
+      {
+        "start": 72.9,
+        "duration": 5.0,
+        "text": "not so useful representation."
+      },
+      {
+        "start": 75.6,
+        "duration": 4.6,
+        "text": "Instead, when I print a course, I want"
+      },
+      {
+        "start": 77.9,
+        "duration": 5.6,
+        "text": "to actually show information about that"
+      },
+      {
+        "start": 80.2,
+        "duration": 6.0,
+        "text": "course. So let's tell Python how to"
+      },
+      {
+        "start": 83.5,
+        "duration": 6.1,
+        "text": "represent a course object as a string"
+      },
+      {
+        "start": 86.2,
+        "duration": 5.8,
+        "text": "using the special string method so"
+      },
+      {
+        "start": 89.6,
+        "duration": 7.8,
+        "text": "Python can find it. We need to use the"
+      },
+      {
+        "start": 92.0,
+        "duration": 7.2,
+        "text": "exact name underscore str"
+      },
+      {
+        "start": 97.4,
+        "duration": 5.4,
+        "text": "and since it's a method it needs to take"
+      },
+      {
+        "start": 99.2,
+        "duration": 5.8,
+        "text": "the object as its first parameter."
+      },
+      {
+        "start": 102.7,
+        "duration": 4.6,
+        "text": "What should a course look like? Well,"
+      },
+      {
+        "start": 105.0,
+        "duration": 4.2,
+        "text": "that's up to us as the programmer. Uh"
+      },
+      {
+        "start": 107.4,
+        "duration": 4.3,
+        "text": "let's start by returning a string with"
+      },
+      {
+        "start": 109.1,
+        "duration": 4.3,
+        "text": "the course's title and instructor."
+      },
+      {
+        "start": 111.7,
+        "duration": 4.0,
+        "text": "Inside the method, we need to make sure"
+      },
+      {
+        "start": 113.4,
+        "duration": 4.8,
+        "text": "we're accessing the attribute defined on"
+      },
+      {
+        "start": 115.7,
+        "duration": 5.9,
+        "text": "the object. So we access our object"
+      },
+      {
+        "start": 118.2,
+        "duration": 5.3,
+        "text": "parameter self dot attribute."
+      },
+      {
+        "start": 121.6,
+        "duration": 4.6,
+        "text": "And now when I print the course, Python"
+      },
+      {
+        "start": 123.5,
+        "duration": 4.9,
+        "text": "executes the string method."
+      },
+      {
+        "start": 126.2,
+        "duration": 4.2,
+        "text": "That's much better. But it would be"
+      },
+      {
+        "start": 128.4,
+        "duration": 5.4,
+        "text": "useful to know how many students are"
+      },
+      {
+        "start": 130.3,
+        "duration": 5.4,
+        "text": "enrolled out of how many total spots."
+      },
+      {
+        "start": 133.8,
+        "duration": 4.3,
+        "text": "So that's just the length of our roster"
+      },
+      {
+        "start": 135.7,
+        "duration": 4.6,
+        "text": "with our capacity,"
+      },
+      {
+        "start": 138.2,
+        "duration": 4.5,
+        "text": "which gives us this informative and"
+      },
+      {
+        "start": 140.3,
+        "duration": 5.6,
+        "text": "nicely formatted string representation"
+      },
+      {
+        "start": 142.6,
+        "duration": 6.8,
+        "text": "of a course."
+      },
+      {
+        "start": 145.9,
+        "duration": 6.2,
+        "text": "Now onto our real course logic. In our"
+      },
+      {
+        "start": 149.4,
+        "duration": 5.9,
+        "text": "original design, we said we needed two"
+      },
+      {
+        "start": 152.1,
+        "duration": 6.1,
+        "text": "methods, enroll."
+      },
+      {
+        "start": 155.4,
+        "duration": 5.0,
+        "text": "So let's add two new method definitions,"
+      },
+      {
+        "start": 158.2,
+        "duration": 4.1,
+        "text": "which need to be indented inside of our"
+      },
+      {
+        "start": 160.3,
+        "duration": 3.7,
+        "text": "class definition."
+      },
+      {
+        "start": 162.2,
+        "duration": 3.4,
+        "text": "Like all methods, our first parameter"
+      },
+      {
+        "start": 164.0,
+        "duration": 4.2,
+        "text": "will be the object the method is acting"
+      },
+      {
+        "start": 165.6,
+        "duration": 5.5,
+        "text": "on. And then as a second parameter,"
+      },
+      {
+        "start": 168.2,
+        "duration": 5.7,
+        "text": "we'll take the name of a student."
+      },
+      {
+        "start": 171.1,
+        "duration": 4.6,
+        "text": "Pretty straightforward. Enroll will just"
+      },
+      {
+        "start": 173.8,
+        "duration": 4.2,
+        "text": "take that name and append it to our"
+      },
+      {
+        "start": 175.8,
+        "duration": 4.8,
+        "text": "roster attribute."
+      },
+      {
+        "start": 178.1,
+        "duration": 5.0,
+        "text": "And then unenroll just removes the name"
+      },
+      {
+        "start": 180.6,
+        "duration": 4.7,
+        "text": "from that list."
+      },
+      {
+        "start": 183.0,
+        "duration": 4.7,
+        "text": "To test our object, let's simulate an"
+      },
+      {
+        "start": 185.3,
+        "duration": 4.6,
+        "text": "enrollment period. We have a list of"
+      },
+      {
+        "start": 187.8,
+        "duration": 4.4,
+        "text": "students in registar.py."
+      },
+      {
+        "start": 189.9,
+        "duration": 4.5,
+        "text": "So let's iterate over that list and"
+      },
+      {
+        "start": 192.2,
+        "duration": 5.2,
+        "text": "enroll each student in the journalism"
+      },
+      {
+        "start": 194.4,
+        "duration": 3.0,
+        "text": "course."
+      },
+      {
+        "start": 198.0,
+        "duration": 5.2,
+        "text": "And then just to check that the opposite"
+      },
+      {
+        "start": 200.1,
+        "duration": 6.1,
+        "text": "works, let's also unenroll all the"
+      },
+      {
+        "start": 203.2,
+        "duration": 3.0,
+        "text": "students."
+      },
+      {
+        "start": 206.3,
+        "duration": 7.0,
+        "text": "This tells us that we have 57 students"
+      },
+      {
+        "start": 209.0,
+        "duration": 7.4,
+        "text": "enrolled out of a possible 22 spots. So"
+      },
+      {
+        "start": 213.3,
+        "duration": 5.2,
+        "text": "we're doing something wrong here. Our"
+      },
+      {
+        "start": 216.3,
+        "duration": 6.9,
+        "text": "course object shouldn't let students"
+      },
+      {
+        "start": 218.5,
+        "duration": 7.2,
+        "text": "enroll if the course is already full."
+      },
+      {
+        "start": 223.2,
+        "duration": 5.1,
+        "text": "This feels like a common question people"
+      },
+      {
+        "start": 225.7,
+        "duration": 6.0,
+        "text": "might have about a course. So, let's"
+      },
+      {
+        "start": 228.3,
+        "duration": 5.6,
+        "text": "separate it out into its own method."
+      },
+      {
+        "start": 231.7,
+        "duration": 5.2,
+        "text": "If the course is full, the method should"
+      },
+      {
+        "start": 233.9,
+        "duration": 4.9,
+        "text": "return true. Or if there are still spots"
+      },
+      {
+        "start": 236.9,
+        "duration": 3.4,
+        "text": "available, the method should return"
+      },
+      {
+        "start": 238.8,
+        "duration": 3.5,
+        "text": "false."
+      },
+      {
+        "start": 240.3,
+        "duration": 3.9,
+        "text": "To achieve this, we can just check if"
+      },
+      {
+        "start": 242.3,
+        "duration": 3.8,
+        "text": "the current length of the roster is"
+      },
+      {
+        "start": 244.2,
+        "duration": 4.1,
+        "text": "greater than or equal to the course"
+      },
+      {
+        "start": 246.1,
+        "duration": 4.7,
+        "text": "capacity."
+      },
+      {
+        "start": 248.3,
+        "duration": 4.7,
+        "text": "Now, we could rely on the people who use"
+      },
+      {
+        "start": 250.8,
+        "duration": 5.0,
+        "text": "our course class to always check if the"
+      },
+      {
+        "start": 253.0,
+        "duration": 5.1,
+        "text": "course is full before they call enroll,"
+      },
+      {
+        "start": 255.8,
+        "duration": 5.8,
+        "text": "but that feels like we're just asking"
+      },
+      {
+        "start": 258.2,
+        "duration": 6.1,
+        "text": "for bugs. So, instead, let's encapsulate"
+      },
+      {
+        "start": 261.7,
+        "duration": 5.6,
+        "text": "all of that validation logic inside the"
+      },
+      {
+        "start": 264.2,
+        "duration": 5.4,
+        "text": "enroll method. If the course is full, we"
+      },
+      {
+        "start": 267.3,
+        "duration": 5.5,
+        "text": "can't enroll the student. So we"
+      },
+      {
+        "start": 269.6,
+        "duration": 5.5,
+        "text": "shouldn't update the roster attribute."
+      },
+      {
+        "start": 272.8,
+        "duration": 5.7,
+        "text": "But how do we call a method from inside"
+      },
+      {
+        "start": 275.1,
+        "duration": 6.4,
+        "text": "another method? Well, normally we call a"
+      },
+      {
+        "start": 278.5,
+        "duration": 6.4,
+        "text": "method with the object name dot method"
+      },
+      {
+        "start": 281.5,
+        "duration": 7.0,
+        "text": "name. Inside a method, the object we're"
+      },
+      {
+        "start": 284.9,
+        "duration": 6.5,
+        "text": "acting on is just the parameter self."
+      },
+      {
+        "start": 288.6,
+        "duration": 6.2,
+        "text": "So we call self, which is our course"
+      },
+      {
+        "start": 291.4,
+        "duration": 6.3,
+        "text": "object, dot is full."
+      },
+      {
+        "start": 294.7,
+        "duration": 6.8,
+        "text": "And if it is full, we just do nothing"
+      },
+      {
+        "start": 297.7,
+        "duration": 6.4,
+        "text": "and exit the method."
+      },
+      {
+        "start": 301.5,
+        "duration": 4.4,
+        "text": "If we run this again, good news, our"
+      },
+      {
+        "start": 304.1,
+        "duration": 5.8,
+        "text": "enrollment is now capped at our capacity"
+      },
+      {
+        "start": 305.9,
+        "duration": 6.6,
+        "text": "of 22. But bad news, we now have a value"
+      },
+      {
+        "start": 309.9,
+        "duration": 5.0,
+        "text": "error. This stack trace tells us that"
+      },
+      {
+        "start": 312.6,
+        "duration": 4.7,
+        "text": "the error comes from our unenroll method"
+      },
+      {
+        "start": 315.0,
+        "duration": 6.0,
+        "text": "call. Specifically, when we try to"
+      },
+      {
+        "start": 317.3,
+        "duration": 6.5,
+        "text": "remove the name from the list. H. Now"
+      },
+      {
+        "start": 321.0,
+        "duration": 5.0,
+        "text": "that we've fixed enroll, the second half"
+      },
+      {
+        "start": 323.8,
+        "duration": 5.6,
+        "text": "or so of the students aren't actually in"
+      },
+      {
+        "start": 326.0,
+        "duration": 5.6,
+        "text": "the roster anymore. So before we try to"
+      },
+      {
+        "start": 329.4,
+        "duration": 4.0,
+        "text": "remove them, we should double check that"
+      },
+      {
+        "start": 331.6,
+        "duration": 4.0,
+        "text": "they're actually enrolled in the first"
+      },
+      {
+        "start": 333.4,
+        "duration": 4.8,
+        "text": "place."
+      },
+      {
+        "start": 335.6,
+        "duration": 5.1,
+        "text": "And thinking more about this, we should"
+      },
+      {
+        "start": 338.2,
+        "duration": 4.8,
+        "text": "probably check the opposite in enroll."
+      },
+      {
+        "start": 340.7,
+        "duration": 4.5,
+        "text": "We don't want a student to enroll in the"
+      },
+      {
+        "start": 343.0,
+        "duration": 5.0,
+        "text": "same course twice, whether by accident"
+      },
+      {
+        "start": 345.2,
+        "duration": 4.9,
+        "text": "or on purpose."
+      },
+      {
+        "start": 347.9,
+        "duration": 5.1,
+        "text": "After one last test, our course"
+      },
+      {
+        "start": 350.1,
+        "duration": 5.4,
+        "text": "enrollment system is ready for business."
+      },
+      {
+        "start": 353.0,
+        "duration": 5.0,
+        "text": "But since some courses tend to be in"
+      },
+      {
+        "start": 355.5,
+        "duration": 4.9,
+        "text": "pretty high demand, our team is already"
+      },
+      {
+        "start": 358.1,
+        "duration": 5.0,
+        "text": "on to the next project, planning a new"
+      },
+      {
+        "start": 360.4,
+        "duration": 2.7,
+        "text": "weightless feature."
+      }
+    ],
+    "full_text": "Let's design a program with objects and methods. We're working on the enrollment software for a school that students use to sign up for courses. Each available course has a title, an instructor, a capacity, and a list of the students enrolled. The capacity tells us the maximum number of students the course can hold. We want each course to keep track of its own information. So, we'll want a course type. In terms of methods, a course supports two key actions. A student can enroll or unenroll. So, let's write out our class definition. As always, we'll start with our init method. So, we can set up the attributes for a course object. The syntax always looks the same. We take our parameters and we store them on the object except our roster attribute, which we want to start out empty. So, we set it to an empty list. Before we get too deep, let's test this. We go back to main.py, import the course module, and then create a course object. But when I print my course, we get this not so useful representation. Instead, when I print a course, I want to actually show information about that course. So let's tell Python how to represent a course object as a string using the special string method so Python can find it. We need to use the exact name underscore str and since it's a method it needs to take the object as its first parameter. What should a course look like? Well, that's up to us as the programmer. Uh let's start by returning a string with the course's title and instructor. Inside the method, we need to make sure we're accessing the attribute defined on the object. So we access our object parameter self dot attribute. And now when I print the course, Python executes the string method. That's much better. But it would be useful to know how many students are enrolled out of how many total spots. So that's just the length of our roster with our capacity, which gives us this informative and nicely formatted string representation of a course. Now onto our real course logic. In our original design, we said we needed two methods, enroll. So let's add two new method definitions, which need to be indented inside of our class definition. Like all methods, our first parameter will be the object the method is acting on. And then as a second parameter, we'll take the name of a student. Pretty straightforward. Enroll will just take that name and append it to our roster attribute. And then unenroll just removes the name from that list. To test our object, let's simulate an enrollment period. We have a list of students in registar.py. So let's iterate over that list and enroll each student in the journalism course. And then just to check that the opposite works, let's also unenroll all the students. This tells us that we have 57 students enrolled out of a possible 22 spots. So we're doing something wrong here. Our course object shouldn't let students enroll if the course is already full. This feels like a common question people might have about a course. So, let's separate it out into its own method. If the course is full, the method should return true. Or if there are still spots available, the method should return false. To achieve this, we can just check if the current length of the roster is greater than or equal to the course capacity. Now, we could rely on the people who use our course class to always check if the course is full before they call enroll, but that feels like we're just asking for bugs. So, instead, let's encapsulate all of that validation logic inside the enroll method. If the course is full, we can't enroll the student. So we shouldn't update the roster attribute. But how do we call a method from inside another method? Well, normally we call a method with the object name dot method name. Inside a method, the object we're acting on is just the parameter self. So we call self, which is our course object, dot is full. And if it is full, we just do nothing and exit the method. If we run this again, good news, our enrollment is now capped at our capacity of 22. But bad news, we now have a value error. This stack trace tells us that the error comes from our unenroll method call. Specifically, when we try to remove the name from the list. H. Now that we've fixed enroll, the second half or so of the students aren't actually in the roster anymore. So before we try to remove them, we should double check that they're actually enrolled in the first place. And thinking more about this, we should probably check the opposite in enroll. We don't want a student to enroll in the same course twice, whether by accident or on purpose. After one last test, our course enrollment system is ready for business. But since some courses tend to be in pretty high demand, our team is already on to the next project, planning a new weightless feature."
+  }
+}

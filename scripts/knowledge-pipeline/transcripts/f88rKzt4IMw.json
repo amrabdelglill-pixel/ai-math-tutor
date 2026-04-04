@@ -1,0 +1,5223 @@
+{
+  "video_id": "f88rKzt4IMw",
+  "video_title": "Fireside Chat with Sal Khan and Dr. Amy Alzina",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 1861.0,
+  "view_count": 4282,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "segments": [
+      {
+        "start": 0.6,
+        "duration": 5.4,
+        "text": "Hello everyone. Uh thank you so much for"
+      },
+      {
+        "start": 3.4,
+        "duration": 4.5,
+        "text": "being here. Um I'm joined today by two"
+      },
+      {
+        "start": 6.1,
+        "duration": 3.4,
+        "text": "people who I have a lot of respect for"
+      },
+      {
+        "start": 7.8,
+        "duration": 3.8,
+        "text": "and I think um we're all going to get a"
+      },
+      {
+        "start": 9.5,
+        "duration": 4.6,
+        "text": "lot out of this conversation. For those"
+      },
+      {
+        "start": 11.6,
+        "duration": 5.5,
+        "text": "of you who have not met Dr. Amy Alzena,"
+      },
+      {
+        "start": 14.1,
+        "duration": 6.2,
+        "text": "she is the definition of a trailblazer."
+      },
+      {
+        "start": 17.1,
+        "duration": 5.6,
+        "text": "She does a lot of things somehow also"
+      },
+      {
+        "start": 20.2,
+        "duration": 4.4,
+        "text": "runs. Uh she's the superintendent of"
+      },
+      {
+        "start": 22.7,
+        "duration": 3.9,
+        "text": "Cold Spring School District, one of the"
+      },
+      {
+        "start": 24.6,
+        "duration": 4.5,
+        "text": "top academically performing districts in"
+      },
+      {
+        "start": 26.6,
+        "duration": 5.7,
+        "text": "the state. She's uh she chairs the"
+      },
+      {
+        "start": 29.1,
+        "duration": 5.4,
+        "text": "ACSA's artificial intelligent task force"
+      },
+      {
+        "start": 32.3,
+        "duration": 4.3,
+        "text": "which um one of my colleagues sits on as"
+      },
+      {
+        "start": 34.6,
+        "duration": 5.0,
+        "text": "well and uh so I'm very aware of the"
+      },
+      {
+        "start": 36.6,
+        "duration": 4.2,
+        "text": "amazing work. Um and then she's super"
+      },
+      {
+        "start": 39.5,
+        "duration": 3.6,
+        "text": "I'm sure I'm missing some things cuz"
+      },
+      {
+        "start": 40.8,
+        "duration": 4.5,
+        "text": "there are a lot but Amy has been a real"
+      },
+      {
+        "start": 43.1,
+        "duration": 5.0,
+        "text": "friend to other districts throughout"
+      },
+      {
+        "start": 45.3,
+        "duration": 5.3,
+        "text": "California um supporting them in this"
+      },
+      {
+        "start": 48.1,
+        "duration": 6.3,
+        "text": "like very exciting kind of turbulent"
+      },
+      {
+        "start": 50.6,
+        "duration": 5.4,
+        "text": "moment as AI has hit education. S, I"
+      },
+      {
+        "start": 54.4,
+        "duration": 3.3,
+        "text": "don't think you need an introduction,"
+      },
+      {
+        "start": 55.9,
+        "duration": 4.1,
+        "text": "but I will just say that the the work"
+      },
+      {
+        "start": 57.7,
+        "duration": 3.8,
+        "text": "that we're doing right now uh is is"
+      },
+      {
+        "start": 60.0,
+        "duration": 3.4,
+        "text": "something I think everyone in this room"
+      },
+      {
+        "start": 61.4,
+        "duration": 4.5,
+        "text": "is watching closely. So, thank you for"
+      },
+      {
+        "start": 63.4,
+        "duration": 3.7,
+        "text": "being here, both of you."
+      },
+      {
+        "start": 65.9,
+        "duration": 4.0,
+        "text": ">> Thank you."
+      },
+      {
+        "start": 67.0,
+        "duration": 6.2,
+        "text": ">> Yeah, last week was a big one. Um you"
+      },
+      {
+        "start": 69.9,
+        "duration": 6.2,
+        "text": "were both together at Q. Um S, Amy, you"
+      },
+      {
+        "start": 73.2,
+        "duration": 5.8,
+        "text": "sat on a panel with Dr. Ruth Perez from"
+      },
+      {
+        "start": 76.1,
+        "duration": 5.2,
+        "text": "LA County. Um"
+      },
+      {
+        "start": 79.0,
+        "duration": 3.6,
+        "text": "there's a lot of honest conversation uh"
+      },
+      {
+        "start": 81.3,
+        "duration": 3.5,
+        "text": "with people who are really running"
+      },
+      {
+        "start": 82.6,
+        "duration": 4.8,
+        "text": "districts. So Amy, you were in both the"
+      },
+      {
+        "start": 84.8,
+        "duration": 5.0,
+        "text": "panel and then in a smaller round table"
+      },
+      {
+        "start": 87.4,
+        "duration": 4.6,
+        "text": "group with S. Has anything stuck out to"
+      },
+      {
+        "start": 89.8,
+        "duration": 5.5,
+        "text": "you that you can share with us?"
+      },
+      {
+        "start": 91.9,
+        "duration": 6.4,
+        "text": ">> Oh wow. Well, what resonated with me in"
+      },
+      {
+        "start": 95.4,
+        "duration": 6.1,
+        "text": "that our discussion afterwards was when"
+      },
+      {
+        "start": 98.3,
+        "duration": 5.6,
+        "text": "we were talking about in California the"
+      },
+      {
+        "start": 101.4,
+        "duration": 5.3,
+        "text": "new math framework that came out and how"
+      },
+      {
+        "start": 103.9,
+        "duration": 5.6,
+        "text": "everyone's just jumping at adopting a"
+      },
+      {
+        "start": 106.7,
+        "duration": 4.6,
+        "text": "curriculum and I I even told myself,"
+      },
+      {
+        "start": 109.5,
+        "duration": 3.9,
+        "text": "wait, am I missing something here or is"
+      },
+      {
+        "start": 111.4,
+        "duration": 4.4,
+        "text": "this do we change the standards? What's"
+      },
+      {
+        "start": 113.4,
+        "duration": 4.5,
+        "text": "happening? and and S you were saying"
+      },
+      {
+        "start": 115.8,
+        "duration": 4.9,
+        "text": "something you know yeah it takes a"
+      },
+      {
+        "start": 117.9,
+        "duration": 5.6,
+        "text": "couple years to understand a curriculum"
+      },
+      {
+        "start": 120.6,
+        "duration": 4.8,
+        "text": "and I had just walked into um one of my"
+      },
+      {
+        "start": 123.5,
+        "duration": 4.4,
+        "text": "teachers classrooms whose math charts"
+      },
+      {
+        "start": 125.4,
+        "duration": 5.4,
+        "text": "math student achievement is off the"
+      },
+      {
+        "start": 127.9,
+        "duration": 6.5,
+        "text": "charts and it was a third grade teacher"
+      },
+      {
+        "start": 130.9,
+        "duration": 5.8,
+        "text": "yesterday and I was just doing a deeper"
+      },
+      {
+        "start": 134.4,
+        "duration": 5.0,
+        "text": "dive on what is it that she's doing with"
+      },
+      {
+        "start": 136.6,
+        "duration": 5.1,
+        "text": "her students and she said really it was"
+      },
+      {
+        "start": 139.4,
+        "duration": 5.0,
+        "text": "last year when I had a new partner"
+      },
+      {
+        "start": 141.8,
+        "duration": 4.9,
+        "text": "teacher I just hired her from my"
+      },
+      {
+        "start": 144.3,
+        "duration": 4.3,
+        "text": "neighboring district and we did a deeper"
+      },
+      {
+        "start": 146.6,
+        "duration": 3.7,
+        "text": "dive on the curriculum and we really"
+      },
+      {
+        "start": 148.6,
+        "duration": 3.8,
+        "text": "identified some holes and how we needed"
+      },
+      {
+        "start": 150.3,
+        "duration": 4.8,
+        "text": "to restructure the curriculum. Well,"
+      },
+      {
+        "start": 152.4,
+        "duration": 6.6,
+        "text": "here we are fast forward with the same"
+      },
+      {
+        "start": 155.1,
+        "duration": 6.4,
+        "text": "curriculum seven years later, right? And"
+      },
+      {
+        "start": 159.0,
+        "duration": 4.2,
+        "text": "still learning that curriculum so we can"
+      },
+      {
+        "start": 161.5,
+        "duration": 3.6,
+        "text": "get better at it. What works, what"
+      },
+      {
+        "start": 163.2,
+        "duration": 5.8,
+        "text": "doesn't work, how we're utilizing Khan"
+      },
+      {
+        "start": 165.1,
+        "duration": 8.1,
+        "text": "Academy as a supplement. And um I can"
+      },
+      {
+        "start": 169.0,
+        "duration": 6.2,
+        "text": "only think in my head of like the what's"
+      },
+      {
+        "start": 173.2,
+        "duration": 4.7,
+        "text": "going to happen right now as districts"
+      },
+      {
+        "start": 175.3,
+        "duration": 4.2,
+        "text": "are just adopting these new crazy"
+      },
+      {
+        "start": 177.9,
+        "duration": 3.9,
+        "text": "curriculum and what's going to happen to"
+      },
+      {
+        "start": 179.5,
+        "duration": 5.0,
+        "text": "math achievement [laughter]"
+      },
+      {
+        "start": 181.8,
+        "duration": 4.3,
+        "text": "and but s what you said really resonated"
+      },
+      {
+        "start": 184.5,
+        "duration": 3.2,
+        "text": "with me how it it just takes a couple"
+      },
+      {
+        "start": 186.2,
+        "duration": 4.4,
+        "text": "years to understand a new math"
+      },
+      {
+        "start": 187.7,
+        "duration": 4.6,
+        "text": "curriculum and you're absolutely right."
+      },
+      {
+        "start": 190.6,
+        "duration": 5.3,
+        "text": "So I don't I you know that was my long"
+      },
+      {
+        "start": 192.3,
+        "duration": 5.5,
+        "text": "winded way of saying wow um what's"
+      },
+      {
+        "start": 195.8,
+        "duration": 4.6,
+        "text": "happening in the state right now."
+      },
+      {
+        "start": 197.8,
+        "duration": 5.0,
+        "text": ">> Yeah super appreciate that s did you"
+      },
+      {
+        "start": 200.5,
+        "duration": 3.5,
+        "text": "hear that too curious if you saw it"
+      },
+      {
+        "start": 202.9,
+        "duration": 3.4,
+        "text": "differently heard it differently than"
+      },
+      {
+        "start": 204.0,
+        "duration": 3.9,
+        "text": "Amy did. No, definitely got that. And"
+      },
+      {
+        "start": 206.3,
+        "duration": 3.5,
+        "text": "actually, it makes me think about, you"
+      },
+      {
+        "start": 207.9,
+        "duration": 4.8,
+        "text": "know, we all spoke a lot and and I"
+      },
+      {
+        "start": 209.8,
+        "duration": 4.4,
+        "text": "always try to speak a lot about uh on"
+      },
+      {
+        "start": 212.7,
+        "duration": 2.9,
+        "text": "technology. You shouldn't just use"
+      },
+      {
+        "start": 214.2,
+        "duration": 2.7,
+        "text": "technology for the sake of it. You"
+      },
+      {
+        "start": 215.6,
+        "duration": 2.7,
+        "text": "should first take a step back and say"
+      },
+      {
+        "start": 217.0,
+        "duration": 3.0,
+        "text": "like what are my goals here? Like what"
+      },
+      {
+        "start": 218.3,
+        "duration": 5.0,
+        "text": "am I trying to what am I trying to solve"
+      },
+      {
+        "start": 220.0,
+        "duration": 5.5,
+        "text": "for? And it I think in the context we're"
+      },
+      {
+        "start": 223.3,
+        "duration": 5.4,
+        "text": "talking about it's usually we want to"
+      },
+      {
+        "start": 225.5,
+        "duration": 4.4,
+        "text": "improve academic outcomes oftentimes is"
+      },
+      {
+        "start": 228.6,
+        "duration": 2.6,
+        "text": "measured by state assessments, although"
+      },
+      {
+        "start": 229.9,
+        "duration": 6.0,
+        "text": "there's a whole other thread about that"
+      },
+      {
+        "start": 231.3,
+        "duration": 6.7,
+        "text": "too. Um, and the a and the the theory of"
+      },
+      {
+        "start": 235.9,
+        "duration": 4.5,
+        "text": "action that we've had and I think Amy"
+      },
+      {
+        "start": 238.0,
+        "duration": 4.5,
+        "text": "and others have had is hey if we can"
+      },
+      {
+        "start": 240.4,
+        "duration": 4.2,
+        "text": "allow students to really fill in their"
+      },
+      {
+        "start": 242.5,
+        "duration": 4.4,
+        "text": "gaps, learn at their own pace,"
+      },
+      {
+        "start": 244.6,
+        "duration": 4.0,
+        "text": "personalize, get a lot of deliberate"
+      },
+      {
+        "start": 246.9,
+        "duration": 4.0,
+        "text": "practice that that's going to improve"
+      },
+      {
+        "start": 248.6,
+        "duration": 3.8,
+        "text": "outcomes and that's exactly what we try"
+      },
+      {
+        "start": 250.9,
+        "duration": 5.0,
+        "text": "to do. So what you know whether it's"
+      },
+      {
+        "start": 252.4,
+        "duration": 5.7,
+        "text": "using videos or software or AI or"
+      },
+      {
+        "start": 255.8,
+        "duration": 5.0,
+        "text": "whatever we're trying to do on the"
+      },
+      {
+        "start": 258.1,
+        "duration": 4.2,
+        "text": "technology side those are that that's"
+      },
+      {
+        "start": 260.9,
+        "duration": 3.0,
+        "text": "truly the goal. If there's a way to do"
+      },
+      {
+        "start": 262.3,
+        "duration": 2.9,
+        "text": "it with pencil and paper let's do it"
+      },
+      {
+        "start": 263.8,
+        "duration": 3.3,
+        "text": "with pencil and paper. We don't need to"
+      },
+      {
+        "start": 265.2,
+        "duration": 4.2,
+        "text": "use the fanciest technology. I think"
+      },
+      {
+        "start": 267.1,
+        "duration": 3.7,
+        "text": "this uh curricular discussion that Amy's"
+      },
+      {
+        "start": 269.4,
+        "duration": 3.9,
+        "text": "bringing up is actually the same thing."
+      },
+      {
+        "start": 270.8,
+        "duration": 4.1,
+        "text": "And you know, on the actual curricular"
+      },
+      {
+        "start": 273.4,
+        "duration": 4.3,
+        "text": "decisions, I'm always a little bit of a"
+      },
+      {
+        "start": 274.9,
+        "duration": 4.0,
+        "text": "of a bystander, but I've I we've Aviv,"
+      },
+      {
+        "start": 277.7,
+        "duration": 3.1,
+        "text": "you know, we've paid close attention to"
+      },
+      {
+        "start": 278.9,
+        "duration": 3.4,
+        "text": "it at Khan Academy for the last 15 or 20"
+      },
+      {
+        "start": 280.8,
+        "duration": 3.0,
+        "text": "years because we're always aligning to"
+      },
+      {
+        "start": 282.2,
+        "duration": 3.8,
+        "text": "different standards, aligning to"
+      },
+      {
+        "start": 283.8,
+        "duration": 3.8,
+        "text": "different curricula. And so I almost"
+      },
+      {
+        "start": 286.0,
+        "duration": 4.2,
+        "text": "have a unique vantage point where I'm,"
+      },
+      {
+        "start": 287.6,
+        "duration": 4.2,
+        "text": "you know, I'm doing the the the common"
+      },
+      {
+        "start": 290.2,
+        "duration": 3.0,
+        "text": "core and Florida best and I'm still"
+      },
+      {
+        "start": 291.8,
+        "duration": 2.6,
+        "text": "making videos for it. Just yesterday I"
+      },
+      {
+        "start": 293.1,
+        "duration": 3.0,
+        "text": "made some, you know, illustrative math"
+      },
+      {
+        "start": 294.4,
+        "duration": 4.5,
+        "text": "videos. I made some Florida best videos."
+      },
+      {
+        "start": 296.1,
+        "duration": 5.3,
+        "text": "So I see and and the reality is the"
+      },
+      {
+        "start": 298.9,
+        "duration": 5.0,
+        "text": "heart of all of these curricula are the"
+      },
+      {
+        "start": 301.4,
+        "duration": 6.8,
+        "text": "good parts are the same and and what you"
+      },
+      {
+        "start": 303.9,
+        "duration": 7.0,
+        "text": "really want is um students to get more"
+      },
+      {
+        "start": 308.2,
+        "duration": 4.6,
+        "text": "practice at their zone of proximal"
+      },
+      {
+        "start": 310.9,
+        "duration": 4.9,
+        "text": "development. You want a teacher who"
+      },
+      {
+        "start": 312.7,
+        "duration": 5.1,
+        "text": "feels comfortable um driving that"
+      },
+      {
+        "start": 315.8,
+        "duration": 4.2,
+        "text": "holding the students accountable digging"
+      },
+      {
+        "start": 317.8,
+        "duration": 4.4,
+        "text": "in deeper when appropriate using tools"
+      },
+      {
+        "start": 320.0,
+        "duration": 4.3,
+        "text": "like Khan Academy where appropriate for"
+      },
+      {
+        "start": 322.2,
+        "duration": 4.2,
+        "text": "personalization. And every time people"
+      },
+      {
+        "start": 324.3,
+        "duration": 4.1,
+        "text": "are upset about test scores or they"
+      },
+      {
+        "start": 326.4,
+        "duration": 3.7,
+        "text": "don't think things the reaction seems to"
+      },
+      {
+        "start": 328.4,
+        "duration": 3.7,
+        "text": "be and it seems to be about every seven"
+      },
+      {
+        "start": 330.1,
+        "duration": 4.9,
+        "text": "or eight years um let's get new"
+      },
+      {
+        "start": 332.1,
+        "duration": 4.9,
+        "text": "curricula and there's you know the Gates"
+      },
+      {
+        "start": 335.0,
+        "duration": 3.4,
+        "text": "Foundation ran a big study last year on"
+      },
+      {
+        "start": 337.0,
+        "duration": 3.1,
+        "text": "high quality instructional materials and"
+      },
+      {
+        "start": 338.4,
+        "duration": 4.1,
+        "text": "this isn't to you know throw shade on it"
+      },
+      {
+        "start": 340.1,
+        "duration": 5.4,
+        "text": "but but they couldn't see an an effect"
+      },
+      {
+        "start": 342.5,
+        "duration": 4.4,
+        "text": "um there um and and as Amy just"
+      },
+      {
+        "start": 345.4,
+        "duration": 3.0,
+        "text": "mentioned every time you do that change"
+      },
+      {
+        "start": 346.9,
+        "duration": 4.0,
+        "text": "management you kind of lose two three"
+      },
+      {
+        "start": 348.4,
+        "duration": 4.2,
+        "text": "years like just just when you were um"
+      },
+      {
+        "start": 350.9,
+        "duration": 4.6,
+        "text": "getting good at the old curric I I would"
+      },
+      {
+        "start": 352.6,
+        "duration": 5.5,
+        "text": "argue that someone who is uh a teacher"
+      },
+      {
+        "start": 355.4,
+        "duration": 5.7,
+        "text": "who's really strong at at a curriculum"
+      },
+      {
+        "start": 358.2,
+        "duration": 5.0,
+        "text": "from 1980, especially in math, I mean,"
+      },
+      {
+        "start": 361.1,
+        "duration": 3.4,
+        "text": "we could talk about other things, but"
+      },
+      {
+        "start": 363.1,
+        "duration": 2.7,
+        "text": "that's going to be a good curriculum."
+      },
+      {
+        "start": 364.6,
+        "duration": 2.7,
+        "text": "And and someone who's struggling with"
+      },
+      {
+        "start": 365.8,
+        "duration": 3.0,
+        "text": "the modern curricula, it's it's going to"
+      },
+      {
+        "start": 367.3,
+        "duration": 3.0,
+        "text": "be harder. Another thing we did talk"
+      },
+      {
+        "start": 368.9,
+        "duration": 5.2,
+        "text": "about, which I find fascinating, it's"
+      },
+      {
+        "start": 370.3,
+        "duration": 7.9,
+        "text": "obviously a a bigger notion, is so much"
+      },
+      {
+        "start": 374.1,
+        "duration": 6.3,
+        "text": "of um state so so much of of the"
+      },
+      {
+        "start": 378.2,
+        "duration": 4.7,
+        "text": "perceived quality of schools, etc. are"
+      },
+      {
+        "start": 380.4,
+        "duration": 5.0,
+        "text": "based on standardized tests. Um there's"
+      },
+      {
+        "start": 383.0,
+        "duration": 4.6,
+        "text": "some merit to that, but maybe there's an"
+      },
+      {
+        "start": 385.4,
+        "duration": 3.8,
+        "text": "opportunity to broaden the aperture. Uh"
+      },
+      {
+        "start": 387.5,
+        "duration": 2.8,
+        "text": "right now, uh you know, there's things"
+      },
+      {
+        "start": 389.1,
+        "duration": 2.9,
+        "text": "that we know are going to matter more"
+      },
+      {
+        "start": 390.3,
+        "duration": 3.8,
+        "text": "and more in an AI world, like"
+      },
+      {
+        "start": 392.0,
+        "duration": 3.6,
+        "text": "communication, collaboration,"
+      },
+      {
+        "start": 394.1,
+        "duration": 3.1,
+        "text": "entrepreneurship. I mean, we could go"
+      },
+      {
+        "start": 395.6,
+        "duration": 4.0,
+        "text": "down the list and those those types of"
+      },
+      {
+        "start": 397.2,
+        "duration": 4.3,
+        "text": "things aren't captured uh right now, but"
+      },
+      {
+        "start": 399.6,
+        "duration": 3.1,
+        "text": "maybe there are ways to capture it. So,"
+      },
+      {
+        "start": 401.5,
+        "duration": 2.2,
+        "text": "that was the other interesting part of"
+      },
+      {
+        "start": 402.7,
+        "duration": 2.4,
+        "text": "the conversation we had with some"
+      },
+      {
+        "start": 403.8,
+        "duration": 4.0,
+        "text": "district leaders."
+      },
+      {
+        "start": 405.1,
+        "duration": 4.2,
+        "text": ">> Yeah. I'm curious. Actually, I'm"
+      },
+      {
+        "start": 407.8,
+        "duration": 4.3,
+        "text": "remembering now that I wanted to ask you"
+      },
+      {
+        "start": 409.4,
+        "duration": 4.4,
+        "text": "about this. Um Ruth Perez was was with"
+      },
+      {
+        "start": 412.1,
+        "duration": 2.1,
+        "text": "you last week, right?"
+      },
+      {
+        "start": 413.8,
+        "duration": 3.2,
+        "text": ">> Yes."
+      },
+      {
+        "start": 414.2,
+        "duration": 5.1,
+        "text": ">> Uh assistant superintendent of of LA"
+      },
+      {
+        "start": 417.0,
+        "duration": 3.4,
+        "text": "County, which on the surface at least"
+      },
+      {
+        "start": 419.3,
+        "duration": 3.9,
+        "text": "seems like it could not be more"
+      },
+      {
+        "start": 420.4,
+        "duration": 4.7,
+        "text": "different than Cold Spring. Were you"
+      },
+      {
+        "start": 423.2,
+        "duration": 4.5,
+        "text": "thinking about that at all, Amy? Like"
+      },
+      {
+        "start": 425.1,
+        "duration": 3.9,
+        "text": "what do you know each other? Were you do"
+      },
+      {
+        "start": 427.7,
+        "duration": 3.6,
+        "text": "do you know anything about how that"
+      },
+      {
+        "start": 429.0,
+        "duration": 4.2,
+        "text": "district works? And"
+      },
+      {
+        "start": 431.3,
+        "duration": 3.8,
+        "text": ">> yeah, great question. You know, I get"
+      },
+      {
+        "start": 433.3,
+        "duration": 4.6,
+        "text": "that a lot because we're a single school"
+      },
+      {
+        "start": 435.0,
+        "duration": 5.0,
+        "text": "district. We're small. I came from Santa"
+      },
+      {
+        "start": 437.8,
+        "duration": 4.5,
+        "text": "Barbara Unified where I was 18 years,"
+      },
+      {
+        "start": 440.0,
+        "duration": 4.8,
+        "text": "principal of two different schools and"
+      },
+      {
+        "start": 442.3,
+        "duration": 6.6,
+        "text": "low soioeconomic, different demographics"
+      },
+      {
+        "start": 444.8,
+        "duration": 7.7,
+        "text": "and um what I have learned through my 20"
+      },
+      {
+        "start": 449.0,
+        "duration": 6.1,
+        "text": "years as administrator is exactly what"
+      },
+      {
+        "start": 452.5,
+        "duration": 4.5,
+        "text": "Sal said is when students are working"
+      },
+      {
+        "start": 455.0,
+        "duration": 4.6,
+        "text": "within within their zone of proximal"
+      },
+      {
+        "start": 457.0,
+        "duration": 5.6,
+        "text": "development, students are engaged and"
+      },
+      {
+        "start": 459.6,
+        "duration": 5.0,
+        "text": "student achievement increases. And um I"
+      },
+      {
+        "start": 462.6,
+        "duration": 3.8,
+        "text": "found that in my doctoral work why I had"
+      },
+      {
+        "start": 464.6,
+        "duration": 4.6,
+        "text": "the best teachers ever and they were"
+      },
+      {
+        "start": 466.4,
+        "duration": 4.7,
+        "text": "super [sighs] loving and kind but"
+      },
+      {
+        "start": 469.1,
+        "duration": 3.6,
+        "text": "students were reading at a too high of a"
+      },
+      {
+        "start": 471.1,
+        "duration": 2.8,
+        "text": "level or too low of a level so they"
+      },
+      {
+        "start": 472.7,
+        "duration": 2.6,
+        "text": "weren't making growth and I was"
+      },
+      {
+        "start": 473.9,
+        "duration": 4.9,
+        "text": "wondering what's going on. So I had to"
+      },
+      {
+        "start": 475.3,
+        "duration": 5.8,
+        "text": "do a deeper dive. So it's for all areas"
+      },
+      {
+        "start": 478.8,
+        "duration": 4.5,
+        "text": "right? We all have to be working in our"
+      },
+      {
+        "start": 481.1,
+        "duration": 3.8,
+        "text": "sweet spot and it doesn't matter if"
+      },
+      {
+        "start": 483.3,
+        "duration": 3.6,
+        "text": "you're in a large school district or a"
+      },
+      {
+        "start": 484.9,
+        "duration": 5.4,
+        "text": "small school district. That's how we all"
+      },
+      {
+        "start": 486.9,
+        "duration": 7.6,
+        "text": "learn. And so, um, going back to your"
+      },
+      {
+        "start": 490.3,
+        "duration": 7.1,
+        "text": "question, um, no, you know, I I because"
+      },
+      {
+        "start": 494.5,
+        "duration": 5.4,
+        "text": "we're talking about kids and all kids,"
+      },
+      {
+        "start": 497.4,
+        "duration": 4.6,
+        "text": "um, learn the same and it's identifying"
+      },
+      {
+        "start": 499.8,
+        "duration": 3.9,
+        "text": "what gets them excited in the morning,"
+      },
+      {
+        "start": 502.1,
+        "duration": 4.6,
+        "text": "what is their purpose and how do we"
+      },
+      {
+        "start": 503.8,
+        "duration": 4.6,
+        "text": "connect with them um, so that they want"
+      },
+      {
+        "start": 506.7,
+        "duration": 4.3,
+        "text": "to come to school in the morning and not"
+      },
+      {
+        "start": 508.4,
+        "duration": 4.5,
+        "text": "just the core subject areas, but our"
+      },
+      {
+        "start": 511.0,
+        "duration": 3.6,
+        "text": "integrative approach to teaching and"
+      },
+      {
+        "start": 512.9,
+        "duration": 6.2,
+        "text": "learning. And that's really the"
+      },
+      {
+        "start": 514.6,
+        "duration": 6.0,
+        "text": "heartbeat of what we do um in education."
+      },
+      {
+        "start": 519.1,
+        "duration": 5.0,
+        "text": ">> Um"
+      },
+      {
+        "start": 520.6,
+        "duration": 4.8,
+        "text": "I love that. Um and I I wish we had more"
+      },
+      {
+        "start": 524.2,
+        "duration": 2.4,
+        "text": "time cuz I want to ask you about the"
+      },
+      {
+        "start": 525.4,
+        "duration": 2.2,
+        "text": "transition from principal to"
+      },
+      {
+        "start": 526.6,
+        "duration": 3.8,
+        "text": "superintendent. So if we have time,"
+      },
+      {
+        "start": 527.7,
+        "duration": 5.9,
+        "text": "we'll come back to that. But um Sal, I"
+      },
+      {
+        "start": 530.4,
+        "duration": 5.0,
+        "text": "wonder when you see success like this,"
+      },
+      {
+        "start": 533.6,
+        "duration": 3.9,
+        "text": "right? Like academic achievement like we"
+      },
+      {
+        "start": 535.4,
+        "duration": 4.5,
+        "text": "see in Cold Spring, what kind of"
+      },
+      {
+        "start": 537.5,
+        "duration": 4.8,
+        "text": "questions arise for you uh around"
+      },
+      {
+        "start": 539.9,
+        "duration": 4.2,
+        "text": "scalability?"
+      },
+      {
+        "start": 542.3,
+        "duration": 6.6,
+        "text": "Yeah, I think that's that's the ultimate"
+      },
+      {
+        "start": 544.1,
+        "duration": 7.5,
+        "text": "question. Um because we know"
+      },
+      {
+        "start": 548.9,
+        "duration": 4.8,
+        "text": "that if um and we see this in multiple"
+      },
+      {
+        "start": 551.6,
+        "duration": 4.9,
+        "text": "efficacy studies at Khan Academy, you"
+      },
+      {
+        "start": 553.7,
+        "duration": 5.0,
+        "text": "know, if if students are engaged on the"
+      },
+      {
+        "start": 556.5,
+        "duration": 3.9,
+        "text": "platform, they are seeing pretty"
+      },
+      {
+        "start": 558.6,
+        "duration": 3.4,
+        "text": "dramatic growth. And people don't have"
+      },
+      {
+        "start": 560.4,
+        "duration": 3.1,
+        "text": "to believe me, you know, go there's a"
+      },
+      {
+        "start": 562.1,
+        "duration": 3.7,
+        "text": "lot of there's 50 plus, most of those"
+      },
+      {
+        "start": 563.5,
+        "duration": 3.8,
+        "text": "are thirdparty studies um that we did"
+      },
+      {
+        "start": 565.8,
+        "duration": 3.6,
+        "text": "not, you know, in any way fund or"
+      },
+      {
+        "start": 567.3,
+        "duration": 4.5,
+        "text": "anything. Um and they they all show that"
+      },
+      {
+        "start": 569.4,
+        "duration": 4.2,
+        "text": "if students are able to get even let's"
+      },
+      {
+        "start": 571.8,
+        "duration": 4.4,
+        "text": "call it 30 to 60 minutes a week which"
+      },
+      {
+        "start": 573.5,
+        "duration": 5.6,
+        "text": "isn't a lot um they're growing depending"
+      },
+      {
+        "start": 576.2,
+        "duration": 6.6,
+        "text": "on the study 20 to 60% more than more"
+      },
+      {
+        "start": 579.1,
+        "duration": 6.9,
+        "text": "than uh their their peers. And you know"
+      },
+      {
+        "start": 582.7,
+        "duration": 5.0,
+        "text": "we have a few special cases of of places"
+      },
+      {
+        "start": 586.0,
+        "duration": 4.2,
+        "text": "where they're more like 30 to 60 minutes"
+      },
+      {
+        "start": 587.7,
+        "duration": 4.9,
+        "text": "a day and those type of places we're"
+      },
+      {
+        "start": 590.2,
+        "duration": 4.6,
+        "text": "seeing growth of in some cases two to"
+      },
+      {
+        "start": 592.6,
+        "duration": 5.0,
+        "text": "three grade levels a year. So, um, we"
+      },
+      {
+        "start": 594.8,
+        "duration": 4.7,
+        "text": "know if if if the students are engaged"
+      },
+      {
+        "start": 597.6,
+        "duration": 4.6,
+        "text": "there, it it's a and and and there's no"
+      },
+      {
+        "start": 599.5,
+        "duration": 4.5,
+        "text": "magic there. It really is working on"
+      },
+      {
+        "start": 602.2,
+        "duration": 3.4,
+        "text": "your zone of proximal development,"
+      },
+      {
+        "start": 604.0,
+        "duration": 4.0,
+        "text": "getting a lot of and getting immediate"
+      },
+      {
+        "start": 605.5,
+        "duration": 4.2,
+        "text": "feedback. Now, we know that from there"
+      },
+      {
+        "start": 608.0,
+        "duration": 3.0,
+        "text": "are there's maybe five or 10% of"
+      },
+      {
+        "start": 609.7,
+        "duration": 3.3,
+        "text": "students that if you just throw Khan"
+      },
+      {
+        "start": 611.0,
+        "duration": 3.6,
+        "text": "Academy at them and say go, they get"
+      },
+      {
+        "start": 613.0,
+        "duration": 3.8,
+        "text": "excited and they'll just be off to the"
+      },
+      {
+        "start": 614.6,
+        "duration": 5.6,
+        "text": "races. But we know that most students"
+      },
+      {
+        "start": 616.7,
+        "duration": 5.9,
+        "text": "aren't that. they need a really quality"
+      },
+      {
+        "start": 620.2,
+        "duration": 6.0,
+        "text": "classroom environment um in in order to"
+      },
+      {
+        "start": 622.6,
+        "duration": 5.0,
+        "text": "engage. And what we have learned"
+      },
+      {
+        "start": 626.2,
+        "duration": 4.3,
+        "text": "there there's always been really from"
+      },
+      {
+        "start": 627.6,
+        "duration": 4.8,
+        "text": "the beginning of Khan Academy uh tens if"
+      },
+      {
+        "start": 630.5,
+        "duration": 4.6,
+        "text": "not hundreds of thousands of teachers"
+      },
+      {
+        "start": 632.4,
+        "duration": 4.7,
+        "text": "who are also kind of this let's call it"
+      },
+      {
+        "start": 635.1,
+        "duration": 3.7,
+        "text": "lean into Khan Academy saw a lot of that"
+      },
+      {
+        "start": 637.1,
+        "duration": 3.3,
+        "text": "growth but it was in it was in pockets"
+      },
+      {
+        "start": 638.8,
+        "duration": 3.8,
+        "text": "and so when we decided to do the"
+      },
+      {
+        "start": 640.4,
+        "duration": 3.9,
+        "text": "district offering about eight years ago"
+      },
+      {
+        "start": 642.6,
+        "duration": 5.5,
+        "text": "and we wanted to do more systemically"
+      },
+      {
+        "start": 644.3,
+        "duration": 5.1,
+        "text": "with districts the big question is is um"
+      },
+      {
+        "start": 648.1,
+        "duration": 3.4,
+        "text": "will a district especially if we're"
+      },
+      {
+        "start": 649.4,
+        "duration": 3.9,
+        "text": "talking about large districts be able to"
+      },
+      {
+        "start": 651.5,
+        "duration": 3.7,
+        "text": "get that type of consistency across of"
+      },
+      {
+        "start": 653.4,
+        "duration": 3.7,
+        "text": "it and and and I I won't pretend like"
+      },
+      {
+        "start": 655.2,
+        "duration": 6.4,
+        "text": "it's a completely solved problem. I"
+      },
+      {
+        "start": 657.0,
+        "duration": 6.5,
+        "text": "think you have leaders like Amy where um"
+      },
+      {
+        "start": 661.6,
+        "duration": 3.7,
+        "text": "she's, you know, she this is one of her"
+      },
+      {
+        "start": 663.5,
+        "duration": 3.3,
+        "text": "top priorities. She believes in it."
+      },
+      {
+        "start": 665.3,
+        "duration": 3.0,
+        "text": "She's a force of nature. You know,"
+      },
+      {
+        "start": 666.8,
+        "duration": 3.4,
+        "text": "everyone when Amy leaves the room, every"
+      },
+      {
+        "start": 668.3,
+        "duration": 4.4,
+        "text": "like she's a force of nature. She is in"
+      },
+      {
+        "start": 670.2,
+        "duration": 4.9,
+        "text": "the best in the best possible way. Um"
+      },
+      {
+        "start": 672.7,
+        "duration": 4.5,
+        "text": "and and I think when you have investment"
+      },
+      {
+        "start": 675.1,
+        "duration": 4.3,
+        "text": "at at the top like that, it does start"
+      },
+      {
+        "start": 677.2,
+        "duration": 4.6,
+        "text": "to really pay those dividends. And we've"
+      },
+      {
+        "start": 679.4,
+        "duration": 4.6,
+        "text": "seen that with Amy. We've seen that in"
+      },
+      {
+        "start": 681.8,
+        "duration": 4.7,
+        "text": "large urban school districts uh like"
+      },
+      {
+        "start": 684.0,
+        "duration": 4.3,
+        "text": "Newark, New Jersey. But it's when the"
+      },
+      {
+        "start": 686.5,
+        "duration": 3.1,
+        "text": "the the superintendent, the chief"
+      },
+      {
+        "start": 688.3,
+        "duration": 2.2,
+        "text": "academic officer, someone says, \"Okay,"
+      },
+      {
+        "start": 689.6,
+        "duration": 3.1,
+        "text": "you know, this is going to be my top"
+      },
+      {
+        "start": 690.6,
+        "duration": 4.0,
+        "text": "priorities. I'm going to monitor the"
+      },
+      {
+        "start": 692.7,
+        "duration": 3.6,
+        "text": "data. I'm going to provide soft"
+      },
+      {
+        "start": 694.6,
+        "duration": 3.4,
+        "text": "accountability. Let's reward the the"
+      },
+      {
+        "start": 696.3,
+        "duration": 2.9,
+        "text": "teachers who are engaged a lot and let's"
+      },
+      {
+        "start": 697.9,
+        "duration": 4.4,
+        "text": "figure out how we can support the"
+      },
+      {
+        "start": 699.2,
+        "duration": 5.0,
+        "text": "teachers um who need more help.\""
+      },
+      {
+        "start": 702.3,
+        "duration": 5.4,
+        "text": ">> Would you agree, Amy?"
+      },
+      {
+        "start": 704.2,
+        "duration": 5.6,
+        "text": ">> I love that 100%. Um, and we see the"
+      },
+      {
+        "start": 707.7,
+        "duration": 4.2,
+        "text": "same results. You know, whether again"
+      },
+      {
+        "start": 709.8,
+        "duration": 4.3,
+        "text": "going back to doesn't matter what school"
+      },
+      {
+        "start": 711.9,
+        "duration": 4.2,
+        "text": "you're at, the teacher that implements"
+      },
+      {
+        "start": 714.2,
+        "duration": 4.7,
+        "text": "with Fidelity and really connects with"
+      },
+      {
+        "start": 716.2,
+        "duration": 5.1,
+        "text": "kids, you're going to see a 2x growth. I"
+      },
+      {
+        "start": 718.9,
+        "duration": 4.0,
+        "text": "mean, I I literally just met with a"
+      },
+      {
+        "start": 721.3,
+        "duration": 4.0,
+        "text": "teacher, again, another teacher"
+      },
+      {
+        "start": 722.9,
+        "duration": 5.7,
+        "text": "yesterday. Um, the average growth that"
+      },
+      {
+        "start": 725.3,
+        "duration": 6.2,
+        "text": "we expect is between 40 to 60 um,"
+      },
+      {
+        "start": 728.6,
+        "duration": 6.2,
+        "text": "student growth index. Her class average"
+      },
+      {
+        "start": 731.4,
+        "duration": 4.6,
+        "text": "is 92. And this is our largest class of"
+      },
+      {
+        "start": 734.7,
+        "duration": 3.1,
+        "text": "fourth grade students. We know the"
+      },
+      {
+        "start": 736.0,
+        "duration": 4.5,
+        "text": "fourth grade students are challen it's a"
+      },
+      {
+        "start": 737.8,
+        "duration": 4.2,
+        "text": "challenging sta group of standards but"
+      },
+      {
+        "start": 740.5,
+        "duration": 3.4,
+        "text": "she does what's called an infield"
+      },
+      {
+        "start": 742.1,
+        "duration": 3.7,
+        "text": "outfield model where she's working with"
+      },
+      {
+        "start": 743.8,
+        "duration": 3.4,
+        "text": "a core group of students the other"
+      },
+      {
+        "start": 745.8,
+        "duration": 3.8,
+        "text": "students are working independently at"
+      },
+      {
+        "start": 747.3,
+        "duration": 4.2,
+        "text": "their level and they are so"
+      },
+      {
+        "start": 749.5,
+        "duration": 5.1,
+        "text": "intrinsically motivated because also"
+      },
+      {
+        "start": 751.5,
+        "duration": 6.0,
+        "text": "with it comes goal setting right it it's"
+      },
+      {
+        "start": 754.6,
+        "duration": 4.6,
+        "text": "not just hey Khan Academy and go no"
+      },
+      {
+        "start": 757.5,
+        "duration": 3.9,
+        "text": "let's set personal goals what are your"
+      },
+      {
+        "start": 759.2,
+        "duration": 4.0,
+        "text": "goals are what is it that the actions"
+      },
+      {
+        "start": 761.4,
+        "duration": 4.2,
+        "text": "that you're going to take to achieve"
+      },
+      {
+        "start": 763.2,
+        "duration": 5.8,
+        "text": "those goals so you have that sense of"
+      },
+      {
+        "start": 765.6,
+        "duration": 5.4,
+        "text": "purpose and then Lex support you so you"
+      },
+      {
+        "start": 769.0,
+        "duration": 5.0,
+        "text": "can meet those goals and that's why"
+      },
+      {
+        "start": 771.0,
+        "duration": 5.8,
+        "text": "those students outperform I mean every"
+      },
+      {
+        "start": 774.0,
+        "duration": 4.4,
+        "text": "single year 100% of those students not"
+      },
+      {
+        "start": 776.8,
+        "duration": 3.7,
+        "text": "only meet the standards but they score"
+      },
+      {
+        "start": 778.4,
+        "duration": 4.2,
+        "text": "advance and that includes students with"
+      },
+      {
+        "start": 780.5,
+        "duration": 4.5,
+        "text": "severe learning disabilities right"
+      },
+      {
+        "start": 782.6,
+        "duration": 6.0,
+        "text": "because they're all working at their"
+      },
+      {
+        "start": 785.0,
+        "duration": 6.6,
+        "text": "level um and so I I I couldn't agree"
+      },
+      {
+        "start": 788.6,
+        "duration": 5.0,
+        "text": "more but it's not just hey just turn on"
+      },
+      {
+        "start": 791.5,
+        "duration": 3.6,
+        "text": "the computer and I don't know why my"
+      },
+      {
+        "start": 793.6,
+        "duration": 4.9,
+        "text": "kids aren't growing Well, because"
+      },
+      {
+        "start": 795.1,
+        "duration": 5.5,
+        "text": "there's no interaction with the student,"
+      },
+      {
+        "start": 798.5,
+        "duration": 5.1,
+        "text": "right? There's no relationship with the"
+      },
+      {
+        "start": 800.6,
+        "duration": 4.2,
+        "text": "student. And I love what you S has in"
+      },
+      {
+        "start": 803.6,
+        "duration": 3.5,
+        "text": "his book. I'm going to bring out this"
+      },
+      {
+        "start": 804.8,
+        "duration": 6.2,
+        "text": "old one of yours, S."
+      },
+      {
+        "start": 807.1,
+        "duration": 8.0,
+        "text": "You have a chapter in here. Um it's it's"
+      },
+      {
+        "start": 811.0,
+        "duration": 7.3,
+        "text": "called uh teaching as a team sport,"
+      },
+      {
+        "start": 815.1,
+        "duration": 6.1,
+        "text": "right? And you talk in this chapter"
+      },
+      {
+        "start": 818.3,
+        "duration": 6.5,
+        "text": "about coaching in here as teachers as"
+      },
+      {
+        "start": 821.2,
+        "duration": 6.2,
+        "text": "coaches and and not as sage on the"
+      },
+      {
+        "start": 824.8,
+        "duration": 5.4,
+        "text": "stage, right? And how important it is to"
+      },
+      {
+        "start": 827.4,
+        "duration": 6.4,
+        "text": "be that coach and to have opportunities"
+      },
+      {
+        "start": 830.2,
+        "duration": 5.3,
+        "text": "for student choice. And what I loved as"
+      },
+      {
+        "start": 833.8,
+        "duration": 4.3,
+        "text": "I was interviewing my students and how"
+      },
+      {
+        "start": 835.5,
+        "duration": 4.8,
+        "text": "they utilize Khan Academy, they love the"
+      },
+      {
+        "start": 838.1,
+        "duration": 4.0,
+        "text": "choice. I'm going to work on unit two or"
+      },
+      {
+        "start": 840.3,
+        "duration": 4.1,
+        "text": "I'm going to work on unit three. I love"
+      },
+      {
+        "start": 842.1,
+        "duration": 4.6,
+        "text": "that there's choice and we love that as"
+      },
+      {
+        "start": 844.4,
+        "duration": 4.9,
+        "text": "adults. Nobody likes to be told what to"
+      },
+      {
+        "start": 846.6,
+        "duration": 4.6,
+        "text": "do, right? And they loved to progress"
+      },
+      {
+        "start": 849.3,
+        "duration": 3.4,
+        "text": "monitor. Oh, here it is. I met this goal"
+      },
+      {
+        "start": 851.2,
+        "duration": 3.9,
+        "text": "and now I'm going to move on to the next"
+      },
+      {
+        "start": 852.6,
+        "duration": 4.1,
+        "text": "one. I mean, literally there was like"
+      },
+      {
+        "start": 855.1,
+        "duration": 3.4,
+        "text": "almost like you could tell this"
+      },
+      {
+        "start": 856.7,
+        "duration": 3.8,
+        "text": "intrinsic competition. I want to get to"
+      },
+      {
+        "start": 858.5,
+        "duration": 4.6,
+        "text": "fifth grade because I know this, right?"
+      },
+      {
+        "start": 860.6,
+        "duration": 5.0,
+        "text": "And that's excitement about learning and"
+      },
+      {
+        "start": 863.1,
+        "duration": 4.6,
+        "text": "and that's not a model that's new. I"
+      },
+      {
+        "start": 865.5,
+        "duration": 3.5,
+        "text": "mean, my education, we all take our, you"
+      },
+      {
+        "start": 867.8,
+        "duration": 4.7,
+        "text": "know, what we learn from our own"
+      },
+      {
+        "start": 869.0,
+        "duration": 5.0,
+        "text": "education. I literally had a model. It"
+      },
+      {
+        "start": 872.5,
+        "duration": 3.8,
+        "text": "was called Accelerated Christian"
+      },
+      {
+        "start": 874.0,
+        "duration": 4.7,
+        "text": "Education. It was It was ACE. It was all"
+      },
+      {
+        "start": 876.3,
+        "duration": 4.7,
+        "text": "work pages. It was goal setting. You do"
+      },
+      {
+        "start": 878.7,
+        "duration": 4.6,
+        "text": "five work pages a day. You had a goal"
+      },
+      {
+        "start": 881.0,
+        "duration": 4.7,
+        "text": "chart, but you could get extra credit"
+      },
+      {
+        "start": 883.3,
+        "duration": 5.6,
+        "text": "points and they were worth five cents"
+      },
+      {
+        "start": 885.8,
+        "duration": 5.8,
+        "text": "for each page you did. And so I"
+      },
+      {
+        "start": 888.9,
+        "duration": 5.5,
+        "text": "literally skipped two grades in math"
+      },
+      {
+        "start": 891.5,
+        "duration": 4.3,
+        "text": "because I wanted to like I I want"
+      },
+      {
+        "start": 894.4,
+        "duration": 3.7,
+        "text": "intrinsically I was like, I'm going to"
+      },
+      {
+        "start": 895.8,
+        "duration": 5.1,
+        "text": "buy those roller skates for my sister"
+      },
+      {
+        "start": 898.1,
+        "duration": 4.5,
+        "text": "out of the J C Penney catalog. I still"
+      },
+      {
+        "start": 901.0,
+        "duration": 4.2,
+        "text": "remember I bought her Smurf roller"
+      },
+      {
+        "start": 902.6,
+        "duration": 5.4,
+        "text": "skates. But it's that same type of"
+      },
+      {
+        "start": 905.1,
+        "duration": 5.1,
+        "text": "concept of here's the goal and you're"
+      },
+      {
+        "start": 908.0,
+        "duration": 3.8,
+        "text": "going to get rewarded if you go past"
+      },
+      {
+        "start": 910.2,
+        "duration": 4.6,
+        "text": "that goal, right? And if I have a"
+      },
+      {
+        "start": 911.8,
+        "duration": 4.7,
+        "text": "question I like it literally, this was"
+      },
+      {
+        "start": 914.8,
+        "duration": 3.8,
+        "text": "this is going to be sound funny, but you"
+      },
+      {
+        "start": 916.5,
+        "duration": 3.8,
+        "text": "put up your flag and and then the"
+      },
+      {
+        "start": 918.6,
+        "duration": 3.9,
+        "text": "teacher went around and answered your"
+      },
+      {
+        "start": 920.2,
+        "duration": 4.5,
+        "text": "question, right? But that worked well"
+      },
+      {
+        "start": 922.5,
+        "duration": 4.3,
+        "text": "for me, but I also saw my friend where I"
+      },
+      {
+        "start": 924.7,
+        "duration": 4.7,
+        "text": "like needed a lot more support from the"
+      },
+      {
+        "start": 926.8,
+        "duration": 5.6,
+        "text": "teacher. So the teacher was with like my"
+      },
+      {
+        "start": 929.4,
+        "duration": 5.0,
+        "text": "friend more, right? So"
+      },
+      {
+        "start": 932.4,
+        "duration": 3.4,
+        "text": "it's very similar with technology. Now"
+      },
+      {
+        "start": 934.5,
+        "duration": 3.0,
+        "text": "it makes it easier. Now I don't have a"
+      },
+      {
+        "start": 935.8,
+        "duration": 4.2,
+        "text": "workbook. Now I can just do it adaptive"
+      },
+      {
+        "start": 937.4,
+        "duration": 2.5,
+        "text": "learning. [laughter]"
+      },
+      {
+        "start": 940.3,
+        "duration": 4.8,
+        "text": ">> That's too much, but yes."
+      },
+      {
+        "start": 941.9,
+        "duration": 4.7,
+        "text": ">> No, you're great. Um S, I wonder if it"
+      },
+      {
+        "start": 945.1,
+        "duration": 4.8,
+        "text": "makes sense for you to speak a little"
+      },
+      {
+        "start": 946.6,
+        "duration": 5.3,
+        "text": "bit now to we kind of rebuilt Khan"
+      },
+      {
+        "start": 949.9,
+        "duration": 3.4,
+        "text": "Academy. Amy just shared with me before"
+      },
+      {
+        "start": 951.9,
+        "duration": 3.5,
+        "text": "you hopped on that they're actually"
+      },
+      {
+        "start": 953.3,
+        "duration": 4.5,
+        "text": "rolling out the reimagined experience"
+      },
+      {
+        "start": 955.4,
+        "duration": 5.9,
+        "text": "this weekend which is exciting, but can"
+      },
+      {
+        "start": 957.8,
+        "duration": 5.4,
+        "text": "you um talk to us a little bit about why"
+      },
+      {
+        "start": 961.4,
+        "duration": 2.6,
+        "text": "is rebuilt with some of the things Amy"
+      },
+      {
+        "start": 963.1,
+        "duration": 2.6,
+        "text": "shared?"
+      },
+      {
+        "start": 964.0,
+        "duration": 3.2,
+        "text": ">> Yes. And Amy, feel free to send"
+      },
+      {
+        "start": 965.8,
+        "duration": 2.9,
+        "text": "immediate feedback. I you know the"
+      },
+      {
+        "start": 967.2,
+        "duration": 3.5,
+        "text": "freshest feedback as [laughter] you roll"
+      },
+      {
+        "start": 968.6,
+        "duration": 3.4,
+        "text": "out. There's a lot of uh changes we"
+      },
+      {
+        "start": 970.7,
+        "duration": 3.0,
+        "text": "made. We're just for everyone to know"
+      },
+      {
+        "start": 972.0,
+        "duration": 2.9,
+        "text": "we're in kind of a a pilot mode right"
+      },
+      {
+        "start": 973.8,
+        "duration": 3.1,
+        "text": "now. So we've been making a lot of"
+      },
+      {
+        "start": 974.9,
+        "duration": 3.4,
+        "text": "changes. So hopefully the the sum of"
+      },
+      {
+        "start": 976.9,
+        "duration": 3.6,
+        "text": "those changes Amy will be very"
+      },
+      {
+        "start": 978.2,
+        "duration": 6.3,
+        "text": "impressed. But the the the catalyst for"
+      },
+      {
+        "start": 980.5,
+        "duration": 6.6,
+        "text": "it um uh there there's many things that"
+      },
+      {
+        "start": 984.6,
+        "duration": 5.8,
+        "text": "we've we we've known that we need to do"
+      },
+      {
+        "start": 987.0,
+        "duration": 5.0,
+        "text": "better um on our classroom experience."
+      },
+      {
+        "start": 990.4,
+        "duration": 3.8,
+        "text": "One of I think one thing we've done very"
+      },
+      {
+        "start": 992.1,
+        "duration": 3.5,
+        "text": "well as Amy mentioned is give giving"
+      },
+      {
+        "start": 994.2,
+        "duration": 4.1,
+        "text": "students a lot of choice, a lot of"
+      },
+      {
+        "start": 995.6,
+        "duration": 4.2,
+        "text": "agency on the platform. But in let's"
+      },
+      {
+        "start": 998.2,
+        "duration": 4.0,
+        "text": "call it the classic Khan Academy, the"
+      },
+      {
+        "start": 999.8,
+        "duration": 4.6,
+        "text": "one that's out there today. uh we have"
+      },
+      {
+        "start": 1002.2,
+        "duration": 4.5,
+        "text": "gotten the clear feedback that that is"
+      },
+      {
+        "start": 1004.4,
+        "duration": 4.3,
+        "text": "great but some students or maybe all"
+      },
+      {
+        "start": 1006.7,
+        "duration": 3.8,
+        "text": "could also benefit from some direction"
+      },
+      {
+        "start": 1008.7,
+        "duration": 3.3,
+        "text": "too like when in doubt what's the next"
+      },
+      {
+        "start": 1010.5,
+        "duration": 4.3,
+        "text": "thing that I should work on or the next"
+      },
+      {
+        "start": 1012.0,
+        "duration": 5.0,
+        "text": "two or three things so one thing that's"
+      },
+      {
+        "start": 1014.8,
+        "duration": 4.6,
+        "text": "in Khan Academy reimagined is it's a"
+      },
+      {
+        "start": 1017.0,
+        "duration": 4.4,
+        "text": "very clear learning path that's almost"
+      },
+      {
+        "start": 1019.4,
+        "duration": 3.2,
+        "text": "the most obvious visually thing you know"
+      },
+      {
+        "start": 1021.4,
+        "duration": 3.7,
+        "text": "the students will see their learning"
+      },
+      {
+        "start": 1022.6,
+        "duration": 4.2,
+        "text": "path now they can also continue to have"
+      },
+      {
+        "start": 1025.0,
+        "duration": 3.2,
+        "text": "the view that they've that they're maybe"
+      },
+      {
+        "start": 1026.8,
+        "duration": 3.7,
+        "text": "used to if they have been using Khan"
+      },
+      {
+        "start": 1028.2,
+        "duration": 4.5,
+        "text": "Academy where they can see all the units"
+      },
+      {
+        "start": 1030.5,
+        "duration": 5.1,
+        "text": "etc etc ETA. Um, another catalyst,"
+      },
+      {
+        "start": 1032.7,
+        "duration": 4.7,
+        "text": "frankly, was u"
+      },
+      {
+        "start": 1035.6,
+        "duration": 2.9,
+        "text": "federal accessibility guidelines. We"
+      },
+      {
+        "start": 1037.4,
+        "duration": 2.6,
+        "text": "were saying, \"Okay, what would it take"
+      },
+      {
+        "start": 1038.5,
+        "duration": 3.5,
+        "text": "for us to redo all of our current?\""
+      },
+      {
+        "start": 1040.1,
+        "duration": 4.6,
+        "text": "We're like, \"No, let's just rebuild it"
+      },
+      {
+        "start": 1042.0,
+        "duration": 5.8,
+        "text": "all and do it uh so it's all it's all"
+      },
+      {
+        "start": 1044.7,
+        "duration": 5.4,
+        "text": "accessible.\" We knew that a lot of the"
+      },
+      {
+        "start": 1047.8,
+        "duration": 3.8,
+        "text": "teacher tools, uh, you know, maybe I"
+      },
+      {
+        "start": 1050.2,
+        "duration": 3.5,
+        "text": "shouldn't share what what we sometimes"
+      },
+      {
+        "start": 1051.6,
+        "duration": 3.8,
+        "text": "call our own, uh, experience in house,"
+      },
+      {
+        "start": 1053.7,
+        "duration": 3.0,
+        "text": "but we've we sometimes called it a"
+      },
+      {
+        "start": 1055.4,
+        "duration": 2.7,
+        "text": "Winchester Mystery House. For any of"
+      },
+      {
+        "start": 1056.7,
+        "duration": 3.6,
+        "text": "y'all who have been to San Jose, there's"
+      },
+      {
+        "start": 1058.1,
+        "duration": 4.3,
+        "text": "this old mansion that I think the the"
+      },
+      {
+        "start": 1060.3,
+        "duration": 4.3,
+        "text": "the woman who lived there 100 years ago"
+      },
+      {
+        "start": 1062.4,
+        "duration": 4.1,
+        "text": "was trying to confuse a ghost and um"
+      },
+      {
+        "start": 1064.6,
+        "duration": 3.9,
+        "text": "built a lot of stair staircases to"
+      },
+      {
+        "start": 1066.5,
+        "duration": 3.8,
+        "text": "nowhere or doors that just drop into a"
+      },
+      {
+        "start": 1068.6,
+        "duration": 4.0,
+        "text": "pit and things like that. I I don't"
+      },
+      {
+        "start": 1070.3,
+        "duration": 4.6,
+        "text": "think we were that bad. But um I think"
+      },
+      {
+        "start": 1072.6,
+        "duration": 4.2,
+        "text": "any product that when you have years and"
+      },
+      {
+        "start": 1075.0,
+        "duration": 3.5,
+        "text": "years and years of incremental change"
+      },
+      {
+        "start": 1076.7,
+        "duration": 3.3,
+        "text": "and someone asks you, hey, add this, add"
+      },
+      {
+        "start": 1078.5,
+        "duration": 3.8,
+        "text": "that, we're like, oh yes, and you add"
+      },
+      {
+        "start": 1080.0,
+        "duration": 4.0,
+        "text": "it, but it doesn't it's not maybe not as"
+      },
+      {
+        "start": 1082.3,
+        "duration": 3.8,
+        "text": "easy to find. You have to hunt and peck"
+      },
+      {
+        "start": 1084.0,
+        "duration": 4.7,
+        "text": "and and click around a lot. So we really"
+      },
+      {
+        "start": 1086.2,
+        "duration": 5.0,
+        "text": "wanted to make it much clearer on how to"
+      },
+      {
+        "start": 1088.7,
+        "duration": 4.5,
+        "text": "use it, how to onboard it. Another"
+      },
+      {
+        "start": 1091.1,
+        "duration": 4.6,
+        "text": "thing, you know, there's so many use"
+      },
+      {
+        "start": 1093.2,
+        "duration": 3.7,
+        "text": "cases in education. Uh there's the"
+      },
+      {
+        "start": 1095.7,
+        "duration": 3.4,
+        "text": "teacher who might want to make the"
+      },
+      {
+        "start": 1096.9,
+        "duration": 3.5,
+        "text": "one-off assignment. There's the the"
+      },
+      {
+        "start": 1099.0,
+        "duration": 3.5,
+        "text": "teacher who want wants to do the more"
+      },
+      {
+        "start": 1100.4,
+        "duration": 3.9,
+        "text": "personalized learning. Uh students"
+      },
+      {
+        "start": 1102.6,
+        "duration": 3.6,
+        "text": "learning at their own time and pace. And"
+      },
+      {
+        "start": 1104.3,
+        "duration": 4.0,
+        "text": "historically, we part of the Winchester"
+      },
+      {
+        "start": 1106.2,
+        "duration": 4.2,
+        "text": "Mystery House is we were trying to meet"
+      },
+      {
+        "start": 1108.3,
+        "duration": 3.5,
+        "text": "all of these and we still are. But I"
+      },
+      {
+        "start": 1110.4,
+        "duration": 4.2,
+        "text": "think in this new product, you're going"
+      },
+      {
+        "start": 1111.8,
+        "duration": 4.7,
+        "text": "to see a stronger opinion um that we"
+      },
+      {
+        "start": 1114.6,
+        "duration": 3.3,
+        "text": "really do think the personalized mastery"
+      },
+      {
+        "start": 1116.6,
+        "duration": 3.3,
+        "text": "learning. Teachers can still make"
+      },
+      {
+        "start": 1117.9,
+        "duration": 5.0,
+        "text": "one-off assignments, but this one"
+      },
+      {
+        "start": 1119.8,
+        "duration": 5.5,
+        "text": "definitely has a bias towards teachers"
+      },
+      {
+        "start": 1122.9,
+        "duration": 4.4,
+        "text": "assigning the units for the year being"
+      },
+      {
+        "start": 1125.4,
+        "duration": 3.7,
+        "text": "very easy to monitor it. And we're"
+      },
+      {
+        "start": 1127.3,
+        "duration": 3.8,
+        "text": "already seeing really good data in the"
+      },
+      {
+        "start": 1129.0,
+        "duration": 4.1,
+        "text": "pilots that when teachers assign the"
+      },
+      {
+        "start": 1131.1,
+        "duration": 3.8,
+        "text": "units for the year, we're seeing"
+      },
+      {
+        "start": 1133.1,
+        "duration": 5.4,
+        "text": "depending on on the classroom, we're"
+      },
+      {
+        "start": 1135.0,
+        "duration": 6.2,
+        "text": "looking at 50 60% increase in skills"
+      },
+      {
+        "start": 1138.6,
+        "duration": 5.9,
+        "text": "leveled up. um on on Khan Academy. So"
+      },
+      {
+        "start": 1141.2,
+        "duration": 5.4,
+        "text": "loving that part. Um Kigo the AI I think"
+      },
+      {
+        "start": 1144.5,
+        "duration": 4.6,
+        "text": "the first version it was very much this"
+      },
+      {
+        "start": 1146.6,
+        "duration": 3.9,
+        "text": "thing that sits on the side and it had"
+      },
+      {
+        "start": 1149.1,
+        "duration": 2.6,
+        "text": "some benefits but once again when it"
+      },
+      {
+        "start": 1150.5,
+        "duration": 2.7,
+        "text": "just sits on the side it's like a tutor"
+      },
+      {
+        "start": 1151.8,
+        "duration": 3.0,
+        "text": "that says hey come ask me a question and"
+      },
+      {
+        "start": 1153.2,
+        "duration": 2.8,
+        "text": "a lot of students might not have know"
+      },
+      {
+        "start": 1154.7,
+        "duration": 3.8,
+        "text": "how to ask the question or get the"
+      },
+      {
+        "start": 1156.0,
+        "duration": 4.2,
+        "text": "question. We're now it's it's it's a"
+      },
+      {
+        "start": 1158.5,
+        "duration": 3.3,
+        "text": "much more central character and and once"
+      },
+      {
+        "start": 1160.2,
+        "duration": 3.9,
+        "text": "again not just for the sake of throwing"
+      },
+      {
+        "start": 1161.8,
+        "duration": 4.1,
+        "text": "AI in there. it is to drive engagement"
+      },
+      {
+        "start": 1164.2,
+        "duration": 3.5,
+        "text": "to make sure kids are reflecting when"
+      },
+      {
+        "start": 1165.8,
+        "duration": 3.6,
+        "text": "they get something wrong, maybe get"
+      },
+      {
+        "start": 1167.7,
+        "duration": 3.8,
+        "text": "extra opportunities."
+      },
+      {
+        "start": 1169.4,
+        "duration": 3.6,
+        "text": "Similarly, on the teacher side, it acts"
+      },
+      {
+        "start": 1171.5,
+        "duration": 3.0,
+        "text": "much more as a proactive teaching"
+      },
+      {
+        "start": 1173.0,
+        "duration": 3.0,
+        "text": "assistant. Uh, you know, internally"
+      },
+      {
+        "start": 1174.6,
+        "duration": 3.7,
+        "text": "we've called it, you know, KIGO"
+      },
+      {
+        "start": 1176.1,
+        "duration": 3.4,
+        "text": "concierge, Khan Academy concierge."
+      },
+      {
+        "start": 1178.2,
+        "duration": 3.1,
+        "text": "Anything that the teacher needs to do,"
+      },
+      {
+        "start": 1179.4,
+        "duration": 4.2,
+        "text": "they can do it conversationally now. Uh,"
+      },
+      {
+        "start": 1181.4,
+        "duration": 3.8,
+        "text": "but those are those are kind of the um"
+      },
+      {
+        "start": 1183.7,
+        "duration": 3.3,
+        "text": "oh, and there's there's more game"
+      },
+      {
+        "start": 1185.2,
+        "duration": 3.2,
+        "text": "mechanics. So, there's a fun live"
+      },
+      {
+        "start": 1187.0,
+        "duration": 4.6,
+        "text": "classroom game. We actually only"
+      },
+      {
+        "start": 1188.4,
+        "duration": 5.5,
+        "text": "launched that about month or two ago and"
+      },
+      {
+        "start": 1191.6,
+        "duration": 4.2,
+        "text": "that one is dramatically increasing"
+      },
+      {
+        "start": 1193.9,
+        "duration": 3.3,
+        "text": "engagement. So that the first 30, you"
+      },
+      {
+        "start": 1195.8,
+        "duration": 3.4,
+        "text": "know, when the students work for 30"
+      },
+      {
+        "start": 1197.2,
+        "duration": 5.2,
+        "text": "minutes on Khan Academy, we're seeing"
+      },
+      {
+        "start": 1199.3,
+        "duration": 5.0,
+        "text": "almost a 4x in terms of how how many"
+      },
+      {
+        "start": 1202.4,
+        "duration": 3.4,
+        "text": "skills the k kids are leveling up in"
+      },
+      {
+        "start": 1204.3,
+        "duration": 3.3,
+        "text": "those 30 minutes. And that's because"
+      },
+      {
+        "start": 1205.8,
+        "duration": 3.0,
+        "text": "their posture changes because it's a"
+      },
+      {
+        "start": 1207.6,
+        "duration": 2.7,
+        "text": "game. And I've seen that with my own"
+      },
+      {
+        "start": 1208.7,
+        "duration": 3.0,
+        "text": "11-year-old. I I always used to ask him,"
+      },
+      {
+        "start": 1210.3,
+        "duration": 3.5,
+        "text": "\"Oh, how much progress you get on Khan"
+      },
+      {
+        "start": 1211.7,
+        "duration": 4.9,
+        "text": "Academy?\" And you know, I on a good day"
+      },
+      {
+        "start": 1213.8,
+        "duration": 4.5,
+        "text": "he used to tell me 1% 2%. Now, now he'll"
+      },
+      {
+        "start": 1216.6,
+        "duration": 3.1,
+        "text": "say like 8%. I'm like, \"What happened?"
+      },
+      {
+        "start": 1218.3,
+        "duration": 3.0,
+        "text": "How did you get 8% of a whole course"
+      },
+      {
+        "start": 1219.6,
+        "duration": 4.0,
+        "text": "[laughter] in a day?\" And he's like, \"Oh"
+      },
+      {
+        "start": 1221.4,
+        "duration": 4.1,
+        "text": "no, teacher Mike, he he did the"
+      },
+      {
+        "start": 1223.6,
+        "duration": 3.6,
+        "text": "classroom game and I love [laughter] him"
+      },
+      {
+        "start": 1225.4,
+        "duration": 2.9,
+        "text": "and his buddies.\" Uh, and and then"
+      },
+      {
+        "start": 1227.2,
+        "duration": 3.0,
+        "text": "there's some fun stuff like"
+      },
+      {
+        "start": 1228.3,
+        "duration": 3.5,
+        "text": "leaderboards, too, that we think we we"
+      },
+      {
+        "start": 1230.2,
+        "duration": 4.3,
+        "text": "see early signals that it's it's having"
+      },
+      {
+        "start": 1231.8,
+        "duration": 4.2,
+        "text": "a fun cooperative co-op coopetition"
+      },
+      {
+        "start": 1234.5,
+        "duration": 3.0,
+        "text": "spirit. And that's a best practice that"
+      },
+      {
+        "start": 1236.1,
+        "duration": 3.0,
+        "text": "we saw out of a lot of school districts."
+      },
+      {
+        "start": 1237.5,
+        "duration": 3.3,
+        "text": "They would do it on poster board and"
+      },
+      {
+        "start": 1239.1,
+        "duration": 4.9,
+        "text": "send out emails. And once again, it's"
+      },
+      {
+        "start": 1240.8,
+        "duration": 4.5,
+        "text": "fun coopetition, light accountability."
+      },
+      {
+        "start": 1244.0,
+        "duration": 3.2,
+        "text": "Uh but we think these types of things"
+      },
+      {
+        "start": 1245.3,
+        "duration": 2.5,
+        "text": "will drive engagement."
+      },
+      {
+        "start": 1247.2,
+        "duration": 1.8,
+        "text": ">> Exciting."
+      },
+      {
+        "start": 1247.8,
+        "duration": 1.8,
+        "text": ">> Kids are going to love that."
+      },
+      {
+        "start": 1249.0,
+        "duration": 1.8,
+        "text": ">> Yeah."
+      },
+      {
+        "start": 1249.5,
+        "duration": 2.5,
+        "text": ">> The gamified component."
+      },
+      {
+        "start": 1250.9,
+        "duration": 4.1,
+        "text": ">> Yes."
+      },
+      {
+        "start": 1252.0,
+        "duration": 5.4,
+        "text": ">> So, we know we know gamified components"
+      },
+      {
+        "start": 1255.0,
+        "duration": 4.4,
+        "text": "of learning are effective. We've learned"
+      },
+      {
+        "start": 1257.4,
+        "duration": 4.6,
+        "text": "a lot about how to move students forward"
+      },
+      {
+        "start": 1259.4,
+        "duration": 5.9,
+        "text": "with technology. I can't help but bring"
+      },
+      {
+        "start": 1262.1,
+        "duration": 6.2,
+        "text": "this conversation to a a point about"
+      },
+      {
+        "start": 1265.3,
+        "duration": 6.1,
+        "text": "screen time because it's every headline,"
+      },
+      {
+        "start": 1268.2,
+        "duration": 5.4,
+        "text": "right? Um Amy, you are a parent and a"
+      },
+      {
+        "start": 1271.4,
+        "duration": 4.7,
+        "text": "principal and a superintendent. Maybe"
+      },
+      {
+        "start": 1273.7,
+        "duration": 4.8,
+        "text": "you can start us off like what are you"
+      },
+      {
+        "start": 1276.1,
+        "duration": 4.7,
+        "text": "hearing? What are you feeling? What do"
+      },
+      {
+        "start": 1278.5,
+        "duration": 4.5,
+        "text": "you have to report on?"
+      },
+      {
+        "start": 1280.8,
+        "duration": 5.4,
+        "text": ">> Yeah, I think every parent's worried"
+      },
+      {
+        "start": 1283.0,
+        "duration": 5.5,
+        "text": "about screen time, right? And and um"
+      },
+      {
+        "start": 1286.2,
+        "duration": 4.1,
+        "text": "including me, you know, my kids are 18"
+      },
+      {
+        "start": 1288.5,
+        "duration": 3.4,
+        "text": "and 20, well adults now, right?"
+      },
+      {
+        "start": 1290.4,
+        "duration": 4.8,
+        "text": "[laughter] That you're worried about"
+      },
+      {
+        "start": 1291.8,
+        "duration": 5.4,
+        "text": "screen time. And you know, and that's"
+      },
+      {
+        "start": 1295.1,
+        "duration": 4.1,
+        "text": "why I tell everyone in Salvador me say"
+      },
+      {
+        "start": 1297.3,
+        "duration": 3.9,
+        "text": "this all the time is you have to start"
+      },
+      {
+        "start": 1299.2,
+        "duration": 4.3,
+        "text": "with the common sense media digital"
+      },
+      {
+        "start": 1301.2,
+        "duration": 4.7,
+        "text": "citizenship lessons. Like this is where"
+      },
+      {
+        "start": 1303.5,
+        "duration": 4.5,
+        "text": "we did it wrong with social media. You"
+      },
+      {
+        "start": 1305.9,
+        "duration": 4.3,
+        "text": "know, secondary assumed, elementary did"
+      },
+      {
+        "start": 1308.0,
+        "duration": 3.9,
+        "text": "it, elementary assumed, secondary taught"
+      },
+      {
+        "start": 1310.2,
+        "duration": 5.0,
+        "text": "the lesson. So the students never got"
+      },
+      {
+        "start": 1311.9,
+        "duration": 5.0,
+        "text": "them. Um, but what they also do is they"
+      },
+      {
+        "start": 1315.2,
+        "duration": 3.8,
+        "text": "not only teach the student, they teach"
+      },
+      {
+        "start": 1317.0,
+        "duration": 4.4,
+        "text": "the teacher because you're learning, oh"
+      },
+      {
+        "start": 1319.0,
+        "duration": 4.6,
+        "text": "wow, I never saw the bias in AI or I"
+      },
+      {
+        "start": 1321.4,
+        "duration": 4.8,
+        "text": "didn't understand this. So I think"
+      },
+      {
+        "start": 1323.6,
+        "duration": 5.4,
+        "text": "that's important in and students"
+      },
+      {
+        "start": 1326.2,
+        "duration": 5.8,
+        "text": "understanding that screen time can be"
+      },
+      {
+        "start": 1329.0,
+        "duration": 5.4,
+        "text": "addictive and and so for us at"
+      },
+      {
+        "start": 1332.0,
+        "duration": 4.3,
+        "text": "ColdSpring I get this question a lot"
+      },
+      {
+        "start": 1334.3,
+        "duration": 3.8,
+        "text": "especially because I'm you know AI task"
+      },
+      {
+        "start": 1336.3,
+        "duration": 4.2,
+        "text": "force chair I think parents so worried"
+      },
+      {
+        "start": 1338.2,
+        "duration": 6.1,
+        "text": "that our kids are on devices all the"
+      },
+      {
+        "start": 1340.5,
+        "duration": 7.3,
+        "text": "time which is not the case right and at"
+      },
+      {
+        "start": 1344.2,
+        "duration": 5.5,
+        "text": "all I mean we are so whole child um I"
+      },
+      {
+        "start": 1347.8,
+        "duration": 3.7,
+        "text": "said you know they're probably on a"
+      },
+      {
+        "start": 1349.8,
+        "duration": 4.6,
+        "text": "device"
+      },
+      {
+        "start": 1351.4,
+        "duration": 6.6,
+        "text": "max maybe in fourth through sixth grade"
+      },
+      {
+        "start": 1354.4,
+        "duration": 7.0,
+        "text": "an hour a day I would say um in the the"
+      },
+      {
+        "start": 1358.1,
+        "duration": 6.6,
+        "text": "lower grades more like 20 to 40 a"
+      },
+      {
+        "start": 1361.4,
+        "duration": 6.1,
+        "text": "minutes and I and I say our kids aren't"
+      },
+      {
+        "start": 1364.6,
+        "duration": 5.3,
+        "text": "getting addicted tech to technology at"
+      },
+      {
+        "start": 1367.5,
+        "duration": 5.0,
+        "text": "school I'm just going to be honest I"
+      },
+      {
+        "start": 1369.9,
+        "duration": 4.7,
+        "text": "tell you parents it's at home I mean"
+      },
+      {
+        "start": 1372.5,
+        "duration": 4.5,
+        "text": "we're utilizing it as a babysitter and I"
+      },
+      {
+        "start": 1374.6,
+        "duration": 4.2,
+        "text": "said I you know what I'm at fault right"
+      },
+      {
+        "start": 1377.0,
+        "duration": 3.3,
+        "text": "here's a phone you're at dinner you're"
+      },
+      {
+        "start": 1378.8,
+        "duration": 2.8,
+        "text": "out to dinner you need your little one"
+      },
+      {
+        "start": 1380.2,
+        "duration": 3.0,
+        "text": "to be quiet here watching watch this"
+      },
+      {
+        "start": 1381.6,
+        "duration": 3.9,
+        "text": "movie, right? You're on a plane, watch"
+      },
+      {
+        "start": 1383.3,
+        "duration": 4.7,
+        "text": "this. You know, you're on a car ride."
+      },
+      {
+        "start": 1385.5,
+        "duration": 4.5,
+        "text": "And so, they're getting more technology"
+      },
+      {
+        "start": 1388.0,
+        "duration": 3.6,
+        "text": "outside of school than they are within"
+      },
+      {
+        "start": 1390.0,
+        "duration": 5.8,
+        "text": "the school day. I mean, that's just the"
+      },
+      {
+        "start": 1391.6,
+        "duration": 7.4,
+        "text": "honest truth. Um and so yeah, it is an"
+      },
+      {
+        "start": 1395.8,
+        "duration": 6.2,
+        "text": "issue, but I think um it is frustrating."
+      },
+      {
+        "start": 1399.0,
+        "duration": 6.6,
+        "text": "I know as educators when we hear this,"
+      },
+      {
+        "start": 1401.9,
+        "duration": 6.0,
+        "text": "you know, um argument brought up a lot"
+      },
+      {
+        "start": 1405.6,
+        "duration": 5.8,
+        "text": "that we as educators are causing our"
+      },
+      {
+        "start": 1407.9,
+        "duration": 6.6,
+        "text": "kids to be addicted to technology when"
+      },
+      {
+        "start": 1411.4,
+        "duration": 4.7,
+        "text": "um in fact that's not the case. It it is"
+      },
+      {
+        "start": 1414.5,
+        "duration": 3.4,
+        "text": "frustrating."
+      },
+      {
+        "start": 1416.1,
+        "duration": 5.4,
+        "text": ">> S what are what are you hearing? I'll"
+      },
+      {
+        "start": 1417.8,
+        "duration": 5.9,
+        "text": "let you respond. Yeah, I always like"
+      },
+      {
+        "start": 1421.4,
+        "duration": 4.1,
+        "text": "once again take a step back and no don't"
+      },
+      {
+        "start": 1423.8,
+        "duration": 4.2,
+        "text": "make it like about technology versus not"
+      },
+      {
+        "start": 1425.5,
+        "duration": 6.1,
+        "text": "technology because I think even before"
+      },
+      {
+        "start": 1428.0,
+        "duration": 5.4,
+        "text": "the first computer entered a classroom"
+      },
+      {
+        "start": 1431.6,
+        "duration": 3.2,
+        "text": "you could visit two different classrooms"
+      },
+      {
+        "start": 1433.4,
+        "duration": 2.5,
+        "text": "and say oh this is one where this is"
+      },
+      {
+        "start": 1434.8,
+        "duration": 2.2,
+        "text": "really good for the kids and then"
+      },
+      {
+        "start": 1435.8,
+        "duration": 3.4,
+        "text": "another one where you're like hey I"
+      },
+      {
+        "start": 1437.0,
+        "duration": 4.4,
+        "text": "think the kids are kind of brain rotting"
+      },
+      {
+        "start": 1439.2,
+        "duration": 4.1,
+        "text": "even before technology existed and the"
+      },
+      {
+        "start": 1441.4,
+        "duration": 3.9,
+        "text": "difference the good one the one that you"
+      },
+      {
+        "start": 1443.3,
+        "duration": 4.2,
+        "text": "want is a lot of what we already talked"
+      },
+      {
+        "start": 1445.4,
+        "duration": 5.2,
+        "text": "about there's active learning the kids"
+      },
+      {
+        "start": 1447.5,
+        "duration": 5.0,
+        "text": "are engaged the teacher is engaged. Um,"
+      },
+      {
+        "start": 1450.6,
+        "duration": 3.6,
+        "text": "they're helping each other. Uh, they're"
+      },
+      {
+        "start": 1452.5,
+        "duration": 3.9,
+        "text": "they're getting feedback on the things"
+      },
+      {
+        "start": 1454.2,
+        "duration": 6.2,
+        "text": "that they need to get feedback on. And"
+      },
+      {
+        "start": 1456.4,
+        "duration": 6.4,
+        "text": "an and a not so great classroom is the"
+      },
+      {
+        "start": 1460.3,
+        "duration": 4.5,
+        "text": "kids are, you know, kind of just trying"
+      },
+      {
+        "start": 1462.8,
+        "duration": 3.5,
+        "text": "to sit in the chair, kind of passive,"
+      },
+      {
+        "start": 1464.8,
+        "duration": 3.1,
+        "text": "fingers on their lips. I mean, you know,"
+      },
+      {
+        "start": 1466.3,
+        "duration": 2.6,
+        "text": "some of us grew up in classrooms, not"
+      },
+      {
+        "start": 1467.9,
+        "duration": 2.2,
+        "text": "all of them. There were some great"
+      },
+      {
+        "start": 1468.9,
+        "duration": 2.9,
+        "text": "classrooms where where I grew up, too,"
+      },
+      {
+        "start": 1470.1,
+        "duration": 3.8,
+        "text": "but there some were like this. You're"
+      },
+      {
+        "start": 1471.8,
+        "duration": 4.5,
+        "text": "just staring at the clock. Most of the"
+      },
+      {
+        "start": 1473.8,
+        "duration": 3.7,
+        "text": "class is either lost or bored. Um,"
+      },
+      {
+        "start": 1476.2,
+        "duration": 2.6,
+        "text": "you're not allowed to talk to each"
+      },
+      {
+        "start": 1477.5,
+        "duration": 2.6,
+        "text": "other. That's how one of the best ways"
+      },
+      {
+        "start": 1478.8,
+        "duration": 3.0,
+        "text": "that human beings actually learn,"
+      },
+      {
+        "start": 1480.2,
+        "duration": 5.5,
+        "text": "obviously it has to be controlled in in"
+      },
+      {
+        "start": 1481.8,
+        "duration": 5.4,
+        "text": "a reasonable way. But that's not um that"
+      },
+      {
+        "start": 1485.7,
+        "duration": 3.4,
+        "text": "that's not ideal either. And so I think"
+      },
+      {
+        "start": 1487.2,
+        "duration": 4.1,
+        "text": "if we go into this world where now"
+      },
+      {
+        "start": 1489.0,
+        "duration": 3.8,
+        "text": "technology is another variable and 100%"
+      },
+      {
+        "start": 1491.3,
+        "duration": 2.9,
+        "text": "agree with everyone, it is it can be"
+      },
+      {
+        "start": 1492.8,
+        "duration": 3.2,
+        "text": "very addictive. So you have to be very"
+      },
+      {
+        "start": 1494.2,
+        "duration": 4.3,
+        "text": "very careful with it. But I think what"
+      },
+      {
+        "start": 1496.0,
+        "duration": 3.8,
+        "text": "we need to optimize for is but if we're"
+      },
+      {
+        "start": 1498.5,
+        "duration": 5.0,
+        "text": "talking about the classroom environments"
+      },
+      {
+        "start": 1499.8,
+        "duration": 6.7,
+        "text": "that are active learning either at your"
+      },
+      {
+        "start": 1503.4,
+        "duration": 5.2,
+        "text": "zone of proximal development and or"
+      },
+      {
+        "start": 1506.6,
+        "duration": 3.8,
+        "text": "learning other what do you would call it"
+      },
+      {
+        "start": 1508.6,
+        "duration": 4.4,
+        "text": "soft skills durable skills of"
+      },
+      {
+        "start": 1510.3,
+        "duration": 5.8,
+        "text": "communication intrapersonal skills uh"
+      },
+      {
+        "start": 1513.0,
+        "duration": 8.0,
+        "text": "it's being more personalized etc. So,"
+      },
+      {
+        "start": 1516.1,
+        "duration": 8.0,
+        "text": "it's not I if if a student is um using a"
+      },
+      {
+        "start": 1521.0,
+        "duration": 4.9,
+        "text": "screen to edit some really cool video"
+      },
+      {
+        "start": 1524.1,
+        "duration": 3.4,
+        "text": "they're making, if they're using a"
+      },
+      {
+        "start": 1525.9,
+        "duration": 4.0,
+        "text": "screen for digital art, if they're using"
+      },
+      {
+        "start": 1527.5,
+        "duration": 3.8,
+        "text": "a screen to write a paper, um if and and"
+      },
+      {
+        "start": 1529.9,
+        "duration": 2.9,
+        "text": "actually use it, do it themselves, if"
+      },
+      {
+        "start": 1531.4,
+        "duration": 3.4,
+        "text": "they're using a screen for research, if"
+      },
+      {
+        "start": 1532.8,
+        "duration": 5.0,
+        "text": "they're using a screen for Khan Academy,"
+      },
+      {
+        "start": 1534.8,
+        "duration": 4.5,
+        "text": "um I think those are are solid uses. And"
+      },
+      {
+        "start": 1537.8,
+        "duration": 3.4,
+        "text": "you know on average yeah you don't want"
+      },
+      {
+        "start": 1539.3,
+        "duration": 3.4,
+        "text": "it too much but I think any of us who've"
+      },
+      {
+        "start": 1541.1,
+        "duration": 3.0,
+        "text": "gone deep on something sometimes you get"
+      },
+      {
+        "start": 1542.7,
+        "duration": 3.3,
+        "text": "in focus mode and you might spend a"
+      },
+      {
+        "start": 1544.2,
+        "duration": 3.4,
+        "text": "couple of hour you know when I when I"
+      },
+      {
+        "start": 1546.0,
+        "duration": 3.1,
+        "text": "got really into programming when I was"
+      },
+      {
+        "start": 1547.5,
+        "duration": 3.8,
+        "text": "in high school yeah there were days"
+      },
+      {
+        "start": 1549.1,
+        "duration": 3.6,
+        "text": "where I would just get super focused and"
+      },
+      {
+        "start": 1551.3,
+        "duration": 4.3,
+        "text": "12 hours I'm like where did that time"
+      },
+      {
+        "start": 1552.7,
+        "duration": 5.8,
+        "text": "go? But I wrote a cool application. That"
+      },
+      {
+        "start": 1555.6,
+        "duration": 4.7,
+        "text": "is not bad as long as I still had"
+      },
+      {
+        "start": 1558.6,
+        "duration": 4.5,
+        "text": "friends. I'm still going out. I'm still"
+      },
+      {
+        "start": 1560.3,
+        "duration": 4.9,
+        "text": "getting exercise. I'm still interacting"
+      },
+      {
+        "start": 1563.0,
+        "duration": 5.2,
+        "text": "etc. etc. So, I think that's what we"
+      },
+      {
+        "start": 1565.2,
+        "duration": 5.1,
+        "text": "want to optimize for. Um, and yeah, we"
+      },
+      {
+        "start": 1568.2,
+        "duration": 4.7,
+        "text": "want to look, cell phones have no"
+      },
+      {
+        "start": 1570.3,
+        "duration": 5.1,
+        "text": "business definitely in in in the school"
+      },
+      {
+        "start": 1573.0,
+        "duration": 5.2,
+        "text": "setting and at home. I mean, we're it's"
+      },
+      {
+        "start": 1575.4,
+        "duration": 4.2,
+        "text": "not just kids, all of us. I I I ruined"
+      },
+      {
+        "start": 1578.2,
+        "duration": 2.7,
+        "text": "30 minutes of my morning this, you know,"
+      },
+      {
+        "start": 1579.6,
+        "duration": 3.5,
+        "text": "just reading the news. I'm like, what"
+      },
+      {
+        "start": 1580.9,
+        "duration": 3.9,
+        "text": "happened to my [laughter] time? So, and"
+      },
+      {
+        "start": 1583.1,
+        "duration": 3.3,
+        "text": "if we and if our frontal loes are"
+      },
+      {
+        "start": 1584.8,
+        "duration": 3.8,
+        "text": "apparently more developed, they're going"
+      },
+      {
+        "start": 1586.4,
+        "duration": 4.6,
+        "text": "to even have more trouble uh controlling"
+      },
+      {
+        "start": 1588.6,
+        "duration": 3.7,
+        "text": "themselves. But um you know I don't"
+      },
+      {
+        "start": 1591.0,
+        "duration": 3.2,
+        "text": "think you should just leave a computer"
+      },
+      {
+        "start": 1592.2,
+        "duration": 4.1,
+        "text": "there on the desk all day. That becomes"
+      },
+      {
+        "start": 1594.2,
+        "duration": 4.0,
+        "text": "a distraction. Uh things like that. But"
+      },
+      {
+        "start": 1596.3,
+        "duration": 3.3,
+        "text": "it's all about good use versus bad use."
+      },
+      {
+        "start": 1598.2,
+        "duration": 2.7,
+        "text": "But it's good use of technology, bad use"
+      },
+      {
+        "start": 1599.6,
+        "duration": 3.0,
+        "text": "of technology and also good use of"
+      },
+      {
+        "start": 1600.9,
+        "duration": 3.1,
+        "text": "humans in the room together and bad use"
+      },
+      {
+        "start": 1602.6,
+        "duration": 2.5,
+        "text": "of humans in the room."
+      },
+      {
+        "start": 1604.0,
+        "duration": 3.4,
+        "text": ">> Yeah."
+      },
+      {
+        "start": 1605.1,
+        "duration": 5.1,
+        "text": ">> Thank you. Um we have just two minutes"
+      },
+      {
+        "start": 1607.4,
+        "duration": 4.3,
+        "text": "left and um luckily I found out Amy that"
+      },
+      {
+        "start": 1610.2,
+        "duration": 3.4,
+        "text": "you have a personal mission statement"
+      },
+      {
+        "start": 1611.8,
+        "duration": 3.9,
+        "text": "just like S has a mission statement. So"
+      },
+      {
+        "start": 1613.6,
+        "duration": 4.0,
+        "text": "I was hoping um we could close with"
+      },
+      {
+        "start": 1615.7,
+        "duration": 4.3,
+        "text": "that. your personal mission is to show"
+      },
+      {
+        "start": 1617.6,
+        "duration": 4.9,
+        "text": "what's possible in public education,"
+      },
+      {
+        "start": 1620.0,
+        "duration": 4.5,
+        "text": "right? So, I'm wondering, can you share"
+      },
+      {
+        "start": 1622.5,
+        "duration": 3.8,
+        "text": "with this audience one thing that you"
+      },
+      {
+        "start": 1624.5,
+        "duration": 3.0,
+        "text": "want them to walk away believing is"
+      },
+      {
+        "start": 1626.2,
+        "duration": 5.4,
+        "text": "possible?"
+      },
+      {
+        "start": 1627.4,
+        "duration": 8.6,
+        "text": ">> Yeah. Um, you know, I think we're in"
+      },
+      {
+        "start": 1631.7,
+        "duration": 7.4,
+        "text": "this space right now with um creativity"
+      },
+      {
+        "start": 1636.0,
+        "duration": 5.6,
+        "text": "and innovation um with artificial"
+      },
+      {
+        "start": 1639.0,
+        "duration": 6.7,
+        "text": "intelligence and what that can look like"
+      },
+      {
+        "start": 1641.6,
+        "duration": 7.0,
+        "text": "to amplify the voice of our students. um"
+      },
+      {
+        "start": 1645.8,
+        "duration": 6.2,
+        "text": "and that education now is accessible to"
+      },
+      {
+        "start": 1648.6,
+        "duration": 6.8,
+        "text": "all kids. Um it's no longer based upon"
+      },
+      {
+        "start": 1652.0,
+        "duration": 5.4,
+        "text": "your zip code. And so um I just"
+      },
+      {
+        "start": 1655.4,
+        "duration": 6.2,
+        "text": "encourage everyone"
+      },
+      {
+        "start": 1657.4,
+        "duration": 7.8,
+        "text": "um to not be afraid um to try new things"
+      },
+      {
+        "start": 1661.7,
+        "duration": 5.1,
+        "text": "um and not be afraid of failure and um"
+      },
+      {
+        "start": 1665.2,
+        "duration": 3.8,
+        "text": "that we're in this together. And I"
+      },
+      {
+        "start": 1666.8,
+        "duration": 3.8,
+        "text": "firmly believe that to show what's"
+      },
+      {
+        "start": 1669.0,
+        "duration": 3.3,
+        "text": "possible in public education. My"
+      },
+      {
+        "start": 1670.6,
+        "duration": 5.2,
+        "text": "personal mission statement is that"
+      },
+      {
+        "start": 1672.3,
+        "duration": 6.2,
+        "text": "because I I went to a private school and"
+      },
+      {
+        "start": 1675.8,
+        "duration": 5.2,
+        "text": "I saw the relationship. I saw that I was"
+      },
+      {
+        "start": 1678.5,
+        "duration": 4.2,
+        "text": "challenged at my level and unfortunately"
+      },
+      {
+        "start": 1681.0,
+        "duration": 4.8,
+        "text": "when I dove into public I didn't see"
+      },
+      {
+        "start": 1682.7,
+        "duration": 5.3,
+        "text": "that and um so just again wanting that"
+      },
+      {
+        "start": 1685.8,
+        "duration": 4.4,
+        "text": "standard to be for everyone. So let's do"
+      },
+      {
+        "start": 1688.0,
+        "duration": 4.3,
+        "text": "it. We're in this together."
+      },
+      {
+        "start": 1690.2,
+        "duration": 4.5,
+        "text": ">> Love it. Style of free worldclass"
+      },
+      {
+        "start": 1692.3,
+        "duration": 5.4,
+        "text": "education for anyone anywhere. What"
+      },
+      {
+        "start": 1694.6,
+        "duration": 6.0,
+        "text": "should we all believe is possible?"
+      },
+      {
+        "start": 1697.8,
+        "duration": 4.8,
+        "text": "Well, I you know, I I I I sometimes"
+      },
+      {
+        "start": 1700.6,
+        "duration": 3.4,
+        "text": "point out that if we were to go back 500"
+      },
+      {
+        "start": 1702.6,
+        "duration": 4.0,
+        "text": "years before we had mass public"
+      },
+      {
+        "start": 1704.1,
+        "duration": 4.8,
+        "text": "education,"
+      },
+      {
+        "start": 1706.6,
+        "duration": 5.8,
+        "text": "depending where you go, global literacy"
+      },
+      {
+        "start": 1708.9,
+        "duration": 6.5,
+        "text": "rates for men were like 20%, 25% and for"
+      },
+      {
+        "start": 1712.4,
+        "duration": 5.0,
+        "text": "women were like 10 15%. And subjects"
+      },
+      {
+        "start": 1715.4,
+        "duration": 3.5,
+        "text": "like algebra were considered esoteric"
+      },
+      {
+        "start": 1717.4,
+        "duration": 3.5,
+        "text": "things that only like you know, super"
+      },
+      {
+        "start": 1718.9,
+        "duration": 4.1,
+        "text": "experts would know. And I suspect if you"
+      },
+      {
+        "start": 1720.9,
+        "duration": 4.2,
+        "text": "went to someone who could read and if"
+      },
+      {
+        "start": 1723.0,
+        "duration": 3.6,
+        "text": "you pointed out some kid who's begging"
+      },
+      {
+        "start": 1725.1,
+        "duration": 3.5,
+        "text": "on a corner in, you know, medieval"
+      },
+      {
+        "start": 1726.6,
+        "duration": 3.4,
+        "text": "Europe and said, you know, should we"
+      },
+      {
+        "start": 1728.6,
+        "duration": 2.2,
+        "text": "even try to teach that kid to read?"
+      },
+      {
+        "start": 1729.9,
+        "duration": 3.3,
+        "text": "They're like, no, no, they're probably"
+      },
+      {
+        "start": 1730.9,
+        "duration": 5.4,
+        "text": "not even capable of it. Um, now you fast"
+      },
+      {
+        "start": 1733.2,
+        "duration": 5.3,
+        "text": "forward mass public education. You know,"
+      },
+      {
+        "start": 1736.2,
+        "duration": 4.0,
+        "text": "it's easy to look at all the places we"
+      },
+      {
+        "start": 1738.5,
+        "duration": 3.1,
+        "text": "need to improve education, but it's it's"
+      },
+      {
+        "start": 1740.2,
+        "duration": 3.2,
+        "text": "sometimes good to just recognize how"
+      },
+      {
+        "start": 1741.6,
+        "duration": 3.4,
+        "text": "much it's done for society, like in"
+      },
+      {
+        "start": 1743.4,
+        "duration": 3.6,
+        "text": "terms of literacy rates and a"
+      },
+      {
+        "start": 1745.0,
+        "duration": 3.2,
+        "text": "broad-based middle class, etc. We now"
+      },
+      {
+        "start": 1747.0,
+        "duration": 2.6,
+        "text": "expect everyone to learn algebra."
+      },
+      {
+        "start": 1748.2,
+        "duration": 3.2,
+        "text": "Unfortunately, not everyone is, but you"
+      },
+      {
+        "start": 1749.7,
+        "duration": 3.3,
+        "text": "know, we want them to, but we definitely"
+      },
+      {
+        "start": 1751.4,
+        "duration": 3.6,
+        "text": "expect everyone to learn how to read,"
+      },
+      {
+        "start": 1753.0,
+        "duration": 3.4,
+        "text": "etc. And and and where it's done well,"
+      },
+      {
+        "start": 1755.0,
+        "duration": 4.5,
+        "text": "literacy rates are, you know, in the"
+      },
+      {
+        "start": 1756.3,
+        "duration": 5.7,
+        "text": "high 90% area. Um, and but I like to"
+      },
+      {
+        "start": 1759.5,
+        "duration": 4.3,
+        "text": "wonder, you know, what things do we"
+      },
+      {
+        "start": 1762.0,
+        "duration": 4.3,
+        "text": "still have our blinders on, similar to"
+      },
+      {
+        "start": 1763.8,
+        "duration": 4.1,
+        "text": "that person from medieval Europe, you"
+      },
+      {
+        "start": 1766.3,
+        "duration": 3.4,
+        "text": "know, if I were to ask any of us,"
+      },
+      {
+        "start": 1767.9,
+        "duration": 3.3,
+        "text": "including myself, what percentage of"
+      },
+      {
+        "start": 1769.7,
+        "duration": 2.8,
+        "text": "kids could learn quantum physics or"
+      },
+      {
+        "start": 1771.2,
+        "duration": 3.1,
+        "text": "learn how to make a machine learning"
+      },
+      {
+        "start": 1772.5,
+        "duration": 3.1,
+        "text": "model or, you know, whatever, whatever,"
+      },
+      {
+        "start": 1774.3,
+        "duration": 3.2,
+        "text": "I think most say, well, those are only"
+      },
+      {
+        "start": 1775.6,
+        "duration": 3.8,
+        "text": "the top kids. But what if it's just"
+      },
+      {
+        "start": 1777.5,
+        "duration": 3.9,
+        "text": "because, you know, so many kids"
+      },
+      {
+        "start": 1779.4,
+        "duration": 3.6,
+        "text": "accumulate their gaps, don't have a"
+      },
+      {
+        "start": 1781.4,
+        "duration": 3.1,
+        "text": "chance to, you know, they give up on"
+      },
+      {
+        "start": 1783.0,
+        "duration": 3.1,
+        "text": "themselves essentially and everyone else"
+      },
+      {
+        "start": 1784.6,
+        "duration": 3.0,
+        "text": "gives up on them. Uh, but if they're"
+      },
+      {
+        "start": 1786.2,
+        "duration": 3.1,
+        "text": "able to really fill in those gaps, and"
+      },
+      {
+        "start": 1787.6,
+        "duration": 3.5,
+        "text": "we get stories like this every day from"
+      },
+      {
+        "start": 1789.3,
+        "duration": 3.3,
+        "text": "from learners all over the world. I"
+      },
+      {
+        "start": 1791.1,
+        "duration": 3.8,
+        "text": "actually suspect a lot more people can"
+      },
+      {
+        "start": 1792.6,
+        "duration": 4.9,
+        "text": "go much further than we think. And I"
+      },
+      {
+        "start": 1795.0,
+        "duration": 3.9,
+        "text": "think it's a um it's a it's a must now"
+      },
+      {
+        "start": 1797.4,
+        "duration": 3.7,
+        "text": "because we know the AIs are getting"
+      },
+      {
+        "start": 1798.9,
+        "duration": 4.0,
+        "text": "really good. And I I don't think AI is"
+      },
+      {
+        "start": 1801.1,
+        "duration": 4.5,
+        "text": "an excuse for all of us to collectively"
+      },
+      {
+        "start": 1802.9,
+        "duration": 5.0,
+        "text": "cognitively cognitively offload. That's"
+      },
+      {
+        "start": 1805.6,
+        "duration": 3.9,
+        "text": "that's a risky scenario. We have to"
+      },
+      {
+        "start": 1807.8,
+        "duration": 3.5,
+        "text": "cognitively onload so that we can keep"
+      },
+      {
+        "start": 1809.5,
+        "duration": 4.0,
+        "text": "up with the AIs. No one wants an editor"
+      },
+      {
+        "start": 1811.4,
+        "duration": 3.6,
+        "text": "who can't write as well as the as the"
+      },
+      {
+        "start": 1813.5,
+        "duration": 3.9,
+        "text": "staff writers which are now going to be"
+      },
+      {
+        "start": 1815.0,
+        "duration": 5.4,
+        "text": "AIs. No one wants a a computer architect"
+      },
+      {
+        "start": 1817.4,
+        "duration": 4.8,
+        "text": "or a CTO who can't at least code as well"
+      },
+      {
+        "start": 1820.3,
+        "duration": 3.7,
+        "text": "as as as the junior engineers which are"
+      },
+      {
+        "start": 1822.2,
+        "duration": 3.8,
+        "text": "now going to be AIS. And I think that's"
+      },
+      {
+        "start": 1824.0,
+        "duration": 4.6,
+        "text": "going to be every task in our life. So"
+      },
+      {
+        "start": 1826.0,
+        "duration": 6.2,
+        "text": "um I think yeah this this is the moment."
+      },
+      {
+        "start": 1828.6,
+        "duration": 6.6,
+        "text": ">> Thank you S. if folks would like uh to"
+      },
+      {
+        "start": 1832.2,
+        "duration": 4.8,
+        "text": "get in touch, scan this QR code um to"
+      },
+      {
+        "start": 1835.1,
+        "duration": 4.5,
+        "text": "get in touch with the Khan Academy team."
+      },
+      {
+        "start": 1837.0,
+        "duration": 4.2,
+        "text": "Um Amy, thank you so much for your time."
+      },
+      {
+        "start": 1839.6,
+        "duration": 3.3,
+        "text": "We really appreciate you coming on and"
+      },
+      {
+        "start": 1841.2,
+        "duration": 3.4,
+        "text": "we really appreciate your partnership"
+      },
+      {
+        "start": 1842.9,
+        "duration": 3.1,
+        "text": "with the Khan Academy team. We love"
+      },
+      {
+        "start": 1844.6,
+        "duration": 3.4,
+        "text": "working with you."
+      },
+      {
+        "start": 1846.0,
+        "duration": 5.7,
+        "text": ">> Well, I love working with you and I'm"
+      },
+      {
+        "start": 1848.0,
+        "duration": 3.8,
+        "text": "probably Scon's biggest fan since 2012."
+      },
+      {
+        "start": 1851.7,
+        "duration": 3.0,
+        "text": "So,"
+      },
+      {
+        "start": 1851.8,
+        "duration": 4.2,
+        "text": ">> I'm fan. [laughter]"
+      },
+      {
+        "start": 1854.7,
+        "duration": 3.1,
+        "text": ">> Thank you. Thank you."
+      },
+      {
+        "start": 1856.1,
+        "duration": 2.9,
+        "text": ">> Thank you, S. And thank you, Amy. And"
+      },
+      {
+        "start": 1857.8,
+        "duration": 4.4,
+        "text": "thank you everyone for joining. and"
+      },
+      {
+        "start": 1859.0,
+        "duration": 3.3,
+        "text": "we'll see you at the next one."
+      }
+    ],
+    "full_text": "Hello everyone. Uh thank you so much for being here. Um I'm joined today by two people who I have a lot of respect for and I think um we're all going to get a lot out of this conversation. For those of you who have not met Dr. Amy Alzena, she is the definition of a trailblazer. She does a lot of things somehow also runs. Uh she's the superintendent of Cold Spring School District, one of the top academically performing districts in the state. She's uh she chairs the ACSA's artificial intelligent task force which um one of my colleagues sits on as well and uh so I'm very aware of the amazing work. Um and then she's super I'm sure I'm missing some things cuz there are a lot but Amy has been a real friend to other districts throughout California um supporting them in this like very exciting kind of turbulent moment as AI has hit education. S, I don't think you need an introduction, but I will just say that the the work that we're doing right now uh is is something I think everyone in this room is watching closely. So, thank you for being here, both of you. >> Thank you. >> Yeah, last week was a big one. Um you were both together at Q. Um S, Amy, you sat on a panel with Dr. Ruth Perez from LA County. Um there's a lot of honest conversation uh with people who are really running districts. So Amy, you were in both the panel and then in a smaller round table group with S. Has anything stuck out to you that you can share with us? >> Oh wow. Well, what resonated with me in that our discussion afterwards was when we were talking about in California the new math framework that came out and how everyone's just jumping at adopting a curriculum and I I even told myself, wait, am I missing something here or is this do we change the standards? What's happening? and and S you were saying something you know yeah it takes a couple years to understand a curriculum and I had just walked into um one of my teachers classrooms whose math charts math student achievement is off the charts and it was a third grade teacher yesterday and I was just doing a deeper dive on what is it that she's doing with her students and she said really it was last year when I had a new partner teacher I just hired her from my neighboring district and we did a deeper dive on the curriculum and we really identified some holes and how we needed to restructure the curriculum. Well, here we are fast forward with the same curriculum seven years later, right? And still learning that curriculum so we can get better at it. What works, what doesn't work, how we're utilizing Khan Academy as a supplement. And um I can only think in my head of like the what's going to happen right now as districts are just adopting these new crazy curriculum and what's going to happen to math achievement [laughter] and but s what you said really resonated with me how it it just takes a couple years to understand a new math curriculum and you're absolutely right. So I don't I you know that was my long winded way of saying wow um what's happening in the state right now. >> Yeah super appreciate that s did you hear that too curious if you saw it differently heard it differently than Amy did. No, definitely got that. And actually, it makes me think about, you know, we all spoke a lot and and I always try to speak a lot about uh on technology. You shouldn't just use technology for the sake of it. You should first take a step back and say like what are my goals here? Like what am I trying to what am I trying to solve for? And it I think in the context we're talking about it's usually we want to improve academic outcomes oftentimes is measured by state assessments, although there's a whole other thread about that too. Um, and the a and the the theory of action that we've had and I think Amy and others have had is hey if we can allow students to really fill in their gaps, learn at their own pace, personalize, get a lot of deliberate practice that that's going to improve outcomes and that's exactly what we try to do. So what you know whether it's using videos or software or AI or whatever we're trying to do on the technology side those are that that's truly the goal. If there's a way to do it with pencil and paper let's do it with pencil and paper. We don't need to use the fanciest technology. I think this uh curricular discussion that Amy's bringing up is actually the same thing. And you know, on the actual curricular decisions, I'm always a little bit of a of a bystander, but I've I we've Aviv, you know, we've paid close attention to it at Khan Academy for the last 15 or 20 years because we're always aligning to different standards, aligning to different curricula. And so I almost have a unique vantage point where I'm, you know, I'm doing the the the common core and Florida best and I'm still making videos for it. Just yesterday I made some, you know, illustrative math videos. I made some Florida best videos. So I see and and the reality is the heart of all of these curricula are the good parts are the same and and what you really want is um students to get more practice at their zone of proximal development. You want a teacher who feels comfortable um driving that holding the students accountable digging in deeper when appropriate using tools like Khan Academy where appropriate for personalization. And every time people are upset about test scores or they don't think things the reaction seems to be and it seems to be about every seven or eight years um let's get new curricula and there's you know the Gates Foundation ran a big study last year on high quality instructional materials and this isn't to you know throw shade on it but but they couldn't see an an effect um there um and and as Amy just mentioned every time you do that change management you kind of lose two three years like just just when you were um getting good at the old curric I I would argue that someone who is uh a teacher who's really strong at at a curriculum from 1980, especially in math, I mean, we could talk about other things, but that's going to be a good curriculum. And and someone who's struggling with the modern curricula, it's it's going to be harder. Another thing we did talk about, which I find fascinating, it's obviously a a bigger notion, is so much of um state so so much of of the perceived quality of schools, etc. are based on standardized tests. Um there's some merit to that, but maybe there's an opportunity to broaden the aperture. Uh right now, uh you know, there's things that we know are going to matter more and more in an AI world, like communication, collaboration, entrepreneurship. I mean, we could go down the list and those those types of things aren't captured uh right now, but maybe there are ways to capture it. So, that was the other interesting part of the conversation we had with some district leaders. >> Yeah. I'm curious. Actually, I'm remembering now that I wanted to ask you about this. Um Ruth Perez was was with you last week, right? >> Yes. >> Uh assistant superintendent of of LA County, which on the surface at least seems like it could not be more different than Cold Spring. Were you thinking about that at all, Amy? Like what do you know each other? Were you do do you know anything about how that district works? And >> yeah, great question. You know, I get that a lot because we're a single school district. We're small. I came from Santa Barbara Unified where I was 18 years, principal of two different schools and low soioeconomic, different demographics and um what I have learned through my 20 years as administrator is exactly what Sal said is when students are working within within their zone of proximal development, students are engaged and student achievement increases. And um I found that in my doctoral work why I had the best teachers ever and they were super [sighs] loving and kind but students were reading at a too high of a level or too low of a level so they weren't making growth and I was wondering what's going on. So I had to do a deeper dive. So it's for all areas right? We all have to be working in our sweet spot and it doesn't matter if you're in a large school district or a small school district. That's how we all learn. And so, um, going back to your question, um, no, you know, I I because we're talking about kids and all kids, um, learn the same and it's identifying what gets them excited in the morning, what is their purpose and how do we connect with them um, so that they want to come to school in the morning and not just the core subject areas, but our integrative approach to teaching and learning. And that's really the heartbeat of what we do um in education. >> Um I love that. Um and I I wish we had more time cuz I want to ask you about the transition from principal to superintendent. So if we have time, we'll come back to that. But um Sal, I wonder when you see success like this, right? Like academic achievement like we see in Cold Spring, what kind of questions arise for you uh around scalability? Yeah, I think that's that's the ultimate question. Um because we know that if um and we see this in multiple efficacy studies at Khan Academy, you know, if if students are engaged on the platform, they are seeing pretty dramatic growth. And people don't have to believe me, you know, go there's a lot of there's 50 plus, most of those are thirdparty studies um that we did not, you know, in any way fund or anything. Um and they they all show that if students are able to get even let's call it 30 to 60 minutes a week which isn't a lot um they're growing depending on the study 20 to 60% more than more than uh their their peers. And you know we have a few special cases of of places where they're more like 30 to 60 minutes a day and those type of places we're seeing growth of in some cases two to three grade levels a year. So, um, we know if if if the students are engaged there, it it's a and and and there's no magic there. It really is working on your zone of proximal development, getting a lot of and getting immediate feedback. Now, we know that from there are there's maybe five or 10% of students that if you just throw Khan Academy at them and say go, they get excited and they'll just be off to the races. But we know that most students aren't that. they need a really quality classroom environment um in in order to engage. And what we have learned there there's always been really from the beginning of Khan Academy uh tens if not hundreds of thousands of teachers who are also kind of this let's call it lean into Khan Academy saw a lot of that growth but it was in it was in pockets and so when we decided to do the district offering about eight years ago and we wanted to do more systemically with districts the big question is is um will a district especially if we're talking about large districts be able to get that type of consistency across of it and and and I I won't pretend like it's a completely solved problem. I think you have leaders like Amy where um she's, you know, she this is one of her top priorities. She believes in it. She's a force of nature. You know, everyone when Amy leaves the room, every like she's a force of nature. She is in the best in the best possible way. Um and and I think when you have investment at at the top like that, it does start to really pay those dividends. And we've seen that with Amy. We've seen that in large urban school districts uh like Newark, New Jersey. But it's when the the the superintendent, the chief academic officer, someone says, \"Okay, you know, this is going to be my top priorities. I'm going to monitor the data. I'm going to provide soft accountability. Let's reward the the teachers who are engaged a lot and let's figure out how we can support the teachers um who need more help.\" >> Would you agree, Amy? >> I love that 100%. Um, and we see the same results. You know, whether again going back to doesn't matter what school you're at, the teacher that implements with Fidelity and really connects with kids, you're going to see a 2x growth. I mean, I I literally just met with a teacher, again, another teacher yesterday. Um, the average growth that we expect is between 40 to 60 um, student growth index. Her class average is 92. And this is our largest class of fourth grade students. We know the fourth grade students are challen it's a challenging sta group of standards but she does what's called an infield outfield model where she's working with a core group of students the other students are working independently at their level and they are so intrinsically motivated because also with it comes goal setting right it it's not just hey Khan Academy and go no let's set personal goals what are your goals are what is it that the actions that you're going to take to achieve those goals so you have that sense of purpose and then Lex support you so you can meet those goals and that's why those students outperform I mean every single year 100% of those students not only meet the standards but they score advance and that includes students with severe learning disabilities right because they're all working at their level um and so I I I couldn't agree more but it's not just hey just turn on the computer and I don't know why my kids aren't growing Well, because there's no interaction with the student, right? There's no relationship with the student. And I love what you S has in his book. I'm going to bring out this old one of yours, S. You have a chapter in here. Um it's it's called uh teaching as a team sport, right? And you talk in this chapter about coaching in here as teachers as coaches and and not as sage on the stage, right? And how important it is to be that coach and to have opportunities for student choice. And what I loved as I was interviewing my students and how they utilize Khan Academy, they love the choice. I'm going to work on unit two or I'm going to work on unit three. I love that there's choice and we love that as adults. Nobody likes to be told what to do, right? And they loved to progress monitor. Oh, here it is. I met this goal and now I'm going to move on to the next one. I mean, literally there was like almost like you could tell this intrinsic competition. I want to get to fifth grade because I know this, right? And that's excitement about learning and and that's not a model that's new. I mean, my education, we all take our, you know, what we learn from our own education. I literally had a model. It was called Accelerated Christian Education. It was It was ACE. It was all work pages. It was goal setting. You do five work pages a day. You had a goal chart, but you could get extra credit points and they were worth five cents for each page you did. And so I literally skipped two grades in math because I wanted to like I I want intrinsically I was like, I'm going to buy those roller skates for my sister out of the J C Penney catalog. I still remember I bought her Smurf roller skates. But it's that same type of concept of here's the goal and you're going to get rewarded if you go past that goal, right? And if I have a question I like it literally, this was this is going to be sound funny, but you put up your flag and and then the teacher went around and answered your question, right? But that worked well for me, but I also saw my friend where I like needed a lot more support from the teacher. So the teacher was with like my friend more, right? So it's very similar with technology. Now it makes it easier. Now I don't have a workbook. Now I can just do it adaptive learning. [laughter] >> That's too much, but yes. >> No, you're great. Um S, I wonder if it makes sense for you to speak a little bit now to we kind of rebuilt Khan Academy. Amy just shared with me before you hopped on that they're actually rolling out the reimagined experience this weekend which is exciting, but can you um talk to us a little bit about why is rebuilt with some of the things Amy shared? >> Yes. And Amy, feel free to send immediate feedback. I you know the freshest feedback as [laughter] you roll out. There's a lot of uh changes we made. We're just for everyone to know we're in kind of a a pilot mode right now. So we've been making a lot of changes. So hopefully the the sum of those changes Amy will be very impressed. But the the the catalyst for it um uh there there's many things that we've we we've known that we need to do better um on our classroom experience. One of I think one thing we've done very well as Amy mentioned is give giving students a lot of choice, a lot of agency on the platform. But in let's call it the classic Khan Academy, the one that's out there today. uh we have gotten the clear feedback that that is great but some students or maybe all could also benefit from some direction too like when in doubt what's the next thing that I should work on or the next two or three things so one thing that's in Khan Academy reimagined is it's a very clear learning path that's almost the most obvious visually thing you know the students will see their learning path now they can also continue to have the view that they've that they're maybe used to if they have been using Khan Academy where they can see all the units etc etc ETA. Um, another catalyst, frankly, was u federal accessibility guidelines. We were saying, \"Okay, what would it take for us to redo all of our current?\" We're like, \"No, let's just rebuild it all and do it uh so it's all it's all accessible.\" We knew that a lot of the teacher tools, uh, you know, maybe I shouldn't share what what we sometimes call our own, uh, experience in house, but we've we sometimes called it a Winchester Mystery House. For any of y'all who have been to San Jose, there's this old mansion that I think the the the woman who lived there 100 years ago was trying to confuse a ghost and um built a lot of stair staircases to nowhere or doors that just drop into a pit and things like that. I I don't think we were that bad. But um I think any product that when you have years and years and years of incremental change and someone asks you, hey, add this, add that, we're like, oh yes, and you add it, but it doesn't it's not maybe not as easy to find. You have to hunt and peck and and click around a lot. So we really wanted to make it much clearer on how to use it, how to onboard it. Another thing, you know, there's so many use cases in education. Uh there's the teacher who might want to make the one-off assignment. There's the the teacher who want wants to do the more personalized learning. Uh students learning at their own time and pace. And historically, we part of the Winchester Mystery House is we were trying to meet all of these and we still are. But I think in this new product, you're going to see a stronger opinion um that we really do think the personalized mastery learning. Teachers can still make one-off assignments, but this one definitely has a bias towards teachers assigning the units for the year being very easy to monitor it. And we're already seeing really good data in the pilots that when teachers assign the units for the year, we're seeing depending on on the classroom, we're looking at 50 60% increase in skills leveled up. um on on Khan Academy. So loving that part. Um Kigo the AI I think the first version it was very much this thing that sits on the side and it had some benefits but once again when it just sits on the side it's like a tutor that says hey come ask me a question and a lot of students might not have know how to ask the question or get the question. We're now it's it's it's a much more central character and and once again not just for the sake of throwing AI in there. it is to drive engagement to make sure kids are reflecting when they get something wrong, maybe get extra opportunities. Similarly, on the teacher side, it acts much more as a proactive teaching assistant. Uh, you know, internally we've called it, you know, KIGO concierge, Khan Academy concierge. Anything that the teacher needs to do, they can do it conversationally now. Uh, but those are those are kind of the um oh, and there's there's more game mechanics. So, there's a fun live classroom game. We actually only launched that about month or two ago and that one is dramatically increasing engagement. So that the first 30, you know, when the students work for 30 minutes on Khan Academy, we're seeing almost a 4x in terms of how how many skills the k kids are leveling up in those 30 minutes. And that's because their posture changes because it's a game. And I've seen that with my own 11-year-old. I I always used to ask him, \"Oh, how much progress you get on Khan Academy?\" And you know, I on a good day he used to tell me 1% 2%. Now, now he'll say like 8%. I'm like, \"What happened? How did you get 8% of a whole course [laughter] in a day?\" And he's like, \"Oh no, teacher Mike, he he did the classroom game and I love [laughter] him and his buddies.\" Uh, and and then there's some fun stuff like leaderboards, too, that we think we we see early signals that it's it's having a fun cooperative co-op coopetition spirit. And that's a best practice that we saw out of a lot of school districts. They would do it on poster board and send out emails. And once again, it's fun coopetition, light accountability. Uh but we think these types of things will drive engagement. >> Exciting. >> Kids are going to love that. >> Yeah. >> The gamified component. >> Yes. >> So, we know we know gamified components of learning are effective. We've learned a lot about how to move students forward with technology. I can't help but bring this conversation to a a point about screen time because it's every headline, right? Um Amy, you are a parent and a principal and a superintendent. Maybe you can start us off like what are you hearing? What are you feeling? What do you have to report on? >> Yeah, I think every parent's worried about screen time, right? And and um including me, you know, my kids are 18 and 20, well adults now, right? [laughter] That you're worried about screen time. And you know, and that's why I tell everyone in Salvador me say this all the time is you have to start with the common sense media digital citizenship lessons. Like this is where we did it wrong with social media. You know, secondary assumed, elementary did it, elementary assumed, secondary taught the lesson. So the students never got them. Um, but what they also do is they not only teach the student, they teach the teacher because you're learning, oh wow, I never saw the bias in AI or I didn't understand this. So I think that's important in and students understanding that screen time can be addictive and and so for us at ColdSpring I get this question a lot especially because I'm you know AI task force chair I think parents so worried that our kids are on devices all the time which is not the case right and at all I mean we are so whole child um I said you know they're probably on a device max maybe in fourth through sixth grade an hour a day I would say um in the the lower grades more like 20 to 40 a minutes and I and I say our kids aren't getting addicted tech to technology at school I'm just going to be honest I tell you parents it's at home I mean we're utilizing it as a babysitter and I said I you know what I'm at fault right here's a phone you're at dinner you're out to dinner you need your little one to be quiet here watching watch this movie, right? You're on a plane, watch this. You know, you're on a car ride. And so, they're getting more technology outside of school than they are within the school day. I mean, that's just the honest truth. Um and so yeah, it is an issue, but I think um it is frustrating. I know as educators when we hear this, you know, um argument brought up a lot that we as educators are causing our kids to be addicted to technology when um in fact that's not the case. It it is frustrating. >> S what are what are you hearing? I'll let you respond. Yeah, I always like once again take a step back and no don't make it like about technology versus not technology because I think even before the first computer entered a classroom you could visit two different classrooms and say oh this is one where this is really good for the kids and then another one where you're like hey I think the kids are kind of brain rotting even before technology existed and the difference the good one the one that you want is a lot of what we already talked about there's active learning the kids are engaged the teacher is engaged. Um, they're helping each other. Uh, they're they're getting feedback on the things that they need to get feedback on. And an and a not so great classroom is the kids are, you know, kind of just trying to sit in the chair, kind of passive, fingers on their lips. I mean, you know, some of us grew up in classrooms, not all of them. There were some great classrooms where where I grew up, too, but there some were like this. You're just staring at the clock. Most of the class is either lost or bored. Um, you're not allowed to talk to each other. That's how one of the best ways that human beings actually learn, obviously it has to be controlled in in a reasonable way. But that's not um that that's not ideal either. And so I think if we go into this world where now technology is another variable and 100% agree with everyone, it is it can be very addictive. So you have to be very very careful with it. But I think what we need to optimize for is but if we're talking about the classroom environments that are active learning either at your zone of proximal development and or learning other what do you would call it soft skills durable skills of communication intrapersonal skills uh it's being more personalized etc. So, it's not I if if a student is um using a screen to edit some really cool video they're making, if they're using a screen for digital art, if they're using a screen to write a paper, um if and and actually use it, do it themselves, if they're using a screen for research, if they're using a screen for Khan Academy, um I think those are are solid uses. And you know on average yeah you don't want it too much but I think any of us who've gone deep on something sometimes you get in focus mode and you might spend a couple of hour you know when I when I got really into programming when I was in high school yeah there were days where I would just get super focused and 12 hours I'm like where did that time go? But I wrote a cool application. That is not bad as long as I still had friends. I'm still going out. I'm still getting exercise. I'm still interacting etc. etc. So, I think that's what we want to optimize for. Um, and yeah, we want to look, cell phones have no business definitely in in in the school setting and at home. I mean, we're it's not just kids, all of us. I I I ruined 30 minutes of my morning this, you know, just reading the news. I'm like, what happened to my [laughter] time? So, and if we and if our frontal loes are apparently more developed, they're going to even have more trouble uh controlling themselves. But um you know I don't think you should just leave a computer there on the desk all day. That becomes a distraction. Uh things like that. But it's all about good use versus bad use. But it's good use of technology, bad use of technology and also good use of humans in the room together and bad use of humans in the room. >> Yeah. >> Thank you. Um we have just two minutes left and um luckily I found out Amy that you have a personal mission statement just like S has a mission statement. So I was hoping um we could close with that. your personal mission is to show what's possible in public education, right? So, I'm wondering, can you share with this audience one thing that you want them to walk away believing is possible? >> Yeah. Um, you know, I think we're in this space right now with um creativity and innovation um with artificial intelligence and what that can look like to amplify the voice of our students. um and that education now is accessible to all kids. Um it's no longer based upon your zip code. And so um I just encourage everyone um to not be afraid um to try new things um and not be afraid of failure and um that we're in this together. And I firmly believe that to show what's possible in public education. My personal mission statement is that because I I went to a private school and I saw the relationship. I saw that I was challenged at my level and unfortunately when I dove into public I didn't see that and um so just again wanting that standard to be for everyone. So let's do it. We're in this together. >> Love it. Style of free worldclass education for anyone anywhere. What should we all believe is possible? Well, I you know, I I I I sometimes point out that if we were to go back 500 years before we had mass public education, depending where you go, global literacy rates for men were like 20%, 25% and for women were like 10 15%. And subjects like algebra were considered esoteric things that only like you know, super experts would know. And I suspect if you went to someone who could read and if you pointed out some kid who's begging on a corner in, you know, medieval Europe and said, you know, should we even try to teach that kid to read? They're like, no, no, they're probably not even capable of it. Um, now you fast forward mass public education. You know, it's easy to look at all the places we need to improve education, but it's it's sometimes good to just recognize how much it's done for society, like in terms of literacy rates and a broad-based middle class, etc. We now expect everyone to learn algebra. Unfortunately, not everyone is, but you know, we want them to, but we definitely expect everyone to learn how to read, etc. And and and where it's done well, literacy rates are, you know, in the high 90% area. Um, and but I like to wonder, you know, what things do we still have our blinders on, similar to that person from medieval Europe, you know, if I were to ask any of us, including myself, what percentage of kids could learn quantum physics or learn how to make a machine learning model or, you know, whatever, whatever, I think most say, well, those are only the top kids. But what if it's just because, you know, so many kids accumulate their gaps, don't have a chance to, you know, they give up on themselves essentially and everyone else gives up on them. Uh, but if they're able to really fill in those gaps, and we get stories like this every day from from learners all over the world. I actually suspect a lot more people can go much further than we think. And I think it's a um it's a it's a must now because we know the AIs are getting really good. And I I don't think AI is an excuse for all of us to collectively cognitively cognitively offload. That's that's a risky scenario. We have to cognitively onload so that we can keep up with the AIs. No one wants an editor who can't write as well as the as the staff writers which are now going to be AIs. No one wants a a computer architect or a CTO who can't at least code as well as as as the junior engineers which are now going to be AIS. And I think that's going to be every task in our life. So um I think yeah this this is the moment. >> Thank you S. if folks would like uh to get in touch, scan this QR code um to get in touch with the Khan Academy team. Um Amy, thank you so much for your time. We really appreciate you coming on and we really appreciate your partnership with the Khan Academy team. We love working with you. >> Well, I love working with you and I'm probably Scon's biggest fan since 2012. So, >> I'm fan. [laughter] >> Thank you. Thank you. >> Thank you, S. And thank you, Amy. And thank you everyone for joining. and we'll see you at the next one."
+  }
+}

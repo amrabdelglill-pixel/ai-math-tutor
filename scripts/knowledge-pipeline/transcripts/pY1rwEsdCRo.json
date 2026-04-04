@@ -1,0 +1,2553 @@
+{
+  "video_id": "pY1rwEsdCRo",
+  "video_title": "Rotational kinetic energy of rigid systems | AP Physics | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 758.0,
+  "view_count": 4523,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": false,
+    "segments": [
+      {
+        "start": 0.6,
+        "duration": 2.5,
+        "text": "- [Lecturer] A solid\nsphere, a hollow sphere,"
+      },
+      {
+        "start": 3.0,
+        "duration": 5.0,
+        "text": "and a ring or a hoop are placed\nat the top of an incline."
+      },
+      {
+        "start": 8.7,
+        "duration": 3.8,
+        "text": "They have the same mass and\nthey have the same radius."
+      },
+      {
+        "start": 12.5,
+        "duration": 2.6,
+        "text": "The question is if we release\nthem from the same height"
+      },
+      {
+        "start": 15.1,
+        "duration": 2.2,
+        "text": "and at the same time, which of them"
+      },
+      {
+        "start": 17.3,
+        "duration": 2.6,
+        "text": "will reach the bottom first?"
+      },
+      {
+        "start": 19.9,
+        "duration": 1.6,
+        "text": "What do you think?"
+      },
+      {
+        "start": 21.6,
+        "duration": 1.7,
+        "text": "Well, when I first look at this problem,"
+      },
+      {
+        "start": 23.3,
+        "duration": 1.6,
+        "text": "here's how I was thinking."
+      },
+      {
+        "start": 24.8,
+        "duration": 1.7,
+        "text": "Since they're released\nfrom the same height"
+      },
+      {
+        "start": 26.6,
+        "duration": 1.0,
+        "text": "and they have the same mass,"
+      },
+      {
+        "start": 27.6,
+        "duration": 2.0,
+        "text": "they have the same\ngravitational potential energy"
+      },
+      {
+        "start": 29.6,
+        "duration": 2.2,
+        "text": "to begin with, and when\nthey reach the bottom,"
+      },
+      {
+        "start": 31.8,
+        "duration": 1.2,
+        "text": "all of that potential energy"
+      },
+      {
+        "start": 33.0,
+        "duration": 1.3,
+        "text": "gets connected to kinetic energy,"
+      },
+      {
+        "start": 34.4,
+        "duration": 2.9,
+        "text": "which means they should\nall have the same speed"
+      },
+      {
+        "start": 37.2,
+        "duration": 1.1,
+        "text": "as they're moving down."
+      },
+      {
+        "start": 38.3,
+        "duration": 2.5,
+        "text": "So, they should all reach the bottom"
+      },
+      {
+        "start": 40.8,
+        "duration": 1.3,
+        "text": "at exactly the same time,"
+      },
+      {
+        "start": 43.0,
+        "duration": 2.1,
+        "text": "but that is wrong."
+      },
+      {
+        "start": 45.1,
+        "duration": 1.6,
+        "text": "Why?"
+      },
+      {
+        "start": 46.6,
+        "duration": 2.3,
+        "text": "Because they're not just moving forward."
+      },
+      {
+        "start": 49.0,
+        "duration": 2.0,
+        "text": "It's not just a translatory motion."
+      },
+      {
+        "start": 50.9,
+        "duration": 3.1,
+        "text": "They're also spinning as they go forward,"
+      },
+      {
+        "start": 54.0,
+        "duration": 3.3,
+        "text": "and that makes things a\nlittle bit more interesting."
+      },
+      {
+        "start": 57.4,
+        "duration": 1.7,
+        "text": "So, let's see how to tackle this problem"
+      },
+      {
+        "start": 59.0,
+        "duration": 3.6,
+        "text": "and which of the three actually\nreaches the ground first."
+      },
+      {
+        "start": 62.7,
+        "duration": 1.6,
+        "text": "Suppose a basketball moves"
+      },
+      {
+        "start": 64.3,
+        "duration": 3.8,
+        "text": "such that at any given\nmoment all the points"
+      },
+      {
+        "start": 68.0,
+        "duration": 4.7,
+        "text": "on that basketball has\nexactly the same velocity,"
+      },
+      {
+        "start": 72.7,
+        "duration": 4.1,
+        "text": "then we call such a motion,\ntranslational motion."
+      },
+      {
+        "start": 76.7,
+        "duration": 2.6,
+        "text": "And if the basketball has mass m,"
+      },
+      {
+        "start": 79.4,
+        "duration": 2.9,
+        "text": "then the kinetic energy of the ball"
+      },
+      {
+        "start": 82.3,
+        "duration": 1.5,
+        "text": "would be just half mv square."
+      },
+      {
+        "start": 83.8,
+        "duration": 4.1,
+        "text": "We call this the\ntranslational kinetic energy."
+      },
+      {
+        "start": 87.9,
+        "duration": 2.5,
+        "text": "In contrast, if you have a basketball"
+      },
+      {
+        "start": 90.4,
+        "duration": 2.9,
+        "text": "that is spinning like this,"
+      },
+      {
+        "start": 93.2,
+        "duration": 2.6,
+        "text": "then look, all particles\nare going in a circular path"
+      },
+      {
+        "start": 95.9,
+        "duration": 4.7,
+        "text": "about a common axis, we call such a motion"
+      },
+      {
+        "start": 100.5,
+        "duration": 2.8,
+        "text": "rotational motion or just rotation."
+      },
+      {
+        "start": 103.3,
+        "duration": 2.5,
+        "text": "Now, in this particular\ncase, different particles"
+      },
+      {
+        "start": 105.8,
+        "duration": 3.1,
+        "text": "don't have the same speed\nat any given moment."
+      },
+      {
+        "start": 108.9,
+        "duration": 1.6,
+        "text": "Particles that are far\naway from the center"
+      },
+      {
+        "start": 110.5,
+        "duration": 2.8,
+        "text": "are covering a lot of distance per second."
+      },
+      {
+        "start": 113.3,
+        "duration": 2.5,
+        "text": "So, they are traveling\nwith a very high speed"
+      },
+      {
+        "start": 115.8,
+        "duration": 2.0,
+        "text": "compared to the particles that are closer."
+      },
+      {
+        "start": 117.8,
+        "duration": 2.9,
+        "text": "And the particles which are\nnear the axis or on the axis,"
+      },
+      {
+        "start": 120.6,
+        "duration": 1.3,
+        "text": "they're not moving at all."
+      },
+      {
+        "start": 122.0,
+        "duration": 2.4,
+        "text": "So, they have very different speeds,"
+      },
+      {
+        "start": 124.3,
+        "duration": 3.4,
+        "text": "but they're all covering\nequal angles per second."
+      },
+      {
+        "start": 127.7,
+        "duration": 3.4,
+        "text": "So, they have the same angular speed."
+      },
+      {
+        "start": 131.0,
+        "duration": 2.2,
+        "text": "And just like in translational motion,"
+      },
+      {
+        "start": 133.3,
+        "duration": 2.6,
+        "text": "the mass represents inertia."
+      },
+      {
+        "start": 135.9,
+        "duration": 4.7,
+        "text": "It tells how hard it is to\nlinearly accelerate this object."
+      },
+      {
+        "start": 140.6,
+        "duration": 1.0,
+        "text": "When it comes to rotation,"
+      },
+      {
+        "start": 141.6,
+        "duration": 3.5,
+        "text": "we have an analogous quantity\ncalled rotational inertia."
+      },
+      {
+        "start": 145.1,
+        "duration": 2.6,
+        "text": "That is a quantity that\ntells us how hard it is"
+      },
+      {
+        "start": 147.7,
+        "duration": 3.7,
+        "text": "to angularly accelerate the object,"
+      },
+      {
+        "start": 151.3,
+        "duration": 1.0,
+        "text": "which means how hard is it"
+      },
+      {
+        "start": 152.3,
+        "duration": 1.8,
+        "text": "to get an object to start spinning"
+      },
+      {
+        "start": 154.1,
+        "duration": 1.9,
+        "text": "or to stop spinning, for example."
+      },
+      {
+        "start": 156.0,
+        "duration": 2.4,
+        "text": "So, rotational inertia\nhere is analogous to mass."
+      },
+      {
+        "start": 158.4,
+        "duration": 1.6,
+        "text": "And by the way, earlier we used to call"
+      },
+      {
+        "start": 160.0,
+        "duration": 2.0,
+        "text": "this quantity moment of inertia,"
+      },
+      {
+        "start": 162.0,
+        "duration": 1.7,
+        "text": "but it's now more typically referred to"
+      },
+      {
+        "start": 163.7,
+        "duration": 1.9,
+        "text": "as just rotational inertia,"
+      },
+      {
+        "start": 165.6,
+        "duration": 2.1,
+        "text": "because that sounds much more intuitive."
+      },
+      {
+        "start": 167.6,
+        "duration": 2.5,
+        "text": "So, can you now guess what\nwill be the expression"
+      },
+      {
+        "start": 170.2,
+        "duration": 2.3,
+        "text": "for rotational kinetic energy?"
+      },
+      {
+        "start": 172.5,
+        "duration": 2.4,
+        "text": "Pause and think about this."
+      },
+      {
+        "start": 174.9,
+        "duration": 1.9,
+        "text": "All right, it's gonna be\npretty analogous to this."
+      },
+      {
+        "start": 176.8,
+        "duration": 5.0,
+        "text": "It's gonna be half times not\nM, but rotational inertia, so I"
+      },
+      {
+        "start": 181.9,
+        "duration": 3.3,
+        "text": "times, not we, but angular\nspeed, omega squared."
+      },
+      {
+        "start": 185.2,
+        "duration": 2.5,
+        "text": "So, half I omega squared."
+      },
+      {
+        "start": 187.6,
+        "duration": 1.4,
+        "text": "So, an object is spinning."
+      },
+      {
+        "start": 189.0,
+        "duration": 2.1,
+        "text": "This is how you calculate kinetic energy."
+      },
+      {
+        "start": 191.1,
+        "duration": 1.5,
+        "text": "So look, rotational kinetic energy"
+      },
+      {
+        "start": 192.6,
+        "duration": 1.6,
+        "text": "depends on rotational inertia,"
+      },
+      {
+        "start": 194.1,
+        "duration": 2.9,
+        "text": "and that's what makes\nrotation so interesting."
+      },
+      {
+        "start": 197.0,
+        "duration": 1.3,
+        "text": "Lemme take an example."
+      },
+      {
+        "start": 198.4,
+        "duration": 1.1,
+        "text": "Imagine you had two objects,"
+      },
+      {
+        "start": 199.5,
+        "duration": 3.1,
+        "text": "one disc and another one like a disc,"
+      },
+      {
+        "start": 202.6,
+        "duration": 2.2,
+        "text": "but it is hollow in the center, okay?"
+      },
+      {
+        "start": 204.8,
+        "duration": 4.9,
+        "text": "But more importantly, they both\nhave exactly the same mass."
+      },
+      {
+        "start": 209.6,
+        "duration": 1.0,
+        "text": "Now, if these two objects"
+      },
+      {
+        "start": 210.6,
+        "duration": 1.8,
+        "text": "were undergoing translational motion"
+      },
+      {
+        "start": 212.4,
+        "duration": 1.5,
+        "text": "with exactly the same speed,"
+      },
+      {
+        "start": 213.9,
+        "duration": 2.0,
+        "text": "would they have the same kinetic energy?"
+      },
+      {
+        "start": 216.0,
+        "duration": 1.1,
+        "text": "The answer is yes."
+      },
+      {
+        "start": 217.1,
+        "duration": 1.6,
+        "text": "Now they're undergoing translation,"
+      },
+      {
+        "start": 218.7,
+        "duration": 1.3,
+        "text": "so they have the same mass."
+      },
+      {
+        "start": 219.9,
+        "duration": 1.2,
+        "text": "They have the same speed."
+      },
+      {
+        "start": 221.1,
+        "duration": 2.9,
+        "text": "They should have the\nexact same kinetic energy."
+      },
+      {
+        "start": 223.9,
+        "duration": 1.4,
+        "text": "So look in translational motion,"
+      },
+      {
+        "start": 225.4,
+        "duration": 2.9,
+        "text": "I don't care about, you\nknow, whether I'm dealing"
+      },
+      {
+        "start": 228.3,
+        "duration": 1.5,
+        "text": "with a solid disc or a hollow disc."
+      },
+      {
+        "start": 229.8,
+        "duration": 1.4,
+        "text": "I don't care about all of that."
+      },
+      {
+        "start": 231.2,
+        "duration": 1.4,
+        "text": "Mass is all that matters to me."
+      },
+      {
+        "start": 232.6,
+        "duration": 1.5,
+        "text": "And the speed, of course."
+      },
+      {
+        "start": 234.1,
+        "duration": 3.2,
+        "text": "But now, let's say they're\nundergoing rotational motion."
+      },
+      {
+        "start": 237.4,
+        "duration": 1.6,
+        "text": "In fact, let's assume they're spinning"
+      },
+      {
+        "start": 239.0,
+        "duration": 3.5,
+        "text": "with the exact same angular speeds, okay?"
+      },
+      {
+        "start": 242.5,
+        "duration": 1.0,
+        "text": "So, they have the same mass."
+      },
+      {
+        "start": 243.5,
+        "duration": 1.6,
+        "text": "They have the same angular speed."
+      },
+      {
+        "start": 245.0,
+        "duration": 2.3,
+        "text": "Would they have the\nsame kinetic energy now?"
+      },
+      {
+        "start": 247.3,
+        "duration": 2.5,
+        "text": "No, because when it comes to rotation,"
+      },
+      {
+        "start": 249.8,
+        "duration": 1.5,
+        "text": "it's not the mass that matters."
+      },
+      {
+        "start": 251.3,
+        "duration": 1.9,
+        "text": "It's the rotational inertia that matters."
+      },
+      {
+        "start": 253.2,
+        "duration": 1.2,
+        "text": "And rotational inertia"
+      },
+      {
+        "start": 254.5,
+        "duration": 2.7,
+        "text": "depends on the distribution\nof the particle,"
+      },
+      {
+        "start": 257.2,
+        "duration": 1.0,
+        "text": "about the center."
+      },
+      {
+        "start": 258.2,
+        "duration": 2.1,
+        "text": "If particles are, if\nthere are more particles"
+      },
+      {
+        "start": 260.3,
+        "duration": 1.9,
+        "text": "away from the center of rotation,"
+      },
+      {
+        "start": 262.2,
+        "duration": 2.2,
+        "text": "you get a higher rotational inertia."
+      },
+      {
+        "start": 264.4,
+        "duration": 2.9,
+        "text": "So over here, because\nthere's a hole punched out,"
+      },
+      {
+        "start": 267.3,
+        "duration": 2.4,
+        "text": "a lot of particles are\naway from the center,"
+      },
+      {
+        "start": 269.7,
+        "duration": 3.2,
+        "text": "the farther away from the\ncenter compared to over here."
+      },
+      {
+        "start": 273.0,
+        "duration": 3.4,
+        "text": "So, this one has a\nhigher rotational inertia"
+      },
+      {
+        "start": 276.3,
+        "duration": 3.7,
+        "text": "compared to this one, but\nthey have the same omega,"
+      },
+      {
+        "start": 280.0,
+        "duration": 2.2,
+        "text": "and therefore this one ends up having"
+      },
+      {
+        "start": 282.2,
+        "duration": 1.2,
+        "text": "more kinetic energy now."
+      },
+      {
+        "start": 283.4,
+        "duration": 2.0,
+        "text": "So when it comes to rotation,"
+      },
+      {
+        "start": 285.4,
+        "duration": 3.1,
+        "text": "it's not just the mass that\nmatters, you also have to think"
+      },
+      {
+        "start": 288.4,
+        "duration": 2.2,
+        "text": "about the distribution of the particles,"
+      },
+      {
+        "start": 290.7,
+        "duration": 3.5,
+        "text": "and that's what makes\nrotation so interesting."
+      },
+      {
+        "start": 294.1,
+        "duration": 1.7,
+        "text": "All right, what if you had an object"
+      },
+      {
+        "start": 295.8,
+        "duration": 3.5,
+        "text": "that's doing both translation\nand rotation at the same time?"
+      },
+      {
+        "start": 299.4,
+        "duration": 2.6,
+        "text": "For example, a ball that's\nrolling on the floor."
+      },
+      {
+        "start": 301.9,
+        "duration": 1.3,
+        "text": "Look, it's moving forward."
+      },
+      {
+        "start": 303.3,
+        "duration": 2.7,
+        "text": "It's translating, and it's spinning."
+      },
+      {
+        "start": 306.0,
+        "duration": 1.8,
+        "text": "It's rotating as well."
+      },
+      {
+        "start": 307.8,
+        "duration": 2.8,
+        "text": "How do you calibrate kinetic\nenergy of such an object?"
+      },
+      {
+        "start": 310.6,
+        "duration": 1.7,
+        "text": "Well, now you have to add"
+      },
+      {
+        "start": 312.2,
+        "duration": 2.2,
+        "text": "both its translational kinetic energy"
+      },
+      {
+        "start": 314.5,
+        "duration": 1.7,
+        "text": "and the rotational kinetic energy."
+      },
+      {
+        "start": 316.2,
+        "duration": 4.1,
+        "text": "That'll be the total kinetic\nenergy of such motion."
+      },
+      {
+        "start": 321.5,
+        "duration": 2.5,
+        "text": "All right, now before we can\ntackle our original problem,"
+      },
+      {
+        "start": 324.0,
+        "duration": 2.0,
+        "text": "we can solve our original question."
+      },
+      {
+        "start": 326.0,
+        "duration": 2.6,
+        "text": "We need one more concept, one more idea."
+      },
+      {
+        "start": 328.6,
+        "duration": 1.6,
+        "text": "In translational motion,"
+      },
+      {
+        "start": 330.2,
+        "duration": 2.8,
+        "text": "if you have a force that's\nacting on an object,"
+      },
+      {
+        "start": 333.0,
+        "duration": 5.0,
+        "text": "and let's say it displaces the\nobject about some direction,"
+      },
+      {
+        "start": 338.0,
+        "duration": 1.0,
+        "text": "the discussion of the object"
+      },
+      {
+        "start": 339.1,
+        "duration": 1.5,
+        "text": "need not be in the direction of this force"
+      },
+      {
+        "start": 340.6,
+        "duration": 2.2,
+        "text": "if there are multiple\nforces acting on it, okay?"
+      },
+      {
+        "start": 342.8,
+        "duration": 1.7,
+        "text": "And let's say it does so in such a way"
+      },
+      {
+        "start": 344.5,
+        "duration": 3.1,
+        "text": "that it's only translating,\nit's not rotating at all."
+      },
+      {
+        "start": 347.6,
+        "duration": 3.9,
+        "text": "Then we can define work done by this force"
+      },
+      {
+        "start": 351.5,
+        "duration": 4.0,
+        "text": "as the product of the\ncomponent of the force"
+      },
+      {
+        "start": 355.5,
+        "duration": 1.6,
+        "text": "in the direction of the displacement."
+      },
+      {
+        "start": 357.1,
+        "duration": 1.8,
+        "text": "That's what this F parallel stands for."
+      },
+      {
+        "start": 358.9,
+        "duration": 1.2,
+        "text": "You don't just multiply the force,"
+      },
+      {
+        "start": 360.1,
+        "duration": 1.4,
+        "text": "but you take the component of the force"
+      },
+      {
+        "start": 361.5,
+        "duration": 1.6,
+        "text": "in the direction of the displacement"
+      },
+      {
+        "start": 363.1,
+        "duration": 2.0,
+        "text": "times the displacement, right?"
+      },
+      {
+        "start": 365.1,
+        "duration": 2.5,
+        "text": "So, you take this product and\nwe call that as the work done."
+      },
+      {
+        "start": 367.6,
+        "duration": 3.8,
+        "text": "Its units becomes joules\nor Newton meters, okay?"
+      },
+      {
+        "start": 371.3,
+        "duration": 2.0,
+        "text": "Why do we care about work done?"
+      },
+      {
+        "start": 373.3,
+        "duration": 2.1,
+        "text": "Well, because if there's\nmore than one force"
+      },
+      {
+        "start": 375.4,
+        "duration": 1.4,
+        "text": "acting on an object,"
+      },
+      {
+        "start": 376.8,
+        "duration": 5.0,
+        "text": "then the total work done on\nthe object by all the forces,"
+      },
+      {
+        "start": 382.1,
+        "duration": 4.0,
+        "text": "that equals the change\nin the kinetic energy."
+      },
+      {
+        "start": 386.0,
+        "duration": 1.5,
+        "text": "So, it'll be equal to the change"
+      },
+      {
+        "start": 387.5,
+        "duration": 3.0,
+        "text": "in the translational kinetic energy."
+      },
+      {
+        "start": 390.5,
+        "duration": 2.9,
+        "text": "We call this the work-energy theorem."
+      },
+      {
+        "start": 393.3,
+        "duration": 2.6,
+        "text": "And this is super useful in\nmaking certain predictions"
+      },
+      {
+        "start": 395.9,
+        "duration": 0.8,
+        "text": "as we will see."
+      },
+      {
+        "start": 397.7,
+        "duration": 3.1,
+        "text": "Now, the same thing can\nbe applied over here"
+      },
+      {
+        "start": 400.8,
+        "duration": 1.9,
+        "text": "when it comes to rotation."
+      },
+      {
+        "start": 402.7,
+        "duration": 2.5,
+        "text": "If you have an object on\nwhere there's a force acting,"
+      },
+      {
+        "start": 405.2,
+        "duration": 3.4,
+        "text": "which puts a torque on this object"
+      },
+      {
+        "start": 408.6,
+        "duration": 2.9,
+        "text": "and makes it spin through some angle,"
+      },
+      {
+        "start": 411.5,
+        "duration": 4.1,
+        "text": "delta theta for example, then\nwe can define the work done"
+      },
+      {
+        "start": 415.7,
+        "duration": 4.1,
+        "text": "by the torque in a very analogous manner."
+      },
+      {
+        "start": 419.8,
+        "duration": 1.1,
+        "text": "We would say the work done"
+      },
+      {
+        "start": 420.9,
+        "duration": 3.7,
+        "text": "equals the torque acting on that object"
+      },
+      {
+        "start": 424.6,
+        "duration": 3.9,
+        "text": "times the angular displacement."
+      },
+      {
+        "start": 428.5,
+        "duration": 1.1,
+        "text": "Again, that makes sense, right?"
+      },
+      {
+        "start": 429.6,
+        "duration": 2.8,
+        "text": "Torque is like the rotational\nversion of the force,"
+      },
+      {
+        "start": 432.4,
+        "duration": 2.6,
+        "text": "and angular displacement is\nlike the rotational version"
+      },
+      {
+        "start": 435.0,
+        "duration": 1.5,
+        "text": "of the linear displacement."
+      },
+      {
+        "start": 436.5,
+        "duration": 3.1,
+        "text": "So you get very, very analogous expression"
+      },
+      {
+        "start": 439.6,
+        "duration": 1.0,
+        "text": "for the work done."
+      },
+      {
+        "start": 440.6,
+        "duration": 0.9,
+        "text": "And again, we could ask,"
+      },
+      {
+        "start": 441.5,
+        "duration": 2.2,
+        "text": "\"Why do we care about\nwork done over here?\""
+      },
+      {
+        "start": 443.7,
+        "duration": 0.9,
+        "text": "Same idea."
+      },
+      {
+        "start": 444.5,
+        "duration": 2.5,
+        "text": "If there are multiple\nforces acting on an object"
+      },
+      {
+        "start": 447.0,
+        "duration": 3.2,
+        "text": "producing multiple torques,\nthen the total work done"
+      },
+      {
+        "start": 450.2,
+        "duration": 3.8,
+        "text": "by all the torque equals the change"
+      },
+      {
+        "start": 454.0,
+        "duration": 5.0,
+        "text": "in the rotational kinetic\nenergy of that object."
+      },
+      {
+        "start": 459.6,
+        "duration": 1.1,
+        "text": "Of course, one small caveat"
+      },
+      {
+        "start": 460.7,
+        "duration": 1.8,
+        "text": "is that we can apply this expression"
+      },
+      {
+        "start": 462.5,
+        "duration": 2.1,
+        "text": "when the net torque is 0."
+      },
+      {
+        "start": 464.6,
+        "duration": 1.5,
+        "text": "So there is an unbalanced force,"
+      },
+      {
+        "start": 466.1,
+        "duration": 2.1,
+        "text": "but there are no unbalanced torques."
+      },
+      {
+        "start": 468.2,
+        "duration": 3.3,
+        "text": "So that's why you know there's\nonly translational motion."
+      },
+      {
+        "start": 471.5,
+        "duration": 3.8,
+        "text": "And we apply this expression\nwhen the net force is 0,"
+      },
+      {
+        "start": 475.3,
+        "duration": 2.2,
+        "text": "but there is some unbalanced torque."
+      },
+      {
+        "start": 477.5,
+        "duration": 3.3,
+        "text": "That's why it's only affecting\nits spin, for example."
+      },
+      {
+        "start": 480.8,
+        "duration": 4.0,
+        "text": "But what if you have both,\nyou know, unbalanced force"
+      },
+      {
+        "start": 484.8,
+        "duration": 2.0,
+        "text": "and an unbalanced torque?"
+      },
+      {
+        "start": 486.8,
+        "duration": 2.0,
+        "text": "Well then again, we have\nto treat them separately."
+      },
+      {
+        "start": 488.9,
+        "duration": 1.1,
+        "text": "We have to calculate the work done"
+      },
+      {
+        "start": 490.0,
+        "duration": 1.6,
+        "text": "by the unbalanced forces separately"
+      },
+      {
+        "start": 491.6,
+        "duration": 2.5,
+        "text": "equate it to change in\ntranslational kinetic energy."
+      },
+      {
+        "start": 494.0,
+        "duration": 2.3,
+        "text": "And we have to calculate the work done by,"
+      },
+      {
+        "start": 496.3,
+        "duration": 3.1,
+        "text": "the total work done by the\nunbalanced torque separately"
+      },
+      {
+        "start": 499.4,
+        "duration": 4.0,
+        "text": "and equate that to change in\nrotational kinetic energy."
+      },
+      {
+        "start": 504.6,
+        "duration": 1.4,
+        "text": "Okay, one final thing,"
+      },
+      {
+        "start": 505.9,
+        "duration": 2.0,
+        "text": "when it comes to translational motion,"
+      },
+      {
+        "start": 508.0,
+        "duration": 2.5,
+        "text": "work done equals a product of\nforce and displacement, right?"
+      },
+      {
+        "start": 510.5,
+        "duration": 2.7,
+        "text": "So, we can calculate it as the signed area"
+      },
+      {
+        "start": 513.2,
+        "duration": 2.0,
+        "text": "under the graph of the force"
+      },
+      {
+        "start": 515.2,
+        "duration": 2.3,
+        "text": "as a function of position, right?"
+      },
+      {
+        "start": 517.5,
+        "duration": 3.8,
+        "text": "Similarly, when it comes\nto rotational work done,"
+      },
+      {
+        "start": 521.2,
+        "duration": 1.9,
+        "text": "we can calculate it,"
+      },
+      {
+        "start": 523.1,
+        "duration": 1.7,
+        "text": "you can calculate the,\nthis particular work done"
+      },
+      {
+        "start": 524.9,
+        "duration": 3.9,
+        "text": "as the signed area under\nthe graph of torque"
+      },
+      {
+        "start": 528.8,
+        "duration": 2.2,
+        "text": "as a function of angle theta."
+      },
+      {
+        "start": 531.0,
+        "duration": 3.6,
+        "text": "Again, the situation is\nsuper duper analogous."
+      },
+      {
+        "start": 534.7,
+        "duration": 1.4,
+        "text": "So if we come back to this example,"
+      },
+      {
+        "start": 536.1,
+        "duration": 2.0,
+        "text": "let's say initially both\nthese objects are at rest,"
+      },
+      {
+        "start": 538.1,
+        "duration": 2.4,
+        "text": "they're not spinning, and\nthen we put a torque on them"
+      },
+      {
+        "start": 540.5,
+        "duration": 1.5,
+        "text": "and we make them spin,"
+      },
+      {
+        "start": 542.1,
+        "duration": 2.5,
+        "text": "and we get them to the same angular speed."
+      },
+      {
+        "start": 544.5,
+        "duration": 3.5,
+        "text": "In which case, would we\nhave to do more work?"
+      },
+      {
+        "start": 548.0,
+        "duration": 2.0,
+        "text": "Can you pause and think about this?"
+      },
+      {
+        "start": 552.2,
+        "duration": 2.5,
+        "text": "All right, well, we already know"
+      },
+      {
+        "start": 554.8,
+        "duration": 3.0,
+        "text": "that this one ends up\nhaving more kinetic energy"
+      },
+      {
+        "start": 557.8,
+        "duration": 2.7,
+        "text": "compared to this one because\nit has more rotational inertia."
+      },
+      {
+        "start": 560.5,
+        "duration": 1.9,
+        "text": "So when we made it spin,"
+      },
+      {
+        "start": 562.4,
+        "duration": 4.0,
+        "text": "this one ended up with more\nchange in kinetic energy"
+      },
+      {
+        "start": 566.4,
+        "duration": 1.3,
+        "text": "compared to this one."
+      },
+      {
+        "start": 567.7,
+        "duration": 4.2,
+        "text": "Therefore, more work has\nto be done on this one"
+      },
+      {
+        "start": 572.0,
+        "duration": 1.1,
+        "text": "compared to this one."
+      },
+      {
+        "start": 573.0,
+        "duration": 4.1,
+        "text": "So if we rotated them to\nthe same angle, for example,"
+      },
+      {
+        "start": 577.1,
+        "duration": 1.8,
+        "text": "then the net torque on this one"
+      },
+      {
+        "start": 579.0,
+        "duration": 2.2,
+        "text": "must have been greater\ncompared to this one."
+      },
+      {
+        "start": 581.1,
+        "duration": 2.7,
+        "text": "So, these are the kind of\nanalysis that we can do"
+      },
+      {
+        "start": 583.8,
+        "duration": 1.5,
+        "text": "using the work-energy theorem."
+      },
+      {
+        "start": 586.4,
+        "duration": 2.3,
+        "text": "All right, now let's go back\nto our original problem."
+      },
+      {
+        "start": 588.8,
+        "duration": 1.4,
+        "text": "We know initially they all have"
+      },
+      {
+        "start": 590.2,
+        "duration": 3.2,
+        "text": "the exact same gravitational\npotential energy to begin with"
+      },
+      {
+        "start": 593.4,
+        "duration": 1.4,
+        "text": "because they have the same mass,"
+      },
+      {
+        "start": 594.8,
+        "duration": 2.2,
+        "text": "they're the same height, all right?"
+      },
+      {
+        "start": 597.0,
+        "duration": 2.9,
+        "text": "And when they reach the bottom,\nall of that potential energy"
+      },
+      {
+        "start": 599.8,
+        "duration": 3.0,
+        "text": "would've been converted to kinetic energy."
+      },
+      {
+        "start": 602.9,
+        "duration": 4.0,
+        "text": "Now, if these were not spinning at all,"
+      },
+      {
+        "start": 606.9,
+        "duration": 2.3,
+        "text": "okay, assume that they were just sliding"
+      },
+      {
+        "start": 609.2,
+        "duration": 3.2,
+        "text": "only translator motion, then\nall of that potential energy"
+      },
+      {
+        "start": 612.4,
+        "duration": 2.5,
+        "text": "would get converted to\ntranslational kinetic energy."
+      },
+      {
+        "start": 615.0,
+        "duration": 1.1,
+        "text": "And so, all of them would end up"
+      },
+      {
+        "start": 616.0,
+        "duration": 2.4,
+        "text": "having the same amount of\ntranslational kinetic energy."
+      },
+      {
+        "start": 618.5,
+        "duration": 1.3,
+        "text": "And since they have the same mass,"
+      },
+      {
+        "start": 619.8,
+        "duration": 1.7,
+        "text": "they would have the same speed."
+      },
+      {
+        "start": 621.5,
+        "duration": 2.6,
+        "text": "And then our in, you know, in\nmy instinct would be right,"
+      },
+      {
+        "start": 624.1,
+        "duration": 1.6,
+        "text": "they would all reach the ground,"
+      },
+      {
+        "start": 625.7,
+        "duration": 1.9,
+        "text": "they would all reach\nbottom at the same time."
+      },
+      {
+        "start": 627.7,
+        "duration": 3.1,
+        "text": "But they're not just gonna\ngo in translating motion,"
+      },
+      {
+        "start": 630.8,
+        "duration": 2.5,
+        "text": "they're also spinning,"
+      },
+      {
+        "start": 633.3,
+        "duration": 2.0,
+        "text": "which means when they reach the bottom,"
+      },
+      {
+        "start": 635.3,
+        "duration": 2.0,
+        "text": "they not only have\ntranslational kinetic energy,"
+      },
+      {
+        "start": 637.4,
+        "duration": 1.5,
+        "text": "but along with that they also have"
+      },
+      {
+        "start": 638.9,
+        "duration": 3.2,
+        "text": "rotational kinetic energy."
+      },
+      {
+        "start": 642.1,
+        "duration": 1.6,
+        "text": "So, some of that potential energy"
+      },
+      {
+        "start": 643.6,
+        "duration": 2.3,
+        "text": "is converted into\nrotational kinetic energy"
+      },
+      {
+        "start": 645.9,
+        "duration": 1.9,
+        "text": "and only the remaining"
+      },
+      {
+        "start": 647.9,
+        "duration": 2.9,
+        "text": "will be the translational kinetic energy."
+      },
+      {
+        "start": 650.8,
+        "duration": 2.5,
+        "text": "And now, the question is\nhow does it get distributed"
+      },
+      {
+        "start": 653.2,
+        "duration": 1.6,
+        "text": "for different objects?"
+      },
+      {
+        "start": 654.9,
+        "duration": 1.8,
+        "text": "Well, we already know objects"
+      },
+      {
+        "start": 656.7,
+        "duration": 2.5,
+        "text": "that have higher rotational inertia,"
+      },
+      {
+        "start": 659.2,
+        "duration": 3.4,
+        "text": "well, they end up having higher\nrotational kinetic energy,"
+      },
+      {
+        "start": 662.6,
+        "duration": 2.0,
+        "text": "you know, for a given speed."
+      },
+      {
+        "start": 664.7,
+        "duration": 2.8,
+        "text": "Now, of the three which has\nthe highest rotational inertia?"
+      },
+      {
+        "start": 667.4,
+        "duration": 1.9,
+        "text": "Well, they all have the same radius"
+      },
+      {
+        "start": 669.4,
+        "duration": 3.2,
+        "text": "but when it comes to this\nhoop, all the particles,"
+      },
+      {
+        "start": 672.6,
+        "duration": 1.5,
+        "text": "pretty much all the particles"
+      },
+      {
+        "start": 674.1,
+        "duration": 2.2,
+        "text": "are at the maximum\ndistance from the center."
+      },
+      {
+        "start": 676.4,
+        "duration": 1.3,
+        "text": "So they have the highest,"
+      },
+      {
+        "start": 677.6,
+        "duration": 3.0,
+        "text": "this hoop has the highest\nrotational inertia."
+      },
+      {
+        "start": 680.7,
+        "duration": 1.3,
+        "text": "Then comes the whole sphere."
+      },
+      {
+        "start": 681.9,
+        "duration": 1.9,
+        "text": "It has lesser rotational inertia,"
+      },
+      {
+        "start": 683.8,
+        "duration": 1.2,
+        "text": "because there are certain particles"
+      },
+      {
+        "start": 685.0,
+        "duration": 2.9,
+        "text": "closer to the axis of rotation,\nbecause it's a sphere."
+      },
+      {
+        "start": 687.9,
+        "duration": 1.6,
+        "text": "But then comes the solid sphere"
+      },
+      {
+        "start": 689.5,
+        "duration": 2.1,
+        "text": "because it's solid on the inside,"
+      },
+      {
+        "start": 691.6,
+        "duration": 2.8,
+        "text": "a lot of particles are\ncloser to the center,"
+      },
+      {
+        "start": 694.4,
+        "duration": 3.3,
+        "text": "and so it has the least\nrotational inertia."
+      },
+      {
+        "start": 697.7,
+        "duration": 1.3,
+        "text": "So if I were to only look"
+      },
+      {
+        "start": 699.0,
+        "duration": 1.5,
+        "text": "at their rotational kinetic energy,"
+      },
+      {
+        "start": 700.5,
+        "duration": 1.6,
+        "text": "I would expect this one to have"
+      },
+      {
+        "start": 702.1,
+        "duration": 2.1,
+        "text": "the maximum rotational kinetic energy"
+      },
+      {
+        "start": 704.2,
+        "duration": 3.1,
+        "text": "and this one to have the minimum\nrotational kinetic energy."
+      },
+      {
+        "start": 707.4,
+        "duration": 2.0,
+        "text": "But since the total kinetic energy"
+      },
+      {
+        "start": 709.4,
+        "duration": 1.2,
+        "text": "must be the same for all three of them"
+      },
+      {
+        "start": 710.6,
+        "duration": 1.6,
+        "text": "when they reach the bottom,"
+      },
+      {
+        "start": 712.2,
+        "duration": 1.9,
+        "text": "that means this will end up having"
+      },
+      {
+        "start": 714.1,
+        "duration": 2.1,
+        "text": "the maximum translational kinetic energy"
+      },
+      {
+        "start": 716.3,
+        "duration": 2.0,
+        "text": "and this will end up having"
+      },
+      {
+        "start": 718.3,
+        "duration": 2.8,
+        "text": "the minimum translational kinetic energy."
+      },
+      {
+        "start": 721.1,
+        "duration": 1.2,
+        "text": "Does that make sense?"
+      },
+      {
+        "start": 723.2,
+        "duration": 4.0,
+        "text": "Therefore, this one will\nhave the least speed"
+      },
+      {
+        "start": 727.2,
+        "duration": 1.2,
+        "text": "when it reaches the bottom,"
+      },
+      {
+        "start": 728.4,
+        "duration": 2.1,
+        "text": "and this one will have the maximum speed"
+      },
+      {
+        "start": 730.6,
+        "duration": 1.9,
+        "text": "when it reaches the bottom."
+      },
+      {
+        "start": 732.5,
+        "duration": 2.0,
+        "text": "That's why we can now predict"
+      },
+      {
+        "start": 734.5,
+        "duration": 1.8,
+        "text": "that this one should\nreach the bottom first,"
+      },
+      {
+        "start": 736.2,
+        "duration": 1.5,
+        "text": "because it speeds up."
+      },
+      {
+        "start": 737.7,
+        "duration": 2.1,
+        "text": "It's linear speed\nincreases much more quickly"
+      },
+      {
+        "start": 739.8,
+        "duration": 1.3,
+        "text": "compared to this one."
+      },
+      {
+        "start": 741.1,
+        "duration": 1.5,
+        "text": "It achieves a higher linear speed"
+      },
+      {
+        "start": 742.6,
+        "duration": 0.9,
+        "text": "by the time it reaches the bottom."
+      },
+      {
+        "start": 743.5,
+        "duration": 2.7,
+        "text": "So, this one must have reached first."
+      },
+      {
+        "start": 746.2,
+        "duration": 1.3,
+        "text": "Then, comes this one."
+      },
+      {
+        "start": 747.5,
+        "duration": 3.0,
+        "text": "And this one reaches the bottom the last."
+      },
+      {
+        "start": 750.5,
+        "duration": 2.3,
+        "text": "So if you were to look at the animation,"
+      },
+      {
+        "start": 752.8,
+        "duration": 2.0,
+        "text": "this is kind of what it would look like."
+      }
+    ],
+    "full_text": "- [Lecturer] A solid\nsphere, a hollow sphere, and a ring or a hoop are placed\nat the top of an incline. They have the same mass and\nthey have the same radius. The question is if we release\nthem from the same height and at the same time, which of them will reach the bottom first? What do you think? Well, when I first look at this problem, here's how I was thinking. Since they're released\nfrom the same height and they have the same mass, they have the same\ngravitational potential energy to begin with, and when\nthey reach the bottom, all of that potential energy gets connected to kinetic energy, which means they should\nall have the same speed as they're moving down. So, they should all reach the bottom at exactly the same time, but that is wrong. Why? Because they're not just moving forward. It's not just a translatory motion. They're also spinning as they go forward, and that makes things a\nlittle bit more interesting. So, let's see how to tackle this problem and which of the three actually\nreaches the ground first. Suppose a basketball moves such that at any given\nmoment all the points on that basketball has\nexactly the same velocity, then we call such a motion,\ntranslational motion. And if the basketball has mass m, then the kinetic energy of the ball would be just half mv square. We call this the\ntranslational kinetic energy. In contrast, if you have a basketball that is spinning like this, then look, all particles\nare going in a circular path about a common axis, we call such a motion rotational motion or just rotation. Now, in this particular\ncase, different particles don't have the same speed\nat any given moment. Particles that are far\naway from the center are covering a lot of distance per second. So, they are traveling\nwith a very high speed compared to the particles that are closer. And the particles which are\nnear the axis or on the axis, they're not moving at all. So, they have very different speeds, but they're all covering\nequal angles per second. So, they have the same angular speed. And just like in translational motion, the mass represents inertia. It tells how hard it is to\nlinearly accelerate this object. When it comes to rotation, we have an analogous quantity\ncalled rotational inertia. That is a quantity that\ntells us how hard it is to angularly accelerate the object, which means how hard is it to get an object to start spinning or to stop spinning, for example. So, rotational inertia\nhere is analogous to mass. And by the way, earlier we used to call this quantity moment of inertia, but it's now more typically referred to as just rotational inertia, because that sounds much more intuitive. So, can you now guess what\nwill be the expression for rotational kinetic energy? Pause and think about this. All right, it's gonna be\npretty analogous to this. It's gonna be half times not\nM, but rotational inertia, so I times, not we, but angular\nspeed, omega squared. So, half I omega squared. So, an object is spinning. This is how you calculate kinetic energy. So look, rotational kinetic energy depends on rotational inertia, and that's what makes\nrotation so interesting. Lemme take an example. Imagine you had two objects, one disc and another one like a disc, but it is hollow in the center, okay? But more importantly, they both\nhave exactly the same mass. Now, if these two objects were undergoing translational motion with exactly the same speed, would they have the same kinetic energy? The answer is yes. Now they're undergoing translation, so they have the same mass. They have the same speed. They should have the\nexact same kinetic energy. So look in translational motion, I don't care about, you\nknow, whether I'm dealing with a solid disc or a hollow disc. I don't care about all of that. Mass is all that matters to me. And the speed, of course. But now, let's say they're\nundergoing rotational motion. In fact, let's assume they're spinning with the exact same angular speeds, okay? So, they have the same mass. They have the same angular speed. Would they have the\nsame kinetic energy now? No, because when it comes to rotation, it's not the mass that matters. It's the rotational inertia that matters. And rotational inertia depends on the distribution\nof the particle, about the center. If particles are, if\nthere are more particles away from the center of rotation, you get a higher rotational inertia. So over here, because\nthere's a hole punched out, a lot of particles are\naway from the center, the farther away from the\ncenter compared to over here. So, this one has a\nhigher rotational inertia compared to this one, but\nthey have the same omega, and therefore this one ends up having more kinetic energy now. So when it comes to rotation, it's not just the mass that\nmatters, you also have to think about the distribution of the particles, and that's what makes\nrotation so interesting. All right, what if you had an object that's doing both translation\nand rotation at the same time? For example, a ball that's\nrolling on the floor. Look, it's moving forward. It's translating, and it's spinning. It's rotating as well. How do you calibrate kinetic\nenergy of such an object? Well, now you have to add both its translational kinetic energy and the rotational kinetic energy. That'll be the total kinetic\nenergy of such motion. All right, now before we can\ntackle our original problem, we can solve our original question. We need one more concept, one more idea. In translational motion, if you have a force that's\nacting on an object, and let's say it displaces the\nobject about some direction, the discussion of the object need not be in the direction of this force if there are multiple\nforces acting on it, okay? And let's say it does so in such a way that it's only translating,\nit's not rotating at all. Then we can define work done by this force as the product of the\ncomponent of the force in the direction of the displacement. That's what this F parallel stands for. You don't just multiply the force, but you take the component of the force in the direction of the displacement times the displacement, right? So, you take this product and\nwe call that as the work done. Its units becomes joules\nor Newton meters, okay? Why do we care about work done? Well, because if there's\nmore than one force acting on an object, then the total work done on\nthe object by all the forces, that equals the change\nin the kinetic energy. So, it'll be equal to the change in the translational kinetic energy. We call this the work-energy theorem. And this is super useful in\nmaking certain predictions as we will see. Now, the same thing can\nbe applied over here when it comes to rotation. If you have an object on\nwhere there's a force acting, which puts a torque on this object and makes it spin through some angle, delta theta for example, then\nwe can define the work done by the torque in a very analogous manner. We would say the work done equals the torque acting on that object times the angular displacement. Again, that makes sense, right? Torque is like the rotational\nversion of the force, and angular displacement is\nlike the rotational version of the linear displacement. So you get very, very analogous expression for the work done. And again, we could ask, \"Why do we care about\nwork done over here?\" Same idea. If there are multiple\nforces acting on an object producing multiple torques,\nthen the total work done by all the torque equals the change in the rotational kinetic\nenergy of that object. Of course, one small caveat is that we can apply this expression when the net torque is 0. So there is an unbalanced force, but there are no unbalanced torques. So that's why you know there's\nonly translational motion. And we apply this expression\nwhen the net force is 0, but there is some unbalanced torque. That's why it's only affecting\nits spin, for example. But what if you have both,\nyou know, unbalanced force and an unbalanced torque? Well then again, we have\nto treat them separately. We have to calculate the work done by the unbalanced forces separately equate it to change in\ntranslational kinetic energy. And we have to calculate the work done by, the total work done by the\nunbalanced torque separately and equate that to change in\nrotational kinetic energy. Okay, one final thing, when it comes to translational motion, work done equals a product of\nforce and displacement, right? So, we can calculate it as the signed area under the graph of the force as a function of position, right? Similarly, when it comes\nto rotational work done, we can calculate it, you can calculate the,\nthis particular work done as the signed area under\nthe graph of torque as a function of angle theta. Again, the situation is\nsuper duper analogous. So if we come back to this example, let's say initially both\nthese objects are at rest, they're not spinning, and\nthen we put a torque on them and we make them spin, and we get them to the same angular speed. In which case, would we\nhave to do more work? Can you pause and think about this? All right, well, we already know that this one ends up\nhaving more kinetic energy compared to this one because\nit has more rotational inertia. So when we made it spin, this one ended up with more\nchange in kinetic energy compared to this one. Therefore, more work has\nto be done on this one compared to this one. So if we rotated them to\nthe same angle, for example, then the net torque on this one must have been greater\ncompared to this one. So, these are the kind of\nanalysis that we can do using the work-energy theorem. All right, now let's go back\nto our original problem. We know initially they all have the exact same gravitational\npotential energy to begin with because they have the same mass, they're the same height, all right? And when they reach the bottom,\nall of that potential energy would've been converted to kinetic energy. Now, if these were not spinning at all, okay, assume that they were just sliding only translator motion, then\nall of that potential energy would get converted to\ntranslational kinetic energy. And so, all of them would end up having the same amount of\ntranslational kinetic energy. And since they have the same mass, they would have the same speed. And then our in, you know, in\nmy instinct would be right, they would all reach the ground, they would all reach\nbottom at the same time. But they're not just gonna\ngo in translating motion, they're also spinning, which means when they reach the bottom, they not only have\ntranslational kinetic energy, but along with that they also have rotational kinetic energy. So, some of that potential energy is converted into\nrotational kinetic energy and only the remaining will be the translational kinetic energy. And now, the question is\nhow does it get distributed for different objects? Well, we already know objects that have higher rotational inertia, well, they end up having higher\nrotational kinetic energy, you know, for a given speed. Now, of the three which has\nthe highest rotational inertia? Well, they all have the same radius but when it comes to this\nhoop, all the particles, pretty much all the particles are at the maximum\ndistance from the center. So they have the highest, this hoop has the highest\nrotational inertia. Then comes the whole sphere. It has lesser rotational inertia, because there are certain particles closer to the axis of rotation,\nbecause it's a sphere. But then comes the solid sphere because it's solid on the inside, a lot of particles are\ncloser to the center, and so it has the least\nrotational inertia. So if I were to only look at their rotational kinetic energy, I would expect this one to have the maximum rotational kinetic energy and this one to have the minimum\nrotational kinetic energy. But since the total kinetic energy must be the same for all three of them when they reach the bottom, that means this will end up having the maximum translational kinetic energy and this will end up having the minimum translational kinetic energy. Does that make sense? Therefore, this one will\nhave the least speed when it reaches the bottom, and this one will have the maximum speed when it reaches the bottom. That's why we can now predict that this one should\nreach the bottom first, because it speeds up. It's linear speed\nincreases much more quickly compared to this one. It achieves a higher linear speed by the time it reaches the bottom. So, this one must have reached first. Then, comes this one. And this one reaches the bottom the last. So if you were to look at the animation, this is kind of what it would look like."
+  }
+}

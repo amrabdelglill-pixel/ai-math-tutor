@@ -1,0 +1,1998 @@
+{
+  "video_id": "JfXMsEi2S-s",
+  "video_title": "Solving rational inequalities by testing intervals in terms of a constant | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 617.0,
+  "view_count": 3471,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": false,
+    "segments": [
+      {
+        "start": 0.0,
+        "duration": 1.6,
+        "text": "- [Instructor] What we\nwanna do in this video"
+      },
+      {
+        "start": 1.6,
+        "duration": 2.1,
+        "text": "is find the solution set"
+      },
+      {
+        "start": 3.7,
+        "duration": 3.1,
+        "text": "for this inequality right over here."
+      },
+      {
+        "start": 6.8,
+        "duration": 1.2,
+        "text": "And like always, if you are inspired"
+      },
+      {
+        "start": 8.0,
+        "duration": 1.9,
+        "text": "and I encourage you to be inspired,"
+      },
+      {
+        "start": 9.9,
+        "duration": 1.6,
+        "text": "try to find the solution set on your own"
+      },
+      {
+        "start": 11.5,
+        "duration": 1.9,
+        "text": "before we work through this together."
+      },
+      {
+        "start": 14.4,
+        "duration": 1.9,
+        "text": "All right, now let's work\nthrough this together."
+      },
+      {
+        "start": 16.3,
+        "duration": 4.2,
+        "text": "So what I wanna first do is\nalgebraically manipulate this."
+      },
+      {
+        "start": 20.6,
+        "duration": 2.8,
+        "text": "So I have a zero on one side,"
+      },
+      {
+        "start": 23.4,
+        "duration": 1.4,
+        "text": "and I'll try to get the\nzero on the right-hand side."
+      },
+      {
+        "start": 24.8,
+        "duration": 2.7,
+        "text": "So let me just subtract\ntwo from both sides."
+      },
+      {
+        "start": 27.5,
+        "duration": 2.2,
+        "text": "So if I subtract two\nfrom both sides, I'm left"
+      },
+      {
+        "start": 29.7,
+        "duration": 4.2,
+        "text": "with 16 over X squared minus 2X"
+      },
+      {
+        "start": 33.9,
+        "duration": 3.6,
+        "text": "minus two is less than zero."
+      },
+      {
+        "start": 38.7,
+        "duration": 1.9,
+        "text": "And now what I could try to do is write it"
+      },
+      {
+        "start": 40.6,
+        "duration": 2.4,
+        "text": "as just one big rational expression,"
+      },
+      {
+        "start": 43.0,
+        "duration": 1.7,
+        "text": "so I could rewrite the two."
+      },
+      {
+        "start": 44.7,
+        "duration": 5.0,
+        "text": "So let me rewrite this as\n16 over X squared minus 2X,"
+      },
+      {
+        "start": 50.0,
+        "duration": 4.2,
+        "text": "and then I'm going to rewrite\nthis right over there."
+      },
+      {
+        "start": 54.2,
+        "duration": 1.6,
+        "text": "Actually, lemme do this\nin a different color."
+      },
+      {
+        "start": 55.8,
+        "duration": 3.4,
+        "text": "I'm going to rewrite this right over here."
+      },
+      {
+        "start": 59.1,
+        "duration": 1.9,
+        "text": "Instead of subtracting just two,"
+      },
+      {
+        "start": 61.0,
+        "duration": 1.5,
+        "text": "I'm gonna write the equivalent of two."
+      },
+      {
+        "start": 62.5,
+        "duration": 4.6,
+        "text": "That's the same thing\nas two times X squared"
+      },
+      {
+        "start": 67.1,
+        "duration": 5.0,
+        "text": "minus 2X over X squared minus 2X."
+      },
+      {
+        "start": 72.1,
+        "duration": 2.7,
+        "text": "All I did is found a\ncommon denominator here."
+      },
+      {
+        "start": 74.7,
+        "duration": 4.6,
+        "text": "And so now I can rewrite\nthis entire thing as,"
+      },
+      {
+        "start": 79.3,
+        "duration": 3.3,
+        "text": "in the denominator I still\nhave X squared minus 2X,"
+      },
+      {
+        "start": 82.6,
+        "duration": 2.2,
+        "text": "and actually I'm going to have\nto factor that eventually."
+      },
+      {
+        "start": 84.7,
+        "duration": 1.9,
+        "text": "So why don't I just factor it right now?"
+      },
+      {
+        "start": 86.6,
+        "duration": 5.0,
+        "text": "So I'll have X times X minus\ntwo in the denominator."
+      },
+      {
+        "start": 91.7,
+        "duration": 5.0,
+        "text": "And in the numerator, all of\nthis business right over there,"
+      },
+      {
+        "start": 97.9,
+        "duration": 1.5,
+        "text": "I have 16."
+      },
+      {
+        "start": 99.4,
+        "duration": 2.9,
+        "text": "And let me distribute, let\nme multiply things out."
+      },
+      {
+        "start": 102.3,
+        "duration": 5.0,
+        "text": "So minus 2X squared, and then plus 4X."
+      },
+      {
+        "start": 109.7,
+        "duration": 2.6,
+        "text": "Oh, let me, I lost the\nless than equal zero."
+      },
+      {
+        "start": 112.3,
+        "duration": 3.4,
+        "text": "Less than or equal to zero,\nless than or equal to zero."
+      },
+      {
+        "start": 115.7,
+        "duration": 1.9,
+        "text": "And then let me go up here"
+      },
+      {
+        "start": 117.5,
+        "duration": 3.6,
+        "text": "and let me rewrite this\nnumerator in the standard form"
+      },
+      {
+        "start": 121.1,
+        "duration": 1.9,
+        "text": "where we write the highest degree first."
+      },
+      {
+        "start": 123.0,
+        "duration": 5.0,
+        "text": "So it is minus 2X squared plus 4X plus 16."
+      },
+      {
+        "start": 130.7,
+        "duration": 4.6,
+        "text": "All of that is over X times X minus two"
+      },
+      {
+        "start": 135.3,
+        "duration": 1.4,
+        "text": "is less than zero."
+      },
+      {
+        "start": 136.7,
+        "duration": 2.2,
+        "text": "And I'm gonna try to factor this top out."
+      },
+      {
+        "start": 138.9,
+        "duration": 2.9,
+        "text": "Let's see, I can factor\nout a negative two."
+      },
+      {
+        "start": 141.8,
+        "duration": 3.2,
+        "text": "So I have negative two times X squared"
+      },
+      {
+        "start": 145.0,
+        "duration": 4.2,
+        "text": "minus 2X minus eight."
+      },
+      {
+        "start": 150.1,
+        "duration": 5.0,
+        "text": "All of that over X times X\nminus two is less than zero."
+      },
+      {
+        "start": 156.6,
+        "duration": 2.7,
+        "text": "And let's see, what two\nnumbers, if I were to multiply"
+      },
+      {
+        "start": 159.4,
+        "duration": 1.9,
+        "text": "get to negative eight,"
+      },
+      {
+        "start": 161.2,
+        "duration": 3.1,
+        "text": "and if I were to add\nit get to negative two?"
+      },
+      {
+        "start": 164.3,
+        "duration": 2.2,
+        "text": "So let's see, negative\nfour and positive two work."
+      },
+      {
+        "start": 166.6,
+        "duration": 3.0,
+        "text": "So I could rewrite the\nnumerator as negative two,"
+      },
+      {
+        "start": 169.6,
+        "duration": 2.3,
+        "text": "I'm just factoring this expression here."
+      },
+      {
+        "start": 171.9,
+        "duration": 5.0,
+        "text": "Negative two times X minus\nfour times X plus two."
+      },
+      {
+        "start": 178.5,
+        "duration": 1.1,
+        "text": "Did I do that right? Yes."
+      },
+      {
+        "start": 179.6,
+        "duration": 2.0,
+        "text": "Negative four times two is negative eight."
+      },
+      {
+        "start": 181.6,
+        "duration": 1.4,
+        "text": "Yep, that looks good."
+      },
+      {
+        "start": 183.0,
+        "duration": 5.0,
+        "text": "All of that over X times X\nminus two is less than zero."
+      },
+      {
+        "start": 188.4,
+        "duration": 1.7,
+        "text": "So why did I do all of this?"
+      },
+      {
+        "start": 190.1,
+        "duration": 1.1,
+        "text": "Well, I'm gonna figure out"
+      },
+      {
+        "start": 191.2,
+        "duration": 3.8,
+        "text": "where does this rational\nfunction either have values,"
+      },
+      {
+        "start": 195.0,
+        "duration": 4.8,
+        "text": "X values that make this numerator\nover here equal to zero,"
+      },
+      {
+        "start": 199.9,
+        "duration": 3.5,
+        "text": "or that make this denominator undefined"
+      },
+      {
+        "start": 203.3,
+        "duration": 2.8,
+        "text": "and will have some type\nof a discontinuity."
+      },
+      {
+        "start": 206.1,
+        "duration": 3.6,
+        "text": "Because those can be the\nareas of sign changes."
+      },
+      {
+        "start": 209.7,
+        "duration": 2.2,
+        "text": "So we can see that our function,"
+      },
+      {
+        "start": 211.8,
+        "duration": 2.5,
+        "text": "the numerator here at\nleast will become zero"
+      },
+      {
+        "start": 214.3,
+        "duration": 5.0,
+        "text": "at X equals four and\nX equals negative two."
+      },
+      {
+        "start": 221.8,
+        "duration": 2.5,
+        "text": "This is where the\nnumerator is equal to zero."
+      },
+      {
+        "start": 224.2,
+        "duration": 3.7,
+        "text": "And then we also have\ninteresting things happening"
+      },
+      {
+        "start": 228.0,
+        "duration": 3.2,
+        "text": "at X equals zero that makes"
+      },
+      {
+        "start": 232.4,
+        "duration": 2.2,
+        "text": "the whole expression undefined, the zero,"
+      },
+      {
+        "start": 234.6,
+        "duration": 1.6,
+        "text": "or we have zero in the denominator."
+      },
+      {
+        "start": 236.2,
+        "duration": 3.0,
+        "text": "And we also have X equals two."
+      },
+      {
+        "start": 239.2,
+        "duration": 4.3,
+        "text": "So now let's test this\nfunction right over here,"
+      },
+      {
+        "start": 243.5,
+        "duration": 3.6,
+        "text": "over intervals to the left, in between,"
+      },
+      {
+        "start": 247.1,
+        "duration": 1.7,
+        "text": "and to the right of these values."
+      },
+      {
+        "start": 248.8,
+        "duration": 0.8,
+        "text": "And I will-"
+      },
+      {
+        "start": 249.6,
+        "duration": 2.4,
+        "text": "And see whether the\nfunction is less than zero,"
+      },
+      {
+        "start": 252.0,
+        "duration": 2.9,
+        "text": "because the intervals\nwhere it is less than zero"
+      },
+      {
+        "start": 254.9,
+        "duration": 3.4,
+        "text": "are the intervals that\nsatisfy this inequality,"
+      },
+      {
+        "start": 258.3,
+        "duration": 3.3,
+        "text": "which is equivalent to\nthis original inequality."
+      },
+      {
+        "start": 261.7,
+        "duration": 1.1,
+        "text": "So let's start there."
+      },
+      {
+        "start": 262.7,
+        "duration": 2.0,
+        "text": "And let's see, the lowest value here is X"
+      },
+      {
+        "start": 264.8,
+        "duration": 1.4,
+        "text": "is equal to negative two."
+      },
+      {
+        "start": 266.2,
+        "duration": 3.4,
+        "text": "So let's test the interval for\nX is less than negative two."
+      },
+      {
+        "start": 269.6,
+        "duration": 2.0,
+        "text": "And so let's try, say,"
+      },
+      {
+        "start": 271.6,
+        "duration": 4.6,
+        "text": "with X equals negative three,\nX equals negative three."
+      },
+      {
+        "start": 276.2,
+        "duration": 2.2,
+        "text": "And I could have tried any value"
+      },
+      {
+        "start": 278.4,
+        "duration": 1.4,
+        "text": "less than negative two here."
+      },
+      {
+        "start": 279.9,
+        "duration": 1.8,
+        "text": "But let's try it on this expression here."
+      },
+      {
+        "start": 281.7,
+        "duration": 1.8,
+        "text": "We're going to have negative two,"
+      },
+      {
+        "start": 283.5,
+        "duration": 1.1,
+        "text": "I'm write a little bit smaller"
+      },
+      {
+        "start": 284.6,
+        "duration": 1.7,
+        "text": "'cause it's gonna take\na little bit of space,"
+      },
+      {
+        "start": 286.3,
+        "duration": 3.0,
+        "text": "times negative three minus four"
+      },
+      {
+        "start": 289.2,
+        "duration": 3.5,
+        "text": "times negative three plus two."
+      },
+      {
+        "start": 292.8,
+        "duration": 3.0,
+        "text": "All of that over negative three"
+      },
+      {
+        "start": 295.8,
+        "duration": 3.5,
+        "text": "times negative three minus two."
+      },
+      {
+        "start": 299.3,
+        "duration": 1.9,
+        "text": "And what we really care is just the sign."
+      },
+      {
+        "start": 301.2,
+        "duration": 3.0,
+        "text": "So we could see this, the\ndenominator over here,"
+      },
+      {
+        "start": 304.2,
+        "duration": 2.9,
+        "text": "negative three minus two,\nthat's negative five."
+      },
+      {
+        "start": 307.1,
+        "duration": 3.7,
+        "text": "Negative three times negative\nfive, that is positive 15."
+      },
+      {
+        "start": 310.8,
+        "duration": 2.8,
+        "text": "The numerator over here, see\nnegative three minus four,"
+      },
+      {
+        "start": 313.6,
+        "duration": 1.8,
+        "text": "that's negative seven."
+      },
+      {
+        "start": 315.4,
+        "duration": 3.8,
+        "text": "Negative three plus two is negative one."
+      },
+      {
+        "start": 319.2,
+        "duration": 2.6,
+        "text": "So we're gonna have a negative times,"
+      },
+      {
+        "start": 321.8,
+        "duration": 1.3,
+        "text": "well, we could just see this is positive."
+      },
+      {
+        "start": 323.1,
+        "duration": 4.1,
+        "text": "14 times a negative, that is negative 14."
+      },
+      {
+        "start": 327.2,
+        "duration": 1.3,
+        "text": "Negative 14."
+      },
+      {
+        "start": 328.5,
+        "duration": 3.3,
+        "text": "The important thing is\nthat this is negative,"
+      },
+      {
+        "start": 331.8,
+        "duration": 1.9,
+        "text": "so I know it's kind of messy here,"
+      },
+      {
+        "start": 333.7,
+        "duration": 4.2,
+        "text": "but all of that right over\nthere is negative, which means"
+      },
+      {
+        "start": 337.9,
+        "duration": 3.7,
+        "text": "that over this interval for\nX is less than negative two,"
+      },
+      {
+        "start": 341.5,
+        "duration": 1.9,
+        "text": "we're satisfying the inequality."
+      },
+      {
+        "start": 343.5,
+        "duration": 3.6,
+        "text": "So this is going to be\npart of our solution set."
+      },
+      {
+        "start": 347.0,
+        "duration": 2.8,
+        "text": "Let's keep going, let's\ngo to the next interval,"
+      },
+      {
+        "start": 349.8,
+        "duration": 4.5,
+        "text": "when we're between negative\ntwo and now we move up to zero."
+      },
+      {
+        "start": 354.3,
+        "duration": 4.5,
+        "text": "And we could try out the value\nX is equal to negative one."
+      },
+      {
+        "start": 358.8,
+        "duration": 1.6,
+        "text": "Same idea here."
+      },
+      {
+        "start": 360.4,
+        "duration": 1.6,
+        "text": "Oh, maybe I'll do it right over here."
+      },
+      {
+        "start": 362.0,
+        "duration": 3.8,
+        "text": "So it's we have negative two\ntimes negative one minus four,"
+      },
+      {
+        "start": 365.8,
+        "duration": 2.5,
+        "text": "times negative one plus two,"
+      },
+      {
+        "start": 368.3,
+        "duration": 5.0,
+        "text": "all of that over negative one,\ntimes negative one minus two."
+      },
+      {
+        "start": 373.4,
+        "duration": 1.1,
+        "text": "All right, in the numerator here,"
+      },
+      {
+        "start": 374.5,
+        "duration": 2.6,
+        "text": "negative one minus four is negative five."
+      },
+      {
+        "start": 378.3,
+        "duration": 4.4,
+        "text": "Negative one plus two is positive one."
+      },
+      {
+        "start": 382.7,
+        "duration": 2.7,
+        "text": "So negative two times\nnegative five times one"
+      },
+      {
+        "start": 385.4,
+        "duration": 4.0,
+        "text": "is positive 10 in the numerator."
+      },
+      {
+        "start": 389.4,
+        "duration": 2.2,
+        "text": "And then in the denominator over here,"
+      },
+      {
+        "start": 391.5,
+        "duration": 3.8,
+        "text": "negative one minus two is negative three."
+      },
+      {
+        "start": 395.4,
+        "duration": 3.4,
+        "text": "And negative one times negative\nthree is positive three."
+      },
+      {
+        "start": 398.8,
+        "duration": 1.9,
+        "text": "So we have a positive\ndivided by a positive."
+      },
+      {
+        "start": 400.7,
+        "duration": 2.0,
+        "text": "This is going to be\npositive over this value."
+      },
+      {
+        "start": 402.7,
+        "duration": 3.3,
+        "text": "So it's not less than\nzero, so this is not going"
+      },
+      {
+        "start": 406.1,
+        "duration": 2.0,
+        "text": "to be part of our solution set."
+      },
+      {
+        "start": 408.1,
+        "duration": 3.4,
+        "text": "Now let's keep going in a new color."
+      },
+      {
+        "start": 411.4,
+        "duration": 2.6,
+        "text": "And maybe this pink\ncolor here would be nice."
+      },
+      {
+        "start": 414.1,
+        "duration": 2.5,
+        "text": "Let's now go between zero"
+      },
+      {
+        "start": 416.6,
+        "duration": 2.8,
+        "text": "and our next value, which is two."
+      },
+      {
+        "start": 419.3,
+        "duration": 3.0,
+        "text": "Between zero and two."
+      },
+      {
+        "start": 422.4,
+        "duration": 3.2,
+        "text": "And we could try, let's\njust try X equals one."
+      },
+      {
+        "start": 425.6,
+        "duration": 2.7,
+        "text": "So same idea, negative two"
+      },
+      {
+        "start": 430.0,
+        "duration": 3.9,
+        "text": "times one minus four times one plus two,"
+      },
+      {
+        "start": 433.9,
+        "duration": 4.6,
+        "text": "all of that over one times one minus two."
+      },
+      {
+        "start": 438.4,
+        "duration": 1.1,
+        "text": "In the numerator over here, let's see,"
+      },
+      {
+        "start": 439.5,
+        "duration": 5.0,
+        "text": "this is negative three,\nthis is positive three."
+      },
+      {
+        "start": 445.3,
+        "duration": 1.2,
+        "text": "So our numerator,"
+      },
+      {
+        "start": 446.6,
+        "duration": 3.3,
+        "text": "we have a negative times a\nnegative times a positive."
+      },
+      {
+        "start": 449.9,
+        "duration": 2.4,
+        "text": "So the numerator is going to be positive."
+      },
+      {
+        "start": 452.2,
+        "duration": 2.7,
+        "text": "And then our denominator,\nwe have a positive times,"
+      },
+      {
+        "start": 454.9,
+        "duration": 2.0,
+        "text": "this is negative one, times a negative."
+      },
+      {
+        "start": 456.9,
+        "duration": 2.1,
+        "text": "So our denominator is gonna be negative."
+      },
+      {
+        "start": 459.0,
+        "duration": 2.1,
+        "text": "So this whole thing is\ngoing to be negative."
+      },
+      {
+        "start": 461.1,
+        "duration": 3.3,
+        "text": "So this whole thing, our\nfunction is negative here."
+      },
+      {
+        "start": 465.4,
+        "duration": 4.4,
+        "text": "Negative, which means we're\nless than zero, which means"
+      },
+      {
+        "start": 469.8,
+        "duration": 2.9,
+        "text": "that this also is part\nof our solution set."
+      },
+      {
+        "start": 472.7,
+        "duration": 2.3,
+        "text": "And then last but not least,"
+      },
+      {
+        "start": 475.1,
+        "duration": 4.1,
+        "text": "let's try that last interval for X is..."
+      },
+      {
+        "start": 479.2,
+        "duration": 2.5,
+        "text": "Oh, actually we have two\nmore intervals to test."
+      },
+      {
+        "start": 481.7,
+        "duration": 4.1,
+        "text": "We have the interval between two."
+      },
+      {
+        "start": 485.8,
+        "duration": 3.8,
+        "text": "X is between two and four,\nlet's try that one out."
+      },
+      {
+        "start": 489.6,
+        "duration": 4.0,
+        "text": "And we could try, let's\nsay, positive three here."
+      },
+      {
+        "start": 493.6,
+        "duration": 2.2,
+        "text": "So if we say positive three,"
+      },
+      {
+        "start": 495.8,
+        "duration": 4.0,
+        "text": "we'll have negative two\ntimes three minus four"
+      },
+      {
+        "start": 499.8,
+        "duration": 2.2,
+        "text": "times three plus two."
+      },
+      {
+        "start": 502.1,
+        "duration": 3.8,
+        "text": "All of that over three\ntimes three minus two."
+      },
+      {
+        "start": 505.8,
+        "duration": 3.2,
+        "text": "So let's see, this is\ngoing to be negative one,"
+      },
+      {
+        "start": 509.0,
+        "duration": 2.2,
+        "text": "this is positive five."
+      },
+      {
+        "start": 511.2,
+        "duration": 2.0,
+        "text": "So our numerator, negative times negative"
+      },
+      {
+        "start": 513.2,
+        "duration": 1.9,
+        "text": "times positive is positive."
+      },
+      {
+        "start": 515.2,
+        "duration": 3.8,
+        "text": "Our denominator is also positive,\nthat's just a one there."
+      },
+      {
+        "start": 519.0,
+        "duration": 2.8,
+        "text": "Also positive, so not\npart of the solution set."
+      },
+      {
+        "start": 521.8,
+        "duration": 3.2,
+        "text": "Now last but not least,\nI'm running out of colors,"
+      },
+      {
+        "start": 524.9,
+        "duration": 3.4,
+        "text": "we can try the interval\nfor X is greater than four."
+      },
+      {
+        "start": 528.4,
+        "duration": 3.0,
+        "text": "And let's say we try X equals five there."
+      },
+      {
+        "start": 531.4,
+        "duration": 1.6,
+        "text": "And I'm really running out of space here."
+      },
+      {
+        "start": 533.0,
+        "duration": 2.7,
+        "text": "Lemme see, maybe I'll\ndo it right over here."
+      },
+      {
+        "start": 535.6,
+        "duration": 3.2,
+        "text": "We have negative two times five minus four"
+      },
+      {
+        "start": 538.8,
+        "duration": 3.0,
+        "text": "and once again I'm just trying\nsome value in that interval,"
+      },
+      {
+        "start": 541.8,
+        "duration": 4.7,
+        "text": "times five plus two, all of that over"
+      },
+      {
+        "start": 546.5,
+        "duration": 5.0,
+        "text": "five times five minus two\nis going to be equal to,"
+      },
+      {
+        "start": 551.7,
+        "duration": 1.6,
+        "text": "or I could just evaluate the sign."
+      },
+      {
+        "start": 553.4,
+        "duration": 4.1,
+        "text": "So this is positive one,\nthis is positive seven."
+      },
+      {
+        "start": 557.4,
+        "duration": 2.1,
+        "text": "So we have a negative numerator."
+      },
+      {
+        "start": 559.5,
+        "duration": 5.0,
+        "text": "And then our denominator\nright over here is positive."
+      },
+      {
+        "start": 564.9,
+        "duration": 2.0,
+        "text": "Five minus two is three, positive."
+      },
+      {
+        "start": 566.9,
+        "duration": 1.0,
+        "text": "So this is gonna be negative,"
+      },
+      {
+        "start": 567.8,
+        "duration": 2.2,
+        "text": "negative divided by positive is negative."
+      },
+      {
+        "start": 570.0,
+        "duration": 3.2,
+        "text": "So this is also part of our solution set."
+      },
+      {
+        "start": 573.2,
+        "duration": 3.1,
+        "text": "So our solution set is that X\ncan be less than negative two"
+      },
+      {
+        "start": 576.3,
+        "duration": 3.5,
+        "text": "or X could be between zero and two"
+      },
+      {
+        "start": 579.8,
+        "duration": 2.2,
+        "text": "or X could be greater than four."
+      },
+      {
+        "start": 581.9,
+        "duration": 1.9,
+        "text": "Sometimes if you see it in set notation,"
+      },
+      {
+        "start": 583.8,
+        "duration": 1.7,
+        "text": "it might look like this."
+      },
+      {
+        "start": 585.6,
+        "duration": 1.7,
+        "text": "Let me see where I could write it."
+      },
+      {
+        "start": 587.3,
+        "duration": 2.2,
+        "text": "We could write that our solution set goes"
+      },
+      {
+        "start": 589.5,
+        "duration": 3.9,
+        "text": "from negative infinity to negative two,"
+      },
+      {
+        "start": 593.4,
+        "duration": 2.2,
+        "text": "and we're not including negative two,"
+      },
+      {
+        "start": 595.5,
+        "duration": 1.3,
+        "text": "we're not including the boundary here"
+      },
+      {
+        "start": 596.9,
+        "duration": 2.1,
+        "text": "because it's strictly less than."
+      },
+      {
+        "start": 599.0,
+        "duration": 5.0,
+        "text": "Or, that means union, or\nwe're between zero and two,"
+      },
+      {
+        "start": 605.4,
+        "duration": 5.0,
+        "text": "or, or union, we are between\nfour and positive infinity."
+      },
+      {
+        "start": 611.6,
+        "duration": 1.7,
+        "text": "That's our solution set right over there."
+      },
+      {
+        "start": 613.3,
+        "duration": 1.6,
+        "text": "Sorry for all of the jumble."
+      },
+      {
+        "start": 615.0,
+        "duration": 2.2,
+        "text": "I had to write a lot in\nlimited screen space."
+      }
+    ],
+    "full_text": "- [Instructor] What we\nwanna do in this video is find the solution set for this inequality right over here. And like always, if you are inspired and I encourage you to be inspired, try to find the solution set on your own before we work through this together. All right, now let's work\nthrough this together. So what I wanna first do is\nalgebraically manipulate this. So I have a zero on one side, and I'll try to get the\nzero on the right-hand side. So let me just subtract\ntwo from both sides. So if I subtract two\nfrom both sides, I'm left with 16 over X squared minus 2X minus two is less than zero. And now what I could try to do is write it as just one big rational expression, so I could rewrite the two. So let me rewrite this as\n16 over X squared minus 2X, and then I'm going to rewrite\nthis right over there. Actually, lemme do this\nin a different color. I'm going to rewrite this right over here. Instead of subtracting just two, I'm gonna write the equivalent of two. That's the same thing\nas two times X squared minus 2X over X squared minus 2X. All I did is found a\ncommon denominator here. And so now I can rewrite\nthis entire thing as, in the denominator I still\nhave X squared minus 2X, and actually I'm going to have\nto factor that eventually. So why don't I just factor it right now? So I'll have X times X minus\ntwo in the denominator. And in the numerator, all of\nthis business right over there, I have 16. And let me distribute, let\nme multiply things out. So minus 2X squared, and then plus 4X. Oh, let me, I lost the\nless than equal zero. Less than or equal to zero,\nless than or equal to zero. And then let me go up here and let me rewrite this\nnumerator in the standard form where we write the highest degree first. So it is minus 2X squared plus 4X plus 16. All of that is over X times X minus two is less than zero. And I'm gonna try to factor this top out. Let's see, I can factor\nout a negative two. So I have negative two times X squared minus 2X minus eight. All of that over X times X\nminus two is less than zero. And let's see, what two\nnumbers, if I were to multiply get to negative eight, and if I were to add\nit get to negative two? So let's see, negative\nfour and positive two work. So I could rewrite the\nnumerator as negative two, I'm just factoring this expression here. Negative two times X minus\nfour times X plus two. Did I do that right? Yes. Negative four times two is negative eight. Yep, that looks good. All of that over X times X\nminus two is less than zero. So why did I do all of this? Well, I'm gonna figure out where does this rational\nfunction either have values, X values that make this numerator\nover here equal to zero, or that make this denominator undefined and will have some type\nof a discontinuity. Because those can be the\nareas of sign changes. So we can see that our function, the numerator here at\nleast will become zero at X equals four and\nX equals negative two. This is where the\nnumerator is equal to zero. And then we also have\ninteresting things happening at X equals zero that makes the whole expression undefined, the zero, or we have zero in the denominator. And we also have X equals two. So now let's test this\nfunction right over here, over intervals to the left, in between, and to the right of these values. And I will- And see whether the\nfunction is less than zero, because the intervals\nwhere it is less than zero are the intervals that\nsatisfy this inequality, which is equivalent to\nthis original inequality. So let's start there. And let's see, the lowest value here is X is equal to negative two. So let's test the interval for\nX is less than negative two. And so let's try, say, with X equals negative three,\nX equals negative three. And I could have tried any value less than negative two here. But let's try it on this expression here. We're going to have negative two, I'm write a little bit smaller 'cause it's gonna take\na little bit of space, times negative three minus four times negative three plus two. All of that over negative three times negative three minus two. And what we really care is just the sign. So we could see this, the\ndenominator over here, negative three minus two,\nthat's negative five. Negative three times negative\nfive, that is positive 15. The numerator over here, see\nnegative three minus four, that's negative seven. Negative three plus two is negative one. So we're gonna have a negative times, well, we could just see this is positive. 14 times a negative, that is negative 14. Negative 14. The important thing is\nthat this is negative, so I know it's kind of messy here, but all of that right over\nthere is negative, which means that over this interval for\nX is less than negative two, we're satisfying the inequality. So this is going to be\npart of our solution set. Let's keep going, let's\ngo to the next interval, when we're between negative\ntwo and now we move up to zero. And we could try out the value\nX is equal to negative one. Same idea here. Oh, maybe I'll do it right over here. So it's we have negative two\ntimes negative one minus four, times negative one plus two, all of that over negative one,\ntimes negative one minus two. All right, in the numerator here, negative one minus four is negative five. Negative one plus two is positive one. So negative two times\nnegative five times one is positive 10 in the numerator. And then in the denominator over here, negative one minus two is negative three. And negative one times negative\nthree is positive three. So we have a positive\ndivided by a positive. This is going to be\npositive over this value. So it's not less than\nzero, so this is not going to be part of our solution set. Now let's keep going in a new color. And maybe this pink\ncolor here would be nice. Let's now go between zero and our next value, which is two. Between zero and two. And we could try, let's\njust try X equals one. So same idea, negative two times one minus four times one plus two, all of that over one times one minus two. In the numerator over here, let's see, this is negative three,\nthis is positive three. So our numerator, we have a negative times a\nnegative times a positive. So the numerator is going to be positive. And then our denominator,\nwe have a positive times, this is negative one, times a negative. So our denominator is gonna be negative. So this whole thing is\ngoing to be negative. So this whole thing, our\nfunction is negative here. Negative, which means we're\nless than zero, which means that this also is part\nof our solution set. And then last but not least, let's try that last interval for X is... Oh, actually we have two\nmore intervals to test. We have the interval between two. X is between two and four,\nlet's try that one out. And we could try, let's\nsay, positive three here. So if we say positive three, we'll have negative two\ntimes three minus four times three plus two. All of that over three\ntimes three minus two. So let's see, this is\ngoing to be negative one, this is positive five. So our numerator, negative times negative times positive is positive. Our denominator is also positive,\nthat's just a one there. Also positive, so not\npart of the solution set. Now last but not least,\nI'm running out of colors, we can try the interval\nfor X is greater than four. And let's say we try X equals five there. And I'm really running out of space here. Lemme see, maybe I'll\ndo it right over here. We have negative two times five minus four and once again I'm just trying\nsome value in that interval, times five plus two, all of that over five times five minus two\nis going to be equal to, or I could just evaluate the sign. So this is positive one,\nthis is positive seven. So we have a negative numerator. And then our denominator\nright over here is positive. Five minus two is three, positive. So this is gonna be negative, negative divided by positive is negative. So this is also part of our solution set. So our solution set is that X\ncan be less than negative two or X could be between zero and two or X could be greater than four. Sometimes if you see it in set notation, it might look like this. Let me see where I could write it. We could write that our solution set goes from negative infinity to negative two, and we're not including negative two, we're not including the boundary here because it's strictly less than. Or, that means union, or\nwe're between zero and two, or, or union, we are between\nfour and positive infinity. That's our solution set right over there. Sorry for all of the jumble. I had to write a lot in\nlimited screen space."
+  }
+}

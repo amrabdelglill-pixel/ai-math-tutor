@@ -1,0 +1,1433 @@
+{
+  "video_id": "iM5WNGNuuFk",
+  "video_title": "Adapt, Collaborate, Criticize | Vocabulary | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 248.0,
+  "view_count": 1478,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": false,
+    "segments": [
+      {
+        "start": 0.2,
+        "duration": 1.5,
+        "text": "- [Speaker] Wordsmiths all aboard."
+      },
+      {
+        "start": 1.7,
+        "duration": 3.3,
+        "text": "Train to vocabulary city,\nmaking stops of prefixed gardens"
+      },
+      {
+        "start": 5.0,
+        "duration": 1.4,
+        "text": "and Grand Root Central."
+      },
+      {
+        "start": 6.4,
+        "duration": 1.7,
+        "text": "Chew, chew!"
+      },
+      {
+        "start": 8.1,
+        "duration": 2.1,
+        "text": "What we're gonna do in this\nvideo is break some words down"
+      },
+      {
+        "start": 10.2,
+        "duration": 4.5,
+        "text": "into parts so you can recognize\nthose parts in other words."
+      },
+      {
+        "start": 14.7,
+        "duration": 3.3,
+        "text": "The words we're working on\nin this video are adapt,"
+      },
+      {
+        "start": 18.0,
+        "duration": 2.5,
+        "text": "collaborate, and criticize."
+      },
+      {
+        "start": 20.5,
+        "duration": 1.4,
+        "text": "I'll give you some definitions"
+      },
+      {
+        "start": 21.8,
+        "duration": 2.2,
+        "text": "and then we'll break these words down."
+      },
+      {
+        "start": 24.0,
+        "duration": 3.7,
+        "text": "Adapt is a verb that means\nto change your behavior"
+      },
+      {
+        "start": 27.7,
+        "duration": 2.8,
+        "text": "or ideas in response to a new situation"
+      },
+      {
+        "start": 30.6,
+        "duration": 3.0,
+        "text": "or to change something, to\nuse it in a different way."
+      },
+      {
+        "start": 33.6,
+        "duration": 3.0,
+        "text": "There's also the noun form\nadaptation, which is the process"
+      },
+      {
+        "start": 36.5,
+        "duration": 3.0,
+        "text": "of changing, or when you\nmake a book into a movie,"
+      },
+      {
+        "start": 39.6,
+        "duration": 1.6,
+        "text": "that's another kind of adaptation."
+      },
+      {
+        "start": 41.1,
+        "duration": 2.0,
+        "text": "You're changing a story from one medium"
+      },
+      {
+        "start": 43.1,
+        "duration": 1.9,
+        "text": "to another.\nTo collaborate,"
+      },
+      {
+        "start": 45.1,
+        "duration": 3.4,
+        "text": "another verb with someone is\nto work together with them"
+      },
+      {
+        "start": 48.5,
+        "duration": 2.4,
+        "text": "and to criticize something is"
+      },
+      {
+        "start": 50.8,
+        "duration": 2.9,
+        "text": "to judge something's\nqualities, whether good or bad,"
+      },
+      {
+        "start": 53.8,
+        "duration": 1.5,
+        "text": "or to point out flaws."
+      },
+      {
+        "start": 55.3,
+        "duration": 3.9,
+        "text": "Okay, back to adapt for word parts time."
+      },
+      {
+        "start": 59.2,
+        "duration": 2.6,
+        "text": "Adapt has two parts we\nwanna pay attention to."
+      },
+      {
+        "start": 61.9,
+        "duration": 3.4,
+        "text": "There's our old friend\nadd, which means on or to,"
+      },
+      {
+        "start": 65.2,
+        "duration": 3.6,
+        "text": "and then there's this other\npart apt from the Latin aptare,"
+      },
+      {
+        "start": 68.9,
+        "duration": 2.1,
+        "text": "meaning to join, to fit."
+      },
+      {
+        "start": 71.0,
+        "duration": 2.4,
+        "text": "So something that is adapted is fit"
+      },
+      {
+        "start": 73.4,
+        "duration": 5.0,
+        "text": "for some new purpose changed\nto join up with something."
+      },
+      {
+        "start": 78.5,
+        "duration": 2.4,
+        "text": "Let's look at some other English\nwords that use this route."
+      },
+      {
+        "start": 80.9,
+        "duration": 3.8,
+        "text": "We use the English word apt\njust on its own APT like that"
+      },
+      {
+        "start": 84.7,
+        "duration": 4.3,
+        "text": "to mean appropriate like this\ntuxedo is apt for the occasion"
+      },
+      {
+        "start": 89.1,
+        "duration": 1.5,
+        "text": "of a fancy dinner party."
+      },
+      {
+        "start": 90.6,
+        "duration": 3.8,
+        "text": "Aptitude is being good at something,"
+      },
+      {
+        "start": 94.4,
+        "duration": 2.5,
+        "text": "having abilities appropriate\nfor the situation."
+      },
+      {
+        "start": 96.9,
+        "duration": 2.5,
+        "text": "Inapt meaning not apt, not appropriate,"
+      },
+      {
+        "start": 99.5,
+        "duration": 3.7,
+        "text": "as in these athletic\nshorts are inapt clothing"
+      },
+      {
+        "start": 103.2,
+        "duration": 3.2,
+        "text": "for this fancy dinner party\nas opposed to the tuxedo."
+      },
+      {
+        "start": 106.4,
+        "duration": 2.1,
+        "text": "Our second word, collaborate."
+      },
+      {
+        "start": 108.5,
+        "duration": 1.8,
+        "text": "We've got that col prefix here."
+      },
+      {
+        "start": 110.3,
+        "duration": 4.3,
+        "text": "It's actually from col or\ncon, meaning with or together."
+      },
+      {
+        "start": 114.6,
+        "duration": 3.3,
+        "text": "And then lab meaning work."
+      },
+      {
+        "start": 117.9,
+        "duration": 1.9,
+        "text": "The N becomes an L, right?"
+      },
+      {
+        "start": 119.8,
+        "duration": 3.0,
+        "text": "So it goes from being con,\nelaborate to collaborate."
+      },
+      {
+        "start": 122.8,
+        "duration": 1.8,
+        "text": "Prefixes can change.\nThey can."
+      },
+      {
+        "start": 124.7,
+        "duration": 3.3,
+        "text": "They can adapt when they come\nbefore certain consonants."
+      },
+      {
+        "start": 127.9,
+        "duration": 2.8,
+        "text": "We call this assimilation, becoming to."
+      },
+      {
+        "start": 130.7,
+        "duration": 1.7,
+        "text": "Finally, criticize."
+      },
+      {
+        "start": 132.4,
+        "duration": 2.5,
+        "text": "The root crit comes from\nthe Greek krinein meaning"
+      },
+      {
+        "start": 134.9,
+        "duration": 1.5,
+        "text": "to judge to separate."
+      },
+      {
+        "start": 136.4,
+        "duration": 2.8,
+        "text": "For our purposes today, I'm\nmuch more interested in eyes."
+      },
+      {
+        "start": 139.2,
+        "duration": 4.4,
+        "text": "The suffix it means to do\nit is a verb forming suffix."
+      },
+      {
+        "start": 143.6,
+        "duration": 4.1,
+        "text": "You add the verb forming\nsuffix eyes to critic,"
+      },
+      {
+        "start": 147.7,
+        "duration": 2.8,
+        "text": "and you get what the critic does."
+      },
+      {
+        "start": 150.5,
+        "duration": 2.1,
+        "text": "Something worth pointing out, especially"
+      },
+      {
+        "start": 152.6,
+        "duration": 1.1,
+        "text": "as you start reading older books"
+      },
+      {
+        "start": 153.7,
+        "duration": 2.7,
+        "text": "or texts written outside the United States"
+      },
+      {
+        "start": 156.4,
+        "duration": 2.8,
+        "text": "or Canada, is that American\nand Canadian English"
+      },
+      {
+        "start": 159.2,
+        "duration": 1.8,
+        "text": "spell this suffix with a Z."
+      },
+      {
+        "start": 161.0,
+        "duration": 1.6,
+        "text": "Or if you prefer a Z,"
+      },
+      {
+        "start": 162.6,
+        "duration": 3.5,
+        "text": "and in other places where\nEnglish is an official language,"
+      },
+      {
+        "start": 166.1,
+        "duration": 3.3,
+        "text": "the United Kingdom, Ireland,\nIndia, Kenya, Australia,"
+      },
+      {
+        "start": 169.4,
+        "duration": 3.3,
+        "text": "or New Zealand, for example,\nthey spell it with an S."
+      },
+      {
+        "start": 172.7,
+        "duration": 1.2,
+        "text": "It's not pronounced any differently"
+      },
+      {
+        "start": 173.9,
+        "duration": 1.8,
+        "text": "and it's not a spelling error."
+      },
+      {
+        "start": 175.7,
+        "duration": 2.4,
+        "text": "It's just a difference\nbetween English in one part"
+      },
+      {
+        "start": 178.1,
+        "duration": 2.6,
+        "text": "of the world and English in\nanother part of the world."
+      },
+      {
+        "start": 180.7,
+        "duration": 3.9,
+        "text": "Alright, let's use these\nwords in some sentences."
+      },
+      {
+        "start": 184.6,
+        "duration": 3.3,
+        "text": "Preston Hazelnut adapted\nhis novel, \"River of Bugs\""
+      },
+      {
+        "start": 187.9,
+        "duration": 2.6,
+        "text": "into the film Beetle Creek."
+      },
+      {
+        "start": 190.4,
+        "duration": 2.7,
+        "text": "Hazelnut has changed\nhis book into a movie."
+      },
+      {
+        "start": 193.1,
+        "duration": 3.1,
+        "text": "He's changed the story to\nuse it in a different way."
+      },
+      {
+        "start": 196.2,
+        "duration": 4.1,
+        "text": "As a film, he collaborated with\nscreenwriter Leslie Gumption"
+      },
+      {
+        "start": 200.3,
+        "duration": 1.6,
+        "text": "to write the screenplay."
+      },
+      {
+        "start": 201.9,
+        "duration": 2.5,
+        "text": "Hazelnut and Gumption collaborated."
+      },
+      {
+        "start": 204.4,
+        "duration": 3.1,
+        "text": "They worked together to\nadapt the book into a movie."
+      },
+      {
+        "start": 207.5,
+        "duration": 1.7,
+        "text": "A screenplay is another word for script"
+      },
+      {
+        "start": 209.2,
+        "duration": 1.5,
+        "text": "for the script of a movie."
+      },
+      {
+        "start": 210.7,
+        "duration": 2.9,
+        "text": "Femi Barnes a a film reviewer,\ncriticized Beetle Creek"
+      },
+      {
+        "start": 213.7,
+        "duration": 1.9,
+        "text": "for using computer-generated insects"
+      },
+      {
+        "start": 215.5,
+        "duration": 2.9,
+        "text": "instead of trained bugs\nin its battle scenes."
+      },
+      {
+        "start": 218.4,
+        "duration": 2.6,
+        "text": "Barnes didn't like that the\nfilmmakers didn't use real bugs"
+      },
+      {
+        "start": 221.0,
+        "duration": 1.4,
+        "text": "in the big bug battle,"
+      },
+      {
+        "start": 222.4,
+        "duration": 1.2,
+        "text": "in the big Beatle battle movie."
+      },
+      {
+        "start": 223.6,
+        "duration": 3.1,
+        "text": "He called out the film for\nusing fake animated bugs"
+      },
+      {
+        "start": 226.7,
+        "duration": 1.9,
+        "text": "that someone designed on a computer."
+      },
+      {
+        "start": 228.6,
+        "duration": 2.0,
+        "text": "He a critic, criticized it."
+      },
+      {
+        "start": 230.6,
+        "duration": 3.0,
+        "text": "He said that bit of the big\nBeatle battle movie was bad."
+      },
+      {
+        "start": 233.6,
+        "duration": 3.7,
+        "text": "I should probably say\nhere to be responsible"
+      },
+      {
+        "start": 237.4,
+        "duration": 1.3,
+        "text": "that Beetle Creek doesn't exist."
+      },
+      {
+        "start": 238.7,
+        "duration": 1.5,
+        "text": "It's a thing I made up,"
+      },
+      {
+        "start": 240.2,
+        "duration": 2.1,
+        "text": "but now I kind of want it to be real."
+      },
+      {
+        "start": 242.3,
+        "duration": 1.5,
+        "text": "Alright, I'll see you in the next one."
+      },
+      {
+        "start": 243.8,
+        "duration": 2.7,
+        "text": "You can learn anything, David out."
+      }
+    ],
+    "full_text": "- [Speaker] Wordsmiths all aboard. Train to vocabulary city,\nmaking stops of prefixed gardens and Grand Root Central. Chew, chew! What we're gonna do in this\nvideo is break some words down into parts so you can recognize\nthose parts in other words. The words we're working on\nin this video are adapt, collaborate, and criticize. I'll give you some definitions and then we'll break these words down. Adapt is a verb that means\nto change your behavior or ideas in response to a new situation or to change something, to\nuse it in a different way. There's also the noun form\nadaptation, which is the process of changing, or when you\nmake a book into a movie, that's another kind of adaptation. You're changing a story from one medium to another.\nTo collaborate, another verb with someone is\nto work together with them and to criticize something is to judge something's\nqualities, whether good or bad, or to point out flaws. Okay, back to adapt for word parts time. Adapt has two parts we\nwanna pay attention to. There's our old friend\nadd, which means on or to, and then there's this other\npart apt from the Latin aptare, meaning to join, to fit. So something that is adapted is fit for some new purpose changed\nto join up with something. Let's look at some other English\nwords that use this route. We use the English word apt\njust on its own APT like that to mean appropriate like this\ntuxedo is apt for the occasion of a fancy dinner party. Aptitude is being good at something, having abilities appropriate\nfor the situation. Inapt meaning not apt, not appropriate, as in these athletic\nshorts are inapt clothing for this fancy dinner party\nas opposed to the tuxedo. Our second word, collaborate. We've got that col prefix here. It's actually from col or\ncon, meaning with or together. And then lab meaning work. The N becomes an L, right? So it goes from being con,\nelaborate to collaborate. Prefixes can change.\nThey can. They can adapt when they come\nbefore certain consonants. We call this assimilation, becoming to. Finally, criticize. The root crit comes from\nthe Greek krinein meaning to judge to separate. For our purposes today, I'm\nmuch more interested in eyes. The suffix it means to do\nit is a verb forming suffix. You add the verb forming\nsuffix eyes to critic, and you get what the critic does. Something worth pointing out, especially as you start reading older books or texts written outside the United States or Canada, is that American\nand Canadian English spell this suffix with a Z. Or if you prefer a Z, and in other places where\nEnglish is an official language, the United Kingdom, Ireland,\nIndia, Kenya, Australia, or New Zealand, for example,\nthey spell it with an S. It's not pronounced any differently and it's not a spelling error. It's just a difference\nbetween English in one part of the world and English in\nanother part of the world. Alright, let's use these\nwords in some sentences. Preston Hazelnut adapted\nhis novel, \"River of Bugs\" into the film Beetle Creek. Hazelnut has changed\nhis book into a movie. He's changed the story to\nuse it in a different way. As a film, he collaborated with\nscreenwriter Leslie Gumption to write the screenplay. Hazelnut and Gumption collaborated. They worked together to\nadapt the book into a movie. A screenplay is another word for script for the script of a movie. Femi Barnes a a film reviewer,\ncriticized Beetle Creek for using computer-generated insects instead of trained bugs\nin its battle scenes. Barnes didn't like that the\nfilmmakers didn't use real bugs in the big bug battle, in the big Beatle battle movie. He called out the film for\nusing fake animated bugs that someone designed on a computer. He a critic, criticized it. He said that bit of the big\nBeatle battle movie was bad. I should probably say\nhere to be responsible that Beetle Creek doesn't exist. It's a thing I made up, but now I kind of want it to be real. Alright, I'll see you in the next one. You can learn anything, David out."
+  }
+}

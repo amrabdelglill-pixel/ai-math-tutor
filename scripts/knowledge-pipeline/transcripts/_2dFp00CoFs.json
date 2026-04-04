@@ -1,0 +1,1603 @@
+{
+  "video_id": "_2dFp00CoFs",
+  "video_title": "Program design: real estate | Intro to CS - Python | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 334.0,
+  "view_count": 3917,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": true,
+    "segments": [
+      {
+        "start": 0.1,
+        "duration": 4.9,
+        "text": "Let's design a program with object"
+      },
+      {
+        "start": 2.3,
+        "duration": 5.0,
+        "text": "composition. We're building a real"
+      },
+      {
+        "start": 5.0,
+        "duration": 4.9,
+        "text": "estate marketplace where agents list"
+      },
+      {
+        "start": 7.4,
+        "duration": 4.9,
+        "text": "properties for sale. The listing for"
+      },
+      {
+        "start": 9.8,
+        "duration": 4.9,
+        "text": "each property tells us what kind of home"
+      },
+      {
+        "start": 12.2,
+        "duration": 5.8,
+        "text": "it is, its asking price, and then"
+      },
+      {
+        "start": 14.7,
+        "duration": 5.8,
+        "text": "information about its individual rooms."
+      },
+      {
+        "start": 18.0,
+        "duration": 7.0,
+        "text": "In our class design, then we might say"
+      },
+      {
+        "start": 20.5,
+        "duration": 6.8,
+        "text": "that a property has a list of rooms."
+      },
+      {
+        "start": 25.0,
+        "duration": 5.2,
+        "text": "Each room keeps track of its own"
+      },
+      {
+        "start": 27.3,
+        "duration": 5.5,
+        "text": "information like its kind, its square"
+      },
+      {
+        "start": 30.2,
+        "duration": 6.3,
+        "text": "footage, and its level."
+      },
+      {
+        "start": 32.8,
+        "duration": 6.6,
+        "text": "The property can then use its rooms to"
+      },
+      {
+        "start": 36.5,
+        "duration": 5.0,
+        "text": "calculate stats that buyers care about"
+      },
+      {
+        "start": 39.4,
+        "duration": 5.2,
+        "text": "like the total square footage or the"
+      },
+      {
+        "start": 41.5,
+        "duration": 4.9,
+        "text": "number of bedrooms."
+      },
+      {
+        "start": 44.6,
+        "duration": 5.0,
+        "text": "Let's start by modeling those two"
+      },
+      {
+        "start": 46.4,
+        "duration": 6.6,
+        "text": "classes, a property and a room. We said"
+      },
+      {
+        "start": 49.6,
+        "duration": 6.2,
+        "text": "a room has three attributes, a kind, a"
+      },
+      {
+        "start": 53.0,
+        "duration": 5.0,
+        "text": "level, and the number of square feet."
+      },
+      {
+        "start": 55.8,
+        "duration": 4.2,
+        "text": "Pretty straightforward. And we'll just"
+      },
+      {
+        "start": 58.0,
+        "duration": 5.8,
+        "text": "add a quick string method so we can"
+      },
+      {
+        "start": 60.0,
+        "duration": 5.8,
+        "text": "display a room nicely."
+      },
+      {
+        "start": 63.8,
+        "duration": 4.8,
+        "text": "To test that, let's go back to main and"
+      },
+      {
+        "start": 65.8,
+        "duration": 6.2,
+        "text": "create a room object. For example, we"
+      },
+      {
+        "start": 68.6,
+        "duration": 6.4,
+        "text": "might have a kitchen on level two that's"
+      },
+      {
+        "start": 72.0,
+        "duration": 5.0,
+        "text": "160 square ft."
+      },
+      {
+        "start": 75.0,
+        "duration": 5.7,
+        "text": "And if we print that room, we'll get our"
+      },
+      {
+        "start": 77.0,
+        "duration": 6.5,
+        "text": "nice string representation."
+      },
+      {
+        "start": 80.7,
+        "duration": 6.1,
+        "text": "Cool. Time for the composition piece."
+      },
+      {
+        "start": 83.5,
+        "duration": 6.4,
+        "text": "Let's define our property class. Like"
+      },
+      {
+        "start": 86.8,
+        "duration": 7.3,
+        "text": "our outline said, a property has a kind,"
+      },
+      {
+        "start": 89.9,
+        "duration": 7.0,
+        "text": "a price, and a list of rooms. We might"
+      },
+      {
+        "start": 94.1,
+        "duration": 5.7,
+        "text": "say that a property owns a room because"
+      },
+      {
+        "start": 97.0,
+        "duration": 4.5,
+        "text": "a specific room can't belong to multiple"
+      },
+      {
+        "start": 99.8,
+        "duration": 5.1,
+        "text": "properties. That doesn't really make"
+      },
+      {
+        "start": 101.4,
+        "duration": 6.6,
+        "text": "sense. And a property's rooms very"
+      },
+      {
+        "start": 104.9,
+        "duration": 5.8,
+        "text": "rarely change over time."
+      },
+      {
+        "start": 108.1,
+        "duration": 5.6,
+        "text": "But a property can have 10 rooms, 20"
+      },
+      {
+        "start": 110.6,
+        "duration": 5.4,
+        "text": "rooms. So I don't really want to create"
+      },
+      {
+        "start": 113.7,
+        "duration": 4.5,
+        "text": "all of those room objects inside the"
+      },
+      {
+        "start": 116.0,
+        "duration": 3.8,
+        "text": "property class."
+      },
+      {
+        "start": 118.2,
+        "duration": 4.1,
+        "text": "Thinking about the users of this"
+      },
+      {
+        "start": 119.8,
+        "duration": 4.4,
+        "text": "program, a real estate agent will"
+      },
+      {
+        "start": 122.2,
+        "duration": 4.4,
+        "text": "probably enter all of the data for a"
+      },
+      {
+        "start": 124.2,
+        "duration": 4.4,
+        "text": "property at once. So for now, I'm not"
+      },
+      {
+        "start": 126.6,
+        "duration": 5.1,
+        "text": "going to worry too much about how to add"
+      },
+      {
+        "start": 128.6,
+        "duration": 5.1,
+        "text": "or remove rooms. Instead, let's just set"
+      },
+      {
+        "start": 131.8,
+        "duration": 5.0,
+        "text": "the properties rooms all in one"
+      },
+      {
+        "start": 133.8,
+        "duration": 3.0,
+        "text": "assignment."
+      },
+      {
+        "start": 137.0,
+        "duration": 5.4,
+        "text": "Okay. Now, what does our property class"
+      },
+      {
+        "start": 139.1,
+        "duration": 5.0,
+        "text": "use those rooms for? Well, good program"
+      },
+      {
+        "start": 142.3,
+        "duration": 4.8,
+        "text": "design means that we don't want to"
+      },
+      {
+        "start": 144.1,
+        "duration": 6.1,
+        "text": "duplicate information because if I store"
+      },
+      {
+        "start": 147.1,
+        "duration": 5.6,
+        "text": "the same information in multiple places,"
+      },
+      {
+        "start": 150.2,
+        "duration": 5.1,
+        "text": "it's very likely to become out of sync"
+      },
+      {
+        "start": 152.7,
+        "duration": 4.6,
+        "text": "over time. Someone updates the value in"
+      },
+      {
+        "start": 155.3,
+        "duration": 5.4,
+        "text": "one place but forgets to update it in"
+      },
+      {
+        "start": 157.3,
+        "duration": 4.9,
+        "text": "the other. So while I do want to display"
+      },
+      {
+        "start": 160.6,
+        "duration": 3.9,
+        "text": "the total square footage of the"
+      },
+      {
+        "start": 162.2,
+        "duration": 5.1,
+        "text": "property, I don't want to store that as"
+      },
+      {
+        "start": 164.6,
+        "duration": 5.0,
+        "text": "an attribute on the property since I"
+      },
+      {
+        "start": 167.3,
+        "duration": 4.0,
+        "text": "already store the square feet of each"
+      },
+      {
+        "start": 169.5,
+        "duration": 4.5,
+        "text": "room."
+      },
+      {
+        "start": 171.3,
+        "duration": 4.6,
+        "text": "That means instead we want a method that"
+      },
+      {
+        "start": 174.0,
+        "duration": 4.6,
+        "text": "can calculate the total square footage"
+      },
+      {
+        "start": 175.9,
+        "duration": 5.5,
+        "text": "from the list of rooms."
+      },
+      {
+        "start": 178.6,
+        "duration": 5.6,
+        "text": "So our get square ft method will iterate"
+      },
+      {
+        "start": 181.4,
+        "duration": 6.3,
+        "text": "over our list of rooms. That loop"
+      },
+      {
+        "start": 184.2,
+        "duration": 5.5,
+        "text": "variable room holds a room object. But"
+      },
+      {
+        "start": 187.8,
+        "duration": 4.2,
+        "text": "we don't want to add the object to our"
+      },
+      {
+        "start": 189.7,
+        "duration": 5.4,
+        "text": "running total. We want to add the object"
+      },
+      {
+        "start": 192.0,
+        "duration": 6.4,
+        "text": "square feet attribute. So we need dot"
+      },
+      {
+        "start": 195.1,
+        "duration": 6.0,
+        "text": "syntax here."
+      },
+      {
+        "start": 198.4,
+        "duration": 5.3,
+        "text": "One quick related stat. Buyers often"
+      },
+      {
+        "start": 201.1,
+        "duration": 4.2,
+        "text": "want to know the price per square foot"
+      },
+      {
+        "start": 203.7,
+        "duration": 3.4,
+        "text": "so they can compare against other"
+      },
+      {
+        "start": 205.3,
+        "duration": 3.7,
+        "text": "properties."
+      },
+      {
+        "start": 207.0,
+        "duration": 4.9,
+        "text": "So let's add another method for that"
+      },
+      {
+        "start": 209.0,
+        "duration": 5.8,
+        "text": "calculation. The price per square ft is"
+      },
+      {
+        "start": 211.9,
+        "duration": 5.7,
+        "text": "just the price of the property over its"
+      },
+      {
+        "start": 214.7,
+        "duration": 6.3,
+        "text": "total square feet, which we can use our"
+      },
+      {
+        "start": 217.6,
+        "duration": 5.4,
+        "text": "get square feet method to calculate."
+      },
+      {
+        "start": 221.0,
+        "duration": 4.1,
+        "text": "And then we'll just round that to two"
+      },
+      {
+        "start": 223.0,
+        "duration": 3.8,
+        "text": "decimal points."
+      },
+      {
+        "start": 225.1,
+        "duration": 5.0,
+        "text": "All right, before I get too carried"
+      },
+      {
+        "start": 226.8,
+        "duration": 5.4,
+        "text": "away, let's test those two methods. We"
+      },
+      {
+        "start": 230.2,
+        "duration": 4.3,
+        "text": "call the get square feet and get price"
+      },
+      {
+        "start": 232.2,
+        "duration": 5.3,
+        "text": "per square feet methods on our house"
+      },
+      {
+        "start": 234.5,
+        "duration": 3.0,
+        "text": "object."
+      },
+      {
+        "start": 238.4,
+        "duration": 5.0,
+        "text": "Now, one last feature. Buyers often want"
+      },
+      {
+        "start": 241.4,
+        "duration": 4.6,
+        "text": "to look up information about a"
+      },
+      {
+        "start": 243.4,
+        "duration": 4.3,
+        "text": "particular kind of room in a property."
+      },
+      {
+        "start": 246.0,
+        "duration": 4.4,
+        "text": "Like maybe they want to know how many"
+      },
+      {
+        "start": 247.8,
+        "duration": 5.7,
+        "text": "square feet the kitchen is or how many"
+      },
+      {
+        "start": 250.4,
+        "duration": 5.4,
+        "text": "bedrooms and bathrooms there are. So, we"
+      },
+      {
+        "start": 253.4,
+        "duration": 5.8,
+        "text": "want to be able to ask a property, give"
+      },
+      {
+        "start": 255.8,
+        "duration": 5.2,
+        "text": "me all of the rooms of this kind. I'm"
+      },
+      {
+        "start": 259.3,
+        "duration": 3.7,
+        "text": "just sketching out here what that might"
+      },
+      {
+        "start": 261.0,
+        "duration": 4.6,
+        "text": "look like, though, of course, this gives"
+      },
+      {
+        "start": 263.0,
+        "duration": 4.5,
+        "text": "an error right now. So let's go back to"
+      },
+      {
+        "start": 265.6,
+        "duration": 4.8,
+        "text": "the property class and add that find"
+      },
+      {
+        "start": 267.4,
+        "duration": 5.9,
+        "text": "rooms method. We want this method to"
+      },
+      {
+        "start": 270.4,
+        "duration": 5.0,
+        "text": "return the actual room objects so the"
+      },
+      {
+        "start": 273.4,
+        "duration": 4.7,
+        "text": "caller can access whatever data they"
+      },
+      {
+        "start": 275.4,
+        "duration": 5.4,
+        "text": "want. But some properties might have"
+      },
+      {
+        "start": 278.1,
+        "duration": 5.0,
+        "text": "several rooms of the same kind. So we'll"
+      },
+      {
+        "start": 280.8,
+        "duration": 4.8,
+        "text": "want to return a list of room objects in"
+      },
+      {
+        "start": 283.0,
+        "duration": 5.1,
+        "text": "case there are multiple matches."
+      },
+      {
+        "start": 285.6,
+        "duration": 5.2,
+        "text": "We'll iterate over our list of rooms and"
+      },
+      {
+        "start": 288.2,
+        "duration": 4.8,
+        "text": "check if the room's kind is equal to the"
+      },
+      {
+        "start": 290.8,
+        "duration": 4.0,
+        "text": "kind that we're looking for."
+      },
+      {
+        "start": 293.0,
+        "duration": 3.8,
+        "text": "Uh let's make that match case"
+      },
+      {
+        "start": 294.8,
+        "duration": 4.3,
+        "text": "insensitive and convert them both to"
+      },
+      {
+        "start": 296.7,
+        "duration": 4.6,
+        "text": "lowercase."
+      },
+      {
+        "start": 299.1,
+        "duration": 5.5,
+        "text": "And if it does match, we want to append"
+      },
+      {
+        "start": 301.4,
+        "duration": 5.2,
+        "text": "that whole room object."
+      },
+      {
+        "start": 304.6,
+        "duration": 5.6,
+        "text": "And then at the end, we return our"
+      },
+      {
+        "start": 306.6,
+        "duration": 6.4,
+        "text": "accumulated result."
+      },
+      {
+        "start": 310.2,
+        "duration": 7.4,
+        "text": "Let's run that to check. And we see a"
+      },
+      {
+        "start": 313.0,
+        "duration": 6.7,
+        "text": "match of two bedrooms and two bathrooms."
+      },
+      {
+        "start": 317.7,
+        "duration": 4.4,
+        "text": "This summary will look great on our"
+      },
+      {
+        "start": 319.7,
+        "duration": 4.4,
+        "text": "property listing page. So our buyers can"
+      },
+      {
+        "start": 322.1,
+        "duration": 5.0,
+        "text": "quickly see the property square feet,"
+      },
+      {
+        "start": 324.1,
+        "duration": 5.2,
+        "text": "number of beds, and number of baths. And"
+      },
+      {
+        "start": 327.1,
+        "duration": 4.2,
+        "text": "if it piques their interest, they can"
+      },
+      {
+        "start": 329.3,
+        "duration": 6.2,
+        "text": "easily drill down into more details"
+      },
+      {
+        "start": 331.4,
+        "duration": 4.2,
+        "text": "about the property's individual rooms."
+      }
+    ],
+    "full_text": "Let's design a program with object composition. We're building a real estate marketplace where agents list properties for sale. The listing for each property tells us what kind of home it is, its asking price, and then information about its individual rooms. In our class design, then we might say that a property has a list of rooms. Each room keeps track of its own information like its kind, its square footage, and its level. The property can then use its rooms to calculate stats that buyers care about like the total square footage or the number of bedrooms. Let's start by modeling those two classes, a property and a room. We said a room has three attributes, a kind, a level, and the number of square feet. Pretty straightforward. And we'll just add a quick string method so we can display a room nicely. To test that, let's go back to main and create a room object. For example, we might have a kitchen on level two that's 160 square ft. And if we print that room, we'll get our nice string representation. Cool. Time for the composition piece. Let's define our property class. Like our outline said, a property has a kind, a price, and a list of rooms. We might say that a property owns a room because a specific room can't belong to multiple properties. That doesn't really make sense. And a property's rooms very rarely change over time. But a property can have 10 rooms, 20 rooms. So I don't really want to create all of those room objects inside the property class. Thinking about the users of this program, a real estate agent will probably enter all of the data for a property at once. So for now, I'm not going to worry too much about how to add or remove rooms. Instead, let's just set the properties rooms all in one assignment. Okay. Now, what does our property class use those rooms for? Well, good program design means that we don't want to duplicate information because if I store the same information in multiple places, it's very likely to become out of sync over time. Someone updates the value in one place but forgets to update it in the other. So while I do want to display the total square footage of the property, I don't want to store that as an attribute on the property since I already store the square feet of each room. That means instead we want a method that can calculate the total square footage from the list of rooms. So our get square ft method will iterate over our list of rooms. That loop variable room holds a room object. But we don't want to add the object to our running total. We want to add the object square feet attribute. So we need dot syntax here. One quick related stat. Buyers often want to know the price per square foot so they can compare against other properties. So let's add another method for that calculation. The price per square ft is just the price of the property over its total square feet, which we can use our get square feet method to calculate. And then we'll just round that to two decimal points. All right, before I get too carried away, let's test those two methods. We call the get square feet and get price per square feet methods on our house object. Now, one last feature. Buyers often want to look up information about a particular kind of room in a property. Like maybe they want to know how many square feet the kitchen is or how many bedrooms and bathrooms there are. So, we want to be able to ask a property, give me all of the rooms of this kind. I'm just sketching out here what that might look like, though, of course, this gives an error right now. So let's go back to the property class and add that find rooms method. We want this method to return the actual room objects so the caller can access whatever data they want. But some properties might have several rooms of the same kind. So we'll want to return a list of room objects in case there are multiple matches. We'll iterate over our list of rooms and check if the room's kind is equal to the kind that we're looking for. Uh let's make that match case insensitive and convert them both to lowercase. And if it does match, we want to append that whole room object. And then at the end, we return our accumulated result. Let's run that to check. And we see a match of two bedrooms and two bathrooms. This summary will look great on our property listing page. So our buyers can quickly see the property square feet, number of beds, and number of baths. And if it piques their interest, they can easily drill down into more details about the property's individual rooms."
+  }
+}

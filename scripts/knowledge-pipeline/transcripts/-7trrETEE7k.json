@@ -1,0 +1,2943 @@
+{
+  "video_id": "-7trrETEE7k",
+  "video_title": "Conservation of angular momentum | AP Physics | Khan Academy",
+  "channel_id": "UC4a-Gbdw7vOaccHmFo40b9g",
+  "channel_title": "Khan Academy",
+  "published_at": "",
+  "duration_secs": 859.0,
+  "view_count": 3758,
+  "tags": [
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "math",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "science",
+      "grade": 9
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "BH",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "KW",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "JO",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "LB",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "MA",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "AE",
+      "subject": "english",
+      "grade": 9
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 1
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 2
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 3
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 4
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 5
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 6
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 7
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 8
+    },
+    {
+      "country": "EG",
+      "subject": "english",
+      "grade": 9
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "is_generated": false,
+    "segments": [
+      {
+        "start": 0.1,
+        "duration": 1.1,
+        "text": "- [Instructor] Did you\nknow that a satellite"
+      },
+      {
+        "start": 1.2,
+        "duration": 1.8,
+        "text": "or a space telescope can turn"
+      },
+      {
+        "start": 3.0,
+        "duration": 4.3,
+        "text": "by any amount about any axis in space"
+      },
+      {
+        "start": 7.3,
+        "duration": 3.1,
+        "text": "without using any external force,"
+      },
+      {
+        "start": 10.5,
+        "duration": 1.6,
+        "text": "without any thrusters?"
+      },
+      {
+        "start": 12.1,
+        "duration": 1.3,
+        "text": "It can do that."
+      },
+      {
+        "start": 13.3,
+        "duration": 0.8,
+        "text": "How?"
+      },
+      {
+        "start": 14.2,
+        "duration": 2.7,
+        "text": "By using a principle called conservation"
+      },
+      {
+        "start": 16.9,
+        "duration": 2.2,
+        "text": "of angular momentum."
+      },
+      {
+        "start": 19.1,
+        "duration": 1.5,
+        "text": "But what exactly is this?"
+      },
+      {
+        "start": 20.6,
+        "duration": 1.2,
+        "text": "Let's find out."
+      },
+      {
+        "start": 21.8,
+        "duration": 2.1,
+        "text": "Let's start with something\nthat we already know."
+      },
+      {
+        "start": 23.9,
+        "duration": 2.1,
+        "text": "We know that if an object of mass m,"
+      },
+      {
+        "start": 25.9,
+        "duration": 2.9,
+        "text": "has some velocity v, it has momentum,"
+      },
+      {
+        "start": 28.9,
+        "duration": 2.3,
+        "text": "which is the product of mass and velocity."
+      },
+      {
+        "start": 31.2,
+        "duration": 0.9,
+        "text": "Why do we care"
+      },
+      {
+        "start": 32.1,
+        "duration": 1.9,
+        "text": "about this thing called as momentum?"
+      },
+      {
+        "start": 34.0,
+        "duration": 1.5,
+        "text": "Well, that's because if you have a bunch"
+      },
+      {
+        "start": 35.5,
+        "duration": 2.6,
+        "text": "of particles, not just\none, but a bunch of them,"
+      },
+      {
+        "start": 38.1,
+        "duration": 4.4,
+        "text": "and if the total external\nforce on that system"
+      },
+      {
+        "start": 42.5,
+        "duration": 1.6,
+        "text": "of particles is 0,"
+      },
+      {
+        "start": 44.0,
+        "duration": 2.4,
+        "text": "then the momentum of the system,"
+      },
+      {
+        "start": 46.4,
+        "duration": 1.1,
+        "text": "which is basically the sum"
+      },
+      {
+        "start": 47.5,
+        "duration": 4.0,
+        "text": "of individual momenta,\nthat stays a constant."
+      },
+      {
+        "start": 51.5,
+        "duration": 1.0,
+        "text": "It doesn't change."
+      },
+      {
+        "start": 52.5,
+        "duration": 2.0,
+        "text": "And we call this the principle"
+      },
+      {
+        "start": 54.5,
+        "duration": 2.9,
+        "text": "of conservation of linear momentum."
+      },
+      {
+        "start": 57.4,
+        "duration": 1.8,
+        "text": "And this is a super powerful tool"
+      },
+      {
+        "start": 59.1,
+        "duration": 1.2,
+        "text": "in making predictions."
+      },
+      {
+        "start": 60.3,
+        "duration": 1.6,
+        "text": "For example, imagine a situation"
+      },
+      {
+        "start": 62.0,
+        "duration": 2.5,
+        "text": "in which a block is\ncoming with some velocity"
+      },
+      {
+        "start": 64.5,
+        "duration": 1.7,
+        "text": "and hits another block."
+      },
+      {
+        "start": 66.2,
+        "duration": 1.5,
+        "text": "And let's say after the collision,"
+      },
+      {
+        "start": 67.7,
+        "duration": 2.1,
+        "text": "they stick together\nand they move together."
+      },
+      {
+        "start": 69.8,
+        "duration": 3.1,
+        "text": "We wanna find what that final velocity is."
+      },
+      {
+        "start": 72.9,
+        "duration": 2.1,
+        "text": "Well, if you consider both m1, m2"
+      },
+      {
+        "start": 75.0,
+        "duration": 2.7,
+        "text": "as our system, and if we ignore friction"
+      },
+      {
+        "start": 77.7,
+        "duration": 2.9,
+        "text": "and air resistance, then\nduring the collision,"
+      },
+      {
+        "start": 80.6,
+        "duration": 1.3,
+        "text": "the forces are all internal,"
+      },
+      {
+        "start": 81.9,
+        "duration": 1.9,
+        "text": "there are no external forces."
+      },
+      {
+        "start": 83.8,
+        "duration": 1.9,
+        "text": "Then we can say momentum"
+      },
+      {
+        "start": 85.7,
+        "duration": 2.0,
+        "text": "the total momentum of the system,"
+      },
+      {
+        "start": 87.7,
+        "duration": 1.4,
+        "text": "before the collision"
+      },
+      {
+        "start": 89.1,
+        "duration": 2.5,
+        "text": "should equal the total\nmomentum of the system"
+      },
+      {
+        "start": 91.6,
+        "duration": 2.2,
+        "text": "after the collision."
+      },
+      {
+        "start": 93.8,
+        "duration": 2.7,
+        "text": "And just from this in a couple of steps,"
+      },
+      {
+        "start": 96.5,
+        "duration": 1.0,
+        "text": "we can figure out"
+      },
+      {
+        "start": 97.4,
+        "duration": 3.1,
+        "text": "what that final velocity should be."
+      },
+      {
+        "start": 100.6,
+        "duration": 1.2,
+        "text": "Isn't this awesome?"
+      },
+      {
+        "start": 101.8,
+        "duration": 1.8,
+        "text": "Why does it work out this way?"
+      },
+      {
+        "start": 103.5,
+        "duration": 1.1,
+        "text": "Well, that's because"
+      },
+      {
+        "start": 104.6,
+        "duration": 1.9,
+        "text": "if there are no external forces acting"
+      },
+      {
+        "start": 106.5,
+        "duration": 1.8,
+        "text": "on the system, then during the collision,"
+      },
+      {
+        "start": 108.3,
+        "duration": 3.3,
+        "text": "when m1 puts a force\non m2, m2 puts an equal"
+      },
+      {
+        "start": 111.6,
+        "duration": 2.0,
+        "text": "but opposite force back on m1."
+      },
+      {
+        "start": 113.7,
+        "duration": 2.4,
+        "text": "So whatever momentum has gained by m2,"
+      },
+      {
+        "start": 116.1,
+        "duration": 2.5,
+        "text": "the same amount of momentum\nmust be lost by m1."
+      },
+      {
+        "start": 118.6,
+        "duration": 3.3,
+        "text": "And so the total momentum does not change."
+      },
+      {
+        "start": 121.9,
+        "duration": 2.6,
+        "text": "Well, now you might\nsay in real life cases,"
+      },
+      {
+        "start": 124.5,
+        "duration": 1.4,
+        "text": "external forces are not 0."
+      },
+      {
+        "start": 125.9,
+        "duration": 0.8,
+        "text": "You have friction,"
+      },
+      {
+        "start": 126.7,
+        "duration": 1.9,
+        "text": "you have air resistance, right?"
+      },
+      {
+        "start": 128.6,
+        "duration": 1.7,
+        "text": "Yeah, but if this was a situation"
+      },
+      {
+        "start": 130.3,
+        "duration": 1.4,
+        "text": "just before the collision"
+      },
+      {
+        "start": 131.7,
+        "duration": 1.0,
+        "text": "and this is the situation"
+      },
+      {
+        "start": 132.7,
+        "duration": 1.6,
+        "text": "just after the collision,"
+      },
+      {
+        "start": 134.3,
+        "duration": 1.9,
+        "text": "then during the collision,"
+      },
+      {
+        "start": 136.1,
+        "duration": 1.6,
+        "text": "the internal forces are\nmuch higher compared"
+      },
+      {
+        "start": 137.8,
+        "duration": 1.1,
+        "text": "to the external ones."
+      },
+      {
+        "start": 138.9,
+        "duration": 1.2,
+        "text": "And so we can ignore them."
+      },
+      {
+        "start": 140.0,
+        "duration": 1.6,
+        "text": "We can pretty much say that hey,"
+      },
+      {
+        "start": 141.6,
+        "duration": 1.4,
+        "text": "momentum changes mostly happen"
+      },
+      {
+        "start": 143.0,
+        "duration": 2.0,
+        "text": "due to the internal forces."
+      },
+      {
+        "start": 145.0,
+        "duration": 2.0,
+        "text": "And so we can pretty\nmuch use this principle"
+      },
+      {
+        "start": 147.0,
+        "duration": 2.5,
+        "text": "and make pretty accurate predictions."
+      },
+      {
+        "start": 149.5,
+        "duration": 1.9,
+        "text": "Okay, now guess what?"
+      },
+      {
+        "start": 151.4,
+        "duration": 2.3,
+        "text": "If a rigid body is spinning,"
+      },
+      {
+        "start": 153.8,
+        "duration": 2.3,
+        "text": "then we know it has angular momentum,"
+      },
+      {
+        "start": 156.1,
+        "duration": 1.5,
+        "text": "which is given as the product"
+      },
+      {
+        "start": 157.6,
+        "duration": 4.3,
+        "text": "of its rotational inertia\nand angular velocity."
+      },
+      {
+        "start": 162.0,
+        "duration": 1.5,
+        "text": "And many experiments show"
+      },
+      {
+        "start": 163.5,
+        "duration": 2.1,
+        "text": "for a bunch of rigid bodies,"
+      },
+      {
+        "start": 165.6,
+        "duration": 3.7,
+        "text": "if the net external torque on it is 0,"
+      },
+      {
+        "start": 169.3,
+        "duration": 3.8,
+        "text": "then the angular momentum\nof the entire system,"
+      },
+      {
+        "start": 173.1,
+        "duration": 1.6,
+        "text": "which is again basically the sum"
+      },
+      {
+        "start": 174.7,
+        "duration": 2.4,
+        "text": "of an individual angular momenta,"
+      },
+      {
+        "start": 177.1,
+        "duration": 3.0,
+        "text": "that stays a constant."
+      },
+      {
+        "start": 180.1,
+        "duration": 1.4,
+        "text": "So now we have something"
+      },
+      {
+        "start": 181.5,
+        "duration": 3.7,
+        "text": "called the conservation\nof angular momentum."
+      },
+      {
+        "start": 185.2,
+        "duration": 2.3,
+        "text": "The idea is very, very\nsimilar to over here,"
+      },
+      {
+        "start": 187.5,
+        "duration": 2.3,
+        "text": "except that this will\nbe used for rotation."
+      },
+      {
+        "start": 189.8,
+        "duration": 1.6,
+        "text": "So let's take a few examples."
+      },
+      {
+        "start": 193.0,
+        "duration": 1.3,
+        "text": "Let's say we have a disc"
+      },
+      {
+        "start": 194.2,
+        "duration": 3.0,
+        "text": "that is spinning on a frictionless table"
+      },
+      {
+        "start": 197.2,
+        "duration": 3.6,
+        "text": "and let the angular velocity be omega 1."
+      },
+      {
+        "start": 200.8,
+        "duration": 3.1,
+        "text": "Now let's say we drop another disc."
+      },
+      {
+        "start": 203.9,
+        "duration": 1.7,
+        "text": "This is not initially rotating."
+      },
+      {
+        "start": 205.6,
+        "duration": 2.1,
+        "text": "Okay, we're gonna drop it on this one."
+      },
+      {
+        "start": 207.8,
+        "duration": 2.4,
+        "text": "And there is friction between these two."
+      },
+      {
+        "start": 210.2,
+        "duration": 1.8,
+        "text": "So this is spinning, this is not."
+      },
+      {
+        "start": 212.0,
+        "duration": 2.0,
+        "text": "What happens when you\ndrop this on this one?"
+      },
+      {
+        "start": 214.0,
+        "duration": 1.2,
+        "text": "Well, because there is friction"
+      },
+      {
+        "start": 215.2,
+        "duration": 2.6,
+        "text": "between these two, the big disc is gonna"
+      },
+      {
+        "start": 217.8,
+        "duration": 3.0,
+        "text": "put a torque on the smaller one trying"
+      },
+      {
+        "start": 220.8,
+        "duration": 2.1,
+        "text": "to make it spin in this direction."
+      },
+      {
+        "start": 222.9,
+        "duration": 2.5,
+        "text": "But of course this small\ndisc will put an equal"
+      },
+      {
+        "start": 225.4,
+        "duration": 3.7,
+        "text": "but an opposite torque on the bigger disc,"
+      },
+      {
+        "start": 229.1,
+        "duration": 1.8,
+        "text": "slowing it down."
+      },
+      {
+        "start": 230.9,
+        "duration": 2.7,
+        "text": "Eventually they'll have\nthe same angular velocity,"
+      },
+      {
+        "start": 233.6,
+        "duration": 2.6,
+        "text": "and when that happens,\nthe torque disappears,"
+      },
+      {
+        "start": 236.2,
+        "duration": 2.2,
+        "text": "and now they'll be both spinning together"
+      },
+      {
+        "start": 238.4,
+        "duration": 2.3,
+        "text": "with the same angular velocity."
+      },
+      {
+        "start": 240.7,
+        "duration": 2.7,
+        "text": "And notice, if I consider\nboth the disc as part"
+      },
+      {
+        "start": 243.4,
+        "duration": 2.8,
+        "text": "of my system, there\nare no external torques"
+      },
+      {
+        "start": 246.2,
+        "duration": 2.5,
+        "text": "and therefore, the total angular momentum"
+      },
+      {
+        "start": 248.7,
+        "duration": 2.4,
+        "text": "of the system must stay conserved."
+      },
+      {
+        "start": 251.0,
+        "duration": 1.5,
+        "text": "So look, just with this principle,"
+      },
+      {
+        "start": 252.5,
+        "duration": 0.8,
+        "text": "I can now predict"
+      },
+      {
+        "start": 253.3,
+        "duration": 2.5,
+        "text": "what that final angular\nvelocity is going to be."
+      },
+      {
+        "start": 255.8,
+        "duration": 2.5,
+        "text": "I can say that, hey, the\ntotal angular momentum"
+      },
+      {
+        "start": 258.3,
+        "duration": 2.2,
+        "text": "of my system before,"
+      },
+      {
+        "start": 260.5,
+        "duration": 2.0,
+        "text": "which is just rotational inertia I1"
+      },
+      {
+        "start": 262.4,
+        "duration": 3.9,
+        "text": "of this disc times its\nangular velocity, omega 1."
+      },
+      {
+        "start": 266.4,
+        "duration": 1.3,
+        "text": "And what's the direction?"
+      },
+      {
+        "start": 267.6,
+        "duration": 2.0,
+        "text": "Well remember for angular momentum,"
+      },
+      {
+        "start": 269.7,
+        "duration": 2.4,
+        "text": "we can use our right hand thumb rule,"
+      },
+      {
+        "start": 272.1,
+        "duration": 2.5,
+        "text": "our four curling fingers\ncurl in the direction"
+      },
+      {
+        "start": 274.6,
+        "duration": 1.0,
+        "text": "of the angular velocity,"
+      },
+      {
+        "start": 275.6,
+        "duration": 2.0,
+        "text": "then the thumb points in the direction"
+      },
+      {
+        "start": 277.6,
+        "duration": 0.8,
+        "text": "of the angular momentum."
+      },
+      {
+        "start": 278.4,
+        "duration": 1.1,
+        "text": "So over here, the angular momentum"
+      },
+      {
+        "start": 279.5,
+        "duration": 1.8,
+        "text": "is just upwards, okay?"
+      },
+      {
+        "start": 281.3,
+        "duration": 2.3,
+        "text": "Plus the angular momentum of this one,"
+      },
+      {
+        "start": 283.6,
+        "duration": 2.7,
+        "text": "which is just 0, I2 times 0,"
+      },
+      {
+        "start": 286.3,
+        "duration": 3.5,
+        "text": "that should equal the\nfinal angular momentum,"
+      },
+      {
+        "start": 289.8,
+        "duration": 0.8,
+        "text": "which is going"
+      },
+      {
+        "start": 290.6,
+        "duration": 1.2,
+        "text": "to be the total rotational inertia,"
+      },
+      {
+        "start": 291.9,
+        "duration": 1.9,
+        "text": "which is just I1 plus I2"
+      },
+      {
+        "start": 293.7,
+        "duration": 2.9,
+        "text": "times the final angular velocity."
+      },
+      {
+        "start": 296.6,
+        "duration": 3.1,
+        "text": "And look, just from this, I can calculate"
+      },
+      {
+        "start": 299.7,
+        "duration": 2.4,
+        "text": "what that final angular\nvelocity is going to be."
+      },
+      {
+        "start": 302.1,
+        "duration": 1.5,
+        "text": "Isn't it amazing?"
+      },
+      {
+        "start": 303.6,
+        "duration": 1.5,
+        "text": "Now, of course, one key thing over here is"
+      },
+      {
+        "start": 305.0,
+        "duration": 1.9,
+        "text": "that the rotational\ninertia not only depends"
+      },
+      {
+        "start": 306.9,
+        "duration": 1.6,
+        "text": "on the mass, but it also depends"
+      },
+      {
+        "start": 308.5,
+        "duration": 2.5,
+        "text": "upon how that mass is distributed."
+      },
+      {
+        "start": 310.9,
+        "duration": 1.5,
+        "text": "If the mass is distributed farther away"
+      },
+      {
+        "start": 312.4,
+        "duration": 1.4,
+        "text": "from the axis of rotation,"
+      },
+      {
+        "start": 313.7,
+        "duration": 2.1,
+        "text": "the rotational inertia is higher."
+      },
+      {
+        "start": 315.8,
+        "duration": 3.0,
+        "text": "So the distribution of mass also matters."
+      },
+      {
+        "start": 318.8,
+        "duration": 1.2,
+        "text": "For example, for a disc,"
+      },
+      {
+        "start": 320.0,
+        "duration": 3.0,
+        "text": "the rotational inertia is\ngiven as 1/2 mR square,"
+      },
+      {
+        "start": 323.0,
+        "duration": 1.3,
+        "text": "where m is the mass of the disc"
+      },
+      {
+        "start": 324.3,
+        "duration": 1.6,
+        "text": "and R is the radius."
+      },
+      {
+        "start": 325.9,
+        "duration": 1.8,
+        "text": "So we could plug that in and simplify,"
+      },
+      {
+        "start": 327.8,
+        "duration": 2.5,
+        "text": "but you get the point,\nso we'll not do that."
+      },
+      {
+        "start": 330.3,
+        "duration": 1.7,
+        "text": "Okay, let's take another example."
+      },
+      {
+        "start": 332.0,
+        "duration": 3.0,
+        "text": "Consider spinning tires of an automobile."
+      },
+      {
+        "start": 334.9,
+        "duration": 1.8,
+        "text": "Imagine the car is jacked up"
+      },
+      {
+        "start": 336.8,
+        "duration": 1.9,
+        "text": "so the tires are not touching the ground."
+      },
+      {
+        "start": 338.7,
+        "duration": 1.8,
+        "text": "So the ground is not exerting any force"
+      },
+      {
+        "start": 340.5,
+        "duration": 2.2,
+        "text": "or torque on these tires."
+      },
+      {
+        "start": 342.7,
+        "duration": 2.9,
+        "text": "Right now, the clutch is not engaged,"
+      },
+      {
+        "start": 345.6,
+        "duration": 2.5,
+        "text": "so the two tires can spin independently"
+      },
+      {
+        "start": 348.1,
+        "duration": 1.4,
+        "text": "because they're not connected."
+      },
+      {
+        "start": 349.6,
+        "duration": 1.1,
+        "text": "So let's say they're spinning"
+      },
+      {
+        "start": 350.7,
+        "duration": 2.7,
+        "text": "with two different angular velocities,"
+      },
+      {
+        "start": 353.4,
+        "duration": 2.9,
+        "text": "omega 1 and omega 2, okay?"
+      },
+      {
+        "start": 356.2,
+        "duration": 4.0,
+        "text": "Now what will happen\nif I engage the clutch?"
+      },
+      {
+        "start": 360.2,
+        "duration": 2.5,
+        "text": "Well, now these two axes are connected"
+      },
+      {
+        "start": 362.7,
+        "duration": 1.6,
+        "text": "and they're now forced to spin"
+      },
+      {
+        "start": 364.4,
+        "duration": 2.9,
+        "text": "with one particular angular velocity."
+      },
+      {
+        "start": 367.2,
+        "duration": 1.5,
+        "text": "So now they will have some"
+      },
+      {
+        "start": 368.7,
+        "duration": 2.4,
+        "text": "new angular velocity omega."
+      },
+      {
+        "start": 371.1,
+        "duration": 2.4,
+        "text": "If we ignore friction,"
+      },
+      {
+        "start": 373.5,
+        "duration": 2.6,
+        "text": "and if we ignore the mass\nof the clutch over here"
+      },
+      {
+        "start": 376.1,
+        "duration": 3.1,
+        "text": "and all of that, can you predict"
+      },
+      {
+        "start": 379.1,
+        "duration": 3.4,
+        "text": "what that final angular\nvelocity should be?"
+      },
+      {
+        "start": 382.5,
+        "duration": 1.1,
+        "text": "Assume that the rotational inertia"
+      },
+      {
+        "start": 383.7,
+        "duration": 1.2,
+        "text": "of this wheel is I1,"
+      },
+      {
+        "start": 384.9,
+        "duration": 1.8,
+        "text": "and that of this wheel is I2."
+      },
+      {
+        "start": 386.6,
+        "duration": 1.6,
+        "text": "It'll be a great area to pause the video"
+      },
+      {
+        "start": 388.2,
+        "duration": 1.3,
+        "text": "and see if you can use the conservation"
+      },
+      {
+        "start": 389.5,
+        "duration": 1.2,
+        "text": "of angular momentum to predict"
+      },
+      {
+        "start": 390.7,
+        "duration": 2.9,
+        "text": "what that final angular\nvelocity should be."
+      },
+      {
+        "start": 394.9,
+        "duration": 2.0,
+        "text": "Alright, we're gonna\nconsider the two wheels"
+      },
+      {
+        "start": 396.9,
+        "duration": 1.7,
+        "text": "as the part of our system."
+      },
+      {
+        "start": 398.6,
+        "duration": 1.6,
+        "text": "We're gonna ignore the mass of the axles"
+      },
+      {
+        "start": 400.3,
+        "duration": 1.8,
+        "text": "and the clutch and everything, okay?"
+      },
+      {
+        "start": 402.0,
+        "duration": 2.0,
+        "text": "So what's the total\ninitial angular momentum?"
+      },
+      {
+        "start": 404.1,
+        "duration": 1.9,
+        "text": "Well, it's going to be\nthe angular momentum"
+      },
+      {
+        "start": 405.9,
+        "duration": 3.1,
+        "text": "of this wheel, which is\njust I1 times omega 1,"
+      },
+      {
+        "start": 409.1,
+        "duration": 1.6,
+        "text": "and we have to be careful\nabout the direction."
+      },
+      {
+        "start": 410.7,
+        "duration": 1.7,
+        "text": "In this particular case,\nthe angular momentum"
+      },
+      {
+        "start": 412.4,
+        "duration": 1.9,
+        "text": "of this wheel is going to be to the right."
+      },
+      {
+        "start": 414.3,
+        "duration": 2.5,
+        "text": "And this wheel also has\nthe angular momentum"
+      },
+      {
+        "start": 416.8,
+        "duration": 1.9,
+        "text": "in the same direction, so I can add it."
+      },
+      {
+        "start": 418.7,
+        "duration": 2.4,
+        "text": "So plus I2 omega 2,"
+      },
+      {
+        "start": 421.1,
+        "duration": 1.3,
+        "text": "that should equal the total"
+      },
+      {
+        "start": 422.4,
+        "duration": 1.7,
+        "text": "final angular momentum."
+      },
+      {
+        "start": 424.2,
+        "duration": 1.6,
+        "text": "And the total final angular momentum"
+      },
+      {
+        "start": 425.7,
+        "duration": 3.8,
+        "text": "would be just I1 plus I2 times omega."
+      },
+      {
+        "start": 429.5,
+        "duration": 1.1,
+        "text": "And boom!"
+      },
+      {
+        "start": 430.6,
+        "duration": 3.5,
+        "text": "From this I can calculate\nwhat omega should be."
+      },
+      {
+        "start": 434.2,
+        "duration": 1.7,
+        "text": "Of course you could say that, hey,"
+      },
+      {
+        "start": 435.8,
+        "duration": 1.8,
+        "text": "the two wheels are identical,"
+      },
+      {
+        "start": 437.6,
+        "duration": 2.1,
+        "text": "so I1 should be equal to I2."
+      },
+      {
+        "start": 439.7,
+        "duration": 1.9,
+        "text": "And we can further simplify this,"
+      },
+      {
+        "start": 441.6,
+        "duration": 1.9,
+        "text": "but you get the point."
+      },
+      {
+        "start": 443.5,
+        "duration": 3.0,
+        "text": "Okay, now consider a box\nfloating in outer space"
+      },
+      {
+        "start": 446.5,
+        "duration": 2.5,
+        "text": "with a spinning disc inside of it."
+      },
+      {
+        "start": 449.0,
+        "duration": 1.4,
+        "text": "The disc is connected to a motor"
+      },
+      {
+        "start": 450.4,
+        "duration": 1.7,
+        "text": "and the motor is powered by a battery."
+      },
+      {
+        "start": 452.1,
+        "duration": 1.6,
+        "text": "So everything, the disc, the motor,"
+      },
+      {
+        "start": 453.6,
+        "duration": 2.0,
+        "text": "and the battery, all of it is completely"
+      },
+      {
+        "start": 455.6,
+        "duration": 1.4,
+        "text": "inside the box."
+      },
+      {
+        "start": 457.1,
+        "duration": 1.6,
+        "text": "But because of the spinning disc,"
+      },
+      {
+        "start": 458.6,
+        "duration": 3.4,
+        "text": "the entire box disc system"
+      },
+      {
+        "start": 462.0,
+        "duration": 2.5,
+        "text": "has some angular momentum, right?"
+      },
+      {
+        "start": 464.5,
+        "duration": 3.4,
+        "text": "But there are no external\ntorques on this system."
+      },
+      {
+        "start": 467.9,
+        "duration": 2.8,
+        "text": "So this angular momentum of this system"
+      },
+      {
+        "start": 470.7,
+        "duration": 2.9,
+        "text": "must stay constant, right?"
+      },
+      {
+        "start": 473.6,
+        "duration": 2.4,
+        "text": "Okay, so now imagine we could remotely"
+      },
+      {
+        "start": 476.0,
+        "duration": 2.2,
+        "text": "control the motor and change the speed"
+      },
+      {
+        "start": 478.2,
+        "duration": 1.2,
+        "text": "of this spinning disc."
+      },
+      {
+        "start": 479.5,
+        "duration": 0.9,
+        "text": "What do you think would happen"
+      },
+      {
+        "start": 480.4,
+        "duration": 2.7,
+        "text": "if we reduced its speed?"
+      },
+      {
+        "start": 483.9,
+        "duration": 1.1,
+        "text": "Well, the angular momentum"
+      },
+      {
+        "start": 485.1,
+        "duration": 1.8,
+        "text": "of the disc would decrease,"
+      },
+      {
+        "start": 486.9,
+        "duration": 1.3,
+        "text": "but the total angular momentum"
+      },
+      {
+        "start": 488.2,
+        "duration": 2.0,
+        "text": "must stay the same."
+      },
+      {
+        "start": 490.1,
+        "duration": 2.0,
+        "text": "So how will nature ensure that?"
+      },
+      {
+        "start": 492.2,
+        "duration": 3.6,
+        "text": "The answer is that the\nbox itself will begin"
+      },
+      {
+        "start": 495.8,
+        "duration": 2.6,
+        "text": "to rotate in the same direction?"
+      },
+      {
+        "start": 498.4,
+        "duration": 1.1,
+        "text": "That way the decrease"
+      },
+      {
+        "start": 499.5,
+        "duration": 2.5,
+        "text": "in the disc's angular\nmomentum is compensated"
+      },
+      {
+        "start": 502.0,
+        "duration": 1.1,
+        "text": "by an equal increase"
+      },
+      {
+        "start": 503.1,
+        "duration": 2.1,
+        "text": "in the box's angular momentum,"
+      },
+      {
+        "start": 505.2,
+        "duration": 2.8,
+        "text": "keeping the total unchanged."
+      },
+      {
+        "start": 508.0,
+        "duration": 2.8,
+        "text": "So look, simply by slowing down the disc,"
+      },
+      {
+        "start": 510.8,
+        "duration": 3.1,
+        "text": "we can make the entire box start rotating."
+      },
+      {
+        "start": 513.8,
+        "duration": 1.9,
+        "text": "No external force or torque's needed."
+      },
+      {
+        "start": 515.8,
+        "duration": 1.7,
+        "text": "Pretty cool right?"
+      },
+      {
+        "start": 517.4,
+        "duration": 1.4,
+        "text": "Now, what do you think will happen"
+      },
+      {
+        "start": 518.8,
+        "duration": 1.6,
+        "text": "if we speed the disc back up"
+      },
+      {
+        "start": 520.4,
+        "duration": 2.4,
+        "text": "to its original speed?"
+      },
+      {
+        "start": 522.8,
+        "duration": 1.4,
+        "text": "Well, now the angular momentum"
+      },
+      {
+        "start": 524.1,
+        "duration": 2.1,
+        "text": "of the disc returns to its original value."
+      },
+      {
+        "start": 526.2,
+        "duration": 1.6,
+        "text": "So the box will stop rotating,"
+      },
+      {
+        "start": 527.9,
+        "duration": 1.2,
+        "text": "again to keep the total angle"
+      },
+      {
+        "start": 529.0,
+        "duration": 3.0,
+        "text": "of momentum the same as before."
+      },
+      {
+        "start": 532.0,
+        "duration": 4.7,
+        "text": "Finally, what if we\nincrease the disc speed?"
+      },
+      {
+        "start": 536.6,
+        "duration": 0.8,
+        "text": "Well, that would try"
+      },
+      {
+        "start": 537.5,
+        "duration": 1.6,
+        "text": "to increase the total angular momentum."
+      },
+      {
+        "start": 539.1,
+        "duration": 2.6,
+        "text": "So to compensate the\nbox would start rotating"
+      },
+      {
+        "start": 541.7,
+        "duration": 1.4,
+        "text": "in the opposite direction."
+      },
+      {
+        "start": 543.1,
+        "duration": 2.5,
+        "text": "Again, ensuring the\noverall angular momentum"
+      },
+      {
+        "start": 545.6,
+        "duration": 3.3,
+        "text": "remains the same, which\nmeans just by increasing"
+      },
+      {
+        "start": 548.9,
+        "duration": 2.2,
+        "text": "or decreasing the speed\nof a spinning disc,"
+      },
+      {
+        "start": 551.2,
+        "duration": 2.4,
+        "text": "we can rotate this box by any amount"
+      },
+      {
+        "start": 553.6,
+        "duration": 2.5,
+        "text": "in any direction."
+      },
+      {
+        "start": 556.1,
+        "duration": 3.9,
+        "text": "This device is called a reaction wheel."
+      },
+      {
+        "start": 560.0,
+        "duration": 1.5,
+        "text": "And this is how we control"
+      },
+      {
+        "start": 561.5,
+        "duration": 1.9,
+        "text": "rotations of satellites."
+      },
+      {
+        "start": 563.4,
+        "duration": 1.0,
+        "text": "So here's an example"
+      },
+      {
+        "start": 564.3,
+        "duration": 2.1,
+        "text": "of how these reaction wheels look like."
+      },
+      {
+        "start": 566.4,
+        "duration": 1.4,
+        "text": "We have three reaction wheels"
+      },
+      {
+        "start": 567.8,
+        "duration": 4.0,
+        "text": "to control rotations along three axes,"
+      },
+      {
+        "start": 571.8,
+        "duration": 1.9,
+        "text": "and we usually have another set"
+      },
+      {
+        "start": 573.7,
+        "duration": 1.5,
+        "text": "as a backup just in case some"
+      },
+      {
+        "start": 575.2,
+        "duration": 2.1,
+        "text": "of the others stop working."
+      },
+      {
+        "start": 577.3,
+        "duration": 2.8,
+        "text": "So this is how by using\nthe reaction wheels,"
+      },
+      {
+        "start": 580.1,
+        "duration": 3.3,
+        "text": "we can rotate our satellites"
+      },
+      {
+        "start": 583.4,
+        "duration": 2.3,
+        "text": "or our telescopes by any amount"
+      },
+      {
+        "start": 585.7,
+        "duration": 2.0,
+        "text": "and along any particular axis."
+      },
+      {
+        "start": 587.7,
+        "duration": 1.1,
+        "text": "Pretty awesome, right?"
+      },
+      {
+        "start": 589.7,
+        "duration": 1.8,
+        "text": "What's more awesome is that conservation"
+      },
+      {
+        "start": 591.5,
+        "duration": 1.7,
+        "text": "of angular momentum can also be applied"
+      },
+      {
+        "start": 593.2,
+        "duration": 2.3,
+        "text": "to non rigid bodies."
+      },
+      {
+        "start": 595.5,
+        "duration": 1.6,
+        "text": "Take a look at this."
+      },
+      {
+        "start": 598.0,
+        "duration": 1.8,
+        "text": "You have an ice skater\nwho starts out spinning"
+      },
+      {
+        "start": 599.9,
+        "duration": 1.7,
+        "text": "with low speed, but then look,"
+      },
+      {
+        "start": 601.6,
+        "duration": 1.7,
+        "text": "she starts speeding up."
+      },
+      {
+        "start": 604.8,
+        "duration": 2.0,
+        "text": "Can you pause the video and think"
+      },
+      {
+        "start": 606.8,
+        "duration": 1.7,
+        "text": "about what's going on over here?"
+      },
+      {
+        "start": 608.5,
+        "duration": 2.0,
+        "text": "See if you can explain this using the idea"
+      },
+      {
+        "start": 610.6,
+        "duration": 2.1,
+        "text": "of the conservation of angular momentum."
+      },
+      {
+        "start": 614.0,
+        "duration": 0.8,
+        "text": "Alright, let's see."
+      },
+      {
+        "start": 614.8,
+        "duration": 3.0,
+        "text": "When she starts spinning,\nlook at how her arms"
+      },
+      {
+        "start": 617.9,
+        "duration": 1.7,
+        "text": "and legs are stretched out."
+      },
+      {
+        "start": 619.6,
+        "duration": 1.6,
+        "text": "Because of this, a lot of particles"
+      },
+      {
+        "start": 621.2,
+        "duration": 1.2,
+        "text": "are far away from the axis"
+      },
+      {
+        "start": 622.5,
+        "duration": 1.5,
+        "text": "of rotation distributed far away"
+      },
+      {
+        "start": 624.0,
+        "duration": 1.3,
+        "text": "from the axis of rotation."
+      },
+      {
+        "start": 625.3,
+        "duration": 2.6,
+        "text": "As a result, her rotation\ninertia is pretty high."
+      },
+      {
+        "start": 627.9,
+        "duration": 2.1,
+        "text": "She also has some angular velocity,"
+      },
+      {
+        "start": 630.0,
+        "duration": 2.1,
+        "text": "and therefore, she has\nsome angular momentum,"
+      },
+      {
+        "start": 632.1,
+        "duration": 2.3,
+        "text": "which is the product of these two."
+      },
+      {
+        "start": 634.4,
+        "duration": 1.7,
+        "text": "Now, as she continues to spin, we will see"
+      },
+      {
+        "start": 636.0,
+        "duration": 3.2,
+        "text": "that she will pull her\narms and legs closer."
+      },
+      {
+        "start": 639.2,
+        "duration": 1.4,
+        "text": "As a result, a lot of particles now"
+      },
+      {
+        "start": 640.6,
+        "duration": 2.9,
+        "text": "are distributed close\nto the axis of rotation,"
+      },
+      {
+        "start": 643.5,
+        "duration": 3.3,
+        "text": "therefore, her rotational\ninertia goes down."
+      },
+      {
+        "start": 646.8,
+        "duration": 2.6,
+        "text": "But what happens to her angular momentum?"
+      },
+      {
+        "start": 649.4,
+        "duration": 2.4,
+        "text": "It has to stay the same."
+      },
+      {
+        "start": 651.8,
+        "duration": 0.8,
+        "text": "Why?"
+      },
+      {
+        "start": 652.6,
+        "duration": 1.8,
+        "text": "Well, because all the pooling forces"
+      },
+      {
+        "start": 654.4,
+        "duration": 3.1,
+        "text": "were internal, so all\nthose torques are internal,"
+      },
+      {
+        "start": 657.5,
+        "duration": 2.3,
+        "text": "and there are no external\ntorques over here."
+      },
+      {
+        "start": 659.8,
+        "duration": 1.9,
+        "text": "I mean, of course there\nis force of friction,"
+      },
+      {
+        "start": 661.8,
+        "duration": 1.4,
+        "text": "but that is very minimal."
+      },
+      {
+        "start": 663.1,
+        "duration": 1.3,
+        "text": "So the torque produced by the friction"
+      },
+      {
+        "start": 664.4,
+        "duration": 0.8,
+        "text": "is very minimal."
+      },
+      {
+        "start": 665.2,
+        "duration": 2.9,
+        "text": "So if I consider this\nice skater as our system,"
+      },
+      {
+        "start": 668.1,
+        "duration": 2.1,
+        "text": "then there are pretty\nmuch no external torque"
+      },
+      {
+        "start": 670.2,
+        "duration": 0.8,
+        "text": "acting on her."
+      },
+      {
+        "start": 671.1,
+        "duration": 1.9,
+        "text": "And so her total angular momentum"
+      },
+      {
+        "start": 673.0,
+        "duration": 3.0,
+        "text": "must stay the same as she pulls her arms"
+      },
+      {
+        "start": 676.0,
+        "duration": 1.2,
+        "text": "and leg closer,"
+      },
+      {
+        "start": 677.1,
+        "duration": 2.3,
+        "text": "which means this product\nshould stay the same,"
+      },
+      {
+        "start": 679.5,
+        "duration": 3.5,
+        "text": "which means as her\nrotational inertia decreases,"
+      },
+      {
+        "start": 683.0,
+        "duration": 3.4,
+        "text": "her angular velocity should increase"
+      },
+      {
+        "start": 686.3,
+        "duration": 1.7,
+        "text": "to keep the product the same."
+      },
+      {
+        "start": 688.0,
+        "duration": 3.1,
+        "text": "And that's why she speeds up."
+      },
+      {
+        "start": 691.2,
+        "duration": 1.3,
+        "text": "Let's have a look now."
+      },
+      {
+        "start": 693.5,
+        "duration": 1.3,
+        "text": "Here we go."
+      },
+      {
+        "start": 694.7,
+        "duration": 1.4,
+        "text": "This is what's happening."
+      },
+      {
+        "start": 696.1,
+        "duration": 2.4,
+        "text": "Isn't that amazing?"
+      },
+      {
+        "start": 698.5,
+        "duration": 1.3,
+        "text": "Wow."
+      },
+      {
+        "start": 699.9,
+        "duration": 3.6,
+        "text": "And something very similar\nhappens to the stars."
+      },
+      {
+        "start": 703.4,
+        "duration": 3.6,
+        "text": "A star usually forms\nwith huge swirling clouds"
+      },
+      {
+        "start": 707.0,
+        "duration": 2.5,
+        "text": "of gas gravitating together."
+      },
+      {
+        "start": 709.6,
+        "duration": 1.6,
+        "text": "Now, if you consider this entire cloud"
+      },
+      {
+        "start": 711.1,
+        "duration": 3.5,
+        "text": "as our system, then\nparticles are distributed"
+      },
+      {
+        "start": 714.6,
+        "duration": 1.7,
+        "text": "very far away from the axis of rotation."
+      },
+      {
+        "start": 716.3,
+        "duration": 1.1,
+        "text": "It's all spread out."
+      },
+      {
+        "start": 717.4,
+        "duration": 2.4,
+        "text": "So it has a very high rotational inertia,"
+      },
+      {
+        "start": 719.8,
+        "duration": 2.1,
+        "text": "and it also has some angular velocity."
+      },
+      {
+        "start": 721.9,
+        "duration": 2.1,
+        "text": "And so it has some angular momentum,"
+      },
+      {
+        "start": 724.0,
+        "duration": 1.9,
+        "text": "which is the product of these two."
+      },
+      {
+        "start": 725.9,
+        "duration": 2.9,
+        "text": "But when eventually a star is formed,"
+      },
+      {
+        "start": 728.9,
+        "duration": 2.2,
+        "text": "look, almost all these particles"
+      },
+      {
+        "start": 731.1,
+        "duration": 2.9,
+        "text": "and our distributed\nmuch closer than before."
+      },
+      {
+        "start": 734.0,
+        "duration": 1.4,
+        "text": "So the rotational inertia"
+      },
+      {
+        "start": 735.3,
+        "duration": 2.2,
+        "text": "is much lower than before,"
+      },
+      {
+        "start": 737.5,
+        "duration": 3.6,
+        "text": "but the angular momentum\nmust stay the same"
+      },
+      {
+        "start": 741.1,
+        "duration": 2.6,
+        "text": "because pretty much no external torque"
+      },
+      {
+        "start": 743.7,
+        "duration": 2.2,
+        "text": "acts on our system, and therefore,"
+      },
+      {
+        "start": 745.9,
+        "duration": 1.3,
+        "text": "the product should stay the same."
+      },
+      {
+        "start": 747.1,
+        "duration": 2.3,
+        "text": "And so the angular velocity"
+      },
+      {
+        "start": 749.5,
+        "duration": 1.5,
+        "text": "of the star must be much higher"
+      },
+      {
+        "start": 751.0,
+        "duration": 1.5,
+        "text": "than it was before,"
+      },
+      {
+        "start": 752.5,
+        "duration": 2.2,
+        "text": "such that the product stays the same."
+      },
+      {
+        "start": 754.7,
+        "duration": 1.8,
+        "text": "That's why the star will be spinning"
+      },
+      {
+        "start": 756.5,
+        "duration": 2.1,
+        "text": "faster than before."
+      },
+      {
+        "start": 758.6,
+        "duration": 2.4,
+        "text": "And when big stars run out of fuel"
+      },
+      {
+        "start": 761.0,
+        "duration": 2.2,
+        "text": "to sustain nuclear fusion at the core,"
+      },
+      {
+        "start": 763.3,
+        "duration": 1.8,
+        "text": "gravity crushes the whole thing"
+      },
+      {
+        "start": 765.1,
+        "duration": 3.5,
+        "text": "into a very tiny, very compact object"
+      },
+      {
+        "start": 768.6,
+        "duration": 2.1,
+        "text": "called neutron stars."
+      },
+      {
+        "start": 770.7,
+        "duration": 1.8,
+        "text": "As a result, the rotational inertia"
+      },
+      {
+        "start": 772.5,
+        "duration": 3.7,
+        "text": "becomes incredibly low, but again,"
+      },
+      {
+        "start": 776.2,
+        "duration": 3.0,
+        "text": "the angular momentum must stay pretty"
+      },
+      {
+        "start": 779.2,
+        "duration": 2.3,
+        "text": "much the same as before, and therefore,"
+      },
+      {
+        "start": 781.5,
+        "duration": 3.5,
+        "text": "it's angular velocity\nwill be much, much higher"
+      },
+      {
+        "start": 785.1,
+        "duration": 2.5,
+        "text": "so that the product stays the same."
+      },
+      {
+        "start": 787.6,
+        "duration": 1.3,
+        "text": "Now, this is not to scale,"
+      },
+      {
+        "start": 788.9,
+        "duration": 1.6,
+        "text": "just to give you some feeling for numbers."
+      },
+      {
+        "start": 790.4,
+        "duration": 2.8,
+        "text": "Stars usually finish one rotation"
+      },
+      {
+        "start": 793.2,
+        "duration": 3.7,
+        "text": "in like a few days,\nbut these neutron stars"
+      },
+      {
+        "start": 796.9,
+        "duration": 2.5,
+        "text": "will rotate tens or even hundreds"
+      },
+      {
+        "start": 799.4,
+        "duration": 2.6,
+        "text": "of times per second."
+      },
+      {
+        "start": 801.9,
+        "duration": 1.7,
+        "text": "So now you can see why."
+      },
+      {
+        "start": 803.6,
+        "duration": 1.2,
+        "text": "It's all because of conservation"
+      },
+      {
+        "start": 804.8,
+        "duration": 2.2,
+        "text": "of angular momentum."
+      },
+      {
+        "start": 806.9,
+        "duration": 1.4,
+        "text": "By the way, before we close, did you know"
+      },
+      {
+        "start": 808.4,
+        "duration": 2.0,
+        "text": "how we actually discovered these?"
+      },
+      {
+        "start": 810.4,
+        "duration": 1.5,
+        "text": "Some of them actually shoot out beams"
+      },
+      {
+        "start": 811.9,
+        "duration": 1.4,
+        "text": "of electromagnetic radiation"
+      },
+      {
+        "start": 813.3,
+        "duration": 1.5,
+        "text": "from their magnetic poles."
+      },
+      {
+        "start": 814.9,
+        "duration": 2.9,
+        "text": "And as the star spins, those beams sweep"
+      },
+      {
+        "start": 817.7,
+        "duration": 3.3,
+        "text": "across the space like a cosmic lighthouse,"
+      },
+      {
+        "start": 821.0,
+        "duration": 0.8,
+        "text": "if you may."
+      },
+      {
+        "start": 821.8,
+        "duration": 1.8,
+        "text": "And about 60 years ago,"
+      },
+      {
+        "start": 823.6,
+        "duration": 2.9,
+        "text": "astronomers noticed incredibly regular"
+      },
+      {
+        "start": 826.5,
+        "duration": 2.6,
+        "text": "radio pulses arriving from deep space."
+      },
+      {
+        "start": 829.1,
+        "duration": 2.2,
+        "text": "It was about 1.3 seconds apart."
+      },
+      {
+        "start": 831.3,
+        "duration": 2.2,
+        "text": "And so the signal was so precise"
+      },
+      {
+        "start": 833.5,
+        "duration": 2.2,
+        "text": "and it was so regular\nthat at first they thought"
+      },
+      {
+        "start": 835.8,
+        "duration": 1.8,
+        "text": "it couldn't be natural at all."
+      },
+      {
+        "start": 837.6,
+        "duration": 1.8,
+        "text": "Some even wondered if\nit might be intelligent"
+      },
+      {
+        "start": 839.4,
+        "duration": 2.6,
+        "text": "alien life signaling us."
+      },
+      {
+        "start": 842.0,
+        "duration": 3.3,
+        "text": "So the mysterious source was labeled LGM-1"
+      },
+      {
+        "start": 845.2,
+        "duration": 3.9,
+        "text": "for little green men until\nwe found more of them,"
+      },
+      {
+        "start": 849.1,
+        "duration": 2.4,
+        "text": "and then finally realized\nthat they were actually"
+      },
+      {
+        "start": 851.5,
+        "duration": 2.5,
+        "text": "rapidly spinning neutron stars."
+      }
+    ],
+    "full_text": "- [Instructor] Did you\nknow that a satellite or a space telescope can turn by any amount about any axis in space without using any external force, without any thrusters? It can do that. How? By using a principle called conservation of angular momentum. But what exactly is this? Let's find out. Let's start with something\nthat we already know. We know that if an object of mass m, has some velocity v, it has momentum, which is the product of mass and velocity. Why do we care about this thing called as momentum? Well, that's because if you have a bunch of particles, not just\none, but a bunch of them, and if the total external\nforce on that system of particles is 0, then the momentum of the system, which is basically the sum of individual momenta,\nthat stays a constant. It doesn't change. And we call this the principle of conservation of linear momentum. And this is a super powerful tool in making predictions. For example, imagine a situation in which a block is\ncoming with some velocity and hits another block. And let's say after the collision, they stick together\nand they move together. We wanna find what that final velocity is. Well, if you consider both m1, m2 as our system, and if we ignore friction and air resistance, then\nduring the collision, the forces are all internal, there are no external forces. Then we can say momentum the total momentum of the system, before the collision should equal the total\nmomentum of the system after the collision. And just from this in a couple of steps, we can figure out what that final velocity should be. Isn't this awesome? Why does it work out this way? Well, that's because if there are no external forces acting on the system, then during the collision, when m1 puts a force\non m2, m2 puts an equal but opposite force back on m1. So whatever momentum has gained by m2, the same amount of momentum\nmust be lost by m1. And so the total momentum does not change. Well, now you might\nsay in real life cases, external forces are not 0. You have friction, you have air resistance, right? Yeah, but if this was a situation just before the collision and this is the situation just after the collision, then during the collision, the internal forces are\nmuch higher compared to the external ones. And so we can ignore them. We can pretty much say that hey, momentum changes mostly happen due to the internal forces. And so we can pretty\nmuch use this principle and make pretty accurate predictions. Okay, now guess what? If a rigid body is spinning, then we know it has angular momentum, which is given as the product of its rotational inertia\nand angular velocity. And many experiments show for a bunch of rigid bodies, if the net external torque on it is 0, then the angular momentum\nof the entire system, which is again basically the sum of an individual angular momenta, that stays a constant. So now we have something called the conservation\nof angular momentum. The idea is very, very\nsimilar to over here, except that this will\nbe used for rotation. So let's take a few examples. Let's say we have a disc that is spinning on a frictionless table and let the angular velocity be omega 1. Now let's say we drop another disc. This is not initially rotating. Okay, we're gonna drop it on this one. And there is friction between these two. So this is spinning, this is not. What happens when you\ndrop this on this one? Well, because there is friction between these two, the big disc is gonna put a torque on the smaller one trying to make it spin in this direction. But of course this small\ndisc will put an equal but an opposite torque on the bigger disc, slowing it down. Eventually they'll have\nthe same angular velocity, and when that happens,\nthe torque disappears, and now they'll be both spinning together with the same angular velocity. And notice, if I consider\nboth the disc as part of my system, there\nare no external torques and therefore, the total angular momentum of the system must stay conserved. So look, just with this principle, I can now predict what that final angular\nvelocity is going to be. I can say that, hey, the\ntotal angular momentum of my system before, which is just rotational inertia I1 of this disc times its\nangular velocity, omega 1. And what's the direction? Well remember for angular momentum, we can use our right hand thumb rule, our four curling fingers\ncurl in the direction of the angular velocity, then the thumb points in the direction of the angular momentum. So over here, the angular momentum is just upwards, okay? Plus the angular momentum of this one, which is just 0, I2 times 0, that should equal the\nfinal angular momentum, which is going to be the total rotational inertia, which is just I1 plus I2 times the final angular velocity. And look, just from this, I can calculate what that final angular\nvelocity is going to be. Isn't it amazing? Now, of course, one key thing over here is that the rotational\ninertia not only depends on the mass, but it also depends upon how that mass is distributed. If the mass is distributed farther away from the axis of rotation, the rotational inertia is higher. So the distribution of mass also matters. For example, for a disc, the rotational inertia is\ngiven as 1/2 mR square, where m is the mass of the disc and R is the radius. So we could plug that in and simplify, but you get the point,\nso we'll not do that. Okay, let's take another example. Consider spinning tires of an automobile. Imagine the car is jacked up so the tires are not touching the ground. So the ground is not exerting any force or torque on these tires. Right now, the clutch is not engaged, so the two tires can spin independently because they're not connected. So let's say they're spinning with two different angular velocities, omega 1 and omega 2, okay? Now what will happen\nif I engage the clutch? Well, now these two axes are connected and they're now forced to spin with one particular angular velocity. So now they will have some new angular velocity omega. If we ignore friction, and if we ignore the mass\nof the clutch over here and all of that, can you predict what that final angular\nvelocity should be? Assume that the rotational inertia of this wheel is I1, and that of this wheel is I2. It'll be a great area to pause the video and see if you can use the conservation of angular momentum to predict what that final angular\nvelocity should be. Alright, we're gonna\nconsider the two wheels as the part of our system. We're gonna ignore the mass of the axles and the clutch and everything, okay? So what's the total\ninitial angular momentum? Well, it's going to be\nthe angular momentum of this wheel, which is\njust I1 times omega 1, and we have to be careful\nabout the direction. In this particular case,\nthe angular momentum of this wheel is going to be to the right. And this wheel also has\nthe angular momentum in the same direction, so I can add it. So plus I2 omega 2, that should equal the total final angular momentum. And the total final angular momentum would be just I1 plus I2 times omega. And boom! From this I can calculate\nwhat omega should be. Of course you could say that, hey, the two wheels are identical, so I1 should be equal to I2. And we can further simplify this, but you get the point. Okay, now consider a box\nfloating in outer space with a spinning disc inside of it. The disc is connected to a motor and the motor is powered by a battery. So everything, the disc, the motor, and the battery, all of it is completely inside the box. But because of the spinning disc, the entire box disc system has some angular momentum, right? But there are no external\ntorques on this system. So this angular momentum of this system must stay constant, right? Okay, so now imagine we could remotely control the motor and change the speed of this spinning disc. What do you think would happen if we reduced its speed? Well, the angular momentum of the disc would decrease, but the total angular momentum must stay the same. So how will nature ensure that? The answer is that the\nbox itself will begin to rotate in the same direction? That way the decrease in the disc's angular\nmomentum is compensated by an equal increase in the box's angular momentum, keeping the total unchanged. So look, simply by slowing down the disc, we can make the entire box start rotating. No external force or torque's needed. Pretty cool right? Now, what do you think will happen if we speed the disc back up to its original speed? Well, now the angular momentum of the disc returns to its original value. So the box will stop rotating, again to keep the total angle of momentum the same as before. Finally, what if we\nincrease the disc speed? Well, that would try to increase the total angular momentum. So to compensate the\nbox would start rotating in the opposite direction. Again, ensuring the\noverall angular momentum remains the same, which\nmeans just by increasing or decreasing the speed\nof a spinning disc, we can rotate this box by any amount in any direction. This device is called a reaction wheel. And this is how we control rotations of satellites. So here's an example of how these reaction wheels look like. We have three reaction wheels to control rotations along three axes, and we usually have another set as a backup just in case some of the others stop working. So this is how by using\nthe reaction wheels, we can rotate our satellites or our telescopes by any amount and along any particular axis. Pretty awesome, right? What's more awesome is that conservation of angular momentum can also be applied to non rigid bodies. Take a look at this. You have an ice skater\nwho starts out spinning with low speed, but then look, she starts speeding up. Can you pause the video and think about what's going on over here? See if you can explain this using the idea of the conservation of angular momentum. Alright, let's see. When she starts spinning,\nlook at how her arms and legs are stretched out. Because of this, a lot of particles are far away from the axis of rotation distributed far away from the axis of rotation. As a result, her rotation\ninertia is pretty high. She also has some angular velocity, and therefore, she has\nsome angular momentum, which is the product of these two. Now, as she continues to spin, we will see that she will pull her\narms and legs closer. As a result, a lot of particles now are distributed close\nto the axis of rotation, therefore, her rotational\ninertia goes down. But what happens to her angular momentum? It has to stay the same. Why? Well, because all the pooling forces were internal, so all\nthose torques are internal, and there are no external\ntorques over here. I mean, of course there\nis force of friction, but that is very minimal. So the torque produced by the friction is very minimal. So if I consider this\nice skater as our system, then there are pretty\nmuch no external torque acting on her. And so her total angular momentum must stay the same as she pulls her arms and leg closer, which means this product\nshould stay the same, which means as her\nrotational inertia decreases, her angular velocity should increase to keep the product the same. And that's why she speeds up. Let's have a look now. Here we go. This is what's happening. Isn't that amazing? Wow. And something very similar\nhappens to the stars. A star usually forms\nwith huge swirling clouds of gas gravitating together. Now, if you consider this entire cloud as our system, then\nparticles are distributed very far away from the axis of rotation. It's all spread out. So it has a very high rotational inertia, and it also has some angular velocity. And so it has some angular momentum, which is the product of these two. But when eventually a star is formed, look, almost all these particles and our distributed\nmuch closer than before. So the rotational inertia is much lower than before, but the angular momentum\nmust stay the same because pretty much no external torque acts on our system, and therefore, the product should stay the same. And so the angular velocity of the star must be much higher than it was before, such that the product stays the same. That's why the star will be spinning faster than before. And when big stars run out of fuel to sustain nuclear fusion at the core, gravity crushes the whole thing into a very tiny, very compact object called neutron stars. As a result, the rotational inertia becomes incredibly low, but again, the angular momentum must stay pretty much the same as before, and therefore, it's angular velocity\nwill be much, much higher so that the product stays the same. Now, this is not to scale, just to give you some feeling for numbers. Stars usually finish one rotation in like a few days,\nbut these neutron stars will rotate tens or even hundreds of times per second. So now you can see why. It's all because of conservation of angular momentum. By the way, before we close, did you know how we actually discovered these? Some of them actually shoot out beams of electromagnetic radiation from their magnetic poles. And as the star spins, those beams sweep across the space like a cosmic lighthouse, if you may. And about 60 years ago, astronomers noticed incredibly regular radio pulses arriving from deep space. It was about 1.3 seconds apart. And so the signal was so precise and it was so regular\nthat at first they thought it couldn't be natural at all. Some even wondered if\nit might be intelligent alien life signaling us. So the mysterious source was labeled LGM-1 for little green men until\nwe found more of them, and then finally realized\nthat they were actually rapidly spinning neutron stars."
+  }
+}
