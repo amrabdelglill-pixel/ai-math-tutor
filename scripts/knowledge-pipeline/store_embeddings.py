@@ -99,18 +99,20 @@ def generate_embeddings(openai_client, texts, batch_size=BATCH_SIZE):
 def store_channels(supabase, channels):
     """Upsert channel metadata into Supabase."""
     print(f"\nStoring {len(channels)} channels...")
+    success_count = 0
+    fail_count = 0
 
-    for i in range(0, len(channels), 50):
-        batch = channels[i : i + 50]
+    for i in range(0, len(channels), 20):
+        batch = channels[i : i + 20]
         rows = []
         for ch in batch:
             rows.append({
                 "channel_id": ch["channel_id"],
-                "title": ch["title"],
+                "title": (ch.get("title") or "")[:500],
                 "description": (ch.get("description") or "")[:2000],
                 "custom_url": ch.get("custom_url", ""),
-                "subscribers": ch.get("subscribers", 0),
-                "video_count": ch.get("video_count", 0),
+                "subscribers": ch.get("subscribers", 0) or 0,
+                "video_count": ch.get("video_count", 0) or 0,
                 "tags": ch.get("tags", []),
             })
 
@@ -118,10 +120,34 @@ def store_channels(supabase, channels):
             supabase.table(SUPABASE_CHANNELS_TABLE).upsert(
                 rows, on_conflict="channel_id"
             ).execute()
+            success_count += len(rows)
         except Exception as e:
-            print(f"  WARNING: Channel batch upsert failed: {e}")
+            print(f"  ERROR: Channel batch {i//20+1} upsert failed: {type(e).__name__}: {e}")
+            # Try one by one to identify the bad row
+            for row in rows:
+                try:
+                    supabase.table(SUPABASE_CHANNELS_TABLE).upsert(
+                        [row], on_conflict="channel_id"
+                    ).execute()
+                    success_count += 1
+                except Exception as e2:
+                    print(f"    SKIP channel {row['channel_id']}: {e2}")
+                    fail_count += 1
 
-    print(f"  Done — {len(channels)} channels stored")
+    print(f"  Done — {success_count} channels stored, {fail_count} failed")
+
+
+def _parse_published_at(raw):
+    """Convert yt-dlp date format (YYYYMMDD or '') to ISO-8601 or None."""
+    if not raw:
+        return None
+    raw = str(raw).strip()
+    if len(raw) == 8 and raw.isdigit():
+        # YYYYMMDD → YYYY-MM-DD
+        return f"{raw[:4]}-{raw[4:6]}-{raw[6:8]}"
+    if "T" in raw or "-" in raw:
+        return raw  # Already ISO-ish
+    return None
 
 
 def store_transcripts_metadata(supabase, chunks):
@@ -131,31 +157,48 @@ def store_transcripts_metadata(supabase, chunks):
     for chunk in chunks:
         vid = chunk["video_id"]
         if vid not in videos:
+            grades_raw = chunk.get("grades", [])
+            # Ensure grades are integers for int4[] column
+            grades = [int(g) for g in grades_raw if str(g).isdigit()]
+
             videos[vid] = {
                 "video_id": vid,
-                "video_title": chunk.get("video_title", ""),
+                "video_title": (chunk.get("video_title") or "")[:500],
                 "channel_id": chunk.get("channel_id", ""),
                 "language": chunk.get("language", "ar"),
-                "view_count": chunk.get("view_count", 0),
-                "published_at": chunk.get("published_at") or None,
+                "view_count": chunk.get("view_count", 0) or 0,
+                "published_at": _parse_published_at(chunk.get("published_at")),
                 "subjects": chunk.get("subjects", []),
                 "countries": chunk.get("countries", []),
-                "grades": chunk.get("grades", []),
+                "grades": grades,
             }
 
     print(f"\nStoring {len(videos)} transcript records...")
+    success_count = 0
+    fail_count = 0
 
     video_list = list(videos.values())
-    for i in range(0, len(video_list), 50):
-        batch = video_list[i : i + 50]
+    for i in range(0, len(video_list), 20):
+        batch = video_list[i : i + 20]
         try:
             supabase.table(SUPABASE_TRANSCRIPTS_TABLE).upsert(
                 batch, on_conflict="video_id"
             ).execute()
+            success_count += len(batch)
         except Exception as e:
-            print(f"  WARNING: Transcript batch upsert failed: {e}")
+            print(f"  ERROR: Transcript batch {i//20+1} upsert failed: {type(e).__name__}: {e}")
+            # Try one by one
+            for row in batch:
+                try:
+                    supabase.table(SUPABASE_TRANSCRIPTS_TABLE).upsert(
+                        [row], on_conflict="video_id"
+                    ).execute()
+                    success_count += 1
+                except Exception as e2:
+                    print(f"    SKIP transcript {row['video_id']}: {e2}")
+                    fail_count += 1
 
-    print(f"  Done — {len(videos)} transcripts stored")
+    print(f"  Done — {success_count} transcripts stored, {fail_count} failed")
 
 
 def store_chunks_with_embeddings(supabase, openai_client, chunks):
@@ -181,8 +224,8 @@ def store_chunks_with_embeddings(supabase, openai_client, chunks):
             if len(result.data) < page_size:
                 break
             offset += page_size
-    except Exception:
-        pass  # Table might be empty
+    except Exception as e:
+        print(f"  NOTE: Could not fetch existing chunk IDs: {type(e).__name__}: {e}")
 
     # Filter to only new chunks
     new_chunks = [c for c in chunks if c["chunk_id"] not in existing_ids]
@@ -210,6 +253,9 @@ def store_chunks_with_embeddings(supabase, openai_client, chunks):
 
         rows = []
         for chunk, emb in zip(batch_chunks, batch_embeddings):
+            grades_raw = chunk.get("grades", [])
+            grades = [int(g) for g in grades_raw if str(g).isdigit()]
+
             row = {
                 "chunk_id": chunk["chunk_id"],
                 "video_id": chunk["video_id"],
@@ -218,7 +264,7 @@ def store_chunks_with_embeddings(supabase, openai_client, chunks):
                 "language": chunk.get("language", "ar"),
                 "subjects": chunk.get("subjects", []),
                 "countries": chunk.get("countries", []),
-                "grades": chunk.get("grades", []),
+                "grades": grades,
                 "topics": chunk.get("topics", []),
                 "embedding": emb,
             }
@@ -230,8 +276,17 @@ def store_chunks_with_embeddings(supabase, openai_client, chunks):
             ).execute()
             success_count += len(rows)
         except Exception as e:
-            print(f"  WARNING: Chunk batch upsert failed: {e}")
-            fail_count += len(rows)
+            print(f"  ERROR: Chunk batch upsert failed: {type(e).__name__}: {e}")
+            # Try one by one to identify bad rows
+            for row in rows:
+                try:
+                    supabase.table(SUPABASE_CHUNKS_TABLE).upsert(
+                        [row], on_conflict="chunk_id"
+                    ).execute()
+                    success_count += 1
+                except Exception as e2:
+                    print(f"    SKIP chunk {row['chunk_id']}: {e2}")
+                    fail_count += 1
 
         if (i + 50) % 200 == 0 or i + 50 >= len(new_chunks):
             print(f"  Progress: {min(i + 50, len(new_chunks))}/{len(new_chunks)}")
