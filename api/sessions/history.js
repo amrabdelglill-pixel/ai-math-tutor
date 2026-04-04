@@ -1,4 +1,5 @@
 import { createServerClient, getUser } from '../../lib/supabase.js';
+import { getChildOrUser, getParentId } from '../../lib/child-auth.js';
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -6,17 +7,20 @@ export default async function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
 
-  const user = await getUser(req);
-  if (!user) return res.status(401).json({ error: 'Not authenticated' });
+  // Accept both parent Supabase JWT and child custom JWT
+  const authContext = await getChildOrUser(req);
+  if (!authContext) return res.status(401).json({ error: 'Not authenticated' });
 
-  // Use service role client to bypass RLS — we verify ownership via parent_id = user.id
+  const parentId = getParentId(authContext);
+
+  // Use service role client to bypass RLS — we verify ownership via parent_id
   const supabase = createServerClient();
   const { child_id, session_id } = req.query;
 
   let query = supabase
     .from('sessions')
     .select('*, children(name, grade), messages(role, content, created_at, flagged)')
-    .eq('parent_id', user.id)
+    .eq('parent_id', parentId)
     .order('started_at', { ascending: false });
 
   if (session_id) {

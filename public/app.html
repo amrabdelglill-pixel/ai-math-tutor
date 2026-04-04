@@ -549,24 +549,53 @@
 
     /* Responsive */
     @media (max-width: 640px) {
+      body {
+        padding: 0;
+        overflow: hidden;
+      }
+
       .chat-container {
-        height: calc(100vh - 220px);
+        height: calc(100dvh - 180px);
         border-radius: 0;
+        border-left: none;
+        border-right: none;
+        margin: 0;
       }
 
       .chat-bubble.user,
       .chat-bubble.assistant {
         max-width: 95%;
+        font-size: 15px;
       }
 
       .nav-links {
-        flex-wrap: wrap;
-        gap: 8px;
+        flex-wrap: nowrap;
+        gap: 4px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 8px;
+      }
+
+      .subject-tabs {
+        gap: 4px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 8px;
+        flex-wrap: nowrap;
+      }
+
+      .subject-tab {
+        font-size: 13px;
+        padding: 6px 12px;
+        white-space: nowrap;
+        flex-shrink: 0;
       }
 
       .learning-info-bar {
         flex-direction: column;
         align-items: flex-start;
+        padding: 8px 12px;
+        gap: 6px;
       }
 
       .learning-info-bar-right {
@@ -575,23 +604,41 @@
 
       .learning-info-bar-right .btn {
         flex: 1;
-      }
-
-      .btn-secondary {
-        flex: 1;
+        font-size: 13px;
+        padding: 6px 10px;
       }
 
       .chat-input-area {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        padding: 8px 10px;
+        gap: 6px;
+        padding-bottom: max(8px, env(safe-area-inset-bottom));
       }
 
       .chat-input-area textarea {
-        flex: 1 1 100%;
-        min-width: 200px;
+        flex: 1;
+        min-width: 0;
+        font-size: 16px; /* Prevents iOS zoom on focus */
+        padding: 8px 10px;
       }
 
       .chat-input-area .btn {
-        flex: 0 1 auto;
+        flex-shrink: 0;
+        padding: 8px 14px;
+        font-size: 14px;
+      }
+
+      .chat-messages {
+        padding: 10px;
+        gap: 8px;
+      }
+
+      header {
+        padding: 8px 12px;
+      }
+
+      header h1 {
+        font-size: 18px;
       }
     }
 
@@ -766,7 +813,8 @@
     let attachedFile = null;
     let currentSubject = 'math';
 
-    function switchSubject(subject) {
+    async function switchSubject(subject) {
+      if (currentSubject === subject && currentSession) return; // Already on this subject with active session
       currentSubject = subject;
       // Update tab styles
       document.querySelectorAll('.subject-tab').forEach(tab => {
@@ -782,6 +830,8 @@
       const icons = { math: '📐', science: '🔬', english: '📝' };
       const name = currentChild ? currentChild.name : '';
       msgs.innerHTML = `<div class="chat-bubble assistant">${icons[subject]} Hi${name ? ' ' + name : ''}! Let's work on <strong>${subjectNames[subject]}</strong> together. What would you like to learn?</div>`;
+      // Create session immediately so send button works
+      await createAndStartSession();
     }
 
     // Decode JWT payload (base64 only, no signature verification on client)
@@ -902,7 +952,12 @@
       if (limitBlocked) { alert("You have reached your usage limit."); return; }
       const input = document.getElementById('chat-input');
       const message = input.value.trim();
-      if ((!message && !attachedFile) || !currentSession || !currentChild) return;
+      if ((!message && !attachedFile) || !currentChild) return;
+      // Safety net: create session if missing
+      if (!currentSession) {
+        await createAndStartSession();
+        if (!currentSession) { addBubble('Oops, could not start a session. Please reload the page.', 'assistant'); return; }
+      }
 
       // Show attachment in bubble if present
       let displayMsg = message;
