@@ -4,6 +4,68 @@ import { getChildOrUser, getParentId } from '../lib/child-auth.js';
 import { getSystemPrompt, checkForBlockedContent, detectStuckLoop, detectChildDistress, detectPersonalInfo, COUNTRY_CODE_MAP } from '../lib/prompts.js';
 import { checkRateLimit, getClientIP, RATE_LIMITS } from '../lib/rate-limit.js';
 
+// ============================================
+// Tutoring Mode Detection
+// ============================================
+function detectTutoringMode(message, history = []) {
+  const msg = message.toLowerCase().trim();
+
+  // Explicit mode triggers
+  if (/\b(explain|teach me|what is|what are|how does|how do)\b/i.test(msg)) return 'teach';
+  if (/\b(test me|quiz me|quiz)\b/i.test(msg)) return 'quiz';
+  if (/\b(step by step|step-by-step|one step at a time)\b/i.test(msg)) return 'step_by_step';
+  if (/\b(what did we learn|recap|summary|summarize)\b/i.test(msg)) return 'recap';
+  if (/\b(make it fun|tell me a story|story)\b/i.test(msg)) return 'story';
+
+  // Frustration / calm mode detection
+  const frustrationSignals = [
+    /!{2,}/, /i don'?t (get|understand) (it|this)/i, /this is (stupid|dumb|hard|impossible)/i,
+    /i (hate|can'?t do) (this|math|it)/i, /i give up/i, /ugh/i, /argh/i
+  ];
+  if (frustrationSignals.some(p => p.test(msg))) return 'calm';
+
+  // Check for repeated wrong answers (3+ in recent history)
+  if (history && history.length >= 6) {
+    const recentAssistant = history.filter(m => m.role === 'assistant').slice(-3);
+    const wrongCount = recentAssistant.filter(m =>
+      /not quite|almost|let'?s (check|try|look)|close!/i.test(m.content)
+    ).length;
+    if (wrongCount >= 2) return 'calm';
+  }
+
+  // Default: hint mode for problem-like input (numbers, equations, "help me")
+  if (/\b(help|solve|calculate|what is \d|how much|how many)\b/i.test(msg) || /\d+\s*[+\-x×÷*/]\s*\d+/.test(msg)) {
+    return 'hint';
+  }
+
+  return null; // no specific mode detected — use default behavior
+}
+
+// ============================================
+// Math Scaffolding Level Tracker
+// Analyzes conversation history to determine current L-level
+// ============================================
+function detectMathScaffoldLevel(history = [], subject = 'math') {
+  if (subject !== 'math') return null;
+  if (!history || history.length < 2) return 'L1';
+
+  // Count assistant math-teaching messages in current problem thread
+  const recentAssistant = history.filter(m => m.role === 'assistant').slice(-5);
+  let guidedSteps = 0;
+
+  for (const msg of recentAssistant) {
+    const c = msg.content.toLowerCase();
+    if (/let'?s (figure|work|think|try)|what do you (think|know|get)|can you try/i.test(c)) guidedSteps++;
+    if (/step \d|break it (down|into)/i.test(c)) guidedSteps++;
+    if (/here'?s (a |the )?(hint|clue)|hint:/i.test(c)) guidedSteps++;
+  }
+
+  if (guidedSteps >= 4) return 'L4'; // Ready for partial solve or full reveal
+  if (guidedSteps >= 3) return 'L3'; // Scaffolding phase
+  if (guidedSteps >= 1) return 'L2'; // Hinting phase
+  return 'L1'; // Just starting
+}
+
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // Reverse map: "UAE" -> "AE", "Egypt" -> "EG", etc.
@@ -232,6 +294,34 @@ export default async function handler(req, res) {
     });
     const ragContext = buildRAGContext(ragChunks);
 
+    // 8b. Detect tutoring mode and math scaffolding level
+    const detectedMode = detectTutoringMode(message, history);
+    const mathLevel = detectMathScaffoldLevel(history, subject);
+
+    let modeContext = '';
+    if (detectedMode) {
+      const modeLabels = {
+        teach: 'TEACH MODE — give structured explanations with comprehension checks every 2-3 sentences.',
+        hint: 'HINT MODE — pure scaffolding (L1-L4). Minimal direct instruction. Maximum student participation.',
+        quiz: 'QUIZ MODE — ask questions, evaluate answers, adjust difficulty. Max 10 questions before suggesting a break.',
+        story: 'STORY MODE — wrap concepts in narrative for engagement. Still follow Math Answer Release Policy.',
+        calm: 'CALM MODE ACTIVATED — the child may be frustrated. Use slower pace, extra encouragement, simpler language. Say "It\'s okay to find this hard. Let\'s take it really slowly."',
+        step_by_step: 'STEP-BY-STEP MODE — strict one-step-at-a-time. Present ONE step, wait for response. Do not advance until child responds.',
+        recap: 'RECAP MODE — summarize key concepts covered. List what the child got right. Suggest next steps.'
+      };
+      modeContext += `\n\nACTIVE TUTORING MODE: ${modeLabels[detectedMode] || ''}`;
+    }
+
+    if (mathLevel && subject === 'math') {
+      const levelGuidance = {
+        L1: 'You are at L1 (CLARIFY). Restate the problem. Ask what the child understands. Do NOT give hints or solutions yet.',
+        L2: 'You are at L2 (HINT). Give directional hints without revealing the method. Ask guiding questions.',
+        L3: 'You are at L3 (SCAFFOLD). Break into sub-steps. Solve the first sub-step as demo. Ask child to try the next.',
+        L4: 'You are at L4 (PARTIAL SOLVE). You may complete 60-70% of the solution. Leave the final part for the child. If child insists, you may move to L5.',
+      };
+      modeContext += `\n\nMATH SCAFFOLDING: ${levelGuidance[mathLevel] || ''}`;
+    }
+
     // 9. Build messages for OpenAI
     let userContent;
     if (image) {
@@ -244,7 +334,7 @@ export default async function handler(req, res) {
       userContent = message;
     }
 
-    const systemPrompt = getSystemPrompt(grade, language, country, subject) + ragContext;
+    const systemPrompt = getSystemPrompt(grade, language, country, subject) + ragContext + modeContext;
 
     const messages = [
       { role: 'system', content: systemPrompt },
@@ -306,7 +396,9 @@ export default async function handler(req, res) {
       response: cleanResponse,
       credits_remaining: newBalance,
       session_id,
-      is_stuck: isStuck
+      is_stuck: isStuck,
+      tutoring_mode: detectedMode || 'default',
+      math_level: mathLevel || null
     });
 
   } catch (error) {
