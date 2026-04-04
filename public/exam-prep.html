@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#F9F6F3">
+  <title>Zeluu - Exam Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-cream: oklch(97.5% 0.004 60);
+      --color-warm-bg: oklch(98.8% 0.005 62);
+      --color-text-dark: oklch(15% 0.02 60);
+      --color-text-muted: oklch(50% 0.015 65);
+      --color-text-light: oklch(75% 0.01 65);
+      --color-border: oklch(92% 0.008 65);
+      --color-accent: oklch(55% 0.15 50);
+      --color-accent-dark: oklch(45% 0.18 48);
+      --color-accent-light: oklch(82% 0.1 55);
+      --color-success: oklch(65% 0.16 142);
+      --color-error: oklch(55% 0.2 25);
+      --color-warning: oklch(70% 0.15 80);
+      --color-surface: oklch(99% 0.003 60);
+      --font-display: 'Fraunces', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { min-height: 100vh; background: var(--color-surface); color: var(--color-text-dark); font-family: var(--font-body); line-height: 1.6; }
+
+    /* Nav */
+    .nav { background: var(--color-warm-bg); border-bottom: 1px solid var(--color-border); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--color-text-dark); font-family: var(--font-display); font-size: 20px; font-weight: 600; }
+    .nav-back { color: var(--color-accent); text-decoration: none; font-size: 14px; font-weight: 500; }
+
+    /* Container */
+    .container { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+
+    /* Setup Screen */
+    .setup-card { background: var(--color-warm-bg); border: 1px solid var(--color-border); border-radius: 16px; padding: 32px; }
+    .setup-card h1 { font-family: var(--font-display); font-size: 24px; margin-bottom: 4px; }
+    .setup-card p { color: var(--color-text-muted); font-size: 14px; margin-bottom: 24px; }
+
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-text-muted); margin-bottom: 6px; }
+    .form-group select, .form-group input { width: 100%; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: 10px; font-family: var(--font-body); font-size: 15px; background: var(--color-surface); color: var(--color-text-dark); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 24px; border-radius: 10px; font-family: var(--font-body); font-size: 15px; font-weight: 600; border: none; cursor: pointer; transition: all 0.2s; width: 100%; }
+    .btn-primary { background: var(--color-accent); color: white; }
+    .btn-primary:hover { background: var(--color-accent-dark); }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-secondary { background: var(--color-warm-bg); color: var(--color-accent); border: 1px solid var(--color-border); }
+    .btn-sm { padding: 8px 16px; font-size: 13px; width: auto; }
+
+    /* Exam Screen */
+    .exam-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--color-border); }
+    .exam-progress { font-size: 14px; color: var(--color-text-muted); }
+    .exam-timer { font-size: 16px; font-weight: 600; color: var(--color-accent); background: var(--color-warm-bg); padding: 6px 14px; border-radius: 8px; }
+    .exam-timer.warning { color: var(--color-error); }
+
+    .progress-bar { width: 100%; height: 6px; background: var(--color-border); border-radius: 3px; margin-bottom: 24px; }
+    .progress-fill { height: 100%; background: var(--color-accent); border-radius: 3px; transition: width 0.3s ease; }
+
+    .question-card { background: var(--color-warm-bg); border: 1px solid var(--color-border); border-radius: 16px; padding: 28px; margin-bottom: 20px; }
+    .question-number { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--color-accent); margin-bottom: 8px; }
+    .question-meta { display: flex; gap: 8px; margin-bottom: 12px; }
+    .badge { font-size: 11px; padding: 2px 8px; border-radius: 6px; font-weight: 600; }
+    .badge-topic { background: oklch(90% 0.05 250); color: oklch(40% 0.1 250); }
+    .badge-easy { background: oklch(90% 0.08 142); color: oklch(40% 0.12 142); }
+    .badge-medium { background: oklch(90% 0.08 80); color: oklch(40% 0.12 80); }
+    .badge-hard { background: oklch(90% 0.08 25); color: oklch(40% 0.12 25); }
+    .question-text { font-size: 17px; font-weight: 500; line-height: 1.5; margin-bottom: 20px; }
+
+    .options-list { display: flex; flex-direction: column; gap: 10px; }
+    .option-btn { display: flex; align-items: center; gap: 12px; padding: 14px 16px; background: var(--color-surface); border: 2px solid var(--color-border); border-radius: 12px; cursor: pointer; transition: all 0.15s; font-size: 15px; text-align: left; }
+    .option-btn:hover { border-color: var(--color-accent-light); background: oklch(97% 0.02 55); }
+    .option-btn.selected { border-color: var(--color-accent); background: oklch(95% 0.04 55); }
+    .option-btn.correct { border-color: var(--color-success); background: oklch(95% 0.06 142); }
+    .option-btn.incorrect { border-color: var(--color-error); background: oklch(95% 0.06 25); }
+    .option-letter { width: 28px; height: 28px; border-radius: 8px; background: var(--color-border); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; flex-shrink: 0; }
+    .option-btn.selected .option-letter { background: var(--color-accent); color: white; }
+
+    .short-answer-input { width: 100%; padding: 12px 16px; border: 2px solid var(--color-border); border-radius: 12px; font-size: 16px; font-family: var(--font-body); }
+    .short-answer-input:focus { outline: none; border-color: var(--color-accent); }
+
+    .nav-buttons { display: flex; gap: 12px; margin-top: 20px; }
+    .nav-buttons .btn { flex: 1; }
+
+    /* Results Screen */
+    .results-card { background: var(--color-warm-bg); border: 1px solid var(--color-border); border-radius: 16px; padding: 32px; text-align: center; margin-bottom: 24px; }
+    .score-circle { width: 140px; height: 140px; border-radius: 50%; margin: 0 auto 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: var(--font-display); }
+    .score-circle.excellent { background: oklch(92% 0.08 142); color: oklch(35% 0.15 142); }
+    .score-circle.good { background: oklch(92% 0.06 80); color: oklch(35% 0.12 80); }
+    .score-circle.needs-work { background: oklch(92% 0.06 25); color: oklch(35% 0.12 25); }
+    .score-pct { font-size: 36px; font-weight: 700; line-height: 1; }
+    .score-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+    .score-detail { font-size: 15px; color: var(--color-text-muted); margin-bottom: 8px; }
+
+    .topics-section { margin-top: 24px; text-align: left; }
+    .topics-section h3 { font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-text-muted); margin-bottom: 8px; }
+    .topic-tag { display: inline-block; padding: 4px 10px; border-radius: 8px; font-size: 13px; font-weight: 500; margin: 3px; }
+    .topic-weak { background: oklch(92% 0.06 25); color: oklch(40% 0.12 25); }
+    .topic-strong { background: oklch(92% 0.06 142); color: oklch(40% 0.12 142); }
+
+    .review-item { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 12px; padding: 20px; margin-bottom: 12px; text-align: left; }
+    .review-item.correct { border-left: 4px solid var(--color-success); }
+    .review-item.incorrect { border-left: 4px solid var(--color-error); }
+    .review-q { font-weight: 600; margin-bottom: 8px; }
+    .review-answer { font-size: 14px; margin-bottom: 4px; }
+    .review-explanation { font-size: 13px; color: var(--color-text-muted); margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--color-border); }
+
+    /* Loading */
+    .loading { text-align: center; padding: 60px 20px; }
+    .spinner { width: 40px; height: 40px; border: 3px solid var(--color-border); border-top-color: var(--color-accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* History Screen */
+    .history-card { background: var(--color-warm-bg); border: 1px solid var(--color-border); border-radius: 12px; padding: 16px; margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; }
+    .history-info h4 { font-size: 15px; margin-bottom: 2px; }
+    .history-info p { font-size: 13px; color: var(--color-text-muted); }
+    .history-score { font-family: var(--font-display); font-size: 22px; font-weight: 700; }
+
+    /* Tabs */
+    .tabs { display: flex; gap: 4px; background: var(--color-warm-bg); border-radius: 10px; padding: 4px; margin-bottom: 24px; border: 1px solid var(--color-border); }
+    .tab { flex: 1; padding: 8px; border-radius: 8px; text-align: center; font-size: 14px; font-weight: 500; cursor: pointer; color: var(--color-text-muted); transition: all 0.15s; border: none; background: none; }
+    .tab.active { background: white; color: var(--color-text-dark); box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+
+    @media (max-width: 480px) {
+      .form-row { grid-template-columns: 1fr; }
+      .container { padding: 16px; }
+      .setup-card, .question-card, .results-card { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="app.html" class="nav-brand">Zeluu</a>
+    <a href="app.html" class="nav-back">Back to Chat</a>
+  </nav>
+
+  <div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('new')">New Exam</button>
+      <button class="tab" onclick="showTab('history')">History</button>
+    </div>
+
+    <!-- TAB: New Exam Setup -->
+    <div id="tab-new">
+      <div id="screen-setup" class="setup-card">
+        <h1>Exam Prep</h1>
+        <p>Test your knowledge with AI-generated questions matched to your curriculum.</p>
+
+        <div class="form-group">
+          <label>Subject</label>
+          <select id="exam-subject">
+            <option value="math">Math</option>
+            <option value="science">Science</option>
+            <option value="english">English</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Topic (optional)</label>
+          <input type="text" id="exam-topic" placeholder="e.g. Fractions, Photosynthesis, Past tense...">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Difficulty</label>
+            <select id="exam-difficulty">
+              <option value="mixed">Mixed</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Questions</label>
+            <select id="exam-count">
+              <option value="5">5 questions</option>
+              <option value="10" selected>10 questions</option>
+              <option value="15">15 questions</option>
+              <option value="20">20 questions</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Time Limit</label>
+          <select id="exam-time">
+            <option value="">No limit</option>
+            <option value="300">5 minutes</option>
+            <option value="600">10 minutes</option>
+            <option value="900">15 minutes</option>
+            <option value="1200">20 minutes</option>
+            <option value="1800">30 minutes</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary" id="btn-start" onclick="startExam()">Generate Exam</button>
+      </div>
+
+      <!-- Loading -->
+      <div id="screen-loading" class="loading" style="display:none">
+        <div class="spinner"></div>
+        <p style="font-weight: 600;">Generating your exam...</p>
+        <p style="color: var(--color-text-muted); font-size: 14px; margin-top: 4px;">Creating questions matched to your grade and curriculum</p>
+      </div>
+
+      <!-- Exam in Progress -->
+      <div id="screen-exam" style="display:none">
+        <div class="exam-header">
+          <span class="exam-progress" id="exam-progress">Question 1 of 10</span>
+          <span class="exam-timer" id="exam-timer" style="display:none">10:00</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+        <div id="question-area"></div>
+        <div class="nav-buttons">
+          <button class="btn btn-secondary" id="btn-prev" onclick="prevQuestion()" disabled>Previous</button>
+          <button class="btn btn-primary" id="btn-next" onclick="nextQuestion()">Next</button>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div id="screen-results" style="display:none"></div>
+    </div>
+
+    <!-- TAB: History -->
+    <div id="tab-history" style="display:none">
+      <div id="history-area">
+        <div class="loading"><div class="spinner"></div><p>Loading history...</p></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = window.location.origin;
+    let examState = {
+      examId: null, attemptId: null, questions: [],
+      answers: {}, currentIndex: 0, timeLimit: null,
+      startTime: null, timerInterval: null, questionStartTimes: {}
+    };
+
+    // Auth helpers
+    function getAuthHeaders() {
+      const childToken = localStorage.getItem('zeluu_child_token');
+      const supaToken = localStorage.getItem('sb-gstjvjynkdvqncjyybwm-auth-token');
+      if (childToken) return { 'Authorization': `Bearer ${childToken}`, 'Content-Type': 'application/json' };
+      if (supaToken) {
+        try {
+          const parsed = JSON.parse(supaToken);
+          return { 'Authorization': `Bearer ${parsed.access_token}`, 'Content-Type': 'application/json' };
+        } catch (e) {}
+      }
+      return { 'Content-Type': 'application/json' };
+    }
+
+    function getChildId() {
+      return localStorage.getItem('zeluu_child_id') || null;
+    }
+
+    // Tab switching
+    function showTab(tab) {
+      document.querySelectorAll('.tab').forEach((t, i) => {
+        t.classList.toggle('active', (tab === 'new' && i === 0) || (tab === 'history' && i === 1));
+      });
+      document.getElementById('tab-new').style.display = tab === 'new' ? '' : 'none';
+      document.getElementById('tab-history').style.display = tab === 'history' ? '' : 'none';
+      if (tab === 'history') loadHistory();
+    }
+
+    // Start Exam
+    async function startExam() {
+      const childId = getChildId();
+      if (!childId) { alert('Please log in as a child first.'); return; }
+
+      const subject = document.getElementById('exam-subject').value;
+      const topic = document.getElementById('exam-topic').value || null;
+      const difficulty = document.getElementById('exam-difficulty').value;
+      const questionCount = parseInt(document.getElementById('exam-count').value);
+      const timeLimit = document.getElementById('exam-time').value ? parseInt(document.getElementById('exam-time').value) : null;
+
+      document.getElementById('screen-setup').style.display = 'none';
+      document.getElementById('screen-loading').style.display = '';
+
+      try {
+        const res = await fetch(`${API_BASE}/api/exams/generate`, {
+          method: 'POST',
+          headers: getAuthHeaders(),
+          body: JSON.stringify({ child_id: childId, subject, topic, difficulty, question_count: questionCount, time_limit_seconds: timeLimit })
+        });
+
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Failed to generate exam');
+
+        examState = {
+          examId: data.exam_id, attemptId: data.attempt_id,
+          questions: data.questions, answers: {}, currentIndex: 0,
+          timeLimit, startTime: Date.now(), timerInterval: null, questionStartTimes: {}
+        };
+
+        document.getElementById('screen-loading').style.display = 'none';
+        document.getElementById('screen-exam').style.display = '';
+
+        if (timeLimit) startTimer(timeLimit);
+        renderQuestion();
+
+      } catch (err) {
+        alert(err.message);
+        document.getElementById('screen-loading').style.display = 'none';
+        document.getElementById('screen-setup').style.display = '';
+      }
+    }
+
+    // Timer
+    function startTimer(seconds) {
+      let remaining = seconds;
+      const timerEl = document.getElementById('exam-timer');
+      timerEl.style.display = '';
+
+      function updateDisplay() {
+        const m = Math.floor(remaining / 60);
+        const s = remaining % 60;
+        timerEl.textContent = `${m}:${s.toString().padStart(2, '0')}`;
+        timerEl.classList.toggle('warning', remaining <= 60);
+      }
+
+      updateDisplay();
+      examState.timerInterval = setInterval(() => {
+        remaining--;
+        if (remaining <= 0) {
+          clearInterval(examState.timerInterval);
+          timerEl.textContent = '0:00';
+          submitExam(true);
+          return;
+        }
+        updateDisplay();
+      }, 1000);
+    }
+
+    // Render current question
+    function renderQuestion() {
+      const q = examState.questions[examState.currentIndex];
+      const total = examState.questions.length;
+      const idx = examState.currentIndex;
+
+      document.getElementById('exam-progress').textContent = `Question ${idx + 1} of ${total}`;
+      document.getElementById('progress-fill').style.width = `${((idx + 1) / total) * 100}%`;
+      document.getElementById('btn-prev').disabled = idx === 0;
+      document.getElementById('btn-next').textContent = idx === total - 1 ? 'Submit Exam' : 'Next';
+
+      // Track time per question
+      examState.questionStartTimes[q.id] = Date.now();
+
+      const diffClass = q.difficulty === 'easy' ? 'badge-easy' : q.difficulty === 'hard' ? 'badge-hard' : 'badge-medium';
+
+      let optionsHTML = '';
+      if (q.question_type === 'multiple_choice' && q.options) {
+        const letters = ['A', 'B', 'C', 'D'];
+        optionsHTML = '<div class="options-list">' + q.options.map((opt, i) => {
+          const selected = examState.answers[q.id] === letters[i] ? 'selected' : '';
+          const optText = opt.replace(/^[A-D]\)\s*/, '');
+          return `<button class="option-btn ${selected}" onclick="selectOption('${q.id}', '${letters[i]}', this)">
+            <span class="option-letter">${letters[i]}</span>
+            <span>${optText}</span>
+          </button>`;
+        }).join('') + '</div>';
+      } else if (q.question_type === 'true_false') {
+        optionsHTML = '<div class="options-list">' +
+          ['True', 'False'].map(v => {
+            const selected = examState.answers[q.id] === v ? 'selected' : '';
+            return `<button class="option-btn ${selected}" onclick="selectOption('${q.id}', '${v}', this)">
+              <span class="option-letter">${v.charAt(0)}</span>
+              <span>${v}</span>
+            </button>`;
+          }).join('') + '</div>';
+      } else {
+        const val = examState.answers[q.id] || '';
+        optionsHTML = `<input type="text" class="short-answer-input" placeholder="Type your answer..."
+          value="${val}" oninput="examState.answers['${q.id}'] = this.value">`;
+      }
+
+      document.getElementById('question-area').innerHTML = `
+        <div class="question-card">
+          <div class="question-number">Question ${idx + 1}</div>
+          <div class="question-meta">
+            ${q.topic ? `<span class="badge badge-topic">${q.topic}</span>` : ''}
+            <span class="badge ${diffClass}">${q.difficulty}</span>
+          </div>
+          <div class="question-text">${q.question_text}</div>
+          ${optionsHTML}
+        </div>
+      `;
+    }
+
+    function selectOption(questionId, value, el) {
+      examState.answers[questionId] = value;
+      el.parentElement.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+      el.classList.add('selected');
+    }
+
+    function prevQuestion() {
+      if (examState.currentIndex > 0) { examState.currentIndex--; renderQuestion(); }
+    }
+
+    function nextQuestion() {
+      if (examState.currentIndex < examState.questions.length - 1) {
+        examState.currentIndex++;
+        renderQuestion();
+      } else {
+        // Check unanswered
+        const unanswered = examState.questions.filter(q => !examState.answers[q.id]);
+        if (unanswered.length > 0) {
+          if (!confirm(`You have ${unanswered.length} unanswered question${unanswered.length > 1 ? 's' : ''}. Submit anyway?`)) return;
+        }
+        submitExam(false);
+      }
+    }
+
+    // Submit exam
+    async function submitExam(timedOut) {
+      if (examState.timerInterval) clearInterval(examState.timerInterval);
+
+      const answers = examState.questions.map(q => {
+        const startTime = examState.questionStartTimes[q.id] || examState.startTime;
+        return {
+          question_id: q.id,
+          child_answer: examState.answers[q.id] || '',
+          time_spent_seconds: Math.round((Date.now() - startTime) / 1000)
+        };
+      });
+
+      document.getElementById('screen-exam').style.display = 'none';
+      document.getElementById('screen-loading').style.display = '';
+      document.querySelector('#screen-loading p').textContent = timedOut ? 'Time\'s up! Scoring...' : 'Scoring your exam...';
+
+      try {
+        const res = await fetch(`${API_BASE}/api/exams/submit`, {
+          method: 'POST',
+          headers: getAuthHeaders(),
+          body: JSON.stringify({ attempt_id: examState.attemptId, answers })
+        });
+
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Failed to submit');
+
+        document.getElementById('screen-loading').style.display = 'none';
+        renderResults(data);
+
+      } catch (err) {
+        alert(err.message);
+        document.getElementById('screen-loading').style.display = 'none';
+        document.getElementById('screen-exam').style.display = '';
+      }
+    }
+
+    // Results
+    function renderResults(data) {
+      const pct = data.percentage;
+      const tier = pct >= 80 ? 'excellent' : pct >= 50 ? 'good' : 'needs-work';
+      const emoji = pct >= 80 ? '🌟' : pct >= 50 ? '👍' : '💪';
+      const message = pct >= 80 ? 'Excellent work!' : pct >= 50 ? 'Good effort!' : 'Keep practicing!';
+
+      const totalTime = data.time_spent_seconds;
+      const timeStr = totalTime ? `${Math.floor(totalTime / 60)}m ${totalTime % 60}s` : '';
+
+      let weakHTML = '';
+      if (data.weak_topics && data.weak_topics.length > 0) {
+        weakHTML = `<div class="topics-section"><h3>Needs Practice</h3>${data.weak_topics.map(t => `<span class="topic-tag topic-weak">${t}</span>`).join('')}</div>`;
+      }
+      let strongHTML = '';
+      if (data.strong_topics && data.strong_topics.length > 0) {
+        strongHTML = `<div class="topics-section"><h3>Strong Areas</h3>${data.strong_topics.map(t => `<span class="topic-tag topic-strong">${t}</span>`).join('')}</div>`;
+      }
+
+      let reviewHTML = '<h3 style="font-size: 16px; margin: 24px 0 16px;">Review Answers</h3>';
+      for (const r of data.results) {
+        const cls = r.is_correct ? 'correct' : 'incorrect';
+        const icon = r.is_correct ? '✓' : '✗';
+        reviewHTML += `
+          <div class="review-item ${cls}">
+            <div class="review-q">${icon} Q${r.question_index}: ${r.question_text}</div>
+            <div class="review-answer">Your answer: <strong>${r.child_answer || '(no answer)'}</strong></div>
+            ${!r.is_correct ? `<div class="review-answer" style="color: var(--color-success);">Correct answer: <strong>${r.correct_answer}</strong></div>` : ''}
+            ${r.explanation ? `<div class="review-explanation">${r.explanation}</div>` : ''}
+          </div>
+        `;
+      }
+
+      document.getElementById('screen-results').innerHTML = `
+        <div class="results-card">
+          <div class="score-circle ${tier}">
+            <span class="score-pct">${Math.round(pct)}%</span>
+            <span class="score-label">${emoji} ${message}</span>
+          </div>
+          <div class="score-detail">${data.score} out of ${data.max_score} correct</div>
+          ${timeStr ? `<div class="score-detail">Time: ${timeStr}</div>` : ''}
+          ${strongHTML}
+          ${weakHTML}
+        </div>
+        ${reviewHTML}
+        <div style="display: flex; gap: 12px; margin-top: 24px;">
+          <button class="btn btn-secondary" onclick="resetExam()">New Exam</button>
+          <button class="btn btn-primary" onclick="practiceWeakTopics()">Practice Weak Topics</button>
+        </div>
+      `;
+      document.getElementById('screen-results').style.display = '';
+    }
+
+    function resetExam() {
+      document.getElementById('screen-results').style.display = 'none';
+      document.getElementById('screen-setup').style.display = '';
+      examState = { examId: null, attemptId: null, questions: [], answers: {}, currentIndex: 0, timeLimit: null, startTime: null, timerInterval: null, questionStartTimes: {} };
+    }
+
+    function practiceWeakTopics() {
+      // Pre-fill topic from weak areas and restart
+      const weakTopics = document.querySelectorAll('.topic-weak');
+      if (weakTopics.length > 0) {
+        document.getElementById('exam-topic').value = Array.from(weakTopics).map(t => t.textContent).join(', ');
+      }
+      resetExam();
+    }
+
+    // History
+    async function loadHistory() {
+      const childId = getChildId();
+      if (!childId) {
+        document.getElementById('history-area').innerHTML = '<p style="text-align:center; color: var(--color-text-muted);">Log in to see exam history.</p>';
+        return;
+      }
+
+      try {
+        const res = await fetch(`${API_BASE}/api/exams/history?child_id=${childId}`, { headers: getAuthHeaders() });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error);
+
+        if (data.total_exams === 0) {
+          document.getElementById('history-area').innerHTML = `
+            <div style="text-align: center; padding: 40px; color: var(--color-text-muted);">
+              <p style="font-size: 32px; margin-bottom: 8px;">📝</p>
+              <p>No exams taken yet. Start your first one!</p>
+            </div>`;
+          return;
+        }
+
+        let html = `
+          <div class="results-card" style="text-align: left; margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+              <h3 style="font-family: var(--font-display); font-size: 18px;">Overall Stats</h3>
+              <span style="font-family: var(--font-display); font-size: 24px; font-weight: 700; color: var(--color-accent);">${data.average_percentage}%</span>
+            </div>
+            <p style="font-size: 14px; color: var(--color-text-muted);">${data.total_exams} exam${data.total_exams > 1 ? 's' : ''} completed</p>
+            ${data.top_weak_topics.length > 0 ? `<div class="topics-section"><h3>Focus Areas</h3>${data.top_weak_topics.map(t => `<span class="topic-tag topic-weak">${t.topic} (${t.count}x)</span>`).join('')}</div>` : ''}
+            ${data.top_strong_topics.length > 0 ? `<div class="topics-section"><h3>Strengths</h3>${data.top_strong_topics.map(t => `<span class="topic-tag topic-strong">${t.topic} (${t.count}x)</span>`).join('')}</div>` : ''}
+          </div>
+        `;
+
+        for (const exam of data.exams) {
+          const pctColor = exam.percentage >= 80 ? 'var(--color-success)' : exam.percentage >= 50 ? 'var(--color-warning)' : 'var(--color-error)';
+          const date = new Date(exam.completed_at).toLocaleDateString();
+          html += `
+            <div class="history-card">
+              <div class="history-info">
+                <h4>${exam.subject.charAt(0).toUpperCase() + exam.subject.slice(1)} — ${exam.topic || 'General'}</h4>
+                <p>${date} · ${exam.score}/${exam.max_score} · ${exam.difficulty}</p>
+              </div>
+              <div class="history-score" style="color: ${pctColor}">${Math.round(exam.percentage)}%</div>
+            </div>
+          `;
+        }
+
+        document.getElementById('history-area').innerHTML = html;
+
+      } catch (err) {
+        document.getElementById('history-area').innerHTML = `<p style="text-align:center; color: var(--color-error);">Error loading history: ${err.message}</p>`;
+      }
+    }
+
+    // Init: check auth
+    if (!getChildId()) {
+      document.getElementById('screen-setup').innerHTML = `
+        <div style="text-align: center; padding: 40px;">
+          <p style="font-size: 32px; margin-bottom: 12px;">🔒</p>
+          <h2 style="font-family: var(--font-display); margin-bottom: 8px;">Login Required</h2>
+          <p style="color: var(--color-text-muted); margin-bottom: 20px;">Please log in from the main app first.</p>
+          <a href="app.html" class="btn btn-primary" style="text-decoration: none; display: inline-block; width: auto;">Go to App</a>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
