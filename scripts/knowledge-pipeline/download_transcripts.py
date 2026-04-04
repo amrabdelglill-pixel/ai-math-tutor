@@ -3,8 +3,10 @@
 Zeluu Knowledge Pipeline — Step 2: Download Transcripts
 ========================================================
 For each discovered channel, fetches videos using yt-dlp (no API key)
-and downloads their transcripts using yt-dlp subtitle extraction.
-Fully yt-dlp based — works on cloud IPs (GitHub Actions, AWS, etc).
+and downloads their transcripts using youtube-transcript-api.
+
+MUST RUN LOCALLY — YouTube blocks subtitle access from cloud IPs.
+Steps 3-5 (process, upload, embed) run on GitHub Actions.
 
 NO YouTube Data API key required.
 
@@ -82,174 +84,81 @@ def get_channel_videos(channel_id, max_results=20):
     return videos[:max_results]
 
 
-def _parse_json3_data(data):
-    """Parse json3 subtitle data (dict) into segments."""
-    segments = []
-    full_text = []
-
-    for event in data.get("events", []):
-        if "segs" not in event:
-            continue
-        start_ms = event.get("tStartMs", 0)
-        duration_ms = event.get("dDurationMs", 0)
-        text = "".join(seg.get("utf8", "") for seg in event["segs"]).strip()
-        if not text or text == "\n":
-            continue
-
-        segments.append({
-            "start": round(start_ms / 1000, 1),
-            "duration": round(duration_ms / 1000, 1),
-            "text": text,
-        })
-        full_text.append(text)
-
-    return segments, " ".join(full_text)
-
-
-def _parse_vtt_text(content):
-    """Parse WebVTT subtitle text into segments."""
-    import re
-    segments = []
-    full_text = []
-
-    # Match VTT cues: timestamp --> timestamp \n text
-    pattern = r"(\d{2}:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}\.\d{3})\s*\n(.+?)(?=\n\n|\Z)"
-    for match in re.finditer(pattern, content, re.DOTALL):
-        start_str, end_str, text = match.groups()
-        # Remove VTT tags like <c> </c> and alignment tags
-        text = re.sub(r"<[^>]+>", "", text).strip()
-        if not text:
-            continue
-
-        # Parse timestamp to seconds
-        parts = start_str.split(":")
-        start_secs = int(parts[0]) * 3600 + int(parts[1]) * 60 + float(parts[2])
-        end_parts = end_str.split(":")
-        end_secs = int(end_parts[0]) * 3600 + int(end_parts[1]) * 60 + float(end_parts[2])
-
-        segments.append({
-            "start": round(start_secs, 1),
-            "duration": round(end_secs - start_secs, 1),
-            "text": text,
-        })
-        full_text.append(text)
-
-    return segments, " ".join(full_text)
-
-
-def _fetch_url(url):
-    """Download content from a URL."""
-    import urllib.request
-    req = urllib.request.Request(url)
-    req.add_header("User-Agent", "Mozilla/5.0")
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return resp.read().decode("utf-8", errors="replace")
-
-
 def download_transcript(video_id, _debug_count=[0]):
-    """Download transcript using yt-dlp metadata + direct subtitle URL fetch.
+    """Download transcript using youtube-transcript-api.
 
-    Strategy:
-    1. Use yt-dlp --dump-json to get video metadata with subtitle URLs
-       (this works reliably from cloud IPs)
-    2. Download subtitle content directly from YouTube's CDN
-    3. Parse json3 or vtt format
+    This runs LOCALLY on a residential IP where YouTube does not block
+    subtitle requests.  The youtube-transcript-api library is the most
+    reliable way to fetch transcripts.
     """
-    url = f"https://www.youtube.com/watch?v={video_id}"
-
     try:
-        # Step 1: Get video metadata including subtitle info
-        result = subprocess.run(
-            ["yt-dlp", "--dump-json", "--skip-download", url],
-            capture_output=True, text=True, timeout=30,
-        )
+        from youtube_transcript_api import YouTubeTranscriptApi
 
-        if result.returncode != 0 or not result.stdout.strip():
-            _debug_count[0] += 1
-            if _debug_count[0] <= 3:
-                print(f"\n  DEBUG: yt-dlp metadata failed for {video_id}: {result.stderr[:200]}")
-            return None, None
+        ytt = YouTubeTranscriptApi()
 
-        meta = json.loads(result.stdout.strip())
-
-        # Step 2: Find best subtitle track
-        # Check manual subtitles first, then auto-generated
-        manual_subs = meta.get("subtitles") or {}
-        auto_subs = meta.get("automatic_captions") or {}
-
-        best_sub_url = None
+        # Try preferred languages first, then fall back to any available
+        transcript_obj = None
         detected_lang = None
         is_generated = False
-        preferred_formats = ["json3", "vtt", "srv1"]
 
-        # Priority 1: Manual subs in preferred languages
-        for lang in TRANSCRIPT_LANGUAGES:
-            if lang in manual_subs:
-                for fmt in preferred_formats:
-                    for entry in manual_subs[lang]:
-                        if entry.get("ext") == fmt:
-                            best_sub_url = entry["url"]
-                            detected_lang = lang
-                            is_generated = False
-                            break
-                    if best_sub_url:
-                        break
-            if best_sub_url:
-                break
+        try:
+            transcript_list = ytt.list(video_id)
 
-        # Priority 2: Auto-generated subs in preferred languages
-        if not best_sub_url:
+            # Priority 1: manual transcripts in preferred languages
             for lang in TRANSCRIPT_LANGUAGES:
-                if lang in auto_subs:
-                    for fmt in preferred_formats:
-                        for entry in auto_subs[lang]:
-                            if entry.get("ext") == fmt:
-                                best_sub_url = entry["url"]
-                                detected_lang = lang
-                                is_generated = True
-                                break
-                        if best_sub_url:
-                            break
-                if best_sub_url:
-                    break
-
-        # Priority 3: Any available subtitle
-        if not best_sub_url:
-            for source, gen_flag in [(manual_subs, False), (auto_subs, True)]:
-                for lang_code, tracks in source.items():
-                    for fmt in preferred_formats:
-                        for entry in tracks:
-                            if entry.get("ext") == fmt:
-                                best_sub_url = entry["url"]
-                                detected_lang = lang_code
-                                is_generated = gen_flag
-                                break
-                        if best_sub_url:
-                            break
-                    if best_sub_url:
+                for t in transcript_list:
+                    if t.language_code.startswith(lang) and not t.is_generated:
+                        transcript_obj = t
+                        detected_lang = t.language_code
+                        is_generated = False
                         break
-                if best_sub_url:
+                if transcript_obj:
                     break
 
-        if not best_sub_url:
+            # Priority 2: auto-generated in preferred languages
+            if not transcript_obj:
+                for lang in TRANSCRIPT_LANGUAGES:
+                    for t in transcript_list:
+                        if t.language_code.startswith(lang) and t.is_generated:
+                            transcript_obj = t
+                            detected_lang = t.language_code
+                            is_generated = True
+                            break
+                    if transcript_obj:
+                        break
+
+            # Priority 3: any available transcript
+            if not transcript_obj:
+                for t in transcript_list:
+                    transcript_obj = t
+                    detected_lang = t.language_code
+                    is_generated = t.is_generated
+                    break
+
+        except Exception as e:
             _debug_count[0] += 1
             if _debug_count[0] <= 3:
-                print(f"\n  DEBUG: No subs for {video_id}. Manual langs: {list(manual_subs.keys())[:5]}, Auto langs: {list(auto_subs.keys())[:5]}")
+                print(f"\n  DEBUG: list() failed for {video_id}: {e}")
             return None, None
 
-        # Step 3: Download subtitle content
-        sub_content = _fetch_url(best_sub_url)
+        if not transcript_obj:
+            return None, None
 
-        # Step 4: Parse subtitle content
-        # Detect format from URL or try json3 first
-        if "json3" in best_sub_url or "fmt=json3" in best_sub_url:
-            data = json.loads(sub_content)
-            segments, full_text = _parse_json3_data(data)
-        elif sub_content.strip().startswith("{"):
-            data = json.loads(sub_content)
-            segments, full_text = _parse_json3_data(data)
-        else:
-            segments, full_text = _parse_vtt_text(sub_content)
+        # Fetch the actual transcript snippets
+        snippets = transcript_obj.fetch()
+
+        segments = []
+        full_text_parts = []
+        for snippet in snippets:
+            text = snippet.text.strip()
+            if not text or text == "[Music]":
+                continue
+            segments.append({
+                "start": round(snippet.start, 1),
+                "duration": round(snippet.duration, 1),
+                "text": text,
+            })
+            full_text_parts.append(text)
 
         if not segments:
             return None, None
@@ -258,9 +167,12 @@ def download_transcript(video_id, _debug_count=[0]):
             "language": detected_lang,
             "is_generated": is_generated,
             "segments": segments,
-            "full_text": full_text,
+            "full_text": " ".join(full_text_parts),
         }, detected_lang
 
+    except ImportError:
+        print("ERROR: youtube-transcript-api not installed. Run: pip install youtube-transcript-api")
+        return None, None
     except Exception as e:
         _debug_count[0] += 1
         if _debug_count[0] <= 5:
