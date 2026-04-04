@@ -1053,7 +1053,7 @@
     let limitBlocked = false;
     async function checkCreditLimits() {
       try {
-        const data = await apiCall('/api/children/set-limits');
+        const data = await apiCall('/api/children', { method: 'POST', body: JSON.stringify({ action: 'check_limits' }) });
         if (!data) return;
         const infoEl = document.getElementById('limit-info');
         const blockedEl = document.getElementById('limit-blocked');
