@@ -287,10 +287,10 @@
       document.getElementById('screen-loading').style.display = '';
 
       try {
-        const res = await fetch(`${API_BASE}/api/exams/generate`, {
+        const res = await fetch(`${API_BASE}/api/exams`, {
           method: 'POST',
           headers: getAuthHeaders(),
-          body: JSON.stringify({ child_id: childId, subject, topic, difficulty, question_count: questionCount, time_limit_seconds: timeLimit })
+          body: JSON.stringify({ action: 'generate', child_id: childId, subject, topic, difficulty, question_count: questionCount, time_limit_seconds: timeLimit })
         });
 
         const data = await res.json();
@@ -438,10 +438,10 @@
       document.querySelector('#screen-loading p').textContent = timedOut ? 'Time\'s up! Scoring...' : 'Scoring your exam...';
 
       try {
-        const res = await fetch(`${API_BASE}/api/exams/submit`, {
+        const res = await fetch(`${API_BASE}/api/exams`, {
           method: 'POST',
           headers: getAuthHeaders(),
-          body: JSON.stringify({ attempt_id: examState.attemptId, answers })
+          body: JSON.stringify({ action: 'submit', attempt_id: examState.attemptId, answers })
         });
 
         const data = await res.json();
@@ -534,7 +534,11 @@
       }
 
       try {
-        const res = await fetch(`${API_BASE}/api/exams/history?child_id=${childId}`, { headers: getAuthHeaders() });
+        const res = await fetch(`${API_BASE}/api/exams`, {
+          method: 'POST',
+          headers: getAuthHeaders(),
+          body: JSON.stringify({ action: 'history', child_id: childId })
+        });
         const data = await res.json();
         if (!res.ok) throw new Error(data.error);
 
