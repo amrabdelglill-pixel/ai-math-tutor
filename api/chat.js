@@ -1,10 +1,77 @@
 import OpenAI from 'openai';
 import { createServerClient, getUser } from '../lib/supabase.js';
 import { getChildOrUser, getParentId } from '../lib/child-auth.js';
-import { getSystemPrompt, checkForBlockedContent, detectStuckLoop } from '../lib/prompts.js';
+import { getSystemPrompt, checkForBlockedContent, detectStuckLoop, COUNTRY_CODE_MAP } from '../lib/prompts.js';
 import { checkRateLimit, getClientIP, RATE_LIMITS } from '../lib/rate-limit.js';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// Reverse map: "UAE" -> "AE", "Egypt" -> "EG", etc.
+const COUNTRY_TO_ISO = Object.fromEntries(
+  Object.entries(COUNTRY_CODE_MAP).map(([iso, name]) => [name, iso])
+);
+
+/**
+ * RAG: Retrieve relevant teaching examples from the knowledge base.
+ * Embeds the student's question, queries Supabase pgvector for similar chunks.
+ */
+async function retrieveKnowledgeContext(supabase, question, { grade, country, subject }) {
+  try {
+    // Generate embedding for the student's question
+    const embeddingRes = await openai.embeddings.create({
+      model: 'text-embedding-3-small',
+      input: question,
+      dimensions: 1536,
+    });
+    const queryEmbedding = embeddingRes.data[0].embedding;
+
+    // Map country name to ISO code for knowledge base query
+    const countryISO = COUNTRY_TO_ISO[country] || country;
+
+    // Query Supabase for matching knowledge chunks
+    const { data: chunks, error } = await supabase.rpc('match_knowledge_chunks', {
+      query_embedding: queryEmbedding,
+      match_threshold: 0.65,
+      match_count: 3,
+      filter_countries: [countryISO],
+      filter_grades: [grade],
+    });
+
+    if (error || !chunks || chunks.length === 0) {
+      // Fallback: try without country filter (broader match)
+      const { data: fallbackChunks } = await supabase.rpc('match_knowledge_chunks', {
+        query_embedding: queryEmbedding,
+        match_threshold: 0.7,
+        match_count: 3,
+        filter_grades: [grade],
+      });
+      return fallbackChunks || [];
+    }
+
+    return chunks;
+  } catch (err) {
+    console.error('RAG retrieval error (non-fatal):', err.message);
+    return []; // Non-fatal — chat works without RAG
+  }
+}
+
+/**
+ * Build a RAG context block to inject into the system prompt.
+ */
+function buildRAGContext(chunks) {
+  if (!chunks || chunks.length === 0) return '';
+
+  const examples = chunks
+    .map((c, i) => `[Teaching Example ${i + 1} — ${c.language === 'ar' ? 'Arabic' : 'English'} source, topics: ${(c.topics || []).join(', ') || 'general'}]\n${c.text.substring(0, 800)}`)
+    .join('\n\n');
+
+  return `\n\nTEACHING REFERENCE MATERIAL (from top educational channels):
+Use these real teaching examples as inspiration for HOW to explain concepts. Adapt the style and approach, but use your own words. These show how experienced teachers explain similar topics to students at this grade level.
+
+${examples}
+
+Remember: Use these as STYLE and APPROACH references only. Always teach step-by-step in your own words.`;
+}
 
 export default async function handler(req, res) {
   // CORS
@@ -131,7 +198,16 @@ export default async function handler(req, res) {
         .eq('id', session_id);
     }
 
-    // 8. Build messages for OpenAI
+    // 8. RAG: Retrieve relevant teaching examples from knowledge base
+    const subject = session.subject || 'math'; // default to math
+    const ragChunks = await retrieveKnowledgeContext(supabase, message, {
+      grade,
+      country: COUNTRY_CODE_MAP[country] ? country : (COUNTRY_TO_ISO[country] || country),
+      subject,
+    });
+    const ragContext = buildRAGContext(ragChunks);
+
+    // 9. Build messages for OpenAI
     let userContent;
     if (image) {
       // Vision request with image
@@ -143,13 +219,15 @@ export default async function handler(req, res) {
       userContent = message;
     }
 
+    const systemPrompt = getSystemPrompt(grade, language, country) + ragContext;
+
     const messages = [
-      { role: 'system', content: getSystemPrompt(grade, language, country) },
+      { role: 'system', content: systemPrompt },
       ...(history || []).map(m => ({ role: m.role, content: m.content })),
       { role: 'user', content: userContent }
     ];
 
-    // 9. Call OpenAI
+    // 10. Call OpenAI
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages,
@@ -161,7 +239,7 @@ export default async function handler(req, res) {
     const tokensUsed = completion.usage?.total_tokens || 0;
     const cleanResponse = aiResponse.replace('[STUCK_LOOP]', '').trim();
 
-    // 10. Deduct credit — 1 credit per 5 text msgs, 1 per 2 image msgs
+    // 11. Deduct credit — 1 credit per 5 text msgs, 1 per 2 image msgs
     const msgsPerCredit = image ? 2 : 5;
     const { count: msgCount } = await supabase
       .from('messages')
@@ -178,13 +256,13 @@ export default async function handler(req, res) {
       newBalance = bal;
     }
 
-    // 11. Save messages
+    // 12. Save messages
     await supabase.from('messages').insert([
       { session_id, role: 'user', content: message },
       { session_id, role: 'assistant', content: cleanResponse, tokens_used: tokensUsed }
     ]);
 
-    // 12. Low credit notification
+    // 13. Low credit notification
     if (newBalance !== null && newBalance <= 5 && newBalance > 0) {
       await supabase.from('notifications').insert({
         parent_id: parentId,

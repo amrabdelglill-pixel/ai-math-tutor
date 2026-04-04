@@ -1,0 +1,17 @@
+# Zeluu Knowledge Pipeline — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# YouTube API
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+youtube-transcript-api>=0.6.1
+
+# Google Drive API (uses same google-api-python-client)
+
+# OpenAI embeddings
+openai>=1.12.0
+
+# Supabase client
+supabase>=2.3.0
