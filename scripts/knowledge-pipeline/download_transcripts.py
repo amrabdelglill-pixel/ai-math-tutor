@@ -16,8 +16,6 @@ import os
 import json
 import sys
 import time
-import glob
-import tempfile
 import subprocess
 from config import (
     MAX_VIDEOS_PER_CHANNEL,
@@ -84,11 +82,8 @@ def get_channel_videos(channel_id, max_results=20):
     return videos[:max_results]
 
 
-def _parse_json3(filepath):
-    """Parse yt-dlp json3 subtitle format into segments."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
+def _parse_json3_data(data):
+    """Parse json3 subtitle data (dict) into segments."""
     segments = []
     full_text = []
 
@@ -111,14 +106,11 @@ def _parse_json3(filepath):
     return segments, " ".join(full_text)
 
 
-def _parse_vtt(filepath):
-    """Parse WebVTT subtitle format into segments (fallback)."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
-
+def _parse_vtt_text(content):
+    """Parse WebVTT subtitle text into segments."""
+    import re
     segments = []
     full_text = []
-    import re
 
     # Match VTT cues: timestamp --> timestamp \n text
     pattern = r"(\d{2}:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}\.\d{3})\s*\n(.+?)(?=\n\n|\Z)"
@@ -145,86 +137,135 @@ def _parse_vtt(filepath):
     return segments, " ".join(full_text)
 
 
-def download_transcript(video_id):
-    """Download transcript using yt-dlp subtitles (works on cloud IPs unlike youtube-transcript-api)."""
-    lang_str = ",".join(TRANSCRIPT_LANGUAGES)
+def _fetch_url(url):
+    """Download content from a URL."""
+    import urllib.request
+    req = urllib.request.Request(url)
+    req.add_header("User-Agent", "Mozilla/5.0")
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return resp.read().decode("utf-8", errors="replace")
+
+
+def download_transcript(video_id, _debug_count=[0]):
+    """Download transcript using yt-dlp metadata + direct subtitle URL fetch.
+
+    Strategy:
+    1. Use yt-dlp --dump-json to get video metadata with subtitle URLs
+       (this works reliably from cloud IPs)
+    2. Download subtitle content directly from YouTube's CDN
+    3. Parse json3 or vtt format
+    """
     url = f"https://www.youtube.com/watch?v={video_id}"
 
-    with tempfile.TemporaryDirectory() as tmpdir:
-        output_tmpl = os.path.join(tmpdir, "%(id)s")
-
-        # Download both manual and auto-generated subs in preferred languages
+    try:
+        # Step 1: Get video metadata including subtitle info
         result = subprocess.run(
-            [
-                "yt-dlp",
-                "--write-sub", "--write-auto-sub",
-                "--sub-lang", lang_str,
-                "--sub-format", "json3",
-                "--skip-download",
-                "--no-warnings",
-                "-o", output_tmpl,
-                url,
-            ],
-            capture_output=True, text=True, timeout=60,
+            ["yt-dlp", "--dump-json", "--skip-download", url],
+            capture_output=True, text=True, timeout=30,
         )
 
-        # Find downloaded subtitle files (json3 or vtt fallback)
-        sub_files = glob.glob(os.path.join(tmpdir, f"{video_id}*"))
-        sub_files = [f for f in sub_files if f.endswith((".json3", ".vtt", ".srt"))]
-
-        if not sub_files:
+        if result.returncode != 0 or not result.stdout.strip():
+            _debug_count[0] += 1
+            if _debug_count[0] <= 3:
+                print(f"\n  DEBUG: yt-dlp metadata failed for {video_id}: {result.stderr[:200]}")
             return None, None
 
-        # Pick best subtitle file: prefer preferred languages in order (ar > en > fr)
-        best_file = None
+        meta = json.loads(result.stdout.strip())
+
+        # Step 2: Find best subtitle track
+        # Check manual subtitles first, then auto-generated
+        manual_subs = meta.get("subtitles") or {}
+        auto_subs = meta.get("automatic_captions") or {}
+
+        best_sub_url = None
         detected_lang = None
         is_generated = False
+        preferred_formats = ["json3", "vtt", "srv1"]
 
+        # Priority 1: Manual subs in preferred languages
         for lang in TRANSCRIPT_LANGUAGES:
-            # Prefer manual subs (no "auto" in filename) over auto-generated
-            manual = [f for f in sub_files if f".{lang}." in f and ".auto." not in os.path.basename(f)]
-            auto = [f for f in sub_files if f".{lang}." in f and ".auto." in os.path.basename(f)]
-            if manual:
-                best_file = manual[0]
-                detected_lang = lang
-                is_generated = False
+            if lang in manual_subs:
+                for fmt in preferred_formats:
+                    for entry in manual_subs[lang]:
+                        if entry.get("ext") == fmt:
+                            best_sub_url = entry["url"]
+                            detected_lang = lang
+                            is_generated = False
+                            break
+                    if best_sub_url:
+                        break
+            if best_sub_url:
                 break
-            elif auto:
-                best_file = auto[0]
-                detected_lang = lang
-                is_generated = True
-                break
 
-        # Fallback: any available subtitle file
-        if not best_file:
-            best_file = sub_files[0]
-            basename = os.path.basename(best_file)
-            parts = basename.split(".")
-            detected_lang = parts[1] if len(parts) >= 3 else "unknown"
-            is_generated = ".auto." in basename
+        # Priority 2: Auto-generated subs in preferred languages
+        if not best_sub_url:
+            for lang in TRANSCRIPT_LANGUAGES:
+                if lang in auto_subs:
+                    for fmt in preferred_formats:
+                        for entry in auto_subs[lang]:
+                            if entry.get("ext") == fmt:
+                                best_sub_url = entry["url"]
+                                detected_lang = lang
+                                is_generated = True
+                                break
+                        if best_sub_url:
+                            break
+                if best_sub_url:
+                    break
 
-        # Parse subtitle file
-        try:
-            if best_file.endswith(".json3"):
-                segments, full_text = _parse_json3(best_file)
-            elif best_file.endswith(".vtt"):
-                segments, full_text = _parse_vtt(best_file)
-            else:
-                return None, None
+        # Priority 3: Any available subtitle
+        if not best_sub_url:
+            for source, gen_flag in [(manual_subs, False), (auto_subs, True)]:
+                for lang_code, tracks in source.items():
+                    for fmt in preferred_formats:
+                        for entry in tracks:
+                            if entry.get("ext") == fmt:
+                                best_sub_url = entry["url"]
+                                detected_lang = lang_code
+                                is_generated = gen_flag
+                                break
+                        if best_sub_url:
+                            break
+                    if best_sub_url:
+                        break
+                if best_sub_url:
+                    break
 
-            if not segments:
-                return None, None
-
-            return {
-                "language": detected_lang,
-                "is_generated": is_generated,
-                "segments": segments,
-                "full_text": full_text,
-            }, detected_lang
-
-        except Exception as e:
-            print(f"  WARNING: Failed to parse subtitle for {video_id}: {e}")
+        if not best_sub_url:
+            _debug_count[0] += 1
+            if _debug_count[0] <= 3:
+                print(f"\n  DEBUG: No subs for {video_id}. Manual langs: {list(manual_subs.keys())[:5]}, Auto langs: {list(auto_subs.keys())[:5]}")
             return None, None
+
+        # Step 3: Download subtitle content
+        sub_content = _fetch_url(best_sub_url)
+
+        # Step 4: Parse subtitle content
+        # Detect format from URL or try json3 first
+        if "json3" in best_sub_url or "fmt=json3" in best_sub_url:
+            data = json.loads(sub_content)
+            segments, full_text = _parse_json3_data(data)
+        elif sub_content.strip().startswith("{"):
+            data = json.loads(sub_content)
+            segments, full_text = _parse_json3_data(data)
+        else:
+            segments, full_text = _parse_vtt_text(sub_content)
+
+        if not segments:
+            return None, None
+
+        return {
+            "language": detected_lang,
+            "is_generated": is_generated,
+            "segments": segments,
+            "full_text": full_text,
+        }, detected_lang
+
+    except Exception as e:
+        _debug_count[0] += 1
+        if _debug_count[0] <= 5:
+            print(f"  WARNING: Transcript failed for {video_id}: {type(e).__name__}: {e}")
+        return None, None
 
 
 def load_progress():
