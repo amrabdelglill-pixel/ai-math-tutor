@@ -78,21 +78,93 @@ TRANSCRIPT_LANGUAGES = ["ar", "en", "fr"]
 # Seed channels — high-quality known educational channels to always include
 # These bypass discovery and go straight to transcript download
 SEED_CHANNELS = [
-    # Arabic Math/Science
-    {"channel_id": "UC2OJM3-_FMVBMdm2dHN4bVQ", "title": "Nafham - نفهم", "tags": ["math", "science", "EG", "all_grades"]},
-    {"channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ", "title": "Droos Online - دروس أونلاين", "tags": ["math", "science", "EG", "all_grades"]},
-    {"channel_id": "UCsJwnIaPPlEJvnRS8uy2Ewg", "title": "Khan Academy Arabic", "tags": ["math", "science", "all_countries", "all_grades"]},
-    {"channel_id": "UC7bmnKMxLfFxEi6KHXkEV9w", "title": "Mohamed El Deeb - محمد الديب", "tags": ["math", "EG", "all_grades"]},
-    {"channel_id": "UCaxGPRhFkSJRxpoHi-HBvmg", "title": "Mustafa Mounir - مصطفى منير", "tags": ["math", "EG", "all_grades"]},
-    # English Math/Science
-    {"channel_id": "UC4a-Gbdw7vOaccHmFo40b9g", "title": "Khan Academy", "tags": ["math", "science", "english", "all_countries", "all_grades"]},
-    {"channel_id": "UCYO_jab_esuFRV4b17AJtAw", "title": "3Blue1Brown", "tags": ["math", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCBnZ16ahKA2DZ_T5W0FPUXg", "title": "Organic Chemistry Tutor", "tags": ["math", "science", "all_countries", "all_grades"]},
+    # =========================================================================
+    #  MATH — Primary (Grades 1-6) — English
+    # =========================================================================
+    {"channel_id": "UC4a-Gbdw7vOaccHmFo40b9g", "title": "Khan Academy", "tags": ["math", "science", "all_countries", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
     {"channel_id": "UCr0EYcMdFU6_L0nCSGJw8hg", "title": "Math Antics", "tags": ["math", "all_countries", "1", "2", "3", "4", "5", "6"]},
+    {"channel_id": "UCPlwvN0w4qFSP1FllALB92w", "title": "Numberblocks", "tags": ["math", "all_countries", "UK", "1", "2", "3"]},
+    {"channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g", "title": "Homeschool Pop", "tags": ["math", "science", "english", "all_countries", "1", "2", "3", "4", "5"]},
+    {"channel_id": "UCtBtcQJ8_jsrjPzb8i1tOsA", "title": "Mashup Math", "tags": ["math", "all_countries", "3", "4", "5", "6", "7", "8", "9"]},
+
+    # =========================================================================
+    #  MATH — Middle (Grades 7-9) — English
+    # =========================================================================
+    {"channel_id": "UCYO_jab_esuFRV4b17AJtAw", "title": "3Blue1Brown", "tags": ["math", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCBnZ16ahKA2DZ_T5W0FPUXg", "title": "Organic Chemistry Tutor", "tags": ["math", "science", "all_countries", "7", "8", "9"]},
     {"channel_id": "UC4a0YlN1P7rcjGRjh0DCKIA", "title": "Professor Dave Explains", "tags": ["math", "science", "all_countries", "7", "8", "9"]},
-    # Arabic curriculum-specific
-    {"channel_id": "UCzp10JVJ3AScSDANBTgbvlg", "title": "Madrasati - مدرستي", "tags": ["math", "science", "KW", "all_grades"]},
-    {"channel_id": "UCd2R4lOnXC7aTRGNMbJPK3A", "title": "Abwaab - أبواب", "tags": ["math", "science", "JO", "all_grades"]},
+    {"channel_id": "UC9SPN6qaM0DB455-DrWAdpA", "title": "ProfRobBob", "tags": ["math", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCq0EGvLTyy-LLT1oUSO_0FQ", "title": "Eddie Woo", "tags": ["math", "all_countries", "7", "8", "9"]},
+
+    # =========================================================================
+    #  MATH — Arabic (all grades, GCC + MENA)
+    # =========================================================================
+    {"channel_id": "UCsJwnIaPPlEJvnRS8uy2Ewg", "title": "Khan Academy Arabic", "tags": ["math", "science", "BH", "KW", "JO", "AE", "EG", "LB", "MA", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UC2OJM3-_FMVBMdm2dHN4bVQ", "title": "Nafham - نفهم", "tags": ["math", "science", "EG", "BH", "KW", "AE", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCkw4JCwteGrDHIsyIIKo4tQ", "title": "Droos Online - دروس أونلاين", "tags": ["math", "science", "EG", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UC7bmnKMxLfFxEi6KHXkEV9w", "title": "Mohamed El Deeb - محمد الديب", "tags": ["math", "EG", "7", "8", "9"]},
+    {"channel_id": "UCaxGPRhFkSJRxpoHi-HBvmg", "title": "Mustafa Mounir - مصطفى منير", "tags": ["math", "EG", "7", "8", "9"]},
+    {"channel_id": "UC5g9WjBfj3vy_zTlyM_orAg", "title": "Mohamed Khaled Elbakary", "tags": ["math", "EG", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCRc03mAue8nIGLSMV4VWtbQ", "title": "Youssef Nejjari", "tags": ["math", "MA", "7", "8", "9"]},
+    {"channel_id": "UCqNApt8CUzeR92CKm4nYuMg", "title": "الأستاذ نورالدين", "tags": ["math", "science", "MA", "7", "8", "9"]},
+
+    # =========================================================================
+    #  MATH — Arabic curriculum-specific (GCC countries)
+    # =========================================================================
+    {"channel_id": "UCzp10JVJ3AScSDANBTgbvlg", "title": "Madrasati - مدرستي", "tags": ["math", "science", "KW", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCd2R4lOnXC7aTRGNMbJPK3A", "title": "Abwaab - أبواب", "tags": ["math", "science", "JO", "AE", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+
+    # =========================================================================
+    #  MATH — UK Curriculum (KS1/KS2/KS3)
+    # =========================================================================
+    {"channel_id": "UCqu9Na4YBSijiwdDj1KpyRg", "title": "Corbett Maths", "tags": ["math", "UK", "7", "8", "9"]},
+    {"channel_id": "UC4KN50fal7f45fx2DqG7ttg", "title": "BBC Teach", "tags": ["math", "science", "english", "UK", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+
+    # =========================================================================
+    #  SCIENCE — Primary (Grades 1-6) — English
+    # =========================================================================
+    {"channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA", "title": "SciShow Kids", "tags": ["science", "all_countries", "1", "2", "3", "4"]},
+    {"channel_id": "UCPwiAPYRT1JCna3GYf-vkCg", "title": "Colossal Cranium", "tags": ["science", "all_countries", "3", "4", "5", "6"]},
+    {"channel_id": "UCwyVRKfytvjSF6q5s7noKZQ", "title": "Mr DeMaio", "tags": ["science", "all_countries", "3", "4", "5", "6"]},
+    {"channel_id": "UCQJDFI9j8UeNoqra37p5OkA", "title": "Operation Ouch", "tags": ["science", "UK", "all_countries", "1", "2", "3", "4", "5"]},
+    {"channel_id": "UCxlJ45KjG4XVcQ_hd8j227A", "title": "Peekaboo Kidz", "tags": ["science", "all_countries", "3", "4", "5", "6"]},
+
+    # =========================================================================
+    #  SCIENCE — Middle (Grades 7-9) — English
+    # =========================================================================
+    {"channel_id": "UCX6b17PVsYBQ0ip5gyeme-Q", "title": "CrashCourse", "tags": ["science", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCsXVk37bltHxD1rDPwtNM8Q", "title": "Kurzgesagt", "tags": ["science", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCUHW94eEFW7hkUMVaZz4eDg", "title": "MinutePhysics", "tags": ["science", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA", "title": "Veritasium", "tags": ["science", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCZYTClx2T1of7BRZ86-8fow", "title": "SciShow", "tags": ["science", "all_countries", "7", "8", "9"]},
+    {"channel_id": "UCFhXFikryT4aFcLkLw2LBLA", "title": "NileRed", "tags": ["science", "all_countries", "7", "8", "9"]},
+
+    # =========================================================================
+    #  SCIENCE — UK Curriculum (KS3/GCSE)
+    # =========================================================================
+    {"channel_id": "UCaGEe4KXZrjou9kQx6ezG2w", "title": "Cognito", "tags": ["science", "math", "UK", "7", "8", "9"]},
+    {"channel_id": "UCqbOeHaAUXw9Il7sBVG3_bw", "title": "Freesciencelessons", "tags": ["science", "UK", "7", "8", "9"]},
+
+    # =========================================================================
+    #  ENGLISH — Primary (Grades 1-6)
+    # =========================================================================
+    {"channel_id": "UCGwA4GjY4nGMIYvaJiA0EGA", "title": "English SingSing", "tags": ["english", "all_countries", "1", "2", "3", "4"]},
+    {"channel_id": "UCVcQH8A634mauPrGbWs7QlQ", "title": "Jack Hartmann Kids Music", "tags": ["english", "all_countries", "1", "2", "3"]},
+
+    # =========================================================================
+    #  ENGLISH — Middle (Grades 7-9) + All ages
+    # =========================================================================
+    {"channel_id": "UCsooa4yRKGN_zEE8iknghZA", "title": "TED-Ed", "tags": ["english", "science", "all_countries", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCz4tgANd4yy8Oe0iXCdSWfA", "title": "English with Lucy", "tags": ["english", "UK", "all_countries", "7", "8", "9"]},
+
+    # =========================================================================
+    #  ENGLISH — Arabic speakers learning English (GCC focus)
+    # =========================================================================
+    {"channel_id": "UCnuOcLg6PsX201LmC1pS2zg", "title": "Let's Practice English | تعلم الانجليزية", "tags": ["english", "BH", "KW", "AE", "EG", "JO", "1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {"channel_id": "UCX5bU7eGKzlY-VyfcvA5EWA", "title": "Ms.Bassant Ahmed", "tags": ["english", "EG", "BH", "KW", "1", "2", "3", "4", "5", "6"]},
+    {"channel_id": "UCEc7koXK6HY4aOhw7u3N9Xg", "title": "Teacher Aya Online Tutor", "tags": ["english", "EG", "AE", "1", "2", "3", "4", "5", "6"]},
+    {"channel_id": "UClkf2zTnLqFJeYlrRpKnl3w", "title": "مستر انجليزى", "tags": ["english", "EG", "BH", "KW", "AE", "7", "8", "9"]},
+    {"channel_id": "UCr8ww_CG194ATkyyyYFcIjQ", "title": "عبقري لغة - Ahmed Tarek", "tags": ["english", "EG", "AE", "7", "8", "9"]},
 ]
 
 
