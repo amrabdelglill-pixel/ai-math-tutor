@@ -52,18 +52,41 @@ def test_ytdlp():
 
 
 def test_transcript_api():
-    """Test youtube-transcript-api works."""
+    """Test yt-dlp subtitle extraction works (replaces youtube-transcript-api)."""
     try:
-        from youtube_transcript_api import YouTubeTranscriptApi
-        # Test with a well-known video that has captions (Khan Academy intro)
-        ytt_api = YouTubeTranscriptApi()
-        transcripts = ytt_api.list("WUvTyaaNkzM")
-        available = list(transcripts)
-        print(f"  OK: Found {len(available)} transcript(s) for test video")
-        return True
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmpdir:
+            result = subprocess.run(
+                [
+                    "yt-dlp",
+                    "--write-sub", "--write-auto-sub",
+                    "--sub-lang", "en",
+                    "--sub-format", "json3",
+                    "--skip-download",
+                    "--no-warnings",
+                    "-o", os.path.join(tmpdir, "%(id)s"),
+                    "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+                ],
+                capture_output=True, text=True, timeout=30,
+            )
+            import glob
+            sub_files = glob.glob(os.path.join(tmpdir, "*.json3"))
+            if sub_files:
+                with open(sub_files[0], "r") as f:
+                    data = json.load(f)
+                events = [e for e in data.get("events", []) if "segs" in e]
+                print(f"  OK: yt-dlp extracted {len(events)} subtitle events for test video")
+                return True
+            else:
+                # Check for vtt fallback
+                vtt_files = glob.glob(os.path.join(tmpdir, "*.vtt"))
+                if vtt_files:
+                    print(f"  OK: yt-dlp extracted subtitles (VTT format) for test video")
+                    return True
+                print(f"  WARN: No subtitles found for test video (may not have captions)")
+                return True  # Not a hard fail
     except Exception as e:
-        print(f"  WARN: Transcript test inconclusive: {type(e).__name__}: {e}")
-        # Not a hard fail — the library is installed, specific videos may vary
+        print(f"  WARN: Subtitle test inconclusive: {type(e).__name__}: {e}")
         return True
 
 
@@ -182,7 +205,7 @@ if __name__ == "__main__":
     print("\n1. yt-dlp (YouTube data — no API key needed):")
     results["yt-dlp"] = test_ytdlp()
 
-    print("\n2. youtube-transcript-api:")
+    print("\n2. yt-dlp subtitle extraction:")
     results["transcripts"] = test_transcript_api()
 
     print("\n3. OpenAI API:")

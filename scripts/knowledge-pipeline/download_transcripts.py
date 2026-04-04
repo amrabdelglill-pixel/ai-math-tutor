@@ -3,7 +3,8 @@
 Zeluu Knowledge Pipeline — Step 2: Download Transcripts
 ========================================================
 For each discovered channel, fetches videos using yt-dlp (no API key)
-and downloads their transcripts using youtube-transcript-api.
+and downloads their transcripts using yt-dlp subtitle extraction.
+Fully yt-dlp based — works on cloud IPs (GitHub Actions, AWS, etc).
 
 NO YouTube Data API key required.
 
@@ -15,13 +16,9 @@ import os
 import json
 import sys
 import time
+import glob
+import tempfile
 import subprocess
-from youtube_transcript_api import (
-    YouTubeTranscriptApi,
-    TranscriptsDisabled,
-    NoTranscriptFound,
-    VideoUnavailable,
-)
 from config import (
     MAX_VIDEOS_PER_CHANNEL,
     MIN_VIDEO_DURATION_SECS,
@@ -87,69 +84,147 @@ def get_channel_videos(channel_id, max_results=20):
     return videos[:max_results]
 
 
+def _parse_json3(filepath):
+    """Parse yt-dlp json3 subtitle format into segments."""
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    segments = []
+    full_text = []
+
+    for event in data.get("events", []):
+        if "segs" not in event:
+            continue
+        start_ms = event.get("tStartMs", 0)
+        duration_ms = event.get("dDurationMs", 0)
+        text = "".join(seg.get("utf8", "") for seg in event["segs"]).strip()
+        if not text or text == "\n":
+            continue
+
+        segments.append({
+            "start": round(start_ms / 1000, 1),
+            "duration": round(duration_ms / 1000, 1),
+            "text": text,
+        })
+        full_text.append(text)
+
+    return segments, " ".join(full_text)
+
+
+def _parse_vtt(filepath):
+    """Parse WebVTT subtitle format into segments (fallback)."""
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    segments = []
+    full_text = []
+    import re
+
+    # Match VTT cues: timestamp --> timestamp \n text
+    pattern = r"(\d{2}:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}\.\d{3})\s*\n(.+?)(?=\n\n|\Z)"
+    for match in re.finditer(pattern, content, re.DOTALL):
+        start_str, end_str, text = match.groups()
+        # Remove VTT tags like <c> </c> and alignment tags
+        text = re.sub(r"<[^>]+>", "", text).strip()
+        if not text:
+            continue
+
+        # Parse timestamp to seconds
+        parts = start_str.split(":")
+        start_secs = int(parts[0]) * 3600 + int(parts[1]) * 60 + float(parts[2])
+        end_parts = end_str.split(":")
+        end_secs = int(end_parts[0]) * 3600 + int(end_parts[1]) * 60 + float(end_parts[2])
+
+        segments.append({
+            "start": round(start_secs, 1),
+            "duration": round(end_secs - start_secs, 1),
+            "text": text,
+        })
+        full_text.append(text)
+
+    return segments, " ".join(full_text)
+
+
 def download_transcript(video_id):
-    """Download transcript for a video. Accepts Arabic, English, French, or any available language."""
-    try:
-        ytt_api = YouTubeTranscriptApi()
-        transcript_list = ytt_api.list(video_id)
+    """Download transcript using yt-dlp subtitles (works on cloud IPs unlike youtube-transcript-api)."""
+    lang_str = ",".join(TRANSCRIPT_LANGUAGES)
+    url = f"https://www.youtube.com/watch?v={video_id}"
 
-        # Priority 1: manually created in preferred languages (ar > en > fr)
-        transcript = None
-        for lang in TRANSCRIPT_LANGUAGES:
-            try:
-                transcript = transcript_list.find_manually_created_transcript([lang])
-                break
-            except NoTranscriptFound:
-                pass
+    with tempfile.TemporaryDirectory() as tmpdir:
+        output_tmpl = os.path.join(tmpdir, "%(id)s")
 
-        # Priority 2: auto-generated in preferred languages
-        if not transcript:
-            for lang in TRANSCRIPT_LANGUAGES:
-                try:
-                    transcript = transcript_list.find_generated_transcript([lang])
-                    break
-                except NoTranscriptFound:
-                    pass
+        # Download both manual and auto-generated subs in preferred languages
+        result = subprocess.run(
+            [
+                "yt-dlp",
+                "--write-sub", "--write-auto-sub",
+                "--sub-lang", lang_str,
+                "--sub-format", "json3",
+                "--skip-download",
+                "--no-warnings",
+                "-o", output_tmpl,
+                url,
+            ],
+            capture_output=True, text=True, timeout=60,
+        )
 
-        # Priority 3: ANY available transcript (manual first, then auto)
-        if not transcript:
-            try:
-                all_transcripts = list(transcript_list)
-                manual = [t for t in all_transcripts if not t.is_generated]
-                auto = [t for t in all_transcripts if t.is_generated]
-                transcript = (manual or auto or [None])[0]
-            except Exception:
-                pass
+        # Find downloaded subtitle files (json3 or vtt fallback)
+        sub_files = glob.glob(os.path.join(tmpdir, f"{video_id}*"))
+        sub_files = [f for f in sub_files if f.endswith((".json3", ".vtt", ".srt"))]
 
-        if not transcript:
+        if not sub_files:
             return None, None
 
-        entries = transcript.fetch()
-        language = transcript.language_code
+        # Pick best subtitle file: prefer preferred languages in order (ar > en > fr)
+        best_file = None
+        detected_lang = None
+        is_generated = False
 
-        # Build full text and timestamped segments
-        segments = []
-        full_text = []
-        for entry in entries:
-            segments.append({
-                "start": round(entry.start, 1),
-                "duration": round(entry.duration, 1),
-                "text": entry.text,
-            })
-            full_text.append(entry.text)
+        for lang in TRANSCRIPT_LANGUAGES:
+            # Prefer manual subs (no "auto" in filename) over auto-generated
+            manual = [f for f in sub_files if f".{lang}." in f and ".auto." not in os.path.basename(f)]
+            auto = [f for f in sub_files if f".{lang}." in f and ".auto." in os.path.basename(f)]
+            if manual:
+                best_file = manual[0]
+                detected_lang = lang
+                is_generated = False
+                break
+            elif auto:
+                best_file = auto[0]
+                detected_lang = lang
+                is_generated = True
+                break
 
-        return {
-            "language": language,
-            "is_generated": transcript.is_generated,
-            "segments": segments,
-            "full_text": " ".join(full_text),
-        }, language
+        # Fallback: any available subtitle file
+        if not best_file:
+            best_file = sub_files[0]
+            basename = os.path.basename(best_file)
+            parts = basename.split(".")
+            detected_lang = parts[1] if len(parts) >= 3 else "unknown"
+            is_generated = ".auto." in basename
 
-    except (TranscriptsDisabled, VideoUnavailable):
-        return None, None
-    except Exception as e:
-        print(f"  WARNING: Transcript failed for {video_id}: {e}")
-        return None, None
+        # Parse subtitle file
+        try:
+            if best_file.endswith(".json3"):
+                segments, full_text = _parse_json3(best_file)
+            elif best_file.endswith(".vtt"):
+                segments, full_text = _parse_vtt(best_file)
+            else:
+                return None, None
+
+            if not segments:
+                return None, None
+
+            return {
+                "language": detected_lang,
+                "is_generated": is_generated,
+                "segments": segments,
+                "full_text": full_text,
+            }, detected_lang
+
+        except Exception as e:
+            print(f"  WARNING: Failed to parse subtitle for {video_id}: {e}")
+            return None, None
 
 
 def load_progress():

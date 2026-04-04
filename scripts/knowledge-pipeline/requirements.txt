@@ -1,9 +1,8 @@
 # Zeluu Knowledge Pipeline — Python Dependencies
 # Install: pip install -r requirements.txt
 
-# YouTube (no API key needed)
+# YouTube (no API key needed — yt-dlp handles both video listing and subtitles)
 yt-dlp>=2024.1.0
-youtube-transcript-api>=1.0.0
 
 # Google Drive API
 google-api-python-client>=2.100.0
