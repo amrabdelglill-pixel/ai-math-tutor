@@ -190,33 +190,11 @@ SEED_CHANNELS = [
     {"channel_id": "UCr0EYcMdFU6_L0nCSGJw8hg", "title": "Math Antics", "tags": ["math", "all_countries", "1", "2", "3", "4", "5", "6"]},
     {"channel_id": "UCtBtcQJ8_jsrjPzb8i1tOsA", "title": "Mashup Math", "tags": ["math", "all_countries", "3", "4", "5", "6", "7", "8", "9"]},
     {"channel_id": "UCfPyVJEBD7Di1YYjTdS2v8g", "title": "Homeschool Pop", "tags": ["math", "science", "english", "all_countries", "1", "2", "3", "4", "5"]},
-    {"channel_id": "UCYO_jab_esuFRV4b17AJtAw", "title": "3Blue1Brown", "tags": ["math", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCBnZ16ahKA2DZ_T5W0FPUXg", "title": "Organic Chemistry Tutor", "tags": ["math", "science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UC4a0YlN1P7rcjGRjh0DCKIA", "title": "Professor Dave Explains", "tags": ["math", "science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UC9SPN6qaM0DB455-DrWAdpA", "title": "ProfRobBob", "tags": ["math", "all_countries", "7", "8", "9"]},
     {"channel_id": "UCq0EGvLTyy-LLT1oUSO_0FQ", "title": "Eddie Woo", "tags": ["math", "all_countries", "7", "8", "9"]},
 
     # =========================================================================
-    #  7. ENGLISH-LANGUAGE GLOBAL — Science
+    #  7. ENGLISH-LANGUAGE GLOBAL — English subject (school-lesson only)
     # =========================================================================
-    {"channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA", "title": "SciShow Kids", "tags": ["science", "all_countries", "1", "2", "3", "4"]},
-    {"channel_id": "UCPwiAPYRT1JCna3GYf-vkCg", "title": "Colossal Cranium", "tags": ["science", "all_countries", "3", "4", "5", "6"]},
-    {"channel_id": "UCwyVRKfytvjSF6q5s7noKZQ", "title": "Mr DeMaio", "tags": ["science", "all_countries", "3", "4", "5", "6"]},
-    {"channel_id": "UCQJDFI9j8UeNoqra37p5OkA", "title": "Operation Ouch", "tags": ["science", "UK", "all_countries", "1", "2", "3", "4", "5"]},
-    {"channel_id": "UCxlJ45KjG4XVcQ_hd8j227A", "title": "Peekaboo Kidz", "tags": ["science", "all_countries", "3", "4", "5", "6"]},
-    {"channel_id": "UCX6b17PVsYBQ0ip5gyeme-Q", "title": "CrashCourse", "tags": ["science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCsXVk37bltHxD1rDPwtNM8Q", "title": "Kurzgesagt", "tags": ["science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCUHW94eEFW7hkUMVaZz4eDg", "title": "MinutePhysics", "tags": ["science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA", "title": "Veritasium", "tags": ["science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCZYTClx2T1of7BRZ86-8fow", "title": "SciShow", "tags": ["science", "all_countries", "7", "8", "9"]},
-    {"channel_id": "UCFhXFikryT4aFcLkLw2LBLA", "title": "NileRed", "tags": ["science", "all_countries", "7", "8", "9"]},
-
-    # =========================================================================
-    #  7. ENGLISH-LANGUAGE GLOBAL — English subject
-    # =========================================================================
-    {"channel_id": "UCGwA4GjY4nGMIYvaJiA0EGA", "title": "English SingSing", "tags": ["english", "all_countries", "1", "2", "3", "4"]},
-    {"channel_id": "UCVcQH8A634mauPrGbWs7QlQ", "title": "Jack Hartmann Kids Music", "tags": ["english", "all_countries", "1", "2", "3"]},
-    {"channel_id": "UCsooa4yRKGN_zEE8iknghZA", "title": "TED-Ed", "tags": ["english", "science", "all_countries", "5", "6", "7", "8", "9"]},
     {"channel_id": "UCz4tgANd4yy8Oe0iXCdSWfA", "title": "English with Lucy", "tags": ["english", "UK", "all_countries", "7", "8", "9"]},
 ]
 
