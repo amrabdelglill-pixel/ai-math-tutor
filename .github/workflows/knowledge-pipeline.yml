@@ -68,6 +68,106 @@ jobs:
           if [ -n "${{ github.event.inputs.step }}" ]; then
             python run_pipeline.py --step "${{ github.event.inputs.step }}"
           else
+            # Default: run from step 3 onwards (process, upload, embed).
+            # Steps 1-2 (discover + download) must run locally because
+            # YouTube blocks subtitle access from cloud provider IPs.
+            python run_pipeline.py --from 3
+          fi
+
+      - name: Upload artifacts (channels + chunks)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-output-${{ github.run_number }}
+          path: |
+            scripts/knowledge-pipeline/channels.json
+            scripts/knowledge-pipeline/chunks.json
+            scripts/knowledge-pipeline/download_progress.json
+          retention-days: 30
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Pipeline Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          if [ -f scripts/knowledge-pipeline/channels.json ]; then
+            CHANNELS=$(python3 -c "import json; print(len(json.load(open('scripts/knowledge-pipeline/channels.json'))))")
+            echo "- **Channels discovered**: $CHANNELS" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -f scripts/knowledge-pipeline/chunks.json ]; then
+            CHUNKS=$(python3 -c "import json; print(len(json.load(open('scripts/knowledge-pipeline/chunks.json'))))")
+            echo "- **Chunks processed**: $CHUNKS" >> $GITHUB_STEP_SUMMARY
+          fi
+name: Zeluu Knowledge Pipeline
+
+on:
+  schedule:
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      step:
+        description: 'Run specific step (leave empty for full pipeline)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - '1'
+          - '2'
+          - '3'
+          - '4a'
+          - '4b'
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+  SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/knowledge-pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/knowledge-pipeline/requirements.txt
+          pip install yt-dlp
+
+      - name: Verify yt-dlp
+        run: yt-dlp --version
+
+      - name: Write Google service account key
+        run: |
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > /tmp/service-account.json
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: /tmp/service-account.json
+
+      - name: Test API keys
+        working-directory: scripts/knowledge-pipeline
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: /tmp/service-account.json
+        run: python test_api_keys.py
+        continue-on-error: true
+
+      - name: Run pipeline
+        working-directory: scripts/knowledge-pipeline
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: /tmp/service-account.json
+        run: |
+          if [ -n "${{ github.event.inputs.step }}" ]; then
+            python run_pipeline.py --step "${{ github.event.inputs.step }}"
+          else
             python run_pipeline.py
           fi
 
