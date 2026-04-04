@@ -16,3 +16,7 @@ scripts/knowledge-pipeline/cookies.txt
 
 # OS files
 .DS_Store
+
+# Claude/AI assistant working files
+.claude/
+.impeccable.md
