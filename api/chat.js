@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 import { createServerClient, getUser } from '../lib/supabase.js';
 import { getChildOrUser, getParentId } from '../lib/child-auth.js';
-import { getSystemPrompt, checkForBlockedContent, detectStuckLoop, COUNTRY_CODE_MAP } from '../lib/prompts.js';
+import { getSystemPrompt, checkForBlockedContent, detectStuckLoop, detectChildDistress, detectPersonalInfo, COUNTRY_CODE_MAP } from '../lib/prompts.js';
 import { checkRateLimit, getClientIP, RATE_LIMITS } from '../lib/rate-limit.js';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -149,6 +149,31 @@ export default async function handler(req, res) {
       });
     }
 
+    // 3b. Check for child distress signals
+    const distressCheck = detectChildDistress(message);
+    if (distressCheck.detected) {
+      // Flag the message and notify parent immediately
+      await supabase.from('notifications').insert({
+        parent_id: parentId,
+        type: 'child_distress',
+        title: `${child_id ? 'Your child' : 'A child'} may need support`,
+        body: 'Your child expressed something in their tutoring session that may need your attention. Please review the session.',
+        session_id
+      });
+    }
+
+    // 3c. Check for personal information sharing
+    const piCheck = detectPersonalInfo(message);
+    if (piCheck.detected) {
+      await supabase.from('notifications').insert({
+        parent_id: parentId,
+        type: 'personal_info_shared',
+        title: 'Personal information detected',
+        body: 'Your child may have shared personal information during a tutoring session. Please review.',
+        session_id
+      });
+    }
+
     // 4. Check credit balance
     const balance = await getBalance(supabase, parentId);
     if (balance <= 0) {
@@ -237,7 +262,12 @@ export default async function handler(req, res) {
 
     const aiResponse = completion.choices[0].message.content;
     const tokensUsed = completion.usage?.total_tokens || 0;
-    const cleanResponse = aiResponse.replace('[STUCK_LOOP]', '').trim();
+    const cleanResponse = aiResponse
+      .replace('[STUCK_LOOP]', '')
+      .replace('[CHILD_DISTRESS]', '')
+      .replace('[PERSONAL_INFO]', '')
+      .replace('[OFF_TOPIC_REPEAT]', '')
+      .trim();
 
     // 11. Deduct credit — 1 credit per 5 text msgs, 1 per 2 image msgs
     const msgsPerCredit = image ? 2 : 5;
