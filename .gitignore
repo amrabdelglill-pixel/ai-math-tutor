@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+*.log
+
+# Pipeline local data (regenerated each run)
+scripts/knowledge-pipeline/channels.json
+scripts/knowledge-pipeline/chunks.json
+scripts/knowledge-pipeline/transcripts/
+scripts/knowledge-pipeline/download_progress.json
+scripts/knowledge-pipeline/service-account.json
+scripts/knowledge-pipeline/__pycache__/
+
+# OS files
+.DS_Store
