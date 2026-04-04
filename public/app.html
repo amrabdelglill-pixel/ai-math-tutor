@@ -360,7 +360,7 @@
       display: flex;
       align-items: flex-end;
       gap: 8px;
-      padding: 12px 16px;
+      padding: 10px 16px;
       background: var(--color-warm-bg);
       border-top: 1px solid var(--color-border);
       flex-shrink: 0;
@@ -368,15 +368,16 @@
 
     .chat-input-area textarea {
       flex: 1;
-      padding: 10px 12px;
+      padding: 12px 14px;
       border: 1px solid var(--color-border);
-      border-radius: 6px;
+      border-radius: 8px;
       background: var(--color-surface);
       color: var(--color-text-dark);
       font-family: var(--font-body);
-      font-size: 14px;
+      font-size: 15px;
       resize: none;
-      max-height: 100px;
+      min-height: 48px;
+      max-height: 120px;
       transition: border-color 0.2s;
     }
 
@@ -554,8 +555,109 @@
         overflow: hidden;
       }
 
+      /* ── Nav: tighter on mobile ── */
+      .nav {
+        padding: 8px 0;
+      }
+
+      .nav-brand {
+        font-size: 17px;
+        gap: 6px;
+      }
+
+      .zeluu-mascot {
+        width: 24px;
+        height: 24px;
+        border-radius: 5px;
+      }
+
+      .zeluu-beta {
+        font-size: 9px;
+        padding: 1px 5px;
+      }
+
+      .nav-links {
+        flex-wrap: nowrap;
+        gap: 6px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 0;
+      }
+
+      .nav-links a {
+        font-size: 12px;
+      }
+
+      .credit-badge {
+        font-size: 11px;
+        padding: 3px 8px;
+      }
+
+      #child-name-display {
+        font-size: 12px !important;
+      }
+
+      /* ── Subject Tabs: compact row ── */
+      .subject-tabs {
+        gap: 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 4px 0 0;
+        flex-wrap: nowrap;
+      }
+
+      .subject-tab {
+        font-size: 13px;
+        padding: 6px 10px;
+        white-space: nowrap;
+        flex-shrink: 0;
+        gap: 4px;
+      }
+
+      .subject-tab .tab-icon {
+        font-size: 14px;
+      }
+
+      /* ── Learning info bar: single compact row ── */
+      .learning-info-bar {
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 0;
+        gap: 6px;
+        font-size: 13px;
+      }
+
+      .learning-info-bar-left {
+        gap: 4px;
+        flex: 1;
+        min-width: 0;
+      }
+
+      .learning-info-bar-label {
+        display: none;
+      }
+
+      .learning-info-bar-name {
+        font-size: 13px;
+      }
+
+      .learning-info-bar-grade {
+        font-size: 12px;
+      }
+
+      .learning-info-bar-right {
+        flex-shrink: 0;
+        gap: 4px;
+      }
+
+      .learning-info-bar-right .btn {
+        font-size: 12px;
+        padding: 4px 8px;
+      }
+
+      /* ── Chat container: fill remaining height ── */
       .chat-container {
-        height: calc(100dvh - 180px);
+        height: calc(100dvh - 150px);
         border-radius: 0;
         border-left: none;
         border-right: none;
@@ -564,73 +666,43 @@
 
       .chat-bubble.user,
       .chat-bubble.assistant {
-        max-width: 95%;
+        max-width: 92%;
         font-size: 15px;
-      }
-
-      .nav-links {
-        flex-wrap: nowrap;
-        gap: 4px;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        padding: 0 8px;
-      }
-
-      .subject-tabs {
-        gap: 4px;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        padding: 8px;
-        flex-wrap: nowrap;
-      }
-
-      .subject-tab {
-        font-size: 13px;
-        padding: 6px 12px;
-        white-space: nowrap;
-        flex-shrink: 0;
-      }
-
-      .learning-info-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 8px 12px;
-        gap: 6px;
-      }
-
-      .learning-info-bar-right {
-        width: 100%;
-      }
-
-      .learning-info-bar-right .btn {
-        flex: 1;
-        font-size: 13px;
-        padding: 6px 10px;
-      }
-
-      .chat-input-area {
-        flex-wrap: nowrap;
-        padding: 8px 10px;
-        gap: 6px;
-        padding-bottom: max(8px, env(safe-area-inset-bottom));
-      }
-
-      .chat-input-area textarea {
-        flex: 1;
-        min-width: 0;
-        font-size: 16px; /* Prevents iOS zoom on focus */
-        padding: 8px 10px;
-      }
-
-      .chat-input-area .btn {
-        flex-shrink: 0;
-        padding: 8px 14px;
-        font-size: 14px;
       }
 
       .chat-messages {
         padding: 10px;
         gap: 8px;
+      }
+
+      /* ── Input area: bigger typing field, nudged up ── */
+      .chat-input-area {
+        flex-wrap: nowrap;
+        padding: 8px 10px;
+        gap: 6px;
+        padding-bottom: max(10px, env(safe-area-inset-bottom));
+      }
+
+      .chat-input-area textarea {
+        flex: 1;
+        min-width: 0;
+        min-height: 46px;
+        font-size: 16px; /* Prevents iOS zoom on focus */
+        padding: 10px 12px;
+        border-radius: 10px;
+      }
+
+      .chat-input-area .btn {
+        flex-shrink: 0;
+        padding: 10px 16px;
+        font-size: 15px;
+        border-radius: 10px;
+        min-height: 46px;
+      }
+
+      .chat-input-area .btn-secondary {
+        padding: 10px;
+        min-height: 46px;
       }
 
       header {

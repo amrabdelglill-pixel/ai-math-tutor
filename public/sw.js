@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zeluu-v4';
+const CACHE_NAME = 'zeluu-v5';
 const STATIC_ASSETS = [
   '/css/styles.css',
   '/js/supabase-config.js',
