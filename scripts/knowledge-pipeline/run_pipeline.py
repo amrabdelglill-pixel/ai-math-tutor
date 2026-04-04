@@ -135,14 +135,21 @@ def main():
     pipeline_start = time.time()
     results = {}
 
+    # Steps that are non-fatal — pipeline continues even if they fail.
+    # Step 4a (Google Drive upload) is backup only; 4b (Supabase) is critical.
+    NON_FATAL_STEPS = {"4a"}
+
     for step_id, step_name, module_name, func_name in steps:
         success = run_step(step_name, module_name, func_name)
         results[step_id] = success
         if not success:
-            print(f"\nPipeline stopped at step {step_id} due to error.")
-            if step_id in ("1", "2"):
-                print(f"Fix the issue and resume with: python run_pipeline.py --from {step_id}")
-            break
+            if step_id in NON_FATAL_STEPS:
+                print(f"\nWARNING: Step {step_id} failed but is non-fatal — continuing pipeline.")
+            else:
+                print(f"\nPipeline stopped at step {step_id} due to error.")
+                if step_id in ("1", "2"):
+                    print(f"Fix the issue and resume with: python run_pipeline.py --from {step_id}")
+                break
 
     # Summary
     total_time = time.time() - pipeline_start
