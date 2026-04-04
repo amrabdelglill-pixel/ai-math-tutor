@@ -813,6 +813,7 @@
     let attachedFile = null;
     let currentSubject = 'math';
 
+    let _initDone = false;
     async function switchSubject(subject) {
       if (currentSubject === subject && currentSession) return; // Already on this subject with active session
       currentSubject = subject;
@@ -831,7 +832,12 @@
       const name = currentChild ? currentChild.name : '';
       msgs.innerHTML = `<div class="chat-bubble assistant">${icons[subject]} Hi${name ? ' ' + name : ''}! Let's work on <strong>${subjectNames[subject]}</strong> together. What would you like to learn?</div>`;
       // Create session immediately so send button works
-      await createAndStartSession();
+      try {
+        await createAndStartSession(true);
+        console.log('[switchSubject] Session created for', subject, currentSession?.id);
+      } catch (e) {
+        console.error('[switchSubject] Failed to create session:', e);
+      }
     }
 
     // Decode JWT payload (base64 only, no signature verification on client)
@@ -869,6 +875,7 @@
 
       // Try to resume last session, or create a new one
       await resumeOrCreateSession();
+      _initDone = true;
       await loadCredits();
       checkCreditLimits();
     })();
@@ -931,20 +938,28 @@
       await createAndStartSession();
     }
 
-    async function createAndStartSession() {
-      const data = await apiCall('/api/sessions/create', {
-        method: 'POST',
-        body: JSON.stringify({ child_id: currentChild.id, topic: currentSubject + ' practice', subject: currentSubject })
-      });
+    async function createAndStartSession(skipWelcome) {
+      try {
+        const data = await apiCall('/api/sessions/create', {
+          method: 'POST',
+          body: JSON.stringify({ child_id: currentChild.id, topic: currentSubject + ' practice', subject: currentSubject })
+        });
 
-      if (data && data.session) {
-        currentSession = data.session;
-        // Clear initial bubble and show welcome message
-        document.getElementById('chat-messages').innerHTML = `
-          <div class="chat-bubble assistant">
-            Hi ${currentChild.name}! I'm Zeluu, your learning companion. Pick a subject above and ask me anything!
-          </div>
-        `;
+        if (data && data.session) {
+          currentSession = data.session;
+          // Only show generic welcome if caller didn't already set one (e.g. switchSubject sets its own)
+          if (!skipWelcome) {
+            document.getElementById('chat-messages').innerHTML = `
+              <div class="chat-bubble assistant">
+                Hi ${currentChild.name}! I'm Zeluu, your learning companion. Pick a subject above and ask me anything!
+              </div>
+            `;
+          }
+        } else {
+          console.error('[createAndStartSession] No session in response:', JSON.stringify(data));
+        }
+      } catch (e) {
+        console.error('[createAndStartSession] Error:', e);
       }
     }
 
@@ -952,10 +967,12 @@
       if (limitBlocked) { alert("You have reached your usage limit."); return; }
       const input = document.getElementById('chat-input');
       const message = input.value.trim();
-      if ((!message && !attachedFile) || !currentChild) return;
+      if (!message && !attachedFile) return;
+      if (!currentChild) { console.error('[sendMessage] No currentChild'); return; }
       // Safety net: create session if missing
       if (!currentSession) {
-        await createAndStartSession();
+        console.log('[sendMessage] No session, creating one for', currentSubject);
+        await createAndStartSession(true);
         if (!currentSession) { addBubble('Oops, could not start a session. Please reload the page.', 'assistant'); return; }
       }
 
