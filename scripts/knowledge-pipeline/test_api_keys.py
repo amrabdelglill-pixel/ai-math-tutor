@@ -56,7 +56,8 @@ def test_transcript_api():
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
         # Test with a well-known video that has captions (Khan Academy intro)
-        transcripts = YouTubeTranscriptApi.list_transcripts("WUvTyaaNkzM")
+        ytt_api = YouTubeTranscriptApi()
+        transcripts = ytt_api.list("WUvTyaaNkzM")
         available = list(transcripts)
         print(f"  OK: Found {len(available)} transcript(s) for test video")
         return True

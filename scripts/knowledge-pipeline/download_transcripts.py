@@ -16,8 +16,8 @@ import json
 import sys
 import time
 import subprocess
-from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api._errors import (
+from youtube_transcript_api import (
+    YouTubeTranscriptApi,
     TranscriptsDisabled,
     NoTranscriptFound,
     VideoUnavailable,
@@ -90,7 +90,8 @@ def get_channel_videos(channel_id, max_results=20):
 def download_transcript(video_id):
     """Download transcript for a video. Accepts Arabic, English, French, or any available language."""
     try:
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        ytt_api = YouTubeTranscriptApi()
+        transcript_list = ytt_api.list(video_id)
 
         # Priority 1: manually created in preferred languages (ar > en > fr)
         transcript = None
